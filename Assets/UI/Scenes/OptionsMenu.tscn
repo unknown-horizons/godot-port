@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/UI/Themes/MenuTheme.tres" type="Theme" id=1]
+[ext_resource path="res://Assets/UI/Scripts/Main/QuitGame.gd" type="Script" id=2]
+
+[node name="OptionsMenu" type="HBoxContainer"]
+margin_right = 1600.0
+margin_bottom = 124.0
+rect_min_size = Vector2( 1600, 900 )
+alignment = 1
+
+[node name="Buttons" type="VBoxContainer" parent="."]
+margin_left = 650.0
+margin_right = 950.0
+margin_bottom = 900.0
+alignment = 1
+
+[node name="Button" type="Button" parent="Buttons"]
+margin_top = 371.0
+margin_right = 300.0
+margin_bottom = 431.0
+rect_min_size = Vector2( 300, 60 )
+focus_neighbour_left = NodePath(".")
+focus_neighbour_top = NodePath(".")
+focus_neighbour_right = NodePath(".")
+focus_neighbour_bottom = NodePath("../LoadGameButton")
+theme = ExtResource( 1 )
+text = "TODO"
+
+[node name="HSeparator" type="HSeparator" parent="Buttons"]
+modulate = Color( 1, 1, 1, 0 )
+self_modulate = Color( 1, 1, 1, 0 )
+margin_top = 435.0
+margin_right = 300.0
+margin_bottom = 465.0
+rect_min_size = Vector2( 300, 30 )
+
+[node name="AcceptButton" type="Button" parent="Buttons"]
+margin_top = 469.0
+margin_right = 300.0
+margin_bottom = 529.0
+rect_min_size = Vector2( 300, 60 )
+focus_neighbour_left = NodePath(".")
+focus_neighbour_top = NodePath(".")
+focus_neighbour_right = NodePath(".")
+focus_neighbour_bottom = NodePath("../LoadGameButton")
+theme = ExtResource( 1 )
+text = "Accept"
+script = ExtResource( 2 )
+
