@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/UI/Scripts/ExitScene.gd" type="Script" id=1]
+[ext_resource path="res://Assets/UI/Themes/HUDTheme.tres" type="Theme" id=2]
+
+[node name="ExitScene" type="Node"]
+script = ExtResource( 1 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 1600, 900 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource( 2 )
+
+[node name="PanelContainer" type="PanelContainer" parent="CenterContainer"]
+margin_left = 583.0
+margin_top = 400.0
+margin_right = 1017.0
+margin_bottom = 500.0
+rect_min_size = Vector2( 100, 100 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/PanelContainer"]
+margin_right = 434.0
+margin_bottom = 100.0
+
+[node name="VSeparator" type="VSeparator" parent="CenterContainer/PanelContainer/HBoxContainer"]
+modulate = Color( 1, 1, 1, 0 )
+margin_top = 40.0
+margin_right = 20.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 20, 20 )
+size_flags_vertical = 6
+
+[node name="Label" type="Label" parent="CenterContainer/PanelContainer/HBoxContainer"]
+margin_left = 24.0
+margin_top = 31.0
+margin_right = 410.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 20, 20 )
+size_flags_vertical = 6
+text = "Game is exiting, please wait..."
+align = 1
+valign = 1
+
+[node name="VSeparator2" type="VSeparator" parent="CenterContainer/PanelContainer/HBoxContainer"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 414.0
+margin_top = 40.0
+margin_right = 434.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 20, 20 )
+size_flags_vertical = 6
+
