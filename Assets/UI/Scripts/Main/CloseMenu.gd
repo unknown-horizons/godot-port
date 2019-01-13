@@ -1,6 +1,6 @@
 extends Button
 
-var parent : VBoxContainer
+var parent # : VBoxContainer
 
 func _ready():
 	parent = get_parent()
