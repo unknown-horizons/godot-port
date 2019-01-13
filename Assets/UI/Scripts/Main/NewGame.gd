@@ -1,4 +1,4 @@
-extends Button
+extends BaseButton
 
 var scene = load("res://Assets/World/World.tscn") # : PackedScene
 
