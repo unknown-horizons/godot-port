@@ -3,8 +3,8 @@
 [ext_resource path="res://Assets/UI/Themes/MenuTheme.tres" type="Theme" id=1]
 [ext_resource path="res://Assets/UI/Scripts/Main/MainMenuUI.gd" type="Script" id=2]
 [ext_resource path="res://Assets/UI/Images/Background/MainMenu/wheel.png" type="Texture" id=3]
-[ext_resource path="res://Assets/UI/Images/Buttons/msg_button.png" type="Texture" id=4]
-[ext_resource path="res://Assets/UI/Images/Buttons/msg_button_h.png" type="Texture" id=5]
+[ext_resource path="res://Assets/UI/Images/Buttons/mainmenu_button_bg.png" type="Texture" id=4]
+[ext_resource path="res://Assets/UI/Images/Buttons/mainmenu_button_h.png" type="Texture" id=5]
 [ext_resource path="res://Assets/UI/Images/Buttons/msg_button_bw.png" type="Texture" id=6]
 [ext_resource path="res://Assets/UI/Icons/MainMenu/compass_bw.png" type="Texture" id=7]
 [ext_resource path="res://Assets/UI/Icons/MainMenu/load_bw.png" type="Texture" id=8]
@@ -36,6 +36,7 @@ size_flags_vertical = 3
 theme = ExtResource( 1 )
 alignment = 1
 script = ExtResource( 2 )
+_sections_unfolded = [ "Rect" ]
 
 [node name="MenuItems" type="CenterContainer" parent="." index="0"]
 
@@ -43,18 +44,18 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_right = 1500.0
+margin_left = 725.0
+margin_right = 775.0
 margin_bottom = 800.0
-rect_min_size = Vector2( 1500, 800 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
 mouse_default_cursor_shape = 0
-size_flags_horizontal = 5
-size_flags_vertical = 3
+size_flags_horizontal = 1
+size_flags_vertical = 1
 theme = ExtResource( 1 )
 use_top_left = false
-_sections_unfolded = [ "Rect" ]
+_sections_unfolded = [ "Rect", "Size Flags" ]
 
 [node name="Buttons" type="TextureRect" parent="MenuItems" index="0"]
 
@@ -62,10 +63,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 450.0
-margin_top = 100.0
-margin_right = 1050.0
-margin_bottom = 700.0
+margin_top = 375.0
+margin_right = 50.0
+margin_bottom = 425.0
+rect_min_size = Vector2( 50, 50 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 1
@@ -74,20 +75,22 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 theme = ExtResource( 1 )
 texture = ExtResource( 3 )
-stretch_mode = 0
+expand = true
+stretch_mode = 4
 _sections_unfolded = [ "Rect" ]
 
 [node name="NewGameButton" type="TextureButton" parent="MenuItems/Buttons" index="0"]
 
+editor/display_folded = true
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -32.0
-margin_top = -184.0
-margin_right = 32.0
-margin_bottom = -120.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = -50.0
+margin_top = -202.0
+margin_right = 50.0
+margin_bottom = -102.0
+rect_min_size = Vector2( 100, 100 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_neighbour_left = NodePath(".")
@@ -119,11 +122,11 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 8.0
-margin_top = 8.0
-margin_right = -8.0
-margin_bottom = -8.0
-rect_min_size = Vector2( 10, 10 )
+margin_left = 26.0
+margin_top = 26.0
+margin_right = -26.0
+margin_bottom = -26.0
+rect_min_size = Vector2( 48, 48 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -136,15 +139,16 @@ _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
 [node name="LoadGameButton" type="TextureButton" parent="MenuItems/Buttons" index="1"]
 
+editor/display_folded = true
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -138.0
-margin_top = -139.0
-margin_right = -74.0
-margin_bottom = -75.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = -158.0
+margin_top = -160.0
+margin_right = -58.0
+margin_bottom = -60.0
+rect_min_size = Vector2( 100, 100 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_neighbour_left = NodePath(".")
@@ -177,11 +181,11 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 8.0
-margin_top = 8.0
-margin_right = -8.0
-margin_bottom = -8.0
-rect_min_size = Vector2( 10, 10 )
+margin_left = 26.0
+margin_top = 26.0
+margin_right = -26.0
+margin_bottom = -26.0
+rect_min_size = Vector2( 48, 48 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -194,15 +198,16 @@ _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
 [node name="LogButton" type="TextureButton" parent="MenuItems/Buttons" index="2"]
 
+editor/display_folded = true
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -184.0
-margin_top = -32.0
-margin_right = -120.0
-margin_bottom = 32.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = -201.0
+margin_top = -51.0
+margin_right = -101.0
+margin_bottom = 49.0
+rect_min_size = Vector2( 100, 100 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_neighbour_left = NodePath(".")
@@ -235,11 +240,11 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 8.0
-margin_top = 8.0
-margin_right = -8.0
-margin_bottom = -8.0
-rect_min_size = Vector2( 10, 10 )
+margin_left = 26.0
+margin_top = 26.0
+margin_right = -26.0
+margin_bottom = -26.0
+rect_min_size = Vector2( 48, 48 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -252,15 +257,16 @@ _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
 [node name="EditorButton" type="TextureButton" parent="MenuItems/Buttons" index="3"]
 
+editor/display_folded = true
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -139.0
-margin_top = 76.0
-margin_right = -75.0
-margin_bottom = 140.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = -157.0
+margin_top = 57.0
+margin_right = -57.0
+margin_bottom = 157.0
+rect_min_size = Vector2( 100, 100 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_neighbour_left = NodePath(".")
@@ -293,11 +299,11 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 8.0
-margin_top = 8.0
-margin_right = -8.0
-margin_bottom = -8.0
-rect_min_size = Vector2( 10, 10 )
+margin_left = 26.0
+margin_top = 26.0
+margin_right = -24.0
+margin_bottom = -24.0
+rect_min_size = Vector2( 48, 48 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -310,15 +316,16 @@ _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
 [node name="ExitGameButton" type="TextureButton" parent="MenuItems/Buttons" index="4"]
 
+editor/display_folded = true
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -32.0
-margin_top = 120.0
-margin_right = 32.0
-margin_bottom = -184.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = -50.0
+margin_top = 102.0
+margin_right = 50.0
+margin_bottom = 202.0
+rect_min_size = Vector2( 100, 100 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_neighbour_left = NodePath(".")
@@ -351,11 +358,11 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 8.0
-margin_top = 8.0
-margin_right = -8.0
-margin_bottom = -8.0
-rect_min_size = Vector2( 10, 10 )
+margin_left = 26.0
+margin_top = 26.0
+margin_right = -26.0
+margin_bottom = -26.0
+rect_min_size = Vector2( 48, 48 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -368,15 +375,16 @@ _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
 [node name="HelpButton" type="TextureButton" parent="MenuItems/Buttons" index="5"]
 
+editor/display_folded = true
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = 77.0
-margin_top = 76.0
-margin_right = 141.0
-margin_bottom = 140.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = 59.0
+margin_top = 57.0
+margin_right = 159.0
+margin_bottom = 157.0
+rect_min_size = Vector2( 100, 100 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_neighbour_left = NodePath(".")
@@ -409,11 +417,11 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 8.0
-margin_top = 8.0
-margin_right = -8.0
-margin_bottom = -8.0
-rect_min_size = Vector2( 10, 10 )
+margin_left = 26.0
+margin_top = 26.0
+margin_right = -26.0
+margin_bottom = -26.0
+rect_min_size = Vector2( 48, 48 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -426,15 +434,16 @@ _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
 [node name="OptionsButton" type="TextureButton" parent="MenuItems/Buttons" index="6"]
 
+editor/display_folded = true
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = 120.0
-margin_top = -32.0
-margin_right = 184.0
-margin_bottom = 32.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = 103.0
+margin_top = -51.0
+margin_right = 203.0
+margin_bottom = 49.0
+rect_min_size = Vector2( 100, 100 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_neighbour_left = NodePath(".")
@@ -467,11 +476,11 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 8.0
-margin_top = 8.0
-margin_right = -8.0
-margin_bottom = -8.0
-rect_min_size = Vector2( 10, 10 )
+margin_left = 26.0
+margin_top = 26.0
+margin_right = -26.0
+margin_bottom = -26.0
+rect_min_size = Vector2( 48, 48 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -484,15 +493,16 @@ _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
 [node name="ConnectButton" type="TextureButton" parent="MenuItems/Buttons" index="7"]
 
+editor/display_folded = true
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = 76.0
-margin_top = -139.0
-margin_right = 140.0
-margin_bottom = -75.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = 60.0
+margin_top = -160.0
+margin_right = 160.0
+margin_bottom = -60.0
+rect_min_size = Vector2( 100, 100 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_neighbour_left = NodePath(".")
@@ -525,11 +535,11 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 8.0
-margin_top = 8.0
-margin_right = -8.0
-margin_bottom = -8.0
-rect_min_size = Vector2( 10, 10 )
+margin_left = 26.0
+margin_top = 26.0
+margin_right = -26.0
+margin_bottom = -26.0
+rect_min_size = Vector2( 48, 48 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
