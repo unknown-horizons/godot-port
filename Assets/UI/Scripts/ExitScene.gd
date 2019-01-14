@@ -1,5 +1,4 @@
 extends Node
 
-func _process(_delta):
+func _ready():
 	get_tree().quit()
-	pass

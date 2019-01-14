@@ -1,5 +1,7 @@
 extends BaseButton
 
+var _scene = preload("res://Assets/World/World.tscn") # : PackedScene
+
 func _pressed():
-	var _stfu = get_tree().change_scene("res://Assets/World/World.tscn")
-	pass
+	#warning-ignore:return_value_discarded
+	get_tree().change_scene_to(_scene)
