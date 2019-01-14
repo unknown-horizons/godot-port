@@ -1,7 +1,7 @@
 extends BaseButton
 
-var scene = load("res://Assets/UI/Scenes/ExitScene.tscn") # : PackedScene
+var _scene = preload("res://Assets/UI/Scenes/ExitScene.tscn") # : PackedScene
 
 func _pressed():
-	var _stfu = get_tree().change_scene_to(scene)
-	pass
+	#warning-ignore:return_value_discarded
+	get_tree().change_scene_to(_scene)
