@@ -1,4 +1,4 @@
-extends BaseButton
+extends Button
 
 var _parent # : VBoxContainer
 
