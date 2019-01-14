@@ -1,4 +1,4 @@
-extends BaseButton
+extends Button
 
 var _scene = preload("res://Assets/UI/Scenes/MainMenuScene.tscn") # : PackedScene
 

@@ -1,28 +1,21 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Assets/UI/Themes/MenuTheme.tres" type="Theme" id=1]
-[ext_resource path="res://Assets/UI/Images/Background/MainMenu/wheel.png" type="Texture" id=2]
-[ext_resource path="res://Assets/UI/Images/Buttons/msg_button.png" type="Texture" id=3]
-[ext_resource path="res://Assets/UI/Images/Buttons/msg_button_h.png" type="Texture" id=4]
-[ext_resource path="res://Assets/UI/Images/Buttons/msg_button_bw.png" type="Texture" id=5]
-[ext_resource path="res://Assets/UI/Scripts/Main/NewGame.gd" type="Script" id=6]
+[ext_resource path="res://Assets/UI/Scripts/Main/MainMenuUI.gd" type="Script" id=2]
+[ext_resource path="res://Assets/UI/Images/Background/MainMenu/wheel.png" type="Texture" id=3]
+[ext_resource path="res://Assets/UI/Images/Buttons/msg_button.png" type="Texture" id=4]
+[ext_resource path="res://Assets/UI/Images/Buttons/msg_button_h.png" type="Texture" id=5]
+[ext_resource path="res://Assets/UI/Images/Buttons/msg_button_bw.png" type="Texture" id=6]
 [ext_resource path="res://Assets/UI/Icons/MainMenu/compass_bw.png" type="Texture" id=7]
-[ext_resource path="res://Assets/UI/Scripts/Main/LoadGame.gd" type="Script" id=8]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/load_bw.png" type="Texture" id=9]
-[ext_resource path="res://Assets/UI/Scripts/Main/LogButton.gd" type="Script" id=10]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/log_bw.png" type="Texture" id=11]
-[ext_resource path="res://Assets/UI/Scripts/Main/EditorButton.gd" type="Script" id=12]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/editor_bw.png" type="Texture" id=13]
-[ext_resource path="res://Assets/UI/Scripts/Main/ExitGame.gd" type="Script" id=14]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/door_bw.png" type="Texture" id=15]
-[ext_resource path="res://Assets/UI/Scripts/Main/HelpButton.gd" type="Script" id=16]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/help_bw.png" type="Texture" id=17]
-[ext_resource path="res://Assets/UI/Scripts/Main/Options.gd" type="Script" id=18]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/gears_bw.png" type="Texture" id=19]
-[ext_resource path="res://Assets/UI/Scripts/Main/Connect.gd" type="Script" id=20]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/multiplayer_bw.png" type="Texture" id=21]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/load_bw.png" type="Texture" id=8]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/log_bw.png" type="Texture" id=9]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/editor_bw.png" type="Texture" id=10]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/door_bw.png" type="Texture" id=11]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/help_bw.png" type="Texture" id=12]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/gears_bw.png" type="Texture" id=13]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/multiplayer_bw.png" type="Texture" id=14]
 
-[node name="MainMenuUI" type="HBoxContainer"]
+[node name="MainMenuUI" type="HBoxContainer" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -42,6 +35,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource( 1 )
 alignment = 1
+script = ExtResource( 2 )
 
 [node name="MenuItems" type="CenterContainer" parent="." index="0"]
 
@@ -79,7 +73,7 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 theme = ExtResource( 1 )
-texture = ExtResource( 2 )
+texture = ExtResource( 3 )
 stretch_mode = 0
 _sections_unfolded = [ "Rect" ]
 
@@ -110,12 +104,14 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 4 )
-texture_disabled = ExtResource( 5 )
-texture_focused = ExtResource( 4 )
-script = ExtResource( 6 )
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 5 )
+texture_disabled = ExtResource( 6 )
+texture_focused = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/NewGameButton" index="0"]
 
@@ -137,9 +133,6 @@ size_flags_vertical = 1
 texture = ExtResource( 7 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="LoadGameButton" type="TextureButton" parent="MenuItems/Buttons" index="1"]
 
@@ -168,13 +161,15 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 4 )
-texture_disabled = ExtResource( 5 )
-texture_focused = ExtResource( 4 )
-script = ExtResource( 8 )
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 5 )
+texture_disabled = ExtResource( 6 )
+texture_focused = ExtResource( 5 )
 _sections_unfolded = [ "Margin", "Rect" ]
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/LoadGameButton" index="0"]
 
@@ -193,12 +188,9 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 9 )
+texture = ExtResource( 8 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="LogButton" type="TextureButton" parent="MenuItems/Buttons" index="2"]
 
@@ -227,13 +219,15 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 4 )
-texture_disabled = ExtResource( 5 )
-texture_focused = ExtResource( 4 )
-script = ExtResource( 10 )
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 5 )
+texture_disabled = ExtResource( 6 )
+texture_focused = ExtResource( 5 )
 _sections_unfolded = [ "Margin", "Rect" ]
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/LogButton" index="0"]
 
@@ -252,12 +246,9 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 11 )
+texture = ExtResource( 9 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="EditorButton" type="TextureButton" parent="MenuItems/Buttons" index="3"]
 
@@ -286,13 +277,15 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 4 )
-texture_disabled = ExtResource( 5 )
-texture_focused = ExtResource( 4 )
-script = ExtResource( 12 )
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 5 )
+texture_disabled = ExtResource( 6 )
+texture_focused = ExtResource( 5 )
 _sections_unfolded = [ "Margin", "Rect" ]
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/EditorButton" index="0"]
 
@@ -311,12 +304,9 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 13 )
+texture = ExtResource( 10 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="ExitGameButton" type="TextureButton" parent="MenuItems/Buttons" index="4"]
 
@@ -345,13 +335,15 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 4 )
-texture_disabled = ExtResource( 5 )
-texture_focused = ExtResource( 4 )
-script = ExtResource( 14 )
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 5 )
+texture_disabled = ExtResource( 6 )
+texture_focused = ExtResource( 5 )
 _sections_unfolded = [ "Margin", "Rect" ]
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/ExitGameButton" index="0"]
 
@@ -370,12 +362,9 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 15 )
+texture = ExtResource( 11 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="HelpButton" type="TextureButton" parent="MenuItems/Buttons" index="5"]
 
@@ -404,13 +393,15 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 4 )
-texture_disabled = ExtResource( 5 )
-texture_focused = ExtResource( 4 )
-script = ExtResource( 16 )
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 5 )
+texture_disabled = ExtResource( 6 )
+texture_focused = ExtResource( 5 )
 _sections_unfolded = [ "Margin", "Rect" ]
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/HelpButton" index="0"]
 
@@ -429,12 +420,9 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 17 )
+texture = ExtResource( 12 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="OptionsButton" type="TextureButton" parent="MenuItems/Buttons" index="6"]
 
@@ -463,13 +451,15 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 4 )
-texture_disabled = ExtResource( 5 )
-texture_focused = ExtResource( 4 )
-script = ExtResource( 18 )
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 5 )
+texture_disabled = ExtResource( 6 )
+texture_focused = ExtResource( 5 )
 _sections_unfolded = [ "Margin", "Rect" ]
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/OptionsButton" index="0"]
 
@@ -488,12 +478,9 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 19 )
+texture = ExtResource( 13 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="ConnectButton" type="TextureButton" parent="MenuItems/Buttons" index="7"]
 
@@ -522,13 +509,15 @@ toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
 group = null
-texture_normal = ExtResource( 3 )
-texture_pressed = ExtResource( 4 )
-texture_hover = ExtResource( 4 )
-texture_disabled = ExtResource( 5 )
-texture_focused = ExtResource( 4 )
-script = ExtResource( 20 )
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 5 )
+texture_disabled = ExtResource( 6 )
+texture_focused = ExtResource( 5 )
 _sections_unfolded = [ "Margin", "Rect" ]
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/ConnectButton" index="0"]
 
@@ -547,11 +536,14 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 21 )
+texture = ExtResource( 14 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-__meta__ = {
-"_edit_lock_": true
-}
+
+[connection signal="pressed" from="MenuItems/Buttons/NewGameButton" to="." method="_go_to_scene" binds= [ "world" ]]
+
+[connection signal="pressed" from="MenuItems/Buttons/LoadGameButton" to="." method="_go_to_scene" binds= [ "world" ]]
+
+[connection signal="pressed" from="MenuItems/Buttons/ExitGameButton" to="." method="_go_to_scene" binds= [ "exit" ]]
 
 
