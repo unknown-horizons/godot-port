@@ -36,36 +36,18 @@ size_flags_vertical = 3
 theme = ExtResource( 1 )
 alignment = 1
 script = ExtResource( 2 )
-_sections_unfolded = [ "Rect" ]
+_sections_unfolded = [ "Rect", "Theme" ]
 
-[node name="MenuItems" type="CenterContainer" parent="." index="0"]
+[node name="MenuItems" type="TextureRect" parent="." index="0"]
 
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = 725.0
-margin_right = 775.0
-margin_bottom = 800.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-theme = ExtResource( 1 )
-use_top_left = false
-_sections_unfolded = [ "Rect", "Size Flags" ]
-
-[node name="Buttons" type="TextureRect" parent="MenuItems" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_top = 375.0
-margin_right = 50.0
-margin_bottom = 425.0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -25.0
+margin_top = -25.0
+margin_right = 25.0
+margin_bottom = 25.0
 rect_min_size = Vector2( 50, 50 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -73,13 +55,12 @@ mouse_filter = 1
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-theme = ExtResource( 1 )
 texture = ExtResource( 3 )
 expand = true
 stretch_mode = 4
-_sections_unfolded = [ "Rect" ]
+_sections_unfolded = [ "Rect", "Theme" ]
 
-[node name="NewGameButton" type="TextureButton" parent="MenuItems/Buttons" index="0"]
+[node name="NewGameButton" type="TextureButton" parent="MenuItems" index="0"]
 
 editor/display_folded = true
 anchor_left = 0.5
@@ -102,7 +83,6 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-theme = ExtResource( 1 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -112,11 +92,12 @@ texture_pressed = ExtResource( 5 )
 texture_hover = ExtResource( 5 )
 texture_disabled = ExtResource( 6 )
 texture_focused = ExtResource( 5 )
+_sections_unfolded = [ "Theme" ]
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/NewGameButton" index="0"]
+[node name="TextureRect" type="TextureRect" parent="MenuItems/NewGameButton" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -137,7 +118,7 @@ texture = ExtResource( 7 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
-[node name="LoadGameButton" type="TextureButton" parent="MenuItems/Buttons" index="1"]
+[node name="LoadGameButton" type="TextureButton" parent="MenuItems" index="1"]
 
 editor/display_folded = true
 anchor_left = 0.5
@@ -160,7 +141,6 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-theme = ExtResource( 1 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -170,12 +150,12 @@ texture_pressed = ExtResource( 5 )
 texture_hover = ExtResource( 5 )
 texture_disabled = ExtResource( 6 )
 texture_focused = ExtResource( 5 )
-_sections_unfolded = [ "Margin", "Rect" ]
+_sections_unfolded = [ "Margin", "Rect", "Theme" ]
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/LoadGameButton" index="0"]
+[node name="TextureRect" type="TextureRect" parent="MenuItems/LoadGameButton" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -196,7 +176,7 @@ texture = ExtResource( 8 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
-[node name="LogButton" type="TextureButton" parent="MenuItems/Buttons" index="2"]
+[node name="LogButton" type="TextureButton" parent="MenuItems" index="2"]
 
 editor/display_folded = true
 anchor_left = 0.5
@@ -219,7 +199,6 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-theme = ExtResource( 1 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -229,12 +208,12 @@ texture_pressed = ExtResource( 5 )
 texture_hover = ExtResource( 5 )
 texture_disabled = ExtResource( 6 )
 texture_focused = ExtResource( 5 )
-_sections_unfolded = [ "Margin", "Rect" ]
+_sections_unfolded = [ "Margin", "Rect", "Theme" ]
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/LogButton" index="0"]
+[node name="TextureRect" type="TextureRect" parent="MenuItems/LogButton" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -255,7 +234,7 @@ texture = ExtResource( 9 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
-[node name="EditorButton" type="TextureButton" parent="MenuItems/Buttons" index="3"]
+[node name="EditorButton" type="TextureButton" parent="MenuItems" index="3"]
 
 editor/display_folded = true
 anchor_left = 0.5
@@ -278,7 +257,6 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-theme = ExtResource( 1 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -288,12 +266,12 @@ texture_pressed = ExtResource( 5 )
 texture_hover = ExtResource( 5 )
 texture_disabled = ExtResource( 6 )
 texture_focused = ExtResource( 5 )
-_sections_unfolded = [ "Margin", "Rect" ]
+_sections_unfolded = [ "Margin", "Rect", "Theme" ]
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/EditorButton" index="0"]
+[node name="TextureRect" type="TextureRect" parent="MenuItems/EditorButton" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -314,7 +292,7 @@ texture = ExtResource( 10 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
-[node name="ExitGameButton" type="TextureButton" parent="MenuItems/Buttons" index="4"]
+[node name="ExitGameButton" type="TextureButton" parent="MenuItems" index="4"]
 
 editor/display_folded = true
 anchor_left = 0.5
@@ -337,7 +315,6 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-theme = ExtResource( 1 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -347,12 +324,12 @@ texture_pressed = ExtResource( 5 )
 texture_hover = ExtResource( 5 )
 texture_disabled = ExtResource( 6 )
 texture_focused = ExtResource( 5 )
-_sections_unfolded = [ "Margin", "Rect" ]
+_sections_unfolded = [ "Margin", "Rect", "Theme" ]
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/ExitGameButton" index="0"]
+[node name="TextureRect" type="TextureRect" parent="MenuItems/ExitGameButton" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -373,7 +350,7 @@ texture = ExtResource( 11 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
-[node name="HelpButton" type="TextureButton" parent="MenuItems/Buttons" index="5"]
+[node name="HelpButton" type="TextureButton" parent="MenuItems" index="5"]
 
 editor/display_folded = true
 anchor_left = 0.5
@@ -396,7 +373,6 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-theme = ExtResource( 1 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -406,12 +382,12 @@ texture_pressed = ExtResource( 5 )
 texture_hover = ExtResource( 5 )
 texture_disabled = ExtResource( 6 )
 texture_focused = ExtResource( 5 )
-_sections_unfolded = [ "Margin", "Rect" ]
+_sections_unfolded = [ "Margin", "Rect", "Theme" ]
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/HelpButton" index="0"]
+[node name="TextureRect" type="TextureRect" parent="MenuItems/HelpButton" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -432,7 +408,7 @@ texture = ExtResource( 12 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
-[node name="OptionsButton" type="TextureButton" parent="MenuItems/Buttons" index="6"]
+[node name="OptionsButton" type="TextureButton" parent="MenuItems" index="6"]
 
 editor/display_folded = true
 anchor_left = 0.5
@@ -455,7 +431,6 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-theme = ExtResource( 1 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -465,12 +440,12 @@ texture_pressed = ExtResource( 5 )
 texture_hover = ExtResource( 5 )
 texture_disabled = ExtResource( 6 )
 texture_focused = ExtResource( 5 )
-_sections_unfolded = [ "Margin", "Rect" ]
+_sections_unfolded = [ "Margin", "Rect", "Theme" ]
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/OptionsButton" index="0"]
+[node name="TextureRect" type="TextureRect" parent="MenuItems/OptionsButton" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -491,7 +466,7 @@ texture = ExtResource( 13 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
-[node name="ConnectButton" type="TextureButton" parent="MenuItems/Buttons" index="7"]
+[node name="ConnectButton" type="TextureButton" parent="MenuItems" index="7"]
 
 editor/display_folded = true
 anchor_left = 0.5
@@ -514,7 +489,6 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-theme = ExtResource( 1 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -524,12 +498,12 @@ texture_pressed = ExtResource( 5 )
 texture_hover = ExtResource( 5 )
 texture_disabled = ExtResource( 6 )
 texture_focused = ExtResource( 5 )
-_sections_unfolded = [ "Margin", "Rect" ]
+_sections_unfolded = [ "Margin", "Rect", "Theme" ]
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/ConnectButton" index="0"]
+[node name="TextureRect" type="TextureRect" parent="MenuItems/ConnectButton" index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -550,10 +524,10 @@ texture = ExtResource( 14 )
 stretch_mode = 0
 _sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
-[connection signal="pressed" from="MenuItems/Buttons/NewGameButton" to="." method="_go_to_scene" binds= [ "world" ]]
+[connection signal="pressed" from="MenuItems/NewGameButton" to="." method="_go_to_scene" binds= [ "world" ]]
 
-[connection signal="pressed" from="MenuItems/Buttons/LoadGameButton" to="." method="_go_to_scene" binds= [ "world" ]]
+[connection signal="pressed" from="MenuItems/LoadGameButton" to="." method="_go_to_scene" binds= [ "world" ]]
 
-[connection signal="pressed" from="MenuItems/Buttons/ExitGameButton" to="." method="_go_to_scene" binds= [ "exit" ]]
+[connection signal="pressed" from="MenuItems/ExitGameButton" to="." method="_go_to_scene" binds= [ "exit" ]]
 
 
