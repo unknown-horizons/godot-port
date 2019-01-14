@@ -1,14 +1,31 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://Assets/UI/Themes/MenuTheme.tres" type="Theme" id=1]
-[ext_resource path="res://Assets/UI/Scripts/Main/ResumeGame.gd" type="Script" id=2]
-[ext_resource path="res://Assets/UI/Scripts/Main/LoadGame.gd" type="Script" id=3]
-[ext_resource path="res://Assets/UI/Scripts/Main/NewGame.gd" type="Script" id=4]
-[ext_resource path="res://Assets/UI/Scripts/Main/Connect.gd" type="Script" id=5]
-[ext_resource path="res://Assets/UI/Scripts/Main/Options.gd" type="Script" id=6]
-[ext_resource path="res://Assets/UI/Scripts/Main/ExitGame.gd" type="Script" id=7]
+[ext_resource path="res://Assets/UI/Images/Background/MainMenu/wheel.png" type="Texture" id=2]
+[ext_resource path="res://Assets/UI/Images/Buttons/msg_button.png" type="Texture" id=3]
+[ext_resource path="res://Assets/UI/Images/Buttons/msg_button_h.png" type="Texture" id=4]
+[ext_resource path="res://Assets/UI/Images/Buttons/msg_button_bw.png" type="Texture" id=5]
+[ext_resource path="res://Assets/UI/Scripts/Main/NewGame.gd" type="Script" id=6]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/compass_bw.png" type="Texture" id=7]
+[ext_resource path="res://Assets/UI/Scripts/Main/LoadGame.gd" type="Script" id=8]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/load_bw.png" type="Texture" id=9]
+[ext_resource path="res://Assets/UI/Scripts/Main/LogButton.gd" type="Script" id=10]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/log_bw.png" type="Texture" id=11]
+[ext_resource path="res://Assets/UI/Scripts/Main/EditorButton.gd" type="Script" id=12]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/editor_bw.png" type="Texture" id=13]
+[ext_resource path="res://Assets/UI/Scripts/Main/ExitGame.gd" type="Script" id=14]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/door_bw.png" type="Texture" id=15]
+[ext_resource path="res://Assets/UI/Scripts/Main/HelpButton.gd" type="Script" id=16]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/help_bw.png" type="Texture" id=17]
+[ext_resource path="res://Assets/UI/Scripts/Main/Options.gd" type="Script" id=18]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/gears_bw.png" type="Texture" id=19]
+[ext_resource path="res://Assets/UI/Scripts/Main/Connect.gd" type="Script" id=20]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/multiplayer_bw.png" type="Texture" id=21]
 
 [node name="MainMenuUI" type="HBoxContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 50.0
@@ -17,113 +34,524 @@ margin_right = -50.0
 margin_bottom = -50.0
 grow_horizontal = 2
 grow_vertical = 2
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource( 1 )
 alignment = 1
 
-[node name="MenuItems" type="HBoxContainer" parent="."]
+[node name="MenuItems" type="CenterContainer" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
 margin_right = 1500.0
 margin_bottom = 800.0
 rect_min_size = Vector2( 1500, 800 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
 size_flags_horizontal = 5
 size_flags_vertical = 3
 theme = ExtResource( 1 )
+use_top_left = false
+_sections_unfolded = [ "Rect" ]
 
-[node name="Buttons" type="VBoxContainer" parent="MenuItems"]
-margin_right = 300.0
-margin_bottom = 800.0
+[node name="Buttons" type="TextureRect" parent="MenuItems" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 450.0
+margin_top = 100.0
+margin_right = 1050.0
+margin_bottom = 700.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
 theme = ExtResource( 1 )
-alignment = 2
+texture = ExtResource( 2 )
+stretch_mode = 0
+_sections_unfolded = [ "Rect" ]
 
-[node name="ResumeGameButton" type="Button" parent="MenuItems/Buttons"]
-margin_top = 386.0
-margin_right = 300.0
-margin_bottom = 446.0
-rect_min_size = Vector2( 300, 60 )
-focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath(".")
-focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath("../LoadGameButton")
-theme = ExtResource( 1 )
-disabled = true
-text = "Resume Game"
-script = ExtResource( 2 )
+[node name="NewGameButton" type="TextureButton" parent="MenuItems/Buttons" index="0"]
 
-[node name="LoadGameButton" type="Button" parent="MenuItems/Buttons"]
-margin_top = 450.0
-margin_right = 300.0
-margin_bottom = 510.0
-rect_min_size = Vector2( 300, 60 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -32.0
+margin_top = -184.0
+margin_right = 32.0
+margin_bottom = -120.0
+rect_min_size = Vector2( 64, 64 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
 focus_neighbour_left = NodePath(".")
 focus_neighbour_top = NodePath("../ResumeGameButton")
 focus_neighbour_right = NodePath(".")
 focus_neighbour_bottom = NodePath("../NewGameButton")
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
 theme = ExtResource( 1 )
-disabled = true
-text = "Load Game"
-script = ExtResource( 3 )
-
-[node name="NewGameButton" type="Button" parent="MenuItems/Buttons"]
-margin_top = 514.0
-margin_right = 300.0
-margin_bottom = 574.0
-rect_min_size = Vector2( 300, 60 )
-hint_tooltip = "Starts a new game"
-focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath("../LoadGameButton")
-focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath("../ConnectButton")
-theme = ExtResource( 1 )
-text = "New Game"
-script = ExtResource( 4 )
-
-[node name="ConnectButton" type="Button" parent="MenuItems/Buttons"]
-margin_top = 578.0
-margin_right = 300.0
-margin_bottom = 638.0
-rect_min_size = Vector2( 300, 60 )
-focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath("../NewGameButton")
-focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath("../OptionsButton")
-theme = ExtResource( 1 )
-disabled = true
-text = "Connect"
-script = ExtResource( 5 )
-
-[node name="HSeparator" type="HSeparator" parent="MenuItems/Buttons"]
-modulate = Color( 1, 1, 1, 0 )
-margin_top = 642.0
-margin_right = 300.0
-margin_bottom = 672.0
-rect_min_size = Vector2( 300, 30 )
-theme = ExtResource( 1 )
-
-[node name="OptionsButton" type="Button" parent="MenuItems/Buttons"]
-margin_top = 676.0
-margin_right = 300.0
-margin_bottom = 736.0
-rect_min_size = Vector2( 300, 60 )
-focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath("../ConnectButton")
-focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath("../ExitGameButton")
-theme = ExtResource( 1 )
-disabled = true
-text = "Options"
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_disabled = ExtResource( 5 )
+texture_focused = ExtResource( 4 )
 script = ExtResource( 6 )
 
-[node name="ExitGameButton" type="Button" parent="MenuItems/Buttons"]
-margin_top = 740.0
-margin_right = 300.0
-margin_bottom = 800.0
-rect_min_size = Vector2( 300, 60 )
+[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/NewGameButton" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 8.0
+margin_right = -8.0
+margin_bottom = -8.0
+rect_min_size = Vector2( 10, 10 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 7 )
+stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="LoadGameButton" type="TextureButton" parent="MenuItems/Buttons" index="1"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -138.0
+margin_top = -139.0
+margin_right = -74.0
+margin_bottom = -75.0
+rect_min_size = Vector2( 64, 64 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
 focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath("../OptionsButton")
+focus_neighbour_top = NodePath("../ResumeGameButton")
 focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath(".")
+focus_neighbour_bottom = NodePath("../NewGameButton")
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
 theme = ExtResource( 1 )
-text = "Exit Game"
-script = ExtResource( 7 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_disabled = ExtResource( 5 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 8 )
+_sections_unfolded = [ "Margin", "Rect" ]
+
+[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/LoadGameButton" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 8.0
+margin_right = -8.0
+margin_bottom = -8.0
+rect_min_size = Vector2( 10, 10 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 9 )
+stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="LogButton" type="TextureButton" parent="MenuItems/Buttons" index="2"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -184.0
+margin_top = -32.0
+margin_right = -120.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 64, 64 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_neighbour_left = NodePath(".")
+focus_neighbour_top = NodePath("../ResumeGameButton")
+focus_neighbour_right = NodePath(".")
+focus_neighbour_bottom = NodePath("../NewGameButton")
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+theme = ExtResource( 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_disabled = ExtResource( 5 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 10 )
+_sections_unfolded = [ "Margin", "Rect" ]
+
+[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/LogButton" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 8.0
+margin_right = -8.0
+margin_bottom = -8.0
+rect_min_size = Vector2( 10, 10 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 11 )
+stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="EditorButton" type="TextureButton" parent="MenuItems/Buttons" index="3"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -139.0
+margin_top = 76.0
+margin_right = -75.0
+margin_bottom = 140.0
+rect_min_size = Vector2( 64, 64 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_neighbour_left = NodePath(".")
+focus_neighbour_top = NodePath("../ResumeGameButton")
+focus_neighbour_right = NodePath(".")
+focus_neighbour_bottom = NodePath("../NewGameButton")
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+theme = ExtResource( 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_disabled = ExtResource( 5 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 12 )
+_sections_unfolded = [ "Margin", "Rect" ]
+
+[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/EditorButton" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 8.0
+margin_right = -8.0
+margin_bottom = -8.0
+rect_min_size = Vector2( 10, 10 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 13 )
+stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="ExitGameButton" type="TextureButton" parent="MenuItems/Buttons" index="4"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -32.0
+margin_top = 120.0
+margin_right = 32.0
+margin_bottom = -184.0
+rect_min_size = Vector2( 64, 64 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_neighbour_left = NodePath(".")
+focus_neighbour_top = NodePath("../ResumeGameButton")
+focus_neighbour_right = NodePath(".")
+focus_neighbour_bottom = NodePath("../NewGameButton")
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+theme = ExtResource( 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_disabled = ExtResource( 5 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 14 )
+_sections_unfolded = [ "Margin", "Rect" ]
+
+[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/ExitGameButton" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 8.0
+margin_right = -8.0
+margin_bottom = -8.0
+rect_min_size = Vector2( 10, 10 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 15 )
+stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="HelpButton" type="TextureButton" parent="MenuItems/Buttons" index="5"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 77.0
+margin_top = 76.0
+margin_right = 141.0
+margin_bottom = 140.0
+rect_min_size = Vector2( 64, 64 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_neighbour_left = NodePath(".")
+focus_neighbour_top = NodePath("../ResumeGameButton")
+focus_neighbour_right = NodePath(".")
+focus_neighbour_bottom = NodePath("../NewGameButton")
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+theme = ExtResource( 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_disabled = ExtResource( 5 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 16 )
+_sections_unfolded = [ "Margin", "Rect" ]
+
+[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/HelpButton" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 8.0
+margin_right = -8.0
+margin_bottom = -8.0
+rect_min_size = Vector2( 10, 10 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 17 )
+stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="OptionsButton" type="TextureButton" parent="MenuItems/Buttons" index="6"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 120.0
+margin_top = -32.0
+margin_right = 184.0
+margin_bottom = 32.0
+rect_min_size = Vector2( 64, 64 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_neighbour_left = NodePath(".")
+focus_neighbour_top = NodePath("../ResumeGameButton")
+focus_neighbour_right = NodePath(".")
+focus_neighbour_bottom = NodePath("../NewGameButton")
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+theme = ExtResource( 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_disabled = ExtResource( 5 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 18 )
+_sections_unfolded = [ "Margin", "Rect" ]
+
+[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/OptionsButton" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 8.0
+margin_right = -8.0
+margin_bottom = -8.0
+rect_min_size = Vector2( 10, 10 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 19 )
+stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="ConnectButton" type="TextureButton" parent="MenuItems/Buttons" index="7"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 76.0
+margin_top = -139.0
+margin_right = 140.0
+margin_bottom = -75.0
+rect_min_size = Vector2( 64, 64 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+focus_neighbour_left = NodePath(".")
+focus_neighbour_top = NodePath("../ResumeGameButton")
+focus_neighbour_right = NodePath(".")
+focus_neighbour_bottom = NodePath("../NewGameButton")
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+theme = ExtResource( 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 4 )
+texture_disabled = ExtResource( 5 )
+texture_focused = ExtResource( 4 )
+script = ExtResource( 20 )
+_sections_unfolded = [ "Margin", "Rect" ]
+
+[node name="TextureRect" type="TextureRect" parent="MenuItems/Buttons/ConnectButton" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 8.0
+margin_right = -8.0
+margin_bottom = -8.0
+rect_min_size = Vector2( 10, 10 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 21 )
+stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
 
