@@ -1,4 +1,4 @@
-<p align="center"><a href="http://unknown-horizons.org/"><img src="http://unknown-horizons.org/static/logo.svg"></a></p>
+<p align="center"><a href="http://unknown-horizons.org/"><img src="http://unknown-horizons.org/static/logo.svg" alt="Unknown Horizons"></a></p>
 
 **We are searching for developers for our [Godot Engine](https://godotengine.org/) port**.
 We want to port it because our current engine is basically dead.
