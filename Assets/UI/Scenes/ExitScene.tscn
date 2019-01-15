@@ -1,55 +1,98 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Assets/UI/Scripts/ExitScene.gd" type="Script" id=1]
-[ext_resource path="res://Assets/UI/Themes/HUDTheme.tres" type="Theme" id=2]
+[ext_resource path="res://Assets/UI/Images/Background/MainMenu/bg_4.png" type="Texture" id=2]
+[ext_resource path="res://Assets/UI/Themes/MenuTheme.tres" type="Theme" id=3]
+[ext_resource path="res://Assets/UI/Images/Background/MainMenu/wheel.png" type="Texture" id=4]
 
 [node name="ExitScene" type="Node"]
+
 script = ExtResource( 1 )
 
-[node name="CenterContainer" type="CenterContainer" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
-rect_min_size = Vector2( 1600, 900 )
-size_flags_horizontal = 3
-size_flags_vertical = 3
-theme = ExtResource( 2 )
+[node name="Background" type="TextureRect" parent="." index="0"]
 
-[node name="PanelContainer" type="PanelContainer" parent="CenterContainer"]
-margin_left = 583.0
-margin_top = 400.0
-margin_right = 1017.0
-margin_bottom = 500.0
-rect_min_size = Vector2( 100, 100 )
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 1600.0
+margin_bottom = 900.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 2 )
+expand = true
+stretch_mode = 0
+_sections_unfolded = [ "Rect" ]
 
-[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/PanelContainer"]
-margin_right = 434.0
-margin_bottom = 100.0
+[node name="PanelContainer" type="TextureRect" parent="." index="1"]
 
-[node name="VSeparator" type="VSeparator" parent="CenterContainer/PanelContainer/HBoxContainer"]
-modulate = Color( 1, 1, 1, 0 )
-margin_top = 40.0
-margin_right = 20.0
-margin_bottom = 60.0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -25.0
+margin_top = -25.0
+margin_right = 25.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 50, 50 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+theme = ExtResource( 3 )
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 4
+_sections_unfolded = [ "Rect", "Theme" ]
+
+[node name="Panel" type="Panel" parent="PanelContainer" index="0"]
+
+modulate = Color( 1, 1, 1, 0.784314 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -225.0
+margin_top = -30.0
+margin_right = 225.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 450, 60 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Material", "Rect", "Visibility" ]
+
+[node name="Label" type="Label" parent="PanelContainer/Panel" index="0"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -193.0
+margin_top = -18.5
+margin_right = 193.0
+margin_bottom = 18.5
 rect_min_size = Vector2( 20, 20 )
-size_flags_vertical = 6
-
-[node name="Label" type="Label" parent="CenterContainer/PanelContainer/HBoxContainer"]
-margin_left = 24.0
-margin_top = 31.0
-margin_right = 410.0
-margin_bottom = 68.0
-rect_min_size = Vector2( 20, 20 )
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
 size_flags_vertical = 6
 text = "Game is exiting, please wait..."
 align = 1
 valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
 
-[node name="VSeparator2" type="VSeparator" parent="CenterContainer/PanelContainer/HBoxContainer"]
-modulate = Color( 1, 1, 1, 0 )
-margin_left = 414.0
-margin_top = 40.0
-margin_right = 434.0
-margin_bottom = 60.0
-rect_min_size = Vector2( 20, 20 )
-size_flags_vertical = 6
 
