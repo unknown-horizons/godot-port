@@ -5,7 +5,7 @@
 [ext_resource path="res://Assets/UI/Themes/MenuTheme.tres" type="Theme" id=3]
 [ext_resource path="res://Assets/UI/Images/Background/MainMenu/wheel.png" type="Texture" id=4]
 
-[node name="ExitScene" type="Node"]
+[node name="ExitScene" type="Node" index="0"]
 
 script = ExtResource( 1 )
 
@@ -28,7 +28,7 @@ expand = true
 stretch_mode = 0
 _sections_unfolded = [ "Rect" ]
 
-[node name="PanelContainer" type="TextureRect" parent="." index="1"]
+[node name="Decoration" type="TextureRect" parent="." index="1"]
 
 anchor_left = 0.5
 anchor_top = 0.5
@@ -51,9 +51,8 @@ expand = true
 stretch_mode = 4
 _sections_unfolded = [ "Rect", "Theme" ]
 
-[node name="Panel" type="Panel" parent="PanelContainer" index="0"]
+[node name="Panel" type="Panel" parent="Decoration" index="0"]
 
-modulate = Color( 1, 1, 1, 0.784314 )
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -69,18 +68,18 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-_sections_unfolded = [ "Material", "Rect", "Visibility" ]
+_sections_unfolded = [ "Material", "Rect" ]
 
-[node name="Label" type="Label" parent="PanelContainer/Panel" index="0"]
+[node name="Label" type="Label" parent="Decoration/Panel" index="0"]
 
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -193.0
-margin_top = -18.5
-margin_right = 193.0
-margin_bottom = 18.5
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 11.0
+margin_top = 11.0
+margin_right = 439.0
+margin_bottom = 48.0
 rect_min_size = Vector2( 20, 20 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -91,8 +90,10 @@ size_flags_vertical = 6
 text = "Game is exiting, please wait..."
 align = 1
 valign = 1
+clip_text = true
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
+_sections_unfolded = [ "Margin" ]
 
 

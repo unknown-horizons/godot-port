@@ -1,4 +1,4 @@
-extends HBoxContainer
+extends Control
 
 const _scenes = {
 	world = preload("res://Assets/World/World.tscn"),
