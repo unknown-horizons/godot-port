@@ -1,4 +1,20 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Audio/Sounds/Events/Scenario/lose.ogg" type="AudioStream" id=1]
+[ext_resource path="res://Assets/Audio/Music/GameMusic.gd" type="Script" id=2]
 
 [node name="World" type="Node2D"]
+
+[node name="GameMusic" type="AudioStreamPlayer" parent="." index="0"]
+
+stream = ExtResource( 1 )
+volume_db = -20.0
+pitch_scale = 1.0
+autoplay = true
+mix_target = 0
+bus = "Master"
+script = ExtResource( 2 )
+
+[connection signal="finished" from="GameMusic" to="GameMusic" method="_on_GameMusic_finished"]
+
 
