@@ -15,6 +15,27 @@ mix_target = 0
 bus = "Music"
 script = ExtResource( 2 )
 
+[node name="TileMap" type="TileMap" parent="." index="1"]
+
+mode = 1
+tile_set = null
+cell_size = Vector2( 64, 32 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 1
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray(  )
+_sections_unfolded = [ "Cell" ]
+
 [connection signal="finished" from="GameMusic" to="GameMusic" method="_on_GameMusic_finished"]
 
 

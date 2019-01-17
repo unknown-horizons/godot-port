@@ -19,7 +19,7 @@ func _ready():
 			break
 		elif file.ends_with(".ogg"):
 			_music_files.append(file)
-	
+
 	for filename in _music_files:
 		var stream = load("Assets/Audio/Music/Ambient/" + filename)
 		_music_streams.append(stream)
