@@ -8,11 +8,11 @@ var _scenes = {
 func _input(event):
 	if not event is InputEventKey and not event is InputEventMouseButton:
 		return
-	
+
 	# Set the animation mark to the very end, so all final values are stil set.
 	var animation_player = $AnimationPlayer
 	animation_player.seek(animation_player.current_animation_length)
-	
+
 	accept_event() # Avoid triggering buttons on intro skip.
 	set_process_input(false)
 

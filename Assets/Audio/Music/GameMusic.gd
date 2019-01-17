@@ -11,7 +11,7 @@ func _ready():
 	var dir = Directory.new()
 	dir.open("res://Assets/Audio/Music/Ambient")
 	dir.list_dir_begin()
-	
+
 	# Load all the files from the Ambient folder.
 	while true:
 		var file = dir.get_next()
@@ -23,7 +23,7 @@ func _ready():
 	for filename in _music_files:
 		var stream = load("Assets/Audio/Music/Ambient/" + filename)
 		_music_streams.append(stream)
-	
+
 	# Always play a specific song when the game starts.
 	stream = preload("res://Assets/Audio/Music/Ambient/newfrontier.ogg")
 	play()
