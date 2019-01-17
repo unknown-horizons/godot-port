@@ -10,7 +10,7 @@ config_version=3
 
 [application]
 
-config/name="UnknownHorizons"
+config/name="Unknown Horizons"
 run/main_scene="res://Assets/UI/Scenes/MainMenuScene.tscn"
 config/icon="res://icon.png"
 
@@ -18,14 +18,15 @@ config/icon="res://icon.png"
 
 PersistentEnv="*res://Assets/World/PersistentEnv.tscn"
 
-[debug]
-
-settings/stdout/print_fps=true
-
 [display]
 
 window/size/width=1600
 window/size/height=900
+
+[logging]
+
+file_logging/enable_file_logging=true
+file_logging/max_log_files=5
 
 [rendering]
 
