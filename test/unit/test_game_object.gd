@@ -1,6 +1,6 @@
 extends "res://addons/gut/test.gd"
 
-const GameObject = preload("res://game_object.gd")
+const GameObject = preload("res://assets/world/game_object.gd")
 
 var node;
 var components;
