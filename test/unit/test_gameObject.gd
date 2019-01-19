@@ -48,3 +48,6 @@ func test_get_operator_returns_existing_component():
     test_component.name = "Test"
     components.add_child(test_component)
     assert_eq(node.Test, test_component, "Expected GameObject.Test to return the correct component")
+
+func test_get_operator_returns_null_for_non_existing_component():
+    assert_eq(node.Test, null, "Expected GameObject.Test to return null")

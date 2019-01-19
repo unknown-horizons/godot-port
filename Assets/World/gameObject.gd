@@ -21,5 +21,4 @@ func create_and_add_component(component_class, name):
     return new_component
     
 func _get(property):
-    if (has_component(property)):
-        return get_component(property)
+    return get_component(property)
