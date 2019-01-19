@@ -26,7 +26,7 @@ func test_get_objects_with_component_returns_all_components_with_name():
     var returned_components = world.get_objects_with_component("Test")
     assert_true(typeof(returned_components) == TYPE_ARRAY, "Expected returned components to be an array")
     var expected_size = expected_objects.size()
-    var returned_size = returned_components.size() or 0
+    var returned_size = returned_components.size()
     var have_same_size = expected_size == returned_size
     assert_true(have_same_size, "Expected both arrays to have the same values")
     if have_same_size:
@@ -39,4 +39,4 @@ func given_map_has_object():
     components.name = "Components"
     object.add_child(components)
     map.add_child(object)
-    return object   
+    return object
