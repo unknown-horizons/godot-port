@@ -14,7 +14,7 @@ onready var _rotation_y = $RotationY # as Spatial
 onready var _camera = $RotationY/Camera # as Camera
 
 func _ready():
-	recalculate__directions()
+	recalculate_directions()
 
 func _process(delta):
 	# Camera movement.
@@ -36,10 +36,10 @@ func _input(event):
 	# Camera rotation.
 	if event.is_action_pressed("rotate_left"):
 		_rotation_y.rotate_y(- PI/2)
-		recalculate__directions()
+		recalculate_directions()
 	elif event.is_action_pressed("rotate_right"):
 		_rotation_y.rotate_y(PI / 2)
-		recalculate__directions()
+		recalculate_directions()
 	
 	# Camera zooming.
 	elif event.is_action_pressed("zoom_in"):
@@ -49,7 +49,7 @@ func _input(event):
 		if _camera.size < ZOOM_OUT_LIMIT:
 			_camera.size += ZOOM_VALUE
 
-func recalculate__directions():
+func recalculate_directions():
 	# We could always hard-code the directions, but this is better.
 	var basis = _rotation_y.get_transform().basis
 	_directions[0] = -basis.z
