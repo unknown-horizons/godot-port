@@ -1,7 +1,7 @@
 extends Control
 
 var _scenes = {
-	world = preload("res://Assets/World/3DWorld.tscn"),
+	world = preload("res://Assets/World/World.tscn"),
 	exit = preload("res://Assets/UI/Scenes/ExitScene.tscn")
 }
 
