@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Assets/Player/PlayerCamera.gd" type="Script" id=1]
 
-[node name="PlayerCamera" type="Spatial"]
+[node name="PlayerCamera" type="Spatial" index="0"]
 
 script = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]
