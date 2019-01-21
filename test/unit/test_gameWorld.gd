@@ -2,6 +2,7 @@ extends "res://addons/gut/test.gd"
 
 const GameWorld = preload("res://Assets/World/gameWorld.gd")
 const GameObject = preload("res://Assets/World/gameObject.gd")
+const GameSystem = preload("res://Assets/World/gameSystem.gd")
 
 var world
 var map
@@ -40,3 +41,9 @@ func given_map_has_object():
     object.add_child(components)
     map.add_child(object)
     return object
+    
+func test_add_child_sets_world_for_systems():
+    var system = GameSystem.new()
+    assert_eq(system.world, null)
+    world.add_child(system)    
+    assert_eq(system.world, world)
