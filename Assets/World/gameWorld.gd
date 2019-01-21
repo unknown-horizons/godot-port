@@ -4,11 +4,16 @@ const GameObject = preload("gameObject.gd")
 const GameSystem = preload("gameSystem.gd")
 
 func _ready():
-    pass
+    for child in get_children():
+        set_world_for_system_children(child)
 
 func _process(delta):
     pass
 
+func set_world_for_system_children(child):
+    if child is GameSystem:
+            child.world = self 
+            
 func get_objects_with_component(component):
     var found_components = Array()
     for child in get_parent().get_children():
@@ -19,5 +24,4 @@ func get_objects_with_component(component):
 
 func add_child(child):
     .add_child(child)
-    if child is GameSystem:
-        child.world = self 
+    set_world_for_system_children(child)
