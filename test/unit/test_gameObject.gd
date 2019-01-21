@@ -13,38 +13,52 @@ func before_each():
     node.set_script(GameObject)  
     
 func test_has_returns_true_on_existing_component():
+    gut.p("Test started")
     var test_component = Node.new()
     test_component.name = "Test"
     components.add_child(test_component)
     assert_true(node.has_component("Test"), "Expected has_component to return true")
+    gut.p("Test ended")
 
 func test_has_returns_false_for_non_existing_component():
+    gut.p("Test started")
     assert_false(node.has_component("Test"), "Expected has_component to return false")
+    gut.p("Test ended")
 
 func test_get_returns_existing_component():
+    gut.p("Test started")
     var test_component = Node.new()
     test_component.name = "Test"
     components.add_child(test_component)
     assert_eq(node.get_component("Test"), test_component, "Expected get_component to return the correct component")
+    gut.p("Test ended")
 
 func test_get_returns_null_for_non_existing_component():
+    gut.p("Test started")
     assert_eq(node.get_component("Test"), null, "Expected get_component to return null")
+    gut.p("Test ended")
     
 func test_create_and_add_adds_non_existing_component():
+    gut.p("Test started")
     var component = node.create_and_add_component(Node, "Test")
     assert_ne(component, null, "Expected non null return value")
     assert_true(node.is_a_parent_of(component), "Expected value to be a child of Components")
+    gut.p("Test ended")
 
 func test_create_and_add_does_not_add_if_component_already_exists():
+    gut.p("Test started")
     var test_component = Node.new()
     test_component.name = "Test"
     components.add_child(test_component)
     var component = node.create_and_add_component(Node, "Test")
     assert_eq(component, null, "Expected null return value")
     assert_true(node.is_a_parent_of(test_component), "Expected previous component to still be a child of Components")
+    gut.p("Test ended")
 
 func test_get_operator_returns_existing_component():
+    gut.p("Test started")
     var test_component = Node.new()
     test_component.name = "Test"
     components.add_child(test_component)
     assert_eq(node.Test, test_component, "Expected GameObject.Test to return the correct component")
+    gut.p("Test ended")

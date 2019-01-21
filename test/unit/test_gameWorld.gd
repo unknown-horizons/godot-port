@@ -13,6 +13,7 @@ func before_each():
     map.add_child(world)
     
 func test_get_objects_with_component_returns_all_components_with_name():
+    gut.p("Test started")
     var expected_objects = Array()
     var object
     object = given_map_has_object()
@@ -33,6 +34,7 @@ func test_get_objects_with_component_returns_all_components_with_name():
     if have_same_size:
         for component in returned_components:
             assert_has(expected_objects, component, "Expected both arrays to have the same values")
+    gut.p("Test ended")
     
 func given_map_has_object():
     var object = GameObject.new()
@@ -43,7 +45,9 @@ func given_map_has_object():
     return object
     
 func test_add_child_sets_world_for_systems():
+    gut.p("Test started")
     var system = GameSystem.new()
     assert_eq(system.world, null)
     world.add_child(system)    
     assert_eq(system.world, world)
+    gut.p("Test ended")
