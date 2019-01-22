@@ -2,7 +2,6 @@ extends AudioStreamPlayer
 
 # If this script somehow fails, "lose.ogg" will be played.
 
-var current_music
 # Above could possibly be displayed inside a music player/list GUI.
 var _music_files = []
 var _music_streams = [] # Note: Does not show up in remote inspector.
@@ -20,28 +19,21 @@ func _ready():
 		elif file.ends_with(".ogg"):
 			_music_files.append(file)
 	
-	for filename in _music_files:
-		var stream = load("Assets/Audio/Music/Ambient/" + filename)
-		_music_streams.append(stream)
+	for i in _music_files:
+		_music_streams.append(load("Assets/Audio/Music/Ambient/" + i))
 	
 	# Always play a specific song when the game starts.
 	stream = preload("res://Assets/Audio/Music/Ambient/newfrontier.ogg")
 	play()
-	#play_song_random()
-
-func _on_GameMusic_finished():
-	play_song_random()
+	
+	randomize() # Godot will always generate the same random numbers otherwise.
 
 func play_song_random():
-	randomize() # Godot will always generate the same random numbers otherwise.
-	var size = _music_streams.size()
-	var rand = randi() % size
-	play_song_index(rand)
+	play_song_index(randi() % _music_streams.size())
 
 func play_song_index(index):
 	stop()
 	stream = _music_streams[index]
-	current_music = _music_files[index]
 	play()
 
 # All the functions below are untested.
@@ -52,8 +44,7 @@ func add_song(file_name):
 			load("res://Assets/Audio/Music/Ambient/" + file_name))
 
 func remove_song(file_name):
-	var i = _music_files.find(file_name)
-	remove_song_index(i)
+	remove_song_index(_music_files.find(file_name))
 
 func remove_song_index(index):
 	_music_streams.remove(index)

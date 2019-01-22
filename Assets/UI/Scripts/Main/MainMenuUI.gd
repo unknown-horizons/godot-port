@@ -17,4 +17,5 @@ func _input(event):
 	set_process_input(false)
 
 func _go_to_scene(scene):
+	#warning-ignore:return_value_discarded
 	get_tree().change_scene_to(_scenes[scene])

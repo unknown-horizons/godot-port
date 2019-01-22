@@ -65,6 +65,6 @@ editor_draw_screen = true
 editor_draw_limits = false
 editor_draw_drag_margin = false
 
-[connection signal="finished" from="GameMusic" to="GameMusic" method="_on_GameMusic_finished"]
+[connection signal="finished" from="GameMusic" to="GameMusic" method="play_song_random"]
 
 

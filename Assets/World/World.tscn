@@ -36,6 +36,6 @@ format = 1
 tile_data = PoolIntArray(  )
 _sections_unfolded = [ "Cell" ]
 
-[connection signal="finished" from="GameMusic" to="GameMusic" method="_on_GameMusic_finished"]
+[connection signal="finished" from="GameMusic" to="GameMusic" method="play_song_random"]
 
 
