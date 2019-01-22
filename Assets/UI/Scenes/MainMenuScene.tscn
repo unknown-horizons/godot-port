@@ -4,7 +4,7 @@
 [ext_resource path="res://Assets/UI/Scenes/MainMenuUI.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Assets/Audio/Music/Menu/main_theme.ogg" type="AudioStream" id=3]
 
-[node name="MainMenuScene" type="Node"]
+[node name="MainMenuScene" type="Node" index="0"]
 
 [node name="Background" type="TextureRect" parent="." index="0"]
 

@@ -2,11 +2,11 @@
 
 [ext_resource path="res://Assets/World/WorldPlace.gd" type="Script" id=1]
 
-[sub_resource type="SpatialMaterial" id=3]
+[sub_resource type="SpatialMaterial" id=1]
 
 render_priority = 10
 flags_transparent = true
-flags_unshaded = true
+flags_unshaded = false
 flags_vertex_lighting = false
 flags_no_depth_test = true
 flags_use_point_size = false
@@ -54,7 +54,7 @@ proximity_fade_enable = false
 distance_fade_enable = false
 _sections_unfolded = [ "Albedo", "Flags", "Parameters" ]
 
-[node name="WorldPlace" type="Spatial"]
+[node name="WorldPlace" type="Spatial" index="0"]
 
 script = ExtResource( 1 )
 texture = null
@@ -63,7 +63,7 @@ place_rotation = 0
 [node name="Billboard" type="Sprite3D" parent="." index="0"]
 
 layers = 1
-material_override = SubResource( 3 )
+material_override = SubResource( 1 )
 cast_shadow = 0
 extra_cull_margin = 0.0
 use_in_baked_light = false
@@ -79,7 +79,7 @@ modulate = Color( 1, 1, 1, 1 )
 opacity = 1.0
 pixel_size = 0.015
 axis = 2
-transparent = true
+transparent = false
 shaded = false
 double_sided = false
 alpha_cut = 0
