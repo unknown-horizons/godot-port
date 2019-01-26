@@ -18,7 +18,7 @@
 [ext_resource path="res://Assets/UI/Images/Logos/uh_no_text.svg" type="Texture" id=16]
 [ext_resource path="res://Assets/UI/Images/Logos/uh_only_text.svg" type="Texture" id=17]
 
-[sub_resource type="Animation" id=2]
+[sub_resource type="Animation" id=1]
 
 length = 3.7
 loop = false
@@ -1065,7 +1065,7 @@ autoplay = "intro"
 playback_process_mode = 1
 playback_default_blend_time = 0.0
 playback_speed = 1.0
-anims/intro = SubResource( 2 )
+anims/intro = SubResource( 1 )
 blend_times = [  ]
 
 [connection signal="pressed" from="Decoration/MenuItems/NewGameButton" to="." method="_go_to_scene" binds= [ "world" ]]
