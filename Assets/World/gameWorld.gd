@@ -15,12 +15,12 @@ func set_world_for_system_children(child):
             child.world = self 
             
 func get_objects_with_component(component):
-    var found_components = Array()
+    var found_objects = Array()
     for child in get_parent().get_children():
         if child is GameObject:
             if child.has_component(component):
-                found_components.append(child)
-    return found_components
+                found_objects.append(child)
+    return found_objects
 
 func add_child(child):
     .add_child(child)
