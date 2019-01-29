@@ -1,6 +1,6 @@
 extends Node
 
-var modified = false
+export(bool) var modified = false
 
 func _ready():
     pass
