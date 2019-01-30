@@ -1,34 +1,13 @@
-[gd_resource type="Environment" load_steps=2 format=2]
-
-[sub_resource type="ProceduralSky" id=1]
-
-radiance_size = 4
-sky_top_color = Color( 0.0470588, 0.454902, 0.976471, 1 )
-sky_horizon_color = Color( 0.556863, 0.823529, 0.909804, 1 )
-sky_curve = 0.25
-sky_energy = 1.0
-ground_bottom_color = Color( 0.101961, 0.145098, 0.188235, 1 )
-ground_horizon_color = Color( 0.482353, 0.788235, 0.952941, 1 )
-ground_curve = 0.01
-ground_energy = 1.0
-sun_color = Color( 1, 1, 1, 1 )
-sun_latitude = 35.0
-sun_longitude = 0.0
-sun_angle_min = 1.0
-sun_angle_max = 100.0
-sun_curve = 0.05
-sun_energy = 16.0
-texture_size = 2
+[gd_resource type="Environment" format=2]
 
 [resource]
 
-background_mode = 2
-background_sky = SubResource( 1 )
+background_mode = 0
 background_sky_custom_fov = 0.0
 background_color = Color( 0, 0, 0, 1 )
 background_energy = 1.0
 background_canvas_max_layer = 0
-ambient_light_color = Color( 0, 0, 0, 1 )
+ambient_light_color = Color( 1, 1, 1, 1 )
 ambient_light_energy = 1.0
 ambient_light_sky_contribution = 1.0
 fog_enabled = false
@@ -94,8 +73,9 @@ glow_blend_mode = 2
 glow_hdr_threshold = 1.0
 glow_hdr_scale = 2.0
 glow_bicubic_upscale = false
-adjustment_enabled = false
+adjustment_enabled = true
 adjustment_brightness = 1.0
 adjustment_contrast = 1.0
 adjustment_saturation = 1.0
+_sections_unfolded = [ "Adjustments", "Ambient Light" ]
 

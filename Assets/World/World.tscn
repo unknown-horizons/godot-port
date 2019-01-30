@@ -1,41 +1,997 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=48 format=2]
 
-[ext_resource path="res://Assets/Audio/Sounds/Events/Scenario/lose.ogg" type="AudioStream" id=1]
-[ext_resource path="res://Assets/Audio/Music/GameMusic.gd" type="Script" id=2]
+[ext_resource path="res://default_env.tres" type="Environment" id=1]
+[ext_resource path="res://Assets/World/Terrain/grass.png" type="Texture" id=2]
+[ext_resource path="res://Assets/World/Terrain/beach.png" type="Texture" id=3]
+[ext_resource path="res://Assets/World/Terrain/shallow_deep_curve_in.png" type="Texture" id=4]
+[ext_resource path="res://Assets/World/Terrain/shallow_deep_curve_out.png" type="Texture" id=5]
+[ext_resource path="res://Assets/World/Terrain/deep.png" type="Texture" id=6]
+[ext_resource path="res://Assets/World/Terrain/grass_beach.png" type="Texture" id=7]
+[ext_resource path="res://Assets/World/Terrain/grass_beach_curve_in.png" type="Texture" id=8]
+[ext_resource path="res://Assets/World/Terrain/grass_beach_curve_out.png" type="Texture" id=9]
+[ext_resource path="res://Assets/World/Terrain/beach_shallow.png" type="Texture" id=10]
+[ext_resource path="res://Assets/World/Terrain/beach_shallow_curve_in.png" type="Texture" id=11]
+[ext_resource path="res://Assets/World/Terrain/beach_shallow_curve_out.png" type="Texture" id=12]
+[ext_resource path="res://Assets/World/Terrain/shallow.png" type="Texture" id=13]
+[ext_resource path="res://Assets/World/Terrain/shallow_deep.png" type="Texture" id=14]
+[ext_resource path="res://Assets/Player/PlayerCamera.tscn" type="PackedScene" id=15]
+[ext_resource path="res://Assets/World/WorldPlace.tscn" type="PackedScene" id=16]
+[ext_resource path="res://Assets/World/Buildings/Citizens/Residential/stone_house.png" type="Texture" id=17]
+[ext_resource path="res://Assets/UI/Fonts/MenuFont.tres" type="DynamicFont" id=18]
+[ext_resource path="res://Assets/Audio/Music/GameMusic.gd" type="Script" id=19]
 
-[node name="World" type="Node2D" index="0"]
+[sub_resource type="SpatialMaterial" id=1]
 
-[node name="GameMusic" type="AudioStreamPlayer" parent="." index="0"]
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 2 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
 
-stream = ExtResource( 1 )
+[sub_resource type="PlaneMesh" id=2]
+
+material = SubResource( 1 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="SpatialMaterial" id=3]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 3 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo" ]
+
+[sub_resource type="PlaneMesh" id=4]
+
+material = SubResource( 3 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="SpatialMaterial" id=5]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 4 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo" ]
+
+[sub_resource type="PlaneMesh" id=6]
+
+material = SubResource( 5 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="SpatialMaterial" id=7]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 5 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo" ]
+
+[sub_resource type="PlaneMesh" id=8]
+
+material = SubResource( 7 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="SpatialMaterial" id=9]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 6 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo" ]
+
+[sub_resource type="PlaneMesh" id=10]
+
+material = SubResource( 9 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="SpatialMaterial" id=11]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 7 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo" ]
+
+[sub_resource type="PlaneMesh" id=12]
+
+material = SubResource( 11 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="SpatialMaterial" id=13]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 8 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo" ]
+
+[sub_resource type="PlaneMesh" id=14]
+
+material = SubResource( 13 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="SpatialMaterial" id=15]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 9 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo" ]
+
+[sub_resource type="PlaneMesh" id=16]
+
+material = SubResource( 15 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="SpatialMaterial" id=17]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 10 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo" ]
+
+[sub_resource type="PlaneMesh" id=18]
+
+material = SubResource( 17 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="SpatialMaterial" id=19]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 11 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo" ]
+
+[sub_resource type="PlaneMesh" id=20]
+
+material = SubResource( 19 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="SpatialMaterial" id=21]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 12 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo" ]
+
+[sub_resource type="PlaneMesh" id=22]
+
+material = SubResource( 21 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="SpatialMaterial" id=23]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 13 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo" ]
+
+[sub_resource type="PlaneMesh" id=24]
+
+material = SubResource( 23 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="SpatialMaterial" id=25]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 14 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = false
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo" ]
+
+[sub_resource type="PlaneMesh" id=26]
+
+material = SubResource( 25 )
+custom_aabb = AABB( 0, 0, 0, 0, 0, 0 )
+size = Vector2( 2, 2 )
+subdivide_width = 0
+subdivide_depth = 0
+
+[sub_resource type="MeshLibrary" id=27]
+
+item/0/name = "grass"
+item/0/mesh = SubResource( 2 )
+item/0/shapes = [  ]
+item/0/preview = ExtResource( 2 )
+item/1/name = "beach"
+item/1/mesh = SubResource( 4 )
+item/1/shapes = [  ]
+item/1/preview = ExtResource( 3 )
+item/2/name = "grass_beach"
+item/2/mesh = SubResource( 12 )
+item/2/shapes = [  ]
+item/2/preview = ExtResource( 7 )
+item/3/name = "grass_beach_curve_in"
+item/3/mesh = SubResource( 14 )
+item/3/shapes = [  ]
+item/3/preview = ExtResource( 8 )
+item/4/name = "grass_beach_curve_out"
+item/4/mesh = SubResource( 16 )
+item/4/shapes = [  ]
+item/4/preview = ExtResource( 9 )
+item/5/name = "beach_shallow"
+item/5/mesh = SubResource( 18 )
+item/5/shapes = [  ]
+item/5/preview = ExtResource( 10 )
+item/6/name = "beach_shallow_curve_in"
+item/6/mesh = SubResource( 20 )
+item/6/shapes = [  ]
+item/6/preview = ExtResource( 11 )
+item/7/name = "beach_shallow_curve_out"
+item/7/mesh = SubResource( 22 )
+item/7/shapes = [  ]
+item/7/preview = ExtResource( 12 )
+item/8/name = "shallow"
+item/8/mesh = SubResource( 24 )
+item/8/shapes = [  ]
+item/8/preview = ExtResource( 13 )
+item/9/name = "shallow_deep"
+item/9/mesh = SubResource( 26 )
+item/9/shapes = [  ]
+item/9/preview = ExtResource( 14 )
+item/10/name = "shallow_deep_curve_in"
+item/10/mesh = SubResource( 6 )
+item/10/shapes = [  ]
+item/10/preview = ExtResource( 4 )
+item/11/name = "shallow_deep_curve_out"
+item/11/mesh = SubResource( 8 )
+item/11/shapes = [  ]
+item/11/preview = ExtResource( 5 )
+item/12/name = "deep"
+item/12/mesh = SubResource( 10 )
+item/12/shapes = [  ]
+item/12/preview = ExtResource( 6 )
+_sections_unfolded = [ "Resource", "item" ]
+
+[sub_resource type="Animation" id=28]
+
+resource_name = "day_night_cycle"
+length = 550.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("WorldEnvironment:environment:ambient_light_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 250, 300, 500, 550 ),
+"transitions": PoolRealArray( 2, 0.7, 2, 0.7, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0.882353, 0.54902, 0.27451, 1 ), Color( 0.294118, 0.27451, 0.882353, 1 ), Color( 0.882353, 0.54902, 0.27451, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("WorldEnvironment:environment:adjustment_saturation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 250, 300, 500 ),
+"transitions": PoolRealArray( 0.7, 2, 1 ),
+"update": 0,
+"values": [ 1.0, 0.5, 1.0 ]
+}
+
+[node name="World" type="Spatial" index="0"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." index="0"]
+
+environment = ExtResource( 1 )
+
+[node name="GridMap" type="GridMap" parent="." index="1"]
+
+theme = SubResource( 27 )
+cell_size = Vector3( 2, 2, 2 )
+cell_octant_size = 8
+cell_center_x = true
+cell_center_y = false
+cell_center_z = true
+cell_scale = 1.0
+collision_layer = 1
+collision_mask = 1
+data = {
+"cells": PoolIntArray( 0, 0, 1048580, 1, 0, 6, 2, 0, 1441797, 3, 0, 538312709, 65529, 0, 655360, 65530, 0, 655360, 65531, 0, 655360, 65532, 0, 655360, 65533, 0, 655360, 65534, 0, 1048579, 65535, 0, 1048578, 0, 1, 2, 1, 1, 1048582, 2, 1, 1048581, 3, 1, 1048581, 65529, 1, 655360, 65530, 1, -1073086464, 65531, 1, 3, 65532, 1, 1441795, 65533, 1, 655360, 65534, 1, 655360, 65535, 1, 655360, 0, 2, 1048579, 1, 2, 1048578, 2, 2, 1048578, 3, 2, 1048578, 65529, 2, 1441794, 65530, 2, 1441794, 65531, 2, 4, 65532, 2, 1441796, 65533, 2, 1075183618, 65534, 2, 1441795, 65535, 2, 655360, 0, 3, 1441795, 1, 3, 655360, 2, 3, 655360, 3, 3, 655360, 65529, 3, 1441797, 65530, 3, 1441798, 65531, 3, 1, 65532, 3, 1, 65533, 3, 1, 65534, 3, 1441796, 65535, 3, 1441794, 0, 4, 655362, 1, 4, 655360, 2, 4, 655360, 3, 4, 655360, 65529, 4, 1441800, 65530, 4, 1441799, 65531, 4, 1441797, 65532, 4, 1441797, 65533, 4, 1441797, 65534, 4, 1441798, 65535, 4, 1, 0, 5, 655362, 1, 5, 655360, 2, 5, 655360, 3, 5, 655360, 65529, 5, 1441801, 65530, 5, 1441801, 65531, 5, 1075183625, 65532, 5, 1441802, 65533, 5, 1441800, 65534, 5, 655365, 65535, 5, 1, 0, 6, 655362, 1, 6, 655360, 2, 6, 655360, 3, 6, 655360, 65529, 6, 1441804, 65530, 6, 1441804, 65531, 6, 1441804, 65532, 6, 1441803, 65533, 6, 1441802, 65534, 6, 1441799, 65535, 6, 1441798, 0, 65532, 655360, 1, 65532, 655360, 2, 65532, 655360, 3, 65532, 655360, 65529, 65532, 655360, 65530, 65532, 1048579, 65531, 65532, 1048578, 65532, 65532, 1048578, 65533, 65532, 1048578, 65534, 65532, 1048578, 65535, 65532, 655363, 0, 65533, 655360, 1, 65533, 655360, 2, 65533, 655360, 3, 65533, 655360, 65529, 65533, 655360, 65530, 65533, 655360, 65531, 65533, 1441792, 65532, 65533, -1609957376, 65533, 65533, 655360, 65534, 65533, 655360, 65535, 65533, 655360, 0, 65534, 655360, 1, 65534, 655360, 2, 65534, 655360, 3, 65534, 655360, 65529, 65534, 655360, 65530, 65534, 1441792, 65531, 65534, 655360, 65532, 65534, 655360, 65533, 65534, 3, 65534, 65534, 1441794, 65535, 65534, 1441795, 0, 65535, 1441794, 1, 65535, 1075183618, 2, 65535, 1441794, 3, 65535, 1441794, 65529, 65535, 655360, 65530, 65535, 655360, 65531, 65535, 655360, 65532, 65535, 655360, 65533, 65535, 1048579, 65534, 65535, 1048580, 65535, 65535, 1441796 )
+}
+_sections_unfolded = [ "Cell", "Transform" ]
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 0, 0 )
+}
+
+[node name="PlayerCamera" parent="." index="2" instance=ExtResource( 15 )]
+
+[node name="WorldPlace" parent="." index="3" instance=ExtResource( 16 )]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
+texture = ExtResource( 17 )
+
+[node name="WorldPlace2" parent="." index="4" instance=ExtResource( 16 )]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -2 )
+texture = ExtResource( 17 )
+place_rotation = 1
+
+[node name="WorldPlace3" parent="." index="5" instance=ExtResource( 16 )]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2 )
+texture = ExtResource( 17 )
+place_rotation = 2
+
+[node name="WorldPlace4" parent="." index="6" instance=ExtResource( 16 )]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -2 )
+texture = ExtResource( 17 )
+place_rotation = 2
+
+[node name="Instructions" type="Label" parent="." index="7"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+margin_bottom = 30.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+custom_fonts/font = ExtResource( 18 )
+text = "Camera Controls: WASD to move, arrows to rotate & zoom, scroll to zoom"
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Rect", "Size Flags", "custom_fonts" ]
+
+[node name="GameMusic" type="AudioStreamPlayer" parent="." index="8"]
+
+stream = null
 volume_db = -20.0
 pitch_scale = 1.0
 autoplay = true
 mix_target = 0
 bus = "Music"
-script = ExtResource( 2 )
+script = ExtResource( 19 )
 
-[node name="TileMap" type="TileMap" parent="." index="1"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="9"]
 
-mode = 1
-tile_set = null
-cell_size = Vector2( 64, 32 )
-cell_quadrant_size = 16
-cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-cell_half_offset = 2
-cell_tile_origin = 1
-cell_y_sort = false
-cell_clip_uv = false
-collision_use_kinematic = false
-collision_friction = 1.0
-collision_bounce = 0.0
-collision_layer = 1
-collision_mask = 1
-occluder_light_mask = 1
-format = 1
-tile_data = PoolIntArray(  )
-_sections_unfolded = [ "Cell" ]
+root_node = NodePath("..")
+autoplay = "day_night_cycle"
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 25.0
+anims/day_night_cycle = SubResource( 28 )
+blend_times = [  ]
+_sections_unfolded = [ "Playback Options" ]
 
-[connection signal="finished" from="GameMusic" to="GameMusic" method="_on_GameMusic_finished"]
+[connection signal="finished" from="GameMusic" to="GameMusic" method="play_song_random"]
 
 
