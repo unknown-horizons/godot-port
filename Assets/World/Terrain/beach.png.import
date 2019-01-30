@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/beach.png-a9fa82d53b14bba94259f46214356bf1.s3tc.stex"
 path.etc2="res://.import/beach.png-a9fa82d53b14bba94259f46214356bf1.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
 
 [deps]
 
@@ -15,6 +19,7 @@ dest_files=[ "res://.import/beach.png-a9fa82d53b14bba94259f46214356bf1.s3tc.stex
 compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
 flags/filter=false
@@ -24,6 +29,7 @@ flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false
