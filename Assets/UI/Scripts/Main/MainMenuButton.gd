@@ -1,3 +1,4 @@
+tool
 extends TextureButton
 
 export var allignement = "left"
