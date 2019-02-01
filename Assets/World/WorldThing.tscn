@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Assets/World/WorldPlace.gd" type="Script" id=1]
+[ext_resource path="res://Assets/World/WorldThing.gd" type="Script" id=1]
 
 [sub_resource type="SpatialMaterial" id=1]
 
@@ -54,11 +54,12 @@ proximity_fade_enable = false
 distance_fade_enable = false
 _sections_unfolded = [ "Albedo", "Flags", "Parameters" ]
 
-[node name="WorldPlace" type="Spatial" index="0"]
+[node name="WorldThing" type="Spatial" index="0"]
 
 script = ExtResource( 1 )
 texture = null
-place_rotation = 0
+rotation_step = 1
+rotation_degree = 0
 
 [node name="Billboard" type="Sprite3D" parent="." index="0"]
 
