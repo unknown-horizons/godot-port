@@ -1,17 +1,18 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Assets/UI/Themes/MenuTheme.tres" type="Theme" id=1]
 [ext_resource path="res://Assets/UI/Scripts/Main/MainMenuUI.gd" type="Script" id=2]
 [ext_resource path="res://Assets/UI/Images/Background/MainMenu/wheel.png" type="Texture" id=3]
 [ext_resource path="res://Assets/UI/Scenes/MainMenuButton.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/continue.png" type="Texture" id=5]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/log_bw.png" type="Texture" id=6]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/editor_bw.png" type="Texture" id=7]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/door.png" type="Texture" id=8]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/gears_bw.png" type="Texture" id=9]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/multiplayer_bw.png" type="Texture" id=10]
-[ext_resource path="res://Assets/UI/Images/Logos/uh_no_text.svg" type="Texture" id=11]
-[ext_resource path="res://Assets/UI/Images/Logos/uh_only_text.svg" type="Texture" id=12]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/compass.png" type="Texture" id=5]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/continue.png" type="Texture" id=6]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/log_bw.png" type="Texture" id=7]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/editor_bw.png" type="Texture" id=8]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/door.png" type="Texture" id=9]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/gears_bw.png" type="Texture" id=10]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/multiplayer_bw.png" type="Texture" id=11]
+[ext_resource path="res://Assets/UI/Images/Logos/uh_no_text.svg" type="Texture" id=12]
+[ext_resource path="res://Assets/UI/Images/Logos/uh_only_text.svg" type="Texture" id=13]
 
 [sub_resource type="Animation" id=1]
 
@@ -197,10 +198,11 @@ _sections_unfolded = [ "Visibility" ]
 
 [node name="SinglePlayerButton" parent="Decoration/MenuItems" index="0" instance=ExtResource( 4 )]
 
-margin_left = -49.0
-margin_top = -233.0
-margin_right = 51.0
-margin_bottom = -133.0
+margin_left = -50.0
+margin_top = -205.0
+margin_right = 50.0
+margin_bottom = -105.0
+_sections_unfolded = [ "Rect" ]
 allignement = "top"
 text = "Single Player"
 texture = ExtResource( 5 )
@@ -211,17 +213,19 @@ margin_left = -158.0
 margin_top = -160.0
 margin_right = -58.0
 margin_bottom = -60.0
+_sections_unfolded = [ "Rect" ]
 text = "Load Game"
-texture = ExtResource( 5 )
+texture = ExtResource( 6 )
 
 [node name="CreditsButton" parent="Decoration/MenuItems" index="2" instance=ExtResource( 4 )]
 
-margin_left = -200.0
-margin_top = -51.0
-margin_right = -100.0
-margin_bottom = 49.0
+margin_left = -205.0
+margin_top = -50.0
+margin_right = -105.0
+margin_bottom = 50.0
+_sections_unfolded = [ "Rect" ]
 text = "Credits"
-texture = ExtResource( 6 )
+texture = ExtResource( 7 )
 
 [node name="EditorButton" parent="Decoration/MenuItems" index="3" instance=ExtResource( 4 )]
 
@@ -229,18 +233,20 @@ margin_left = -158.0
 margin_top = 57.0
 margin_right = -58.0
 margin_bottom = 157.0
+_sections_unfolded = [ "Rect" ]
 text = "Editor"
-texture = ExtResource( 7 )
+texture = ExtResource( 8 )
 
 [node name="QuitButton" parent="Decoration/MenuItems" index="4" instance=ExtResource( 4 )]
 
-margin_left = -51.0
-margin_top = 103.0
-margin_right = 49.0
-margin_bottom = 203.0
+margin_left = -50.0
+margin_top = 105.0
+margin_right = 50.0
+margin_bottom = 205.0
+_sections_unfolded = [ "Rect" ]
 allignement = "bottom"
 text = "Quit"
-texture = ExtResource( 8 )
+texture = ExtResource( 9 )
 
 [node name="HelpButton" parent="Decoration/MenuItems" index="5" instance=ExtResource( 4 )]
 
@@ -248,18 +254,20 @@ margin_left = 61.0
 margin_top = 57.0
 margin_right = 161.0
 margin_bottom = 157.0
+_sections_unfolded = [ "Rect" ]
 allignement = "right"
 text = "Help"
 
 [node name="OptionsButton" parent="Decoration/MenuItems" index="6" instance=ExtResource( 4 )]
 
-margin_left = 103.0
-margin_top = -51.0
-margin_right = 203.0
-margin_bottom = 49.0
+margin_left = 105.0
+margin_top = -50.0
+margin_right = 205.0
+margin_bottom = 50.0
+_sections_unfolded = [ "Rect" ]
 allignement = "right"
 text = "Options"
-texture = ExtResource( 9 )
+texture = ExtResource( 10 )
 
 [node name="ConnectButton" parent="Decoration/MenuItems" index="7" instance=ExtResource( 4 )]
 
@@ -267,9 +275,10 @@ margin_left = 60.0
 margin_top = -160.0
 margin_right = 160.0
 margin_bottom = -60.0
+_sections_unfolded = [ "Rect" ]
 allignement = "right"
 text = "Connect"
-texture = ExtResource( 10 )
+texture = ExtResource( 11 )
 
 [node name="Logo" type="Control" parent="." index="1"]
 
@@ -310,7 +319,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 11 )
+texture = ExtResource( 12 )
 expand = true
 stretch_mode = 4
 _sections_unfolded = [ "Mouse", "Rect", "Visibility" ]
@@ -331,7 +340,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-texture = ExtResource( 12 )
+texture = ExtResource( 13 )
 expand = true
 stretch_mode = 4
 _sections_unfolded = [ "Anchor", "Mouse", "Rect", "Visibility" ]
