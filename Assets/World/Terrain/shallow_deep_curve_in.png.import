@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/shallow_deep_curve_in.png-e9e87f3090f2a2446e158df58f7a7a51.s3tc.stex"
 path.etc2="res://.import/shallow_deep_curve_in.png-e9e87f3090f2a2446e158df58f7a7a51.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
 
 [deps]
 
@@ -15,6 +19,7 @@ dest_files=[ "res://.import/shallow_deep_curve_in.png-e9e87f3090f2a2446e158df58f
 compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
 flags/filter=false
@@ -24,6 +29,7 @@ flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

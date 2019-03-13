@@ -15,10 +15,7 @@
 [ext_resource path="res://Assets/UI/Images/Logos/uh_only_text.svg" type="Texture" id=13]
 
 [sub_resource type="Animation" id=1]
-
 length = 3.7
-loop = false
-step = 0.1
 tracks/0/type = "method"
 tracks/0/path = NodePath(".")
 tracks/0/interp = 1
@@ -142,26 +139,15 @@ tracks/9/keys = {
 "values": [ 1.0, 0.0, 0.0 ]
 }
 
-[node name="MainMenuUI" type="Control" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
+[node name="MainMenuUI" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
 theme = ExtResource( 1 )
 script = ExtResource( 2 )
-_sections_unfolded = [ "Anchor", "Rect", "Size Flags", "Theme" ]
 
-[node name="Decoration" type="TextureRect" parent="." index="0"]
-
+[node name="Decoration" type="TextureRect" parent="."]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -172,116 +158,83 @@ margin_right = 20.0
 margin_bottom = 85.0
 rect_min_size = Vector2( 40, 40 )
 rect_pivot_offset = Vector2( 20, 20 )
-rect_clip_content = false
-mouse_filter = 1
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
 texture = ExtResource( 3 )
 expand = true
 stretch_mode = 4
-_sections_unfolded = [ "Rect", "Visibility" ]
 
-[node name="MenuItems" type="Control" parent="Decoration" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
+[node name="MenuItems" type="Control" parent="Decoration"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Visibility" ]
 
-[node name="SinglePlayerButton" parent="Decoration/MenuItems" index="0" instance=ExtResource( 4 )]
-
+[node name="SinglePlayerButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = -50.0
 margin_top = -205.0
 margin_right = 50.0
 margin_bottom = -105.0
-_sections_unfolded = [ "Rect" ]
 allignement = "top"
 text = "Single Player"
 texture = ExtResource( 5 )
 
-[node name="LoadGameButton" parent="Decoration/MenuItems" index="1" instance=ExtResource( 4 )]
-
+[node name="LoadGameButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = -158.0
 margin_top = -160.0
 margin_right = -58.0
 margin_bottom = -60.0
-_sections_unfolded = [ "Rect" ]
 text = "Load Game"
 texture = ExtResource( 6 )
 
-[node name="CreditsButton" parent="Decoration/MenuItems" index="2" instance=ExtResource( 4 )]
-
+[node name="CreditsButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = -205.0
 margin_top = -50.0
 margin_right = -105.0
 margin_bottom = 50.0
-_sections_unfolded = [ "Rect" ]
 text = "Credits"
 texture = ExtResource( 7 )
 
-[node name="EditorButton" parent="Decoration/MenuItems" index="3" instance=ExtResource( 4 )]
-
+[node name="EditorButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = -158.0
 margin_top = 57.0
 margin_right = -58.0
 margin_bottom = 157.0
-_sections_unfolded = [ "Rect" ]
 text = "Editor"
 texture = ExtResource( 8 )
 
-[node name="QuitButton" parent="Decoration/MenuItems" index="4" instance=ExtResource( 4 )]
-
+[node name="QuitButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = -50.0
 margin_top = 105.0
 margin_right = 50.0
 margin_bottom = 205.0
-_sections_unfolded = [ "Rect" ]
 allignement = "bottom"
 text = "Quit"
 texture = ExtResource( 9 )
 
-[node name="HelpButton" parent="Decoration/MenuItems" index="5" instance=ExtResource( 4 )]
-
+[node name="HelpButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = 61.0
 margin_top = 57.0
 margin_right = 161.0
 margin_bottom = 157.0
-_sections_unfolded = [ "Rect" ]
 allignement = "right"
 text = "Help"
 
-[node name="OptionsButton" parent="Decoration/MenuItems" index="6" instance=ExtResource( 4 )]
-
+[node name="OptionsButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = 105.0
 margin_top = -50.0
 margin_right = 205.0
 margin_bottom = 50.0
-_sections_unfolded = [ "Rect" ]
 allignement = "right"
 text = "Options"
 texture = ExtResource( 10 )
 
-[node name="ConnectButton" parent="Decoration/MenuItems" index="7" instance=ExtResource( 4 )]
-
+[node name="ConnectButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = 60.0
 margin_top = -160.0
 margin_right = 160.0
 margin_bottom = -60.0
-_sections_unfolded = [ "Rect" ]
 allignement = "right"
 text = "Connect"
 texture = ExtResource( 11 )
 
-[node name="Logo" type="Control" parent="." index="1"]
-
+[node name="Logo" type="Control" parent="."]
 visible = false
 anchor_left = 0.5
 anchor_top = 0.5
@@ -292,19 +245,11 @@ margin_top = -20.0
 margin_right = 20.0
 margin_bottom = 20.0
 rect_min_size = Vector2( 40, 40 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Rect", "Visibility" ]
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="LogoEmblem" type="TextureRect" parent="Logo" index="0"]
-
+[node name="LogoEmblem" type="TextureRect" parent="Logo"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -313,19 +258,12 @@ margin_left = -299.0
 margin_top = -340.0
 margin_right = 299.0
 margin_bottom = 232.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
 mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
 texture = ExtResource( 12 )
 expand = true
 stretch_mode = 4
-_sections_unfolded = [ "Mouse", "Rect", "Visibility" ]
 
-[node name="LogoTitle" type="TextureRect" parent="Logo" index="1"]
-
+[node name="LogoTitle" type="TextureRect" parent="Logo"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -334,47 +272,22 @@ margin_left = -296.0
 margin_top = 125.0
 margin_right = 296.0
 margin_bottom = 340.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
 mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
 texture = ExtResource( 13 )
 expand = true
 stretch_mode = 4
-_sections_unfolded = [ "Anchor", "Mouse", "Rect", "Visibility" ]
 
-[node name="Fade" type="ColorRect" parent="." index="2"]
-
+[node name="Fade" type="ColorRect" parent="."]
 visible = false
-anchor_left = 0.0
-anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
 mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
 color = Color( 0.137255, 0.137255, 0.137255, 1 )
-_sections_unfolded = [ "Mouse", "Visibility" ]
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="3"]
-
-root_node = NodePath("..")
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "intro"
-playback_process_mode = 1
-playback_default_blend_time = 0.0
-playback_speed = 1.0
 anims/intro = SubResource( 1 )
-blend_times = [  ]
 
 [connection signal="pressed" from="Decoration/MenuItems/SinglePlayerButton" to="." method="_go_to_scene" binds= [ "world" ]]
-
 [connection signal="pressed" from="Decoration/MenuItems/LoadGameButton" to="." method="_go_to_scene" binds= [ "world" ]]
-
 [connection signal="pressed" from="Decoration/MenuItems/QuitButton" to="." method="_go_to_scene" binds= [ "exit" ]]
-
-
