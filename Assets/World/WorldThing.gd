@@ -16,19 +16,19 @@ enum RotationDegrees {
 	THREE_FIFTEEN
 }
 
-export(Texture) var texture setget set_texture
-export(RotationSteps) var rotation_step = 1 setget set_rotation_step
-export(RotationDegrees) var rotation_degree = 0 setget set_rotation_degree
+export var texture: Texture setget set_texture
+export(RotationSteps) var rotation_step := 1 setget set_rotation_step
+export(RotationDegrees) var rotation_degree := 0 setget set_rotation_degree
 
 onready var _billboard = $Billboard # as MeshInstance
 
-func _ready():
+func _ready() -> void:
 	# Retry exported properties setters after all nodes are ready.
 	set_texture(texture)
 	set_rotation_step(rotation_step)
 	set_rotation_degree(rotation_degree)
 
-func _input(event):
+func _input(event: InputEvent) -> void:
 	# Switch frame accordingly with the world rotation.
 	if event.is_action_pressed("rotate_left"):
 		_billboard.frame = wrapi(_billboard.frame - rotation_step, 0,
@@ -37,7 +37,7 @@ func _input(event):
 		_billboard.frame = wrapi(_billboard.frame + rotation_step, 0,
 				_billboard.hframes * _billboard.vframes)
 
-func set_texture(new_texture):
+func set_texture(new_texture: Texture) -> void:
 	texture = new_texture
 	
 	if not is_inside_tree():
@@ -45,7 +45,7 @@ func set_texture(new_texture):
 	
 	_billboard.texture = new_texture
 
-func set_rotation_step(new_step):
+func set_rotation_step(new_step: int) -> void:
 	rotation_step = new_step
 	
 	if not is_inside_tree():
@@ -57,7 +57,7 @@ func set_rotation_step(new_step):
 		RotationSteps.NINETY:
 			_billboard.hframes = 2
 
-func set_rotation_degree(new_rotation):
+func set_rotation_degree(new_rotation: int) -> void:
 	rotation_degree = new_rotation
 	
 	if not is_inside_tree():
@@ -73,4 +73,5 @@ func set_rotation_degree(new_rotation):
 				
 				return
 			
+			#warning-ignore:integer_division
 			_billboard.frame = new_rotation / 2

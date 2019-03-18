@@ -1,9 +1,10 @@
 tool
 extends TextureButton
 
-export var allignement = "left"
-export var text = ""
-export var texture = preload("res://Assets/UI/Icons/MainMenu/help_bw.png")
+export var allignement := "left"
+export var text := ""
+export var texture: Texture =\
+		preload("res://Assets/UI/Icons/MainMenu/help_bw.png") # Fallback.
 
 var allignements = {
 	left = Vector2(-200, 30),
@@ -12,7 +13,7 @@ var allignements = {
 	bottom = Vector2(-50, 100)
 }
 
-func _ready():
+func _ready() -> void:
 	$Panel.rect_position = allignements[allignement]
-	$Icon.texture = texture
 	$Panel/Label.text = text
+	$Icon.texture = texture
