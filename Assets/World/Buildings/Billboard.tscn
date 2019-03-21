@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/World/Buildings/BuildingMaterial.tres" type="Material" id=1]
+
+[node name="Billboard" type="Sprite3D"]
+material_override = ExtResource( 1 )
+cast_shadow = 0
+offset = Vector2( 0, 32 )
+pixel_size = 0.015
+transparent = false
+double_sided = false
+vframes = 2
+hframes = 2
+
