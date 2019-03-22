@@ -4,6 +4,13 @@
 # Mono-specific ignores
 .mono/
 .vs/
+mono_crash.*.json
+
+# Mac
+*.DS_Store
+
+# Ignore just "build" in case someone wants to make their own version of "build.sh"
+build
 
 # Custom folders to ignore
 Builds/

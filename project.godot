@@ -89,5 +89,7 @@ file_logging/max_log_files=5
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
 quality/driver/fallback_to_gles2=true
+quality/intended_usage/framebuffer_allocation=3
 environment/default_environment="res://default_env.tres"

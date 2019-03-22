@@ -3,30 +3,15 @@
 [ext_resource path="res://Assets/Player/PlayerCamera.gd" type="Script" id=1]
 
 [node name="PlayerCamera" type="Spatial"]
-
 script = ExtResource( 1 )
-_sections_unfolded = [ "Transform" ]
 
-[node name="RotationY" type="Spatial" parent="." index="0"]
-
+[node name="RotationY" type="Spatial" parent="."]
 transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 0, 0 )
-_sections_unfolded = [ "Transform" ]
 
-[node name="Camera" type="Camera" parent="RotationY" index="0"]
-
+[node name="Camera" type="Camera" parent="RotationY"]
 transform = Transform( 1, -2.98023e-08, -2.98023e-08, 0, 0.819152, 0.573577, 0, -0.573577, 0.819152, 0, 100, 143 )
-keep_aspect = 1
-cull_mask = 1048575
-environment = null
-h_offset = 0.0
-v_offset = 0.0
-doppler_tracking = 0
 projection = 1
 current = true
-fov = 70.0
 size = 20.0
-near = 0.05
 far = 1000.0
-_sections_unfolded = [ "Transform" ]
-
 
