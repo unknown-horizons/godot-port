@@ -1,4 +1,4 @@
-[gd_scene load_steps=48 format=2]
+[gd_scene load_steps=47 format=2]
 
 [ext_resource path="res://default_env.tres" type="Environment" id=1]
 [ext_resource path="res://Assets/World/Terrain/grass.png" type="Texture" id=2]
@@ -16,9 +16,8 @@
 [ext_resource path="res://Assets/World/Terrain/shallow_deep.png" type="Texture" id=14]
 [ext_resource path="res://Assets/Player/PlayerCamera.tscn" type="PackedScene" id=15]
 [ext_resource path="res://Assets/World/Buildings/Citizens/Residential/stone_house.tscn" type="PackedScene" id=16]
-[ext_resource path="res://Assets/World/Buildings/Citizens/Residential/stone_house.png" type="Texture" id=17]
-[ext_resource path="res://Assets/UI/Fonts/MenuFont.tres" type="DynamicFont" id=18]
-[ext_resource path="res://Assets/Audio/Music/GameMusic.gd" type="Script" id=19]
+[ext_resource path="res://Assets/UI/Fonts/MenuFont.tres" type="DynamicFont" id=17]
+[ext_resource path="res://Assets/Audio/Music/GameMusic.gd" type="Script" id=18]
 
 [sub_resource type="SpatialMaterial" id=1]
 albedo_texture = ExtResource( 2 )
@@ -216,26 +215,25 @@ __meta__ = {
 
 [node name="Stone_house" parent="." instance=ExtResource( 16 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0 )
-texture = ExtResource( 17 )
 
 [node name="Stone_House2" parent="." instance=ExtResource( 16 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -2 )
-texture = ExtResource( 17 )
 
 [node name="Stone_House3" parent="." instance=ExtResource( 16 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2 )
-texture = ExtResource( 17 )
 
 [node name="Stone_House4" parent="." instance=ExtResource( 16 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -2 )
-texture = ExtResource( 17 )
+
+[node name="Stone_House5" parent="." instance=ExtResource( 16 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -2 )
 
 [node name="Instructions" type="Label" parent="."]
 anchor_right = 1.0
 margin_bottom = 30.0
 size_flags_horizontal = 0
 size_flags_vertical = 0
-custom_fonts/font = ExtResource( 18 )
+custom_fonts/font = ExtResource( 17 )
 text = "Camera Controls: WASD to move, arrows to rotate & zoom, scroll to zoom"
 align = 1
 
@@ -243,7 +241,7 @@ align = 1
 volume_db = -20.0
 autoplay = true
 bus = "Music"
-script = ExtResource( 19 )
+script = ExtResource( 18 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "day_night_cycle"
