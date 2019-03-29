@@ -1,4 +1,5 @@
 extends Spatial
+class_name WorldThing
 
 enum RotationSteps {
 	NINETY = 1,

@@ -8,9 +8,26 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "WorldThing",
+"class": "Building",
+"language": "GDScript",
+"path": "res://Assets/World/Buildings/Building.gd"
+}, {
+"base": "Building",
+"class": "Residence",
+"language": "GDScript",
+"path": "res://Assets/World/Buildings/Citizens/Residential/Residence.gd"
+}, {
+"base": "Spatial",
+"class": "WorldThing",
+"language": "GDScript",
+"path": "res://Assets/World/WorldThing.gd"
+} ]
 _global_script_class_icons={
-
+"Building": "",
+"Residence": "",
+"WorldThing": ""
 }
 
 [application]
