@@ -4,9 +4,6 @@
 [ext_resource path="res://Assets/UI/Scenes/MainMenuUI.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Assets/UI/Images/Background/Widgets/main_theme.ogg" type="AudioStream" id=3]
 
-
-
-
 [node name="MainMenuScene" type="Node"]
 
 [node name="Background" type="TextureRect" parent="."]
@@ -22,4 +19,3 @@ stream = ExtResource( 3 )
 volume_db = -20.0
 autoplay = true
 bus = "Music"
-

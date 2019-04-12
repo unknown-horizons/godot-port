@@ -1,9 +1,9 @@
 extends Button
 
-var _parent # : VBoxContainer
+var _parent: VBoxContainer
 
-func _ready():
+func _ready() -> void:
 	_parent = get_parent()
 
-func _pressed():
+func _pressed() -> void:
 	_parent.toggle_visible()

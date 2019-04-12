@@ -8,9 +8,26 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "WorldThing",
+"class": "Building",
+"language": "GDScript",
+"path": "res://Assets/World/Buildings/Building.gd"
+}, {
+"base": "Building",
+"class": "Residence",
+"language": "GDScript",
+"path": "res://Assets/World/Buildings/Citizens/Residential/Residence.gd"
+}, {
+"base": "Spatial",
+"class": "WorldThing",
+"language": "GDScript",
+"path": "res://Assets/World/WorldThing.gd"
+} ]
 _global_script_class_icons={
-
+"Building": "",
+"Residence": "",
+"WorldThing": ""
 }
 
 [application]
@@ -89,4 +106,7 @@ file_logging/max_log_files=5
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
+quality/driver/fallback_to_gles2=true
+quality/intended_usage/framebuffer_allocation=3
 environment/default_environment="res://default_env.tres"

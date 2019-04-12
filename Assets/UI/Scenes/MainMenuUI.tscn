@@ -1,29 +1,22 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Assets/UI/Images/Background/Widgets/MenuTheme.tres" type="Theme" id=1]
 [ext_resource path="res://Assets/UI/Scripts/Main/MainMenuUI.gd" type="Script" id=2]
 [ext_resource path="res://Assets/UI/Images/Background/MainMenu/wheel.png" type="Texture" id=3]
-[ext_resource path="res://Assets/UI/Images/Buttons/mainmenu_button_bg.png" type="Texture" id=4]
-[ext_resource path="res://Assets/UI/Images/Buttons/mainmenu_button_h.png" type="Texture" id=5]
-[ext_resource path="res://Assets/UI/Images/Buttons/mainmenu_button_bw.png" type="Texture" id=6]
-[ext_resource path="res://Assets/UI/Images/Buttons/mainmenu_button_mask.png" type="BitMap" id=7]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/compass.png" type="Texture" id=8]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/continue.png" type="Texture" id=9]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/log_bw.png" type="Texture" id=10]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/editor_bw.png" type="Texture" id=11]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/door.png" type="Texture" id=12]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/help_bw.png" type="Texture" id=13]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/gears_bw.png" type="Texture" id=14]
-[ext_resource path="res://Assets/UI/Icons/MainMenu/multiplayer_bw.png" type="Texture" id=15]
-[ext_resource path="res://Assets/UI/Images/Logos/uh_no_text.svg" type="Texture" id=16]
-[ext_resource path="res://Assets/UI/Images/Logos/uh_only_text.svg" type="Texture" id=17]
+[ext_resource path="res://Assets/UI/Scenes/MainMenuButton.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/compass.png" type="Texture" id=5]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/continue.png" type="Texture" id=6]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/log_bw.png" type="Texture" id=7]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/editor_bw.png" type="Texture" id=8]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/door.png" type="Texture" id=9]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/gears_bw.png" type="Texture" id=10]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/multiplayer_bw.png" type="Texture" id=11]
+[ext_resource path="res://Assets/UI/Images/Logos/uh_no_text.svg" type="Texture" id=12]
+[ext_resource path="res://Assets/UI/Images/Logos/uh_only_text.svg" type="Texture" id=13]
 
 
 [sub_resource type="Animation" id=1]
-
 length = 3.7
-loop = false
-step = 0.1
 tracks/0/type = "method"
 tracks/0/path = NodePath(".")
 tracks/0/interp = 1
@@ -148,25 +141,14 @@ tracks/9/keys = {
 }
 
 [node name="MainMenuUI" type="Control"]
-
-anchor_left = 0.0
-anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
 theme = ExtResource( 1 )
 script = ExtResource( 2 )
-_sections_unfolded = [ "Anchor", "Rect", "Size Flags", "Theme" ]
 
-[node name="Decoration" type="TextureRect" parent="." index="0"]
-
+[node name="Decoration" type="TextureRect" parent="."]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -177,809 +159,83 @@ margin_right = 20.0
 margin_bottom = 85.0
 rect_min_size = Vector2( 40, 40 )
 rect_pivot_offset = Vector2( 20, 20 )
-rect_clip_content = false
-mouse_filter = 1
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
 texture = ExtResource( 3 )
 expand = true
 stretch_mode = 4
-_sections_unfolded = [ "Rect", "Visibility" ]
 
-[node name="MenuItems" type="Control" parent="Decoration" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
+[node name="MenuItems" type="Control" parent="Decoration"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Visibility" ]
 
-[node name="NewGameButton" type="TextureButton" parent="Decoration/MenuItems" index="0"]
-
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
+[node name="SinglePlayerButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = -50.0
-margin_top = -202.0
+margin_top = -205.0
 margin_right = 50.0
-margin_bottom = -102.0
-rect_min_size = Vector2( 100, 100 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath("../ResumeGameButton")
-focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath("../NewGameButton")
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
-texture_normal = ExtResource( 4 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 5 )
-texture_disabled = ExtResource( 6 )
-texture_focused = ExtResource( 5 )
-texture_click_mask = ExtResource( 7 )
+margin_bottom = -105.0
+allignement = "top"
+text = "Single Player"
+texture = ExtResource( 5 )
 
-[node name="Icon" type="TextureRect" parent="Decoration/MenuItems/NewGameButton" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 26.0
-margin_top = 26.0
-margin_right = -26.0
-margin_bottom = -26.0
-rect_min_size = Vector2( 48, 48 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-texture = ExtResource( 8 )
-stretch_mode = 0
-_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-
-[node name="Panel" type="Panel" parent="Decoration/MenuItems/NewGameButton" index="1"]
-
-anchor_left = 0.5
-anchor_top = 0.0
-anchor_right = 0.5
-anchor_bottom = 0.0
-margin_left = -100.0
-margin_top = -36.0
-margin_right = 100.0
-rect_min_size = Vector2( 200, 0 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Anchor", "Margin", "Rect", "Visibility" ]
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Label" type="Label" parent="Decoration/MenuItems/NewGameButton/Panel" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 4
-text = "Singleplayer"
-align = 1
-valign = 1
-clip_text = true
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "custom_fonts" ]
-
-[node name="LoadGameButton" type="TextureButton" parent="Decoration/MenuItems" index="1"]
-
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
+[node name="LoadGameButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = -158.0
 margin_top = -160.0
-margin_right = -57.9999
+margin_right = -58.0
 margin_bottom = -60.0
-rect_min_size = Vector2( 100, 100 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath("../ResumeGameButton")
-focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath("../NewGameButton")
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
-texture_normal = ExtResource( 4 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 5 )
-texture_disabled = ExtResource( 6 )
-texture_focused = ExtResource( 5 )
-texture_click_mask = ExtResource( 7 )
-_sections_unfolded = [ "Margin", "Rect" ]
-
-[node name="Icon" type="TextureRect" parent="Decoration/MenuItems/LoadGameButton" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 26.0
-margin_top = 26.0
-margin_right = -26.0
-margin_bottom = -26.0
-rect_min_size = Vector2( 48, 48 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-texture = ExtResource( 9 )
-stretch_mode = 0
-_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-
-[node name="Panel" type="Panel" parent="Decoration/MenuItems/LoadGameButton" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.5
-anchor_right = 0.0
-anchor_bottom = 0.5
-margin_left = -200.0
-margin_top = -18.0
-margin_bottom = 18.0
-rect_min_size = Vector2( 200, 0 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Margin", "Rect" ]
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Label" type="Label" parent="Decoration/MenuItems/LoadGameButton/Panel" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 4
 text = "Load Game"
-align = 1
-valign = 1
-clip_text = true
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
+texture = ExtResource( 6 )
 
-[node name="CreditsButton" type="TextureButton" parent="Decoration/MenuItems" index="2"]
-
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -201.0
-margin_top = -51.0
-margin_right = -101.0
-margin_bottom = 49.0
-rect_min_size = Vector2( 100, 100 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath("../ResumeGameButton")
-focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath("../NewGameButton")
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-disabled = true
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
-texture_normal = ExtResource( 4 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 5 )
-texture_disabled = ExtResource( 6 )
-texture_focused = ExtResource( 5 )
-texture_click_mask = ExtResource( 7 )
-_sections_unfolded = [ "Margin", "Rect" ]
-
-[node name="Icon" type="TextureRect" parent="Decoration/MenuItems/CreditsButton" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 26.0
-margin_top = 26.0
-margin_right = -26.0
-margin_bottom = -26.0
-rect_min_size = Vector2( 48, 48 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-texture = ExtResource( 10 )
-stretch_mode = 0
-_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-
-[node name="Panel" type="Panel" parent="Decoration/MenuItems/CreditsButton" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.5
-anchor_right = 0.0
-anchor_bottom = 0.5
-margin_left = -200.0
-margin_top = -18.0
-margin_bottom = 18.0
-rect_min_size = Vector2( 200, 0 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Margin", "Rect" ]
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Label" type="Label" parent="Decoration/MenuItems/CreditsButton/Panel" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 4
+[node name="CreditsButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
+margin_left = -205.0
+margin_top = -50.0
+margin_right = -105.0
+margin_bottom = 50.0
 text = "Credits"
-align = 1
-valign = 1
-clip_text = true
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
+texture = ExtResource( 7 )
 
-[node name="EditorButton" type="TextureButton" parent="Decoration/MenuItems" index="3"]
-
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -157.0
+[node name="EditorButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
+margin_left = -158.0
 margin_top = 57.0
-margin_right = -56.9999
+margin_right = -58.0
 margin_bottom = 157.0
-rect_min_size = Vector2( 100, 100 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath("../ResumeGameButton")
-focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath("../NewGameButton")
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-disabled = true
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
-texture_normal = ExtResource( 4 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 5 )
-texture_disabled = ExtResource( 6 )
-texture_focused = ExtResource( 5 )
-texture_click_mask = ExtResource( 7 )
-_sections_unfolded = [ "Margin", "Rect" ]
-
-[node name="Icon" type="TextureRect" parent="Decoration/MenuItems/EditorButton" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 26.0
-margin_top = 26.0
-margin_right = -24.0
-margin_bottom = -24.0
-rect_min_size = Vector2( 48, 48 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-texture = ExtResource( 11 )
-stretch_mode = 0
-_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-
-[node name="Panel" type="Panel" parent="Decoration/MenuItems/EditorButton" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.5
-anchor_right = 0.0
-anchor_bottom = 0.5
-margin_left = -200.0
-margin_top = -18.0
-margin_bottom = 18.0
-rect_min_size = Vector2( 200, 0 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Margin", "Rect" ]
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Label" type="Label" parent="Decoration/MenuItems/EditorButton/Panel" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 4
 text = "Editor"
-align = 1
-valign = 1
-clip_text = true
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
+texture = ExtResource( 8 )
 
-[node name="ExitGameButton" type="TextureButton" parent="Decoration/MenuItems" index="4"]
-
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
+[node name="QuitButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = -50.0
-margin_top = 102.0
+margin_top = 105.0
 margin_right = 50.0
-margin_bottom = 202.0
-rect_min_size = Vector2( 100, 100 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath("../ResumeGameButton")
-focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath("../NewGameButton")
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
-texture_normal = ExtResource( 4 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 5 )
-texture_disabled = ExtResource( 6 )
-texture_focused = ExtResource( 5 )
-texture_click_mask = ExtResource( 7 )
-_sections_unfolded = [ "Margin", "Rect" ]
-
-[node name="Icon" type="TextureRect" parent="Decoration/MenuItems/ExitGameButton" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 26.0
-margin_top = 26.0
-margin_right = -26.0
-margin_bottom = -26.0
-rect_min_size = Vector2( 48, 48 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-texture = ExtResource( 12 )
-stretch_mode = 0
-_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-
-[node name="Panel" type="Panel" parent="Decoration/MenuItems/ExitGameButton" index="1"]
-
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-margin_left = -100.0
-margin_right = 100.0
-margin_bottom = 36.0
-rect_min_size = Vector2( 200, 0 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Margin", "Rect" ]
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Label" type="Label" parent="Decoration/MenuItems/ExitGameButton/Panel" index="0"]
-
-anchor_left = 0.5
-anchor_top = 0.0
-anchor_right = 0.5
-anchor_bottom = 0.0
-margin_left = -100.0
-margin_right = 100.0
-margin_bottom = 37.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 4
+margin_bottom = 205.0
+allignement = "bottom"
 text = "Quit"
-align = 1
-valign = 1
-clip_text = true
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "Margin" ]
+texture = ExtResource( 9 )
 
-[node name="HelpButton" type="TextureButton" parent="Decoration/MenuItems" index="5"]
-
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = 59.0001
+[node name="HelpButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
+margin_left = 61.0
 margin_top = 57.0
-margin_right = 159.0
+margin_right = 161.0
 margin_bottom = 157.0
-rect_min_size = Vector2( 100, 100 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath("../ResumeGameButton")
-focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath("../NewGameButton")
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-disabled = true
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
-texture_normal = ExtResource( 4 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 5 )
-texture_disabled = ExtResource( 6 )
-texture_focused = ExtResource( 5 )
-texture_click_mask = ExtResource( 7 )
-_sections_unfolded = [ "Margin", "Rect" ]
-
-[node name="Icon" type="TextureRect" parent="Decoration/MenuItems/HelpButton" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 26.0
-margin_top = 26.0
-margin_right = -26.0
-margin_bottom = -26.0
-rect_min_size = Vector2( 48, 48 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-texture = ExtResource( 13 )
-stretch_mode = 0
-_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-
-[node name="Panel" type="Panel" parent="Decoration/MenuItems/HelpButton" index="1"]
-
-anchor_left = 1.0
-anchor_top = 0.5
-anchor_right = 1.0
-anchor_bottom = 0.5
-margin_top = -18.0
-margin_right = 200.0
-margin_bottom = 18.0
-rect_min_size = Vector2( 200, 0 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Margin", "Rect" ]
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Label" type="Label" parent="Decoration/MenuItems/HelpButton/Panel" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 4
+allignement = "right"
 text = "Help"
-align = 1
-valign = 1
-clip_text = true
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
 
-[node name="OptionsButton" type="TextureButton" parent="Decoration/MenuItems" index="6"]
-
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = 103.0
-margin_top = -51.0
-margin_right = 203.0
-margin_bottom = 49.0
-rect_min_size = Vector2( 100, 100 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath("../ResumeGameButton")
-focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath("../NewGameButton")
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-disabled = true
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
-texture_normal = ExtResource( 4 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 5 )
-texture_disabled = ExtResource( 6 )
-texture_focused = ExtResource( 5 )
-texture_click_mask = ExtResource( 7 )
-_sections_unfolded = [ "Margin", "Rect" ]
-
-[node name="Icon" type="TextureRect" parent="Decoration/MenuItems/OptionsButton" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 26.0
-margin_top = 26.0
-margin_right = -26.0
-margin_bottom = -26.0
-rect_min_size = Vector2( 48, 48 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-texture = ExtResource( 14 )
-stretch_mode = 0
-_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-
-[node name="Panel" type="Panel" parent="Decoration/MenuItems/OptionsButton" index="1"]
-
-anchor_left = 1.0
-anchor_top = 0.5
-anchor_right = 1.0
-anchor_bottom = 0.5
-margin_top = -18.0
-margin_right = 200.0
-margin_bottom = 18.0
-rect_min_size = Vector2( 200, 0 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Margin", "Rect" ]
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Label" type="Label" parent="Decoration/MenuItems/OptionsButton/Panel" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 4
+[node name="OptionsButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
+margin_left = 105.0
+margin_top = -50.0
+margin_right = 205.0
+margin_bottom = 50.0
+allignement = "right"
 text = "Options"
-align = 1
-valign = 1
-clip_text = true
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
+texture = ExtResource( 10 )
 
-[node name="ConnectButton" type="TextureButton" parent="Decoration/MenuItems" index="7"]
-
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = 60.0001
+[node name="ConnectButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
+margin_left = 60.0
 margin_top = -160.0
 margin_right = 160.0
 margin_bottom = -60.0
-rect_min_size = Vector2( 100, 100 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_neighbour_left = NodePath(".")
-focus_neighbour_top = NodePath("../ResumeGameButton")
-focus_neighbour_right = NodePath(".")
-focus_neighbour_bottom = NodePath("../NewGameButton")
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-disabled = true
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
-texture_normal = ExtResource( 4 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 5 )
-texture_disabled = ExtResource( 6 )
-texture_focused = ExtResource( 5 )
-texture_click_mask = ExtResource( 7 )
-_sections_unfolded = [ "Margin", "Rect" ]
-
-[node name="Icon" type="TextureRect" parent="Decoration/MenuItems/ConnectButton" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 26.0
-margin_top = 26.0
-margin_right = -26.0
-margin_bottom = -26.0
-rect_min_size = Vector2( 48, 48 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-texture = ExtResource( 15 )
-stretch_mode = 0
-_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
-
-[node name="Panel" type="Panel" parent="Decoration/MenuItems/ConnectButton" index="1"]
-
-anchor_left = 1.0
-anchor_top = 0.5
-anchor_right = 1.0
-anchor_bottom = 0.5
-margin_top = -18.0
-margin_right = 200.0
-margin_bottom = 18.0
-rect_min_size = Vector2( 200, 0 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Margin", "Rect" ]
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Label" type="Label" parent="Decoration/MenuItems/ConnectButton/Panel" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 4
+allignement = "right"
 text = "Connect"
-align = 1
-valign = 1
-clip_text = true
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
+texture = ExtResource( 11 )
 
-[node name="Logo" type="Control" parent="." index="1"]
-
+[node name="Logo" type="Control" parent="."]
 visible = false
 anchor_left = 0.5
 anchor_top = 0.5
@@ -990,19 +246,11 @@ margin_top = -20.0
 margin_right = 20.0
 margin_bottom = 20.0
 rect_min_size = Vector2( 40, 40 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Rect", "Visibility" ]
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="LogoEmblem" type="TextureRect" parent="Logo" index="0"]
-
+[node name="LogoEmblem" type="TextureRect" parent="Logo"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -1011,19 +259,12 @@ margin_left = -299.0
 margin_top = -340.0
 margin_right = 299.0
 margin_bottom = 232.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
 mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-texture = ExtResource( 16 )
+texture = ExtResource( 12 )
 expand = true
 stretch_mode = 4
-_sections_unfolded = [ "Mouse", "Rect", "Visibility" ]
 
-[node name="LogoTitle" type="TextureRect" parent="Logo" index="1"]
-
+[node name="LogoTitle" type="TextureRect" parent="Logo"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -1032,47 +273,22 @@ margin_left = -296.0
 margin_top = 125.0
 margin_right = 296.0
 margin_bottom = 340.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
 mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-texture = ExtResource( 17 )
+texture = ExtResource( 13 )
 expand = true
 stretch_mode = 4
-_sections_unfolded = [ "Anchor", "Mouse", "Rect", "Visibility" ]
 
-[node name="Fade" type="ColorRect" parent="." index="2"]
-
+[node name="Fade" type="ColorRect" parent="."]
 visible = false
-anchor_left = 0.0
-anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
 mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
 color = Color( 0.137255, 0.137255, 0.137255, 1 )
-_sections_unfolded = [ "Mouse", "Visibility" ]
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="3"]
-
-root_node = NodePath("..")
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "intro"
-playback_process_mode = 1
-playback_default_blend_time = 0.0
-playback_speed = 1.0
 anims/intro = SubResource( 1 )
-blend_times = [  ]
 
-[connection signal="pressed" from="Decoration/MenuItems/NewGameButton" to="." method="_go_to_scene" binds= [ "world" ]]
-
+[connection signal="pressed" from="Decoration/MenuItems/SinglePlayerButton" to="." method="_go_to_scene" binds= [ "world" ]]
 [connection signal="pressed" from="Decoration/MenuItems/LoadGameButton" to="." method="_go_to_scene" binds= [ "world" ]]
-
-[connection signal="pressed" from="Decoration/MenuItems/ExitGameButton" to="." method="_go_to_scene" binds= [ "exit" ]]
-
-
+[connection signal="pressed" from="Decoration/MenuItems/QuitButton" to="." method="_go_to_scene" binds= [ "exit" ]]
