@@ -12,6 +12,9 @@ elif [ -f "$HOME/.local/bin/Godot/$GODOT/Godot" ]; then
     GODOT="$HOME/.local/bin/Godot/$GODOT/Godot"
 elif [ -f "$HOME/Documents/Godot/$GODOT/Godot" ]; then
     GODOT="$HOME/Documents/Godot/$GODOT/Godot"
+# Godot snaps use the "binary-v1-v2" name form
+elif [ -f "/snap/bin/godot-${GODOT%%.*}-${GODOT##*.}" ]; then
+    GODOT="/snap/bin/godot-${GODOT%%.*}-${GODOT##*.}"
 else
     echo "Error: Can't find the Godot editor. Can't run. "
     exit 1
