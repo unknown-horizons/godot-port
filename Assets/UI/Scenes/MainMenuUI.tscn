@@ -287,7 +287,6 @@ color = Color( 0.137255, 0.137255, 0.137255, 1 )
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "intro"
 anims/intro = SubResource( 1 )
-
 [connection signal="pressed" from="Decoration/MenuItems/SinglePlayerButton" to="." method="_go_to_scene" binds= [ "world" ]]
 [connection signal="pressed" from="Decoration/MenuItems/LoadGameButton" to="." method="_go_to_scene" binds= [ "world" ]]
 [connection signal="pressed" from="Decoration/MenuItems/QuitButton" to="." method="_go_to_scene" binds= [ "exit" ]]

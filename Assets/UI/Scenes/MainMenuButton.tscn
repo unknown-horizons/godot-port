@@ -8,7 +8,6 @@
 [ext_resource path="res://Assets/UI/Icons/MainMenu/help_bw.png" type="Texture" id=6]
 
 [node name="MainMenuButton" type="TextureButton"]
-
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -18,21 +17,10 @@ margin_top = -450.0
 margin_right = -700.0
 margin_bottom = -350.0
 rect_min_size = Vector2( 100, 100 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
 focus_neighbour_left = NodePath(".")
 focus_neighbour_top = NodePath("../ResumeGameButton")
 focus_neighbour_right = NodePath(".")
 focus_neighbour_bottom = NodePath("../NewGameButton")
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
 texture_normal = ExtResource( 1 )
 texture_pressed = ExtResource( 2 )
 texture_hover = ExtResource( 2 )
@@ -40,15 +28,8 @@ texture_disabled = ExtResource( 3 )
 texture_focused = ExtResource( 2 )
 texture_click_mask = ExtResource( 4 )
 script = ExtResource( 5 )
-_sections_unfolded = [ "Hint" ]
-allignement = "left"
-text = ""
-texture = ExtResource( 6 )
 
-[node name="Icon" type="TextureRect" parent="." index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
+[node name="Icon" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 26.0
@@ -56,56 +37,24 @@ margin_top = 26.0
 margin_right = -26.0
 margin_bottom = -26.0
 rect_min_size = Vector2( 48, 48 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
 mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
 texture = ExtResource( 6 )
-stretch_mode = 0
-_sections_unfolded = [ "Anchor", "Margin", "Rect" ]
 
-[node name="Panel" type="Panel" parent="." index="1"]
-
+[node name="Panel" type="Panel" parent="."]
 anchor_left = 0.5
-anchor_top = 0.0
 anchor_right = 0.5
-anchor_bottom = 0.0
 margin_left = -250.0
 margin_top = 30.0
 margin_right = -50.0
 margin_bottom = 66.0
 rect_min_size = Vector2( 200, 0 )
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-_sections_unfolded = [ "Anchor", "Margin", "Rect", "Visibility" ]
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="Label" type="Label" parent="Panel" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
+[node name="Label" type="Label" parent="Panel"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 4
 align = 1
 valign = 1
 clip_text = true
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "custom_fonts" ]
-
-
