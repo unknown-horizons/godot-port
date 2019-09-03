@@ -14,10 +14,70 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/World/Buildings/Building.gd"
 }, {
+"base": "Spatial",
+"class": "Game",
+"language": "GDScript",
+"path": "res://Assets/World/Game.gd"
+}, {
+"base": "HBoxContainer",
+"class": "GameTypeButton",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/GameTypeButton.gd"
+}, {
+"base": "Node",
+"class": "Global",
+"language": "GDScript",
+"path": "res://Assets/World/Global.gd"
+}, {
+"base": "Ship",
+"class": "Huker",
+"language": "GDScript",
+"path": "res://Assets/World/Units/Ships/Merchants/Huker/Huker.gd"
+}, {
+"base": "Control",
+"class": "MainMenuUI",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/MainMenuUI.gd"
+}, {
+"base": "Ship",
+"class": "Pirate",
+"language": "GDScript",
+"path": "res://Assets/World/Units/Ships/Pirates/Pirate/Pirate.gd"
+}, {
+"base": "Control",
+"class": "Player",
+"language": "GDScript",
+"path": "res://Assets/Player/Player.gd"
+}, {
+"base": "MeshInstance",
+"class": "PlayerStart",
+"language": "GDScript",
+"path": "res://Assets/Player/PlayerStart.gd"
+}, {
 "base": "Building",
 "class": "Residence",
 "language": "GDScript",
 "path": "res://Assets/World/Buildings/Citizens/Residential/Residence.gd"
+}, {
+"base": "KinematicBody",
+"class": "SelectionUnit",
+"language": "GDScript",
+"path": "res://Sandbox/UnitSelection/SelectionUnit.gd"
+}, {
+"base": "Unit",
+"class": "Ship",
+"language": "GDScript",
+"path": "res://Assets/World/Units/Ships/Ship.gd"
+}, {
+"base": "Unit",
+"class": "Ship_19_08_28",
+"language": "GDScript",
+"path": "res://Sandbox/Ship_19_08_28.gd"
+}, {
+"base": "WorldThing",
+"class": "Unit",
+"language": "GDScript",
+"path": "res://Assets/World/Units/Unit.gd"
 }, {
 "base": "Spatial",
 "class": "WorldThing",
@@ -26,7 +86,19 @@ _global_script_classes=[ {
 } ]
 _global_script_class_icons={
 "Building": "",
+"Game": "",
+"GameTypeButton": "",
+"Global": "",
+"Huker": "",
+"MainMenuUI": "",
+"Pirate": "",
+"Player": "",
+"PlayerStart": "",
 "Residence": "",
+"SelectionUnit": "",
+"Ship": "",
+"Ship_19_08_28": "",
+"Unit": "",
 "WorldThing": ""
 }
 
@@ -34,12 +106,24 @@ _global_script_class_icons={
 
 config/name="Unknown Horizons"
 run/main_scene="res://Assets/UI/Scenes/MainMenuScene.tscn"
+boot_splash/image="res://boot_splash.png"
 config/icon="res://icon.png"
+
+[autoload]
+
+Global="*res://Assets/World/Global.gd"
+Audio="*res://Assets/World/Audio.gd"
+
+[debug]
+
+settings/fps/force_fps=60
 
 [display]
 
 window/size/width=1600
 window/size/height=900
+window/size/resizable=false
+window/dpi/allow_hidpi=true
 
 [input]
 
@@ -98,6 +182,52 @@ rotate_right={
 , Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":0,"axis":2,"axis_value":1.0,"script":null)
  ]
 }
+toggle_fullscreen={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777254,"unicode":0,"echo":false,"script":null)
+ ]
+}
+quit_game={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777217,"unicode":0,"echo":false,"script":null)
+ ]
+}
+restart_scene={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":82,"unicode":0,"echo":false,"script":null)
+ ]
+}
+pause_scene={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":80,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":32,"unicode":0,"echo":false,"script":null)
+ ]
+}
+time_speed_up={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":61,"unicode":0,"echo":false,"script":null)
+ ]
+}
+time_slow_down={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":45,"unicode":0,"echo":false,"script":null)
+ ]
+}
+time_reset={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":47,"unicode":0,"echo":false,"script":null)
+ ]
+}
+main_command={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":2,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+alt_command={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
 
 [logging]
 
@@ -108,5 +238,6 @@ file_logging/max_log_files=5
 
 quality/driver/driver_name="GLES2"
 quality/driver/fallback_to_gles2=true
-quality/intended_usage/framebuffer_allocation=3
+quality/intended_usage/framebuffer_allocation.mobile=2
+environment/default_clear_color=Color( 0.301961, 0.301961, 0.301961, 1 )
 environment/default_environment="res://default_env.tres"
