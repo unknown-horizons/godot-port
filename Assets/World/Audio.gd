@@ -56,7 +56,7 @@ func play_snd(snd_name: String) -> void:
 		#if not name: # "@@2"
 		#	add_child(self)
 		play()
-		print_debug("Playing {0}".format([snd_name]))
+		#print_debug("Playing {0}".format([snd_name]))
 	else:
 		printerr("Sound {0} not found.".format([snd_name]))
 

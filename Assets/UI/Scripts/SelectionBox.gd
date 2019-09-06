@@ -14,5 +14,5 @@ func _draw() -> void:
 		draw_line(m_pos, Vector2(m_pos.x, start_sel_pos.y), sel_box_col, sel_box_line_width) # upper left
 		draw_line(m_pos, Vector2(start_sel_pos.x, m_pos.y), sel_box_col, sel_box_line_width) # lower right
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	update()

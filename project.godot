@@ -59,20 +59,10 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/World/Buildings/Citizens/Residential/Residence.gd"
 }, {
-"base": "KinematicBody",
-"class": "SelectionUnit",
-"language": "GDScript",
-"path": "res://Sandbox/UnitSelection/SelectionUnit.gd"
-}, {
 "base": "Unit",
 "class": "Ship",
 "language": "GDScript",
 "path": "res://Assets/World/Units/Ships/Ship.gd"
-}, {
-"base": "Unit",
-"class": "Ship_19_08_28",
-"language": "GDScript",
-"path": "res://Sandbox/Ship_19_08_28.gd"
 }, {
 "base": "WorldThing",
 "class": "Unit",
@@ -95,9 +85,7 @@ _global_script_class_icons={
 "Player": "",
 "PlayerStart": "",
 "Residence": "",
-"SelectionUnit": "",
 "Ship": "",
-"Ship_19_08_28": "",
 "Unit": "",
 "WorldThing": ""
 }

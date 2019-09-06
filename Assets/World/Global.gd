@@ -39,22 +39,22 @@ const FACTIONS = [
 ]
 
 const COLOR = [
-				Color(0,       0,    0, 0),
-				Color(1,    0.04, 0.04, 1),
-				Color(0,    0.28, 0.71, 1),
-				Color(0,    0.63, 0.09, 1),
-				Color(0.88,  0.4,    0, 1),
-				Color(0.50,    0, 0.50, 1),
-				Color(0,       1,    1, 1),
-				Color(1,    0.84,    0, 1),
-				Color(1,       0,    1, 1),
-				Color(0,    0.57, 0.55, 1),
-				Color(0,       1,    0, 1),
-				Color(0.59, 0.02, 0.16, 1),
-				Color(1,       1,    1, 1),
-				Color(0.50, 0.50, 0.50, 1),
-				Color(0,       0,    0, 1)
-				];
+	Color(0,       0,    0, 0),
+	Color(1,    0.04, 0.04, 1),
+	Color(0,    0.28, 0.71, 1),
+	Color(0,    0.63, 0.09, 1),
+	Color(0.88,  0.4,    0, 1),
+	Color(0.50,    0, 0.50, 1),
+	Color(0,       1,    1, 1),
+	Color(1,    0.84,    0, 1),
+	Color(1,       0,    1, 1),
+	Color(0,    0.57, 0.55, 1),
+	Color(0,       1,    0, 1),
+	Color(0.59, 0.02, 0.16, 1),
+	Color(1,       1,    1, 1),
+	Color(0.50, 0.50, 0.50, 1),
+	Color(0,       0,    0, 1)
+];
 
 const FACTION_COLOR_NONE =\
 	preload("res://Assets/Player/FactionColor/FactionColorNone.tres")
@@ -105,15 +105,17 @@ const COLOR_MATERIAL = [
 	FACTION_COLOR_BLACK
 ]
 
+#warning-ignore-all:unused_class_variable
+
 # System variables
 var language = "en"
 
 # -------
-var game_type = "FreePlay"
-var player_name = "Unknown Traveller"
-var faction = 1
+var game_type := "FreePlay"
+var player_name := "Unknown Traveller"
+var faction := 1
 var map: PackedScene
-var ai_players = 3
+var ai_players := 0 # default should be 3 once AI is functional
 var resource_density := 1.0
 var has_traders := false
 var has_pirates := true
@@ -150,6 +152,7 @@ func _input(event: InputEvent) -> void:
 			print(get_tree().paused)
 
 		if event.is_action_pressed("restart_scene"):
+			#warning-ignore:return_value_discarded
 			get_tree().reload_current_scene()
 	
 	if event.is_action_pressed("toggle_fullscreen"):

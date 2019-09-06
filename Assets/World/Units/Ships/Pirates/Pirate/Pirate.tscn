@@ -1,0 +1,140 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Assets/World/Units/Ships/Ship.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/World/Units/Ships/Pirates/Pirate/Pirate.gd" type="Script" id=2]
+[ext_resource path="res://Assets/World/Units/Ships/Pirates/Pirate/Sprites/Pirate_idle.png" type="Texture" id=3]
+[ext_resource path="res://Assets/World/Units/Ships/Pirates/Pirate/Sprites/Pirate_WaterOverlay.png" type="Texture" id=4]
+
+[sub_resource type="ShaderMaterial" id=1]
+
+[sub_resource type="SpatialMaterial" id=2]
+render_priority = 10
+next_pass = SubResource( 1 )
+flags_transparent = true
+flags_no_depth_test = true
+roughness = 0.0
+
+[sub_resource type="SpatialMaterial" id=3]
+render_priority = 10
+next_pass = SubResource( 1 )
+flags_transparent = true
+flags_no_depth_test = true
+params_billboard_mode = 1
+albedo_color = Color( 1, 1, 1, 0.27451 )
+roughness = 0.0
+
+[sub_resource type="Animation" id=4]
+resource_name = "fade_in"
+tracks/0/type = "value"
+tracks/0/path = NodePath("WaterOverlay/WaterOverlay1:material_override:albedo_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 2.79397e-007, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "fade_out"
+tracks/0/type = "value"
+tracks/0/path = NodePath("WaterOverlay/WaterOverlay1:material_override:albedo_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[node name="Pirate" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+texture = ExtResource( 3 )
+max_health = 250
+
+[node name="WaterOverlay" type="Spatial" parent="." index="0"]
+editor/display_folded = true
+visible = false
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="WaterOverlay1" type="Sprite3D" parent="WaterOverlay" index="0"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 0, 0 )
+material_override = SubResource( 2 )
+cast_shadow = 0
+offset = Vector2( 0, -90 )
+flip_v = true
+pixel_size = 0.015
+transparent = false
+double_sided = false
+texture = ExtResource( 4 )
+vframes = 4
+hframes = 4
+frame = 9
+region_enabled = true
+region_rect = Rect2( 0, 0, 896, 896 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="WaterOverlay2" type="Sprite3D" parent="WaterOverlay" index="1"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 0, 0 )
+material_override = SubResource( 2 )
+cast_shadow = 0
+offset = Vector2( 0, 16 )
+pixel_size = 0.015
+transparent = false
+double_sided = false
+texture = ExtResource( 4 )
+vframes = 4
+hframes = 4
+frame = 9
+region_enabled = true
+region_rect = Rect2( 0, 0, 896, 896 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Reflection" type="Sprite3D" parent="." index="1"]
+transform = Transform( 0.707107, 0, -0.707106, 0, 0.999999, 0, 0.707107, 0, 0.707106, 0, 0, 0 )
+visible = false
+material_override = SubResource( 3 )
+cast_shadow = 0
+offset = Vector2( 0, -90 )
+flip_v = true
+pixel_size = 0.015
+transparent = false
+double_sided = false
+texture = ExtResource( 3 )
+vframes = 2
+hframes = 4
+region_enabled = true
+region_rect = Rect2( 0, 0, 896, 448 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Billboard" parent="." index="2"]
+extra_cull_margin = 200.0
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 896, 448 )
+
+[node name="CollisionShape" parent="Area" index="0"]
+visible = true
+
+[node name="StaticBody" parent="." index="4"]
+visible = false
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="5"]
+anims/fade_in = SubResource( 4 )
+anims/fade_out = SubResource( 5 )
+[connection signal="animation_changed" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_changed"]
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
+[connection signal="animation_started" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_started"]

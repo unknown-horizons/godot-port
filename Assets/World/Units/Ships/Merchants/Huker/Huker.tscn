@@ -1,0 +1,58 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Assets/World/Units/Ships/Ship.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/World/Units/Ships/Merchants/Huker/Huker.gd" type="Script" id=2]
+[ext_resource path="res://Assets/World/Units/Ships/Merchants/Huker/Sprites/Huker_idle.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Player/FactionColor/FactionColorNone.tres" type="Material" id=4]
+
+[sub_resource type="CylinderMesh" id=1]
+
+[sub_resource type="SpatialMaterial" id=2]
+flags_transparent = true
+flags_no_depth_test = true
+flags_do_not_receive_shadows = true
+flags_disable_ambient_light = true
+albedo_color = Color( 1, 1, 1, 0.117647 )
+
+[sub_resource type="Animation" id=3]
+length = 3.0
+loop = true
+
+[node name="Huker" index="0" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+texture = ExtResource( 3 )
+
+[node name="SelectionRing" type="MeshInstance" parent="." index="0"]
+transform = Transform( 1, 0, 0, 0, 0.005, 0, 0, 0, 1, 0, 0.0001, 0 )
+visible = false
+mesh = SubResource( 1 )
+material/0 = SubResource( 2 )
+
+[node name="Billboard" parent="." index="1"]
+texture = ExtResource( 3 )
+
+[node name="CollisionShape" parent="Area" index="0"]
+visible = true
+
+[node name="StaticBody" parent="." index="3"]
+visible = false
+
+[node name="FactionColor" type="Sprite3D" parent="." index="4"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0001, 0 )
+material_override = ExtResource( 4 )
+cast_shadow = 0
+offset = Vector2( 0, 32 )
+pixel_size = 0.0151
+transparent = false
+double_sided = false
+texture = ExtResource( 3 )
+vframes = 2
+hframes = 4
+region_enabled = true
+region_rect = Rect2( 0, 384, 768, 384 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="5"]
+anims/selected = SubResource( 3 )

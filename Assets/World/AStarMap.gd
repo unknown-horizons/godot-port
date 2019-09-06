@@ -14,9 +14,10 @@ func _ready() -> void:
 	ray_plane.scale = Vector3(128, 128, 128) # TODO: Adapt size dynamically to GridMap's outer bounds
 
 	#ray_plane.create_convex_collision() # crashes for GLES2 in the export build
-#	var static_body = StaticBody.new()
-#	var collision_shape = CollisionShape.new()
-#	collision_shape.shape = PlaneShape.new()
+
+	#var static_body = StaticBody.new()
+	#var collision_shape = CollisionShape.new()
+	#collision_shape.shape = PlaneShape.new()
 
 	ray_plane.set("material/0", SpatialMaterial.new())
 	ray_plane.get("material/0").set("flags_no_depth_test", true)
@@ -47,8 +48,10 @@ func _ready() -> void:
 				for y in [-1, 0, 1]:
 					for z in [-1, 0, 1]:
 						var v3 = Vector3(x, y, z)
-						if v3 == Vector3(0, 0, 0):
+						
+						if v3 == Vector3():
 							continue
+						
 						if v3_to_index(v3 + cell) in all_points:
 							var ind1 = all_points[v3_to_index(cell)]
 							var ind2 = all_points[v3_to_index(cell + v3)]
@@ -60,10 +63,10 @@ func _get_cell_item_name(cell: Vector3) -> String:
 	var cell_item_name = grid_map.mesh_library.get_item_name(cell_item_index)
 	return cell_item_name
 
-func v3_to_index(v3) -> String:
+func v3_to_index(v3: Vector3) -> String:
 	return str(int(round(v3.x))) + "," + str(int(round(v3.y))) + "," + str(int(round(v3.z)))
 	
-func get_gm_path(start, end) -> PoolVector3Array:
+func get_gm_path(start: Vector3, end: Vector3) -> PoolVector3Array:
 	print_debug(start, end)
 	var gm_start = v3_to_index(grid_map.world_to_map(start))
 	var gm_end = v3_to_index(grid_map.world_to_map(end))

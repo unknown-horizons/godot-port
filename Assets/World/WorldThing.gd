@@ -29,6 +29,13 @@ func _ready() -> void:
 	set_rotation_step(rotation_step)
 	set_rotation_degree(rotation_degree)
 
+func _process(_delta: float) -> void:
+	if Engine.is_editor_hint():
+		if _billboard == null:
+			prints("Please reload the scene [{0}].".format([name]))
+			set_process(false)
+			return
+
 func _input(event: InputEvent) -> void:
 	# Switch frame accordingly with the world rotation.
 	if event.is_action_pressed("rotate_left"):
@@ -41,7 +48,7 @@ func _input(event: InputEvent) -> void:
 func set_texture(new_texture: Texture) -> void:
 	texture = new_texture
 	
-	if not is_inside_tree():
+	if not is_inside_tree() or _billboard == null:
 		return
 	
 	_billboard.texture = new_texture
@@ -49,7 +56,7 @@ func set_texture(new_texture: Texture) -> void:
 func set_rotation_step(new_step: int) -> void:
 	rotation_step = new_step
 	
-	if not is_inside_tree():
+	if not is_inside_tree() or _billboard == null:
 		return
 	
 	match new_step:
@@ -61,7 +68,7 @@ func set_rotation_step(new_step: int) -> void:
 func set_rotation_degree(new_rotation: int) -> void:
 	rotation_degree = new_rotation
 	
-	if not is_inside_tree():
+	if not is_inside_tree() or _billboard == null:
 		return
 	
 	match rotation_step:

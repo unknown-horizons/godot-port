@@ -9,7 +9,7 @@ onready var checkbox := $CheckBox
 func _ready() -> void:
 	checkbox.text = type
 
-func _process(delta) -> void:
+func _process(_delta: float) -> void:
 	if Engine.is_editor_hint():
 		if checkbox == null:
 			prints("Please reload the scene [{0}].".format([name]))
