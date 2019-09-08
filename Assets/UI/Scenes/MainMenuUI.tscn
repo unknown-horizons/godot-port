@@ -1,7 +1,7 @@
 [gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Assets/UI/Themes/MenuTheme.tres" type="Theme" id=1]
-[ext_resource path="res://Assets/UI/Scripts/Main/MainMenuUI.gd" type="Script" id=2]
+[ext_resource path="res://Assets/UI/Scripts/MainMenuUI.gd" type="Script" id=2]
 [ext_resource path="res://Assets/UI/Images/Background/MainMenu/wheel.png" type="Texture" id=3]
 [ext_resource path="res://Assets/UI/Scenes/MainMenuButton.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Assets/UI/Icons/MainMenu/compass.png" type="Texture" id=5]
@@ -290,6 +290,6 @@ color = Color( 0.137255, 0.137255, 0.137255, 1 )
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "intro"
 anims/intro = SubResource( 1 )
-[connection signal="pressed" from="Decoration/MenuItems/SinglePlayerButton" to="." method="_go_to_scene" binds= [ "world" ]]
-[connection signal="pressed" from="Decoration/MenuItems/LoadGameButton" to="." method="_go_to_scene" binds= [ "world" ]]
+[connection signal="pressed" from="Decoration/MenuItems/SinglePlayerButton" to="." method="_go_to_scene" binds= [ "sp_game" ]]
+[connection signal="pressed" from="Decoration/MenuItems/LoadGameButton" to="." method="_go_to_scene" binds= [ "load_game" ]]
 [connection signal="pressed" from="Decoration/MenuItems/QuitButton" to="." method="_go_to_scene" binds= [ "exit" ]]
