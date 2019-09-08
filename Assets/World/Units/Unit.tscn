@@ -33,13 +33,11 @@ region_enabled = true
 region_rect = Rect2( 0, 0, 768, 384 )
 
 [node name="Area" type="Area" parent="."]
-editor/display_folded = true
 
 [node name="CollisionShape" type="CollisionShape" parent="Area"]
 shape = SubResource( 3 )
 
 [node name="StaticBody" type="StaticBody" parent="."]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 0.999999, 0, 0, 0, 1, 0, 0, 0 )
 
 [node name="CollisionShape" type="CollisionShape" parent="StaticBody"]

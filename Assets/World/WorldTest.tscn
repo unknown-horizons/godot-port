@@ -89,14 +89,12 @@ num_of_slots = 4
 debug_is_moving = true
 
 [node name="PlayerStart" parent="." instance=ExtResource( 7 )]
-editor/display_folded = true
 transform = Transform( 5, 0, 0, 0, 0.005, 0, 0, 0, 5, -31, 0, 37 )
 
 [node name="PlayerCamera" parent="." instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0, 33 )
 
 [node name="PatrolRoute" type="Spatial" parent="."]
-editor/display_folded = true
 
 [node name="Position3D" type="Position3D" parent="PatrolRoute"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0, 27 )
@@ -111,7 +109,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 39, 0, -38 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, -38 )
 
 [node name="ResidenceCollection" type="Spatial" parent="."]
-editor/display_folded = true
 __meta__ = {
 "_edit_lock_": true
 }
