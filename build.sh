@@ -19,6 +19,9 @@ elif [ -f "$HOME/Documents/Godot/$GODOT/Godot" ]; then
 # Godot snaps use the "binary-v1-v2" name form
 elif [ -f "/snap/bin/godot-${GODOT%%.*}-${GODOT##*.}" ]; then
     GODOT="/snap/bin/godot-${GODOT%%.*}-${GODOT##*.}"
+# Godot on macos
+elif [ -f "/Applications/Godot.app/Contents/MacOS/Godot" ]; then
+    GODOT="/Applications/Godot.app/Contents/MacOS/Godot"
 else
     echo "Error: Can't find the Godot editor. Can't build. "
     exit 1
