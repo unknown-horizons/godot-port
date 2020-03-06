@@ -4,9 +4,10 @@
 [ext_resource path="res://Assets/World/Buildings/Sailors/Warehouse/Warehouse.gd" type="Script" id=2]
 [ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=3]
 
-[node name="Warehouse" index="0" instance=ExtResource( 3 )]
+[node name="Warehouse" instance=ExtResource( 3 )]
 script = ExtResource( 2 )
 texture = ExtResource( 1 )
+tier = 3
 
 [node name="Billboard" parent="." index="0"]
 offset = Vector2( 0, 40 )

@@ -212,14 +212,14 @@ __meta__ = {
 }
 
 [node name="Left" type="VBoxContainer" parent="CenterContainer/Book/MarginContainer/Pages"]
-margin_right = 293.0
+margin_right = 286.0
 margin_bottom = 490.0
 size_flags_horizontal = 2
 size_flags_vertical = 3
 
 [node name="Title" type="Label" parent="CenterContainer/Book/MarginContainer/Pages/Left"]
-margin_right = 293.0
-margin_bottom = 31.0
+margin_right = 286.0
+margin_bottom = 21.0
 custom_fonts/font = ExtResource( 3 )
 custom_colors/font_color = Color( 0.180392, 0.141176, 0.0784314, 1 )
 custom_colors/font_color_shadow = Color( 0.901961, 0.901961, 0.901961, 1 )
@@ -229,57 +229,57 @@ text = "New Game - Singleplayer"
 align = 1
 
 [node name="Separator1" parent="CenterContainer/Book/MarginContainer/Pages/Left" instance=ExtResource( 4 )]
-margin_top = 35.0
-margin_right = 293.0
-margin_bottom = 55.0
+margin_top = 25.0
+margin_right = 286.0
+margin_bottom = 33.0
 
 [node name="GameTypeButtons" type="MarginContainer" parent="CenterContainer/Book/MarginContainer/Pages/Left"]
-margin_top = 59.0
-margin_right = 293.0
-margin_bottom = 152.0
+margin_top = 37.0
+margin_right = 286.0
+margin_bottom = 130.0
 custom_constants/margin_top = 10
 custom_constants/margin_left = 20
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/Book/MarginContainer/Pages/Left/GameTypeButtons"]
 margin_left = 20.0
 margin_top = 10.0
-margin_right = 293.0
+margin_right = 286.0
 margin_bottom = 93.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource( 5 )
 
 [node name="Scenario" parent="CenterContainer/Book/MarginContainer/Pages/Left/GameTypeButtons/VBoxContainer" instance=ExtResource( 6 )]
-margin_right = 273.0
+margin_right = 266.0
 margin_bottom = 25.0
 type = "Scenario"
 
 [node name="RandomMap" parent="CenterContainer/Book/MarginContainer/Pages/Left/GameTypeButtons/VBoxContainer" instance=ExtResource( 6 )]
 margin_top = 29.0
-margin_right = 273.0
+margin_right = 266.0
 margin_bottom = 54.0
 type = "Random map"
 
 [node name="FreePlay" parent="CenterContainer/Book/MarginContainer/Pages/Left/GameTypeButtons/VBoxContainer" instance=ExtResource( 6 )]
 margin_top = 58.0
-margin_right = 273.0
+margin_right = 266.0
 margin_bottom = 83.0
 type = "Free play"
 
 [node name="Separator2" parent="CenterContainer/Book/MarginContainer/Pages/Left" instance=ExtResource( 4 )]
-margin_top = 156.0
-margin_right = 293.0
-margin_bottom = 176.0
+margin_top = 134.0
+margin_right = 286.0
+margin_bottom = 142.0
 
 [node name="NameSelection" type="HBoxContainer" parent="CenterContainer/Book/MarginContainer/Pages/Left"]
-margin_top = 180.0
-margin_right = 293.0
-margin_bottom = 220.0
+margin_top = 146.0
+margin_right = 286.0
+margin_bottom = 186.0
 rect_min_size = Vector2( 0, 40 )
 size_flags_horizontal = 3
 
 [node name="Label" type="Label" parent="CenterContainer/Book/MarginContainer/Pages/Left/NameSelection"]
-margin_right = 107.0
+margin_right = 100.0
 margin_bottom = 30.0
 rect_min_size = Vector2( 0, 30 )
 size_flags_horizontal = 3
@@ -290,8 +290,8 @@ text = "Player Name:"
 valign = 1
 
 [node name="PlayerName" type="LineEdit" parent="CenterContainer/Book/MarginContainer/Pages/Left/NameSelection"]
-margin_left = 111.0
-margin_right = 293.0
+margin_left = 104.0
+margin_right = 286.0
 margin_bottom = 30.0
 rect_min_size = Vector2( 182, 30 )
 size_flags_horizontal = 3
@@ -307,14 +307,14 @@ caret_blink = true
 script = SubResource( 5 )
 
 [node name="ColorSelection" type="HBoxContainer" parent="CenterContainer/Book/MarginContainer/Pages/Left"]
-margin_top = 224.0
-margin_right = 293.0
-margin_bottom = 294.0
+margin_top = 190.0
+margin_right = 286.0
+margin_bottom = 260.0
 rect_min_size = Vector2( 0, 70 )
 script = ExtResource( 8 )
 
 [node name="Label" type="Label" parent="CenterContainer/Book/MarginContainer/Pages/Left/ColorSelection"]
-margin_right = 114.0
+margin_right = 111.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -323,8 +323,8 @@ custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
 text = "Color:"
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/Book/MarginContainer/Pages/Left/ColorSelection"]
-margin_left = 118.0
-margin_right = 174.0
+margin_left = 115.0
+margin_right = 171.0
 margin_bottom = 56.0
 size_flags_horizontal = 0
 size_flags_vertical = 0
@@ -349,8 +349,8 @@ __meta__ = {
 }
 
 [node name="Choices" type="GridContainer" parent="CenterContainer/Book/MarginContainer/Pages/Left/ColorSelection"]
-margin_left = 178.0
-margin_right = 293.0
+margin_left = 175.0
+margin_right = 286.0
 margin_bottom = 68.0
 size_flags_horizontal = 3
 size_flags_vertical = 0
@@ -490,14 +490,14 @@ script = SubResource( 6 )
 color_to_faction = 14
 
 [node name="Separator3" parent="CenterContainer/Book/MarginContainer/Pages/Left" instance=ExtResource( 4 )]
-margin_top = 298.0
-margin_right = 293.0
-margin_bottom = 318.0
+margin_top = 264.0
+margin_right = 286.0
+margin_bottom = 272.0
 
 [node name="AIPlayerSelection" type="HBoxContainer" parent="CenterContainer/Book/MarginContainer/Pages/Left"]
-margin_top = 322.0
-margin_right = 293.0
-margin_bottom = 359.0
+margin_top = 276.0
+margin_right = 286.0
+margin_bottom = 313.0
 size_flags_horizontal = 3
 size_flags_vertical = 2
 
@@ -511,12 +511,12 @@ text = "AI players:"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/Book/MarginContainer/Pages/Left/AIPlayerSelection"]
 margin_left = 65.0
-margin_right = 293.0
+margin_right = 286.0
 margin_bottom = 37.0
 size_flags_horizontal = 3
 
 [node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/Book/MarginContainer/Pages/Left/AIPlayerSelection/VBoxContainer"]
-margin_right = 228.0
+margin_right = 221.0
 margin_bottom = 16.0
 
 [node name="AISlider" type="HSlider" parent="CenterContainer/Book/MarginContainer/Pages/Left/AIPlayerSelection/VBoxContainer/HBoxContainer"]
@@ -559,7 +559,7 @@ size_flags_vertical = 3
 
 [node name="ChooseMapTitle" type="Label" parent="CenterContainer/Book/MarginContainer/Pages/Right"]
 margin_right = 284.0
-margin_bottom = 31.0
+margin_bottom = 21.0
 custom_fonts/font = ExtResource( 3 )
 custom_colors/font_color = Color( 0.180392, 0.141176, 0.0784314, 1 )
 custom_colors/font_color_shadow = Color( 0.901961, 0.901961, 0.901961, 1 )
@@ -568,9 +568,9 @@ custom_constants/shadow_offset_y = -1
 text = "Choose map to play:"
 
 [node name="MapList" type="HBoxContainer" parent="CenterContainer/Book/MarginContainer/Pages/Right"]
-margin_top = 35.0
+margin_top = 25.0
 margin_right = 284.0
-margin_bottom = 190.0
+margin_bottom = 180.0
 rect_min_size = Vector2( 0, 155 )
 size_flags_vertical = 3
 
@@ -594,11 +594,14 @@ custom_colors/guide_color = Color( 0, 0, 0, 0 )
 custom_colors/font_color_selected = Color( 0.258824, 0.188235, 0.0509804, 1 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
 script = ExtResource( 13 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="RecommendedNumberOfPlayers" type="HBoxContainer" parent="CenterContainer/Book/MarginContainer/Pages/Right"]
-margin_top = 194.0
+margin_top = 184.0
 margin_right = 284.0
-margin_bottom = 213.0
+margin_bottom = 203.0
 
 [node name="Label" type="Label" parent="CenterContainer/Book/MarginContainer/Pages/Right/RecommendedNumberOfPlayers"]
 margin_top = 1.0
@@ -621,18 +624,18 @@ text = "1"
 align = 1
 
 [node name="MapPreview" type="TextureRect" parent="CenterContainer/Book/MarginContainer/Pages/Right"]
-margin_top = 217.0
+margin_top = 207.0
 margin_right = 284.0
-margin_bottom = 317.0
+margin_bottom = 307.0
 rect_min_size = Vector2( 100, 100 )
 texture = ExtResource( 15 )
 expand = true
 stretch_mode = 5
 
 [node name="GameSettingsTitle" type="Label" parent="CenterContainer/Book/MarginContainer/Pages/Right"]
-margin_top = 321.0
+margin_top = 311.0
 margin_right = 284.0
-margin_bottom = 352.0
+margin_bottom = 332.0
 custom_fonts/font = ExtResource( 3 )
 custom_colors/font_color = Color( 0.180392, 0.141176, 0.0784314, 1 )
 custom_colors/font_color_shadow = Color( 0.901961, 0.901961, 0.901961, 1 )
@@ -641,9 +644,9 @@ custom_constants/shadow_offset_y = -1
 text = "Game Settings:"
 
 [node name="ResourceDensity" type="HBoxContainer" parent="CenterContainer/Book/MarginContainer/Pages/Right"]
-margin_top = 356.0
+margin_top = 336.0
 margin_right = 284.0
-margin_bottom = 373.0
+margin_bottom = 353.0
 script = SubResource( 11 )
 
 [node name="Label" type="Label" parent="CenterContainer/Book/MarginContainer/Pages/Right/ResourceDensity"]
@@ -675,9 +678,9 @@ value = 1.0
 ticks_on_borders = true
 
 [node name="AdditionalOccurences" type="HBoxContainer" parent="CenterContainer/Book/MarginContainer/Pages/Right"]
-margin_top = 377.0
+margin_top = 357.0
 margin_right = 284.0
-margin_bottom = 402.0
+margin_bottom = 382.0
 size_flags_vertical = 2
 script = SubResource( 12 )
 

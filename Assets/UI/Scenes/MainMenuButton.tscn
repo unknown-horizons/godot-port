@@ -28,6 +28,9 @@ texture_disabled = ExtResource( 3 )
 texture_focused = ExtResource( 2 )
 texture_click_mask = ExtResource( 4 )
 script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Icon" type="TextureRect" parent="."]
 anchor_right = 1.0

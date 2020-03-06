@@ -1,6 +1,8 @@
 extends Spatial
 class_name Game
 
+signal notification(message_type, message_text)
+
 var is_game_running = false
 
 var player_start: Spatial = null
@@ -20,13 +22,20 @@ func _ready() -> void:
 func _process(_delta: float) -> void:
 	if not is_game_running:
 		start_game()
-	
+
+# Notification test (press N within a game session)
+func _input(event: InputEvent):
+	if event.is_action_pressed("debug_raise_notification"):
+		emit_signal("notification", 3, "This is a test notification.")
+
 func start_game() -> void:
 	if player_start:
 		player = Player.new()
 		player.faction = Global.faction
 
 		add_child(player)
+		# warning-ignore:return_value_discarded
+		connect("notification", player, "_on_Game_notification")
 		
 		# Assign player starter ship
 		var ships = player_start.get_children()
@@ -68,5 +77,5 @@ func start_game() -> void:
 		# Disasters
 		if not Global.has_disasters:
 			pass # TODO
-
+	
 	is_game_running = true

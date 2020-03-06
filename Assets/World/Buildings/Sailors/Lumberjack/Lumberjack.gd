@@ -96,16 +96,10 @@ export(int, 0, 12) var resource_amount_output := 0 setget set_resource_amount_ou
 onready var resource_overlay := get_node_or_null("Billboard/ResourceOverlay")
 onready var resource_overlay2 := get_node_or_null("Billboard/ResourceOverlay2")
 
-func animate() -> void:
-	match action:
-		"idle":
-			match tier:
-				0:
-					self.texture = TIERS[0] if not texture in LUMBERJACK_TENT_IDLE_LOGS else texture
-				1:
-					self.texture = TIERS[tier]
-	
-	.animate()
+func _ready() -> void:
+	set_rotation_degree(rotation_degree)
+	set_resource_amount(resource_amount)
+	set_resource_amount_output(resource_amount_output)
 
 func set_tier(new_tier: int) -> void:
 	var previous_tier = tier
@@ -137,6 +131,9 @@ func set_resource_amount(new_resource_amount) -> void:
 func set_resource_amount_output(new_resource_amount_output) -> void:
 	resource_amount_output = new_resource_amount_output
 	
+	if not is_inside_tree():
+		return
+	
 	if tier == 1:
 		self.texture = LUMBERJACK_HUT_IDLE
 		resource_overlay2.texture = LUMBERJACK_HUT_IDLE_PLANKS[clamp(resource_amount_output - 1, 0, LUMBERJACK_HUT_IDLE_PLANKS.size() - 1)] if resource_amount_output > 0 else null
@@ -147,11 +144,26 @@ func add_resource() -> void:
 func remove_resource() -> void:
 	pass # TODO
 
+func _on_input(event: InputEvent):
+	._on_input(event)
+	
+	# Switch frame accordingly with the world rotation.
+	if event.is_action_pressed("rotate_left"):
+		resource_overlay.frame = wrapi(resource_overlay.frame - 1, 0,
+				resource_overlay.hframes * resource_overlay.vframes)
+		resource_overlay2.frame = wrapi(resource_overlay2.frame - 1, 0,
+				resource_overlay2.hframes * resource_overlay2.vframes)
+	elif event.is_action_pressed("rotate_right"):
+		resource_overlay.frame = wrapi(resource_overlay.frame + 1, 0,
+				resource_overlay.hframes * resource_overlay.vframes)
+		resource_overlay2.frame = wrapi(resource_overlay2.frame + 1, 0,
+				resource_overlay2.hframes * resource_overlay2.vframes)
+
 func set_rotation_degree(new_rotation: int) -> void:
 	.set_rotation_degree(new_rotation)
 	
 	if not is_inside_tree() or resource_overlay == null:
 		return
 	
-	#warning-ignore:integer_division
-	resource_overlay.frame = new_rotation / 2
+	resource_overlay.frame = self.rotation_index
+	resource_overlay2.frame = self.rotation_index

@@ -4,7 +4,7 @@
 [ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Assets/World/Buildings/Sailors/Residential/Residence.gd" type="Script" id=3]
 
-[node name="Residence" index="0" instance=ExtResource( 2 )]
+[node name="Residence" instance=ExtResource( 2 )]
 script = ExtResource( 3 )
 texture = ExtResource( 1 )
 

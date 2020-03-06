@@ -1,4 +1,5 @@
 extends Control
+class_name NewGameUI
 
 var parent = null
 
@@ -11,25 +12,23 @@ func _ready() -> void:
 		"Traders": null,
 		"Disasters": null
 	}
-
+	
 	find_nodes(get_tree().get_root(), nodes)
-	#prints("nodes", nodes)
 	nodes["Scenario"].checkbox.disabled = true
 	nodes["RandomMap"].checkbox.disabled = true
 	nodes["ResourceDensitySlider"].editable = false
-	nodes["Traders"].disabled = true
 	nodes["Disasters"].disabled = true
 
 func find_nodes(root_node: Node, nodes_to_be_found: Dictionary) -> void:
 	for n in root_node.get_children():
 		if n.get_child_count() > 0:
 			find_nodes(n, nodes_to_be_found)
-
+		
 		if n.name in nodes_to_be_found:
 			nodes_to_be_found[n.name] = n
 
 func _on_BackToMenuButton_pressed() -> void:
-	Audio.play_snd("click")
+	Audio.play_snd_click()
 	parent.visible = true
 	queue_free()
 

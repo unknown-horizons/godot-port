@@ -12,7 +12,7 @@ func _ready() -> void:
 
 func _on_choice_gui_input(event: InputEvent, choice: ColorRect) -> void:
 	if event is InputEventMouseButton and event.pressed:
-		Audio.play_snd("click")
+		Audio.play_snd_click()
 		selected_color.color = choice.color
 		
 #		var i = 1

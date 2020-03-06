@@ -56,13 +56,13 @@ func _on_input(event: InputEvent):
 				_billboard.hframes * _billboard.vframes)
 
 func next_frame(sprite: Sprite3D = _billboard) -> int:
-	return wrapi(_billboard.frame + 1, 0, _billboard.vframes * _billboard.hframes)
+	return wrapi(sprite.frame + 1, 0, sprite.vframes * sprite.hframes)
 
 func prev_frame(sprite: Sprite3D = _billboard) -> int:
-	return wrapi(_billboard.frame - 1, 0, _billboard.vframes * _billboard.hframes)
+	return wrapi(sprite.frame - 1, 0, sprite.vframes * sprite.hframes)
 
 func random_frame(sprite: Sprite3D = _billboard) -> int:
-	return randi() % (_billboard.vframes * _billboard.hframes)
+	return randi() % (sprite.vframes * sprite.hframes)
 
 func set_texture(new_texture: Texture) -> void:
 	texture = new_texture
