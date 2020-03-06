@@ -27,23 +27,13 @@ func _ready() -> void:
 	as_node = AStar.new()
 	var cells = grid_map.get_used_cells()
 	for cell in cells:
-		if _get_cell_item_name(cell) in [
-										"deep",
-										"shallow_deep",
-										"shallow_curve_in",
-										"shallow_deep_curve_out"
-										]:
+		if _get_cell_item_name(cell) in ["deep", "shallow_curve_in"]:
 			var index = as_node.get_available_point_id()
 			as_node.add_point(index, grid_map.map_to_world(cell.x, cell.y, cell.z))
 			all_points[v3_to_index(cell)] = index
 	
 	for cell in cells:
-		if _get_cell_item_name(cell) in [
-										"deep",
-										"shallow_deep",
-										"shallow_curve_in",
-										"shallow_deep_curve_out"
-										]:
+		if _get_cell_item_name(cell) in ["deep", "shallow_curve_in"]:
 			for x in [-1, 0, 1]:
 				for y in [-1, 0, 1]:
 					for z in [-1, 0, 1]:
@@ -67,7 +57,7 @@ func v3_to_index(v3: Vector3) -> String:
 	return str(int(round(v3.x))) + "," + str(int(round(v3.y))) + "," + str(int(round(v3.z)))
 	
 func get_gm_path(start: Vector3, end: Vector3) -> PoolVector3Array:
-	print_debug(start, end)
+	#print_debug(start, end)
 	var gm_start = v3_to_index(grid_map.world_to_map(start))
 	var gm_end = v3_to_index(grid_map.world_to_map(end))
 	var start_id = 0

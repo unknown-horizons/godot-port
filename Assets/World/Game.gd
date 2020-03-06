@@ -13,6 +13,8 @@ func _ready() -> void:
 	Global.Game = self
 	player_start = Global.PlayerStart
 	
+	randomize()
+	prints("[New Game]")
 	Audio.play_entry_snd()
 
 func _process(_delta: float) -> void:
@@ -53,11 +55,15 @@ func start_game() -> void:
 		
 		# Traders
 		if not Global.has_traders:
-			pass # TODO
+			var traders := get_node("Traders")
+			if traders != null:
+				traders.queue_free()
 		
 		# Pirates
 		if not Global.has_pirates:
-			get_node("Pirates").queue_free()
+			var pirates := get_node("Pirates")
+			if pirates != null:
+				pirates.queue_free()
 		
 		# Disasters
 		if not Global.has_disasters:

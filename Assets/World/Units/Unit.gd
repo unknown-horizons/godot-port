@@ -2,6 +2,8 @@ tool
 extends WorldThing
 class_name Unit
 
+signal position_changed
+
 # All units are 8-directional.
 # Vector items are aligned according to the default camera rotation (-45°)
 # and must be shifted increasingly by 2 for each further camera rotation.
@@ -16,14 +18,14 @@ class_name Unit
 #   -135° -> DIRECTION[index + 6] -> Vector3( 1, 0, -1)
 #
 const DIRECTION = [
-			Vector3(1, 0, 1),	# RIGHT
-			Vector3(0, 0, 1),	# DOWN_RIGHT
-			Vector3(-1, 0, 1),	# DOWN
-			Vector3(-1, 0, 0),	# DOWN_LEFT
-			Vector3(-1, 0, -1),	# LEFT
-			Vector3(0, 0, -1),	# UP_LEFT
-			Vector3(1, 0, -1),	# UP
-			Vector3(1, 0, 0)]	# UP_RIGHT
+	Vector3( 1, 0,  1), # RIGHT
+	Vector3( 0, 0,  1), # DOWN_RIGHT
+	Vector3(-1, 0,  1), # DOWN
+	Vector3(-1, 0,  0), # DOWN_LEFT
+	Vector3(-1, 0, -1), # LEFT
+	Vector3( 0, 0, -1), # UP_LEFT
+	Vector3( 1, 0, -1), # UP
+	Vector3( 1, 0,  0)] # UP_RIGHT
 
 #warning-ignore-all:unused_class_variable
 
@@ -42,8 +44,8 @@ var direction = -1 # for non-animated movements, this is the frame_index
 var rotation_offset = 0
 var rotation_index
 
-onready var rotation_y: Spatial = get_node("/root/World/PlayerCamera/RotationY") as Spatial
-onready var _as_map: Spatial = get_node("/root/World/AStarMap") as Spatial
+onready var rotation_y: Spatial = get_node_or_null("/root/World/PlayerCamera/RotationY") as Spatial
+onready var _as_map: Spatial = get_node_or_null("/root/World/AStarMap") as Spatial
 
 var is_moving = false
 
@@ -54,7 +56,7 @@ func set_faction(new_faction: int) -> void:
 	faction = new_faction
 
 func select() -> void:
-	Audio.play_snd("click")
+	Audio.play_snd_click()
 	$SelectionRing.visible = true
 	# TODO: Highlighting effect
 	#$AnimationPlayer.play("selected")
@@ -76,6 +78,7 @@ func update_path() -> void:
 		move_vec = (path[path_index] - global_transform.origin)
 		if move_vec.length() < 1: # set next target node or proceed to the current one
 			path_index += 1
+			emit_signal("position_changed", global_transform.origin)# + move_vector)
 		else:
 			is_moving = true
 

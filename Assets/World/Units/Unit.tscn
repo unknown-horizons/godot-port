@@ -16,7 +16,9 @@ roughness = 0.0
 
 [sub_resource type="BoxShape" id=4]
 
-[node name="Unit" type="Spatial"]
+[node name="Unit" type="Spatial" groups=[
+"units",
+]]
 script = ExtResource( 1 )
 rotation_step = 2
 
