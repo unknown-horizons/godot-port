@@ -27,6 +27,15 @@ var player = null
 var first_frame = true
 
 func _ready() -> void:
+#	get_tree().call_group(
+#		"billboard",
+#		"update_offset",
+#		_rotation_y.rotation_degrees.y)
+#	get_tree().call_group(
+#		"billboard",
+#		"recalculate_directions",
+#		_rotation_y.rotation_degrees.y)
+	
 	recalculate_directions()
 
 func assign_to_player() -> Control:
@@ -54,10 +63,11 @@ func _process(delta: float) -> void:
 
 	# Unit selection if player is existing (no gameover, etc.)
 	if not player:
-		player = assign_to_player()
+		player = assign_to_player() 
 		return
-#	else:
-#		print("No player found.")
+
+	if player.camera == null:
+		player.camera = self # bind player to this camera
 
 	var m_pos = get_viewport().get_mouse_position()
 	if Input.is_action_just_pressed("main_command"):
@@ -76,10 +86,28 @@ func _process(delta: float) -> void:
 func _input(event: InputEvent) -> void:
 	# Camera rotation.
 	if event.is_action_pressed("rotate_left"):
-		_rotation_y.rotate_y(- PI/2)
+		_rotation_y.rotate_y(-PI/2)
+#		get_tree().call_group(
+#			"billboard",
+#			"update_offset",
+#			round(_rotation_y.rotation_degrees.y))
+#		get_tree().call_group(
+#			"billboard",
+#			"recalculate_directions",
+#			round(_rotation_y.rotation_degrees.y))
+
 		recalculate_directions()
 	elif event.is_action_pressed("rotate_right"):
-		_rotation_y.rotate_y(PI / 2)
+		_rotation_y.rotate_y(PI/2)
+#		get_tree().call_group(
+#			"billboard",
+#			"update_offset",
+#			round(_rotation_y.rotation_degrees.y))
+#		get_tree().call_group(
+#			"billboard",
+#			"recalculate_directions",
+#			round(_rotation_y.rotation_degrees.y))
+		
 		recalculate_directions()
 	
 	# Camera zooming.
@@ -102,7 +130,7 @@ func recalculate_directions() -> void:
 func select_units(m_pos: Vector2) -> void:
 	var new_selected_units = []
 	if m_pos.distance_squared_to(start_sel_pos) < 16: # click
-		var u = get_unit_under_mouse(m_pos)
+		var u = get_object_under_mouse(m_pos)
 		if u != null:
 			new_selected_units.append(u)
 		else:
@@ -131,12 +159,17 @@ func move_selected_units(m_pos: Vector2) -> void:
 		for unit in selected_units:
 			unit.move_to(result.position)
 
-func get_unit_under_mouse(m_pos: Vector2):
+func get_object_under_mouse(m_pos: Vector2):
 	var result = raycast_from_mouse(m_pos, 1)
-	#print_debug("get_unit_under_mouse({0}) result: {1}".format([m_pos, result]))
+	#print_debug("get_object_under_mouse({0}) result: {1}".format([m_pos, result]))
+	
+	prints("Collider:", result.collider.name, "Position:", result.position)
+
 	if result and "faction" in result.collider.get_parent()\
 	and result.collider.get_parent().faction == player.faction:
 		return result.collider.get_parent()
+	else:
+		pass # TODO: Handle other interactions
 
 func get_units_in_box(top_left: Vector2, bottom_right: Vector2) -> Array:
 	if top_left.x > bottom_right.x:

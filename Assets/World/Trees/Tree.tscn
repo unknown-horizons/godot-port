@@ -1,0 +1,9 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/World/WorldThing.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/World/Trees/Tree.gd" type="Script" id=2]
+[ext_resource path="res://Assets/World/Trees/Sprites/Maple1_idle_full.png" type="Texture" id=3]
+
+[node name="Tree" index="0" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+texture = ExtResource( 3 )

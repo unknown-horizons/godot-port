@@ -18,7 +18,7 @@ albedo_color = Color( 1, 1, 1, 0.117647 )
 length = 3.0
 loop = true
 
-[node name="Huker" index="0" instance=ExtResource( 1 )]
+[node name="Huker" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 texture = ExtResource( 3 )
 
@@ -34,11 +34,11 @@ texture = ExtResource( 3 )
 [node name="CollisionShape" parent="Area" index="0"]
 visible = true
 
-[node name="StaticBody" parent="." index="3"]
+[node name="CollisionShape" parent="StaticBody" index="0"]
 visible = false
 
 [node name="FactionColor" type="Sprite3D" parent="." index="4"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0001, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.001, 0 )
 material_override = ExtResource( 4 )
 cast_shadow = 0
 offset = Vector2( 0, 32 )

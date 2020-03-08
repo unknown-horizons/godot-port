@@ -23,7 +23,7 @@ func set_new_type(new_type: String) -> void:
 	type = new_type
 
 func _on_pressed() -> void:
-	Audio.play_snd("click")
+	Audio.play_snd_click()
 	for type_button in get_parent().get_children():
 		if type_button != self:
 			type_button.get_node("CheckBox").pressed = false

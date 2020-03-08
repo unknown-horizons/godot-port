@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Assets/UI/ButtonStyles/ButtonNormal.tres" type="StyleBox" id=1]
+[ext_resource path="res://Assets/UI/Fonts/SmallFontItalic.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Assets/UI/ButtonStyles/ButtonPressed.tres" type="StyleBox" id=3]
+[ext_resource path="res://Assets/UI/ButtonStyles/ButtonHover.tres" type="StyleBox" id=4]
+[ext_resource path="res://Assets/UI/ButtonStyles/ButtonFocus.tres" type="StyleBox" id=5]
+
+[node name="MenuButton" type="Button"]
+margin_right = 75.0
+margin_bottom = 23.0
+size_flags_horizontal = 3
+custom_styles/hover = ExtResource( 4 )
+custom_styles/pressed = ExtResource( 3 )
+custom_styles/focus = ExtResource( 5 )
+custom_styles/disabled = ExtResource( 1 )
+custom_styles/normal = ExtResource( 1 )
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color_disabled = Color( 0.258824, 0.188235, 0.0509804, 0.501961 )
+custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_colors/font_color_hover = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+text = "Give me a name!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
