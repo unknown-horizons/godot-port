@@ -126,10 +126,10 @@ func recalculate_directions() -> void:
 	_directions[2] = -basis.x
 	_directions[3] = basis.x
 
-# Unit selection
+# Unit selection.
 func select_units(m_pos: Vector2) -> void:
 	var new_selected_units = []
-	if m_pos.distance_squared_to(start_sel_pos) < 16: # click
+	if m_pos.distance_squared_to(start_sel_pos) < 16: # Click.
 		var u = get_object_under_mouse(m_pos)
 		if u != null:
 			new_selected_units.append(u)
