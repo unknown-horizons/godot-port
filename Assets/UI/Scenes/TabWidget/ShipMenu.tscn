@@ -59,17 +59,17 @@ margin_top = 53.0
 margin_bottom = 61.0
 size_flags_horizontal = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="ShipMenu"]
+[node name="ShipActionsContainer" type="HBoxContainer" parent="ShipMenu"]
 margin_top = 65.0
 margin_right = 220.0
 margin_bottom = 117.0
 
-[node name="TextureRect" type="TextureRect" parent="ShipMenu/HBoxContainer"]
+[node name="Transfer" type="TextureRect" parent="ShipMenu/ShipActionsContainer"]
 margin_right = 52.0
 margin_bottom = 52.0
 texture = ExtResource( 4 )
 
-[node name="TextureButton" type="TextureButton" parent="ShipMenu/HBoxContainer/TextureRect"]
+[node name="TransferButton" type="TextureButton" parent="ShipMenu/ShipActionsContainer/Transfer"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 texture_normal = ExtResource( 10 )
@@ -81,13 +81,13 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureRect2" type="TextureRect" parent="ShipMenu/HBoxContainer"]
+[node name="Colonise" type="TextureRect" parent="ShipMenu/ShipActionsContainer"]
 margin_left = 56.0
 margin_right = 108.0
 margin_bottom = 52.0
 texture = ExtResource( 4 )
 
-[node name="TextureButton" type="TextureButton" parent="ShipMenu/HBoxContainer/TextureRect2"]
+[node name="ColoniseButton" type="TextureButton" parent="ShipMenu/ShipActionsContainer/Colonise"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 texture_normal = ExtResource( 11 )
@@ -100,13 +100,13 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureRect3" type="TextureRect" parent="ShipMenu/HBoxContainer"]
+[node name="TradeRoutes" type="TextureRect" parent="ShipMenu/ShipActionsContainer"]
 margin_left = 112.0
 margin_right = 164.0
 margin_bottom = 52.0
 texture = ExtResource( 4 )
 
-[node name="TextureButton" type="TextureButton" parent="ShipMenu/HBoxContainer/TextureRect3"]
+[node name="TradeRoutesButton" type="TextureButton" parent="ShipMenu/ShipActionsContainer/TradeRoutes"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 texture_normal = ExtResource( 7 )
@@ -118,13 +118,13 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureRect4" type="TextureRect" parent="ShipMenu/HBoxContainer"]
+[node name="DropCarco" type="TextureRect" parent="ShipMenu/ShipActionsContainer"]
 margin_left = 168.0
 margin_right = 220.0
 margin_bottom = 52.0
 texture = ExtResource( 4 )
 
-[node name="TextureButton" type="TextureButton" parent="ShipMenu/HBoxContainer/TextureRect4"]
+[node name="DropCargoButton" type="TextureButton" parent="ShipMenu/ShipActionsContainer/DropCarco"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 texture_normal = ExtResource( 8 )
@@ -136,7 +136,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextureButton" type="TextureButton" parent="ShipMenu/HBoxContainer"]
+[node name="TextureButton" type="TextureButton" parent="ShipMenu/ShipActionsContainer"]
 visible = false
 margin_left = 224.0
 margin_right = 276.0
@@ -162,3 +162,4 @@ custom_constants/margin_left = 5
 margin_left = 5.0
 margin_right = 220.0
 columns = 4
+[connection signal="pressed" from="ShipMenu/ShipActionsContainer/Colonise/ColoniseButton" to="." method="_on_ColoniseButton_pressed"]
