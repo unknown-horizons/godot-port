@@ -59,12 +59,14 @@ func select() -> void:
 	Audio.play_snd_click()
 	$SelectionRing.visible = true
 	add_to_group("selected_units")
+	EventBus.emit_signal("selected")
 	# TODO: Highlighting effect
 	#$AnimationPlayer.play("selected")
 
 func deselect() -> void:
 	$SelectionRing.visible = false
 	remove_from_group("selected_units")
+	EventBus.emit_signal("selected")
 	#$AnimationPlayer.stop()
 
 func move_to(target_pos: Vector3) -> void:

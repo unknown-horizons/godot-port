@@ -20,6 +20,10 @@ func _ready():
 	timer.start(1.001 - anim_speed)
 	
 	add_to_group("billboard")
+	
+func select() -> void:
+	Audio.play_snd_click()
+	prints(self.name)
 
 #func update_offset(new_rotation):
 #	var new_offset = Vector2()

@@ -3,6 +3,8 @@ extends Control
 onready var balance_info_button = $MarginContainer/HBoxContainer/VBoxContainer/BalanceInfoButton
 onready var city_info = $MarginContainer/HBoxContainer/CityInfo
 onready var messages = $MarginContainer/HBoxContainer/VBoxContainer/Messages
+onready var tab_widget = $MarginContainer/HBoxContainer/TabWidget
+var name_caption = preload("res://Assets/UI/Scenes/Caption.tscn")
 
 var queued_messages = []
 
@@ -15,26 +17,24 @@ var _debug_messages = [
 	[4, "This is a very long text. That much, that it easily takes up to 3 lines. Believe it or not."]
 ]
 
+var old_selected_units = null
+
+func _ready():
+	EventBus.connect("selected", self, "_on_selected")
+
 func _process(_delta):
 	pass
+
 	
-func _input(event: InputEvent) -> void:
-	_on_input(event)
-	
-func _on_input(event):
+func _on_selected():
 	var selected_units = get_tree().get_nodes_in_group("selected_units")
 	if selected_units.size() == 0:
 		# should in the future hide all unit-related HUD-Elements
-		$MarginContainer/HBoxContainer/ShipMenuTabWidget.visible = false
-	elif selected_units.size() == 1: 
-		# only one Unit, so probably only possible to build etc. if only one Unit selected
-		if selected_units[0].get_groups().find("ships") == 1: # Its a ship
-			$MarginContainer/HBoxContainer/ShipMenuTabWidget.visible = true
-		if selected_units[0].get_groups().find("ships") != 1: # Its not a ship. Do something else
-			pass
-	elif selected_units.size() > 1: # multiple units selected, do something else
-		pass
+		tab_widget._set_detail_visibility(false)
+	elif selected_units.size() >= 1: 
+		tab_widget._change_on_select(selected_units)
 	
+		
 
 func raise_notification(message_type, message_text):
 	var _debug_message = _debug_messages[randi() % _debug_messages.size()]
