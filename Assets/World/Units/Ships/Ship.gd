@@ -17,6 +17,7 @@ export(int, 4) var num_of_slots = 4
 
 func _ready() -> void:
 	add_to_group("units")
+	add_to_group("ships")
 	# DEBUG
 	$Billboard.vframes = 2
 	$Billboard.hframes = 4
