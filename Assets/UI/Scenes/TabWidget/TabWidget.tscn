@@ -1,0 +1,238 @@
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://Assets/UI/Scripts/TabWidget.gd" type="Script" id=1]
+[ext_resource path="res://Assets/UI/Images/TabWidget/main_bg_top.png" type="Texture" id=2]
+[ext_resource path="res://Assets/UI/Images/TabWidget/main_bg_fill.png" type="Texture" id=3]
+[ext_resource path="res://Assets/UI/Images/TabWidget/main_bg_bottom.png" type="Texture" id=4]
+[ext_resource path="res://Assets/UI/Images/Background/Widgets/map_bg.png" type="Texture" id=5]
+[ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/tear_h.png" type="Texture" id=6]
+[ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/tear.png" type="Texture" id=7]
+[ext_resource path="res://Assets/UI/Images/Buttons/glass_small.png" type="Texture" id=8]
+[ext_resource path="res://Assets/UI/Images/Buttons/glass_big.png" type="Texture" id=9]
+[ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/gamemenu.png" type="Texture" id=10]
+[ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/build_h.png" type="Texture" id=11]
+[ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/captainslog.png" type="Texture" id=12]
+[ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/diplomacy.png" type="Texture" id=13]
+[ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/diplomacy_h.png" type="Texture" id=14]
+[ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/gamemenu_h.png" type="Texture" id=15]
+[ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/captainslog_h.png" type="Texture" id=16]
+[ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/build.png" type="Texture" id=17]
+
+[node name="TabWidget" type="Control"]
+margin_right = 251.0
+margin_bottom = 500.0
+rect_min_size = Vector2( 251, 500 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="WidgetDetail" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -125.5
+margin_top = -93.0
+margin_right = 125.5
+margin_bottom = 197.0
+size_flags_vertical = 3
+custom_constants/separation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="WidgetDetail"]
+margin_right = 251.0
+margin_bottom = 60.0
+texture = ExtResource( 2 )
+stretch_mode = 6
+
+[node name="Body" type="TextureRect" parent="WidgetDetail"]
+margin_top = 60.0
+margin_right = 251.0
+margin_bottom = 202.0
+rect_min_size = Vector2( 0, 50 )
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource( 3 )
+stretch_mode = 2
+
+[node name="TextureRect2" type="TextureRect" parent="WidgetDetail"]
+show_behind_parent = true
+margin_top = 202.0
+margin_right = 251.0
+margin_bottom = 290.0
+texture = ExtResource( 4 )
+stretch_mode = 4
+
+[node name="WidgetTop" type="TextureRect" parent="."]
+margin_right = 251.0
+margin_bottom = 210.0
+texture = ExtResource( 5 )
+stretch_mode = 4
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="DestroyButton" type="TextureButton" parent="WidgetTop"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -96.5
+margin_top = 40.0
+margin_right = -62.5
+margin_bottom = 80.0
+toggle_mode = true
+pressed = true
+texture_normal = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton" type="TextureButton" parent="WidgetTop/DestroyButton"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -14.0
+margin_top = -17.0
+margin_right = 12.0
+margin_bottom = 9.0
+texture_normal = ExtResource( 7 )
+texture_hover = ExtResource( 6 )
+expand = true
+stretch_mode = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LogBookButton" type="TextureButton" parent="WidgetTop"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -59.0
+margin_top = 72.0
+margin_right = -35.0
+margin_bottom = 96.0
+texture_normal = ExtResource( 12 )
+texture_hover = ExtResource( 16 )
+expand = true
+stretch_mode = 5
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="WidgetTop/LogBookButton"]
+show_behind_parent = true
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -17.0
+margin_top = -17.0
+margin_right = 17.0
+margin_bottom = 23.0
+texture = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BuildMenuButton" type="TextureButton" parent="WidgetTop"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -19.5
+margin_top = 78.0
+margin_right = 20.5
+margin_bottom = 122.0
+toggle_mode = true
+pressed = true
+texture_normal = ExtResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton" type="TextureButton" parent="WidgetTop/BuildMenuButton"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -16.0
+margin_top = -18.0
+margin_right = 18.0
+margin_bottom = 15.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource( 17 )
+texture_hover = ExtResource( 11 )
+expand = true
+stretch_mode = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DiplomacyButton" type="TextureButton" parent="WidgetTop"]
+anchor_left = 0.622
+anchor_top = 0.819
+anchor_right = 0.622
+anchor_bottom = 0.819
+margin_left = -0.122009
+margin_top = 0.00997925
+margin_right = -0.122009
+margin_bottom = 0.00997925
+size_flags_horizontal = 0
+toggle_mode = true
+pressed = true
+texture_normal = ExtResource( 8 )
+expand = true
+stretch_mode = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton" type="TextureButton" parent="WidgetTop/DiplomacyButton"]
+margin_left = 4.27631
+margin_top = 3.75739
+margin_right = 30.2763
+margin_bottom = 29.7574
+texture_normal = ExtResource( 13 )
+texture_hover = ExtResource( 14 )
+expand = true
+stretch_mode = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GameMenuButton" type="TextureButton" parent="WidgetTop"]
+margin_left = 189.0
+margin_top = 145.0
+margin_right = 223.0
+margin_bottom = 185.0
+toggle_mode = true
+pressed = true
+texture_normal = ExtResource( 8 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton" type="TextureButton" parent="WidgetTop/GameMenuButton"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 33.0
+margin_bottom = 33.0
+texture_normal = ExtResource( 10 )
+texture_hover = ExtResource( 15 )
+expand = true
+stretch_mode = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="WidgetTop/LogBookButton" to="." method="_on_LogBookButton_pressed"]
