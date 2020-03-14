@@ -16,7 +16,7 @@ signal position_changed
 #     45° -> DIRECTION[index + 2] -> Vector3(-1, 0,  1)
 #    135° -> DIRECTION[index + 4] -> Vector3(-1, 0, -1)
 #   -135° -> DIRECTION[index + 6] -> Vector3( 1, 0, -1)
-
+#
 const DIRECTION = [
 	Vector3( 1, 0,  1), # RIGHT
 	Vector3( 0, 0,  1), # DOWN_RIGHT

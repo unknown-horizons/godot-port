@@ -2,7 +2,7 @@ tool
 extends Node
 
 enum ResourceTypes {
-	# Taken from fife version, started at 1 originally.
+	# taken from fife version, started at 1 originally
 	GOLD             =  0,
 	LAMB_WOOL        =  1,
 	TEXTILE          =  2,
@@ -258,14 +258,14 @@ const FACTION_FLAGS = [
 	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_no_player.png"),
 	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_red.png"),
 	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_blue.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_dark_green.png"),
+	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_green.png"),
 	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_orange.png"),
 	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_purple.png"),
 	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_cyan.png"),
 	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_yellow.png"),
 	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_pink.png"),
 	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_teal.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_lime_green.png"),
+	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_lemon.png"),
 	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_bordeaux.png"),
 	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_white.png"),
 	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_gray.png"),
@@ -273,21 +273,21 @@ const FACTION_FLAGS = [
 ]
 
 const COLOR = [
-	Color(0,       0,    0, 0), # Transparent black.
-	Color(1,    0.04, 0.04, 1), # Red.
-	Color(0,    0.28, 0.71, 1), # Sea Blue.
-	Color(0,    0.63, 0.09, 1), # Dark Green.
-	Color(0.88,  0.4,    0, 1), # Orange.
-	Color(0.50,    0, 0.50, 1), # Purple.
-	Color(0,       1,    1, 1), # Cyan.
-	Color(1,    0.84,    0, 1), # Yellow.
-	Color(1,       0,    1, 1), # Magenta.
-	Color(0,    0.57, 0.55, 1), # Teal.
-	Color(0,       1,    0, 1), # Lime Green.
-	Color(0.59, 0.02, 0.16, 1), # Carmine Red.
-	Color(1,       1,    1, 1), # White.
-	Color(0.50, 0.50, 0.50, 1), # Gray.
-	Color(0,       0,    0, 1), # Black.
+	Color(0,       0,    0, 0),
+	Color(1,    0.04, 0.04, 1),
+	Color(0,    0.28, 0.71, 1),
+	Color(0,    0.63, 0.09, 1),
+	Color(0.88,  0.4,    0, 1),
+	Color(0.50,    0, 0.50, 1),
+	Color(0,       1,    1, 1),
+	Color(1,    0.84,    0, 1),
+	Color(1,       0,    1, 1),
+	Color(0,    0.57, 0.55, 1),
+	Color(0,       1,    0, 1),
+	Color(0.59, 0.02, 0.16, 1),
+	Color(1,       1,    1, 1),
+	Color(0.50, 0.50, 0.50, 1),
+	Color(0,       0,    0, 1),
 ];
 
 const FACTION_COLOR_NONE =\

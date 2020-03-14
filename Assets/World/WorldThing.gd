@@ -39,7 +39,7 @@ func _process(_delta: float) -> void:
 		
 		# Prevent things "falling" through the GridMap when drag'n'dropping
 		# nodes from the hierarchy to the map;
-		# keep everything on the same height at all time.
+		# keep everything on the same height at all time
 		if translation.y != 0:
 			translation.y = 0
 
@@ -91,9 +91,9 @@ func set_rotation_degree(new_rotation: int) -> void:
 		return
 	
 	match rotation_step:
-		RotationSteps.FOURTY_FIVE: # Units.
+		RotationSteps.FOURTY_FIVE: # units
 			_billboard.frame = new_rotation
-		RotationSteps.NINETY: # Buildings.
+		RotationSteps.NINETY: # buildings
 			if new_rotation % 2 != 0:
 				printerr(str(self.name) +
 						" - Invalid rotation for current rotation step.")

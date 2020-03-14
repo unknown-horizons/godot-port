@@ -13,8 +13,7 @@ var camera
 func _ready() -> void:
 	print_debug(
 		"I'm {0} in faction {1} ({2}).".format(
-				[Global.player_name, faction, Global.FACTIONS[faction]])
-		)
+		[Global.player_name, faction, Global.FACTIONS[faction]]))
 
 func _on_Game_notification(message_type, message_text) -> void:
 	if camera != null:
