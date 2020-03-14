@@ -3,6 +3,7 @@ extends Control
 onready var balance_info_button = $MarginContainer/HBoxContainer/VBoxContainer/BalanceInfoButton
 onready var city_info = $MarginContainer/HBoxContainer/CityInfo
 onready var messages = $MarginContainer/HBoxContainer/VBoxContainer/Messages
+onready var tab_widget = $MarginContainer/HBoxContainer/TabWidget
 
 var queued_messages = []
 
@@ -29,3 +30,14 @@ func raise_notification(message_type, message_text):
 		messages.add_child(message)
 #	else:
 #		queued_messages.append()
+
+func _on_selected():
+	var selected_units = get_tree().get_nodes_in_group("selected_units")
+	if selected_units.size() == 0:
+		# should in the future hide all unit-related HUD-Elements
+		tab_widget._set_detail_visibility(false)
+	elif selected_units.size() >= 1: 
+		tab_widget._change_on_select(selected_units)
+		
+func _ready():
+	EventBus.connect("selected", self, "_on_selected")

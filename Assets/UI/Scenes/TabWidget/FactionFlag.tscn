@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/UI/Images/TabWidget/Emblems/emblem_red.png" type="Texture" id=1]
+
+[node name="MarginContainer" type="MarginContainer"]
+margin_right = 37.0
+margin_bottom = 24.0
+size_flags_horizontal = 0
+custom_constants/margin_left = 5
+
+[node name="FactionIndicator" type="TextureRect" parent="."]
+margin_left = 5.0
+margin_right = 37.0
+margin_bottom = 24.0
+rect_min_size = Vector2( 32, 24 )
+size_flags_horizontal = 0
+texture = ExtResource( 1 )
+expand = true
+__meta__ = {
+"_editor_description_": ""
+}

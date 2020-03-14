@@ -13,10 +13,11 @@ export(int, 12) var velocity = 12
 
 # Storage capacity
 export(int, 120) var storage_limit = 120
-export(int, 4) var num_of_slots = 4
+export(int, 4) var num_of_slots = 6
 
 func _ready() -> void:
 	add_to_group("units")
+	add_to_group("ships")
 	# DEBUG
 	$Billboard.vframes = 2
 	$Billboard.hframes = 4

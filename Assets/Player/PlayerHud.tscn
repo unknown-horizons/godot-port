@@ -59,12 +59,15 @@ size_flags_horizontal = 2
 size_flags_vertical = 0
 
 [node name="TabWidget" parent="MarginContainer/HBoxContainer" instance=ExtResource( 1 )]
-visible = false
-margin_left = 1024.0
-margin_right = 1275.0
+margin_left = 1278.0
+margin_right = 1529.0
 size_flags_vertical = 0
 
+[node name="WidgetDetail" parent="MarginContainer/HBoxContainer/TabWidget" index="0"]
+visible = false
+
 [node name="ShipMenuTabWidget" parent="MarginContainer/HBoxContainer" instance=ExtResource( 5 )]
+visible = false
 margin_left = 1278.0
 margin_right = 1529.0
 margin_bottom = 770.0

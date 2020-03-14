@@ -239,6 +239,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/World/Units/Ships/Ship.gd"
 }, {
+"base": "Control",
+"class": "ShipMenu",
+"language": "GDScript",
+"path": "res://Assets/UI/Scenes/TabWidget/ShipMenu.gd"
+}, {
 "base": "TabWidget",
 "class": "ShipMenuTabWidget",
 "language": "GDScript",
@@ -406,6 +411,7 @@ _global_script_class_icons={
 "SaltPonds": "",
 "School": "",
 "Ship": "",
+"ShipMenu": "",
 "ShipMenuTabWidget": "",
 "SignalFire": "",
 "SimpleButton": "",
@@ -443,6 +449,7 @@ config/icon="res://icon.png"
 
 Global="*res://Assets/World/Global.gd"
 Audio="*res://Assets/World/Audio.gd"
+EventBus="*res://Assets/World/EventBus.gd"
 
 [debug]
 
