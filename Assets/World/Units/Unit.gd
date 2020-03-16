@@ -70,7 +70,7 @@ func deselect() -> void:
 	#$AnimationPlayer.stop()
 
 func move_to(target_pos: Vector3) -> void:
-	path = _as_map.get_sea_path(global_transform.origin, target_pos)
+	path = _as_map.get_gm_path(global_transform.origin, target_pos)
 	path_index = 0
 
 func update_path() -> void:

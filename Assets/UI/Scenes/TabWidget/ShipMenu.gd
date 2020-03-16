@@ -7,8 +7,6 @@ const warehouse_scene = preload("res://Assets/World/Buildings/Citizens/Warehouse
 onready var grid_container = $ShipMenu/InvMarginBox/InvGridContainer
 onready var name_caption = $ShipMenu/Caption
 onready var selected_ship = null
-onready var Buildings = get_node_or_null("/root/World/Buildings")
-
 
 func set_selected_ship(ship):
 	selected_ship = ship
@@ -16,17 +14,6 @@ func set_selected_ship(ship):
 	_add_resource_slots(selected_ship.num_of_slots)
 	
 func _on_ColoniseButton_pressed():
-	var cell_dist = selected_ship._as_map.get_closest_land_point(selected_ship.global_transform.origin)
-	prints("Distance to shore: ", cell_dist["distance"])
-	prints("Position of closest Node: ", cell_dist["position"])
-	if cell_dist["distance"] <= 3:
-		print("can colonize")
-		var warehouse = warehouse_scene.instance()
-		Buildings.add_child(warehouse)
-		warehouse.global_transform.origin = cell_dist["position"]
-		
-	else:
-		print("Get nearer to shore.")
 	pass
 	
 func _set_caption(new_caption):
