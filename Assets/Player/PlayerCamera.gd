@@ -125,6 +125,11 @@ func recalculate_directions() -> void:
 	_directions[1] = basis.z
 	_directions[2] = -basis.x
 	_directions[3] = basis.x
+	
+func place_building(m_pos: Vector2, building: Spatial) -> void:
+	var map_position = raycast_from_mouse(m_pos, 1)
+	
+	pass
 
 # Unit selection.
 func select_units(m_pos: Vector2) -> void:

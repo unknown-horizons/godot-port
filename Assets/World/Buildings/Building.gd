@@ -9,6 +9,8 @@ var rotation_index setget ,get_rotation_index
 var rotation_offset := 0
 
 onready var timer := Timer.new() # to play an animation in a sane speed
+onready var PlayerCamera = get_node_or_null("/root/World/PalyerCamera")
+onready var _as_map: Spatial = get_node_or_null("/root/World/AStarMap") as Spatial
 
 export(String) var action := "idle" setget set_action
 export(float, 0, 1) var anim_speed := 0.95 setget set_anim_speed
@@ -35,6 +37,11 @@ func _ready():
 #
 #	#print("Update offset for {0}: {1}".format([self.name, new_offset]))
 #	_billboard.offset = new_offset
+
+func place():
+	var m_pos = PlayerCamera.get_viewport().get_mouse_position()
+	
+	pass
 
 func animate() -> void: # to be overridden
 	if previous_anim != current_anim and current_anim == null:
