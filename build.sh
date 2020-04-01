@@ -43,12 +43,15 @@ mkdir -p "Builds/Desktop"
 # Builds.
 $GODOT --path . --export linux "Builds/Desktop/$PROJECTNAME.x86_64"
 $GODOT --path . --export windows "Builds/Desktop/$PROJECTNAME.exe"
+$GODOT --path . --export mac "Builds/Desktop/$PROJECTNAME.dmg"
 
 # Make everything executable.
 chmod -R +x Builds/*
 
 # Check if the files exist, if not, throw an error.
-if [ ! -f "Builds/Desktop/$PROJECTNAME.x86_64" ] || [ ! -f "Builds/Desktop/$PROJECTNAME.exe" ]; then
+if [ ! -f "Builds/Desktop/$PROJECTNAME.x86_64" ] 
+    || [ ! -f "Builds/Desktop/$PROJECTNAME.exe" ]
+    || [ ! -f "Builds/Desktop/$PROJECTNAME.dmg" ]; then
     echo
     echo "Error: Building failed! Please see the Godot log for more information. "
     echo
