@@ -41,17 +41,24 @@ fi
 mkdir -p "Builds/Desktop"
 
 # Builds.
+
+echo "Exporting Linux binary... "
 $GODOT --path . --export linux "Builds/Desktop/$PROJECTNAME.x86_64"
+echo "Exporting Windows binary... "
 $GODOT --path . --export windows "Builds/Desktop/$PROJECTNAME.exe"
-$GODOT --path . --export mac "Builds/Desktop/$PROJECTNAME.dmg"
+
+if [ "$(uname -s)" == "Darwin" ]; then
+    echo "Exporting macOS binary... "
+    $GODOT --path . --export mac "Builds/Desktop/$PROJECTNAME.dmg"
+else
+    echo "Not building on macOS, export of dmg file skipped. "
+fi
 
 # Make everything executable.
 chmod -R +x Builds/*
 
 # Check if the files exist, if not, throw an error.
-if [ ! -f "Builds/Desktop/$PROJECTNAME.x86_64" ] 
-    || [ ! -f "Builds/Desktop/$PROJECTNAME.exe" ]
-    || [ ! -f "Builds/Desktop/$PROJECTNAME.dmg" ]; then
+if [ ! -f "Builds/Desktop/$PROJECTNAME.x86_64" ] || [ ! -f "Builds/Desktop/$PROJECTNAME.exe" ]; then
     echo
     echo "Error: Building failed! Please see the Godot log for more information. "
     echo
