@@ -48,10 +48,10 @@ echo "Exporting Windows binary... "
 $GODOT --path . --export windows "Builds/Desktop/$PROJECTNAME.exe"
 
 if [ "$(uname -s)" == "Darwin" ]; then
-    echo "Exporting Mac os binary... "
+    echo "Exporting macOS binary... "
     $GODOT --path . --export mac "Builds/Desktop/$PROJECTNAME.dmg"
 else
-    echo "Not building on Mac os, export of dmg file skipped. "
+    echo "Not building on macOS, export of dmg file skipped. "
 fi
 
 # Make everything executable.
