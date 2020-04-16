@@ -1,0 +1,102 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/UI/Themes/MenuTheme.tres" type="Theme" id=1]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends GridContainer
+
+func _ready():
+	$NameEdit.text = Global.player_name
+	# add language from Global
+	var idx = 0
+	var i = 0
+	for n in Global._lang_array:
+		$LanguageEdit.add_item(Global._languages[n])
+		if n == Global.language:
+			idx = i
+		i+=1
+	$LanguageEdit.text = Global._languages[Global.language]
+	$LanguageEdit.select(idx)
+	idx = 0
+	i = 0
+	for x in Global._screen_res:
+		$ResolutionEdit.add_item(x)
+		if x == Global.screen_res:
+			idx = i
+		i += 1
+	$ResolutionEdit.select(idx)
+
+func _on_NameEdit_text_entered(new_text):
+	Global.player_name = new_text
+
+func _on_LanguageEdit_item_selected(id):
+	var lang = Global._lang_array[id]
+	Global.language = lang
+
+
+func _on_ResolutionEdit_item_selected(id):
+	var res = Global._screen_res[id]
+	Global.screen_res = res
+"
+
+[node name="GridContainer" type="GridContainer"]
+margin_top = 64.0
+margin_right = 650.0
+margin_bottom = 64.0
+columns = 2
+script = SubResource( 1 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_top = 5.0
+margin_right = 233.0
+margin_bottom = 42.0
+theme = ExtResource( 1 )
+text = "Name"
+
+[node name="NameEdit" type="LineEdit" parent="."]
+margin_left = 237.0
+margin_right = 518.0
+margin_bottom = 47.0
+hint_tooltip = "Your user name!"
+theme = ExtResource( 1 )
+text = "Unknown Traveller!"
+expand_to_text_length = true
+
+[node name="Label3" type="Label" parent="."]
+margin_top = 55.0
+margin_right = 233.0
+margin_bottom = 92.0
+theme = ExtResource( 1 )
+text = "Language"
+
+[node name="LanguageEdit" type="OptionButton" parent="."]
+margin_left = 237.0
+margin_top = 51.0
+margin_right = 518.0
+margin_bottom = 96.0
+hint_tooltip = "Your prefered language"
+theme = ExtResource( 1 )
+text = "English"
+
+[node name="Label2" type="Label" parent="."]
+margin_top = 104.0
+margin_right = 233.0
+margin_bottom = 141.0
+theme = ExtResource( 1 )
+text = "Screen Resolution"
+
+[node name="ResolutionEdit" type="OptionButton" parent="."]
+margin_left = 237.0
+margin_top = 100.0
+margin_right = 518.0
+margin_bottom = 145.0
+hint_tooltip = "Select the screen resolution to use"
+theme = ExtResource( 1 )
+[connection signal="text_changed" from="NameEdit" to="." method="_on_NameEdit_text_entered"]
+[connection signal="text_entered" from="NameEdit" to="." method="_on_NameEdit_text_entered"]
+[connection signal="item_selected" from="LanguageEdit" to="." method="_on_LanguageEdit_item_selected"]
+[connection signal="item_selected" from="ResolutionEdit" to="." method="_on_ResolutionEdit_item_selected"]
