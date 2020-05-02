@@ -33,7 +33,6 @@ func _on_LanguageEdit_item_selected(id):
 	var lang = Global._lang_array[id]
 	Global.language = lang
 
-
 func _on_ResolutionEdit_item_selected(id):
 	var res = Global._screen_res[id]
 	Global.screen_res = res
