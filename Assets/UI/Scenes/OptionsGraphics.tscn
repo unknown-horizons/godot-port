@@ -14,7 +14,7 @@ func _ready():
 		$LanguageEdit.add_item(Global._languages[n])
 		if n == Global.language:
 			idx = i
-		i+=1
+		i += 1
 	$LanguageEdit.text = Global._languages[Global.language]
 	$LanguageEdit.select(idx)
 	idx = 0
