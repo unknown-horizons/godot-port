@@ -341,7 +341,41 @@ const COLOR_MATERIAL = [
 
 const MESSAGE_SCENE = preload("res://Assets/UI/Scenes/Message.tscn")
 
+const CONFIG_FILE = "user://unknown_horizon.ini"
+
 #warning-ignore-all:unused_class_variable
+
+# Language choices
+const _languages = {
+	en = "English",
+	de = "Deutsch",
+	fr = "Français"
+}
+
+const _lang_array = [
+	"en",
+	"de",
+	"fr"
+]
+
+var _screen_res = [
+	"800 x 600",
+	"1024 x 768",
+	"1280 x 1024",
+	"1280 x 720",
+	"1280 x 800",
+	"1360 x 768",
+	"1366 x 768",
+	"1440 x 900",
+	"1600 x 900",
+	"1680 x 1050",
+	"1920 x 1200",
+	"1920 x 1080",
+	"2560 x 1080",
+	"2560 x 1440",
+	"3440 x 1440",
+	"3840 x 2160"
+]
 
 # System variables
 var language = "en"
@@ -349,6 +383,7 @@ var language = "en"
 # -------
 var game_type := "FreePlay"
 var player_name := "Unknown Traveller"
+var screen_res := "800*600"
 var faction := 1
 var map: PackedScene
 var ai_players := 0 # default should be 3 once AI is functional
@@ -366,7 +401,33 @@ var PlayerStart: MeshInstance = null
 
 var _warning := false # DEBUG
 
+func save_config():
+	var config = ConfigFile.new()
+	config.set_value("global", "player_name", player_name)
+	config.set_value("global", "language", language)
+	config.set_value("global", "screen_res", screen_res)
+	return config.save(CONFIG_FILE)
+
+func create_config_if_not_exists() -> ConfigFile:
+	var config = ConfigFile.new()
+	var err = config.load(CONFIG_FILE)
+	if err != OK:
+		var saved = save_config()
+		if saved != OK:
+			# this is very bad and should not be possible
+			print("The config could not be saved!")
+			get_tree().quit()
+	return config
+
 func _ready() -> void:
+	var config = create_config_if_not_exists()
+	var err = config.load(CONFIG_FILE)
+	if err != OK:
+		print("Could not load config. This is impossible!")
+		get_tree().quit()
+	player_name = config.get_value("global", "player_name", "Unknown Player")
+	language = config.get_value("global", "language", "en")
+	screen_res = config.get_value("global", "screen_res", "800*600")
 	pause_mode = Node.PAUSE_MODE_PROCESS
 
 func _input(event: InputEvent) -> void:

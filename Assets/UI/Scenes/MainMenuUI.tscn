@@ -293,3 +293,5 @@ anims/intro = SubResource( 1 )
 [connection signal="pressed" from="Decoration/MenuItems/SinglePlayerButton" to="." method="_go_to_scene" binds= [ "sp_game" ]]
 [connection signal="pressed" from="Decoration/MenuItems/LoadGameButton" to="." method="_go_to_scene" binds= [ "load_game" ]]
 [connection signal="pressed" from="Decoration/MenuItems/QuitButton" to="." method="_go_to_scene" binds= [ "exit" ]]
+[connection signal="pressed" from="Decoration/MenuItems/HelpButton" to="." method="_go_to_scene" binds= [ "help" ]]
+[connection signal="pressed" from="Decoration/MenuItems/OptionsButton" to="." method="_go_to_scene" binds= [ "options" ]]

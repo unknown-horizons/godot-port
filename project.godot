@@ -139,6 +139,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/UI/Scripts/GameTypeButton.gd"
 }, {
+"base": "Control",
+"class": "HelpUI",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/HelpUI.gd"
+}, {
 "base": "Building",
 "class": "Herbary",
 "language": "GDScript",
@@ -183,6 +188,11 @@ _global_script_classes=[ {
 "class": "NewGameUI",
 "language": "GDScript",
 "path": "res://Assets/UI/Scripts/NewGameUI.gd"
+}, {
+"base": "Button",
+"class": "OptionsButton",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/OptionsButton.gd"
 }, {
 "base": "Building",
 "class": "PastryShop",
@@ -386,6 +396,7 @@ _global_script_class_icons={
 "Frigate": "",
 "Game": "",
 "GameTypeButton": "",
+"HelpUI": "",
 "Herbary": "",
 "HopField": "",
 "Huker": "",
@@ -395,6 +406,7 @@ _global_script_class_icons={
 "MainMenuUI": "",
 "MainSquare": "",
 "NewGameUI": "",
+"OptionsButton": "",
 "PastryShop": "",
 "Pasture": "",
 "Pigsty": "",
