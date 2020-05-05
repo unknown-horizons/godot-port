@@ -17,7 +17,7 @@ func _on_Button_Signal(option_name):
 	var node = get_node("CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/OptionsContainer")
 	delete_children(node)
 	node.add_child(_options[option_name].instance())
-	
+
 func _on_Config_Done():
 	parent.visible = true
 	queue_free()
