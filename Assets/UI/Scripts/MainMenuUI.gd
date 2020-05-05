@@ -5,7 +5,7 @@ var _scenes = {
 	sp_game = preload("res://Assets/UI/Scenes/NewGameUI.tscn"),
 	load_game = preload("res://Assets/World/WorldTown.tscn"),
 	help = preload("res://Assets/UI/Scenes/HelpUI.tscn"),
-	options = preload("res://Assets/UI/Scenes/Options.tscn"),
+	options = preload("res://Assets/UI/Scenes/OptionsUI.tscn"),
 	exit = preload("res://Assets/UI/Scenes/ExitScene.tscn")
 }
 
