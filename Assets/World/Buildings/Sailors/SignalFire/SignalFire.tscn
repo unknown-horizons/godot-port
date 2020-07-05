@@ -8,10 +8,11 @@
 script = ExtResource( 2 )
 texture = ExtResource( 1 )
 anim_speed = 0.88
+tier = 0
 
 [node name="Billboard" parent="." index="0"]
 texture = ExtResource( 1 )
 hframes = 5
-frame = 9
+frame = 4
 region_enabled = true
 region_rect = Rect2( 0, 0, 320, 256 )

@@ -12,7 +12,8 @@ action = "work"
 [node name="Billboard" parent="." index="0"]
 offset = Vector2( -2, 46 )
 texture = ExtResource( 4 )
-vframes = 4
-hframes = 4
+vframes = 10
+hframes = 15
+frame = 13
 region_enabled = true
 region_rect = Rect2( 0, 0, 2880, 1920 )

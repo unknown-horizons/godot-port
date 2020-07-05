@@ -4,7 +4,7 @@
 [ext_resource path="res://Assets/World/Buildings/Settlers/Tavern/Sprites/Tavern_idle.png" type="Texture" id=2]
 [ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=3]
 
-[node name="Tavern" index="0" instance=ExtResource( 3 )]
+[node name="Tavern" instance=ExtResource( 3 )]
 script = ExtResource( 1 )
 texture = ExtResource( 2 )
 

@@ -2,7 +2,7 @@
 
 [ext_resource path="res://External/Fonts/LinLibertineI.tres" type="DynamicFontData" id=1]
 
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="DynamicFont" id=1]
 size = 30
 font_data = ExtResource( 1 )
 
@@ -18,6 +18,6 @@ __meta__ = {
 [node name="Label" type="Label" parent="."]
 margin_right = 443.0
 margin_bottom = 35.0
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 text = "These Options are not yet availlaible!"
 align = 1

@@ -7,8 +7,6 @@
 [node name="Doctor" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 texture = ExtResource( 3 )
-rotation_step = 1
-rotation_degree = 0
 
 [node name="Billboard" parent="." index="0"]
 offset = Vector2( 0, 28 )

@@ -17,7 +17,7 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-show_details = false
+show_details = true
 
 [node name="TextureButton" type="TextureButton" parent="."]
 margin_right = 78.0
@@ -85,7 +85,6 @@ custom_constants/separation = 0
 
 [node name="Expense" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource( 6 )]
 margin_right = 39.0
-balance_type = 0
 balance_value = -5
 
 [node name="Income" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource( 6 )]
@@ -100,14 +99,12 @@ margin_top = 34.0
 margin_right = 39.0
 margin_bottom = 51.0
 balance_type = 2
-balance_value = 0
 
 [node name="Sell" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource( 6 )]
 margin_top = 51.0
 margin_right = 39.0
 margin_bottom = 68.0
 balance_type = 3
-balance_value = 0
 
 [node name="TextureRect3" type="TextureRect" parent="VBoxContainer"]
 show_behind_parent = true
