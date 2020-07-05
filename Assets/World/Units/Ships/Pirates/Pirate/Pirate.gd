@@ -65,7 +65,7 @@ func patrol():
 #		int(round(global_transform.origin.z))
 #	)
 #
-#	prints("patrol_route", 
+#	prints("patrol_route",
 #		int(round(patrol_route[next_patrol_index].x)),
 #		int(round(patrol_route[next_patrol_index].y)),
 #		int(round(patrol_route[next_patrol_index].z))

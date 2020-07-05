@@ -111,7 +111,7 @@ func recalculate_directions() -> void:
 			rotation_offset = 2
 		135:
 			rotation_offset = 4
-		-135:   
+		-135:
 			rotation_offset = 6
 
 func update_rotation() -> void:
