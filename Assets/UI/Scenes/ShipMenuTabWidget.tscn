@@ -173,6 +173,7 @@ margin_right = 220.0
 margin_bottom = 51.0
 
 [node name="InventorySlot" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer" index="0" instance=ExtResource( 26 )]
+storage_limit = 30
 
 [node name="TextureRect" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot" index="0"]
 margin_top = -0.256653
@@ -187,6 +188,7 @@ rect_clip_content = true
 margin_left = 53.0
 margin_right = 102.0
 resource_type = 4
+storage_limit = 30
 
 [node name="TextureRect" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot2" index="0"]
 margin_top = -0.256653
@@ -202,6 +204,7 @@ rect_clip_content = true
 margin_left = 106.0
 margin_right = 155.0
 resource_type = 5
+storage_limit = 30
 
 [node name="TextureRect" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot3" index="0"]
 margin_top = -0.256653
@@ -218,6 +221,7 @@ margin_left = 159.0
 margin_right = 208.0
 resource_type = 39
 resource_value = 12
+storage_limit = 30
 
 [node name="TextureRect" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot4" index="0"]
 margin_top = -0.256653

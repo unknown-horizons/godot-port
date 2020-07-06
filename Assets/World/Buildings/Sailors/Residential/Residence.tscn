@@ -7,7 +7,8 @@
 [node name="Residence" instance=ExtResource( 3 )]
 script = ExtResource( 2 )
 texture = ExtResource( 1 )
+tier = 0
+variation = 0
 
 [node name="Billboard" parent="." index="0"]
 texture = ExtResource( 1 )
-frame = 11

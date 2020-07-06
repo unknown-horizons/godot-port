@@ -116,7 +116,7 @@ double_sided = false
 texture = ExtResource( 3 )
 vframes = 4
 hframes = 4
-frame = 5
+frame = 3
 region_enabled = true
 region_rect = Rect2( 0, 0, 896, 896 )
 __meta__ = {
@@ -127,7 +127,7 @@ __meta__ = {
 extra_cull_margin = 200.0
 texture = ExtResource( 3 )
 vframes = 4
-frame = 4
+frame = 14
 region_rect = Rect2( 0, 0, 896, 896 )
 
 [node name="CollisionShape" parent="Area" index="0"]

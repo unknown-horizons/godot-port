@@ -7,11 +7,12 @@
 [node name="MainSquare" instance=ExtResource( 3 )]
 script = ExtResource( 2 )
 texture = ExtResource( 1 )
+tier = 0
 
 [node name="Billboard" parent="." index="0"]
 offset = Vector2( 0, 16 )
 texture = ExtResource( 1 )
 hframes = 13
-frame = 2
+frame = 11
 region_enabled = true
 region_rect = Rect2( 0, 0, 4992, 448 )
