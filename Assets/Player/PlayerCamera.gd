@@ -63,7 +63,7 @@ func _process(delta: float) -> void:
 
 	# Unit selection if player is existing (no gameover, etc.)
 	if not player:
-		player = assign_to_player() 
+		player = assign_to_player()
 		return
 
 	if player.camera == null:
