@@ -1,24 +1,13 @@
 extends Spatial
 
-const ZOOM_IN_LIMIT = 5
-const ZOOM_OUT_LIMIT = 35
-const ZOOM_VALUE = 5
-
-const MOVE_SPEED = 10
-const MOVE_FASTER_MULT = 3
-const MOVE_VERTICAL_MULT = 1.5
-
-var _directions := [Vector3(), Vector3(), Vector3(), Vector3()]
+const RAY_LENGTH = 1000
 
 onready var _rotation_y := $RotationY as Spatial
 onready var _camera := $RotationY/Camera as Camera
-
-const RAY_LENGTH = 1000
-
-onready var camera: Camera = $RotationY/Camera
+onready var _camera_controls = $CameraControls
+onready var _selection_box = $SelectionBox
 
 var selected_units = []
-onready var selection_box = $SelectionBox
 var start_sel_pos = Vector2()
 
 var player = null
@@ -26,7 +15,7 @@ var player = null
 # HACK: Prevent triggering unit selection due to preceeding menu click
 var first_frame = true
 
-func _ready() -> void:
+#func _ready() -> void:
 #	get_tree().call_group(
 #		"billboard",
 #		"update_offset",
@@ -35,32 +24,15 @@ func _ready() -> void:
 #		"billboard",
 #		"recalculate_directions",
 #		_rotation_y.rotation_degrees.y)
-	
-	recalculate_directions()
 
 func assign_to_player() -> Control:
 	return Global.Game.player if Global.Game != null and Global.Game.player else null
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if first_frame:
 		first_frame = false
 		return
 	
-	# Camera movement.
-	var movement_scale: float = delta * MOVE_SPEED
-	if Input.is_action_pressed("move_faster"):
-		movement_scale *= MOVE_FASTER_MULT
-	
-	# Not elif because movement should cancel out if both are pressed.
-	if Input.is_action_pressed("move_up"):
-		translate(_directions[0] * movement_scale * MOVE_VERTICAL_MULT)
-	if Input.is_action_pressed("move_down"):
-		translate(_directions[1] * movement_scale * MOVE_VERTICAL_MULT)
-	if Input.is_action_pressed("move_left"):
-		translate(_directions[2] * movement_scale)
-	if Input.is_action_pressed("move_right"):
-		translate(_directions[3] * movement_scale)
-
 	# Unit selection if player is existing (no gameover, etc.)
 	if not player:
 		player = assign_to_player()
@@ -73,58 +45,15 @@ func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("main_command"):
 		move_selected_units(m_pos)
 	if Input.is_action_just_pressed("alt_command"):
-		selection_box.start_sel_pos = m_pos
+		_selection_box.start_sel_pos = m_pos
 		start_sel_pos = m_pos
 	if Input.is_action_pressed("alt_command"):
-		selection_box.m_pos = m_pos
-		selection_box.is_visible = true
+		_selection_box.m_pos = m_pos
+		_selection_box.is_visible = true
 	else:
-		selection_box.is_visible = false
+		_selection_box.is_visible = false
 	if Input.is_action_just_released("alt_command"):
 		select_units(m_pos)
-
-func _input(event: InputEvent) -> void:
-	# Camera rotation.
-	if event.is_action_pressed("rotate_left"):
-		_rotation_y.rotate_y(-PI/2)
-#		get_tree().call_group(
-#			"billboard",
-#			"update_offset",
-#			round(_rotation_y.rotation_degrees.y))
-#		get_tree().call_group(
-#			"billboard",
-#			"recalculate_directions",
-#			round(_rotation_y.rotation_degrees.y))
-
-		recalculate_directions()
-	elif event.is_action_pressed("rotate_right"):
-		_rotation_y.rotate_y(PI/2)
-#		get_tree().call_group(
-#			"billboard",
-#			"update_offset",
-#			round(_rotation_y.rotation_degrees.y))
-#		get_tree().call_group(
-#			"billboard",
-#			"recalculate_directions",
-#			round(_rotation_y.rotation_degrees.y))
-		
-		recalculate_directions()
-	
-	# Camera zooming.
-	elif event.is_action_pressed("zoom_in"):
-		if _camera.size > ZOOM_IN_LIMIT:
-			_camera.size -= ZOOM_VALUE
-	elif event.is_action_pressed("zoom_out"):
-		if _camera.size < ZOOM_OUT_LIMIT:
-			_camera.size += ZOOM_VALUE
-
-func recalculate_directions() -> void:
-	# We could always hard-code the directions, but this is better.
-	var basis: Basis = _rotation_y.get_transform().basis
-	_directions[0] = -basis.z
-	_directions[1] = basis.z
-	_directions[2] = -basis.x
-	_directions[3] = basis.x
 
 # Unit selection.
 func select_units(m_pos: Vector2) -> void:
@@ -183,13 +112,13 @@ func get_units_in_box(top_left: Vector2, bottom_right: Vector2) -> Array:
 	var box = Rect2(top_left, bottom_right - top_left)
 	var box_selected_units = []
 	for unit in get_tree().get_nodes_in_group("units"):
-		if unit.faction == player.faction and box.has_point(camera.unproject_position(unit.global_transform.origin)):
+		if unit.faction == player.faction and box.has_point(_camera.unproject_position(unit.global_transform.origin)):
 			print_debug("Unit [{0}]".format([unit]))
 			box_selected_units.append(unit)
 	return box_selected_units
 
 func raycast_from_mouse(m_pos: Vector2, collision_mask: int) -> Dictionary:
-	var ray_start = camera.project_ray_origin(m_pos)
-	var ray_end = ray_start + camera.project_ray_normal(m_pos) * RAY_LENGTH
+	var ray_start = _camera.project_ray_origin(m_pos)
+	var ray_end = ray_start + _camera.project_ray_normal(m_pos) * RAY_LENGTH
 	var space_state = get_world().direct_space_state
 	return space_state.intersect_ray(ray_start, ray_end, [], collision_mask)
