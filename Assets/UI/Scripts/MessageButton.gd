@@ -1,5 +1,6 @@
 tool
 extends TextureButton
+class_name MessageButton
 
 const MESSAGE_TEXTURES = [
 	{	# Anchor

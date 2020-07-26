@@ -34,14 +34,14 @@ func set_message_text(new_message_text: String) -> void:
 	if message_text_panel != null:
 		message_text_panel.message_text = message_text
 
-func _on_MessageButton_pressed():
+func _on_MessageButton_pressed() -> void:
 	queue_free()
 
-func _on_MessageButton_mouse_entered():
+func _on_MessageButton_mouse_entered() -> void:
 	message_text_panel.visible = true
 
-func _on_MessageButton_mouse_exited():
+func _on_MessageButton_mouse_exited() -> void:
 	message_text_panel.visible = false
 
-func _on_Timer_timeout():
+func _on_Timer_timeout() -> void:
 	message_text_panel.visible = false

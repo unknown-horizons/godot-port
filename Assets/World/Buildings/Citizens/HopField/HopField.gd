@@ -29,13 +29,13 @@ func animate() -> void:
 			_billboard.region_enabled = true
 		
 		"work":
-				current_anim = HOP_FIELD_WORK_ANIM
-				self.texture = HOP_FIELD_WORK_ANIM
-				_billboard.vframes = 1
-				_billboard.hframes = 4
-				_billboard.region_rect = Rect2(0, HOP_FIELD_WORK_ANIM_REGION_Y[self.rotation_index], 768, 192)
-				_billboard.region_enabled = true
-				
-				_billboard.frame = next_frame()
+			current_anim = HOP_FIELD_WORK_ANIM
+			self.texture = HOP_FIELD_WORK_ANIM
+			_billboard.vframes = 1
+			_billboard.hframes = 4
+			_billboard.region_rect = Rect2(0, HOP_FIELD_WORK_ANIM_REGION_Y[self.rotation_index], 768, 192)
+			_billboard.region_enabled = true
+			
+			_billboard.frame = next_frame()
 	
 	.animate()

@@ -17,14 +17,14 @@ func _ready() -> void:
 	$Panel/Label.text = text
 	$Icon.texture = texture
 
-func set_alignment(new_alignment):
+func set_alignment(new_alignment: String) -> void:
 	alignment = new_alignment
 	$Panel.rect_position = alignments[alignment]
 
-func set_text(new_text):
+func set_text(new_text: String) -> void:
 	text = new_text
 	$Panel/Label.text = text
 
-func set_texture(new_texture):
+func set_texture(new_texture: Texture) -> void:
 	texture = new_texture
 	$Icon.texture = texture
