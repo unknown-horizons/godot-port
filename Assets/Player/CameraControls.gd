@@ -23,16 +23,16 @@ var _basis: Basis
 var _move_drag_start: Vector2
 var enabled: bool = true setget set_enabled, get_enabled
 
-func _ready():
+func _ready() -> void:
 	if _viewport.connect("size_changed", self, "_on_viewport_size_changed") != OK:
 		push_error("Failed To Connect Viewport")
 	_basis = _get_basis()
 
-func _process(delta):
+func _process(delta: float) -> void:
 	_move(delta)
 	_move_drag()
 
-func _input(event):
+func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("rotate_left"):
 		_rotate(-PI/2)
 	
@@ -47,7 +47,7 @@ func _input(event):
 		if _camera.size < ZOOM_OUT_LIMIT:
 			_zoom(ZOOM_VALUE)
 
-func _move(delta: float):
+func _move(delta: float) -> void:
 	var movement_scale: float = delta * MOVE_SPEED
 	if Input.is_action_pressed("move_faster"):
 		movement_scale *= MOVE_FASTER_MULT
@@ -57,7 +57,7 @@ func _move(delta: float):
 	var movement_velocity = Vector3(x, 0, y * _viewport_aspect)
 	_origin.translate(_basis.xform(movement_velocity) * movement_scale)
 
-func _move_drag():
+func _move_drag() -> void:
 	if Input.is_action_pressed("move_drag"):
 		var m_pos = _viewport.get_mouse_position()
 		if Input.is_action_just_pressed("move_drag"):
@@ -68,11 +68,11 @@ func _move_drag():
 			_origin.translate(move_dir)
 			_move_drag_start = m_pos
 
-func _rotate(rotation: float):
+func _rotate(rotation: float) -> void:
 	_rotation_y.rotate_y(rotation)
 	_basis = _get_basis()
 
-func _zoom(zoom_value: float):
+func _zoom(zoom_value: float) -> void:
 	var m_pos = _viewport.get_mouse_position()
 	var start_result = _raycast_from_mouse(m_pos, 1)
 	_camera.size += zoom_value
@@ -90,7 +90,7 @@ func _raycast_from_mouse(m_pos: Vector2, collision_mask: int) -> Dictionary:
 func _get_basis() -> Basis:
 	return _rotation_y.get_transform().basis
 
-func set_enabled(new_value: bool):
+func set_enabled(new_value: bool) -> void:
 	set_process(new_value)
 	set_process_input(new_value)
 	enabled = new_value
@@ -98,6 +98,6 @@ func set_enabled(new_value: bool):
 func get_enabled() -> bool:
 	return enabled
 
-func _on_viewport_size_changed():
+func _on_viewport_size_changed() -> void:
 	_viewport_size = _viewport.size
 	_viewport_aspect = _viewport_size.aspect()
