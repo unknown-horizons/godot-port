@@ -28,6 +28,8 @@ func set_resource_value(new_resource_value: int) -> void:
 	update_amount_bar()
 
 func set_storage_limit(new_storage_limit: int) -> void:
+	if not is_inside_tree(): yield(self, "ready")
+	
 	storage_limit = clamp(new_storage_limit, resource_value, new_storage_limit) as int
 	update_amount_bar()
 

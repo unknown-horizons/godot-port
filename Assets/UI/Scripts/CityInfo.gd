@@ -25,10 +25,14 @@ export(bool) var debug_cycle_factions = false setget debug_set_cycle_factions
 onready var faction_settlement = $SettlementName/FactionSettlement
 
 func set_faction(new_faction: int) -> void:
+	if not is_inside_tree(): yield(self, "ready")
+	
 	faction = new_faction
 	faction_settlement.texture = FACTION_SETTLEMENT[faction]
 
 func debug_set_cycle_factions(new_debug_cycle_factions: bool) -> void:
+	if not is_inside_tree(): yield(self, "ready")
+	
 	debug_cycle_factions = new_debug_cycle_factions
 	if debug_cycle_factions:
 		$Timer.start()

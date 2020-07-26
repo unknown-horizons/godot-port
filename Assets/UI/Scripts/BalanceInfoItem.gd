@@ -32,12 +32,14 @@ onready var texture_rect = $TextureRect
 onready var label = $Label
 
 func set_balance_type(new_balance_type: int) -> void:
+	if not is_inside_tree(): yield(self, "ready")
 	if texture_rect == null: texture_rect = $TextureRect
 	
 	balance_type = new_balance_type
 	texture_rect.texture = BALANCE_TYPES[balance_type]
 
 func set_balance_value(new_balance_value: int) -> void:
+	if not is_inside_tree(): yield(self, "ready")
 	if label == null: label = $Label
 	
 	balance_value = new_balance_value
