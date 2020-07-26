@@ -184,6 +184,16 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/World/Buildings/Sailors/MainSquare/MainSquare.gd"
 }, {
+"base": "TextureButton",
+"class": "MessageButton",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/MessageButton.gd"
+}, {
+"base": "Label",
+"class": "MessageText",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/MessageText.gd"
+}, {
 "base": "Control",
 "class": "NewGameUI",
 "language": "GDScript",
@@ -405,6 +415,8 @@ _global_script_class_icons={
 "Lumberjack": "",
 "MainMenuUI": "",
 "MainSquare": "",
+"MessageButton": "",
+"MessageText": "",
 "NewGameUI": "",
 "OptionsButton": "",
 "PastryShop": "",

@@ -147,6 +147,8 @@ func remove_resource() -> void:
 func _on_input(event: InputEvent):
 	._on_input(event)
 	
+	if null in [resource_overlay, resource_overlay2]: return
+	
 	# Switch frame accordingly with the world rotation.
 	if event.is_action_pressed("rotate_left"):
 		resource_overlay.frame = wrapi(resource_overlay.frame - 1, 0,

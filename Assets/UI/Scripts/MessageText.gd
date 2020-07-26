@@ -1,12 +1,13 @@
 tool
 extends Label
+class_name MessageText
 
 export(String, MULTILINE) var message_text setget set_message_text
 
 func _ready() -> void:
 	set_message_text(message_text)
 
-func set_message_text(new_message_text) -> void:
+func set_message_text(new_message_text: String) -> void:
 	message_text = new_message_text
 	text = message_text
 		

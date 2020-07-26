@@ -15,10 +15,7 @@ var _debug_messages = [
 	[4, "This is a very long text. That much, that it easily takes up to 3 lines. Believe it or not."]
 ]
 
-func _process(_delta):
-	pass
-
-func raise_notification(message_type, message_text):
+func raise_notification(message_type: int, message_text: String) -> void:
 	var _debug_message = _debug_messages[randi() % _debug_messages.size()]
 	
 	if messages.get_child_count() < 6:
