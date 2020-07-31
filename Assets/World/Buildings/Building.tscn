@@ -5,3 +5,10 @@
 
 [node name="Building" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
+action = "idle"
+anim_speed = 0.95
+
+[node name="Billboard" parent="." index="0"]
+region_rect = Rect2( 0, 0, 640, 640 )
+
+[node name="Area" type="Area" parent="." index="1"]

@@ -3,7 +3,9 @@ class_name MainMenuUI
 
 var _scenes = {
 	sp_game = preload("res://Assets/UI/Scenes/NewGameUI.tscn"),
-	load_game = preload("res://Assets/World/WorldTest.tscn"),
+	load_game = preload("res://Assets/World/WorldTown.tscn"),
+	help = preload("res://Assets/UI/Scenes/HelpUI.tscn"),
+	options = preload("res://Assets/UI/Scenes/OptionsUI.tscn"),
 	exit = preload("res://Assets/UI/Scenes/ExitScene.tscn")
 }
 
@@ -21,8 +23,8 @@ func _input(event: InputEvent) -> void:
 func _go_to_scene(scene: String) -> void:
 	#warning-ignore:return_value_discarded
 
-	Audio.play_snd("click")
-	if scene == "sp_game":
+	Audio.play_snd_click()
+	if scene == "sp_game" or scene == "help" or scene == "options":
 		var subscene = _scenes[scene].instance()
 		subscene.parent = self
 		visible = false

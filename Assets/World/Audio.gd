@@ -1,5 +1,6 @@
 extends AudioStreamPlayer
 
+var asp_click = AudioStreamPlayer.new()
 var asp_voice = AudioStreamPlayer.new()
 
 const SOUNDS = {
@@ -49,6 +50,8 @@ const SOUNDS = {
 
 func _ready() -> void:
 	pause_mode = Node.PAUSE_MODE_PROCESS
+	
+	asp_click.stream = SOUNDS["click"]
 
 func play_snd(snd_name: String) -> void:
 	if SOUNDS[snd_name]:
@@ -59,6 +62,11 @@ func play_snd(snd_name: String) -> void:
 		#print_debug("Playing {0}".format([snd_name]))
 	else:
 		printerr("Sound {0} not found.".format([snd_name]))
+
+func play_snd_click() -> void:
+	if not asp_click.name:
+		add_child(asp_click)
+	asp_click.play()
 
 func play_entry_snd() -> void:
 	asp_voice.stream = SOUNDS["{0}_{1}".format([Global.language, randi() % 4])]

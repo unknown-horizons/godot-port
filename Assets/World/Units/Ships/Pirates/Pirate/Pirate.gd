@@ -65,7 +65,7 @@ func patrol():
 #		int(round(global_transform.origin.z))
 #	)
 #
-#	prints("patrol_route", 
+#	prints("patrol_route",
 #		int(round(patrol_route[next_patrol_index].x)),
 #		int(round(patrol_route[next_patrol_index].y)),
 #		int(round(patrol_route[next_patrol_index].z))
@@ -95,7 +95,7 @@ func animate_movement():
 		_billboard.texture = PIRATE_MOVE_ANIM[rotation_index]
 		_reflection.texture = PIRATE_MOVE_ANIM[rotation_index]
 		
-		_billboard.frame = wrapi(_billboard.frame + 1, 0, _billboard.vframes * _billboard.hframes)
+		_billboard.frame = next_frame()
 		
 		if rotation_index == 1:
 			_reflection.rotation_degrees = Vector3(0, 0, -60)
@@ -103,7 +103,7 @@ func animate_movement():
 			_reflection.rotation_degrees = Vector3(0, 0, 30)
 		else:
 			_reflection.rotation_degrees = Vector3(0, -45, 0)
-		_reflection.frame = wrapi(_reflection.frame + 1, 0, _reflection.vframes * _reflection.hframes)
+		_reflection.frame = next_frame(_reflection)
 	else:
 		_billboard.vframes = 2
 		_billboard.hframes = 4
@@ -180,6 +180,7 @@ func animate_water_overlay() -> void:
 		if water_overlay.visible or animation_player.current_animation == "fade_in":
 			animation_player.play("fade_out")
 
+# warning-ignore:shadowed_variable
 func update_water_overlay(
 		water_overlay: Sprite3D,
 		rotation: Vector3,
@@ -194,7 +195,7 @@ func update_water_overlay(
 func update_rotation() -> void:
 	rotation_index = wrapi(direction + rotation_offset, 0, PIRATE_MOVE_ANIM.size())
 
-func _on_AnimationPlayer_animation_started(anim_name) -> void:
+func _on_AnimationPlayer_animation_started(anim_name: String) -> void:
 	if not is_inside_tree() or Engine.is_editor_hint():
 		return
 	
@@ -205,7 +206,7 @@ func _on_AnimationPlayer_animation_started(anim_name) -> void:
 #		prints("Current position:", animation_player.current_animation_position)
 	last_anim = anim_name
 
-func _on_AnimationPlayer_animation_finished(anim_name) -> void:
+func _on_AnimationPlayer_animation_finished(anim_name: String) -> void:
 	#prints("Animation finished:", anim_name)
 	if anim_name == "fade_out" and not is_moving:
 		water_overlay.visible = false

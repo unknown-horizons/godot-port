@@ -11,6 +11,9 @@ roughness = 0.0
 
 [node name="WorldThing" type="Spatial"]
 script = ExtResource( 1 )
+texture = null
+rotation_step = 1
+rotation_degree = 0
 
 [node name="Billboard" type="Sprite3D" parent="."]
 material_override = SubResource( 1 )
@@ -21,6 +24,3 @@ transparent = false
 double_sided = false
 vframes = 2
 hframes = 2
-__meta__ = {
-"_edit_lock_": true
-}

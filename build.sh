@@ -41,8 +41,18 @@ fi
 mkdir -p "Builds/Desktop"
 
 # Builds.
+
+echo "Exporting Linux binary... "
 $GODOT --path . --export linux "Builds/Desktop/$PROJECTNAME.x86_64"
+echo "Exporting Windows binary... "
 $GODOT --path . --export windows "Builds/Desktop/$PROJECTNAME.exe"
+
+if [ "$(uname -s)" == "Darwin" ]; then
+    echo "Exporting macOS binary... "
+    $GODOT --path . --export mac "Builds/Desktop/$PROJECTNAME.dmg"
+else
+    echo "Not building on macOS, export of dmg file skipped. "
+fi
 
 # Make everything executable.
 chmod -R +x Builds/*

@@ -11,7 +11,7 @@ func _ready() -> void:
 	ray_plane.mesh = PlaneMesh.new()
 	ray_plane.visible = false
 
-	ray_plane.scale = Vector3(128, 128, 128) # TODO: Adapt size dynamically to GridMap's outer bounds
+	ray_plane.scale = Vector3.ONE * 128 # TODO: Adapt size dynamically to GridMap's outer bounds
 
 	#ray_plane.create_convex_collision() # crashes for GLES2 in the export build
 
@@ -25,25 +25,16 @@ func _ready() -> void:
 	add_child(ray_plane)
 	
 	as_node = AStar.new()
+	# TODO: Make use of Vector3i in Godot 4.0.
 	var cells = grid_map.get_used_cells()
 	for cell in cells:
-		if _get_cell_item_name(cell) in [
-										"deep",
-										"shallow_deep",
-										"shallow_curve_in",
-										"shallow_deep_curve_out"
-										]:
+		if _get_cell_item_name(cell) in ["deep", "shallow_curve_in"]:
 			var index = as_node.get_available_point_id()
 			as_node.add_point(index, grid_map.map_to_world(cell.x, cell.y, cell.z))
 			all_points[v3_to_index(cell)] = index
 	
 	for cell in cells:
-		if _get_cell_item_name(cell) in [
-										"deep",
-										"shallow_deep",
-										"shallow_curve_in",
-										"shallow_deep_curve_out"
-										]:
+		if _get_cell_item_name(cell) in ["deep", "shallow_curve_in"]:
 			for x in [-1, 0, 1]:
 				for y in [-1, 0, 1]:
 					for z in [-1, 0, 1]:
@@ -64,10 +55,12 @@ func _get_cell_item_name(cell: Vector3) -> String:
 	return cell_item_name
 
 func v3_to_index(v3: Vector3) -> String:
-	return str(int(round(v3.x))) + "," + str(int(round(v3.y))) + "," + str(int(round(v3.z)))
-	
+	# TODO: Make use of Vector3i in Godot 4.0.
+	v3 = v3.round()
+	return str(int(v3.x)) + "," + str(int(v3.y)) + "," + str(int(v3.z))
+
 func get_gm_path(start: Vector3, end: Vector3) -> PoolVector3Array:
-	print_debug(start, end)
+	#print_debug(start, end)
 	var gm_start = v3_to_index(grid_map.world_to_map(start))
 	var gm_end = v3_to_index(grid_map.world_to_map(end))
 	var start_id = 0

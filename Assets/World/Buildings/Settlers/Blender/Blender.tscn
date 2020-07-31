@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/World/Buildings/Settlers/Blender/Blender.gd" type="Script" id=1]
+[ext_resource path="res://Assets/World/Buildings/Settlers/Blender/Blender_idle.png" type="Texture" id=2]
+[ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=3]
+
+[node name="Blender" instance=ExtResource( 3 )]
+script = ExtResource( 1 )
+texture = ExtResource( 2 )
+
+[node name="Billboard" parent="." index="0"]
+texture = ExtResource( 2 )

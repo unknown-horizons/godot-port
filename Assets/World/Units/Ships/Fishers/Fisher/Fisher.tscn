@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/World/Units/Ships/Ship.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/World/Units/Ships/Fishers/Fisher/Fisher.gd" type="Script" id=2]
+[ext_resource path="res://Assets/World/Units/Ships/Fishers/Fisher/Sprites/Fisher_idle.png" type="Texture" id=3]
+
+[node name="Fisher" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+texture = ExtResource( 3 )
+
+[node name="Billboard" parent="." index="0"]
+offset = Vector2( 0, 16 )
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 256, 128 )
+
+[node name="StaticBody" parent="." index="2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )

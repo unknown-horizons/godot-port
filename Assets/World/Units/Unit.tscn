@@ -16,9 +16,15 @@ roughness = 0.0
 
 [sub_resource type="BoxShape" id=4]
 
-[node name="Unit" type="Spatial"]
+[node name="Unit" type="Spatial" groups=[
+"units",
+]]
 script = ExtResource( 1 )
+texture = null
 rotation_step = 2
+rotation_degree = 0
+unit_name = "Untitled"
+faction = 0
 
 [node name="Billboard" type="Sprite3D" parent="."]
 material_override = SubResource( 2 )

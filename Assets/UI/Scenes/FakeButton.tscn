@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/UI/ButtonStyles/ButtonNormal.tres" type="StyleBox" id=1]
+[ext_resource path="res://Assets/UI/Fonts/SmallFontItalic.tres" type="DynamicFont" id=2]
+
+[node name="Label" type="Label"]
+margin_right = 155.0
+margin_bottom = 23.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+custom_styles/normal = ExtResource( 1 )
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+text = "Players"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
