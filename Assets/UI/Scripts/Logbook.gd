@@ -6,10 +6,11 @@ export(int) var current_page setget set_current_page
 #export(String, MULTILINE) var body_text := "There is nothing written in your logbook yet!" setget set_body_text
 export(Array, Array, String, MULTILINE) var pages := [["This is a Book Title", "There is nothing written in your logbook yet!"]] setget set_pages
 
-onready var caption := $CenterContainer/TextureRect/MarginContainer/HBoxContainer/LeftPage/Caption
+onready var caption := $CenterContainer/TextureRect/MarginContainer/HBoxContainer/LeftPage/CaptionBlock/Caption
 onready var body := $CenterContainer/TextureRect/MarginContainer/HBoxContainer/LeftPage/Body
 
-onready var page_control := $CenterContainer/TextureRect/MarginContainer/HBoxContainer/LeftPage/PageControl
+#onready var page_control := $CenterContainer/TextureRect/MarginContainer/HBoxContainer/LeftPage/PageControl
+onready var page_control := find_node("PageControl")
 
 func _ready() -> void:
 	update_book()

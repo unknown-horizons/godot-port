@@ -1,0 +1,2 @@
+extends ButtonBase
+class_name CancelButton

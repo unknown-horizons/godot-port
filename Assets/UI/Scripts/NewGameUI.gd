@@ -1,23 +1,25 @@
-extends Control
+tool
+extends BookMenu
 class_name NewGameUI
 
-var parent = null
+onready var player_name := find_node("PlayerName") as LineEditEx
 
-# Deactivate everything irrelevant for the time being
 func _ready() -> void:
+	# Deactivate everything irrelevant for the time being
 	var nodes = {
 		"Scenario": null,
 		"RandomMap": null,
 		"ResourceDensitySlider": null,
-		"Traders": null,
-		"Disasters": null
+		"Disasters": null,
 	}
 	
 	find_nodes(get_tree().get_root(), nodes)
-	nodes["Scenario"].checkbox.disabled = true
-	nodes["RandomMap"].checkbox.disabled = true
+	nodes["Scenario"].check_box.disabled = true
+	nodes["RandomMap"].check_box.disabled = true
 	nodes["ResourceDensitySlider"].editable = false
 	nodes["Disasters"].disabled = true
+	
+	player_name.text = Config.player_name
 
 func find_nodes(root_node: Node, nodes_to_be_found: Dictionary) -> void:
 	for n in root_node.get_children():
@@ -27,15 +29,12 @@ func find_nodes(root_node: Node, nodes_to_be_found: Dictionary) -> void:
 		if n.name in nodes_to_be_found:
 			nodes_to_be_found[n.name] = n
 
-func _on_BackToMenuButton_pressed() -> void:
-	Audio.play_snd_click()
-	parent.visible = true
-	queue_free()
+func _on_CancelButton_pressed() -> void:
+	._on_CancelButton_pressed()
 
-func _on_StartGameButton_pressed() -> void:
-	if parent != null and Global.map:
+func _on_OKButton_pressed() -> void:
+	if Global.map:
 		queue_free()
-		#parent._go_to_scene("start_game")
 		#warning-ignore:return_value_discarded
 		get_tree().change_scene_to(Global.map)
 	else:

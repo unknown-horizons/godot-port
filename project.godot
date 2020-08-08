@@ -39,6 +39,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/World/Buildings/Pioneers/BoatBuilder/BoatBuilder.gd"
 }, {
+"base": "CenterContainer",
+"class": "BookMenu",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/BookMenu.gd"
+}, {
 "base": "Building",
 "class": "Brewery",
 "language": "GDScript",
@@ -54,10 +59,25 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/World/Buildings/Building.gd"
 }, {
+"base": "TextureButton",
+"class": "ButtonBase",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/ButtonBase.gd"
+}, {
+"base": "ButtonBase",
+"class": "CancelButton",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/CancelButton.gd"
+}, {
 "base": "Building",
 "class": "CannonFoundry",
 "language": "GDScript",
 "path": "res://Assets/World/Buildings/Citizens/CannonFoundry/CannonFoundry.gd"
+}, {
+"base": "VBoxContainer",
+"class": "CaptionBlock",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/CaptionBlock.gd"
 }, {
 "base": "Building",
 "class": "CattleRun",
@@ -74,6 +94,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/World/Buildings/Settlers/CharcoalBurning/CharcoalBurning.gd"
 }, {
+"base": "HBoxContainer",
+"class": "CheckBoxEx",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/CheckBoxEx.gd"
+}, {
 "base": "Building",
 "class": "ClayPit",
 "language": "GDScript",
@@ -88,6 +113,11 @@ _global_script_classes=[ {
 "class": "CornField",
 "language": "GDScript",
 "path": "res://Assets/World/Buildings/Citizens/CornField/CornField.gd"
+}, {
+"base": "ButtonBase",
+"class": "DeleteButton",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/DeleteButton.gd"
 }, {
 "base": "Building",
 "class": "Destillery",
@@ -139,6 +169,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/UI/Scripts/GameTypeButton.gd"
 }, {
+"base": "VBoxContainer",
+"class": "HSliderEx",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/HSliderEx.gd"
+}, {
 "base": "Control",
 "class": "HelpUI",
 "language": "GDScript",
@@ -163,6 +198,21 @@ _global_script_classes=[ {
 "class": "Hunter",
 "language": "GDScript",
 "path": "res://Assets/World/Buildings/Sailors/Hunter/Hunter.gd"
+}, {
+"base": "Label",
+"class": "LabelEx",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/LabelEx.gd"
+}, {
+"base": "TextureRect",
+"class": "Letter",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/Letter.gd"
+}, {
+"base": "HBoxContainer",
+"class": "LineEditEx",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/LineEditEx.gd"
 }, {
 "base": "Building",
 "class": "Lookout",
@@ -194,15 +244,25 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/UI/Scripts/MessageText.gd"
 }, {
-"base": "Control",
+"base": "BookMenu",
 "class": "NewGameUI",
 "language": "GDScript",
 "path": "res://Assets/UI/Scripts/NewGameUI.gd"
 }, {
-"base": "Button",
-"class": "OptionsButton",
+"base": "ButtonBase",
+"class": "OKButton",
 "language": "GDScript",
-"path": "res://Assets/UI/Scripts/OptionsButton.gd"
+"path": "res://Assets/UI/Scripts/OKButton.gd"
+}, {
+"base": "HBoxContainer",
+"class": "OptionButtonEx",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/OptionButtonEx.gd"
+}, {
+"base": "BookMenu",
+"class": "OptionsUI",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/OptionsUI.gd"
 }, {
 "base": "Building",
 "class": "PastryShop",
@@ -268,11 +328,6 @@ _global_script_classes=[ {
 "class": "SignalFire",
 "language": "GDScript",
 "path": "res://Assets/World/Buildings/Sailors/SignalFire/SignalFire.gd"
-}, {
-"base": "TextureButton",
-"class": "SimpleButton",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/Button.gd"
 }, {
 "base": "Building",
 "class": "Smeltery",
@@ -386,16 +441,22 @@ _global_script_class_icons={
 "Bath": "",
 "Blender": "",
 "BoatBuilder": "",
+"BookMenu": "",
 "Brewery": "",
 "Brickyard": "",
 "Building": "",
+"ButtonBase": "",
+"CancelButton": "",
 "CannonFoundry": "",
+"CaptionBlock": "",
 "CattleRun": "",
 "Chapel": "",
 "CharcoalBurning": "",
+"CheckBoxEx": "",
 "ClayPit": "",
 "CocoaField": "",
 "CornField": "",
+"DeleteButton": "",
 "Destillery": "",
 "Doctor": "",
 "Farm": "",
@@ -406,11 +467,15 @@ _global_script_class_icons={
 "Frigate": "",
 "Game": "",
 "GameTypeButton": "",
+"HSliderEx": "",
 "HelpUI": "",
 "Herbary": "",
 "HopField": "",
 "Huker": "",
 "Hunter": "",
+"LabelEx": "",
+"Letter": "",
+"LineEditEx": "",
 "Lookout": "",
 "Lumberjack": "",
 "MainMenuUI": "",
@@ -418,7 +483,9 @@ _global_script_class_icons={
 "MessageButton": "",
 "MessageText": "",
 "NewGameUI": "",
-"OptionsButton": "",
+"OKButton": "",
+"OptionButtonEx": "",
+"OptionsUI": "",
 "PastryShop": "",
 "Pasture": "",
 "Pigsty": "",
@@ -432,7 +499,6 @@ _global_script_class_icons={
 "Ship": "",
 "ShipMenuTabWidget": "",
 "SignalFire": "",
-"SimpleButton": "",
 "Smeltery": "",
 "SpiceField": "",
 "StonePit": "",
@@ -466,6 +532,7 @@ config/icon="res://icon.png"
 [autoload]
 
 Global="*res://Assets/World/Global.gd"
+Config="*res://Assets/World/Config.gd"
 Audio="*res://Assets/World/Audio.gd"
 
 [debug]

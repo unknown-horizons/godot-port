@@ -1,0 +1,562 @@
+[gd_scene load_steps=25 format=2]
+
+[ext_resource path="res://Assets/UI/Scenes/Menus/BookMenuPage.tscn" type="PackedScene" id=1]
+[ext_resource path="res://External/Fonts/LinLibertineBI.tres" type="DynamicFontData" id=2]
+[ext_resource path="res://Assets/UI/Fonts/SmallFontItalic.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Assets/UI/Fonts/TitleFontCapitalizeInline.tres" type="DynamicFont" id=4]
+[ext_resource path="res://Assets/UI/Fonts/TitleFontCapitalize.tres" type="DynamicFont" id=5]
+[ext_resource path="res://Assets/UI/Scenes/LineEditEx.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Assets/UI/Scenes/Labels/LabelEx.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Assets/UI/Scenes/HSliderEx.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Assets/UI/Scenes/Separator.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Assets/UI/Scenes/CaptionBlock.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Assets/UI/Images/Background/MainMenu/selected_color_border.png" type="Texture" id=11]
+[ext_resource path="res://Assets/UI/Scripts/ColorSelection.gd" type="Script" id=12]
+[ext_resource path="res://Assets/UI/Scripts/MapList.gd" type="Script" id=13]
+[ext_resource path="res://Assets/UI/Images/Logos/uh_no_text.svg" type="Texture" id=14]
+[ext_resource path="res://Assets/UI/Scenes/GameTypeButton.tscn" type="PackedScene" id=15]
+
+[sub_resource type="ButtonGroup" id=1]
+resource_name = "ButtonGroupGameType"
+
+[sub_resource type="GDScript" id=2]
+script/source = "extends ColorRect
+
+export(int) var color_to_faction
+"
+
+[sub_resource type="GDScript" id=3]
+script/source = "extends HSlider
+
+func _ready() -> void:
+	value = Global.ai_players
+
+func _on_AISlider_value_changed(value: int) -> void:
+	Global.ai_players = value
+"
+
+[sub_resource type="DynamicFont" id=4]
+size = 18
+use_filter = true
+extra_spacing_top = -5
+extra_spacing_char = 21
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 6.0
+content_margin_bottom = 6.0
+bg_color = Color( 1, 1, 1, 0.227451 )
+border_width_left = 1
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 3
+border_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+border_blend = true
+corner_radius_top_left = 1
+corner_radius_top_right = 1
+corner_radius_bottom_right = 1
+corner_radius_bottom_left = 1
+
+[sub_resource type="StyleBoxFlat" id=6]
+content_margin_left = 5.0
+content_margin_right = 5.0
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 2
+border_width_top = 1
+border_width_right = 2
+border_width_bottom = 1
+border_color = Color( 0.345098, 0.278431, 0.14902, 1 )
+border_blend = true
+
+[sub_resource type="GDScript" id=7]
+script/source = "extends HBoxContainer
+
+func _on_ResourceDensitySlider_value_changed(value):
+	$ResourceDensityIndicator.text = \"{0}x\".format([value])
+"
+
+[sub_resource type="GDScript" id=8]
+script/source = "extends HBoxContainer
+
+onready var traders = $Traders
+onready var pirates = $Pirates
+onready var disasters = $Disasters
+
+func _ready():
+	traders.pressed = Global.has_traders
+	pirates.pressed = Global.has_pirates
+	disasters.pressed = Global.has_disasters
+
+func _on_Traders_pressed():
+	Global.has_traders = traders.pressed
+
+func _on_Pirates_pressed():
+	Global.has_pirates = pirates.pressed
+
+func _on_Disasters_pressed():
+	Global.has_disasters = disasters.pressed
+"
+
+[sub_resource type="StyleBoxLine" id=9]
+thickness = 0
+
+[node name="FreePlay" instance=ExtResource( 1 )]
+
+[node name="Title" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage" index="1" instance=ExtResource( 10 )]
+margin_bottom = 56.0
+text = "New Game - Single player"
+
+[node name="MarginContainer" type="MarginContainer" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage" index="2"]
+margin_top = 60.0
+margin_right = 300.0
+margin_bottom = 136.0
+custom_constants/margin_left = 30
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/MarginContainer" index="0"]
+margin_left = 30.0
+margin_right = 300.0
+margin_bottom = 76.0
+custom_constants/separation = 8
+
+[node name="Scenario" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/MarginContainer/VBoxContainer" index="0" instance=ExtResource( 15 )]
+margin_right = 270.0
+type = "Scenario"
+
+[node name="RandomMap" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/MarginContainer/VBoxContainer" index="1" instance=ExtResource( 15 )]
+margin_top = 28.0
+margin_right = 270.0
+margin_bottom = 48.0
+type = "Random map"
+
+[node name="FreePlay" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/MarginContainer/VBoxContainer" index="2" instance=ExtResource( 15 )]
+margin_top = 56.0
+margin_right = 270.0
+margin_bottom = 76.0
+type = "Free play"
+
+[node name="CheckBox" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/MarginContainer/VBoxContainer/FreePlay" index="0"]
+margin_right = 81.0
+pressed = true
+group = SubResource( 1 )
+text = "Free play"
+
+[node name="Separator" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage" index="3" instance=ExtResource( 9 )]
+margin_top = 140.0
+margin_right = 300.0
+margin_bottom = 161.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage" index="4"]
+margin_top = 165.0
+margin_right = 300.0
+margin_bottom = 277.0
+custom_constants/separation = 12
+
+[node name="PlayerName" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer" index="0" instance=ExtResource( 6 )]
+margin_right = 300.0
+description = "Player name:"
+text = "Unknown Traveller"
+
+[node name="ColorSelection" type="HBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer" index="1"]
+margin_top = 42.0
+margin_right = 300.0
+margin_bottom = 112.0
+rect_min_size = Vector2( 0, 70 )
+script = ExtResource( 12 )
+
+[node name="Label" type="Label" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection" index="0"]
+margin_right = 118.0
+margin_bottom = 70.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+text = "Color:"
+
+[node name="TextureRect" type="TextureRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection" index="1"]
+margin_left = 122.0
+margin_right = 178.0
+margin_bottom = 56.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource( 11 )
+
+[node name="SelectedColor" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/TextureRect" index="0"]
+show_behind_parent = true
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -27.0
+margin_top = -27.0
+margin_right = 25.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 40, 40 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+color = Color( 1, 0.0392157, 0.0392157, 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Choices" type="GridContainer" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection" index="2"]
+margin_left = 182.0
+margin_right = 300.0
+margin_bottom = 68.0
+size_flags_horizontal = 3
+size_flags_vertical = 0
+custom_constants/vseparation = 4
+custom_constants/hseparation = 0
+columns = 5
+
+[node name="Red" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="0"]
+margin_right = 20.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 1, 0.0392157, 0.0392157, 1 )
+script = SubResource( 2 )
+color_to_faction = 1
+
+[node name="Blue" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="1"]
+margin_left = 20.0
+margin_right = 40.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 0, 0.282353, 0.709804, 1 )
+script = SubResource( 2 )
+color_to_faction = 2
+
+[node name="Green" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="2"]
+margin_left = 40.0
+margin_right = 60.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 0, 0.627451, 0.0901961, 1 )
+script = SubResource( 2 )
+color_to_faction = 3
+
+[node name="Orange" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="3"]
+margin_left = 60.0
+margin_right = 80.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 0.878431, 0.4, 0, 1 )
+script = SubResource( 2 )
+color_to_faction = 4
+
+[node name="Purple" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="4"]
+margin_left = 80.0
+margin_right = 100.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 0.501961, 0, 0.501961, 1 )
+script = SubResource( 2 )
+color_to_faction = 5
+
+[node name="Cyan" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="5"]
+margin_top = 24.0
+margin_right = 20.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 0, 1, 1, 1 )
+script = SubResource( 2 )
+color_to_faction = 6
+
+[node name="Yellow" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="6"]
+margin_left = 20.0
+margin_top = 24.0
+margin_right = 40.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 1, 0.843137, 0, 1 )
+script = SubResource( 2 )
+color_to_faction = 7
+
+[node name="Pink" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="7"]
+margin_left = 40.0
+margin_top = 24.0
+margin_right = 60.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 1, 0, 1, 1 )
+script = SubResource( 2 )
+color_to_faction = 8
+
+[node name="Teal" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="8"]
+margin_left = 60.0
+margin_top = 24.0
+margin_right = 80.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 0, 0.572549, 0.545098, 1 )
+script = SubResource( 2 )
+color_to_faction = 9
+
+[node name="Lemon" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="9"]
+margin_left = 80.0
+margin_top = 24.0
+margin_right = 100.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 0, 1, 0, 1 )
+script = SubResource( 2 )
+color_to_faction = 10
+
+[node name="Bordeaux" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="10"]
+margin_top = 48.0
+margin_right = 20.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 0.588235, 0.0235294, 0.156863, 1 )
+script = SubResource( 2 )
+color_to_faction = 11
+
+[node name="White" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="11"]
+margin_left = 20.0
+margin_top = 48.0
+margin_right = 40.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 20, 20 )
+script = SubResource( 2 )
+color_to_faction = 12
+
+[node name="Gray" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="12"]
+margin_left = 40.0
+margin_top = 48.0
+margin_right = 60.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 0.501961, 0.501961, 0.501961, 1 )
+script = SubResource( 2 )
+color_to_faction = 13
+
+[node name="Black" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="13"]
+margin_left = 60.0
+margin_top = 48.0
+margin_right = 80.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 20, 20 )
+color = Color( 0, 0, 0, 1 )
+script = SubResource( 2 )
+color_to_faction = 14
+
+[node name="Separator2" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage" index="5" instance=ExtResource( 9 )]
+margin_top = 281.0
+margin_right = 300.0
+margin_bottom = 302.0
+
+[node name="HSliderEx" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage" index="6" instance=ExtResource( 8 )]
+visible = false
+margin_top = 293.0
+margin_right = 300.0
+margin_bottom = 342.0
+description = "AI players:"
+max_value = 7.0
+
+[node name="AIPlayerSelection" type="HBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage" index="7"]
+margin_top = 306.0
+margin_right = 300.0
+margin_bottom = 343.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="Label" type="Label" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection" index="0"]
+margin_top = 9.0
+margin_right = 69.0
+margin_bottom = 27.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+text = "AI players:"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection" index="1"]
+margin_left = 73.0
+margin_right = 300.0
+margin_bottom = 37.0
+size_flags_horizontal = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer" index="0"]
+margin_right = 227.0
+margin_bottom = 16.0
+
+[node name="AISlider" type="HSlider" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer/HBoxContainer" index="0"]
+margin_right = 217.03
+margin_bottom = 16.0
+rect_min_size = Vector2( 217.03, 0 )
+size_flags_vertical = 3
+max_value = 7.0
+value = 3.0
+tick_count = 8
+ticks_on_borders = true
+script = SubResource( 3 )
+
+[node name="Label" type="Label" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer" index="1"]
+margin_top = 20.0
+margin_right = 214.0
+margin_bottom = 37.0
+rect_min_size = Vector2( 214, 0 )
+size_flags_horizontal = 0
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+text = "01234567"
+align = 1
+
+[node name="LabelEx" parent="TextureRect/MarginContainer/HBoxContainer/RightPage" index="0" instance=ExtResource( 7 )]
+margin_right = 300.0
+margin_bottom = 31.0
+custom_fonts/font = ExtResource( 5 )
+text = "Choose map to play:"
+font_style = 0
+
+[node name="MapList" type="HBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/RightPage" index="1"]
+margin_top = 35.0
+margin_right = 300.0
+margin_bottom = 190.0
+rect_min_size = Vector2( 0, 155 )
+size_flags_vertical = 3
+
+[node name="TextureRect" type="ColorRect" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/MapList" index="0"]
+show_behind_parent = true
+margin_right = 300.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 0, 150 )
+size_flags_horizontal = 3
+size_flags_vertical = 2
+color = Color( 1, 1, 1, 0.22651 )
+
+[node name="ItemList" type="ItemList" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/MapList/TextureRect" index="0"]
+margin_left = 0.630005
+margin_right = 300.63
+margin_bottom = 150.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_styles/bg = SubResource( 5 )
+custom_fonts/font = ExtResource( 3 )
+custom_colors/guide_color = Color( 0, 0, 0, 0 )
+custom_colors/font_color_selected = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+script = ExtResource( 13 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RecommendedNumberOfPlayers" type="HBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/RightPage" index="2"]
+margin_top = 194.0
+margin_right = 300.0
+margin_bottom = 214.0
+
+[node name="Caption" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/RecommendedNumberOfPlayers" index="0" instance=ExtResource( 7 )]
+margin_right = 213.0
+margin_bottom = 20.0
+custom_fonts/font = ExtResource( 3 )
+text = "Recommended number of players:"
+font_style = 8
+
+[node name="Value" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/RecommendedNumberOfPlayers" index="1" instance=ExtResource( 7 )]
+margin_left = 283.0
+margin_right = 300.0
+margin_bottom = 20.0
+size_flags_horizontal = 10
+custom_styles/normal = SubResource( 6 )
+text = "4"
+
+[node name="MapPreview" type="TextureRect" parent="TextureRect/MarginContainer/HBoxContainer/RightPage" index="3"]
+margin_top = 218.0
+margin_right = 300.0
+margin_bottom = 318.0
+rect_min_size = Vector2( 100, 100 )
+texture = ExtResource( 14 )
+expand = true
+stretch_mode = 5
+
+[node name="LabelEx2" parent="TextureRect/MarginContainer/HBoxContainer/RightPage" index="4" instance=ExtResource( 7 )]
+margin_top = 322.0
+margin_right = 300.0
+margin_bottom = 343.0
+custom_fonts/font = ExtResource( 4 )
+text = "Game settings:"
+font_style = 1
+
+[node name="ResourceDensity" type="HBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/RightPage" index="5"]
+margin_top = 347.0
+margin_right = 300.0
+margin_bottom = 365.0
+script = SubResource( 7 )
+
+[node name="Label" type="Label" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/ResourceDensity" index="0"]
+margin_right = 114.0
+margin_bottom = 18.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+text = "Resource Density: "
+
+[node name="ResourceDensityIndicator" type="Label" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/ResourceDensity" index="1"]
+margin_left = 118.0
+margin_right = 148.0
+margin_bottom = 18.0
+rect_min_size = Vector2( 30, 0 )
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+text = "1.0x"
+
+[node name="ResourceDensitySlider" type="HSlider" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/ResourceDensity" index="2"]
+margin_left = 152.0
+margin_right = 272.0
+margin_bottom = 16.0
+rect_min_size = Vector2( 120, 0 )
+size_flags_horizontal = 2
+min_value = 0.5
+max_value = 2.0
+step = 0.5
+value = 1.0
+ticks_on_borders = true
+
+[node name="AdditionalOccurences" type="HBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/RightPage" index="6"]
+margin_top = 369.0
+margin_right = 300.0
+margin_bottom = 395.0
+size_flags_vertical = 2
+script = SubResource( 8 )
+
+[node name="Traders" type="CheckBox" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/AdditionalOccurences" index="0"]
+margin_right = 106.0
+margin_bottom = 26.0
+custom_styles/focus = SubResource( 9 )
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_disabled = Color( 0.258824, 0.188235, 0.0509804, 0.501961 )
+custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_colors/font_color_hover = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_colors/font_color_pressed = Color( 0.258824, 0.188235, 0.0509804, 1 )
+text = "Free Traders"
+
+[node name="Pirates" type="CheckBox" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/AdditionalOccurences" index="1"]
+margin_left = 110.0
+margin_right = 181.0
+margin_bottom = 26.0
+custom_styles/focus = SubResource( 9 )
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_disabled = Color( 0.258824, 0.188235, 0.0509804, 0.501961 )
+custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_colors/font_color_hover = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_colors/font_color_pressed = Color( 0.258824, 0.188235, 0.0509804, 1 )
+text = "Pirates"
+
+[node name="Disasters" type="CheckBox" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/AdditionalOccurences" index="2"]
+margin_left = 185.0
+margin_right = 271.0
+margin_bottom = 26.0
+custom_styles/focus = SubResource( 9 )
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_disabled = Color( 0.258824, 0.188235, 0.0509804, 0.501961 )
+custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_colors/font_color_hover = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_colors/font_color_pressed = Color( 0.258824, 0.188235, 0.0509804, 1 )
+text = "Disasters"
+[connection signal="value_changed" from="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer/HBoxContainer/AISlider" to="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer/HBoxContainer/AISlider" method="_on_AISlider_value_changed"]
+[connection signal="item_selected" from="TextureRect/MarginContainer/HBoxContainer/RightPage/MapList/TextureRect/ItemList" to="TextureRect/MarginContainer/HBoxContainer/RightPage/MapList/TextureRect/ItemList" method="_on_ItemList_item_selected"]
+[connection signal="value_changed" from="TextureRect/MarginContainer/HBoxContainer/RightPage/ResourceDensity/ResourceDensitySlider" to="TextureRect/MarginContainer/HBoxContainer/RightPage/ResourceDensity" method="_on_ResourceDensitySlider_value_changed"]
+[connection signal="pressed" from="TextureRect/MarginContainer/HBoxContainer/RightPage/AdditionalOccurences/Traders" to="TextureRect/MarginContainer/HBoxContainer/RightPage/AdditionalOccurences" method="_on_Traders_pressed"]
+[connection signal="pressed" from="TextureRect/MarginContainer/HBoxContainer/RightPage/AdditionalOccurences/Pirates" to="TextureRect/MarginContainer/HBoxContainer/RightPage/AdditionalOccurences" method="_on_Pirates_pressed"]
+[connection signal="pressed" from="TextureRect/MarginContainer/HBoxContainer/RightPage/AdditionalOccurences/Disasters" to="TextureRect/MarginContainer/HBoxContainer/RightPage/AdditionalOccurences" method="_on_Disasters_pressed"]
+
+[editable path="TextureRect/MarginContainer/HBoxContainer/LeftPage/MarginContainer/VBoxContainer/FreePlay"]
