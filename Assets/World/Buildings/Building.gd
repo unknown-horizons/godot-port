@@ -69,13 +69,13 @@ func get_rotation_index() -> int:
 	var rotation_index
 
 	match rotation_degree:
-		RotationDegrees.ZERO:
+		RotationDegree.ZERO:
 			rotation_index = 0
-		RotationDegrees.NINETY:
+		RotationDegree.NINETY:
 			rotation_index = 1
-		RotationDegrees.ONE_EIGHTY:
+		RotationDegree.ONE_EIGHTY:
 			rotation_index = 2
-		RotationDegrees.TWO_SEVENTY:
+		RotationDegree.TWO_SEVENTY:
 			rotation_index = 3
 
 	# Explanation:

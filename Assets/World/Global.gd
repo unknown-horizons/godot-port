@@ -5,7 +5,7 @@ enum WindowMode {
 	FULLSCREEN
 }
 
-enum ResourceTypes {
+enum ResourceType {
 	# Taken from fife version, started at 1 originally.
 	GOLD             =  0,
 	LAMB_WOOL        =  1,
@@ -110,7 +110,7 @@ enum ResourceTypes {
 	# 91-98 reserved for services
 }
 
-enum Factions {
+enum Faction {
 	NONE,
 	RED,
 	BLUE,

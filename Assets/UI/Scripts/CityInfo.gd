@@ -20,7 +20,7 @@ const FACTION_SETTLEMENT = [
 	preload("res://Assets/UI/Icons/Widgets/CityInfo/settlement_black.png")
 ]
 
-export(Global.Factions) var faction := 0 setget set_faction
+export(Global.Faction) var faction := 0 setget set_faction
 export(bool) var debug_cycle_factions := false setget debug_set_cycle_factions
 
 onready var faction_settlement = $SettlementName/FactionSettlement

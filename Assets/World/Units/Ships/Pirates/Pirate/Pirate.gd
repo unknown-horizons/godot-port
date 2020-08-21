@@ -148,28 +148,28 @@ func animate_water_overlay() -> void:
 		water_overlay2.frame = wrapi(water_overlay2.frame + 1, 0, water_overlay2.vframes * water_overlay2.hframes)
 
 		match rotation_degree:
-			RotationDegrees.ZERO:
+			RotationDegree.ZERO:
 				update_water_overlay(water_overlay1, Vector3(0, -45, 0), Vector2(0, -90), false, true)
 				update_water_overlay(water_overlay2, Vector3(0, -45, 0), Vector2(0, 16), false, false)
-			RotationDegrees.FORTY_FIVE:
+			RotationDegree.FORTY_FIVE:
 				update_water_overlay(water_overlay1, Vector3(0, -90, 0), Vector2(0, -90), false, true)
 				update_water_overlay(water_overlay2, Vector3(0, -90, 0), Vector2(0, 16), false, false)
-			RotationDegrees.NINETY:
+			RotationDegree.NINETY:
 				update_water_overlay(water_overlay1, Vector3(-90, -135, 0), Vector2(32, -45), false, true)
 				update_water_overlay(water_overlay2, Vector3(-90, -135, 0), Vector2(32, 48), false, false)
-			RotationDegrees.ONE_THIRTY_FIVE:
+			RotationDegree.ONE_THIRTY_FIVE:
 				update_water_overlay(water_overlay1, Vector3(-90, -180, 0), Vector2(32, 90), false, false)
 				update_water_overlay(water_overlay2, Vector3(-90, 0, 0), Vector2(-32, 16), true, false)
-			RotationDegrees.ONE_EIGHTY:
+			RotationDegree.ONE_EIGHTY:
 				update_water_overlay(water_overlay1, Vector3(-90, -225, 0), Vector2(0, 104), false, false)
 				update_water_overlay(water_overlay2, Vector3(-90, -45, 0), Vector2(0, 0), true, false)
-			RotationDegrees.TWO_TWENTY_FIVE:
+			RotationDegree.TWO_TWENTY_FIVE:
 				update_water_overlay(water_overlay1, Vector3(-90, 90, 0), Vector2(-16, 90), false, false)
 				update_water_overlay(water_overlay2, Vector3(-90, -90, 0), Vector2(16, 16), true, false)
-			RotationDegrees.TWO_SEVENTY:
+			RotationDegree.TWO_SEVENTY:
 				update_water_overlay(water_overlay1, Vector3(-90, 45, 0), Vector2(-32, 51), false, false)
 				update_water_overlay(water_overlay2, Vector3(-90, -135, 0), Vector2(32, 48), true, false)
-			RotationDegrees.THREE_FIFTEEN:
+			RotationDegree.THREE_FIFTEEN:
 				update_water_overlay(water_overlay1, Vector3(-90, 0, 0), Vector2(-32, -90), false, true)
 				update_water_overlay(water_overlay2, Vector3(-90, 0, 0), Vector2(-32, 16), false, false)
 

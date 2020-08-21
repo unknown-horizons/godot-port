@@ -2,12 +2,12 @@ tool
 extends Spatial
 class_name WorldThing
 
-enum RotationSteps {
+enum RotationStep {
 	NINETY = 1,
 	FOURTY_FIVE = 2,
 }
 
-enum RotationDegrees {
+enum RotationDegree {
 	ZERO,
 	FORTY_FIVE,
 	NINETY,
@@ -19,8 +19,8 @@ enum RotationDegrees {
 }
 
 export var texture: Texture setget set_texture
-export(RotationSteps) var rotation_step := 1 setget set_rotation_step
-export(RotationDegrees) var rotation_degree := 0 setget set_rotation_degree
+export(RotationStep) var rotation_step := 1 setget set_rotation_step
+export(RotationDegree) var rotation_degree := 0 setget set_rotation_degree
 
 onready var _billboard := $Billboard # as MeshInstance
 
@@ -79,9 +79,9 @@ func set_rotation_step(new_step: int) -> void:
 		return
 
 #	match new_step:
-#		RotationSteps.FOURTY_FIVE:
+#		RotationStep.FOURTY_FIVE:
 #			_billboard.hframes = 4
-#		RotationSteps.NINETY:
+#		RotationStep.NINETY:
 #			_billboard.hframes = 2
 
 func set_rotation_degree(new_rotation: int) -> void:
@@ -91,9 +91,9 @@ func set_rotation_degree(new_rotation: int) -> void:
 		return
 
 	match rotation_step:
-		RotationSteps.FOURTY_FIVE: # Units.
+		RotationStep.FOURTY_FIVE: # Units.
 			_billboard.frame = new_rotation
-		RotationSteps.NINETY: # Buildings.
+		RotationStep.NINETY: # Buildings.
 			if new_rotation % 2 != 0:
 				printerr(str(self.name) +
 						" - Invalid rotation for current rotation step.")

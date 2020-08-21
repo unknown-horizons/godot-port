@@ -31,7 +31,7 @@ const DIRECTION = [
 
 # Generic properties
 export var unit_name = "Untitled" # user defined name for the unit
-export(Global.Factions) var faction := 0 setget set_faction
+export(Global.Faction) var faction := 0 setget set_faction
 
 # Pathfinding
 var path = []

@@ -8,4 +8,4 @@ func _ready() -> void:
 
 	var ships: Array = get_children()
 	for ship in ships:
-		ship.direction = randi() % Ship.RotationDegrees.size()
+		ship.direction = randi() % Ship.RotationDegree.size()

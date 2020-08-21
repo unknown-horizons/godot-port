@@ -1,7 +1,7 @@
 tool
 extends HBoxContainer
 
-enum BalanceTypes {
+enum BalanceType {
 	EXPENSE,
 	INCOME,
 	BUY,
@@ -25,7 +25,7 @@ const BALANCE_TYPES = [
 	preload("res://Assets/UI/Images/ResbarStats/weapons_icon.png")
 ]
 
-export(BalanceTypes) var balance_type setget set_balance_type
+export(BalanceType) var balance_type setget set_balance_type
 export(int) var balance_value setget set_balance_value
 
 onready var texture_rect = $TextureRect

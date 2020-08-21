@@ -1,7 +1,7 @@
 tool
 extends TextureRect
 
-export(Global.ResourceTypes) var resource_type setget set_resource_type
+export(Global.ResourceType) var resource_type setget set_resource_type
 export(int) var resource_value setget set_resource_value
 
 # TODO: Make dependent from currently selected ship

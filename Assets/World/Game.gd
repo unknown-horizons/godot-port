@@ -52,14 +52,14 @@ func start_game() -> void:
 			factions.remove(factions.find(ai_players[ai_player])) # remove occupied faction from array
 
 			for ship in ships:
-				if ship.faction == Global.Factions.NONE:
+				if ship.faction == Global.Faction.NONE:
 					ship.faction = ai_players[ai_player]
 					printt(ai_players[ai_player], ship.name)
 					break
 
 		# Remove any ships left over
 		for ship in ships:
-			if ship.faction == Global.Factions.NONE:
+			if ship.faction == Global.Faction.NONE:
 				ship.queue_free()
 
 		# Traders
