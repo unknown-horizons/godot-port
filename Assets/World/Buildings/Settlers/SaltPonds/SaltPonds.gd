@@ -19,7 +19,7 @@ func animate() -> void:
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 384, 256)
 			_billboard.region_enabled = true
-		
+
 		"idle_full":
 			current_anim = null
 			self.texture = SALT_POND_IDLE_FULL
@@ -27,7 +27,7 @@ func animate() -> void:
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 384, 256)
 			_billboard.region_enabled = true
-		
+
 		"work":
 			current_anim = SALT_POND_WORK_ANIM
 			self.texture = SALT_POND_WORK_ANIM
@@ -35,7 +35,7 @@ func animate() -> void:
 			_billboard.hframes = 6
 			_billboard.region_rect = Rect2(0, SALT_POND_WORK_ANIM_REGION_Y[self.rotation_index], 1152, 192)
 			_billboard.region_enabled = true
-			
+
 			_billboard.frame = next_frame()
-	
+
 	.animate()

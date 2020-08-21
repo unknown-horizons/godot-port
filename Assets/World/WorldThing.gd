@@ -36,7 +36,7 @@ func _process(_delta: float) -> void:
 			prints("Please reload the scene [{0}].".format([name]))
 			set_process(false)
 			return
-		
+
 		# Prevent things "falling" through the GridMap when drag'n'dropping
 		# nodes from the hierarchy to the map;
 		# keep everything on the same height at all time.
@@ -66,18 +66,18 @@ func random_frame(sprite: Sprite3D = _billboard) -> int:
 
 func set_texture(new_texture: Texture) -> void:
 	texture = new_texture
-	
+
 	if not is_inside_tree() or _billboard == null:
 		return
-	
+
 	_billboard.texture = new_texture
 
 func set_rotation_step(new_step: int) -> void:
 	rotation_step = new_step
-	
+
 	if not is_inside_tree() or _billboard == null:
 		return
-	
+
 #	match new_step:
 #		RotationSteps.FOURTY_FIVE:
 #			_billboard.hframes = 4
@@ -86,10 +86,10 @@ func set_rotation_step(new_step: int) -> void:
 
 func set_rotation_degree(new_rotation: int) -> void:
 	rotation_degree = new_rotation
-	
+
 	if not is_inside_tree() or _billboard == null:
 		return
-	
+
 	match rotation_step:
 		RotationSteps.FOURTY_FIVE: # Units.
 			_billboard.frame = new_rotation
@@ -97,8 +97,8 @@ func set_rotation_degree(new_rotation: int) -> void:
 			if new_rotation % 2 != 0:
 				printerr(str(self.name) +
 						" - Invalid rotation for current rotation step.")
-				
+
 				return
-			
+
 			#warning-ignore:integer_division
 			_billboard.frame = new_rotation / 2

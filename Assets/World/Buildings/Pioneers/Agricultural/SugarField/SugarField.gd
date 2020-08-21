@@ -30,7 +30,7 @@ func animate() -> void:
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 384, 384)
 			_billboard.region_enabled = true
-		
+
 		"idle_full":
 			current_anim = null
 			self.texture = SUGAR_FIELD_IDLE_FULL
@@ -38,7 +38,7 @@ func animate() -> void:
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 384, 384)
 			_billboard.region_enabled = true
-		
+
 		"work":
 				current_anim = SUGAR_FIELD_WORK_ANIM
 				self.texture = SUGAR_FIELD_WORK_ANIM
@@ -46,7 +46,7 @@ func animate() -> void:
 				_billboard.hframes = 5
 				_billboard.region_rect = Rect2(0, SUGAR_FIELD_WORK_ANIM_REGION_Y[self.rotation_index], 960, 192)
 				_billboard.region_enabled = true
-				
+
 				_billboard.frame = next_frame()
-	
+
 	.animate()

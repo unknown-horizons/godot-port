@@ -416,10 +416,10 @@ func _ready() -> void:
 
 	var window_mode = Config.window_mode
 	var screen_resolution = Config.screen_resolution
-	
+
 	OS.window_fullscreen = window_mode
 	set_screen_resolution(screen_resolution)
-	
+
 	pause_mode = Node.PAUSE_MODE_PROCESS
 
 func set_screen_resolution(screen_resolution: String) -> void:
@@ -431,7 +431,7 @@ func set_screen_resolution(screen_resolution: String) -> void:
 func _input(event: InputEvent) -> void:
 	if Engine.is_editor_hint():
 		return
-	
+
 	# Only available during gameplay
 	if get_tree().get_root().get_node_or_null("World/WorldEnvironment") != null:
 		if event.is_action_pressed("time_speed_up"):
@@ -443,23 +443,23 @@ func _input(event: InputEvent) -> void:
 		if event.is_action_pressed("time_reset"):
 			Engine.time_scale = 1
 			prints("Time Scale:", Engine.time_scale)
-		
+
 		if event.is_action_pressed("pause_scene"):
 			get_tree().paused = !get_tree().paused
 			print(get_tree().paused)
-		
+
 		if event.is_action_pressed("restart_scene"):
 			#warning-ignore:return_value_discarded
 			get_tree().reload_current_scene()
-	
+
 	if event.is_action_pressed("toggle_fullscreen"):
 		var window_mode = Config.window_mode
-		
+
 		window_mode = (window_mode + 1) % WINDOW_MODES.size()
 		prints("window_mode:", window_mode)
 		OS.window_fullscreen = !OS.window_fullscreen
-		
+
 		Config.window_mode = window_mode
-	
+
 	if event.is_action_pressed("quit_game"):
 		get_tree().quit()

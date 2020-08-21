@@ -32,7 +32,7 @@ func _process(_delta: float) -> void:
 	if first_frame:
 		first_frame = false
 		return
-	
+
 	# Unit selection if player is existing (no gameover, etc.)
 	if not player:
 		player = assign_to_player()
@@ -91,7 +91,7 @@ func move_selected_units(m_pos: Vector2) -> void:
 func get_object_under_mouse(m_pos: Vector2):
 	var result = raycast_from_mouse(m_pos, 1)
 	#print_debug("get_object_under_mouse({0}) result: {1}".format([m_pos, result]))
-	
+
 	prints("Collider:", result.collider.name, "Position:", result.position)
 
 	if result and "faction" in result.collider.get_parent()\

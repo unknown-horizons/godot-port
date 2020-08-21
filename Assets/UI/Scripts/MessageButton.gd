@@ -55,7 +55,7 @@ export(MessageTypes) var message_type := MessageTypes.LETTER setget set_message_
 
 func set_message_type(new_message_type: int) -> void:
 	message_type = new_message_type
-	
+
 	texture_normal = MESSAGE_TEXTURES[message_type]["normal"]
 	texture_pressed = MESSAGE_TEXTURES[message_type]["pressed"]
 	texture_hover = MESSAGE_TEXTURES[message_type]["hover"]

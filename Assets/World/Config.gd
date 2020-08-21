@@ -70,7 +70,7 @@ func create_config_if_not_existing() -> ConfigFile:
 		if saved != OK:
 			print("The config could not be saved!")
 			get_tree().quit()
-	
+
 	return config
 
 func load_config() -> void:
@@ -79,24 +79,24 @@ func load_config() -> void:
 	if err != OK:
 		print("Could not load config.")
 		get_tree().quit()
-	
+
 	load_config_values(settings)
 
 func load_config_value(section: String, key: String, default) -> void:
 	set(key, config.get_value(section, key, default))
-	
+
 func load_config_values(sections: Dictionary) -> void:
 	#prints("Loading/Initializing settings...")
 	for section in sections.keys():
 		for key in sections[section]:
 			var value = sections[section][key]
 			load_config_value(section, key, value)
-			
+
 			#prints(section, key, value)
 
 func save_config() -> int:
 	save_config_values(settings)
-	
+
 	return config.save(CONFIG_FILE)
 
 func save_config_value(section: String, key: String, value) -> void:
@@ -114,5 +114,5 @@ func reset_to_factory_settings() -> void:
 		for key in sections[section]:
 			var value = sections[section][key]
 			set(key, value)
-			
+
 			#prints(section, key, value)

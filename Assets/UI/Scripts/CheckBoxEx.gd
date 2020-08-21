@@ -17,18 +17,18 @@ onready var check_box_node := $CheckBox
 func set_description(new_description: String) -> void:
 	if not is_inside_tree(): yield(self, "ready"); _on_ready()
 	description = new_description
-	
+
 	description_node.text = description
 
 func set_checked(new_checked: bool) -> void:
 	if not is_inside_tree(): yield(self, "ready"); _on_ready()
 	checked = new_checked
-	
+
 	check_box_node.pressed = checked
 
 func _on_CheckBox_toggled(check_state: bool) -> void:
 	checked = check_state
-	
+
 	emit_signal("toggled", checked)
 
 func _notification(what: int) -> void:

@@ -51,7 +51,7 @@ const SOUNDS = {
 
 func _ready() -> void:
 	pause_mode = Node.PAUSE_MODE_PROCESS
-	
+
 	asp_click.stream = SOUNDS["click"]
 
 func play_snd(snd_name: String) -> void:

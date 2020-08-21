@@ -41,7 +41,7 @@ export(FontStyle) var font_style := FontStyle.SMALL setget set_font_style
 
 func set_font_style(new_font_style: int) -> void:
 	font_style = new_font_style
-	
+
 	add_font_override("font", theme.get_font(FONT_STYLES[font_style], "Label"))
-	
+
 	property_list_changed_notify()

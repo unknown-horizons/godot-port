@@ -73,7 +73,7 @@ func update_path() -> void:
 	var move_vec: Vector3
 	var dir_vec: Vector3
 	var dir = 0
-	
+
 	if path_index < path.size():
 		move_vec = (path[path_index] - global_transform.origin)
 		if move_vec.length() < 1: # set next target node or proceed to the current one
@@ -103,7 +103,7 @@ func recalculate_directions() -> void:
 
 	if rotation_y == null:
 		rotation_y = get_node("/root/World/PlayerCamera/RotationY")
-		
+
 	match int(round(rotation_y.rotation_degrees.y)):
 		-45:
 			rotation_offset = 0

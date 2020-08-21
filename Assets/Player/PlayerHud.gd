@@ -17,10 +17,10 @@ var _debug_messages = [
 
 func raise_notification(message_type: int, message_text: String) -> void:
 	var _debug_message = _debug_messages[randi() % _debug_messages.size()]
-	
+
 	if messages.get_child_count() < 6:
 		var message = Global.MESSAGE_SCENE.instance()
-		
+
 		message.message_type = _debug_message[0]#message_type
 		message.message_text = _debug_message[1]#message_text
 		messages.add_child(message)

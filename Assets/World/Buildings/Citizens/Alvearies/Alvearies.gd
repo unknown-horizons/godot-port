@@ -23,5 +23,5 @@ func animate() -> void:
 			_billboard.hframes = 5
 			_billboard.region_rect = Rect2(0, 0, 960, 768)
 			_billboard.region_enabled = true
-			
+
 			_billboard.frame = next_frame()

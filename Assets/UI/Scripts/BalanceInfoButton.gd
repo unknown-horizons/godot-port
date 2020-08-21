@@ -10,12 +10,12 @@ func _process(_delta: float) -> void:
 		if details == null: details = $VBoxContainer/Details
 	else:
 		set_process(false)
-		
+
 	show_details = details.visible
 
 func set_show_details(new_show_details: bool) -> void:
 	if details == null: return
-	
+
 	show_details = new_show_details
 	details.visible = show_details
 

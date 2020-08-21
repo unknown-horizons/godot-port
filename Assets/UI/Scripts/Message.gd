@@ -20,7 +20,7 @@ onready var message_text_panel := $MessageText
 func _ready() -> void:
 	set_message_text(message_text)
 	set_message_type(message_type)
-	
+
 	if not Engine.is_editor_hint():
 		Audio.play_snd("ships_bell")
 

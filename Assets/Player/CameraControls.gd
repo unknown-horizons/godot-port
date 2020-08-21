@@ -35,14 +35,14 @@ func _process(delta: float) -> void:
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("rotate_left"):
 		_rotate(-PI/2)
-	
+
 	elif event.is_action_pressed("rotate_right"):
 		_rotate(PI/2)
-	
+
 	elif event.is_action_pressed("zoom_in"):
 		if _camera.size > ZOOM_IN_LIMIT:
 			_zoom(-ZOOM_VALUE)
-	
+
 	elif event.is_action_pressed("zoom_out"):
 		if _camera.size < ZOOM_OUT_LIMIT:
 			_zoom(ZOOM_VALUE)
@@ -51,7 +51,7 @@ func _move(delta: float) -> void:
 	var movement_scale: float = delta * MOVE_SPEED
 	if Input.is_action_pressed("move_faster"):
 		movement_scale *= MOVE_FASTER_MULT
-	
+
 	var x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
 	var y = Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
 	var movement_velocity = Vector3(x, 0, y * _viewport_aspect)

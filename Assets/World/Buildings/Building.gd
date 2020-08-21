@@ -18,7 +18,7 @@ func _ready():
 	# warning-ignore:return_value_discarded
 	timer.connect("timeout", self, "_on_Timer_timeout")
 	timer.start(1.001 - anim_speed)
-	
+
 	add_to_group("billboard")
 
 #func update_offset(new_rotation):
@@ -39,7 +39,7 @@ func _ready():
 func animate() -> void: # to be overridden
 	if previous_anim != current_anim and current_anim == null:
 		_billboard.frame = self.rotation_index
-	
+
 	previous_anim = current_anim
 
 func _on_input(event: InputEvent) -> void:
@@ -67,7 +67,7 @@ func _on_input(event: InputEvent) -> void:
 func get_rotation_index() -> int:
 	# warning-ignore:shadowed_variable
 	var rotation_index
-	
+
 	match rotation_degree:
 		RotationDegrees.ZERO:
 			rotation_index = 0
@@ -77,7 +77,7 @@ func get_rotation_index() -> int:
 			rotation_index = 2
 		RotationDegrees.TWO_SEVENTY:
 			rotation_index = 3
-	
+
 	# Explanation:
 	# rotation_degree	-> WorldThing rotation (8 rotations (0 - 7))
 	# rotation_index	-> Building rotation (4 rotations (0 - 3))
@@ -89,7 +89,7 @@ func get_rotation_index() -> int:
 	#prints("rotation_degree:", rotation_degree)
 	#prints("rotation_index:", rotation_index)
 	#prints("rotation_offset:", rotation_offset)
-		
+
 	return (rotation_index + rotation_offset) % 4
 
 func set_action(new_action) -> void:
@@ -97,7 +97,7 @@ func set_action(new_action) -> void:
 
 func set_anim_speed(new_anim_speed) -> void:
 	anim_speed = new_anim_speed
-	
+
 	if timer == null: return
 	if anim_speed > 0:
 		timer.wait_time = 1.001 - anim_speed
@@ -114,5 +114,5 @@ func _on_Timer_timeout() -> void:
 #				Global._warning = true
 #			timer.stop() # The timer does not stop. Why?
 #			return
-	
+
 	animate()

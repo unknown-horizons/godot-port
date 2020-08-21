@@ -26,7 +26,7 @@ func animate() -> void:
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 384, 384)
 			_billboard.region_enabled = true
-		
+
 		"idle_full":
 			current_anim = null
 			self.texture = CANNON_FOUNDRY_IDLE_FULL
@@ -34,7 +34,7 @@ func animate() -> void:
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 384, 384)
 			_billboard.region_enabled = true
-		
+
 		"work":
 			current_anim = CANNON_FOUNDRY_WORK_ANIM
 			self.texture = CANNON_FOUNDRY_WORK_ANIM[self.rotation_index]
@@ -42,7 +42,7 @@ func animate() -> void:
 			_billboard.hframes = 20
 			_billboard.region_rect = Rect2(0, 0, 3840, 1344)
 			_billboard.region_enabled = true
-			
+
 			_billboard.frame = next_frame()
-	
+
 	.animate()
