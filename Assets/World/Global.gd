@@ -114,14 +114,14 @@ enum Faction {
 	NONE,
 	RED,
 	BLUE,
-	GREEN,
+	DARK_GREEN,
 	ORANGE,
 	PURPLE,
 	CYAN,
 	YELLOW,
 	PINK,
 	TEAL,
-	LEMON,
+	LIME_GREEN,
 	BORDEAUX,
 	WHITE,
 	GRAY,
@@ -244,14 +244,14 @@ const FACTIONS = [
 	"None",
 	"Red",
 	"Blue",
-	"Green",
+	"Dark Green",
 	"Orange",
 	"Purple",
 	"Cyan",
 	"Yellow",
 	"Pink",
 	"Teal",
-	"Lemon",
+	"Lime Green",
 	"Bordeaux",
 	"White",
 	"Gray",
@@ -300,8 +300,8 @@ const FACTION_COLOR_RED =\
 	preload("res://Assets/Player/FactionColor/FactionColorRed.tres")
 const FACTION_COLOR_BLUE =\
 	preload("res://Assets/Player/FactionColor/FactionColorBlue.tres")
-const FACTION_COLOR_GREEN =\
-	preload("res://Assets/Player/FactionColor/FactionColorGreen.tres")
+const FACTION_COLOR_DARK_GREEN =\
+	preload("res://Assets/Player/FactionColor/FactionColorDarkGreen.tres")
 const FACTION_COLOR_ORANGE =\
 	preload("res://Assets/Player/FactionColor/FactionColorOrange.tres")
 const FACTION_COLOR_PURPLE =\
@@ -314,8 +314,8 @@ const FACTION_COLOR_PINK =\
 	preload("res://Assets/Player/FactionColor/FactionColorPink.tres")
 const FACTION_COLOR_TEAL =\
 	preload("res://Assets/Player/FactionColor/FactionColorTeal.tres")
-const FACTION_COLOR_LEMON =\
-	preload("res://Assets/Player/FactionColor/FactionColorLemon.tres")
+const FACTION_COLOR_LIME_GREEN =\
+	preload("res://Assets/Player/FactionColor/FactionColorLimeGreen.tres")
 const FACTION_COLOR_BORDEAUX =\
 	preload("res://Assets/Player/FactionColor/FactionColorBordeaux.tres")
 const FACTION_COLOR_WHITE =\
@@ -329,14 +329,14 @@ const COLOR_MATERIAL = [
 	FACTION_COLOR_NONE,
 	FACTION_COLOR_RED,
 	FACTION_COLOR_BLUE,
-	FACTION_COLOR_GREEN,
+	FACTION_COLOR_DARK_GREEN,
 	FACTION_COLOR_ORANGE,
 	FACTION_COLOR_PURPLE,
 	FACTION_COLOR_CYAN,
 	FACTION_COLOR_YELLOW,
 	FACTION_COLOR_PINK,
 	FACTION_COLOR_TEAL,
-	FACTION_COLOR_LEMON,
+	FACTION_COLOR_LIME_GREEN,
 	FACTION_COLOR_BORDEAUX,
 	FACTION_COLOR_WHITE,
 	FACTION_COLOR_GRAY,
