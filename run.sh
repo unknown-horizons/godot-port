@@ -21,7 +21,7 @@ elif [ -f "/snap/bin/godot-${GODOT%%.*}-${GODOT##*.}" ]; then
 elif [ -f "/Applications/Godot.app/Contents/MacOS/Godot" ]; then
     GODOT="/Applications/Godot.app/Contents/MacOS/Godot"
 elif [ $GODOT_LOCAL_PRESENT ]; then # which found godot somewhere in $PATH
-    GODOT="$GODOT_LOCAL"	
+    GODOT="$GODOT_LOCAL"
 else
     echo "Error: Can't find the Godot editor. Can't run. "
     exit 1
