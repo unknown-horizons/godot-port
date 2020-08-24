@@ -17,13 +17,13 @@ func _process(_delta: float) -> void:
 		if _current_editable != editable:
 			selecting_enabled = editable
 			mouse_default_cursor_shape = CURSOR_IBEAM if editable else CURSOR_ARROW
-			
+
 			_current_editable = editable
 			property_list_changed_notify()
 
 func set_align_style(new_align_style: String) -> void:
 	align_style = new_align_style
-	
+
 	# Text alignment
 	align = ALIGN[align_style]
 #	add_stylebox_override( # StyleBox alignment
@@ -33,12 +33,12 @@ func set_align_style(new_align_style: String) -> void:
 #				else
 #				"normal",
 #					"LineEdit"))
-	
+
 	# StyleBox alignment
 	_apply_style("focus")
 	_apply_style("normal")
 	_apply_style("read_only")
-	
+
 	property_list_changed_notify()
 
 func _apply_style(name: String) -> void:

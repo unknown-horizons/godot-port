@@ -25,14 +25,14 @@ func animate() -> void:
 			_billboard.vframes = 2
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 256, 256)
-		
+
 		"idle_full":
 			current_anim = null
 			self.texture = WINDMILL_IDLE_FULL
 			_billboard.vframes = 2
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 256, 256)
-		
+
 		"work":
 			# set new animation set and randomize frame for the initial time,
 			# afterwards only iterate through frames
@@ -42,10 +42,10 @@ func animate() -> void:
 				_billboard.vframes = 5
 				_billboard.hframes = 6
 				_billboard.region_rect = Rect2(0, 0, 768, 640)
-				
+
 				_billboard.frame = random_frame()
 				prints(self.name, "randomized frame:", _billboard.frame)
 			else:
 				_billboard.frame = next_frame()
-	
+
 	.animate()

@@ -25,7 +25,7 @@ func animate() -> void:
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 384, 384)
 			_billboard.region_enabled = true
-		
+
 		"work":
 			# set new animation set and randomize frame for the initial time,
 			# afterwards only iterate through frames
@@ -36,10 +36,10 @@ func animate() -> void:
 				_billboard.hframes = 10
 				_billboard.region_rect = Rect2(0, 0, 1920, 1536)
 				_billboard.region_enabled = true
-				
+
 				_billboard.frame = random_frame()
 				prints(self.name, "randomized frame:", _billboard.frame)
 			else:
 				_billboard.frame = next_frame()
-	
+
 	.animate()

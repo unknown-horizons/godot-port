@@ -16,7 +16,7 @@ const CATTLE_RUN_WORK_ANIM = [
 	CATTLE_RUN_WORK_225,
 	CATTLE_RUN_WORK_315,
 ]
-	
+
 func animate() -> void:
 	match action:
 		"idle":
@@ -26,7 +26,7 @@ func animate() -> void:
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 384, 384)
 			_billboard.region_enabled = true
-		
+
 		"idle_full":
 			current_anim = null
 			self.texture = CATTLE_RUN_IDLE_FULL
@@ -34,7 +34,7 @@ func animate() -> void:
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 384, 384)
 			_billboard.region_enabled = true
-		
+
 		"work":
 			# set new animation set and randomize frame for the initial time,
 			# afterwards only iterate through frames
@@ -45,10 +45,10 @@ func animate() -> void:
 				_billboard.hframes = 15
 				_billboard.region_rect = Rect2(0, 0, 2880, 1920)
 				_billboard.region_enabled = true
-				
+
 				_billboard.frame = random_frame()
 				prints(self.name, "randomized frame:", _billboard.frame)
 			else:
 				_billboard.frame = next_frame()
-	
+
 	.animate()

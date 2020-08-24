@@ -16,7 +16,7 @@ const BREWERY_WORK_ANIM = [
 	BREWERY_WORK_225,
 	BREWERY_WORK_315,
 ]
-	
+
 func animate() -> void:
 	match action:
 		"idle":
@@ -25,21 +25,21 @@ func animate() -> void:
 			_billboard.vframes = 2
 			_billboard.hframes = 2
 			_billboard.region_enabled = false
-		
+
 		"idle_full":
 			current_anim = null
 			self.texture = BREWERY_IDLE_FULL
 			_billboard.vframes = 2
 			_billboard.hframes = 2
 			_billboard.region_enabled = false
-		
+
 		"work":
 			current_anim = BREWERY_WORK_ANIM
 			self.texture = BREWERY_WORK_ANIM[self.rotation_index]
 			_billboard.vframes = 4
 			_billboard.hframes = 4
 			_billboard.region_enabled = false
-			
+
 			_billboard.frame = next_frame()
-	
+
 	.animate()

@@ -12,20 +12,20 @@ func _ready() -> void:
 		"ResourceDensitySlider": null,
 		"Disasters": null,
 	}
-	
+
 	find_nodes(get_tree().get_root(), nodes)
 	nodes["Scenario"].check_box.disabled = true
 	nodes["RandomMap"].check_box.disabled = true
 	nodes["ResourceDensitySlider"].editable = false
 	nodes["Disasters"].disabled = true
-	
+
 	player_name.text = Config.player_name
 
 func find_nodes(root_node: Node, nodes_to_be_found: Dictionary) -> void:
 	for n in root_node.get_children():
 		if n.get_child_count() > 0:
 			find_nodes(n, nodes_to_be_found)
-		
+
 		if n.name in nodes_to_be_found:
 			nodes_to_be_found[n.name] = n
 

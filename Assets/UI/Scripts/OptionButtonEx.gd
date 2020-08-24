@@ -18,33 +18,33 @@ onready var option_button_node := $OptionButton
 func set_description(new_description: String) -> void:
 	if not is_inside_tree(): yield(self, "ready"); _on_ready()
 	description = new_description
-	
+
 	description_node.text = description
 
 func set_options(new_options: Array) -> void:
 	if not is_inside_tree(): yield(self, "ready"); _on_ready()
 	options = new_options
-	
+
 	#prints("Set options:", options)
 	option_button_node.clear()
 	for option in options:
 		option_button_node.add_item(option)
-	
+
 	# Reassign in case the size has changed (e.g. reduce index if invalid now)
 	self.selected = selected
-	
+
 	property_list_changed_notify()
 
 func set_selected(new_selected: int) -> void:
 	if not is_inside_tree(): yield(self, "ready"); _on_ready()
 	selected = clamp(new_selected, -1, options.size() - 1) as int
-	
+
 	option_button_node.selected = selected
 
 func set_align_style(new_align_style: String) -> void:
 	if not is_inside_tree(): yield(self, "ready"); _on_ready()
 	align_style = new_align_style
-	
+
 	match align_style:
 		"Left":
 			move_child(option_button_node, description_node.get_index() + 1)

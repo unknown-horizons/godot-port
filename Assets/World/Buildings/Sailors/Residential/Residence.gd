@@ -98,7 +98,7 @@ func animate() -> void:
 				_billboard.hframes = 5
 				_billboard.region_rect = Rect2(0, 0, 640, 640)
 				_billboard.region_enabled = true
-				
+
 				_billboard.frame = next_frame()
 			else:
 				current_anim = null
@@ -112,10 +112,10 @@ func destroy() -> void:
 
 func set_tier(new_tier: int) -> void:
 	var previous_tier = tier
-	
+
 	tier = clamp(new_tier, 0, TIERS.size() - 1)
 	self.variation = wrapi(variation, 0, TIERS[tier].size())
-	
+
 	if tier > previous_tier:
 		upgrade()
 	else:

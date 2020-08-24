@@ -18,7 +18,7 @@ func animate() -> void:
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 512, 310)
 			_billboard.region_enabled = true
-		
+
 		"work":
 			current_anim = SMELTERY_WORK_ANIM
 			self.texture = SMELTERY_WORK_ANIM
@@ -26,7 +26,7 @@ func animate() -> void:
 			_billboard.hframes = 6
 			_billboard.region_rect = Rect2(0, SMELTERY_WORK_ANIM_REGION_Y[self.rotation_index], 1536, 155)
 			_billboard.region_enabled = true
-			
+
 			_billboard.frame = next_frame()
-	
+
 	.animate()

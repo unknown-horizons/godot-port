@@ -1,7 +1,7 @@
 tool
 extends HBoxContainer
 
-enum MessageTypes {
+enum MessageType {
 	ANCHOR,
 	DISASTER_FIRE,
 	DISASTER_PLAGUE,
@@ -11,7 +11,7 @@ enum MessageTypes {
 	SYSTEM
 }
 
-export(MessageTypes) var message_type := MessageTypes.LETTER setget set_message_type
+export(MessageType) var message_type := MessageType.LETTER setget set_message_type
 export(String, MULTILINE) var message_text setget set_message_text
 
 onready var message_button = $MessageButton
@@ -20,7 +20,7 @@ onready var message_text_panel := $MessageText
 func _ready() -> void:
 	set_message_text(message_text)
 	set_message_type(message_type)
-	
+
 	if not Engine.is_editor_hint():
 		Audio.play_snd("ships_bell")
 

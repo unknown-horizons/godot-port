@@ -23,7 +23,7 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:
 	update_path()
-	
+
 	recalculate_directions()
 	animate_movement()
 	update_faction_color()

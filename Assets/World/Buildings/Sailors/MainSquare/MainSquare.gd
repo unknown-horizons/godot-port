@@ -55,7 +55,7 @@ func animate() -> void:
 				_billboard.hframes = 13
 				_billboard.region_rect = Rect2(0, 0, 4992, 448)
 				_billboard.region_enabled = true
-				
+
 				_billboard.frame = next_frame()
 			else:
 				current_anim = null
@@ -64,12 +64,12 @@ func animate() -> void:
 				_billboard.hframes = 2
 				_billboard.region_rect = Rect2(0, 0, 768, 448)
 				_billboard.region_enabled = true
-			
+
 	.animate()
 
 func set_tier(new_tier: int) -> void:
 	var previous_tier = tier
-	
+
 	tier = clamp(new_tier, 0, TIERS.size() - 1)
 	if tier > previous_tier:
 		upgrade()

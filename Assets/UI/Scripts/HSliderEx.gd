@@ -21,7 +21,7 @@ onready var slider := $HSlider as HSlider
 func set_description(new_description: String) -> void:
 	if not is_inside_tree(): yield(self, "ready"); _on_ready()
 	description = new_description
-	
+
 	label_desc.text = description
 
 #func set_tick_count(new_tick_count: int) -> void:
@@ -39,44 +39,44 @@ func set_description(new_description: String) -> void:
 func set_min_value(new_min_value: float) -> void:
 	if not is_inside_tree(): yield(self, "ready"); _on_ready()
 	min_value = stepify(new_min_value, 0.01)
-	
+
 	if min_value > max_value:
 		self.set_max_value(min_value)
 		slider.max_value = min_value
-	
+
 	if min_value > value:
 		self.value = min_value
-	
+
 	property_list_changed_notify()
-	
+
 	slider.min_value = min_value
 
 func set_max_value(new_max_value: float) -> void:
 	if not is_inside_tree(): yield(self, "ready"); _on_ready()
 	max_value = stepify(new_max_value, 0.01)
-	
+
 	if max_value < min_value:
 		self.set_min_value(max_value)
 		slider.min_value = max_value
-		
+
 	if max_value < value:
 		self.value = max_value
-	
+
 	property_list_changed_notify()
-	
+
 	#slider.tick_count = max_value / 10
 	slider.max_value = max_value
 
 func set_step(new_step: float) -> void:
 	if not is_inside_tree(): yield(self, "ready"); _on_ready()
 	step = stepify(new_step, 0.01)
-	
+
 	slider.step = step
 
 func set_value(new_value: float) -> void:
 	if not is_inside_tree(): yield(self, "ready"); _on_ready()
 	value = stepify(clamp(stepify(new_value, step), min_value, max_value), 0.01)
-	
+
 	slider.value = value
 	label_value.text = str(value)
 

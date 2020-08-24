@@ -52,12 +52,12 @@ func animate() -> void:
 					_billboard.region_rect = Rect2(0, 0, 384, 384)
 					_billboard.region_enabled = true
 					_billboard.offset = Vector2(0, 40)
-			
+
 	.animate()
 
 func set_tier(new_tier: int) -> void:
 	var previous_tier = tier
-	
+
 	tier = clamp(new_tier, 0, TIERS.size() - 1)
 	if tier > previous_tier:
 		upgrade()

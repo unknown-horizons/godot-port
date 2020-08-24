@@ -9,5 +9,5 @@ onready var caption := $Caption
 func set_text(new_text: String) -> void:
 	if not is_inside_tree(): yield(self, "ready")
 	text = new_text
-	
+
 	caption.text = text

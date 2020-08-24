@@ -49,7 +49,7 @@ func animate() -> void:
 		"idle":
 			current_anim = TIERS[tier]
 			self.texture = TIERS[tier][rotation_offset]
-			
+
 			match tier:
 				0:
 					_billboard.vframes = 2
@@ -61,12 +61,12 @@ func animate() -> void:
 					_billboard.hframes = 4
 					_billboard.region_rect = Rect2(0, 0, 256, 512)
 					_billboard.region_enabled = true
-			
+
 			_billboard.frame = next_frame()
 
 func set_tier(new_tier: int) -> void:
 	var previous_tier = tier
-	
+
 	tier = clamp(new_tier, 0, TIERS.size() - 1)
 	if tier > previous_tier:
 		upgrade()

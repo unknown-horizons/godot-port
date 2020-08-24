@@ -18,7 +18,7 @@ func animate() -> void:
 			_billboard.hframes = 2
 			_billboard.region_rect = Rect2(0, 0, 256, 256)
 			_billboard.region_enabled = true
-		
+
 		"work":
 			current_anim = BAKERY_WORK_ANIM
 			self.texture = BAKERY_WORK_ANIM
@@ -26,7 +26,7 @@ func animate() -> void:
 			_billboard.hframes = 8
 			_billboard.region_rect = Rect2(0, BAKERY_WORK_ANIM_REGION_Y[self.rotation_index], 1024, 128)
 			_billboard.region_enabled = true
-			
+
 			_billboard.frame = next_frame()
-	
+
 	.animate()

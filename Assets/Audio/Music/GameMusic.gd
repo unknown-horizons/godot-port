@@ -12,7 +12,7 @@ func _ready() -> void:
 	dir.open("res://Assets/Audio/Music/Ambient")
 	#warning-ignore:return_value_discarded
 	dir.list_dir_begin()
-	
+
 	# Load all the files from the Ambient folder.
 	while true:
 		var file: String = dir.get_next()
@@ -20,14 +20,14 @@ func _ready() -> void:
 			break
 		elif file.ends_with(".ogg"):
 			_music_files.append(file)
-	
+
 	for i in _music_files:
 		_music_streams.append(load("Assets/Audio/Music/Ambient/" + i))
-	
+
 	# Always play a specific song when the game starts.
 	stream = preload("res://Assets/Audio/Music/Ambient/newfrontier.ogg")
 	play()
-	
+
 	randomize() # Godot will always generate the same random numbers otherwise.
 
 func play_song_random() -> void:

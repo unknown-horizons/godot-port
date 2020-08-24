@@ -1,7 +1,7 @@
 extends Control
 class_name Player
 
-var faction = Global.Factions.NONE
+var faction = Global.Faction.NONE
 
 var settlements = []
 var ships = []

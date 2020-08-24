@@ -103,7 +103,7 @@ func _ready() -> void:
 
 func set_tier(new_tier: int) -> void:
 	var previous_tier = tier
-	
+
 	tier = clamp(new_tier, 0, TIERS.size() - 1)
 	if tier > previous_tier:
 		upgrade()
@@ -118,10 +118,10 @@ func downgrade() -> void:
 
 func set_resource_amount(new_resource_amount) -> void:
 	resource_amount = new_resource_amount
-	
+
 	if not is_inside_tree():
 		return
-	
+
 	if tier == 0:
 		self.texture = LUMBERJACK_TENT_IDLE_LOGS[resource_amount]
 	else:
@@ -130,14 +130,14 @@ func set_resource_amount(new_resource_amount) -> void:
 
 func set_resource_amount_output(new_resource_amount_output) -> void:
 	resource_amount_output = new_resource_amount_output
-	
+
 	if not is_inside_tree():
 		return
-	
+
 	if tier == 1:
 		self.texture = LUMBERJACK_HUT_IDLE
 		resource_overlay2.texture = LUMBERJACK_HUT_IDLE_PLANKS[clamp(resource_amount_output - 1, 0, LUMBERJACK_HUT_IDLE_PLANKS.size() - 1)] if resource_amount_output > 0 else null
-	
+
 func add_resource() -> void:
 	pass # TODO
 
@@ -146,9 +146,9 @@ func remove_resource() -> void:
 
 func _on_input(event: InputEvent):
 	._on_input(event)
-	
+
 	if null in [resource_overlay, resource_overlay2]: return
-	
+
 	# Switch frame accordingly with the world rotation.
 	if event.is_action_pressed("rotate_left"):
 		resource_overlay.frame = wrapi(resource_overlay.frame - 1, 0,
@@ -163,9 +163,9 @@ func _on_input(event: InputEvent):
 
 func set_rotation_degree(new_rotation: int) -> void:
 	.set_rotation_degree(new_rotation)
-	
+
 	if not is_inside_tree() or resource_overlay == null:
 		return
-	
+
 	resource_overlay.frame = self.rotation_index
 	resource_overlay2.frame = self.rotation_index

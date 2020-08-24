@@ -41,7 +41,7 @@ const MESSAGE_TEXTURES = [
 ]
 
 # Keep this alphabetically ordered
-enum MessageTypes {
+enum MessageType {
 	ANCHOR,
 	DISASTER_FIRE,
 	DISASTER_PLAGUE,
@@ -51,11 +51,11 @@ enum MessageTypes {
 	SYSTEM
 }
 
-export(MessageTypes) var message_type := MessageTypes.LETTER setget set_message_type
+export(MessageType) var message_type := MessageType.LETTER setget set_message_type
 
 func set_message_type(new_message_type: int) -> void:
 	message_type = new_message_type
-	
+
 	texture_normal = MESSAGE_TEXTURES[message_type]["normal"]
 	texture_pressed = MESSAGE_TEXTURES[message_type]["pressed"]
 	texture_hover = MESSAGE_TEXTURES[message_type]["hover"]
