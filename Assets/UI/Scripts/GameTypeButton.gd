@@ -4,18 +4,18 @@ class_name GameTypeButton
 
 export(String) var type = "" setget set_new_type
 
-onready var checkbox := $CheckBox
+onready var check_box := $CheckBox
 
 func _ready() -> void:
-	checkbox.text = type
+	check_box.text = type
 
 func _process(_delta: float) -> void:
 	if Engine.is_editor_hint():
-		if checkbox == null:
+		if check_box == null:
 			prints("Please reload the scene [{0}].".format([name]))
 			set_process(false)
 			return
-		checkbox.text = type
+		check_box.text = type
 	else:
 		set_process(false)
 

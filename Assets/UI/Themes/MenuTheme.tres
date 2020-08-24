@@ -8,7 +8,6 @@
 [ext_resource path="res://Assets/UI/Fonts/MenuFont.tres" type="DynamicFont" id=6]
 
 [resource]
-
 default_font = ExtResource( 6 )
 Button/colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
 Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
@@ -21,5 +20,3 @@ Button/styles/hover = ExtResource( 2 )
 Button/styles/normal = ExtResource( 3 )
 Button/styles/pressed = ExtResource( 4 )
 Panel/styles/panel = ExtResource( 5 )
-_sections_unfolded = [ "Border", "Border Width", "Button", "Button/colors", "Button/styles", "Corner Radius", "Expand Margin", "Panel", "Panel/styles", "PanelContainer", "PanelContainer/styles" ]
-

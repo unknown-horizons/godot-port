@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Assets/UI/Themes/MenuTheme.tres" type="Theme" id=1]
 [ext_resource path="res://Assets/UI/Scripts/MainMenuUI.gd" type="Script" id=2]
@@ -13,6 +13,7 @@
 [ext_resource path="res://Assets/UI/Icons/MainMenu/multiplayer_bw.png" type="Texture" id=11]
 [ext_resource path="res://Assets/UI/Images/Logos/uh_no_text.svg" type="Texture" id=12]
 [ext_resource path="res://Assets/UI/Images/Logos/uh_only_text.svg" type="Texture" id=13]
+[ext_resource path="res://Assets/UI/Icons/MainMenu/help_bw.png" type="Texture" id=14]
 
 [sub_resource type="Animation" id=1]
 length = 3.7
@@ -183,14 +184,16 @@ margin_left = -158.0
 margin_top = -160.0
 margin_right = -58.0
 margin_bottom = -60.0
+alignment = "left"
 text = "Load Game"
 texture = ExtResource( 6 )
 
 [node name="CreditsButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = -205.0
-margin_top = -50.0
+margin_top = -51.108
 margin_right = -105.0
-margin_bottom = 50.0
+margin_bottom = 48.892
+alignment = "left"
 text = "Credits"
 texture = ExtResource( 7 )
 
@@ -199,6 +202,7 @@ margin_left = -158.0
 margin_top = 57.0
 margin_right = -58.0
 margin_bottom = 157.0
+alignment = "left"
 text = "Editor"
 texture = ExtResource( 8 )
 
@@ -218,6 +222,7 @@ margin_right = 161.0
 margin_bottom = 157.0
 alignment = "right"
 text = "Help"
+texture = ExtResource( 14 )
 
 [node name="OptionsButton" parent="Decoration/MenuItems" instance=ExtResource( 4 )]
 margin_left = 105.0

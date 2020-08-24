@@ -1,0 +1,353 @@
+[gd_resource type="Theme" load_steps=45 format=2]
+
+[ext_resource path="res://Assets/UI/Images/Background/hr.png" type="Texture" id=1]
+[ext_resource path="res://Assets/UI/Images/Buttons/down_10.png" type="Texture" id=2]
+[ext_resource path="res://Assets/UI/Fonts/SmallFontItalic.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Assets/UI/Images/Buttons/down_10_h.png" type="Texture" id=4]
+[ext_resource path="res://Assets/UI/Fonts/MediumFont.tres" type="DynamicFont" id=5]
+[ext_resource path="res://Assets/UI/Fonts/SmallFont.tres" type="DynamicFont" id=6]
+[ext_resource path="res://Assets/UI/Fonts/MediumFontBold.tres" type="DynamicFont" id=7]
+[ext_resource path="res://Assets/UI/Fonts/MediumFontBoldItalic.tres" type="DynamicFont" id=8]
+[ext_resource path="res://Assets/UI/Fonts/SmallFontBoldItalic.tres" type="DynamicFont" id=9]
+[ext_resource path="res://Assets/UI/Fonts/MediumFontItalic.tres" type="DynamicFont" id=10]
+[ext_resource path="res://Assets/UI/Fonts/TitleFontCapitalize.tres" type="DynamicFont" id=11]
+[ext_resource path="res://Assets/UI/Fonts/TitleFontCapitalizeInline.tres" type="DynamicFont" id=12]
+[ext_resource path="res://Assets/UI/Fonts/LargeFontItalic.tres" type="DynamicFont" id=13]
+[ext_resource path="res://Assets/UI/Fonts/LargeFontBold.tres" type="DynamicFont" id=14]
+[ext_resource path="res://Assets/UI/Fonts/LargeFontBoldItalic.tres" type="DynamicFont" id=15]
+[ext_resource path="res://Assets/UI/Fonts/SmallFontBold.tres" type="DynamicFont" id=16]
+[ext_resource path="res://Assets/UI/Fonts/LargeFont.tres" type="DynamicFont" id=17]
+[ext_resource path="res://Assets/UI/Images/Background/bar_bg.png" type="Texture" id=18]
+[ext_resource path="res://Assets/UI/CheckBoxIcons/CheckBoxUnchecked.tres" type="Texture" id=19]
+[ext_resource path="res://Assets/UI/CheckBoxIcons/CheckBoxChecked.tres" type="Texture" id=20]
+[ext_resource path="res://Assets/UI/Images/Buttons/slider.png" type="Texture" id=21]
+[ext_resource path="res://Assets/UI/Images/Background/tick.png" type="Texture" id=22]
+[ext_resource path="res://Assets/UI/ButtonStyles/ButtonNormal.tres" type="StyleBox" id=23]
+[ext_resource path="res://Assets/UI/ButtonStyles/ButtonFocus.tres" type="StyleBox" id=24]
+[ext_resource path="res://Assets/UI/ButtonStyles/ButtonDisabled.tres" type="StyleBox" id=25]
+
+[sub_resource type="StyleBoxEmpty" id=1]
+
+[sub_resource type="StyleBoxEmpty" id=2]
+
+[sub_resource type="StyleBoxEmpty" id=3]
+
+[sub_resource type="StyleBoxEmpty" id=4]
+
+[sub_resource type="StyleBoxEmpty" id=5]
+
+[sub_resource type="StyleBoxTexture" id=6]
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 215, 8 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.403922, 0.286275, 0.054902, 0.501961 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.584314, 0.443137, 0.168627, 0.501961 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxTexture" id=9]
+texture = ExtResource( 18 )
+region_rect = Rect2( 0, 0, 100, 20 )
+margin_top = 20.0
+margin_bottom = 20.0
+
+[sub_resource type="StyleBoxFlat" id=10]
+draw_center = false
+
+[sub_resource type="StyleBoxFlat" id=11]
+content_margin_left = 4.0
+content_margin_right = 10.0
+bg_color = Color( 1, 1, 1, 0.227451 )
+border_width_left = 2
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 3
+border_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 2
+corner_detail = 20
+
+[sub_resource type="StyleBoxFlat" id=12]
+content_margin_left = 10.0
+content_margin_right = 6.0
+bg_color = Color( 1, 1, 1, 0.227451 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 2
+border_width_bottom = 3
+border_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+border_blend = true
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 25
+corner_detail = 20
+
+[sub_resource type="StyleBoxFlat" id=13]
+content_margin_top = 1.0
+content_margin_bottom = 0.0
+bg_color = Color( 1, 1, 1, 0.227451 )
+border_width_left = 2
+border_width_top = 4
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=14]
+content_margin_left = 4.0
+bg_color = Color( 1, 1, 1, 0.227451 )
+border_width_left = 2
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 3
+border_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 4
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxLine" id=15]
+thickness = 0
+
+[sub_resource type="StyleBoxFlat" id=16]
+content_margin_left = 4.0
+content_margin_right = 10.0
+bg_color = Color( 1, 1, 1, 0.227451 )
+border_width_left = 2
+border_width_top = 4
+border_width_right = 2
+border_width_bottom = 4
+border_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=17]
+content_margin_left = 4.0
+content_margin_right = 10.0
+bg_color = Color( 1, 1, 1, 0.227451 )
+border_width_left = 2
+border_width_top = 4
+border_width_right = 2
+border_width_bottom = 4
+border_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=18]
+content_margin_left = 4.0
+content_margin_right = 10.0
+bg_color = Color( 1, 1, 1, 0.227451 )
+border_width_left = 2
+border_width_top = 4
+border_width_right = 2
+border_width_bottom = 4
+border_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=19]
+content_margin_left = 6.0
+content_margin_right = 6.0
+content_margin_top = 4.0
+bg_color = Color( 0.466667, 0.396078, 0.266667, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+expand_margin_bottom = 6.0
+
+[resource]
+default_font = ExtResource( 3 )
+Button/colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+Button/colors/font_color_disabled = Color( 0, 0, 0, 0 )
+Button/colors/font_color_hover = Color( 0, 0, 0, 1 )
+Button/colors/font_color_pressed = Color( 0, 0, 0, 1 )
+Button/constants/hseparation = 2
+Button/fonts/font = ExtResource( 6 )
+Button/styles/disabled = ExtResource( 25 )
+Button/styles/focus = ExtResource( 24 )
+Button/styles/hover = null
+Button/styles/normal = ExtResource( 23 )
+Button/styles/pressed = null
+CheckBox/colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+CheckBox/colors/font_color_disabled = Color( 0.258824, 0.188235, 0.0509804, 0.501961 )
+CheckBox/colors/font_color_hover = Color( 0, 0, 0, 1 )
+CheckBox/colors/font_color_hover_pressed = Color( 1, 0, 0, 1 )
+CheckBox/colors/font_color_pressed = Color( 0.258824, 0.188235, 0.0509804, 1 )
+CheckBox/constants/check_vadjust = 0
+CheckBox/constants/hseparation = 4
+CheckBox/fonts/font = ExtResource( 3 )
+CheckBox/icons/checked = ExtResource( 20 )
+CheckBox/icons/radio_checked = null
+CheckBox/icons/radio_unchecked = null
+CheckBox/icons/unchecked = ExtResource( 19 )
+CheckBox/styles/disabled = null
+CheckBox/styles/focus = SubResource( 1 )
+CheckBox/styles/hover = SubResource( 2 )
+CheckBox/styles/hover_pressed = SubResource( 3 )
+CheckBox/styles/normal = SubResource( 4 )
+CheckBox/styles/pressed = SubResource( 5 )
+HSeparator/constants/separation = 4
+HSeparator/styles/separator = SubResource( 6 )
+HSlider/icons/grabber = ExtResource( 21 )
+HSlider/icons/grabber_disabled = null
+HSlider/icons/grabber_highlight = ExtResource( 21 )
+HSlider/icons/tick = ExtResource( 22 )
+HSlider/styles/grabber_area = SubResource( 7 )
+HSlider/styles/grabber_area_highlight = SubResource( 8 )
+HSlider/styles/slider = SubResource( 9 )
+Label/colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+Label/colors/font_color_shadow = Color( 0, 0, 0, 0 )
+Label/colors/font_outline_modulate = Color( 1, 1, 1, 1 )
+Label/constants/line_spacing = 0
+Label/constants/shadow_as_outline = 0
+Label/constants/shadow_offset_x = 1
+Label/constants/shadow_offset_y = 1
+Label/fonts/font = ExtResource( 6 )
+Label/fonts/font_large = ExtResource( 17 )
+Label/fonts/font_large_bold = ExtResource( 14 )
+Label/fonts/font_large_bold_italic = ExtResource( 15 )
+Label/fonts/font_large_italic = ExtResource( 13 )
+Label/fonts/font_medium = ExtResource( 5 )
+Label/fonts/font_medium_bold = ExtResource( 7 )
+Label/fonts/font_medium_bold_italic = ExtResource( 8 )
+Label/fonts/font_medium_italic = ExtResource( 10 )
+Label/fonts/font_small = ExtResource( 6 )
+Label/fonts/font_small_bold = ExtResource( 16 )
+Label/fonts/font_small_bold_italic = ExtResource( 9 )
+Label/fonts/font_small_italic = ExtResource( 3 )
+Label/fonts/font_title_capitalize = ExtResource( 11 )
+Label/fonts/font_title_capitalize_inline = ExtResource( 12 )
+Label/styles/normal = null
+LineEdit/colors/clear_button_color = Color( 0.88, 0.88, 0.88, 1 )
+LineEdit/colors/clear_button_color_pressed = Color( 1, 1, 1, 1 )
+LineEdit/colors/cursor_color = Color( 0, 0, 0, 1 )
+LineEdit/colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+LineEdit/colors/font_color_selected = Color( 0, 0, 0, 1 )
+LineEdit/colors/font_color_uneditable = Color( 0.258824, 0.188235, 0.0509804, 0.498039 )
+LineEdit/colors/selection_color = Color( 0.49, 0.49, 0.49, 1 )
+LineEdit/constants/minimum_spaces = 12
+LineEdit/fonts/font = ExtResource( 9 )
+LineEdit/icons/clear = null
+LineEdit/styles/focus = SubResource( 10 )
+LineEdit/styles/focus_left = SubResource( 11 )
+LineEdit/styles/focus_right = SubResource( 12 )
+LineEdit/styles/normal = SubResource( 13 )
+LineEdit/styles/normal_left = SubResource( 11 )
+LineEdit/styles/normal_right = SubResource( 12 )
+LineEdit/styles/read_only = SubResource( 13 )
+LineEdit/styles/read_only_left = SubResource( 11 )
+LineEdit/styles/read_only_right = SubResource( 12 )
+OptionButton/colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+OptionButton/colors/font_color_disabled = Color( 0.258824, 0.188235, 0.0509804, 0.501961 )
+OptionButton/colors/font_color_hover = Color( 0, 0, 0, 1 )
+OptionButton/colors/font_color_pressed = Color( 0, 0, 0, 1 )
+OptionButton/constants/arrow_margin = 6
+OptionButton/constants/hseparation = 2
+OptionButton/fonts/font = ExtResource( 9 )
+OptionButton/icons/arrow = ExtResource( 2 )
+OptionButton/icons/arrow_disabled = null
+OptionButton/icons/arrow_hover = ExtResource( 4 )
+OptionButton/styles/disabled = SubResource( 14 )
+OptionButton/styles/focus = SubResource( 15 )
+OptionButton/styles/hover = SubResource( 16 )
+OptionButton/styles/normal = SubResource( 17 )
+OptionButton/styles/pressed = SubResource( 18 )
+PopupMenu/colors/font_color = Color( 0.88, 0.88, 0.88, 1 )
+PopupMenu/colors/font_color_accel = Color( 0.7, 0.7, 0.7, 0.8 )
+PopupMenu/colors/font_color_disabled = Color( 0.4, 0.4, 0.4, 0.8 )
+PopupMenu/colors/font_color_hover = Color( 0.88, 0.88, 0.88, 1 )
+PopupMenu/constants/hseparation = 4
+PopupMenu/constants/vseparation = 4
+PopupMenu/fonts/font = null
+PopupMenu/icons/checked = null
+PopupMenu/icons/radio_checked = null
+PopupMenu/icons/radio_unchecked = null
+PopupMenu/icons/submenu = null
+PopupMenu/icons/unchecked = null
+PopupMenu/styles/hover = null
+PopupMenu/styles/labeled_separator_left = null
+PopupMenu/styles/labeled_separator_right = null
+PopupMenu/styles/panel = SubResource( 19 )
+PopupMenu/styles/panel_disabled = null
+PopupMenu/styles/separator = null
+RichTextLabel/colors/default_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+RichTextLabel/colors/font_color_selected = Color( 0.49, 0.49, 0.49, 1 )
+RichTextLabel/colors/font_color_shadow = Color( 0, 0, 0, 0 )
+RichTextLabel/colors/selection_color = Color( 0.1, 0.1, 1, 0.8 )
+RichTextLabel/constants/line_separation = 1
+RichTextLabel/constants/shadow_as_outline = 0
+RichTextLabel/constants/shadow_offset_x = 1
+RichTextLabel/constants/shadow_offset_y = 1
+RichTextLabel/constants/table_hseparation = 3
+RichTextLabel/constants/table_vseparation = 3
+RichTextLabel/fonts/bold_font = null
+RichTextLabel/fonts/bold_italics_font = null
+RichTextLabel/fonts/italics_font = null
+RichTextLabel/fonts/mono_font = null
+RichTextLabel/fonts/normal_font = null
+RichTextLabel/styles/focus = null
+RichTextLabel/styles/normal = null
+TabContainer/colors/font_color_bg = Color( 0.69, 0.69, 0.69, 1 )
+TabContainer/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
+TabContainer/colors/font_color_fg = Color( 0.94, 0.94, 0.94, 1 )
+TabContainer/constants/hseparation = 4
+TabContainer/constants/label_valign_bg = 2
+TabContainer/constants/label_valign_fg = 0
+TabContainer/constants/side_margin = 8
+TabContainer/constants/top_margin = 24
+TabContainer/fonts/font = null
+TabContainer/icons/decrement = null
+TabContainer/icons/decrement_highlight = null
+TabContainer/icons/increment = null
+TabContainer/icons/increment_highlight = null
+TabContainer/icons/menu = null
+TabContainer/icons/menu_highlight = null
+TabContainer/styles/panel = null
+TabContainer/styles/tab_bg = null
+TabContainer/styles/tab_disabled = null
+TabContainer/styles/tab_fg = null
+Tabs/colors/font_color_bg = Color( 0.69, 0.69, 0.69, 1 )
+Tabs/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
+Tabs/colors/font_color_fg = Color( 0.94, 0.94, 0.94, 1 )
+Tabs/constants/hseparation = 4
+Tabs/constants/label_valign_bg = 2
+Tabs/constants/label_valign_fg = 0
+Tabs/constants/top_margin = 24
+Tabs/fonts/font = null
+Tabs/icons/close = null
+Tabs/icons/decrement = null
+Tabs/icons/decrement_highlight = null
+Tabs/icons/increment = null
+Tabs/icons/increment_highlight = null
+Tabs/styles/button = null
+Tabs/styles/button_pressed = null
+Tabs/styles/panel = null
+Tabs/styles/tab_bg = null
+Tabs/styles/tab_disabled = null
+Tabs/styles/tab_fg = null

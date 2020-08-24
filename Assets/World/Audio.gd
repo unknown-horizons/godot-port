@@ -1,6 +1,7 @@
 extends AudioStreamPlayer
 
 var asp_click = AudioStreamPlayer.new()
+var asp_build = AudioStreamPlayer.new()
 var asp_voice = AudioStreamPlayer.new()
 
 const SOUNDS = {
@@ -68,8 +69,13 @@ func play_snd_click() -> void:
 		add_child(asp_click)
 	asp_click.play()
 
+func play_snd_fail() -> void:
+	if not asp_build.name:
+		add_child(asp_build)
+	asp_build.play()
+
 func play_entry_snd() -> void:
-	asp_voice.stream = SOUNDS["{0}_{1}".format([Global.language, randi() % 4])]
+	asp_voice.stream = SOUNDS["{0}_{1}".format([Config.language, randi() % 4])]
 	if not asp_voice.name:
 		add_child(asp_voice)
 	asp_voice.play()

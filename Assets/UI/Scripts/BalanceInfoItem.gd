@@ -29,7 +29,7 @@ export(BalanceTypes) var balance_type setget set_balance_type
 export(int) var balance_value setget set_balance_value
 
 onready var texture_rect = $TextureRect
-onready var label = $Label
+onready var label = $LabelEx
 
 func set_balance_type(new_balance_type: int) -> void:
 	if not is_inside_tree(): yield(self, "ready")
@@ -40,7 +40,7 @@ func set_balance_type(new_balance_type: int) -> void:
 
 func set_balance_value(new_balance_value: int) -> void:
 	if not is_inside_tree(): yield(self, "ready")
-	if label == null: label = $Label
+	if label == null: label = $LabelEx
 	
 	balance_value = new_balance_value
 	

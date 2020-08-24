@@ -8,13 +8,15 @@
 [ext_resource path="res://Assets/UI/Images/Buttons/parrow_right_d.png" type="Texture" id=6]
 [ext_resource path="res://Assets/UI/Images/Buttons/parrow_right_h.png" type="Texture" id=7]
 [ext_resource path="res://Assets/UI/Images/Buttons/parrow_right_bw.png" type="Texture" id=8]
-[ext_resource path="res://Assets/UI/Scenes/SimpleButton.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Assets/UI/Scenes/Buttons/ButtonBase.tscn" type="PackedScene" id=9]
 
 [node name="PageControl" type="HBoxContainer"]
 margin_top = 450.0
 margin_right = 300.0
 margin_bottom = 490.0
+size_flags_horizontal = 3
 size_flags_vertical = 10
+size_flags_stretch_ratio = 0.2
 __meta__ = {
 "_edit_use_anchors_": false
 }

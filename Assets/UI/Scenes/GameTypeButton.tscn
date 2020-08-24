@@ -1,27 +1,31 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Assets/UI/Scripts/GameTypeButton.gd" type="Script" id=1]
-[ext_resource path="res://Assets/UI/Fonts/SmallFontItalic.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Assets/UI/Themes/Theme.tres" type="Theme" id=3]
 
 [sub_resource type="StyleBoxLine" id=1]
 thickness = 0
 
-[sub_resource type="ButtonGroup" id=2]
-resource_name = "ButtonGroupGameType"
+[sub_resource type="StyleBoxEmpty" id=2]
+
+[sub_resource type="ButtonGroup" id=3]
 
 [node name="GameTypeButton" type="HBoxContainer"]
-margin_right = 338.0
-margin_bottom = 24.0
+margin_right = 136.0
+margin_bottom = 20.0
+theme = ExtResource( 3 )
 script = ExtResource( 1 )
-type = ""
+__meta__ = {
+"_edit_use_anchors_": false
+}
+type = "CheckBox option"
 
 [node name="CheckBox" type="CheckBox" parent="."]
-margin_right = 24.0
-margin_bottom = 25.0
+margin_right = 129.0
+margin_bottom = 20.0
 custom_styles/focus = SubResource( 1 )
-custom_fonts/font = ExtResource( 2 )
-custom_colors/font_color_disabled = Color( 0.258824, 0.188235, 0.0509804, 0.501961 )
-custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_styles/disabled = SubResource( 2 )
 custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
-group = SubResource( 2 )
+group = SubResource( 3 )
+text = "CheckBox option"
 [connection signal="pressed" from="CheckBox" to="." method="_on_pressed"]

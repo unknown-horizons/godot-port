@@ -4,9 +4,11 @@
 
 [node name="Separator" type="TextureRect"]
 margin_right = 215.0
-margin_bottom = 8.0
+margin_bottom = 21.0
+rect_min_size = Vector2( 0, 21 )
 texture = ExtResource( 1 )
 stretch_mode = 1
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": false,
+"_editor_description_": ""
 }
