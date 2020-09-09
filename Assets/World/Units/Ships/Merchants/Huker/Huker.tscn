@@ -96,10 +96,7 @@ texture = ExtResource( 3 )
 [node name="CollisionShape" parent="Area" index="0"]
 visible = true
 
-[node name="CollisionShape" parent="StaticBody" index="0"]
-visible = false
-
-[node name="FactionColor" type="Sprite3D" parent="." index="4"]
+[node name="FactionColor" type="Sprite3D" parent="." index="2"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.001, 0 )
 material_override = SubResource( 5 )
 cast_shadow = 0
@@ -118,3 +115,6 @@ __meta__ = {
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." index="5"]
 anims/selected = SubResource( 6 )
+
+[node name="CollisionShape" parent="StaticBody" index="0"]
+visible = false
