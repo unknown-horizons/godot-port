@@ -138,9 +138,6 @@ region_rect = Rect2( 0, 0, 896, 896 )
 [node name="CollisionShape" parent="Area" index="0"]
 visible = true
 
-[node name="StaticBody" parent="." index="4"]
-visible = false
-
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." index="5"]
 anims/fade_in = SubResource( 5 )
 anims/fade_out = SubResource( 6 )

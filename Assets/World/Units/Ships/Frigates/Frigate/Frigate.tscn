@@ -12,7 +12,6 @@ albedo_texture = ExtResource( 3 )
 
 [node name="Frigate" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
-texture = ExtResource( 3 )
 
 [node name="Billboard" parent="." index="0"]
 material_override = SubResource( 1 )

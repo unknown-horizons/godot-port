@@ -24,7 +24,7 @@ func _process(_delta: float) -> void:
 		start_game()
 
 # Notification test (press N within a game session)
-func _input(event: InputEvent):
+func unhandled_input(event: InputEvent)->void:
 	if event.is_action_pressed("debug_raise_notification"):
 		emit_signal("notification", 3, "This is a test notification.")
 

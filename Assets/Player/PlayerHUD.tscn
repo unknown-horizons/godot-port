@@ -9,6 +9,7 @@
 [node name="PlayerHUD" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+mouse_filter = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource( 4 )
@@ -24,6 +25,7 @@ margin_left = 30.0
 margin_top = 30.0
 margin_right = -40.0
 margin_bottom = -100.0
+mouse_filter = 2
 __meta__ = {
 "_edit_lock_": true,
 "_edit_use_anchors_": false
@@ -32,11 +34,13 @@ __meta__ = {
 [node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
 margin_right = 1530.0
 margin_bottom = 770.0
+mouse_filter = 2
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
 margin_right = 635.0
 margin_bottom = 770.0
 rect_min_size = Vector2( 0, 500 )
+mouse_filter = 2
 size_flags_horizontal = 3
 
 [node name="BalanceInfoButton" parent="MarginContainer/HBoxContainer/VBoxContainer" instance=ExtResource( 3 )]
@@ -48,14 +52,18 @@ size_flags_vertical = 3
 margin_top = 310.0
 margin_right = 635.0
 margin_bottom = 770.0
+mouse_filter = 2
 size_flags_vertical = 3
 size_flags_stretch_ratio = 1.5
 
 [node name="CityInfo" parent="MarginContainer/HBoxContainer" instance=ExtResource( 2 )]
 margin_left = 639.0
 margin_right = 889.0
+mouse_filter = 0
 size_flags_horizontal = 2
 size_flags_vertical = 0
+faction = 0
+debug_cycle_factions = false
 
 [node name="TabWidget" parent="MarginContainer/HBoxContainer" instance=ExtResource( 1 )]
 visible = false
@@ -73,9 +81,17 @@ margin_top = -228.0
 margin_bottom = 62.0
 size_flags_vertical = 1
 
-[node name="HSeparator" parent="MarginContainer/HBoxContainer/ShipMenuTabWidget/WidgetDetail/Body/ShipMenu" index="2"]
-margin_top = 53.0
-margin_bottom = 57.0
+[node name="InventorySlot" parent="MarginContainer/HBoxContainer/ShipMenuTabWidget/WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer" index="0"]
+storage_limit = 30
+
+[node name="InventorySlot2" parent="MarginContainer/HBoxContainer/ShipMenuTabWidget/WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer" index="1"]
+storage_limit = 30
+
+[node name="InventorySlot3" parent="MarginContainer/HBoxContainer/ShipMenuTabWidget/WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer" index="2"]
+storage_limit = 30
+
+[node name="InventorySlot4" parent="MarginContainer/HBoxContainer/ShipMenuTabWidget/WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer" index="3"]
+storage_limit = 30
 
 [editable path="MarginContainer/HBoxContainer/TabWidget"]
 

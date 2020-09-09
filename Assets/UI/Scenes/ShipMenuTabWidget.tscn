@@ -30,6 +30,7 @@
 [ext_resource path="res://Assets/UI/Scripts/LabelEx.gd" type="Script" id=28]
 
 [node name="ShipMenuTabWidget" instance=ExtResource( 3 )]
+mouse_filter = 2
 script = ExtResource( 20 )
 
 [node name="ShipMenu" type="VBoxContainer" parent="WidgetDetail/Body" index="0"]
