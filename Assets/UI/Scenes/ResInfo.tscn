@@ -28,13 +28,13 @@ __meta__ = {
 
 [node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
 margin_right = 49.0
-margin_bottom = 44.0
+margin_bottom = 45.0
 size_flags_vertical = 3
 texture = ExtResource( 3 )
 stretch_mode = 4
 
 [node name="Label" parent="VBoxContainer" instance=ExtResource( 4 )]
-margin_top = 44.0
+margin_top = 45.0
 margin_right = 49.0
 margin_bottom = 66.0
 text = "30"

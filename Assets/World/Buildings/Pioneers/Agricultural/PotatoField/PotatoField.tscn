@@ -1,8 +1,14 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Assets/World/Buildings/Pioneers/Agricultural/PotatoField/PotatoField.gd" type="Script" id=2]
 [ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Assets/World/Buildings/Pioneers/Agricultural/PotatoField/Sprites/PotatoField_work_anim.png" type="Texture" id=4]
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_transparent = true
+flags_no_depth_test = true
+params_billboard_mode = 1
+albedo_texture = ExtResource( 4 )
 
 [node name="PotatoField" instance=ExtResource( 3 )]
 script = ExtResource( 2 )
@@ -11,10 +17,11 @@ action = "work"
 anim_speed = 0.85
 
 [node name="Billboard" parent="." index="0"]
+material_override = SubResource( 1 )
 offset = Vector2( 0, 48 )
 texture = ExtResource( 4 )
 vframes = 1
 hframes = 5
-frame = 3
+frame = 4
 region_enabled = true
 region_rect = Rect2( 0, 0, 960, 192 )

@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Assets/World/Units/Ships/Ship.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/World/Units/Ships/Pirates/Pirate/Pirate.gd" type="Script" id=2]
@@ -24,8 +24,13 @@ params_billboard_mode = 1
 albedo_color = Color( 1, 1, 1, 0.27451 )
 roughness = 0.0
 
-[sub_resource type="Animation" id=4]
-resource_name = "fade_in"
+[sub_resource type="SpatialMaterial" id=4]
+flags_transparent = true
+flags_no_depth_test = true
+params_billboard_mode = 1
+albedo_texture = ExtResource( 3 )
+
+[sub_resource type="Animation" id=5]
 tracks/0/type = "value"
 tracks/0/path = NodePath("WaterOverlay/WaterOverlay1:material_override:albedo_color")
 tracks/0/interp = 1
@@ -39,8 +44,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=5]
-resource_name = "fade_out"
+[sub_resource type="Animation" id=6]
 tracks/0/type = "value"
 tracks/0/path = NodePath("WaterOverlay/WaterOverlay1:material_override:albedo_color")
 tracks/0/interp = 1
@@ -116,7 +120,7 @@ double_sided = false
 texture = ExtResource( 3 )
 vframes = 4
 hframes = 4
-frame = 3
+frame = 14
 region_enabled = true
 region_rect = Rect2( 0, 0, 896, 896 )
 __meta__ = {
@@ -124,10 +128,11 @@ __meta__ = {
 }
 
 [node name="Billboard" parent="." index="2"]
+material_override = SubResource( 4 )
 extra_cull_margin = 200.0
 texture = ExtResource( 3 )
 vframes = 4
-frame = 14
+frame = 11
 region_rect = Rect2( 0, 0, 896, 896 )
 
 [node name="CollisionShape" parent="Area" index="0"]
@@ -137,7 +142,7 @@ visible = true
 visible = false
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." index="5"]
-anims/fade_in = SubResource( 4 )
-anims/fade_out = SubResource( 5 )
+anims/fade_in = SubResource( 5 )
+anims/fade_out = SubResource( 6 )
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
 [connection signal="animation_started" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_started"]

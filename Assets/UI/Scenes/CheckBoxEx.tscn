@@ -31,5 +31,5 @@ size_flags_horizontal = 10
 theme = ExtResource( 3 )
 script = ExtResource( 5 )
 [connection signal="gui_input" from="." to="." method="_on_CheckBoxEx_gui_input"]
-[connection signal="toggled" from="CheckBox" to="CheckBox" method="_on_CheckBox_toggled"]
 [connection signal="toggled" from="CheckBox" to="." method="_on_CheckBox_toggled"]
+[connection signal="toggled" from="CheckBox" to="CheckBox" method="_on_CheckBox_toggled"]

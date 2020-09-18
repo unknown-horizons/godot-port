@@ -1,10 +1,13 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=9 format=2]
 
+[ext_resource path="res://Assets/UI/Fonts/SmallFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Assets/UI/Scenes/Labels/SmallLabelItalic.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Assets/UI/Scripts/InventorySlot.gd" type="Script" id=3]
 [ext_resource path="res://Assets/UI/Images/Background/inv_bg.png" type="Texture" id=4]
 [ext_resource path="res://Assets/UI/Images/Background/Widgets/progressbar_fill.png" type="Texture" id=5]
 [ext_resource path="res://Assets/UI/Icons/Resources/32/004.png" type="Texture" id=6]
+[ext_resource path="res://Assets/UI/Themes/Theme.tres" type="Theme" id=7]
+[ext_resource path="res://Assets/UI/Scripts/LabelEx.gd" type="Script" id=8]
 
 [node name="InventorySlot" type="TextureRect"]
 margin_right = 49.0
@@ -17,7 +20,6 @@ __meta__ = {
 }
 resource_type = 3
 resource_value = 30
-storage_limit = 30
 
 [node name="TextureRect" type="TextureRect" parent="."]
 margin_right = 41.0
@@ -35,9 +37,14 @@ anchor_bottom = 1.0
 margin_top = 29.0
 margin_right = -8.0
 margin_bottom = -5.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme = ExtResource( 7 )
+custom_fonts/font = ExtResource( 1 )
 text = "30"
 align = 1
 valign = 1
+script = ExtResource( 8 )
 
 [node name="TextureRect2" type="TextureRect" parent="."]
 anchor_left = 1.0
@@ -46,7 +53,6 @@ anchor_bottom = 1.0
 margin_left = -8.0
 margin_right = -3.8147e-06
 margin_bottom = -9.0
-rect_scale = Vector2( 1, 0.25 )
 rect_pivot_offset = Vector2( 8, 42 )
 texture = ExtResource( 5 )
 stretch_mode = 1

@@ -1,13 +1,20 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Assets/World/Units/Ships/Ship.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/World/Units/Ships/Frigates/Frigate/Frigate.gd" type="Script" id=2]
 [ext_resource path="res://Assets/World/Units/Ships/Frigates/Frigate/Sprites/Frigate_idle.png" type="Texture" id=3]
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_transparent = true
+flags_no_depth_test = true
+params_billboard_mode = 1
+albedo_texture = ExtResource( 3 )
 
 [node name="Frigate" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 texture = ExtResource( 3 )
 
 [node name="Billboard" parent="." index="0"]
+material_override = SubResource( 1 )
 texture = ExtResource( 3 )
 region_rect = Rect2( 0, 0, 1024, 512 )

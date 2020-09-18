@@ -61,8 +61,6 @@ __meta__ = {
 "_edit_lock_": true,
 "_edit_use_anchors_": false
 }
-faction = 0
-debug_cycle_factions = false
 
 [node name="TextureRect" type="TextureRect" parent="."]
 margin_right = 6.0
@@ -109,7 +107,7 @@ __meta__ = {
 
 [node name="Population" type="Label" parent="."]
 margin_left = 206.0
-margin_right = 240.0
+margin_right = 244.0
 margin_bottom = 29.0
 size_flags_vertical = 5
 custom_styles/normal = SubResource( 2 )
@@ -119,8 +117,8 @@ text = "9000"
 valign = 1
 
 [node name="TextureRect2" type="TextureRect" parent="."]
-margin_left = 240.0
-margin_right = 246.0
+margin_left = 244.0
+margin_right = 250.0
 margin_bottom = 29.0
 texture = ExtResource( 7 )
 

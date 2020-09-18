@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=29 format=2]
 
 [ext_resource path="res://Assets/UI/Scenes/HSeparator.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/UI/Scenes/Caption.tscn" type="PackedScene" id=2]
@@ -24,7 +24,10 @@
 [ext_resource path="res://Assets/UI/Icons/Resources/32/006.png" type="Texture" id=22]
 [ext_resource path="res://Assets/UI/Icons/Resources/32/040.png" type="Texture" id=23]
 [ext_resource path="res://Assets/UI/Fonts/TitleFontCapitalizeInline.tres" type="DynamicFont" id=24]
+[ext_resource path="res://Assets/UI/Fonts/SmallFont.tres" type="DynamicFont" id=25]
 [ext_resource path="res://Assets/UI/Scenes/InventorySlot.tscn" type="PackedScene" id=26]
+[ext_resource path="res://Assets/UI/Themes/Theme.tres" type="Theme" id=27]
+[ext_resource path="res://Assets/UI/Scripts/LabelEx.gd" type="Script" id=28]
 
 [node name="ShipMenuTabWidget" instance=ExtResource( 3 )]
 script = ExtResource( 20 )
@@ -66,6 +69,8 @@ custom_constants/shadow_offset_y = 10
 text = "Unknown Beauty"
 
 [node name="HSeparator" parent="WidgetDetail/Body/ShipMenu" index="2" instance=ExtResource( 1 )]
+margin_top = 53.0
+margin_bottom = 57.0
 
 [node name="HBoxContainer" type="HBoxContainer" parent="WidgetDetail/Body/ShipMenu" index="3"]
 margin_top = 61.0
@@ -176,8 +181,16 @@ margin_bottom = 51.0
 margin_top = -0.256653
 margin_bottom = 31.7433
 
+[node name="Label" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot" index="1"]
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme = ExtResource( 27 )
+custom_fonts/font = ExtResource( 25 )
+script = ExtResource( 28 )
+
 [node name="TextureRect2" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot" index="2"]
 rect_scale = Vector2( 1, 1 )
+rect_pivot_offset = Vector2( 8, 42 )
 rect_clip_content = true
 
 [node name="InventorySlot2" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer" index="1" instance=ExtResource( 26 )]
@@ -190,8 +203,16 @@ margin_top = -0.256653
 margin_bottom = 31.7433
 texture = ExtResource( 21 )
 
+[node name="Label" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot2" index="1"]
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme = ExtResource( 27 )
+custom_fonts/font = ExtResource( 25 )
+script = ExtResource( 28 )
+
 [node name="TextureRect2" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot2" index="2"]
 rect_scale = Vector2( 1, 1 )
+rect_pivot_offset = Vector2( 8, 42 )
 rect_clip_content = true
 
 [node name="InventorySlot3" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer" index="2" instance=ExtResource( 26 )]
@@ -204,8 +225,16 @@ margin_top = -0.256653
 margin_bottom = 31.7433
 texture = ExtResource( 22 )
 
+[node name="Label" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot3" index="1"]
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme = ExtResource( 27 )
+custom_fonts/font = ExtResource( 25 )
+script = ExtResource( 28 )
+
 [node name="TextureRect2" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot3" index="2"]
 rect_scale = Vector2( 1, 1 )
+rect_pivot_offset = Vector2( 8, 42 )
 rect_clip_content = true
 
 [node name="InventorySlot4" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer" index="3" instance=ExtResource( 26 )]
@@ -220,10 +249,16 @@ margin_bottom = 31.7433
 texture = ExtResource( 23 )
 
 [node name="Label" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot4" index="1"]
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme = ExtResource( 27 )
+custom_fonts/font = ExtResource( 25 )
 text = "12"
+script = ExtResource( 28 )
 
 [node name="TextureRect2" parent="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot4" index="2"]
 rect_scale = Vector2( 1, 0.4 )
+rect_pivot_offset = Vector2( 8, 42 )
 rect_clip_content = true
 
 [editable path="WidgetDetail/Body/ShipMenu/MarginContainer2/HBoxContainer/InventorySlot"]

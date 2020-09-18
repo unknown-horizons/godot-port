@@ -5,11 +5,6 @@
 
 [node name="Ship" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
-max_health = 150
-radius = 5
-velocity = 12
-storage_limit = 120
-num_of_slots = 4
 
 [node name="Area" parent="." index="1"]
 visible = false

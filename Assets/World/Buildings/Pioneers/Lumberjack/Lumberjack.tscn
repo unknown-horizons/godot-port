@@ -1,10 +1,16 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Assets/World/Buildings/Sailors/Lumberjack/Lumberjack.gd" type="Script" id=2]
 [ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Assets/World/Buildings/Pioneers/Lumberjack/Sprites/LumberjackHut_idle.png" type="Texture" id=4]
 
 [sub_resource type="SpatialMaterial" id=1]
+flags_transparent = true
+flags_no_depth_test = true
+params_billboard_mode = 1
+albedo_texture = ExtResource( 4 )
+
+[sub_resource type="SpatialMaterial" id=2]
 render_priority = 10
 flags_transparent = true
 flags_no_depth_test = true
@@ -15,15 +21,14 @@ roughness = 0.0
 script = ExtResource( 2 )
 texture = ExtResource( 4 )
 tier = 1
-resource_amount = 0
-resource_amount_output = 0
 
 [node name="Billboard" parent="." index="0"]
+material_override = SubResource( 1 )
 texture = ExtResource( 4 )
 
 [node name="ResourceOverlay" type="Sprite3D" parent="Billboard" index="0"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.001, 0 )
-material_override = SubResource( 1 )
+material_override = SubResource( 2 )
 cast_shadow = 0
 offset = Vector2( 0, 32 )
 pixel_size = 0.015
@@ -38,7 +43,7 @@ __meta__ = {
 
 [node name="ResourceOverlay2" type="Sprite3D" parent="Billboard" index="1"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.001, 0 )
-material_override = SubResource( 1 )
+material_override = SubResource( 2 )
 cast_shadow = 0
 offset = Vector2( 0, 32 )
 pixel_size = 0.015

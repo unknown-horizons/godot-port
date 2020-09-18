@@ -2,6 +2,8 @@ tool
 extends HBoxContainer
 # Info widget displaying generic information about the hovered city
 
+const Global = preload("res://Assets/World/Global.gd")
+
 const FACTION_SETTLEMENT = [
 	preload("res://Assets/UI/Icons/Widgets/CityInfo/settlement.png"), # neutral
 	preload("res://Assets/UI/Icons/Widgets/CityInfo/settlement_red.png"),
