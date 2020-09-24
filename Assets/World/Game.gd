@@ -1,7 +1,7 @@
 extends Spatial
 class_name Game
 
-signal notification(message_type, message_text)
+signal notification(message_type, message_text) # int, String
 
 var is_game_running = false
 

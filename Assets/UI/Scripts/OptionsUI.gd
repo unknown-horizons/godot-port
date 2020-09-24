@@ -2,6 +2,26 @@ tool
 extends BookMenu
 class_name OptionsUI
 
+# Screen resolution choices
+const SCREEN_RESOLUTIONS = [
+	"800x600",
+	"1024x768",
+	"1280x1024",
+	"1280x720",
+	"1280x800",
+	"1360x768",
+	"1366x768",
+	"1440x900",
+	"1600x900",
+	"1680x1050",
+	"1920x1200",
+	"1920x1080",
+	"2560x1080",
+	"2560x1440",
+	"3440x1440",
+	"3840x2160",
+]
+
 onready var settings = {
 	"AutosaveInterval": find_node("AutosaveInterval") as HSliderEx,
 	"NumberOfAutosaves": find_node("NumberOfAutosaves") as HSliderEx,
@@ -55,9 +75,9 @@ func _ready() -> void:
 	settings["WindowMode"].emit_signal("item_selected", Config.window_mode)
 
 	# Populate with available resolutions
-	settings["ScreenResolution"].options = Global.SCREEN_RESOLUTIONS
-	for screen_resolution_index in Global.SCREEN_RESOLUTIONS.size():
-		if Config.screen_resolution == Global.SCREEN_RESOLUTIONS[screen_resolution_index]:
+	settings["ScreenResolution"].options = SCREEN_RESOLUTIONS
+	for screen_resolution_index in SCREEN_RESOLUTIONS.size():
+		if Config.screen_resolution == SCREEN_RESOLUTIONS[screen_resolution_index]:
 			settings["ScreenResolution"].selected = screen_resolution_index
 	settings["ScreenResolution"].connect("item_selected", self, "_on_ScreenResolution_item_selected")
 
@@ -128,7 +148,7 @@ func _on_OKButton_pressed() -> void:
 	Config.mouse_sensitivity = settings["MouseSensitivity"].value
 
 	Config.window_mode = settings["WindowMode"].selected
-	Config.screen_resolution = Global.SCREEN_RESOLUTIONS[settings["ScreenResolution"].selected]
+	Config.screen_resolution = SCREEN_RESOLUTIONS[settings["ScreenResolution"].selected]
 
 	Config.master_volume = settings["MasterVolume"].value
 	Config.music_volume = settings["MusicVolume"].value

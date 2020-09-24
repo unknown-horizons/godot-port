@@ -1,8 +1,14 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/World/Buildings/Citizens/Pigsty/Pigsty.gd" type="Script" id=2]
 [ext_resource path="res://Assets/World/Buildings/Citizens/Pigsty/Sprites/Pigsty_work_45.png" type="Texture" id=3]
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_transparent = true
+flags_no_depth_test = true
+params_billboard_mode = 1
+albedo_texture = ExtResource( 3 )
 
 [node name="Pigsty" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
@@ -10,10 +16,11 @@ texture = ExtResource( 3 )
 action = "work"
 
 [node name="Billboard" parent="." index="0"]
+material_override = SubResource( 1 )
 offset = Vector2( 0, 48 )
 texture = ExtResource( 3 )
 vframes = 8
 hframes = 10
-frame = 49
+frame = 63
 region_enabled = true
 region_rect = Rect2( 0, 0, 1920, 1536 )

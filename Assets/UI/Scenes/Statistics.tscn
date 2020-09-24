@@ -39,40 +39,35 @@ margin_bottom = 500.0
 margin_bottom = 56.0
 
 [node name="Caption" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/CaptionBlock" index="0"]
-margin_bottom = 31.0
 text = "Statistics"
-
-[node name="Separator" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/CaptionBlock" index="1"]
-margin_top = 35.0
-margin_bottom = 56.0
 
 [node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer" index="1"]
 margin_top = 60.0
 margin_right = 650.0
-margin_bottom = 85.0
+margin_bottom = 84.0
 custom_constants/separation = 10
 
 [node name="Button" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" index="0" instance=ExtResource( 2 )]
 margin_right = 210.0
-margin_bottom = 25.0
+margin_bottom = 24.0
 text = "Players"
 
 [node name="Button2" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" index="1" instance=ExtResource( 2 )]
 margin_left = 220.0
 margin_right = 430.0
-margin_bottom = 25.0
+margin_bottom = 24.0
 text = "My ships"
 
 [node name="Button3" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer" index="2" instance=ExtResource( 2 )]
 margin_left = 440.0
 margin_right = 650.0
-margin_bottom = 25.0
+margin_bottom = 24.0
 text = "My settlements"
 
 [node name="SubheadingBlock" type="VBoxContainer" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer" index="2"]
-margin_top = 89.0
+margin_top = 88.0
 margin_right = 300.0
-margin_bottom = 124.0
+margin_bottom = 136.0
 rect_min_size = Vector2( 300, 0 )
 size_flags_horizontal = 0
 
@@ -86,18 +81,18 @@ text = "Player scores"
 [node name="Separator" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/SubheadingBlock" index="1" instance=ExtResource( 5 )]
 margin_top = 27.0
 margin_right = 300.0
-margin_bottom = 35.0
+margin_bottom = 48.0
 
 [node name="GridContainer" type="GridContainer" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer" index="3"]
-margin_top = 128.0
+margin_top = 140.0
 margin_right = 650.0
-margin_bottom = 355.0
+margin_bottom = 358.0
 columns = 9
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="0"]
 modulate = Color( 1, 1, 1, 0 )
 margin_right = 20.0
-margin_bottom = 19.0
+margin_bottom = 18.0
 rect_min_size = Vector2( 20, 0 )
 size_flags_horizontal = 0
 texture = ExtResource( 6 )
@@ -106,7 +101,7 @@ expand = true
 [node name="NameHeading" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="1"]
 margin_left = 24.0
 margin_right = 170.0
-margin_bottom = 19.0
+margin_bottom = 18.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 7 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -115,7 +110,7 @@ text = "Name"
 [node name="MoneyHeading" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="2"]
 margin_left = 174.0
 margin_right = 237.0
-margin_bottom = 19.0
+margin_bottom = 18.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 7 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -125,7 +120,7 @@ align = 1
 [node name="LandHeading" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="3"]
 margin_left = 241.0
 margin_right = 304.0
-margin_bottom = 19.0
+margin_bottom = 18.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 7 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -135,7 +130,7 @@ align = 1
 [node name="ResourcesHeading" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="4"]
 margin_left = 308.0
 margin_right = 378.0
-margin_bottom = 19.0
+margin_bottom = 18.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 7 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -145,7 +140,7 @@ align = 1
 [node name="BuildingsHeading" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="5"]
 margin_left = 382.0
 margin_right = 449.0
-margin_bottom = 19.0
+margin_bottom = 18.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 7 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -155,7 +150,7 @@ align = 1
 [node name="SettlersHeading" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="6"]
 margin_left = 453.0
 margin_right = 516.0
-margin_bottom = 19.0
+margin_bottom = 18.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 7 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -165,7 +160,7 @@ align = 1
 [node name="UnitsHeading" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="7"]
 margin_left = 520.0
 margin_right = 583.0
-margin_bottom = 19.0
+margin_bottom = 18.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 7 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -175,7 +170,7 @@ align = 1
 [node name="TotalHeading" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="8"]
 margin_left = 587.0
 margin_right = 650.0
-margin_bottom = 19.0
+margin_bottom = 18.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 7 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -183,9 +178,9 @@ text = "Total"
 align = 1
 
 [node name="Faction1" type="TextureRect" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="9"]
-margin_top = 23.0
+margin_top = 22.0
 margin_right = 20.0
-margin_bottom = 45.0
+margin_bottom = 43.0
 rect_min_size = Vector2( 20, 0 )
 size_flags_horizontal = 0
 texture = ExtResource( 6 )
@@ -193,9 +188,9 @@ expand = true
 
 [node name="Name1" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="10"]
 margin_left = 24.0
-margin_top = 23.0
+margin_top = 22.0
 margin_right = 170.0
-margin_bottom = 45.0
+margin_bottom = 43.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -204,9 +199,9 @@ align = 1
 
 [node name="Money1" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="11"]
 margin_left = 174.0
-margin_top = 23.0
+margin_top = 22.0
 margin_right = 237.0
-margin_bottom = 45.0
+margin_bottom = 43.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -215,9 +210,9 @@ align = 1
 
 [node name="Land1" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="12"]
 margin_left = 241.0
-margin_top = 23.0
+margin_top = 22.0
 margin_right = 304.0
-margin_bottom = 45.0
+margin_bottom = 43.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -226,9 +221,9 @@ align = 1
 
 [node name="Resources1" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="13"]
 margin_left = 308.0
-margin_top = 23.0
+margin_top = 22.0
 margin_right = 378.0
-margin_bottom = 45.0
+margin_bottom = 43.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -237,9 +232,9 @@ align = 1
 
 [node name="Buildings1" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="14"]
 margin_left = 382.0
-margin_top = 23.0
+margin_top = 22.0
 margin_right = 449.0
-margin_bottom = 45.0
+margin_bottom = 43.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -248,9 +243,9 @@ align = 1
 
 [node name="Settlers1" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="15"]
 margin_left = 453.0
-margin_top = 23.0
+margin_top = 22.0
 margin_right = 516.0
-margin_bottom = 45.0
+margin_bottom = 43.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -259,9 +254,9 @@ align = 1
 
 [node name="Units1" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="16"]
 margin_left = 520.0
-margin_top = 23.0
+margin_top = 22.0
 margin_right = 583.0
-margin_bottom = 45.0
+margin_bottom = 43.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -270,9 +265,9 @@ align = 1
 
 [node name="Total1" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="17"]
 margin_left = 587.0
-margin_top = 23.0
+margin_top = 22.0
 margin_right = 650.0
-margin_bottom = 45.0
+margin_bottom = 43.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -280,9 +275,9 @@ text = "2603"
 align = 1
 
 [node name="Faction2" type="TextureRect" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="18"]
-margin_top = 49.0
+margin_top = 47.0
 margin_right = 20.0
-margin_bottom = 71.0
+margin_bottom = 68.0
 rect_min_size = Vector2( 20, 0 )
 size_flags_horizontal = 0
 texture = ExtResource( 9 )
@@ -290,9 +285,9 @@ expand = true
 
 [node name="Name2" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="19"]
 margin_left = 24.0
-margin_top = 49.0
+margin_top = 47.0
 margin_right = 170.0
-margin_bottom = 71.0
+margin_bottom = 68.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -301,9 +296,9 @@ align = 1
 
 [node name="Money2" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="20"]
 margin_left = 174.0
-margin_top = 49.0
+margin_top = 47.0
 margin_right = 237.0
-margin_bottom = 71.0
+margin_bottom = 68.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -312,9 +307,9 @@ align = 1
 
 [node name="Land2" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="21"]
 margin_left = 241.0
-margin_top = 49.0
+margin_top = 47.0
 margin_right = 304.0
-margin_bottom = 71.0
+margin_bottom = 68.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -323,9 +318,9 @@ align = 1
 
 [node name="Resources2" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="22"]
 margin_left = 308.0
-margin_top = 49.0
+margin_top = 47.0
 margin_right = 378.0
-margin_bottom = 71.0
+margin_bottom = 68.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -334,9 +329,9 @@ align = 1
 
 [node name="Buildings2" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="23"]
 margin_left = 382.0
-margin_top = 49.0
+margin_top = 47.0
 margin_right = 449.0
-margin_bottom = 71.0
+margin_bottom = 68.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -345,9 +340,9 @@ align = 1
 
 [node name="Settlers2" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="24"]
 margin_left = 453.0
-margin_top = 49.0
+margin_top = 47.0
 margin_right = 516.0
-margin_bottom = 71.0
+margin_bottom = 68.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -356,9 +351,9 @@ align = 1
 
 [node name="Units2" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="25"]
 margin_left = 520.0
-margin_top = 49.0
+margin_top = 47.0
 margin_right = 583.0
-margin_bottom = 71.0
+margin_bottom = 68.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -367,9 +362,9 @@ align = 1
 
 [node name="Total2" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="26"]
 margin_left = 587.0
-margin_top = 49.0
+margin_top = 47.0
 margin_right = 650.0
-margin_bottom = 71.0
+margin_bottom = 68.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -377,9 +372,9 @@ text = "2603"
 align = 1
 
 [node name="Faction3" type="TextureRect" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="27"]
-margin_top = 75.0
+margin_top = 72.0
 margin_right = 20.0
-margin_bottom = 97.0
+margin_bottom = 93.0
 rect_min_size = Vector2( 20, 0 )
 size_flags_horizontal = 0
 texture = ExtResource( 10 )
@@ -387,9 +382,9 @@ expand = true
 
 [node name="Name3" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="28"]
 margin_left = 24.0
-margin_top = 75.0
+margin_top = 72.0
 margin_right = 170.0
-margin_bottom = 97.0
+margin_bottom = 93.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -398,9 +393,9 @@ align = 1
 
 [node name="Money3" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="29"]
 margin_left = 174.0
-margin_top = 75.0
+margin_top = 72.0
 margin_right = 237.0
-margin_bottom = 97.0
+margin_bottom = 93.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -409,9 +404,9 @@ align = 1
 
 [node name="Land3" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="30"]
 margin_left = 241.0
-margin_top = 75.0
+margin_top = 72.0
 margin_right = 304.0
-margin_bottom = 97.0
+margin_bottom = 93.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -420,9 +415,9 @@ align = 1
 
 [node name="Resources3" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="31"]
 margin_left = 308.0
-margin_top = 75.0
+margin_top = 72.0
 margin_right = 378.0
-margin_bottom = 97.0
+margin_bottom = 93.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -431,9 +426,9 @@ align = 1
 
 [node name="Buildings3" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="32"]
 margin_left = 382.0
-margin_top = 75.0
+margin_top = 72.0
 margin_right = 449.0
-margin_bottom = 97.0
+margin_bottom = 93.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -442,9 +437,9 @@ align = 1
 
 [node name="Settlers3" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="33"]
 margin_left = 453.0
-margin_top = 75.0
+margin_top = 72.0
 margin_right = 516.0
-margin_bottom = 97.0
+margin_bottom = 93.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -453,9 +448,9 @@ align = 1
 
 [node name="Units3" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="34"]
 margin_left = 520.0
-margin_top = 75.0
+margin_top = 72.0
 margin_right = 583.0
-margin_bottom = 97.0
+margin_bottom = 93.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -464,9 +459,9 @@ align = 1
 
 [node name="Total3" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="35"]
 margin_left = 587.0
-margin_top = 75.0
+margin_top = 72.0
 margin_right = 650.0
-margin_bottom = 97.0
+margin_bottom = 93.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -474,9 +469,9 @@ text = "2603"
 align = 1
 
 [node name="Faction4" type="TextureRect" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="36"]
-margin_top = 101.0
+margin_top = 97.0
 margin_right = 20.0
-margin_bottom = 123.0
+margin_bottom = 118.0
 rect_min_size = Vector2( 20, 0 )
 size_flags_horizontal = 0
 texture = ExtResource( 11 )
@@ -484,9 +479,9 @@ expand = true
 
 [node name="Name4" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="37"]
 margin_left = 24.0
-margin_top = 101.0
+margin_top = 97.0
 margin_right = 170.0
-margin_bottom = 123.0
+margin_bottom = 118.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -495,9 +490,9 @@ align = 1
 
 [node name="Money4" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="38"]
 margin_left = 174.0
-margin_top = 101.0
+margin_top = 97.0
 margin_right = 237.0
-margin_bottom = 123.0
+margin_bottom = 118.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -506,9 +501,9 @@ align = 1
 
 [node name="Land4" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="39"]
 margin_left = 241.0
-margin_top = 101.0
+margin_top = 97.0
 margin_right = 304.0
-margin_bottom = 123.0
+margin_bottom = 118.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -517,9 +512,9 @@ align = 1
 
 [node name="Resources4" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="40"]
 margin_left = 308.0
-margin_top = 101.0
+margin_top = 97.0
 margin_right = 378.0
-margin_bottom = 123.0
+margin_bottom = 118.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -528,9 +523,9 @@ align = 1
 
 [node name="Buildings4" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="41"]
 margin_left = 382.0
-margin_top = 101.0
+margin_top = 97.0
 margin_right = 449.0
-margin_bottom = 123.0
+margin_bottom = 118.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -539,9 +534,9 @@ align = 1
 
 [node name="Settlers4" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="42"]
 margin_left = 453.0
-margin_top = 101.0
+margin_top = 97.0
 margin_right = 516.0
-margin_bottom = 123.0
+margin_bottom = 118.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -550,9 +545,9 @@ align = 1
 
 [node name="Units4" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="43"]
 margin_left = 520.0
-margin_top = 101.0
+margin_top = 97.0
 margin_right = 583.0
-margin_bottom = 123.0
+margin_bottom = 118.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -561,9 +556,9 @@ align = 1
 
 [node name="Total4" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="44"]
 margin_left = 587.0
-margin_top = 101.0
+margin_top = 97.0
 margin_right = 650.0
-margin_bottom = 123.0
+margin_bottom = 118.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -571,9 +566,9 @@ text = "2603"
 align = 1
 
 [node name="Faction5" type="TextureRect" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="45"]
-margin_top = 127.0
+margin_top = 122.0
 margin_right = 20.0
-margin_bottom = 149.0
+margin_bottom = 143.0
 rect_min_size = Vector2( 20, 0 )
 size_flags_horizontal = 0
 texture = ExtResource( 12 )
@@ -581,9 +576,9 @@ expand = true
 
 [node name="Name5" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="46"]
 margin_left = 24.0
-margin_top = 127.0
+margin_top = 122.0
 margin_right = 170.0
-margin_bottom = 149.0
+margin_bottom = 143.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -592,9 +587,9 @@ align = 1
 
 [node name="Money5" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="47"]
 margin_left = 174.0
-margin_top = 127.0
+margin_top = 122.0
 margin_right = 237.0
-margin_bottom = 149.0
+margin_bottom = 143.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -603,9 +598,9 @@ align = 1
 
 [node name="Land5" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="48"]
 margin_left = 241.0
-margin_top = 127.0
+margin_top = 122.0
 margin_right = 304.0
-margin_bottom = 149.0
+margin_bottom = 143.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -614,9 +609,9 @@ align = 1
 
 [node name="Resources5" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="49"]
 margin_left = 308.0
-margin_top = 127.0
+margin_top = 122.0
 margin_right = 378.0
-margin_bottom = 149.0
+margin_bottom = 143.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -625,9 +620,9 @@ align = 1
 
 [node name="Buildings5" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="50"]
 margin_left = 382.0
-margin_top = 127.0
+margin_top = 122.0
 margin_right = 449.0
-margin_bottom = 149.0
+margin_bottom = 143.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -636,9 +631,9 @@ align = 1
 
 [node name="Settlers5" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="51"]
 margin_left = 453.0
-margin_top = 127.0
+margin_top = 122.0
 margin_right = 516.0
-margin_bottom = 149.0
+margin_bottom = 143.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -647,9 +642,9 @@ align = 1
 
 [node name="Units5" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="52"]
 margin_left = 520.0
-margin_top = 127.0
+margin_top = 122.0
 margin_right = 583.0
-margin_bottom = 149.0
+margin_bottom = 143.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -658,9 +653,9 @@ align = 1
 
 [node name="Total5" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="53"]
 margin_left = 587.0
-margin_top = 127.0
+margin_top = 122.0
 margin_right = 650.0
-margin_bottom = 149.0
+margin_bottom = 143.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -668,9 +663,9 @@ text = "2603"
 align = 1
 
 [node name="Faction6" type="TextureRect" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="54"]
-margin_top = 153.0
+margin_top = 147.0
 margin_right = 20.0
-margin_bottom = 175.0
+margin_bottom = 168.0
 rect_min_size = Vector2( 20, 0 )
 size_flags_horizontal = 0
 texture = ExtResource( 13 )
@@ -678,9 +673,9 @@ expand = true
 
 [node name="Name6" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="55"]
 margin_left = 24.0
-margin_top = 153.0
+margin_top = 147.0
 margin_right = 170.0
-margin_bottom = 175.0
+margin_bottom = 168.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -689,9 +684,9 @@ align = 1
 
 [node name="Money6" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="56"]
 margin_left = 174.0
-margin_top = 153.0
+margin_top = 147.0
 margin_right = 237.0
-margin_bottom = 175.0
+margin_bottom = 168.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -700,9 +695,9 @@ align = 1
 
 [node name="Land6" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="57"]
 margin_left = 241.0
-margin_top = 153.0
+margin_top = 147.0
 margin_right = 304.0
-margin_bottom = 175.0
+margin_bottom = 168.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -711,9 +706,9 @@ align = 1
 
 [node name="Resources6" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="58"]
 margin_left = 308.0
-margin_top = 153.0
+margin_top = 147.0
 margin_right = 378.0
-margin_bottom = 175.0
+margin_bottom = 168.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -722,9 +717,9 @@ align = 1
 
 [node name="Buildings6" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="59"]
 margin_left = 382.0
-margin_top = 153.0
+margin_top = 147.0
 margin_right = 449.0
-margin_bottom = 175.0
+margin_bottom = 168.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -733,9 +728,9 @@ align = 1
 
 [node name="Settlers6" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="60"]
 margin_left = 453.0
-margin_top = 153.0
+margin_top = 147.0
 margin_right = 516.0
-margin_bottom = 175.0
+margin_bottom = 168.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -744,9 +739,9 @@ align = 1
 
 [node name="Units6" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="61"]
 margin_left = 520.0
-margin_top = 153.0
+margin_top = 147.0
 margin_right = 583.0
-margin_bottom = 175.0
+margin_bottom = 168.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -755,9 +750,9 @@ align = 1
 
 [node name="Total6" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="62"]
 margin_left = 587.0
-margin_top = 153.0
+margin_top = 147.0
 margin_right = 650.0
-margin_bottom = 175.0
+margin_bottom = 168.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -765,9 +760,9 @@ text = "2603"
 align = 1
 
 [node name="Faction7" type="TextureRect" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="63"]
-margin_top = 179.0
+margin_top = 172.0
 margin_right = 20.0
-margin_bottom = 201.0
+margin_bottom = 193.0
 rect_min_size = Vector2( 20, 0 )
 size_flags_horizontal = 0
 texture = ExtResource( 14 )
@@ -775,9 +770,9 @@ expand = true
 
 [node name="Name7" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="64"]
 margin_left = 24.0
-margin_top = 179.0
+margin_top = 172.0
 margin_right = 170.0
-margin_bottom = 201.0
+margin_bottom = 193.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -786,9 +781,9 @@ align = 1
 
 [node name="Money7" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="65"]
 margin_left = 174.0
-margin_top = 179.0
+margin_top = 172.0
 margin_right = 237.0
-margin_bottom = 201.0
+margin_bottom = 193.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -797,9 +792,9 @@ align = 1
 
 [node name="Land7" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="66"]
 margin_left = 241.0
-margin_top = 179.0
+margin_top = 172.0
 margin_right = 304.0
-margin_bottom = 201.0
+margin_bottom = 193.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -808,9 +803,9 @@ align = 1
 
 [node name="Resources7" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="67"]
 margin_left = 308.0
-margin_top = 179.0
+margin_top = 172.0
 margin_right = 378.0
-margin_bottom = 201.0
+margin_bottom = 193.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -819,9 +814,9 @@ align = 1
 
 [node name="Buildings7" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="68"]
 margin_left = 382.0
-margin_top = 179.0
+margin_top = 172.0
 margin_right = 449.0
-margin_bottom = 201.0
+margin_bottom = 193.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -830,9 +825,9 @@ align = 1
 
 [node name="Settlers7" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="69"]
 margin_left = 453.0
-margin_top = 179.0
+margin_top = 172.0
 margin_right = 516.0
-margin_bottom = 201.0
+margin_bottom = 193.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -841,9 +836,9 @@ align = 1
 
 [node name="Units7" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="70"]
 margin_left = 520.0
-margin_top = 179.0
+margin_top = 172.0
 margin_right = 583.0
-margin_bottom = 201.0
+margin_bottom = 193.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -852,9 +847,9 @@ align = 1
 
 [node name="Total7" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="71"]
 margin_left = 587.0
-margin_top = 179.0
+margin_top = 172.0
 margin_right = 650.0
-margin_bottom = 201.0
+margin_bottom = 193.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -862,9 +857,9 @@ text = "2603"
 align = 1
 
 [node name="Faction8" type="TextureRect" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="72"]
-margin_top = 205.0
+margin_top = 197.0
 margin_right = 20.0
-margin_bottom = 227.0
+margin_bottom = 218.0
 rect_min_size = Vector2( 20, 0 )
 size_flags_horizontal = 0
 texture = ExtResource( 15 )
@@ -872,9 +867,9 @@ expand = true
 
 [node name="Name8" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="73"]
 margin_left = 24.0
-margin_top = 205.0
+margin_top = 197.0
 margin_right = 170.0
-margin_bottom = 227.0
+margin_bottom = 218.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -883,9 +878,9 @@ align = 1
 
 [node name="Money8" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="74"]
 margin_left = 174.0
-margin_top = 205.0
+margin_top = 197.0
 margin_right = 237.0
-margin_bottom = 227.0
+margin_bottom = 218.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -894,9 +889,9 @@ align = 1
 
 [node name="Land8" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="75"]
 margin_left = 241.0
-margin_top = 205.0
+margin_top = 197.0
 margin_right = 304.0
-margin_bottom = 227.0
+margin_bottom = 218.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -905,9 +900,9 @@ align = 1
 
 [node name="Resources8" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="76"]
 margin_left = 308.0
-margin_top = 205.0
+margin_top = 197.0
 margin_right = 378.0
-margin_bottom = 227.0
+margin_bottom = 218.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -916,9 +911,9 @@ align = 1
 
 [node name="Buildings8" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="77"]
 margin_left = 382.0
-margin_top = 205.0
+margin_top = 197.0
 margin_right = 449.0
-margin_bottom = 227.0
+margin_bottom = 218.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -927,9 +922,9 @@ align = 1
 
 [node name="Settlers8" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="78"]
 margin_left = 453.0
-margin_top = 205.0
+margin_top = 197.0
 margin_right = 516.0
-margin_bottom = 227.0
+margin_bottom = 218.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -938,9 +933,9 @@ align = 1
 
 [node name="Units8" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="79"]
 margin_left = 520.0
-margin_top = 205.0
+margin_top = 197.0
 margin_right = 583.0
-margin_bottom = 227.0
+margin_bottom = 218.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
@@ -949,9 +944,9 @@ align = 1
 
 [node name="Total8" type="Label" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/VBoxContainer/GridContainer" index="80"]
 margin_left = 587.0
-margin_top = 205.0
+margin_top = 197.0
 margin_right = 650.0
-margin_bottom = 227.0
+margin_bottom = 218.0
 size_flags_horizontal = 3
 custom_fonts/font = ExtResource( 8 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )

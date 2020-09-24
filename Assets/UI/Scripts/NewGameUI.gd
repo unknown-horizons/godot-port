@@ -19,6 +19,9 @@ func _ready() -> void:
 	nodes["ResourceDensitySlider"].editable = false
 	nodes["Disasters"].disabled = true
 
+	if Engine.is_editor_hint():
+		return
+
 	player_name.text = Config.player_name
 
 func find_nodes(root_node: Node, nodes_to_be_found: Dictionary) -> void:

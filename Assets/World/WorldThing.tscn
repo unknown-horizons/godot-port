@@ -1,22 +1,14 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=2]
 
 [ext_resource path="res://Assets/World/WorldThing.gd" type="Script" id=1]
 
-[sub_resource type="SpatialMaterial" id=1]
-render_priority = 10
-flags_transparent = true
-flags_no_depth_test = true
-params_billboard_mode = 1
-roughness = 0.0
-
 [node name="WorldThing" type="Spatial"]
 script = ExtResource( 1 )
-texture = null
-rotation_step = 1
-rotation_degree = 0
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Billboard" type="Sprite3D" parent="."]
-material_override = SubResource( 1 )
 cast_shadow = 0
 offset = Vector2( 0, 32 )
 pixel_size = 0.015

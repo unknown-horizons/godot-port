@@ -355,26 +355,6 @@ const WINDOW_MODES = {
 	WindowMode.FULLSCREEN: "Fullscreen"
 }
 
-# Screen resolution choices
-const SCREEN_RESOLUTIONS = [
-	"800x600",
-	"1024x768",
-	"1280x1024",
-	"1280x720",
-	"1280x800",
-	"1360x768",
-	"1366x768",
-	"1440x900",
-	"1600x900",
-	"1680x1050",
-	"1920x1200",
-	"1920x1080",
-	"2560x1080",
-	"2560x1440",
-	"3440x1440",
-	"3840x2160",
-]
-
 # Language choices
 #const LANGUAGES = {
 #	"Deutsch": "de",

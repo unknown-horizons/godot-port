@@ -1,20 +1,80 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Assets/World/Units/Ships/Ship.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/World/Units/Ships/Merchants/Huker/Huker.gd" type="Script" id=2]
 [ext_resource path="res://Assets/World/Units/Ships/Merchants/Huker/Sprites/Huker_idle.png" type="Texture" id=3]
-[ext_resource path="res://Assets/Player/FactionColor/FactionColorNone.tres" type="Material" id=4]
 
-[sub_resource type="CylinderMesh" id=1]
+[sub_resource type="CylinderMesh" id=2]
 
-[sub_resource type="SpatialMaterial" id=2]
+[sub_resource type="SpatialMaterial" id=3]
 flags_transparent = true
 flags_no_depth_test = true
 flags_do_not_receive_shadows = true
-flags_disable_ambient_light = true
 albedo_color = Color( 1, 1, 1, 0.117647 )
 
-[sub_resource type="Animation" id=3]
+[sub_resource type="SpatialMaterial" id=4]
+flags_transparent = true
+flags_no_depth_test = true
+params_billboard_mode = 1
+albedo_texture = ExtResource( 3 )
+
+[sub_resource type="Shader" id=1]
+code = "shader_type spatial;
+render_mode blend_mix,depth_draw_opaque,cull_back,diffuse_burley,specular_schlick_ggx,depth_test_disable;
+uniform vec4 albedo : hint_color;
+uniform sampler2D texture_albedo : hint_albedo;
+uniform float specular;
+uniform float metallic;
+uniform float roughness : hint_range(0,1);
+uniform float point_size : hint_range(0,128);
+uniform sampler2D texture_metallic : hint_white;
+uniform vec4 metallic_texture_channel;
+uniform sampler2D texture_roughness : hint_white;
+uniform vec4 roughness_texture_channel;
+uniform vec3 uv1_scale;
+uniform vec3 uv1_offset;
+uniform vec3 uv2_scale;
+uniform vec3 uv2_offset;
+
+
+void vertex() {
+	UV=UV*uv1_scale.xy+uv1_offset.xy;
+	MODELVIEW_MATRIX = INV_CAMERA_MATRIX * mat4(CAMERA_MATRIX[0],CAMERA_MATRIX[1],CAMERA_MATRIX[2],WORLD_MATRIX[3]);
+}
+
+
+
+
+void fragment() {
+	vec2 base_uv = UV;
+	vec4 albedo_tex = texture(texture_albedo,base_uv);
+	ALBEDO = albedo.rgb;// * albedo_tex.rgb;
+	float metallic_tex = dot(texture(texture_metallic,base_uv),metallic_texture_channel);
+	METALLIC = metallic_tex * metallic;
+	float roughness_tex = dot(texture(texture_roughness,base_uv),roughness_texture_channel);
+	ROUGHNESS = roughness_tex * roughness;
+	SPECULAR = specular;
+	ALPHA = albedo.a * albedo_tex.a;
+}
+"
+
+[sub_resource type="ShaderMaterial" id=5]
+render_priority = 10
+shader = SubResource( 1 )
+shader_param/albedo = Color( 0, 0, 0, 0 )
+shader_param/specular = 0.5
+shader_param/metallic = 0.0
+shader_param/roughness = 0.0
+shader_param/point_size = 1.0
+shader_param/metallic_texture_channel = Plane( 1, 0, 0, 0 )
+shader_param/roughness_texture_channel = Plane( 1, 0, 0, 0 )
+shader_param/uv1_scale = Vector3( 1, 1, 1 )
+shader_param/uv1_offset = Vector3( 0, 0, 0 )
+shader_param/uv2_scale = Vector3( 1, 1, 1 )
+shader_param/uv2_offset = Vector3( 0, 0, 0 )
+shader_param/texture_albedo = ExtResource( 3 )
+
+[sub_resource type="Animation" id=6]
 length = 3.0
 loop = true
 
@@ -23,12 +83,14 @@ script = ExtResource( 2 )
 texture = ExtResource( 3 )
 
 [node name="SelectionRing" type="MeshInstance" parent="." index="0"]
-transform = Transform( 1, 0, 0, 0, 0.005, 0, 0, 0, 1, 0, 0.0001, 0 )
+transform = Transform( 1, 0, 0, 0, 0.005, 0, 0, 0, 1, 0, -0.15, 0 )
 visible = false
-mesh = SubResource( 1 )
-material/0 = SubResource( 2 )
+cast_shadow = 0
+mesh = SubResource( 2 )
+material/0 = SubResource( 3 )
 
 [node name="Billboard" parent="." index="1"]
+material_override = SubResource( 4 )
 texture = ExtResource( 3 )
 
 [node name="CollisionShape" parent="Area" index="0"]
@@ -39,7 +101,7 @@ visible = false
 
 [node name="FactionColor" type="Sprite3D" parent="." index="4"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.001, 0 )
-material_override = ExtResource( 4 )
+material_override = SubResource( 5 )
 cast_shadow = 0
 offset = Vector2( 0, 32 )
 pixel_size = 0.0151
@@ -55,4 +117,4 @@ __meta__ = {
 }
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." index="5"]
-anims/selected = SubResource( 3 )
+anims/selected = SubResource( 6 )

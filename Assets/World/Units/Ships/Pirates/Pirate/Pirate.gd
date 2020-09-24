@@ -91,8 +91,7 @@ func animate_movement():
 		if Engine.is_editor_hint():
 			rotation_index = rotation_degree
 
-		texture = PIRATE_MOVE_ANIM[rotation_index]
-		_billboard.texture = PIRATE_MOVE_ANIM[rotation_index]
+		self.texture = PIRATE_MOVE_ANIM[rotation_index]
 		_reflection.texture = PIRATE_MOVE_ANIM[rotation_index]
 
 		_billboard.frame = next_frame()
@@ -114,8 +113,7 @@ func animate_movement():
 		_reflection.hframes = 4
 		.update_rotation()
 
-		texture = PIRATE_IDLE_ANIM
-		_billboard.texture = PIRATE_IDLE_ANIM
+		self.texture = PIRATE_IDLE_ANIM
 		_reflection.texture = PIRATE_IDLE_ANIM
 
 		# For editor preview

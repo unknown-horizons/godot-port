@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Assets/Player/PlayerCamera.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Player/SelectionBox.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Assets/Player/PlayerHud.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Assets/Player/PlayerHUD.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Assets/Player/CameraControls.gd" type="Script" id=4]
 
 [node name="PlayerCamera" type="Spatial"]
@@ -21,7 +21,7 @@ far = 1000.0
 
 [node name="SelectionBox" parent="." instance=ExtResource( 2 )]
 
-[node name="PlayerHud" parent="." instance=ExtResource( 3 )]
+[node name="PlayerHUD" parent="." instance=ExtResource( 3 )]
 
 [node name="CameraControls" type="Node" parent="."]
 script = ExtResource( 4 )

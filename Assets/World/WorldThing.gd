@@ -22,7 +22,7 @@ export var texture: Texture setget set_texture
 export(RotationStep) var rotation_step := 1 setget set_rotation_step
 export(RotationDegree) var rotation_degree := 0 setget set_rotation_degree
 
-onready var _billboard := $Billboard # as MeshInstance
+onready var _billboard := $Billboard as Sprite3D
 
 func _ready() -> void:
 	# Retry exported properties setters after all nodes are ready.
@@ -70,7 +70,17 @@ func set_texture(new_texture: Texture) -> void:
 	if not is_inside_tree() or _billboard == null:
 		return
 
-	_billboard.texture = new_texture
+	_billboard.texture = texture
+
+	if texture != null:
+		var material = SpatialMaterial.new()
+		material.flags_transparent = true
+		material.flags_no_depth_test = true
+		material.params_billboard_mode = SpatialMaterial.BILLBOARD_ENABLED
+		material.albedo_texture = texture
+		_billboard.material_override = material
+	else:
+		_billboard.material_override = null
 
 func set_rotation_step(new_step: int) -> void:
 	rotation_step = new_step
@@ -92,13 +102,13 @@ func set_rotation_degree(new_rotation: int) -> void:
 
 	match rotation_step:
 		RotationStep.FOURTY_FIVE: # Units.
-			_billboard.frame = new_rotation
+			_billboard.frame = rotation_degree
 		RotationStep.NINETY: # Buildings.
-			if new_rotation % 2 != 0:
+			if rotation_degree % 2 != 0:
 				printerr(str(self.name) +
 						" - Invalid rotation for current rotation step.")
 
 				return
 
 			#warning-ignore:integer_division
-			_billboard.frame = new_rotation / 2
+			_billboard.frame = rotation_degree / 2

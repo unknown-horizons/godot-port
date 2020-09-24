@@ -89,7 +89,6 @@ custom_constants/separation = 0
 
 [node name="Expense" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource( 6 )]
 margin_right = 43.0
-balance_type = 0
 balance_value = -5
 
 [node name="Income" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource( 6 )]
@@ -104,14 +103,12 @@ margin_top = 36.0
 margin_right = 43.0
 margin_bottom = 54.0
 balance_type = 2
-balance_value = 0
 
 [node name="Sell" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource( 6 )]
 margin_top = 54.0
 margin_right = 43.0
 margin_bottom = 72.0
 balance_type = 3
-balance_value = 0
 
 [node name="HSeparator" type="HSeparator" parent="VBoxContainer/Details/MarginContainer/VBoxContainer"]
 visible = false

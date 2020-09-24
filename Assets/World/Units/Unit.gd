@@ -4,6 +4,8 @@ class_name Unit
 
 signal position_changed
 
+const Global = preload("res://Assets/World/Global.gd")
+
 # All units are 8-directional.
 # Vector items are aligned according to the default camera rotation (-45°)
 # and must be shifted increasingly by 2 for each further camera rotation.
