@@ -3,7 +3,6 @@ extends ItemList
 # TODO: Make this dynamic
 var maps = {
 	"WorldTown": preload("res://Assets/World/WorldTown.tscn"),
-	"WorldTest": preload("res://Assets/World/WorldTest.tscn"),
 	"World": preload("res://Assets/World/World.tscn"),
 }
 

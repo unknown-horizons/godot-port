@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Assets/Player/PlayerCamera.gd" type="Script" id=1]
 [ext_resource path="res://Assets/UI/Scripts/SelectionBox.gd" type="Script" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://Assets/Player/CameraControls.gd" type="Script" id=4]
 [ext_resource path="res://Assets/Player/InteractionContexts/SelectionContext.gd" type="Script" id=5]
 [ext_resource path="res://Assets/Player/InteractionContexts/MovementContext.gd" type="Script" id=6]
+[ext_resource path="res://Assets/Player/InteractionContexts/TileContext.gd" type="Script" id=7]
 
 [node name="PlayerCamera" type="Spatial"]
 pause_mode = 2
@@ -40,6 +41,11 @@ valid_actions = PoolStringArray( "main_command", "alt_command" )
 [node name="MovementContext" type="Node" parent="SelectionBox"]
 script = ExtResource( 6 )
 _context_name = "Movement"
+valid_actions = PoolStringArray( "main_command", "alt_command" )
+
+[node name="TileContext" type="Node" parent="."]
+script = ExtResource( 7 )
+_context_name = "Tiling"
 valid_actions = PoolStringArray( "main_command", "alt_command" )
 
 [node name="PlayerHUD" parent="." instance=ExtResource( 3 )]

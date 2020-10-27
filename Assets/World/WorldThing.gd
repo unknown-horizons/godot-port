@@ -2,6 +2,13 @@ tool
 extends Spatial
 class_name WorldThing
 
+const TRANSLATION_PER_ANGLE = [
+	Vector3(-50, 49.51, 50),
+	Vector3(50, 49.51, 50),
+	Vector3(50, 49.51, -50),
+	Vector3(-50, 49.51, -50),
+]
+
 enum RotationStep {
 	NINETY = 1,
 	FOURTY_FIVE = 2,
@@ -24,11 +31,16 @@ export(RotationDegree) var rotation_degree := 0 setget set_rotation_degree
 
 onready var _billboard := $Billboard as Sprite3D
 
+var current_rotation := 0
+
 func _ready() -> void:
 	# Retry exported properties setters after all nodes are ready.
 	set_texture(texture)
 	set_rotation_step(rotation_step)
 	set_rotation_degree(rotation_degree)
+
+	if not Engine.is_editor_hint():
+		_billboard.translation = TRANSLATION_PER_ANGLE[0]
 
 func _process(_delta: float) -> void:
 	if Engine.is_editor_hint():
@@ -51,9 +63,16 @@ func _on_input(event: InputEvent):
 	if event.is_action_pressed("rotate_left"):
 		_billboard.frame = wrapi(_billboard.frame - rotation_step, 0,
 				_billboard.hframes * _billboard.vframes)
+		current_rotation = wrapi(current_rotation - 1, 0, TRANSLATION_PER_ANGLE.size())
+		_billboard.translation = TRANSLATION_PER_ANGLE[current_rotation]
+		#prints("translation:", _billboard.translation)
+
 	elif event.is_action_pressed("rotate_right"):
 		_billboard.frame = wrapi(_billboard.frame + rotation_step, 0,
 				_billboard.hframes * _billboard.vframes)
+		current_rotation =  wrapi(current_rotation + 1, 0, TRANSLATION_PER_ANGLE.size())
+		_billboard.translation = TRANSLATION_PER_ANGLE[current_rotation]
+		#prints("translation:", _billboard.translation)
 
 func next_frame(sprite: Sprite3D = _billboard) -> int:
 	return wrapi(sprite.frame + 1, 0, sprite.vframes * sprite.hframes)
