@@ -1,8 +1,16 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Assets/World/Units/Unit.gd" type="Script" id=1]
 
-[sub_resource type="BoxShape" id=1]
+[sub_resource type="CylinderMesh" id=3]
+
+[sub_resource type="SpatialMaterial" id=4]
+flags_transparent = true
+flags_no_depth_test = true
+flags_do_not_receive_shadows = true
+albedo_color = Color( 1, 1, 1, 0.117647 )
+
+[sub_resource type="BoxShape" id=8]
 
 [sub_resource type="BoxShape" id=2]
 
@@ -11,6 +19,13 @@
 ]]
 script = ExtResource( 1 )
 rotation_step = 2
+
+[node name="SelectionRing" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.005, 0, 0, 0, 1, 0, -0.15, 0 )
+visible = false
+cast_shadow = 0
+mesh = SubResource( 3 )
+material/0 = SubResource( 4 )
 
 [node name="Billboard" type="Sprite3D" parent="."]
 cast_shadow = 0
@@ -24,14 +39,16 @@ region_enabled = true
 region_rect = Rect2( 0, 0, 768, 384 )
 
 [node name="Area" type="Area" parent="."]
+visible = false
 
 [node name="CollisionShape" type="CollisionShape" parent="Area"]
-shape = SubResource( 1 )
+shape = SubResource( 8 )
 
 [node name="StaticBody" type="StaticBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.999999, 0, 0, 0, 1, 0, 0, 0 )
 
 [node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
+visible = false
 shape = SubResource( 2 )
 [connection signal="input_event" from="Area" to="." method="_on_Area_input_event"]
 [connection signal="mouse_entered" from="Area" to="." method="_on_Area_mouse_entered"]

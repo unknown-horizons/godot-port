@@ -1,13 +1,15 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Assets/Player/PlayerCamera.gd" type="Script" id=1]
-[ext_resource path="res://Assets/Player/SelectionBox.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Assets/UI/Scripts/SelectionBox.gd" type="Script" id=2]
 [ext_resource path="res://Assets/Player/PlayerHUD.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Assets/Player/CameraControls.gd" type="Script" id=4]
+[ext_resource path="res://Assets/Player/InteractionContexts/SelectionContext.gd" type="Script" id=5]
 
 [node name="PlayerCamera" type="Spatial"]
 pause_mode = 2
 script = ExtResource( 1 )
+default_interaction_context = NodePath("SelectionBox/SelectionContext")
 
 [node name="RotationY" type="Spatial" parent="."]
 transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 0, 0 )
@@ -19,7 +21,20 @@ current = true
 size = 20.0
 far = 1000.0
 
-[node name="SelectionBox" parent="." instance=ExtResource( 2 )]
+[node name="SelectionBox" type="Control" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+mouse_filter = 1
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SelectionContext" type="Node" parent="SelectionBox"]
+script = ExtResource( 5 )
+_context_name = "Selection"
+valid_actions = PoolStringArray( "main_command", "alt_command" )
 
 [node name="PlayerHUD" parent="." instance=ExtResource( 3 )]
 
@@ -28,3 +43,4 @@ script = ExtResource( 4 )
 origin_path = NodePath("..")
 camera_path = NodePath("../RotationY/Camera")
 rotation_y_path = NodePath("../RotationY")
+[connection signal="set_selection" from="SelectionBox/SelectionContext" to="." method="set_selection"]

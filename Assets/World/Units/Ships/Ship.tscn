@@ -6,7 +6,7 @@
 [node name="Ship" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 
-[node name="Area" parent="." index="1"]
+[node name="Area" parent="." index="2"]
 visible = false
 
 [node name="CollisionShape" parent="Area" index="0"]

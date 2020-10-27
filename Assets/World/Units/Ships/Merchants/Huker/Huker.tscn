@@ -1,18 +1,10 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Assets/World/Units/Ships/Ship.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/World/Units/Ships/Merchants/Huker/Huker.gd" type="Script" id=2]
 [ext_resource path="res://Assets/World/Units/Ships/Merchants/Huker/Sprites/Huker_idle.png" type="Texture" id=3]
 
-[sub_resource type="CylinderMesh" id=2]
-
-[sub_resource type="SpatialMaterial" id=3]
-flags_transparent = true
-flags_no_depth_test = true
-flags_do_not_receive_shadows = true
-albedo_color = Color( 1, 1, 1, 0.117647 )
-
-[sub_resource type="SpatialMaterial" id=4]
+[sub_resource type="SpatialMaterial" id=2]
 flags_transparent = true
 flags_no_depth_test = true
 params_billboard_mode = 1
@@ -58,7 +50,7 @@ void fragment() {
 }
 "
 
-[sub_resource type="ShaderMaterial" id=5]
+[sub_resource type="ShaderMaterial" id=3]
 render_priority = 10
 shader = SubResource( 1 )
 shader_param/albedo = Color( 0, 0, 0, 0 )
@@ -74,7 +66,7 @@ shader_param/uv2_scale = Vector3( 1, 1, 1 )
 shader_param/uv2_offset = Vector3( 0, 0, 0 )
 shader_param/texture_albedo = ExtResource( 3 )
 
-[sub_resource type="Animation" id=6]
+[sub_resource type="Animation" id=4]
 length = 3.0
 loop = true
 
@@ -82,26 +74,13 @@ loop = true
 script = ExtResource( 2 )
 texture = ExtResource( 3 )
 
-[node name="SelectionRing" type="MeshInstance" parent="." index="0"]
-transform = Transform( 1, 0, 0, 0, 0.005, 0, 0, 0, 1, 0, -0.15, 0 )
-visible = false
-cast_shadow = 0
-mesh = SubResource( 2 )
-material/0 = SubResource( 3 )
-
-[node name="Billboard" parent="." index="1"]
-material_override = SubResource( 4 )
+[node name="Billboard" parent="." index="0"]
+material_override = SubResource( 2 )
 texture = ExtResource( 3 )
 
-[node name="CollisionShape" parent="Area" index="0"]
-visible = true
-
-[node name="CollisionShape" parent="StaticBody" index="0"]
-visible = false
-
-[node name="FactionColor" type="Sprite3D" parent="." index="4"]
+[node name="FactionColor" type="Sprite3D" parent="." index="1"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.001, 0 )
-material_override = SubResource( 5 )
+material_override = SubResource( 3 )
 cast_shadow = 0
 offset = Vector2( 0, 32 )
 pixel_size = 0.0151
@@ -116,5 +95,8 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="5"]
-anims/selected = SubResource( 6 )
+[node name="CollisionShape" parent="Area" index="0"]
+visible = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="4"]
+anims/selected = SubResource( 4 )

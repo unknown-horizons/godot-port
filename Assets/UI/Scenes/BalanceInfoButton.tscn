@@ -15,6 +15,7 @@
 show_behind_parent = true
 margin_right = 78.0
 margin_bottom = 90.0
+mouse_filter = 2
 custom_constants/separation = -8
 script = ExtResource( 1 )
 __meta__ = {
@@ -55,6 +56,7 @@ margin_bottom = -6.0
 custom_fonts/font = ExtResource( 8 )
 text = "63000"
 clip_text = true
+font_style = 2
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 margin_top = 66.0
@@ -89,6 +91,7 @@ custom_constants/separation = 0
 
 [node name="Expense" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource( 6 )]
 margin_right = 43.0
+balance_type = 0
 balance_value = -5
 
 [node name="Income" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource( 6 )]
@@ -103,12 +106,14 @@ margin_top = 36.0
 margin_right = 43.0
 margin_bottom = 54.0
 balance_type = 2
+balance_value = 0
 
 [node name="Sell" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource( 6 )]
 margin_top = 54.0
 margin_right = 43.0
 margin_bottom = 72.0
 balance_type = 3
+balance_value = 0
 
 [node name="HSeparator" type="HSeparator" parent="VBoxContainer/Details/MarginContainer/VBoxContainer"]
 visible = false

@@ -43,7 +43,7 @@ func _process(_delta: float) -> void:
 		if translation.y != 0:
 			translation.y = 0
 
-func _input(event: InputEvent) -> void:
+func _unhandled_input(event: InputEvent) -> void:
 	_on_input(event)
 
 func _on_input(event: InputEvent):
