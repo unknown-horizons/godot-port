@@ -39,18 +39,21 @@ func _process(_delta: float) -> void:
 	if player.camera == null:
 		player.camera = self # bind player to this camera
 
-func deselect_all() -> void:
+func set_selection(new_selection: Array) -> void:
+	## Update selection
+	unset_selection()
+	for unit in new_selection:
+		unit.select()
+		selected_units.append(unit)
+
+	print(new_selection)
+
+	switch_context(find_node("MovementContext"))
+
+func unset_selection() -> void:
 	for unit in selected_units:
 		unit.deselect()
 	selected_units = []
-
-# This should be implemented in its own interaction context
-func move_selected_units(m_pos: Vector2) -> void:
-	var result = raycast_from_mouse(m_pos, 1)
-	if result:
-		#print_debug("Command: Move selected units {0}".format([result]))
-		for unit in selected_units:
-			unit.move_to(result.position)
 
 func raycast_from_mouse(m_pos: Vector2, collision_mask: int) -> Dictionary:
 	var ray_start = _camera.project_ray_origin(m_pos)
@@ -64,12 +67,12 @@ func switch_context(new_context: InteractionContext) -> void:
 	if active_context:
 		active_context._on_exit()
 	active_context = new_context
-	if not active_context.is_connected("abort_context", self, "abort_context"):
-		# warning-ignore:return_value_discarded
-		active_context.connect("abort_context", self, "abort_context")
 	if not active_context.is_connected("switch_context", self, "switch_context"):
 		# warning-ignore:return_value_discarded
 		active_context.connect("switch_context", self, "switch_context")
+	if not active_context.is_connected("abort_context", self, "abort_context"):
+		# warning-ignore:return_value_discarded
+		active_context.connect("abort_context", self, "abort_context")
 	active_context._on_enter()
 
 func abort_context() -> void:
@@ -84,10 +87,3 @@ func _unhandled_input(event: InputEvent) -> void:
 		target_object = (target["collider"] as Node).get_parent()
 		target_pos = (target["position"] as Vector3)
 	active_context.interact(event, target_object, target_pos)
-
-func set_selection(new_selection: Array) -> void:
-	# Update selection
-	deselect_all()
-	for unit in new_selection:
-		unit.select()
-		selected_units.append(unit)
