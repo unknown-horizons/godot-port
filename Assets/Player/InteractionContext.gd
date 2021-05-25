@@ -46,7 +46,7 @@ class_name InteractionContext
 signal switch_context
 signal abort_context
 
-onready var _parent := get_parent()
+onready var _player_camera := get_parent().get_parent()
 
 export(String) var _context_name = "Basic Interaction Context"
 export(PoolStringArray) var valid_actions = ["main_command"]
@@ -80,7 +80,7 @@ func _on_enter() -> void:
 	print_debug("InteractionContext %s entered" % _context_name)
 
 func _on_exit() -> void:
-	print_debug("InteractionContext %s left" % _context_name)
+	print_debug("InteractionContext %s exited" % _context_name)
 
 func _on_mouse_motion(event: InputEventMouseMotion, target: Node, position: Vector3) -> void:
 	pass
