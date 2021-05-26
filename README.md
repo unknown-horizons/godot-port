@@ -36,7 +36,7 @@ IRC Channel  | irc://irc.libera.chat/unknown-horizons
 Web IRC Link | https://kiwiirc.com/nextclient/irc.libera.chat/#unknown-horizons
 Forum        | https://forum.freegamedev.net/viewforum.php?f=100
 
-More support info [here](https://github.com/unknown-horizons/godot-port/wiki/Support-Information's).
+More support information [here](https://github.com/unknown-horizons/godot-port/wiki/Support-Information).
 
 ## License
 This game is [free software](https://www.gnu.org/philosophy/free-sw.html).
