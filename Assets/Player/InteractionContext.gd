@@ -46,7 +46,7 @@ class_name InteractionContext
 signal switch_context
 signal abort_context
 
-onready var _player_camera := get_parent().get_parent()
+onready var _player_camera := owner as Spatial
 
 export(String) var _context_name = "Basic Interaction Context"
 export(PoolStringArray) var valid_actions = ["main_command"]
