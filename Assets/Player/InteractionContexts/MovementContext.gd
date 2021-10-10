@@ -6,7 +6,8 @@ func move_selected_units(m_pos: Vector2) -> void:
 	if result:
 		#print_debug("Command: Move selected units {0}".format([result]))
 		for unit in _player_camera.selected_units:
-			unit.move_to(result.position)
+			if unit.faction == _player_camera.player.faction:
+				unit.move_to(result.position)
 
 func _on_ia_main_command_pressed(target: Node, position: Vector3) -> void:
 	print_debug("Move action")
