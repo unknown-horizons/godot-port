@@ -2,17 +2,17 @@
 
 [ext_resource path="res://Assets/World/Units/Unit.gd" type="Script" id=1]
 
-[sub_resource type="CylinderMesh" id=3]
+[sub_resource type="CylinderMesh" id=1]
 
-[sub_resource type="SpatialMaterial" id=4]
+[sub_resource type="SpatialMaterial" id=2]
 flags_transparent = true
 flags_no_depth_test = true
 flags_do_not_receive_shadows = true
 albedo_color = Color( 1, 1, 1, 0.117647 )
 
-[sub_resource type="BoxShape" id=8]
+[sub_resource type="BoxShape" id=3]
 
-[sub_resource type="BoxShape" id=2]
+[sub_resource type="BoxShape" id=4]
 
 [node name="Unit" type="Spatial" groups=[
 "units",
@@ -24,8 +24,8 @@ rotation_step = 2
 transform = Transform( 1, 0, 0, 0, 0.005, 0, 0, 0, 1, 0, -0.15, 0 )
 visible = false
 cast_shadow = 0
-mesh = SubResource( 3 )
-material/0 = SubResource( 4 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 2 )
 
 [node name="Billboard" type="Sprite3D" parent="."]
 cast_shadow = 0
@@ -33,8 +33,8 @@ offset = Vector2( 0, 32 )
 pixel_size = 0.015
 transparent = false
 double_sided = false
-vframes = 2
 hframes = 4
+vframes = 2
 region_enabled = true
 region_rect = Rect2( 0, 0, 768, 384 )
 
@@ -42,14 +42,15 @@ region_rect = Rect2( 0, 0, 768, 384 )
 visible = false
 
 [node name="CollisionShape" type="CollisionShape" parent="Area"]
-shape = SubResource( 8 )
+shape = SubResource( 3 )
 
 [node name="StaticBody" type="StaticBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.999999, 0, 0, 0, 1, 0, 0, 0 )
 
 [node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
 visible = false
-shape = SubResource( 2 )
+shape = SubResource( 4 )
+
 [connection signal="input_event" from="Area" to="." method="_on_Area_input_event"]
 [connection signal="mouse_entered" from="Area" to="." method="_on_Area_mouse_entered"]
 [connection signal="mouse_exited" from="Area" to="." method="_on_Area_mouse_exited"]

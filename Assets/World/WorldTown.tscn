@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=2]
+[gd_scene load_steps=28 format=2]
 
 [ext_resource path="res://Assets/World/Game.gd" type="Script" id=1]
 [ext_resource path="res://default_env.tres" type="Environment" id=2]
@@ -24,7 +24,6 @@
 [ext_resource path="res://Assets/World/Buildings/Pioneers/Farm/Farm.tscn" type="PackedScene" id=22]
 [ext_resource path="res://Assets/World/Buildings/Pioneers/Residential/Sprites/Hut1_idle.png" type="Texture" id=23]
 [ext_resource path="res://Assets/World/Streets.gd" type="Script" id=24]
-[ext_resource path="res://Assets/World/Units/Buoy/Buoy.tscn" type="PackedScene" id=25]
 [ext_resource path="res://Assets/World/Buildings/Pioneers/Chapel/Chapel.tscn" type="PackedScene" id=27]
 [ext_resource path="res://Assets/World/Buildings/Sailors/Fisherman/Fisherman.tscn" type="PackedScene" id=29]
 
@@ -77,6 +76,30 @@ shape = SubResource( 1 )
 [node name="PlayerStart" parent="." instance=ExtResource( 8 )]
 transform = Transform( 5, 0, 0, 0, 0.005, 0, 0, 0, 5, -25, 0, 35 )
 
+[node name="Huker" parent="PlayerStart" index="0"]
+radius = false
+
+[node name="Huker2" parent="PlayerStart" index="1"]
+radius = false
+
+[node name="Huker3" parent="PlayerStart" index="2"]
+radius = false
+
+[node name="Huker4" parent="PlayerStart" index="3"]
+radius = false
+
+[node name="Huker5" parent="PlayerStart" index="4"]
+radius = false
+
+[node name="Huker6" parent="PlayerStart" index="5"]
+radius = false
+
+[node name="Huker7" parent="PlayerStart" index="6"]
+radius = false
+
+[node name="Huker8" parent="PlayerStart" index="7"]
+radius = false
+
 [node name="Traders" type="Spatial" parent="."]
 
 [node name="Pirates" type="Spatial" parent="."]
@@ -84,6 +107,7 @@ transform = Transform( 5, 0, 0, 0, 0.005, 0, 0, 0, 5, -25, 0, 35 )
 [node name="Pirate" parent="Pirates" instance=ExtResource( 6 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.0646, 0, 16.0118 )
 max_health = 150
+radius = false
 
 [node name="PlayerCamera" parent="." instance=ExtResource( 9 )]
 
@@ -361,8 +385,6 @@ rotation_degree = 4
 
 [node name="Tree12" parent="Trees" instance=ExtResource( 13 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -0.5 )
-
-[node name="Buoy" parent="." instance=ExtResource( 25 )]
 
 [connection signal="finished" from="GameMusic" to="GameMusic" method="play_song_random"]
 
