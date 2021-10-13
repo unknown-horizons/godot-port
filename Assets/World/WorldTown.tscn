@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=2]
+[gd_scene load_steps=29 format=2]
 
 [ext_resource path="res://Assets/World/Game.gd" type="Script" id=1]
 [ext_resource path="res://default_env.tres" type="Environment" id=2]
@@ -24,6 +24,7 @@
 [ext_resource path="res://Assets/World/Buildings/Pioneers/Farm/Farm.tscn" type="PackedScene" id=22]
 [ext_resource path="res://Assets/World/Buildings/Pioneers/Residential/Sprites/Hut1_idle.png" type="Texture" id=23]
 [ext_resource path="res://Assets/World/Streets.gd" type="Script" id=24]
+[ext_resource path="res://Assets/World/Units/Buoy/Buoy.tscn" type="PackedScene" id=25]
 [ext_resource path="res://Assets/World/Buildings/Pioneers/Chapel/Chapel.tscn" type="PackedScene" id=27]
 [ext_resource path="res://Assets/World/Buildings/Sailors/Fisherman/Fisherman.tscn" type="PackedScene" id=29]
 
@@ -360,6 +361,8 @@ rotation_degree = 4
 
 [node name="Tree12" parent="Trees" instance=ExtResource( 13 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -0.5 )
+
+[node name="Buoy" parent="." instance=ExtResource( 25 )]
 
 [connection signal="finished" from="GameMusic" to="GameMusic" method="play_song_random"]
 
