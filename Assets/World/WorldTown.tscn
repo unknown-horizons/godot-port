@@ -76,6 +76,30 @@ shape = SubResource( 1 )
 [node name="PlayerStart" parent="." instance=ExtResource( 8 )]
 transform = Transform( 5, 0, 0, 0, 0.005, 0, 0, 0, 5, -25, 0, 35 )
 
+[node name="Huker" parent="PlayerStart" index="0"]
+radius = false
+
+[node name="Huker2" parent="PlayerStart" index="1"]
+radius = false
+
+[node name="Huker3" parent="PlayerStart" index="2"]
+radius = false
+
+[node name="Huker4" parent="PlayerStart" index="3"]
+radius = false
+
+[node name="Huker5" parent="PlayerStart" index="4"]
+radius = false
+
+[node name="Huker6" parent="PlayerStart" index="5"]
+radius = false
+
+[node name="Huker7" parent="PlayerStart" index="6"]
+radius = false
+
+[node name="Huker8" parent="PlayerStart" index="7"]
+radius = false
+
 [node name="Traders" type="Spatial" parent="."]
 
 [node name="Pirates" type="Spatial" parent="."]
@@ -83,6 +107,7 @@ transform = Transform( 5, 0, 0, 0, 0.005, 0, 0, 0, 5, -25, 0, 35 )
 [node name="Pirate" parent="Pirates" instance=ExtResource( 6 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.0646, 0, 16.0118 )
 max_health = 150
+radius = false
 
 [node name="PlayerCamera" parent="." instance=ExtResource( 9 )]
 

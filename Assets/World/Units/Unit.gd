@@ -5,6 +5,7 @@ class_name Unit
 signal position_changed
 
 const Global = preload("res://Assets/World/Global.gd")
+const Buoy = preload("res://Assets/World/Units/Buoy/Buoy.tscn")
 
 # All units are 8-directional.
 # Vector items are aligned according to the default camera rotation (-45°)
@@ -45,9 +46,11 @@ var move_vector = Vector3()
 var direction = -1 # for non-animated movements, this is the frame_index
 var rotation_offset = 0
 var rotation_index
+var buoy = null
 
 onready var rotation_y: Spatial = get_node_or_null("/root/World/PlayerCamera/RotationY") as Spatial
 onready var _as_map: Spatial = get_node_or_null("/root/World/AStarMap") as Spatial
+onready var world: Spatial = get_node_or_null("/root/World") as Spatial
 
 var is_moving = false
 
@@ -62,14 +65,20 @@ func select() -> void:
 	$SelectionRing.visible = true
 	# TODO: Highlighting effect
 	#$AnimationPlayer.play("selected")
+	if buoy:
+		buoy.visible = true
 
 func deselect() -> void:
 	$SelectionRing.visible = false
+	if buoy:
+		buoy.visible = false
 	#$AnimationPlayer.stop()
 
 func move_to(target_pos: Vector3) -> void:
 	path = _as_map.get_gm_path(global_transform.origin, target_pos)
 	path_index = 0
+	if faction == world.player.faction and not path.empty():
+		create_buoy(path[-1])
 
 func update_path() -> void:
 	var move_vec: Vector3
@@ -98,6 +107,7 @@ func update_path() -> void:
 		path_index = 0
 		path = []
 		is_moving = false
+		destroy_buoy()
 
 func recalculate_directions() -> void:
 	if Engine.is_editor_hint():
@@ -120,6 +130,18 @@ func update_rotation() -> void:
 	#prints("direction:", direction)
 	#prints("rotation_offset:", rotation_offset)
 	rotation_index = wrapi(direction + rotation_offset, 0, _billboard.hframes * _billboard.vframes)
+
+func create_buoy(target_pos: Vector3) -> void:
+	if is_instance_valid(buoy):
+		buoy.queue_free()
+	buoy = Buoy.instance()
+	buoy.set_translation(target_pos)
+	world.add_child(buoy)
+
+func destroy_buoy() -> void:
+	if is_instance_valid(buoy):
+		buoy.queue_free()
+	buoy = null
 
 func animate_movement() -> void:
 	# For editor preview
