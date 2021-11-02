@@ -50,7 +50,7 @@ var buoy = null
 
 onready var rotation_y: Spatial = get_node_or_null("/root/World/PlayerCamera/RotationY") as Spatial
 onready var _as_map: Spatial = get_node_or_null("/root/World/AStarMap") as Spatial
-onready var world:Spatial = get_node_or_null("/root/World") as Spatial
+onready var world: Spatial = get_node_or_null("/root/World") as Spatial
 
 var is_moving = false
 
@@ -77,7 +77,7 @@ func deselect() -> void:
 func move_to(target_pos: Vector3) -> void:
 	path = _as_map.get_gm_path(global_transform.origin, target_pos)
 	path_index = 0
-	if faction == world.player.faction && not path.empty():
+	if faction == world.player.faction and not path.empty():
 		create_buoy(path[-1])
 
 func update_path() -> void:
@@ -142,7 +142,6 @@ func destroy_buoy() -> void:
 	if is_instance_valid(buoy):
 		buoy.queue_free()
 	buoy = null
-
 
 func animate_movement() -> void:
 	# For editor preview
