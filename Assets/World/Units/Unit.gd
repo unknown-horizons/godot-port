@@ -35,6 +35,7 @@ const DIRECTION = [
 # Generic properties
 export var unit_name = "Untitled" # user defined name for the unit
 export(Global.Faction) var faction := 0 setget set_faction
+var health = -1 # health must be set or it won't auto destroy itself
 
 # Pathfinding
 var path = []
@@ -151,6 +152,15 @@ func animate_movement() -> void:
 	update_rotation()
 
 	set_rotation_degree(rotation_index)
+
+func take_damage(damage: int) -> void:
+	if (health - damage) < 0:
+		health = 0
+	else:
+		health -= damage
+
+	if health == 0:
+		queue_free()
 
 # =================================================
 # TODO: For later use, hover effect, selection etc.
