@@ -14,8 +14,14 @@ var cursor_dict = {CURSOR_TYPES.CURSOR_DEFAULT:cursor_default,
 					CURSOR_TYPES.CURSOR_RENAME:cursor_rename,
 					CURSOR_TYPES.CURSOR_RENAME:cursor_tear
 				}
-func _ready()->void:
-	Input.set_custom_mouse_cursor(cursor_default)
+var current_cursor:int = CURSOR_TYPES.CURSOR_DEFAULT
 
-func change_cursor(cursor_type:int)->void:
-	Input.set_custom_mouse_cursor(cursor_dict[cursor_type])
+func _ready()->void:
+	set_cursor(CURSOR_TYPES.CURSOR_DEFAULT)
+
+func set_cursor(new_cursor:int)->void:
+	Input.set_custom_mouse_cursor(cursor_dict[new_cursor])
+	current_cursor = new_cursor
+
+func get_cursor()->int:
+	return current_cursor
