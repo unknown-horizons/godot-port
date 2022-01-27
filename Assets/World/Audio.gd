@@ -1,7 +1,7 @@
 extends AudioStreamPlayer
 
 var asp_click = AudioStreamPlayer.new()
-var asp_build = AudioStreamPlayer.new()
+var asp_build = AudioStreamPlayer.new() # unused?!
 var asp_voice = AudioStreamPlayer.new()
 
 const SOUNDS = {
@@ -51,10 +51,17 @@ const SOUNDS = {
 
 func _ready() -> void:
 	pause_mode = Node.PAUSE_MODE_PROCESS
-
-	asp_click.stream = SOUNDS["click"]
+	
+	# init the asp busses
+	asp_click.bus = "Effects"
+	#asp_build.bus = ""
+	asp_voice.bus = "Voice"
+	
+	#asp_click.stream = SOUNDS["click"]
+	#print_tree_pretty()
 
 func play_snd(snd_name: String) -> void:
+	print("Audio.play_snd: ", snd_name)
 	if SOUNDS[snd_name]:
 		stream = SOUNDS[snd_name]
 		#if not name: # "@@2"
@@ -79,3 +86,24 @@ func play_entry_snd() -> void:
 	if not asp_voice.name:
 		add_child(asp_voice)
 	asp_voice.play()
+
+func set_volume(vol: float, bus_name: String) -> void:
+	var index = AudioServer.get_bus_index(bus_name)
+	print("index: ", index)
+	AudioServer.set_bus_volume_db(index, linear2db(vol / 100.0))
+
+func set_master_volume(vol: float) -> void:
+	print("set_master_volume: ",vol)
+	set_volume(vol, "Master")
+
+func set_voice_volume(vol: float) -> void:
+	print("set_voice_volume: ", vol)
+	set_volume(vol, "Voice")
+
+func set_effects_volume(vol: float) -> void:
+	print("set_effects_volume: ", vol)
+	set_volume(vol, "Effects")
+
+func set_music_volume(vol: float) -> void:
+	print("set_music_volume: ", vol)
+	set_volume(vol, "Music")
