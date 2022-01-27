@@ -396,10 +396,10 @@ func _ready() -> void:
 
 	var window_mode = Config.window_mode
 	var screen_resolution = Config.screen_resolution
-	
+
 	OS.window_fullscreen = window_mode
 	set_screen_resolution(screen_resolution)
-	
+
 	set_volumes(Config)
 
 	pause_mode = Node.PAUSE_MODE_PROCESS

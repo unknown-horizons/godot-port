@@ -51,12 +51,12 @@ const SOUNDS = {
 
 func _ready() -> void:
 	pause_mode = Node.PAUSE_MODE_PROCESS
-	
+
 	# init the asp busses
 	asp_click.bus = "Effects"
 	#asp_build.bus = ""
 	asp_voice.bus = "Voice"
-	
+
 	#asp_click.stream = SOUNDS["click"]
 	#print_tree_pretty()
 

@@ -132,7 +132,7 @@ func _on_CancelButton_pressed() -> void:
 	# Revert temporary screen resolution change
 	Global.set_screen_resolution(Config.screen_resolution)
 	OS.window_fullscreen = Config.window_mode
-	
+
 	# revert volume changes
 	_ready()
 
