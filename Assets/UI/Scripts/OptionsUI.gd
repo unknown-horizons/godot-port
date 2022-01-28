@@ -81,17 +81,18 @@ func _ready() -> void:
 			settings["ScreenResolution"].selected = screen_resolution_index
 	settings["ScreenResolution"].connect("item_selected", self, "_on_ScreenResolution_item_selected")
 
-	settings["MasterVolume"].value = Config.master_volume
+	# changed the order, because we want to trigger the on_changed
 	settings["MasterVolume"].connect("value_changed", self, "_on_MasterVolume_value_changed")
+	settings["MasterVolume"].value = Config.master_volume
 
-	settings["MusicVolume"].value = Config.music_volume
 	settings["MusicVolume"].connect("value_changed", self, "_on_MusicVolume_value_changed")
+	settings["MusicVolume"].value = Config.music_volume
 
-	settings["EffectsVolume"].value = Config.effects_volume
 	settings["EffectsVolume"].connect("value_changed", self, "_on_EffectsVolume_value_changed")
+	settings["EffectsVolume"].value = Config.effects_volume
 
-	settings["VoiceVolume"].value = Config.voice_volume
 	settings["VoiceVolume"].connect("value_changed", self, "_on_VoiceVolume_value_changed")
+	settings["VoiceVolume"].value = Config.voice_volume
 
 func populate_dropdown(dropdown: OptionButton, items: Dictionary) -> void:
 	for item in items.values():
@@ -107,16 +108,16 @@ func _on_ScreenResolution_item_selected(index) -> void:
 		Global.set_screen_resolution(settings["ScreenResolution"].options[index])
 
 func _on_MasterVolume_value_changed(slider_value: float) -> void:
-	prints("TODO: Set MasterVolume:", slider_value)
+	Audio.set_master_volume(slider_value)
 
 func _on_MusicVolume_value_changed(slider_value: float) -> void:
-	prints("TODO: Set MusicVolume:", slider_value)
+	Audio.set_music_volume(slider_value)
 
 func _on_EffectsVolume_value_changed(slider_value: float) -> void:
-	prints("TODO: Set EffectsVolume:", slider_value)
+	Audio.set_effects_volume(slider_value)
 
 func _on_VoiceVolume_value_changed(slider_value: float) -> void:
-	prints("TODO: Set VoiceVolume:", slider_value)
+	Audio.set_voice_volume(slider_value)
 
 func _on_DeleteButton_pressed() -> void:
 	print("TODO: Confirm action (modal dialog) before resetting everything.")
@@ -131,6 +132,9 @@ func _on_CancelButton_pressed() -> void:
 	# Revert temporary screen resolution change
 	Global.set_screen_resolution(Config.screen_resolution)
 	OS.window_fullscreen = Config.window_mode
+
+	# revert volume changes
+	_ready()
 
 	._on_CancelButton_pressed()
 

@@ -57,6 +57,10 @@ func _on_ia_alt_command_pressed(target: Node, position: Vector3) -> void:
 func _on_ia_alt_command_released(target: Node, position: Vector3) -> void:
 	# End selection
 	print_debug("End selection")
+
+	if target == null:
+		return
+
 	sel_pos_end = position
 	var selection: Array
 	var top_left: Vector2 = get_viewport().get_camera().unproject_position(sel_pos_start)
