@@ -6,13 +6,13 @@ const cursor_pipette = preload("res://Assets/UI/Cursors/cursor_pipette.png")
 const cursor_rename = preload("res://Assets/UI/Cursors/cursor_rename.png")
 const cursor_tear = preload("res://Assets/UI/Cursors/cursor_tear.png")
 
-enum CURSOR_TYPES {CURSOR_DEFAULT,CURSOR_ATTACK,CURSOR_PIPETTE,CURSOR_RENAME,CURSOR_TEAR} 
+enum CURSOR_TYPES {CURSOR_DEFAULT,CURSOR_ATTACK,CURSOR_PIPETTE,CURSOR_RENAME,CURSOR_TEAR}
 
 var cursor_dict = {CURSOR_TYPES.CURSOR_DEFAULT:cursor_default,
 					CURSOR_TYPES.CURSOR_ATTACK:cursor_attack,
 					CURSOR_TYPES.CURSOR_PIPETTE:cursor_pipette,
 					CURSOR_TYPES.CURSOR_RENAME:cursor_rename,
-					CURSOR_TYPES.CURSOR_RENAME:cursor_tear
+					CURSOR_TYPES.CURSOR_TEAR:cursor_tear
 				}
 var current_cursor:int = CURSOR_TYPES.CURSOR_DEFAULT
 
