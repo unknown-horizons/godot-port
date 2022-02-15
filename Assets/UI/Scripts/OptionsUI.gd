@@ -81,18 +81,18 @@ func _ready() -> void:
 			settings["ScreenResolution"].selected = screen_resolution_index
 	settings["ScreenResolution"].connect("item_selected", self, "_on_ScreenResolution_item_selected")
 
-	# changed the order, because we want to trigger the on_changed
-	settings["MasterVolume"].connect("value_changed", self, "_on_MasterVolume_value_changed")
+	# Audio parameters
 	settings["MasterVolume"].value = Config.master_volume
+	settings["MasterVolume"].connect("value_changed", self, "_on_MasterVolume_value_changed")
 
-	settings["MusicVolume"].connect("value_changed", self, "_on_MusicVolume_value_changed")
 	settings["MusicVolume"].value = Config.music_volume
+	settings["MusicVolume"].connect("value_changed", self, "_on_MusicVolume_value_changed")
 
-	settings["EffectsVolume"].connect("value_changed", self, "_on_EffectsVolume_value_changed")
 	settings["EffectsVolume"].value = Config.effects_volume
+	settings["EffectsVolume"].connect("value_changed", self, "_on_EffectsVolume_value_changed")
 
-	settings["VoiceVolume"].connect("value_changed", self, "_on_VoiceVolume_value_changed")
 	settings["VoiceVolume"].value = Config.voice_volume
+	settings["VoiceVolume"].connect("value_changed", self, "_on_VoiceVolume_value_changed")
 
 func populate_dropdown(dropdown: OptionButton, items: Dictionary) -> void:
 	for item in items.values():

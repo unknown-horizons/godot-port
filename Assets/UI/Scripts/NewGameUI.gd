@@ -41,4 +41,4 @@ func _on_OKButton_pressed() -> void:
 		#warning-ignore:return_value_discarded
 		get_tree().change_scene_to(Global.map)
 	else:
-		Audio.play_snd("build")
+		Audio.play_snd_fail()
