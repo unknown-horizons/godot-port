@@ -1,9 +1,5 @@
 extends AudioStreamPlayer
 
-var asp_click = AudioStreamPlayer.new()
-var asp_build = AudioStreamPlayer.new() # unused?!
-var asp_voice = AudioStreamPlayer.new()
-
 const SOUNDS = {
 	# Events/Scenario
 	"lose": preload("res://Assets/Audio/Sounds/Events/Scenario/lose.ogg"),
@@ -49,20 +45,39 @@ const SOUNDS = {
 	"fr_3": preload("res://Assets/Audio/Voice/fr/0/NewWorld/3.ogg"),
 }
 
+var asp_click = AudioStreamPlayer.new()
+var asp_build = AudioStreamPlayer.new()
+var asp_voice = AudioStreamPlayer.new()
+
 func _ready() -> void:
 	pause_mode = Node.PAUSE_MODE_PROCESS
 
-	# init the asp busses
 	asp_click.bus = "Effects"
-	#asp_build.bus = ""
+	asp_build.bus = "Effects"
 	asp_voice.bus = "Voice"
 
-	#asp_click.stream = SOUNDS["click"]
-	#print_tree_pretty()
+	asp_click.stream = SOUNDS["click"]
+	asp_build.stream = SOUNDS["build"]
 
-func play_snd(snd_name: String) -> void:
-	print("Audio.play_snd: ", snd_name)
-	if SOUNDS[snd_name]:
+func play_snd(snd_name: String, stream: AudioStream = null) -> void:
+	var asp: AudioStreamPlayer = {
+		"click": asp_click,
+		"build": asp_build,
+		"voice": asp_voice
+	}.get(snd_name)
+
+	# If a distinct AudioStreamPlayer exists for the requested sound,
+	# use that one
+	if asp != null:
+		if stream: # Currently only used to pass different voice messages
+			asp.stream = stream
+		if not asp.name:
+			add_child(asp)
+		asp.play()
+		#print_debug("Playing {0}".format([snd_name]))
+
+	# Otherwise play it through the generic AudioStreamPlayer
+	elif SOUNDS[snd_name]:
 		stream = SOUNDS[snd_name]
 		#if not name: # "@@2"
 		#	add_child(self)
@@ -72,14 +87,13 @@ func play_snd(snd_name: String) -> void:
 		printerr("Sound {0} not found.".format([snd_name]))
 
 func play_snd_click() -> void:
-	if not asp_click.name:
-		add_child(asp_click)
-	asp_click.play()
+	play_snd("click")
 
 func play_snd_fail() -> void:
-	if not asp_build.name:
-		add_child(asp_build)
-	asp_build.play()
+	play_snd("build")
+
+func play_snd_voice(voice_code: String) -> void:
+	play_snd("voice", SOUNDS[voice_code])
 
 func play_entry_snd() -> void:
 	asp_voice.stream = SOUNDS["{0}_{1}".format([Config.language, randi() % 4])]
@@ -87,23 +101,19 @@ func play_entry_snd() -> void:
 		add_child(asp_voice)
 	asp_voice.play()
 
-func set_volume(vol: float, bus_name: String) -> void:
+func set_volume(volume: float, bus_name: String) -> void:
 	var index = AudioServer.get_bus_index(bus_name)
-	print("index: ", index)
-	AudioServer.set_bus_volume_db(index, linear2db(vol / 100.0))
+	print("Set volume for bus {0}({1}): {2}".format([bus_name, index, volume]))
+	AudioServer.set_bus_volume_db(index, linear2db(volume / 100.0))
 
-func set_master_volume(vol: float) -> void:
-	print("set_master_volume: ",vol)
-	set_volume(vol, "Master")
+func set_master_volume(volume: float) -> void:
+	set_volume(volume, "Master")
 
-func set_voice_volume(vol: float) -> void:
-	print("set_voice_volume: ", vol)
-	set_volume(vol, "Voice")
+func set_voice_volume(volume: float) -> void:
+	set_volume(volume, "Voice")
 
-func set_effects_volume(vol: float) -> void:
-	print("set_effects_volume: ", vol)
-	set_volume(vol, "Effects")
+func set_effects_volume(volume: float) -> void:
+	set_volume(volume, "Effects")
 
-func set_music_volume(vol: float) -> void:
-	print("set_music_volume: ", vol)
-	set_volume(vol, "Music")
+func set_music_volume(volume: float) -> void:
+	set_volume(volume, "Music")

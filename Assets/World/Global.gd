@@ -400,7 +400,7 @@ func _ready() -> void:
 	OS.window_fullscreen = window_mode
 	set_screen_resolution(screen_resolution)
 
-	set_volumes(Config)
+	set_audio_volumes()
 
 	pause_mode = Node.PAUSE_MODE_PROCESS
 
@@ -410,11 +410,11 @@ func set_screen_resolution(screen_resolution: String) -> void:
 	OS.set_window_size(resolution)
 	OS.center_window()
 
-func set_volumes(c: Config) -> void:
-	Audio.set_master_volume(c.master_volume)
-	Audio.set_music_volume(c.music_volume)
-	Audio.set_effects_volume(c.effects_volume)
-	Audio.set_voice_volume(c.voice_volume)
+func set_audio_volumes() -> void:
+	Audio.set_master_volume(Config.master_volume)
+	Audio.set_music_volume(Config.music_volume)
+	Audio.set_effects_volume(Config.effects_volume)
+	Audio.set_voice_volume(Config.voice_volume)
 
 func _input(event: InputEvent) -> void:
 	if Engine.is_editor_hint():
