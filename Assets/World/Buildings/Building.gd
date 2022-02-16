@@ -19,8 +19,6 @@ func _ready():
 	timer.connect("timeout", self, "_on_Timer_timeout")
 	timer.start(1.001 - anim_speed)
 
-	add_to_group("billboard")
-
 #func update_offset(new_rotation):
 #	var new_offset = Vector2()
 #	match int(round(new_rotation)):

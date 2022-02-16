@@ -59,20 +59,26 @@ func _unhandled_input(event: InputEvent) -> void:
 	_on_input(event)
 
 func _on_input(event: InputEvent):
+	_recalculate_translation(event)
+
 	# Switch frame accordingly with the world rotation.
 	if event.is_action_pressed("rotate_left"):
 		_billboard.frame = wrapi(_billboard.frame - rotation_step, 0,
 				_billboard.hframes * _billboard.vframes)
-		current_rotation = wrapi(current_rotation - 1, 0, TRANSLATION_PER_ANGLE.size())
-		_billboard.translation = TRANSLATION_PER_ANGLE[current_rotation]
-		#prints("translation:", _billboard.translation)
 
 	elif event.is_action_pressed("rotate_right"):
 		_billboard.frame = wrapi(_billboard.frame + rotation_step, 0,
 				_billboard.hframes * _billboard.vframes)
+
+func _recalculate_translation(event: InputEvent) -> void:
+	if event.is_action_pressed("rotate_left"):
+		current_rotation = wrapi(current_rotation - 1, 0, TRANSLATION_PER_ANGLE.size())
+		_billboard.translation = TRANSLATION_PER_ANGLE[current_rotation]
+		prints(self, "translation:", _billboard.translation)
+	elif event.is_action_pressed("rotate_right"):
 		current_rotation =  wrapi(current_rotation + 1, 0, TRANSLATION_PER_ANGLE.size())
 		_billboard.translation = TRANSLATION_PER_ANGLE[current_rotation]
-		#prints("translation:", _billboard.translation)
+		prints(self, "translation:", _billboard.translation)
 
 func next_frame(sprite: Sprite3D = _billboard) -> int:
 	return wrapi(sprite.frame + 1, 0, sprite.vframes * sprite.hframes)
@@ -107,11 +113,11 @@ func set_rotation_step(new_step: int) -> void:
 	if not is_inside_tree() or _billboard == null:
 		return
 
-#	match new_step:
-#		RotationStep.FOURTY_FIVE:
-#			_billboard.hframes = 4
-#		RotationStep.NINETY:
-#			_billboard.hframes = 2
+	#match new_step:
+	#	RotationStep.FOURTY_FIVE:
+	#		_billboard.hframes = 4
+	#	RotationStep.NINETY:
+	#		_billboard.hframes = 2
 
 func set_rotation_degree(new_rotation: int) -> void:
 	rotation_degree = new_rotation

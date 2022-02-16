@@ -387,7 +387,7 @@ var has_pirates := true
 var has_disasters := false
 # -------
 var Game: Spatial = null
-var PlayerStart: MeshInstance = null
+var PlayerStart: Spatial = null
 
 var _warning := false # DEBUG
 

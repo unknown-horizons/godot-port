@@ -6,8 +6,8 @@ signal notification(message_type, message_text) # int, String
 var is_game_running = false
 
 var player_start: Spatial = null
-var player: Control = null
-#var players := [Control]
+var player: Player = null
+#var players := [Player]
 
 var ai_players = []
 
@@ -38,7 +38,7 @@ func start_game() -> void:
 		connect("notification", player, "_on_Game_notification")
 
 		# Assign player starter ship
-		var ships = player_start.get_children()
+		var ships = player_start.ships
 		ships[(randi() % ships.size())].faction = player.faction
 
 		var factions: Array = range(1, 15)

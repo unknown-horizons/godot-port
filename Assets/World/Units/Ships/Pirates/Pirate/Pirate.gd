@@ -37,10 +37,10 @@ onready var animation_player: AnimationPlayer = $AnimationPlayer as AnimationPla
 
 # Static (for now)
 onready var patrol_route = [
-	Vector3(-30, 0, 30),
-	Vector3(39, 0, 40),
-	Vector3(39, 0, -38),
-	Vector3(-35, 0, -38)
+	Vector2(-30,  30),
+	Vector2( 39,  40),
+	Vector2( 39, -38),
+	Vector2(-35, -38)
 ]
 var next_patrol_index = -1
 
@@ -61,14 +61,12 @@ func patrol():
 
 #	prints("pirate:",
 #		int(round(global_transform.origin.x)),
-#		int(round(global_transform.origin.y)),
-#		int(round(global_transform.origin.z))
+#		int(round(global_transform.origin.y))
 #	)
 #
 #	prints("patrol_route",
 #		int(round(patrol_route[next_patrol_index].x)),
-#		int(round(patrol_route[next_patrol_index].y)),
-#		int(round(patrol_route[next_patrol_index].z))
+#		int(round(patrol_route[next_patrol_index].y))
 #	)
 	if path.size() == 0:
 		next_patrol_index += 1

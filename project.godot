@@ -309,7 +309,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/Player/PlayerCamera.gd"
 }, {
-"base": "MeshInstance",
+"base": "Spatial",
 "class": "PlayerStart",
 "language": "GDScript",
 "path": "res://Assets/Player/PlayerStart.gd"
@@ -399,6 +399,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/Player/InteractionContexts/TileContext.gd"
 }, {
+"base": "GridMap",
+"class": "TileMap3D",
+"language": "GDScript",
+"path": "res://Assets/World/TileMap3D.gd"
+}, {
 "base": "Building",
 "class": "TobaccoField",
 "language": "GDScript",
@@ -423,6 +428,11 @@ _global_script_classes=[ {
 "class": "Unit",
 "language": "GDScript",
 "path": "res://Assets/World/Units/Unit.gd"
+}, {
+"base": "Reference",
+"class": "Utils",
+"language": "GDScript",
+"path": "res://Assets/World/Utils.gd"
 }, {
 "base": "Building",
 "class": "Vineyard",
@@ -543,11 +553,13 @@ _global_script_class_icons={
 "TabWidget": "",
 "Tavern": "",
 "TileContext": "",
+"TileMap3D": "",
 "TobaccoField": "",
 "Tobacconist": "",
 "Toolmaker": "",
 "TreeObject": "",
 "Unit": "",
+"Utils": "",
 "Vineyard": "",
 "Warehouse": "",
 "Weaponsmith": "",

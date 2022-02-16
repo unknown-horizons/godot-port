@@ -26,7 +26,7 @@ class_name InteractionContext
 # The method should be constructed as follows:
 #	func _on_ia_<action name>_<pressed|released>(
 #		target: Node,
-#		position: Vector3
+#		position: Vector2
 #		) -> void
 #
 # Spaces in the action name will be replaced by underscores
@@ -37,7 +37,7 @@ class_name InteractionContext
 #	func _on_mouse_motion(
 #		event: InputEventMouseMotion,
 #		target: Node,
-#		position: Vector3
+#		position: Vector2
 #		) -> void
 #
 # All InputEventMouseMotion events will be routed to this function. This can
@@ -51,7 +51,7 @@ onready var _player_camera := owner as Spatial
 export(String) var _context_name = "Basic Interaction Context"
 export(PoolStringArray) var valid_actions = ["main_command"]
 
-func interact(event: InputEvent, target: Node, position: Vector3) -> void:
+func interact(event: InputEvent, target: Node, position: Vector2) -> void:
 	if event.is_action_type():
 		for action in valid_actions:
 			if event.is_action(action):
@@ -61,7 +61,7 @@ func interact(event: InputEvent, target: Node, position: Vector3) -> void:
 					self.call(function, target, position)
 					return
 	elif event is InputEventMouseMotion:
-		_on_mouse_motion(event, target, position)
+		_on_mouse_motion(target, position)
 		return
 
 func make_function_name(action: String, pressed: bool = true) -> String:
@@ -73,18 +73,15 @@ func make_function_name(action: String, pressed: bool = true) -> String:
 		func_name += "_released"
 	return func_name
 
-func get_valid_actions() -> PoolStringArray:
-	return valid_actions
-
 func _on_enter() -> void:
 	print_debug("InteractionContext %s entered" % _context_name)
 
 func _on_exit() -> void:
 	print_debug("InteractionContext %s exited" % _context_name)
 
-func _on_mouse_motion(event: InputEventMouseMotion, target: Node, position: Vector3) -> void:
+func _on_mouse_motion(target: Node, position: Vector2) -> void:
 	pass
 
-func _on_ia_main_command_pressed(target: Node, position: Vector3) -> void:
+func _on_ia_main_command_pressed(target: Node, position: Vector2) -> void:
 	emit_signal("abort_context")
 	get_tree().set_input_as_handled()

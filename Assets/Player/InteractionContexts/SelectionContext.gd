@@ -8,8 +8,8 @@ onready var _parent := get_parent()
 
 export(int) var selection_tolerance = 10
 
-var sel_pos_start: Vector3
-var sel_pos_end: Vector3
+var sel_pos_start: Vector2
+var sel_pos_end: Vector2
 
 func get_selected_units(top_left: Vector2, bottom_right: Vector2) -> Array:
 	if top_left.x > bottom_right.x:
@@ -30,41 +30,24 @@ func get_selected_units(top_left: Vector2, bottom_right: Vector2) -> Array:
 				selected_units.append(unit)
 	return selected_units
 
-#func get_units_in_box(top_left: Vector2, bottom_right: Vector2) -> Array:
-#	if top_left.x > bottom_right.x:
-#		var tmp = top_left.x
-#		top_left.x = bottom_right.x
-#		bottom_right.x = tmp
-#	if top_left.y > bottom_right.y:
-#		var tmp = top_left.y
-#		top_left.y = bottom_right.y
-#		bottom_right.y = tmp
-#	var box = Rect2(top_left, bottom_right - top_left)
-#	var box_selected_units = []
-#	for unit in get_tree().get_nodes_in_group("units"):
-#		if unit.faction == _parent.player.faction and box.has_point(_parent._camera.unproject_position(unit.global_transform.origin)):
-#			print_debug("Unit [{0}]".format([unit]))
-#			box_selected_units.append(unit)
-#	return box_selected_units
-
-func _on_ia_alt_command_pressed(target: Node, position: Vector3) -> void:
+func _on_ia_alt_command_pressed(target: Node, position: Vector2) -> void:
 	# Start selection
-	print_debug("Start selection")
+	#print_debug("Start selection")
 	sel_pos_start = position
 	_parent.set_sel_pos_start(position)
 	_parent.show()
 
-func _on_ia_alt_command_released(target: Node, position: Vector3) -> void:
+func _on_ia_alt_command_released(target: Node, position: Vector2) -> void:
 	# End selection
-	print_debug("End selection")
+	#print_debug("End selection")
 
 	if target == null:
 		return
 
 	sel_pos_end = position
 	var selection: Array
-	var top_left: Vector2 = get_viewport().get_camera().unproject_position(sel_pos_start)
-	var bottom_right: Vector2 = get_viewport().get_camera().unproject_position(sel_pos_end)
+	var top_left: Vector2 = get_viewport().get_camera().unproject_position(Utils.map_2_to_3(sel_pos_start))
+	var bottom_right: Vector2 = get_viewport().get_camera().unproject_position(Utils.map_2_to_3(sel_pos_end))
 	if top_left.distance_to(bottom_right) <= selection_tolerance:
 		if target.is_in_group("units"):
 			selection = [target]
@@ -77,7 +60,7 @@ func _on_ia_alt_command_released(target: Node, position: Vector3) -> void:
 	else:
 		emit_signal("deselected")
 
-func _on_ia_main_command_pressed(target: Node, position: Vector3) -> void:
+func _on_ia_main_command_pressed(target: Node, position: Vector2) -> void:
 	# Abort selection
 	print_debug("Abort selection")
 	_parent.hide()
