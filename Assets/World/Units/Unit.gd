@@ -79,7 +79,9 @@ func move_to(target_pos: Vector3) -> void:
 	path = _as_map.get_gm_path(global_transform.origin, target_pos)
 	path_index = 0
 	if faction == world.player.faction and not path.empty():
-		create_buoy(path[-1])
+		# Only show when the unit actually moves
+		if path.size() > 2:
+			create_buoy(path[-1])
 
 func update_path() -> void:
 	var move_vec: Vector3
