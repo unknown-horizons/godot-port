@@ -409,6 +409,7 @@ func set_screen_resolution(screen_resolution: String) -> void:
 	resolution = Vector2(int(resolution[0]), int(resolution[1]))
 	OS.set_window_size(resolution)
 	OS.center_window()
+	Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
 
 func set_audio_volumes() -> void:
 	Audio.set_master_volume(Config.master_volume)
@@ -445,9 +446,12 @@ func _input(event: InputEvent) -> void:
 
 		window_mode = (window_mode + 1) % WINDOW_MODES.size()
 		prints("window_mode:", window_mode)
+		Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
 		OS.window_fullscreen = !OS.window_fullscreen
 
 		Config.window_mode = window_mode
+
+		Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
 
 	if event.is_action_pressed("quit_game"):
 		get_tree().quit()
