@@ -1,12 +1,12 @@
 extends Node
 
-const ZOOM_IN_LIMIT = 5
-const ZOOM_OUT_LIMIT = 35
+const ZOOM_IN_LIMIT = 10
+const ZOOM_OUT_LIMIT = 60
 const ZOOM_VALUE = 5
 const RAY_LENGTH = 1000
 
-const MOVE_SPEED = 10
-const MOVE_FASTER_MULT = 3
+const MOVE_SPEED = 1
+const MOVE_FASTER_MULT = 2
 
 export(NodePath) var origin_path: NodePath
 export(NodePath) var camera_path: NodePath
@@ -20,7 +20,7 @@ onready var _viewport_size := _viewport.size as Vector2
 onready var _viewport_aspect := _viewport_size.aspect() as float
 
 var _basis: Basis
-var _move_drag_start: Vector2
+var _drag_pos: Vector2
 var enabled: bool = true setget set_enabled, get_enabled
 
 func _ready() -> void:
@@ -48,7 +48,7 @@ func _input(event: InputEvent) -> void:
 			_zoom(ZOOM_VALUE)
 
 func _move(delta: float) -> void:
-	var movement_scale: float = delta * MOVE_SPEED
+	var movement_scale: float = delta * MOVE_SPEED * _camera.size
 	if Input.is_action_pressed("move_faster"):
 		movement_scale *= MOVE_FASTER_MULT
 
@@ -59,14 +59,17 @@ func _move(delta: float) -> void:
 
 func _move_drag() -> void:
 	if Input.is_action_pressed("move_drag"):
-		var m_pos = _viewport.get_mouse_position()
+		var new_drag_pos = _viewport.get_mouse_position()
 		if Input.is_action_just_pressed("move_drag"):
-			_move_drag_start = m_pos
+			_drag_pos = new_drag_pos
 		else:
-			var drag_dir = (_move_drag_start - m_pos) * _camera.size / _viewport_size
-			var move_dir = _basis.xform(Vector3(drag_dir.x, 0, drag_dir.y))
+			# DEBUG
+			#if new_drag_pos != _drag_pos:
+			#	prints(_drag_pos, "=>", new_drag_pos)
+			var drag_dir = (_drag_pos - new_drag_pos) * _camera.size / _viewport_size * 6
+			var move_dir := _basis.xform(Vector3(drag_dir.x, 0, drag_dir.y))
 			_origin.translate(move_dir)
-			_move_drag_start = m_pos
+			_drag_pos = new_drag_pos
 
 func _rotate(rotation: float) -> void:
 	_rotation_y.rotate_y(rotation)
@@ -91,9 +94,10 @@ func _get_basis() -> Basis:
 	return _rotation_y.get_transform().basis
 
 func set_enabled(new_value: bool) -> void:
-	set_process(new_value)
-	set_process_input(new_value)
 	enabled = new_value
+
+	set_process(enabled)
+	set_process_input(enabled)
 
 func get_enabled() -> bool:
 	return enabled
