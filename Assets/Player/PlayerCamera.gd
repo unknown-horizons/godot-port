@@ -11,7 +11,7 @@ onready var _selection_box = $SelectionBox
 var selected_units = []
 var start_sel_pos = Vector2()
 
-var player = null
+var player: Player = null
 
 # Variables for the interaction system
 export(NodePath) var default_interaction_context
@@ -23,15 +23,12 @@ var first_frame = true
 func _ready() -> void:
 	abort_context()
 
-func assign_to_player() -> Control:
-	return Global.Game.player if Global.Game != null and Global.Game.player else null
-
 func _process(_delta: float) -> void:
 	if first_frame:
 		first_frame = false
 		return
 
-	# Unit selection if player is existing (no gameover, etc.)
+	# Unit selection only if player is existing (no gameover, etc.)
 	if not player:
 		player = assign_to_player()
 		return
@@ -39,8 +36,20 @@ func _process(_delta: float) -> void:
 	if player.camera == null:
 		player.camera = self # bind player to this camera
 
+func _unhandled_input(event: InputEvent) -> void:
+	var target := raycast_from_mouse()
+	var target_object: Node
+	var target_pos: Vector2
+	if target:
+		target_object = (target["collider"] as Node).get_parent()
+		target_pos = (Utils.map_3_to_2(target["position"]) as Vector2)
+
+	active_context.interact(event, target_object, target_pos)
+
+func assign_to_player() -> Player:
+	return Global.Game.player if Global.Game != null and Global.Game.player else null
+
 func set_selection(new_selection: Array) -> void:
-	## Update selection
 	unset_selection()
 	for unit in new_selection:
 		unit.select()
@@ -55,11 +64,15 @@ func unset_selection() -> void:
 		unit.deselect()
 	selected_units = []
 
-func raycast_from_mouse(m_pos: Vector2, collision_mask: int) -> Dictionary:
-	var ray_start = _camera.project_ray_origin(m_pos)
-	var ray_end = ray_start + _camera.project_ray_normal(m_pos) * RAY_LENGTH
-	var space_state = get_world().direct_space_state
-	return space_state.intersect_ray(ray_start, ray_end, [], collision_mask)
+func raycast_from_mouse(collision_mask: int = -1) -> Dictionary:
+	var m_pos: Vector2 = get_viewport().get_mouse_position()
+	#prints("m_pos:", m_pos)
+	var ray_start := _camera.project_ray_origin(m_pos)
+	var ray_end := ray_start + _camera.project_ray_normal(m_pos) * RAY_LENGTH
+	var space_state := get_world().direct_space_state
+	var dict := space_state.intersect_ray(ray_start, ray_end, [], collision_mask)
+	#prints("intersect_ray:", dict)
+	return dict
 
 # Interaction system
 func switch_context(new_context: InteractionContext) -> void:
@@ -77,13 +90,3 @@ func switch_context(new_context: InteractionContext) -> void:
 
 func abort_context() -> void:
 	switch_context(get_node(default_interaction_context))
-
-func _unhandled_input(event: InputEvent) -> void:
-	var m_pos := get_viewport().get_mouse_position()
-	var target := raycast_from_mouse(m_pos, 1)
-	var target_object: Node
-	var target_pos: Vector3
-	if target:
-		target_object = (target["collider"] as Node).get_parent()
-		target_pos = (target["position"] as Vector3)
-	active_context.interact(event, target_object, target_pos)

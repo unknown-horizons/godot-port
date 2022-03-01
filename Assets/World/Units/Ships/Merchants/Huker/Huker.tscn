@@ -4,12 +4,6 @@
 [ext_resource path="res://Assets/World/Units/Ships/Merchants/Huker/Huker.gd" type="Script" id=2]
 [ext_resource path="res://Assets/World/Units/Ships/Merchants/Huker/Sprites/Huker_idle.png" type="Texture" id=3]
 
-[sub_resource type="SpatialMaterial" id=2]
-flags_transparent = true
-flags_no_depth_test = true
-params_billboard_mode = 1
-albedo_texture = ExtResource( 3 )
-
 [sub_resource type="Shader" id=1]
 code = "shader_type spatial;
 render_mode blend_mix,depth_draw_opaque,cull_back,diffuse_burley,specular_schlick_ggx,depth_test_disable;
@@ -50,7 +44,7 @@ void fragment() {
 }
 "
 
-[sub_resource type="ShaderMaterial" id=3]
+[sub_resource type="ShaderMaterial" id=5]
 render_priority = 10
 shader = SubResource( 1 )
 shader_param/albedo = Color( 0, 0, 0, 0 )
@@ -66,6 +60,12 @@ shader_param/uv2_scale = Vector3( 1, 1, 1 )
 shader_param/uv2_offset = Vector3( 0, 0, 0 )
 shader_param/texture_albedo = ExtResource( 3 )
 
+[sub_resource type="SpatialMaterial" id=6]
+flags_transparent = true
+flags_no_depth_test = true
+params_billboard_mode = 1
+albedo_texture = ExtResource( 3 )
+
 [sub_resource type="Animation" id=4]
 length = 3.0
 loop = true
@@ -74,26 +74,28 @@ loop = true
 script = ExtResource( 2 )
 texture = ExtResource( 3 )
 
-[node name="Billboard" parent="." index="0"]
-material_override = SubResource( 2 )
-texture = ExtResource( 3 )
-
 [node name="FactionColor" type="Sprite3D" parent="." index="1"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.001, 0 )
-material_override = SubResource( 3 )
+material_override = SubResource( 5 )
 cast_shadow = 0
 offset = Vector2( 0, 32 )
-pixel_size = 0.0151
+pixel_size = 0.025
 transparent = false
 double_sided = false
 texture = ExtResource( 3 )
-vframes = 2
 hframes = 4
+vframes = 2
 region_enabled = true
 region_rect = Rect2( 0, 384, 768, 384 )
 __meta__ = {
 "_edit_lock_": true
 }
+
+[node name="Billboard" parent="." index="2"]
+material_override = SubResource( 6 )
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 768, 384 )
 
 [node name="CollisionShape" parent="Area" index="0"]
 visible = true

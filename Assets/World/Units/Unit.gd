@@ -15,20 +15,20 @@ const Buoy = preload("res://Assets/World/Units/Buoy/Buoy.tscn")
 #
 # Example: to keep RIGHT direction for each camera angle
 #
-#    -45° -> DIRECTION[index + 0] -> Vector3( 1, 0,  1)
-#     45° -> DIRECTION[index + 2] -> Vector3(-1, 0,  1)
-#    135° -> DIRECTION[index + 4] -> Vector3(-1, 0, -1)
-#   -135° -> DIRECTION[index + 6] -> Vector3( 1, 0, -1)
+#    -45° -> DIRECTION[index + 0] -> Vector2( 1,  1)
+#     45° -> DIRECTION[index + 2] -> Vector2(-1,  1)
+#    135° -> DIRECTION[index + 4] -> Vector2(-1, -1)
+#   -135° -> DIRECTION[index + 6] -> Vector2( 1, -1)
 
 const DIRECTION = [
-	Vector3( 1, 0,  1), # RIGHT
-	Vector3( 0, 0,  1), # DOWN_RIGHT
-	Vector3(-1, 0,  1), # DOWN
-	Vector3(-1, 0,  0), # DOWN_LEFT
-	Vector3(-1, 0, -1), # LEFT
-	Vector3( 0, 0, -1), # UP_LEFT
-	Vector3( 1, 0, -1), # UP
-	Vector3( 1, 0,  0)] # UP_RIGHT
+	Vector2( 1,  1), # RIGHT
+	Vector2( 0,  1), # DOWN_RIGHT
+	Vector2(-1,  1), # DOWN
+	Vector2(-1,  0), # DOWN_LEFT
+	Vector2(-1, -1), # LEFT
+	Vector2( 0, -1), # UP_LEFT
+	Vector2( 1, -1), # UP
+	Vector2( 1,  0)] # UP_RIGHT
 
 #warning-ignore-all:unused_class_variable
 
@@ -41,7 +41,7 @@ var health = -1 # health must be set or it won't auto destroy itself
 var path = []
 var path_index = 0
 
-var move_vector = Vector3()
+var move_vector = Vector2()
 
 # Sprite rotation
 var direction = -1 # for non-animated movements, this is the frame_index
@@ -75,8 +75,8 @@ func deselect() -> void:
 		buoy.visible = false
 	#$AnimationPlayer.stop()
 
-func move_to(target_pos: Vector3) -> void:
-	path = _as_map.get_gm_path(global_transform.origin, target_pos)
+func move_to(target_pos: Vector2) -> void:
+	path = _as_map.get_tilemap_path(Utils.map_3_to_2(global_transform.origin), target_pos)
 	path_index = 0
 	if faction == world.player.faction and not path.empty():
 		# Only show when the unit actually moves
@@ -84,23 +84,19 @@ func move_to(target_pos: Vector3) -> void:
 			create_buoy(path[-1])
 
 func update_path() -> void:
-	var move_vec: Vector3
-	var dir_vec: Vector3
+	var move_vec: Vector2
+	var dir_vec: Vector2
 	var dir = 0
 
 	if path_index < path.size():
-		move_vec = (path[path_index] - global_transform.origin)
+		move_vec = (path[path_index] - Utils.map_3_to_2(global_transform.origin))
 		if move_vec.length() < 1: # set next target node or proceed to the current one
 			path_index += 1
 			emit_signal("position_changed", global_transform.origin)# + move_vector)
 		else:
 			is_moving = true
 
-			dir_vec = Vector3(
-								sign(round(move_vec.x)),
-								sign(round(move_vec.y)),
-								sign(round(move_vec.z))
-								)
+			dir_vec = Vector2(sign(round(move_vec.x)), sign(round(move_vec.y)))
 			dir = DIRECTION.find(dir_vec)
 			#prints("Direction:", dir)
 
@@ -134,11 +130,11 @@ func update_rotation() -> void:
 	#prints("rotation_offset:", rotation_offset)
 	rotation_index = wrapi(direction + rotation_offset, 0, _billboard.hframes * _billboard.vframes)
 
-func create_buoy(target_pos: Vector3) -> void:
+func create_buoy(target_pos: Vector2) -> void:
 	if is_instance_valid(buoy):
 		buoy.queue_free()
 	buoy = Buoy.instance()
-	buoy.set_translation(target_pos)
+	buoy.set_translation(Utils.map_2_to_3(target_pos))
 	world.add_child(buoy)
 
 func destroy_buoy() -> void:

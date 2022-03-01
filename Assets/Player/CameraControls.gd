@@ -54,8 +54,8 @@ func _move(delta: float) -> void:
 
 	var x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
 	var y = Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
-	var movement_velocity = Vector3(x, 0, y * _viewport_aspect)
-	_origin.translate(_basis.xform(movement_velocity) * movement_scale)
+	var movement_velocity := Vector2(x, y * _viewport_aspect)
+	_origin.translate(_basis.xform(Utils.map_2_to_3(movement_velocity)) * movement_scale)
 
 func _move_drag() -> void:
 	if Input.is_action_pressed("move_drag"):
@@ -67,7 +67,7 @@ func _move_drag() -> void:
 			#if new_drag_pos != _drag_pos:
 			#	prints(_drag_pos, "=>", new_drag_pos)
 			var drag_dir = (_drag_pos - new_drag_pos) * _camera.size / _viewport_size * 6
-			var move_dir := _basis.xform(Vector3(drag_dir.x, 0, drag_dir.y))
+			var move_dir := _basis.xform(Utils.map_2_to_3(drag_dir))
 			_origin.translate(move_dir)
 			_drag_pos = new_drag_pos
 

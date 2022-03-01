@@ -1,5 +1,5 @@
 tool
-extends GridMap
+extends TileMap3D
 
 signal cell_item_changed
 
@@ -104,9 +104,10 @@ func update_tiles(scaffold_tiles: Array = [], can_built := true) -> void:
 	#add_child(sprite)
 
 	#sprite.show()
-	for cell in get_used_cells():
+	for tile in get_used_tiles():
+		#sprite.global_transform.origin = callv("map_to_world", vector_2_to_array_3(tile))
+		#var cell := vector_2_to_3(tile) # TODO: Pass directly into map_to_world() in Godot 4
 		#sprite.global_transform.origin = map_to_world(cell.x, cell.y, cell.z)
-		#cell = map_3_to_2(cell)
 		#prints("current cell:\t", cell)
 
 		var tile_set = ""
@@ -114,7 +115,7 @@ func update_tiles(scaffold_tiles: Array = [], can_built := true) -> void:
 			#prints("check for tile_offset:\t", TILE_OFFSETS[tile_offset])
 
 			#yield(get_tree().create_timer(.1), "timeout")
-			var checked_tile = get_cell_item(cell.x + TILE_OFFSETS[tile_offset][0], 0, cell.z + TILE_OFFSETS[tile_offset][1])
+			var checked_tile = get_tile_item(Vector2(tile.x + TILE_OFFSETS[tile_offset][0], tile.y + TILE_OFFSETS[tile_offset][1]))
 			if checked_tile > -1: # Is there a road?
 				if tile_offset in "abcd":
 					tile_set += tile_offset
@@ -130,19 +131,19 @@ func update_tiles(scaffold_tiles: Array = [], can_built := true) -> void:
 			tile_set = "single"
 
 		var quaternion = Quat(Vector3(0, 1, 0), deg2rad(TILE_SETS[tile_set]["rotation"]))
-		var cell_item_orientation = Basis(quaternion).get_orthogonal_index()
+		var tile_item_orientation = Basis(quaternion).get_orthogonal_index()
 
 		var item: int = TILE_SETS[tile_set]["item"]
-		if Vector3(cell.x, cell.y, cell.z) in scaffold_tiles:
+		if Vector2(tile.x, tile.y) in scaffold_tiles:
 			if can_built:
 				item += 15
 			else:
 				item += 15 * 2
 
-		set_cell_item(cell.x, cell.y, cell.z, item, cell_item_orientation)
+		set_tile_item(tile, item, tile_item_orientation)
 
 	#yield(get_tree().create_timer(2), "timeout")
 	#sprite.hide()
 
-func map_3_to_2(vec3: Vector3) -> Vector2:
-	return Vector2(vec3.x, vec3.z)
+#func vector_2_to_array_3(vector_2: Vector2) -> Array:
+#	return [vector_2.x, 0, vector_2.y]

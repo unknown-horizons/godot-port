@@ -11,8 +11,13 @@ __meta__ = {
 [node name="Billboard" type="Sprite3D" parent="."]
 cast_shadow = 0
 offset = Vector2( 0, 32 )
-pixel_size = 0.015
+pixel_size = 0.025
 transparent = false
 double_sided = false
-vframes = 2
 hframes = 2
+vframes = 2
+
+[node name="Area" type="Area" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="Area"]
+disabled = true

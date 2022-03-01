@@ -29,7 +29,7 @@ func _process(delta: float) -> void:
 	update_faction_color()
 
 	if is_moving:
-		translate(move_vector.normalized() * delta * velocity / 4)
+		translate(Utils.map_2_to_3(move_vector.normalized()) * delta * velocity / 4)
 
 func update_faction_color() -> void:
 	pass

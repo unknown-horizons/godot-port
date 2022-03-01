@@ -20,6 +20,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=2]
 material = SubResource( 1 )
+size = Vector2( 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=3]
 albedo_texture = ExtResource( 2 )
@@ -27,6 +28,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=4]
 material = SubResource( 3 )
+size = Vector2( 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=5]
 albedo_texture = ExtResource( 3 )
@@ -34,6 +36,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=6]
 material = SubResource( 5 )
+size = Vector2( 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=7]
 albedo_texture = ExtResource( 4 )
@@ -41,6 +44,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=8]
 material = SubResource( 7 )
+size = Vector2( 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=9]
 albedo_texture = ExtResource( 5 )
@@ -48,6 +52,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=10]
 material = SubResource( 9 )
+size = Vector2( 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=11]
 albedo_texture = ExtResource( 6 )
@@ -55,6 +60,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=12]
 material = SubResource( 11 )
+size = Vector2( 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=13]
 albedo_texture = ExtResource( 7 )
@@ -62,6 +68,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=14]
 material = SubResource( 13 )
+size = Vector2( 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=15]
 albedo_texture = ExtResource( 8 )
@@ -69,6 +76,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=16]
 material = SubResource( 15 )
+size = Vector2( 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=17]
 albedo_texture = ExtResource( 9 )
@@ -76,6 +84,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=18]
 material = SubResource( 17 )
+size = Vector2( 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=19]
 albedo_texture = ExtResource( 10 )
@@ -83,6 +92,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=20]
 material = SubResource( 19 )
+size = Vector2( 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=21]
 albedo_texture = ExtResource( 11 )
@@ -90,6 +100,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=22]
 material = SubResource( 21 )
+size = Vector2( 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=23]
 albedo_texture = ExtResource( 12 )
@@ -97,6 +108,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=24]
 material = SubResource( 23 )
+size = Vector2( 1, 1 )
 
 [sub_resource type="SpatialMaterial" id=25]
 albedo_texture = ExtResource( 13 )
@@ -104,6 +116,7 @@ roughness = 0.0
 
 [sub_resource type="PlaneMesh" id=26]
 material = SubResource( 25 )
+size = Vector2( 1, 1 )
 
 [resource]
 item/0/name = "grass"
