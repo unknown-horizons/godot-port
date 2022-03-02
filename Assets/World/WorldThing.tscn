@@ -12,12 +12,18 @@ __meta__ = {
 cast_shadow = 0
 offset = Vector2( 0, 32 )
 pixel_size = 0.025
-transparent = false
+billboard = 1
 double_sided = false
 hframes = 2
 vframes = 2
 
 [node name="Area" type="Area" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Area"]
+
+[node name="StaticBody" type="StaticBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
 disabled = true

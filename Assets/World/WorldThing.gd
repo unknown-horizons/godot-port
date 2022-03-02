@@ -40,7 +40,7 @@ func _ready() -> void:
 	set_rotation_degree(rotation_degree)
 
 	if not Engine.is_editor_hint():
-		_billboard.translation = TRANSLATION_PER_ANGLE[0]
+		_recalculate_translation()
 
 func _process(_delta: float) -> void:
 	if Engine.is_editor_hint():
@@ -56,11 +56,10 @@ func _process(_delta: float) -> void:
 			translation.y = 0
 
 func _unhandled_input(event: InputEvent) -> void:
+	_recalculate_translation(event)
 	_on_input(event)
 
 func _on_input(event: InputEvent):
-	_recalculate_translation(event)
-
 	# Switch frame accordingly with the world rotation.
 	if event.is_action_pressed("rotate_left"):
 		_billboard.frame = wrapi(_billboard.frame - rotation_step, 0,
@@ -70,15 +69,19 @@ func _on_input(event: InputEvent):
 		_billboard.frame = wrapi(_billboard.frame + rotation_step, 0,
 				_billboard.hframes * _billboard.vframes)
 
-func _recalculate_translation(event: InputEvent) -> void:
+func _recalculate_translation(event: InputEvent = null) -> void:
+	if not event:
+		_billboard.translation = TRANSLATION_PER_ANGLE[0]
+		return
+
 	if event.is_action_pressed("rotate_left"):
 		current_rotation = wrapi(current_rotation - 1, 0, TRANSLATION_PER_ANGLE.size())
 		_billboard.translation = TRANSLATION_PER_ANGLE[current_rotation]
-		prints(self, "translation:", _billboard.translation)
+		#prints(self, "translation:", _billboard.translation)
 	elif event.is_action_pressed("rotate_right"):
 		current_rotation =  wrapi(current_rotation + 1, 0, TRANSLATION_PER_ANGLE.size())
 		_billboard.translation = TRANSLATION_PER_ANGLE[current_rotation]
-		prints(self, "translation:", _billboard.translation)
+		#prints(self, "translation:", _billboard.translation)
 
 func next_frame(sprite: Sprite3D = _billboard) -> int:
 	return wrapi(sprite.frame + 1, 0, sprite.vframes * sprite.hframes)

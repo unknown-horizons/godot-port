@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/Blender_idle.png-063183445206dea5e1f6071de41c7d26.s3tc.stex"
-path.etc2="res://.import/Blender_idle.png-063183445206dea5e1f6071de41c7d26.etc2.stex"
+path.s3tc="res://.import/Blender_idle.png-7f6ad6452b28d18d1935a0ec0370fa8b.s3tc.stex"
+path.etc2="res://.import/Blender_idle.png-7f6ad6452b28d18d1935a0ec0370fa8b.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/World/Buildings/Settlers/Blender/Blender_idle.png"
-dest_files=[ "res://.import/Blender_idle.png-063183445206dea5e1f6071de41c7d26.s3tc.stex", "res://.import/Blender_idle.png-063183445206dea5e1f6071de41c7d26.etc2.stex" ]
+source_file="res://Assets/World/Buildings/Settlers/Blender/Sprites/Blender_idle.png"
+dest_files=[ "res://.import/Blender_idle.png-7f6ad6452b28d18d1935a0ec0370fa8b.s3tc.stex", "res://.import/Blender_idle.png-7f6ad6452b28d18d1935a0ec0370fa8b.etc2.stex" ]
 
 [params]
 
@@ -30,6 +30,7 @@ process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 process/invert_color=false
+process/normal_map_invert_y=false
 stream=false
 size_limit=0
 detect_3d=false

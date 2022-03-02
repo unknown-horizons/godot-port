@@ -3,12 +3,7 @@
 [ext_resource path="res://Assets/World/Buildings/Sailors/SignalFire/Sprites/SignalFire_idle_45.png" type="Texture" id=1]
 [ext_resource path="res://Assets/World/Buildings/Sailors/SignalFire/SignalFire.gd" type="Script" id=2]
 [ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=3]
-
-[sub_resource type="SpatialMaterial" id=1]
-flags_transparent = true
-flags_no_depth_test = true
-params_billboard_mode = 1
-albedo_texture = ExtResource( 1 )
+[ext_resource path="res://Assets/World/Shapes/BoxShape1x1.tres" type="Shape" id=4]
 
 [node name="SignalFire" instance=ExtResource( 3 )]
 script = ExtResource( 2 )
@@ -16,9 +11,11 @@ texture = ExtResource( 1 )
 anim_speed = 0.88
 
 [node name="Billboard" parent="." index="0"]
-material_override = SubResource( 1 )
+offset = Vector2( 0, 48 )
 texture = ExtResource( 1 )
 hframes = 5
-frame = 3
 region_enabled = true
 region_rect = Rect2( 0, 0, 320, 256 )
+
+[node name="CollisionShape" parent="Area" index="0"]
+shape = ExtResource( 4 )

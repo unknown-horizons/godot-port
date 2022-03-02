@@ -64,6 +64,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/World/Units/Buoy/Buoy.gd"
 }, {
+"base": "Building",
+"class": "Butchery",
+"language": "GDScript",
+"path": "res://Assets/World/Buildings/Settlers/Butchery/Butchery.gd"
+}, {
 "base": "TextureButton",
 "class": "ButtonBase",
 "language": "GDScript",
@@ -486,6 +491,7 @@ _global_script_class_icons={
 "Brickyard": "",
 "Building": "",
 "Buoy": "",
+"Butchery": "",
 "ButtonBase": "",
 "CancelButton": "",
 "CannonFoundry": "",
