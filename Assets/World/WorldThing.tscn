@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Assets/World/WorldThing.gd" type="Script" id=1]
+[ext_resource path="res://Assets/World/Outline.tres" type="Material" id=3]
 
 [node name="WorldThing" type="Spatial"]
 script = ExtResource( 1 )
@@ -17,13 +18,21 @@ double_sided = false
 hframes = 2
 vframes = 2
 
+[node name="Outline" type="Sprite3D" parent="Billboard"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.001, 0 )
+visible = false
+material_override = ExtResource( 3 )
+offset = Vector2( 0, 32 )
+pixel_size = 0.025
+hframes = 2
+vframes = 2
+
 [node name="Area" type="Area" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Area"]
 
-[node name="StaticBody" type="StaticBody" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
-
-[node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
-disabled = true
+[connection signal="frame_changed" from="Billboard" to="." method="_on_Billboard_frame_changed"]
+[connection signal="input_event" from="Area" to="." method="_on_Area_input_event"]
+[connection signal="mouse_entered" from="Area" to="." method="_on_Area_mouse_entered"]
+[connection signal="mouse_exited" from="Area" to="." method="_on_Area_mouse_exited"]

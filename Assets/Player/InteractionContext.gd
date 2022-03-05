@@ -54,7 +54,7 @@ func interact(event: InputEvent, target: Node, position: Vector2) -> void:
 	if event.is_action_type():
 		for action in valid_actions:
 			if event.is_action(action):
-				var function: String = make_function_name(
+				var function: String = _make_function_name(
 					action, event.is_action_pressed(action))
 				if self.has_method(function):
 					self.call(function, target, position)
@@ -63,7 +63,23 @@ func interact(event: InputEvent, target: Node, position: Vector2) -> void:
 		_on_mouse_motion(target, position)
 		return
 
-func make_function_name(action: String, pressed: bool = true) -> String:
+func abort_context() -> void:
+	emit_signal("abort_context")
+	get_tree().set_input_as_handled()
+
+func _on_enter() -> void:
+	pass#print("InteractionContext %s entered" % _context_name)
+
+func _on_exit() -> void:
+	pass#print("InteractionContext %s exited" % _context_name)
+
+func _on_mouse_motion(target: Node, position: Vector2) -> void:
+	pass
+
+func _on_ia_main_command_pressed(target: Node, position: Vector2) -> void:
+	abort_context()
+
+func _make_function_name(action: String, pressed: bool = true) -> String:
 	var func_name: String = action.replace(" ", "_")
 	func_name = "_on_ia_" + func_name
 	if pressed:
@@ -71,16 +87,3 @@ func make_function_name(action: String, pressed: bool = true) -> String:
 	else:
 		func_name += "_released"
 	return func_name
-
-func _on_enter() -> void:
-	print_debug("InteractionContext %s entered" % _context_name)
-
-func _on_exit() -> void:
-	print_debug("InteractionContext %s exited" % _context_name)
-
-func _on_mouse_motion(target: Node, position: Vector2) -> void:
-	pass
-
-func _on_ia_main_command_pressed(target: Node, position: Vector2) -> void:
-	emit_signal("abort_context")
-	get_tree().set_input_as_handled()

@@ -170,8 +170,8 @@ margin_right = 118.0
 margin_bottom = 70.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_fonts/font = ExtResource( 3 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_fonts/font = ExtResource( 3 )
 text = "Color:"
 
 [node name="TextureRect" type="TextureRect" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection" index="1"]
@@ -357,31 +357,31 @@ max_value = 7.0
 [node name="AIPlayerSelection" type="HBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage" index="7"]
 margin_top = 306.0
 margin_right = 300.0
-margin_bottom = 343.0
+margin_bottom = 349.0
 size_flags_horizontal = 3
 size_flags_vertical = 2
 
 [node name="Label" type="Label" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection" index="0"]
-margin_top = 9.0
+margin_top = 12.0
 margin_right = 69.0
-margin_bottom = 27.0
-custom_fonts/font = ExtResource( 3 )
+margin_bottom = 30.0
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_fonts/font = ExtResource( 3 )
 text = "AI players:"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection" index="1"]
 margin_left = 73.0
 margin_right = 300.0
-margin_bottom = 37.0
+margin_bottom = 43.0
 size_flags_horizontal = 3
 
 [node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer" index="0"]
 margin_right = 227.0
-margin_bottom = 16.0
+margin_bottom = 22.0
 
 [node name="AISlider" type="HSlider" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer/HBoxContainer" index="0"]
 margin_right = 217.03
-margin_bottom = 16.0
+margin_bottom = 22.0
 rect_min_size = Vector2( 217.03, 0 )
 size_flags_vertical = 3
 max_value = 7.0
@@ -391,13 +391,13 @@ ticks_on_borders = true
 script = SubResource( 3 )
 
 [node name="Label" type="Label" parent="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer" index="1"]
-margin_top = 20.0
+margin_top = 26.0
 margin_right = 214.0
-margin_bottom = 37.0
+margin_bottom = 43.0
 rect_min_size = Vector2( 214, 0 )
 size_flags_horizontal = 0
-custom_fonts/font = SubResource( 4 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_fonts/font = SubResource( 4 )
 text = "01234567"
 align = 1
 
@@ -430,11 +430,11 @@ margin_right = 300.63
 margin_bottom = 150.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/bg = SubResource( 5 )
-custom_fonts/font = ExtResource( 3 )
 custom_colors/guide_color = Color( 0, 0, 0, 0 )
 custom_colors/font_color_selected = Color( 0.258824, 0.188235, 0.0509804, 1 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_fonts/font = ExtResource( 3 )
+custom_styles/bg = SubResource( 5 )
 script = ExtResource( 13 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -446,19 +446,22 @@ margin_right = 300.0
 margin_bottom = 214.0
 
 [node name="Caption" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/RecommendedNumberOfPlayers" index="0" instance=ExtResource( 7 )]
-margin_right = 213.0
+margin_right = 279.0
 margin_bottom = 20.0
 custom_fonts/font = ExtResource( 3 )
 text = "Recommended number of players:"
+autowrap = false
 font_style = 8
 
 [node name="Value" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/RecommendedNumberOfPlayers" index="1" instance=ExtResource( 7 )]
 margin_left = 283.0
 margin_right = 300.0
 margin_bottom = 20.0
-size_flags_horizontal = 10
+rect_min_size = Vector2( 17, 0 )
+size_flags_horizontal = 1
 custom_styles/normal = SubResource( 6 )
 text = "4"
+autowrap = false
 
 [node name="MapPreview" type="TextureRect" parent="TextureRect/MarginContainer/HBoxContainer/RightPage" index="3"]
 margin_top = 218.0
@@ -480,29 +483,31 @@ font_style = 1
 [node name="ResourceDensity" type="HBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/RightPage" index="5"]
 margin_top = 347.0
 margin_right = 300.0
-margin_bottom = 365.0
+margin_bottom = 369.0
 script = SubResource( 7 )
 
 [node name="Label" type="Label" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/ResourceDensity" index="0"]
+margin_top = 2.0
 margin_right = 114.0
-margin_bottom = 18.0
-custom_fonts/font = ExtResource( 3 )
+margin_bottom = 20.0
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_fonts/font = ExtResource( 3 )
 text = "Resource Density: "
 
 [node name="ResourceDensityIndicator" type="Label" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/ResourceDensity" index="1"]
 margin_left = 118.0
+margin_top = 2.0
 margin_right = 148.0
-margin_bottom = 18.0
+margin_bottom = 20.0
 rect_min_size = Vector2( 30, 0 )
-custom_fonts/font = ExtResource( 3 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_fonts/font = ExtResource( 3 )
 text = "1.0x"
 
 [node name="ResourceDensitySlider" type="HSlider" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/ResourceDensity" index="2"]
 margin_left = 152.0
 margin_right = 272.0
-margin_bottom = 16.0
+margin_bottom = 22.0
 rect_min_size = Vector2( 120, 0 )
 size_flags_horizontal = 2
 min_value = 0.5
@@ -512,46 +517,47 @@ value = 1.0
 ticks_on_borders = true
 
 [node name="AdditionalOccurences" type="HBoxContainer" parent="TextureRect/MarginContainer/HBoxContainer/RightPage" index="6"]
-margin_top = 369.0
+margin_top = 373.0
 margin_right = 300.0
-margin_bottom = 395.0
+margin_bottom = 393.0
 size_flags_vertical = 2
 script = SubResource( 8 )
 
 [node name="Traders" type="CheckBox" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/AdditionalOccurences" index="0"]
-margin_right = 106.0
-margin_bottom = 26.0
-custom_styles/focus = SubResource( 9 )
-custom_fonts/font = ExtResource( 3 )
+margin_right = 102.0
+margin_bottom = 20.0
 custom_colors/font_color_disabled = Color( 0.258824, 0.188235, 0.0509804, 0.501961 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
 custom_colors/font_color_hover = Color( 0.258824, 0.188235, 0.0509804, 1 )
 custom_colors/font_color_pressed = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_fonts/font = ExtResource( 3 )
+custom_styles/focus = SubResource( 9 )
 text = "Free Traders"
 
 [node name="Pirates" type="CheckBox" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/AdditionalOccurences" index="1"]
-margin_left = 110.0
-margin_right = 181.0
-margin_bottom = 26.0
-custom_styles/focus = SubResource( 9 )
-custom_fonts/font = ExtResource( 3 )
+margin_left = 106.0
+margin_right = 173.0
+margin_bottom = 20.0
 custom_colors/font_color_disabled = Color( 0.258824, 0.188235, 0.0509804, 0.501961 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
 custom_colors/font_color_hover = Color( 0.258824, 0.188235, 0.0509804, 1 )
 custom_colors/font_color_pressed = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_fonts/font = ExtResource( 3 )
+custom_styles/focus = SubResource( 9 )
 text = "Pirates"
 
 [node name="Disasters" type="CheckBox" parent="TextureRect/MarginContainer/HBoxContainer/RightPage/AdditionalOccurences" index="2"]
-margin_left = 185.0
-margin_right = 271.0
-margin_bottom = 26.0
-custom_styles/focus = SubResource( 9 )
-custom_fonts/font = ExtResource( 3 )
+margin_left = 177.0
+margin_right = 259.0
+margin_bottom = 20.0
 custom_colors/font_color_disabled = Color( 0.258824, 0.188235, 0.0509804, 0.501961 )
 custom_colors/font_color = Color( 0.258824, 0.188235, 0.0509804, 1 )
 custom_colors/font_color_hover = Color( 0.258824, 0.188235, 0.0509804, 1 )
 custom_colors/font_color_pressed = Color( 0.258824, 0.188235, 0.0509804, 1 )
+custom_fonts/font = ExtResource( 3 )
+custom_styles/focus = SubResource( 9 )
 text = "Disasters"
+
 [connection signal="value_changed" from="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer/HBoxContainer/AISlider" to="TextureRect/MarginContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer/HBoxContainer/AISlider" method="_on_AISlider_value_changed"]
 [connection signal="item_selected" from="TextureRect/MarginContainer/HBoxContainer/RightPage/MapList/TextureRect/ItemList" to="TextureRect/MarginContainer/HBoxContainer/RightPage/MapList/TextureRect/ItemList" method="_on_ItemList_item_selected"]
 [connection signal="value_changed" from="TextureRect/MarginContainer/HBoxContainer/RightPage/ResourceDensity/ResourceDensitySlider" to="TextureRect/MarginContainer/HBoxContainer/RightPage/ResourceDensity" method="_on_ResourceDensitySlider_value_changed"]

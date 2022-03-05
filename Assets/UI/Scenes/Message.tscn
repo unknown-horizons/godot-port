@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Assets/UI/Scenes/MessageButton.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/UI/Scripts/Message.gd" type="Script" id=2]
 [ext_resource path="res://Assets/UI/Scenes/MessageText.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Assets/UI/Images/Buttons/msg_button_mask.png" type="BitMap" id=4]
 
 [sub_resource type="DynamicFontData" id=1]
 font_path = "res://External/Fonts/LinLibertine.ttf"
@@ -16,13 +17,12 @@ font_data = SubResource( 1 )
 margin_right = 313.0
 margin_bottom = 66.0
 rect_min_size = Vector2( 0, 66 )
+mouse_filter = 2
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 message_text = "This is a message notification in the actual Message node."
 
 [node name="MessageButton" parent="." instance=ExtResource( 1 )]
+texture_click_mask = ExtResource( 4 )
 
 [node name="VSeparator" type="VSeparator" parent="."]
 modulate = Color( 1, 1, 1, 0 )
@@ -46,6 +46,7 @@ message_text = "This is a message notification in the actual Message node."
 wait_time = 8.0
 one_shot = true
 autostart = true
+
 [connection signal="mouse_entered" from="MessageButton" to="." method="_on_MessageButton_mouse_entered"]
 [connection signal="mouse_exited" from="MessageButton" to="." method="_on_MessageButton_mouse_exited"]
 [connection signal="pressed" from="MessageButton" to="." method="_on_MessageButton_pressed"]

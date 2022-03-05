@@ -8,9 +8,6 @@
 script = ExtResource( 2 )
 has_cancel_button = true
 
-[node name="Pages" parent="." index="0"]
-theme = null
-
 [node name="FreePlay" parent="Pages" index="0" instance=ExtResource( 1 )]
 anchor_left = 0.0
 anchor_top = 0.0

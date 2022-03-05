@@ -1,0 +1,45 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Assets/UI/Scripts/TradeSlot.gd" type="Script" id=1]
+[ext_resource path="res://Assets/UI/Scenes/InventorySlot.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Assets/UI/Images/Background/bar_bg.png" type="Texture" id=4]
+[ext_resource path="res://Assets/UI/Images/Background/tick.png" type="Texture" id=5]
+[ext_resource path="res://Assets/UI/Images/Buttons/v_slider_grabber.png" type="Texture" id=6]
+
+[sub_resource type="StyleBoxTexture" id=1]
+texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 22, 0 )
+
+[sub_resource type="StyleBoxTexture" id=3]
+texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 100, 20 )
+
+[sub_resource type="StyleBoxEmpty" id=2]
+
+[node name="TradeSlot" instance=ExtResource( 3 )]
+script = ExtResource( 1 )
+
+[node name="TextureRect" parent="." index="0"]
+visible = true
+
+[node name="TextureRect2" parent="." index="2"]
+anchor_bottom = 0.922
+margin_bottom = -0.0219994
+rect_pivot_offset = Vector2( 8, 47 )
+
+[node name="VSlider" type="VSlider" parent="." index="3"]
+anchor_left = 0.837
+anchor_right = 0.998
+anchor_bottom = 0.922
+margin_left = -0.0130005
+margin_right = 14.098
+margin_bottom = -0.0220032
+rect_scale = Vector2( 0.36, 1 )
+custom_icons/tick = ExtResource( 5 )
+custom_icons/grabber_highlight = ExtResource( 6 )
+custom_icons/grabber = ExtResource( 6 )
+custom_styles/slider = SubResource( 1 )
+custom_styles/grabber_area_highlight = SubResource( 3 )
+custom_styles/grabber_area = SubResource( 2 )
+max_value = 30.0
+value = 5.0

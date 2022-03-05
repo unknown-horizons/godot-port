@@ -3,7 +3,7 @@ class_name TileContext
 
 signal tiles_changed(scaffold_tiles, can_built) # Array, bool
 
-const PHANTOM_TILE_TEXTURE = preload("res://Assets/World/Buildings/Sailors/Streets/Sprites/trail_single.png")
+const PHANTOM_TILE_TEXTURE = preload("res://Assets/World/Buildings/Streets/Sprites/trail_single.png")
 
 onready var streets: TileMap3D = get_node("/root/World/AStarMap/Streets") as TileMap3D
 
@@ -18,11 +18,26 @@ var draw_path := []
 var aborted := false
 
 func _ready() -> void:
-	# TODO: Implement TileContext without having it automatically enabled.
-	# For now, comment both lines below to test tiling and revert then back.
 	set_process(false)
-	return
 
+func show_phantom_tile(tile_pos: Vector2) -> void:
+	phantom_tile.translation = streets.map_to_world(tile_pos.x, 0, tile_pos.y)
+
+func handle_tiles(raycast_position: Vector2) -> void:
+	var tile_pos = streets.world_to_tilemap(raycast_position)
+	#var tile_item = streets.get_tile_item(tile_pos)
+	#var mesh_library = streets.mesh_library
+	#var item_name = mesh_library.get_item_name(tile_item)
+
+	prints("tile pos:", tile_pos)
+	#prints("tile item:", tile_item)
+	#prints("mesh_library:", mesh_library.resource_name)
+	#prints("item_mesh:", item_name)
+
+	#prints("orientation:", streets.get_tile_item_orientation(tile_pos))
+
+func _on_enter() -> void:
+	print("InteractionContext %s entered" % _context_name)
 	var material = SpatialMaterial.new()
 	material.flags_transparent = true
 	material.flags_no_depth_test = true
@@ -37,6 +52,15 @@ func _ready() -> void:
 	Input.set_custom_mouse_cursor(Cursor.CURSOR_TEAR, Input.CURSOR_ARROW)
 
 	connect("tiles_changed", streets, "update_tiles")
+
+	set_process(true)
+
+func _on_exit() -> void:
+	print("InteractionContext %s exited" % _context_name)
+	phantom_tile.queue_free()
+	Input.set_custom_mouse_cursor(Cursor.CURSOR_DEFAULT, Input.CURSOR_ARROW)
+
+	set_process(false)
 
 func _process(_delta: float) -> void:
 	m_pos = _player_camera.get_viewport().get_mouse_position()
@@ -69,21 +93,8 @@ func _process(_delta: float) -> void:
 	last_tile_pos = tile_pos
 	#prints(" === draw_path:", draw_path)
 
-func show_phantom_tile(tile_pos: Vector2) -> void:
-	phantom_tile.translation = streets.map_to_world(tile_pos.x, 0, tile_pos.y)
-
-func handle_tiles(raycast_position: Vector2) -> void:
-	var tile_pos = streets.world_to_tilemap(raycast_position)
-	#var tile_item = streets.get_tile_item(tile_pos)
-	#var mesh_library = streets.mesh_library
-	#var item_name = mesh_library.get_item_name(tile_item)
-
-	prints("tile pos:", tile_pos)
-	#prints("tile item:", tile_item)
-	#prints("mesh_library:", mesh_library.resource_name)
-	#prints("item_mesh:", item_name)
-
-	#prints("orientation:", streets.get_tile_item_orientation(tile_pos))
+func _on_mouse_motion(target: Node, position: Vector2) -> void:
+	pass
 
 func _on_ia_alt_command_pressed(target: Node, position: Vector2) -> void:
 	if not is_drawing:
@@ -102,12 +113,22 @@ func _on_ia_alt_command_released(target: Node, position: Vector2) -> void:
 		aborted = false
 		return
 
+#	if not is_drawing:
+#		abort_context()
+
+func _on_ia_main_command_pressed(target: Node, position: Vector2) -> void:
+	pass
+
 func _on_ia_main_command_released(target: Node, position: Vector2) -> void:
 	print_debug("Abort tiling")
 	for cell_pos in draw_path:
 		streets.unset_tile(cell_pos)
 
-	is_drawing = false
+	if is_drawing:
+		is_drawing = false
+	else:
+		abort_context()
+
 	draw_path = []
 	aborted = true
 	emit_signal("tiles_changed")

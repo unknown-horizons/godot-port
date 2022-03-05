@@ -30,6 +30,7 @@ export(RotationStep) var rotation_step := 1 setget set_rotation_step
 export(RotationDegree) var rotation_degree := 0 setget set_rotation_degree
 
 onready var _billboard := $Billboard as Sprite3D
+onready var _outline := _billboard.get_node("Outline") as Sprite3D
 
 var current_rotation := 0
 
@@ -89,7 +90,7 @@ func next_frame(sprite: Sprite3D = _billboard) -> int:
 func prev_frame(sprite: Sprite3D = _billboard) -> int:
 	return wrapi(sprite.frame - 1, 0, sprite.vframes * sprite.hframes)
 
-func random_frame(sprite: Sprite3D = _billboard) -> int:
+func get_random_frame(sprite: Sprite3D = _billboard) -> int:
 	return randi() % (sprite.vframes * sprite.hframes)
 
 func set_texture(new_texture: Texture) -> void:
@@ -100,15 +101,32 @@ func set_texture(new_texture: Texture) -> void:
 
 	_billboard.texture = texture
 
+	# Set up outline for object highlighting
 	if texture != null:
+		_outline.texture = _billboard.texture
+		_outline.hframes = _billboard.hframes
+		_outline.vframes = _billboard.vframes
+		_outline.region_rect = _billboard.region_rect
+		_outline.region_enabled = _billboard.region_enabled
+		_outline.offset = _billboard.offset
+
 		var material = SpatialMaterial.new()
 		material.flags_transparent = true
-		material.flags_no_depth_test = true
+		#material.flags_no_depth_test = true
 		material.params_billboard_mode = SpatialMaterial.BILLBOARD_ENABLED
+		material.params_use_alpha_scissor = true
+		material.params_alpha_scissor_threshold = 0.05
 		material.albedo_texture = texture
-		_billboard.material_override = material
+		material.emission_enabled = true
+		material.emission = Color.white
+		_outline.material_override = material
 	else:
-		_billboard.material_override = null
+		_outline.material_override = null
+
+	# Every Sprite3D should be a billboard
+	_billboard.billboard = SpatialMaterial.BILLBOARD_ENABLED
+	_billboard.transparent = true
+	_billboard.material_override = null
 
 func set_rotation_step(new_step: int) -> void:
 	rotation_step = new_step
@@ -140,3 +158,37 @@ func set_rotation_degree(new_rotation: int) -> void:
 
 			#warning-ignore:integer_division
 			_billboard.frame = rotation_degree / 2
+
+#
+# TODO: Cursor callback logic actually goes into the Interaction system and
+# shouldn't be controlled by the WorldThing classes themselves.
+#
+func _on_Area_input_event(camera: Node, event: InputEvent, position: Vector3, _normal: Vector3, _shape_idx: int) -> void:
+	#prints("WorldThing::_on_Area_input_event()")
+	#print("{0} {1} {2} {3} {4}".format([camera, event, click_position, click_normal, shape_idx]))
+	#var player_camera := camera as PlayerCamera
+	#player_camera.hovered_object = self
+	pass
+
+func _on_Area_mouse_entered() -> void:
+	prints("WorldThing::_on_Area_mouse_entered()")
+	if Global.Game.player and Global.Game.player.camera:
+		Global.Game.player.camera._on_WorldThing_mouse_entered(self)
+	#_billboard.alpha_cut = SpriteBase3D.ALPHA_CUT_OPAQUE_PREPASS
+	_outline.visible = true
+
+func _on_Area_mouse_exited() -> void:
+	print("WorldThing::_on_Area_mouse_exited()")
+	if Global.Game.player and Global.Game.player.camera:
+		Global.Game.player.camera._on_WorldThing_mouse_exited(self)
+	#_billboard.alpha_cut = SpriteBase3D.ALPHA_CUT_DISABLED
+	_outline.visible = false
+
+func _on_Billboard_frame_changed() -> void:
+	if _billboard == null:
+		return
+
+	# Sync frames
+	#prints("_outline:", _outline, "_billboard:", _billboard)
+	#prints("_outline.frame:", _outline.frame, "_billboard.frame:", _billboard.frame)
+	_outline.frame = _billboard.frame

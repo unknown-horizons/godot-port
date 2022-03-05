@@ -1,6 +1,7 @@
 tool
 extends WorldThing
 class_name Building
+# Base class for all buildings.
 
 var current_anim # if not null, action can be animated, otherwise static
 var previous_anim
@@ -29,20 +30,18 @@ func _process(_delta: float) -> void:
 	else:
 		set_process(false)
 
-#func update_offset(new_rotation):
-#	var new_offset = Vector2()
-#	match int(round(new_rotation)):
-#		-45:
-#			new_offset = Vector2(x1, y1)
-#		45:
-#			new_offset = Vector2(x2, y2)
-#		135:
-#			new_offset = Vector2(x3, x3)
-#		-135:
-#			new_offset = Vector2(x4, x4)
-#
-#	#print("Update offset for {0}: {1}".format([self.name, new_offset]))
-#	_billboard.offset = new_offset
+#func set_faction(new_faction: int) -> void:
+#	faction = new_faction
+
+func select() -> void:
+	prints("SELECT", self)
+	Audio.play_snd_click()
+	# TODO: Highlighting effect
+	_billboard.modulate = Color.gold
+
+func deselect() -> void:
+	prints("DESELECT", self)
+	_billboard.modulate = Color.white
 
 func animate() -> void: # to be overridden
 	if previous_anim != current_anim and current_anim == null:
@@ -115,12 +114,14 @@ func set_anim_speed(new_anim_speed) -> void:
 		timer.stop()
 
 func _on_Timer_timeout() -> void:
+	if _billboard == null:
+		return
+
 #	if Engine.is_editor_hint():
-#		if _billboard == null:
-#			if not Global._warning:
-#				prints("Please reload the scene [{0}].".format([name]))
-#				Global._warning = true
-#			timer.stop() # The timer does not stop. Why?
-#			return
+#		if not Global._warning:
+#			prints("Please reload the scene [{0}].".format([name]))
+#			Global._warning = true
+#		timer.stop() # The timer does not stop. Why?
+#		return
 
 	animate()

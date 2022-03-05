@@ -1,0 +1,2 @@
+extends Building
+class_name Agricultural

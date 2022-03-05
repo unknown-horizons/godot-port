@@ -1,11 +1,12 @@
 tool
 extends WorldThing
 class_name Unit
+# Base class for all units.
 
 signal position_changed
 
 const Global = preload("res://Assets/World/Global.gd")
-const Buoy = preload("res://Assets/World/Units/Buoy/Buoy.tscn")
+const Buoy = preload("res://Assets/World/Buoy/Buoy.tscn")
 
 # All units are 8-directional.
 # Vector items are aligned according to the default camera rotation (-45°)
@@ -47,6 +48,7 @@ var move_vector = Vector2()
 var direction = -1 # for non-animated movements, this is the frame_index
 var rotation_offset = 0
 var rotation_index
+
 var buoy = null
 
 onready var rotation_y: Spatial = get_node_or_null("/root/World/PlayerCamera/RotationY") as Spatial
@@ -82,6 +84,7 @@ func move_to(target_pos: Vector2) -> void:
 		# Only show when the unit actually moves
 		if path.size() > 2:
 			create_buoy(path[-1])
+			Audio.play_snd_click()
 
 func update_path() -> void:
 	var move_vec: Vector2

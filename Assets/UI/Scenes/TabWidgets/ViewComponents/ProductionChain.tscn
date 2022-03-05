@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/UI/Icons/Templates/Production/production_arrow.png" type="Texture" id=7]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/PauseProductionButton.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Assets/UI/Scenes/InventorySlot.tscn" type="PackedScene" id=12]
+
+[node name="ProductionChain" type="HBoxContainer"]
+margin_right = 217.0
+margin_bottom = 51.0
+
+[node name="InventorySlot" parent="." instance=ExtResource( 12 )]
+margin_left = 3.0
+margin_right = 52.0
+resource_type = 8
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 59.0
+margin_top = 16.0
+margin_right = 158.0
+margin_bottom = 34.0
+size_flags_vertical = 4
+texture = ExtResource( 7 )
+
+[node name="PauseProductionButton" parent="TextureRect" instance=ExtResource( 11 )]
+texture_normal = null
+
+[node name="InventorySlot2" parent="." instance=ExtResource( 12 )]
+margin_left = 165.0
+margin_right = 214.0
+resource_type = 4

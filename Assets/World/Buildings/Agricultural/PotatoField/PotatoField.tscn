@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/World/Buildings/Agricultural/PotatoField/Sprites/PotatoField_work_anim.png" type="Texture" id=3]
+[ext_resource path="res://Assets/World/Buildings/Agricultural/PotatoField/PotatoField.gd" type="Script" id=4]
+
+[node name="PotatoField" instance=ExtResource( 1 )]
+script = ExtResource( 4 )
+
+[node name="Billboard" parent="." index="0"]
+offset = Vector2( 0, 48 )
+texture = ExtResource( 3 )
+hframes = 5
+vframes = 1
+region_enabled = true
+region_rect = Rect2( 0, 0, 960, 192 )

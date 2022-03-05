@@ -1,30 +1,27 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Assets/UI/Fonts/SmallFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Assets/UI/Scenes/Labels/SmallLabelItalic.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Assets/UI/Scripts/InventorySlot.gd" type="Script" id=3]
 [ext_resource path="res://Assets/UI/Images/Background/inv_bg.png" type="Texture" id=4]
 [ext_resource path="res://Assets/UI/Images/Background/Widgets/progressbar_fill.png" type="Texture" id=5]
-[ext_resource path="res://Assets/UI/Icons/Resources/32/004.png" type="Texture" id=6]
-[ext_resource path="res://Assets/UI/Themes/Theme.tres" type="Theme" id=7]
-[ext_resource path="res://Assets/UI/Scripts/LabelEx.gd" type="Script" id=8]
 
-[node name="InventorySlot" type="TextureRect"]
+[node name="InventorySlot" type="TextureButton"]
 margin_right = 49.0
 margin_bottom = 51.0
-texture = ExtResource( 4 )
+rect_min_size = Vector2( 49, 51 )
+size_flags_horizontal = 6
+texture_normal = ExtResource( 4 )
 script = ExtResource( 3 )
 __meta__ = {
-"_edit_group_": true,
-"_edit_use_anchors_": false
+"_edit_group_": true
 }
-resource_type = 3
-resource_value = 30
 
 [node name="TextureRect" type="TextureRect" parent="."]
-margin_right = 41.0
-margin_bottom = 32.0
-texture = ExtResource( 6 )
+visible = false
+anchor_right = 0.837
+anchor_bottom = 0.627
+margin_right = -0.0130005
+margin_bottom = 0.0229988
 expand = true
 stretch_mode = 6
 __meta__ = {
@@ -32,28 +29,25 @@ __meta__ = {
 }
 
 [node name="Label" parent="." instance=ExtResource( 2 )]
+visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_top = 29.0
 margin_right = -8.0
 margin_bottom = -5.0
-size_flags_horizontal = 3
-size_flags_vertical = 1
-theme = ExtResource( 7 )
-custom_fonts/font = ExtResource( 1 )
-text = "30"
+text = "0"
 align = 1
 valign = 1
-script = ExtResource( 8 )
 
 [node name="TextureRect2" type="TextureRect" parent="."]
-anchor_left = 1.0
+visible = false
+anchor_left = 0.837
 anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = -8.0
-margin_right = -3.8147e-06
-margin_bottom = -9.0
-rect_pivot_offset = Vector2( 8, 42 )
+anchor_bottom = 0.824
+margin_left = -0.0130005
+margin_bottom = 4.976
+rect_scale = Vector2( 1, 1e-05 )
+rect_pivot_offset = Vector2( 8, 47 )
 texture = ExtResource( 5 )
 stretch_mode = 1
 __meta__ = {

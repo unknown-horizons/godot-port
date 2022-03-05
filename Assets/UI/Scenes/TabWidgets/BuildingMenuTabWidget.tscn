@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Assets/UI/Fonts/TitleFontCapitalize.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Assets/UI/Scripts/BuildingMenuTabWidget.gd" type="Script" id=2]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/TabWidget.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Switches/Switches/BuildingSwitchTabWidget.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Assets/UI/Scenes/Labels/LabelEx.tscn" type="PackedScene" id=5]
+
+[node name="BuildingMenuTabWidget" instance=ExtResource( 3 )]
+script = ExtResource( 2 )
+
+[node name="WidgetDetail" parent="." index="1"]
+margin_bottom = 190.5
+rect_min_size = Vector2( 251, 0 )
+
+[node name="BuildingSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="0" instance=ExtResource( 4 )]
+rect_min_size = Vector2( 40, 46 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="0"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="0" instance=ExtResource( 5 )]
+margin_right = 217.0
+margin_bottom = 31.0
+custom_fonts/font = ExtResource( 1 )
+text = "Any building"
+align = 1
+font_style = 0
+
+[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="1"]
+margin_top = 35.0
+margin_right = 217.0
+margin_bottom = 39.0

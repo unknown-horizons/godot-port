@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/World/Buildings/Toolmaker/Toolmaker.gd" type="Script" id=1]
+[ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Assets/World/Buildings/Toolmaker/Sprites/Toolmaker_idle.png" type="Texture" id=3]
+[ext_resource path="res://Assets/World/Shapes/BoxShape2x2.tres" type="Shape" id=4]
+
+[node name="Toolmaker" instance=ExtResource( 2 )]
+script = ExtResource( 1 )
+texture = ExtResource( 3 )
+anim_speed = 0.9
+
+[node name="Billboard" parent="." index="0"]
+offset = Vector2( 0, 16 )
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 256, 196 )
+
+[node name="CollisionShape" parent="Area" index="0"]
+shape = ExtResource( 4 )

@@ -1,5 +1,6 @@
 tool
 extends Control
+class_name Logbook
 
 export(int) var current_page setget set_current_page
 #export(String) var caption_text := "This is a Book Title" setget set_caption_text
