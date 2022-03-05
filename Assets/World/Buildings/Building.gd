@@ -13,11 +13,21 @@ onready var timer := Timer.new() # to play an animation in a sane speed
 export(String) var action := "idle" setget set_action
 export(float, 0, 1) var anim_speed := 0.95 setget set_anim_speed
 
+export(bool) var debug_animate := false
+
 func _ready():
 	add_child(timer)
 	# warning-ignore:return_value_discarded
 	timer.connect("timeout", self, "_on_Timer_timeout")
 	timer.start(1.001 - anim_speed)
+
+func _process(_delta: float) -> void:
+	if Engine.is_editor_hint():
+		if not debug_animate and current_anim != null:
+			_billboard.frame = 0
+			return
+	else:
+		set_process(false)
 
 #func update_offset(new_rotation):
 #	var new_offset = Vector2()

@@ -1,15 +1,10 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Assets/World/WorldThing.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/World/Buildings/Building.gd" type="Script" id=2]
-[ext_resource path="res://Assets/World/Shapes/BoxShape2x2.tres" type="Shape" id=3]
 
 [node name="Building" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 
 [node name="Billboard" parent="." index="0"]
 region_rect = Rect2( 0, 0, 640, 640 )
-
-[node name="CollisionShape" parent="Area" index="0"]
-shape = ExtResource( 3 )
-disabled = false

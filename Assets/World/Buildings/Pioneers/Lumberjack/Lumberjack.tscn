@@ -1,14 +1,9 @@
 [gd_scene load_steps=6 format=2]
 
+[ext_resource path="res://Assets/World/Shapes/BoxShape2x2.tres" type="Shape" id=1]
 [ext_resource path="res://Assets/World/Buildings/Sailors/Lumberjack/Lumberjack.gd" type="Script" id=2]
 [ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Assets/World/Buildings/Pioneers/Lumberjack/Sprites/LumberjackHut_idle.png" type="Texture" id=4]
-
-[sub_resource type="SpatialMaterial" id=1]
-flags_transparent = true
-flags_no_depth_test = true
-params_billboard_mode = 1
-albedo_texture = ExtResource( 4 )
 
 [sub_resource type="SpatialMaterial" id=2]
 render_priority = 10
@@ -23,7 +18,6 @@ texture = ExtResource( 4 )
 tier = 1
 
 [node name="Billboard" parent="." index="0"]
-material_override = SubResource( 1 )
 texture = ExtResource( 4 )
 
 [node name="ResourceOverlay" type="Sprite3D" parent="Billboard" index="0"]
@@ -34,8 +28,8 @@ offset = Vector2( 0, 32 )
 pixel_size = 0.015
 transparent = false
 double_sided = false
-vframes = 2
 hframes = 2
+vframes = 2
 region_rect = Rect2( 0, 0, 640, 640 )
 __meta__ = {
 "_editor_description_": ""
@@ -49,9 +43,12 @@ offset = Vector2( 0, 32 )
 pixel_size = 0.015
 transparent = false
 double_sided = false
-vframes = 2
 hframes = 2
+vframes = 2
 region_rect = Rect2( 0, 0, 640, 640 )
 __meta__ = {
 "_editor_description_": ""
 }
+
+[node name="CollisionShape" parent="Area" index="0"]
+shape = ExtResource( 1 )

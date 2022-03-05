@@ -159,19 +159,3 @@ func take_damage(damage: int) -> void:
 
 	if health == 0:
 		queue_free()
-
-# =================================================
-# TODO: For later use, hover effect, selection etc.
-# =================================================
-func _on_Area_input_event(_camera, _event, _click_position, _click_normal, _shape_idx):
-	#print("_on_Area_input_event(...)")
-	#print("{0} {1} {2} {3} {4}".format([camera, event, click_position, click_normal, shape_idx]))
-	pass
-
-func _on_Area_mouse_entered():
-	#print("_on_Area_mouse_entered()")
-	pass
-
-func _on_Area_mouse_exited():
-	#print("_on_Area_mouse_exited()")
-	pass

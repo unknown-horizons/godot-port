@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Assets/World/Units/Unit.gd" type="Script" id=1]
 [ext_resource path="res://Assets/World/WorldThing.tscn" type="PackedScene" id=2]
@@ -10,10 +10,6 @@ flags_transparent = true
 flags_no_depth_test = true
 flags_do_not_receive_shadows = true
 albedo_color = Color( 1, 1, 1, 0.117647 )
-
-[sub_resource type="BoxShape" id=5]
-
-[sub_resource type="BoxShape" id=4]
 
 [node name="Unit" groups=["units"] instance=ExtResource( 2 )]
 script = ExtResource( 1 )
@@ -32,15 +28,3 @@ hframes = 4
 
 [node name="CollisionShape" parent="Area" index="0"]
 visible = false
-shape = SubResource( 5 )
-
-[node name="StaticBody" type="StaticBody" parent="." index="3"]
-transform = Transform( 1, 0, 0, 0, 0.999999, 0, 0, 0, 1, 0, 0, 0 )
-
-[node name="CollisionShape" type="CollisionShape" parent="StaticBody" index="0"]
-visible = false
-shape = SubResource( 4 )
-
-[connection signal="input_event" from="Area" to="." method="_on_Area_input_event"]
-[connection signal="mouse_entered" from="Area" to="." method="_on_Area_mouse_entered"]
-[connection signal="mouse_exited" from="Area" to="." method="_on_Area_mouse_exited"]
