@@ -59,12 +59,11 @@ margin_left = 0.0
 
 [node name="PrevButton" parent="CenterContainer/TextureRect/MarginContainer/HBoxContainer/LeftPage/HBoxContainer/PageControl" index="0"]
 disabled = true
+
 [connection signal="pressed" from="CenterContainer/TextureRect/MarginContainer/HBoxContainer/LeftPage/HBoxContainer/PageControl/PrevButton" to="." method="_on_PrevButton_pressed"]
 [connection signal="pressed" from="CenterContainer/TextureRect/MarginContainer/HBoxContainer/LeftPage/HBoxContainer/PageControl/NextButton" to="." method="_on_NextButton_pressed"]
 [connection signal="pressed" from="CenterContainer/TextureRect/MarginContainer/HBoxContainer/RightPage/HBoxContainer/OKButton" to="." method="_on_OKButton_pressed"]
 
 [editable path="CenterContainer/TextureRect/MarginContainer/HBoxContainer/LeftPage"]
-
 [editable path="CenterContainer/TextureRect/MarginContainer/HBoxContainer/LeftPage/HBoxContainer/PageControl"]
-
 [editable path="CenterContainer/TextureRect/MarginContainer/HBoxContainer/RightPage"]

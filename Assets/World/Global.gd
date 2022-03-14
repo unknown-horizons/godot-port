@@ -6,108 +6,109 @@ enum WindowMode {
 }
 
 enum ResourceType {
-	# Taken from fife version, started at 1 originally.
-	GOLD             =  0,
-	LAMB_WOOL        =  1,
-	TEXTILE          =  2,
-	BOARDS           =  3,
-	FOOD             =  4,
-	TOOLS            =  5,
-	BRICKS           =  6,
-	TREES            =  7,
-	GRASS            =  8,
-	WOOL             =  9,
-	FAITH            = 10,
-	WILDANIMALFOOD   = 11,
-	DEER_MEAT        = 12,
-	HAPPINESS        = 13,
-	POTATOES         = 14,
-	EDUCATION        = 15,
-	RAW_SUGAR        = 16,
-	SUGAR            = 17,
-	COMMUNITY        = 18,
-	RAW_CLAY         = 19,
-	CLAY             = 20,
-	LIQUOR           = 21,
-	CHARCOAL         = 22,
-	RAW_IRON         = 23,
-	IRON_ORE         = 24,
-	IRON_INGOTS      = 25,
-	GET_TOGETHER     = 26,
-	FISH             = 27,
-	SALT             = 28,
-	TOBACCO_PLANTS   = 29,
-	TOBACCO_LEAVES   = 30,
-	TOBACCO_PRODUCTS = 31,
-	CATTLE           = 32,
-	PIGS             = 33,
-	CATTLE_SLAUGHTER = 34,
-	PIGS_SLAUGHTER   = 35,
-	HERBS            = 36,
-	MEDICAL_HERBS    = 37,
-	ACORNS           = 38,
-	CANNON           = 39,
-	SWORD            = 40,
-	GRAIN            = 41,
-	CORN             = 42,
-	FLOUR            = 43,
-	SPICE_PLANTS     = 44,
-	SPICES           = 45,
-	CONDIMENTS       = 46,
-#	MARBLE_DEPOSIT   = GOLD, # 47
-#	MARBLE_TOPS      = GOLD, # 48
-#	COAL_DEPOSIT     = GOLD, # 49
-	STONE_DEPOSIT    = 50,
-	STONE_TOPS       = 51,
-	COCOA_BEANS      = 52,
-	COCOA            = 53,
-	CONFECTIONERY    = 54,
-	CANDLES          = 55,
-	VINES            = 56,
-	GRAPES           = 57,
-	ALVEARIES        = 58,
-	HONEYCOMBS       = 59,
-#	GOLD_DEPOSIT     = GOLD, # 60
-#	GOLD_ORE         = GOLD, # 61
-#	GOLD_INGOTS      = GOLD, # 62
-#	GEM_DEPOSIT      = GOLD, # 63
-#	ROUGH_GEMS       = GOLD, # 64
-#	GEMS             = GOLD, # 65
-#	SILVER_DEPOSIT   = GOLD, # 66
-#	SILVER_ORE       = GOLD, # 67
-#	SILVER_INGOTS    = GOLD, # 68
-#	COFFEE_PLANTS    = GOLD, # 69
-#	COFFEE_BEANS     = GOLD, # 70
-#	COFFEE           = GOLD, # 71
-#	TEA_PLANTS       = GOLD, # 72
-#	TEA_LEAVES       = GOLD, # 73
-#	TEA              = GOLD, # 74
-#	FLOWER_MEADOWS   = GOLD, # 75
-#	BLOSSOMS         = GOLD, # 76
-#	BRINE            = GOLD, # 77
-#	BRINE_DEPOSIT    = GOLD, # 78
-#	WHALES           = GOLD, # 79
-#	AMBERGRIS        = GOLD, # 80
-#	LAMP_OIL         = GOLD, # 81
-#	COTTON_PLANTS    = GOLD, # 82
-#	COTTON           = GOLD, # 83
-#	INDIGO_PLANTS    = GOLD, # 84
-#	INDIGO           = GOLD, # 85
-#	GARMENTS         = GOLD, # 86
-#	PERFUME          = GOLD, # 87
-	HOP_PLANTS       = 88,
-	HOPS             = 89,
-	BEER             = 90,
-	# 91-98 reserved for services
-#	REPRESENTATION   = GOLD, # 91
-#	SOCIETY          = GOLD, # 92
-#	FAITH_2          = GOLD, # 93
-#	EDUCATION_2      = GOLD, # 94
-	HYGIENE          = 95,
-#	RECREATION       = GOLD, # 96
-	BLACKDEATH       = 97,
-	FIRE             = 98,
-	# 91-98 reserved for services
+	# Taken from FIFE version
+	NONE             =  0,
+	GOLD             =  1,
+	LAMB_WOOL        =  2,
+	TEXTILE          =  3,
+	BOARDS           =  4,
+	FOOD             =  5,
+	TOOLS            =  6,
+	BRICKS           =  7,
+	TREES            =  8,
+	GRASS            =  9,
+	WOOL             = 10,
+	FAITH            = 11,
+	WILDANIMALFOOD   = 12,
+	DEER_MEAT        = 13,
+	HAPPINESS        = 14,
+	POTATOES         = 15,
+	EDUCATION        = 16,
+	RAW_SUGAR        = 17,
+	SUGAR            = 18,
+	COMMUNITY        = 19,
+	RAW_CLAY         = 20,
+	CLAY             = 21,
+	LIQUOR           = 22,
+	CHARCOAL         = 23,
+	RAW_IRON         = 24,
+	IRON_ORE         = 25,
+	IRON_INGOTS      = 26,
+	GET_TOGETHER     = 27,
+	FISH             = 28,
+	SALT             = 29,
+	TOBACCO_PLANTS   = 30,
+	TOBACCO_LEAVES   = 31,
+	TOBACCO_PRODUCTS = 32,
+	CATTLE           = 33,
+	PIGS             = 34,
+	CATTLE_SLAUGHTER = 35,
+	PIGS_SLAUGHTER   = 36,
+	HERBS            = 37,
+	MEDICAL_HERBS    = 38,
+	ACORNS           = 39,
+	CANNON           = 40,
+	SWORD            = 41,
+	GRAIN            = 42,
+	CORN             = 43,
+	FLOUR            = 44,
+	SPICE_PLANTS     = 45,
+	SPICES           = 46,
+	CONDIMENTS       = 47,
+#	MARBLE_DEPOSIT   = GOLD, # 48
+#	MARBLE_TOPS      = GOLD, # 49
+#	COAL_DEPOSIT     = GOLD, # 50
+	STONE_DEPOSIT    = 51,
+	STONE_TOPS       = 52,
+	COCOA_BEANS      = 53,
+	COCOA            = 54,
+	CONFECTIONERY    = 55,
+	CANDLES          = 56,
+	VINES            = 57,
+	GRAPES           = 58,
+	ALVEARIES        = 59,
+	HONEYCOMBS       = 60,
+#	GOLD_DEPOSIT     = GOLD, # 61
+#	GOLD_ORE         = GOLD, # 62
+#	GOLD_INGOTS      = GOLD, # 63
+#	GEM_DEPOSIT      = GOLD, # 64
+#	ROUGH_GEMS       = GOLD, # 65
+#	GEMS             = GOLD, # 66
+#	SILVER_DEPOSIT   = GOLD, # 67
+#	SILVER_ORE       = GOLD, # 68
+#	SILVER_INGOTS    = GOLD, # 69
+#	COFFEE_PLANTS    = GOLD, # 70
+#	COFFEE_BEANS     = GOLD, # 71
+#	COFFEE           = GOLD, # 72
+#	TEA_PLANTS       = GOLD, # 73
+#	TEA_LEAVES       = GOLD, # 74
+#	TEA              = GOLD, # 75
+#	FLOWER_MEADOWS   = GOLD, # 76
+#	BLOSSOMS         = GOLD, # 77
+#	BRINE            = GOLD, # 78
+#	BRINE_DEPOSIT    = GOLD, # 79
+#	WHALES           = GOLD, # 80
+#	AMBERGRIS        = GOLD, # 81
+#	LAMP_OIL         = GOLD, # 82
+#	COTTON_PLANTS    = GOLD, # 83
+#	COTTON           = GOLD, # 84
+#	INDIGO_PLANTS    = GOLD, # 85
+#	INDIGO           = GOLD, # 86
+#	GARMENTS         = GOLD, # 87
+#	PERFUME          = GOLD, # 88
+	HOP_PLANTS       = 89,
+	HOPS             = 90,
+	BEER             = 91,
+	# 92-99 reserved for services
+#	REPRESENTATION   = GOLD, # 92
+#	SOCIETY          = GOLD, # 93
+#	FAITH_2          = GOLD, # 94
+#	EDUCATION_2      = GOLD, # 95
+	HYGIENE          = 96,
+#	RECREATION       = GOLD, # 97
+	BLACKDEATH       = 98,
+	FIRE             = 99,
+	# 92-99 reserved for services
 }
 
 enum Faction {
@@ -129,6 +130,7 @@ enum Faction {
 }
 
 const RESOURCE_TYPES = [
+	null,
 	preload("res://Assets/UI/Icons/Resources/32/001.png"),
 	preload("res://Assets/UI/Icons/Resources/32/002.png"),
 	preload("res://Assets/UI/Icons/Resources/32/003.png"),
@@ -176,9 +178,9 @@ const RESOURCE_TYPES = [
 	preload("res://Assets/UI/Icons/Resources/32/045.png"),
 	preload("res://Assets/UI/Icons/Resources/32/046.png"),
 	preload("res://Assets/UI/Icons/Resources/32/047.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/048.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/049.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/050.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/048.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/049.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/050.png"),
 	preload("res://Assets/UI/Icons/Resources/32/051.png"),
 	preload("res://Assets/UI/Icons/Resources/32/052.png"),
 	preload("res://Assets/UI/Icons/Resources/32/053.png"),
@@ -189,53 +191,43 @@ const RESOURCE_TYPES = [
 	preload("res://Assets/UI/Icons/Resources/32/058.png"),
 	preload("res://Assets/UI/Icons/Resources/32/059.png"),
 	preload("res://Assets/UI/Icons/Resources/32/060.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/061.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/062.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/063.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/064.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/065.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/066.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/067.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/068.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/069.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/061.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/062.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/063.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/064.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/065.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/066.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/067.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/068.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/069.png"),
 	preload("res://Assets/UI/Icons/Resources/32/070.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/061.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/062.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/063.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/064.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/065.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/066.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/067.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/068.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/069.png"),
-	preload("res://Assets/UI/Icons/Resources/32/070.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/071.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/072.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/073.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/074.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/075.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/076.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/077.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/078.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/079.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/080.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/081.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/082.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/083.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/084.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/085.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/086.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/087.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/088.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/071.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/072.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/073.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/074.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/075.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/076.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/077.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/078.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/079.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/080.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/081.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/082.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/083.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/084.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/085.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/086.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/087.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/088.png"),
 	preload("res://Assets/UI/Icons/Resources/32/089.png"),
 	preload("res://Assets/UI/Icons/Resources/32/090.png"),
 	preload("res://Assets/UI/Icons/Resources/32/091.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/092.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/093.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/094.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/095.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/092.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/093.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/094.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/095.png"),
 	preload("res://Assets/UI/Icons/Resources/32/096.png"),
-	#preload("res://Assets/UI/Icons/Resources/32/097.png"),
+	null,#preload("res://Assets/UI/Icons/Resources/32/097.png"),
 	preload("res://Assets/UI/Icons/Resources/32/098.png"),
 	preload("res://Assets/UI/Icons/Resources/32/099.png"),
 ]

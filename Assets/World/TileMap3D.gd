@@ -13,7 +13,7 @@ func get_tile_at_mouse_position() -> Vector2:
 
 	var tile_pos: Vector2
 	if raycast:
-		var cell_pos := world_to_map(Utils.map_2_to_3(raycast.position))
+		var cell_pos := world_to_map(raycast.position)
 		tile_pos = Utils.map_3_to_2(cell_pos)
 	else:
 		tile_pos = Vector2.ONE * -1
@@ -35,14 +35,14 @@ func set_tile_item(tile_pos: Vector2, tile_index: int, item_orientation: int = 0
 	set_cell_item(tile_pos.x, 0, tile_pos.y, tile_index, item_orientation)
 
 func get_used_tiles() -> Array:
-	var tiles: Array
+	var tiles := []
 	for cell in get_used_cells():
 		tiles.append(Utils.map_3_to_2(cell))
 
 	return tiles
 
 func get_used_tiles_by_item(item: int) -> Array:
-	var tiles: Array
+	var tiles := []
 	for tile in get_used_tiles():
 		if get_tile_item(tile) == item:
 			tiles.append(tile)

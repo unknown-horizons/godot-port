@@ -1,0 +1,184 @@
+[gd_scene load_steps=46 format=2]
+
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_single.png" type="Texture" id=1]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_abcef.png" type="Texture" id=2]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_abc.png" type="Texture" id=3]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_abcde.png" type="Texture" id=4]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_ab.png" type="Texture" id=5]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_ac.png" type="Texture" id=6]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_abcdeg.png" type="Texture" id=7]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_abcf.png" type="Texture" id=8]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_abcd.png" type="Texture" id=9]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_abcdefgh.png" type="Texture" id=10]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_abcdefg.png" type="Texture" id=11]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_a.png" type="Texture" id=12]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_abcdef.png" type="Texture" id=13]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_abe.png" type="Texture" id=14]
+[ext_resource path="res://Assets/World/Buildings/Streets/Sprites/gravel_path_abce.png" type="Texture" id=15]
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_transparent = true
+albedo_texture = ExtResource( 1 )
+
+[sub_resource type="PlaneMesh" id=2]
+material = SubResource( 1 )
+
+[sub_resource type="SpatialMaterial" id=3]
+flags_transparent = true
+albedo_texture = ExtResource( 12 )
+
+[sub_resource type="PlaneMesh" id=4]
+material = SubResource( 3 )
+
+[sub_resource type="SpatialMaterial" id=5]
+flags_transparent = true
+albedo_texture = ExtResource( 5 )
+
+[sub_resource type="PlaneMesh" id=6]
+material = SubResource( 5 )
+
+[sub_resource type="SpatialMaterial" id=7]
+flags_transparent = true
+albedo_texture = ExtResource( 3 )
+
+[sub_resource type="PlaneMesh" id=8]
+material = SubResource( 7 )
+
+[sub_resource type="SpatialMaterial" id=9]
+flags_transparent = true
+albedo_texture = ExtResource( 9 )
+
+[sub_resource type="PlaneMesh" id=10]
+material = SubResource( 9 )
+
+[sub_resource type="SpatialMaterial" id=11]
+flags_transparent = true
+albedo_texture = ExtResource( 4 )
+
+[sub_resource type="PlaneMesh" id=12]
+material = SubResource( 11 )
+
+[sub_resource type="SpatialMaterial" id=13]
+flags_transparent = true
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="PlaneMesh" id=14]
+material = SubResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=15]
+flags_transparent = true
+albedo_texture = ExtResource( 11 )
+
+[sub_resource type="PlaneMesh" id=16]
+material = SubResource( 15 )
+
+[sub_resource type="SpatialMaterial" id=17]
+flags_transparent = true
+albedo_texture = ExtResource( 10 )
+
+[sub_resource type="PlaneMesh" id=18]
+material = SubResource( 17 )
+
+[sub_resource type="SpatialMaterial" id=19]
+flags_transparent = true
+albedo_texture = ExtResource( 7 )
+
+[sub_resource type="PlaneMesh" id=20]
+material = SubResource( 19 )
+
+[sub_resource type="SpatialMaterial" id=21]
+flags_transparent = true
+albedo_texture = ExtResource( 15 )
+
+[sub_resource type="PlaneMesh" id=22]
+material = SubResource( 21 )
+
+[sub_resource type="SpatialMaterial" id=23]
+flags_transparent = true
+albedo_texture = ExtResource( 2 )
+
+[sub_resource type="PlaneMesh" id=24]
+material = SubResource( 23 )
+
+[sub_resource type="SpatialMaterial" id=25]
+flags_transparent = true
+albedo_texture = ExtResource( 8 )
+
+[sub_resource type="PlaneMesh" id=26]
+material = SubResource( 25 )
+
+[sub_resource type="SpatialMaterial" id=27]
+flags_transparent = true
+albedo_texture = ExtResource( 14 )
+
+[sub_resource type="PlaneMesh" id=28]
+material = SubResource( 27 )
+
+[sub_resource type="SpatialMaterial" id=29]
+flags_transparent = true
+albedo_texture = ExtResource( 6 )
+
+[sub_resource type="PlaneMesh" id=30]
+material = SubResource( 29 )
+
+[node name="GravelPathMeshes" type="Spatial"]
+
+[node name="gravel_path_single" type="MeshInstance" parent="."]
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="gravel_path_a" type="MeshInstance" parent="."]
+mesh = SubResource( 4 )
+material/0 = null
+
+[node name="gravel_path_ab" type="MeshInstance" parent="."]
+mesh = SubResource( 6 )
+material/0 = null
+
+[node name="gravel_path_abc" type="MeshInstance" parent="."]
+mesh = SubResource( 8 )
+material/0 = null
+
+[node name="gravel_path_abcd" type="MeshInstance" parent="."]
+mesh = SubResource( 10 )
+material/0 = null
+
+[node name="gravel_path_abcde" type="MeshInstance" parent="."]
+mesh = SubResource( 12 )
+material/0 = null
+
+[node name="gravel_path_abcdef" type="MeshInstance" parent="."]
+mesh = SubResource( 14 )
+material/0 = null
+
+[node name="gravel_path_abcdefg" type="MeshInstance" parent="."]
+mesh = SubResource( 16 )
+material/0 = null
+
+[node name="gravel_path_abcdefgh" type="MeshInstance" parent="."]
+mesh = SubResource( 18 )
+material/0 = null
+
+[node name="gravel_path_abcdeg" type="MeshInstance" parent="."]
+mesh = SubResource( 20 )
+material/0 = null
+
+[node name="gravel_path_abce" type="MeshInstance" parent="."]
+mesh = SubResource( 22 )
+material/0 = null
+
+[node name="gravel_path_abcef" type="MeshInstance" parent="."]
+mesh = SubResource( 24 )
+material/0 = null
+
+[node name="gravel_path_abcf" type="MeshInstance" parent="."]
+mesh = SubResource( 26 )
+material/0 = null
+
+[node name="gravel_path_abe" type="MeshInstance" parent="."]
+mesh = SubResource( 28 )
+material/0 = null
+
+[node name="gravel_path_ac" type="MeshInstance" parent="."]
+mesh = SubResource( 30 )
+material/0 = null

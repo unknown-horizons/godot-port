@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/World/Buildings/Agricultural/Alvearies/Alvearies.gd" type="Script" id=2]
+
+[node name="Alvearies" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Billboard" parent="." index="0"]
+offset = Vector2( 0, 42 )
+hframes = 5
+vframes = 4
+region_enabled = true
+region_rect = Rect2( 0, 0, 960, 768 )

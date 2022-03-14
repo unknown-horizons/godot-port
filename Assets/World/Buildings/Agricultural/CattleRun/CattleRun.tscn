@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/World/Buildings/Agricultural/CattleRun/CattleRun.gd" type="Script" id=3]
+[ext_resource path="res://Assets/World/Buildings/Agricultural/CattleRun/Sprites/CattleRun_work_45.png" type="Texture" id=4]
+
+[node name="CattleRun" instance=ExtResource( 1 )]
+script = ExtResource( 3 )
+
+[node name="Billboard" parent="." index="0"]
+offset = Vector2( -2, 46 )
+texture = ExtResource( 4 )
+hframes = 15
+vframes = 10
+region_enabled = true
+region_rect = Rect2( 0, 0, 2880, 1920 )

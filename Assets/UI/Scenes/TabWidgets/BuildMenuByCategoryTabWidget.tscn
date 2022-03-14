@@ -1,0 +1,708 @@
+[gd_scene load_steps=32 format=2]
+
+[ext_resource path="res://Assets/UI/Scenes/Labels/LabelEx.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/TabWidget.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Switches/Switches/ResidentialSwitchTabWidget.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Switches/Switches/MilitarySwitchTabWidget.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Switches/Switches/FieldsSwitchTabWidget.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Switches/Switches/AgriculturalSwitchTabWidget.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Switches/Switches/CompaniesSwitchTabWidget.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Assets/UI/Fonts/SmallFontItalic.tres" type="DynamicFont" id=8]
+[ext_resource path="res://Assets/UI/Fonts/TitleFontCapitalize.tres" type="DynamicFont" id=9]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildFireStationButton.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildMainSquareButton.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Assets/UI/Scenes/BuildMenuContainer.tscn" type="PackedScene" id=12]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildResidenceButton.tscn" type="PackedScene" id=13]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildSchoolButton.tscn" type="PackedScene" id=14]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildStorageButton.tscn" type="PackedScene" id=15]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildSignalFireButton.tscn" type="PackedScene" id=16]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildTrailButton.tscn" type="PackedScene" id=17]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildChapelButton.tscn" type="PackedScene" id=18]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildLookoutButton.tscn" type="PackedScene" id=19]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildWeaverButton.tscn" type="PackedScene" id=20]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildSugarFieldButton.tscn" type="PackedScene" id=21]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildPotatoFieldButton.tscn" type="PackedScene" id=22]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildFarmButton.tscn" type="PackedScene" id=23]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildPastureButton.tscn" type="PackedScene" id=24]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildBoatBuilderButton.tscn" type="PackedScene" id=25]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildDistilleryButton.tscn" type="PackedScene" id=26]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildLumberjackButton.tscn" type="PackedScene" id=27]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildClayPitButton.tscn" type="PackedScene" id=28]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildBrickyardButton.tscn" type="PackedScene" id=29]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildFishermanButton.tscn" type="PackedScene" id=30]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildButtons/BuildHunterButton.tscn" type="PackedScene" id=31]
+
+[node name="BuildMenuByCategoryTabWidget" instance=ExtResource( 2 )]
+
+[node name="Body" parent="WidgetDetail" index="1"]
+margin_bottom = 405.0
+rect_min_size = Vector2( 0, 345 )
+
+[node name="ResidentialSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="0" instance=ExtResource( 3 )]
+margin_bottom = 46.0
+rect_min_size = Vector2( 40, 46 )
+
+[node name="FieldsSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="1" instance=ExtResource( 5 )]
+margin_top = 50.0
+margin_bottom = 96.0
+rect_min_size = Vector2( 40, 46 )
+
+[node name="AgriculturalSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="2" instance=ExtResource( 6 )]
+margin_top = 100.0
+margin_bottom = 146.0
+rect_min_size = Vector2( 40, 46 )
+
+[node name="CompaniesSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="3" instance=ExtResource( 7 )]
+margin_top = 150.0
+margin_bottom = 196.0
+rect_min_size = Vector2( 40, 46 )
+
+[node name="MilitarySwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="4" instance=ExtResource( 4 )]
+margin_top = 200.0
+margin_bottom = 246.0
+rect_min_size = Vector2( 40, 46 )
+
+[node name="Settlement" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="0"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Settlement" index="0" instance=ExtResource( 1 )]
+margin_right = 217.0
+margin_bottom = 31.0
+custom_fonts/font = ExtResource( 9 )
+text = "Settlement"
+align = 1
+font_style = 0
+
+[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/Settlement" index="1"]
+margin_top = 35.0
+margin_right = 217.0
+margin_bottom = 39.0
+
+[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/Settlement" index="2"]
+margin_top = 43.0
+margin_right = 217.0
+margin_bottom = 345.0
+custom_constants/margin_left = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer" index="0"]
+margin_left = 5.0
+margin_right = 217.0
+margin_bottom = 302.0
+custom_constants/separation = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer" index="0"]
+margin_right = 212.0
+margin_bottom = 68.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource( 1 )]
+margin_right = 212.0
+custom_fonts/font = ExtResource( 8 )
+text = "Infrastructure"
+valign = 2
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_right = 212.0
+margin_bottom = 68.0
+
+[node name="BuildTrailButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource( 17 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 46.0
+margin_bottom = 46.0
+
+[node name="BuildStorageButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="1" instance=ExtResource( 15 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 54.0
+margin_top = 0.0
+margin_right = 100.0
+margin_bottom = 46.0
+
+[node name="BuildLookoutButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="2" instance=ExtResource( 19 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 108.0
+margin_top = 0.0
+margin_right = 154.0
+margin_bottom = 46.0
+
+[node name="BuildSignalFireButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="3" instance=ExtResource( 16 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 162.0
+margin_top = 0.0
+margin_right = 208.0
+margin_bottom = 46.0
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer" index="1"]
+margin_top = 78.0
+margin_right = 212.0
+margin_bottom = 146.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource( 1 )]
+margin_right = 212.0
+custom_fonts/font = ExtResource( 8 )
+text = "Residential"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_right = 212.0
+margin_bottom = 68.0
+
+[node name="BuildResidenceButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer2/BuildMenuContainer" index="0" instance=ExtResource( 13 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 46.0
+margin_bottom = 46.0
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer" index="2"]
+margin_top = 156.0
+margin_right = 212.0
+margin_bottom = 224.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource( 1 )]
+margin_right = 212.0
+custom_fonts/font = ExtResource( 8 )
+text = "Services"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_right = 212.0
+margin_bottom = 68.0
+
+[node name="BuildMainSquareButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="0" instance=ExtResource( 11 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 46.0
+margin_bottom = 46.0
+
+[node name="BuildChapelButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="1" instance=ExtResource( 18 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 55.0
+margin_top = 0.0
+margin_right = 101.0
+margin_bottom = 46.0
+
+[node name="BuildSchoolButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="2" instance=ExtResource( 14 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 110.0
+margin_top = 0.0
+margin_right = 156.0
+margin_bottom = 46.0
+
+[node name="VBoxContainer4" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer" index="3"]
+margin_top = 234.0
+margin_right = 212.0
+margin_bottom = 302.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer4" index="0" instance=ExtResource( 1 )]
+margin_right = 212.0
+custom_fonts/font = ExtResource( 8 )
+text = "Precaution"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer4" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_right = 212.0
+margin_bottom = 68.0
+
+[node name="BuildFireStationButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer4/BuildMenuContainer" index="0" instance=ExtResource( 10 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 46.0
+margin_bottom = 46.0
+
+[node name="Fields" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="1"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Fields" index="0" instance=ExtResource( 1 )]
+margin_right = 217.0
+margin_bottom = 31.0
+custom_fonts/font = ExtResource( 9 )
+text = "Fields"
+align = 1
+font_style = 0
+
+[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/Fields" index="1"]
+margin_top = 35.0
+margin_right = 217.0
+margin_bottom = 39.0
+
+[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/Fields" index="2"]
+margin_top = 43.0
+margin_right = 217.0
+margin_bottom = 327.0
+custom_constants/margin_left = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer" index="0"]
+margin_left = 5.0
+margin_right = 217.0
+margin_bottom = 284.0
+custom_constants/separation = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer" index="0"]
+margin_right = 212.0
+margin_bottom = 68.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource( 1 )]
+margin_right = 212.0
+custom_fonts/font = ExtResource( 8 )
+text = "Pioneers"
+valign = 2
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_right = 212.0
+margin_bottom = 68.0
+
+[node name="BuildFarmButton" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource( 23 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 46.0
+margin_bottom = 46.0
+
+[node name="BuildPastureButton" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="1" instance=ExtResource( 24 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 54.0
+margin_top = 0.0
+margin_right = 100.0
+margin_bottom = 46.0
+
+[node name="BuildPotatoFieldButton" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="2" instance=ExtResource( 22 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 108.0
+margin_top = 0.0
+margin_right = 154.0
+margin_bottom = 46.0
+
+[node name="BuildSugarFieldButton" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="3" instance=ExtResource( 21 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 162.0
+margin_top = 0.0
+margin_right = 208.0
+margin_bottom = 46.0
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer" index="1"]
+margin_top = 78.0
+margin_right = 212.0
+margin_bottom = 140.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource( 1 )]
+margin_right = 212.0
+custom_fonts/font = ExtResource( 8 )
+text = "Settlers"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_right = 212.0
+margin_bottom = 62.0
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer" index="2"]
+margin_top = 150.0
+margin_right = 212.0
+margin_bottom = 212.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource( 1 )]
+margin_right = 212.0
+custom_fonts/font = ExtResource( 8 )
+text = "Citizens"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_right = 212.0
+margin_bottom = 62.0
+
+[node name="VBoxContainer4" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer" index="3"]
+margin_top = 222.0
+margin_right = 212.0
+margin_bottom = 284.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer4" index="0" instance=ExtResource( 1 )]
+margin_right = 212.0
+custom_fonts/font = ExtResource( 8 )
+text = "Merchants"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer4" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_right = 212.0
+margin_bottom = 62.0
+
+[node name="Agriculture" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="2"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Agriculture" index="0" instance=ExtResource( 1 )]
+margin_right = 217.0
+margin_bottom = 31.0
+custom_fonts/font = ExtResource( 9 )
+text = "Agriculture"
+align = 1
+font_style = 0
+
+[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/Agriculture" index="1"]
+margin_top = 35.0
+margin_right = 217.0
+margin_bottom = 39.0
+
+[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/Agriculture" index="2"]
+margin_top = 43.0
+margin_right = 217.0
+margin_bottom = 267.0
+custom_constants/margin_left = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer" index="0"]
+margin_left = 5.0
+margin_right = 217.0
+margin_bottom = 224.0
+custom_constants/separation = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer" index="0"]
+margin_right = 207.0
+margin_bottom = 68.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource( 1 )]
+margin_right = 207.0
+custom_fonts/font = ExtResource( 8 )
+text = "Sea"
+valign = 2
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_bottom = 68.0
+
+[node name="BuildFishermanButton" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource( 30 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 46.0
+margin_bottom = 46.0
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer" index="1"]
+margin_top = 78.0
+margin_right = 207.0
+margin_bottom = 146.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource( 1 )]
+margin_right = 207.0
+custom_fonts/font = ExtResource( 8 )
+text = "Food"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_bottom = 68.0
+
+[node name="BuildHunterButton" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer2/BuildMenuContainer" index="0" instance=ExtResource( 31 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 46.0
+margin_bottom = 46.0
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer" index="2"]
+margin_top = 156.0
+margin_right = 207.0
+margin_bottom = 224.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource( 1 )]
+margin_right = 207.0
+custom_fonts/font = ExtResource( 8 )
+text = "Workshops"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_bottom = 68.0
+
+[node name="BuildWeaverButton" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="0" instance=ExtResource( 20 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 46.0
+margin_bottom = 46.0
+
+[node name="BuildDistilleryButton" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="1" instance=ExtResource( 26 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 54.0
+margin_top = 0.0
+margin_right = 100.0
+margin_bottom = 46.0
+
+[node name="Companies" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="3"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Companies" index="0" instance=ExtResource( 1 )]
+margin_right = 217.0
+margin_bottom = 31.0
+custom_fonts/font = ExtResource( 9 )
+text = "Companies"
+align = 1
+font_style = 0
+
+[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/Companies" index="1"]
+margin_top = 35.0
+margin_right = 217.0
+margin_bottom = 39.0
+
+[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/Companies" index="2"]
+margin_top = 43.0
+margin_right = 217.0
+margin_bottom = 267.0
+custom_constants/margin_left = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer" index="0"]
+margin_left = 5.0
+margin_right = 217.0
+margin_bottom = 224.0
+custom_constants/separation = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer" index="0"]
+margin_right = 207.0
+margin_bottom = 68.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource( 1 )]
+margin_right = 207.0
+custom_fonts/font = ExtResource( 8 )
+text = "Wood"
+valign = 2
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_bottom = 68.0
+
+[node name="BuildLumberjackButton" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource( 27 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 46.0
+margin_bottom = 46.0
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer" index="1"]
+margin_top = 78.0
+margin_right = 207.0
+margin_bottom = 146.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource( 1 )]
+margin_right = 207.0
+custom_fonts/font = ExtResource( 8 )
+text = "Mining"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_bottom = 68.0
+
+[node name="BuildClayPitButton" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer2/BuildMenuContainer" index="0" instance=ExtResource( 28 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 46.0
+margin_bottom = 46.0
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer" index="2"]
+margin_top = 156.0
+margin_right = 207.0
+margin_bottom = 224.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource( 1 )]
+margin_right = 207.0
+custom_fonts/font = ExtResource( 8 )
+text = "Workshops"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_bottom = 68.0
+
+[node name="BuildBrickyardButton" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="0" instance=ExtResource( 29 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 46.0
+margin_bottom = 46.0
+
+[node name="Military" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="4"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Military" index="0" instance=ExtResource( 1 )]
+margin_right = 217.0
+margin_bottom = 31.0
+custom_fonts/font = ExtResource( 9 )
+text = "Military"
+align = 1
+font_style = 0
+
+[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/Military" index="1"]
+margin_top = 35.0
+margin_right = 217.0
+margin_bottom = 39.0
+
+[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/Military" index="2"]
+margin_top = 43.0
+margin_right = 217.0
+margin_bottom = 327.0
+custom_constants/margin_left = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer" index="0"]
+margin_left = 5.0
+margin_right = 217.0
+margin_bottom = 284.0
+custom_constants/separation = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer" index="0"]
+margin_right = 207.0
+margin_bottom = 62.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource( 1 )]
+margin_right = 207.0
+custom_fonts/font = ExtResource( 8 )
+text = "Infrastructure"
+valign = 2
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_bottom = 62.0
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer" index="1"]
+margin_top = 72.0
+margin_right = 207.0
+margin_bottom = 134.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource( 1 )]
+margin_right = 207.0
+custom_fonts/font = ExtResource( 8 )
+text = "Workshops"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_bottom = 62.0
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer" index="2"]
+margin_top = 144.0
+margin_right = 207.0
+margin_bottom = 206.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource( 1 )]
+margin_right = 207.0
+custom_fonts/font = ExtResource( 8 )
+text = "Fortifications"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_bottom = 62.0
+
+[node name="VBoxContainer4" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer" index="3"]
+margin_top = 216.0
+margin_right = 207.0
+margin_bottom = 284.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer4" index="0" instance=ExtResource( 1 )]
+margin_right = 207.0
+custom_fonts/font = ExtResource( 8 )
+text = "Military service"
+font_style = 8
+
+[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer4" index="1" instance=ExtResource( 12 )]
+margin_top = 22.0
+margin_bottom = 68.0
+
+[node name="BuildBoatBuilderButton" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer4/BuildMenuContainer" index="0" instance=ExtResource( 25 )]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 46.0
+margin_bottom = 46.0
+
+[node name="TextureRect2" parent="WidgetDetail" index="2"]
+margin_top = 405.0
+margin_bottom = 493.0
+
+[editable path="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer"]
+[editable path="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer"]
+[editable path="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer"]

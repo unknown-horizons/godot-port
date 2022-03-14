@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/World/Buildings/Agricultural/Pasture/Sprites/Pasture_work_45.png" type="Texture" id=3]
+[ext_resource path="res://Assets/World/Buildings/Agricultural/Pasture/Pasture.gd" type="Script" id=4]
+
+[node name="Pasture" instance=ExtResource( 1 )]
+script = ExtResource( 4 )
+
+[node name="Billboard" parent="." index="0"]
+offset = Vector2( 0, 42 )
+texture = ExtResource( 3 )
+hframes = 20
+vframes = 10
+region_enabled = true
+region_rect = Rect2( 0, 0, 3840, 1920 )

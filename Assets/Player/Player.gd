@@ -18,5 +18,5 @@ func _ready() -> void:
 
 func _on_Game_notification(message_type, message_text) -> void:
 	if camera != null:
-		var hud = camera.get_node("PlayerHUD")
+		var hud := camera.get_node("PlayerHUD") as PlayerHUD
 		hud.raise_notification(message_type, message_text)

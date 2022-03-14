@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/World/Buildings/Agricultural/HopField/HopField.gd" type="Script" id=2]
+[ext_resource path="res://Assets/World/Buildings/Agricultural/HopField/Sprites/HopField_idle.png" type="Texture" id=3]
+
+[node name="HopField" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Billboard" parent="." index="0"]
+offset = Vector2( 0, 48 )
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 384, 384 )

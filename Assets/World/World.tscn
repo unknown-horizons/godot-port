@@ -6,7 +6,7 @@
 [ext_resource path="res://Assets/World/Game.gd" type="Script" id=5]
 [ext_resource path="res://Assets/World/Terrain.gd" type="Script" id=7]
 [ext_resource path="res://Assets/World/AStarMap.gd" type="Script" id=8]
-[ext_resource path="res://Assets/World/Buildings/Sailors/Streets/TrailMeshLibrary.meshlib" type="MeshLibrary" id=9]
+[ext_resource path="res://Assets/World/Buildings/Streets/TrailMeshLibrary.meshlib" type="MeshLibrary" id=9]
 [ext_resource path="res://Assets/World/Streets.gd" type="Script" id=10]
 
 [sub_resource type="BoxShape" id=1]
@@ -74,5 +74,3 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 100, 0, 100 )
 [node name="Player" type="Spatial" parent="Buildings"]
 
 [connection signal="map_size_changed" from="AStarMap" to="AStarMap/Terrain" method="_on_AStarMap_map_size_changed"]
-
-[editable path="PlayerCamera"]

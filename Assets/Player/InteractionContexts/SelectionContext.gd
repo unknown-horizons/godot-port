@@ -1,8 +1,13 @@
 extends InteractionContext
 class_name SelectionContext
 
-signal selected
+signal selected(new_selection) # Array
 signal deselected
+
+enum SelectionType {
+	UNIT,
+	BUILDING,
+}
 
 onready var _parent := get_parent()
 
@@ -23,10 +28,10 @@ func get_selected_units(top_left: Vector2, bottom_right: Vector2) -> Array:
 	var box = Rect2(top_left, bottom_right - top_left)
 	var selected_units: Array = []
 	for unit in get_tree().get_nodes_in_group("units"):
-		if unit.faction == _parent.get_parent().player.faction:
-			var u_pos := get_viewport().get_camera().unproject_position(unit.global_transform.origin)
-			if box.has_point(u_pos):
-				print_debug("Selected unit: %s" % unit)
+		if unit.faction == owner.player.faction:
+			var unit_pos := get_viewport().get_camera().unproject_position(unit.global_transform.origin)
+			if box.has_point(unit_pos):
+				print("Selected unit: %s" % unit.name)
 				selected_units.append(unit)
 	return selected_units
 
@@ -34,14 +39,15 @@ func _on_ia_alt_command_pressed(target: Node, position: Vector2) -> void:
 	# Start selection
 	#print_debug("Start selection")
 	sel_pos_start = position
-	_parent.set_sel_pos_start(position)
+
+	_parent.sel_pos_start = get_viewport().get_mouse_position()
 	_parent.show()
 
 func _on_ia_alt_command_released(target: Node, position: Vector2) -> void:
 	# End selection
 	#print_debug("End selection")
 
-	if target == null:
+	if not _parent.visible:
 		return
 
 	sel_pos_end = position
@@ -49,7 +55,7 @@ func _on_ia_alt_command_released(target: Node, position: Vector2) -> void:
 	var top_left: Vector2 = get_viewport().get_camera().unproject_position(Utils.map_2_to_3(sel_pos_start))
 	var bottom_right: Vector2 = get_viewport().get_camera().unproject_position(Utils.map_2_to_3(sel_pos_end))
 	if top_left.distance_to(bottom_right) <= selection_tolerance:
-		if target.is_in_group("units"):
+		if target != null and target is Unit or target is Building: #target.is_in_group("units"):
 			selection = [target]
 	else:
 		selection = get_selected_units(top_left, bottom_right)
@@ -62,5 +68,5 @@ func _on_ia_alt_command_released(target: Node, position: Vector2) -> void:
 
 func _on_ia_main_command_pressed(target: Node, position: Vector2) -> void:
 	# Abort selection
-	print_debug("Abort selection")
+	#print_debug("Abort selection")
 	_parent.hide()

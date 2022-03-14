@@ -78,7 +78,7 @@ func play_snd(snd_name: String, stream: AudioStream = null) -> void:
 
 	# Otherwise play it through the generic AudioStreamPlayer
 	elif SOUNDS[snd_name]:
-		stream = SOUNDS[snd_name]
+		self.stream = SOUNDS[snd_name]
 		#if not name: # "@@2"
 		#	add_child(self)
 		play()
