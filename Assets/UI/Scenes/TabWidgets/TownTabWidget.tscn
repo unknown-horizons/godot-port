@@ -6,6 +6,9 @@
 
 [node name="TownTabWidget" instance=ExtResource( 3 )]
 
+[node name="ZoomOutButton" parent="WidgetTop/ZoomControls" index="1"]
+rect_pivot_offset = Vector2( 14, 14 )
+
 [node name="Body" parent="WidgetDetail" index="1"]
 margin_bottom = 376.0
 rect_min_size = Vector2( 0, 316 )

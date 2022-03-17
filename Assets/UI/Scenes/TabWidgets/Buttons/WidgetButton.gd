@@ -128,6 +128,9 @@ func _on_ActionButton_mouse_exited() -> void:
 	prints("exited")
 
 func _on_TextureRect_gui_input(_event: InputEvent) -> void:
+	if not texture_rect.visible:
+		return
+
 	if rect_size <= texture_rect.rect_size:
 		if _is_pixel_opaque():
 			#mouse_filter = Control.MOUSE_FILTER_STOP

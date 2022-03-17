@@ -138,6 +138,7 @@ func create_buoy(target_pos: Vector2) -> void:
 		buoy.queue_free()
 	buoy = Buoy.instance()
 	buoy.set_translation(Utils.map_2_to_3(target_pos))
+	buoy.translate(Vector3(0, 0.2, 0))
 	world.add_child(buoy)
 
 func destroy_buoy() -> void:

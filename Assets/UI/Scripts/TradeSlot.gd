@@ -11,15 +11,15 @@ func update_display() -> void:
 
 	.update_display()
 
-	if not label.visible and not texture_rect2.visible:
-		texture_rect.texture = NONE_TEXTURE
-		texture_rect.show()
+	if not label.visible and not texture_rect.visible:
+		resource_item.texture = NONE_TEXTURE
+		resource_item.show()
 		v_slider.hide()
 
 	else:
-		texture_rect.show()
+		resource_item.show()
 		label.show()
-		texture_rect2.show()
+		texture_rect.show()
 		v_slider.show()
 
 func _on_ready() -> void:

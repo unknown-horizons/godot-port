@@ -3,7 +3,6 @@ class_name BookMenu
 
 #signal tab_index_changed
 
-# warning-ignore:unused_class_variable
 var parent = null
 
 export(bool) var has_delete_button setget set_has_delete_button
@@ -22,7 +21,6 @@ func _ready() -> void:
 
 			page_control.visible = true
 
-	# warning-ignore:return_value_discarded
 	#connect("tab_index_changed", self, "_on_Pages_tab_changed")
 	pages.connect("tab_changed", self, "_on_Pages_tab_changed")
 
@@ -84,7 +82,6 @@ func set_has_ok_button(new_has_ok_button: bool) -> void:
 
 func _on_PrevButton_pressed() -> void:
 	#prints("_on_PrevButton_pressed", "current_tab:", pages.current_tab)
-	Audio.play_snd_click()
 
 	pages.current_tab -= 1
 	#emit_signal("tab_index_changed")
@@ -92,7 +89,6 @@ func _on_PrevButton_pressed() -> void:
 
 func _on_NextButton_pressed() -> void:
 	#prints("_on_NextButton_pressed", "current_tab:", pages.current_tab)
-	Audio.play_snd_click()
 
 	pages.current_tab += 1
 	#emit_signal("tab_index_changed")

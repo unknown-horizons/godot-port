@@ -11,8 +11,7 @@ margin_right = 293.0
 margin_bottom = 30.0
 script = ExtResource( 2 )
 __meta__ = {
-"_edit_group_": true,
-"_edit_use_anchors_": false
+"_edit_group_": true
 }
 
 [node name="LabelEx" parent="." instance=ExtResource( 5 )]
@@ -37,6 +36,7 @@ script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
 [connection signal="item_focused" from="OptionButton" to="." method="_on_OptionButton_item_focused"]
 [connection signal="item_selected" from="OptionButton" to="." method="_on_OptionButton_item_selected"]
 [connection signal="item_selected" from="OptionButton" to="OptionButton" method="_on_OptionButton_item_selected"]

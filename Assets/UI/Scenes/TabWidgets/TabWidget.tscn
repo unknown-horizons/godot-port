@@ -261,6 +261,7 @@ __meta__ = {
 "_edit_lock_": true
 }
 
+[connection signal="visibility_changed" from="." to="." method="_on_TabWidget_visibility_changed"]
 [connection signal="pressed" from="WidgetTop/TearButton" to="." method="_on_TearButton_pressed"]
 [connection signal="pressed" from="WidgetTop/LogbookButton" to="." method="_on_LogbookButton_pressed"]
 [connection signal="pressed" from="WidgetTop/BuildMenuButton" to="." method="_on_BuildMenuButton_pressed"]
