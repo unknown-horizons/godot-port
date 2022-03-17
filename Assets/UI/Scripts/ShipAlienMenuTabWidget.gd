@@ -10,3 +10,14 @@ func _ready() -> void:
 		return
 
 	faction_indicator.texture = Global.FACTION_FLAGS[Global.faction]
+
+func update_data(context_data: Dictionary) -> void:
+	for data in context_data:
+		prints("data:", data) # TownName
+		var node = find_node(data)
+
+		if node is Label:
+			node.text = context_data[data]
+	
+		if (data == "FactionIndicator"):
+			faction_indicator.texture = context_data[data]
