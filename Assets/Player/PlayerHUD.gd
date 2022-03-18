@@ -142,6 +142,7 @@ func _on_PlayerCamera_selected(selected_entities: Array) -> void:
 				new_context = UIContext.SHIP_ALIEN
 			context_data = {
 				"FactionIndicator":Global.FACTION_FLAGS[entity.faction],
+				"Caption":entity.unit_name
 				}
 			break
 		if entity is Building:
