@@ -12,6 +12,7 @@ enum UIContext {
 	NONE,
 	TROOP,
 	SHIP,
+	SHIP_FOREIGN,
 	BUILDING,
 	BAKERY,
 	BARRACKS,
@@ -135,7 +136,16 @@ func _on_PlayerCamera_selected(selected_entities: Array) -> void:
 			new_context = UIContext.TROOP
 			break
 		if entity is Ship:
-			new_context = UIContext.SHIP
+			if entity.faction == Global.Game.player.faction:
+				new_context = UIContext.SHIP
+			else:
+				new_context = UIContext.SHIP_FOREIGN
+
+			context_data = {
+				"FactionIndicator": Global.FACTION_FLAGS[entity.faction],
+				"Caption": entity.unit_name,
+			}
+
 			break
 		if entity is Building:
 			new_context = _get_context_type(entity)

@@ -1,0 +1,69 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Assets/UI/Fonts/TitleFontCapitalizeInline.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Assets/UI/Images/TabWidget/Emblems/emblem_red.png" type="Texture" id=2]
+[ext_resource path="res://Assets/UI/Scenes/Caption.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/TabWidget.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Assets/UI/Icons/TabWidget/Ship/ship_inv_a.png" type="Texture" id=5]
+[ext_resource path="res://Assets/UI/Scripts/ShipForeignMenuTabWidget.gd" type="Script" id=6]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Switches/Switches/ShipSwitchTabWidget.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Assets/UI/Scenes/HSeparator.tscn" type="PackedScene" id=8]
+
+[node name="ShipForeignMenuTabWidget" instance=ExtResource( 4 )]
+script = ExtResource( 6 )
+
+[node name="Body" parent="WidgetDetail" index="1"]
+margin_bottom = 117.0
+rect_min_size = Vector2( 0, 57 )
+
+[node name="ShipSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="0" instance=ExtResource( 7 )]
+texture_hover = ExtResource( 5 )
+
+[node name="ShipMenu" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="0"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/ShipMenu" index="0"]
+margin_right = 37.0
+margin_bottom = 24.0
+size_flags_horizontal = 0
+custom_constants/margin_left = 5
+
+[node name="FactionIndicator" type="TextureRect" parent="WidgetDetail/Body/TabContainer/ShipMenu/MarginContainer" index="0"]
+margin_left = 5.0
+margin_right = 37.0
+margin_bottom = 24.0
+rect_min_size = Vector2( 32, 24 )
+size_flags_horizontal = 0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Caption" parent="WidgetDetail/Body/TabContainer/ShipMenu" index="1" instance=ExtResource( 3 )]
+margin_top = 28.0
+margin_right = 217.0
+margin_bottom = 49.0
+custom_constants/shadow_offset_y = 10
+custom_fonts/font = ExtResource( 1 )
+text = "Unknown Beauty"
+
+[node name="HSeparator" parent="WidgetDetail/Body/TabContainer/ShipMenu" index="2" instance=ExtResource( 8 )]
+margin_top = 53.0
+margin_right = 217.0
+margin_bottom = 57.0
+
+[node name="HSeparator2" parent="WidgetDetail/Body/TabContainer/ShipMenu" index="3" instance=ExtResource( 8 )]
+margin_top = 61.0
+margin_right = 217.0
+margin_bottom = 65.0
+
+[node name="TradeMenu" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="1"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="TextureRect2" parent="WidgetDetail" index="2"]
+margin_top = 117.0
+margin_bottom = 205.0
