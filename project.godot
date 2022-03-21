@@ -385,9 +385,9 @@ _global_script_classes=[ {
 "path": "res://Assets/World/Units/Ships/Ship.gd"
 }, {
 "base": "TabWidget",
-"class": "ShipAlienMenuTabWidget",
+"class": "ShipForeignMenuTabWidget",
 "language": "GDScript",
-"path": "res://Assets/UI/Scripts/ShipAlienMenuTabWidget.gd"
+"path": "res://Assets/UI/Scripts/ShipForeignMenuTabWidget.gd"
 }, {
 "base": "TabWidget",
 "class": "ShipMenuTabWidget",
@@ -630,7 +630,7 @@ _global_script_class_icons={
 "School": "",
 "SelectionContext": "",
 "Ship": "",
-"ShipAlienMenuTabWidget": "",
+"ShipForeignMenuTabWidget": "",
 "ShipMenuTabWidget": "",
 "SignalFire": "",
 "Smeltery": "",

@@ -1,6 +1,6 @@
 tool
 extends TabWidget
-class_name ShipAlienMenuTabWidget
+class_name ShipForeignMenuTabWidget
 
 #onready var faction_indicator = $WidgetDetail/Body/ShipMenu/MarginContainer/FactionIndicator
 onready var faction_indicator = find_node("FactionIndicator")
@@ -18,6 +18,6 @@ func update_data(context_data: Dictionary) -> void:
 
 		if node is Label:
 			node.text = context_data[data]
-	
-		if (data == "FactionIndicator"):
+
+		if data == "FactionIndicator":
 			faction_indicator.texture = context_data[data]

@@ -44,7 +44,7 @@
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/WineryTabWidget.tscn" type="PackedScene" id=42]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/WoodenTowerTabWidget.tscn" type="PackedScene" id=43]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/WindmillTabWidget.tscn" type="PackedScene" id=44]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/ShipAlienMenuTabWidget.tscn" type="PackedScene" id=45]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/ShipForeignMenuTabWidget.tscn" type="PackedScene" id=45]
 
 [node name="PlayerHUD" type="Control"]
 anchor_right = 1.0
@@ -134,7 +134,7 @@ anchor_right = 0.0
 margin_left = 0.0
 margin_right = 251.0
 
-[node name="ShipAlienMenuTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 45 )]
+[node name="ShipForeignMenuTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 45 )]
 visible = false
 
 [node name="BuildingMenuTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 6 )]
