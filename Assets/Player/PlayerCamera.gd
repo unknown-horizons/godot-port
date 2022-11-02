@@ -125,6 +125,8 @@ func set_selection(new_selection: Array) -> void:
 
 func unset_selection() -> void:
 	if not selected_entities:
+		# close build menu when click on any free place
+		emit_signal("unselected")
 		return
 
 	for entity in selected_entities:
@@ -169,7 +171,9 @@ func _on_PlayerHUD_button_logbook_pressed() -> void:
 
 func _on_PlayerHUD_button_build_menu_pressed() -> void:
 	prints("TODO: Open Build Menu - select tile context for now")
-	switch_context(find_node("TileContext"))
+	# switch_context(find_node("TileContext"))
+	emit_signal("selected", ["BuildMenu"])
+	# switch_context(find_node("TileContext"))
 
 func _on_PlayerHUD_button_diplomacy_pressed() -> void:
 	prints("TODO: Open Diplomacy Menu")

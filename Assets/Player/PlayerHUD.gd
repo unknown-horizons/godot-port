@@ -51,6 +51,7 @@ enum UIContext {
 	WINDMILL,
 	WINERY,
 	WOODEN_TOWER,
+	BUILD
 }
 
 #export(Array, NodePath) var ui_contexts
@@ -132,6 +133,9 @@ func _on_PlayerCamera_selected(selected_entities: Array) -> void:
 
 	var new_context = UIContext.NONE
 	for entity in selected_entities:
+		if entity is String:
+			new_context = UIContext.BUILD
+			break
 		if entity is Troop:
 			new_context = UIContext.TROOP
 			break

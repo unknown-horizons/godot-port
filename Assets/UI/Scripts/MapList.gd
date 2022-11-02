@@ -7,6 +7,8 @@ var maps = {
 }
 
 func _ready() -> void:
+	Global.map = maps["WorldDev"]
+
 	var index = 0
 	for map in maps:
 		add_item(map)
