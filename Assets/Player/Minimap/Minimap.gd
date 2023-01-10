@@ -41,5 +41,5 @@ func _ready():
 
 func world_to_minimap_position(world_position : Vector3) -> Vector2:
 	var map_position := terrain.world_to_map(world_position)
-	print(scale)
+	#print(scale)
 	return Vector2(map_position.x, map_position.z)
