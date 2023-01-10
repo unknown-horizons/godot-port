@@ -18,7 +18,7 @@
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/GameMenuButton.tscn" type="PackedScene" id=16]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/RotateRightButton.tscn" type="PackedScene" id=17]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/ZoomInButton.tscn" type="PackedScene" id=18]
-[ext_resource path="res://Assets/Player/Minimap.tscn" type="PackedScene" id=19]
+[ext_resource path="res://Assets/Player/Minimap/Minimap.tscn" type="PackedScene" id=19]
 
 [node name="TabWidget" type="Control"]
 anchor_left = 0.5
@@ -44,8 +44,6 @@ margin_bottom = 204.0
 rect_rotation = -45.0
 rect_scale = Vector2( 0.6, 0.6 )
 rect_pivot_offset = Vector2( 100, 100 )
-water_color = Color( 0, 0.45098, 0.776471, 1 )
-ground_color = Color( 0.541176, 0.364706, 0.109804, 1 )
 
 [node name="WidgetTop" type="TextureRect" parent="."]
 anchor_left = 0.5
