@@ -25,7 +25,7 @@ func draw_layer():
 	minimap = get_parent() as Minimap
 	var buildings_node : Spatial = get_tree().current_scene.get_node("Buildings")
 	
-	# get warehoused and their locations
+	# create an array of warehouse locations
 	for player in buildings_node.get_children():
 		for building in player.get_children():
 			if building is Warehouse:
