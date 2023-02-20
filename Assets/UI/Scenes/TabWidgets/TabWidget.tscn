@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://Assets/UI/Fonts/SmallFontItalic.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Assets/UI/Scripts/TabWidget.gd" type="Script" id=2]
@@ -18,6 +18,7 @@
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/GameMenuButton.tscn" type="PackedScene" id=16]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/RotateRightButton.tscn" type="PackedScene" id=17]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/ZoomInButton.tscn" type="PackedScene" id=18]
+[ext_resource path="res://Assets/Player/Minimap/Minimap.tscn" type="PackedScene" id=19]
 
 [node name="TabWidget" type="Control"]
 anchor_left = 0.5
@@ -32,6 +33,17 @@ script = ExtResource( 2 )
 __meta__ = {
 "_edit_lock_": true
 }
+
+[node name="Minimap" parent="." instance=ExtResource( 19 )]
+anchor_top = 0.0
+anchor_bottom = 0.0
+margin_left = -100.0
+margin_top = 4.0
+margin_right = 100.0
+margin_bottom = 204.0
+rect_rotation = -45.0
+rect_scale = Vector2( 0.6, 0.6 )
+rect_pivot_offset = Vector2( 100, 100 )
 
 [node name="WidgetTop" type="TextureRect" parent="."]
 anchor_left = 0.5
