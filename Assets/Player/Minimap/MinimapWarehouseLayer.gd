@@ -1,30 +1,27 @@
 extends MinimapLayer
 class_name MinimapWarehouseLayer
 
+export var warehouse_icon: Texture
+export var warehouse_icon_scale: Vector2
 
-export var warehouse_icon : Texture
-export var warehouse_icon_scale : Vector2
-
-
-var warehouses : Array
-var minimap : Minimap
-
+var warehouses: Array
+var minimap: Minimap
 
 func _draw():
-	if minimap == null: return;
-	
+	if minimap == null:
+		return
+
 	for warehouse in warehouses:
-		draw_set_transform(warehouse, 
-			-minimap.get_rotation(), 
+		draw_set_transform(warehouse,
+			-minimap.get_rotation(),
 			warehouse_icon_scale)
-		draw_texture(warehouse_icon, 
+		draw_texture(warehouse_icon,
 			warehouse_icon.get_size() * warehouse_icon_scale / -2)
-	
 
 func draw_layer():
 	minimap = get_parent() as Minimap
 	var buildings_node : Spatial = get_tree().current_scene.get_node("Buildings")
-	
+
 	# create an array of warehouse locations
 	for player in buildings_node.get_children():
 		for building in player.get_children():
@@ -32,5 +29,5 @@ func draw_layer():
 				warehouses.append(
 					minimap.world_to_minimap_position(
 						building.global_transform.origin))
-	
+
 	update()
