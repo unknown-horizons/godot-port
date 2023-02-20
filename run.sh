@@ -3,7 +3,7 @@
 # Godot version or path.
 GODOT="3.1"
 # Try to find a local godot binary (from repos)
-GODOT_LOCAL="`which godot`"
+GODOT_LOCAL="`which godot godot3`"
 GODOT_LOCAL_PRESENT="$?"
 # Look for the Godot binary.
 if [ -f "$GODOT" ]; then
@@ -20,7 +20,7 @@ elif [ -f "/snap/bin/godot-${GODOT%%.*}-${GODOT##*.}" ]; then
 # Godot on macos
 elif [ -f "/Applications/Godot.app/Contents/MacOS/Godot" ]; then
     GODOT="/Applications/Godot.app/Contents/MacOS/Godot"
-elif [ $GODOT_LOCAL_PRESENT ]; then # which found godot somewhere in $PATH
+elif [ $GODOT_LOCAL_PRESENT -eq 0 ]; then # which found godot somewhere in $PATH
     GODOT="$GODOT_LOCAL"
 else
     echo "Error: Can't find the Godot editor. Can't run. "
