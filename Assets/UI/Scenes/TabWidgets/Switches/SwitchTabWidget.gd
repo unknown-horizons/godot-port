@@ -3,8 +3,6 @@ extends TextureButton
 class_name SwitchTabWidget
 # Base class for all widget switch handles.
 
-signal tab_changed(tab) # int
-
 export(Texture) var texture_active
 onready var _texture_normal := texture_normal
 
@@ -34,7 +32,9 @@ func get_tab_container() -> TabContainer:
 			tab_container = owner.body.get_node("TabContainer")
 
 			for switch in get_parent().get_children():
-				tab_container.connect("tab_changed", self, "_on_TabContainer_tab_changed")
+				switch.tab_container = tab_container
+				if !tab_container.is_connected("tab_changed", switch, "_on_TabContainer_tab_changed"):
+					tab_container.connect("tab_changed", switch, "_on_TabContainer_tab_changed")
 
 	return tab_container
 
@@ -45,7 +45,7 @@ func _on_SwitchTabWidget_pressed() -> void:
 	if self.tab_container:
 		prints("Set page", get_index(), "for", owner.name)
 		tab_container.current_tab = get_index()
-		emit_signal("tab_changed", tab_container.current_tab)
+		tab_container.emit_signal("tab_changed", tab_container.current_tab)
 
 #func _on_SwitchTabWidget_tab_changed(tab: int) -> void:
 #	if self.tab_container:

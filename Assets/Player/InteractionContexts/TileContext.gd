@@ -18,6 +18,8 @@ var draw_path := []
 var aborted := false
 
 func _ready() -> void:
+	connect("tiles_changed", streets, "update_tiles")
+
 	set_process(false)
 
 func show_phantom_tile(tile_pos: Vector2) -> void:
@@ -50,8 +52,6 @@ func _on_enter() -> void:
 	phantom_tile.material_override = material
 	add_child(phantom_tile)
 	Input.set_custom_mouse_cursor(Cursor.CURSOR_TEAR, Input.CURSOR_ARROW)
-
-	connect("tiles_changed", streets, "update_tiles")
 
 	set_process(true)
 
