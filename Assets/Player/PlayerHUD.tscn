@@ -1,4 +1,4 @@
-[gd_scene load_steps=47 format=2]
+[gd_scene load_steps=48 format=2]
 
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/TabWidget.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/UI/Scenes/CityInfo.tscn" type="PackedScene" id=2]
@@ -46,6 +46,7 @@
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/WindmillTabWidget.tscn" type="PackedScene" id=44]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/ShipForeignMenuTabWidget.tscn" type="PackedScene" id=45]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/BuildMenuByCategoryTabWidget.tscn" type="PackedScene" id=46]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/ResidenceTabWidget.tscn" type="PackedScene" id=47]
 
 [node name="PlayerHUD" type="Control"]
 anchor_right = 1.0
@@ -212,6 +213,9 @@ visible = false
 visible = false
 
 [node name="PigstyTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 23 )]
+visible = false
+
+[node name="ResidenceTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 47 )]
 visible = false
 
 [node name="SchoolTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 27 )]

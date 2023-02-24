@@ -8,8 +8,6 @@ var ships = []
 
 var camera
 
-#warning-ignore-all:unused_class_variable
-
 func _ready() -> void:
 	print_debug(
 		"I'm {0} in faction {1} ({2}).".format(

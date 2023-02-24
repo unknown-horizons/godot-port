@@ -2,12 +2,6 @@ extends GridMap
 class_name TileMap3D
 # Tilemap in a 3D world.
 
-func _ready() -> void:
-	pass
-
-func _get_neighbors() -> void:
-	pass
-
 func get_tile_at_mouse_position() -> Vector2:
 	var raycast: Dictionary = get_viewport().get_camera().get_parent().get_parent().raycast_from_mouse()
 

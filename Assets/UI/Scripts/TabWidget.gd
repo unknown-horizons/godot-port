@@ -112,5 +112,10 @@ func _on_DiplomacyButton_pressed() -> void:
 func _on_GameMenuButton_pressed() -> void:
 	emit_signal("button_game_menu_pressed")
 
+func _on_TabWidget_visibility_changed() -> void:
+	if self.name != "TabWidget":
+		if visible:
+			prints(self.name, "opened.")
+
 func _on_ready() -> void:
 	if body == null: body = find_node("Body") as Control

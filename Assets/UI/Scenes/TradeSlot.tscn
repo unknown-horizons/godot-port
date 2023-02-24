@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Assets/UI/Scripts/TradeSlot.gd" type="Script" id=1]
+[ext_resource path="res://Assets/UI/Icons/Resources/none_gray.png" type="Texture" id=2]
 [ext_resource path="res://Assets/UI/Scenes/InventorySlot.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Assets/UI/Images/Background/bar_bg.png" type="Texture" id=4]
 [ext_resource path="res://Assets/UI/Images/Background/tick.png" type="Texture" id=5]
-[ext_resource path="res://Assets/UI/Images/Buttons/v_slider_grabber.png" type="Texture" id=6]
+[ext_resource path="res://Assets/UI/Images/Buttons/vslider_grabber.png" type="Texture" id=6]
 
 [sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 4 )
@@ -18,16 +19,14 @@ region_rect = Rect2( 0, 0, 100, 20 )
 
 [node name="TradeSlot" instance=ExtResource( 3 )]
 script = ExtResource( 1 )
+show_if_empty = true
 
-[node name="TextureRect" parent="." index="0"]
+[node name="ResourceItem" parent="." index="0"]
 visible = true
-
-[node name="TextureRect2" parent="." index="2"]
-anchor_bottom = 0.922
-margin_bottom = -0.0219994
-rect_pivot_offset = Vector2( 8, 47 )
+texture = ExtResource( 2 )
 
 [node name="VSlider" type="VSlider" parent="." index="3"]
+visible = false
 anchor_left = 0.837
 anchor_right = 0.998
 anchor_bottom = 0.922

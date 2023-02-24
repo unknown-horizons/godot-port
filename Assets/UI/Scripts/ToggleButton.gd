@@ -12,7 +12,7 @@ export(Texture) var texture_normal_alternate
 export(Texture) var texture_pressed_alternate
 export(Texture) var texture_hover_alternate
 
-onready var animated_texture := get_node("AnimatedTexture")
+onready var animated_texture := get_node_or_null("AnimatedTexture")
 
 func _ready() -> void:
 	_set_animation()
@@ -70,6 +70,7 @@ func _on_ActionButton_gui_input(_event: InputEvent) -> void:
 #	animated_texture.hide()
 
 func _on_ActionButton_mouse_exited() -> void:
+	prints("exited")
 	if animated_texture:
 		if not pressed:
 			animated_texture.show()

@@ -37,6 +37,7 @@ enum UIContext {
 	MAIN_SQUARE,
 	PASTRY_SHOP,
 	PIGSTY,
+	RESIDENCE,
 	SCHOOL,
 	SMELTERY,
 	STONEMASON,
@@ -97,6 +98,7 @@ func set_ui_context(new_ui_context) -> void:
 
 	prints("Set UI context to", UIContext.keys()[new_ui_context])
 
+	# Show fitting widget for selection, hide all other ones
 	for index in widgets.size():
 		if index == new_ui_context:
 			widgets[index].visible = true
@@ -188,6 +190,7 @@ func _get_context_type(entity: WorldThing) -> String:
 		PastryShop,
 		Pigsty,
 		School,
+		Residence,
 		Smeltery,
 		Stonemason,
 		StonePit,

@@ -317,8 +317,6 @@ const LANGUAGES_READABLE = {
 	"fr": "Français",
 }
 
-#warning-ignore-all:unused_class_variable
-
 # Game variables
 var game_type := "FreePlay"
 var faction := 1
@@ -328,10 +326,11 @@ var resource_density := 1.0
 var has_traders := false
 var has_pirates := true
 var has_disasters := false
-# -------
+
 var Game: Spatial = null
 var PlayerStart: Spatial = null
 
+# warning-ignore:unused_class_variable
 var _warning := false # DEBUG
 
 func _ready() -> void:

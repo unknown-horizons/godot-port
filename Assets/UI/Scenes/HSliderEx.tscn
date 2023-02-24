@@ -25,9 +25,6 @@ corner_radius_bottom_left = 1
 [node name="HSliderEx" type="VBoxContainer"]
 theme = ExtResource( 5 )
 script = ExtResource( 4 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 margin_right = 125.0
@@ -41,6 +38,7 @@ margin_right = 103.0
 margin_bottom = 20.0
 custom_fonts/font = ExtResource( 1 )
 text = "Unknown Slider:"
+autowrap = false
 font_style = 8
 
 [node name="LabelExValue" parent="HBoxContainer" instance=ExtResource( 3 )]
@@ -48,10 +46,11 @@ margin_left = 107.0
 margin_right = 125.0
 margin_bottom = 20.0
 size_flags_horizontal = 1
-custom_styles/normal = SubResource( 1 )
 custom_fonts/font = ExtResource( 2 )
+custom_styles/normal = SubResource( 1 )
 text = "0"
 align = 2
+autowrap = false
 font_style = 11
 
 [node name="HSlider" type="HSlider" parent="."]
@@ -63,6 +62,7 @@ script = ExtResource( 6 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
 [connection signal="changed" from="HSlider" to="." method="_on_HSlider_changed"]
 [connection signal="value_changed" from="HSlider" to="." method="_on_HSlider_value_changed"]
 [connection signal="value_changed" from="HSlider" to="HSlider" method="_on_HSlider_value_changed"]

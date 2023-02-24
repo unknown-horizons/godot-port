@@ -1,11 +1,13 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/ProductionWithRelatedBuildingsMenuTabWidget.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/ViewComponents/ProductionChain.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Assets/UI/Scripts/LumberjackTabWidget.gd" type="Script" id=5]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildTreeButton.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/ActionButtons/Buttons/BuildTreeAreaButton.tscn" type="PackedScene" id=10]
 
 [node name="LumberjackTabWidget" instance=ExtResource( 1 )]
+script = ExtResource( 5 )
 
 [node name="Body" parent="WidgetDetail" index="1"]
 margin_bottom = 241.0
@@ -17,9 +19,8 @@ text = "Lumberjack tent"
 [node name="ProductionChain" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="3" instance=ExtResource( 3 )]
 margin_top = 75.0
 margin_bottom = 126.0
-
-[node name="InventorySlot" parent="WidgetDetail/Body/TabContainer/VBoxContainer/ProductionChain" index="0"]
-resource_value = 21
+input_two_type = 8
+output_type = 4
 
 [node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="4"]
 margin_top = 130.0
@@ -48,13 +49,10 @@ margin_right = 46.0
 margin_bottom = 46.0
 
 [node name="MarginContainer" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings" index="2"]
-margin_bottom = 95.0
-custom_constants/margin_left = 4
+margin_bottom = 89.0
 
 [node name="GridContainer" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer" index="0"]
-margin_left = 4.0
-margin_bottom = 52.0
-custom_constants/hseparation = -1
+margin_bottom = 46.0
 
 [node name="BuildTreeButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="0" instance=ExtResource( 6 )]
 anchor_left = 0.0
@@ -63,11 +61,12 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 0.0
 margin_top = 0.0
-margin_right = 52.0
-margin_bottom = 52.0
+margin_right = 46.0
+margin_bottom = 46.0
+rect_pivot_offset = Vector2( 23, 23 )
 
 [node name="TextureRect2" parent="WidgetDetail" index="2"]
-margin_top = 240.0
-margin_bottom = 328.0
+margin_top = 241.0
+margin_bottom = 329.0
 
-[editable path="WidgetDetail/Body/TabContainer/VBoxContainer/ProductionChain"]
+[editable path="WidgetDetail/Body/TabContainer/BuildRelatedBuildings"]

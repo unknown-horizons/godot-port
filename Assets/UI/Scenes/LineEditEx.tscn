@@ -26,8 +26,7 @@ margin_right = 289.0
 margin_bottom = 30.0
 script = ExtResource( 3 )
 __meta__ = {
-"_edit_group_": true,
-"_edit_use_anchors_": false
+"_edit_group_": true
 }
 
 [node name="LabelEx" parent="." instance=ExtResource( 2 )]
@@ -60,6 +59,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 align_style = "Left"
+
 [connection signal="text_change_rejected" from="LineEdit" to="." method="_on_LineEdit_text_change_rejected"]
 [connection signal="text_changed" from="LineEdit" to="." method="_on_LineEdit_text_changed"]
 [connection signal="text_entered" from="LineEdit" to="." method="_on_LineEdit_text_entered"]

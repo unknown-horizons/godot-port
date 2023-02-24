@@ -1,0 +1,2 @@
+extends BuildingMenuTabWidget
+class_name FarmTabWidget
