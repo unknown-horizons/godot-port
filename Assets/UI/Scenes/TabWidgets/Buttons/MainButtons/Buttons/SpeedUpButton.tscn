@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/MainButton.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/speed_up_d.png" type="Texture" id=2]
 [ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/speed_up_h.png" type="Texture" id=3]
 [ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/speed_up.png" type="Texture" id=4]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/SpeedChangeButton.gd" type="Script" id=5]
 
 [node name="SpeedUpButton" instance=ExtResource( 1 )]
 margin_left = -14.0
@@ -14,6 +15,8 @@ rect_pivot_offset = Vector2( 14, 14 )
 texture_normal = ExtResource( 4 )
 texture_pressed = ExtResource( 2 )
 texture_hover = ExtResource( 3 )
+script = ExtResource( 5 )
+speed_change = 0.0
 
 [node name="TextureRect" parent="." index="0"]
 visible = false
