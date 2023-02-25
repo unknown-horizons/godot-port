@@ -1,6 +1,6 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=20 format=2]
 
-[ext_resource path="res://Assets/UI/Fonts/SmallFontItalic.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Assets/UI/Scenes/Labels/GameSpeedLabel.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/UI/Scripts/TabWidget.gd" type="Script" id=2]
 [ext_resource path="res://Assets/UI/Images/Background/Widgets/map_bg.png" type="Texture" id=3]
 [ext_resource path="res://Assets/UI/Images/TabWidget/main_bg_top.png" type="Texture" id=4]
@@ -8,9 +8,9 @@
 [ext_resource path="res://Assets/UI/Images/TabWidget/main_bg_bottom.png" type="Texture" id=6]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/LogbookButton.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/TearButton.tscn" type="PackedScene" id=8]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/SpeedDownButton.tscn" type="PackedScene" id=9]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/SpeedUpButton.tscn" type="PackedScene" id=10]
-[ext_resource path="res://Assets/UI/Scenes/Labels/LabelEx.tscn" type="PackedScene" id=11]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/GameSpeedDownButton.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/GameSpeedUpButton.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Assets/UI/Fonts/SmallFontItalic.tres" type="DynamicFont" id=11]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/BuildMenuButton.tscn" type="PackedScene" id=12]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/RotateLeftButton.tscn" type="PackedScene" id=13]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/DiplomacyButton.tscn" type="PackedScene" id=14]
@@ -19,7 +19,6 @@
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/RotateRightButton.tscn" type="PackedScene" id=17]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/ZoomInButton.tscn" type="PackedScene" id=18]
 [ext_resource path="res://Assets/Player/Minimap/Minimap.tscn" type="PackedScene" id=19]
-[ext_resource path="res://Assets/UI/Scripts/SpeedLabel.gd" type="Script" id=20]
 
 [node name="TabWidget" type="Control"]
 anchor_left = 0.5
@@ -58,7 +57,7 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="SpeedControls" type="Control" parent="WidgetTop"]
+[node name="GameSpeedControls" type="Control" parent="WidgetTop"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -72,33 +71,32 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="SpeedUpButton" parent="WidgetTop/SpeedControls" instance=ExtResource( 10 )]
+[node name="GameSpeedUpButton" parent="WidgetTop/GameSpeedControls" instance=ExtResource( 10 )]
 margin_left = 6.74774
 margin_top = -29.0674
 margin_right = 34.7477
 margin_bottom = -1.0674
 size_flags_horizontal = 6
-speed_change = 0.2
+game_speed_change = 0.2
 
-[node name="SpeedLabel" parent="WidgetTop/SpeedControls" instance=ExtResource( 11 )]
+[node name="GameSpeedLabel" parent="WidgetTop/GameSpeedControls" instance=ExtResource( 1 )]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -11.5
-margin_top = -11.5
-margin_right = 19.5
-margin_bottom = 6.5
-custom_fonts/font = ExtResource( 1 )
+margin_left = -11.0
+margin_top = -11.0
+margin_right = 19.0
+margin_bottom = 6.0
+custom_fonts/font = ExtResource( 11 )
 text = "1.0x"
-script = ExtResource( 20 )
 
-[node name="SpeedDownButton" parent="WidgetTop/SpeedControls" instance=ExtResource( 9 )]
+[node name="GameSpeedDownButton" parent="WidgetTop/GameSpeedControls" instance=ExtResource( 9 )]
 margin_left = -34.0559
 margin_top = 1.80121
 margin_right = -6.05591
 margin_bottom = 29.8012
-speed_change = -0.2
+game_speed_change = -0.2
 
 [node name="ZoomControls" type="Control" parent="WidgetTop"]
 anchor_left = 0.5
