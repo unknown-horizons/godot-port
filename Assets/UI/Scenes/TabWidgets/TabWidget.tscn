@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=2]
+[gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://Assets/UI/Fonts/SmallFontItalic.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Assets/UI/Scripts/TabWidget.gd" type="Script" id=2]
@@ -19,6 +19,7 @@
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/RotateRightButton.tscn" type="PackedScene" id=17]
 [ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/ZoomInButton.tscn" type="PackedScene" id=18]
 [ext_resource path="res://Assets/Player/Minimap/Minimap.tscn" type="PackedScene" id=19]
+[ext_resource path="res://Assets/UI/Scripts/SpeedLabel.gd" type="Script" id=20]
 
 [node name="TabWidget" type="Control"]
 anchor_left = 0.5
@@ -84,13 +85,13 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -6.05591
-margin_top = -11.6583
-margin_right = 8.94409
-margin_bottom = 6.34167
+margin_left = -11.5
+margin_top = -11.5
+margin_right = 19.5
+margin_bottom = 6.5
 custom_fonts/font = ExtResource( 1 )
-text = "1x"
-font_style = 8
+text = "1.0x"
+script = ExtResource( 20 )
 
 [node name="SpeedDownButton" parent="WidgetTop/SpeedControls" instance=ExtResource( 9 )]
 margin_left = -34.0559
