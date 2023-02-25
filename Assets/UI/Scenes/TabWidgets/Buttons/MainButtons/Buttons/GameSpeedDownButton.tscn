@@ -5,9 +5,9 @@
 [ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/speed_down_h.png" type="Texture" id=3]
 [ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/speed_down_d.png" type="Texture" id=4]
 [ext_resource path="res://Assets/UI/Icons/Widgets/MiniMap/speed_down.png" type="Texture" id=5]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/SpeedChangeButton.gd" type="Script" id=6]
+[ext_resource path="res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/GameSpeedChangeButton.gd" type="Script" id=6]
 
-[node name="SpeedDownButton" instance=ExtResource( 1 )]
+[node name="GameSpeedDownButton" instance=ExtResource( 1 )]
 margin_left = -14.0
 margin_top = -14.0
 margin_right = 14.0
@@ -20,7 +20,7 @@ texture_pressed = ExtResource( 4 )
 texture_hover = ExtResource( 3 )
 texture_disabled = ExtResource( 2 )
 script = ExtResource( 6 )
-speed_change = 0.0
+game_speed_change = 0.0
 
 [node name="TextureRect" parent="." index="0"]
 visible = false

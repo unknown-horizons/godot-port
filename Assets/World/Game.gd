@@ -2,9 +2,9 @@ extends Spatial
 class_name Game
 
 signal notification(message_type, message_text) # int, String
-signal speed_changed(new_speed)
+signal game_speed_changed(new_game_speed)
 
-const MAX_SPEED:float = 2.0
+const MAX_GAME_SPEED: float = 2.0
 
 var is_game_running = false
 
@@ -83,7 +83,7 @@ func start_game() -> void:
 
 	is_game_running = true
 
-func set_game_speed(speed:float) -> void:
-	Engine.time_scale = clamp(speed, 0.0,MAX_SPEED)
+func set_game_speed(game_speed: float) -> void:
+	Engine.time_scale = clamp(game_speed, 0.0, MAX_GAME_SPEED)
 	print_debug("Game speed changed to ", Engine.time_scale)
-	emit_signal("speed_changed",Engine.time_scale)
+	emit_signal("game_speed_changed", Engine.time_scale)

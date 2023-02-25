@@ -189,6 +189,16 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Assets/World/Game.gd"
 }, {
+"base": "WidgetButton",
+"class": "GameSpeedChangeButton",
+"language": "GDScript",
+"path": "res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/GameSpeedChangeButton.gd"
+}, {
+"base": "LabelEx",
+"class": "GameSpeedLabel",
+"language": "GDScript",
+"path": "res://Assets/UI/Scripts/GameSpeedLabel.gd"
+}, {
 "base": "HBoxContainer",
 "class": "GameTypeButton",
 "language": "GDScript",
@@ -636,6 +646,8 @@ _global_script_class_icons={
 "FreeTrader": "",
 "Frigate": "",
 "Game": "",
+"GameSpeedChangeButton": "",
+"GameSpeedLabel": "",
 "GameTypeButton": "",
 "HSliderEx": "",
 "HelpUI": "",
