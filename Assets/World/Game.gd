@@ -79,3 +79,7 @@ func start_game() -> void:
 			pass # TODO
 
 	is_game_running = true
+
+func set_game_speed(speed:float) -> void:
+	Engine.time_scale = clamp(speed, 0.0,2.0)
+	print_debug("Game speed changed to ", Engine.time_scale)
