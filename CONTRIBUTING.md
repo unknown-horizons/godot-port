@@ -32,7 +32,7 @@ A valuable source of information specifically for this project would be RTS-spec
 
 1. Fork <https://github.com/unknown-horizons/godot-port>.
 1. Clone the fork locally.
-1. Download [Godot (stable branch)](https://godotengine.org/download), at least the standard version required.
+1. Download [Godot 3.5.x (stable branch)](https://godotengine.org/download/3.x/), at least the standard version required.
 1. Launch the Godot executable.
 1. Import project, search the Unknown Horizons directory, select `project.godot`.
 1. Open the project from the project manager overview.

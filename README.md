@@ -26,6 +26,12 @@ and diplomacy.
 
 Find more information about Unknown Horizons on [our website](http://unknown-horizons.org/).
 
+## Dependencies
+
+Type         | Version | Where?
+-------------|---------|-------------------------------------------------------------
+Godot Engine | 3.5.x   | https://godotengine.org/download/3.x/
+
 ## Community
 
 Type         | Where?
