@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://qndk0ulsg1jc"]
+
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/ResourceItem.gd" id="1"]
+
+[node name="ResourceItem" type="TextureRect"]
+anchors_preset = -1
+anchor_right = 0.026
+anchor_bottom = 0.036
+offset_right = -0.600002
+offset_bottom = -0.400002
+pivot_offset = Vector2(41, 32)
+stretch_mode = 6
+script = ExtResource("1")

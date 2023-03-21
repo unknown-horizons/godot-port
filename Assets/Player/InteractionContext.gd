@@ -1,54 +1,58 @@
 extends Node
 class_name InteractionContext
-# Template for different behavior states within the interaction system.
-# It is meant to be inherited from and not to be instanced directly.
-#
-# PlayerCamera will keep track of one active InteractionContext at a time
-# and will pass any unhandled InputEvents to it.
-# E.g., a build menu could invoke a switch to its own InteractionContext
-# to handle the display of ghost buildings and later the placement of actual buildings.
-# If a military unit is selected, the system could swap to an InteractionContext
-# responsible for military commands, etc.
-#
-# Each InteractionContext is responsible for setting inputs
-# as handled themselves if so desired.
-#
-# Per default, any InteractionContext can emit two different signals:
-#	switch_context - This signal causes the interaction system to switch its
-#					 active InteractionContext to the one provided as parameter.
-#	abort_context - This signal causes the interaction system to revert to the
-#					default context (probably selection mode)
-#
-# The PoolStringArray 'valid_actions' contains the names of all possible
-# action names. These are the same names as they would be used with
-# InputEvent.is_action().
-# Each of these actions will be routed to a method identified by its name.
-# The method should be constructed as follows:
-#	func _on_ia_<action name>_<pressed|released>(
-#		target: Node,
-#		position: Vector2
-#		) -> void
-#
-# Spaces in the action name will be replaced by underscores
-# ('action name' will become _on_ia_action_name_pressed()
-#  or _on_ia_action_name_released())
-#
-# A notable exception to this is the method:
-#	func _on_mouse_motion(
-#		target: Node,
-#		position: Vector2
-#		) -> void
-#
-# All InputEventMouseMotion events will be routed to this function. This can
-# be used to update hover effects, the cursor, etc.
+
+## Template for different behavior states within the interaction system.
+## It is meant to be inherited from and not to be instanced directly.
+##
+## [PlayerCamera] will keep track of one active [InteractionContext] at a time
+## and will pass any unhandled [InputEvent]s to it.[br]
+## E.g., a build menu could invoke a switch to its own interaction context object
+## to handle the display of ghost buildings and later the placement of actual buildings.
+## If a military unit is selected, the system could swap to a context
+## responsible for military commands, etc.[br][br]
+##
+## Each interaction context is responsible for setting inputs
+## as handled themselves if so desired.[br][br]
+##
+## Per default, any interaction context can emit two different signals:[br]
+## [code]switch_context[/code] - This signal causes the interaction system to
+## switch its active interaction context to the one provided as parameter.
+## [code]context_aborted[/code] - This signal causes the interaction system to
+## revert to the default context (probably selection mode).[br][br]
+##
+## The [PackedStringArray] [code]valid_actions[/code] contains the names of all possible
+## action names. These are the same names as they would be used with
+## [code]InputEvent.is_action()[/code].[br]
+## Each of these actions will be routed to a method identified by its name.
+## The method should be constructed as follows:
+## [codeblock]
+## func _on_ia_<action name>_<pressed|released>(
+##      target: Node,
+##      position: Vector2
+## ) -> void
+## [/codeblock][br]
+##
+## Spaces in the action name will be replaced by underscores, hence
+## ...[code]action name[/code]... will become [code]_on_ia_action_name_pressed()[/code]
+##  or [code]_on_ia_action_name_released()[/code].[br][br]
+##
+## A notable exception to that is the method:
+## [codeblock]
+##  func _on_mouse_motion(
+##      target: Node,
+##      position: Vector2
+##  ) -> void
+## [/codeblock][br]
+## All InputEventMouseMotion events will be routed to this function. This can
+## be used to update hover effects, the cursor, etc.
 
 signal switch_context
-signal abort_context
+signal context_aborted
 
-onready var _player_camera := owner as Spatial
+@onready var _player_camera := owner as Node3D
 
-export(String) var _context_name = "Basic Interaction Context"
-export(PoolStringArray) var valid_actions = ["main_command"]
+@export var _context_name: String = "Basic Interaction Context"
+@export var valid_actions: PackedStringArray = ["main_command", "alt_command"]
 
 func interact(event: InputEvent, target: Node, position: Vector2) -> void:
 	if event.is_action_type():
@@ -64,8 +68,8 @@ func interact(event: InputEvent, target: Node, position: Vector2) -> void:
 		return
 
 func abort_context() -> void:
-	emit_signal("abort_context")
-	get_tree().set_input_as_handled()
+	emit_signal("context_aborted")
+	get_viewport().set_input_as_handled()
 
 func _on_enter() -> void:
 	pass#print("InteractionContext %s entered" % _context_name)

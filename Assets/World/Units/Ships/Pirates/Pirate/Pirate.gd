@@ -1,4 +1,4 @@
-tool
+@tool
 extends Ship
 class_name Pirate
 
@@ -24,19 +24,19 @@ const PIRATE_MOVE_ANIM = [
 	PIRATE_BLACK_MOVE_315,
 ]
 
-export(bool) var debug_is_moving = is_moving
+@export var debug_is_moving: bool = is_moving
 
 var current_anim_position := 0.0
 var last_anim = "fade_out"
 
-onready var _reflection: Sprite3D = $Reflection as Sprite3D
-onready var water_overlay: Spatial = $WaterOverlay as Spatial
-onready var water_overlay1: Sprite3D = $WaterOverlay/WaterOverlay1 as Sprite3D
-onready var water_overlay2: Sprite3D = $WaterOverlay/WaterOverlay2 as Sprite3D
-onready var animation_player: AnimationPlayer = $AnimationPlayer as AnimationPlayer
+@onready var _reflection: Sprite3D = $Reflection as Sprite3D
+@onready var water_overlay: Node3D = $WaterOverlay as Node3D
+@onready var water_overlay1: Sprite3D = $WaterOverlay/WaterOverlay1 as Sprite3D
+@onready var water_overlay2: Sprite3D = $WaterOverlay/WaterOverlay2 as Sprite3D
+@onready var animation_player: AnimationPlayer = $AnimationPlayer as AnimationPlayer
 
 # Static (for now)
-onready var patrol_route = [
+@onready var patrol_route = [
 	Vector2(-30,  30),
 	Vector2( 39,  40),
 	Vector2( 39, -38),
@@ -109,7 +109,7 @@ func animate_movement():
 		_reflection.region_rect = Rect2(0, 0, 896, 448)
 		_reflection.vframes = 2
 		_reflection.hframes = 4
-		.update_rotation()
+		super.update_rotation()
 
 		self.texture = PIRATE_IDLE_ANIM
 		_reflection.texture = PIRATE_IDLE_ANIM
@@ -121,15 +121,15 @@ func animate_movement():
 		set_rotation_degree(wrapi(rotation_index, 0, _billboard.hframes * _billboard.vframes))
 
 		if rotation_index == 1:
-			_reflection.material_override.set("params_billboard_mode", SpatialMaterial.BILLBOARD_DISABLED)
+			_reflection.material_override.set("params_billboard_mode", StandardMaterial3D.BILLBOARD_DISABLED)
 			_reflection.offset = Vector2(-4, -67)
 			_reflection.rotation_degrees = Vector3(0, 0, -60)
 		elif rotation_index == 3:
-			_reflection.material_override.set("params_billboard_mode", SpatialMaterial.BILLBOARD_DISABLED)
+			_reflection.material_override.set("params_billboard_mode", StandardMaterial3D.BILLBOARD_DISABLED)
 			_reflection.offset = Vector2(19, -81)
 			_reflection.rotation_degrees = Vector3(-36, -110, 70)
 		else:
-			_reflection.material_override.set("params_billboard_mode", SpatialMaterial.BILLBOARD_ENABLED)
+			_reflection.material_override.set("params_billboard_mode", StandardMaterial3D.BILLBOARD_ENABLED)
 			_reflection.offset = Vector2(0, -90)
 			#_reflection.rotation_degrees = Vector3(0, -45, 0)
 		_reflection.frame = (wrapi(rotation_index, 0, _billboard.hframes * _billboard.vframes))
@@ -176,7 +176,6 @@ func animate_water_overlay() -> void:
 		if water_overlay.visible or animation_player.current_animation == "fade_in":
 			animation_player.play("fade_out")
 
-# warning-ignore:shadowed_variable
 func update_water_overlay(
 		water_overlay: Sprite3D,
 		rotation: Vector3,

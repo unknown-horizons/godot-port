@@ -1,0 +1,36 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="Texture2D" uid="uid://bnwfjxrj4eeh7" path="res://Assets/UI/Images/Buttons/parrow_left_d.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dfwqk3wv3va8i" path="res://Assets/UI/Images/Buttons/parrow_right_bw.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c5qikmc8xkrw2" path="res://Assets/UI/Images/Buttons/parrow_left_bw.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://ce5buks6jfvx7" path="res://Assets/UI/Images/Buttons/parrow_right_h.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dcpwih1mgyflr" path="res://Assets/UI/Images/Buttons/parrow_right.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://lo2b0gsw0lyf" path="res://Assets/UI/Images/Buttons/parrow_right_d.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c740oohp88ykb" path="res://Assets/UI/Images/Buttons/parrow_left.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cpqme4x6afr1j" path="res://Assets/UI/Images/Buttons/parrow_left_h.png" id="8"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/RoundButton.tscn" id="9"]
+[ext_resource type="Script" path="res://Assets/UI/BookMenu/PageControlButton.gd" id="10"]
+
+[node name="PageControl" type="HBoxContainer"]
+offset_top = 450.0
+offset_right = 300.0
+offset_bottom = 490.0
+size_flags_horizontal = 3
+size_flags_vertical = 10
+size_flags_stretch_ratio = 0.2
+
+[node name="PrevButton" parent="." instance=ExtResource("9")]
+layout_mode = 2
+texture_normal = ExtResource("7")
+texture_pressed = ExtResource("1")
+texture_hover = ExtResource("8")
+texture_disabled = ExtResource("3")
+script = ExtResource("10")
+
+[node name="NextButton" parent="." instance=ExtResource("9")]
+layout_mode = 2
+texture_normal = ExtResource("5")
+texture_pressed = ExtResource("6")
+texture_hover = ExtResource("4")
+texture_disabled = ExtResource("2")
+script = ExtResource("10")

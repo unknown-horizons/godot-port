@@ -1,37 +1,35 @@
 [remap]
 
 importer="texture"
-type="StreamTexture"
-path.s3tc="res://.import/Hut2_idle.png-7f2879f2cf49e0a74590179c8c4c5144.s3tc.stex"
-path.etc2="res://.import/Hut2_idle.png-7f2879f2cf49e0a74590179c8c4c5144.etc2.stex"
+type="CompressedTexture2D"
+uid="uid://cp7ho1jc88yn7"
+path.s3tc="res://.godot/imported/Hut2_idle.png-7f2879f2cf49e0a74590179c8c4c5144.s3tc.ctex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
+"imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Assets/World/Buildings/Residential/Sprites/Hut2_idle.png"
-dest_files=[ "res://.import/Hut2_idle.png-7f2879f2cf49e0a74590179c8c4c5144.s3tc.stex", "res://.import/Hut2_idle.png-7f2879f2cf49e0a74590179c8c4c5144.etc2.stex" ]
+dest_files=["res://.godot/imported/Hut2_idle.png-7f2879f2cf49e0a74590179c8c4c5144.s3tc.ctex"]
 
 [params]
 
 compress/mode=2
+compress/high_quality=false
 compress/lossy_quality=0.7
-compress/hdr_mode=0
-compress/bptc_ldr=0
+compress/hdr_compression=1
 compress/normal_map=0
-flags/repeat=true
-flags/filter=true
-flags/mipmaps=true
-flags/anisotropic=false
-flags/srgb=2
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/HDR_as_SRGB=false
-process/invert_color=false
 process/normal_map_invert_y=false
-stream=false
-size_limit=0
-detect_3d=false
-svg/scale=1.0
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

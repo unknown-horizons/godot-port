@@ -1,264 +1,316 @@
-[gd_scene load_steps=48 format=2]
+[gd_scene load_steps=48 format=3 uid="uid://b7m7bdqyo6vkb"]
 
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/TabWidget.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/UI/Scenes/CityInfo.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Assets/UI/Scenes/BalanceInfoButton.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Assets/Player/PlayerHUD.gd" type="Script" id=4]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/ShipMenuTabWidget.tscn" type="PackedScene" id=5]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/BuildingMenuTabWidget.tscn" type="PackedScene" id=6]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/TroopMenuTabWidget.tscn" type="PackedScene" id=7]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/MainSquareTabWidget.tscn" type="PackedScene" id=8]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/LumberjackTabWidget.tscn" type="PackedScene" id=9]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/WarehouseTabWidget.tscn" type="PackedScene" id=10]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/ChapelTabWidget.tscn" type="PackedScene" id=11]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/StorageTabWidget.tscn" type="PackedScene" id=12]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/BakeryTabWidget.tscn" type="PackedScene" id=13]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/ButcheryTabWidget.tscn" type="PackedScene" id=14]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/BoatBuilderTabWidget.tscn" type="PackedScene" id=15]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/BreweryTabWidget.tscn" type="PackedScene" id=16]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/BrickyardTabWidget.tscn" type="PackedScene" id=17]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/CannonFoundryTabWidget.tscn" type="PackedScene" id=18]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/BarracksTabWidget.tscn" type="PackedScene" id=19]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/BathTabWidget.tscn" type="PackedScene" id=20]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/BlenderTabWidget.tscn" type="PackedScene" id=21]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/PastryShopTabWidget.tscn" type="PackedScene" id=22]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/PigstyTabWidget.tscn" type="PackedScene" id=23]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/CharcoalBurningTabWidget.tscn" type="PackedScene" id=24]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/SmelteryTabWidget.tscn" type="PackedScene" id=25]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/DistilleryTabWidget.tscn" type="PackedScene" id=26]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/SchoolTabWidget.tscn" type="PackedScene" id=27]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/StonemasonTabWidget.tscn" type="PackedScene" id=28]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/HunterTabWidget.tscn" type="PackedScene" id=29]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/DoctorTabWidget.tscn" type="PackedScene" id=30]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/ClayPitTabWidget.tscn" type="PackedScene" id=31]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/FarmTabWidget.tscn" type="PackedScene" id=32]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/FireStationTabWidget.tscn" type="PackedScene" id=33]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/FishermanTabWidget.tscn" type="PackedScene" id=34]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/LookoutTabWidget.tscn" type="PackedScene" id=35]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/WeaponsmithTabWidget.tscn" type="PackedScene" id=36]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/WeaverTabWidget.tscn" type="PackedScene" id=37]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/TavernTabWidget.tscn" type="PackedScene" id=38]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/ToolmakerTabWidget.tscn" type="PackedScene" id=39]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/StonePitTabWidget.tscn" type="PackedScene" id=40]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/TobacconistTabWidget.tscn" type="PackedScene" id=41]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/WineryTabWidget.tscn" type="PackedScene" id=42]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/WoodenTowerTabWidget.tscn" type="PackedScene" id=43]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/WindmillTabWidget.tscn" type="PackedScene" id=44]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/ShipForeignMenuTabWidget.tscn" type="PackedScene" id=45]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/BuildMenuByCategoryTabWidget.tscn" type="PackedScene" id=46]
-[ext_resource path="res://Assets/UI/Scenes/TabWidgets/ResidenceTabWidget.tscn" type="PackedScene" id=47]
+[ext_resource type="PackedScene" uid="uid://bvbuafk7d6fdt" path="res://Assets/UI/TabWidgets/TabWidget.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://bk0cq3b2hhoi2" path="res://Assets/UI/InfoWidgets/CityInfo.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://Assets/UI/InfoWidgets/BalanceInfoButton.tscn" id="3"]
+[ext_resource type="Script" path="res://Assets/Player/PlayerHUD.gd" id="4"]
+[ext_resource type="PackedScene" uid="uid://defcfm8emxvqm" path="res://Assets/UI/TabWidgets/ShipMenuTabWidget.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/TroopMenuTabWidget.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/MainSquareTabWidget.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/LumberjackTabWidget.tscn" id="9"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/WarehouseTabWidget.tscn" id="10"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/ChapelTabWidget.tscn" id="11"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/StorageTabWidget.tscn" id="12"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/BakeryTabWidget.tscn" id="13"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/ButcheryTabWidget.tscn" id="14"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/BoatBuilderTabWidget.tscn" id="15"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/BreweryTabWidget.tscn" id="16"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/BrickyardTabWidget.tscn" id="17"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/CannonFoundryTabWidget.tscn" id="18"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/BarracksTabWidget.tscn" id="19"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/BathTabWidget.tscn" id="20"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/BlenderTabWidget.tscn" id="21"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/PastryShopTabWidget.tscn" id="22"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/PigstyTabWidget.tscn" id="23"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/CharcoalBurningTabWidget.tscn" id="24"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/SmelteryTabWidget.tscn" id="25"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/DistilleryTabWidget.tscn" id="26"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/SchoolTabWidget.tscn" id="27"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/StonemasonTabWidget.tscn" id="28"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/HunterTabWidget.tscn" id="29"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/DoctorTabWidget.tscn" id="30"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/ClayPitTabWidget.tscn" id="31"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/FarmTabWidget.tscn" id="32"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/FireStationTabWidget.tscn" id="33"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/FishermanTabWidget.tscn" id="34"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/LookoutTabWidget.tscn" id="35"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/WeaponsmithTabWidget.tscn" id="36"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/WeaverTabWidget.tscn" id="37"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/TavernTabWidget.tscn" id="38"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/ToolmakerTabWidget.tscn" id="39"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/StonePitTabWidget.tscn" id="40"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/TobacconistTabWidget.tscn" id="41"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/WineryTabWidget.tscn" id="42"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/WoodenTowerTabWidget.tscn" id="43"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/WindmillTabWidget.tscn" id="44"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/ShipForeignMenuTabWidget.tscn" id="45"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/BuildMenuByCategoryTabWidget.tscn" id="46"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/ResidenceTabWidget.tscn" id="47"]
 
 [node name="PlayerHUD" type="Control"]
+layout_mode = 3
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-mouse_filter = 2
+grow_horizontal = 2
+grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-script = ExtResource( 4 )
-__meta__ = {
-"_edit_lock_": true,
-"_edit_use_anchors_": false
-}
+mouse_filter = 2
+script = ExtResource("4")
+metadata/_edit_lock_ = true
 
-[node name="CityInfo" parent="." instance=ExtResource( 2 )]
+[node name="CityInfo" parent="." instance=ExtResource("2")]
+layout_mode = 0
 anchor_left = 0.5
 anchor_right = 0.5
-margin_left = -125.0
-margin_top = 30.0
-margin_right = 125.0
-mouse_filter = 0
+offset_left = -125.0
+offset_top = 30.0
+offset_right = 125.0
 size_flags_horizontal = 2
 size_flags_vertical = 0
+mouse_filter = 0
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 30.0
-margin_top = 30.0
-margin_right = -40.0
-margin_bottom = -100.0
+offset_left = 30.0
+offset_top = 30.0
+offset_right = -40.0
+offset_bottom = -100.0
 mouse_filter = 2
-__meta__ = {
-"_edit_lock_": true,
-"_edit_use_anchors_": false
-}
 
 [node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
-margin_right = 1530.0
-margin_bottom = 770.0
+layout_mode = 2
 mouse_filter = 2
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
-margin_right = 1275.0
-margin_bottom = 770.0
-rect_min_size = Vector2( 0, 500 )
-mouse_filter = 2
+custom_minimum_size = Vector2(0, 500)
+layout_mode = 2
 size_flags_horizontal = 3
+mouse_filter = 2
 
-[node name="BalanceInfoButton" parent="MarginContainer/HBoxContainer/VBoxContainer" instance=ExtResource( 3 )]
-margin_bottom = 306.0
+[node name="BalanceInfoButton" parent="MarginContainer/HBoxContainer/VBoxContainer" instance=ExtResource("3")]
+layout_mode = 2
 size_flags_horizontal = 0
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
 size_flags_vertical = 3
+size_flags_stretch_ratio = 0.33
+mouse_filter = 2
+theme_type_variation = &"CleanSeparator"
 
 [node name="Messages" type="VBoxContainer" parent="MarginContainer/HBoxContainer/VBoxContainer"]
-margin_top = 310.0
-margin_right = 1275.0
-margin_bottom = 770.0
-mouse_filter = 2
+layout_mode = 2
 size_flags_vertical = 3
-size_flags_stretch_ratio = 1.5
+mouse_filter = 2
 
 [node name="Widgets" type="Control" parent="MarginContainer/HBoxContainer"]
-margin_left = 1279.0
-margin_right = 1530.0
-margin_bottom = 770.0
-rect_min_size = Vector2( 251, 355 )
+custom_minimum_size = Vector2(251, 355)
+layout_mode = 2
 mouse_filter = 2
 
-[node name="TabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 1 )]
+[node name="TabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("1")]
+anchors_preset = 0
 anchor_left = 0.0
 anchor_right = 0.0
-margin_left = 0.0
-margin_right = 251.0
+offset_left = 0.0
+offset_right = 251.0
+grow_horizontal = 1
 
-[node name="TroopMenuTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 7 )]
+[node name="TroopMenuTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("7")]
 visible = false
+anchors_preset = 0
 anchor_left = 0.0
 anchor_right = 0.0
-margin_left = 0.0
-margin_right = 251.0
+offset_left = 0.0
+offset_right = 251.0
+grow_horizontal = 1
 mouse_filter = 0
 
-[node name="ShipMenuTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 5 )]
+[node name="ShipMenuTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("5")]
 visible = false
+anchors_preset = 0
 anchor_left = 0.0
 anchor_right = 0.0
-margin_left = 0.0
-margin_right = 251.0
+offset_left = 0.0
+offset_right = 251.0
+grow_horizontal = 1
 
-[node name="ShipForeignMenuTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 45 )]
+[node name="ShipForeignMenuTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("45")]
 visible = false
+layout_mode = 1
 
-[node name="BuildingMenuTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 6 )]
+[node name="BuildingMenuTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("6")]
 visible = false
+anchors_preset = 0
 anchor_left = 0.0
 anchor_right = 0.0
-margin_left = 0.0
-margin_right = 251.0
+offset_left = 0.0
+offset_right = 251.0
+grow_horizontal = 1
 
-[node name="BakeryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 13 )]
+[node name="BakeryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("13")]
 visible = false
+layout_mode = 1
 
-[node name="BarracksTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 19 )]
+[node name="BarracksTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("19")]
 visible = false
+layout_mode = 1
 
-[node name="BathTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 20 )]
+[node name="BathTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("20")]
 visible = false
+layout_mode = 1
 
-[node name="BlenderTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 21 )]
+[node name="BlenderTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("21")]
 visible = false
+layout_mode = 1
 
-[node name="BoatBuilderTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 15 )]
+[node name="BoatBuilderTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("15")]
 visible = false
+layout_mode = 1
 
-[node name="BreweryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 16 )]
+[node name="BreweryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("16")]
 visible = false
+layout_mode = 1
 
-[node name="BrickyardTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 17 )]
+[node name="BrickyardTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("17")]
 visible = false
+layout_mode = 1
 
-[node name="ButcheryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 14 )]
+[node name="ButcheryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("14")]
 visible = false
+layout_mode = 1
 
-[node name="CannonFoundryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 18 )]
+[node name="CannonFoundryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("18")]
 visible = false
+layout_mode = 1
 
-[node name="ChapelTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 11 )]
+[node name="ChapelTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("11")]
 visible = false
+layout_mode = 1
 
-[node name="CharcoalBurningTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 24 )]
+[node name="CharcoalBurningTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("24")]
 visible = false
+layout_mode = 1
 
-[node name="ClayPitTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 31 )]
+[node name="ClayPitTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("31")]
 visible = false
+layout_mode = 1
 
-[node name="DistilleryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 26 )]
+[node name="DistilleryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("26")]
 visible = false
+layout_mode = 1
 
-[node name="DoctorTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 30 )]
+[node name="DoctorTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("30")]
 visible = false
+layout_mode = 1
 
-[node name="FarmTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 32 )]
+[node name="FarmTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("32")]
 visible = false
+layout_mode = 1
 
-[node name="FireStationTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 33 )]
+[node name="FireStationTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("33")]
 visible = false
+layout_mode = 1
 
-[node name="FishermanTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 34 )]
+[node name="FishermanTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("34")]
 visible = false
+layout_mode = 1
 
-[node name="HunterTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 29 )]
+[node name="HunterTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("29")]
 visible = false
+layout_mode = 1
 
-[node name="LookoutTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 35 )]
+[node name="LookoutTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("35")]
 visible = false
+layout_mode = 1
 
-[node name="LumberjackTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 9 )]
+[node name="LumberjackTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("9")]
 visible = false
+layout_mode = 1
 
-[node name="MainSquareTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 8 )]
-visible = false
+[node name="TabContainer" parent="MarginContainer/HBoxContainer/Widgets/LumberjackTabWidget/WidgetDetail/Body" index="1"]
+offset_bottom = 202.0
 
-[node name="PastryShopTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 22 )]
+[node name="MainSquareTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("8")]
 visible = false
+layout_mode = 1
 
-[node name="PigstyTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 23 )]
+[node name="PastryShopTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("22")]
 visible = false
+layout_mode = 1
 
-[node name="ResidenceTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 47 )]
+[node name="PigstyTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("23")]
 visible = false
+layout_mode = 1
 
-[node name="SchoolTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 27 )]
+[node name="ResidenceTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("47")]
 visible = false
+layout_mode = 1
 
-[node name="SmelteryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 25 )]
+[node name="SchoolTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("27")]
 visible = false
+layout_mode = 1
 
-[node name="StonemasonTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 28 )]
+[node name="SmelteryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("25")]
 visible = false
+layout_mode = 1
 
-[node name="StonePitTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 40 )]
+[node name="StonemasonTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("28")]
 visible = false
+layout_mode = 1
 
-[node name="StorageTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 12 )]
+[node name="StonePitTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("40")]
 visible = false
+layout_mode = 1
 
-[node name="TavernTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 38 )]
+[node name="StorageTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("12")]
 visible = false
+layout_mode = 1
 
-[node name="TobacconistTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 41 )]
+[node name="TavernTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("38")]
 visible = false
+layout_mode = 1
 
-[node name="ToolmakerTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 39 )]
+[node name="TobacconistTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("41")]
 visible = false
+layout_mode = 1
 
-[node name="WarehouseTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 10 )]
+[node name="ToolmakerTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("39")]
 visible = false
+layout_mode = 1
 
-[node name="WeaponsmithTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 36 )]
+[node name="WarehouseTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("10")]
 visible = false
+layout_mode = 1
 
-[node name="WeaverTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 37 )]
+[node name="WeaponsmithTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("36")]
 visible = false
+layout_mode = 1
 
-[node name="WindmillTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 44 )]
+[node name="WeaverTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("37")]
 visible = false
+layout_mode = 1
 
-[node name="WineryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 42 )]
+[node name="WindmillTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("44")]
 visible = false
+layout_mode = 1
 
-[node name="WoodenTowerTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 43 )]
+[node name="WineryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("42")]
 visible = false
+layout_mode = 1
 
-[node name="BuildMenuByCategoryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource( 46 )]
+[node name="WoodenTowerTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("43")]
 visible = false
+layout_mode = 1
+
+[node name="BuildMenuByCategoryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("46")]
+visible = false
+layout_mode = 1
+
+[editable path="MarginContainer/HBoxContainer/Widgets/LumberjackTabWidget"]
+[editable path="MarginContainer/HBoxContainer/Widgets/LumberjackTabWidget/WidgetDetail/Body/TabContainer/BuildRelatedBuildings"]

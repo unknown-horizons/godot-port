@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/ships_bell.ogg-9d09d7f3d7a9b9265e4ea307182cadeb.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cysg7fs7v5t3j"
+path="res://.godot/imported/ships_bell.ogg-9d09d7f3d7a9b9265e4ea307182cadeb.oggvorbisstr"
 
 [deps]
 
 source_file="res://Assets/Audio/Sounds/ships_bell.ogg"
-dest_files=[ "res://.import/ships_bell.ogg-9d09d7f3d7a9b9265e4ea307182cadeb.oggstr" ]
+dest_files=["res://.godot/imported/ships_bell.ogg-9d09d7f3d7a9b9265e4ea307182cadeb.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

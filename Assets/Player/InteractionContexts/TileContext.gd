@@ -1,11 +1,11 @@
 extends InteractionContext
 class_name TileContext
 
-signal tiles_changed(scaffold_tiles, can_built) # Array, bool
+signal tiles_changed(scaffold_tiles: Array, can_built: bool)
 
 const PHANTOM_TILE_TEXTURE = preload("res://Assets/World/Buildings/Streets/Sprites/trail_single.png")
 
-onready var streets: TileMap3D = get_node("/root/World/AStarMap/Streets") as TileMap3D
+@onready var streets: TileMap3D = get_node("/root/World/AStarMap/Streets") as TileMap3D
 
 var m_pos: Vector2
 
@@ -18,12 +18,12 @@ var draw_path := []
 var aborted := false
 
 func _ready() -> void:
-	connect("tiles_changed", streets, "update_tiles")
+	connect("tiles_changed", Callable(streets, "update_tiles"))
 
 	set_process(false)
 
 func show_phantom_tile(tile_pos: Vector2) -> void:
-	phantom_tile.translation = streets.map_to_world(tile_pos.x, 0, tile_pos.y)
+	phantom_tile.position = streets.map_to_local(Vector3i(tile_pos.x,0,tile_pos.y))
 
 func handle_tiles(raycast_position: Vector2) -> void:
 	var tile_pos = streets.world_to_tilemap(raycast_position)
@@ -40,10 +40,10 @@ func handle_tiles(raycast_position: Vector2) -> void:
 
 func _on_enter() -> void:
 	print("InteractionContext %s entered" % _context_name)
-	var material = SpatialMaterial.new()
+	var material := StandardMaterial3D.new()
 	material.flags_transparent = true
 	material.flags_no_depth_test = true
-	material.params_billboard_mode = SpatialMaterial.BILLBOARD_ENABLED
+	material.params_billboard_mode = StandardMaterial3D.BILLBOARD_ENABLED
 	material.albedo_texture = PHANTOM_TILE_TEXTURE
 
 	phantom_tile = Sprite3D.new()
@@ -83,7 +83,7 @@ func _process(_delta: float) -> void:
 		else: # occupied cell
 			if draw_path.size() > 1:
 				if tile_pos == draw_path[-2]:
-					#draw_path.remove(draw_path.size() - 1)
+					#draw_path.remove_at(draw_path.size() - 1)
 					var cell_to_be_removed = draw_path.pop_back()
 					if not cell_to_be_removed in draw_path:
 						streets.set_tile_item(cell_to_be_removed, -1)

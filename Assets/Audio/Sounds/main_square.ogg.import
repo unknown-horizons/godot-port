@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/main_square.ogg-2201c259ea4a82831f0b2d99694d7b0c.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://iykpylgga7v1"
+path="res://.godot/imported/main_square.ogg-2201c259ea4a82831f0b2d99694d7b0c.oggvorbisstr"
 
 [deps]
 
 source_file="res://Assets/Audio/Sounds/main_square.ogg"
-dest_files=[ "res://.import/main_square.ogg-2201c259ea4a82831f0b2d99694d7b0c.oggstr" ]
+dest_files=["res://.godot/imported/main_square.ogg-2201c259ea4a82831f0b2d99694d7b0c.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

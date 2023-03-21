@@ -1,17 +1,32 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=3 uid="uid://j3ob5ccywn5q"]
 
-[ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/World/Shapes/BoxShape2x2.tres" type="Shape" id=2]
-[ext_resource path="res://Assets/World/Buildings/PastryShop/Sprites/PastryShop_idle.png" type="Texture" id=3]
-[ext_resource path="res://Assets/World/Buildings/PastryShop/PastryShop.gd" type="Script" id=4]
+[ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="1"]
+[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://li6xk3n4774q" path="res://Assets/World/Buildings/PastryShop/Sprites/PastryShop_idle.png" id="3"]
+[ext_resource type="Script" path="res://Assets/World/Buildings/PastryShop/PastryShop.gd" id="4"]
 
-[node name="PastryShop" instance=ExtResource( 1 )]
-script = ExtResource( 4 )
-texture = ExtResource( 3 )
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sn4wk"]
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+no_depth_test = true
+albedo_texture = ExtResource("3")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+billboard_mode = 1
+
+[node name="PastryShop" instance=ExtResource("1")]
+script = ExtResource("4")
+texture = ExtResource("3")
 
 [node name="Billboard" parent="." index="0"]
-texture = ExtResource( 3 )
-region_rect = Rect2( 0, 0, 512, 512 )
+texture = ExtResource("3")
+region_rect = Rect2(0, 0, 512, 512)
 
-[node name="CollisionShape" parent="Area" index="0"]
-shape = ExtResource( 2 )
+[node name="Outline" parent="Billboard" index="0"]
+material_overlay = SubResource("StandardMaterial3D_sn4wk")
+texture = ExtResource("3")
+region_rect = Rect2(0, 0, 512, 512)
+
+[node name="CollisionShape3D" parent="Area3D" index="0"]
+shape = ExtResource("2")

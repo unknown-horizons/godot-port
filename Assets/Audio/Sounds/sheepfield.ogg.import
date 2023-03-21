@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/sheepfield.ogg-011d2b6672ef85b9d274f44777152f70.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bxbtof3k7o24g"
+path="res://.godot/imported/sheepfield.ogg-011d2b6672ef85b9d274f44777152f70.oggvorbisstr"
 
 [deps]
 
 source_file="res://Assets/Audio/Sounds/sheepfield.ogg"
-dest_files=[ "res://.import/sheepfield.ogg-011d2b6672ef85b9d274f44777152f70.oggstr" ]
+dest_files=["res://.godot/imported/sheepfield.ogg-011d2b6672ef85b9d274f44777152f70.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

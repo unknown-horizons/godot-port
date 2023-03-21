@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Assets/UI/TabWidgets/ViewComponents/BuildMenuContainer.gd" id="5"]
+
+[node name="BuildMenuContainer" type="GridContainer"]
+custom_minimum_size = Vector2(207, 40)
+offset_right = 207.0
+offset_bottom = 40.0
+theme_override_constants/v_separation = 12
+columns = 4
+script = ExtResource("5")

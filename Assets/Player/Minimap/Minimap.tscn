@@ -1,42 +1,34 @@
-[gd_scene load_steps=7 format=2]
-
-[ext_resource path="res://Assets/Player/Minimap/Minimap.gd" type="Script" id=1]
-[ext_resource path="res://Assets/Player/Minimap/MinimapTerrainLayer.gd" type="Script" id=2]
-[ext_resource path="res://Assets/Player/Minimap/MinimapWarehouseLayer.gd" type="Script" id=3]
-[ext_resource path="res://Assets/UI/Icons/Ship/civil_32_h.png" type="Texture" id=4]
-[ext_resource path="res://Assets/Player/Minimap/MinimapShipLayer.gd" type="Script" id=5]
-[ext_resource path="res://Assets/UI/Icons/Ship/anchor_h.png" type="Texture" id=6]
+[gd_scene format=3 uid="uid://d08xfnfci8npi"]
 
 [node name="Minimap" type="Control"]
+layout_mode = 3
+anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -500.0
-margin_top = -500.0
-margin_right = 500.0
-margin_bottom = 500.0
-rect_pivot_offset = Vector2( 500, 500 )
-script = ExtResource( 1 )
+offset_left = -500.0
+offset_top = -500.0
+offset_right = 500.0
+offset_bottom = 500.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(500, 500)
 
 [node name="TerrainLayer" type="Control" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
-script = ExtResource( 2 )
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
 
 [node name="WarehouseLayer" type="Control" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
-script = ExtResource( 3 )
-warehouse_icon = ExtResource( 4 )
-warehouse_icon_scale = Vector2( 0.75, 0.75 )
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
 
 [node name="ShipLayer" type="Control" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
-script = ExtResource( 5 )
-ship_icon_scale = Vector2( 0.75, 0.75 )
-player_ship_icon = ExtResource( 6 )
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
 
 [node name="Timer" type="Timer" parent="ShipLayer"]
 wait_time = 0.1

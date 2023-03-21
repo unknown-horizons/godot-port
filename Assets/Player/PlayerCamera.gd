@@ -1,4 +1,4 @@
-extends Spatial
+extends Node3D
 class_name PlayerCamera
 
 signal hovered
@@ -8,23 +8,20 @@ signal unselected
 
 const RAY_LENGTH = 1000
 
-export(NodePath) var default_interaction_context
+@export var default_interaction_context: NodePath
 
 var player: Player
 var active_context: InteractionContext
 var selected_entities: Array
 
-var hovered_object: WorldThing setget set_hovered_object
+var hovered_object: WorldThing : set = set_hovered_object
 
-# HACK: Prevent triggering unit selection due to preceeding menu click
-#var _first_frame = true
+@onready var hud := $PlayerHUD
 
-onready var hud := $PlayerHUD
-
-onready var _rotation_y := $RotationY as Spatial
-onready var _camera := $RotationY/Camera as Camera
-onready var _camera_controls = $CameraControls
-onready var _selection_box = $SelectionBox
+@onready var _rotation_y := $RotationY as Node3D
+@onready var _camera := $RotationY/Camera3D as Camera3D
+@onready var _camera_controls = $CameraControls
+@onready var _selection_box = $SelectionBox
 
 func set_hovered_object(new_hovered_object: WorldThing) -> void:
 	if new_hovered_object != hovered_object:
@@ -44,29 +41,25 @@ func _ready() -> void:
 	abort_context()
 
 func _process(_delta: float) -> void:
-#	if _first_frame:
-#		_first_frame = false
-#		return
-
-	# Unit selection only if player is existing (no gameover, etc.)
+	# Unit selection only if player is existing. (no gameover, etc.)
 	if not player:
 		player = assign_to_player()
 		return
 
 	if player.camera == null:
-		player.camera = self # bind player to this camera
+		player.camera = self # Bind player to this camera.
 
-		connect("hovered", hud, "_on_PlayerCamera_hovered")
-		connect("unhovered", hud, "_on_PlayerCamera_unhovered")
-		connect("selected", hud, "_on_PlayerCamera_selected")
-		connect("unselected", hud, "_on_PlayerCamera_unselected")
+		connect("hovered", Callable(hud, "_on_PlayerCamera_hovered"))
+		connect("unhovered", Callable(hud, "_on_PlayerCamera_unhovered"))
+		connect("selected", Callable(hud, "_on_PlayerCamera_selected"))
+		connect("unselected", Callable(hud, "_on_PlayerCamera_unselected"))
 
 func _unhandled_input(event: InputEvent) -> void:
 	var target := raycast_from_mouse()
-	var target_object: Spatial
+	var target_object: Node3D
 	var target_pos: Vector2
 	if target:
-		target_object = (target["collider"] as CollisionObject).get_parent()
+		target_object = (target["collider"] as CollisionObject3D).get_parent()
 		target_pos = (Utils.map_3_to_2(target["position"]) as Vector2)
 
 	#if target_object is WorldThing:
@@ -81,7 +74,7 @@ func assign_to_player() -> Player:
 	return Global.Game.player if Global.Game != null and Global.Game.player else null
 
 func set_selection(new_selection: Array) -> void:
-	if not new_selection:
+	if new_selection.is_empty():
 		return
 
 	unset_selection()
@@ -98,13 +91,13 @@ func set_selection(new_selection: Array) -> void:
 		if entity is Unit:
 			selection_type = SelectionContext.SelectionType.UNIT
 
-			# Clean the array from buildings if any added before
+			# Clean the array from buildings if any added before.
 			for j in selected_entities.size():
 				var selected_entity = selected_entities[j]
 				if selected_entity is Building:
-					selected_entities.remove(j)
+					selected_entities.remove_at(j)
 
-		# If any unit was found, ignore any building targets
+		# If any unit was found, ignore any building targets.
 		if selection_type == SelectionContext.SelectionType.UNIT:
 			if entity is Building:
 				continue
@@ -117,15 +110,15 @@ func set_selection(new_selection: Array) -> void:
 			break
 
 	if selection_type == SelectionContext.SelectionType.UNIT:
-		switch_context(find_node("MovementContext"))
+		switch_context(find_child("MovementContext") as InteractionContext)
 	#elif selection_type == SelectionContext.SelectionType.BUILDING:
-	#	switch_context(find_node("BuildingContext"))
+	#	switch_context(find_child("BuildingContext"))
 
 	emit_signal("selected", selected_entities)
 
 func unset_selection() -> void:
-	if not selected_entities:
-		# close build menu when click on any free place
+	if selected_entities.is_empty():
+		# Close build menu when click on any free place.
 		emit_signal("unselected")
 		return
 
@@ -138,12 +131,23 @@ func unset_selection() -> void:
 	emit_signal("unselected")
 
 func raycast_from_mouse(collision_mask: int = -1) -> Dictionary:
-	var m_pos: Vector2 = get_viewport().get_mouse_position()
-	var ray_start := _camera.project_ray_origin(m_pos)
-	var ray_end := ray_start + _camera.project_ray_normal(m_pos) * RAY_LENGTH
-	var space_state := get_world().direct_space_state
-	var dict := space_state.intersect_ray(ray_start, ray_end, [], collision_mask, true, true)
-	return dict
+	#var m_pos: Vector2 = get_viewport().get_mouse_position()
+	#var ray_start := _camera.project_ray_origin(m_pos)
+	#var ray_end := ray_start + _camera.project_ray_normal(m_pos) * RAY_LENGTH
+	#var space_state := get_world_3d().direct_space_state
+	#var dict := space_state.intersect_ray(ray_start, ray_end, [], collision_mask, true, true)
+	#return dict
+
+	var mouse_pos := get_viewport().get_mouse_position()
+	var space_state := get_world_3d().direct_space_state
+	var query := PhysicsRayQueryParameters3D.new()
+	query.collide_with_areas = true
+	query.from = _camera.project_ray_origin(mouse_pos)
+	query.to = query.from + _camera.project_ray_normal(mouse_pos) * RAY_LENGTH
+	#query.exclude = [collision_mask] # gridmap.get_static_bodies_rids() TODO
+
+	var result := space_state.intersect_ray(query)
+	return result
 
 # Interaction system
 func switch_context(new_context: InteractionContext) -> void:
@@ -151,29 +155,27 @@ func switch_context(new_context: InteractionContext) -> void:
 	if active_context:
 		active_context._on_exit()
 	active_context = new_context
-	if not active_context.is_connected("switch_context", self, "switch_context"):
-		# warning-ignore:return_value_discarded
-		active_context.connect("switch_context", self, "switch_context")
-	if not active_context.is_connected("abort_context", self, "abort_context"):
-		# warning-ignore:return_value_discarded
-		active_context.connect("abort_context", self, "abort_context")
+	if not active_context.switch_context.is_connected(Callable(self, "switch_context")):
+		active_context.switch_context.connect(Callable(self, "switch_context"))
+	if not active_context.context_aborted.is_connected(Callable(self, "abort_context")):
+		active_context.context_aborted.connect(Callable(self, "abort_context"))
 	active_context._on_enter()
 
 func abort_context() -> void:
-	switch_context(get_node(default_interaction_context))
+	switch_context(get_node(default_interaction_context) as InteractionContext)
 
 func _on_PlayerHUD_button_tear_pressed() -> void:
-	switch_context(find_node("TearContext"))
+	switch_context(find_child("TearContext") as InteractionContext)
 
 func _on_PlayerHUD_button_logbook_pressed() -> void:
-	var Logbook = preload("res://Assets/UI/Scenes/Logbook.tscn")
-	get_tree().root.add_child(Logbook.instance())
+	var Logbook = preload("res://Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn")
+	get_tree().root.add_child(Logbook.instantiate())
 
 func _on_PlayerHUD_button_build_menu_pressed() -> void:
 	prints("TODO: Open Build Menu - select tile context for now")
-	# switch_context(find_node("TileContext"))
+	# switch_context(find_child("TileContext"))
 	emit_signal("selected", ["BuildMenu"])
-	# switch_context(find_node("TileContext"))
+	# switch_context(find_child("TileContext"))
 
 func _on_PlayerHUD_button_diplomacy_pressed() -> void:
 	prints("TODO: Open Diplomacy Menu")

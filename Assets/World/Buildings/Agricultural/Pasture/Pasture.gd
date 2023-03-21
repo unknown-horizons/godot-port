@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name Pasture
 
@@ -43,4 +43,4 @@ func animate() -> void:
 			else:
 				_billboard.frame = next_frame()
 
-	.animate()
+	super()

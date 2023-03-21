@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name Residence
 
@@ -85,8 +85,8 @@ const TIERS = [
 	RESIDENTIAL_STONE_HOUSE_IDLE,
 ]
 
-export(int, 0, 4) var tier setget set_tier
-export(int) var variation setget set_variation
+@export_range(0, 4) var tier: int : set = set_tier
+@export var variation: int : set = set_variation
 
 func animate() -> void:
 	match action:

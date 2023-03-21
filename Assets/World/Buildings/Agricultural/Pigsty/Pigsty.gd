@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name Pigsty
 
@@ -42,4 +42,4 @@ func animate() -> void:
 			else:
 				_billboard.frame = next_frame()
 
-	.animate()
+	super()

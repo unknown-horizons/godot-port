@@ -1,0 +1,46 @@
+[gd_scene load_steps=15 format=3 uid="uid://bf7nlvfy521iv"]
+
+[ext_resource type="Texture2D" uid="uid://ddh027myuq7hy" path="res://Assets/UI/Animations/Cogs/Large/3.png" id="1_patq8"]
+[ext_resource type="Texture2D" uid="uid://cskqcrekqoahe" path="res://Assets/UI/Animations/Cogs/Large/0.png" id="2_cw4af"]
+[ext_resource type="Texture2D" uid="uid://b03qob7uus8md" path="res://Assets/UI/Animations/Cogs/Large/1.png" id="3_cd6gb"]
+[ext_resource type="Texture2D" uid="uid://c77jm4txk5kbs" path="res://Assets/UI/Animations/Cogs/Large/2.png" id="4_dsrr1"]
+[ext_resource type="Texture2D" uid="uid://boi5bk47rq0oj" path="res://Assets/UI/Animations/Cogs/Large/4.png" id="5_c46wn"]
+[ext_resource type="Texture2D" uid="uid://bt7yp7i612fxg" path="res://Assets/UI/Animations/Cogs/Large/5.png" id="6_4waso"]
+[ext_resource type="Texture2D" uid="uid://dsmgypxqst7hm" path="res://Assets/UI/Animations/Cogs/Large/6.png" id="7_btqfb"]
+[ext_resource type="Texture2D" uid="uid://doy6gqotgk31v" path="res://Assets/UI/Animations/Cogs/Large/7.png" id="8_auog7"]
+[ext_resource type="Texture2D" uid="uid://coeee1d4xga70" path="res://Assets/UI/Animations/Cogs/Large/8.png" id="9_yi6f2"]
+[ext_resource type="Texture2D" uid="uid://c5sgxshkm16nx" path="res://Assets/UI/Animations/Cogs/Large/9.png" id="10_u2fpb"]
+[ext_resource type="Texture2D" uid="uid://bmo78ikgeivji" path="res://Assets/UI/Animations/Cogs/Large/10.png" id="11_uqumo"]
+[ext_resource type="Texture2D" uid="uid://cldnuujf5bm81" path="res://Assets/UI/Animations/Cogs/Large/11.png" id="12_ofd7m"]
+
+[sub_resource type="Animation" id="1"]
+resource_name = "cycle"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("2_cw4af"), ExtResource("3_cd6gb"), ExtResource("4_dsrr1"), ExtResource("1_patq8"), ExtResource("5_c46wn"), ExtResource("6_4waso"), ExtResource("7_btqfb"), ExtResource("8_auog7"), ExtResource("9_yi6f2"), ExtResource("10_u2fpb"), ExtResource("11_uqumo"), ExtResource("12_ofd7m")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1i8e1"]
+_data = {
+"cycle": SubResource("1")
+}
+
+[node name="LargeCogs" type="TextureRect"]
+offset_right = 52.0
+offset_bottom = 52.0
+texture = ExtResource("1_patq8")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "cycle"
+libraries = {
+"": SubResource("AnimationLibrary_1i8e1")
+}

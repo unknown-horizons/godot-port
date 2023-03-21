@@ -1,0 +1,17 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="PackedScene" uid="uid://nw0718et1ghp" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButton.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://bu75feoxbelwj" path="res://Assets/UI/Icons/Widgets/MiniMap/speed_up_d.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dniywl5poe8gu" path="res://Assets/UI/Icons/Widgets/MiniMap/speed_up_h.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b6nuq70hohg0w" path="res://Assets/UI/Icons/Widgets/MiniMap/speed_up.png" id="4"]
+[ext_resource type="Script" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedChangeButton.gd" id="5"]
+
+[node name="GameSpeedUpButton" instance=ExtResource("1")]
+texture_normal = ExtResource("4")
+texture_pressed = ExtResource("2")
+texture_hover = ExtResource("3")
+script = ExtResource("5")
+game_speed_change = 0.0
+
+[node name="TextureRect" parent="." index="0"]
+visible = false

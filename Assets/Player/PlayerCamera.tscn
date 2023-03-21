@@ -1,66 +1,60 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=9 format=3 uid="uid://ctbaljo7ulect"]
 
-[ext_resource path="res://Assets/Player/PlayerCamera.gd" type="Script" id=1]
-[ext_resource path="res://Assets/UI/Scripts/SelectionBox.gd" type="Script" id=2]
-[ext_resource path="res://Assets/Player/PlayerHUD.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Assets/Player/CameraControls.gd" type="Script" id=4]
-[ext_resource path="res://Assets/Player/InteractionContexts/SelectionContext.gd" type="Script" id=5]
-[ext_resource path="res://Assets/Player/InteractionContexts/MovementContext.gd" type="Script" id=6]
-[ext_resource path="res://Assets/Player/InteractionContexts/TileContext.gd" type="Script" id=7]
-[ext_resource path="res://Assets/Player/InteractionContexts/TearContext.gd" type="Script" id=8]
+[ext_resource type="Script" path="res://Assets/Player/PlayerCamera.gd" id="1"]
+[ext_resource type="Script" path="res://Assets/Player/SelectionBox.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://cerj23s8m7d40" path="res://Assets/Player/PlayerHUD.tscn" id="3"]
+[ext_resource type="Script" path="res://Assets/Player/CameraControls.gd" id="4"]
+[ext_resource type="Script" path="res://Assets/Player/InteractionContexts/SelectionContext.gd" id="5"]
+[ext_resource type="Script" path="res://Assets/Player/InteractionContexts/MovementContext.gd" id="6"]
+[ext_resource type="Script" path="res://Assets/Player/InteractionContexts/TileContext.gd" id="7"]
+[ext_resource type="Script" path="res://Assets/Player/InteractionContexts/TearContext.gd" id="8"]
 
-[node name="PlayerCamera" type="Spatial"]
-pause_mode = 2
-script = ExtResource( 1 )
+[node name="PlayerCamera" type="Node3D"]
+script = ExtResource("1")
 default_interaction_context = NodePath("SelectionBox/SelectionContext")
 
-[node name="RotationY" type="Spatial" parent="."]
-transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 0, 0 )
+[node name="RotationY" type="Node3D" parent="."]
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 0, 0)
 
-[node name="Camera" type="Camera" parent="RotationY"]
-transform = Transform( 1, -2.98023e-08, -2.98023e-08, 0, 0.819152, 0.573577, 0, -0.573577, 0.819152, 0, 100, 143 )
+[node name="Camera3D" type="Camera3D" parent="RotationY"]
+transform = Transform3D(1, -2.98023e-08, -2.98023e-08, 0, 0.819152, 0.573577, 0, -0.573577, 0.819152, 0, 100, 143)
 projection = 1
 current = true
 size = 20.0
 far = 1000.0
 
-[node name="CameraControls" type="Node" parent="."]
-script = ExtResource( 4 )
-origin_path = NodePath("..")
-camera_path = NodePath("../RotationY/Camera")
-rotation_y_path = NodePath("../RotationY")
+[node name="CameraControls" type="Node" parent="." node_paths=PackedStringArray("_origin", "_camera", "_rotation_y")]
+script = ExtResource("4")
+_origin = NodePath("..")
+_camera = NodePath("../RotationY/Camera3D")
+_rotation_y = NodePath("../RotationY")
 
 [node name="SelectionBox" type="Control" parent="."]
 visible = false
-margin_right = 40.0
-margin_bottom = 40.0
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
 mouse_filter = 1
-script = ExtResource( 2 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+script = ExtResource("2")
 
 [node name="SelectionContext" type="Node" parent="SelectionBox"]
-script = ExtResource( 5 )
+script = ExtResource("5")
 _context_name = "Selection"
-valid_actions = PoolStringArray( "main_command", "alt_command" )
 
 [node name="MovementContext" type="Node" parent="SelectionBox"]
-script = ExtResource( 6 )
+script = ExtResource("6")
 _context_name = "Movement"
-valid_actions = PoolStringArray( "main_command", "alt_command" )
 
 [node name="TileContext" type="Node" parent="."]
-script = ExtResource( 7 )
+script = ExtResource("7")
 _context_name = "Tiling"
-valid_actions = PoolStringArray( "main_command", "alt_command" )
 
 [node name="TearContext" type="Node" parent="."]
-script = ExtResource( 8 )
+script = ExtResource("8")
 _context_name = "Tear"
-valid_actions = PoolStringArray( "main_command", "alt_command" )
 
-[node name="PlayerHUD" parent="." instance=ExtResource( 3 )]
+[node name="PlayerHUD" parent="." instance=ExtResource("3")]
 
 [connection signal="deselected" from="SelectionBox/SelectionContext" to="." method="unset_selection"]
 [connection signal="selected" from="SelectionBox/SelectionContext" to="." method="set_selection"]

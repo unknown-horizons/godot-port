@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name PastryShop
 
@@ -34,4 +34,4 @@ func animate() -> void:
 
 			_billboard.frame = next_frame()
 
-	.animate()
+	super()

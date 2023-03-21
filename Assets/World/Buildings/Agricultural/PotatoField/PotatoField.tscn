@@ -1,16 +1,17 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=3 uid="uid://h4dlveo0uslj"]
 
-[ext_resource path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/World/Buildings/Agricultural/PotatoField/Sprites/PotatoField_work_anim.png" type="Texture" id=3]
-[ext_resource path="res://Assets/World/Buildings/Agricultural/PotatoField/PotatoField.gd" type="Script" id=4]
+[ext_resource type="PackedScene" uid="uid://gfjfmihmduqa" path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" id="1"]
+[ext_resource type="Script" path="res://Assets/World/Buildings/Agricultural/PotatoField/PotatoField.gd" id="4"]
 
-[node name="PotatoField" instance=ExtResource( 1 )]
-script = ExtResource( 4 )
+[node name="PotatoField" instance=ExtResource("1")]
+script = ExtResource("4")
 
 [node name="Billboard" parent="." index="0"]
-offset = Vector2( 0, 48 )
-texture = ExtResource( 3 )
+offset = Vector2(0, 48)
 hframes = 5
 vframes = 1
 region_enabled = true
-region_rect = Rect2( 0, 0, 960, 192 )
+region_rect = Rect2(0, 0, 960, 192)
+
+[node name="Area3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)

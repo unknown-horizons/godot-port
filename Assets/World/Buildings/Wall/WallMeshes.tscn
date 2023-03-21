@@ -1,198 +1,183 @@
-[gd_scene load_steps=46 format=2]
+[gd_scene load_steps=46 format=3 uid="uid://1ifidaq4ta2x"]
 
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_single.png" type="Texture" id=1]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_a.png" type="Texture" id=2]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_ab.png" type="Texture" id=3]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_abc.png" type="Texture" id=4]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_abcd.png" type="Texture" id=5]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_abcde.png" type="Texture" id=6]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_abcdef.png" type="Texture" id=7]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_abcdefg.png" type="Texture" id=8]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_abcdefgh.png" type="Texture" id=9]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_abcdeg.png" type="Texture" id=10]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_abce.png" type="Texture" id=11]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_abcef.png" type="Texture" id=12]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_abcf.png" type="Texture" id=13]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_abe.png" type="Texture" id=14]
-[ext_resource path="res://Assets/World/Buildings/Wall/Sprites/wall_ac.png" type="Texture" id=15]
+[ext_resource type="Texture2D" uid="uid://lh55b1kjy70g" path="res://Assets/World/Buildings/Wall/Sprites/wall_single.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cgv2aaouv8wer" path="res://Assets/World/Buildings/Wall/Sprites/wall_a.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bl8i0iivlhs6k" path="res://Assets/World/Buildings/Wall/Sprites/wall_ab.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://vdc2ej44tpo1" path="res://Assets/World/Buildings/Wall/Sprites/wall_abc.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://clyy2es6w1rg2" path="res://Assets/World/Buildings/Wall/Sprites/wall_abcd.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://4c47whctkq86" path="res://Assets/World/Buildings/Wall/Sprites/wall_abcde.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cqltuxrjrbvm7" path="res://Assets/World/Buildings/Wall/Sprites/wall_abcdef.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://diiikyc0w8fhv" path="res://Assets/World/Buildings/Wall/Sprites/wall_abcdefg.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c1j7bvbqp5gy" path="res://Assets/World/Buildings/Wall/Sprites/wall_abcdefgh.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://c06pkb2ihffhi" path="res://Assets/World/Buildings/Wall/Sprites/wall_abcdeg.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://baowigjp7i1rg" path="res://Assets/World/Buildings/Wall/Sprites/wall_abce.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://4dsyc4jt8hpm" path="res://Assets/World/Buildings/Wall/Sprites/wall_abcef.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://wamftie6i2lj" path="res://Assets/World/Buildings/Wall/Sprites/wall_abcf.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dhh7jsp3pxm7n" path="res://Assets/World/Buildings/Wall/Sprites/wall_abe.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bak70fcfg11um" path="res://Assets/World/Buildings/Wall/Sprites/wall_ac.png" id="15"]
 
-[sub_resource type="SpatialMaterial" id=1]
-flags_transparent = true
-albedo_texture = ExtResource( 1 )
+[sub_resource type="StandardMaterial3D" id="1"]
+transparency = 1
+albedo_texture = ExtResource("1")
 
-[sub_resource type="PlaneMesh" id=2]
-material = SubResource( 1 )
+[sub_resource type="PlaneMesh" id="2"]
+material = SubResource("1")
 
-[sub_resource type="SpatialMaterial" id=3]
-flags_transparent = true
-albedo_texture = ExtResource( 2 )
+[sub_resource type="StandardMaterial3D" id="3"]
+transparency = 1
+albedo_texture = ExtResource("2")
 
-[sub_resource type="PlaneMesh" id=4]
-material = SubResource( 3 )
+[sub_resource type="PlaneMesh" id="4"]
+material = SubResource("3")
 
-[sub_resource type="SpatialMaterial" id=5]
-flags_transparent = true
-albedo_texture = ExtResource( 3 )
+[sub_resource type="StandardMaterial3D" id="5"]
+transparency = 1
+albedo_texture = ExtResource("3")
 
-[sub_resource type="PlaneMesh" id=6]
-material = SubResource( 5 )
+[sub_resource type="PlaneMesh" id="6"]
+material = SubResource("5")
 
-[sub_resource type="SpatialMaterial" id=7]
-flags_transparent = true
-albedo_texture = ExtResource( 4 )
+[sub_resource type="StandardMaterial3D" id="7"]
+transparency = 1
+albedo_texture = ExtResource("4")
 
-[sub_resource type="PlaneMesh" id=8]
-material = SubResource( 7 )
+[sub_resource type="PlaneMesh" id="8"]
+material = SubResource("7")
 
-[sub_resource type="SpatialMaterial" id=9]
-flags_transparent = true
-albedo_texture = ExtResource( 5 )
+[sub_resource type="StandardMaterial3D" id="9"]
+transparency = 1
+albedo_texture = ExtResource("5")
 
-[sub_resource type="PlaneMesh" id=10]
-material = SubResource( 9 )
+[sub_resource type="PlaneMesh" id="10"]
+material = SubResource("9")
 
-[sub_resource type="SpatialMaterial" id=11]
-flags_transparent = true
-albedo_texture = ExtResource( 6 )
+[sub_resource type="StandardMaterial3D" id="11"]
+transparency = 1
+albedo_texture = ExtResource("6")
 
-[sub_resource type="PlaneMesh" id=12]
-material = SubResource( 11 )
+[sub_resource type="PlaneMesh" id="12"]
+material = SubResource("11")
 
-[sub_resource type="SpatialMaterial" id=13]
-flags_transparent = true
-albedo_texture = ExtResource( 7 )
+[sub_resource type="StandardMaterial3D" id="13"]
+transparency = 1
+albedo_texture = ExtResource("7")
 
-[sub_resource type="PlaneMesh" id=14]
-material = SubResource( 13 )
+[sub_resource type="PlaneMesh" id="14"]
+material = SubResource("13")
 
-[sub_resource type="SpatialMaterial" id=15]
-flags_transparent = true
-albedo_texture = ExtResource( 8 )
+[sub_resource type="StandardMaterial3D" id="15"]
+transparency = 1
+albedo_texture = ExtResource("8")
 
-[sub_resource type="PlaneMesh" id=16]
-material = SubResource( 15 )
+[sub_resource type="PlaneMesh" id="16"]
+material = SubResource("15")
 
-[sub_resource type="SpatialMaterial" id=17]
-flags_transparent = true
-albedo_texture = ExtResource( 9 )
+[sub_resource type="StandardMaterial3D" id="17"]
+transparency = 1
+albedo_texture = ExtResource("9")
 
-[sub_resource type="PlaneMesh" id=18]
-material = SubResource( 17 )
+[sub_resource type="PlaneMesh" id="18"]
+material = SubResource("17")
 
-[sub_resource type="SpatialMaterial" id=19]
-flags_transparent = true
-albedo_texture = ExtResource( 10 )
+[sub_resource type="StandardMaterial3D" id="19"]
+transparency = 1
+albedo_texture = ExtResource("10")
 
-[sub_resource type="PlaneMesh" id=20]
-material = SubResource( 19 )
+[sub_resource type="PlaneMesh" id="20"]
+material = SubResource("19")
 
-[sub_resource type="SpatialMaterial" id=21]
-flags_transparent = true
-albedo_texture = ExtResource( 11 )
+[sub_resource type="StandardMaterial3D" id="21"]
+transparency = 1
+albedo_texture = ExtResource("11")
 
-[sub_resource type="PlaneMesh" id=22]
-material = SubResource( 21 )
+[sub_resource type="PlaneMesh" id="22"]
+material = SubResource("21")
 
-[sub_resource type="SpatialMaterial" id=23]
-flags_transparent = true
-albedo_texture = ExtResource( 12 )
+[sub_resource type="StandardMaterial3D" id="23"]
+transparency = 1
+albedo_texture = ExtResource("12")
 
-[sub_resource type="PlaneMesh" id=24]
-material = SubResource( 23 )
+[sub_resource type="PlaneMesh" id="24"]
+material = SubResource("23")
 
-[sub_resource type="SpatialMaterial" id=25]
-flags_transparent = true
-albedo_texture = ExtResource( 13 )
+[sub_resource type="StandardMaterial3D" id="25"]
+transparency = 1
+albedo_texture = ExtResource("13")
 
-[sub_resource type="PlaneMesh" id=26]
-material = SubResource( 25 )
+[sub_resource type="PlaneMesh" id="26"]
+material = SubResource("25")
 
-[sub_resource type="SpatialMaterial" id=27]
-flags_transparent = true
-albedo_texture = ExtResource( 14 )
+[sub_resource type="StandardMaterial3D" id="27"]
+transparency = 1
+albedo_texture = ExtResource("14")
 
-[sub_resource type="PlaneMesh" id=28]
-material = SubResource( 27 )
+[sub_resource type="PlaneMesh" id="28"]
+material = SubResource("27")
 
-[sub_resource type="SpatialMaterial" id=29]
-flags_transparent = true
-albedo_texture = ExtResource( 15 )
+[sub_resource type="StandardMaterial3D" id="29"]
+transparency = 1
+albedo_texture = ExtResource("15")
 
-[sub_resource type="PlaneMesh" id=30]
-material = SubResource( 29 )
+[sub_resource type="PlaneMesh" id="30"]
+material = SubResource("29")
 
-[node name="WallMeshes" type="Spatial"]
+[node name="WallMeshes" type="Node3D"]
 
-[node name="wall_single" type="MeshInstance" parent="."]
+[node name="wall_single" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 2 )
-material/0 = null
+mesh = SubResource("2")
 
-[node name="wall_a" type="MeshInstance" parent="."]
+[node name="wall_a" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 4 )
-material/0 = null
+mesh = SubResource("4")
 
-[node name="wall_ab" type="MeshInstance" parent="."]
+[node name="wall_ab" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 6 )
-material/0 = null
+mesh = SubResource("6")
 
-[node name="wall_abc" type="MeshInstance" parent="."]
+[node name="wall_abc" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 8 )
-material/0 = null
+mesh = SubResource("8")
 
-[node name="wall_abcd" type="MeshInstance" parent="."]
+[node name="wall_abcd" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 10 )
-material/0 = null
+mesh = SubResource("10")
 
-[node name="wall_abcde" type="MeshInstance" parent="."]
+[node name="wall_abcde" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 12 )
-material/0 = null
+mesh = SubResource("12")
 
-[node name="wall_abcdef" type="MeshInstance" parent="."]
+[node name="wall_abcdef" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 14 )
-material/0 = null
+mesh = SubResource("14")
 
-[node name="wall_abcdefg" type="MeshInstance" parent="."]
+[node name="wall_abcdefg" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 16 )
-material/0 = null
+mesh = SubResource("16")
 
-[node name="wall_abcdefgh" type="MeshInstance" parent="."]
+[node name="wall_abcdefgh" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 18 )
-material/0 = null
+mesh = SubResource("18")
 
-[node name="wall_abcdeg" type="MeshInstance" parent="."]
+[node name="wall_abcdeg" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 20 )
-material/0 = null
+mesh = SubResource("20")
 
-[node name="wall_abce" type="MeshInstance" parent="."]
+[node name="wall_abce" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 22 )
-material/0 = null
+mesh = SubResource("22")
 
-[node name="wall_abcef" type="MeshInstance" parent="."]
+[node name="wall_abcef" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 24 )
-material/0 = null
+mesh = SubResource("24")
 
-[node name="wall_abcf" type="MeshInstance" parent="."]
+[node name="wall_abcf" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 26 )
-material/0 = null
+mesh = SubResource("26")
 
-[node name="wall_abe" type="MeshInstance" parent="."]
+[node name="wall_abe" type="MeshInstance3D" parent="."]
 visible = false
-mesh = SubResource( 28 )
-material/0 = null
+mesh = SubResource("28")
 
-[node name="wall_ac" type="MeshInstance" parent="."]
-mesh = SubResource( 30 )
-material/0 = null
+[node name="wall_ac" type="MeshInstance3D" parent="."]
+mesh = SubResource("30")

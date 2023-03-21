@@ -1,0 +1,50 @@
+[gd_scene load_steps=5 format=3 uid="uid://1lts0t2jf0xg"]
+
+[ext_resource type="Texture2D" uid="uid://uxpid847gcgl" path="res://Assets/UI/Images/Background/Widgets/message_bg_top.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://b7fkipxd8doyg" path="res://Assets/UI/Images/Background/Widgets/message_bg_middle.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://drgtest00tglq" path="res://Assets/UI/Images/Background/Widgets/message_bg_bottom.png" id="3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_unwog"]
+content_margin_left = 12.0
+content_margin_right = 8.0
+
+[node name="MessageText" type="Label"]
+custom_minimum_size = Vector2(249, 0)
+offset_right = 249.0
+offset_bottom = 66.0
+size_flags_horizontal = 2
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxEmpty_unwog")
+text = "This is a message notification shown in the HUD occurring checked any more or less important event."
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+show_behind_parent = true
+layout_mode = 0
+offset_right = 249.0
+offset_bottom = 66.0
+size_flags_vertical = 3
+theme_override_constants/separation = 0
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("1")
+expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("2")
+expand_mode = 1
+
+[node name="TextureRect3" type="TextureRect" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("3")
+expand_mode = 1

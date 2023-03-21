@@ -1,37 +1,35 @@
 [remap]
 
 importer="texture"
-type="StreamTexture"
-path.s3tc="res://.import/gravel_path_abcde.png-5b4608a4d5701c29d3a4546ce676770b.s3tc.stex"
-path.etc2="res://.import/gravel_path_abcde.png-5b4608a4d5701c29d3a4546ce676770b.etc2.stex"
+type="CompressedTexture2D"
+uid="uid://dpufx4yrv7w0g"
+path.s3tc="res://.godot/imported/gravel_path_abcde.png-5b4608a4d5701c29d3a4546ce676770b.s3tc.ctex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
+"imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Assets/World/Buildings/Streets/Sprites/gravel_path_abcde.png"
-dest_files=[ "res://.import/gravel_path_abcde.png-5b4608a4d5701c29d3a4546ce676770b.s3tc.stex", "res://.import/gravel_path_abcde.png-5b4608a4d5701c29d3a4546ce676770b.etc2.stex" ]
+dest_files=["res://.godot/imported/gravel_path_abcde.png-5b4608a4d5701c29d3a4546ce676770b.s3tc.ctex"]
 
 [params]
 
 compress/mode=2
+compress/high_quality=false
 compress/lossy_quality=0.7
-compress/hdr_mode=0
-compress/bptc_ldr=0
+compress/hdr_compression=1
 compress/normal_map=0
-flags/repeat=true
-flags/filter=true
-flags/mipmaps=true
-flags/anisotropic=false
-flags/srgb=2
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/HDR_as_SRGB=false
-process/invert_color=false
 process/normal_map_invert_y=false
-stream=false
-size_limit=0
-detect_3d=false
-svg/scale=1.0
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

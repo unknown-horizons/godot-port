@@ -1,19 +1,26 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=5 format=3 uid="uid://drtact7u5sbsi"]
 
-[ext_resource path="res://Assets/World/WorldThing.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/World/Trees/Tree.gd" type="Script" id=2]
-[ext_resource path="res://Assets/World/Trees/Sprites/Maple1_idle_full.png" type="Texture" id=3]
+[ext_resource type="PackedScene" uid="uid://bnhisojcm3gpm" path="res://Assets/World/WorldThing.tscn" id="1"]
+[ext_resource type="Script" path="res://Assets/World/Trees/Tree.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://bpj7a252mpg8h" path="res://Assets/World/Trees/Sprites/Maple1_idle_full.png" id="3"]
 
-[sub_resource type="SpatialMaterial" id=1]
-flags_transparent = true
-flags_no_depth_test = true
-params_billboard_mode = 1
-albedo_texture = ExtResource( 3 )
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_llc82"]
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+no_depth_test = true
+albedo_texture = ExtResource("3")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+billboard_mode = 1
 
-[node name="Tree" instance=ExtResource( 1 )]
-script = ExtResource( 2 )
-texture = ExtResource( 3 )
+[node name="Tree" instance=ExtResource("1")]
+script = ExtResource("2")
+texture = ExtResource("3")
 
 [node name="Billboard" parent="." index="0"]
-material_override = SubResource( 1 )
-texture = ExtResource( 3 )
+texture = ExtResource("3")
+
+[node name="Outline" parent="Billboard" index="0"]
+material_overlay = SubResource("StandardMaterial3D_llc82")
+texture = ExtResource("3")

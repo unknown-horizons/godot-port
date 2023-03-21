@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=3 uid="uid://blbqmvav0vjgg"]
+
+[ext_resource type="PackedScene" uid="uid://bwtxisllq0ply" path="res://Assets/UI/TabWidgets/ProductionWithRelatedBuildingsMenuTabWidget.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/ViewComponents/ProductionChain.tscn" id="3"]
+[ext_resource type="Script" path="res://Assets/UI/TabWidgets/LumberjackTabWidget.gd" id="5"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildTreeButton.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://clre4f1e4md30" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildTreeAreaButton.tscn" id="10"]
+
+[node name="LumberjackTabWidget" instance=ExtResource("1")]
+script = ExtResource("5")
+
+[node name="WidgetDetail" parent="." index="2"]
+offset_bottom = 308.5
+
+[node name="Body" parent="WidgetDetail" index="1"]
+custom_minimum_size = Vector2(0, 181)
+size_flags_vertical = 1
+
+[node name="TabContainer" parent="WidgetDetail/Body" index="1"]
+offset_bottom = 229.0
+
+[node name="CaptionBlock" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="0"]
+text = "Lumberjack"
+
+[node name="ProductionChain" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="2" instance=ExtResource("3")]
+layout_mode = 2
+input_two_type = 8
+output_type = 4
+
+[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="3"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+
+[node name="GridContainer" type="GridContainer" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer" index="0"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildTreeAreaButton" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/GridContainer" index="0" instance=ExtResource("10")]
+layout_mode = 2
+
+[node name="MarginContainer" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings" index="1"]
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_right = 10
+
+[node name="BuildTreeButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="0" instance=ExtResource("6")]
+layout_mode = 2
+
+[editable path="WidgetDetail/Body/TabContainer/BuildRelatedBuildings"]

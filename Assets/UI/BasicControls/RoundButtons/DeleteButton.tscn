@@ -1,0 +1,15 @@
+[gd_scene load_steps=6 format=3 uid="uid://ck7j1yo013bo7"]
+
+[ext_resource type="Texture2D" uid="uid://b26l1iupu4j00" path="res://Assets/UI/Images/Buttons/delete.png" id="1"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/RoundButton.tscn" id="1_o7uw6"]
+[ext_resource type="Texture2D" uid="uid://b0qrsv7qonh5p" path="res://Assets/UI/Images/Buttons/delete_h.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b4vsbwp210pod" path="res://Assets/UI/Images/Buttons/delete_bw.png" id="3"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/RoundButtons/DeleteButton.gd" id="5"]
+
+[node name="DeleteButton" instance=ExtResource("1_o7uw6")]
+size_flags_horizontal = 0
+texture_normal = ExtResource("1")
+texture_pressed = ExtResource("1")
+texture_hover = ExtResource("2")
+texture_disabled = ExtResource("3")
+script = ExtResource("5")

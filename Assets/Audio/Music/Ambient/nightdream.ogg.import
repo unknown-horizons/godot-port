@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/nightdream.ogg-c83a580ed2a63426da23e94aff80213a.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cnfqkilaophxh"
+path="res://.godot/imported/nightdream.ogg-c83a580ed2a63426da23e94aff80213a.oggvorbisstr"
 
 [deps]
 
 source_file="res://Assets/Audio/Music/Ambient/nightdream.ogg"
-dest_files=[ "res://.import/nightdream.ogg-c83a580ed2a63426da23e94aff80213a.oggstr" ]
+dest_files=["res://.godot/imported/nightdream.ogg-c83a580ed2a63426da23e94aff80213a.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

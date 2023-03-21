@@ -1,0 +1,490 @@
+[gd_scene load_steps=13 format=3 uid="uid://1opsuostcgeb"]
+
+[ext_resource type="PackedScene" uid="uid://c7vej07bi5fee" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="1_dqn3w"]
+[ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="2_fty0g"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/Caption.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://cd4byu1hpqbyq" path="res://Assets/UI/BasicControls/Separator.tscn" id="5"]
+[ext_resource type="Texture2D" uid="uid://bgyonk7toefi1" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_red.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://deo6bohl0lo5m" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_blue.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://efpx6xwxpvrl" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_dark_green.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://d1lyhy8qooo8n" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_orange.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://djl0psvlm5a4m" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_purple.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ifwoahknmsvh" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_cyan.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://mwy8eit5qknk" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_yellow.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dvamp0o0sdsyh" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_pink.png" id="15"]
+
+[node name="Statistics" instance=ExtResource("1_dqn3w")]
+
+[node name="LeftPage" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer" index="0"]
+size_flags_horizontal = 3
+
+[node name="CaptionBlock" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="0" instance=ExtResource("2_fty0g")]
+layout_mode = 2
+
+[node name="Caption" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/CaptionBlock" index="1"]
+text = "Statistics"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="1"]
+custom_minimum_size = Vector2(0, 25)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/HBoxContainer" index="0"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Players"
+
+[node name="Button2" type="Button" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/HBoxContainer" index="1"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "My ships"
+
+[node name="Button3" type="Button" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/HBoxContainer" index="2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "My settlements"
+
+[node name="SubheadingBlock" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="2"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="Subheading" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/SubheadingBlock" index="0" instance=ExtResource("3")]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Player scores"
+
+[node name="Separator" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/SubheadingBlock" index="1" instance=ExtResource("5")]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="3"]
+layout_mode = 2
+columns = 9
+
+[node name="TextureRect" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="0"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("6")
+expand_mode = 1
+
+[node name="NameHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="1"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Name"
+
+[node name="MoneyHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Money"
+
+[node name="LandHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="3"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Land"
+
+[node name="ResourcesHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="4"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Resources"
+
+[node name="BuildingsHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="5"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Buildings"
+
+[node name="SettlersHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="6"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Settlers"
+
+[node name="UnitsHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="7"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Units"
+
+[node name="TotalHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="8"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Total"
+
+[node name="Faction1" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="9"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("6")
+expand_mode = 1
+
+[node name="Name1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="10"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Unknown Traveller"
+
+[node name="Money1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="11"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "140"
+
+[node name="Land1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="12"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "104"
+
+[node name="Resources1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="13"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "42"
+
+[node name="Buildings1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="14"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "543"
+
+[node name="Settlers1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="15"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1735"
+
+[node name="Units1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="16"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "30"
+
+[node name="Total1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="17"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "2603"
+
+[node name="Faction2" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="18"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("9")
+expand_mode = 1
+
+[node name="Name2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="19"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Unknown Traveller"
+
+[node name="Money2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="20"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "140"
+
+[node name="Land2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="21"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "104"
+
+[node name="Resources2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="22"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "42"
+
+[node name="Buildings2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="23"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "543"
+
+[node name="Settlers2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="24"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1735"
+
+[node name="Units2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="25"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "30"
+
+[node name="Total2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="26"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "2603"
+
+[node name="Faction3" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="27"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("10")
+expand_mode = 1
+
+[node name="Name3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="28"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Unknown Traveller"
+
+[node name="Money3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="29"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "140"
+
+[node name="Land3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="30"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "104"
+
+[node name="Resources3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="31"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "42"
+
+[node name="Buildings3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="32"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "543"
+
+[node name="Settlers3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="33"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1735"
+
+[node name="Units3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="34"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "30"
+
+[node name="Total3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="35"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "2603"
+
+[node name="Faction4" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="36"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("11")
+expand_mode = 1
+
+[node name="Name4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="37"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Unknown Traveller"
+
+[node name="Money4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="38"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "140"
+
+[node name="Land4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="39"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "104"
+
+[node name="Resources4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="40"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "42"
+
+[node name="Buildings4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="41"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "543"
+
+[node name="Settlers4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="42"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1735"
+
+[node name="Units4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="43"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "30"
+
+[node name="Total4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="44"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "2603"
+
+[node name="Faction5" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="45"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("12")
+expand_mode = 1
+
+[node name="Name5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="46"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Unknown Traveller"
+
+[node name="Money5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="47"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "140"
+
+[node name="Land5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="48"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "104"
+
+[node name="Resources5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="49"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "42"
+
+[node name="Buildings5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="50"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "543"
+
+[node name="Settlers5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="51"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1735"
+
+[node name="Units5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="52"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "30"
+
+[node name="Total5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="53"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "2603"
+
+[node name="Faction6" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="54"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("13")
+expand_mode = 1
+
+[node name="Name6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="55"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Unknown Traveller"
+
+[node name="Money6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="56"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "140"
+
+[node name="Land6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="57"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "104"
+
+[node name="Resources6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="58"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "42"
+
+[node name="Buildings6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="59"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "543"
+
+[node name="Settlers6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="60"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1735"
+
+[node name="Units6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="61"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "30"
+
+[node name="Total6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="62"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "2603"
+
+[node name="Faction7" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="63"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("14")
+expand_mode = 1
+
+[node name="Name7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="64"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Unknown Traveller"
+
+[node name="Money7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="65"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "140"
+
+[node name="Land7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="66"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "104"
+
+[node name="Resources7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="67"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "42"
+
+[node name="Buildings7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="68"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "543"
+
+[node name="Settlers7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="69"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1735"
+
+[node name="Units7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="70"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "30"
+
+[node name="Total7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="71"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "2603"
+
+[node name="Faction8" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="72"]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("15")
+expand_mode = 1
+
+[node name="Name8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="73"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Unknown Traveller"
+
+[node name="Money8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="74"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "140"
+
+[node name="Land8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="75"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "104"
+
+[node name="Resources8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="76"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "42"
+
+[node name="Buildings8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="77"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "543"
+
+[node name="Settlers8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="78"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1735"
+
+[node name="Units8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="79"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "30"
+
+[node name="Total8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="80"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "2603"
+
+[node name="RightPage" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer" index="1"]
+visible = false
+
+[editable path="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/CaptionBlock"]

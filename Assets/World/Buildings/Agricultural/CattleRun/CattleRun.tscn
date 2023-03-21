@@ -1,16 +1,35 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=3 uid="uid://bmobn6q5skkm5"]
 
-[ext_resource path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/World/Buildings/Agricultural/CattleRun/CattleRun.gd" type="Script" id=3]
-[ext_resource path="res://Assets/World/Buildings/Agricultural/CattleRun/Sprites/CattleRun_work_45.png" type="Texture" id=4]
+[ext_resource type="PackedScene" uid="uid://gfjfmihmduqa" path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" id="1"]
+[ext_resource type="Script" path="res://Assets/World/Buildings/Agricultural/CattleRun/CattleRun.gd" id="3"]
+[ext_resource type="Texture2D" uid="uid://b7f6b5vapg34q" path="res://Assets/World/Buildings/Agricultural/CattleRun/Sprites/CattleRun_idle.png" id="3_80ycb"]
 
-[node name="CattleRun" instance=ExtResource( 1 )]
-script = ExtResource( 3 )
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kcm8e"]
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+no_depth_test = true
+albedo_texture = ExtResource("3_80ycb")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+billboard_mode = 1
+
+[node name="CattleRun" instance=ExtResource("1")]
+script = ExtResource("3")
+texture = ExtResource("3_80ycb")
 
 [node name="Billboard" parent="." index="0"]
-offset = Vector2( -2, 46 )
-texture = ExtResource( 4 )
-hframes = 15
-vframes = 10
+offset = Vector2(-2, 46)
+texture = ExtResource("3_80ycb")
 region_enabled = true
-region_rect = Rect2( 0, 0, 2880, 1920 )
+region_rect = Rect2(0, 0, 384, 384)
+
+[node name="Outline" parent="Billboard" index="0"]
+material_overlay = SubResource("StandardMaterial3D_kcm8e")
+offset = Vector2(-2, 46)
+texture = ExtResource("3_80ycb")
+region_enabled = true
+region_rect = Rect2(0, 0, 384, 384)
+
+[node name="Area3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)

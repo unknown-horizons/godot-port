@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/win.ogg-b1e783dfda860d3524712091f704b821.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://m24b055gydtm"
+path="res://.godot/imported/win.ogg-b1e783dfda860d3524712091f704b821.oggvorbisstr"
 
 [deps]
 
 source_file="res://Assets/Audio/Sounds/Events/Scenario/win.ogg"
-dest_files=[ "res://.import/win.ogg-b1e783dfda860d3524712091f704b821.oggstr" ]
+dest_files=["res://.godot/imported/win.ogg-b1e783dfda860d3524712091f704b821.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

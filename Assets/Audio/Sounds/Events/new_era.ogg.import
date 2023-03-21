@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/new_era.ogg-c0bdd6156229c64f3c3dff2aacd0c851.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://j2f1mij83k6n"
+path="res://.godot/imported/new_era.ogg-c0bdd6156229c64f3c3dff2aacd0c851.oggvorbisstr"
 
 [deps]
 
 source_file="res://Assets/Audio/Sounds/Events/new_era.ogg"
-dest_files=[ "res://.import/new_era.ogg-c0bdd6156229c64f3c3dff2aacd0c851.oggstr" ]
+dest_files=["res://.godot/imported/new_era.ogg-c0bdd6156229c64f3c3dff2aacd0c851.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

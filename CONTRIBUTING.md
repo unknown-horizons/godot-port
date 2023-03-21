@@ -20,6 +20,10 @@
 
 To contribute to the project, get started by checking the [current issues](https://github.com/unknown-horizons/godot-port/issues) or [add a new one](https://github.com/unknown-horizons/godot-port/issues/new/choose) for bug reports and suggestions. Also, as this is a complete rewrite, it is basically possible to apply improvements on certain aspects of the game from the start on whenever it makes sense. That said, if you know and love the original title and are well familiar with its in and outs, we'd appreciate your opinion on the current gameplay mechanics and economic balances. To discuss more directly with other contributors, visit our [Discord server](https://discord.gg/VX6m2ZX).
 
+At the point of this writing, the Godot port is in an early experimental state with no playable content and therefore no release date set in stone.
+
+For that reason, please check out the [original project](https://github.com/unknown-horizons/unknown-horizons) which bears a decade long active development history with tons of implemented features and will provide you a better insight on the desired look and feel than any textual explanation could do (even more so if being unfamiliar with RTS games). Besides you should be able to grab existing logic and convert it appropriately for the Godot/GDScript style.
+
 ## Requirements to contribute
 
 This project is based on the [Godot Engine](https://godotengine.org/) using a [Python-like scripting language](https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_basics.html). To learn more about it, get started at [the official docs](https://docs.godotengine.org/en/stable/).
@@ -32,7 +36,7 @@ A valuable source of information specifically for this project would be RTS-spec
 
 1. Fork <https://github.com/unknown-horizons/godot-port>.
 1. Clone the fork locally.
-1. Download [Godot 3.5.x (stable branch)](https://godotengine.org/download/3.x/), at least the standard version required.
+1. Download [Godot 4.x.x](https://godotengine.org/download/), at least the standard version required.
 1. Launch the Godot executable.
 1. Import project, search the Unknown Horizons directory, select `project.godot`.
 1. Open the project from the project manager overview.

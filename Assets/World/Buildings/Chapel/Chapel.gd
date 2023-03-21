@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name Chapel
 
@@ -17,7 +17,7 @@ const TIERS = [
 	CHAPEL_CLINKER_IDLE,
 ]
 
-export(int, 0, 4) var tier setget set_tier
+@export_range(0, 4) var tier: int : set = set_tier
 
 func animate() -> void:
 	match action:
@@ -38,7 +38,7 @@ func animate() -> void:
 					_billboard.region_enabled = true
 					_billboard.offset = Vector2(0, 48)
 
-	.animate()
+	super()
 
 func set_tier(new_tier: int) -> void:
 	var previous_tier = tier

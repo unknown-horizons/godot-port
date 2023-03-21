@@ -1,4 +1,4 @@
-tool
+@tool
 extends Control
 class_name PlayerHUD
 
@@ -55,12 +55,12 @@ enum UIContext {
 	BUILD
 }
 
-#export(Array, NodePath) var ui_contexts
-export(UIContext) var ui_context := UIContext.NONE setget set_ui_context
+#export var ui_contexts # (Array, NodePath)
+@export var ui_context: UIContext = UIContext.NONE : set = set_ui_context
 var context_data := {}
 
-# All widget nodes cached here for quick use whenever context switches
-var widgets: Array
+## All widget nodes cached here for quick use whenever context switches
+var widgets: Array[TabWidget]
 
 var queued_messages := []
 
@@ -74,9 +74,9 @@ var _debug_messages = [
 	[4, "This is a very long text. That much, that it easily takes up to 3 lines. Believe it or not."]
 ]
 
-onready var balance_info_button = find_node("BalanceInfoButton")
-onready var city_info = find_node("CityInfo")
-onready var messages = find_node("Messages")
+@onready var balance_info_button := find_child("BalanceInfoButton")
+@onready var city_info := find_child("CityInfo") as CityInfo
+@onready var messages := find_child("Messages")
 
 func _ready() -> void:
 #	for context in ui_contexts:
@@ -93,8 +93,8 @@ func _ready() -> void:
 
 	self.ui_context = UIContext.NONE
 
-func set_ui_context(new_ui_context) -> void:
-	if not is_inside_tree(): yield(self, "ready"); _on_ready()
+func set_ui_context(new_ui_context: UIContext) -> void:
+	if not is_inside_tree(): await self.ready; _on_ready()
 
 	prints("Set UI context to", UIContext.keys()[new_ui_context])
 
@@ -102,7 +102,8 @@ func set_ui_context(new_ui_context) -> void:
 	for index in widgets.size():
 		if index == new_ui_context:
 			widgets[index].visible = true
-			widgets[index].update_data(context_data)
+			if widgets[index].has_method("update_data"):
+				widgets[index].update_data(context_data)
 		else:
 			widgets[index].visible = false
 
@@ -112,7 +113,7 @@ func raise_notification(message_type: int, message_text: String) -> void:
 	var _debug_message = _debug_messages[randi() % _debug_messages.size()]
 
 	if messages.get_child_count() < 6:
-		var message = Global.MESSAGE_SCENE.instance()
+		var message := Global.MESSAGE_SCENE.instantiate()
 
 		if print_debug_messages:
 			message_type = _debug_message[0]
@@ -125,10 +126,10 @@ func raise_notification(message_type: int, message_text: String) -> void:
 #		queued_messages.append()
 
 func _on_PlayerCamera_hovered() -> void:
-	city_info.show()
+	city_info.fade_in()
 
 func _on_PlayerCamera_unhovered() -> void:
-	city_info.hide()
+	city_info.fade_out()
 
 func _on_PlayerCamera_selected(selected_entities: Array) -> void:
 	prints("_on_PlayerCamera_selected", selected_entities)
@@ -162,49 +163,10 @@ func _on_PlayerCamera_selected(selected_entities: Array) -> void:
 
 	self.ui_context = new_context
 
-func _get_context_type(entity: WorldThing) -> String:
+func _get_context_type(entity: WorldThing) -> int:
 	var context_name: String
 
-	for cls in [
-		Bakery,
-		Barracks,
-		Bath,
-		Blender,
-		BoatBuilder,
-		Brewery,
-		Brickyard,
-		Butchery,
-		CannonFoundry,
-		Chapel,
-		CharcoalBurning,
-		ClayPit,
-		Distillery,
-		Doctor,
-		Farm,
-		FireStation,
-		Fisherman,
-		Hunter,
-		Lookout,
-		Lumberjack,
-		MainSquare,
-		PastryShop,
-		Pigsty,
-		School,
-		Residence,
-		Smeltery,
-		Stonemason,
-		StonePit,
-		Storage,
-		Tavern,
-		Tobacconist,
-		Toolmaker,
-		Warehouse,
-		Weaponsmith,
-		Weaver,
-		Windmill,
-		Winery,
-		WoodenTower,
-	]: if entity is cls:
+	if entity is Building:
 		var regex = RegEx.new()
 		regex.compile("^[a-zA-Z]+")
 		var cls_name = regex.search(entity.name).get_string()
@@ -232,7 +194,7 @@ func _on_TabWidget_button_game_menu_pressed() -> void:
 	emit_signal("button_game_menu_pressed")
 
 func _on_ready() -> void:
-	if widgets.empty():
+	if widgets.is_empty():
 #		for context in ui_contexts:
 #			widgets.append(get_node(context))
 		for widget in $MarginContainer/HBoxContainer/Widgets.get_children():

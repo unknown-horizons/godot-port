@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://bamt0see7lbpb"]
+
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/Caption.tscn" id="1"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/CaptionBlock.gd" id="3"]
+
+[node name="CaptionBlock" type="VBoxContainer"]
+offset_left = -1.0
+offset_right = 299.0
+offset_bottom = 55.0
+theme_override_constants/separation = 0
+script = ExtResource("3")
+
+[node name="HSeparator" type="HSeparator" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Caption" parent="." instance=ExtResource("1")]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 16
+font_style = 0
+
+[node name="HSeparator2" type="HSeparator" parent="."]
+layout_mode = 2
+theme_type_variation = &"HSeparatorBrownThick"

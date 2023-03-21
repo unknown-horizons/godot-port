@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name CannonFoundry
 
@@ -45,4 +45,4 @@ func animate() -> void:
 
 			_billboard.frame = next_frame()
 
-	.animate()
+	super()

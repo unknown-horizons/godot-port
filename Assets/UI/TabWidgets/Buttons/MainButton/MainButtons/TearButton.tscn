@@ -1,0 +1,15 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Texture2D" uid="uid://beibhvtrs2pg1" path="res://Assets/UI/Icons/Widgets/MiniMap/tear.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://sa800xi1jgr" path="res://Assets/UI/Icons/Widgets/MiniMap/tear_h.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://nw0718et1ghp" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButton.tscn" id="3"]
+[ext_resource type="Texture2D" uid="uid://be4auoan231ao" path="res://Assets/UI/Icons/Widgets/MiniMap/tear_d.png" id="4"]
+
+[node name="TearButton" instance=ExtResource("3")]
+texture_normal = ExtResource("1")
+texture_pressed = ExtResource("4")
+texture_hover = ExtResource("2")
+stretch_mode = 5
+
+[node name="TextureRect" parent="." index="0"]
+script = null

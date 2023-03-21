@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://bkup5mqdwgxlj"]
+
+[ext_resource type="Script" path="res://Assets/UI/TabWidgets/TroopMenuTabWidget.gd" id="2"]
+[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/SwordmanSwitchTabWidget.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://bvbuafk7d6fdt" path="res://Assets/UI/TabWidgets/TabWidget.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="5"]
+
+[node name="TroopMenuTabWidget" instance=ExtResource("4")]
+script = ExtResource("2")
+
+[node name="WidgetDetail" parent="." index="2"]
+offset_bottom = 193.5
+
+[node name="Body" parent="WidgetDetail" index="1"]
+custom_minimum_size = Vector2(0, 66)
+
+[node name="SwordmanSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="0" instance=ExtResource("3")]
+custom_minimum_size = Vector2(42, 46)
+layout_mode = 2
+
+[node name="TabContainer" parent="WidgetDetail/Body" index="1"]
+offset_top = 10.0
+offset_bottom = 76.0
+
+[node name="LabelEx" parent="WidgetDetail/Body/TabContainer" index="1" instance=ExtResource("5")]
+layout_mode = 2
+text = "Troop Menu
+
+Not implemented yet"
+horizontal_alignment = 1

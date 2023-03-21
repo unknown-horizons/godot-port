@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/LabelEx.gd" id="1"]
+
+[node name="LabelEx" type="Label"]
+offset_right = 105.0
+offset_bottom = 18.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+text = "Unknown Label"
+autowrap_mode = 3
+script = ExtResource("1")

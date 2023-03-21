@@ -1,16 +1,17 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=3 uid="uid://dpufdweqodbrm"]
 
-[ext_resource path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/World/Buildings/Agricultural/Pigsty/Sprites/Pigsty_work_45.png" type="Texture" id=2]
-[ext_resource path="res://Assets/World/Buildings/Agricultural/Pigsty/Pigsty.gd" type="Script" id=4]
+[ext_resource type="PackedScene" uid="uid://gfjfmihmduqa" path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" id="1"]
+[ext_resource type="Script" path="res://Assets/World/Buildings/Agricultural/Pigsty/Pigsty.gd" id="4"]
 
-[node name="Pigsty" instance=ExtResource( 1 )]
-script = ExtResource( 4 )
+[node name="Pigsty" instance=ExtResource("1")]
+script = ExtResource("4")
 
 [node name="Billboard" parent="." index="0"]
-offset = Vector2( 0, 48 )
-texture = ExtResource( 2 )
+offset = Vector2(0, 48)
 hframes = 10
 vframes = 8
 region_enabled = true
-region_rect = Rect2( 0, 0, 1920, 1536 )
+region_rect = Rect2(0, 0, 1920, 1536)
+
+[node name="Area3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)

@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://wvu62nbn3amm"]
+
+[ext_resource type="PackedScene" uid="uid://8hvjihv4mxkv" path="res://Assets/UI/TabWidgets/ProductionMenuTabWidget.tscn" id="1"]
+
+[node name="WineryTabWidget" instance=ExtResource("1")]
+
+[node name="ZoomInButton" parent="WidgetTop/ZoomControls" index="0"]
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="RotateLeftButton" parent="WidgetTop/RotateControls" index="0"]
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="RotateRightButton" parent="WidgetTop/RotateControls" index="1"]
+grow_vertical = 1
+
+[node name="CaptionBlock" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="0"]
+text = "Winery"

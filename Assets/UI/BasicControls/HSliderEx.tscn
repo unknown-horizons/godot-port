@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="3"]
+[ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="3_u5rqw"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/HSliderEx.gd" id="4"]
+[ext_resource type="FontFile" uid="uid://dgr8rlsjjeh22" path="res://External/Fonts/LinLibertineBI.ttf" id="4_vt414"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/HSlider.gd" id="6"]
+
+[node name="HSliderEx" type="VBoxContainer"]
+script = ExtResource("4")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="LabelExDesc" parent="HBoxContainer" instance=ExtResource("3")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_u5rqw")
+theme_override_font_sizes/font_size = 16
+text = "Unknown Slider:"
+autowrap_mode = 0
+font_style = 9
+
+[node name="LabelExValue" parent="HBoxContainer" instance=ExtResource("3")]
+layout_mode = 2
+size_flags_horizontal = 1
+theme_override_fonts/font = ExtResource("4_vt414")
+theme_override_font_sizes/font_size = 16
+text = "0"
+autowrap_mode = 0
+font_style = 12
+
+[node name="HSlider" type="HSlider" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+script = ExtResource("6")
+
+[connection signal="changed" from="HSlider" to="." method="_on_HSlider_changed"]
+[connection signal="value_changed" from="HSlider" to="." method="_on_HSlider_value_changed"]
+[connection signal="value_changed" from="HSlider" to="HSlider" method="_on_HSlider_value_changed"]

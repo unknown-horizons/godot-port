@@ -1,0 +1,2 @@
+extends RoundButton
+class_name CancelButton

@@ -8,24 +8,28 @@ const RAY_LENGTH = 1000
 const MOVE_SPEED = 1
 const MOVE_FASTER_MULT = 2
 
-export(NodePath) var origin_path: NodePath
-export(NodePath) var camera_path: NodePath
-export(NodePath) var rotation_y_path: NodePath
+# TODO: Delete Godot 3 styled node exports, if everything fine
+#@export_node_path var origin_path: NodePath
+#@export_node_path var camera_path: NodePath
+#@export_node_path var rotation_y_path: NodePath
 
-onready var _origin := get_node(origin_path) as Spatial
-onready var _camera := get_node(camera_path) as Camera
-onready var _rotation_y := get_node(rotation_y_path) as Spatial
-onready var _viewport := get_viewport() as Viewport
-onready var _viewport_size := _viewport.size as Vector2
-onready var _viewport_aspect := _viewport_size.aspect() as float
+#@onready var _origin := get_node(origin_path) as Node3D
+#@onready var _camera := get_node(camera_path) as Camera3D
+#@onready var _rotation_y := get_node(rotation_y_path) as Node3D
+@export var _origin: Node3D
+@export var _camera: Camera3D
+@export var _rotation_y: Node3D
+@onready var _viewport := get_viewport() as Viewport
+@onready var _viewport_size := _viewport.size as Vector2
+@onready var _viewport_aspect := _viewport_size.aspect() as float
 
 var _basis: Basis
 var _drag_pos: Vector2
-var enabled: bool = true setget set_enabled, get_enabled
+var enabled: bool = true : set = set_enabled, get = get_enabled
 
 func _ready() -> void:
-	if _viewport.connect("size_changed", self, "_on_viewport_size_changed") != OK:
-		push_error("Failed To Connect Viewport")
+	if not _viewport.size_changed.connect(Callable(self, "_on_viewport_size_changed")):
+		push_error("Failed To connect viewport")
 	_basis = _get_basis()
 
 func _process(delta: float) -> void:
@@ -52,14 +56,14 @@ func _move(delta: float) -> void:
 	if Input.is_action_pressed("move_faster"):
 		movement_scale *= MOVE_FASTER_MULT
 
-	var x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
-	var y = Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
+	var x := Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
+	var y := Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
 	var movement_velocity := Vector2(x, y * _viewport_aspect)
-	_origin.translate(_basis.xform(Utils.map_2_to_3(movement_velocity)) * movement_scale)
+	_origin.translate(_basis * Utils.map_2_to_3(movement_velocity) * movement_scale)
 
 func _move_drag() -> void:
 	if Input.is_action_pressed("move_drag"):
-		var new_drag_pos = _viewport.get_mouse_position()
+		var new_drag_pos := _viewport.get_mouse_position()
 		if Input.is_action_just_pressed("move_drag"):
 			_drag_pos = new_drag_pos
 		else:
@@ -67,7 +71,7 @@ func _move_drag() -> void:
 			#if new_drag_pos != _drag_pos:
 			#	prints(_drag_pos, "=>", new_drag_pos)
 			var drag_dir = (_drag_pos - new_drag_pos) * _camera.size / _viewport_size * 6
-			var move_dir := _basis.xform(Utils.map_2_to_3(drag_dir))
+			var move_dir := _basis * Utils.map_2_to_3(drag_dir)
 			_origin.translate(move_dir)
 			_drag_pos = new_drag_pos
 
@@ -76,19 +80,24 @@ func _rotate(rotation: float) -> void:
 	_basis = _get_basis()
 
 func _zoom(zoom_value: float) -> void:
-	var m_pos = _viewport.get_mouse_position()
-	var start_result = _raycast_from_mouse(m_pos, 1)
+	var m_pos := _viewport.get_mouse_position()
+	var start_result := _raycast_from_mouse(m_pos, 1)
 	_camera.size += zoom_value
-	var end_result = _raycast_from_mouse(m_pos, 1)
-	if start_result and end_result:
-		var move_dir = start_result.position - end_result.position
+	var end_result := _raycast_from_mouse(m_pos, 1)
+	if not (start_result.is_empty() and end_result.is_empty()):
+		var move_dir: Vector3i = start_result.position - end_result.position
 		_origin.translate(move_dir)
 
 func _raycast_from_mouse(m_pos: Vector2, collision_mask: int) -> Dictionary:
-	var ray_start = _camera.project_ray_origin(m_pos)
-	var ray_end = ray_start + _camera.project_ray_normal(m_pos) * RAY_LENGTH
-	var space_state = _origin.get_world().direct_space_state
-	return space_state.intersect_ray(ray_start, ray_end, [], collision_mask)
+	var mouse_pos := get_viewport().get_mouse_position()
+	var space_state := _origin.get_world_3d().direct_space_state
+	var query := PhysicsRayQueryParameters3D.new()
+	query.from = _camera.project_ray_origin(mouse_pos)
+	query.to = query.from + _camera.project_ray_normal(mouse_pos) * RAY_LENGTH
+	query.collision_mask = collision_mask
+
+	var result := space_state.intersect_ray(query)
+	return result
 
 func _get_basis() -> Basis:
 	return _rotation_y.get_transform().basis

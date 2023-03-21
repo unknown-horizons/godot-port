@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/seafight.ogg-87333d6c97ece81b3123f2412eac1df0.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://vaeut7343cpg"
+path="res://.godot/imported/seafight.ogg-87333d6c97ece81b3123f2412eac1df0.oggvorbisstr"
 
 [deps]
 
 source_file="res://Assets/Audio/Music/Battle/seafight.ogg"
-dest_files=[ "res://.import/seafight.ogg-87333d6c97ece81b3123f2412eac1df0.oggstr" ]
+dest_files=["res://.godot/imported/seafight.ogg-87333d6c97ece81b3123f2412eac1df0.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

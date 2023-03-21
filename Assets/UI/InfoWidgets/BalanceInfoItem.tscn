@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://btj15jxncgvbb"]
+
+[ext_resource type="Script" path="res://Assets/UI/InfoWidgets/BalanceInfoItem.gd" id="1_t2so4"]
+[ext_resource type="Texture2D" uid="uid://n02c7nr375wn" path="res://Assets/UI/Images/ResbarStats/expense.png" id="2_2x5o8"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="3_oap2c"]
+
+[node name="BalanceInfoItem" type="HBoxContainer"]
+offset_right = 36.0
+offset_bottom = 18.0
+script = ExtResource("1_t2so4")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2_2x5o8")
+stretch_mode = 5
+
+[node name="LabelEx" parent="." instance=ExtResource("3_oap2c")]
+layout_mode = 2
+text = "+0"
+autowrap_mode = 0

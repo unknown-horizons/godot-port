@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="2"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/LineEditEx.gd" id="3"]
+[ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="3_l3te3"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/LineEdit.gd" id="5"]
+
+[node name="LineEditEx" type="HBoxContainer"]
+offset_right = 289.0
+offset_bottom = 30.0
+script = ExtResource("3")
+
+[node name="LabelEx" parent="." instance=ExtResource("2")]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_fonts/font = ExtResource("3_l3te3")
+theme_override_font_sizes/font_size = 16
+text = "Descriptive Label:"
+vertical_alignment = 1
+clip_text = true
+font_style = 9
+
+[node name="LineEdit" type="LineEdit" parent="."]
+custom_minimum_size = Vector2(165, 30)
+layout_mode = 2
+size_flags_horizontal = 7
+size_flags_vertical = 4
+text = "Example Text"
+context_menu_enabled = false
+caret_blink = true
+script = ExtResource("5")
+align_style = "Left"

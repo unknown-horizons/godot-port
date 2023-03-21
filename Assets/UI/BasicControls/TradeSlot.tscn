@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/TradeSlot.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dkcn1o5g5hdp2" path="res://Assets/UI/Icons/Resources/none_gray.png" id="2"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="3"]
+
+[node name="TradeSlot" instance=ExtResource("3")]
+script = ExtResource("1")
+show_if_empty = true
+
+[node name="ResourceItem" parent="." index="0"]
+visible = true
+texture = ExtResource("2")
+
+[node name="TextureRect" parent="." index="2"]
+pivot_offset = Vector2(8, 51)
+
+[node name="VSlider" type="VSlider" parent="." index="3"]
+visible = false
+layout_mode = 0
+anchor_left = 0.837
+anchor_right = 0.998
+anchor_bottom = 0.922
+offset_left = -0.0130005
+offset_right = 14.098
+offset_bottom = -0.0220032
+scale = Vector2(0.36, 1)
+max_value = 30.0
+value = 5.0

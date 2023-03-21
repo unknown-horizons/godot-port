@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name Brickyard
 
@@ -30,7 +30,7 @@ const BRICKYARD_IDLE = [
 #	BRICKYARD_BURN_315,
 #]
 
-export(int, 0, 4) var resource_amount := 0 setget set_resource_amount
+@export_range(0, 4) var resource_amount := 0 : set = set_resource_amount
 
 func set_resource_amount(new_resource_amount: int) -> void:
 	resource_amount = new_resource_amount
