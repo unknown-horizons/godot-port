@@ -1,0 +1,78 @@
+[gd_scene load_steps=23 format=3]
+
+[ext_resource type="PackedScene" uid="uid://7314rontds7u" path="res://Assets/UI/Animations/Cogs/LargeCogs.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/ToggleButton.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://ddh027myuq7hy" path="res://Assets/UI/Animations/Cogs/Large/3.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cskqcrekqoahe" path="res://Assets/UI/Animations/Cogs/Large/0.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bntbwjpu7i64e" path="res://Assets/UI/Icons/Templates/Production/toggle_active.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bwf1wdtyfp4ll" path="res://Assets/UI/Icons/Templates/Production/toggle_active_d.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://boi5bk47rq0oj" path="res://Assets/UI/Animations/Cogs/Large/4.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bgkmhn6ede3k7" path="res://Assets/UI/Icons/Templates/Production/toggle_inactive_d.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dxrfnmnhmo1dw" path="res://Assets/UI/Icons/Templates/Production/toggle_inactive_h.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://gxq80pw6w38i" path="res://Assets/UI/Icons/Templates/Production/toggle_inactive.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://doy6gqotgk31v" path="res://Assets/UI/Animations/Cogs/Large/7.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c77jm4txk5kbs" path="res://Assets/UI/Animations/Cogs/Large/2.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://b03qob7uus8md" path="res://Assets/UI/Animations/Cogs/Large/1.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://coeee1d4xga70" path="res://Assets/UI/Animations/Cogs/Large/8.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://c5sgxshkm16nx" path="res://Assets/UI/Animations/Cogs/Large/9.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bmo78ikgeivji" path="res://Assets/UI/Animations/Cogs/Large/10.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bt7yp7i612fxg" path="res://Assets/UI/Animations/Cogs/Large/5.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cvaw1myityac7" path="res://Assets/UI/Icons/Templates/Production/toggle_active_h.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dsmgypxqst7hm" path="res://Assets/UI/Animations/Cogs/Large/6.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cldnuujf5bm81" path="res://Assets/UI/Animations/Cogs/Large/11.png" id="20"]
+
+[sub_resource type="Animation" id="1"]
+resource_name = "cycle"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("4"), ExtResource("13"), ExtResource("12"), ExtResource("3"), ExtResource("7"), ExtResource("17"), ExtResource("19"), ExtResource("11"), ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("20")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_cxj10"]
+_data = {
+"cycle": SubResource("1")
+}
+
+[node name="PauseProductionButton" instance=ExtResource("2")]
+size_flags_horizontal = 6
+toggle_mode = true
+texture_pressed = ExtResource("6")
+texture_hover = ExtResource("18")
+texture_normal_initial = ExtResource("5")
+texture_pressed_initial = ExtResource("6")
+texture_hover_initial = ExtResource("18")
+texture_normal_alternate = ExtResource("10")
+texture_pressed_alternate = ExtResource("8")
+texture_hover_alternate = ExtResource("9")
+
+[node name="AnimatedTexture" parent="." index="0" instance=ExtResource("1")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -26.0
+offset_top = -26.0
+offset_right = 26.0
+offset_bottom = 26.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("4")
+
+[node name="AnimationPlayer" parent="AnimatedTexture" index="0"]
+libraries = {
+"": SubResource("AnimationLibrary_cxj10")
+}
+
+[editable path="AnimatedTexture"]

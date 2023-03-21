@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3nhi2qu6nvwe"]
+
+[ext_resource type="PackedScene" uid="uid://8hvjihv4mxkv" path="res://Assets/UI/TabWidgets/ProductionMenuTabWidget.tscn" id="1"]
+
+[node name="PigstyTabWidget" instance=ExtResource("1")]
+
+[node name="WidgetDetail" parent="." index="2"]
+offset_bottom = 209.5
+
+[node name="Body" parent="WidgetDetail" index="1"]
+custom_minimum_size = Vector2(0, 82)
+
+[node name="TabContainer" parent="WidgetDetail/Body" index="1"]
+offset_bottom = 82.0
+
+[node name="CaptionBlock" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="0"]
+text = "Pigsty"

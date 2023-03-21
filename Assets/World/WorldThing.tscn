@@ -1,38 +1,34 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=3 uid="uid://bnhisojcm3gpm"]
 
-[ext_resource path="res://Assets/World/WorldThing.gd" type="Script" id=1]
-[ext_resource path="res://Assets/World/Outline.tres" type="Material" id=3]
+[ext_resource type="Script" path="res://Assets/World/WorldThing.gd" id="1"]
 
-[node name="WorldThing" type="Spatial"]
-script = ExtResource( 1 )
-__meta__ = {
-"_edit_group_": true
-}
+[node name="WorldThing" type="Node3D"]
+script = ExtResource("1")
 
 [node name="Billboard" type="Sprite3D" parent="."]
-cast_shadow = 0
-offset = Vector2( 0, 32 )
+offset = Vector2(0, 32)
 pixel_size = 0.025
 billboard = 1
 double_sided = false
+no_depth_test = true
 hframes = 2
 vframes = 2
 
 [node name="Outline" type="Sprite3D" parent="Billboard"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.001, 0 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.001, 0)
 visible = false
-material_override = ExtResource( 3 )
-offset = Vector2( 0, 32 )
+offset = Vector2(0, 32)
 pixel_size = 0.025
+billboard = 1
 hframes = 2
 vframes = 2
 
-[node name="Area" type="Area" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0 )
+[node name="Area3D" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 
-[node name="CollisionShape" type="CollisionShape" parent="Area"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
 
 [connection signal="frame_changed" from="Billboard" to="." method="_on_Billboard_frame_changed"]
-[connection signal="input_event" from="Area" to="." method="_on_Area_input_event"]
-[connection signal="mouse_entered" from="Area" to="." method="_on_Area_mouse_entered"]
-[connection signal="mouse_exited" from="Area" to="." method="_on_Area_mouse_exited"]
+[connection signal="input_event" from="Area3D" to="." method="_on_Area_input_event"]
+[connection signal="mouse_entered" from="Area3D" to="." method="_on_Area_mouse_entered"]
+[connection signal="mouse_exited" from="Area3D" to="." method="_on_Area_mouse_exited"]

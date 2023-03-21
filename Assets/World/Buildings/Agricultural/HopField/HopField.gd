@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name HopField
 
@@ -38,4 +38,4 @@ func animate() -> void:
 
 			_billboard.frame = next_frame()
 
-	.animate()
+	super()

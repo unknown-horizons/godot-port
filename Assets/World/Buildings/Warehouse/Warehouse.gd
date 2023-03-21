@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name Warehouse
 
@@ -32,7 +32,7 @@ const TIERS = [
 	WAREHOUSE_STONE_IDLE,
 ]
 
-export(int, 0, 4) var tier setget set_tier
+@export var tier: int : set = set_tier # (int, 0, 4)
 
 func animate() -> void:
 	match action:
@@ -53,7 +53,7 @@ func animate() -> void:
 					_billboard.region_enabled = true
 					_billboard.offset = Vector2(0, 40)
 
-	.animate()
+	super()
 
 func set_tier(new_tier: int) -> void:
 	var previous_tier = tier

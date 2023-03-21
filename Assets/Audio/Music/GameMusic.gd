@@ -7,11 +7,8 @@ var _music_files := []
 var _music_streams := [] # Note: Does not show up in remote inspector.
 
 func _ready() -> void:
-	var dir := Directory.new()
-	#warning-ignore:return_value_discarded
-	dir.open("res://Assets/Audio/Music/Ambient")
-	#warning-ignore:return_value_discarded
-	dir.list_dir_begin()
+	var dir := DirAccess.open("res://Assets/Audio/Music/Ambient")
+	dir.list_dir_begin() # TODOGODOT4: Fill missing arguments https://github.com/godotengine/godot/pull/40547
 
 	# Load all the files from the Ambient folder.
 	while true:
@@ -49,5 +46,5 @@ func remove_song(file_name: String) -> void:
 	remove_song_index(_music_files.find(file_name))
 
 func remove_song_index(index: int) -> void:
-	_music_streams.remove(index)
-	_music_files.remove(index)
+	_music_streams.remove_at(index)
+	_music_files.remove_at(index)

@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/windmill.ogg-a11d82d0ae06ef2041a26fd45e778c1c.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ch7wux5e4qqs0"
+path="res://.godot/imported/windmill.ogg-a11d82d0ae06ef2041a26fd45e778c1c.oggvorbisstr"
 
 [deps]
 
 source_file="res://Assets/Audio/Sounds/windmill.ogg"
-dest_files=[ "res://.import/windmill.ogg-a11d82d0ae06ef2041a26fd45e778c1c.oggstr" ]
+dest_files=["res://.godot/imported/windmill.ogg-a11d82d0ae06ef2041a26fd45e778c1c.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

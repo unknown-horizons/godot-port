@@ -1,0 +1,61 @@
+[gd_scene load_steps=3 format=3 uid="uid://w0ffwcsdyh5a"]
+
+[ext_resource type="PackedScene" uid="uid://8hvjihv4mxkv" path="res://Assets/UI/TabWidgets/ProductionMenuTabWidget.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://dg6whk6ygbtpi" path="res://Assets/UI/TabWidgets/ViewComponents/ProductionChain.tscn" id="2_e8u5s"]
+
+[node name="SchoolTabWidget" instance=ExtResource("1")]
+
+[node name="GameSpeedUpButton" parent="WidgetTop/GameSpeedControls" index="0"]
+editor_description = ""
+
+[node name="GameSpeedDownButton" parent="WidgetTop/GameSpeedControls" index="2"]
+editor_description = ""
+
+[node name="ZoomInButton" parent="WidgetTop/ZoomControls" index="0"]
+editor_description = ""
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="ZoomOutButton" parent="WidgetTop/ZoomControls" index="1"]
+editor_description = ""
+
+[node name="RotateLeftButton" parent="WidgetTop/RotateControls" index="0"]
+editor_description = ""
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="RotateRightButton" parent="WidgetTop/RotateControls" index="1"]
+editor_description = ""
+grow_vertical = 1
+
+[node name="TearButton" parent="WidgetTop" index="3"]
+editor_description = ""
+
+[node name="LogbookButton" parent="WidgetTop" index="4"]
+editor_description = ""
+
+[node name="BuildMenuButton" parent="WidgetTop" index="5"]
+editor_description = ""
+
+[node name="DiplomacyButton" parent="WidgetTop" index="6"]
+editor_description = ""
+
+[node name="GameMenuButton" parent="WidgetTop" index="7"]
+editor_description = ""
+
+[node name="WidgetDetail" parent="." index="2"]
+offset_bottom = 264.5
+
+[node name="Body" parent="WidgetDetail" index="1"]
+custom_minimum_size = Vector2(0, 137)
+
+[node name="TabContainer" parent="WidgetDetail/Body" index="1"]
+offset_bottom = 137.0
+
+[node name="CaptionBlock" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="0"]
+text = "School"
+
+[node name="ProductionChain" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="2" instance=ExtResource("2_e8u5s")]
+layout_mode = 2
+number_inputs = 0
+output_type = 16

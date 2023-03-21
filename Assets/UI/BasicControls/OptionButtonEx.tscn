@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://b4gq47ckhaow6"]
+
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/OptionButtonEx.gd" id="2"]
+[ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="3_4bos5"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/OptionButton.gd" id="4"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="5"]
+
+[node name="OptionButtonEx" type="HBoxContainer"]
+offset_right = 293.0
+offset_bottom = 30.0
+script = ExtResource("2")
+
+[node name="LabelEx" parent="." instance=ExtResource("5")]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_fonts/font = ExtResource("3_4bos5")
+theme_override_font_sizes/font_size = 16
+text = "Descriptive Label:"
+vertical_alignment = 1
+clip_text = true
+font_style = 9
+
+[node name="OptionButton" type="OptionButton" parent="."]
+custom_minimum_size = Vector2(165, 30)
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("4")
+
+[connection signal="item_focused" from="OptionButton" to="." method="_on_OptionButton_item_focused"]
+[connection signal="item_selected" from="OptionButton" to="." method="_on_OptionButton_item_selected"]
+[connection signal="item_selected" from="OptionButton" to="OptionButton" method="_on_OptionButton_item_selected"]

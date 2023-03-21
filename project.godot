@@ -6,736 +6,13 @@
 ;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
-config_version=4
-
-_global_script_classes=[ {
-"base": "Building",
-"class": "Agricultural",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/Agricultural.gd"
-}, {
-"base": "Building",
-"class": "Alvearies",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/Alvearies/Alvearies.gd"
-}, {
-"base": "Building",
-"class": "Bakery",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Bakery/Bakery.gd"
-}, {
-"base": "Building",
-"class": "Barracks",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Barracks/Barracks.gd"
-}, {
-"base": "Building",
-"class": "Bath",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Bath/Bath.gd"
-}, {
-"base": "Building",
-"class": "Blender",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Blender/Blender.gd"
-}, {
-"base": "Building",
-"class": "BoatBuilder",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/BoatBuilder/BoatBuilder.gd"
-}, {
-"base": "CenterContainer",
-"class": "BookMenu",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/BookMenu.gd"
-}, {
-"base": "Building",
-"class": "Brewery",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Brewery/Brewery.gd"
-}, {
-"base": "Building",
-"class": "Brickyard",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Brickyard/Brickyard.gd"
-}, {
-"base": "WorldThing",
-"class": "Building",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Building.gd"
-}, {
-"base": "TabWidget",
-"class": "BuildingMenuTabWidget",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/BuildingMenuTabWidget.gd"
-}, {
-"base": "WorldThing",
-"class": "Buoy",
-"language": "GDScript",
-"path": "res://Assets/World/Buoy/Buoy.gd"
-}, {
-"base": "Building",
-"class": "Butchery",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Butchery/Butchery.gd"
-}, {
-"base": "TextureButton",
-"class": "ButtonBase",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/ButtonBase.gd"
-}, {
-"base": "ButtonBase",
-"class": "CancelButton",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/CancelButton.gd"
-}, {
-"base": "Building",
-"class": "CannonFoundry",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/CannonFoundry/CannonFoundry.gd"
-}, {
-"base": "VBoxContainer",
-"class": "CaptionBlock",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/CaptionBlock.gd"
-}, {
-"base": "Building",
-"class": "CattleRun",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/CattleRun/CattleRun.gd"
-}, {
-"base": "Building",
-"class": "Chapel",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Chapel/Chapel.gd"
-}, {
-"base": "Building",
-"class": "CharcoalBurning",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/CharcoalBurning/CharcoalBurning.gd"
-}, {
-"base": "HBoxContainer",
-"class": "CheckBoxEx",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/CheckBoxEx.gd"
-}, {
-"base": "Building",
-"class": "ClayPit",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/ClayPit/ClayPit.gd"
-}, {
-"base": "Building",
-"class": "CocoaField",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/CocoaField/CocoaField.gd"
-}, {
-"base": "Building",
-"class": "CornField",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/CornField/CornField.gd"
-}, {
-"base": "ButtonBase",
-"class": "DeleteButton",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/DeleteButton.gd"
-}, {
-"base": "Building",
-"class": "Distillery",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Distillery/Distillery.gd"
-}, {
-"base": "Building",
-"class": "Doctor",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Doctor/Doctor.gd"
-}, {
-"base": "Building",
-"class": "Farm",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Farm/Farm.gd"
-}, {
-"base": "BuildingMenuTabWidget",
-"class": "FarmTabWidget",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/FarmTabWidget.gd"
-}, {
-"base": "Building",
-"class": "FireStation",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/FireStation/FireStation.gd"
-}, {
-"base": "Ship",
-"class": "Fisher",
-"language": "GDScript",
-"path": "res://Assets/World/Units/Ships/Fishers/Fisher/Fisher.gd"
-}, {
-"base": "Building",
-"class": "Fisherman",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Fisherman/Fisherman.gd"
-}, {
-"base": "Ship",
-"class": "FreeTrader",
-"language": "GDScript",
-"path": "res://Assets/World/Units/Ships/FreeTraders/FreeTrader/FreeTrader.gd"
-}, {
-"base": "Ship",
-"class": "Frigate",
-"language": "GDScript",
-"path": "res://Assets/World/Units/Ships/Frigates/Frigate/Frigate.gd"
-}, {
-"base": "Spatial",
-"class": "Game",
-"language": "GDScript",
-"path": "res://Assets/World/Game.gd"
-}, {
-"base": "WidgetButton",
-"class": "GameSpeedChangeButton",
-"language": "GDScript",
-"path": "res://Assets/UI/Scenes/TabWidgets/Buttons/MainButtons/Buttons/GameSpeedChangeButton.gd"
-}, {
-"base": "LabelEx",
-"class": "GameSpeedLabel",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/GameSpeedLabel.gd"
-}, {
-"base": "HBoxContainer",
-"class": "GameTypeButton",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/GameTypeButton.gd"
-}, {
-"base": "VBoxContainer",
-"class": "HSliderEx",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/HSliderEx.gd"
-}, {
-"base": "Control",
-"class": "HelpUI",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/HelpUI.gd"
-}, {
-"base": "Building",
-"class": "Herbary",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/Herbary/Herbary.gd"
-}, {
-"base": "Building",
-"class": "HopField",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/HopField/HopField.gd"
-}, {
-"base": "Ship",
-"class": "Huker",
-"language": "GDScript",
-"path": "res://Assets/World/Units/Ships/Merchants/Huker/Huker.gd"
-}, {
-"base": "Building",
-"class": "Hunter",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Hunter/Hunter.gd"
-}, {
-"base": "Node",
-"class": "InteractionContext",
-"language": "GDScript",
-"path": "res://Assets/Player/InteractionContext.gd"
-}, {
-"base": "TextureButton",
-"class": "InventorySlot",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/InventorySlot.gd"
-}, {
-"base": "Label",
-"class": "LabelEx",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/LabelEx.gd"
-}, {
-"base": "TextureRect",
-"class": "Letter",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/Letter.gd"
-}, {
-"base": "HBoxContainer",
-"class": "LineEditEx",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/LineEditEx.gd"
-}, {
-"base": "Control",
-"class": "Logbook",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/Logbook.gd"
-}, {
-"base": "Building",
-"class": "Lookout",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Lookout/Lookout.gd"
-}, {
-"base": "Building",
-"class": "Lumberjack",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Lumberjack/Lumberjack.gd"
-}, {
-"base": "BuildingMenuTabWidget",
-"class": "LumberjackTabWidget",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/LumberjackTabWidget.gd"
-}, {
-"base": "Control",
-"class": "MainMenuUI",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/MainMenuUI.gd"
-}, {
-"base": "Building",
-"class": "MainSquare",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/MainSquare/MainSquare.gd"
-}, {
-"base": "TextureButton",
-"class": "MessageButton",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/MessageButton.gd"
-}, {
-"base": "Label",
-"class": "MessageText",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/MessageText.gd"
-}, {
-"base": "Control",
-"class": "Minimap",
-"language": "GDScript",
-"path": "res://Assets/Player/Minimap/Minimap.gd"
-}, {
-"base": "Control",
-"class": "MinimapLayer",
-"language": "GDScript",
-"path": "res://Assets/Player/Minimap/MinimapLayer.gd"
-}, {
-"base": "MinimapLayer",
-"class": "MinimapShipLayer",
-"language": "GDScript",
-"path": "res://Assets/Player/Minimap/MinimapShipLayer.gd"
-}, {
-"base": "MinimapLayer",
-"class": "MinimapTerrainLayer",
-"language": "GDScript",
-"path": "res://Assets/Player/Minimap/MinimapTerrainLayer.gd"
-}, {
-"base": "MinimapLayer",
-"class": "MinimapWarehouseLayer",
-"language": "GDScript",
-"path": "res://Assets/Player/Minimap/MinimapWarehouseLayer.gd"
-}, {
-"base": "SelectionContext",
-"class": "MovementContext",
-"language": "GDScript",
-"path": "res://Assets/Player/InteractionContexts/MovementContext.gd"
-}, {
-"base": "BookMenu",
-"class": "NewGameUI",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/NewGameUI.gd"
-}, {
-"base": "ButtonBase",
-"class": "OKButton",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/OKButton.gd"
-}, {
-"base": "HBoxContainer",
-"class": "OptionButtonEx",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/OptionButtonEx.gd"
-}, {
-"base": "BookMenu",
-"class": "OptionsUI",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/OptionsUI.gd"
-}, {
-"base": "ButtonBase",
-"class": "PageControlButton",
-"language": "GDScript",
-"path": "res://Assets/UI/Scenes/Buttons/PageControlButton.gd"
-}, {
-"base": "Building",
-"class": "PastryShop",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/PastryShop/PastryShop.gd"
-}, {
-"base": "Building",
-"class": "Pasture",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/Pasture/Pasture.gd"
-}, {
-"base": "Building",
-"class": "Pigsty",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/Pigsty/Pigsty.gd"
-}, {
-"base": "Ship",
-"class": "Pirate",
-"language": "GDScript",
-"path": "res://Assets/World/Units/Ships/Pirates/Pirate/Pirate.gd"
-}, {
-"base": "Control",
-"class": "Player",
-"language": "GDScript",
-"path": "res://Assets/Player/Player.gd"
-}, {
-"base": "Spatial",
-"class": "PlayerCamera",
-"language": "GDScript",
-"path": "res://Assets/Player/PlayerCamera.gd"
-}, {
-"base": "Control",
-"class": "PlayerHUD",
-"language": "GDScript",
-"path": "res://Assets/Player/PlayerHUD.gd"
-}, {
-"base": "Spatial",
-"class": "PlayerStart",
-"language": "GDScript",
-"path": "res://Assets/Player/PlayerStart.gd"
-}, {
-"base": "Building",
-"class": "PotatoField",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/PotatoField/PotatoField.gd"
-}, {
-"base": "HBoxContainer",
-"class": "ProductionChain",
-"language": "GDScript",
-"path": "res://Assets/UI/Scenes/TabWidgets/ViewComponents/ProductionChain.gd"
-}, {
-"base": "Building",
-"class": "Residence",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Residential/Residence.gd"
-}, {
-"base": "BuildingMenuTabWidget",
-"class": "ResidenceTabWidget",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/ResidenceTabWidget.gd"
-}, {
-"base": "TextureRect",
-"class": "ResourceItem",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/ResourceItem.gd"
-}, {
-"base": "Building",
-"class": "SaltPonds",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/SaltPonds/SaltPonds.gd"
-}, {
-"base": "Building",
-"class": "School",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/School/School.gd"
-}, {
-"base": "InteractionContext",
-"class": "SelectionContext",
-"language": "GDScript",
-"path": "res://Assets/Player/InteractionContexts/SelectionContext.gd"
-}, {
-"base": "Unit",
-"class": "Ship",
-"language": "GDScript",
-"path": "res://Assets/World/Units/Ships/Ship.gd"
-}, {
-"base": "TabWidget",
-"class": "ShipForeignMenuTabWidget",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/ShipForeignMenuTabWidget.gd"
-}, {
-"base": "TabWidget",
-"class": "ShipMenuTabWidget",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/ShipMenuTabWidget.gd"
-}, {
-"base": "Building",
-"class": "SignalFire",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/SignalFire/SignalFire.gd"
-}, {
-"base": "Building",
-"class": "Smeltery",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Smeltery/Smeltery.gd"
-}, {
-"base": "Building",
-"class": "SpiceField",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/SpiceField/SpiceField.gd"
-}, {
-"base": "Building",
-"class": "StonePit",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/StonePit/StonePit.gd"
-}, {
-"base": "Building",
-"class": "Stonemason",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Stonemason/Stonemason.gd"
-}, {
-"base": "Building",
-"class": "Storage",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Storage/Storage.gd"
-}, {
-"base": "Building",
-"class": "SugarField",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/SugarField/SugarField.gd"
-}, {
-"base": "TextureButton",
-"class": "SwitchTabWidget",
-"language": "GDScript",
-"path": "res://Assets/UI/Scenes/TabWidgets/Switches/SwitchTabWidget.gd"
-}, {
-"base": "Control",
-"class": "TabWidget",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/TabWidget.gd"
-}, {
-"base": "Building",
-"class": "Tavern",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Tavern/Tavern.gd"
-}, {
-"base": "InteractionContext",
-"class": "TearContext",
-"language": "GDScript",
-"path": "res://Assets/Player/InteractionContexts/TearContext.gd"
-}, {
-"base": "InteractionContext",
-"class": "TileContext",
-"language": "GDScript",
-"path": "res://Assets/Player/InteractionContexts/TileContext.gd"
-}, {
-"base": "GridMap",
-"class": "TileMap3D",
-"language": "GDScript",
-"path": "res://Assets/World/TileMap3D.gd"
-}, {
-"base": "Building",
-"class": "TobaccoField",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/TobaccoField/TobaccoField.gd"
-}, {
-"base": "Building",
-"class": "Tobacconist",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Tobacconist/Tobacconist.gd"
-}, {
-"base": "WidgetButton",
-"class": "ToggleButton",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/ToggleButton.gd"
-}, {
-"base": "Building",
-"class": "Toolmaker",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Toolmaker/Toolmaker.gd"
-}, {
-"base": "InventorySlot",
-"class": "TradeSlot",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/TradeSlot.gd"
-}, {
-"base": "WorldThing",
-"class": "TreeObject",
-"language": "GDScript",
-"path": "res://Assets/World/Trees/Tree.gd"
-}, {
-"base": "Unit",
-"class": "Troop",
-"language": "GDScript",
-"path": "res://Assets/World/Units/Troop/Troop.gd"
-}, {
-"base": "TabWidget",
-"class": "TroopMenuTabWidget",
-"language": "GDScript",
-"path": "res://Assets/UI/Scripts/TroopMenuTabWidget.gd"
-}, {
-"base": "WorldThing",
-"class": "Unit",
-"language": "GDScript",
-"path": "res://Assets/World/Units/Unit.gd"
-}, {
-"base": "Reference",
-"class": "Utils",
-"language": "GDScript",
-"path": "res://Assets/World/Utils.gd"
-}, {
-"base": "Building",
-"class": "Vineyard",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Agricultural/Vineyard/Vineyard.gd"
-}, {
-"base": "Building",
-"class": "Warehouse",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Warehouse/Warehouse.gd"
-}, {
-"base": "Building",
-"class": "Weaponsmith",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Weaponsmith/Weaponsmith.gd"
-}, {
-"base": "Building",
-"class": "Weaver",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Weaver/Weaver.gd"
-}, {
-"base": "TextureButton",
-"class": "WidgetButton",
-"language": "GDScript",
-"path": "res://Assets/UI/Scenes/TabWidgets/Buttons/WidgetButton.gd"
-}, {
-"base": "Building",
-"class": "Windmill",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Windmill/Windmill.gd"
-}, {
-"base": "Building",
-"class": "Winery",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/Winery/Winery.gd"
-}, {
-"base": "Building",
-"class": "WoodenTower",
-"language": "GDScript",
-"path": "res://Assets/World/Buildings/WoodenTower/WoodenTower.gd"
-}, {
-"base": "Spatial",
-"class": "WorldThing",
-"language": "GDScript",
-"path": "res://Assets/World/WorldThing.gd"
-} ]
-_global_script_class_icons={
-"Agricultural": "",
-"Alvearies": "",
-"Bakery": "",
-"Barracks": "",
-"Bath": "",
-"Blender": "",
-"BoatBuilder": "",
-"BookMenu": "",
-"Brewery": "",
-"Brickyard": "",
-"Building": "",
-"BuildingMenuTabWidget": "",
-"Buoy": "",
-"Butchery": "",
-"ButtonBase": "",
-"CancelButton": "",
-"CannonFoundry": "",
-"CaptionBlock": "",
-"CattleRun": "",
-"Chapel": "",
-"CharcoalBurning": "",
-"CheckBoxEx": "",
-"ClayPit": "",
-"CocoaField": "",
-"CornField": "",
-"DeleteButton": "",
-"Distillery": "",
-"Doctor": "",
-"Farm": "",
-"FarmTabWidget": "",
-"FireStation": "",
-"Fisher": "",
-"Fisherman": "",
-"FreeTrader": "",
-"Frigate": "",
-"Game": "",
-"GameSpeedChangeButton": "",
-"GameSpeedLabel": "",
-"GameTypeButton": "",
-"HSliderEx": "",
-"HelpUI": "",
-"Herbary": "",
-"HopField": "",
-"Huker": "",
-"Hunter": "",
-"InteractionContext": "",
-"InventorySlot": "",
-"LabelEx": "",
-"Letter": "",
-"LineEditEx": "",
-"Logbook": "",
-"Lookout": "",
-"Lumberjack": "",
-"LumberjackTabWidget": "",
-"MainMenuUI": "",
-"MainSquare": "",
-"MessageButton": "",
-"MessageText": "",
-"Minimap": "",
-"MinimapLayer": "",
-"MinimapShipLayer": "",
-"MinimapTerrainLayer": "",
-"MinimapWarehouseLayer": "",
-"MovementContext": "",
-"NewGameUI": "",
-"OKButton": "",
-"OptionButtonEx": "",
-"OptionsUI": "",
-"PageControlButton": "",
-"PastryShop": "",
-"Pasture": "",
-"Pigsty": "",
-"Pirate": "",
-"Player": "",
-"PlayerCamera": "",
-"PlayerHUD": "",
-"PlayerStart": "",
-"PotatoField": "",
-"ProductionChain": "",
-"Residence": "",
-"ResidenceTabWidget": "",
-"ResourceItem": "",
-"SaltPonds": "",
-"School": "",
-"SelectionContext": "",
-"Ship": "",
-"ShipForeignMenuTabWidget": "",
-"ShipMenuTabWidget": "",
-"SignalFire": "",
-"Smeltery": "",
-"SpiceField": "",
-"StonePit": "",
-"Stonemason": "",
-"Storage": "",
-"SugarField": "",
-"SwitchTabWidget": "",
-"TabWidget": "",
-"Tavern": "",
-"TearContext": "",
-"TileContext": "",
-"TileMap3D": "",
-"TobaccoField": "",
-"Tobacconist": "",
-"ToggleButton": "",
-"Toolmaker": "",
-"TradeSlot": "",
-"TreeObject": "",
-"Troop": "",
-"TroopMenuTabWidget": "",
-"Unit": "",
-"Utils": "",
-"Vineyard": "",
-"Warehouse": "",
-"Weaponsmith": "",
-"Weaver": "",
-"WidgetButton": "",
-"Windmill": "",
-"Winery": "",
-"WoodenTower": "",
-"WorldThing": ""
-}
+config_version=5
 
 [application]
 
 config/name="Unknown Horizons"
-run/main_scene="res://Assets/UI/Scenes/MainMenuScene.tscn"
+run/main_scene="res://Assets/UI/Pages/MainMenuScene.tscn"
+config/features=PackedStringArray("4.1")
 boot_splash/image="res://boot_splash.png"
 config/icon="res://icon.png"
 
@@ -744,26 +21,34 @@ config/icon="res://icon.png"
 Global="*res://Assets/World/Global.gd"
 Config="*res://Assets/World/Config.gd"
 Audio="*res://Assets/World/Audio.gd"
-Cursor="*res://Assets/UI/Scripts/Cursor.gd"
+Cursor="*res://Assets/UI/Cursor.gd"
 
 [debug]
 
-settings/fps/force_fps=60
 gdscript/warnings/shadowed_variable=false
+gdscript/warnings/shadowed_variable_base_class=0
 gdscript/warnings/return_value_discarded=false
+gdscript/warnings/integer_division=0
+gdscript/warnings/int_as_enum_without_cast=0
+settings/fps/force_fps=60
 
 [display]
 
-window/size/width=1600
-window/size/height=900
+window/size/viewport_width=1600
+window/size/viewport_height=900
 window/size/resizable=false
-window/dpi/allow_hidpi=true
 window/stretch/mode="2d"
 window/stretch/aspect="expand"
 
+[editor]
+
+naming/default_signal_callback_name="_on_{NodeName}_{signal_name}"
+naming/scene_name_casing=0
+
 [gui]
 
-theme/custom="res://Assets/UI/Themes/Theme.tres"
+theme/custom="res://Assets/UI/Theme/Theme.tres"
+theme/custom_font="res://External/Fonts/LinLibertine.ttf"
 
 [importer_defaults]
 
@@ -792,116 +77,116 @@ texture={
 
 move_up={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":87,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":87,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
 , Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":0,"axis":1,"axis_value":-1.0,"script":null)
- ]
+]
 }
 move_down={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":83,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":83,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
 , Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":0,"axis":1,"axis_value":1.0,"script":null)
- ]
+]
 }
 move_left={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":65,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
 , Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":0,"axis":0,"axis_value":-1.0,"script":null)
- ]
+]
 }
 move_right={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":68,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
 , Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":0,"axis":0,"axis_value":1.0,"script":null)
- ]
+]
 }
 move_faster={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777237,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
- ]
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":16777237,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+]
 }
 move_drag={
 "deadzone": 0.5,
-"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":3,"pressed":false,"doubleclick":false,"script":null)
- ]
+"events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":0,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":3,"canceled":false,"pressed":false,"double_click":false,"script":null)
+]
 }
 zoom_in={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777232,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
-, Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":4,"pressed":false,"doubleclick":false,"script":null)
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":16777232,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":0,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":4,"canceled":false,"pressed":false,"double_click":false,"script":null)
 , Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":0,"axis":3,"axis_value":-1.0,"script":null)
- ]
+]
 }
 zoom_out={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777234,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
-, Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":5,"pressed":false,"doubleclick":false,"script":null)
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":16777234,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":0,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":5,"canceled":false,"pressed":false,"double_click":false,"script":null)
 , Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":0,"axis":3,"axis_value":1.0,"script":null)
- ]
+]
 }
 rotate_left={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777231,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":16777231,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
 , Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":0,"axis":2,"axis_value":-1.0,"script":null)
-, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":81,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
- ]
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":81,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+]
 }
 rotate_right={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777233,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":16777233,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
 , Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":0,"axis":2,"axis_value":1.0,"script":null)
-, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":69,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
- ]
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":69,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+]
 }
 toggle_fullscreen={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777254,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
- ]
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":4194342,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+]
 }
 quit_game={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777217,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
- ]
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":4194305,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+]
 }
 restart_scene={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":82,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
- ]
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":82,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+]
 }
 pause_scene={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":80,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
-, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":32,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
- ]
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":80,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":32,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+]
 }
 time_speed_up={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":61,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
- ]
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":61,"physical_keycode":0,"key_label":0,"unicode":43,"echo":false,"script":null)
+]
 }
 time_slow_down={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":45,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
- ]
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":45,"physical_keycode":0,"key_label":0,"unicode":45,"echo":false,"script":null)
+]
 }
 time_reset={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":47,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
- ]
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":47,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+]
 }
 main_command={
 "deadzone": 0.5,
-"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":2,"pressed":false,"doubleclick":false,"script":null)
- ]
+"events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":0,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":2,"canceled":false,"pressed":false,"double_click":false,"script":null)
+]
 }
 alt_command={
 "deadzone": 0.5,
-"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
- ]
+"events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":0,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":1,"canceled":false,"pressed":false,"double_click":false,"script":null)
+]
 }
 debug_raise_notification={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":78,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
- ]
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":78,"physical_keycode":0,"key_label":0,"unicode":0,"echo":false,"script":null)
+]
 }
 
 [logging]
@@ -910,12 +195,10 @@ file_logging/enable_file_logging=true
 
 [memory]
 
-limits/message_queue/max_size_kb=2048
+limits/message_queue/max_size_kb=16384
 
 [rendering]
 
-quality/driver/driver_name="GLES2"
-quality/driver/fallback_to_gles2=true
-quality/intended_usage/framebuffer_allocation.mobile=2
-environment/default_clear_color=Color( 0.301961, 0.301961, 0.301961, 1 )
-environment/default_environment="res://default_env.tres"
+renderer/rendering_method="mobile"
+environment/defaults/default_clear_color=Color(0.2, 0.294118, 0.486275, 1)
+environment/defaults/default_environment="res://default_env.tres"

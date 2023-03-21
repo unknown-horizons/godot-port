@@ -50,7 +50,7 @@ var asp_build = AudioStreamPlayer.new()
 var asp_voice = AudioStreamPlayer.new()
 
 func _ready() -> void:
-	pause_mode = Node.PAUSE_MODE_PROCESS
+	process_mode = Node.PROCESS_MODE_ALWAYS
 
 	asp_click.bus = "Effects"
 	asp_build.bus = "Effects"
@@ -71,7 +71,7 @@ func play_snd(snd_name: String, stream: AudioStream = null) -> void:
 	if asp != null:
 		if stream: # Currently only used to pass different voice messages
 			asp.stream = stream
-		if not asp.name:
+		if asp.name.is_empty():
 			add_child(asp)
 		asp.play()
 		#print_debug("Playing {0}".format([snd_name]))
@@ -97,14 +97,14 @@ func play_snd_voice(voice_code: String) -> void:
 
 func play_entry_snd() -> void:
 	asp_voice.stream = SOUNDS["{0}_{1}".format([Config.language, randi() % 4])]
-	if not asp_voice.name:
+	if asp_voice.name.is_empty():
 		add_child(asp_voice)
 	asp_voice.play()
 
 func set_volume(volume: float, bus_name: String) -> void:
 	var index = AudioServer.get_bus_index(bus_name)
 	print("Set volume for bus {0}({1}): {2}".format([bus_name, index, volume]))
-	AudioServer.set_bus_volume_db(index, linear2db(volume / 100.0))
+	AudioServer.set_bus_volume_db(index, linear_to_db(volume / 100.0))
 
 func set_master_volume(volume: float) -> void:
 	set_volume(volume, "Master")

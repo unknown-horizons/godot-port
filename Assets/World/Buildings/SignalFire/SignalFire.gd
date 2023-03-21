@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name SignalFire
 
@@ -54,9 +54,11 @@ const TIERS = [
 	SIGNAL_FIRE_CLINKER_IDLE_ANIM,
 ]
 
-export(int, 0, 4) var tier setget set_tier
+@export_range(0, 4) var tier: int : set = set_tier
 
 func _ready() -> void:
+	super()
+
 	action = "idle"
 
 func animate() -> void:

@@ -286,7 +286,7 @@ const FACTION_COLORS = [
 	Color8(  0,   0,   0, 255), # Black.
 ];
 
-const MESSAGE_SCENE = preload("res://Assets/UI/Scenes/Message.tscn")
+const MESSAGE_SCENE = preload("res://Assets/UI/Notification/Message.tscn")
 
 #const WINDOW_MODES = [
 #	WindowMode.WINDOWED,
@@ -327,10 +327,10 @@ var has_traders := false
 var has_pirates := true
 var has_disasters := false
 
-var Game: Spatial = null
-var PlayerStart: Spatial = null
+var Game: Node3D = null
+var PlayerStart: Node3D = null
 
-# warning-ignore:unused_class_variable
+@warning_ignore("unused_private_class_variable")
 var _warning := false # DEBUG
 
 func _ready() -> void:
@@ -339,19 +339,19 @@ func _ready() -> void:
 	var window_mode = Config.window_mode
 	var screen_resolution = Config.screen_resolution
 
-	OS.window_fullscreen = window_mode
+	get_window().mode = Window.MODE_EXCLUSIVE_FULLSCREEN if (window_mode) else Window.MODE_WINDOWED
 	set_screen_resolution(screen_resolution)
 
 	set_audio_volumes()
 
-	pause_mode = Node.PAUSE_MODE_PROCESS
+	process_mode = Node.PROCESS_MODE_ALWAYS
 
 func set_screen_resolution(screen_resolution: String) -> void:
 	var resolution = screen_resolution.split("x")
 	resolution = Vector2(int(resolution[0]), int(resolution[1]))
-	OS.set_window_size(resolution)
-	OS.center_window()
-	Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
+	get_window().set_size(resolution)
+	#OS.center_window()
+	#Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
 
 func set_audio_volumes() -> void:
 	Audio.set_master_volume(Config.master_volume)
@@ -388,12 +388,12 @@ func _input(event: InputEvent) -> void:
 
 		window_mode = (window_mode + 1) % WINDOW_MODES.size()
 		prints("window_mode:", window_mode)
-		Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
-		OS.window_fullscreen = !OS.window_fullscreen
+		#Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
+		get_window().mode = Window.MODE_EXCLUSIVE_FULLSCREEN if (!((get_window().mode == Window.MODE_EXCLUSIVE_FULLSCREEN) or (get_window().mode == Window.MODE_FULLSCREEN))) else Window.MODE_WINDOWED
 
 		Config.window_mode = window_mode
 
-		Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
+		#Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
 
 	if event.is_action_pressed("quit_game"):
 		get_tree().quit()

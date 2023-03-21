@@ -1,14 +1,14 @@
-extends Spatial
+extends Node3D
 class_name Game
 
-signal notification(message_type, message_text) # int, String
-signal game_speed_changed(new_game_speed)
+signal notification(message_type: int, message_text: String)
+signal game_speed_changed(new_game_speed: float)
 
 const MAX_GAME_SPEED: float = 2.0
 
 var is_game_running = false
 
-var player_start: Spatial = null
+var player_start: Node3D = null
 var player: Player = null
 #var players := [Player]
 
@@ -37,22 +37,22 @@ func start_game() -> void:
 		player.faction = Global.faction
 
 		add_child(player)
-		# warning-ignore:return_value_discarded
-		connect("notification", player, "_on_Game_notification")
+
+		connect("notification", Callable(player, "_on_Game_notification"))
 
 		# Assign player starter ship
-		var ships = player_start.ships
+		var ships: Array[Node] = player_start.ships
 		ships[(randi() % ships.size())].faction = player.faction
 
 		var factions: Array = range(1, 15)
-		factions.remove(factions.find(player.faction)) # remove occupied faction from array
+		factions.remove_at(factions.find(player.faction)) # Remove occupied faction from array.
 
 		# Assign AI starter ships
 		ai_players.resize(Global.ai_players)
 		if ai_players.size() > 0: printt("ai_player", "ship")
 		for ai_player in range(ai_players.size()):
-			ai_players[ai_player] = factions[randi() % factions.size()] # assign random faction to AI player
-			factions.remove(factions.find(ai_players[ai_player])) # remove occupied faction from array
+			ai_players[ai_player] = factions[randi() % factions.size()] # Assign random faction to AI player.
+			factions.remove_at(factions.find(ai_players[ai_player])) # Remove occupied faction from array.
 
 			for ship in ships:
 				if ship.faction == Global.Faction.NONE:

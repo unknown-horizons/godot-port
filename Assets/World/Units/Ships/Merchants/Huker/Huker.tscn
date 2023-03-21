@@ -1,60 +1,64 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=3 uid="uid://desebnmaxfe1m"]
 
-[ext_resource path="res://Assets/World/Units/Ships/Ship.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/World/Units/Ships/Merchants/Huker/Huker.gd" type="Script" id=2]
-[ext_resource path="res://Assets/World/Units/Ships/Merchants/Huker/Sprites/Huker_idle.png" type="Texture" id=3]
-[ext_resource path="res://Assets/World/Shapes/BoxShape3x3.tres" type="Shape" id=4]
+[ext_resource type="PackedScene" uid="uid://biy4rnv5luqwq" path="res://Assets/World/Units/Ships/Ship.tscn" id="1"]
+[ext_resource type="Script" path="res://Assets/World/Units/Ships/Merchants/Huker/Huker.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://ceudb66xrgmyn" path="res://Assets/World/Units/Ships/Merchants/Huker/Sprites/Huker_idle.png" id="3"]
+[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape3x3.tres" id="4"]
 
-[sub_resource type="SpatialMaterial" id=5]
-flags_transparent = true
-params_billboard_mode = 1
-params_use_alpha_scissor = true
-params_alpha_scissor_threshold = 0.05
-albedo_texture = ExtResource( 3 )
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7oeo0"]
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+no_depth_test = true
+albedo_texture = ExtResource("3")
 emission_enabled = true
-emission = Color( 1, 1, 1, 1 )
-emission_energy = 1.0
-emission_operator = 0
-emission_on_uv2 = false
+emission = Color(1, 1, 1, 1)
+billboard_mode = 1
 
-[sub_resource type="Animation" id=4]
+[sub_resource type="Animation" id="4"]
 length = 3.0
-loop = true
 
-[node name="Huker" instance=ExtResource( 1 )]
-script = ExtResource( 2 )
-texture = ExtResource( 3 )
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3ks2l"]
+_data = {
+"selected": SubResource("4")
+}
+
+[node name="Huker" instance=ExtResource("1")]
+script = ExtResource("2")
+texture = ExtResource("3")
+
+[node name="SelectionRing" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 
 [node name="Billboard" parent="." index="1"]
-texture = ExtResource( 3 )
+texture = ExtResource("3")
 region_enabled = true
-region_rect = Rect2( 0, 0, 768, 384 )
+region_rect = Rect2(0, 0, 768, 384)
 
 [node name="FactionColor" type="Sprite3D" parent="Billboard" index="0"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.001, 0 )
-offset = Vector2( 0, 32 )
-modulate = Color( 0, 0, 0, 0 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.001, 0)
+offset = Vector2(0, 32)
+modulate = Color(0, 0, 0, 0)
 pixel_size = 0.025
 billboard = 1
 double_sided = false
-texture = ExtResource( 3 )
+texture = ExtResource("3")
 hframes = 4
 vframes = 2
 region_enabled = true
-region_rect = Rect2( 0, 384, 768, 384 )
-__meta__ = {
-"_edit_lock_": true
-}
+region_rect = Rect2(0, 384, 768, 384)
 
 [node name="Outline" parent="Billboard" index="1"]
-material_override = SubResource( 5 )
-texture = ExtResource( 3 )
+material_overlay = SubResource("StandardMaterial3D_7oeo0")
+texture = ExtResource("3")
 hframes = 4
 region_enabled = true
-region_rect = Rect2( 0, 0, 768, 384 )
+region_rect = Rect2(0, 0, 768, 384)
 
-[node name="CollisionShape" parent="Area" index="0"]
-shape = ExtResource( 4 )
+[node name="CollisionShape3D" parent="Area3D" index="0"]
+shape = ExtResource("4")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." index="3"]
-anims/selected = SubResource( 4 )
+libraries = {
+"": SubResource("AnimationLibrary_3ks2l")
+}

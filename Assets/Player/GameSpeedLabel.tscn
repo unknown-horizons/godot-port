@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="2"]
+[ext_resource type="Script" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedLabel.gd" id="2_fxq7v"]
+
+[node name="GameSpeedLabel" instance=ExtResource("2")]
+script = ExtResource("2_fxq7v")

@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/OptionButtonEx.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/HSliderEx.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="5"]
+
+[node name="OptionsUIGraphicsSound" instance=ExtResource("5")]
+
+[node name="Graphics" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="0" instance=ExtResource("3")]
+layout_mode = 2
+text = "Graphics"
+
+[node name="GraphicsOptions" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="1"]
+layout_mode = 2
+
+[node name="WindowMode" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GraphicsOptions" index="0" instance=ExtResource("1")]
+layout_mode = 2
+description = "Window mode:"
+
+[node name="ScreenResolution" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GraphicsOptions" index="1" instance=ExtResource("1")]
+layout_mode = 2
+description = "Screen resolution:"
+
+[node name="Sound" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="0" instance=ExtResource("3")]
+layout_mode = 2
+text = "Sound"
+
+[node name="SoundOptions" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="1"]
+layout_mode = 2
+
+[node name="MasterVolume" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/SoundOptions" index="0" instance=ExtResource("2")]
+layout_mode = 2
+description = "Master volume:"
+
+[node name="MusicVolume" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/SoundOptions" index="1" instance=ExtResource("2")]
+layout_mode = 2
+description = "Music volume:"
+
+[node name="EffectsVolume" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/SoundOptions" index="2" instance=ExtResource("2")]
+layout_mode = 2
+description = "Effects volume:"
+
+[node name="VoiceVolume" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/SoundOptions" index="3" instance=ExtResource("2")]
+layout_mode = 2
+description = "Voice volume:"

@@ -1,0 +1,56 @@
+[gd_scene load_steps=4 format=3 uid="uid://y3joqgx1438n"]
+
+[ext_resource type="Texture2D" uid="uid://ca7bqqg6whjrs" path="res://Assets/UI/Icons/Resources/running_costs.png" id="3"]
+[ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="3_kqlpf"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="5"]
+
+[node name="TaxesControl" type="VBoxContainer"]
+offset_right = 197.0
+offset_bottom = 44.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("3")
+
+[node name="LabelEx" parent="HBoxContainer" instance=ExtResource("5")]
+layout_mode = 2
+size_flags_horizontal = 1
+theme_override_fonts/font = ExtResource("3_kqlpf")
+theme_override_font_sizes/font_size = 18
+text = "Taxes:"
+autowrap_mode = 0
+font_style = 10
+
+[node name="LabelEx2" parent="HBoxContainer" instance=ExtResource("5")]
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_kqlpf")
+theme_override_font_sizes/font_size = 18
+text = "0"
+autowrap_mode = 0
+font_style = 10
+
+[node name="TextureRect2" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("3")
+stretch_mode = 5
+
+[node name="LabelEx3" parent="HBoxContainer" instance=ExtResource("5")]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+size_flags_horizontal = 1
+theme_override_fonts/font = ExtResource("3_kqlpf")
+theme_override_font_sizes/font_size = 18
+text = "1.0"
+horizontal_alignment = 2
+autowrap_mode = 0
+font_style = 10
+
+[node name="HSlider" type="HSlider" parent="."]
+layout_mode = 2
+max_value = 3.0
+step = 0.1
+value = 1.0

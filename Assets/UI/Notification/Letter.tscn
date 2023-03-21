@@ -1,0 +1,56 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Texture2D" uid="uid://d01nnvkwqvnxv" path="res://Assets/UI/Images/Background/notice350.png" id="1"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/RoundButtons/OKButton.tscn" id="3"]
+[ext_resource type="Script" path="res://Assets/UI/Notification/Letter.gd" id="4"]
+[ext_resource type="FontFile" uid="uid://dgr8rlsjjeh22" path="res://External/Fonts/LinLibertineBI.ttf" id="4_lohmw"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="5"]
+
+[node name="Letter" type="TextureRect"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -284.5
+offset_top = -175.0
+offset_right = 284.5
+offset_bottom = 175.0
+texture = ExtResource("1")
+script = ExtResource("4")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 45.0
+offset_right = -30.0
+offset_bottom = -20.0
+
+[node name="Title" parent="VBoxContainer" instance=ExtResource("5")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_lohmw")
+theme_override_font_sizes/font_size = 18
+text = "Dear Unknown Traveller,"
+font_style = 13
+
+[node name="Body" parent="VBoxContainer" instance=ExtResource("5")]
+layout_mode = 2
+size_flags_vertical = 6
+theme_override_fonts/font = ExtResource("4_lohmw")
+theme_override_font_sizes/font_size = 18
+text = "Unknown Opponent has sent you a message!
+
+Roses are red,
+Violets are blue,
+Bugs suck,
+And so do you."
+horizontal_alignment = 1
+font_style = 13
+
+[node name="OKButton" parent="VBoxContainer" instance=ExtResource("3")]
+layout_mode = 2
+size_flags_vertical = 8
+
+[connection signal="pressed" from="VBoxContainer/OKButton" to="." method="_on_OKButton_pressed"]

@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name MainSquare
 
@@ -42,7 +42,7 @@ const TIERS = [
 	MAIN_SQUARE_STONE_IDLE,
 ]
 
-export(int, 0, 4) var tier setget set_tier
+@export_range(0, 4) var tier: int : set = set_tier
 
 func animate() -> void:
 	match action:
@@ -65,7 +65,7 @@ func animate() -> void:
 				_billboard.region_rect = Rect2(0, 0, 768, 448)
 				_billboard.region_enabled = true
 
-	.animate()
+	super()
 
 func set_tier(new_tier: int) -> void:
 	var previous_tier = tier

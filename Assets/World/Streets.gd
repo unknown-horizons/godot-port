@@ -1,4 +1,4 @@
-tool
+@tool
 extends TileMap3D
 
 signal cell_item_changed
@@ -107,22 +107,22 @@ func update_tiles(scaffold_tiles: Array = [], can_built := true) -> void:
 	for tile in get_used_tiles():
 		#sprite.global_transform.origin = callv("map_to_world", vector_2_to_array_3(tile))
 		#var cell := vector_2_to_3(tile) # TODO: Pass directly into map_to_world() in Godot 4
-		#sprite.global_transform.origin = map_to_world(cell.x, cell.y, cell.z)
+		#sprite.global_transform.origin = map_to_local(Vector3i(cell.x,cell.y,cell.z))
 		#prints("current cell:\t", cell)
 
-		var tile_set = ""
+		var tile_set := ""
 		for tile_offset in TILE_OFFSETS:
 			#prints("check for tile_offset:\t", TILE_OFFSETS[tile_offset])
 
-			#yield(get_tree().create_timer(.1), "timeout")
-			var checked_tile = get_tile_item(Vector2(tile.x + TILE_OFFSETS[tile_offset][0], tile.y + TILE_OFFSETS[tile_offset][1]))
+			#await get_tree().create_timer(.1).timeout
+			var checked_tile := get_tile_item(Vector2(tile.x + TILE_OFFSETS[tile_offset][0], tile.y + TILE_OFFSETS[tile_offset][1]))
 			if checked_tile > -1: # Is there a road?
 				if tile_offset in "abcd":
 					tile_set += tile_offset
 				if tile_offset in "efgh":
-					var fill_left = char(ord(tile_offset) - 4) in tile_set
+					var fill_left := char(tile_offset.unicode_at(0) - 4) in tile_set
 
-					var fill_right = char(ord(tile_offset) - 3 - 4 * int(tile_offset == "h")) in tile_set
+					var fill_right = char(tile_offset.unicode_at(0) - 3 - 4 * int(tile_offset == "h")) in tile_set
 					if fill_left and fill_right:
 						tile_set += tile_offset
 
@@ -130,8 +130,8 @@ func update_tiles(scaffold_tiles: Array = [], can_built := true) -> void:
 		if tile_set in [""]:
 			tile_set = "single"
 
-		var quaternion = Quat(Vector3(0, 1, 0), deg2rad(TILE_SETS[tile_set]["rotation"]))
-		var tile_item_orientation = Basis(quaternion).get_orthogonal_index()
+		var quaternion := Quaternion(Vector3(0, 1, 0), deg_to_rad(TILE_SETS[tile_set]["rotation"]))
+		var tile_item_orientation := get_orthogonal_index_from_basis(Basis(quaternion))
 
 		var item: int = TILE_SETS[tile_set]["item"]
 		if Vector2(tile.x, tile.y) in scaffold_tiles:
@@ -142,7 +142,7 @@ func update_tiles(scaffold_tiles: Array = [], can_built := true) -> void:
 
 		set_tile_item(tile, item, tile_item_orientation)
 
-	#yield(get_tree().create_timer(2), "timeout")
+	#await get_tree().create_timer(2).timeout
 	#sprite.hide()
 
 #func vector_2_to_array_3(vector_2: Vector2) -> Array:

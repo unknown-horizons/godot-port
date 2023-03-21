@@ -1,136 +1,132 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=3 uid="uid://b8aw6ir4l2m4t"]
 
-[ext_resource path="res://Assets/World/Units/Ships/Ship.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/World/Units/Ships/Pirates/Pirate/Pirate.gd" type="Script" id=2]
-[ext_resource path="res://Assets/World/Units/Ships/Pirates/Pirate/Sprites/Pirate_idle.png" type="Texture" id=3]
-[ext_resource path="res://Assets/World/Units/Ships/Pirates/Pirate/Sprites/Pirate_WaterOverlay.png" type="Texture" id=4]
-[ext_resource path="res://Assets/World/Shapes/BoxShape3x3.tres" type="Shape" id=5]
+[ext_resource type="PackedScene" path="res://Assets/World/Units/Ships/Ship.tscn" id="1"]
+[ext_resource type="Script" path="res://Assets/World/Units/Ships/Pirates/Pirate/Pirate.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://dgm3nteq5gblm" path="res://Assets/World/Units/Ships/Pirates/Pirate/Sprites/Pirate_idle.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://coxedr43nuh81" path="res://Assets/World/Units/Ships/Pirates/Pirate/Sprites/Pirate_WaterOverlay.png" id="4"]
+[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape3x3.tres" id="5"]
 
-[sub_resource type="ShaderMaterial" id=1]
+[sub_resource type="ShaderMaterial" id="1"]
 
-[sub_resource type="SpatialMaterial" id=2]
+[sub_resource type="StandardMaterial3D" id="2"]
 render_priority = 10
-next_pass = SubResource( 1 )
-flags_transparent = true
-flags_no_depth_test = true
-albedo_color = Color( 1, 1, 1, -2.79397e-07 )
+next_pass = SubResource("1")
+transparency = 1
+no_depth_test = true
+albedo_color = Color(1, 1, 1, -2.79397e-07)
 roughness = 0.0
 
-[sub_resource type="SpatialMaterial" id=3]
+[sub_resource type="StandardMaterial3D" id="3"]
 render_priority = 10
-next_pass = SubResource( 1 )
-flags_transparent = true
-flags_no_depth_test = true
-params_billboard_mode = 1
-albedo_color = Color( 1, 1, 1, 0.27451 )
+next_pass = SubResource("1")
+transparency = 1
+no_depth_test = true
+albedo_color = Color(1, 1, 1, 0.27451)
 roughness = 0.0
+billboard_mode = 1
 
-[sub_resource type="Animation" id=5]
+[sub_resource type="Animation" id="5"]
 tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
 tracks/0/path = NodePath("WaterOverlay/WaterOverlay1:material_override:albedo_color")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 2.79397e-07, 1 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PackedFloat32Array(2.79397e-07, 1),
+"transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
 
-[sub_resource type="Animation" id=6]
+[sub_resource type="Animation" id="6"]
 tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
 tracks/0/path = NodePath("WaterOverlay/WaterOverlay1:material_override:albedo_color")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 1 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
 }
 
-[node name="Pirate" instance=ExtResource( 1 )]
-script = ExtResource( 2 )
-texture = ExtResource( 3 )
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_j0a68"]
+_data = {
+"fade_in": SubResource("5"),
+"fade_out": SubResource("6")
+}
+
+[node name="Pirate" instance=ExtResource("1")]
+script = ExtResource("2")
+debug_is_moving = false
 max_health = 250
+texture = ExtResource("3")
 
-[node name="WaterOverlay" type="Spatial" parent="." index="0"]
+[node name="WaterOverlay" type="Node3D" parent="." index="0"]
 visible = false
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="WaterOverlay1" type="Sprite3D" parent="WaterOverlay" index="0"]
-transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 0, 0 )
-material_override = SubResource( 2 )
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 0, 0)
+material_override = SubResource("2")
 cast_shadow = 0
-offset = Vector2( 0, -90 )
+offset = Vector2(0, -90)
 flip_v = true
 pixel_size = 0.015
 transparent = false
 double_sided = false
-texture = ExtResource( 4 )
+texture = ExtResource("4")
 hframes = 4
 vframes = 4
 frame = 9
 region_enabled = true
-region_rect = Rect2( 0, 0, 896, 896 )
-__meta__ = {
-"_edit_lock_": true
-}
+region_rect = Rect2(0, 0, 896, 896)
 
 [node name="WaterOverlay2" type="Sprite3D" parent="WaterOverlay" index="1"]
-transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 0, 0 )
-material_override = SubResource( 2 )
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 0, 0)
+material_override = SubResource("2")
 cast_shadow = 0
-offset = Vector2( 0, 16 )
+offset = Vector2(0, 16)
 pixel_size = 0.015
 transparent = false
 double_sided = false
-texture = ExtResource( 4 )
+texture = ExtResource("4")
 hframes = 4
 vframes = 4
 frame = 9
 region_enabled = true
-region_rect = Rect2( 0, 0, 896, 896 )
-__meta__ = {
-"_edit_lock_": true
-}
+region_rect = Rect2(0, 0, 896, 896)
 
 [node name="Reflection" type="Sprite3D" parent="." index="1"]
-transform = Transform( 0.707107, 0, -0.707106, 0, 0.999999, 0, 0.707107, 0, 0.707106, 0, 0, 0 )
+transform = Transform3D(0.707107, 0, -0.707106, 0, 0.999999, 0, 0.707107, 0, 0.707106, 0, 0, 0)
 visible = false
-material_override = SubResource( 3 )
+material_override = SubResource("3")
 cast_shadow = 0
-offset = Vector2( 0, -90 )
+offset = Vector2(0, -90)
 flip_v = true
 pixel_size = 0.015
 transparent = false
 double_sided = false
-texture = ExtResource( 3 )
+texture = ExtResource("3")
 hframes = 4
 vframes = 2
 region_enabled = true
-region_rect = Rect2( 0, 0, 896, 448 )
-__meta__ = {
-"_edit_lock_": true
-}
+region_rect = Rect2(0, 0, 896, 448)
 
 [node name="Billboard" parent="." index="3"]
-texture = ExtResource( 3 )
+texture = ExtResource("3")
 region_enabled = true
-region_rect = Rect2( 0, 0, 896, 448 )
+region_rect = Rect2(0, 0, 896, 448)
 
-[node name="CollisionShape" parent="Area" index="0"]
-shape = ExtResource( 5 )
+[node name="CollisionShape3D" parent="Area3D" index="0"]
+shape = ExtResource("5")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." index="5"]
-anims/fade_in = SubResource( 5 )
-anims/fade_out = SubResource( 6 )
+libraries = {
+"": SubResource("AnimationLibrary_j0a68")
+}
 
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
 [connection signal="animation_started" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_started"]

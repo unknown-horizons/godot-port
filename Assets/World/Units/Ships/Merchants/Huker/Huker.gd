@@ -1,8 +1,8 @@
-tool
+@tool
 extends Ship
 class_name Huker
 
-onready var faction_color: Sprite3D = find_node("FactionColor") as Sprite3D
+@onready var faction_color: Sprite3D = find_child("FactionColor") as Sprite3D
 
 func update_faction_color() -> void:
 	if faction_color != null:

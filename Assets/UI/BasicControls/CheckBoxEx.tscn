@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/CheckBoxEx.gd" id="2"]
+[ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="3_76ept"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="4"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/CheckBox.gd" id="5"]
+
+[node name="CheckBoxEx" type="HBoxContainer"]
+offset_right = 154.0
+offset_bottom = 20.0
+script = ExtResource("2")
+
+[node name="LabelEx" parent="." instance=ExtResource("4")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_76ept")
+theme_override_font_sizes/font_size = 16
+text = "Unknown CheckBox:"
+vertical_alignment = 1
+autowrap_mode = 0
+font_style = 9
+
+[node name="CheckBox" type="CheckBox" parent="."]
+layout_mode = 2
+size_flags_horizontal = 10
+mouse_filter = 2
+script = ExtResource("5")
+
+[connection signal="gui_input" from="." to="." method="_on_CheckBoxEx_gui_input"]
+[connection signal="toggled" from="CheckBox" to="." method="_on_CheckBox_toggled"]
+[connection signal="toggled" from="CheckBox" to="CheckBox" method="_on_CheckBox_toggled"]

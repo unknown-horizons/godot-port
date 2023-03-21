@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/lose.ogg-33cdb2f37004a36570f7c44dfc6d8b9d.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dka0ljv2p0sdw"
+path="res://.godot/imported/lose.ogg-33cdb2f37004a36570f7c44dfc6d8b9d.oggvorbisstr"
 
 [deps]
 
 source_file="res://Assets/Audio/Sounds/Events/Scenario/lose.ogg"
-dest_files=[ "res://.import/lose.ogg-33cdb2f37004a36570f7c44dfc6d8b9d.oggstr" ]
+dest_files=["res://.godot/imported/lose.ogg-33cdb2f37004a36570f7c44dfc6d8b9d.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

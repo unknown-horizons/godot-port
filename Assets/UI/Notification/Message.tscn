@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://Assets/UI/Notification/MessageButton.tscn" id="1"]
+[ext_resource type="Script" path="res://Assets/UI/Notification/Message.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://1lts0t2jf0xg" path="res://Assets/UI/Notification/MessageText.tscn" id="3"]
+[ext_resource type="BitMap" uid="uid://jjft0jty5esx" path="res://Assets/UI/Images/Buttons/msg_button_mask.png" id="4"]
+
+[node name="Message" type="HBoxContainer"]
+custom_minimum_size = Vector2(0, 66)
+offset_right = 313.0
+offset_bottom = 66.0
+mouse_filter = 2
+script = ExtResource("2")
+message_text = "This is a message notification in the actual Message node."
+
+[node name="MessageButton" parent="." instance=ExtResource("1")]
+layout_mode = 2
+texture_click_mask = ExtResource("4")
+
+[node name="VSeparator" type="VSeparator" parent="."]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(8, 0)
+layout_mode = 2
+
+[node name="MessageText" parent="." instance=ExtResource("3")]
+layout_mode = 2
+size_flags_vertical = 1
+text = "This is a message notification in the actual Message node."
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 8.0
+one_shot = true
+autostart = true
+
+[connection signal="mouse_entered" from="MessageButton" to="." method="_on_MessageButton_mouse_entered"]
+[connection signal="mouse_exited" from="MessageButton" to="." method="_on_MessageButton_mouse_exited"]
+[connection signal="pressed" from="MessageButton" to="." method="_on_MessageButton_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+
+[editable path="MessageButton"]

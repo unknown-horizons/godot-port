@@ -1,28 +1,33 @@
-tool
+@tool
 extends WorldThing
 class_name Building
-# Base class for all buildings.
 
-var current_anim # if not null, action can be animated, otherwise static
+## Base class for all buildings.
+
+## If not null, action can be animated, otherwise static.
+var current_anim
 var previous_anim
 
-var rotation_index setget ,get_rotation_index
+## Returns the object's rotation with the current camera rotation taken into account.
+var rotation_index : get = get_rotation_index
 var rotation_offset := 0
 
-onready var timer := Timer.new() # to play an animation in a sane speed
+## To play an animation in a sane speed.
+@onready var timer := Timer.new()
 
-export(String) var action := "idle" setget set_action
-export(float, 0, 1) var anim_speed := 0.95 setget set_anim_speed
+@export var action := "idle" : set = set_action
+@export var anim_speed := 0.95 : set = set_anim_speed # (float, 0, 1)
 
-export(bool) var debug_animate := false
+@export var debug_animate := false
 
 func _ready():
+	super()
 	add_child(timer)
-	# warning-ignore:return_value_discarded
-	timer.connect("timeout", self, "_on_Timer_timeout")
+	timer.timeout.connect(Callable(self, "_on_Timer_timeout"))
 	timer.start(1.001 - anim_speed)
 
 func _process(_delta: float) -> void:
+	super(_delta)
 	if Engine.is_editor_hint():
 		if not debug_animate and current_anim != null:
 			_billboard.frame = 0
@@ -37,11 +42,11 @@ func select() -> void:
 	prints("SELECT", self)
 	Audio.play_snd_click()
 	# TODO: Highlighting effect
-	_billboard.modulate = Color.gold
+	_billboard.modulate = Color.GOLD
 
 func deselect() -> void:
 	prints("DESELECT", self)
-	_billboard.modulate = Color.white
+	_billboard.modulate = Color.WHITE
 
 func animate() -> void: # to be overridden
 	if previous_anim != current_anim and current_anim == null:
@@ -51,7 +56,7 @@ func animate() -> void: # to be overridden
 
 func _on_input(event: InputEvent) -> void:
 	if current_anim == null:
-		._on_input(event)
+		super(event)
 		return
 
 	# Switch texture accordingly with the world rotation.
@@ -70,34 +75,33 @@ func _on_input(event: InputEvent) -> void:
 			_billboard.frame = wrapi(_billboard.frame - 1, 0, _billboard.vframes * _billboard.hframes)
 			animate()
 
-# Return the object's rotation with current camera rotation taken into account
 func get_rotation_index() -> int:
 	# warning-ignore:shadowed_variable
-	var rotation_index
+	var rotation_degree_per_90
 
 	match rotation_degree:
 		RotationDegree.ZERO:
-			rotation_index = 0
+			rotation_degree_per_90 = 0
 		RotationDegree.NINETY:
-			rotation_index = 1
+			rotation_degree_per_90 = 1
 		RotationDegree.ONE_EIGHTY:
-			rotation_index = 2
+			rotation_degree_per_90 = 2
 		RotationDegree.TWO_SEVENTY:
-			rotation_index = 3
+			rotation_degree_per_90 = 3
 
 	# Explanation:
-	# rotation_degree	-> WorldThing rotation (8 rotations (0 - 7))
-	# rotation_index	-> Building rotation (4 rotations (0 - 3))
-	# rotation_offset	-> Camera rotation offset relative to Building rotation
+	# rotation_degree			-> WorldThing rotation (8 rotations (0 - 7))
+	# rotation_degree_per_90	-> Building rotation (4 rotations (0 - 3))
+	# rotation_offset			-> Camera rotation offset relative to Building rotation
 	#
-	# Returned rotation_index is rotation_index + rotation_offset
+	# Returned rotation_index is (rotation_degree_per_90 + rotation_offset) % 4
 	#	=> actual/current rotation
 
 	#prints("rotation_degree:", rotation_degree)
-	#prints("rotation_index:", rotation_index)
+	#prints("rotation_degree_per_90:", rotation_degree_per_90)
 	#prints("rotation_offset:", rotation_offset)
 
-	return (rotation_index + rotation_offset) % 4
+	return (rotation_degree_per_90 + rotation_offset) % 4
 
 func set_action(new_action) -> void:
 	action = new_action

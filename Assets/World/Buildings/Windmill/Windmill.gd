@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name Windmill
 
@@ -48,4 +48,4 @@ func animate() -> void:
 			else:
 				_billboard.frame = next_frame()
 
-	.animate()
+	super()

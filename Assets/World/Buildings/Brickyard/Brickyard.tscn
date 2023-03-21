@@ -1,22 +1,40 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=3 uid="uid://da6v2mhfh7tqj"]
 
-[ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/World/Buildings/Brickyard/Sprites/Brickyard_idle.png" type="Texture" id=2]
-[ext_resource path="res://Assets/World/Shapes/BoxShape4x2.tres" type="Shape" id=3]
-[ext_resource path="res://Assets/World/Buildings/Brickyard/Brickyard.gd" type="Script" id=4]
+[ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://c10n07nyee45b" path="res://Assets/World/Buildings/Brickyard/Sprites/Brickyard_idle.png" id="2"]
+[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape4x2.tres" id="3"]
+[ext_resource type="Script" path="res://Assets/World/Buildings/Brickyard/Brickyard.gd" id="4"]
 
-[node name="Brickyard" instance=ExtResource( 1 )]
-script = ExtResource( 4 )
-texture = ExtResource( 2 )
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xo122"]
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+no_depth_test = true
+albedo_texture = ExtResource("2")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+billboard_mode = 1
+
+[node name="Brickyard" instance=ExtResource("1")]
+script = ExtResource("4")
+resource_amount = 0
+texture = ExtResource("2")
 
 [node name="Billboard" parent="." index="0"]
-offset = Vector2( 0, 16 )
-texture = ExtResource( 2 )
+offset = Vector2(0, 16)
+texture = ExtResource("2")
 region_enabled = true
-region_rect = Rect2( 0, 0, 384, 256 )
+region_rect = Rect2(0, 0, 384, 256)
 
-[node name="Area" parent="." index="1"]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0.5, 0 )
+[node name="Outline" parent="Billboard" index="0"]
+material_overlay = SubResource("StandardMaterial3D_xo122")
+offset = Vector2(0, 16)
+texture = ExtResource("2")
+region_enabled = true
+region_rect = Rect2(0, 0, 384, 256)
 
-[node name="CollisionShape" parent="Area" index="0"]
-shape = ExtResource( 3 )
+[node name="Area3D" parent="." index="1"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0.5, 0)
+
+[node name="CollisionShape3D" parent="Area3D" index="0"]
+shape = ExtResource("3")

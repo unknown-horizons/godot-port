@@ -1,18 +1,35 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=3 uid="uid://courccf5jxrq5"]
 
-[ext_resource path="res://Assets/World/Units/Ships/Ship.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/World/Units/Ships/FreeTraders/FreeTrader/FreeTrader.gd" type="Script" id=2]
-[ext_resource path="res://Assets/World/Units/Ships/FreeTraders/FreeTrader/Sprites/FreeTraders_idle.png" type="Texture" id=3]
-[ext_resource path="res://Assets/World/Shapes/BoxShape3x3.tres" type="Shape" id=4]
+[ext_resource type="PackedScene" path="res://Assets/World/Units/Ships/Ship.tscn" id="1"]
+[ext_resource type="Script" path="res://Assets/World/Units/Ships/FreeTraders/FreeTrader/FreeTrader.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://b0hhaojulvwap" path="res://Assets/World/Units/Ships/FreeTraders/FreeTrader/Sprites/FreeTraders_idle.png" id="3"]
+[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape3x3.tres" id="4"]
 
-[node name="FreeTrader" instance=ExtResource( 1 )]
-script = ExtResource( 2 )
-texture = ExtResource( 3 )
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cup1p"]
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+no_depth_test = true
+albedo_texture = ExtResource("3")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+billboard_mode = 1
+
+[node name="FreeTrader" instance=ExtResource("1")]
+script = ExtResource("2")
+texture = ExtResource("3")
 
 [node name="Billboard" parent="." index="1"]
-texture = ExtResource( 3 )
+texture = ExtResource("3")
 region_enabled = true
-region_rect = Rect2( 0, 0, 1056, 528 )
+region_rect = Rect2(0, 0, 1056, 528)
 
-[node name="CollisionShape" parent="Area" index="0"]
-shape = ExtResource( 4 )
+[node name="Outline" parent="Billboard" index="0"]
+material_overlay = SubResource("StandardMaterial3D_cup1p")
+texture = ExtResource("3")
+hframes = 4
+region_enabled = true
+region_rect = Rect2(0, 0, 1056, 528)
+
+[node name="CollisionShape3D" parent="Area3D" index="0"]
+shape = ExtResource("4")

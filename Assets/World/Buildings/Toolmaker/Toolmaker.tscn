@@ -1,20 +1,37 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=3 uid="uid://cmv5wjn5nc2bh"]
 
-[ext_resource path="res://Assets/World/Buildings/Toolmaker/Toolmaker.gd" type="Script" id=1]
-[ext_resource path="res://Assets/World/Buildings/Building.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Assets/World/Buildings/Toolmaker/Sprites/Toolmaker_idle.png" type="Texture" id=3]
-[ext_resource path="res://Assets/World/Shapes/BoxShape2x2.tres" type="Shape" id=4]
+[ext_resource type="Script" path="res://Assets/World/Buildings/Toolmaker/Toolmaker.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://5lrnuxq5tcgl" path="res://Assets/World/Buildings/Toolmaker/Sprites/Toolmaker_idle.png" id="3"]
+[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="4"]
 
-[node name="Toolmaker" instance=ExtResource( 2 )]
-script = ExtResource( 1 )
-texture = ExtResource( 3 )
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xxjpb"]
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+no_depth_test = true
+albedo_texture = ExtResource("3")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+billboard_mode = 1
+
+[node name="Toolmaker" instance=ExtResource("2")]
+script = ExtResource("1")
 anim_speed = 0.9
+texture = ExtResource("3")
 
 [node name="Billboard" parent="." index="0"]
-offset = Vector2( 0, 16 )
-texture = ExtResource( 3 )
+offset = Vector2(0, 16)
+texture = ExtResource("3")
 region_enabled = true
-region_rect = Rect2( 0, 0, 256, 196 )
+region_rect = Rect2(0, 0, 256, 196)
 
-[node name="CollisionShape" parent="Area" index="0"]
-shape = ExtResource( 4 )
+[node name="Outline" parent="Billboard" index="0"]
+material_overlay = SubResource("StandardMaterial3D_xxjpb")
+offset = Vector2(0, 16)
+texture = ExtResource("3")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 196)
+
+[node name="CollisionShape3D" parent="Area3D" index="0"]
+shape = ExtResource("4")

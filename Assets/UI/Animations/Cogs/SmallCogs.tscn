@@ -1,0 +1,47 @@
+[gd_scene load_steps=16 format=3 uid="uid://du1yrxvrfqbi7"]
+
+[ext_resource type="Texture2D" uid="uid://cuxad0qba4ki6" path="res://Assets/UI/Animations/Cogs/Small/0.png" id="1_aof68"]
+[ext_resource type="Texture2D" uid="uid://fl5ql4mhudok" path="res://Assets/UI/Animations/Cogs/Small/1.png" id="2_ih2jb"]
+[ext_resource type="Texture2D" uid="uid://bwrpukfoa6v7u" path="res://Assets/UI/Animations/Cogs/Small/2.png" id="3_bjfox"]
+[ext_resource type="Texture2D" uid="uid://dnipb1bv7h5xq" path="res://Assets/UI/Animations/Cogs/Small/3.png" id="4_rowfe"]
+[ext_resource type="Texture2D" uid="uid://dhbbgk4oqnfnt" path="res://Assets/UI/Animations/Cogs/Small/4.png" id="5_u44fg"]
+[ext_resource type="Texture2D" uid="uid://wd7jk8t6xgi" path="res://Assets/UI/Animations/Cogs/Small/5.png" id="6_xtmae"]
+[ext_resource type="Texture2D" uid="uid://dy4akprii1v15" path="res://Assets/UI/Animations/Cogs/Small/6.png" id="7_ixq5v"]
+[ext_resource type="Texture2D" uid="uid://dx2bjful2h3wi" path="res://Assets/UI/Animations/Cogs/Small/7.png" id="8_rugrb"]
+[ext_resource type="Texture2D" uid="uid://ca5p2gwhw512g" path="res://Assets/UI/Animations/Cogs/Small/8.png" id="9_ehbnl"]
+[ext_resource type="Texture2D" uid="uid://c5sgxshkm16nx" path="res://Assets/UI/Animations/Cogs/Large/9.png" id="10_6em6i"]
+[ext_resource type="Texture2D" uid="uid://bw81yvjuwr2ca" path="res://Assets/UI/Animations/Cogs/Small/9.png" id="11_0c3c8"]
+[ext_resource type="Texture2D" uid="uid://dkovd6v6xv2fp" path="res://Assets/UI/Animations/Cogs/Small/10.png" id="12_4wn2l"]
+[ext_resource type="Texture2D" uid="uid://c786gcwe84k74" path="res://Assets/UI/Animations/Cogs/Small/11.png" id="13_eddo8"]
+
+[sub_resource type="Animation" id="1"]
+resource_name = "cycle"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(":texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.9, 1, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_aof68"), ExtResource("2_ih2jb"), ExtResource("3_bjfox"), ExtResource("4_rowfe"), ExtResource("5_u44fg"), ExtResource("6_xtmae"), ExtResource("7_ixq5v"), ExtResource("8_rugrb"), ExtResource("9_ehbnl"), ExtResource("10_6em6i"), ExtResource("11_0c3c8"), ExtResource("12_4wn2l"), ExtResource("13_eddo8")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_psagp"]
+_data = {
+"cycle": SubResource("1")
+}
+
+[node name="SmallCogs" type="TextureRect"]
+offset_right = 44.0
+offset_bottom = 44.0
+texture = ExtResource("1_aof68")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "cycle"
+libraries = {
+"": SubResource("AnimationLibrary_psagp")
+}

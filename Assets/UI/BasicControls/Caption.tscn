@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="FontFile" uid="uid://b132ikq6ayfyj" path="res://External/Fonts/LinLibertineC.ttf" id="1_d1qqp"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/LabelEx.gd" id="1_j2vnn"]
+
+[node name="Caption" type="Label"]
+offset_right = 300.0
+offset_bottom = 23.0
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("1_d1qqp")
+theme_override_font_sizes/font_size = 20
+text = "This is a Book Title"
+horizontal_alignment = 1
+vertical_alignment = 2
+autowrap_mode = 3
+script = ExtResource("1_j2vnn")
+font_style = 2

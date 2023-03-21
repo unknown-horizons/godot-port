@@ -1,6 +1,8 @@
-tool
-extends Spatial
+@tool
+extends Node3D
 class_name WorldThing
+
+## The base class of any entity in the game.
 
 const TRANSLATION_PER_ANGLE = [
 	Vector3(-50, 49.51, 50),
@@ -25,12 +27,12 @@ enum RotationDegree {
 	THREE_FIFTEEN
 }
 
-export var texture: Texture setget set_texture
-export(RotationStep) var rotation_step := 1 setget set_rotation_step
-export(RotationDegree) var rotation_degree := 0 setget set_rotation_degree
+@export var texture: Texture2D : set = set_texture
+@export var rotation_step: RotationStep = 1 : set = set_rotation_step
+@export var rotation_degree: RotationDegree = 0 : set = set_rotation_degree
 
-onready var _billboard := $Billboard as Sprite3D
-onready var _outline := _billboard.get_node("Outline") as Sprite3D
+@onready var _billboard := $Billboard as Sprite3D
+@onready var _outline := _billboard.get_node("Outline") as Sprite3D
 
 var current_rotation := 0
 
@@ -52,9 +54,9 @@ func _process(_delta: float) -> void:
 
 		# Prevent things "falling" through the GridMap when drag'n'dropping
 		# nodes from the hierarchy to the map;
-		# keep everything on the same height at all time.
-		if translation.y != 0:
-			translation.y = 0
+		# keep everything on the same height at all times.
+		if position.y != 0:
+			position.y = 0
 
 func _unhandled_input(event: InputEvent) -> void:
 	_recalculate_translation(event)
@@ -72,17 +74,17 @@ func _on_input(event: InputEvent):
 
 func _recalculate_translation(event: InputEvent = null) -> void:
 	if not event:
-		_billboard.translation = TRANSLATION_PER_ANGLE[0]
+		_billboard.position = TRANSLATION_PER_ANGLE[0]
 		return
 
 	if event.is_action_pressed("rotate_left"):
 		current_rotation = wrapi(current_rotation - 1, 0, TRANSLATION_PER_ANGLE.size())
-		_billboard.translation = TRANSLATION_PER_ANGLE[current_rotation]
-		#prints(self, "translation:", _billboard.translation)
+		_billboard.position = TRANSLATION_PER_ANGLE[current_rotation]
+		#prints(self, "position:", _billboard.position)
 	elif event.is_action_pressed("rotate_right"):
 		current_rotation =  wrapi(current_rotation + 1, 0, TRANSLATION_PER_ANGLE.size())
-		_billboard.translation = TRANSLATION_PER_ANGLE[current_rotation]
-		#prints(self, "translation:", _billboard.translation)
+		_billboard.position = TRANSLATION_PER_ANGLE[current_rotation]
+		#prints(self, "position:", _billboard.position)
 
 func next_frame(sprite: Sprite3D = _billboard) -> int:
 	return wrapi(sprite.frame + 1, 0, sprite.vframes * sprite.hframes)
@@ -93,7 +95,7 @@ func prev_frame(sprite: Sprite3D = _billboard) -> int:
 func get_random_frame(sprite: Sprite3D = _billboard) -> int:
 	return randi() % (sprite.vframes * sprite.hframes)
 
-func set_texture(new_texture: Texture) -> void:
+func set_texture(new_texture: Texture2D) -> void:
 	texture = new_texture
 
 	if not is_inside_tree() or _billboard == null:
@@ -110,22 +112,23 @@ func set_texture(new_texture: Texture) -> void:
 		_outline.region_enabled = _billboard.region_enabled
 		_outline.offset = _billboard.offset
 
-		var material = SpatialMaterial.new()
+		var material := StandardMaterial3D.new()
 		material.flags_transparent = true
-		#material.flags_no_depth_test = true
-		material.params_billboard_mode = SpatialMaterial.BILLBOARD_ENABLED
+		material.flags_no_depth_test = true
+		material.params_billboard_mode = StandardMaterial3D.BILLBOARD_ENABLED
 		material.params_use_alpha_scissor = true
 		material.params_alpha_scissor_threshold = 0.05
 		material.albedo_texture = texture
 		material.emission_enabled = true
-		material.emission = Color.white
-		_outline.material_override = material
+		material.emission = Color.WHITE
+		_outline.material_overlay = material
 	else:
-		_outline.material_override = null
+		_outline.material_overlay = null
 
 	# Every Sprite3D should be a billboard
-	_billboard.billboard = SpatialMaterial.BILLBOARD_ENABLED
+	_billboard.billboard = StandardMaterial3D.BILLBOARD_ENABLED
 	_billboard.transparent = true
+	_billboard.no_depth_test = true
 	_billboard.material_override = null
 
 func set_rotation_step(new_step: int) -> void:
@@ -156,7 +159,7 @@ func set_rotation_degree(new_rotation: int) -> void:
 
 				return
 
-			#warning-ignore:integer_division
+			@warning_ignore("integer_division")
 			_billboard.frame = rotation_degree / 2
 
 #

@@ -1,4 +1,4 @@
-tool
+@tool
 extends TileMap3D
 
 # map_size = 1
@@ -77,15 +77,15 @@ const TILE_OFFSETS = [
 	Vector2(-1, -1), # South West
 ]
 
-var tile_map: PoolVector2Array
+var tile_map: PackedVector2Array
 
-export var btn_update_tiles := false
-export var btn_fill_terrain := false
-export var btn_unfill_terrain := false
-export var btn_clean_terrain := false
+@export var btn_update_tiles := false
+@export var btn_fill_terrain := false
+@export var btn_unfill_terrain := false
+@export var btn_clean_terrain := false
 
 func _ready() -> void:
-	#if get_parent().is_inside_tree(): yield(get_parent(), "ready"); _on_ready()
+	#if get_parent().is_inside_tree(): await get_parent().ready; _on_ready()
 
 	var map_size = get_parent().map_size as int
 	_resize_tile_map(map_size)
@@ -94,21 +94,10 @@ func _ready() -> void:
 
 func _process(_delta: float) -> void:
 	if Engine.is_editor_hint():
-		if btn_update_tiles:
-			update_tiles()
-			btn_update_tiles = false
-
-		if btn_fill_terrain:
-			fill_terrain()
-			btn_fill_terrain = false
-
-		if btn_unfill_terrain:
-			unfill_terrain()
-			btn_unfill_terrain = false
-
-		if btn_clean_terrain:
-			clean_terrain()
-			btn_clean_terrain = false
+		if btn_update_tiles: update_tiles(); btn_update_tiles = false
+		if btn_fill_terrain: fill_terrain(); btn_fill_terrain = false
+		if btn_unfill_terrain: unfill_terrain(); btn_unfill_terrain = false
+		if btn_clean_terrain: clean_terrain(); btn_clean_terrain = false
 	else:
 		set_process(false)
 
@@ -124,7 +113,7 @@ func update_tiles() -> void:
 func fill_terrain() -> void:
 	print("fill_terrain")
 	for tile_pos in tile_map:
-		#print("({0}, {1}) | map_to_world: {2}".format([x, y, map_to_world(x, 0, y)]))
+		#print("({0}, {1}) | map_to_world: {2}".format([x, y, map_to_local(Vector3i(x,0,y))]))
 		# NOTEFORME: map_to_world: center of cell (e.g. 0, 0 -> 0.5, 0.5)
 		set_tile(tile_pos, "deep")
 
@@ -135,7 +124,6 @@ func unfill_terrain() -> void:
 
 func clean_terrain() -> void:
 	print("clean_terrain")
-	var tile_map: PoolVector2Array
 	for tile in tile_map:
 		tile_map.append(tile)
 
@@ -148,7 +136,7 @@ func clean_terrain() -> void:
 			unset_tile(tile)
 
 func _resize_tile_map(map_size: int) -> void:
-	tile_map = PoolVector2Array()
+	tile_map = PackedVector2Array()
 	for y in map_size * TILES_PER_AXIS:
 		for x in map_size * TILES_PER_AXIS:
 			tile_map.append(Vector2(x, y))

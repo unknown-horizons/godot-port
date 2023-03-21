@@ -1,0 +1,395 @@
+[gd_scene load_steps=22 format=3 uid="uid://fsa8lbk4l5p2"]
+
+[ext_resource type="PackedScene" uid="uid://c7vej07bi5fee" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="1"]
+[ext_resource type="Script" path="res://Assets/UI/Pages/NewGameUI/GameTypeRadioButton.gd" id="3_8y2qy"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LineEditEx.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/HSliderEx.tscn" id="8"]
+[ext_resource type="PackedScene" uid="uid://cd4byu1hpqbyq" path="res://Assets/UI/BasicControls/Separator.tscn" id="9"]
+[ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="10"]
+[ext_resource type="FontFile" uid="uid://b132ikq6ayfyj" path="res://External/Fonts/LinLibertineC.ttf" id="10_ykia5"]
+[ext_resource type="Texture2D" uid="uid://cmaobd6boqksw" path="res://Assets/UI/Images/Background/MainMenu/selected_color_border.png" id="11"]
+[ext_resource type="Theme" uid="uid://bhvo10f8w6d64" path="res://Assets/UI/Theme/Theme.tres" id="11_wtm0q"]
+[ext_resource type="Script" path="res://Assets/UI/Pages/NewGameUI/ColorSelection.gd" id="12"]
+[ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="12_ttlle"]
+[ext_resource type="Script" path="res://Assets/UI/Pages/NewGameUI/MapList.gd" id="12_ujho3"]
+[ext_resource type="Texture2D" uid="uid://dx3wfk7nhepo7" path="res://Assets/UI/Images/Logos/uh_no_text.svg" id="14"]
+
+[sub_resource type="ButtonGroup" id="ButtonGroup_jwci2"]
+
+[sub_resource type="GDScript" id="2"]
+script/source = "extends ColorRect
+
+@export var color_to_faction: int
+"
+
+[sub_resource type="GDScript" id="3"]
+script/source = "extends HSlider
+
+func _ready() -> void:
+	value = Global.ai_players
+
+func _on_AISlider_value_changed(value: int) -> void:
+	Global.ai_players = value
+"
+
+[sub_resource type="FontVariation" id="FontVariation_aupv3"]
+spacing_glyph = 22
+
+[sub_resource type="LabelSettings" id="LabelSettings_ej3cp"]
+font = SubResource("FontVariation_aupv3")
+font_size = 17
+font_color = Color(0.258824, 0.188235, 0.0509804, 1)
+
+[sub_resource type="GDScript" id="7"]
+script/source = "extends HBoxContainer
+
+func _on_ResourceDensitySlider_value_changed(value):
+	$ResourceDensityIndicator.text = \"{0}x\".format([value])
+"
+
+[sub_resource type="GDScript" id="8"]
+script/source = "extends HBoxContainer
+
+@onready var traders = $Traders
+@onready var pirates = $Pirates
+@onready var disasters = $Disasters
+
+func _ready():
+	traders.button_pressed = Global.has_traders
+	pirates.button_pressed = Global.has_pirates
+	disasters.button_pressed = Global.has_disasters
+
+func _on_Traders_pressed():
+	Global.has_traders = traders.button_pressed
+
+func _on_Pirates_pressed():
+	Global.has_pirates = pirates.button_pressed
+
+func _on_Disasters_pressed():
+	Global.has_disasters = disasters.button_pressed
+"
+
+[node name="FreePlay" instance=ExtResource("1")]
+size_flags_horizontal = 4
+
+[node name="MarginContainer" parent="TextureRect" index="0"]
+layout_mode = 1
+anchors_preset = 8
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="0" instance=ExtResource("10")]
+layout_mode = 2
+text = "New Game - Single player"
+
+[node name="MarginContainer" type="MarginContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="1"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/MarginContainer" index="0"]
+layout_mode = 2
+
+[node name="Scenario" type="CheckBox" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/MarginContainer/VBoxContainer" index="0"]
+layout_mode = 2
+button_group = SubResource("ButtonGroup_jwci2")
+text = "Scenario"
+script = ExtResource("3_8y2qy")
+
+[node name="RandomMap" type="CheckBox" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/MarginContainer/VBoxContainer" index="1"]
+layout_mode = 2
+button_group = SubResource("ButtonGroup_jwci2")
+text = "Random map"
+script = ExtResource("3_8y2qy")
+
+[node name="FreePlay" type="CheckBox" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/MarginContainer/VBoxContainer" index="2"]
+layout_mode = 2
+button_pressed = true
+button_group = SubResource("ButtonGroup_jwci2")
+text = "Free play"
+script = ExtResource("3_8y2qy")
+
+[node name="Separator" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="2" instance=ExtResource("9")]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="3"]
+layout_mode = 2
+
+[node name="PlayerName" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer" index="0" instance=ExtResource("6")]
+layout_mode = 2
+description = "Player name:"
+text = "Unknown Traveller"
+
+[node name="ColorSelection" type="HBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer" index="1"]
+custom_minimum_size = Vector2(0, 70)
+layout_mode = 2
+script = ExtResource("12")
+
+[node name="Label" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection" index="0"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Color:"
+
+[node name="TextureRect" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection" index="1"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("11")
+
+[node name="SelectedColor" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/TextureRect" index="0"]
+show_behind_parent = true
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -27.0
+offset_top = -27.0
+offset_right = 25.0
+offset_bottom = 25.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+color = Color(1, 0.0392157, 0.0392157, 1)
+
+[node name="Choices" type="GridContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection" index="2"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+columns = 5
+
+[node name="Red" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="0"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(1, 0.0392157, 0.0392157, 1)
+script = SubResource("2")
+color_to_faction = 1
+
+[node name="Blue" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="1"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(0, 0.282353, 0.709804, 1)
+script = SubResource("2")
+color_to_faction = 2
+
+[node name="Green" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="2"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(0, 0.627451, 0.0901961, 1)
+script = SubResource("2")
+color_to_faction = 3
+
+[node name="Orange" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="3"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(0.878431, 0.4, 0, 1)
+script = SubResource("2")
+color_to_faction = 4
+
+[node name="Purple" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="4"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(0.501961, 0, 0.501961, 1)
+script = SubResource("2")
+color_to_faction = 5
+
+[node name="Cyan" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="5"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(0, 1, 1, 1)
+script = SubResource("2")
+color_to_faction = 6
+
+[node name="Yellow" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="6"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(1, 0.843137, 0, 1)
+script = SubResource("2")
+color_to_faction = 7
+
+[node name="Pink" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="7"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(1, 0, 1, 1)
+script = SubResource("2")
+color_to_faction = 8
+
+[node name="Teal" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="8"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(0, 0.572549, 0.545098, 1)
+script = SubResource("2")
+color_to_faction = 9
+
+[node name="Lemon" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="9"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(0, 1, 0, 1)
+script = SubResource("2")
+color_to_faction = 10
+
+[node name="Bordeaux" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="10"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(0.588235, 0.0235294, 0.156863, 1)
+script = SubResource("2")
+color_to_faction = 11
+
+[node name="White" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="11"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+script = SubResource("2")
+color_to_faction = 12
+
+[node name="Gray" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="12"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(0.501961, 0.501961, 0.501961, 1)
+script = SubResource("2")
+color_to_faction = 13
+
+[node name="Black" type="ColorRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/VBoxContainer/ColorSelection/Choices" index="13"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+script = SubResource("2")
+color_to_faction = 14
+
+[node name="Separator2" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="4" instance=ExtResource("9")]
+layout_mode = 2
+
+[node name="HSliderEx" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="5" instance=ExtResource("8")]
+visible = false
+layout_mode = 2
+description = "AI players:"
+max_value = 7.0
+
+[node name="AIPlayerSelection" type="HBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="6"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 2
+
+[node name="Label" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/AIPlayerSelection" index="0"]
+layout_mode = 2
+text = "AI players:"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/AIPlayerSelection" index="1"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer" index="0"]
+layout_mode = 2
+
+[node name="AISlider" type="HSlider" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer/HBoxContainer" index="0"]
+custom_minimum_size = Vector2(217.03, 0)
+layout_mode = 2
+size_flags_vertical = 3
+max_value = 7.0
+value = 3.0
+tick_count = 8
+ticks_on_borders = true
+script = SubResource("3")
+
+[node name="Label" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer" index="1"]
+custom_minimum_size = Vector2(214, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+text = "01234567"
+label_settings = SubResource("LabelSettings_ej3cp")
+
+[node name="LabelEx" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="0" instance=ExtResource("7")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("10_ykia5")
+theme_override_font_sizes/font_size = 16
+text = "Choose map to play:"
+font_style = 0
+
+[node name="MapList" type="ItemList" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="1"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 155)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+tooltip_text = "test"
+theme = ExtResource("11_wtm0q")
+script = ExtResource("12_ujho3")
+
+[node name="RecommendedNumberOfPlayers" type="HBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="2"]
+layout_mode = 2
+
+[node name="Caption" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/RecommendedNumberOfPlayers" index="0" instance=ExtResource("7")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("12_ttlle")
+theme_override_font_sizes/font_size = 16
+text = "Recommended number of players:"
+font_style = 9
+
+[node name="Value" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/RecommendedNumberOfPlayers" index="1" instance=ExtResource("7")]
+custom_minimum_size = Vector2(17, 0)
+layout_mode = 2
+size_flags_horizontal = 1
+theme_override_fonts/font = ExtResource("12_ttlle")
+theme_override_font_sizes/font_size = 16
+text = "4"
+font_style = 9
+
+[node name="MapPreview" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="3"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("14")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LabelEx2" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="4" instance=ExtResource("7")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("10_ykia5")
+theme_override_font_sizes/font_size = 16
+text = "Game settings:"
+font_style = 0
+
+[node name="ResourceDensity" type="HBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="5"]
+layout_mode = 2
+script = SubResource("7")
+
+[node name="Label" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/ResourceDensity" index="0"]
+layout_mode = 2
+text = "Resource Density: "
+
+[node name="ResourceDensityIndicator" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/ResourceDensity" index="1"]
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+text = "1.0x"
+
+[node name="ResourceDensitySlider" type="HSlider" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/ResourceDensity" index="2"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+size_flags_horizontal = 2
+min_value = 0.5
+max_value = 2.0
+step = 0.5
+value = 1.0
+ticks_on_borders = true
+
+[node name="AdditionalOccurences" type="HBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="6"]
+layout_mode = 2
+size_flags_vertical = 2
+script = SubResource("8")
+
+[node name="Traders" type="CheckBox" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/AdditionalOccurences" index="0"]
+layout_mode = 2
+text = "Free Traders"
+
+[node name="Pirates" type="CheckBox" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/AdditionalOccurences" index="1"]
+layout_mode = 2
+text = "Pirates"
+
+[node name="Disasters" type="CheckBox" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/AdditionalOccurences" index="2"]
+layout_mode = 2
+text = "Disasters"
+
+[connection signal="value_changed" from="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer/HBoxContainer/AISlider" to="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/AIPlayerSelection/VBoxContainer/HBoxContainer/AISlider" method="_on_AISlider_value_changed"]
+[connection signal="item_selected" from="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/MapList" to="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/MapList" method="_on_ItemList_item_selected"]
+[connection signal="value_changed" from="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/ResourceDensity/ResourceDensitySlider" to="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/ResourceDensity" method="_on_ResourceDensitySlider_value_changed"]
+[connection signal="pressed" from="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/AdditionalOccurences/Traders" to="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/AdditionalOccurences" method="_on_Traders_pressed"]
+[connection signal="pressed" from="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/AdditionalOccurences/Pirates" to="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/AdditionalOccurences" method="_on_Pirates_pressed"]
+[connection signal="pressed" from="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/AdditionalOccurences/Disasters" to="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/AdditionalOccurences" method="_on_Disasters_pressed"]

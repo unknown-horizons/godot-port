@@ -1,12 +1,8 @@
-[gd_resource type="SpatialMaterial" format=2]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://7jpfndvp5lbv"]
 
 [resource]
-flags_transparent = true
-params_billboard_mode = 1
-params_use_alpha_scissor = true
-params_alpha_scissor_threshold = 0.05
+transparency = 1
+no_depth_test = true
 emission_enabled = true
-emission = Color( 1, 1, 1, 1 )
-emission_energy = 1.0
-emission_operator = 0
-emission_on_uv2 = false
+emission = Color(1, 1, 1, 1)
+billboard_mode = 1

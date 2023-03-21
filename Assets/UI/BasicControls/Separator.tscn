@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cd4byu1hpqbyq"]
+
+[ext_resource type="Texture2D" uid="uid://xuw5300dod1u" path="res://Assets/UI/Images/Background/hr.png" id="1"]
+
+[node name="Separator" type="TextureRect"]
+custom_minimum_size = Vector2(0, 21)
+offset_right = 215.0
+offset_bottom = 21.0
+texture = ExtResource("1")

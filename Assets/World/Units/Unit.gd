@@ -1,11 +1,12 @@
-tool
+@tool
 extends WorldThing
 class_name Unit
-# Base class for all units.
+
+## Base class for all units.
 
 signal position_changed
 
-const Global = preload("res://Assets/World/Global.gd")
+#const Global = preload("res://Assets/World/Global.gd") TODO: Remove if possible
 const Buoy = preload("res://Assets/World/Buoy/Buoy.tscn")
 
 # All units are 8-directional.
@@ -34,8 +35,8 @@ const DIRECTION = [
 #warning-ignore-all:unused_class_variable
 
 # Generic properties
-export var unit_name = "Untitled" # user defined name for the unit
-export(Global.Faction) var faction := 0 setget set_faction
+@export var unit_name = "Untitled" # user defined name for the unit
+@export var faction: Global.Faction = 0 : set = set_faction
 var health = -1 # health must be set or it won't auto destroy itself
 
 # Pathfinding
@@ -44,20 +45,22 @@ var path_index = 0
 
 var move_vector = Vector2()
 
-# Sprite rotation
+# Sprite2D rotation
 var direction = -1 # for non-animated movements, this is the frame_index
 var rotation_offset = 0
 var rotation_index
 
-var buoy = null
+var buoy: Buoy = null
 
-onready var rotation_y: Spatial = get_node_or_null("/root/World/PlayerCamera/RotationY") as Spatial
-onready var _as_map: Spatial = get_node_or_null("/root/World/AStarMap") as Spatial
-onready var world: Spatial = get_node_or_null("/root/World") as Spatial
+@onready var rotation_y: Node3D = get_node_or_null("/root/World/PlayerCamera/RotationY") as Node3D
+@onready var _as_map: Node3D = get_node_or_null("/root/World/AStarMap") as Node3D
+@onready var world: Node3D = get_node_or_null("/root/World") as Node3D
 
 var is_moving = false
 
 func _ready() -> void:
+	super()
+
 	direction = rotation_degree
 
 func set_faction(new_faction: int) -> void:
@@ -65,14 +68,14 @@ func set_faction(new_faction: int) -> void:
 
 func select() -> void:
 	Audio.play_snd_click()
-	$SelectionRing.visible = true
+	%SelectionRing.visible = true
 	# TODO: Highlighting effect
 	#$AnimationPlayer.play("selected")
 	if buoy:
 		buoy.visible = true
 
 func deselect() -> void:
-	$SelectionRing.visible = false
+	%SelectionRing.visible = false
 	if buoy:
 		buoy.visible = false
 	#$AnimationPlayer.stop()
@@ -80,7 +83,7 @@ func deselect() -> void:
 func move_to(target_pos: Vector2) -> void:
 	path = _as_map.get_tilemap_path(Utils.map_3_to_2(global_transform.origin), target_pos)
 	path_index = 0
-	if faction == world.player.faction and not path.empty():
+	if faction == world.player.faction and not path.is_empty():
 		# Only show when the unit actually moves
 		if path.size() > 2:
 			create_buoy(path[-1])
@@ -136,8 +139,8 @@ func update_rotation() -> void:
 func create_buoy(target_pos: Vector2) -> void:
 	if is_instance_valid(buoy):
 		buoy.queue_free()
-	buoy = Buoy.instance()
-	buoy.set_translation(Utils.map_2_to_3(target_pos))
+	buoy = Buoy.instantiate()
+	buoy.set_position(Utils.map_2_to_3(target_pos))
 	buoy.translate(Vector3(0, 0.2, 0))
 	world.add_child(buoy)
 

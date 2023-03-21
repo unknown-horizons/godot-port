@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/invalid.ogg-b150a2d47582faf641ac91f73b731dab.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://byswxfmlxjgsx"
+path="res://.godot/imported/invalid.ogg-b150a2d47582faf641ac91f73b731dab.oggvorbisstr"
 
 [deps]
 
 source_file="res://Assets/Audio/Sounds/invalid.ogg"
-dest_files=[ "res://.import/invalid.ogg-b150a2d47582faf641ac91f73b731dab.oggstr" ]
+dest_files=["res://.godot/imported/invalid.ogg-b150a2d47582faf641ac91f73b731dab.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

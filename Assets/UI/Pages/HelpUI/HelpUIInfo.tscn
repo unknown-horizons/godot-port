@@ -1,0 +1,63 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="1_kpc1n"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="2_g3732"]
+
+[node name="HelpUIInfo" instance=ExtResource("1_kpc1n")]
+
+[node name="Help" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="0" instance=ExtResource("2_g3732")]
+layout_mode = 2
+text = "Info"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="1"]
+layout_mode = 2
+bbcode_enabled = true
+text = "Greetings, curious visitor and thank you for your interest!"
+fit_content = true
+scroll_active = false
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="2"]
+layout_mode = 2
+bbcode_enabled = true
+text = "This game is in an early state right now and will replace the FIFE version of Unknown Horizons in the long-term."
+fit_content = true
+scroll_active = false
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="3"]
+layout_mode = 2
+bbcode_enabled = true
+text = "To stay in touch with the latest updates or to report issues, please visit the official GitHub repository."
+fit_content = true
+scroll_active = false
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="4"]
+layout_mode = 2
+bbcode_enabled = true
+text = "Further links to get in contact with the developers and the community:"
+fit_content = true
+scroll_active = false
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="5"]
+layout_mode = 2
+bbcode_enabled = true
+text = "	=> [url=https://discord.gg/VX6m2ZX]Discord[/url]
+	=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+fit_content = true
+scroll_active = false
+
+[node name="RichTextLabel6" type="RichTextLabel" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="6"]
+layout_mode = 2
+size_flags_vertical = 10
+size_flags_stretch_ratio = 5.0
+bbcode_enabled = true
+text = "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+fit_content = true
+scroll_active = false
+
+[node name="RichTextLabel7" type="RichTextLabel" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="7"]
+layout_mode = 2
+size_flags_vertical = 6
+bbcode_enabled = true
+text = "© The Unknown Horizons Team 2008 - 2023"
+fit_content = true
+scroll_active = false

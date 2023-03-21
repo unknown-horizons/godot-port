@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" uid="uid://lfagicdblj0b" path="res://Assets/UI/TabWidgets/Buttons/WidgetButton.tscn" id="1"]
+[ext_resource type="BitMap" uid="uid://jjft0jty5esx" path="res://Assets/UI/Images/Buttons/msg_button_mask.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://csypaf1jctw3i" path="res://Assets/UI/Images/Buttons/msg_button.png" id="4"]
+
+[node name="ActionButton" instance=ExtResource("1")]
+custom_minimum_size = Vector2(52, 52)
+offset_left = -26.0
+offset_top = -26.0
+offset_right = 26.0
+offset_bottom = 26.0
+pivot_offset = Vector2(26, 26)
+texture_normal = null
+texture_click_mask = ExtResource("2")
+
+[node name="TextureRect" parent="." index="0"]
+layout_mode = 1
+anchors_preset = 8
+offset_left = -26.0
+offset_top = -26.0
+offset_right = 26.0
+offset_bottom = 26.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(26, 26)
+mouse_filter = 2
+texture = ExtResource("4")
+
+[connection signal="gui_input" from="." to="." method="_on_ActionButton_gui_input"]
+[connection signal="mouse_entered" from="." to="." method="_on_ActionButton_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_ActionButton_mouse_exited"]

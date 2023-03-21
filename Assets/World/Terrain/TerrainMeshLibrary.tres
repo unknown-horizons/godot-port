@@ -1,199 +1,212 @@
-[gd_resource type="MeshLibrary" load_steps=40 format=2]
+[gd_resource type="MeshLibrary" load_steps=40 format=3 uid="uid://lpmno4f5y77j"]
 
-[ext_resource path="res://Assets/World/Terrain/grass.png" type="Texture" id=1]
-[ext_resource path="res://Assets/World/Terrain/beach.png" type="Texture" id=2]
-[ext_resource path="res://Assets/World/Terrain/shallow_deep_curve_in.png" type="Texture" id=3]
-[ext_resource path="res://Assets/World/Terrain/shallow_deep_curve_out.png" type="Texture" id=4]
-[ext_resource path="res://Assets/World/Terrain/deep.png" type="Texture" id=5]
-[ext_resource path="res://Assets/World/Terrain/grass_beach.png" type="Texture" id=6]
-[ext_resource path="res://Assets/World/Terrain/grass_beach_curve_in.png" type="Texture" id=7]
-[ext_resource path="res://Assets/World/Terrain/grass_beach_curve_out.png" type="Texture" id=8]
-[ext_resource path="res://Assets/World/Terrain/beach_shallow.png" type="Texture" id=9]
-[ext_resource path="res://Assets/World/Terrain/beach_shallow_curve_in.png" type="Texture" id=10]
-[ext_resource path="res://Assets/World/Terrain/beach_shallow_curve_out.png" type="Texture" id=11]
-[ext_resource path="res://Assets/World/Terrain/shallow.png" type="Texture" id=12]
-[ext_resource path="res://Assets/World/Terrain/shallow_deep.png" type="Texture" id=13]
+[ext_resource type="Texture2D" uid="uid://dvmf0aukee5w4" path="res://Assets/World/Terrain/grass.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://8oh7fq3puoc5" path="res://Assets/World/Terrain/beach.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://mwydxpwfyg5l" path="res://Assets/World/Terrain/shallow_deep_curve_in.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bsvmpkks3q761" path="res://Assets/World/Terrain/shallow_deep_curve_out.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://ckhwv3wutd70i" path="res://Assets/World/Terrain/deep.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://twoaofwih02h" path="res://Assets/World/Terrain/grass_beach.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://881puosrbolc" path="res://Assets/World/Terrain/grass_beach_curve_in.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://58lx32kevfcb" path="res://Assets/World/Terrain/grass_beach_curve_out.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://doktgrtwemhnq" path="res://Assets/World/Terrain/beach_shallow.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://1tlepbeatssb" path="res://Assets/World/Terrain/beach_shallow_curve_in.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://s346e2w88ge" path="res://Assets/World/Terrain/beach_shallow_curve_out.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bqq8fowjlm2ew" path="res://Assets/World/Terrain/shallow.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://b4pg0qyd4p4y8" path="res://Assets/World/Terrain/shallow_deep.png" id="13"]
 
-[sub_resource type="SpatialMaterial" id=1]
-albedo_texture = ExtResource( 1 )
+[sub_resource type="StandardMaterial3D" id="1"]
+albedo_texture = ExtResource("1")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=2]
-material = SubResource( 1 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="2"]
+material = SubResource("1")
+size = Vector2(1, 1)
 
-[sub_resource type="SpatialMaterial" id=3]
-albedo_texture = ExtResource( 2 )
+[sub_resource type="StandardMaterial3D" id="3"]
+albedo_texture = ExtResource("2")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=4]
-material = SubResource( 3 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="4"]
+material = SubResource("3")
+size = Vector2(1, 1)
 
-[sub_resource type="SpatialMaterial" id=5]
-albedo_texture = ExtResource( 3 )
+[sub_resource type="StandardMaterial3D" id="5"]
+albedo_texture = ExtResource("3")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=6]
-material = SubResource( 5 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="6"]
+material = SubResource("5")
+size = Vector2(1, 1)
 
-[sub_resource type="SpatialMaterial" id=7]
-albedo_texture = ExtResource( 4 )
+[sub_resource type="StandardMaterial3D" id="7"]
+albedo_texture = ExtResource("4")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=8]
-material = SubResource( 7 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="8"]
+material = SubResource("7")
+size = Vector2(1, 1)
 
-[sub_resource type="SpatialMaterial" id=9]
-albedo_texture = ExtResource( 5 )
+[sub_resource type="StandardMaterial3D" id="9"]
+albedo_texture = ExtResource("5")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=10]
-material = SubResource( 9 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="10"]
+material = SubResource("9")
+size = Vector2(1, 1)
 
-[sub_resource type="SpatialMaterial" id=11]
-albedo_texture = ExtResource( 6 )
+[sub_resource type="StandardMaterial3D" id="11"]
+albedo_texture = ExtResource("6")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=12]
-material = SubResource( 11 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="12"]
+material = SubResource("11")
+size = Vector2(1, 1)
 
-[sub_resource type="SpatialMaterial" id=13]
-albedo_texture = ExtResource( 7 )
+[sub_resource type="StandardMaterial3D" id="13"]
+albedo_texture = ExtResource("7")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=14]
-material = SubResource( 13 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="14"]
+material = SubResource("13")
+size = Vector2(1, 1)
 
-[sub_resource type="SpatialMaterial" id=15]
-albedo_texture = ExtResource( 8 )
+[sub_resource type="StandardMaterial3D" id="15"]
+albedo_texture = ExtResource("8")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=16]
-material = SubResource( 15 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="16"]
+material = SubResource("15")
+size = Vector2(1, 1)
 
-[sub_resource type="SpatialMaterial" id=17]
-albedo_texture = ExtResource( 9 )
+[sub_resource type="StandardMaterial3D" id="17"]
+albedo_texture = ExtResource("9")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=18]
-material = SubResource( 17 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="18"]
+material = SubResource("17")
+size = Vector2(1, 1)
 
-[sub_resource type="SpatialMaterial" id=19]
-albedo_texture = ExtResource( 10 )
+[sub_resource type="StandardMaterial3D" id="19"]
+albedo_texture = ExtResource("10")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=20]
-material = SubResource( 19 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="20"]
+material = SubResource("19")
+size = Vector2(1, 1)
 
-[sub_resource type="SpatialMaterial" id=21]
-albedo_texture = ExtResource( 11 )
+[sub_resource type="StandardMaterial3D" id="21"]
+albedo_texture = ExtResource("11")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=22]
-material = SubResource( 21 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="22"]
+material = SubResource("21")
+size = Vector2(1, 1)
 
-[sub_resource type="SpatialMaterial" id=23]
-albedo_texture = ExtResource( 12 )
+[sub_resource type="StandardMaterial3D" id="23"]
+albedo_texture = ExtResource("12")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=24]
-material = SubResource( 23 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="24"]
+material = SubResource("23")
+size = Vector2(1, 1)
 
-[sub_resource type="SpatialMaterial" id=25]
-albedo_texture = ExtResource( 13 )
+[sub_resource type="StandardMaterial3D" id="25"]
+albedo_texture = ExtResource("13")
 roughness = 0.0
 
-[sub_resource type="PlaneMesh" id=26]
-material = SubResource( 25 )
-size = Vector2( 1, 1 )
+[sub_resource type="PlaneMesh" id="26"]
+material = SubResource("25")
+size = Vector2(1, 1)
 
 [resource]
 item/0/name = "grass"
-item/0/mesh = SubResource( 2 )
-item/0/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/0/shapes = [  ]
-item/0/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/0/preview = ExtResource( 1 )
+item/0/mesh = SubResource("2")
+item/0/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/0/shapes = []
+item/0/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/0/navigation_layers = 1
+item/0/preview = ExtResource("1")
 item/1/name = "beach"
-item/1/mesh = SubResource( 4 )
-item/1/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/1/shapes = [  ]
-item/1/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/1/preview = ExtResource( 2 )
+item/1/mesh = SubResource("4")
+item/1/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/1/shapes = []
+item/1/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/1/navigation_layers = 1
+item/1/preview = ExtResource("2")
 item/2/name = "grass_beach"
-item/2/mesh = SubResource( 12 )
-item/2/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/2/shapes = [  ]
-item/2/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/2/preview = ExtResource( 6 )
+item/2/mesh = SubResource("12")
+item/2/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/2/shapes = []
+item/2/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/2/navigation_layers = 1
+item/2/preview = ExtResource("6")
 item/3/name = "grass_beach_curve_in"
-item/3/mesh = SubResource( 14 )
-item/3/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/3/shapes = [  ]
-item/3/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/3/preview = ExtResource( 7 )
+item/3/mesh = SubResource("14")
+item/3/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/3/shapes = []
+item/3/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/3/navigation_layers = 1
+item/3/preview = ExtResource("7")
 item/4/name = "grass_beach_curve_out"
-item/4/mesh = SubResource( 16 )
-item/4/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/4/shapes = [  ]
-item/4/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/4/preview = ExtResource( 8 )
+item/4/mesh = SubResource("16")
+item/4/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/4/shapes = []
+item/4/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/4/navigation_layers = 1
+item/4/preview = ExtResource("8")
 item/5/name = "beach_shallow"
-item/5/mesh = SubResource( 18 )
-item/5/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/5/shapes = [  ]
-item/5/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/5/preview = ExtResource( 9 )
+item/5/mesh = SubResource("18")
+item/5/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/5/shapes = []
+item/5/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/5/navigation_layers = 1
+item/5/preview = ExtResource("9")
 item/6/name = "beach_shallow_curve_in"
-item/6/mesh = SubResource( 20 )
-item/6/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/6/shapes = [  ]
-item/6/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/6/preview = ExtResource( 10 )
+item/6/mesh = SubResource("20")
+item/6/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/6/shapes = []
+item/6/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/6/navigation_layers = 1
+item/6/preview = ExtResource("10")
 item/7/name = "beach_shallow_curve_out"
-item/7/mesh = SubResource( 22 )
-item/7/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/7/shapes = [  ]
-item/7/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/7/preview = ExtResource( 11 )
+item/7/mesh = SubResource("22")
+item/7/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/7/shapes = []
+item/7/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/7/navigation_layers = 1
+item/7/preview = ExtResource("11")
 item/8/name = "shallow"
-item/8/mesh = SubResource( 24 )
-item/8/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/8/shapes = [  ]
-item/8/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/8/preview = ExtResource( 12 )
+item/8/mesh = SubResource("24")
+item/8/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/8/shapes = []
+item/8/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/8/navigation_layers = 1
+item/8/preview = ExtResource("12")
 item/9/name = "shallow_deep"
-item/9/mesh = SubResource( 26 )
-item/9/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/9/shapes = [  ]
-item/9/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/9/preview = ExtResource( 13 )
+item/9/mesh = SubResource("26")
+item/9/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/9/shapes = []
+item/9/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/9/navigation_layers = 1
+item/9/preview = ExtResource("13")
 item/10/name = "shallow_deep_curve_in"
-item/10/mesh = SubResource( 6 )
-item/10/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/10/shapes = [  ]
-item/10/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/10/preview = ExtResource( 3 )
+item/10/mesh = SubResource("6")
+item/10/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/10/shapes = []
+item/10/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/10/navigation_layers = 1
+item/10/preview = ExtResource("3")
 item/11/name = "shallow_deep_curve_out"
-item/11/mesh = SubResource( 8 )
-item/11/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/11/shapes = [  ]
-item/11/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/11/preview = ExtResource( 4 )
+item/11/mesh = SubResource("8")
+item/11/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/11/shapes = []
+item/11/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/11/navigation_layers = 1
+item/11/preview = ExtResource("4")
 item/12/name = "deep"
-item/12/mesh = SubResource( 10 )
-item/12/mesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/12/shapes = [  ]
-item/12/navmesh_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
-item/12/preview = ExtResource( 5 )
+item/12/mesh = SubResource("10")
+item/12/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/12/shapes = []
+item/12/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/12/navigation_layers = 1
+item/12/preview = ExtResource("5")

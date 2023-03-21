@@ -1,0 +1,129 @@
+[gd_scene load_steps=14 format=3 uid="uid://bk0cq3b2hhoi2"]
+
+[ext_resource type="Script" path="res://Assets/UI/InfoWidgets/CityInfo.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://b0gi4vdahasx6" path="res://Assets/UI/Images/Background/Widgets/cityinfo_left.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cnh4q3rem71rn" path="res://Assets/UI/Images/Background/Widgets/cityinfo_fill.png" id="3"]
+[ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="3_1dd51"]
+[ext_resource type="Texture2D" uid="uid://3hepoko6w1v" path="res://Assets/UI/Icons/Widgets/CityInfo/settlement.png" id="5"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/LabelEx.gd" id="5_24beb"]
+[ext_resource type="Texture2D" uid="uid://dry1ceb3p6yk1" path="res://Assets/UI/Icons/Widgets/CityInfo/inhabitants.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dja8u81e6ge3k" path="res://Assets/UI/Images/Background/Widgets/cityinfo_right.png" id="7"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gstc8"]
+content_margin_left = 50.0
+content_margin_right = 42.0
+texture = ExtResource("3")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_miadq"]
+texture = ExtResource("3")
+
+[sub_resource type="Animation" id="3"]
+resource_name = "fade_in"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="4"]
+resource_name = "fade_out"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_2jvw7"]
+_data = {
+"fade_in": SubResource("3"),
+"fade_out": SubResource("4")
+}
+
+[node name="CityInfo" type="HBoxContainer"]
+offset_right = 195.0
+offset_bottom = 29.0
+theme_override_constants/separation = 0
+script = ExtResource("1")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2")
+
+[node name="SettlementName" type="Label" parent="."]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+size_flags_vertical = 5
+theme_override_fonts/font = ExtResource("3_1dd51")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/normal = SubResource("StyleBoxTexture_gstc8")
+text = "Unknown Town"
+vertical_alignment = 1
+script = ExtResource("5_24beb")
+font_style = 9
+
+[node name="FactionSettlement" type="TextureRect" parent="SettlementName"]
+layout_mode = 0
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+offset_right = 40.0
+texture = ExtResource("5")
+metadata/_edit_lock_ = true
+
+[node name="TextureRect" type="TextureRect" parent="SettlementName"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -37.0
+offset_top = -36.0
+offset_right = 3.0
+offset_bottom = 4.0
+grow_horizontal = 0
+grow_vertical = 0
+texture = ExtResource("6")
+metadata/_edit_lock_ = true
+
+[node name="Population" type="Label" parent="."]
+layout_mode = 2
+size_flags_vertical = 5
+theme_override_fonts/font = ExtResource("3_1dd51")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/normal = SubResource("StyleBoxTexture_miadq")
+text = "9000"
+vertical_alignment = 1
+script = ExtResource("5_24beb")
+font_style = 9
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("7")
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_2jvw7")
+}
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
+[connection signal="animation_started" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_started"]

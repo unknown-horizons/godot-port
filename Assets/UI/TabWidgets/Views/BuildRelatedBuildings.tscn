@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://6w15vx8n0tn2"]
+
+[ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="1_2skse"]
+
+[node name="BuildRelatedBuildings" type="VBoxContainer"]
+anchors_preset = -1
+anchor_right = 0.157
+anchor_bottom = 0.432
+offset_right = -0.200012
+offset_bottom = 0.199982
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CaptionBlock" parent="." instance=ExtResource("1_2skse")]
+layout_mode = 2
+text = "Related buildings"
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer"]
+layout_mode = 2
+columns = 4

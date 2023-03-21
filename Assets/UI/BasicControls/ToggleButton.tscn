@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" uid="uid://drupui1l8uio2" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButton.tscn" id="1"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/ToggleButton.gd" id="3"]
+
+[node name="ToggleButton" instance=ExtResource("1")]
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3")
+texture_normal_initial = null
+texture_pressed_initial = null
+texture_hover_initial = null
+texture_normal_alternate = null
+texture_pressed_alternate = null
+texture_hover_alternate = null
+
+[node name="TextureRect" parent="." index="0"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2

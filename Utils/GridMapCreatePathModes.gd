@@ -1,4 +1,4 @@
-tool
+@tool
 extends EditorScript
 
 var nodes := []
@@ -6,7 +6,7 @@ var nodes := []
 func _run() -> void:
 	var root_node := get_scene()
 
-	if root_node.name in ["TrailMeshes", "GravelPathMeshes", "StonePathMeshes"] and root_node.get_class() == "Spatial":
+	if root_node.name in ["TrailMeshes", "GravelPathMeshes", "StonePathMeshes"] and root_node.get_class() == "Node3D":
 		_clean_up_scene_tree()
 
 		nodes = root_node.get_children()
@@ -21,7 +21,7 @@ func _clean_up_scene_tree() -> void:
 
 func _create_sub_nodes_with_suffix(node_suffix: String) -> void:
 	var root_node := get_scene()
-	var color := {"green": Color.green, "red": Color.red}
+	var color := {"green": Color.GREEN, "red": Color.RED}
 
 	for node in nodes:
 		var copy = node.duplicate()

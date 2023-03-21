@@ -1,8 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=3 format=3 uid="uid://cbibjqj8a380b"]
 
-[ext_resource path="res://Assets/World/Units/Troop/Troop.gd" type="Script" id=1]
-[ext_resource path="res://Assets/World/Units/Unit.tscn" type="PackedScene" id=2]
+[ext_resource type="Script" path="res://Assets/World/Units/Troop/Troop.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://cvdtj04eabcow" path="res://Assets/World/Units/Unit.tscn" id="2"]
 
-[node name="Troop" instance=ExtResource( 2 )]
-script = ExtResource( 1 )
+[node name="Troop" instance=ExtResource("2")]
+script = ExtResource("1")
 rotation_step = 1

@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="1_exuiw"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="2_nymfw"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="3_arrrn"]
+[ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="4_pc38h"]
+
+[node name="LogbookPage" instance=ExtResource("1_exuiw")]
+
+[node name="CaptionBlock" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="0" instance=ExtResource("2_nymfw")]
+layout_mode = 2
+text = "20th November 1740"
+
+[node name="Body" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="1" instance=ExtResource("3_arrrn")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_pc38h")
+theme_override_font_sizes/font_size = 16
+text = "After four days the storm finally fades and we can take a rest. But we only have little food left and our ship is in a bad shape. The navigational instruments and sea charts are lost.
+We have to come ashore soon. One of my jacks saw some birds hunting for fish, so land can't be far. Fortunately we always have some tools and boards onboard, so we can build some basic shelter.
+
+Task:
+Find land and build a port.
+
+❗TODO: Dynamically create this text. ☝️"
+font_style = 9

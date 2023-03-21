@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/0.ogg-096f0ff9cd228a2dd8251845360f19bd.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://k13puvbmerup"
+path="res://.godot/imported/0.ogg-096f0ff9cd228a2dd8251845360f19bd.oggvorbisstr"
 
 [deps]
 
 source_file="res://Assets/Audio/Voice/fr/0/NewWorld/0.ogg"
-dest_files=[ "res://.import/0.ogg-096f0ff9cd228a2dd8251845360f19bd.oggstr" ]
+dest_files=["res://.godot/imported/0.ogg-096f0ff9cd228a2dd8251845360f19bd.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

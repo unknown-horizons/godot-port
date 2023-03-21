@@ -1,4 +1,4 @@
-tool
+@tool
 extends Building
 class_name Lumberjack
 
@@ -89,14 +89,15 @@ const TIERS = [
 	LUMBERJACK_HUT_IDLE,
 ]
 
-export(int, 0, 4) var tier setget set_tier
-export(int, 0, 5) var resource_amount := 0 setget set_resource_amount
-export(int, 0, 12) var resource_amount_output := 0 setget set_resource_amount_output
+@export var tier: int : set = set_tier # (int, 0, 4)
+@export var resource_amount := 0 : set = set_resource_amount # (int, 0, 5)
+@export var resource_amount_output := 0 : set = set_resource_amount_output # (int, 0, 12)
 
-onready var resource_overlay := get_node_or_null("Billboard/ResourceOverlay")
-onready var resource_overlay2 := get_node_or_null("Billboard/ResourceOverlay2")
+@onready var resource_overlay := get_node_or_null("Billboard/ResourceOverlay")
+@onready var resource_overlay2 := get_node_or_null("Billboard/ResourceOverlay2")
 
 func _ready() -> void:
+	super()
 	set_rotation_degree(rotation_degree)
 	set_resource_amount(resource_amount)
 	set_resource_amount_output(resource_amount_output)
@@ -121,7 +122,7 @@ func animate() -> void:
 					_billboard.region_enabled = true
 					_billboard.offset = Vector2(0, 32)
 
-	.animate()
+	super()
 
 func set_tier(new_tier: int) -> void:
 	var previous_tier = tier
@@ -167,7 +168,7 @@ func remove_resource() -> void:
 	pass # TODO
 
 func _on_input(event: InputEvent):
-	._on_input(event)
+	super(event)
 
 	if null in [resource_overlay, resource_overlay2]: return
 
@@ -184,7 +185,7 @@ func _on_input(event: InputEvent):
 				resource_overlay2.hframes * resource_overlay2.vframes)
 
 func set_rotation_degree(new_rotation: int) -> void:
-	.set_rotation_degree(new_rotation)
+	super(new_rotation)
 
 	if not is_inside_tree() or resource_overlay == null:
 		return

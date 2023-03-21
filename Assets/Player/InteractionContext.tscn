@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=2 format=3 uid="uid://c7g48gmodwxf3"]
 
-[ext_resource path="res://Assets/Player/InteractionContext.gd" type="Script" id=1]
+[ext_resource type="Script" path="res://Assets/Player/InteractionContext.gd" id="1"]
 
 [node name="InteractionContext" type="Node"]
-script = ExtResource( 1 )
+script = ExtResource("1")

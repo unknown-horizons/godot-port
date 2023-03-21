@@ -1,0 +1,61 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Texture2D" uid="uid://cbe246rybyryo" path="res://Assets/UI/Images/Buttons/mainmenu_button_bg.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://csff4up3oj0tl" path="res://Assets/UI/Images/Buttons/mainmenu_button_h.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c6q7b5yxiunqh" path="res://Assets/UI/Images/Buttons/mainmenu_button_bw.png" id="3"]
+[ext_resource type="BitMap" uid="uid://bbhv3g4f3x7x3" path="res://Assets/UI/Images/Buttons/mainmenu_button_mask.png" id="4"]
+[ext_resource type="Script" path="res://Assets/UI/Pages/MainMenuUI/MainMenuButton.gd" id="5"]
+[ext_resource type="Texture2D" uid="uid://cytv8yj6s676n" path="res://Assets/UI/Icons/MainMenu/help_bw.png" id="6"]
+
+[node name="MainMenuButton" type="TextureButton"]
+custom_minimum_size = Vector2(100, 100)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -800.0
+offset_top = -450.0
+offset_right = -700.0
+offset_bottom = -350.0
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath("../ResumeGameButton")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../NewGameButton")
+texture_normal = ExtResource("1")
+texture_pressed = ExtResource("2")
+texture_hover = ExtResource("2")
+texture_disabled = ExtResource("3")
+texture_focused = ExtResource("2")
+texture_click_mask = ExtResource("4")
+script = ExtResource("5")
+
+[node name="Icon" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 26.0
+offset_top = 26.0
+offset_right = -26.0
+offset_bottom = -26.0
+mouse_filter = 2
+texture = ExtResource("6")
+
+[node name="Panel" type="Panel" parent="."]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 0
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -250.0
+offset_top = 30.0
+offset_right = -50.0
+offset_bottom = 66.0
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true

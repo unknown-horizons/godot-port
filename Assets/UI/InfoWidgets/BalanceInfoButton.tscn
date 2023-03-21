@@ -1,0 +1,135 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://Assets/UI/InfoWidgets/BalanceInfoButton.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dm1iiolcn53a8" path="res://Assets/UI/Images/Background/Widgets/res_mon_bg.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://toeqa364p2tp" path="res://Assets/UI/Icons/Resources/32/001.png" id="3"]
+[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="4"]
+[ext_resource type="Texture2D" uid="uid://cmblp4k0re2el" path="res://Assets/UI/Images/Background/Widgets/resbar_stats_background.png" id="5"]
+[ext_resource type="FontFile" uid="uid://dcm4hbk2qpmkn" path="res://External/Fonts/LinLibertine.ttf" id="5_2k0fi"]
+[ext_resource type="PackedScene" path="res://Assets/UI/InfoWidgets/BalanceInfoItem.tscn" id="6"]
+[ext_resource type="Texture2D" uid="uid://cdfix4q8x0av5" path="res://Assets/UI/Images/Background/Widgets/resbar_stats_bottom.png" id="7"]
+
+[node name="BalanceInfoButton" type="VBoxContainer"]
+show_behind_parent = true
+offset_right = 87.0
+offset_bottom = 169.0
+mouse_filter = 2
+theme_override_constants/separation = -14
+script = ExtResource("1")
+show_details = true
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 2
+size_flags_horizontal = 4
+texture_normal = ExtResource("2")
+stretch_mode = 5
+
+[node name="TextureRect" type="TextureRect" parent="TextureButton"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -18.0
+offset_top = -33.0
+offset_right = 14.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3")
+stretch_mode = 5
+
+[node name="Money" parent="TextureButton" instance=ExtResource("4")]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.069
+anchor_top = 0.575
+anchor_right = 0.931
+anchor_bottom = 0.793
+offset_left = -0.00300026
+offset_top = 1.97499
+offset_right = 0.00299835
+offset_bottom = 2.009
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("5_2k0fi")
+theme_override_font_sizes/font_size = 18
+text = "63000"
+horizontal_alignment = 1
+font_style = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 0
+
+[node name="Details" type="TextureRect" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 85)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("5")
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/Details"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.064
+anchor_top = 0.5
+anchor_right = 0.936
+anchor_bottom = 0.5
+offset_left = 0.0079999
+offset_top = -44.5
+offset_right = -0.00799561
+offset_bottom = 43.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Details/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="Expense" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource("6")]
+layout_mode = 2
+balance_value = -5
+
+[node name="Income" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource("6")]
+layout_mode = 2
+balance_type = 1
+balance_value = 12
+
+[node name="Buy" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource("6")]
+layout_mode = 2
+balance_type = 2
+
+[node name="Sell" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource("6")]
+layout_mode = 2
+balance_type = 3
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer/Details/MarginContainer/VBoxContainer"]
+visible = false
+layout_mode = 2
+
+[node name="TextureRect3" type="TextureRect" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("7")
+stretch_mode = 5
+
+[node name="Results" parent="VBoxContainer/TextureRect3" instance=ExtResource("6")]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.064
+anchor_top = 0.5
+anchor_right = 0.936
+anchor_bottom = 0.5
+offset_left = 0.0079999
+offset_top = -11.0
+offset_right = -0.00800323
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+balance_type = 4
+balance_value = 7
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_TextureButton_pressed"]

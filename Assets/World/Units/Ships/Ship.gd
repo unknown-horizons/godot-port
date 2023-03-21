@@ -1,21 +1,20 @@
-tool
+@tool
 extends Unit
 class_name Ship
 
-#warning-ignore-all:unused_class_variable
-
 # Generic properties
-export(int, 250) var max_health = 150
+@export_range(0, 250) var max_health := 150
 
 # Navigational properties
-export(int, 8) var radius = 5
-export(int, 12) var velocity = 12
+@export_range(0, 8) var radius := 5
+@export_range(0, 12) var velocity := 12
 
 # Storage capacity
-export(int, 120) var storage_limit = 120
-export(int, 4) var num_of_slots = 4
+@export_range(0, 120) var storage_limit := 120
+@export_range(0, 4) var num_of_slots := 4
 
 func _ready() -> void:
+	super()
 	add_to_group("units")
 	# DEBUG
 	$Billboard.vframes = 2

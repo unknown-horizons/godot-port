@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" uid="uid://nw0718et1ghp" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButton.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://b5wiq5b8m86mo" path="res://Assets/UI/Icons/Widgets/MiniMap/rotate_left_h.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c10rdt4lk2ffm" path="res://Assets/UI/Icons/Widgets/MiniMap/rotate_left.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cognjairb53p1" path="res://Assets/UI/Icons/Widgets/MiniMap/rotate_left_d.png" id="4"]
+
+[node name="RotateLeftButton" instance=ExtResource("1")]
+pivot_offset = Vector2(14, 14)
+texture_normal = ExtResource("3")
+texture_pressed = ExtResource("4")
+texture_hover = ExtResource("2")
+
+[node name="TextureRect" parent="." index="0"]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.607
+anchor_right = 0.5
+anchor_bottom = 0.607
+offset_left = -17.0
+offset_top = -19.996
+offset_right = 17.0
+offset_bottom = 20.004
