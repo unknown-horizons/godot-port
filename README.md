@@ -41,6 +41,7 @@ Bug Tracker  | https://github.com/unknown-horizons/godot-port/issues
 IRC Channel  | irc://irc.libera.chat/unknown-horizons
 Web IRC Link | https://kiwiirc.com/nextclient/irc.libera.chat/#unknown-horizons
 Forum        | https://forum.freegamedev.net/viewforum.php?f=100
+Contributing | https://github.com/unknown-horizons/godot-port/blob/develop/CONTRIBUTING.md
 
 More support information [here](https://github.com/unknown-horizons/godot-port/wiki/Support-Information).
 
