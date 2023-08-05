@@ -284,7 +284,7 @@ const FACTION_COLORS = [
 	Color8(255, 255, 255, 255), # White.
 	Color8(128, 128, 128, 255), # Gray.
 	Color8(  0,   0,   0, 255), # Black.
-];
+]
 
 const MESSAGE_SCENE = preload("res://Assets/UI/Notification/Message.tscn")
 

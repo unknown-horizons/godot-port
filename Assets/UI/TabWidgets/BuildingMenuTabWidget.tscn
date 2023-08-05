@@ -2,11 +2,22 @@
 
 [ext_resource type="Script" path="res://Assets/UI/TabWidgets/BuildingMenuTabWidget.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bvbuafk7d6fdt" path="res://Assets/UI/TabWidgets/TabWidget.tscn" id="3"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/BuildingSwitchTabWidget.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://bgt4majf8f241" path="res://Assets/UI/TabWidgets/Switches/Switches/BuildingSwitchTabWidget.tscn" id="4"]
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="4_cvvym"]
 
 [node name="BuildingMenuTabWidget" instance=ExtResource("3")]
 script = ExtResource("2")
+
+[node name="ZoomInButton" parent="WidgetTop/ZoomControls" index="0"]
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="RotateLeftButton" parent="WidgetTop/RotateControls" index="0"]
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="RotateRightButton" parent="WidgetTop/RotateControls" index="1"]
+grow_vertical = 1
 
 [node name="WidgetDetail" parent="." index="2"]
 custom_minimum_size = Vector2(251, 0)

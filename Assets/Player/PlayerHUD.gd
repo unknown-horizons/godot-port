@@ -56,7 +56,24 @@ enum UIContext {
 }
 
 #export var ui_contexts # (Array, NodePath)
-@export var ui_context: UIContext = UIContext.NONE : set = set_ui_context
+@export var ui_context: UIContext = UIContext.NONE:
+	set(new_ui_context):
+		if not is_inside_tree():
+			await self.ready
+
+		prints("Set UI context to", UIContext.keys()[new_ui_context])
+
+		# Show fitting widget for selection, hide all other ones
+		for index in widgets.size():
+			if index == new_ui_context:
+				widgets[index].visible = true
+				if widgets[index].has_method("update_data"):
+					widgets[index].update_data(context_data)
+			else:
+				widgets[index].visible = false
+
+		ui_context = new_ui_context
+
 var context_data := {}
 
 ## All widget nodes cached here for quick use whenever context switches
@@ -92,22 +109,6 @@ func _ready() -> void:
 		return
 
 	self.ui_context = UIContext.NONE
-
-func set_ui_context(new_ui_context: UIContext) -> void:
-	if not is_inside_tree(): await self.ready; _on_ready()
-
-	prints("Set UI context to", UIContext.keys()[new_ui_context])
-
-	# Show fitting widget for selection, hide all other ones
-	for index in widgets.size():
-		if index == new_ui_context:
-			widgets[index].visible = true
-			if widgets[index].has_method("update_data"):
-				widgets[index].update_data(context_data)
-		else:
-			widgets[index].visible = false
-
-	ui_context = new_ui_context
 
 func raise_notification(message_type: int, message_text: String) -> void:
 	var _debug_message = _debug_messages[randi() % _debug_messages.size()]
@@ -192,16 +193,3 @@ func _on_TabWidget_button_diplomacy_pressed() -> void:
 
 func _on_TabWidget_button_game_menu_pressed() -> void:
 	emit_signal("button_game_menu_pressed")
-
-func _on_ready() -> void:
-	if widgets.is_empty():
-#		for context in ui_contexts:
-#			widgets.append(get_node(context))
-		for widget in $MarginContainer/HBoxContainer/Widgets.get_children():
-			widgets.append(widget)
-
-		# Debug
-		var debug_widgets := []
-		for tab_widget in widgets:
-			debug_widgets.append(tab_widget.name)
-		prints("Widgets:", debug_widgets)

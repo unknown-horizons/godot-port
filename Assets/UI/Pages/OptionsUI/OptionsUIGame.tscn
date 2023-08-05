@@ -1,11 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://b7bjhfwc1b387"]
 
 [ext_resource type="PackedScene" uid="uid://b4gq47ckhaow6" path="res://Assets/UI/BasicControls/OptionButtonEx.tscn" id="1"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LineEditEx.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://batg8pwfpasdc" path="res://Assets/UI/BasicControls/LineEditEx.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://c7vej07bi5fee" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="3"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/HSliderEx.tscn" id="4"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="9"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/CheckBoxEx.tscn" id="12"]
+[ext_resource type="PackedScene" uid="uid://den73347r5don" path="res://Assets/UI/BasicControls/HSliderEx.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="9"]
+[ext_resource type="PackedScene" uid="uid://bydj0v2pgcbhx" path="res://Assets/UI/BasicControls/CheckBoxEx.tscn" id="12"]
 
 [node name="OptionsUIGame" instance=ExtResource("3")]
 

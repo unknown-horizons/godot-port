@@ -1,11 +1,11 @@
 [gd_scene load_steps=6 format=3 uid="uid://courccf5jxrq5"]
 
-[ext_resource type="PackedScene" path="res://Assets/World/Units/Ships/Ship.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://biy4rnv5luqwq" path="res://Assets/World/Units/Ships/Ship.tscn" id="1"]
 [ext_resource type="Script" path="res://Assets/World/Units/Ships/FreeTraders/FreeTrader/FreeTrader.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://b0hhaojulvwap" path="res://Assets/World/Units/Ships/FreeTraders/FreeTrader/Sprites/FreeTraders_idle.png" id="3"]
-[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape3x3.tres" id="4"]
+[ext_resource type="Shape3D" uid="uid://b0tf8160mv311" path="res://Assets/World/Shapes/BoxShape3x3.tres" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cup1p"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fwy7x"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -25,7 +25,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 1056, 528)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_cup1p")
+material_overlay = SubResource("StandardMaterial3D_fwy7x")
 texture = ExtResource("3")
 hframes = 4
 region_enabled = true

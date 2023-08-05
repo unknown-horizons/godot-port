@@ -1,11 +1,11 @@
 [gd_scene load_steps=6 format=3 uid="uid://dk2gijc8xqsf1"]
 
 [ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="1"]
-[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="2"]
+[ext_resource type="Shape3D" uid="uid://w7dqwqb3af0c" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="2"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/StonePit/StonePit.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://co1g0ifx4u866" path="res://Assets/World/Buildings/StonePit/Sprites/StonePit_idle.png" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_35icj"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v1ujq"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -26,7 +26,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 384, 256)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_35icj")
+material_overlay = SubResource("StandardMaterial3D_v1ujq")
 offset = Vector2(0, 16)
 texture = ExtResource("4")
 region_enabled = true

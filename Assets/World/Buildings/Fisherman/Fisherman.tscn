@@ -1,11 +1,11 @@
 [gd_scene load_steps=6 format=3 uid="uid://b5en60ie0e1l0"]
 
 [ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="1"]
-[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="2"]
+[ext_resource type="Shape3D" uid="uid://w7dqwqb3af0c" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="2"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Fisherman/Fisherman.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://dmivtfsbpmydq" path="res://Assets/World/Buildings/Fisherman/Sprites/Fisherman_idle.png" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g573t"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6dt7a"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -23,7 +23,7 @@ texture = ExtResource("4")
 texture = ExtResource("4")
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_g573t")
+material_overlay = SubResource("StandardMaterial3D_6dt7a")
 texture = ExtResource("4")
 region_rect = Rect2(0, 0, 640, 640)
 

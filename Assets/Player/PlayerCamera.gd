@@ -18,10 +18,7 @@ var hovered_object: WorldThing : set = set_hovered_object
 
 @onready var hud := $PlayerHUD
 
-@onready var _rotation_y := $RotationY as Node3D
 @onready var _camera := $RotationY/Camera3D as Camera3D
-@onready var _camera_controls = $CameraControls
-@onready var _selection_box = $SelectionBox
 
 func set_hovered_object(new_hovered_object: WorldThing) -> void:
 	if new_hovered_object != hovered_object:
@@ -168,7 +165,7 @@ func _on_PlayerHUD_button_tear_pressed() -> void:
 	switch_context(find_child("TearContext") as InteractionContext)
 
 func _on_PlayerHUD_button_logbook_pressed() -> void:
-	var Logbook = preload("res://Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn")
+	var Logbook = preload("res://Assets/UI/Pages/LogBookUI/LogbookUI.tscn")
 	get_tree().root.add_child(Logbook.instantiate())
 
 func _on_PlayerHUD_button_build_menu_pressed() -> void:

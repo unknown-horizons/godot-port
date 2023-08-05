@@ -2,19 +2,30 @@
 
 [ext_resource type="Script" path="res://Assets/UI/TabWidgets/ShipMenuTabWidget.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bvbuafk7d6fdt" path="res://Assets/UI/TabWidgets/TabWidget.tscn" id="4"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/TradeRouteButton.tscn" id="5"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/TransferButton.tscn" id="6"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/BuySellSwitchTabWidget.tscn" id="7"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/DiscardAllButton.tscn" id="8"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="9"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/ShipSwitchTabWidget.tscn" id="10"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/FoundSettlementButton.tscn" id="12"]
+[ext_resource type="PackedScene" uid="uid://dd0xhcqj23hve" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/TradeRouteButton.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://bht6m616i3njv" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/TransferButton.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://dtisfdmixmey4" path="res://Assets/UI/TabWidgets/Switches/Switches/BuySellSwitchTabWidget.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://2u6dqy2k2v1n" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/DiscardAllButton.tscn" id="8"]
+[ext_resource type="PackedScene" uid="uid://kw5ifpdknyd5" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="9"]
+[ext_resource type="PackedScene" uid="uid://cwb3tv0smt520" path="res://Assets/UI/TabWidgets/Switches/Switches/ShipSwitchTabWidget.tscn" id="10"]
+[ext_resource type="PackedScene" uid="uid://ijjptewfo3fs" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/FoundSettlementButton.tscn" id="12"]
 [ext_resource type="Texture2D" uid="uid://njqur6kxw5ap" path="res://Assets/UI/Icons/TabWidget/Ship/ship_inv_a.png" id="13"]
 [ext_resource type="Texture2D" uid="uid://bgyonk7toefi1" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_red.png" id="14"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/Caption.tscn" id="15"]
+[ext_resource type="PackedScene" uid="uid://daextxbtctkbi" path="res://Assets/UI/BasicControls/Caption.tscn" id="15"]
 
 [node name="ShipMenuTabWidget" instance=ExtResource("4")]
 script = ExtResource("2")
+
+[node name="ZoomInButton" parent="WidgetTop/ZoomControls" index="0"]
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="RotateLeftButton" parent="WidgetTop/RotateControls" index="0"]
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="RotateRightButton" parent="WidgetTop/RotateControls" index="1"]
+grow_vertical = 1
 
 [node name="WidgetDetail" parent="." index="2"]
 offset_bottom = 303.5

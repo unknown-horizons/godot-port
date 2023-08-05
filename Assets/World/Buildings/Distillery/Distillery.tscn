@@ -1,11 +1,11 @@
 [gd_scene load_steps=6 format=3 uid="uid://dlc5glrgpckxf"]
 
 [ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="1"]
-[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="2"]
+[ext_resource type="Shape3D" uid="uid://w7dqwqb3af0c" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://dc80c7fbxxnrg" path="res://Assets/World/Buildings/Distillery/Sprites/Distillery_idle.png" id="3"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Distillery/Distillery.gd" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6225h"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x8ewh"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -26,7 +26,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 256, 196)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_6225h")
+material_overlay = SubResource("StandardMaterial3D_x8ewh")
 offset = Vector2(0, 16)
 texture = ExtResource("3")
 region_enabled = true

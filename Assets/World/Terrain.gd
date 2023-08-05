@@ -85,7 +85,8 @@ var tile_map: PackedVector2Array
 @export var btn_clean_terrain := false
 
 func _ready() -> void:
-	#if get_parent().is_inside_tree(): await get_parent().ready; _on_ready()
+	#if get_parent().is_inside_tree():
+	#	await get_parent().ready
 
 	var map_size = get_parent().map_size as int
 	_resize_tile_map(map_size)

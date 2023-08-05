@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=3 format=3 uid="uid://77w0fa2ig1qg"]
 
-[ext_resource type="PackedScene" uid="uid://drupui1l8uio2" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButton.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://cff5va6e0sqyv" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButton.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cmrvaja6tqdt5" path="res://Assets/UI/Images/Buttons/buildmenu_button_bg.png" id="2"]
 
 [node name="BuildButton" instance=ExtResource("1")]
@@ -19,6 +19,7 @@ texture_click_mask = null
 stretch_mode = 5
 
 [node name="TextureRect" parent="." index="0"]
+anchors_preset = -1
 anchor_left = 0.543
 anchor_top = 0.543
 anchor_right = 0.543

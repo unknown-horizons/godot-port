@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://ckqqrpy8t18a6"]
 
 [ext_resource type="PackedScene" uid="uid://mfw66ys7s1bq" path="res://Assets/UI/TabWidgets/Views/CityOverview.tscn" id="1"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/AccountSwitchTabWidget.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://drv2hfwlp3dl1" path="res://Assets/UI/TabWidgets/Switches/Switches/AccountSwitchTabWidget.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://bvbuafk7d6fdt" path="res://Assets/UI/TabWidgets/TabWidget.tscn" id="3"]
 
 [node name="TownTabWidget" instance=ExtResource("3")]

@@ -2,8 +2,6 @@
 extends TextureRect
 class_name ResourceItem
 
-#const Global = preload("res://Assets/World/Global.gd") TODO: Remove if possible
-
 @export var resource_type: Global.ResourceType : set = set_resource_type
 
 func set_resource_type(new_resource_type: int) -> void:

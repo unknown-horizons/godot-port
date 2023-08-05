@@ -5,8 +5,6 @@ class_name CityInfo
 
 ## Info widget displaying generic information about the currently hovered city.
 
-#const Global = preload("res://Assets/World/Global.gd") TODO: Remove if possible
-
 const _FACTION_SETTLEMENT = [
 	preload("res://Assets/UI/Icons/Widgets/CityInfo/settlement.png"), # neutral
 	preload("res://Assets/UI/Icons/Widgets/CityInfo/settlement_red.png"),

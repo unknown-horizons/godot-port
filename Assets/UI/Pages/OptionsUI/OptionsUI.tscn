@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://bbr52afvd6ct"]
 
 [ext_resource type="Script" path="res://Assets/UI/Pages/OptionsUI/OptionsUI.gd" id="1"]
-[ext_resource type="PackedScene" path="res://Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://cnaxabmg2vwxq" path="res://Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://bpimcst1geibt" path="res://Assets/UI/BookMenu/BookMenu.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://b7bjhfwc1b387" path="res://Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn" id="4"]
-[ext_resource type="PackedScene" path="res://Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://beqxpjogn1t1" path="res://Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn" id="5"]
 
 [node name="OptionsUI" instance=ExtResource("3")]
 script = ExtResource("1")

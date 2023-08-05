@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=3]
+[gd_scene load_steps=5 format=3 uid="uid://bydj0v2pgcbhx"]
 
 [ext_resource type="Script" path="res://Assets/UI/BasicControls/CheckBoxEx.gd" id="2"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="3_76ept"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="4"]
 [ext_resource type="Script" path="res://Assets/UI/BasicControls/CheckBox.gd" id="5"]
 
 [node name="CheckBoxEx" type="HBoxContainer"]

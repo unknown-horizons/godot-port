@@ -1,11 +1,11 @@
 [gd_scene load_steps=6 format=3 uid="uid://dbbqfdscayo8l"]
 
 [ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="1"]
-[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="2"]
+[ext_resource type="Shape3D" uid="uid://w7dqwqb3af0c" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://x55pwgst2170" path="res://Assets/World/Buildings/BoatBuilder/Sprites/BoatBuilder_idle.png" id="3"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/BoatBuilder/BoatBuilder.gd" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_djw7c"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1l0ek"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -26,7 +26,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 384, 256)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_djw7c")
+material_overlay = SubResource("StandardMaterial3D_1l0ek")
 offset = Vector2(0, 16)
 texture = ExtResource("3")
 region_enabled = true

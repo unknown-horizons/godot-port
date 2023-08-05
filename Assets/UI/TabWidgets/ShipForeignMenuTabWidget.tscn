@@ -1,14 +1,25 @@
 [gd_scene load_steps=7 format=3 uid="uid://ddbmm12mfoqkm"]
 
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/Caption.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://daextxbtctkbi" path="res://Assets/UI/BasicControls/Caption.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://bvbuafk7d6fdt" path="res://Assets/UI/TabWidgets/TabWidget.tscn" id="4"]
 [ext_resource type="Texture2D" uid="uid://njqur6kxw5ap" path="res://Assets/UI/Icons/TabWidget/Ship/ship_inv_a.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://dq3alu7x7pcmh" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_white.png" id="5_dit3s"]
 [ext_resource type="Script" path="res://Assets/UI/TabWidgets/ShipForeignMenuTabWidget.gd" id="6"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/ShipSwitchTabWidget.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://cwb3tv0smt520" path="res://Assets/UI/TabWidgets/Switches/Switches/ShipSwitchTabWidget.tscn" id="7"]
 
 [node name="ShipForeignMenuTabWidget" instance=ExtResource("4")]
 script = ExtResource("6")
+
+[node name="ZoomInButton" parent="WidgetTop/ZoomControls" index="0"]
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="RotateLeftButton" parent="WidgetTop/RotateControls" index="0"]
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="RotateRightButton" parent="WidgetTop/RotateControls" index="1"]
+grow_vertical = 1
 
 [node name="WidgetDetail" parent="." index="2"]
 offset_bottom = 184.5

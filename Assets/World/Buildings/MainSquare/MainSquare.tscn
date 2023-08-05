@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://bqhwx4yb5ns4s" path="res://Assets/World/Buildings/MainSquare/Sprites/MainSquare_idle_45.png" id="1"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/MainSquare/MainSquare.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="3"]
-[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape6x6.tres" id="4"]
+[ext_resource type="Shape3D" uid="uid://c31uvja6mhjmv" path="res://Assets/World/Shapes/BoxShape6x6.tres" id="4"]
 
 [sub_resource type="StandardMaterial3D" id="1"]
 transparency = 2
@@ -14,7 +14,7 @@ emission_enabled = true
 emission = Color(1, 1, 1, 1)
 billboard_mode = 1
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hflyj"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u5ni0"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -38,7 +38,7 @@ region_rect = Rect2(0, 0, 4992, 448)
 
 [node name="Outline" parent="Billboard" index="0"]
 material_override = SubResource("1")
-material_overlay = SubResource("StandardMaterial3D_hflyj")
+material_overlay = SubResource("StandardMaterial3D_u5ni0")
 offset = Vector2(0, 16)
 texture = ExtResource("1")
 hframes = 13

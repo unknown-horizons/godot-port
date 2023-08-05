@@ -2,10 +2,10 @@
 
 [ext_resource type="Texture2D" uid="uid://ctvk7bl7fo4bh" path="res://Assets/UI/Icons/Resources/32/096.png" id="3"]
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="3_owhu8"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="4"]
 [ext_resource type="PackedScene" uid="uid://ckqqrpy8t18a6" path="res://Assets/UI/TabWidgets/TownTabWidget.tscn" id="5"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="6"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/InventorySwitchTabWidget.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://kw5ifpdknyd5" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://jqqqd5s4ov4h" path="res://Assets/UI/TabWidgets/Switches/Switches/InventorySwitchTabWidget.tscn" id="7"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="7_i5exf"]
 
 [node name="StorageTabWidget" instance=ExtResource("5")]

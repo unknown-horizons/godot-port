@@ -18,13 +18,17 @@ signal item_selected(index: int)
 @onready var option_button_node := $OptionButton
 
 func set_description(new_description: String) -> void:
-	if not is_inside_tree(): await self.ready; _on_ready()
+	if not is_inside_tree():
+		await self.ready
+
 	description = new_description
 
 	description_node.text = description
 
 func set_options(new_options: Array) -> void:
-	if not is_inside_tree(): await self.ready; _on_ready()
+	if not is_inside_tree():
+		await self.ready
+
 	options = new_options
 
 	#prints("Set options:", options)
@@ -38,13 +42,17 @@ func set_options(new_options: Array) -> void:
 	notify_property_list_changed()
 
 func set_selected(new_selected: int) -> void:
-	if not is_inside_tree(): await self.ready; _on_ready()
+	if not is_inside_tree():
+		await self.ready
+
 	selected = clamp(new_selected, -1, options.size() - 1) as int
 
 	option_button_node.selected = selected
 
 func set_align_style(new_align_style: String) -> void:
-	if not is_inside_tree(): await self.ready; _on_ready()
+	if not is_inside_tree():
+		await self.ready
+
 	align_style = new_align_style
 
 	match align_style:
@@ -67,7 +75,3 @@ func _on_OptionButton_item_focused(index: int) -> void:
 func _on_OptionButton_item_selected(index: int) -> void:
 	selected = index
 	emit_signal("item_selected", selected)
-
-func _on_ready() -> void:
-	if not description_node: description_node = $LabelEx
-	if not option_button_node: option_button_node = $OptionButton

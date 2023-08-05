@@ -1,5 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://ko3q601yqcw7"]
+[gd_scene load_steps=4 format=3 uid="uid://ko3q601yqcw7"]
 
-[ext_resource type="PackedScene" uid="uid://dihdmxir64mp0" path="res://Assets/UI/Scenes/Menus/BookMenu.tscn" id="1_wvjta"]
+[ext_resource type="PackedScene" uid="uid://bpimcst1geibt" path="res://Assets/UI/BookMenu/BookMenu.tscn" id="1_wvjta"]
+[ext_resource type="PackedScene" uid="uid://scelobikwqds" path="res://Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn" id="2_5okjo"]
+[ext_resource type="Script" path="res://Assets/UI/Pages/LogBookUI/LogbookUI.gd" id="2_ixypx"]
 
 [node name="LogbookUI" instance=ExtResource("1_wvjta")]
+script = ExtResource("2_ixypx")
+
+[node name="LogbookPage" parent="Pages" index="1" instance=ExtResource("2_5okjo")]
+layout_mode = 2

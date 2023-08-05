@@ -1,8 +1,8 @@
-[gd_resource type="Theme" load_steps=40 format=3 uid="uid://bhvo10f8w6d64"]
+[gd_resource type="Theme" load_steps=39 format=3 uid="uid://bhvo10f8w6d64"]
 
 [ext_resource type="FontFile" uid="uid://c7mf5eos0ogry" path="res://External/Fonts/LinLibertineB.ttf" id="1_2b6lu"]
 [ext_resource type="Texture2D" uid="uid://xuw5300dod1u" path="res://Assets/UI/Images/Background/hr.png" id="1_3yu3x"]
-[ext_resource type="StyleBox" path="res://Assets/UI/Theme/ThemeStyles/ButtonStyles/ButtonDisabled.tres" id="1_50iw5"]
+[ext_resource type="StyleBox" uid="uid://c74726x77q286" path="res://Assets/UI/Theme/ThemeStyles/ButtonStyles/ButtonDisabled.tres" id="1_50iw5"]
 [ext_resource type="Texture2D" uid="uid://bcowsscfxytja" path="res://Assets/UI/Images/Buttons/hslider_grabber.png" id="2_5vuxi"]
 [ext_resource type="FontFile" uid="uid://dgr8rlsjjeh22" path="res://External/Fonts/LinLibertineBI.ttf" id="2_30l5s"]
 [ext_resource type="Texture2D" uid="uid://brhbc4vbg681p" path="res://Assets/UI/Images/Buttons/checkbox_pressed.png" id="2_klxs3"]
@@ -13,7 +13,6 @@
 [ext_resource type="StyleBox" uid="uid://c08eos0xgt0ps" path="res://Assets/UI/Theme/ThemeStyles/ButtonStyles/ButtonNormal.tres" id="3_yaabg"]
 [ext_resource type="FontFile" uid="uid://b132ikq6ayfyj" path="res://External/Fonts/LinLibertineC.ttf" id="4_ahefj"]
 [ext_resource type="Texture2D" uid="uid://boile5mat3a2i" path="res://Assets/UI/Images/Background/bar_bg.png" id="4_nq6ap"]
-[ext_resource type="StyleBox" uid="uid://dxkwv7lctrvqd" path="res://Assets/UI/Theme/ThemeStyles/CheckBoxStyles/HoverPressFocus.tres" id="7_1w6xb"]
 [ext_resource type="StyleBox" uid="uid://do8ges2uukki2" path="res://Assets/UI/Theme/ThemeStyles/PanelEmpty.tres" id="8_oyms4"]
 [ext_resource type="StyleBox" uid="uid://dorrpk5rgmixd" path="res://Assets/UI/Theme/ThemeStyles/HSeparatorStyles/HSeparatorBrownThick.tres" id="9_44ss1"]
 [ext_resource type="Texture2D" uid="uid://bfio7fq2p3rqe" path="res://Assets/UI/Images/Buttons/down_10.png" id="11_6xv0m"]
@@ -187,11 +186,12 @@ CheckBox/icons/checked = ExtResource("2_klxs3")
 CheckBox/icons/checked_disabled = ExtResource("2_klxs3")
 CheckBox/icons/unchecked = ExtResource("3_3mh1p")
 CheckBox/icons/unchecked_disabled = ExtResource("3_3mh1p")
-CheckBox/styles/focus = ExtResource("7_1w6xb")
-CheckBox/styles/hover = ExtResource("7_1w6xb")
-CheckBox/styles/hover_pressed = ExtResource("7_1w6xb")
+CheckBox/styles/disabled = ExtResource("8_oyms4")
+CheckBox/styles/focus = ExtResource("8_oyms4")
+CheckBox/styles/hover = ExtResource("8_oyms4")
+CheckBox/styles/hover_pressed = ExtResource("8_oyms4")
 CheckBox/styles/normal = ExtResource("8_oyms4")
-CheckBox/styles/pressed = ExtResource("7_1w6xb")
+CheckBox/styles/pressed = ExtResource("8_oyms4")
 HSeparator/styles/separator = SubResource("StyleBoxEmpty_jgdx7")
 HSeparatorBrownThick/base_type = &"HSeparator"
 HSeparatorBrownThick/constants/separation = 24
@@ -206,6 +206,7 @@ HSlider/styles/grabber_area = SubResource("StyleBoxFlat_rfmj8")
 HSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_kcy4s")
 HSlider/styles/slider = SubResource("StyleBoxTexture_aajkw")
 ItemList/colors/font_color = Color(0.258824, 0.188235, 0.0509804, 1)
+ItemList/colors/font_hovered_color = Color(0.258824, 0.188235, 0.0509804, 1)
 ItemList/colors/font_selected_color = Color(0.258824, 0.188235, 0.0509804, 1)
 ItemList/constants/v_separation = 3
 ItemList/styles/panel = SubResource("StyleBoxFlat_thtxu")
