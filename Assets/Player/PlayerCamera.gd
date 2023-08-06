@@ -177,3 +177,15 @@ func _on_PlayerHUD_button_diplomacy_pressed() -> void:
 
 func _on_PlayerHUD_button_game_menu_pressed() -> void:
 	prints("TODO: Open Game Menu")
+
+func _on_PlayerHUD_button_zoom_in_pressed() -> void:
+	self._camera_controls.zoom_step(-1)
+
+func _on_PlayerHUD_button_zoom_out_pressed() -> void:
+	self._camera_controls.zoom_step(1)
+
+func _on_PlayerHUD_button_rotate_left_pressed() -> void:
+	self._camera_controls.rotate(-PI/2)
+
+func _on_PlayerHUD_button_rotate_right_pressed() -> void:
+	self._camera_controls.rotate(PI/2)

@@ -313,6 +313,10 @@ stretch_mode = 4
 metadata/_edit_lock_ = true
 
 [connection signal="visibility_changed" from="." to="." method="_on_TabWidget_visibility_changed"]
+[connection signal="pressed" from="WidgetTop/ZoomControls/ZoomInButton" to="." method="_on_ZoomInButton_pressed"]
+[connection signal="pressed" from="WidgetTop/ZoomControls/ZoomOutButton" to="." method="_on_ZoomOutButton_pressed"]
+[connection signal="pressed" from="WidgetTop/RotateControls/RotateLeftButton" to="." method="_on_RotateLeftButton_pressed"]
+[connection signal="pressed" from="WidgetTop/RotateControls/RotateRightButton" to="." method="_on_RotateRightButton_pressed"]
 [connection signal="pressed" from="WidgetTop/TearButton" to="." method="_on_TearButton_pressed"]
 [connection signal="pressed" from="WidgetTop/LogbookButton" to="." method="_on_LogbookButton_pressed"]
 [connection signal="pressed" from="WidgetTop/BuildMenuButton" to="." method="_on_BuildMenuButton_pressed"]
