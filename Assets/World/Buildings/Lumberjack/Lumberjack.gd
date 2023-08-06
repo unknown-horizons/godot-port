@@ -102,6 +102,9 @@ func _ready() -> void:
 	set_resource_amount(resource_amount)
 	set_resource_amount_output(resource_amount_output)
 
+	Global.camera_rotate_left.connect(Callable(self, "_on_camera_rotate_left"))
+	Global.camera_rotate_right.connect(Callable(self, "_on_camera_rotate_right"))
+
 func animate() -> void:
 	match action:
 		"idle":
@@ -167,22 +170,21 @@ func add_resource() -> void:
 func remove_resource() -> void:
 	pass # TODO
 
-func _on_input(event: InputEvent):
-	super(event)
-
+func _on_camera_rotate_left() -> void:
 	if null in [resource_overlay, resource_overlay2]: return
 
-	# Switch frame accordingly with the world rotation.
-	if event.is_action_pressed("rotate_left"):
-		resource_overlay.frame = wrapi(resource_overlay.frame - 1, 0,
-				resource_overlay.hframes * resource_overlay.vframes)
-		resource_overlay2.frame = wrapi(resource_overlay2.frame - 1, 0,
-				resource_overlay2.hframes * resource_overlay2.vframes)
-	elif event.is_action_pressed("rotate_right"):
-		resource_overlay.frame = wrapi(resource_overlay.frame + 1, 0,
-				resource_overlay.hframes * resource_overlay.vframes)
-		resource_overlay2.frame = wrapi(resource_overlay2.frame + 1, 0,
-				resource_overlay2.hframes * resource_overlay2.vframes)
+	resource_overlay.frame = wrapi(resource_overlay.frame - 1, 0,
+		resource_overlay.hframes * resource_overlay.vframes)
+	resource_overlay2.frame = wrapi(resource_overlay2.frame - 1, 0,
+		resource_overlay2.hframes * resource_overlay2.vframes)
+
+func _on_camera_rotate_right() -> void:
+	if null in [resource_overlay, resource_overlay2]: return
+
+	resource_overlay.frame = wrapi(resource_overlay.frame + 1, 0,
+		resource_overlay.hframes * resource_overlay.vframes)
+	resource_overlay2.frame = wrapi(resource_overlay2.frame + 1, 0,
+		resource_overlay2.hframes * resource_overlay2.vframes)
 
 func set_rotation_degree(new_rotation: int) -> void:
 	super(new_rotation)

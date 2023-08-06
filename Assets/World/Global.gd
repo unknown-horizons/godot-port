@@ -281,6 +281,9 @@ const LANGUAGES_READABLE = {
 	"fr": "Français",
 }
 
+signal camera_rotate_left
+signal camera_rotate_right
+
 # Game variables
 var game_type := "FreePlay"
 var faction := 1
@@ -324,8 +327,12 @@ func set_audio_volumes() -> void:
 	Audio.set_voice_volume(Config.voice_volume)
 
 func _input(event: InputEvent) -> void:
-	if event.is_action_pressed("toggle_fullscreen"):
-		var window_mode = Config.window_mode
+    if event.is_action_pressed("rotate_right"):
+        emit_signal("camera_rotate_right")
+    elif event.is_action_pressed("rotate_left"):
+        emit_signal("camera_rotate_left")
+	elif event.is_action_pressed("toggle_fullscreen"):
+        var window_mode = Config.window_mode
 
 		window_mode = (window_mode + 1) % WINDOW_MODES.size()
 		prints("window_mode:", window_mode)

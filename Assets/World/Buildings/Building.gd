@@ -26,6 +26,9 @@ func _ready():
 	timer.timeout.connect(_on_Timer_timeout)
 	timer.start(1.001 - anim_speed)
 
+	Global.camera_rotate_left.connect(Callable(self, "_on_camera_rotate_left"))
+	Global.camera_rotate_right.connect(Callable(self, "_on_camera_rotate_right"))
+
 func _process(_delta: float) -> void:
 	super(_delta)
 	if Engine.is_editor_hint():
@@ -54,26 +57,23 @@ func animate() -> void: # to be overridden
 
 	previous_anim = current_anim
 
-func _on_input(event: InputEvent) -> void:
-	if current_anim == null:
-		super(event)
-		return
+func _on_camera_rotate_left() -> void:
+	## Switch texture accordingly with the world rotation.
+	rotation_offset = wrapi(rotation_offset - 1, 0, 4)
+	if typeof(current_anim) == TYPE_ARRAY:
+		self.texture = current_anim[self.rotation_index]
+	else: # HACK
+		_billboard.frame = wrapi(_billboard.frame - 1, 0, _billboard.vframes * _billboard.hframes)
+		animate()
 
-	# Switch texture accordingly with the world rotation.
-	if event.is_action_pressed("rotate_left"):
-		rotation_offset = wrapi(rotation_offset - 1, 0, 4)
-		if typeof(current_anim) == TYPE_ARRAY:
-			self.texture = current_anim[self.rotation_index]
-		else: # HACK
-			_billboard.frame = wrapi(_billboard.frame - 1, 0, _billboard.vframes * _billboard.hframes)
-			animate()
-	elif event.is_action_pressed("rotate_right"):
-		rotation_offset = wrapi(rotation_offset + 1, 0, 4)
-		if typeof(current_anim) == TYPE_ARRAY:
-			self.texture = current_anim[self.rotation_index]
-		else: # HACK
-			_billboard.frame = wrapi(_billboard.frame - 1, 0, _billboard.vframes * _billboard.hframes)
-			animate()
+func _on_camera_rotate_right() -> void:
+	## Switch texture accordingly with the world rotation.
+	rotation_offset = wrapi(rotation_offset + 1, 0, 4)
+	if typeof(current_anim) == TYPE_ARRAY:
+		self.texture = current_anim[self.rotation_index]
+	else: # HACK
+		_billboard.frame = wrapi(_billboard.frame - 1, 0, _billboard.vframes * _billboard.hframes)
+		animate()
 
 func get_rotation_index() -> int:
 	# warning-ignore:shadowed_variable

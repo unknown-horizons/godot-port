@@ -31,18 +31,15 @@ func _ready() -> void:
 	_viewport.size_changed.connect(_on_viewport_size_changed)
 	_basis = _get_basis()
 
+	Global.camera_rotate_left.connect(func(): rotate(-PI/2))
+	Global.camera_rotate_right.connect(func(): rotate(PI/2))
+
 func _process(delta: float) -> void:
 	_move(delta)
 	_move_drag()
 
 func _input(event: InputEvent) -> void:
-	if event.is_action_pressed("rotate_left"):
-		rotate(-PI/2)
-
-	elif event.is_action_pressed("rotate_right"):
-		rotate(PI/2)
-
-	elif event.is_action_pressed("zoom_in"):
+	if event.is_action_pressed("zoom_in"):
 		_zoom_mouse(-ZOOM_VALUE)
 
 	elif event.is_action_pressed("zoom_out"):

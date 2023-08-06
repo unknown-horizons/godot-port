@@ -185,7 +185,7 @@ func _on_PlayerHUD_button_zoom_out_pressed() -> void:
 	self._camera_controls.zoom_step(1)
 
 func _on_PlayerHUD_button_rotate_left_pressed() -> void:
-	self._camera_controls.rotate(-PI/2)
+	Global.camera_rotate_left.emit()
 
 func _on_PlayerHUD_button_rotate_right_pressed() -> void:
-	self._camera_controls.rotate(PI/2)
+	Global.camera_rotate_right.emit()
