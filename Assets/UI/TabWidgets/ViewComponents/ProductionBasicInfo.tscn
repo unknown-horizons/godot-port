@@ -1,8 +1,8 @@
-[gd_scene load_steps=4 format=3]
+[gd_scene load_steps=4 format=3 uid="uid://dkhdvvwy61h7t"]
 
 [ext_resource type="Texture2D" uid="uid://ebdxvc8tgdcn" path="res://Assets/UI/Icons/Resources/cap_util.png" id="4"]
 [ext_resource type="Texture2D" uid="uid://ca7bqqg6whjrs" path="res://Assets/UI/Icons/Resources/running_costs.png" id="5"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="6"]
 
 [node name="ProductionBasicInfo" type="MarginContainer"]
 custom_minimum_size = Vector2(217, 28)

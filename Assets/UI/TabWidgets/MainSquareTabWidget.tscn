@@ -1,14 +1,14 @@
 [gd_scene load_steps=10 format=3 uid="uid://1jrftdm3ck1n"]
 
 [ext_resource type="PackedScene" uid="uid://dtee0xbn3mwpi" path="res://Assets/UI/TabWidgets/Views/InhabitantsView.tscn" id="1"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants6SwitchTabWidget.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://glq6yuqh3xap" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants6SwitchTabWidget.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://ckqqrpy8t18a6" path="res://Assets/UI/TabWidgets/TownTabWidget.tscn" id="3"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants5SwitchTabWidget.tscn" id="4"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants3SwitchTabWidget.tscn" id="5"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants2SwitchTabWidget.tscn" id="6"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants4SwitchTabWidget.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://bcx8rxpakcex1" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants5SwitchTabWidget.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://dqy1022bidoi7" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants3SwitchTabWidget.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://bc54ix30k47yf" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants2SwitchTabWidget.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://w5w3wg8h38fg" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants4SwitchTabWidget.tscn" id="7"]
 [ext_resource type="FontFile" uid="uid://c7mf5eos0ogry" path="res://External/Fonts/LinLibertineB.ttf" id="9_udhhm"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants1SwitchTabWidget.tscn" id="17"]
+[ext_resource type="PackedScene" uid="uid://cbwxslwr25ww" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants1SwitchTabWidget.tscn" id="17"]
 
 [node name="MainSquareTabWidget" instance=ExtResource("3")]
 
@@ -80,19 +80,15 @@ expand_mode = 1
 
 [node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Sailors/MarginContainer/VBoxContainer/GridContainer2" index="1"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx2" parent="WidgetDetail/Body/TabContainer/Sailors/MarginContainer/VBoxContainer/GridContainer2" index="2"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx3" parent="WidgetDetail/Body/TabContainer/Sailors/MarginContainer/VBoxContainer/GridContainer2" index="4"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx4" parent="WidgetDetail/Body/TabContainer/Sailors/MarginContainer/VBoxContainer/GridContainer2" index="5"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="Pioneers" parent="WidgetDetail/Body/TabContainer" index="3" instance=ExtResource("1")]
 visible = false
@@ -126,19 +122,15 @@ expand_mode = 1
 
 [node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Pioneers/MarginContainer/VBoxContainer/GridContainer2" index="1"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx2" parent="WidgetDetail/Body/TabContainer/Pioneers/MarginContainer/VBoxContainer/GridContainer2" index="2"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx3" parent="WidgetDetail/Body/TabContainer/Pioneers/MarginContainer/VBoxContainer/GridContainer2" index="4"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx4" parent="WidgetDetail/Body/TabContainer/Pioneers/MarginContainer/VBoxContainer/GridContainer2" index="5"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="Settlers" parent="WidgetDetail/Body/TabContainer" index="4" instance=ExtResource("1")]
 visible = false
@@ -172,19 +164,15 @@ expand_mode = 1
 
 [node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Settlers/MarginContainer/VBoxContainer/GridContainer2" index="1"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx2" parent="WidgetDetail/Body/TabContainer/Settlers/MarginContainer/VBoxContainer/GridContainer2" index="2"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx3" parent="WidgetDetail/Body/TabContainer/Settlers/MarginContainer/VBoxContainer/GridContainer2" index="4"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx4" parent="WidgetDetail/Body/TabContainer/Settlers/MarginContainer/VBoxContainer/GridContainer2" index="5"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="Citizens" parent="WidgetDetail/Body/TabContainer" index="5" instance=ExtResource("1")]
 visible = false
@@ -218,19 +206,15 @@ expand_mode = 1
 
 [node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Citizens/MarginContainer/VBoxContainer/GridContainer2" index="1"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx2" parent="WidgetDetail/Body/TabContainer/Citizens/MarginContainer/VBoxContainer/GridContainer2" index="2"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx3" parent="WidgetDetail/Body/TabContainer/Citizens/MarginContainer/VBoxContainer/GridContainer2" index="4"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx4" parent="WidgetDetail/Body/TabContainer/Citizens/MarginContainer/VBoxContainer/GridContainer2" index="5"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="Merchants" parent="WidgetDetail/Body/TabContainer" index="6" instance=ExtResource("1")]
 visible = false
@@ -264,19 +248,15 @@ expand_mode = 1
 
 [node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Merchants/MarginContainer/VBoxContainer/GridContainer2" index="1"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx2" parent="WidgetDetail/Body/TabContainer/Merchants/MarginContainer/VBoxContainer/GridContainer2" index="2"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx3" parent="WidgetDetail/Body/TabContainer/Merchants/MarginContainer/VBoxContainer/GridContainer2" index="4"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [node name="LabelEx4" parent="WidgetDetail/Body/TabContainer/Merchants/MarginContainer/VBoxContainer/GridContainer2" index="5"]
 theme_override_fonts/font = ExtResource("9_udhhm")
-theme_override_font_sizes/font_size = 20
 
 [editable path="WidgetDetail/Body/TabContainer/Sailors"]
 [editable path="WidgetDetail/Body/TabContainer/Sailors/MarginContainer/VBoxContainer/AllowButton"]

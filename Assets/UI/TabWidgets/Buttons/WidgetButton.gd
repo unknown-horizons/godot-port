@@ -64,7 +64,8 @@ func _notification(what: int) -> void:
 			#texture_rect.pivot_offset = texture_rect.size / 2
 
 #func set_style(new_style: int) -> void:
-#	if not is_inside_tree(): await self.ready; _on_ready()
+#	if not is_inside_tree():
+#		await self.ready
 #
 #	var configuration := {
 #		Style.NONE:           [false, null, null],
@@ -142,6 +143,3 @@ func _on_TextureRect_gui_input(_event: InputEvent) -> void:
 		#mouse_filter = Control.MOUSE_FILTER_IGNORE
 		texture_hover = null
 		texture_rect.mouse_filter = Control.MOUSE_FILTER_STOP
-
-func _on_ready() -> void:
-	if texture_rect == null: texture_rect = $TextureRect as TextureRect

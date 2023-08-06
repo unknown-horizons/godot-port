@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=3 format=3 uid="uid://beqxpjogn1t1"]
 
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="1"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://c7vej07bi5fee" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="2"]
 
 [node name="OptionsUIHotkeys" instance=ExtResource("2")]
 

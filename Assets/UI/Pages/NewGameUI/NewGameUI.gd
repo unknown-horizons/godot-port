@@ -45,7 +45,6 @@ func _on_CancelButton_pressed() -> void:
 func _on_OKButton_pressed() -> void:
 	if Global.map:
 		queue_free()
-		#warning-ignore:return_value_discarded
-		print(get_tree().change_scene_to_packed(Global.map))
+		get_tree().change_scene_to_packed(Global.map)
 	else:
 		Audio.play_snd_fail()

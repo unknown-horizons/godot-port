@@ -1,8 +1,8 @@
-[gd_scene load_steps=4 format=3]
+[gd_scene load_steps=4 format=3 uid="uid://brhiqra2vyojt"]
 
 [ext_resource type="Script" path="res://Assets/UI/Pages/HelpUI/HelpUI.gd" id="1"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BookMenu/BookMenu.tscn" id="1_7h8h1"]
-[ext_resource type="PackedScene" path="res://Assets/UI/Pages/HelpUI/HelpUIInfo.tscn" id="2_dtbqr"]
+[ext_resource type="PackedScene" uid="uid://bpimcst1geibt" path="res://Assets/UI/BookMenu/BookMenu.tscn" id="1_7h8h1"]
+[ext_resource type="PackedScene" uid="uid://coqv5d7xturho" path="res://Assets/UI/Pages/HelpUI/HelpUIInfo.tscn" id="2_dtbqr"]
 
 [node name="HelpUI" instance=ExtResource("1_7h8h1")]
 script = ExtResource("1")

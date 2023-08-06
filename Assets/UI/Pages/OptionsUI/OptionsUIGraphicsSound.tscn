@@ -1,9 +1,9 @@
-[gd_scene load_steps=5 format=3]
+[gd_scene load_steps=5 format=3 uid="uid://cnaxabmg2vwxq"]
 
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/OptionButtonEx.tscn" id="1"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/HSliderEx.tscn" id="2"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="3"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://b4gq47ckhaow6" path="res://Assets/UI/BasicControls/OptionButtonEx.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://den73347r5don" path="res://Assets/UI/BasicControls/HSliderEx.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://c7vej07bi5fee" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="5"]
 
 [node name="OptionsUIGraphicsSound" instance=ExtResource("5")]
 

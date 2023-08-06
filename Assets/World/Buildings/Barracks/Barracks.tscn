@@ -1,11 +1,11 @@
 [gd_scene load_steps=6 format=3 uid="uid://bwgp8auyvcq0p"]
 
 [ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="1"]
-[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape3x3.tres" id="2"]
+[ext_resource type="Shape3D" uid="uid://b0tf8160mv311" path="res://Assets/World/Shapes/BoxShape3x3.tres" id="2"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Barracks/Barracks.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://cupnb4kfeamsh" path="res://Assets/World/Buildings/Barracks/Sprites/Barracks_idle.png" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uudl0"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_he0ab"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -25,7 +25,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 384, 384)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_uudl0")
+material_overlay = SubResource("StandardMaterial3D_he0ab")
 texture = ExtResource("4")
 region_enabled = true
 region_rect = Rect2(0, 0, 384, 384)

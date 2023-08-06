@@ -38,7 +38,8 @@ func _ready() -> void:
 #	_adapt_rect_size()
 
 #func _draw() -> void:
-#	if not is_inside_tree(): await self.ready; _on_ready()
+#	if not is_inside_tree():
+#		await self.ready
 #
 #	body.size.y = body.custom_minimum_size.y
 

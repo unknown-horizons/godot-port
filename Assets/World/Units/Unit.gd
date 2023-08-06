@@ -6,7 +6,6 @@ class_name Unit
 
 signal position_changed
 
-#const Global = preload("res://Assets/World/Global.gd") TODO: Remove if possible
 const Buoy = preload("res://Assets/World/Buoy/Buoy.tscn")
 
 # All units are 8-directional.

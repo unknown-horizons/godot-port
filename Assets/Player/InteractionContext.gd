@@ -30,7 +30,7 @@ class_name InteractionContext
 ##      target: Node,
 ##      position: Vector2
 ## ) -> void
-## [/codeblock][br]
+## [/codeblock]
 ##
 ## Spaces in the action name will be replaced by underscores, hence
 ## ...[code]action name[/code]... will become [code]_on_ia_action_name_pressed()[/code]
@@ -42,7 +42,8 @@ class_name InteractionContext
 ##      target: Node,
 ##      position: Vector2
 ##  ) -> void
-## [/codeblock][br]
+## [/codeblock]
+##
 ## All InputEventMouseMotion events will be routed to this function. This can
 ## be used to update hover effects, the cursor, etc.
 

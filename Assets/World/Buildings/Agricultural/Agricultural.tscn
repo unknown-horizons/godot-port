@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="1"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Agricultural/Agricultural.gd" id="2"]
-[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape3x3Flat.tres" id="3"]
+[ext_resource type="Shape3D" uid="uid://2aqcc85m04t1" path="res://Assets/World/Shapes/BoxShape3x3Flat.tres" id="3"]
 
 [node name="Agricultural" instance=ExtResource("1")]
 script = ExtResource("2")

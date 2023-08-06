@@ -1,12 +1,12 @@
-[gd_scene load_steps=9 format=3]
+[gd_scene load_steps=9 format=3 uid="uid://cwi23f5spohl"]
 
 [ext_resource type="Script" path="res://Assets/UI/InfoWidgets/BalanceInfoButton.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://dm1iiolcn53a8" path="res://Assets/UI/Images/Background/Widgets/res_mon_bg.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://toeqa364p2tp" path="res://Assets/UI/Icons/Resources/32/001.png" id="3"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="4"]
 [ext_resource type="Texture2D" uid="uid://cmblp4k0re2el" path="res://Assets/UI/Images/Background/Widgets/resbar_stats_background.png" id="5"]
 [ext_resource type="FontFile" uid="uid://dcm4hbk2qpmkn" path="res://External/Fonts/LinLibertine.ttf" id="5_2k0fi"]
-[ext_resource type="PackedScene" path="res://Assets/UI/InfoWidgets/BalanceInfoItem.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://btj15jxncgvbb" path="res://Assets/UI/InfoWidgets/BalanceInfoItem.tscn" id="6"]
 [ext_resource type="Texture2D" uid="uid://cdfix4q8x0av5" path="res://Assets/UI/Images/Background/Widgets/resbar_stats_bottom.png" id="7"]
 
 [node name="BalanceInfoButton" type="VBoxContainer"]

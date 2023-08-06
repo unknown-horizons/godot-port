@@ -2,9 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://c7vej07bi5fee" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="1"]
 [ext_resource type="Script" path="res://Assets/UI/Pages/NewGameUI/GameTypeRadioButton.gd" id="3_8y2qy"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LineEditEx.tscn" id="6"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="7"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/HSliderEx.tscn" id="8"]
+[ext_resource type="PackedScene" uid="uid://batg8pwfpasdc" path="res://Assets/UI/BasicControls/LineEditEx.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://den73347r5don" path="res://Assets/UI/BasicControls/HSliderEx.tscn" id="8"]
 [ext_resource type="PackedScene" uid="uid://cd4byu1hpqbyq" path="res://Assets/UI/BasicControls/Separator.tscn" id="9"]
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="10"]
 [ext_resource type="FontFile" uid="uid://b132ikq6ayfyj" path="res://External/Fonts/LinLibertineC.ttf" id="10_ykia5"]
@@ -310,7 +310,6 @@ custom_minimum_size = Vector2(0, 155)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-tooltip_text = "test"
 theme = ExtResource("11_wtm0q")
 script = ExtResource("12_ujho3")
 
@@ -371,8 +370,10 @@ value = 1.0
 ticks_on_borders = true
 
 [node name="AdditionalOccurences" type="HBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="6"]
+custom_minimum_size = Vector2(0, 30)
 layout_mode = 2
 size_flags_vertical = 2
+theme_override_constants/separation = 10
 script = SubResource("8")
 
 [node name="Traders" type="CheckBox" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/AdditionalOccurences" index="0"]

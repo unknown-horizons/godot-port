@@ -2,8 +2,6 @@
 extends TextureButton
 class_name InventorySlot
 
-#const Global = preload("res://Assets/World/Global.gd") TODO: Remove if possible
-
 @export var show_if_empty: bool = false : set = set_show_if_empty
 @export var resource_type: Global.ResourceType : set = set_resource_type
 @export var resource_value: int : set = set_resource_value
@@ -19,7 +17,8 @@ func _ready() -> void:
 	texture_rect.pivot_offset = texture_rect.size
 
 func _draw() -> void:
-	if not is_inside_tree(): await self.ready; _on_ready()
+	if not is_inside_tree():
+		await self.ready
 
 	update_display()
 
@@ -46,7 +45,8 @@ func set_show_if_empty(new_show_if_empty: bool) -> void:
 	_draw()
 
 func set_resource_type(new_resource_type: int) -> void:
-	if not is_inside_tree(): await self.ready; _on_ready()
+	if not is_inside_tree():
+		await self.ready
 
 	#prints(self.name, "resource_type", resource_type, "=>", new_resource_type)
 
@@ -57,7 +57,8 @@ func set_resource_type(new_resource_type: int) -> void:
 	_draw()
 
 func set_resource_value(new_resource_value: int) -> void:
-	if not is_inside_tree(): await self.ready; _on_ready()
+	if not is_inside_tree():
+		await self.ready
 
 	#prints(self.name, "resource_value", resource_value, "=>", new_resource_value)
 
@@ -69,7 +70,8 @@ func set_resource_value(new_resource_value: int) -> void:
 	_draw()
 
 func set_storage_limit(new_storage_limit: int) -> void:
-	if not is_inside_tree(): await self.ready; _on_ready()
+	if not is_inside_tree():
+		await self.ready
 
 	#prints(self.name, "storage_limit", storage_limit, "=>", new_storage_limit)
 
@@ -82,7 +84,8 @@ func set_storage_limit(new_storage_limit: int) -> void:
 	update_amount_bar()
 
 func update_amount_bar() -> void:
-	if not is_inside_tree(): await self.ready; _on_ready()
+	if not is_inside_tree():
+		await self.ready
 
 	var scale_factor: float
 	if storage_limit > 0:
@@ -90,8 +93,3 @@ func update_amount_bar() -> void:
 	else:
 		scale_factor = 0
 	texture_rect.scale.y = scale_factor
-
-func _on_ready() -> void:
-	if not resource_item: resource_item = $ResourceItem
-	if not label: label = $Label
-	if not texture_rect: texture_rect = $TextureRect

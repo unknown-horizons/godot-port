@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3]
+[gd_scene load_steps=11 format=3 uid="uid://ex0tmx5bf24i"]
 
 [ext_resource type="Texture2D" uid="uid://bnwfjxrj4eeh7" path="res://Assets/UI/Images/Buttons/parrow_left_d.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dfwqk3wv3va8i" path="res://Assets/UI/Images/Buttons/parrow_right_bw.png" id="2"]
@@ -8,7 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://lo2b0gsw0lyf" path="res://Assets/UI/Images/Buttons/parrow_right_d.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://c740oohp88ykb" path="res://Assets/UI/Images/Buttons/parrow_left.png" id="7"]
 [ext_resource type="Texture2D" uid="uid://cpqme4x6afr1j" path="res://Assets/UI/Images/Buttons/parrow_left_h.png" id="8"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/RoundButton.tscn" id="9"]
+[ext_resource type="PackedScene" uid="uid://bivdx68a62ioq" path="res://Assets/UI/BasicControls/RoundButton.tscn" id="9"]
 [ext_resource type="Script" path="res://Assets/UI/BookMenu/PageControlButton.gd" id="10"]
 
 [node name="PageControl" type="HBoxContainer"]

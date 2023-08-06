@@ -1,6 +1,6 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=6 format=3 uid="uid://bht6m616i3njv"]
 
-[ext_resource type="PackedScene" uid="uid://drupui1l8uio2" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButton.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://cff5va6e0sqyv" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButton.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://brtu3300yh1c1" path="res://Assets/UI/Icons/Ship/load-unload_32_h.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://cipl1b4gok8dj" path="res://Assets/UI/Icons/Ship/load-unload_32.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://da4na3bjs644v" path="res://Assets/UI/Icons/Ship/load-unload_32_bw.png" id="4"]
@@ -13,12 +13,4 @@ texture_hover = ExtResource("2")
 texture_disabled = ExtResource("4")
 
 [node name="TextureRect" parent="." index="0"]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-grow_horizontal = 2
-grow_vertical = 2
 mouse_filter = 1

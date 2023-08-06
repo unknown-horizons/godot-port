@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=3]
+[gd_scene load_steps=5 format=3 uid="uid://dtblc45yuwp0w"]
 
 [ext_resource type="Script" path="res://Assets/UI/Pages/QuitGameUI/ExitScene.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://nrp4xkogand" path="res://Assets/UI/Images/Background/MainMenu/bg_4.png" id="2"]
-[ext_resource type="Theme" path="res://Assets/UI/Theme/MenuTheme.tres" id="3"]
+[ext_resource type="Theme" uid="uid://lyx8kydf373j" path="res://Assets/UI/Theme/MenuTheme.tres" id="3"]
 [ext_resource type="Texture2D" uid="uid://cpn75tf5b4csq" path="res://Assets/UI/Images/Background/MainMenu/wheel.png" id="4"]
 
 [node name="ExitScene" type="Node"]

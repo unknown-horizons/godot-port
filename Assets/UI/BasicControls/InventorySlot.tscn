@@ -1,7 +1,7 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=6 format=3 uid="uid://kw5ifpdknyd5"]
 
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/ResourceItem.tscn" id="1"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://qndk0ulsg1jc" path="res://Assets/UI/BasicControls/ResourceItem.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="2"]
 [ext_resource type="Script" path="res://Assets/UI/BasicControls/InventorySlot.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://ci64i0ra5lm7" path="res://Assets/UI/Images/Background/inv_bg.png" id="4"]
 [ext_resource type="Texture2D" uid="uid://cke8lkljkb73" path="res://Assets/UI/Images/Background/Widgets/progressbar_fill.png" id="5"]
@@ -51,5 +51,5 @@ offset_left = -0.0130005
 grow_horizontal = 0
 grow_vertical = 2
 scale = Vector2(1, 1e-05)
-pivot_offset = Vector2(4, 51)
+pivot_offset = Vector2(8, 51)
 texture = ExtResource("5")

@@ -1,10 +1,10 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=6 format=3 uid="uid://d20flru0gomue"]
 
 [ext_resource type="Texture2D" uid="uid://d01nnvkwqvnxv" path="res://Assets/UI/Images/Background/notice350.png" id="1"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/RoundButtons/OKButton.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://c46k8y74h4scl" path="res://Assets/UI/BasicControls/RoundButtons/OKButton.tscn" id="3"]
 [ext_resource type="Script" path="res://Assets/UI/Notification/Letter.gd" id="4"]
 [ext_resource type="FontFile" uid="uid://dgr8rlsjjeh22" path="res://External/Fonts/LinLibertineBI.ttf" id="4_lohmw"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="5"]
 
 [node name="Letter" type="TextureRect"]
 anchors_preset = 8

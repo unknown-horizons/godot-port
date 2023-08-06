@@ -28,13 +28,17 @@ func set_description(new_description: String) -> void:
 	label_desc.text = description
 
 #func set_tick_count(new_tick_count: int) -> void:
-#	if not is_inside_tree(): await self.ready
+#	if not is_inside_tree():
+#		await self.ready
+#
 #	tick_count = clamp(new_tick_count, 0, max_value)
 #
 #	slider.tick_count = tick_count
 #
 #func set_ticks_on_borders(new_ticks_on_borders: bool) -> void:
-#	if not is_inside_tree(): await self.ready
+#	if not is_inside_tree():
+#		await self.ready
+#
 #	ticks_on_borders = new_ticks_on_borders
 #
 #	slider.ticks_on_borders = ticks_on_borders

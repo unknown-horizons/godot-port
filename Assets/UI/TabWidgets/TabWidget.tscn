@@ -3,22 +3,22 @@
 [ext_resource type="Script" path="res://Assets/UI/TabWidgets/TabWidget.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://5gbvga1bqpxa" path="res://Assets/UI/Images/Background/Widgets/map_bg.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://3203obnnsej3" path="res://Assets/UI/Images/TabWidget/main_bg_top.png" id="4"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedUpButton.tscn" id="4_g3qxs"]
+[ext_resource type="PackedScene" uid="uid://dcgoirmxith4s" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedUpButton.tscn" id="4_g3qxs"]
 [ext_resource type="Texture2D" uid="uid://budf74yum8w6e" path="res://Assets/UI/Images/TabWidget/main_bg_fill.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://c7f5k0k27nsh1" path="res://Assets/UI/Images/TabWidget/main_bg_bottom.png" id="6"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="6_5q6ss"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/LogbookButton.tscn" id="7"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/TearButton.tscn" id="8"]
+[ext_resource type="PackedScene" uid="uid://bepwv74qm83mh" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/LogbookButton.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://b450djyry3nsh" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/TearButton.tscn" id="8"]
 [ext_resource type="Script" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedLabel.gd" id="8_joybd"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedDownButton.tscn" id="8_lneb5"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="11"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/BuildMenuButton.tscn" id="12"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/RotateLeftButton.tscn" id="13"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/DiplomacyButton.tscn" id="14"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/ZoomOutButton.tscn" id="15"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameMenuButton.tscn" id="16"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/RotateRightButton.tscn" id="17"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/ZoomInButton.tscn" id="18"]
+[ext_resource type="PackedScene" uid="uid://bnvf8h0p6g4p5" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedDownButton.tscn" id="8_lneb5"]
+[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="11"]
+[ext_resource type="PackedScene" uid="uid://b0pjmla1k4m0a" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/BuildMenuButton.tscn" id="12"]
+[ext_resource type="PackedScene" uid="uid://867s5dho2rlm" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/RotateLeftButton.tscn" id="13"]
+[ext_resource type="PackedScene" uid="uid://ds87f370k7lb1" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/DiplomacyButton.tscn" id="14"]
+[ext_resource type="PackedScene" uid="uid://chpo5bw4t3w1t" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/ZoomOutButton.tscn" id="15"]
+[ext_resource type="PackedScene" uid="uid://dahuaxa1msk35" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameMenuButton.tscn" id="16"]
+[ext_resource type="PackedScene" uid="uid://bhnkuql6buhtp" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/RotateRightButton.tscn" id="17"]
+[ext_resource type="PackedScene" uid="uid://cx334xqdqe26t" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/ZoomInButton.tscn" id="18"]
 [ext_resource type="Script" path="res://Assets/UI/TabWidgets/WidgetDetail.gd" id="18_x0tmu"]
 [ext_resource type="PackedScene" uid="uid://d08xfnfci8npi" path="res://Assets/Player/Minimap/Minimap.tscn" id="19"]
 
@@ -86,8 +86,6 @@ offset_left = 6.748
 offset_top = -29.067
 offset_right = 34.748
 offset_bottom = -1.067
-grow_horizontal = 2
-grow_vertical = 2
 
 [node name="GameSpeedLabel" parent="WidgetTop/GameSpeedControls" instance=ExtResource("11")]
 layout_mode = 0
@@ -112,8 +110,6 @@ offset_left = -34.056
 offset_top = 1.801
 offset_right = -6.056
 offset_bottom = 29.801
-grow_horizontal = 2
-grow_vertical = 2
 
 [node name="ZoomControls" type="Control" parent="WidgetTop"]
 anchors_preset = 0
@@ -139,6 +135,8 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 28.0
 offset_bottom = 28.0
+grow_horizontal = 1
+grow_vertical = 1
 size_flags_horizontal = 6
 
 [node name="ZoomOutButton" parent="WidgetTop/ZoomControls" instance=ExtResource("15")]
@@ -183,6 +181,8 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 28.0
 offset_bottom = 28.0
+grow_horizontal = 1
+grow_vertical = 1
 size_flags_horizontal = 6
 
 [node name="RotateRightButton" parent="WidgetTop/RotateControls" instance=ExtResource("17")]
@@ -197,6 +197,7 @@ offset_top = 0.0
 offset_right = 0.0
 offset_bottom = 28.0
 grow_horizontal = 0
+grow_vertical = 1
 size_flags_horizontal = 6
 
 [node name="TearButton" parent="WidgetTop" instance=ExtResource("8")]
@@ -205,10 +206,7 @@ offset_left = -86.0
 offset_top = 43.0
 offset_right = -60.0
 offset_bottom = 69.0
-grow_horizontal = 2
-grow_vertical = 2
 size_flags_horizontal = 6
-metadata/_edit_group_ = true
 metadata/_edit_lock_ = true
 
 [node name="LogbookButton" parent="WidgetTop" instance=ExtResource("7")]
@@ -217,10 +215,7 @@ offset_left = -53.036
 offset_top = 70.343
 offset_right = -27.036
 offset_bottom = 96.343
-grow_horizontal = 2
-grow_vertical = 2
 size_flags_horizontal = 6
-metadata/_edit_group_ = true
 metadata/_edit_lock_ = true
 
 [node name="BuildMenuButton" parent="WidgetTop" instance=ExtResource("12")]
@@ -229,7 +224,6 @@ offset_top = 83.0
 offset_bottom = 115.0
 scale = Vector2(0.9, 0.9)
 size_flags_horizontal = 6
-metadata/_edit_group_ = true
 metadata/_edit_lock_ = true
 
 [node name="DiplomacyButton" parent="WidgetTop" instance=ExtResource("14")]
@@ -238,10 +232,7 @@ offset_left = 25.0
 offset_top = 69.501
 offset_right = 51.0
 offset_bottom = 95.501
-grow_horizontal = 2
-grow_vertical = 2
 size_flags_horizontal = 6
-metadata/_edit_group_ = true
 metadata/_edit_lock_ = true
 
 [node name="GameMenuButton" parent="WidgetTop" instance=ExtResource("16")]
@@ -250,10 +241,7 @@ offset_left = 60.0
 offset_top = 40.0
 offset_right = 92.0
 offset_bottom = 72.0
-grow_horizontal = 2
-grow_vertical = 2
 size_flags_horizontal = 6
-metadata/_edit_group_ = true
 metadata/_edit_lock_ = true
 
 [node name="WidgetDetail" type="VBoxContainer" parent="."]

@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://68ot2mo12sc" path="res://Assets/World/Buildings/Lumberjack/Sprites/LumberjackTent_idle.png" id="1"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Lumberjack/Lumberjack.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="3"]
-[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="4"]
+[ext_resource type="Shape3D" uid="uid://w7dqwqb3af0c" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="4"]
 
 [sub_resource type="StandardMaterial3D" id="1"]
 transparency = 2
@@ -14,7 +14,7 @@ emission_enabled = true
 emission = Color(1, 1, 1, 1)
 billboard_mode = 1
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8g2vg"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yrrtm"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -56,7 +56,7 @@ vframes = 2
 
 [node name="Outline" parent="Billboard" index="2"]
 material_override = SubResource("1")
-material_overlay = SubResource("StandardMaterial3D_8g2vg")
+material_overlay = SubResource("StandardMaterial3D_yrrtm")
 texture = ExtResource("1")
 region_enabled = true
 region_rect = Rect2(0, 0, 256, 256)

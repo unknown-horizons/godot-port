@@ -1,11 +1,11 @@
 [gd_scene load_steps=6 format=3 uid="uid://c2f8a8ml1emt"]
 
 [ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="1"]
-[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="2"]
+[ext_resource type="Shape3D" uid="uid://w7dqwqb3af0c" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://dfuajy04600n4" path="res://Assets/World/Buildings/Bath/Sprites/Bath_idle.png" id="3"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Bath/Bath.gd" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2qnub"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q0lfo"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -24,7 +24,7 @@ offset = Vector2(0, 28)
 texture = ExtResource("3")
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_2qnub")
+material_overlay = SubResource("StandardMaterial3D_q0lfo")
 offset = Vector2(0, 28)
 texture = ExtResource("3")
 region_rect = Rect2(0, 0, 640, 640)

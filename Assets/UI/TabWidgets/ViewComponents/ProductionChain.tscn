@@ -5,8 +5,8 @@
 [ext_resource type="Texture2D" uid="uid://6lx1jr5eq3qi" path="res://Assets/UI/Icons/Templates/Production/production_arrow_top.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://c20b7udu0p0yr" path="res://Assets/UI/Icons/Templates/Production/production_arrow_start.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://bladesh07u8hm" path="res://Assets/UI/Icons/Templates/Production/production_arrow_bottom.png" id="4"]
-[ext_resource type="PackedScene" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/PauseProductionButton.tscn" id="11"]
-[ext_resource type="PackedScene" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="12"]
+[ext_resource type="PackedScene" uid="uid://eqtwiupdfrk" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/PauseProductionButton.tscn" id="11"]
+[ext_resource type="PackedScene" uid="uid://kw5ifpdknyd5" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="12"]
 
 [node name="ProductionChain" type="Control"]
 custom_minimum_size = Vector2(200, 51)

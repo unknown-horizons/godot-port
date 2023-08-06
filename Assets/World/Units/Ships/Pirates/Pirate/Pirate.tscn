@@ -1,10 +1,10 @@
 [gd_scene load_steps=12 format=3 uid="uid://b8aw6ir4l2m4t"]
 
-[ext_resource type="PackedScene" path="res://Assets/World/Units/Ships/Ship.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://biy4rnv5luqwq" path="res://Assets/World/Units/Ships/Ship.tscn" id="1"]
 [ext_resource type="Script" path="res://Assets/World/Units/Ships/Pirates/Pirate/Pirate.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://dgm3nteq5gblm" path="res://Assets/World/Units/Ships/Pirates/Pirate/Sprites/Pirate_idle.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://coxedr43nuh81" path="res://Assets/World/Units/Ships/Pirates/Pirate/Sprites/Pirate_WaterOverlay.png" id="4"]
-[ext_resource type="Shape3D" path="res://Assets/World/Shapes/BoxShape3x3.tres" id="5"]
+[ext_resource type="Shape3D" uid="uid://b0tf8160mv311" path="res://Assets/World/Shapes/BoxShape3x3.tres" id="5"]
 
 [sub_resource type="ShaderMaterial" id="1"]
 

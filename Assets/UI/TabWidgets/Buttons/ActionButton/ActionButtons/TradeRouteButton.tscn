@@ -1,23 +1,13 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=6 format=3 uid="uid://dd0xhcqj23hve"]
 
 [ext_resource type="Texture2D" uid="uid://repya4snqiof" path="res://Assets/UI/Icons/Ship/traderoute.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://d13w5m1wqyy0y" path="res://Assets/UI/Icons/Ship/traderoute_h.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://fvroladeij07" path="res://Assets/UI/Icons/Ship/traderoute_hover_to_enable.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://cesi460y1molw" path="res://Assets/UI/Icons/Ship/traderoute_disabled.png" id="4"]
-[ext_resource type="PackedScene" uid="uid://drupui1l8uio2" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButton.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://cff5va6e0sqyv" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButton.tscn" id="5"]
 
 [node name="TradeRouteButton" instance=ExtResource("5")]
 texture_normal = ExtResource("1")
 texture_pressed = ExtResource("3")
 texture_hover = ExtResource("2")
 texture_disabled = ExtResource("4")
-
-[node name="TextureRect" parent="." index="0"]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-grow_horizontal = 2
-grow_vertical = 2
