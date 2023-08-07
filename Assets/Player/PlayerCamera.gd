@@ -19,6 +19,7 @@ var hovered_object: WorldThing : set = set_hovered_object
 @onready var hud := $PlayerHUD
 
 @onready var _camera := $RotationY/Camera3D as Camera3D
+@onready var _camera_controls: Node = $CameraControls
 
 func set_hovered_object(new_hovered_object: WorldThing) -> void:
 	if new_hovered_object != hovered_object:
