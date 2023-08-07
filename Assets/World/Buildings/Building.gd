@@ -72,7 +72,7 @@ func _on_camera_rotate_right() -> void:
 	if typeof(current_anim) == TYPE_ARRAY:
 		self.texture = current_anim[self.rotation_index]
 	else: # HACK
-		_billboard.frame = wrapi(_billboard.frame - 1, 0, _billboard.vframes * _billboard.hframes)
+		_billboard.frame = wrapi(_billboard.frame + 1, 0, _billboard.vframes * _billboard.hframes)
 		animate()
 
 func get_rotation_index() -> int:
