@@ -26,9 +26,6 @@ func _ready():
 	timer.timeout.connect(_on_Timer_timeout)
 	timer.start(1.001 - anim_speed)
 
-	Global.camera_rotate_left.connect(Callable(self, "_on_camera_rotate_left"))
-	Global.camera_rotate_right.connect(Callable(self, "_on_camera_rotate_right"))
-
 func _process(_delta: float) -> void:
 	super(_delta)
 	if Engine.is_editor_hint():

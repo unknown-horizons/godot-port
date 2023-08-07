@@ -102,9 +102,6 @@ func _ready() -> void:
 	set_resource_amount(resource_amount)
 	set_resource_amount_output(resource_amount_output)
 
-	Global.camera_rotate_left.connect(Callable(self, "_on_camera_rotate_left"))
-	Global.camera_rotate_right.connect(Callable(self, "_on_camera_rotate_right"))
-
 func animate() -> void:
 	match action:
 		"idle":
