@@ -2,8 +2,6 @@
 extends Control
 class_name PlayerHUD
 
-signal button_zoom_in_pressed
-signal button_zoom_out_pressed
 signal button_rotate_left_pressed
 signal button_rotate_right_pressed
 
@@ -183,12 +181,6 @@ func _get_context_type(entity: WorldThing) -> int:
 func _on_PlayerCamera_unselected() -> void:
 	prints("_on_PlayerCamera_unselected")
 	self.ui_context = UIContext.NONE
-
-func _on_TabWidget_button_zoom_in_pressed() -> void:
-	emit_signal("button_zoom_in_pressed")
-
-func _on_TabWidget_button_zoom_out_pressed() -> void:
-	emit_signal("button_zoom_out_pressed")
 
 func _on_TabWidget_button_rotate_left_pressed() -> void:
 	emit_signal("button_rotate_left_pressed")

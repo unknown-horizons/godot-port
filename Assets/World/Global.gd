@@ -283,6 +283,10 @@ const LANGUAGES_READABLE = {
 
 signal camera_rotate_left
 signal camera_rotate_right
+signal camera_zoom_in
+signal camera_zoom_out
+signal camera_max_zoom(flag)
+signal camera_min_zoom(flag)
 
 # Game variables
 var game_type := "FreePlay"

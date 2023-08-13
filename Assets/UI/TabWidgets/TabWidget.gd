@@ -4,8 +4,6 @@ class_name TabWidget
 
 ## Base class for all TabWidget objects.
 
-signal button_zoom_in_pressed
-signal button_zoom_out_pressed
 signal button_rotate_right_pressed
 signal button_rotate_left_pressed
 
@@ -19,8 +17,6 @@ signal button_game_menu_pressed
 
 func _ready() -> void:
 	if owner is PlayerHUD:
-		connect("button_zoom_in_pressed", Callable(owner, "_on_TabWidget_button_zoom_in_pressed"))
-		connect("button_zoom_out_pressed", Callable(owner, "_on_TabWidget_button_zoom_out_pressed"))
 		connect("button_rotate_left_pressed", Callable(owner, "_on_TabWidget_button_rotate_left_pressed"))
 		connect("button_rotate_right_pressed", Callable(owner, "_on_TabWidget_button_rotate_right_pressed"))
 
@@ -84,12 +80,6 @@ func _on_TabContainer_sort_children() -> void:
 #	match what:
 #		NOTIFICATION_PARENTED:
 #			prints(self, "has been parented.")
-
-func _on_ZoomInButton_pressed() -> void:
-	emit_signal("button_zoom_in_pressed")
-
-func _on_ZoomOutButton_pressed() -> void:
-	emit_signal("button_zoom_out_pressed")
 
 func _on_RotateLeftButton_pressed() -> void:
 	emit_signal("button_rotate_left_pressed")
