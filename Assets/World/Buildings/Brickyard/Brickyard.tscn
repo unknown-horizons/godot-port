@@ -5,7 +5,7 @@
 [ext_resource type="Shape3D" uid="uid://dcv0a01xunnwg" path="res://Assets/World/Shapes/BoxShape4x2.tres" id="3"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Brickyard/Brickyard.gd" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4o01r"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ouymo"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -27,7 +27,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 384, 256)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_4o01r")
+material_overlay = SubResource("StandardMaterial3D_ouymo")
 offset = Vector2(0, 16)
 texture = ExtResource("2")
 region_enabled = true

@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://Assets/World/Buildings/Agricultural/HopField/HopField.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://cp8c21as0yplr" path="res://Assets/World/Buildings/Agricultural/HopField/Sprites/HopField_idle.png" id="3"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i27l5"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3lqms"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -25,11 +25,8 @@ region_enabled = true
 region_rect = Rect2(0, 0, 384, 384)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_i27l5")
+material_overlay = SubResource("StandardMaterial3D_3lqms")
 offset = Vector2(0, 48)
 texture = ExtResource("3")
 region_enabled = true
 region_rect = Rect2(0, 0, 384, 384)
-
-[node name="Area3D" parent="." index="1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)

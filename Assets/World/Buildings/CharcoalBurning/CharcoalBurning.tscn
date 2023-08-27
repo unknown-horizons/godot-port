@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://Assets/World/Buildings/CharcoalBurning/CharcoalBurning.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://br1rrageo562p" path="res://Assets/World/Buildings/CharcoalBurning/Sprites/CharcoalBurning_idle.png" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l0wpo"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e838u"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -26,7 +26,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 316, 216)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_l0wpo")
+material_overlay = SubResource("StandardMaterial3D_e838u")
 offset = Vector2(0, 16)
 texture = ExtResource("4")
 region_enabled = true

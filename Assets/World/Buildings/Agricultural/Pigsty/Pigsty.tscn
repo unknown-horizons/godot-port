@@ -1,17 +1,32 @@
-[gd_scene load_steps=3 format=3 uid="uid://dpufdweqodbrm"]
+[gd_scene load_steps=5 format=3 uid="uid://dpufdweqodbrm"]
 
 [ext_resource type="PackedScene" uid="uid://gfjfmihmduqa" path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://dec0sbdot0kp1" path="res://Assets/World/Buildings/Agricultural/Pigsty/Sprites/Pigsty_idle.png" id="3_h107m"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Agricultural/Pigsty/Pigsty.gd" id="4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tne1m"]
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+no_depth_test = true
+albedo_texture = ExtResource("3_h107m")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+billboard_mode = 1
 
 [node name="Pigsty" instance=ExtResource("1")]
 script = ExtResource("4")
+texture = ExtResource("3_h107m")
 
 [node name="Billboard" parent="." index="0"]
 offset = Vector2(0, 48)
-hframes = 10
-vframes = 8
+texture = ExtResource("3_h107m")
 region_enabled = true
-region_rect = Rect2(0, 0, 1920, 1536)
+region_rect = Rect2(0, 0, 384, 384)
 
-[node name="Area3D" parent="." index="1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+[node name="Outline" parent="Billboard" index="0"]
+material_overlay = SubResource("StandardMaterial3D_tne1m")
+offset = Vector2(0, 48)
+texture = ExtResource("3_h107m")
+region_enabled = true
+region_rect = Rect2(0, 0, 384, 384)

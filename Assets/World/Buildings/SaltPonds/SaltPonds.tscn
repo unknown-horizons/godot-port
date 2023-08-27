@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://cn5a1mkitr5fw" path="res://Assets/World/Buildings/SaltPonds/Sprites/SaltPond_idle.png" id="3"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/SaltPonds/SaltPonds.gd" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_17732"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_73l0c"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -27,7 +27,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 384, 256)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_17732")
+material_overlay = SubResource("StandardMaterial3D_73l0c")
 offset = Vector2(0, 16)
 texture = ExtResource("3")
 region_enabled = true

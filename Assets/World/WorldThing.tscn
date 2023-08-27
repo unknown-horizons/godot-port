@@ -27,6 +27,7 @@ vframes = 2
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.415, 0)
 
 [connection signal="frame_changed" from="Billboard" to="." method="_on_Billboard_frame_changed"]
 [connection signal="input_event" from="Area3D" to="." method="_on_Area_input_event"]

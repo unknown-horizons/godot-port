@@ -5,7 +5,7 @@
 [ext_resource type="Shape3D" uid="uid://b0tf8160mv311" path="res://Assets/World/Shapes/BoxShape3x3.tres" id="3"]
 [ext_resource type="Texture2D" uid="uid://doi3afojbhfdn" path="res://Assets/World/Units/Ships/Frigates/Frigate/Sprites/Frigate_idle.png" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5ngrg"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_resk7"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -25,7 +25,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 1024, 512)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_5ngrg")
+material_overlay = SubResource("StandardMaterial3D_resk7")
 texture = ExtResource("4")
 hframes = 4
 region_enabled = true

@@ -1,9 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://blbqmvav0vjgg"]
+[gd_scene load_steps=6 format=3 uid="uid://blbqmvav0vjgg"]
 
 [ext_resource type="PackedScene" uid="uid://bwtxisllq0ply" path="res://Assets/UI/TabWidgets/ProductionWithRelatedBuildingsMenuTabWidget.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://dg6whk6ygbtpi" path="res://Assets/UI/TabWidgets/ViewComponents/ProductionChain.tscn" id="3"]
-[ext_resource type="Texture2D" uid="uid://c10rdt4lk2ffm" path="res://Assets/UI/Icons/Widgets/MiniMap/rotate_left.png" id="3_amofs"]
-[ext_resource type="Script" path="res://Assets/UI/BasicControls/CaptionBlock.gd" id="4_bnhs1"]
 [ext_resource type="Script" path="res://Assets/UI/TabWidgets/LumberjackTabWidget.gd" id="5"]
 [ext_resource type="PackedScene" uid="uid://bj3hi4dvcviuc" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildTreeButton.tscn" id="6"]
 [ext_resource type="PackedScene" uid="uid://clre4f1e4md30" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildTreeAreaButton.tscn" id="10"]
@@ -11,49 +9,20 @@
 [node name="LumberjackTabWidget" instance=ExtResource("1")]
 script = ExtResource("5")
 
-[node name="ZoomInButton" parent="WidgetTop/ZoomControls" index="0"]
-offset_bottom = 28.0
-
-[node name="RotateLeftButton" parent="WidgetTop/RotateControls" index="0"]
-texture_normal = ExtResource("3_amofs")
-
-[node name="DiplomacyButton" parent="WidgetTop" index="6"]
-custom_minimum_size = Vector2(0, 0)
-
 [node name="WidgetDetail" parent="." index="2"]
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -125.5
-offset_top = -20.5
-offset_right = 125.5
+layout_mode = 1
 offset_bottom = 308.5
-grow_horizontal = 2
-grow_vertical = 2
-size_flags_horizontal = 1
 
 [node name="Body" parent="WidgetDetail" index="1"]
 custom_minimum_size = Vector2(0, 181)
 layout_mode = 2
-size_flags_horizontal = 1
 size_flags_vertical = 1
-
-[node name="BuildingSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="0"]
-layout_mode = 2
-size_flags_horizontal = 1
 
 [node name="TabContainer" parent="WidgetDetail/Body" index="1"]
 offset_bottom = 229.0
 
 [node name="CaptionBlock" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="0"]
-show_behind_parent = false
-custom_minimum_size = Vector2(0, 0)
 layout_mode = 2
-size_flags_vertical = 1
-mouse_filter = 1
-script = ExtResource("4_bnhs1")
 text = "Lumberjack"
 
 [node name="ProductionChain" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="2" instance=ExtResource("3")]

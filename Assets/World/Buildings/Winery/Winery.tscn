@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://b368fwf8cxu7p" path="res://Assets/World/Buildings/Winery/Sprites/Winery_idle.png" id="3"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Winery/Winery.gd" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2j0wc"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1tidr"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -24,7 +24,7 @@ offset = Vector2(0, 28)
 texture = ExtResource("3")
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_2j0wc")
+material_overlay = SubResource("StandardMaterial3D_1tidr")
 offset = Vector2(0, 28)
 texture = ExtResource("3")
 region_rect = Rect2(0, 0, 640, 640)

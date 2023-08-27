@@ -5,7 +5,7 @@
 [ext_resource type="Shape3D" uid="uid://w7dqwqb3af0c" path="res://Assets/World/Shapes/BoxShape2x2.tres" id="3"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/School/School.gd" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ty7i4"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6m38l"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -23,7 +23,7 @@ texture = ExtResource("1")
 texture = ExtResource("1")
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_ty7i4")
+material_overlay = SubResource("StandardMaterial3D_6m38l")
 texture = ExtResource("1")
 region_rect = Rect2(0, 0, 640, 640)
 

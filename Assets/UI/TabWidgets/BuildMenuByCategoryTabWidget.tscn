@@ -33,17 +33,6 @@
 
 [node name="BuildMenuByCategoryTabWidget" instance=ExtResource("2")]
 
-[node name="ZoomInButton" parent="WidgetTop/ZoomControls" index="0"]
-grow_horizontal = 1
-grow_vertical = 1
-
-[node name="RotateLeftButton" parent="WidgetTop/RotateControls" index="0"]
-grow_horizontal = 1
-grow_vertical = 1
-
-[node name="RotateRightButton" parent="WidgetTop/RotateControls" index="1"]
-grow_vertical = 1
-
 [node name="WidgetDetail" parent="." index="2"]
 offset_bottom = 537.5
 

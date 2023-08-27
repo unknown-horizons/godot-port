@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://Assets/World/Buildings/Agricultural/Alvearies/Alvearies.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://ci6107lpr21ye" path="res://Assets/World/Buildings/Agricultural/Alvearies/Sprites/Alvearies_idle_45.png" id="3_xx24k"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dikxk"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fyd2s"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -27,13 +27,10 @@ region_enabled = true
 region_rect = Rect2(0, 0, 960, 768)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_dikxk")
+material_overlay = SubResource("StandardMaterial3D_fyd2s")
 offset = Vector2(0, 42)
 texture = ExtResource("3_xx24k")
 hframes = 5
 vframes = 4
 region_enabled = true
 region_rect = Rect2(0, 0, 960, 768)
-
-[node name="Area3D" parent="." index="1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)

@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://55vgfoy18shg" path="res://Assets/World/Buildings/Smeltery/Sprites/Smeltery_idle.png" id="3"]
 [ext_resource type="Shape3D" uid="uid://b0tf8160mv311" path="res://Assets/World/Shapes/BoxShape3x3.tres" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rtcvn"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_olnug"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -27,7 +27,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 512, 310)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_rtcvn")
+material_overlay = SubResource("StandardMaterial3D_olnug")
 offset = Vector2(0, 16)
 texture = ExtResource("3")
 region_enabled = true
