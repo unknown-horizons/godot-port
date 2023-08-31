@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://Assets/World/Buildings/Weaver/Weaver.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://b60jffq54oswv" path="res://Assets/World/Buildings/Weaver/Sprites/Weaver_idle.png" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sh1kx"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u2jgh"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -23,7 +23,7 @@ texture = ExtResource("4")
 texture = ExtResource("4")
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_sh1kx")
+material_overlay = SubResource("StandardMaterial3D_u2jgh")
 texture = ExtResource("4")
 region_rect = Rect2(0, 0, 640, 640)
 

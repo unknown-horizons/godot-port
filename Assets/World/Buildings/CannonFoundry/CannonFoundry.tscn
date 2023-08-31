@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://35da3hq4o67v" path="res://Assets/World/Buildings/CannonFoundry/Sprites/CannonFoundry_idle.png" id="3"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/CannonFoundry/CannonFoundry.gd" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cl8n5"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6pp6o"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -26,7 +26,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 384, 384)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_cl8n5")
+material_overlay = SubResource("StandardMaterial3D_6pp6o")
 offset = Vector2(0, 48)
 texture = ExtResource("3")
 region_enabled = true

@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://Assets/World/Buildings/Hunter/Hunter.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://ckj7yd5pvuw5c" path="res://Assets/World/Buildings/Hunter/Sprites/Hunter_idle.png" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v2shf"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5w614"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -23,7 +23,7 @@ texture = ExtResource("4")
 texture = ExtResource("4")
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_v2shf")
+material_overlay = SubResource("StandardMaterial3D_5w614")
 texture = ExtResource("4")
 region_rect = Rect2(0, 0, 640, 640)
 

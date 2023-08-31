@@ -12,9 +12,6 @@ show_if_empty = true
 visible = true
 texture = ExtResource("2")
 
-[node name="TextureRect" parent="." index="2"]
-pivot_offset = Vector2(8, 51)
-
 [node name="VSlider" type="VSlider" parent="." index="3"]
 visible = false
 layout_mode = 0

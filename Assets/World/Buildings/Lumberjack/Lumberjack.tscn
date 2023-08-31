@@ -14,7 +14,7 @@ emission_enabled = true
 emission = Color(1, 1, 1, 1)
 billboard_mode = 1
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yrrtm"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ixlho"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -56,7 +56,7 @@ vframes = 2
 
 [node name="Outline" parent="Billboard" index="2"]
 material_override = SubResource("1")
-material_overlay = SubResource("StandardMaterial3D_yrrtm")
+material_overlay = SubResource("StandardMaterial3D_ixlho")
 texture = ExtResource("1")
 region_enabled = true
 region_rect = Rect2(0, 0, 256, 256)

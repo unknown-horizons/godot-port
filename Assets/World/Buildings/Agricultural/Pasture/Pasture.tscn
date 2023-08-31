@@ -1,17 +1,32 @@
-[gd_scene load_steps=3 format=3 uid="uid://du0d4ks5ykg5u"]
+[gd_scene load_steps=5 format=3 uid="uid://du0d4ks5ykg5u"]
 
 [ext_resource type="PackedScene" uid="uid://gfjfmihmduqa" path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://ci4xjmu83jaa" path="res://Assets/World/Buildings/Agricultural/Pasture/Sprites/Pasture_idle.png" id="3_0lllr"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Agricultural/Pasture/Pasture.gd" id="4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_acf76"]
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+no_depth_test = true
+albedo_texture = ExtResource("3_0lllr")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+billboard_mode = 1
 
 [node name="Pasture" instance=ExtResource("1")]
 script = ExtResource("4")
+texture = ExtResource("3_0lllr")
 
 [node name="Billboard" parent="." index="0"]
 offset = Vector2(0, 42)
-hframes = 20
-vframes = 10
+texture = ExtResource("3_0lllr")
 region_enabled = true
-region_rect = Rect2(0, 0, 3840, 1920)
+region_rect = Rect2(0, 0, 384, 384)
 
-[node name="Area3D" parent="." index="1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+[node name="Outline" parent="Billboard" index="0"]
+material_overlay = SubResource("StandardMaterial3D_acf76")
+offset = Vector2(0, 42)
+texture = ExtResource("3_0lllr")
+region_enabled = true
+region_rect = Rect2(0, 0, 384, 384)

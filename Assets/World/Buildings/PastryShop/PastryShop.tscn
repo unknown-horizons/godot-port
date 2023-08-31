@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://li6xk3n4774q" path="res://Assets/World/Buildings/PastryShop/Sprites/PastryShop_idle.png" id="3"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/PastryShop/PastryShop.gd" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kco57"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ggeyd"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -24,7 +24,7 @@ texture = ExtResource("3")
 region_rect = Rect2(0, 0, 512, 512)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_kco57")
+material_overlay = SubResource("StandardMaterial3D_ggeyd")
 texture = ExtResource("3")
 region_rect = Rect2(0, 0, 512, 512)
 

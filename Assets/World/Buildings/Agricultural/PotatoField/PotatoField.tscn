@@ -1,17 +1,32 @@
-[gd_scene load_steps=3 format=3 uid="uid://h4dlveo0uslj"]
+[gd_scene load_steps=5 format=3 uid="uid://h4dlveo0uslj"]
 
 [ext_resource type="PackedScene" uid="uid://gfjfmihmduqa" path="res://Assets/World/Buildings/Agricultural/Agricultural.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://dkfeeobcq6hm4" path="res://Assets/World/Buildings/Agricultural/PotatoField/Sprites/PotatoField_idle.png" id="3_ch1ic"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Agricultural/PotatoField/PotatoField.gd" id="4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ta0y4"]
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+no_depth_test = true
+albedo_texture = ExtResource("3_ch1ic")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+billboard_mode = 1
 
 [node name="PotatoField" instance=ExtResource("1")]
 script = ExtResource("4")
+texture = ExtResource("3_ch1ic")
 
 [node name="Billboard" parent="." index="0"]
 offset = Vector2(0, 48)
-hframes = 5
-vframes = 1
+texture = ExtResource("3_ch1ic")
 region_enabled = true
-region_rect = Rect2(0, 0, 960, 192)
+region_rect = Rect2(0, 0, 384, 384)
 
-[node name="Area3D" parent="." index="1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+[node name="Outline" parent="Billboard" index="0"]
+material_overlay = SubResource("StandardMaterial3D_ta0y4")
+offset = Vector2(0, 48)
+texture = ExtResource("3_ch1ic")
+region_enabled = true
+region_rect = Rect2(0, 0, 384, 384)

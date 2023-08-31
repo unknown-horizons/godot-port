@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://Assets/World/Buildings/Windmill/Windmill.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://jf5kie7b177c" path="res://Assets/World/Buildings/Windmill/Sprites/Windmill_work_45.png" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qeter"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0vro0"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -30,7 +30,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 768, 640)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_qeter")
+material_overlay = SubResource("StandardMaterial3D_0vro0")
 offset = Vector2(0, 40)
 texture = ExtResource("4")
 hframes = 6

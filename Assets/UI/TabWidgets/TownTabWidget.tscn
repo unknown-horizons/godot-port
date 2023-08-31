@@ -6,17 +6,6 @@
 
 [node name="TownTabWidget" instance=ExtResource("3")]
 
-[node name="ZoomInButton" parent="WidgetTop/ZoomControls" index="0"]
-grow_horizontal = 1
-grow_vertical = 1
-
-[node name="RotateLeftButton" parent="WidgetTop/RotateControls" index="0"]
-grow_horizontal = 1
-grow_vertical = 1
-
-[node name="RotateRightButton" parent="WidgetTop/RotateControls" index="1"]
-grow_vertical = 1
-
 [node name="WidgetDetail" parent="." index="2"]
 anchors_preset = 5
 anchor_top = 0.0

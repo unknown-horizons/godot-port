@@ -13,7 +13,7 @@ emission_enabled = true
 emission = Color(1, 1, 1, 1)
 billboard_mode = 1
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_45iw3"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r3hh8"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -35,11 +35,8 @@ region_rect = Rect2(0, 0, 384, 384)
 
 [node name="Outline" parent="Billboard" index="0"]
 material_override = SubResource("1")
-material_overlay = SubResource("StandardMaterial3D_45iw3")
+material_overlay = SubResource("StandardMaterial3D_r3hh8")
 offset = Vector2(0, 47)
 texture = ExtResource("3")
 region_enabled = true
 region_rect = Rect2(0, 0, 384, 384)
-
-[node name="Area3D" parent="." index="1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)

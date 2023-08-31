@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://Assets/World/Buildings/Stonemason/Stonemason.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://70k3ixfd1gik" path="res://Assets/World/Buildings/Stonemason/Sprites/Stonemason_idle.png" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rxy74"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_26p7v"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -24,7 +24,7 @@ offset = Vector2(0, 28)
 texture = ExtResource("4")
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_rxy74")
+material_overlay = SubResource("StandardMaterial3D_26p7v")
 offset = Vector2(0, 28)
 texture = ExtResource("4")
 region_rect = Rect2(0, 0, 640, 640)

@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://Assets/World/Buildings/WoodenTower/WoodenTower.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://cm1r60u52s1xn" path="res://Assets/World/Buildings/WoodenTower/Sprites/WoodenTower_idle.png" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jgqho"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ag30l"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -26,7 +26,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 256, 416)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_jgqho")
+material_overlay = SubResource("StandardMaterial3D_ag30l")
 offset = Vector2(0, 75)
 texture = ExtResource("4")
 region_enabled = true

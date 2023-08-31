@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://Assets/World/Trees/Tree.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://bpj7a252mpg8h" path="res://Assets/World/Trees/Sprites/Maple1_idle_full.png" id="3"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0jla3"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hjdib"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -22,5 +22,5 @@ texture = ExtResource("3")
 texture = ExtResource("3")
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_0jla3")
+material_overlay = SubResource("StandardMaterial3D_hjdib")
 texture = ExtResource("3")

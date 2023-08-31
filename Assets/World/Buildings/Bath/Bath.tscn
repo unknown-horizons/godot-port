@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://dfuajy04600n4" path="res://Assets/World/Buildings/Bath/Sprites/Bath_idle.png" id="3"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Bath/Bath.gd" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q0lfo"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7ptf7"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -24,7 +24,7 @@ offset = Vector2(0, 28)
 texture = ExtResource("3")
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_q0lfo")
+material_overlay = SubResource("StandardMaterial3D_7ptf7")
 offset = Vector2(0, 28)
 texture = ExtResource("3")
 region_rect = Rect2(0, 0, 640, 640)

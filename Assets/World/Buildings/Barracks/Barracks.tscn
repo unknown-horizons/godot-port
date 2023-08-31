@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://Assets/World/Buildings/Barracks/Barracks.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://cupnb4kfeamsh" path="res://Assets/World/Buildings/Barracks/Sprites/Barracks_idle.png" id="4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_he0ab"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ylaf7"]
 transparency = 2
 alpha_scissor_threshold = 0.05
 alpha_antialiasing_mode = 0
@@ -25,7 +25,7 @@ region_enabled = true
 region_rect = Rect2(0, 0, 384, 384)
 
 [node name="Outline" parent="Billboard" index="0"]
-material_overlay = SubResource("StandardMaterial3D_he0ab")
+material_overlay = SubResource("StandardMaterial3D_ylaf7")
 texture = ExtResource("4")
 region_enabled = true
 region_rect = Rect2(0, 0, 384, 384)
