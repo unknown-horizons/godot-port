@@ -9,9 +9,9 @@ enum SelectionType {
 	BUILDING,
 }
 
-@onready var _parent := get_parent()
-
 @export var selection_tolerance: int = 10
+
+@onready var _parent := get_parent()
 
 var sel_pos_start: Vector2
 var sel_pos_end: Vector2
@@ -34,6 +34,18 @@ func get_selected_units(top_left: Vector2, bottom_right: Vector2) -> Array:
 				print("Selected unit: %s" % unit.name)
 				selected_units.append(unit)
 	return selected_units
+
+func _on_mouse_motion(target: Node, position: Vector2) -> void:
+	# Hover new object
+	if target != last_target:
+		if target is WorldThing:
+			target.set_hover(true)
+
+		# Unhover old object
+		if last_target is WorldThing:
+			last_target.set_hover(false)
+
+		last_target = target
 
 func _on_ia_alt_command_pressed(target: Node, position: Vector2) -> void:
 	# Start selection

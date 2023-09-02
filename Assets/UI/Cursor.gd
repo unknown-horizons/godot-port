@@ -22,14 +22,12 @@ var cursors = {
 	CursorType.CURSOR_TEAR: CURSOR_TEAR
 }
 
-var cursor: int = CursorType.CURSOR_DEFAULT : get = get_cursor, set = set_cursor
+var cursor: int = CursorType.CURSOR_DEFAULT:
+	get:
+		return cursor
+	set(new_cursor):
+		cursor = new_cursor
+		Input.set_custom_mouse_cursor(cursors[cursor])
 
 func _ready() -> void:
 	self.cursor = CursorType.CURSOR_DEFAULT
-
-func set_cursor(new_cursor: int) -> void:
-	cursor = new_cursor
-	Input.set_custom_mouse_cursor(cursors[cursor])
-
-func get_cursor() -> int:
-	return cursor

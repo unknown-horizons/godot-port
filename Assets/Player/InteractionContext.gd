@@ -50,10 +50,12 @@ class_name InteractionContext
 signal switch_context
 signal context_aborted
 
-@onready var _player_camera := owner as Node3D
-
 @export var _context_name: String = "Basic Interaction Context"
 @export var valid_actions: PackedStringArray = ["main_command", "alt_command"]
+
+var last_target: Node3D
+
+@onready var _player_camera := owner as PlayerCamera
 
 func interact(event: InputEvent, target: Node, position: Vector2) -> void:
 	if event.is_action_type():

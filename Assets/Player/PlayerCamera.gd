@@ -1,8 +1,6 @@
 extends Node3D
 class_name PlayerCamera
 
-signal hovered
-signal unhovered
 signal selected(selected_entities)
 signal unselected
 
@@ -14,25 +12,15 @@ var player: Player
 var active_context: InteractionContext
 var selected_entities: Array
 
-var hovered_object: WorldThing : set = set_hovered_object
-
-@onready var hud := $PlayerHUD
-
-@onready var _camera := $RotationY/Camera3D as Camera3D
-
-func set_hovered_object(new_hovered_object: WorldThing) -> void:
-	if new_hovered_object != hovered_object:
+var hovered_object: WorldThing:
+	set(new_hovered_object):
 		prints("set_hovered_object:", new_hovered_object)
 		hovered_object = new_hovered_object
 		emit_signal("hovered")
 
-func _on_WorldThing_mouse_entered(object: WorldThing) -> void:
-	hovered_object = object
-	emit_signal("hovered")
+@onready var hud := $PlayerHUD
 
-func _on_WorldThing_mouse_exited(object: WorldThing) -> void:
-	hovered_object = null
-	emit_signal("unhovered")
+@onready var _camera := $RotationY/Camera3D as Camera3D
 
 func _ready() -> void:
 	abort_context()
@@ -59,13 +47,7 @@ func _unhandled_input(event: InputEvent) -> void:
 		target_object = (target["collider"] as CollisionObject3D).get_parent()
 		target_pos = (Utils.map_3_to_2(target["position"]) as Vector2)
 
-	#if target_object is WorldThing:
-	#	print(target_object)
-
-	#if hovered_object != null:
-	#	target_object = hovered_object
-
-	active_context.interact(event, target_object, target_pos)
+	active_context.interact(event, target_object, ceil(target_pos))
 
 func assign_to_player() -> Player:
 	return Global.World.player if is_instance_valid(Global.World) and is_instance_valid(Global.World.player) else null
@@ -128,20 +110,13 @@ func unset_selection() -> void:
 	emit_signal("unselected")
 
 func raycast_from_mouse(collision_mask: int = -1) -> Dictionary:
-	#var m_pos: Vector2 = get_viewport().get_mouse_position()
-	#var ray_start := _camera.project_ray_origin(m_pos)
-	#var ray_end := ray_start + _camera.project_ray_normal(m_pos) * RAY_LENGTH
-	#var space_state := get_world_3d().direct_space_state
-	#var dict := space_state.intersect_ray(ray_start, ray_end, [], collision_mask, true, true)
-	#return dict
-
 	var mouse_pos := get_viewport().get_mouse_position()
 	var space_state := get_world_3d().direct_space_state
 	var query := PhysicsRayQueryParameters3D.new()
 	query.collide_with_areas = true
 	query.from = _camera.project_ray_origin(mouse_pos)
 	query.to = query.from + _camera.project_ray_normal(mouse_pos) * RAY_LENGTH
-	#query.exclude = [collision_mask] # gridmap.get_static_bodies_rids() TODO
+	query.collision_mask = collision_mask
 
 	var result := space_state.intersect_ray(query)
 	return result

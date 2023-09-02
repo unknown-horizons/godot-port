@@ -12,7 +12,7 @@ extends TileMap3D
 # xxxx
 
 const TILES_PER_SIZE = 4
-const TILES_PER_AXIS = TILES_PER_SIZE / 2
+const TILES_PER_AXIS = TILES_PER_SIZE / 2.0
 
 const DEFAULT_LAND = [3, "straight", 45]
 const SAND = [6, "straight", 45]
@@ -61,9 +61,6 @@ const DEEP_WATER_SOUTHEAST1 = [2, "curve_out", 135]
 const DEEP_WATER_SOUTHWEST1 = [2, "curve_out", 45]
 const DEEP_WATER_NORTHWEST1 = [2, "curve_out", 315]
 
-#current_coords_set: {(0, 0)}
-#current_coords_set: {(0, 1), (1, 0), (0, 0), (1, 1)}
-
 const TILE_OFFSETS = [
 	# Direct connections
 	Vector2( 0, -1), # East
@@ -88,10 +85,10 @@ func _ready() -> void:
 	#if get_parent().is_inside_tree():
 	#	await get_parent().ready
 
-	var map_size = get_parent().map_size as int
+	var map_size := get_parent().map_size as int
 	_resize_tile_map(map_size)
 
-	update_tiles()
+	#update_tiles()
 
 func _process(_delta: float) -> void:
 	if Engine.is_editor_hint():
@@ -103,13 +100,12 @@ func _process(_delta: float) -> void:
 		set_process(false)
 
 func update_tiles() -> void:
-	#print("update_tiles()")
-	#for tile in get_used_tiles():
-		#print(tile)
+	print("update_tiles()")
+	for tile in get_used_tiles():
+		prints(tile, "-", get_item_name(get_tile_item(tile)))
 
 	#for tile_neighbor in TILE_OFFSETS:
 	#	print(tile_neighbor)
-	pass
 
 func fill_terrain() -> void:
 	print("fill_terrain")
@@ -125,22 +121,20 @@ func unfill_terrain() -> void:
 
 func clean_terrain() -> void:
 	print("clean_terrain")
-	for tile in tile_map:
-		tile_map.append(tile)
-
-	#prints("tile_map:", tile_map)
-	for tile in get_used_tiles():
-	# var tile = Vector2(cell.x, cell.z)
-	#	if not tile in tile_map:
-	#		unset_tile(tile)
-		if not tile in tile_map:
-			unset_tile(tile)
+#	prints("tile_map:", tile_map)
+#	for tile in get_used_tiles():
+#		if not tile in tile_map:
+#			unset_tile(tile)
 
 func _resize_tile_map(map_size: int) -> void:
+	#unfill_terrain()
+
 	tile_map = PackedVector2Array()
 	for y in map_size * TILES_PER_AXIS:
 		for x in map_size * TILES_PER_AXIS:
 			tile_map.append(Vector2(x, y))
+
+	#fill_terrain()
 
 func _on_AStarMap_map_size_changed(new_map_size: int) -> void:
 	var map_size = new_map_size

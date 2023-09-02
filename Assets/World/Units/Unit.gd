@@ -31,29 +31,31 @@ const DIRECTION = [
 	Vector2( 1, -1), # UP
 	Vector2( 1,  0)] # UP_RIGHT
 
-#warning-ignore-all:unused_class_variable
-
 # Generic properties
 @export var unit_name = "Untitled" # user defined name for the unit
-@export var faction: Global.Faction = 0 : set = set_faction
-var health = -1 # health must be set or it won't auto destroy itself
+@export var faction: Global.Faction = 0:
+	set(new_faction):
+		faction = new_faction
+
+var health := -1 # health must be set or it won't auto destroy itself
 
 # Pathfinding
 var path = []
-var path_index = 0
+var path_index := 0
 
 var move_vector = Vector2()
 
 # Sprite2D rotation
-var direction = -1 # for non-animated movements, this is the frame_index
-var rotation_offset = 0
+var direction := -1 # for non-animated movements, this is the frame_index
+var rotation_offset := 0
 var rotation_index
 
 var buoy: Buoy = null
 
-@onready var rotation_y: Node3D = get_node_or_null("/root/World/PlayerCamera/RotationY") as Node3D
-@onready var _as_map: Node3D = get_node_or_null("/root/World/AStarMap") as Node3D
-@onready var world: Node3D = get_node_or_null("/root/World") as Node3D
+@onready var world := get_node_or_null("/root/World") as Node3D
+
+@onready var _as_map := get_node_or_null("/root/World/AStarMap") as AStarMap
+@onready var _rotation_y := get_node_or_null("/root/World/PlayerCamera/RotationY") as Node3D
 
 var is_moving = false
 
@@ -61,9 +63,6 @@ func _ready() -> void:
 	super()
 
 	direction = rotation_degree
-
-func set_faction(new_faction: int) -> void:
-	faction = new_faction
 
 func select() -> void:
 	Audio.play_snd_click()
@@ -80,7 +79,7 @@ func deselect() -> void:
 	#$AnimationPlayer.stop()
 
 func move_to(target_pos: Vector2) -> void:
-	path = _as_map.get_tilemap_path(Utils.map_3_to_2(global_transform.origin), target_pos)
+	path = _as_map.get_tile_map_path(Utils.map_3_to_2(global_transform.origin), target_pos)
 	path_index = 0
 	if faction == world.player.faction and not path.is_empty():
 		# Only show when the unit actually moves
@@ -117,10 +116,7 @@ func recalculate_directions() -> void:
 	if Engine.is_editor_hint():
 		return
 
-	if rotation_y == null:
-		rotation_y = get_node("/root/World/PlayerCamera/RotationY")
-
-	match int(round(rotation_y.rotation_degrees.y)):
+	match int(round(_rotation_y.rotation_degrees.y)):
 		-45:
 			rotation_offset = 0
 		45:
@@ -140,7 +136,6 @@ func create_buoy(target_pos: Vector2) -> void:
 		buoy.queue_free()
 	buoy = Buoy.instantiate()
 	buoy.set_position(Utils.map_2_to_3(target_pos))
-	buoy.translate(Vector3(0, 0.2, 0))
 	world.add_child(buoy)
 
 func destroy_buoy() -> void:
