@@ -7,7 +7,7 @@ extends VBoxContainer
 const WIDGET_DETAIL_REQUIRED_Y_POSITION = 157
 
 func _ready() -> void:
-	%Body/TabContainer.resized.connect(Callable(self, "_on_TabContainer_resized"))
+	%Body/TabContainer.resized.connect(_on_TabContainer_resized)
 
 func _process(_delta: float) -> void:
 	if Engine.is_editor_hint():

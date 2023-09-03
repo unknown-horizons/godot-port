@@ -28,7 +28,7 @@ var _drag_pos: Vector2
 var enabled: bool = true : set = set_enabled, get = get_enabled
 
 func _ready() -> void:
-	if not _viewport.size_changed.connect(Callable(self, "_on_viewport_size_changed")):
+	if not _viewport.size_changed.connect(_on_viewport_size_changed):
 		push_error("Failed To connect viewport")
 	_basis = _get_basis()
 

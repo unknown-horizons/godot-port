@@ -19,12 +19,12 @@ func _ready() -> void:
 	for page in %Pages.get_children():
 		if %Pages.get_tab_count() > 1:
 			page_control = page.find_child("PageControl")
-			page_control.get_node("PrevButton").pressed.connect(Callable(self, "_on_PrevButton_pressed"))
-			page_control.get_node("NextButton").pressed.connect(Callable(self, "_on_NextButton_pressed"))
+			page_control.get_node("PrevButton").pressed.connect(_on_PrevButton_pressed)
+			page_control.get_node("NextButton").pressed.connect(_on_NextButton_pressed)
 
 			page_control.visible = true
 
-	%Pages.tab_changed.connect(Callable(self, "_on_Pages_tab_changed"))
+	%Pages.tab_changed.connect(_on_Pages_tab_changed)
 
 	# Force-call to determine initial state of page controls (enabled/disabled)
 	%Pages.tab_changed.emit(%Pages.current_tab)
@@ -39,8 +39,9 @@ func set_has_delete_button(new_has_delete_button: bool) -> void:
 
 	for page in %Pages.get_children():
 		var delete_button := page.find_child("DeleteButton") as TextureButton
-		if not delete_button.pressed.is_connected(Callable(self, callback_function)):
-			delete_button.pressed.connect(Callable(self, callback_function))
+		var _callback_function = Callable(self, callback_function)
+		if not delete_button.pressed.is_connected(_callback_function):
+			delete_button.pressed.connect(_callback_function)
 		delete_button.visible = has_delete_button
 
 func set_has_cancel_button(new_has_cancel_button: bool) -> void:
@@ -61,8 +62,9 @@ func set_has_cancel_button(new_has_cancel_button: bool) -> void:
 			cancel_button = page.find_child("RightPageControls").find_child("CancelButton") as TextureButton
 		else:
 			cancel_button = page.find_child("CancelButton") as TextureButton
-		if not cancel_button.is_connected(pressed_signal, Callable(self, callback_function)):
-			cancel_button.connect(pressed_signal, Callable(self, callback_function))
+		var _callback_function = Callable(self, callback_function)
+		if not cancel_button.is_connected(pressed_signal, _callback_function):
+			cancel_button.connect(pressed_signal, _callback_function)
 		cancel_button.visible = has_cancel_button
 
 
@@ -77,8 +79,9 @@ func set_has_ok_button(new_has_ok_button: bool) -> void:
 
 	for page in %Pages.get_children():
 		var ok_button := page.find_child("OKButton") as TextureButton
-		if not ok_button.is_connected(pressed_signal, Callable(self, callback_function)):
-			ok_button.connect("pressed", Callable(self, "_on_OKButton_pressed"))
+		var _callback_function = Callable(self, callback_function)
+		if not ok_button.is_connected(pressed_signal, _callback_function):
+			ok_button.connect("pressed", _on_OKButton_pressed)
 		ok_button.visible = has_ok_button
 
 func _on_PrevButton_pressed() -> void:

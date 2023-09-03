@@ -23,7 +23,7 @@ var rotation_offset := 0
 func _ready():
 	super()
 	add_child(timer)
-	timer.timeout.connect(Callable(self, "_on_Timer_timeout"))
+	timer.timeout.connect(_on_Timer_timeout)
 	timer.start(1.001 - anim_speed)
 
 func _process(_delta: float) -> void:

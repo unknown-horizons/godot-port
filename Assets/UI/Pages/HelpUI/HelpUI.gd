@@ -11,12 +11,8 @@ func _ready() -> void:
 	page_control.get_node("NextButton").disabled = true
 
 	# These contain hyperlinks.
-	(%Pages/HelpUIInfo.find_child("RichTextLabel5") as RichTextLabel).meta_clicked.connect(
-		Callable(self, "_on_RichTextLabel_meta_clicked")
-	)
-	(%Pages/HelpUIInfo.find_child("RichTextLabel6") as RichTextLabel).meta_clicked.connect(
-		Callable(self, "_on_RichTextLabel_meta_clicked")
-	)
+	(%Pages/HelpUIInfo.find_child("RichTextLabel5") as RichTextLabel).meta_clicked.connect(_on_RichTextLabel_meta_clicked)
+	(%Pages/HelpUIInfo.find_child("RichTextLabel6") as RichTextLabel).meta_clicked.connect(_on_RichTextLabel_meta_clicked)
 
 func _on_RichTextLabel_meta_clicked(meta: Variant) -> void:
 	print(meta)
