@@ -9,4 +9,4 @@ func _ready() -> void:
 	if Engine.is_editor_hint():
 		return
 
-	faction_indicator.texture = Global.FACTION_FLAGS[Global.faction]
+	faction_indicator.texture = Global.FACTIONS[Global.faction].emblem

@@ -144,13 +144,13 @@ func _on_PlayerCamera_selected(selected_entities: Array) -> void:
 			new_context = UIContext.TROOP
 			break
 		if entity is Ship:
-			if entity.faction == Global.Game.player.faction:
+			if entity.faction == Global.World.player.faction:
 				new_context = UIContext.SHIP
 			else:
 				new_context = UIContext.SHIP_FOREIGN
 
 			context_data = {
-				"FactionIndicator": Global.FACTION_FLAGS[entity.faction],
+				"FactionIndicator": Global.FACTIONS[entity.faction].emblem,
 				"Caption": entity.unit_name,
 			}
 

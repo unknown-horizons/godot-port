@@ -6,4 +6,4 @@ class_name GameSpeedChangeButton
 func _pressed() -> void:
 	super()
 
-	Global.Game.set_game_speed(Engine.time_scale + game_speed_change)
+	Global.World.set_game_speed(Engine.time_scale + game_speed_change)

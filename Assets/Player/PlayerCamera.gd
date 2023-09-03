@@ -68,7 +68,7 @@ func _unhandled_input(event: InputEvent) -> void:
 	active_context.interact(event, target_object, target_pos)
 
 func assign_to_player() -> Player:
-	return Global.Game.player if Global.Game != null and Global.Game.player else null
+	return Global.World.player if is_instance_valid(Global.World) and is_instance_valid(Global.World.player) else null
 
 func set_selection(new_selection: Array) -> void:
 	if new_selection.is_empty():

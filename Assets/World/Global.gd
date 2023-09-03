@@ -129,6 +129,24 @@ enum Faction {
 	BLACK,
 }
 
+const FACTIONS = [
+	preload("res://Assets/World/Factions/None.tres"),
+	preload("res://Assets/World/Factions/Red.tres"),
+	preload("res://Assets/World/Factions/Blue.tres"),
+	preload("res://Assets/World/Factions/DarkGreen.tres"),
+	preload("res://Assets/World/Factions/Orange.tres"),
+	preload("res://Assets/World/Factions/Purple.tres"),
+	preload("res://Assets/World/Factions/Cyan.tres"),
+	preload("res://Assets/World/Factions/Yellow.tres"),
+	preload("res://Assets/World/Factions/Magenta.tres"),
+	preload("res://Assets/World/Factions/Teal.tres"),
+	preload("res://Assets/World/Factions/Lime.tres"),
+	preload("res://Assets/World/Factions/Bordeaux.tres"),
+	preload("res://Assets/World/Factions/White.tres"),
+	preload("res://Assets/World/Factions/Gray.tres"),
+	preload("res://Assets/World/Factions/Black.tres"),
+]
+
 const RESOURCE_TYPES = [
 	null,
 	preload("res://Assets/UI/Icons/Resources/32/001.png"),
@@ -232,60 +250,6 @@ const RESOURCE_TYPES = [
 	preload("res://Assets/UI/Icons/Resources/32/099.png"),
 ]
 
-const FACTIONS = [
-	"None",
-	"Red",
-	"Blue",
-	"Dark Green",
-	"Orange",
-	"Purple",
-	"Cyan",
-	"Yellow",
-	"Pink",
-	"Teal",
-	"Lime Green",
-	"Bordeaux",
-	"White",
-	"Gray",
-	"Black",
-]
-
-const FACTION_FLAGS = [
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_no_player.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_red.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_blue.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_dark_green.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_orange.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_purple.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_cyan.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_yellow.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_pink.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_teal.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_lime_green.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_bordeaux.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_white.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_gray.png"),
-	preload("res://Assets/UI/Images/TabWidget/Emblems/emblem_black.png"),
-]
-
-const FACTION_COLORS = [
-	Color8(  0,   0,   0,   0), # None (transparent black).
-	Color8(250,  10,  10, 255), # Red.
-	Color8(  0,  71, 181, 255), # Sea Blue.
-	Color8(  0, 158,  23, 255), # Dark Green.
-	Color8(224, 102,   0, 255), # Orange.
-	Color8(128,   0, 128, 255), # Purple.
-	Color8(  0, 255, 255, 255), # Cyan.
-	Color8(255, 214,   0, 255), # Yellow.
-	Color8(255,   0, 255, 255), # Magenta.
-	Color8(  0, 145, 140, 255), # Teal.
-	Color8(  0, 255,   0, 255), # Lime Green.
-	Color8(150,   5,  41, 255), # Bordeaux Red.
-	Color8(255, 255, 255, 255), # White.
-	Color8(128, 128, 128, 255), # Gray.
-	Color8(  0,   0,   0, 255), # Black.
-]
-
 const MESSAGE_SCENE = preload("res://Assets/UI/Notification/Message.tscn")
 
 #const WINDOW_MODES = [
@@ -327,7 +291,7 @@ var has_traders := false
 var has_pirates := true
 var has_disasters := false
 
-var Game: Node3D = null
+var World: Node3D = null
 var PlayerStart: Node3D = null
 
 @warning_ignore("unused_private_class_variable")
@@ -360,29 +324,6 @@ func set_audio_volumes() -> void:
 	Audio.set_voice_volume(Config.voice_volume)
 
 func _input(event: InputEvent) -> void:
-	if Engine.is_editor_hint():
-		return
-
-	# Only available during gameplay
-	if get_tree().get_root().get_node_or_null("World/WorldEnvironment") != null:
-		if event.is_action_pressed("time_speed_up"):
-			Engine.time_scale += clamp(.1, 0, 2)
-			prints("Time Scale:", Engine.time_scale)
-		if event.is_action_pressed("time_slow_down"):
-			Engine.time_scale -= clamp(.1, 0, 2)
-			prints("Time Scale:", Engine.time_scale)
-		if event.is_action_pressed("time_reset"):
-			Engine.time_scale = 1
-			prints("Time Scale:", Engine.time_scale)
-
-		if event.is_action_pressed("pause_scene"):
-			get_tree().paused = !get_tree().paused
-			print(get_tree().paused)
-
-		if event.is_action_pressed("restart_scene"):
-			#warning-ignore:return_value_discarded
-			get_tree().reload_current_scene()
-
 	if event.is_action_pressed("toggle_fullscreen"):
 		var window_mode = Config.window_mode
 
@@ -394,6 +335,5 @@ func _input(event: InputEvent) -> void:
 		Config.window_mode = window_mode
 
 		#Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
-
-	if event.is_action_pressed("quit_game"):
+	elif event.is_action_pressed("quit_game"):
 		get_tree().quit()

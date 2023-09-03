@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="FactionData" load_steps=3 format=3 uid="uid://bcj6dsnxrm1j4"]
+
+[ext_resource type="Texture2D" uid="uid://dxfegp0js32rs" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_bordeaux.png" id="1_fndhj"]
+[ext_resource type="Script" path="res://Assets/World/Factions/FactionData.gd" id="2_xlfxc"]
+
+[resource]
+script = ExtResource("2_xlfxc")
+name = "Bordeaux"
+emblem = ExtResource("1_fndhj")
+color = Color(0.588235, 0.0196078, 0.160784, 1)

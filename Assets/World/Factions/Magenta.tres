@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="FactionData" load_steps=3 format=3 uid="uid://hbwgh4qp77d7"]
+
+[ext_resource type="Texture2D" uid="uid://dvamp0o0sdsyh" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_pink.png" id="1_1hwxn"]
+[ext_resource type="Script" path="res://Assets/World/Factions/FactionData.gd" id="2_otv4d"]
+
+[resource]
+script = ExtResource("2_otv4d")
+name = "Pink"
+emblem = ExtResource("1_1hwxn")
+color = Color(1, 0, 1, 1)

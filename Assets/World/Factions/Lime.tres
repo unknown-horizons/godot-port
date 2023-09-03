@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="FactionData" load_steps=3 format=3 uid="uid://bsm0256bhk4fm"]
+
+[ext_resource type="Texture2D" uid="uid://c5jntrmwtwijo" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_lime_green.png" id="1_wnfcc"]
+[ext_resource type="Script" path="res://Assets/World/Factions/FactionData.gd" id="2_vvqak"]
+
+[resource]
+script = ExtResource("2_vvqak")
+name = "Lime Green"
+emblem = ExtResource("1_wnfcc")
+color = Color(0, 1, 0, 1)
