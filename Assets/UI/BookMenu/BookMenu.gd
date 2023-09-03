@@ -19,12 +19,12 @@ func _ready() -> void:
 	for page in %Pages.get_children():
 		if %Pages.get_tab_count() > 1:
 			page_control = page.find_child("PageControl")
-			page_control.get_node("PrevButton").pressed.connect(_on_PrevButton_pressed)
-			page_control.get_node("NextButton").pressed.connect(_on_NextButton_pressed)
+			SignalUtils.ensure_connected(page_control.get_node("PrevButton").pressed, _on_PrevButton_pressed)
+			SignalUtils.ensure_connected(page_control.get_node("NextButton").pressed, _on_NextButton_pressed)
 
 			page_control.visible = true
 
-	%Pages.tab_changed.connect(_on_Pages_tab_changed)
+	SignalUtils.ensure_connected(%Pages.tab_changed, _on_Pages_tab_changed)
 
 	# Force-call to determine initial state of page controls (enabled/disabled)
 	%Pages.tab_changed.emit(%Pages.current_tab)
