@@ -152,8 +152,8 @@ func switch_context(new_context: InteractionContext) -> void:
 	if active_context:
 		active_context._on_exit()
 	active_context = new_context
-	SignalUtils.ensure_connected(active_context.switch_context, switch_context)
-	SignalUtils.ensure_connected(active_context.context_aborted, abort_context)
+	Utils.ensure_connected(active_context.switch_context, switch_context)
+	Utils.ensure_connected(active_context.context_aborted, abort_context)
 	active_context._on_enter()
 
 func abort_context() -> void:
