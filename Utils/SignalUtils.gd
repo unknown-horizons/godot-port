@@ -1,6 +1,5 @@
 class_name SignalUtils
 
-
 ## Makes sure the given signal is connected to the given callable and connects it otherwise.
 static func ensure_connected(_signal: Signal, callable: Callable):
 	assert(callable.is_valid())
