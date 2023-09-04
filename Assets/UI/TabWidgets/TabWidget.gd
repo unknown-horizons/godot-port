@@ -29,9 +29,9 @@ func _ready() -> void:
 	if body.get_child_count() > 0:
 		for child_container in body.get_children():
 			#prints("Attach signals to", child_container.name, "of", self.name)
-			#child_container.resized.connect(Callable(self, "_on_TabContainer_resized"))
-			#child_container.draw.connect(Callable(self, "_on_TabContainer_draw"))
-			child_container.sort_children.connect(Callable(self, "_on_TabContainer_sort_children"))
+			#child_container.resized.connect(_on_TabContainer_resized)
+			#child_container.draw.connect(_on_TabContainer_draw)
+			child_container.sort_children.connect(_on_TabContainer_sort_children)
 
 #func _process(_delta: float) -> void:
 #	if Engine.is_editor_hint():

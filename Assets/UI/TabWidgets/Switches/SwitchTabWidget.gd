@@ -17,7 +17,7 @@ class_name SwitchTabWidget
 #
 #func _listen_to_other_switches() -> void:
 #	for sibling in get_parent().get_children():
-#		sibling.tab_changed.connect(Callable(self, "_on_SwitchTabWidget_tab_changed"))
+#		sibling.tab_changed.connect(_on_SwitchTabWidget_tab_changed)
 
 func _draw() -> void:
 #	if texture_normal:
@@ -35,8 +35,7 @@ func get_tab_container() -> TabContainer:
 
 			for switch in get_parent().get_children():
 				switch.tab_container = tab_container
-				if !tab_container.tab_changed.is_connected(Callable(switch, "_on_TabContainer_tab_changed")):
-					tab_container.tab_changed.connect(Callable(switch, "_on_TabContainer_tab_changed"))
+				Utils.ensure_connected(tab_container.tab_changed, _on_TabContainer_tab_changed)
 
 	return tab_container
 

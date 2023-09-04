@@ -5,7 +5,7 @@ extends HBoxContainer
 
 func _ready() -> void:
 	for choice in choices.get_children():
-		choice.gui_input.connect(Callable(self, "_on_choice_gui_input").bind(choice))
+		choice.gui_input.connect(_on_choice_gui_input.bind(choice))
 
 		if choice.color_to_faction == Global.faction:
 			selected_color.color = choice.color

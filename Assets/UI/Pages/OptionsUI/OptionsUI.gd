@@ -73,7 +73,7 @@ func _ready() -> void:
 	# Window mode
 	settings["WindowMode"].options = Global.WINDOW_MODES.values()
 	settings["WindowMode"].selected = Config.window_mode
-	settings["WindowMode"].item_selected.connect(Callable(self, "_on_WindowMode_item_selected"))
+	Utils.ensure_connected(settings["WindowMode"].item_selected, _on_WindowMode_item_selected)
 	settings["WindowMode"].item_selected.emit(Config.window_mode)
 
 	# Populate with available resolutions
@@ -81,20 +81,20 @@ func _ready() -> void:
 	for screen_resolution_index in SCREEN_RESOLUTIONS.size():
 		if Config.screen_resolution == SCREEN_RESOLUTIONS[screen_resolution_index]:
 			settings["ScreenResolution"].selected = screen_resolution_index
-	settings["ScreenResolution"].item_selected.connect(Callable(self, "_on_ScreenResolution_item_selected"))
+	Utils.ensure_connected(settings["ScreenResolution"].item_selected, _on_ScreenResolution_item_selected)
 
 	# Audio parameters
 	settings["MasterVolume"].value = Config.master_volume
-	settings["MasterVolume"].value_changed.connect(Callable(self, "_on_MasterVolume_value_changed"))
+	Utils.ensure_connected(settings["MasterVolume"].value_changed, _on_MasterVolume_value_changed)
 
 	settings["MusicVolume"].value = Config.music_volume
-	settings["MusicVolume"].value_changed.connect(Callable(self, "_on_MusicVolume_value_changed"))
+	Utils.ensure_connected(settings["MusicVolume"].value_changed, _on_MusicVolume_value_changed)
 
 	settings["EffectsVolume"].value = Config.effects_volume
-	settings["EffectsVolume"].value_changed.connect(Callable(self, "_on_EffectsVolume_value_changed"))
+	Utils.ensure_connected(settings["EffectsVolume"].value_changed, _on_EffectsVolume_value_changed)
 
 	settings["VoiceVolume"].value = Config.voice_volume
-	settings["VoiceVolume"].value_changed.connect(Callable(self, "_on_VoiceVolume_value_changed"))
+	Utils.ensure_connected(settings["VoiceVolume"].value_changed, _on_VoiceVolume_value_changed)
 
 func populate_dropdown(dropdown: OptionButton, items: Dictionary) -> void:
 	for item in items.values():

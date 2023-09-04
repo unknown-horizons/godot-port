@@ -5,8 +5,7 @@ func _on_OptionButton_item_selected(_index: int) -> void:
 
 func _add_hover() -> void:
 	# Restore color override hack when previously unhovered.
-	#add_theme_color_override("font_hover_color", null) # Why does not null work? How to clear properly?
-	set("custom_colors/font_hover_color", null) # Use this then.
+	remove_theme_color_override("font_hover_color")
 
 	if has_theme_icon("arrow_hover", "OptionButton") and not has_theme_icon_override("arrow"):
 		add_theme_icon_override("arrow", load(ProjectSettings.get_setting("gui/theme/custom")).get_icon("arrow_hover", "OptionButton"))
@@ -16,7 +15,7 @@ func _remove_hover() -> void:
 	add_theme_color_override("font_hover_color", load(ProjectSettings.get_setting("gui/theme/custom")).get_color("font_color", "OptionButton"))
 
 	if has_theme_icon_override("arrow"):
-		add_theme_icon_override("arrow", null)
+		remove_theme_icon_override("arrow")
 
 func _notification(what: int) -> void:
 	match what:

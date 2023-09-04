@@ -9,7 +9,7 @@ func _ready() -> void:
 	call_deferred("connect_game") # waiting for Global.Game to be set
 
 func connect_game() -> void:
-	Global.Game.game_speed_changed.connect(Callable(self, "_on_game_speed_changed"))
+	Global.Game.game_speed_changed.connect(_on_game_speed_changed)
 
 func _on_game_speed_changed(new_game_speed: float) -> void:
 	text = "%1.1fx" % new_game_speed

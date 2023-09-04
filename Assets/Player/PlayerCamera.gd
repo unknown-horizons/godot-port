@@ -152,10 +152,8 @@ func switch_context(new_context: InteractionContext) -> void:
 	if active_context:
 		active_context._on_exit()
 	active_context = new_context
-	if not active_context.switch_context.is_connected(Callable(self, "switch_context")):
-		active_context.switch_context.connect(Callable(self, "switch_context"))
-	if not active_context.context_aborted.is_connected(Callable(self, "abort_context")):
-		active_context.context_aborted.connect(Callable(self, "abort_context"))
+	Utils.ensure_connected(active_context.switch_context, switch_context)
+	Utils.ensure_connected(active_context.context_aborted, abort_context)
 	active_context._on_enter()
 
 func abort_context() -> void:

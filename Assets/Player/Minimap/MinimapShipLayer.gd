@@ -29,7 +29,7 @@ func draw_layer():
 	timer = $Timer
 	minimap = get_parent() as Minimap
 
-	timer.timeout.connect(Callable(self, "get_ships"))
+	timer.timeout.connect(get_ships)
 
 func get_ships():
 		# get player ship(s)
