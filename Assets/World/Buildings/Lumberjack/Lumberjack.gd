@@ -168,6 +168,8 @@ func remove_resource() -> void:
 	pass # TODO
 
 func _on_camera_rotate_left() -> void:
+	super()
+
 	if null in [resource_overlay, resource_overlay2]: return
 
 	resource_overlay.frame = wrapi(resource_overlay.frame - 1, 0,
@@ -176,6 +178,8 @@ func _on_camera_rotate_left() -> void:
 		resource_overlay2.hframes * resource_overlay2.vframes)
 
 func _on_camera_rotate_right() -> void:
+	super()
+
 	if null in [resource_overlay, resource_overlay2]: return
 
 	resource_overlay.frame = wrapi(resource_overlay.frame + 1, 0,

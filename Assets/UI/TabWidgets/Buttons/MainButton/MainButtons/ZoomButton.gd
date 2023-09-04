@@ -1,10 +1,8 @@
-@tool
 extends WidgetButton
 class_name ZoomButton
 
 enum ZOOM_DIRECTION {IN, OUT}
 @export var zoom_direction: ZOOM_DIRECTION
-
 
 func _ready() -> void:
 	pressed.connect(Callable(self, "_on_ZoomButton_pressed"))
