@@ -175,15 +175,15 @@ func _on_Area_input_event(camera: Node, event: InputEvent, position: Vector3, _n
 
 func _on_Area_mouse_entered() -> void:
 	prints("WorldThing::_on_Area_mouse_entered()")
-	if Global.Game.player and Global.Game.player.camera:
-		Global.Game.player.camera._on_WorldThing_mouse_entered(self)
+	if Global.World.player and Global.World.player.camera:
+		Global.World.player.camera._on_WorldThing_mouse_entered(self)
 	#_billboard.alpha_cut = SpriteBase3D.ALPHA_CUT_OPAQUE_PREPASS
 	_outline.visible = true
 
 func _on_Area_mouse_exited() -> void:
 	print("WorldThing::_on_Area_mouse_exited()")
-	if Global.Game.player and Global.Game.player.camera:
-		Global.Game.player.camera._on_WorldThing_mouse_exited(self)
+	if Global.World.player and Global.World.player.camera:
+		Global.World.player.camera._on_WorldThing_mouse_exited(self)
 	#_billboard.alpha_cut = SpriteBase3D.ALPHA_CUT_DISABLED
 	_outline.visible = false
 

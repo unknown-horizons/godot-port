@@ -1,5 +1,4 @@
 extends Node3D
-class_name Game
 
 signal notification(message_type: int, message_text: String)
 signal game_speed_changed(new_game_speed: float)
@@ -15,7 +14,7 @@ var player: Player = null
 var ai_players = []
 
 func _ready() -> void:
-	Global.Game = self
+	Global.World = self
 	player_start = Global.PlayerStart
 
 	randomize()
@@ -26,9 +25,31 @@ func _process(_delta: float) -> void:
 	if not is_game_running:
 		start_game()
 
-# Notification test (press N within a game session)
 func _input(event: InputEvent) -> void:
-	if event.is_action_pressed("debug_raise_notification"):
+	# Only available during gameplay
+	if event.is_action_pressed("time_speed_up"):
+		get_viewport().set_input_as_handled()
+		Engine.time_scale += clamp(.1, 0, 2)
+		prints("Time Scale:", Engine.time_scale)
+	elif event.is_action_pressed("time_slow_down"):
+		get_viewport().set_input_as_handled()
+		Engine.time_scale -= clamp(.1, 0, 2)
+		prints("Time Scale:", Engine.time_scale)
+	elif event.is_action_pressed("time_reset"):
+		get_viewport().set_input_as_handled()
+		Engine.time_scale = 1
+		prints("Time Scale:", Engine.time_scale)
+	elif event.is_action_pressed("pause_scene"):
+		get_viewport().set_input_as_handled()
+		get_tree().paused = !get_tree().paused
+		prints("paused:", get_tree().paused)
+	elif event.is_action_pressed("restart_scene"):
+		get_viewport().set_input_as_handled()
+		#warning-ignore:return_value_discarded
+		get_tree().reload_current_scene()
+	elif event.is_action_pressed("debug_raise_notification"):
+		get_viewport().set_input_as_handled()
+		# Notification test (press N within a game session)
 		emit_signal("notification", 3, "This is a test notification.")
 
 func start_game() -> void:

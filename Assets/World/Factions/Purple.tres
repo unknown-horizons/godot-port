@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="FactionData" load_steps=3 format=3 uid="uid://bc1hbkb060dov"]
+
+[ext_resource type="Texture2D" uid="uid://djl0psvlm5a4m" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_purple.png" id="1_t71b6"]
+[ext_resource type="Script" path="res://Assets/World/Factions/FactionData.gd" id="2_ftyla"]
+
+[resource]
+script = ExtResource("2_ftyla")
+name = "Purple"
+emblem = ExtResource("1_t71b6")
+color = Color(0.501961, 0, 0.501961, 1)

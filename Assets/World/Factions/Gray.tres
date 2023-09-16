@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="FactionData" load_steps=3 format=3 uid="uid://c1c1ct71ifi3r"]
+
+[ext_resource type="Texture2D" uid="uid://dvld4fj3lq5xs" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_gray.png" id="1_q17nn"]
+[ext_resource type="Script" path="res://Assets/World/Factions/FactionData.gd" id="2_5f74a"]
+
+[resource]
+script = ExtResource("2_5f74a")
+name = "Gray"
+emblem = ExtResource("1_q17nn")
+color = Color(0.501961, 0.501961, 0.501961, 1)

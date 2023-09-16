@@ -1,9 +1,9 @@
 [gd_scene load_steps=10 format=3 uid="uid://b3jx1swk07856"]
 
 [ext_resource type="PackedScene" uid="uid://dis2urkbeqvnk" path="res://Assets/Player/PlayerStart.tscn" id="1"]
+[ext_resource type="Script" path="res://Assets/World/World.gd" id="1_w7xx4"]
 [ext_resource type="MeshLibrary" uid="uid://lpmno4f5y77j" path="res://Assets/World/Terrain/TerrainMeshLibrary.tres" id="2"]
 [ext_resource type="PackedScene" uid="uid://ctbaljo7ulect" path="res://Assets/Player/PlayerCamera.tscn" id="4"]
-[ext_resource type="Script" path="res://Assets/World/Game.gd" id="5"]
 [ext_resource type="Script" path="res://Assets/World/Terrain.gd" id="7"]
 [ext_resource type="Script" path="res://Assets/World/AStarMap.gd" id="8"]
 [ext_resource type="MeshLibrary" path="res://Assets/World/Buildings/Streets/TrailMeshLibrary.meshlib" id="9"]
@@ -13,7 +13,7 @@
 size = Vector3(200, 0, 200)
 
 [node name="World" type="Node3D"]
-script = ExtResource("5")
+script = ExtResource("1_w7xx4")
 
 [node name="AStarMap" type="Node3D" parent="."]
 script = ExtResource("8")

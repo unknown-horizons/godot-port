@@ -6,7 +6,7 @@ class_name Huker
 
 func update_faction_color() -> void:
 	if faction_color != null:
-		faction_color.modulate = Global.FACTION_COLORS[faction]
+		faction_color.modulate = Global.FACTIONS[faction].color
 
 		# Match rotation of the ship's color outline with the main texture rotation
 		faction_color.frame = _billboard.frame
