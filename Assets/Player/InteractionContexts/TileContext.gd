@@ -23,10 +23,10 @@ func _ready() -> void:
 	set_process(false)
 
 func show_phantom_tile(tile_pos: Vector2) -> void:
-	phantom_tile.position = streets.map_to_local(Vector3i(tile_pos.x,0,tile_pos.y))
+	phantom_tile.position = streets.map_to_local(Utils.map_2_to_3(Vector2(tile_pos)))
 
 func handle_tiles(raycast_position: Vector2) -> void:
-	var tile_pos = streets.world_to_tilemap(raycast_position)
+	var tile_pos = streets.local_to_tile_map(raycast_position)
 	#var tile_item = streets.get_tile_item(tile_pos)
 	#var mesh_library = streets.mesh_library
 	#var item_name = mesh_library.get_item_name(tile_item)

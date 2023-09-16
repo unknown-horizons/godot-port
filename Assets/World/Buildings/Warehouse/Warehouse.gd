@@ -32,7 +32,7 @@ const TIERS = [
 	WAREHOUSE_STONE_IDLE,
 ]
 
-@export var tier: int : set = set_tier # (int, 0, 4)
+@export var tier: int : set = set_tier
 
 func animate() -> void:
 	match action:
