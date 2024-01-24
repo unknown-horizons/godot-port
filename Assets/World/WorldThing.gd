@@ -43,8 +43,8 @@ func _ready() -> void:
 	set_rotation_degree(rotation_degree)
 
 	if not Engine.is_editor_hint():
-		Global.camera_rotate_left.connect(Callable(self, "_on_camera_rotate_left"))
-		Global.camera_rotate_right.connect(Callable(self, "_on_camera_rotate_right"))
+		Global.camera_rotate_left.connect(_on_camera_rotate_left)
+		Global.camera_rotate_right.connect(_on_camera_rotate_right)
 
 func _process(_delta: float) -> void:
 	if Engine.is_editor_hint():

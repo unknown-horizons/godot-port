@@ -4,8 +4,8 @@ signal camera_rotate_left
 signal camera_rotate_right
 signal camera_zoom_in
 signal camera_zoom_out
-signal camera_max_zoom(flag)
-signal camera_min_zoom(flag)
+signal camera_max_zoom(is_limit_reached: bool)
+signal camera_min_zoom(is_limit_reached: bool)
 
 enum WindowMode {
 	WINDOWED,
