@@ -31,24 +31,21 @@ func _ready() -> void:
 	_viewport.size_changed.connect(_on_viewport_size_changed)
 	_basis = _get_basis()
 
+	Global.camera_zoom_in.connect(Callable(self, "_on_camera_zoom_in"))
+	Global.camera_zoom_out.connect(Callable(self, "_on_camera_zoom_out"))
+	Global.camera_rotate_left.connect(func(): rotate(-PI/2))
+	Global.camera_rotate_right.connect(func(): rotate(PI/2))
+
 func _process(delta: float) -> void:
 	_move(delta)
 	_move_drag()
 
 func _input(event: InputEvent) -> void:
-	if event.is_action_pressed("rotate_left"):
-		_rotate(-PI/2)
-
-	elif event.is_action_pressed("rotate_right"):
-		_rotate(PI/2)
-
-	elif event.is_action_pressed("zoom_in"):
-		if _camera.size > ZOOM_IN_LIMIT:
-			_zoom(-ZOOM_VALUE)
+	if event.is_action_pressed("zoom_in"):
+		_zoom_mouse(-ZOOM_VALUE)
 
 	elif event.is_action_pressed("zoom_out"):
-		if _camera.size < ZOOM_OUT_LIMIT:
-			_zoom(ZOOM_VALUE)
+		_zoom_mouse(ZOOM_VALUE)
 
 func _move(delta: float) -> void:
 	var movement_scale: float = delta * MOVE_SPEED * _camera.size
@@ -74,18 +71,45 @@ func _move_drag() -> void:
 			_origin.translate(move_dir)
 			_drag_pos = new_drag_pos
 
-func _rotate(rotation: float) -> void:
+func rotate(rotation: float) -> void:
 	_rotation_y.rotate_y(rotation)
 	_basis = _get_basis()
 
-func _zoom(zoom_value: float) -> void:
-	var m_pos := _viewport.get_mouse_position()
-	var start_result := _raycast_from_mouse(m_pos, 1)
+func _is_zoom_within_limit(zoom_value: float) -> bool:
+	return (zoom_value < 0 and _camera.size > ZOOM_IN_LIMIT) or (zoom_value > 0 and _camera.size < ZOOM_OUT_LIMIT)
+
+func _zoom_limit_check():
+	Global.emit_signal("camera_max_zoom", _camera.size <= ZOOM_IN_LIMIT)
+	Global.emit_signal("camera_min_zoom", _camera.size >= ZOOM_OUT_LIMIT)
+
+func _zoom_mouse(zoom_value: float) -> void:
+	if _is_zoom_within_limit(zoom_value):
+		var m_pos := _viewport.get_mouse_position()
+		var start_result := _raycast_from_mouse(m_pos, 1)
+		_zoom_camera(zoom_value)
+		var end_result := _raycast_from_mouse(m_pos, 1)
+		if not (start_result.is_empty() and end_result.is_empty()):
+			var move_dir: Vector3i = start_result.position - end_result.position
+			_origin.translate(move_dir)
+
+		_zoom_limit_check()
+
+func _zoom_camera(zoom_value: float) -> void:
 	_camera.size += zoom_value
-	var end_result := _raycast_from_mouse(m_pos, 1)
-	if not (start_result.is_empty() and end_result.is_empty()):
-		var move_dir: Vector3i = start_result.position - end_result.position
-		_origin.translate(move_dir)
+
+func _on_camera_zoom_in() -> void:
+	var zoom_value = -ZOOM_VALUE
+
+	if _is_zoom_within_limit(zoom_value):
+		_zoom_camera(zoom_value)
+		_zoom_limit_check()
+
+func _on_camera_zoom_out() -> void:
+	var zoom_value = ZOOM_VALUE
+
+	if _is_zoom_within_limit(zoom_value):
+		_zoom_camera(zoom_value)
+		_zoom_limit_check()
 
 func _raycast_from_mouse(m_pos: Vector2, collision_mask: int) -> Dictionary:
 	var mouse_pos := get_viewport().get_mouse_position()

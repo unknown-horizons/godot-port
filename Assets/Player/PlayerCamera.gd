@@ -19,6 +19,7 @@ var hovered_object: WorldThing : set = set_hovered_object
 @onready var hud := $PlayerHUD
 
 @onready var _camera := $RotationY/Camera3D as Camera3D
+@onready var _camera_controls: Node = $CameraControls
 
 func set_hovered_object(new_hovered_object: WorldThing) -> void:
 	if new_hovered_object != hovered_object:
@@ -177,3 +178,9 @@ func _on_PlayerHUD_button_diplomacy_pressed() -> void:
 
 func _on_PlayerHUD_button_game_menu_pressed() -> void:
 	prints("TODO: Open Game Menu")
+
+func _on_PlayerHUD_button_rotate_left_pressed() -> void:
+	Global.camera_rotate_left.emit()
+
+func _on_PlayerHUD_button_rotate_right_pressed() -> void:
+	Global.camera_rotate_right.emit()

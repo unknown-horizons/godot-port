@@ -2,6 +2,9 @@
 extends Control
 class_name PlayerHUD
 
+signal button_rotate_left_pressed
+signal button_rotate_right_pressed
+
 signal button_tear_pressed
 signal button_logbook_pressed
 signal button_build_menu_pressed
@@ -178,6 +181,12 @@ func _get_context_type(entity: WorldThing) -> int:
 func _on_PlayerCamera_unselected() -> void:
 	prints("_on_PlayerCamera_unselected")
 	self.ui_context = UIContext.NONE
+
+func _on_TabWidget_button_rotate_left_pressed() -> void:
+	emit_signal("button_rotate_left_pressed")
+
+func _on_TabWidget_button_rotate_right_pressed() -> void:
+	emit_signal("button_rotate_right_pressed")
 
 func _on_TabWidget_button_tear_pressed() -> void:
 	emit_signal("button_tear_pressed")

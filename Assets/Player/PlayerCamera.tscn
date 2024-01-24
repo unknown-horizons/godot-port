@@ -60,6 +60,8 @@ _context_name = "Tear"
 [connection signal="selected" from="SelectionBox/SelectionContext" to="." method="set_selection"]
 [connection signal="deselected" from="SelectionBox/MovementContext" to="." method="unset_selection"]
 [connection signal="selected" from="SelectionBox/MovementContext" to="." method="set_selection"]
+[connection signal="button_rotate_left_pressed" from="PlayerHUD" to="." method="_on_PlayerHUD_button_rotate_right_pressed"]
+[connection signal="button_rotate_right_pressed" from="PlayerHUD" to="." method="_on_PlayerHUD_button_rotate_left_pressed"]
 [connection signal="button_build_menu_pressed" from="PlayerHUD" to="." method="_on_PlayerHUD_button_build_menu_pressed"]
 [connection signal="button_diplomacy_pressed" from="PlayerHUD" to="." method="_on_PlayerHUD_button_diplomacy_pressed"]
 [connection signal="button_game_menu_pressed" from="PlayerHUD" to="." method="_on_PlayerHUD_button_game_menu_pressed"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://bvbuafk7d6fdt"]
+[gd_scene load_steps=23 format=3 uid="uid://bvbuafk7d6fdt"]
 
 [ext_resource type="Script" path="res://Assets/UI/TabWidgets/TabWidget.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://5gbvga1bqpxa" path="res://Assets/UI/Images/Background/Widgets/map_bg.png" id="3"]
@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://b450djyry3nsh" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/TearButton.tscn" id="8"]
 [ext_resource type="Script" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedLabel.gd" id="8_joybd"]
 [ext_resource type="PackedScene" uid="uid://bnvf8h0p6g4p5" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedDownButton.tscn" id="8_lneb5"]
+[ext_resource type="Script" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/ZoomButton.gd" id="10_me7xy"]
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="11"]
 [ext_resource type="PackedScene" uid="uid://b0pjmla1k4m0a" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/BuildMenuButton.tscn" id="12"]
 [ext_resource type="PackedScene" uid="uid://867s5dho2rlm" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/RotateLeftButton.tscn" id="13"]
@@ -138,6 +139,8 @@ offset_bottom = 28.0
 grow_horizontal = 1
 grow_vertical = 1
 size_flags_horizontal = 6
+script = ExtResource("10_me7xy")
+zoom_direction = 0
 
 [node name="ZoomOutButton" parent="WidgetTop/ZoomControls" instance=ExtResource("15")]
 layout_mode = 1
@@ -153,6 +156,8 @@ offset_bottom = 0.0
 grow_horizontal = 0
 grow_vertical = 0
 size_flags_horizontal = 6
+script = ExtResource("10_me7xy")
+zoom_direction = 1
 
 [node name="RotateControls" type="Control" parent="WidgetTop"]
 layout_mode = 1
@@ -313,6 +318,8 @@ stretch_mode = 4
 metadata/_edit_lock_ = true
 
 [connection signal="visibility_changed" from="." to="." method="_on_TabWidget_visibility_changed"]
+[connection signal="pressed" from="WidgetTop/RotateControls/RotateLeftButton" to="." method="_on_RotateLeftButton_pressed"]
+[connection signal="pressed" from="WidgetTop/RotateControls/RotateRightButton" to="." method="_on_RotateRightButton_pressed"]
 [connection signal="pressed" from="WidgetTop/TearButton" to="." method="_on_TearButton_pressed"]
 [connection signal="pressed" from="WidgetTop/LogbookButton" to="." method="_on_LogbookButton_pressed"]
 [connection signal="pressed" from="WidgetTop/BuildMenuButton" to="." method="_on_BuildMenuButton_pressed"]
