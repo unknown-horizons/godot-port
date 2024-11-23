@@ -368,10 +368,10 @@ mouse_filter = 2
 color = Color(0.137255, 0.137255, 0.137255, 1)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-autoplay = "intro"
 libraries = {
 "": SubResource("AnimationLibrary_hgqkq")
 }
+autoplay = "intro"
 
 [connection signal="pressed" from="Decoration/MenuItems/SinglePlayerButton" to="." method="_go_to_scene" binds= ["sp_game"]]
 [connection signal="pressed" from="Decoration/MenuItems/LoadGameButton" to="." method="_go_to_scene" binds= ["load_game"]]

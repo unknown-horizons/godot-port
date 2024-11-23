@@ -8,7 +8,7 @@ class_name Warehouse2D
 
 @onready var LoadUnloadTimer: Timer = get_node("LoadUnloadTimer")
 
-signal update_resources
+#signal update_resources
 
 
 func _ready():
@@ -16,7 +16,7 @@ func _ready():
 
 
 
-func unload_person(object: String, amount: int):
+func unload_person(object: String, amount: int) -> int:
 	LoadUnloadTimer.start(load_and_unload_time / 2)
 	await LoadUnloadTimer.timeout
 
@@ -24,18 +24,24 @@ func unload_person(object: String, amount: int):
 		GameStats.game_stats_resource.resources[object] += amount
 	else:
 		GameStats.game_stats_resource.resources[object] = amount
-	update_resources.emit()
+
+	#update_resources.emit()
+	print("the amount of %s is %s" % [object, GameStats.game_stats_resource.resources[object]])
+
+	return 0
 
 
 
-func load_person(object: String, amount: int):
+func load_person(object: String, amount: int) -> int:
 	LoadUnloadTimer.start(load_and_unload_time / 2)
 	await LoadUnloadTimer.timeout
 
 	if GameStats.game_stats_resource.resources.has(object):
 		var max_available = min(amount, GameStats.game_stats_resource.resources[object])
 		GameStats.game_stats_resource.resources[object] -= max_available
-		update_resources.emit()
+		#update_resources.emit()
+		print("the amount of %s is %s" % [object, GameStats.game_stats_resource.resources[object]])
 		return max_available
 	else:
-		return null
+		print("the amount of %s is %s" % [object, GameStats.game_stats_resource.resources[object]])
+		return 0

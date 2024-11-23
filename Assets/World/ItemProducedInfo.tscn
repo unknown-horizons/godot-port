@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://t2t3gj1hocje"]
+
+[ext_resource type="Script" path="res://Assets/World/item_produced_info.gd" id="1_uom5p"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o24y2"]
+bg_color = Color(0.6, 0.6, 0.6, 0.196078)
+
+[node name="ItemProducedInfo" type="Label"]
+visible = false
+offset_left = -64.0
+offset_top = -16.0
+offset_right = 64.0
+offset_bottom = 16.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_o24y2")
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("1_uom5p")
+float_time = 1.0

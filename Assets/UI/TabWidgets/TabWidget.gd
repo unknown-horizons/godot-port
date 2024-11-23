@@ -9,6 +9,7 @@ signal button_logbook_pressed
 signal button_build_menu_pressed
 signal button_diplomacy_pressed
 signal button_game_menu_pressed
+signal building_started
 
 @onready var body := find_child("Body") as Control
 
@@ -19,6 +20,7 @@ func _ready() -> void:
 		connect("button_build_menu_pressed", Callable(owner, "_on_TabWidget_button_build_menu_pressed"))
 		connect("button_diplomacy_pressed", Callable(owner, "_on_TabWidget_button_diplomacy_pressed"))
 		connect("button_game_menu_pressed", Callable(owner, "_on_TabWidget_button_game_menu_pressed"))
+		building_started.connect(BuildingManager.set_building_to_build)
 
 		# Hide empty detail widget section on runtime
 		if body.get_child(0).get_child_count() == 0:
@@ -94,3 +96,8 @@ func _on_TabWidget_visibility_changed() -> void:
 	if self.name != "TabWidget":
 		if visible:
 			prints(self.name, "opened.")
+
+
+
+func BuildBuilding(building_name: String) -> void:
+	building_started.emit(building_name)

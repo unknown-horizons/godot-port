@@ -1,9 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://b80iac7a57ox3"]
+[gd_scene load_steps=4 format=3 uid="uid://b80iac7a57ox3"]
 
 [ext_resource type="PackedScene" uid="uid://fsa8lbk4l5p2" path="res://Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn" id="1"]
 [ext_resource type="Script" path="res://Assets/UI/Pages/NewGameUI/NewGameUI.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bpimcst1geibt" path="res://Assets/UI/BookMenu/BookMenu.tscn" id="3"]
-[ext_resource type="Texture2D" uid="uid://blo2v78psec72" path="res://Assets/UI/Images/Background/book.png" id="4_yahr8"]
 
 [node name="NewGameUI" instance=ExtResource("3")]
 script = ExtResource("2")
@@ -15,6 +14,3 @@ current_tab = 0
 [node name="FreePlay" parent="Pages" index="1" instance=ExtResource("1")]
 layout_mode = 2
 metadata/_tab_index = 0
-
-[node name="TextureRect" parent="." index="1"]
-texture = ExtResource("4_yahr8")

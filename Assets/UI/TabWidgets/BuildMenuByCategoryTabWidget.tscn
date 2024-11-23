@@ -58,9 +58,11 @@ layout_mode = 2
 
 [node name="TabContainer" parent="WidgetDetail/Body" index="1"]
 offset_bottom = 410.0
+current_tab = 0
 
 [node name="Settlement" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="1"]
 layout_mode = 2
+metadata/_tab_index = 0
 
 [node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Settlement" index="0" instance=ExtResource("1")]
 layout_mode = 2
@@ -160,6 +162,7 @@ layout_mode = 2
 [node name="Fields" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="2"]
 visible = false
 layout_mode = 2
+metadata/_tab_index = 1
 
 [node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Fields" index="0" instance=ExtResource("1")]
 layout_mode = 2
@@ -244,6 +247,7 @@ layout_mode = 2
 [node name="Agriculture" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="3"]
 visible = false
 layout_mode = 2
+metadata/_tab_index = 2
 
 [node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Agriculture" index="0" instance=ExtResource("1")]
 layout_mode = 2
@@ -315,6 +319,7 @@ layout_mode = 2
 [node name="Companies" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="4"]
 visible = false
 layout_mode = 2
+metadata/_tab_index = 3
 
 [node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Companies" index="0" instance=ExtResource("1")]
 layout_mode = 2
@@ -383,6 +388,7 @@ layout_mode = 2
 [node name="Military" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="5"]
 visible = false
 layout_mode = 2
+metadata/_tab_index = 4
 
 [node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Military" index="0" instance=ExtResource("1")]
 layout_mode = 2
@@ -454,6 +460,10 @@ layout_mode = 2
 
 [node name="BuildBoatBuilderButton" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer4/BuildMenuContainer" index="0" instance=ExtResource("25")]
 layout_mode = 2
+
+[connection signal="pressed" from="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer/BuildTrailButton" to="." method="BuildBuilding" binds= ["road"]]
+[connection signal="pressed" from="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer/BuildStorageButton" to="." method="BuildBuilding" binds= ["warehouse"]]
+[connection signal="pressed" from="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer/BuildFarmButton" to="." method="BuildBuilding" binds= ["farm"]]
 
 [editable path="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer"]
 [editable path="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer"]

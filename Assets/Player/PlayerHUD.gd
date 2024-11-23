@@ -186,7 +186,8 @@ func _on_TabWidget_button_logbook_pressed() -> void:
 	emit_signal("button_logbook_pressed")
 
 func _on_TabWidget_button_build_menu_pressed() -> void:
-	emit_signal("button_build_menu_pressed")
+	#emit_signal("button_build_menu_pressed")
+	emit_signal("button_build_menu_pressed", ["BuildMenu"])
 
 func _on_TabWidget_button_diplomacy_pressed() -> void:
 	emit_signal("button_diplomacy_pressed")

@@ -5,129 +5,106 @@ class_name Person
 @export var max_carry_limit: int = 10
 @export var speed_tile_per_sec: float = 0.5
 
-#@onready var tile_map: TileMapLayer = get_node("../Builded")
-@onready var MoveTimer: Timer = get_node("MoveTimer")
-
 var path: Array = []
-var path_left: Array = []
+var cur_path: Array = []
 
 var objects_carring: Dictionary = {"to_warehouse": ["", 0], "back": null}
 var object_carring: String
 var count_of_objects: int
-
 var is_moving: bool = false
 
 
 
 func _ready():
-  objects_carring["to_warehouse"][1] = min(objects_carring.get("to_warehouse")[1], max_carry_limit)
-  if objects_carring.get("back") != null:
-    objects_carring["back"] = min(objects_carring.get("back")[1], max_carry_limit)
-  wait_for_resources()
+	objects_carring["to_warehouse"][1] = min(objects_carring.get("to_warehouse")[1], max_carry_limit)
+	if objects_carring.get("back") != null:
+		objects_carring["back"] = min(objects_carring.get("back")[1], max_carry_limit)
+	do_movment_loop()
+
+
+
+func do_movment_loop():
+	await wait_for_resources()
+
+	await load_resources_from_building()
+
+	await move_to_warehouse()
+
+	await load_and_unload_at_warehouse()
+
+	await move_back()
+
+	do_movment_loop()
 
 
 
 func wait_for_resources():
-  objects_carring = await self.get_parent().resource_availble
+	self.is_moving = false
+	objects_carring = await self.get_parent().carry_resources
+# if we dont have a path, continue waiting
+	if len(path) <= 0:
+		await wait_for_resources()
 
-  object_carring = objects_carring.get("to_warehouse")[0]
-  count_of_objects = await self.get_parent().load_person(objects_carring.get("to_warehouse")[1])
-  
-  move_to_warehouse()
+
+
+func load_resources_from_building():
+	self.visible = true
+	object_carring = objects_carring.get("to_warehouse")[0]
+	count_of_objects = await self.get_parent().load_person(objects_carring.get("to_warehouse")[0], objects_carring.get("to_warehouse")[1])
 
 
 
 func move_to_warehouse():
 
 # for safety
-  if object_carring == "" or count_of_objects <= 0:
-    return
+	if object_carring == "" or count_of_objects <= 0:
+		return
 
-  if len(path) > 0 and not is_moving and max_carry_limit >= count_of_objects:
+	if len(path) > 0 and not is_moving and max_carry_limit >= count_of_objects:
 
-    path_left = path.duplicate()
-    path_left.pop_front()
-    is_moving = true
-    self.visible = true
+		cur_path = path.duplicate()
+		cur_path.pop_front()
+		is_moving = true
+		self.visible = true
 
-    await move()
-
-    load_unload_at_warehouse()
+		await move()
 
 
 
-# 64, -32
-# -196, 256
-func load_unload_at_warehouse():
+func load_and_unload_at_warehouse():
 
-  var building = self.get_parent().get_parent().building_pos_to_building.get(self.position)
-  if building != null:
+	var building = self.get_parent().get_parent().building_pos_to_building.get(self.global_position)
+	if building != null:
 
-    await building.unload_person(count_of_objects, object_carring)
+		count_of_objects = await building.unload_person(object_carring, count_of_objects)
 
-    var objects_carring_back = objects_carring.get("back")
-    if objects_carring_back != null:
-      object_carring = objects_carring_back[0]
-      count_of_objects = await building.load_person(object_carring, objects_carring_back[1])
-      move_back()
-    
-    #LoadUnloadTimer.start(load_unload_time)
-    #await LoadUnloadTimer.timeout
-#
-    #building.unload_person(count_of_objects, object_carring)
-    #count_of_objects = 0
-#
-    #LoadUnloadTimer.start(load_unload_time)
-    #await LoadUnloadTimer.timeout
+		var objects_carring_back = objects_carring.get("back")
+		if objects_carring_back != null:
+			object_carring = objects_carring_back[0]
+			count_of_objects = await building.load_person(object_carring, objects_carring_back[1])
 
 
 
 func move_back():
-  path_left = path.duplicate()
-  path_left.pop_back()
-  path_left.reverse()
-  await move()
-  self.get_parent().unload_person(object_carring, count_of_objects)
-  await self.get_parent().unload_person()
-  count_of_objects = 0
-  wait_for_resources()
+	cur_path = path.duplicate()
+	cur_path.pop_back()
+	cur_path.reverse()
+	await move()
+	count_of_objects = await self.get_parent().unload_person(object_carring, count_of_objects)
+	count_of_objects = 0
+	is_moving = false
 
 
 
 func move():
 
-  #var tile_layer_pos
-  var global_pos
-  # var next_tile_pos
+	for point in cur_path:
 
-  MoveTimer.start(speed_tile_per_sec)
-
-  while len(path_left) > 0:
-
-    await MoveTimer.timeout
-
-    global_pos = path_left.pop_front()
-    #next_tile_pos = tile_layer_pos - self.get_parent().position
-    self.global_position = global_pos
-    #self.set_global_position(global_pos)
-  
-  print(self.global_position)
-  MoveTimer.stop()
-
-
-
-#func _on_LoadUnloadTimer_timeout():
-  #var building = self.get_parent().get_parent().building_pos_to_building.get(self.position)
-  #MoveTimer.stop()
-  #
-  #if building != null:
-    #if building.game_name == "WareHouse":
-#
-      #building.unload_person(count_of_objects, object_carring)
-      #count_of_objects = 0
-#
-    #if building.game_name == self.get_parent().game_name:
-      #self.visible = false
-      #is_moving = false
-      #building.number_of_intake_products += count_of_objects
-      #count_of_objects = 0
+		var move_tween = self.create_tween().bind_node(self)
+		move_tween.tween_property(self, "global_position", point, speed_tile_per_sec)
+		await move_tween.finished
+		pass
+		#move_tween.kill()
+	
+	self.global_position = cur_path[len(cur_path) - 1]
+	await self.get_tree().create_timer(0.05).timeout # let the _process run once.

@@ -8,7 +8,7 @@ signal new_building_selected
 
 func _ready():
 	self.visible = true
-	new_building_selected.connect(BuildingManager.new_building_to_build)
+	new_building_selected.connect(BuildingManager.set_building_to_build)
 
 
 
