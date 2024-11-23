@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dro3fjo0xo3o"]
+
+[ext_resource type="Script" path="res://Assets/World/Buildings/Warehouse/Warehouse2D.gd" id="1_w4xyu"]
+[ext_resource type="Texture2D" uid="uid://cpe1pq8aivfqp" path="res://Assets/World/Buildings/Warehouse/Sprites/WarehouseWooden_idle.png" id="2_w2qwb"]
+
+[node name="WareHouse" type="Node2D"]
+script = ExtResource("1_w4xyu")
+load_and_unload_time = 4.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(3.8147e-06, 0)
+scale = Vector2(0.6, 0.75)
+texture = ExtResource("2_w2qwb")
+region_enabled = true
+region_rect = Rect2(32, 64, 160, 128)
+
+[node name="LoadUnloadTimer" type="Timer" parent="."]

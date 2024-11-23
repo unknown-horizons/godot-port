@@ -96,6 +96,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 105, 0, 91)
 
 [node name="Lumberjack" parent="Buildings/Player" index="19" instance=ExtResource("45")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 92, 0, 93)
+action = "idle"
+anim_speed = 0.95
 rotation_degree = 4
 
 [editable path="PlayerStart"]

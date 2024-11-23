@@ -10,12 +10,12 @@ var resources: Dictionary = {}
 
 
 func save_game():
-	ResourceSaver.save(self, save_path)
+  ResourceSaver.save(self, save_path)
 
 
 
 static func load_game():
-	if ResourceLoader.exists(save_path):
-		return ResourceLoader.load(save_path)
-	else:
-		return GameStatsResource.new()
+  if ResourceLoader.exists(save_path):
+    return ResourceLoader.load(save_path)
+  else:
+    return GameStatsResource.new()

@@ -21,7 +21,7 @@ func _input(event: InputEvent) -> void:
 	set_process_input(false)
 
 func _go_to_scene(scene: String) -> void:
-	Audio.play_snd_click()
+	Audio.play_snd_click()  
 
 	if scene == "sp_game" or scene == "help" or scene == "options":
 		var subscene = _scenes[scene].instantiate()
