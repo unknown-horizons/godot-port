@@ -2,7 +2,8 @@ extends ItemList
 
 ## [b]❗TODO: Make this dynamic.[/b]
 var maps = {
-	"WorldDev": preload("res://Assets/World/WorldDev.tscn"),
+	#"WorldDev": preload("res://Assets/World/WorldDev.tscn"),
+	"WorldDev": preload("res://Assets/World/WorldDev2D.tscn"),
 	"World": preload("res://Assets/World/World.tscn"),
 }
 

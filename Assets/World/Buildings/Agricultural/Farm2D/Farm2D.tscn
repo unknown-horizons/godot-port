@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://21pewmmm5ykv"]
+
+[ext_resource type="PackedScene" uid="uid://c14jc7hm1oowb" path="res://Assets/World/Buildings/ProductionBuilding2D.tscn" id="1_8713n"]
+[ext_resource type="Texture2D" uid="uid://maxdcj78ycix" path="res://Assets/World/icon.svg" id="2_lkd4l"]
+
+[node name="Farm2D" instance=ExtResource("1_8713n")]
+production_time = 3
+output_product = "Wheat"
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="2"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_lkd4l")
+
+[node name="Label" type="Label" parent="." index="3"]
+offset_left = -32.0
+offset_top = -32.0
+offset_right = 32.0
+offset_bottom = 32.0
+text = "farm
+"
+horizontal_alignment = 1
+vertical_alignment = 1

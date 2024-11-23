@@ -22,6 +22,8 @@ Global="*res://Assets/World/Global.gd"
 Config="*res://Assets/World/Config.gd"
 Audio="*res://Assets/World/Audio.gd"
 Cursor="*res://Assets/UI/Cursor.gd"
+BuildingManager="*res://Assets/World/SingleTons/BuildingManager.gd"
+GameStats="*res://Assets/World/SingleTons/GameStats.gd"
 
 [debug]
 
@@ -37,7 +39,7 @@ settings/fps/force_fps=60
 window/size/viewport_width=1600
 window/size/viewport_height=900
 window/size/resizable=false
-window/stretch/mode="canvas_items"
+window/stretch/mode="viewport"
 window/stretch/aspect="expand"
 
 [editor]

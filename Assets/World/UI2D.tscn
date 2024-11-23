@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=3 uid="uid://djjjex62e2o56"]
+
+[ext_resource type="Script" path="res://Assets/World/UI2D.gd" id="1_3a8vi"]
+
+[node name="UI" type="CanvasLayer"]
+script = ExtResource("1_3a8vi")
+
+[node name="InputTaker" type="Polygon2D" parent="."]
+z_index = 4096
+color = Color(1, 1, 1, 0)
+polygon = PackedVector2Array(0, 512, 1152, 512, 1152, 640, 0, 640)
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+offset_top = 768.0
+offset_right = 1152.0
+offset_bottom = 896.0
+vertical_scroll_mode = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 32
+alignment = 1
+
+[node name="BuildFarm" type="Button" parent="ScrollContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+size_flags_stretch_ratio = 0.0
+theme_override_font_sizes/font_size = 30
+toggle_mode = true
+text = "farm
+1000"
+
+[node name="BuildMill" type="Button" parent="ScrollContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "Mill
+1000"
+
+[node name="BuildBuildWareHouse" type="Button" parent="ScrollContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "Ware
+House
+"
+
+[connection signal="pressed" from="ScrollContainer/HBoxContainer/BuildFarm" to="." method="start_build_building" binds= ["Farm"]]
+[connection signal="pressed" from="ScrollContainer/HBoxContainer/BuildBuildWareHouse" to="." method="start_build_building" binds= ["WareHouse"]]

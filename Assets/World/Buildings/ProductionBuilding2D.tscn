@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://c14jc7hm1oowb"]
+
+[ext_resource type="Script" path="res://Assets/World/Buildings/ProductionBuilding2D.gd" id="1_hq3n1"]
+[ext_resource type="PackedScene" uid="uid://dcpsi3ppfn0ga" path="res://Assets/World/person2D.tscn" id="2_hmyl0"]
+
+[node name="Building" type="Node2D"]
+script = ExtResource("1_hq3n1")
+
+[node name="ProdTimer" type="Timer" parent="."]
+
+[node name="LoadUnloadTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="Person" parent="." instance=ExtResource("2_hmyl0")]
+visible = false
+
+[connection signal="timeout" from="ProdTimer" to="." method="_on_prod_timer_timeout"]
