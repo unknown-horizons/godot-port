@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcpsi3ppfn0ga"]
+
+[ext_resource type="Script" path="res://Assets/World/Units/Unit2D.gd" id="1_61hf0"]
+
+[node name="Unit" type="AnimatableBody2D"]
+script = ExtResource("1_61hf0")
+speed_tile_per_sec = 0.25

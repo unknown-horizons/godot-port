@@ -1,5 +1,8 @@
 extends TileMapLayer
 
+const is_navigatable = "is_navigatable"
+const is_tree = "is_tree"
+
 var person_pathfinding = PathFindingManagment2D.new(self)
 var road_building_pathfindng = PathFindingManagment2D.new(self)
 
@@ -59,7 +62,7 @@ func is_road_buildable_on(cell):
 
 func is_movable_on(cell):
   #print(self.get_cell_tile_data(cell).get_custom_data("is_navigatable"))
-  return self.get_cell_tile_data(cell).get_custom_data("is_navigatable")
+  return self.get_cell_tile_data(cell).get_custom_data(is_navigatable)
 
 
 
@@ -106,6 +109,9 @@ func check_and_build():
   var world_building_pos = self.map_to_local(grid_building_pos)
 
   if BuildingManager.building_to_build == BuildingManager.road:
+    return
+
+  if self.get_cell_source_id(grid_building_pos) != -1:
     return
 
   var building_to_build = get_building_to_build(world_building_pos)

@@ -16,7 +16,7 @@ func _ready():
 
 
 
-func unload_person(object: String, amount: int) -> int:
+func unload_worker(object: String, amount: int) -> int:
   LoadUnloadTimer.start(load_and_unload_time / 2)
   await LoadUnloadTimer.timeout
 
@@ -32,7 +32,7 @@ func unload_person(object: String, amount: int) -> int:
 
 
 
-func load_person(object: String, amount: int) -> int:
+func load_worker(object: String, amount: int) -> int:
   LoadUnloadTimer.start(load_and_unload_time / 2)
   await LoadUnloadTimer.timeout
 

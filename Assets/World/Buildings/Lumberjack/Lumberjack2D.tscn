@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxg537ramv08c"]
+
+[ext_resource type="PackedScene" uid="uid://c14jc7hm1oowb" path="res://Assets/World/Buildings/ProductionBuilding2D.tscn" id="1_j7hvl"]
+[ext_resource type="Script" path="res://Assets/World/Buildings/Lumberjack/Lumberjack2D.gd" id="2_m5tbk"]
+
+[node name="Lumberjack2D" instance=ExtResource("1_j7hvl")]
+script = ExtResource("2_m5tbk")

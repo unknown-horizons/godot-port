@@ -12,7 +12,7 @@ class_name ProductionBuilding2D
 @export var load_or_unload_time: float = 2
 
 @onready var prod_timer: Timer = get_node("ProdTimer")
-@onready var person: Person = get_node("Person")
+@onready var carrier: Carrier = get_node("Carrier")
 @onready var LoadUnloadTimer: Timer = get_node("LoadUnloadTimer")
 
 var closest_warehouse_path: Array = []
@@ -29,7 +29,7 @@ func _ready():
   var closest_warehouse_path_or_null = find_closest_warehouse()
   if closest_warehouse_path_or_null != null:
     closest_warehouse_path = closest_warehouse_path_or_null
-    person.path = closest_warehouse_path
+    carrier.path = closest_warehouse_path
   prod_timer.start(production_time)
 
 
@@ -61,7 +61,7 @@ func new_building_builded(building):
     var path_to_warehouse = self.get_parent().get_path_to_dest(self.position, building.position)
     if path_to_warehouse != null and (len(path_to_warehouse) < len(closest_warehouse_path) or len(closest_warehouse_path) == 0):
       closest_warehouse_path = path_to_warehouse
-      person.path = closest_warehouse_path
+      carrier.path = closest_warehouse_path
 
 
 
@@ -69,7 +69,7 @@ func road_builded():
   var closest_warehouse_path_or_null = find_closest_warehouse()
   if closest_warehouse_path_or_null != null:
     closest_warehouse_path = closest_warehouse_path_or_null
-    person.path = closest_warehouse_path
+    carrier.path = closest_warehouse_path
 
 
 
@@ -84,19 +84,19 @@ func _on_prod_timer_timeout():
     number_of_output_products += 1
 
   var objects_to_carry: Dictionary = {"to_warehouse": ["", 0], "back": null}
-  if not person.is_moving or len(closest_warehouse_path) > 0:
-    var amount_to_load = min(number_of_output_products - person.objects_carring.get("to_warehouse")[1], person.max_carry_limit)
+  if not carrier.is_moving or len(closest_warehouse_path) > 0:
+    var amount_to_load = min(number_of_output_products - carrier.objects_carring.get("to_warehouse")[1], carrier.max_carry_limit)
     objects_to_carry["to_warehouse"] = [output_product, amount_to_load + objects_to_carry["to_warehouse"][1]]
 
     if input_product == "":  objects_to_carry["back"] = null
-    else:  objects_to_carry["back"] = min(max_storage_capacity - number_of_intake_products, person.max_carry_limit)
+    else:  objects_to_carry["back"] = min(max_storage_capacity - number_of_intake_products, carrier.max_carry_limit)
 
     carry_resources.emit(objects_to_carry)
     resource_produced.emit(output_product, 1)
 
 
 
-func unload_person(object_carring: String, amount: int) -> int:
+func unload_worker(object_carring: String, amount: int) -> int:
   if object_carring == "":
     LoadUnloadTimer.start(load_or_unload_time / 2)
     await LoadUnloadTimer.timeout
@@ -106,7 +106,8 @@ func unload_person(object_carring: String, amount: int) -> int:
   return 0
 
 
-func load_person(object_carring: String, amount: int) -> int:
+
+func load_worker(object_carring: String, amount: int) -> int:
   LoadUnloadTimer.start(load_or_unload_time / 2)
   await LoadUnloadTimer.timeout
 

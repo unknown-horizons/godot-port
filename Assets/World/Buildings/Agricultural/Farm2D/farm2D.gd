@@ -8,7 +8,7 @@ extends Node2D
 @export var needs_intake_poduct: bool = false
 
 @onready var prod_timer: Timer = get_node("ProdTimer")
-@onready var person: Person = get_node("Person")
+#@onready var carrier: Worker = get_node("Person")
 
 var number_of_output_products = 0
 var number_of_intake_products = 0
@@ -19,7 +19,7 @@ var number_of_intake_products = 0
 func _ready():
   var path = self.get_parent().get_path_to_dest(self.position, Vector2(0, 0))
   if path != null:
-    person.path = path
+    self.carrier.path = path
   prod_timer.start(production_time)
 
 
@@ -35,8 +35,8 @@ func _on_timer_timeout():
     number_of_output_products += 1
     
 
-  if not person.is_moving:
-    person.objects_carring["there"] = [output_product, min(number_of_output_products, person.max_carry_limit)]
-    person.objects_carring["back"] = null
-    number_of_output_products -= person.count_of_objects
-    person.move()
+  if not self.carrier.is_moving:
+    self.carrier.objects_carring["there"] = [output_product, min(number_of_output_products, self.carrier.max_carry_limit)]
+    self.carrier.objects_carring["back"] = null
+    number_of_output_products -= self.carrier.count_of_objects
+    self.carrier.move()
