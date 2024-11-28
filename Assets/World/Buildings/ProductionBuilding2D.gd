@@ -2,35 +2,34 @@ extends Node2D
 
 class_name ProductionBuilding2D
 
-@export_category("Building2D")
+#@export_category("ProductionBuilding2D")
 @export var game_name: String = "Farm"
-@export var production_time: int = 10
+
 @export var max_storage_capacity: int = 10
 @export var output_product: String
 @export var input_product: String = ""
-#@export var needs_intake_poduct: bool = false
+@export var needs_intake_product: bool = false
 @export var load_or_unload_time: float = 2
 
 @onready var prod_timer: Timer = get_node("ProdTimer")
 @onready var carrier: Carrier = get_node("Carrier")
 @onready var LoadUnloadTimer: Timer = get_node("LoadUnloadTimer")
+@onready var item_produced_tool_tip: ItemProducedToolTip = get_node("ItemProducedToolTip")
 
 var closest_warehouse_path: Array = []
 var number_of_output_products = 0
 var number_of_intake_products = 0
 
 signal resource_produced
-signal carry_resources
 
 
 
-func _ready():
+func building_setup():
   self.get_parent().register_building(self)
   var closest_warehouse_path_or_null = find_closest_warehouse()
   if closest_warehouse_path_or_null != null:
     closest_warehouse_path = closest_warehouse_path_or_null
     carrier.path = closest_warehouse_path
-  prod_timer.start(production_time)
 
 
 
@@ -73,30 +72,15 @@ func road_builded():
 
 
 
-func _on_prod_timer_timeout():
-  if input_product != "":
-    if number_of_intake_products > 0:
-      number_of_intake_products -= 1
-    else:
-      return
-
-  if number_of_output_products < 10:
-    number_of_output_products += 1
-
-  var objects_to_carry: Dictionary = {"to_warehouse": ["", 0], "back": null}
-  if not carrier.is_moving or len(closest_warehouse_path) > 0:
-    var amount_to_load = min(number_of_output_products - carrier.objects_carring.get("to_warehouse")[1], carrier.max_carry_limit)
-    objects_to_carry["to_warehouse"] = [output_product, amount_to_load + objects_to_carry["to_warehouse"][1]]
-
-    if input_product == "":  objects_to_carry["back"] = null
-    else:  objects_to_carry["back"] = min(max_storage_capacity - number_of_intake_products, carrier.max_carry_limit)
-
-    carry_resources.emit(objects_to_carry)
-    resource_produced.emit(output_product, 1)
+func get_resourses_needed() -> Array:
+  if needs_intake_product:
+    return [input_product, max_storage_capacity - number_of_intake_products]
+  else:
+    return ["", 0]
 
 
 
-func unload_worker(object_carring: String, amount: int) -> int:
+func unload_carrier(object_carring: String, amount: int) -> int:
   if object_carring == "":
     LoadUnloadTimer.start(load_or_unload_time / 2)
     await LoadUnloadTimer.timeout
@@ -107,11 +91,10 @@ func unload_worker(object_carring: String, amount: int) -> int:
 
 
 
-func load_worker(object_carring: String, amount: int) -> int:
+func load_carrier() -> Array:
   LoadUnloadTimer.start(load_or_unload_time / 2)
   await LoadUnloadTimer.timeout
 
-  var amount_to_load = min(amount , number_of_output_products)
+  var amount_to_load = min(number_of_output_products, carrier.max_carry_limit)
   number_of_output_products -= amount_to_load
-  return amount_to_load 
-  
+  return [amount_to_load, self.output_product]

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Assets/World/Buildings/ProductionBuilding2D.gd" id="1_hq3n1"]
 [ext_resource type="PackedScene" uid="uid://ciacneie4013w" path="res://Assets/World/Units/Carrier/Carrier.tscn" id="2_bbdpa"]
-[ext_resource type="PackedScene" uid="uid://t2t3gj1hocje" path="res://Assets/World/ItemProducedInfo.tscn" id="3_y4v30"]
+[ext_resource type="PackedScene" uid="uid://t2t3gj1hocje" path="res://Assets/World/ItemProducedToolTip.tscn" id="3_y4v30"]
 
 [node name="Building" type="Node2D"]
 z_index = 2
@@ -16,7 +16,6 @@ one_shot = true
 [node name="Carrier" parent="." instance=ExtResource("2_bbdpa")]
 visible = false
 
-[node name="ItemProducedInfo" parent="." instance=ExtResource("3_y4v30")]
+[node name="ItemProducedToolTip" parent="." instance=ExtResource("3_y4v30")]
 
-[connection signal="resource_produced" from="." to="ItemProducedInfo" method="start_showing"]
-[connection signal="timeout" from="ProdTimer" to="." method="_on_prod_timer_timeout"]
+[connection signal="resource_produced" from="." to="ItemProducedToolTip" method="start_hovering"]

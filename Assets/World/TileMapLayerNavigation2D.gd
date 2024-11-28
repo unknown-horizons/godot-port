@@ -111,11 +111,19 @@ func check_and_build():
   if BuildingManager.building_to_build == BuildingManager.road:
     return
 
-  if self.get_cell_source_id(grid_building_pos) != -1:
+
+  var cell_custom_data = self.get_cell_tile_data(grid_building_pos)
+  var is_tile_tree = false
+
+  if cell_custom_data != null:
+    is_tile_tree = cell_custom_data.get_custom_data(is_tree)
+
+  var is_empty = self.get_cell_source_id(grid_building_pos) == -1
+  if not is_empty and not is_tile_tree:
     return
 
-  var building_to_build = get_building_to_build(world_building_pos)
 
+  var building_to_build = get_building_to_build(world_building_pos)
 
   if building_to_build != null:
 
@@ -144,6 +152,14 @@ func build_road(start_point, finish_point):
   var path = road_building_pathfindng.get_path_to_dest(start_point, finish_point, true, true)
   if path != null:
     self.set_cells_terrain_connect(path, 0, 0, false)
+
+# delete all the trees below the road that might be blocking the view
+    for cell in path:
+      var lower_tile_pos = cell + Vector2i(1, 1) # right one and down one
+      var lower_tile_data = self.get_cell_tile_data(lower_tile_pos)
+      if lower_tile_data != null and lower_tile_data.get_custom_data(is_tree):
+        self.set_cell(lower_tile_pos, -1)
+
     person_pathfinding.set_points_passable(path, true)
     road_builded.emit()
   #for cell in road_building_pathfindng.get_path_to_dest(start_point, finish_point, true):
