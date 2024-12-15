@@ -27,7 +27,8 @@ func setup_a_star(default_compute_heuristic, cell_shape, diagonal_mode):
 
   self.update()
   self.fill_solid_region(self.region, true)
-  self.fill_weight_scale_region(self.region, 100)
+#  set the cost high to then lower it on preferable path
+  self.fill_weight_scale_region(self.region, 1000)
 
 
 
@@ -85,9 +86,9 @@ func get_path_to_dest(start: Vector2, final_dest: Vector2, in_grid: bool = false
     grid_start = start
     grid_final_dest = final_dest
 
- #set preferable path points to lower weight
+ #set preferable path points to lower weight(one less than usual)
   var ideal_path = get_ideal_path(grid_start, grid_final_dest)
-  set_points_weight(ideal_path, 0.2)
+  set_points_weight(ideal_path, 999)
   
   #for y in range(y1-10, y2+11):
     #for x in range(x1-10, x2+11):
@@ -104,7 +105,7 @@ func get_path_to_dest(start: Vector2, final_dest: Vector2, in_grid: bool = false
     path = tile_map_layer_path
 
 # set point weight back to normal
-  set_points_weight(ideal_path, 10)
+  set_points_weight(ideal_path, 1000)
 
   if len(path) > 0:
     return path

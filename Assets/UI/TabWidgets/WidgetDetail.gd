@@ -7,22 +7,22 @@ extends VBoxContainer
 const WIDGET_DETAIL_REQUIRED_Y_POSITION = 157
 
 func _ready() -> void:
-	%Body/TabContainer.resized.connect(_on_TabContainer_resized)
+  %Body/TabContainer.resized.connect(_on_TabContainer_resized)
 
 func _process(_delta: float) -> void:
-	if Engine.is_editor_hint():
-		position.y = WIDGET_DETAIL_REQUIRED_Y_POSITION
+  if Engine.is_editor_hint():
+    position.y = WIDGET_DETAIL_REQUIRED_Y_POSITION
 #	else:
 #		set_process(false)
 
-	position.y = WIDGET_DETAIL_REQUIRED_Y_POSITION
+  position.y = WIDGET_DETAIL_REQUIRED_Y_POSITION
 
 func _draw() -> void:
-	reset_minimum_size()
+  reset_minimum_size()
 
 func reset_minimum_size() -> void:
-	size.y = int()
+  size.y = int()
 
 func _on_TabContainer_resized() -> void:
-	%Body/TabContainer.size.y = int()
-	reset_minimum_size()
+  %Body/TabContainer.size.y = int()
+  reset_minimum_size()

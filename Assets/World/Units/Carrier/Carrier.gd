@@ -60,12 +60,27 @@ func move_to_warehouse():
 func load_and_unload_at_warehouse():
   self.visible = false
   var building = self.get_parent().get_parent().building_pos_to_building.get(self.global_position)
-  if building != null:
-    count_of_objects = await building.unload_worker(object_carring, count_of_objects)
+  if building != null and building is Warehouse2D:
+    var load_or_unload_time = building.load_and_unload_time / 2
+    if building.max_loading_and_unloading_limit <= building.cur_loading_and_unloading:
+      await building.slot_opened
+
+    #building.loading_started()
+    #await self.get_tree().create_timer(load_or_unload_time).timeout
+    #count_of_objects = building.unload_worker(object_carring, count_of_objects)
     var resources_needed = self.get_parent().get_resourses_needed()
+    var resourses_to_unload: Dictionary = {object_carring: count_of_objects}
+    var resourses_to_load: Dictionary = {"": 0}
+
     if resources_needed[0] != "":
-      object_carring = resources_needed[0]
-      count_of_objects = await building.load_worker(resources_needed[0], resources_needed[1])
+      resourses_to_load = resources_needed
+    var resoursece_to_carry_back: Dictionary = await building.load_unload_worker(resourses_to_unload, resourses_to_load)
+    object_carring = resoursece_to_carry_back.keys()[0]
+    count_of_objects = resoursece_to_carry_back.get(object_carring)
+      #object_carring = resources_needed[0]
+      #await self.get_tree().create_timer(load_or_unload_time).timeout
+      #count_of_objects = building.load_worker(resources_needed[0], resources_needed[1])
+    #building.loading_finished()
 
 func move_back():
   #person_sprite.play()
