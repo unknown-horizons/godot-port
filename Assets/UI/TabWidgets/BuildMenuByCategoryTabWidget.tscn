@@ -464,6 +464,7 @@ layout_mode = 2
 [connection signal="pressed" from="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer/BuildTrailButton" to="." method="BuildBuilding" binds= ["road"]]
 [connection signal="pressed" from="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer/BuildStorageButton" to="." method="BuildBuilding" binds= ["warehouse"]]
 [connection signal="pressed" from="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer/BuildFarmButton" to="." method="BuildBuilding" binds= ["farm"]]
+[connection signal="pressed" from="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer/BuildLumberjackButton" to="." method="BuildBuilding" binds= ["lumberjack"]]
 
 [editable path="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer"]
 [editable path="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer"]

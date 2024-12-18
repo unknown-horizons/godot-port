@@ -17,5 +17,6 @@ one_shot = true
 visible = false
 
 [node name="ItemProducedToolTip" parent="." instance=ExtResource("3_y4v30")]
+z_index = 1
 
 [connection signal="resource_produced" from="." to="ItemProducedToolTip" method="start_hovering"]

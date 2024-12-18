@@ -1,11 +1,23 @@
-extends Node2D
+extends ProductionBuilding2D
 
+class_name Lumberjack2D
 
-# Called when the node enters the scene tree for the first time.
+@export var proccesing_time: int = 10
+
 func _ready():
-  pass # Replace with function body.
+  self.building_setup()
+  prod_timer.start(proccesing_time)
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-  pass
+
+func _on_prod_timer_timeout():
+  if self.needs_intake_product:
+    if self.number_of_intake_products > 0:
+      self.number_of_intake_products -= 1
+    else:
+      return
+
+  if self.number_of_output_products < 10:
+    self.number_of_output_products += 1
+
+  resource_produced.emit(output_product, 1)

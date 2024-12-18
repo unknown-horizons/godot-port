@@ -1,8 +1,9 @@
-[gd_resource type="TileSet" load_steps=33 format=3 uid="uid://g0x5fr7nbdbv"]
+[gd_resource type="TileSet" load_steps=34 format=3 uid="uid://g0x5fr7nbdbv"]
 
 [ext_resource type="PackedScene" uid="uid://21pewmmm5ykv" path="res://Assets/World/Buildings/Agricultural/Farm2D/Farm2D.tscn" id="1_s7y1i"]
 [ext_resource type="PackedScene" uid="uid://dro3fjo0xo3o" path="res://Assets/World/Buildings/Warehouse/Warehouse2D.tscn" id="2_582ty"]
 [ext_resource type="PackedScene" uid="uid://dreaq3spettlk" path="res://Assets/World/Buildings/Agricultural/CattleRun/CattleRun2D.tscn" id="3_vbb0e"]
+[ext_resource type="PackedScene" uid="uid://cxg537ramv08c" path="res://Assets/World/Buildings/Lumberjack/Lumberjack2D.tscn" id="4_2eny1"]
 [ext_resource type="Texture2D" uid="uid://bpj7a252mpg8h" path="res://Assets/World/Trees/Sprites/Maple1_idle_full.png" id="4_spnop"]
 [ext_resource type="Texture2D" uid="uid://dvi3gxgx1gre1" path="res://Assets/World/Buildings/Agricultural/PotatoField/Sprites/PotatoField_work_anim.png" id="5_tu0oc"]
 [ext_resource type="Texture2D" uid="uid://b4lvqs0r23ivx" path="res://Assets/World/Buildings/SaltPonds/Sprites/SaltPond_work_anim.png" id="6_g1dfa"]
@@ -33,6 +34,7 @@ resource_name = "Buildings"
 scenes/1/scene = ExtResource("1_s7y1i")
 scenes/2/scene = ExtResource("2_582ty")
 scenes/3/scene = ExtResource("3_vbb0e")
+scenes/4/scene = ExtResource("4_2eny1")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8x7ew"]
 texture = ExtResource("4_spnop")

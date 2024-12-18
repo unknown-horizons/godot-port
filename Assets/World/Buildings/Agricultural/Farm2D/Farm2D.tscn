@@ -6,13 +6,8 @@
 
 [node name="Farm2D" instance=ExtResource("1_8713n")]
 script = ExtResource("2_h2au8")
-production_time = 3
-game_name = null
-max_storage_capacity = null
+proccesing_time = 3
 output_product = "Wheat"
-input_product = null
-needs_intake_product = null
-load_or_unload_time = null
 
 [node name="Sprite2D" type="Sprite2D" parent="." index="2"]
 scale = Vector2(0.5, 0.5)

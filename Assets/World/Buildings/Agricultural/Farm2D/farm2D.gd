@@ -3,13 +3,13 @@ extends ProductionBuilding2D
 class_name Farm2D
 
 #@export_category("Farm2D")
-@export var production_time: int = 10
+@export var proccesing_time: int = 10
 
 
 
 func _ready():
   self.building_setup()
-  prod_timer.start(production_time)
+  prod_timer.start(proccesing_time)
 
 
 

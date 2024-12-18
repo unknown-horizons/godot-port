@@ -34,7 +34,7 @@ func building_setup():
 
 
 func find_closest_warehouse():
-  var warehouse_poses = self.get_parent().building_name_to_building_poses.get("WareHouse")
+  var warehouse_poses = self.get_parent().building_name_to_building_poses.get("Warehouse")
 
 # make sure there are warehouses
   if warehouse_poses == null:
