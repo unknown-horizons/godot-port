@@ -13,7 +13,6 @@ class_name ProductionBuilding2D
 
 @onready var prod_timer: Timer = get_node("ProdTimer")
 @onready var carrier: Carrier = get_node("Carrier")
-@onready var LoadUnloadTimer: Timer = get_node("LoadUnloadTimer")
 @onready var item_produced_tool_tip: ItemProducedToolTip = get_node("ItemProducedToolTip")
 
 var closest_warehouse_path: Array = []
@@ -56,7 +55,7 @@ func find_closest_warehouse():
 
 func new_building_builded(building):
 #check if building is warehouse
-  if building.game_name == "WareHouse":
+  if building.game_name == "Warehouse":
     var path_to_warehouse = self.get_parent().get_path_to_dest(self.position, building.position)
     if path_to_warehouse != null and (len(path_to_warehouse) < len(closest_warehouse_path) or len(closest_warehouse_path) == 0):
       closest_warehouse_path = path_to_warehouse
@@ -82,8 +81,7 @@ func get_resourses_needed() -> Array:
 
 func unload_carrier(object_carring: String, amount: int) -> int:
   if object_carring == "":
-    LoadUnloadTimer.start(load_or_unload_time / 2)
-    await LoadUnloadTimer.timeout
+    await self.get_tree().create_timer(load_or_unload_time / 2).timeout
 
     number_of_intake_products = min(number_of_intake_products + amount,  max_storage_capacity)
 
@@ -92,8 +90,7 @@ func unload_carrier(object_carring: String, amount: int) -> int:
 
 
 func load_carrier() -> Array:
-  LoadUnloadTimer.start(load_or_unload_time / 2)
-  await LoadUnloadTimer.timeout
+  await self.get_tree().create_timer(load_or_unload_time / 2).timeout
 
   var amount_to_load = min(number_of_output_products, carrier.max_carry_limit)
   number_of_output_products -= amount_to_load

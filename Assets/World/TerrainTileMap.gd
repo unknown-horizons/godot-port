@@ -13,8 +13,8 @@ signal set_solid_and_liquid_points
 signal builded_highlight_road
 
 var is_road_building_started: bool = false
-var road_start_pos: Vector2i = Vector2i(0,0)
-var last_mouse_tile_pos: Vector2i = Vector2i(0,0)
+var road_start_pos: Vector2 = Vector2(0,0)
+var last_mouse_tile_pos: Vector2i = Vector2(0,0)
 
 
 

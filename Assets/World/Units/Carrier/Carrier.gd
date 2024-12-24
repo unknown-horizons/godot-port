@@ -10,52 +10,53 @@ class_name Carrier
   #
 #}
 
-var object_carring: String
-var count_of_objects: int
-
 
 
 func _ready():
-  do_movment_loop()
+  movment_loop()
 
-func do_movment_loop():
-  await wait_for_resources()
+func movment_loop():
+  while true:
+    await wait_for_resources()
 
-  await load_resources_from_building()
+    await load_resources_from_building()
 
-  await move_to_warehouse()
+    await move_to_warehouse()
 
-  await load_and_unload_at_warehouse()
+    await load_and_unload_at_warehouse()
 
-  await move_back()
-
-  do_movment_loop()
+    await move_back()
 
 func wait_for_resources():
   self.is_moving = false
 
-  await self.get_parent().resource_produced
+  await self.get_tree().create_timer(1).timeout
 
-# if we dont have a path, continue waiting
-  if len(path) <= 0:
-    await wait_for_resources()
+  if self.get_parent().number_of_output_products > 0:
+    if len(path) > 0:
+      return
+  await wait_for_resources()
 
 func load_resources_from_building():
   var object_data = await self.get_parent().load_carrier()
-  object_carring = object_data[1]
-  count_of_objects = object_data[0]
+  self.object_carring = object_data[1]
+  self.count_of_objects = object_data[0]
 
 func move_to_warehouse():
 # for safety
-  if object_carring == "" or count_of_objects <= 0:
+  if self.object_carring == "" or self.count_of_objects <= 0:
     return
-  if len(path) > 0 and not is_moving and max_carry_limit >= count_of_objects:
+  if len(path) > 0 and not is_moving and max_carry_limit >= self.count_of_objects:
     #person_sprite.play()
-    cur_path = path.duplicate()
-    cur_path.pop_front()
+# set path to and back to current known path
+    path_there = path.duplicate()
+    path_there.pop_front()
+    path_back = path.duplicate()
+    path_back.reverse()
+
     is_moving = true
-    self.visible = true
-    await self.move(CarrierState.WithFreight)
+    #self.visible = true
+    await self.move(self.path_there)
 
 func load_and_unload_at_warehouse():
   self.visible = false
@@ -67,30 +68,24 @@ func load_and_unload_at_warehouse():
 
     #building.loading_started()
     #await self.get_tree().create_timer(load_or_unload_time).timeout
-    #count_of_objects = building.unload_worker(object_carring, count_of_objects)
+    #self.count_of_objects = building.unload_worker(self.object_carring, self.count_of_objects)
     var resources_needed = self.get_parent().get_resourses_needed()
-    var resourses_to_unload: Dictionary = {object_carring: count_of_objects}
+    var resourses_to_unload: Dictionary = {self.object_carring: self.count_of_objects}
     var resourses_to_load: Dictionary = {"": 0}
 
     if resources_needed[0] != "":
       resourses_to_load = resources_needed
     var resoursece_to_carry_back: Dictionary = await building.load_unload_worker(resourses_to_unload, resourses_to_load)
-    object_carring = resoursece_to_carry_back.keys()[0]
-    count_of_objects = resoursece_to_carry_back.get(object_carring)
-      #object_carring = resources_needed[0]
+    self.object_carring = resoursece_to_carry_back.keys()[0]
+    self.count_of_objects = resoursece_to_carry_back.get(self.object_carring)
+      #self.object_carring = resources_needed[0]
       #await self.get_tree().create_timer(load_or_unload_time).timeout
-      #count_of_objects = building.load_worker(resources_needed[0], resources_needed[1])
+      #self.count_of_objects = building.load_worker(resources_needed[0], resources_needed[1])
     #building.loading_finished()
 
 func move_back():
   #person_sprite.play()
-  self.visible = true
-  cur_path = path.duplicate()
-  cur_path.pop_back()
-  cur_path.reverse()
-  
-  await self.move(CarrierState.Empty)
-  count_of_objects = await self.get_parent().unload_carrier(object_carring, count_of_objects)
-  #count_of_objects = 0
+  await self.move(self.path_back)
+  self.count_of_objects = await self.get_parent().unload_carrier(self.object_carring, self.count_of_objects)
+  #self.count_of_objects = 0
   is_moving = false
-  self.visible = false

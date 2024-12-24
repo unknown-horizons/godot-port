@@ -10,13 +10,10 @@ script = ExtResource("1_hq3n1")
 
 [node name="ProdTimer" type="Timer" parent="."]
 
-[node name="LoadUnloadTimer" type="Timer" parent="."]
-one_shot = true
-
 [node name="Carrier" parent="." instance=ExtResource("2_bbdpa")]
 visible = false
 
 [node name="ItemProducedToolTip" parent="." instance=ExtResource("3_y4v30")]
-z_index = 1
+z_index = 3
 
 [connection signal="resource_produced" from="." to="ItemProducedToolTip" method="start_hovering"]

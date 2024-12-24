@@ -1,13 +1,17 @@
-extends TileMapLayer
+extends SceneTileMapLayer
 
-const is_navigatable = "is_navigatable"
-const is_tree = "is_tree"
+class_name TileMapLayerNavigation
+
+const is_navigatable: String = "is_navigatable"
+const is_tree: String = "is_tree"
 
 var person_pathfinding = PathFindingManagment2D.new(self)
 var road_building_pathfindng = PathFindingManagment2D.new(self)
+#var forester_pathfinding = PathFindingManagment2D.new(self)
 
 var building_name_to_building_poses: Dictionary = {}
 var building_pos_to_building: Dictionary = {}
+var trees_getting_choped: Dictionary = {}
 
 var terrain_points: Dictionary = {}
 
@@ -23,6 +27,7 @@ signal highlighter_highlight_road
 
 func _ready():
   person_pathfinding.set_points(self.get_used_cells(), is_movable_on)
+  #forester_pathfinding.set_points_passable(get_trees(), false)
 
 
 
@@ -41,11 +46,36 @@ func _unhandled_input(event):
 
 
 func highlight_road(start, end):
+  if self.building_pos_to_building.has(self.map_to_local(start)):
+    return
   var path = road_building_pathfindng.get_path_to_dest(start, end, true, true)
   if path != null:
     highlighter_highlight_road.emit(path, true)
   else:
     highlighter_highlight_road.emit([], false)
+
+
+
+func get_trees(in_grid: bool = true) -> Array[Vector2]:
+  var trees: Array[Vector2] = []
+  for cell in self.get_used_cells():
+    var cell_data = self.get_cell_tile_data(cell)
+    if cell_data != null and cell_data.get_custom_data(is_tree):
+      if in_grid:
+        trees.append(cell)
+      else:
+        trees.append(self.map_to_local(cell))
+  return trees
+
+
+
+#func is_cell_tree(cell_world_pos):
+  #var cell_data = self.get_cell_tile_data(self.local_to_map(cell_world_pos))  #if tree_cell_data != null:
+    ##if tree_cell_data.get_custom_data(is_tree):
+      ##return true
+  ##else:
+    ##return false
+  #return cell_data != null and cell_data.get_custom_data(is_tree)
 
 
 
@@ -137,7 +167,7 @@ func check_and_build():
       #person_pathfinding.update_region()
       person_pathfinding.set_point_solid(grid_building_pos, false)
       road_building_pathfindng.set_point_solid(grid_building_pos, true)
-      self.set_cell(grid_building_pos, 0, Vector2i(0, 0), tile_id)
+      self.set_scene(grid_building_pos, 0, Vector2i(0, 0), tile_id)
 
 
 
@@ -147,8 +177,10 @@ func set_road_building_terrain_points(points: Dictionary, used_cells: Array):
 
 
 
-func build_road(start_point, finish_point):
+func build_road(start_point: Vector2, finish_point: Vector2i):
   highlighter_highlight_road.emit([], false)
+  if self.building_pos_to_building.has(self.map_to_local(start_point)):
+    return
   var path = road_building_pathfindng.get_path_to_dest(start_point, finish_point, true, true)
   if path != null:
     self.set_cells_terrain_connect(path, 0, 0, false)

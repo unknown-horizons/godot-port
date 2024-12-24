@@ -1,18 +1,24 @@
-[gd_scene load_steps=4 format=3 uid="uid://cxg537ramv08c"]
+[gd_scene load_steps=5 format=3 uid="uid://cxg537ramv08c"]
 
 [ext_resource type="PackedScene" uid="uid://c14jc7hm1oowb" path="res://Assets/World/Buildings/ProductionBuilding2D.tscn" id="1_j7hvl"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Lumberjack/Lumberjack2D.gd" id="2_m5tbk"]
-[ext_resource type="Texture2D" uid="uid://68ot2mo12sc" path="res://Assets/World/Buildings/Lumberjack/Sprites/LumberjackTent_idle.png" id="3_0yn86"]
+[ext_resource type="Texture2D" uid="uid://c10dpbgiopt0d" path="res://Assets/World/Buildings/Lumberjack/Sprites/LumberjackTent_idle.png" id="3_0yn86"]
+[ext_resource type="PackedScene" uid="uid://dnixn1uc3bjuc" path="res://Assets/World/Buildings/Lumberjack/Forester/Forester.tscn" id="4_bsmu5"]
 
 [node name="Lumberjack2D" instance=ExtResource("1_j7hvl")]
 script = ExtResource("2_m5tbk")
+unload_wood_time = 2
 proccesing_time = 3
 game_name = "Lumberjack"
 output_product = "Wood"
 
-[node name="Sprite2D" type="Sprite2D" parent="." index="0"]
+[node name="HutImage" type="Sprite2D" parent="." index="0"]
 texture = ExtResource("3_0yn86")
 region_enabled = true
 region_rect = Rect2(0, 64, 128, 64)
+
+[node name="Forester" parent="." index="1" instance=ExtResource("4_bsmu5")]
+visible = false
+speed_px_per_sec = 64.0
 
 [connection signal="timeout" from="ProdTimer" to="." method="_on_prod_timer_timeout"]

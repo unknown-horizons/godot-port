@@ -2,22 +2,32 @@ extends ProductionBuilding2D
 
 class_name Lumberjack2D
 
+@export var unload_wood_time: int = 2
 @export var proccesing_time: int = 10
 
 func _ready():
   self.building_setup()
-  prod_timer.start(proccesing_time)
+  #do_production_loop()
 
+#func do_production_loop():
+  #await wait_for_tree()
+#
+  #await produce_wood()
+#
+  #do_production_loop()
+#
+#func wait_for_tree():
+  #await self.get_tree().create_timer(1).timeout
+  #if number_of_output_products > 0:
+    #return
+  #else:
+    #await wait_for_tree()
+#
+#func produce_wood():
+  #await self.get_tree().create_timer(proccesing_time).timeout
+  #self.resource_produced.emit(output_product, 1)
 
-
-func _on_prod_timer_timeout():
-  if self.needs_intake_product:
-    if self.number_of_intake_products > 0:
-      self.number_of_intake_products -= 1
-    else:
-      return
-
-  if self.number_of_output_products < 10:
-    self.number_of_output_products += 1
-
-  resource_produced.emit(output_product, 1)
+func unload_wood():
+  await self.get_tree().create_timer(unload_wood_time).timeout
+  self.number_of_output_products += 1
+  self.resource_produced.emit(output_product, 1)

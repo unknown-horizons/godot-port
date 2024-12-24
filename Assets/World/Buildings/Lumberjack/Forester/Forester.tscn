@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dnixn1uc3bjuc"]
+
+[ext_resource type="PackedScene" uid="uid://dcpsi3ppfn0ga" path="res://Assets/World/Units/Unit2D.tscn" id="1_degec"]
+[ext_resource type="Script" path="res://Assets/World/Buildings/Lumberjack/Forester/Forester.gd" id="2_a48mn"]
+[ext_resource type="SpriteFrames" uid="uid://b7inbywvvhts2" path="res://Assets/World/Buildings/Lumberjack/Forester/ForesterMovementFrames.tres" id="2_f7dfd"]
+
+[node name="Forester" instance=ExtResource("1_degec")]
+script = ExtResource("2_a48mn")
+choping_down_tree_time = 2.0
+speed_px_per_sec = 128.0
+speed_tile_per_sec = 0.5
+
+[node name="ForesterSprite" type="AnimatedSprite2D" parent="." index="0"]
+scale = Vector2(2, 2)
+sprite_frames = ExtResource("2_f7dfd")
+animation = &"Move0"
+offset = Vector2(0, -8)
