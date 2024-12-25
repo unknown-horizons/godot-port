@@ -7,19 +7,11 @@ var building_to_build = null
 
 const road = "road"
 
-enum Buildings {
-  farm =       1,
-  warehouse =  2,
-  cattle_run = 3,
-  lumberjack = 4,
-}
-
-
 
 func set_building_to_build(building):
   building_to_build = building
 
 
 
-func get_building_id(building_name: String) -> int:
-  return Buildings.get(building_name)
+#func get_building_id(building_name: String) -> int:
+  #return Buildings.get(building_name)

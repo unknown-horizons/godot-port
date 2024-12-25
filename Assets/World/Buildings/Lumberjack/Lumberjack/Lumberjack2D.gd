@@ -63,7 +63,7 @@ func movement_loop():
 
 func wait_for_tree_in_need():
 # wait until needs and can go to tree
-  while self.get_parent().number_of_output_products >= self.get_parent().max_storage_capacity or closest_trees == []:
+  while self.get_parent().number_of_intake_products >= self.get_parent().max_storage_capacity or closest_trees == []:
     await self.get_tree().create_timer(1).timeout
 
 func get_closest_available_tree():

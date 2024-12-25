@@ -3,13 +3,16 @@ extends Node2D
 class_name ProductionBuilding2D
 
 #@export_category("ProductionBuilding2D")
-@export var game_name: String = "Farm"
+@export var game_name: String
+@export var output_product: String
 
 @export var max_storage_capacity: int = 10
-@export var output_product: String
+@export var processing_time: int = 10
+@export var load_or_unload_time: float = 2
+
+@export_group("intake product")
 @export var input_product: String = ""
 @export var needs_intake_product: bool = false
-@export var load_or_unload_time: float = 2
 
 @onready var prod_timer: Timer = get_node("ProdTimer")
 @onready var carrier: Carrier = get_node("Carrier")
@@ -23,12 +26,26 @@ signal resource_produced
 
 
 
-func building_setup():
+func setup_building():
   self.get_parent().register_building(self)
   var closest_warehouse_path_or_null = find_closest_warehouse()
   if closest_warehouse_path_or_null != null:
     closest_warehouse_path = closest_warehouse_path_or_null
     carrier.path = closest_warehouse_path
+
+
+
+func produce_product():
+  if self.needs_intake_product:
+    if self.number_of_intake_products > 0:
+      self.number_of_intake_products -= 1
+    else:
+      return
+
+  if self.number_of_output_products < 10:
+    self.number_of_output_products += 1
+
+  resource_produced.emit(output_product, 1)
 
 
 

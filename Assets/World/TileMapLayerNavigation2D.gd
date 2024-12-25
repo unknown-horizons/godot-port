@@ -2,6 +2,15 @@ extends SceneTileMapLayer
 
 class_name TileMapLayerNavigation
 
+enum Buildings {
+  farm =            1,
+  warehouse =       2,
+  cattle_run =      3,
+  lumberjack_tent = 4,
+  lumberjack_hut =  5,
+}
+
+
 const is_navigatable: String = "is_navigatable"
 const is_tree: String = "is_tree"
 
@@ -160,7 +169,7 @@ func check_and_build():
     if terrain_points.get("solid").has(grid_building_pos):
       return
 
-    var tile_id = BuildingManager.get_building_id(building_to_build)
+    var tile_id = Buildings.get(building_to_build)
     if tile_id != null:
 
       #self.set_cell(grid_building_pos, 1, Vector2(0,0), -1)# to expand to the correct region

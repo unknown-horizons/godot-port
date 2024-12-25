@@ -12,8 +12,10 @@ script = ExtResource("1_hq3n1")
 
 [node name="Carrier" parent="." instance=ExtResource("2_bbdpa")]
 visible = false
+z_index = 3
 
 [node name="ItemProducedToolTip" parent="." instance=ExtResource("3_y4v30")]
 z_index = 3
 
 [connection signal="resource_produced" from="." to="ItemProducedToolTip" method="start_hovering"]
+[connection signal="timeout" from="ProdTimer" to="." method="produce_product"]
