@@ -20,7 +20,8 @@ func _ready() -> void:
     connect("button_build_menu_pressed", Callable(owner, "_on_TabWidget_button_build_menu_pressed"))
     connect("button_diplomacy_pressed", Callable(owner, "_on_TabWidget_button_diplomacy_pressed"))
     connect("button_game_menu_pressed", Callable(owner, "_on_TabWidget_button_game_menu_pressed"))
-    building_started.connect(BuildingManager.set_building_to_build)
+    if not Engine.is_editor_hint():
+      building_started.connect(BuildingManager.set_building_to_build)
 
     # Hide empty detail widget section on runtime
     if body.get_child(0).get_child_count() == 0:
