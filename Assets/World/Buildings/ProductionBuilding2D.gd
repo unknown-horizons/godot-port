@@ -50,7 +50,7 @@ func produce_product():
 
 
 func find_closest_warehouse():
-  var warehouse_poses = self.get_parent().building_name_to_building_poses.get("Warehouse")
+  var warehouse_poses = self.get_parent().building_name_to_building_poses.get("warehouse")
 
 # make sure there are warehouses
   if warehouse_poses == null:

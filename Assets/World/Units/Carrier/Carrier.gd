@@ -29,13 +29,13 @@ func movment_loop():
 
 func wait_for_resources():
   self.is_moving = false
+  while true:
 
-  await self.get_tree().create_timer(1).timeout
+    await self.get_tree().create_timer(1).timeout
 
-  if self.get_parent().number_of_output_products > 0:
-    if len(path) > 0:
-      return
-  await wait_for_resources()
+    if self.get_parent().number_of_output_products > 0:
+      if len(self.path) > 0:
+        return
 
 func load_resources_from_building():
   var object_data = await self.get_parent().load_carrier()

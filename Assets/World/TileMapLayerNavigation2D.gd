@@ -7,7 +7,7 @@ enum Buildings {
   warehouse =       2,
   cattle_run =      3,
   lumberjack_tent = 4,
-  lumberjack_hut =  5,
+  #lumberjack_hut =  5,
 }
 
 
@@ -144,39 +144,31 @@ func get_path_to_dest(start: Vector2, final_dest: Vector2, in_grid: bool = false
 
 
 func check_and_build():
-  var grid_building_pos = self.local_to_map(self.get_global_mouse_position() - self.position)
-  var world_building_pos = self.map_to_local(grid_building_pos)
-
   if BuildingManager.building_to_build == BuildingManager.road:
     return
 
-
+  var grid_building_pos = self.local_to_map(self.get_global_mouse_position() - self.position)
+  var world_building_pos = self.map_to_local(grid_building_pos)
   var cell_custom_data = self.get_cell_tile_data(grid_building_pos)
   var is_tile_tree = false
 
   if cell_custom_data != null:
     is_tile_tree = cell_custom_data.get_custom_data(is_tree)
-
   var is_empty = self.get_cell_source_id(grid_building_pos) == -1
   if not is_empty and not is_tile_tree:
     return
 
-
   var building_to_build = get_building_to_build(world_building_pos)
-
   if building_to_build != null:
-
     if terrain_points.get("solid").has(grid_building_pos):
       return
-
     var tile_id = Buildings.get(building_to_build)
     if tile_id != null:
-
-      #self.set_cell(grid_building_pos, 1, Vector2(0,0), -1)# to expand to the correct region
-      #person_pathfinding.update_region()
-      person_pathfinding.set_point_solid(grid_building_pos, false)
-      road_building_pathfindng.set_point_solid(grid_building_pos, true)
-      self.set_scene(grid_building_pos, 0, Vector2i(0, 0), tile_id)
+      if BuildingManager.has_resources_for_building():
+        person_pathfinding.set_point_solid(grid_building_pos, false)
+        road_building_pathfindng.set_point_solid(grid_building_pos, true)
+        BuildingManager.spend_resources_for_building()
+        self.set_scene(grid_building_pos, 0, Vector2i(0, 0), tile_id)
 
 
 

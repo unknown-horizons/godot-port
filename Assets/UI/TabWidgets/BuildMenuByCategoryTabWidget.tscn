@@ -58,10 +58,9 @@ layout_mode = 2
 
 [node name="TabContainer" parent="WidgetDetail/Body" index="1"]
 offset_bottom = 410.0
-current_tab = 3
+current_tab = 0
 
 [node name="Settlement" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="1"]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
@@ -318,6 +317,7 @@ layout_mode = 2
 layout_mode = 2
 
 [node name="Companies" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="4"]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 3
 
