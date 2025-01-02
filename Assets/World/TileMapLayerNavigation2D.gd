@@ -28,8 +28,8 @@ var terrain_points: Dictionary = {}
   #road = 2
 #}
 
-signal new_building_builded
-signal road_builded
+signal new_building_built
+signal road_built
 signal highlighter_highlight_road
 
 
@@ -129,11 +129,11 @@ func register_building(building):
       building_name_to_building_poses[building.game_name] = [building.position]
 
 # handle signals
-    #new_building_builded.emit(building.position)
-    new_building_builded.emit(building)
+    #new_building_built.emit(building.position)
+    new_building_built.emit(building)
     if building is ProductionBuilding2D:
-      new_building_builded.connect(building.new_building_builded)
-      road_builded.connect(building.road_builded)
+      new_building_built.connect(building.new_building_built)
+      road_built.connect(building.road_built)
 
 
 
@@ -194,6 +194,6 @@ func build_road(start_point: Vector2, finish_point: Vector2i):
         self.set_cell(lower_tile_pos, -1)
 
     person_pathfinding.set_points_passable(path, true)
-    road_builded.emit()
+    road_built.emit()
   #for cell in road_building_pathfindng.get_path_to_dest(start_point, finish_point, true):
     #self.set_cell(cell, )

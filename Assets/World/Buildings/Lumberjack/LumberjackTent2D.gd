@@ -25,7 +25,7 @@ func produce_wood():
     await self.get_tree().create_timer(self.processing_time).timeout
     self.number_of_intake_products -= 1
     self.number_of_output_products += 1
-    resource_produced.emit(output_product, 1)
+    self.show_tooltip_animation(1) # fire and forget
 
 func unload_wood():
   await self.get_tree().create_timer(unload_wood_time).timeout

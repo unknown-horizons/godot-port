@@ -5,13 +5,13 @@
 [ext_resource type="SpriteFrames" uid="uid://b7inbywvvhts2" path="res://Assets/World/Buildings/Lumberjack/Lumberjack/LumberjackMovementFrames.tres" id="3_0mc16"]
 
 [node name="Lumberjack" instance=ExtResource("1_87of1")]
+z_index = 11
 script = ExtResource("2_hh14y")
 choping_down_tree_time = 2.0
 speed_px_per_sec = 128.0
 speed_tile_per_sec = 0.5
 
 [node name="LumberjackSprite" type="AnimatedSprite2D" parent="." index="0"]
-scale = Vector2(2, 2)
 sprite_frames = ExtResource("3_0mc16")
 animation = &"Move0"
 offset = Vector2(0, -8)

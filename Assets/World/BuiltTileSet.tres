@@ -42,18 +42,22 @@ texture_region_size = Vector2i(64, 64)
 0:0/size_in_atlas = Vector2i(1, 2)
 0:0/0 = 0
 0:0/0/texture_origin = Vector2i(0, 48)
+0:0/0/z_index = 5
 0:0/0/custom_data_1 = true
 1:0/size_in_atlas = Vector2i(1, 2)
 1:0/0 = 0
 1:0/0/texture_origin = Vector2i(0, 48)
+1:0/0/z_index = 5
 1:0/0/custom_data_1 = true
 0:2/size_in_atlas = Vector2i(1, 2)
 0:2/0 = 0
 0:2/0/texture_origin = Vector2i(0, 48)
+0:2/0/z_index = 5
 0:2/0/custom_data_1 = true
 1:2/size_in_atlas = Vector2i(1, 2)
 1:2/0 = 0
 1:2/0/texture_origin = Vector2i(0, 48)
+1:2/0/z_index = 5
 1:2/0/custom_data_1 = true
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_syprb"]

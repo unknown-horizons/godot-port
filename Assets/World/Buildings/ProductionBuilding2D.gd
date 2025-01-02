@@ -4,26 +4,26 @@ class_name ProductionBuilding2D
 
 #@export_category("ProductionBuilding2D")
 @export var game_name: String
-@export var output_product: String
-
 @export var max_storage_capacity: int = 10
+
+@export_group("time")
 @export var processing_time: int = 10
 @export var load_or_unload_time: float = 2
 
-@export_group("intake product")
+@export_group("product")
+@export var output_product: String
+@export_subgroup("input product")
 @export var input_product: String = ""
 @export var needs_intake_product: bool = false
 
-@onready var prod_timer: Timer = get_node("ProdTimer")
-@onready var carrier: Carrier = get_node("Carrier")
-@onready var item_produced_tool_tip: ItemProducedToolTip = get_node("ItemProducedToolTip")
+@onready var prod_timer: Timer = self.get_node("ProdTimer")
+@onready var carrier: Carrier = self.get_node("Carrier")
+@onready var tooltip: Control = self.get_node("ItemProducedTooltip")
+@onready var product_amount_placeholder: Label = tooltip.get_node("Background/HBoxContainer/ItemAmountContainer/AmountPlaceholder")
 
 var closest_warehouse_path: Array = []
 var number_of_output_products = 0
 var number_of_intake_products = 0
-
-signal resource_produced
-
 
 
 func setup_building():
@@ -32,6 +32,19 @@ func setup_building():
   if closest_warehouse_path_or_null != null:
     closest_warehouse_path = closest_warehouse_path_or_null
     carrier.path = closest_warehouse_path
+
+
+
+func show_tooltip_animation(amount: int):
+  tooltip.visible = true
+  product_amount_placeholder.text = str(amount)
+  var initial_pos = tooltip.position
+  var float_tween = self.create_tween().bind_node(self)
+  float_tween.tween_property(tooltip, "position", tooltip.position - Vector2(0,32), 2)
+  await float_tween.finished
+  float_tween.kill()
+  tooltip.visible = false
+  tooltip.position = initial_pos
 
 
 
@@ -45,7 +58,7 @@ func produce_product():
   if self.number_of_output_products < 10:
     self.number_of_output_products += 1
 
-  resource_produced.emit(output_product, 1)
+  show_tooltip_animation(1) # fire and forget
 
 
 
@@ -70,9 +83,9 @@ func find_closest_warehouse():
 
 
 
-func new_building_builded(building):
+func new_building_built(building):
 #check if building is warehouse
-  if building.game_name == "Warehouse":
+  if building.game_name == "warehouse":
     var path_to_warehouse = self.get_parent().get_path_to_dest(self.position, building.position)
     if path_to_warehouse != null and (len(path_to_warehouse) < len(closest_warehouse_path) or len(closest_warehouse_path) == 0):
       closest_warehouse_path = path_to_warehouse
@@ -80,7 +93,7 @@ func new_building_builded(building):
 
 
 
-func road_builded():
+func road_built():
   var closest_warehouse_path_or_null = find_closest_warehouse()
   if closest_warehouse_path_or_null != null:
     closest_warehouse_path = closest_warehouse_path_or_null

@@ -10,7 +10,7 @@ const nav_types_str = [
 
 signal build_tile_layer_build_road
 signal set_solid_and_liquid_points
-signal builded_highlight_road
+signal built_highlight_road
 
 var is_road_building_started: bool = false
 var road_start_pos: Vector2 = Vector2(0,0)
@@ -36,7 +36,7 @@ func _unhandled_input(event):
   if event is InputEventMouseMotion:
     if is_road_building_started and BuildingManager.building_to_build == BuildingManager.road and last_mouse_tile_pos != self.local_to_map(self.get_global_mouse_position()):
       last_mouse_tile_pos = self.local_to_map(self.get_global_mouse_position())
-      builded_highlight_road.emit(road_start_pos, self.local_to_map(self.get_global_mouse_position()))
+      built_highlight_road.emit(road_start_pos, self.local_to_map(self.get_global_mouse_position()))
 
 
 

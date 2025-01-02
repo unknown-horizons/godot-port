@@ -1,14 +1,15 @@
-[gd_scene load_steps=4 format=3 uid="uid://21pewmmm5ykv"]
+[gd_scene load_steps=5 format=3 uid="uid://21pewmmm5ykv"]
 
 [ext_resource type="PackedScene" uid="uid://c14jc7hm1oowb" path="res://Assets/World/Buildings/ProductionBuilding2D.tscn" id="1_8713n"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Agricultural/Farm2D/Farm2D.gd" id="2_h2au8"]
 [ext_resource type="Texture2D" uid="uid://maxdcj78ycix" path="res://Assets/World/icon.svg" id="2_lkd4l"]
+[ext_resource type="Texture2D" uid="uid://brmfkn8sfum3n" path="res://Assets/UI/Icons/Resources/32/005.png" id="4_jjafu"]
 
 [node name="Farm2D" instance=ExtResource("1_8713n")]
 script = ExtResource("2_h2au8")
 game_name = "farm"
-output_product = "Wheat"
 processing_time = 3
+output_product = "Wheat"
 
 [node name="Sprite2D" type="Sprite2D" parent="." index="2"]
 scale = Vector2(0.5, 0.5)
@@ -23,5 +24,8 @@ text = "farm
 "
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="ImagePlaceholder" parent="ItemProducedTooltip/Background/HBoxContainer/ItemImageContainer" index="0"]
+texture = ExtResource("4_jjafu")
 
 [connection signal="timeout" from="ProdTimer" to="." method="_on_prod_timer_timeout"]

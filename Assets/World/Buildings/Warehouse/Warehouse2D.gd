@@ -2,7 +2,6 @@ extends Node2D
 
 class_name Warehouse2D
 
-@export_category("WareHouse")
 @export var game_name: String = "WareHouse"
 @export var load_and_unload_time: float = 2
 @export var max_loading_and_unloading_limit: int = 2
