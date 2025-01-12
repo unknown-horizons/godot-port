@@ -6,27 +6,30 @@ class_name Lumberjack2D
 
 func _ready():
   self.setup_building()
+  self.input_product_storage["wood"] = 0
   production_loop()
 
 func production_loop():
-  while self.number_of_output_products < self.max_storage_capacity:
-    if self.number_of_intake_products <= 0:
-      await wait_for_wood()
+  while true:
+    await wait_for_storage_space()
+    await wait_for_wood()
     await produce_wood()
 
-func wait_for_wood():
-  while true:
+func wait_for_storage_space():
+  while self.number_of_output_products >= self.building_data.max_storage_capacity:
     await self.get_tree().create_timer(1).timeout
-    if self.number_of_intake_products > 0:
-      return
+
+func wait_for_wood():
+  while self.input_product_storage["wood"] <= 0:
+    await self.get_tree().create_timer(1).timeout
 
 func produce_wood():
-  if self.number_of_intake_products > 0:
-    await self.get_tree().create_timer(self.processing_time).timeout
-    self.number_of_intake_products -= 1
+  if self.input_product_storage["wood"] > 0:
+    await self.get_tree().create_timer(self.building_data.processing_time).timeout
+    self.input_product_storage["wood"] -= 1
     self.number_of_output_products += 1
     self.show_tooltip_animation(1) # fire and forget
 
 func unload_wood():
   await self.get_tree().create_timer(unload_wood_time).timeout
-  self.number_of_intake_products += 1
+  self.input_product_storage["wood"] += 1

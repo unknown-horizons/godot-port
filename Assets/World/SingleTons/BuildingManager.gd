@@ -1,27 +1,29 @@
 extends Node
-#
-#var Farm2D = preload("res://Assets/World/Buildings/Agricultural/Farm2D/Farm2D.tscn")
-#var WareHouse = preload("res://Assets/World/Buildings/WareHouse2D/ware_house2D.tscn")
-var building_data: Dictionary = {
-"farm": {"cost": {"Timber": 1}},
-"warehouse": {"cost": {}},
-"cattle_run": {"cost": {"Timber": 1}},
-"lumberjack_tent": {"cost": {}},
-"road": {"cost": {}}
-}
+## manages the buildings in the game
 
-var building_to_build = null
+## building data folder
+const bdf = "res://Assets/World/BuildingData/"
 
-const road = "road"
+var building_data: Dictionary = {}
+var building_to_build: BuildingData = null
 
+func _ready():
+#  convert a list of building data files to a dictionary
+  var building_data_files = [
+    preload(bdf + "FarmData.tres"),
+    preload(bdf + "LumberjackData.tres"),
+    preload(bdf + "RoadData.tres"),
+    preload(bdf + "WarehouseData.tres")
+  ]
+  for building_data_file in building_data_files:
+    building_data[building_data_file.game_name] = building_data_file
 
-func set_building_to_build(building):
-  building_to_build = building
+func set_building_to_build(building_name: String):
+  building_to_build = building_data.get(building_name)
 
-func has_resources_for_building(building_name: String = building_to_build) -> bool:
-  var building_cost: Dictionary = building_data[building_to_build]["cost"]
-  for resource in building_cost.keys():
-    var amount_needed: int = building_cost[resource]
+func has_resources_for_building(prod_building_data: BuildingData = building_to_build) -> bool:
+  for resource in prod_building_data.cost.keys():
+    var amount_needed: int = prod_building_data.cost[resource]
     var amount_available = GameStats.game_stats_resource.resources.get(resource)
     var can_be_built: bool = amount_available != null and amount_needed <= amount_available
     if not can_be_built:
@@ -30,9 +32,8 @@ func has_resources_for_building(building_name: String = building_to_build) -> bo
 
   return true
 
-func spend_resources_for_building(building_name: String = building_to_build) -> void:
-  var building_cost: Dictionary = building_data[building_to_build]["cost"]
-  for resource in building_cost.keys():
-    var amount_needed: int = building_cost[resource]
+func spend_resources_for_building(prod_building_data: BuildingData = building_to_build) -> void:
+  for resource in prod_building_data.cost.keys():
+    var amount_needed: int = prod_building_data.cost[resource]
     GameStats.game_stats_resource.resources[resource] -= amount_needed
     print("the amount of %s is now %s" % [resource, GameStats.game_stats_resource.resources[resource]])

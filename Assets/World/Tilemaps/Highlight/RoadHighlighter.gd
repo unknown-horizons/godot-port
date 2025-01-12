@@ -2,7 +2,7 @@ extends TileMapLayer
 
 
 
-func highlight_road(cells, is_buildable):
+func highlight_road(cells):
   self.clear()
 
   #if is_buildable:

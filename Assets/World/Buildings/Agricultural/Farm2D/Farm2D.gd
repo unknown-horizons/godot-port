@@ -9,4 +9,4 @@ class_name Farm2D
 
 func _ready():
   self.setup_building()
-  prod_timer.start(self.processing_time)
+  prod_timer.start(self.building_data.processing_time)

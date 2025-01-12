@@ -9,11 +9,18 @@ class_name Carrier
   #180 = 4,
   #
 #}
+@export var max_carry_limit: int = 10
 
-
+var objects_carring: Dictionary
 
 func _ready():
   movment_loop()
+
+func is_resource_load_valid() -> bool:
+  for resource in objects_carring.keys():
+    if objects_carring[resource] > max_carry_limit:
+      return false
+  return true
 
 func movment_loop():
   while true:
@@ -30,62 +37,53 @@ func movment_loop():
 func wait_for_resources():
   self.is_moving = false
   while true:
-
+    if len(self.path) > 0:
+      if self.get_parent().number_of_output_products > 0:
+        return
+      if not self.get_parent().is_storage_full():
+        return
     await self.get_tree().create_timer(1).timeout
 
-    if self.get_parent().number_of_output_products > 0:
-      if len(self.path) > 0:
-        return
-
 func load_resources_from_building():
-  var object_data = await self.get_parent().load_carrier()
-  self.object_carring = object_data[1]
-  self.count_of_objects = object_data[0]
+  objects_carring = await self.get_parent().load_carrier()
+  # raise error if objects carring is invalid
+  if not is_resource_load_valid():
+    push_error("Invalid resource load: %s" % [objects_carring])
 
 func move_to_warehouse():
-# for safety
-  if self.object_carring == "" or self.count_of_objects <= 0:
-    return
-  if len(path) > 0 and not is_moving and max_carry_limit >= self.count_of_objects:
-    #person_sprite.play()
-# set path to and back to current known path
+  # make sure that object carring data if valid
+  if len(path) > 0 and not is_moving and is_resource_load_valid():
+  # set path to and back to current known path
     path_there = path.duplicate()
     path_there.pop_front()
     path_back = path.duplicate()
     path_back.reverse()
-
     is_moving = true
-    #self.visible = true
-    await self.move(self.path_there)
+    # find the correct animation prefix
+    if objects_carring != {}:
+      await self.move("MoveFull", self.path_there)
+    else:
+      await self.move("Move", self.path_there)
 
 func load_and_unload_at_warehouse():
   self.visible = false
   var building = self.get_parent().get_parent().building_pos_to_building.get(self.global_position)
   if building != null and building is Warehouse2D:
-    var load_or_unload_time = building.load_and_unload_time / 2
     if building.max_loading_and_unloading_limit <= building.cur_loading_and_unloading:
       await building.slot_opened
-
-    #building.loading_started()
-    #await self.get_tree().create_timer(load_or_unload_time).timeout
-    #self.count_of_objects = building.unload_worker(self.object_carring, self.count_of_objects)
-    var resources_needed = self.get_parent().get_resourses_needed()
-    var resourses_to_unload: Dictionary = {self.object_carring: self.count_of_objects}
-    var resourses_to_load: Dictionary = {"": 0}
-
-    if resources_needed[0] != "":
-      resourses_to_load = resources_needed
-    var resoursece_to_carry_back: Dictionary = await building.load_unload_worker(resourses_to_unload, resourses_to_load)
-    self.object_carring = resoursece_to_carry_back.keys()[0]
-    self.count_of_objects = resoursece_to_carry_back.get(self.object_carring)
-      #self.object_carring = resources_needed[0]
-      #await self.get_tree().create_timer(load_or_unload_time).timeout
-      #self.count_of_objects = building.load_worker(resources_needed[0], resources_needed[1])
-    #building.loading_finished()
+    var resources_to_load: Dictionary = self.get_parent().get_resourses_needed()
+    objects_carring = await building.load_unload_worker(objects_carring, resources_to_load)
+  # raise error if objects carring is invalid
+  if not is_resource_load_valid():
+    push_error("Invalid resource load: %s" % [objects_carring])
 
 func move_back():
-  #person_sprite.play()
-  await self.move(self.path_back)
-  self.count_of_objects = await self.get_parent().unload_carrier(self.object_carring, self.count_of_objects)
-  #self.count_of_objects = 0
+  if objects_carring != {}:
+    await self.move("MoveFull", self.path_back)
+  else:
+    await self.move("Move", self.path_back)
+  objects_carring = await self.get_parent().unload_carrier(objects_carring)
+  # raise error if objects carring is invalid to know if there is a bug
+  if not is_resource_load_valid():
+    push_error("Invalid resource load: %s" % [objects_carring])
   is_moving = false

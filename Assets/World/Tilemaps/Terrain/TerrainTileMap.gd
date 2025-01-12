@@ -34,9 +34,10 @@ func _unhandled_input(event):
         
 
   if event is InputEventMouseMotion:
-    if is_road_building_started and BuildingManager.building_to_build == BuildingManager.road and last_mouse_tile_pos != self.local_to_map(self.get_global_mouse_position()):
-      last_mouse_tile_pos = self.local_to_map(self.get_global_mouse_position())
-      built_highlight_road.emit(road_start_pos, self.local_to_map(self.get_global_mouse_position()))
+    if BuildingManager.building_to_build != null and BuildingManager.building_to_build.game_name == "road":
+      if  is_road_building_started and last_mouse_tile_pos != self.local_to_map(self.get_global_mouse_position()):
+        last_mouse_tile_pos = self.local_to_map(self.get_global_mouse_position())
+        built_highlight_road.emit(road_start_pos, self.local_to_map(self.get_global_mouse_position()))
 
 
 
@@ -52,7 +53,7 @@ func get_solid_and_liquid_points():
 
 
 func check_and_respond():
-  if BuildingManager.building_to_build == BuildingManager.road:
+  if BuildingManager.building_to_build != null and BuildingManager.building_to_build.game_name == "road":
     if is_road_building_started:
       build_tile_layer_build_road.emit(road_start_pos, self.local_to_map(self.get_global_mouse_position()))
 

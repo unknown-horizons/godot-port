@@ -2,7 +2,6 @@ extends AnimatableBody2D
 
 class_name Unit2D
 
-@export var max_carry_limit: int = 10
 @export var speed_tile_per_sec: float = 0.5
 
 @onready var person_sprite: AnimatedSprite2D = self.get_child(0)
@@ -20,17 +19,6 @@ var path_back: Array = []
 
 var is_moving: bool = false
 
-var object_carring: String
-var count_of_objects: int
-
-
-
-func get_animation_name(angle_of_walk: float):
-  if count_of_objects >= 1:
-    return "MoveFull%s" % [angle_of_walk]
-  else:
-    return "Move%s" % [angle_of_walk]
-
 
 
 func get_sprite_angle(next_point: Vector2):
@@ -44,7 +32,7 @@ func get_sprite_angle(next_point: Vector2):
 
 
 
-func move(path: Array = path_there):
+func move(animation_prefix: String, path: Array = path_there):
   self.visible = true
   if len(path) <= 0:
     return
@@ -54,7 +42,7 @@ func move(path: Array = path_there):
     var sprite_angle = get_sprite_angle(point)
     if last_direction != sprite_angle:
       last_direction = sprite_angle
-      person_sprite.play(get_animation_name(sprite_angle))
+      person_sprite.play(animation_prefix + str(sprite_angle))
 
     #print(sprite_angle)
     var move_tween = self.create_tween().bind_node(self)
