@@ -13,7 +13,6 @@ var number_of_output_products = 0
 var input_product_storage: Dictionary = {}
 
 func setup_building():
-  self.get_parent().register_building(self)
   var closest_warehouse_path_or_null = find_closest_warehouse()
   input_product_storage = self.building_data.input_products.duplicate()
   if closest_warehouse_path_or_null != null:
