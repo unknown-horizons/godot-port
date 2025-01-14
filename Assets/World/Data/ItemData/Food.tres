@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://cadptbki7hpwf"]
+
+[ext_resource type="Script" path="res://Assets/World/Data/ItemData/ItemData.gd" id="1_hmb08"]
+[ext_resource type="Texture2D" uid="uid://brmfkn8sfum3n" path="res://Assets/UI/Icons/Resources/32/005.png" id="1_xspol"]
+
+[resource]
+script = ExtResource("1_hmb08")
+game_name = "Food"
+icon = ExtResource("1_xspol")

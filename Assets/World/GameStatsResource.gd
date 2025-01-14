@@ -4,7 +4,7 @@ class_name GameStatsResource
 
 const save_path = "user://progress.tres"
 
-var resources: Dictionary = {"timber": 5}
+var resources: Dictionary = {}
 
 func save_game():
   ResourceSaver.save(self, save_path)

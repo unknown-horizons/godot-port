@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ProductionBuildingData" load_steps=4 format=3 uid="uid://bhhs6phyo6c2c"]
+
+[ext_resource type="Resource" uid="uid://cadptbki7hpwf" path="res://Assets/World/Data/ItemData/Food.tres" id="1_1oftp"]
+[ext_resource type="Resource" uid="uid://c5xn4hbcdts6c" path="res://Assets/World/Data/ItemData/Timber.tres" id="1_wbjsf"]
+[ext_resource type="Script" path="res://Assets/World/Data/BuildingData/ProductionBuildingData.gd" id="2_rccs4"]
+
+[resource]
+script = ExtResource("2_rccs4")
+max_storage_capacity = 10
+processing_time = 3
+load_or_unload_time = 2.0
+output_product = ExtResource("1_1oftp")
+input_products = {}
+game_name = "farm"
+cost = {
+ExtResource("1_wbjsf"): 1
+}

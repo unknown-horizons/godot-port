@@ -9,5 +9,5 @@ class_name ProductionBuildingData
 @export var load_or_unload_time: float = 2
 
 @export_group("product")
-@export var output_product: String
+@export var output_product: ItemData
 @export var input_products: Dictionary = {}

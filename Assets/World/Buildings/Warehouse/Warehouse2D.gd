@@ -18,17 +18,15 @@ var cur_loading_and_unloading: int = 0
 func _ready():
   self.get_parent().register_building(self)
 
-func load_unload_worker(unload_quantity: Dictionary, load_quantity: Dictionary) -> Dictionary:
+func load_unload_worker(unload_objects: Dictionary, load_objects: Dictionary) -> Dictionary:
   # acquired load/unload lock
   while cur_loading_and_unloading >= max_loading_and_unloading_limit:
     await self.slot_opened
   cur_loading_and_unloading += 1
-
   # load and unload worker
-  await unload_worker(unload_quantity)
-  var objects_to_load = await load_worker(load_quantity)
-
-#  finish loading and unloading
+  await unload_worker(unload_objects)
+  var objects_to_load = await load_worker(load_objects)
+  # finish loading and unloading
   cur_loading_and_unloading -= 1
   slot_opened.emit()
 
@@ -42,14 +40,14 @@ func unload_worker(objects_to_unload: Dictionary) -> void:
     return
   await self.get_tree().create_timer(load_and_unload_time / 2).timeout
   # for future multi loads if any, wraped in for loop
-  for object in objects_to_unload.keys():
+  for object: ItemData in objects_to_unload.keys():
     var amount = objects_to_unload.get(object)
     if GameStats.game_stats_resource.resources.has(object):
       GameStats.game_stats_resource.resources[object] += amount
     else:
       GameStats.game_stats_resource.resources[object] = amount
     #update_resources.emit()
-    print("the amount of %s is %s" % [object, GameStats.game_stats_resource.resources[object]])
+    print("the amount of %s is now %s" % [object.game_name, GameStats.game_stats_resource.resources[object]])
 
 func load_worker(objects_to_load: Dictionary) -> Dictionary:
   # if no request on loading
@@ -65,5 +63,5 @@ func load_worker(objects_to_load: Dictionary) -> Dictionary:
       var max_available: int = min(amount, GameStats.game_stats_resource.resources[object])
       GameStats.game_stats_resource.resources[object] -= max_available
       available_objects[object] = max_available
-      print("the amount of %s is %s" % [object, GameStats.game_stats_resource.resources[object]])
+      print("the amount of %s is now %s" % [object.game_name, GameStats.game_stats_resource.resources[object]])
   return available_objects
