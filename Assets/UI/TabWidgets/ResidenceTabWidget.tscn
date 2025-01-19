@@ -22,48 +22,32 @@
 [node name="ResidenceTabWidget" instance=ExtResource("3")]
 script = ExtResource("17")
 
-[node name="WidgetDetail" parent="." index="2"]
-anchors_preset = 0
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_left = 0.0
-offset_top = 157.0
-offset_right = 251.0
-offset_bottom = 694.0
-grow_horizontal = 1
-grow_vertical = 1
-
-[node name="Body" parent="WidgetDetail" index="1"]
-custom_minimum_size = Vector2(0, 389)
-
-[node name="RelatedSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="1" instance=ExtResource("2")]
+[node name="RelatedSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="1" instance=ExtResource("2")]
 layout_mode = 2
 
-[node name="TabContainer" parent="WidgetDetail/Body" index="1"]
+[node name="TabContainer" parent="." index="1"]
 offset_left = -109.0
 offset_right = 109.0
 offset_bottom = 389.0
 
-[node name="CaptionBlock" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="0"]
+[node name="CaptionBlock" parent="TabContainer/VBoxContainer" index="0"]
 text = "Residence"
 
-[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="1"]
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/VBoxContainer" index="1"]
 layout_mode = 2
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_right = 10
 
-[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/VBoxContainer/MarginContainer" index="0"]
 layout_mode = 2
 
-[node name="Control" type="Control" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="0"]
+[node name="Control" type="Control" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="0"]
 custom_minimum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 6
 
-[node name="Sprite2D" type="Sprite2D" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer/Control" index="0"]
+[node name="Sprite2D" type="Sprite2D" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer/Control" index="0"]
 texture = ExtResource("6")
 centered = false
 hframes = 2
@@ -71,87 +55,87 @@ vframes = 2
 region_enabled = true
 region_rect = Rect2(0, 20, 256, 256)
 
-[node name="LabelEx2" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="1" instance=ExtResource("4")]
+[node name="LabelEx2" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="1" instance=ExtResource("4")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_2ck3b")
 theme_override_font_sizes/font_size = 16
 text = "Tent"
 font_style = 0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="2"]
+[node name="HBoxContainer" type="HBoxContainer" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="2"]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer" index="0"]
+[node name="TextureRect" type="TextureRect" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer" index="0"]
 layout_mode = 2
 size_flags_vertical = 4
 texture = ExtResource("9")
 
-[node name="HSlider" type="HSlider" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer" index="1"]
+[node name="HSlider" type="HSlider" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer" index="1"]
 layout_mode = 2
 size_flags_horizontal = 3
 value = 50.0
 editable = false
 
-[node name="TextureRect2" type="TextureRect" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer" index="2"]
+[node name="TextureRect2" type="TextureRect" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer" index="2"]
 layout_mode = 2
 size_flags_vertical = 4
 texture = ExtResource("10")
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer" index="3" instance=ExtResource("4")]
+[node name="LabelEx" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer" index="3" instance=ExtResource("4")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("9_rt5xq")
 theme_override_font_sizes/font_size = 16
 text = "1/2"
 font_style = 9
 
-[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="3"]
+[node name="HSeparator" type="HSeparator" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="3"]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="TaxesControl" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="4" instance=ExtResource("8")]
+[node name="TaxesControl" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="4" instance=ExtResource("8")]
 layout_mode = 2
 
-[node name="HSeparator2" type="HSeparator" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="5"]
+[node name="HSeparator2" type="HSeparator" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="5"]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="6" instance=ExtResource("4")]
+[node name="LabelEx" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="6" instance=ExtResource("4")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("9_rt5xq")
 theme_override_font_sizes/font_size = 16
 text = "Needed resources:"
 font_style = 9
 
-[node name="GridContainer" type="GridContainer" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="7"]
+[node name="GridContainer" type="GridContainer" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer" index="7"]
 layout_mode = 2
 columns = 4
 
-[node name="ResourceItem" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/VBoxContainer/GridContainer" index="0" instance=ExtResource("11_nufxs")]
+[node name="ResourceItem" parent="TabContainer/VBoxContainer/MarginContainer/VBoxContainer/GridContainer" index="0" instance=ExtResource("11_nufxs")]
 layout_mode = 2
 texture = ExtResource("12_mlfdq")
 resource_type = 9
 
-[node name="BuildRelatedBuildings" parent="WidgetDetail/Body/TabContainer" index="2" instance=ExtResource("14")]
+[node name="BuildRelatedBuildings" parent="TabContainer" index="2" instance=ExtResource("14")]
 visible = false
 layout_mode = 2
 
-[node name="MarginContainer" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings" index="1"]
+[node name="MarginContainer" parent="TabContainer/BuildRelatedBuildings" index="1"]
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_right = 10
 
-[node name="BuildMainSquareButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="0" instance=ExtResource("16")]
+[node name="BuildMainSquareButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="0" instance=ExtResource("16")]
 layout_mode = 2
 
-[node name="BuildChapelButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="1" instance=ExtResource("13")]
+[node name="BuildChapelButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="1" instance=ExtResource("13")]
 layout_mode = 2
 
-[node name="BuildSchoolButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="2" instance=ExtResource("11")]
+[node name="BuildSchoolButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="2" instance=ExtResource("11")]
 layout_mode = 2
 
-[node name="BuildTavernButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="3" instance=ExtResource("12")]
+[node name="BuildTavernButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="3" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildDoctorButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="4" instance=ExtResource("15")]
+[node name="BuildDoctorButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="4" instance=ExtResource("15")]
 layout_mode = 2
 
 [editable path="WidgetDetail/Body/TabContainer/BuildRelatedBuildings"]

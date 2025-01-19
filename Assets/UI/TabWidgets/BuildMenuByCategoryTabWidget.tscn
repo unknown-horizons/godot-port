@@ -32,440 +32,446 @@
 [ext_resource type="PackedScene" uid="uid://bttl07b8eembn" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildHunterButton.tscn" id="31"]
 
 [node name="BuildMenuByCategoryTabWidget" instance=ExtResource("2")]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -125.5
+offset_right = 125.5
+grow_horizontal = 2
 
-[node name="WidgetDetail" parent="." index="2"]
-offset_bottom = 537.5
-
-[node name="Body" parent="WidgetDetail" index="1"]
-custom_minimum_size = Vector2(0, 410)
-
-[node name="ResidentialSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="0" instance=ExtResource("3")]
+[node name="ResidentialSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="0" instance=ExtResource("3")]
 custom_minimum_size = Vector2(40, 46)
 layout_mode = 2
 
-[node name="FieldsSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="1" instance=ExtResource("5")]
+[node name="FieldsSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="1" instance=ExtResource("5")]
 layout_mode = 2
 
-[node name="AgriculturalSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="2" instance=ExtResource("6")]
+[node name="AgriculturalSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="2" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="CompaniesSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="3" instance=ExtResource("7")]
+[node name="CompaniesSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="3" instance=ExtResource("7")]
 layout_mode = 2
 
-[node name="MilitarySwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="4" instance=ExtResource("4")]
+[node name="MilitarySwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="4" instance=ExtResource("4")]
 custom_minimum_size = Vector2(40, 46)
 layout_mode = 2
 
-[node name="TabContainer" parent="WidgetDetail/Body" index="1"]
-offset_bottom = 410.0
+[node name="TabContainer" parent="." index="1"]
 current_tab = 0
 
-[node name="Settlement" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="1"]
+[node name="Settlement" type="VBoxContainer" parent="TabContainer" index="1"]
 layout_mode = 2
 metadata/_tab_index = 0
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Settlement" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Settlement" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 16
 text = "Settlement"
 font_style = 0
 
-[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/Settlement" index="1"]
+[node name="HSeparator" type="HSeparator" parent="TabContainer/Settlement" index="1"]
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/Settlement" index="2"]
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Settlement" index="2"]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Settlement/MarginContainer" index="0"]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Settlement/MarginContainer/VBoxContainer" index="0"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Infrastructure"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildTrailButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource("17")]
+[node name="BuildTrailButton" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource("17")]
+layout_mode = 2
+input_action_name = "toggle_build_building"
+input_action_meta = {
+"building_name": "road"
+}
+
+[node name="BuildStorageButton" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="1" instance=ExtResource("15")]
+layout_mode = 2
+input_action_name = "toggle_build_building"
+input_action_meta = {
+"building_name": "warehouse"
+}
+
+[node name="BuildLookoutButton" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="2" instance=ExtResource("19")]
 layout_mode = 2
 
-[node name="BuildStorageButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="1" instance=ExtResource("15")]
+[node name="BuildSignalFireButton" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="3" instance=ExtResource("16")]
 layout_mode = 2
 
-[node name="BuildLookoutButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="2" instance=ExtResource("19")]
+[node name="VBoxContainer2" type="VBoxContainer" parent="TabContainer/Settlement/MarginContainer/VBoxContainer" index="1"]
 layout_mode = 2
 
-[node name="BuildSignalFireButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="3" instance=ExtResource("16")]
-layout_mode = 2
-
-[node name="VBoxContainer2" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer" index="1"]
-layout_mode = 2
-
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Residential"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildResidenceButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer2/BuildMenuContainer" index="0" instance=ExtResource("13")]
+[node name="BuildResidenceButton" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer2/BuildMenuContainer" index="0" instance=ExtResource("13")]
 layout_mode = 2
 
-[node name="VBoxContainer3" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer" index="2"]
+[node name="VBoxContainer3" type="VBoxContainer" parent="TabContainer/Settlement/MarginContainer/VBoxContainer" index="2"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Services"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildMainSquareButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="0" instance=ExtResource("11")]
+[node name="BuildMainSquareButton" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="0" instance=ExtResource("11")]
 layout_mode = 2
 
-[node name="BuildChapelButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="1" instance=ExtResource("18")]
+[node name="BuildChapelButton" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="1" instance=ExtResource("18")]
 layout_mode = 2
 
-[node name="BuildSchoolButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="2" instance=ExtResource("14")]
+[node name="BuildSchoolButton" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="2" instance=ExtResource("14")]
 layout_mode = 2
 
-[node name="VBoxContainer4" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer" index="3"]
+[node name="VBoxContainer4" type="VBoxContainer" parent="TabContainer/Settlement/MarginContainer/VBoxContainer" index="3"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer4" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer4" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Precaution"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer4" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer4" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildFireStationButton" parent="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer4/BuildMenuContainer" index="0" instance=ExtResource("10")]
+[node name="BuildFireStationButton" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer4/BuildMenuContainer" index="0" instance=ExtResource("10")]
 layout_mode = 2
 
-[node name="Fields" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="2"]
+[node name="Fields" type="VBoxContainer" parent="TabContainer" index="2"]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 1
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Fields" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Fields" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 16
 text = "Fields"
 font_style = 0
 
-[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/Fields" index="1"]
+[node name="HSeparator" type="HSeparator" parent="TabContainer/Fields" index="1"]
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/Fields" index="2"]
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Fields" index="2"]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Fields/MarginContainer" index="0"]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Fields/MarginContainer/VBoxContainer" index="0"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Pioneers"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildFarmButton" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource("23")]
+[node name="BuildFarmButton" parent="TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource("23")]
+layout_mode = 2
+input_action_name = "toggle_build_building"
+input_action_meta = {
+"building_name": "farm"
+}
+
+[node name="BuildPastureButton" parent="TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="1" instance=ExtResource("24")]
 layout_mode = 2
 
-[node name="BuildPastureButton" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="1" instance=ExtResource("24")]
+[node name="BuildPotatoFieldButton" parent="TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="2" instance=ExtResource("22")]
 layout_mode = 2
 
-[node name="BuildPotatoFieldButton" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="2" instance=ExtResource("22")]
+[node name="BuildSugarFieldButton" parent="TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="3" instance=ExtResource("21")]
 layout_mode = 2
 
-[node name="BuildSugarFieldButton" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="3" instance=ExtResource("21")]
+[node name="VBoxContainer2" type="VBoxContainer" parent="TabContainer/Fields/MarginContainer/VBoxContainer" index="1"]
 layout_mode = 2
 
-[node name="VBoxContainer2" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer" index="1"]
-layout_mode = 2
-
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Settlers"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="VBoxContainer3" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer" index="2"]
+[node name="VBoxContainer3" type="VBoxContainer" parent="TabContainer/Fields/MarginContainer/VBoxContainer" index="2"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Citizens"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="VBoxContainer4" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer" index="3"]
+[node name="VBoxContainer4" type="VBoxContainer" parent="TabContainer/Fields/MarginContainer/VBoxContainer" index="3"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer4" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer4" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Merchants"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer4" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer4" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="Agriculture" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="3"]
+[node name="Agriculture" type="VBoxContainer" parent="TabContainer" index="3"]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Agriculture" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Agriculture" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 16
 text = "Agriculture"
 font_style = 0
 
-[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/Agriculture" index="1"]
+[node name="HSeparator" type="HSeparator" parent="TabContainer/Agriculture" index="1"]
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/Agriculture" index="2"]
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Agriculture" index="2"]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Agriculture/MarginContainer" index="0"]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer" index="0"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Sea"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildFishermanButton" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource("30")]
+[node name="BuildFishermanButton" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource("30")]
 layout_mode = 2
 
-[node name="VBoxContainer2" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer" index="1"]
+[node name="VBoxContainer2" type="VBoxContainer" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer" index="1"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Food"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildHunterButton" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer2/BuildMenuContainer" index="0" instance=ExtResource("31")]
+[node name="BuildHunterButton" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer2/BuildMenuContainer" index="0" instance=ExtResource("31")]
 layout_mode = 2
 
-[node name="VBoxContainer3" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer" index="2"]
+[node name="VBoxContainer3" type="VBoxContainer" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer" index="2"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Workshops"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildWeaverButton" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="0" instance=ExtResource("20")]
+[node name="BuildWeaverButton" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="0" instance=ExtResource("20")]
 layout_mode = 2
 
-[node name="BuildDistilleryButton" parent="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="1" instance=ExtResource("26")]
+[node name="BuildDistilleryButton" parent="TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="1" instance=ExtResource("26")]
 layout_mode = 2
 
-[node name="Companies" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="4"]
+[node name="Companies" type="VBoxContainer" parent="TabContainer" index="4"]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 3
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Companies" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Companies" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 16
 text = "Companies"
 font_style = 0
 
-[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/Companies" index="1"]
+[node name="HSeparator" type="HSeparator" parent="TabContainer/Companies" index="1"]
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/Companies" index="2"]
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Companies" index="2"]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Companies/MarginContainer" index="0"]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Companies/MarginContainer/VBoxContainer" index="0"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Wood"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildLumberjackButton" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource("27")]
+[node name="BuildLumberjackButton" parent="TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource("27")]
+layout_mode = 2
+input_action_name = "toggle_build_building"
+input_action_meta = {
+"building_name": "lumberjack"
+}
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="TabContainer/Companies/MarginContainer/VBoxContainer" index="1"]
 layout_mode = 2
 
-[node name="VBoxContainer2" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer" index="1"]
-layout_mode = 2
-
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Mining"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildClayPitButton" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer2/BuildMenuContainer" index="0" instance=ExtResource("28")]
+[node name="BuildClayPitButton" parent="TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer2/BuildMenuContainer" index="0" instance=ExtResource("28")]
 layout_mode = 2
 
-[node name="VBoxContainer3" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer" index="2"]
+[node name="VBoxContainer3" type="VBoxContainer" parent="TabContainer/Companies/MarginContainer/VBoxContainer" index="2"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Workshops"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildBrickyardButton" parent="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="0" instance=ExtResource("29")]
+[node name="BuildBrickyardButton" parent="TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="0" instance=ExtResource("29")]
 layout_mode = 2
 
-[node name="Military" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="5"]
+[node name="Military" type="VBoxContainer" parent="TabContainer" index="5"]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 4
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Military" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Military" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 16
 text = "Military"
 font_style = 0
 
-[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/Military" index="1"]
+[node name="HSeparator" type="HSeparator" parent="TabContainer/Military" index="1"]
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/Military" index="2"]
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Military" index="2"]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Military/MarginContainer" index="0"]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Military/MarginContainer/VBoxContainer" index="0"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Infrastructure"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="VBoxContainer2" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer" index="1"]
+[node name="VBoxContainer2" type="VBoxContainer" parent="TabContainer/Military/MarginContainer/VBoxContainer" index="1"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer2" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Workshops"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer2" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="VBoxContainer3" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer" index="2"]
+[node name="VBoxContainer3" type="VBoxContainer" parent="TabContainer/Military/MarginContainer/VBoxContainer" index="2"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer3" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Fortifications"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer3" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="VBoxContainer4" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer" index="3"]
+[node name="VBoxContainer4" type="VBoxContainer" parent="TabContainer/Military/MarginContainer/VBoxContainer" index="3"]
 layout_mode = 2
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer4" index="0" instance=ExtResource("1")]
+[node name="LabelEx" parent="TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer4" index="0" instance=ExtResource("1")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_nmh0d")
 theme_override_font_sizes/font_size = 18
 text = "Military service"
 font_style = 1
 
-[node name="BuildMenuContainer" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer4" index="1" instance=ExtResource("12")]
+[node name="BuildMenuContainer" parent="TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer4" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildBoatBuilderButton" parent="WidgetDetail/Body/TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer4/BuildMenuContainer" index="0" instance=ExtResource("25")]
+[node name="BuildBoatBuilderButton" parent="TabContainer/Military/MarginContainer/VBoxContainer/VBoxContainer4/BuildMenuContainer" index="0" instance=ExtResource("25")]
 layout_mode = 2
-
-[connection signal="pressed" from="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer/BuildTrailButton" to="." method="BuildBuilding" binds= ["road"]]
-[connection signal="pressed" from="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer/BuildStorageButton" to="." method="BuildBuilding" binds= ["warehouse"]]
-[connection signal="pressed" from="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer/BuildFarmButton" to="." method="BuildBuilding" binds= ["farm"]]
-[connection signal="pressed" from="WidgetDetail/Body/TabContainer/Companies/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer/BuildLumberjackButton" to="." method="BuildBuilding" binds= ["lumberjack"]]
-
-[editable path="WidgetDetail/Body/TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer"]
-[editable path="WidgetDetail/Body/TabContainer/Fields/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer"]
-[editable path="WidgetDetail/Body/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer"]

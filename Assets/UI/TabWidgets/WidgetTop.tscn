@@ -1,0 +1,213 @@
+[gd_scene load_steps=16 format=3 uid="uid://37cfdhkia73r"]
+
+[ext_resource type="Texture2D" uid="uid://5gbvga1bqpxa" path="res://Assets/UI/Images/Background/Widgets/map_bg.png" id="1_qu0hj"]
+[ext_resource type="PackedScene" uid="uid://dcgoirmxith4s" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedUpButton.tscn" id="2_fp673"]
+[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="3_nhb3k"]
+[ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="4_x544x"]
+[ext_resource type="Script" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedLabel.gd" id="5_2by35"]
+[ext_resource type="PackedScene" uid="uid://bnvf8h0p6g4p5" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedDownButton.tscn" id="6_wrt6l"]
+[ext_resource type="PackedScene" uid="uid://cx334xqdqe26t" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/ZoomInButton.tscn" id="7_nhh66"]
+[ext_resource type="PackedScene" uid="uid://chpo5bw4t3w1t" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/ZoomOutButton.tscn" id="8_pa4xb"]
+[ext_resource type="PackedScene" uid="uid://867s5dho2rlm" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/RotateLeftButton.tscn" id="9_nf8h6"]
+[ext_resource type="PackedScene" uid="uid://bhnkuql6buhtp" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/RotateRightButton.tscn" id="10_ynpmq"]
+[ext_resource type="PackedScene" uid="uid://b450djyry3nsh" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/TearButton.tscn" id="11_xlhqk"]
+[ext_resource type="PackedScene" uid="uid://bepwv74qm83mh" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/LogbookButton.tscn" id="12_ciegf"]
+[ext_resource type="PackedScene" uid="uid://b0pjmla1k4m0a" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/BuildMenuButton.tscn" id="13_ki2t4"]
+[ext_resource type="PackedScene" uid="uid://ds87f370k7lb1" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/DiplomacyButton.tscn" id="14_nlvgi"]
+[ext_resource type="PackedScene" uid="uid://dahuaxa1msk35" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameMenuButton.tscn" id="15_aw6d8"]
+
+[node name="WidgetTop" type="TextureRect"]
+z_index = 1
+custom_minimum_size = Vector2(251, 0)
+texture = ExtResource("1_qu0hj")
+stretch_mode = 3
+
+[node name="GameSpeedControls" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -81.5
+offset_top = -80.0
+offset_right = -12.5
+offset_bottom = -21.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GameSpeedUpButton" parent="GameSpeedControls" instance=ExtResource("2_fp673")]
+layout_mode = 1
+offset_left = 6.748
+offset_top = -29.067
+offset_right = 34.748
+offset_bottom = -1.067
+input_action_name = ""
+input_action_meta = {}
+
+[node name="GameSpeedLabel" parent="GameSpeedControls" instance=ExtResource("3_nhb3k")]
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -6.05591
+offset_top = -11.6583
+offset_right = 8.94409
+offset_bottom = 6.34167
+theme_override_fonts/font = ExtResource("4_x544x")
+theme_override_font_sizes/font_size = 16
+text = "1x"
+autowrap_mode = 0
+script = ExtResource("5_2by35")
+font_style = 9
+
+[node name="GameSpeedDownButton" parent="GameSpeedControls" instance=ExtResource("6_wrt6l")]
+layout_mode = 1
+offset_left = -34.056
+offset_top = 1.801
+offset_right = -6.056
+offset_bottom = 29.801
+input_action_name = ""
+input_action_meta = {}
+
+[node name="ZoomControls" type="Control" parent="."]
+anchors_preset = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 11.5
+offset_top = -80.0
+offset_right = 80.5
+offset_bottom = -21.0
+
+[node name="ZoomInButton" parent="ZoomControls" instance=ExtResource("7_nhh66")]
+layout_mode = 1
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 28.0
+offset_bottom = 28.0
+grow_horizontal = 1
+grow_vertical = 1
+size_flags_horizontal = 6
+input_action_name = ""
+input_action_meta = {}
+
+[node name="ZoomOutButton" parent="ZoomControls" instance=ExtResource("8_pa4xb")]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -28.0
+offset_top = -28.0
+offset_right = 0.0
+offset_bottom = 0.0
+grow_horizontal = 0
+grow_vertical = 0
+size_flags_horizontal = 6
+input_action_name = ""
+input_action_meta = {}
+
+[node name="RotateControls" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -42.5
+offset_top = 43.0
+offset_right = 41.5
+offset_bottom = 70.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RotateLeftButton" parent="RotateControls" instance=ExtResource("9_nf8h6")]
+layout_mode = 1
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 28.0
+offset_bottom = 28.0
+grow_horizontal = 1
+grow_vertical = 1
+size_flags_horizontal = 6
+input_action_name = ""
+input_action_meta = {}
+
+[node name="RotateRightButton" parent="RotateControls" instance=ExtResource("10_ynpmq")]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+offset_left = -28.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 28.0
+grow_horizontal = 0
+grow_vertical = 1
+size_flags_horizontal = 6
+input_action_name = ""
+input_action_meta = {}
+
+[node name="TearButton" parent="." instance=ExtResource("11_xlhqk")]
+layout_mode = 1
+offset_left = -86.0
+offset_top = 43.0
+offset_right = -60.0
+offset_bottom = 69.0
+size_flags_horizontal = 6
+input_action_name = ""
+input_action_meta = {}
+
+[node name="LogbookButton" parent="." instance=ExtResource("12_ciegf")]
+layout_mode = 1
+offset_left = -53.036
+offset_top = 70.343
+offset_right = -27.036
+offset_bottom = 96.343
+size_flags_horizontal = 6
+input_action_name = ""
+input_action_meta = {}
+
+[node name="BuildMenuButton" parent="." instance=ExtResource("13_ki2t4")]
+layout_mode = 1
+offset_top = 83.0
+offset_bottom = 115.0
+scale = Vector2(0.9, 0.9)
+size_flags_horizontal = 6
+input_action_name = "toggle_building_menu"
+
+[node name="DiplomacyButton" parent="." instance=ExtResource("14_nlvgi")]
+layout_mode = 1
+offset_left = 25.0
+offset_top = 69.501
+offset_right = 51.0
+offset_bottom = 95.501
+size_flags_horizontal = 6
+input_action_name = "toggle_diplomacy_menu"
+input_action_meta = {}
+
+[node name="GameMenuButton" parent="." instance=ExtResource("15_aw6d8")]
+layout_mode = 1
+offset_left = 60.0
+offset_top = 40.0
+offset_right = 92.0
+offset_bottom = 72.0
+size_flags_horizontal = 6
+input_action_name = ""
+input_action_meta = {}

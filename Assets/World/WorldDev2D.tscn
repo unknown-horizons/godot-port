@@ -6,11 +6,11 @@
 [ext_resource type="Script" path="res://Assets/World/MainCamera.gd" id="4_ryeen"]
 [ext_resource type="Script" path="res://Assets/World/Tilemaps/Built/TileMapLayerNavigation2D.gd" id="4_w5w5r"]
 [ext_resource type="Material" uid="uid://cltmqu62mbu3g" path="res://Assets/World/new_shader_material.tres" id="5_5dqjl"]
-[ext_resource type="PackedScene" uid="uid://djjjex62e2o56" path="res://Assets/World/UI2D.tscn" id="5_uonbl"]
 [ext_resource type="Shader" path="res://Assets/World/Tilemaps/Highlight/Highlighter.gdshader" id="5_xwy3w"]
 [ext_resource type="Texture2D" uid="uid://ojeaj1a18a44" path="res://Assets/World/white_64x32.png" id="6_4vay5"]
 [ext_resource type="Script" path="res://Assets/World/Tilemaps/Highlight/RoadHighlighter.gd" id="6_gvw4r"]
 [ext_resource type="Texture2D" uid="uid://ckhylkfbvys8s" path="res://Assets/World/white_64x32_a0.5.png" id="7_2c0dm"]
+[ext_resource type="PackedScene" uid="uid://bka87rk8lk7kb" path="res://Assets/Player/PlayerHUD2.tscn" id="11_2r8bi"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_g8btl"]
 shader = ExtResource("5_xwy3w")
@@ -61,7 +61,12 @@ tile_set = SubResource("TileSet_qxykv")
 zoom = Vector2(0.25, 0.25)
 script = ExtResource("4_ryeen")
 
-[node name="UI" parent="." instance=ExtResource("5_uonbl")]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="PlayerHud2" parent="CanvasLayer" instance=ExtResource("11_2r8bi")]
+z_index = 100
+size_flags_horizontal = 6
+size_flags_vertical = 6
 
 [connection signal="build_tile_layer_build_road" from="Terrain" to="Built" method="build_road"]
 [connection signal="built_highlight_road" from="Terrain" to="Built" method="highlight_road"]

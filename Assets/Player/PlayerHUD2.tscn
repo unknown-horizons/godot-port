@@ -1,0 +1,389 @@
+[gd_scene load_steps=54 format=3 uid="uid://bka87rk8lk7kb"]
+
+[ext_resource type="Script" path="res://Assets/Player/PlayerHUD2.gd" id="1_mg2ty"]
+[ext_resource type="PackedScene" uid="uid://bk0cq3b2hhoi2" path="res://Assets/UI/InfoWidgets/CityInfo.tscn" id="2_1pfyv"]
+[ext_resource type="PackedScene" uid="uid://cwi23f5spohl" path="res://Assets/UI/InfoWidgets/BalanceInfoButton.tscn" id="3_sivbb"]
+[ext_resource type="PackedScene" uid="uid://37cfdhkia73r" path="res://Assets/UI/TabWidgets/WidgetTop.tscn" id="4_nvuti"]
+[ext_resource type="PackedScene" uid="uid://xulwo8lgh5nt" path="res://Assets/UI/TabWidgets/DebugTabWidgets.tscn" id="8_ou66n"]
+[ext_resource type="PackedScene" uid="uid://poqoikb77ih2" path="res://Assets/UI/TabWidgets/BuildMenuByCategoryTabWidget.tscn" id="11"]
+[ext_resource type="PackedScene" uid="uid://ddx05pxr84tol" path="res://Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn" id="12"]
+[ext_resource type="PackedScene" uid="uid://8hvjihv4mxkv" path="res://Assets/UI/TabWidgets/ProductionMenuTabWidget.tscn" id="13"]
+[ext_resource type="PackedScene" uid="uid://l8b37p54ouh8" path="res://Assets/UI/TabWidgets/BakeryTabWidget.tscn" id="14"]
+[ext_resource type="PackedScene" uid="uid://igniwfgjil8h" path="res://Assets/UI/TabWidgets/BarracksTabWidget.tscn" id="15"]
+[ext_resource type="PackedScene" uid="uid://buns3tmdq0lt0" path="res://Assets/UI/TabWidgets/BathTabWidget.tscn" id="16"]
+[ext_resource type="PackedScene" uid="uid://dr8mkrfjog046" path="res://Assets/UI/TabWidgets/BlenderTabWidget.tscn" id="17"]
+[ext_resource type="PackedScene" uid="uid://bvo53cr12boxh" path="res://Assets/UI/TabWidgets/BoatBuilderTabWidget.tscn" id="18"]
+[ext_resource type="PackedScene" uid="uid://dsum3hdtscqor" path="res://Assets/UI/TabWidgets/BreweryTabWidget.tscn" id="19"]
+[ext_resource type="PackedScene" uid="uid://dc8l00aj18gcq" path="res://Assets/UI/TabWidgets/BrickyardTabWidget.tscn" id="20"]
+[ext_resource type="PackedScene" uid="uid://33wo6gdhmhvh" path="res://Assets/UI/TabWidgets/ButcheryTabWidget.tscn" id="21"]
+[ext_resource type="PackedScene" uid="uid://c2lvjetdinreg" path="res://Assets/UI/TabWidgets/CannonFoundryTabWidget.tscn" id="22"]
+[ext_resource type="PackedScene" uid="uid://dwhm4ow3ryob7" path="res://Assets/UI/TabWidgets/ChapelTabWidget.tscn" id="23"]
+[ext_resource type="PackedScene" uid="uid://ct0x5cb04mc86" path="res://Assets/UI/TabWidgets/CharcoalBurningTabWidget.tscn" id="24"]
+[ext_resource type="PackedScene" uid="uid://b4wp23n1kb2cw" path="res://Assets/UI/TabWidgets/ClayPitTabWidget.tscn" id="25"]
+[ext_resource type="PackedScene" uid="uid://c0n0h6jdm7jyf" path="res://Assets/UI/TabWidgets/DistilleryTabWidget.tscn" id="26"]
+[ext_resource type="PackedScene" uid="uid://cmoqp6yhli40y" path="res://Assets/UI/TabWidgets/DoctorTabWidget.tscn" id="27"]
+[ext_resource type="PackedScene" uid="uid://cjsoyi2khw1he" path="res://Assets/UI/TabWidgets/FireStationTabWidget.tscn" id="28"]
+[ext_resource type="PackedScene" uid="uid://6yu70yjx65t3" path="res://Assets/UI/TabWidgets/FishermanTabWidget.tscn" id="29"]
+[ext_resource type="PackedScene" uid="uid://dcdjk65d80rei" path="res://Assets/UI/TabWidgets/HunterTabWidget.tscn" id="30"]
+[ext_resource type="PackedScene" uid="uid://ccd55it2r5x7u" path="res://Assets/UI/TabWidgets/LookoutTabWidget.tscn" id="31"]
+[ext_resource type="PackedScene" uid="uid://cpnugfqjsoa2t" path="res://Assets/UI/TabWidgets/PastryShopTabWidget.tscn" id="32"]
+[ext_resource type="PackedScene" uid="uid://c3nhi2qu6nvwe" path="res://Assets/UI/TabWidgets/PigstyTabWidget.tscn" id="33"]
+[ext_resource type="PackedScene" uid="uid://w0ffwcsdyh5a" path="res://Assets/UI/TabWidgets/SchoolTabWidget.tscn" id="34"]
+[ext_resource type="PackedScene" uid="uid://cwbs3iccff4k8" path="res://Assets/UI/TabWidgets/SmelteryTabWidget.tscn" id="35"]
+[ext_resource type="PackedScene" uid="uid://bcle3lglmrltb" path="res://Assets/UI/TabWidgets/StonePitTabWidget.tscn" id="36"]
+[ext_resource type="PackedScene" uid="uid://clsw7haa6i8x6" path="res://Assets/UI/TabWidgets/StonemasonTabWidget.tscn" id="37"]
+[ext_resource type="PackedScene" uid="uid://cr7td1rs05wp5" path="res://Assets/UI/TabWidgets/TavernTabWidget.tscn" id="38"]
+[ext_resource type="PackedScene" uid="uid://b8qn0axv2p0pd" path="res://Assets/UI/TabWidgets/TobacconistTabWidget.tscn" id="39"]
+[ext_resource type="PackedScene" uid="uid://bk2t3yo03dc" path="res://Assets/UI/TabWidgets/ToolmakerTabWidget.tscn" id="40"]
+[ext_resource type="PackedScene" uid="uid://d1xba50r72rm3" path="res://Assets/UI/TabWidgets/WeaponsmithTabWidget.tscn" id="41"]
+[ext_resource type="PackedScene" uid="uid://dx4720i78fhu3" path="res://Assets/UI/TabWidgets/WeaverTabWidget.tscn" id="42"]
+[ext_resource type="PackedScene" uid="uid://rgqlrtsl3s2p" path="res://Assets/UI/TabWidgets/WindmillTabWidget.tscn" id="43"]
+[ext_resource type="PackedScene" uid="uid://wvu62nbn3amm" path="res://Assets/UI/TabWidgets/WineryTabWidget.tscn" id="44"]
+[ext_resource type="PackedScene" uid="uid://ce1owqweqi2q2" path="res://Assets/UI/TabWidgets/WoodenTowerTabWidget.tscn" id="45"]
+[ext_resource type="PackedScene" uid="uid://bwtxisllq0ply" path="res://Assets/UI/TabWidgets/ProductionWithRelatedBuildingsMenuTabWidget.tscn" id="46"]
+[ext_resource type="PackedScene" uid="uid://bn83cm4ugjyay" path="res://Assets/UI/TabWidgets/FarmTabWidget.tscn" id="47"]
+[ext_resource type="PackedScene" uid="uid://blbqmvav0vjgg" path="res://Assets/UI/TabWidgets/LumberjackTabWidget.tscn" id="48"]
+[ext_resource type="PackedScene" uid="uid://px0q7vqq6acq" path="res://Assets/UI/TabWidgets/ResidenceTabWidget.tscn" id="49"]
+[ext_resource type="PackedScene" uid="uid://ddbmm12mfoqkm" path="res://Assets/UI/TabWidgets/ShipForeignMenuTabWidget.tscn" id="50"]
+[ext_resource type="PackedScene" uid="uid://defcfm8emxvqm" path="res://Assets/UI/TabWidgets/ShipMenuTabWidget.tscn" id="51"]
+[ext_resource type="PackedScene" uid="uid://ckqqrpy8t18a6" path="res://Assets/UI/TabWidgets/TownTabWidget.tscn" id="52"]
+[ext_resource type="PackedScene" uid="uid://1jrftdm3ck1n" path="res://Assets/UI/TabWidgets/MainSquareTabWidget.tscn" id="53"]
+[ext_resource type="PackedScene" uid="uid://3tfrvngmx6xl" path="res://Assets/UI/TabWidgets/StorageTabWidget.tscn" id="54"]
+[ext_resource type="PackedScene" uid="uid://c4guhesfdudwl" path="res://Assets/UI/TabWidgets/WarehouseTabWidget.tscn" id="55"]
+[ext_resource type="PackedScene" uid="uid://bkup5mqdwgxlj" path="res://Assets/UI/TabWidgets/TroopMenuTabWidget.tscn" id="56"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f12q6"]
+
+[sub_resource type="Theme" id="Theme_nxfqi"]
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_f12q6")
+
+[node name="PlayerHud2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_mg2ty")
+
+[node name="CityInfo" parent="." instance=ExtResource("2_1pfyv")]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -120.5
+offset_right = 120.5
+grow_horizontal = 2
+
+[node name="BalanceInfoButton" parent="." instance=ExtResource("3_sivbb")]
+layout_mode = 1
+offset_bottom = 182.0
+size_flags_horizontal = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -251.0
+offset_bottom = 427.0
+grow_horizontal = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = -57
+
+[node name="WidgetTop" parent="HBoxContainer/VBoxContainer" instance=ExtResource("4_nvuti")]
+layout_mode = 2
+
+[node name="TabContainer" type="TabContainer" parent="HBoxContainer/VBoxContainer"]
+show_behind_parent = true
+layout_mode = 2
+mouse_filter = 2
+current_tab = 0
+tabs_visible = false
+
+[node name="EmptyPanelContainer" type="PanelContainer" parent="HBoxContainer/VBoxContainer/TabContainer"]
+layout_mode = 2
+theme = SubResource("Theme_nxfqi")
+metadata/_tab_index = 0
+
+[node name="BuildMenuByCategoryTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("11")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="BuildingMenuTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("12")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="ProductionMenuTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("13")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 3
+
+[node name="BakeryTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("14")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 4
+
+[node name="BarracksTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("15")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 5
+
+[node name="BathTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("16")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 6
+
+[node name="BlenderTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("17")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 7
+
+[node name="BoatBuilderTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("18")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 8
+
+[node name="BreweryTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("19")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 9
+
+[node name="BrickyardTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("20")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 10
+
+[node name="ButcheryTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("21")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 11
+
+[node name="CannonFoundryTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("22")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 12
+
+[node name="ChapelTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("23")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 13
+
+[node name="CharcoalBurningTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("24")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 14
+
+[node name="ClayPitTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("25")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 15
+
+[node name="DistilleryTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("26")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 16
+
+[node name="DoctorTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("27")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 17
+
+[node name="FireStationTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("28")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 18
+
+[node name="FishermanTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("29")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 19
+
+[node name="HunterTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("30")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 20
+
+[node name="LookoutTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("31")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 21
+
+[node name="PastryShopTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("32")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 22
+
+[node name="PigstyTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("33")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 23
+
+[node name="SchoolTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("34")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 24
+
+[node name="SmelteryTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("35")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 25
+
+[node name="StonePitTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("36")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 26
+
+[node name="StonemasonTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("37")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 27
+
+[node name="TavernTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("38")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 28
+
+[node name="TobacconistTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("39")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 29
+
+[node name="ToolmakerTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("40")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 30
+
+[node name="WeaponsmithTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("41")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 31
+
+[node name="WeaverTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("42")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 32
+
+[node name="WindmillTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("43")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 33
+
+[node name="WineryTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("44")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 34
+
+[node name="WoodenTowerTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("45")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 35
+
+[node name="ProductionWithRelatedBuildingsMenuTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("46")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 36
+
+[node name="FarmTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("47")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 37
+
+[node name="LumberjackTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("48")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 38
+
+[node name="ResidenceTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("49")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 39
+
+[node name="ShipForeignMenuTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("50")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 40
+
+[node name="ShipMenuTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("51")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 41
+
+[node name="TownTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("52")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 42
+
+[node name="MainSquareTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("53")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 43
+
+[node name="StorageTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("54")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 44
+
+[node name="WarehouseTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("55")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 45
+
+[node name="TroopMenuTabWidget" parent="HBoxContainer/VBoxContainer/TabContainer" instance=ExtResource("56")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 46
+
+[node name="DebugTabWidgets" parent="HBoxContainer" instance=ExtResource("8_ou66n")]
+layout_mode = 2

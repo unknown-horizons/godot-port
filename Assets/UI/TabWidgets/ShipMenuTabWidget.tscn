@@ -16,95 +16,89 @@
 [node name="ShipMenuTabWidget" instance=ExtResource("4")]
 script = ExtResource("2")
 
-[node name="WidgetDetail" parent="." index="2"]
-offset_bottom = 303.5
-
-[node name="Body" parent="WidgetDetail" index="1"]
-custom_minimum_size = Vector2(0, 176)
-
-[node name="ShipSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="0" instance=ExtResource("10")]
+[node name="ShipSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="0" instance=ExtResource("10")]
 layout_mode = 2
 texture_hover = ExtResource("13")
 
-[node name="BuySellSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="1" instance=ExtResource("7")]
+[node name="BuySellSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="1" instance=ExtResource("7")]
 layout_mode = 2
 
-[node name="TabContainer" parent="WidgetDetail/Body" index="1"]
+[node name="TabContainer" parent="." index="1"]
 offset_left = -110.0
 offset_right = 110.0
 offset_bottom = 181.0
 
-[node name="ShipMenu" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="1"]
+[node name="ShipMenu" type="VBoxContainer" parent="TabContainer" index="1"]
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/ShipMenu" index="0"]
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/ShipMenu" index="0"]
 layout_mode = 2
 size_flags_horizontal = 0
 
-[node name="FactionIndicator" type="TextureRect" parent="WidgetDetail/Body/TabContainer/ShipMenu/MarginContainer" index="0"]
+[node name="FactionIndicator" type="TextureRect" parent="TabContainer/ShipMenu/MarginContainer" index="0"]
 custom_minimum_size = Vector2(32, 24)
 layout_mode = 2
 size_flags_horizontal = 0
 texture = ExtResource("14")
 expand_mode = 1
 
-[node name="Caption" parent="WidgetDetail/Body/TabContainer/ShipMenu" index="1" instance=ExtResource("15")]
+[node name="Caption" parent="TabContainer/ShipMenu" index="1" instance=ExtResource("15")]
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 text = "Unknown Beauty"
 font_style = 1
 
-[node name="HSeparator" type="HSeparator" parent="WidgetDetail/Body/TabContainer/ShipMenu" index="2"]
+[node name="HSeparator" type="HSeparator" parent="TabContainer/ShipMenu" index="2"]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="GridContainer" type="GridContainer" parent="WidgetDetail/Body/TabContainer/ShipMenu" index="3"]
+[node name="GridContainer" type="GridContainer" parent="TabContainer/ShipMenu" index="3"]
 layout_mode = 2
 columns = 4
 
-[node name="TransferButton" parent="WidgetDetail/Body/TabContainer/ShipMenu/GridContainer" index="0" instance=ExtResource("6")]
+[node name="TransferButton" parent="TabContainer/ShipMenu/GridContainer" index="0" instance=ExtResource("6")]
 layout_mode = 2
 size_flags_horizontal = 6
 
-[node name="FoundSettlementButton" parent="WidgetDetail/Body/TabContainer/ShipMenu/GridContainer" index="1" instance=ExtResource("12")]
+[node name="FoundSettlementButton" parent="TabContainer/ShipMenu/GridContainer" index="1" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="TradeRouteButton" parent="WidgetDetail/Body/TabContainer/ShipMenu/GridContainer" index="2" instance=ExtResource("5")]
-layout_mode = 2
-size_flags_horizontal = 6
-
-[node name="DiscardAllButton" parent="WidgetDetail/Body/TabContainer/ShipMenu/GridContainer" index="3" instance=ExtResource("8")]
+[node name="TradeRouteButton" parent="TabContainer/ShipMenu/GridContainer" index="2" instance=ExtResource("5")]
 layout_mode = 2
 size_flags_horizontal = 6
 
-[node name="HSeparator2" type="HSeparator" parent="WidgetDetail/Body/TabContainer/ShipMenu" index="4"]
+[node name="DiscardAllButton" parent="TabContainer/ShipMenu/GridContainer" index="3" instance=ExtResource("8")]
+layout_mode = 2
+size_flags_horizontal = 6
+
+[node name="HSeparator2" type="HSeparator" parent="TabContainer/ShipMenu" index="4"]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="GridContainer2" type="GridContainer" parent="WidgetDetail/Body/TabContainer/ShipMenu" index="5"]
+[node name="GridContainer2" type="GridContainer" parent="TabContainer/ShipMenu" index="5"]
 layout_mode = 2
 columns = 4
 
-[node name="InventorySlot" parent="WidgetDetail/Body/TabContainer/ShipMenu/GridContainer2" index="0" instance=ExtResource("9")]
+[node name="InventorySlot" parent="TabContainer/ShipMenu/GridContainer2" index="0" instance=ExtResource("9")]
 layout_mode = 2
 resource_type = 4
 resource_value = 30
 
-[node name="InventorySlot2" parent="WidgetDetail/Body/TabContainer/ShipMenu/GridContainer2" index="1" instance=ExtResource("9")]
+[node name="InventorySlot2" parent="TabContainer/ShipMenu/GridContainer2" index="1" instance=ExtResource("9")]
 layout_mode = 2
 resource_type = 5
 resource_value = 30
 
-[node name="InventorySlot3" parent="WidgetDetail/Body/TabContainer/ShipMenu/GridContainer2" index="2" instance=ExtResource("9")]
+[node name="InventorySlot3" parent="TabContainer/ShipMenu/GridContainer2" index="2" instance=ExtResource("9")]
 layout_mode = 2
 resource_type = 6
 resource_value = 30
 
-[node name="InventorySlot4" parent="WidgetDetail/Body/TabContainer/ShipMenu/GridContainer2" index="3" instance=ExtResource("9")]
+[node name="InventorySlot4" parent="TabContainer/ShipMenu/GridContainer2" index="3" instance=ExtResource("9")]
 layout_mode = 2
 resource_type = 40
 resource_value = 12
 
-[node name="TradeMenu" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="2"]
+[node name="TradeMenu" type="VBoxContainer" parent="TabContainer" index="2"]
 visible = false
 layout_mode = 2

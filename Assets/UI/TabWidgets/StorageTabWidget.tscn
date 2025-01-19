@@ -10,95 +10,96 @@
 
 [node name="StorageTabWidget" instance=ExtResource("5")]
 
-[node name="InventorySwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="1" instance=ExtResource("7")]
+[node name="InventorySwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="1" instance=ExtResource("7")]
 layout_mode = 2
 
-[node name="SettlementInventory" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="2"]
+[node name="SettlementInventory" type="VBoxContainer" parent="TabContainer" index="2"]
 visible = false
 layout_mode = 2
+metadata/_tab_index = 1
 
-[node name="CaptionBlock" parent="WidgetDetail/Body/TabContainer/SettlementInventory" index="0" instance=ExtResource("3_owhu8")]
+[node name="CaptionBlock" parent="TabContainer/SettlementInventory" index="0" instance=ExtResource("3_owhu8")]
 layout_mode = 2
 text = "Settlement inventory"
 
-[node name="VBoxContainer" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer/SettlementInventory" index="1"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/SettlementInventory" index="1"]
 layout_mode = 2
 
-[node name="GridContainer" type="GridContainer" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer" index="0"]
+[node name="GridContainer" type="GridContainer" parent="TabContainer/SettlementInventory/VBoxContainer" index="0"]
 layout_mode = 2
 columns = 4
 
-[node name="InventorySlot" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="0" instance=ExtResource("6")]
+[node name="InventorySlot" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="0" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot2" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="1" instance=ExtResource("6")]
+[node name="InventorySlot2" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="1" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot3" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="2" instance=ExtResource("6")]
+[node name="InventorySlot3" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="2" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot4" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="3" instance=ExtResource("6")]
+[node name="InventorySlot4" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="3" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot5" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="4" instance=ExtResource("6")]
+[node name="InventorySlot5" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="4" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot6" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="5" instance=ExtResource("6")]
+[node name="InventorySlot6" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="5" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot7" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="6" instance=ExtResource("6")]
+[node name="InventorySlot7" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="6" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot8" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="7" instance=ExtResource("6")]
+[node name="InventorySlot8" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="7" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot9" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="8" instance=ExtResource("6")]
+[node name="InventorySlot9" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="8" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot10" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="9" instance=ExtResource("6")]
+[node name="InventorySlot10" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="9" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot11" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="10" instance=ExtResource("6")]
+[node name="InventorySlot11" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="10" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot12" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="11" instance=ExtResource("6")]
+[node name="InventorySlot12" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="11" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot13" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="12" instance=ExtResource("6")]
+[node name="InventorySlot13" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="12" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot14" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="13" instance=ExtResource("6")]
+[node name="InventorySlot14" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="13" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot15" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="14" instance=ExtResource("6")]
+[node name="InventorySlot15" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="14" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot16" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="15" instance=ExtResource("6")]
+[node name="InventorySlot16" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="15" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot17" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="16" instance=ExtResource("6")]
+[node name="InventorySlot17" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="16" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot18" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="17" instance=ExtResource("6")]
+[node name="InventorySlot18" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="17" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot19" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="18" instance=ExtResource("6")]
+[node name="InventorySlot19" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="18" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="InventorySlot20" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="19" instance=ExtResource("6")]
+[node name="InventorySlot20" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="19" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer" index="1"]
+[node name="HBoxContainer" type="HBoxContainer" parent="TabContainer/SettlementInventory/VBoxContainer" index="1"]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/HBoxContainer" index="0"]
+[node name="TextureRect" type="TextureRect" parent="TabContainer/SettlementInventory/VBoxContainer/HBoxContainer" index="0"]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
 texture = ExtResource("3")
 expand_mode = 2
 stretch_mode = 5
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer/SettlementInventory/VBoxContainer/HBoxContainer" index="1" instance=ExtResource("4")]
+[node name="LabelEx" parent="TabContainer/SettlementInventory/VBoxContainer/HBoxContainer" index="1" instance=ExtResource("4")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("7_i5exf")
 theme_override_font_sizes/font_size = 16

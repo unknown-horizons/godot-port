@@ -7,7 +7,7 @@
 script/source = "extends TextureRect
 
 func _ready() -> void:
-	pivot_offset = size / 2
+  pivot_offset = size / 2
 "
 
 [node name="WidgetButton" type="TextureButton"]
@@ -27,6 +27,8 @@ keep_pressed_outside = true
 texture_normal = ExtResource("2")
 stretch_mode = 3
 script = ExtResource("1")
+input_action_name = null
+input_action_meta = null
 
 [node name="TextureRect" type="TextureRect" parent="."]
 show_behind_parent = true

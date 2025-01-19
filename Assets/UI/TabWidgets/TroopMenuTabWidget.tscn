@@ -8,21 +8,15 @@
 [node name="TroopMenuTabWidget" instance=ExtResource("4")]
 script = ExtResource("2")
 
-[node name="WidgetDetail" parent="." index="2"]
-offset_bottom = 193.5
-
-[node name="Body" parent="WidgetDetail" index="1"]
-custom_minimum_size = Vector2(0, 66)
-
-[node name="SwordmanSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="0" instance=ExtResource("3")]
+[node name="SwordmanSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="0" instance=ExtResource("3")]
 custom_minimum_size = Vector2(42, 46)
 layout_mode = 2
 
-[node name="TabContainer" parent="WidgetDetail/Body" index="1"]
+[node name="TabContainer" parent="." index="1"]
 offset_top = 10.0
 offset_bottom = 76.0
 
-[node name="LabelEx" parent="WidgetDetail/Body/TabContainer" index="1" instance=ExtResource("5")]
+[node name="LabelEx" parent="TabContainer" index="1" instance=ExtResource("5")]
 layout_mode = 2
 text = "Troop Menu
 

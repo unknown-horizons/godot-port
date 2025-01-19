@@ -2,6 +2,20 @@
 extends TextureButton
 class_name WidgetButton
 
+## Name of the input action to be triggered when the button is pressed.
+@export var input_action_name := ""#:
+  # set(name):
+  #   input_action_name = name
+  #   if name != "":
+  #     if not InputMap.has_action(name):
+  #       push_warning("Input action not found in InputMap (project settings):", name)
+  #     else:
+  #       prints("Input action found in InputMap (project settings):", name)
+
+## Additional meta data for the input action.
+@export var input_action_meta := {}
+
+
 ## Base class for all widget buttons.
 ##
 ## All input events are catched by the (larger) child node (background)
@@ -56,6 +70,14 @@ func _draw() -> void:
 
 func _pressed() -> void:
   Audio.play_snd_click()
+  if self.input_action_name != "":
+    var event = InputEventAction.new();
+    event.action = self.input_action_name;
+    event.pressed = true;
+    for key in self.input_action_meta.keys():
+      event.set_meta(key, self.input_action_meta[key]);
+    # event.set_meta("building_name", "road");
+    Input.parse_input_event(event);
 
 func _notification(what: int) -> void:
   match what:
@@ -129,17 +151,16 @@ func _on_ActionButton_mouse_exited() -> void:
 
 func _on_TextureRect_gui_input(_event: InputEvent) -> void:
   return # TODO: Revise function for Godot 4
+  # if not texture_rect.visible:
+  #   return
 
-  if not texture_rect.visible:
-    return
+  # if size <= texture_rect.size:
+  #   if _is_pixel_opaque():
+  #     #mouse_filter = Control.MOUSE_FILTER_STOP
+  #     texture_rect.mouse_filter = Control.MOUSE_FILTER_PASS
+  #     texture_hover = _texture_hover
+  #     return
 
-  if size <= texture_rect.size:
-    if _is_pixel_opaque():
-      #mouse_filter = Control.MOUSE_FILTER_STOP
-      texture_rect.mouse_filter = Control.MOUSE_FILTER_PASS
-      texture_hover = _texture_hover
-      return
-
-    #mouse_filter = Control.MOUSE_FILTER_IGNORE
-    texture_hover = null
-    texture_rect.mouse_filter = Control.MOUSE_FILTER_STOP
+  #   #mouse_filter = Control.MOUSE_FILTER_IGNORE
+  #   texture_hover = null
+  #   texture_rect.mouse_filter = Control.MOUSE_FILTER_STOP

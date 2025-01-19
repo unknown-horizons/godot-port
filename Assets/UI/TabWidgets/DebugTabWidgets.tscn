@@ -1,0 +1,239 @@
+[gd_scene load_steps=2 format=3 uid="uid://xulwo8lgh5nt"]
+
+[ext_resource type="Script" path="res://Assets/UI/TabWidgets/DebugTabWidgets.gd" id="1_so3en"]
+
+[node name="DebugTabWidgets" type="VBoxContainer"]
+offset_right = 341.0
+offset_bottom = 1077.0
+theme_override_constants/separation = 1
+script = ExtResource("1_so3en")
+
+[node name="BuildMenuByCategoryTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "  BuildMenuByCategoryTabWidget"
+alignment = 0
+
+[node name="BuildingMenuTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "  BuildingMenuTabWidget"
+alignment = 0
+
+[node name="ProductionMenuTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "    ProductionMenuTabWidget"
+alignment = 0
+
+[node name="BakeryTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      BakeryTabWidget"
+alignment = 0
+
+[node name="BarracksTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      BarracksTabWidget"
+alignment = 0
+
+[node name="BathTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      BathTabWidget"
+alignment = 0
+
+[node name="BlenderTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      BlenderTabWidget"
+alignment = 0
+
+[node name="BoatBuilderTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      BoatBuilderTabWidget"
+alignment = 0
+
+[node name="BreweryTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      BreweryTabWidget"
+alignment = 0
+
+[node name="BrickyardTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      BrickyardTabWidget"
+alignment = 0
+
+[node name="ButcheryTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      ButcheryTabWidget"
+alignment = 0
+
+[node name="CannonFoundryTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      CannonFoundryTabWidget"
+alignment = 0
+
+[node name="ChapelTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      ChapelTabWidget"
+alignment = 0
+
+[node name="CharcoalBurningTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      CharcoalBurningTabWidget"
+alignment = 0
+
+[node name="ClayPitTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      ClayPitTabWidget"
+alignment = 0
+
+[node name="DistilleryTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      DistilleryTabWidget"
+alignment = 0
+
+[node name="DoctorTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      DoctorTabWidget"
+alignment = 0
+
+[node name="FireStationTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      FireStationTabWidget"
+alignment = 0
+
+[node name="FishermanTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      FishermanTabWidget"
+alignment = 0
+
+[node name="HunterTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      HunterTabWidget"
+alignment = 0
+
+[node name="LookoutTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      LookoutTabWidget"
+alignment = 0
+
+[node name="PastryShopTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      PastryShopTabWidget"
+alignment = 0
+
+[node name="PigstyTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      PigstyTabWidget"
+alignment = 0
+
+[node name="SchoolTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      SchoolTabWidget"
+alignment = 0
+
+[node name="SmelteryTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      SmelteryTabWidget"
+alignment = 0
+
+[node name="StonePitTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      StonePitTabWidget"
+alignment = 0
+
+[node name="StonemasonTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      StonemasonTabWidget"
+alignment = 0
+
+[node name="TavernTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      TavernTabWidget"
+alignment = 0
+
+[node name="TobacconistTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      TobacconistTabWidget"
+alignment = 0
+
+[node name="ToolmakerTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      ToolmakerTabWidget"
+alignment = 0
+
+[node name="WeaponsmithTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      WeaponsmithTabWidget"
+alignment = 0
+
+[node name="WeaverTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      WeaverTabWidget"
+alignment = 0
+
+[node name="WindmillTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      WindmillTabWidget"
+alignment = 0
+
+[node name="WineryTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      WineryTabWidget"
+alignment = 0
+
+[node name="WoodenTowerTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      WoodenTowerTabWidget"
+alignment = 0
+
+[node name="ProductionWithRelatedBuildingsMenuTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "    ProductionWithRelatedBuildingsMenuTabWidget"
+alignment = 0
+
+[node name="FarmTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      FarmTabWidget"
+alignment = 0
+
+[node name="LumberjackTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      LumberjackTabWidget"
+alignment = 0
+
+[node name="ResidenceTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "    ResidenceTabWidget"
+alignment = 0
+
+[node name="ShipForeignMenuTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "  ShipForeignMenuTabWidget"
+alignment = 0
+
+[node name="ShipMenuTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "  ShipMenuTabWidget"
+alignment = 0
+
+[node name="TownTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "  TownTabWidget"
+alignment = 0
+
+[node name="MainSquareTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "    MainSquareTabWidget"
+alignment = 0
+
+[node name="StorageTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "    StorageTabWidget"
+alignment = 0
+
+[node name="WarehouseTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "      WarehouseTabWidget"
+alignment = 0
+
+[node name="TroopMenuTabWidget" type="Button" parent="."]
+layout_mode = 2
+text = "  TroopMenuTabWidget"
+alignment = 0

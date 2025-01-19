@@ -133,7 +133,7 @@ func _on_PlayerCamera_unhovered() -> void:
   city_info.fade_out()
 
 func _on_PlayerCamera_selected(selected_entities: Array) -> void:
-  prints("_on_PlayerCamera_selected", selected_entities)
+  prints("PlayerHUD._on_PlayerCamera_selected", selected_entities)
 
   var new_context = UIContext.NONE
   for entity in selected_entities:
@@ -186,8 +186,7 @@ func _on_TabWidget_button_logbook_pressed() -> void:
   emit_signal("button_logbook_pressed")
 
 func _on_TabWidget_button_build_menu_pressed() -> void:
-  #emit_signal("button_build_menu_pressed")
-  emit_signal("button_build_menu_pressed", ["BuildMenu"])
+  button_build_menu_pressed.emit(["BuildMenu"])
 
 func _on_TabWidget_button_diplomacy_pressed() -> void:
   emit_signal("button_diplomacy_pressed")

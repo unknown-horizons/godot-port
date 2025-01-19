@@ -9,44 +9,31 @@
 [node name="LumberjackTabWidget" instance=ExtResource("1")]
 script = ExtResource("5")
 
-[node name="WidgetDetail" parent="." index="2"]
-layout_mode = 1
-offset_bottom = 308.5
-
-[node name="Body" parent="WidgetDetail" index="1"]
-custom_minimum_size = Vector2(0, 181)
-layout_mode = 2
-size_flags_vertical = 1
-
-[node name="TabContainer" parent="WidgetDetail/Body" index="1"]
-offset_bottom = 229.0
-
-[node name="CaptionBlock" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="0"]
-layout_mode = 2
+[node name="CaptionBlock" parent="TabContainer/VBoxContainer" index="0"]
 text = "Lumberjack"
 
-[node name="ProductionChain" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="2" instance=ExtResource("3")]
+[node name="ProductionChain" parent="TabContainer/VBoxContainer" index="2" instance=ExtResource("3")]
 layout_mode = 2
 input_two_type = 8
 output_type = 4
 
-[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="3"]
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/VBoxContainer" index="3"]
 layout_mode = 2
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_top = 5
 
-[node name="GridContainer" type="GridContainer" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer" index="0"]
+[node name="GridContainer" type="GridContainer" parent="TabContainer/VBoxContainer/MarginContainer" index="0"]
 layout_mode = 2
 columns = 4
 
-[node name="BuildTreeAreaButton" parent="WidgetDetail/Body/TabContainer/VBoxContainer/MarginContainer/GridContainer" index="0" instance=ExtResource("10")]
+[node name="BuildTreeAreaButton" parent="TabContainer/VBoxContainer/MarginContainer/GridContainer" index="0" instance=ExtResource("10")]
 layout_mode = 2
 
-[node name="MarginContainer" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings" index="1"]
+[node name="MarginContainer" parent="TabContainer/BuildRelatedBuildings" index="1"]
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_right = 10
 
-[node name="BuildTreeButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="0" instance=ExtResource("6")]
+[node name="BuildTreeButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="0" instance=ExtResource("6")]
 layout_mode = 2
 
 [editable path="WidgetDetail/Body/TabContainer/BuildRelatedBuildings"]

@@ -10,39 +10,30 @@
 [node name="ShipForeignMenuTabWidget" instance=ExtResource("4")]
 script = ExtResource("6")
 
-[node name="WidgetDetail" parent="." index="2"]
-offset_bottom = 184.5
-
-[node name="Body" parent="WidgetDetail" index="1"]
-custom_minimum_size = Vector2(0, 57)
-
-[node name="ShipSwitchTabWidget" parent="WidgetDetail/Body/TabSwitches" index="0" instance=ExtResource("7")]
+[node name="ShipSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="0" instance=ExtResource("7")]
 layout_mode = 2
 texture_hover = ExtResource("5")
 
-[node name="TabContainer" parent="WidgetDetail/Body" index="1"]
-offset_bottom = 69.0
-
-[node name="ShipMenu" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="1"]
+[node name="ShipMenu" type="VBoxContainer" parent="TabContainer" index="1"]
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="WidgetDetail/Body/TabContainer/ShipMenu" index="0"]
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/ShipMenu" index="0"]
 layout_mode = 2
 size_flags_horizontal = 0
 
-[node name="FactionIndicator" type="TextureRect" parent="WidgetDetail/Body/TabContainer/ShipMenu/MarginContainer" index="0"]
+[node name="FactionIndicator" type="TextureRect" parent="TabContainer/ShipMenu/MarginContainer" index="0"]
 custom_minimum_size = Vector2(32, 24)
 layout_mode = 2
 size_flags_horizontal = 0
 texture = ExtResource("5_dit3s")
 expand_mode = 1
 
-[node name="Caption" parent="WidgetDetail/Body/TabContainer/ShipMenu" index="1" instance=ExtResource("3")]
+[node name="Caption" parent="TabContainer/ShipMenu" index="1" instance=ExtResource("3")]
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 text = "Unknown Ship"
 font_style = 1
 
-[node name="TradeMenu" type="VBoxContainer" parent="WidgetDetail/Body/TabContainer" index="2"]
+[node name="TradeMenu" type="VBoxContainer" parent="TabContainer" index="2"]
 visible = false
 layout_mode = 2

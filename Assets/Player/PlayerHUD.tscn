@@ -114,6 +114,7 @@ layout_mode = 2
 mouse_filter = 2
 
 [node name="TabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("1")]
+visible = false
 anchors_preset = 0
 anchor_left = 0.0
 anchor_right = 0.0
@@ -233,13 +234,6 @@ layout_mode = 1
 visible = false
 layout_mode = 1
 
-[node name="TabContainer" parent="MarginContainer/HBoxContainer/Widgets/LumberjackTabWidget/WidgetDetail/Body" index="1"]
-offset_bottom = 202.0
-current_tab = 0
-
-[node name="VBoxContainer" parent="MarginContainer/HBoxContainer/Widgets/LumberjackTabWidget/WidgetDetail/Body/TabContainer" index="1"]
-metadata/_tab_index = 0
-
 [node name="BuildRelatedBuildings" parent="MarginContainer/HBoxContainer/Widgets/LumberjackTabWidget/WidgetDetail/Body/TabContainer" index="2"]
 metadata/_tab_index = 1
 
@@ -316,7 +310,6 @@ visible = false
 layout_mode = 1
 
 [node name="BuildMenuByCategoryTabWidget" parent="MarginContainer/HBoxContainer/Widgets" instance=ExtResource("46")]
-visible = false
 layout_mode = 1
 
 [editable path="MarginContainer/HBoxContainer/Widgets/LumberjackTabWidget"]

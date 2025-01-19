@@ -20,87 +20,75 @@
 [node name="FarmTabWidget" instance=ExtResource("1")]
 script = ExtResource("2")
 
-[node name="WidgetDetail" parent="." index="2"]
-layout_mode = 1
-offset_bottom = 318.5
-
-[node name="Body" parent="WidgetDetail" index="1"]
-custom_minimum_size = Vector2(0, 191)
-layout_mode = 2
-size_flags_vertical = 1
-
-[node name="TabContainer" parent="WidgetDetail/Body" index="1"]
-offset_bottom = 306.0
-
-[node name="CaptionBlock" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="0"]
+[node name="CaptionBlock" parent="TabContainer/VBoxContainer" index="0"]
 layout_mode = 2
 text = "Farm"
 
-[node name="ProductionChain" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="2" instance=ExtResource("5")]
+[node name="ProductionChain" parent="TabContainer/VBoxContainer" index="2" instance=ExtResource("5")]
 layout_mode = 2
 
-[node name="PauseProductionButton" parent="WidgetDetail/Body/TabContainer/VBoxContainer/ProductionChain/MarginContainer/VBoxContainer/MiddleSection/Control" index="2"]
+[node name="PauseProductionButton" parent="TabContainer/VBoxContainer/ProductionChain/MarginContainer/VBoxContainer/MiddleSection/Control" index="2"]
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="ProductionChain2" parent="WidgetDetail/Body/TabContainer/VBoxContainer" index="3" instance=ExtResource("5")]
+[node name="ProductionChain2" parent="TabContainer/VBoxContainer" index="3" instance=ExtResource("5")]
 custom_minimum_size = Vector2(200, 161)
 layout_mode = 2
 number_inputs = 2
 
-[node name="TopSection" parent="WidgetDetail/Body/TabContainer/VBoxContainer/ProductionChain2/MarginContainer/VBoxContainer" index="0"]
+[node name="TopSection" parent="TabContainer/VBoxContainer/ProductionChain2/MarginContainer/VBoxContainer" index="0"]
 visible = true
 
-[node name="InputTwo" parent="WidgetDetail/Body/TabContainer/VBoxContainer/ProductionChain2/MarginContainer/VBoxContainer/MiddleSection" index="0"]
+[node name="InputTwo" parent="TabContainer/VBoxContainer/ProductionChain2/MarginContainer/VBoxContainer/MiddleSection" index="0"]
 modulate = Color(1, 1, 1, 0)
 
-[node name="ArrowStart" parent="WidgetDetail/Body/TabContainer/VBoxContainer/ProductionChain2/MarginContainer/VBoxContainer/MiddleSection/Control" index="0"]
+[node name="ArrowStart" parent="TabContainer/VBoxContainer/ProductionChain2/MarginContainer/VBoxContainer/MiddleSection/Control" index="0"]
 visible = false
 
-[node name="PauseProductionButton" parent="WidgetDetail/Body/TabContainer/VBoxContainer/ProductionChain2/MarginContainer/VBoxContainer/MiddleSection/Control" index="2"]
+[node name="PauseProductionButton" parent="TabContainer/VBoxContainer/ProductionChain2/MarginContainer/VBoxContainer/MiddleSection/Control" index="2"]
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="BottomSection" parent="WidgetDetail/Body/TabContainer/VBoxContainer/ProductionChain2/MarginContainer/VBoxContainer" index="2"]
+[node name="BottomSection" parent="TabContainer/VBoxContainer/ProductionChain2/MarginContainer/VBoxContainer" index="2"]
 visible = true
 
-[node name="BuildPastureButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="0" instance=ExtResource("8")]
+[node name="BuildPastureButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="0" instance=ExtResource("8")]
 layout_mode = 2
 
-[node name="BuildPotatoFieldButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="1" instance=ExtResource("10")]
+[node name="BuildPotatoFieldButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="1" instance=ExtResource("10")]
 layout_mode = 2
 
-[node name="BuildSugarFieldButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="2" instance=ExtResource("13")]
+[node name="BuildSugarFieldButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="2" instance=ExtResource("13")]
 layout_mode = 2
 
-[node name="BuildTobaccoFieldButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="3" instance=ExtResource("17")]
+[node name="BuildTobaccoFieldButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="3" instance=ExtResource("17")]
 layout_mode = 2
 
-[node name="BuildCattleRunButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="4" instance=ExtResource("9")]
+[node name="BuildCattleRunButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="4" instance=ExtResource("9")]
 layout_mode = 2
 
-[node name="BuildPigstyButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="5" instance=ExtResource("4")]
+[node name="BuildPigstyButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="5" instance=ExtResource("4")]
 layout_mode = 2
 
-[node name="BuildHerbaryButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="6" instance=ExtResource("11")]
+[node name="BuildHerbaryButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="6" instance=ExtResource("11")]
 layout_mode = 2
 
-[node name="BuildSpiceFieldButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="7" instance=ExtResource("7")]
+[node name="BuildSpiceFieldButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="7" instance=ExtResource("7")]
 layout_mode = 2
 
-[node name="BuildCornFieldButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="8" instance=ExtResource("12")]
+[node name="BuildCornFieldButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="8" instance=ExtResource("12")]
 layout_mode = 2
 
-[node name="BuildCocoaFieldButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="9" instance=ExtResource("16")]
+[node name="BuildCocoaFieldButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="9" instance=ExtResource("16")]
 layout_mode = 2
 
-[node name="BuildVineyardButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="10" instance=ExtResource("15")]
+[node name="BuildVineyardButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="10" instance=ExtResource("15")]
 layout_mode = 2
 
-[node name="BuildAlveariesButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="11" instance=ExtResource("6")]
+[node name="BuildAlveariesButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="11" instance=ExtResource("6")]
 layout_mode = 2
 
-[node name="BuildHopFieldButton" parent="WidgetDetail/Body/TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="12" instance=ExtResource("14")]
+[node name="BuildHopFieldButton" parent="TabContainer/BuildRelatedBuildings/MarginContainer/GridContainer" index="12" instance=ExtResource("14")]
 layout_mode = 2
 
 [editable path="WidgetDetail/Body/TabContainer/VBoxContainer/ProductionChain"]
