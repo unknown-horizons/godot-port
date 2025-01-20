@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://bfln186sfga2v"]
+
+[ext_resource type="PackedScene" uid="uid://dcpsi3ppfn0ga" path="res://Assets/World/Units/Unit2D.tscn" id="1_cudua"]
+[ext_resource type="SpriteFrames" uid="uid://c2fl0cumlr5ug" path="res://Assets/World/Units/Ships/Ship2D/ShipAmimation.tres" id="2_1pkt4"]
+[ext_resource type="Script" path="res://Assets/World/Units/Ships/Ship2D/Ship2D.gd" id="2_f8ujq"]
+[ext_resource type="PackedScene" uid="uid://ioihkggkhi5q" path="res://Assets/World/Buoy/Buoy2D.tscn" id="3_tp4jj"]
+
+[node name="Ship2D" type="Node2D"]
+z_index = 15
+
+[node name="Ship" parent="." instance=ExtResource("1_cudua")]
+script = ExtResource("2_f8ujq")
+buoy = ExtResource("3_tp4jj")
+
+[node name="ShipAnimation" type="AnimatedSprite2D" parent="Ship"]
+sprite_frames = ExtResource("2_1pkt4")
+animation = &"Move0"
+offset = Vector2(32, -48)
+
+[node name="Buoys" type="StaticBody2D" parent="."]

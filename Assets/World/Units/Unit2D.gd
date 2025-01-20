@@ -33,12 +33,18 @@ func get_sprite_angle(next_point: Vector2):
 
 
 func move(animation_prefix: String, path: Array = path_there):
+  # save the current states to restore them at the end of the function
+  var last_visible_state = self.visible
   self.visible = true
+  var last_move_state = self.is_moving
+  self.is_moving = true
   if len(path) <= 0:
     return
 
   var last_direction = 0
   for point in path:
+    if not is_moving:
+      return
     var sprite_angle = get_sprite_angle(point)
     if last_direction != sprite_angle:
       last_direction = sprite_angle
@@ -54,4 +60,6 @@ func move(animation_prefix: String, path: Array = path_there):
   self.global_position = path[len(path) - 1]
   await self.get_tree().create_timer(0.05).timeout # let the _process run once.
   person_sprite.stop()
-  self.visible = false
+  # restore the states
+  self.is_moving = last_move_state
+  self.visible = last_visible_state

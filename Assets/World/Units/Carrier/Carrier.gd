@@ -87,3 +87,4 @@ func move_back():
   if not is_resource_load_valid():
     push_error("Invalid resource load: %s" % [objects_carring])
   is_moving = false
+  self.visible = false

@@ -14,8 +14,8 @@ enum Buildings {
 const is_navigatable: String = "is_navigatable"
 const is_tree: String = "is_tree"
 
-var person_pathfinding = PathFindingManagment2D.new(self)
-var road_building_pathfindng = PathFindingManagment2D.new(self)
+var person_pathfinding = PathFindingManagement2D.new(self, false)
+var road_building_pathfindng = PathFindingManagement2D.new(self)
 #var forester_pathfinding = PathFindingManagment2D.new(self)
 
 var building_name_to_building_poses: Dictionary = {}
@@ -32,8 +32,6 @@ signal new_building_built
 signal road_built
 signal highlighter_highlight_road
 
-
-
 func _ready():
   person_pathfinding.set_points(self.get_used_cells(), is_movable_on)
 
@@ -46,10 +44,8 @@ func _unhandled_input(event):
 
       if event.button_index == MOUSE_BUTTON_RIGHT:
         BuildingManager.building_to_build = null
-        highlighter_highlight_road.emit([], false)
+        highlighter_highlight_road.emit([])
         #return
-
-
 
 func highlight_road(start, end) -> void:
   if self.building_pos_to_building.has(self.map_to_local(start)):
@@ -59,8 +55,6 @@ func highlight_road(start, end) -> void:
     highlighter_highlight_road.emit(path)
   else:
     highlighter_highlight_road.emit([])
-
-
 
 func get_trees(in_grid: bool = true) -> Array[Vector2]:
   var trees: Array[Vector2] = []
@@ -73,20 +67,8 @@ func get_trees(in_grid: bool = true) -> Array[Vector2]:
         trees.append(self.map_to_local(cell))
   return trees
 
-
-
-#func is_cell_tree(cell_world_pos):
-  #var cell_data = self.get_cell_tile_data(self.local_to_map(cell_world_pos))  #if tree_cell_data != null:
-    ##if tree_cell_data.get_custom_data(is_tree):
-      ##return true
-  ##else:
-    ##return false
-  #return cell_data != null and cell_data.get_custom_data(is_tree)
-
-
-
 func is_road_buildable_on(cell) -> bool:
-  var is_allowed_by_terrain: bool = terrain_points.get("liquid").has(cell)
+  var is_allowed_by_terrain: bool = terrain_points.get("land").has(cell)
   var is_oqupied: bool = building_pos_to_building.has(cell) #and self.get_cell_tile_data(cell).get_custom_data("is_navigatable")
   var can_build: bool = is_allowed_by_terrain and not is_oqupied
   #print(cell, is_allowed_by_terrain and not is_oqupied)
@@ -94,15 +76,11 @@ func is_road_buildable_on(cell) -> bool:
     #print(cell, false)
   return can_build
 
-
-
 func is_movable_on(cell) -> bool:
   #print(self.get_cell_tile_data(cell).get_custom_data("is_navigatable"))
   return (
     self.get_cell_tile_data(cell) != null and
     self.get_cell_tile_data(cell).get_custom_data(is_navigatable))
-
-
 
 func get_building_to_build(pos) -> String:
   if BuildingManager.building_to_build != null:
@@ -111,8 +89,6 @@ func get_building_to_build(pos) -> String:
     else:  return BuildingManager.building_to_build.game_name
 
   else: return ""
-
-
 
 func register_building(building) -> void:
   if building != null:
@@ -133,13 +109,8 @@ func register_building(building) -> void:
       new_building_built.connect(building.new_building_built)
       road_built.connect(building.road_built)
 
-
-
 func get_path_to_dest(start: Vector2, final_dest: Vector2, in_grid: bool = false, get_back_in_grid: bool = false):
   return person_pathfinding.get_path_to_dest(start, final_dest, in_grid, get_back_in_grid)
-
-
-
 
 func check_and_build() -> void:
   if BuildingManager.building_to_build == null or BuildingManager.building_to_build.game_name == "road":
@@ -158,7 +129,7 @@ func check_and_build() -> void:
 
   var building_to_build = get_building_to_build(world_building_pos)
   if building_to_build != "":
-    if terrain_points.get("solid").has(grid_building_pos):
+    if terrain_points.get("water").has(grid_building_pos):
       return
     var tile_id = Buildings.get(building_to_build)
     if tile_id != null:
@@ -166,13 +137,9 @@ func check_and_build() -> void:
         BuildingManager.spend_resources_for_building()
         self.set_scene(grid_building_pos, 0, Vector2i(0, 0), tile_id)
 
-
-
 func set_road_building_terrain_points(points: Dictionary, used_cells: Array) -> void:
   terrain_points = points
   road_building_pathfindng.set_points(used_cells, is_road_buildable_on)
-
-
 
 func build_road(start_point: Vector2, finish_point: Vector2i) -> void:
   highlighter_highlight_road.emit([])
