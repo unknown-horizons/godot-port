@@ -2,7 +2,6 @@ extends Building2D
 
 class_name Warehouse2D
 
-#@export var game_name: String = "WareHouse"
 @export var load_and_unload_time: float = 2
 @export var max_loading_and_unloading_limit: int = 2
 
@@ -10,13 +9,7 @@ class_name Warehouse2D
 
 signal slot_opened
 
-#signal update_resources
 var cur_loading_and_unloading: int = 0
-
-
-
-func _ready():
-  self.get_parent().register_building(self)
 
 func load_unload_worker(unload_objects: Dictionary, load_objects: Dictionary) -> Dictionary:
   # acquired load/unload lock
@@ -31,8 +24,6 @@ func load_unload_worker(unload_objects: Dictionary, load_objects: Dictionary) ->
   slot_opened.emit()
 
   return objects_to_load
-
-
 
 func unload_worker(objects_to_unload: Dictionary) -> void:
   # if no request on unloading

@@ -94,10 +94,7 @@ layout_mode = 2
 
 [node name="BuildTrailButton" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="0" instance=ExtResource("17")]
 layout_mode = 2
-input_action_name = "toggle_build_building"
-input_action_meta = {
-"building_name": "road"
-}
+input_action_name = "toggle_build_road"
 
 [node name="BuildStorageButton" parent="TabContainer/Settlement/MarginContainer/VBoxContainer/VBoxContainer/BuildMenuContainer" index="1" instance=ExtResource("15")]
 layout_mode = 2

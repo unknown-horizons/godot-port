@@ -38,7 +38,7 @@ func set_points_passable(cells: Array, passable: bool = true):
 
 func set_points(cells, is_passable_func: Callable):
   for cell in cells:
-    set_point_solid(cell, not is_passable_func.call(cell))
+    self.set_point_solid(cell, not is_passable_func.call(cell))
 
 func get_ideal_path(from: Vector2i, to: Vector2i) -> Array[Vector2i]:
   var path: Array[Vector2i] = []
@@ -70,7 +70,6 @@ func get_path_to_dest(start: Vector2, final_dest: Vector2, in_grid: bool = false
   #if prefered straight path set preferable path points to lower weight(one less than usual)
   var ideal_path: Array[Vector2i] = []
   if straight_first:
-    set_points_weight(get_ideal_path(grid_start, grid_final_dest), 999)
     ideal_path = get_ideal_path(grid_start, grid_final_dest)
     set_points_weight(ideal_path, 999)
   # get path and convert to correct system (world or grid)
