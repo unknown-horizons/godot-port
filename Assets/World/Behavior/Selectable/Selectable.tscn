@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://x1upwhg1f71a"]
+
+[ext_resource type="Script" path="res://Assets/World/Behavior/Selectable/Selectable.gd" id="1_u845k"]
+
+[node name="Selectable" type="Node" groups=["Selectable"]]
+script = ExtResource("1_u845k")

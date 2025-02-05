@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cm6yol3av2mwf"]
+
+[ext_resource type="Script" path="res://Assets/World/Context/SelectionBox.gd" id="1_anq3r"]
+
+[node name="SelectionBox" type="Control"]
+z_index = 20
+layout_mode = 3
+anchors_preset = 0
+offset_right = 96.0
+offset_bottom = 96.0
+script = ExtResource("1_anq3r")

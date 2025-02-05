@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cltmqu62mbu3g"]
+
+[ext_resource type="Shader" path="res://Assets/World/Tilemaps/Highlight/RoadShader.gdshader" id="1_s14um"]
+
+[resource]
+shader = ExtResource("1_s14um")
+shader_parameter/transparency = 0.5
+shader_parameter/red = 0.0
+shader_parameter/green = 1.0
+shader_parameter/blue = 0.0

@@ -10,9 +10,10 @@ class_name Ship2D
 signal buoy_added
 
 func _ready():
+  self.setup_unit()
   movement_loop()
 
-func _unhandled_input(event):
+func handle_context_input(event: InputEvent):
   if event is InputEventMouseButton:
     if event.pressed == true:
       if event.button_index == MOUSE_BUTTON_RIGHT:

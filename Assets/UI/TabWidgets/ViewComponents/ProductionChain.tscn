@@ -68,6 +68,31 @@ offset_bottom = 9.0
 size_flags_vertical = 4
 texture = ExtResource("3")
 
+[node name="ProgressBar" type="MarginContainer" parent="MarginContainer/VBoxContainer/MiddleSection/Control"]
+z_index = 1
+layout_mode = 0
+offset_left = 28.0
+offset_right = 92.0
+offset_bottom = 64.0
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 32
+
+[node name="ProgressBar" type="HBoxContainer" parent="MarginContainer/VBoxContainer/MiddleSection/Control/ProgressBar"]
+layout_mode = 2
+
+[node name="ProgressBar" type="ColorRect" parent="MarginContainer/VBoxContainer/MiddleSection/Control/ProgressBar/ProgressBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.0
+color = Color(0, 1, 0, 0.392157)
+
+[node name="Spacer" type="Control" parent="MarginContainer/VBoxContainer/MiddleSection/Control/ProgressBar/ProgressBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 100.0
+
 [node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/MiddleSection/Control"]
 layout_mode = 0
 anchor_left = 0.5

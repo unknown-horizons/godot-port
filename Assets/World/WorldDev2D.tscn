@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=4 uid="uid://caaq1eo2tha3s"]
+[gd_scene load_steps=27 format=4 uid="uid://caaq1eo2tha3s"]
 
 [ext_resource type="Script" path="res://Assets/World/Context/GameContextManager.gd" id="1_4ru01"]
 [ext_resource type="Script" path="res://Assets/World/Tilemaps/Pathfinding.gd" id="1_fhei5"]
@@ -11,18 +11,25 @@
 [ext_resource type="Script" path="res://Assets/World/Context/BuildingRoadContext.gd" id="3_r4jkl"]
 [ext_resource type="Resource" uid="uid://csdims0m0sqnb" path="res://Assets/World/Data/BuildingData/WarehouseData.tres" id="4_bex1s"]
 [ext_resource type="Script" path="res://Assets/World/MainCamera.gd" id="4_ryeen"]
-[ext_resource type="Material" uid="uid://cltmqu62mbu3g" path="res://Assets/World/new_shader_material.tres" id="5_5dqjl"]
 [ext_resource type="Resource" uid="uid://h7xtn342s6f8" path="res://Assets/World/Data/BuildingData/RoadData.tres" id="5_u7lto"]
-[ext_resource type="Shader" path="res://Assets/World/Tilemaps/Highlight/Highlighter.gdshader" id="5_xwy3w"]
+[ext_resource type="Shader" path="res://Assets/World/Behavior/Selectable/Highlighter.gdshader" id="5_xwy3w"]
 [ext_resource type="Texture2D" uid="uid://ojeaj1a18a44" path="res://Assets/World/white_64x32.png" id="6_4vay5"]
 [ext_resource type="Resource" uid="uid://d4c5ibkax2eb5" path="res://Assets/World/Data/BuildingData/LumberjackData.tres" id="6_jeda6"]
 [ext_resource type="Texture2D" uid="uid://ckhylkfbvys8s" path="res://Assets/World/white_64x32_a0.5.png" id="7_2c0dm"]
+[ext_resource type="Script" path="res://Assets/World/Context/SelectionContext.gd" id="8_afdhk"]
 [ext_resource type="Script" path="res://Assets/World/Tilemaps/BuiltTileMap/BuiltTileMap.gd" id="8_epgui"]
+[ext_resource type="PackedScene" uid="uid://cm6yol3av2mwf" path="res://Assets/World/Context/SelectionBox.tscn" id="9_xd2e2"]
+[ext_resource type="Script" path="res://Assets/World/Context/ObjectSelectedContext.gd" id="10_c4elk"]
 [ext_resource type="PackedScene" uid="uid://bka87rk8lk7kb" path="res://Assets/Player/PlayerHUD2.tscn" id="11_2r8bi"]
+[ext_resource type="Material" path="res://Assets/World/Tilemaps/Highlight/RoadShader.tres" id="16_lq7rl"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_g8btl"]
 shader = ExtResource("5_xwy3w")
-shader_parameter/transparency = 1.0
+shader_parameter/color = Color(0, 0.5, 0.5, 0.5)
+shader_parameter/width = 3.0
+shader_parameter/pattern = 0
+shader_parameter/inside = false
+shader_parameter/add_margins = true
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eo6gi"]
 texture = ExtResource("6_4vay5")
@@ -59,6 +66,17 @@ building_data = {
 [node name="BuildingRoadContext" type="Node" parent="GameContextManager"]
 script = ExtResource("3_r4jkl")
 
+[node name="SelectionContext" type="Node" parent="GameContextManager"]
+script = ExtResource("8_afdhk")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="GameContextManager/SelectionContext"]
+
+[node name="SelectionBox" parent="GameContextManager/SelectionContext/CanvasLayer" instance=ExtResource("9_xd2e2")]
+visible = false
+
+[node name="ObjectSelectedContext" type="Node" parent="GameContextManager"]
+script = ExtResource("10_c4elk")
+
 [node name="Pathfinding" type="Node" parent="."]
 unique_name_in_owner = true
 script = ExtResource("1_fhei5")
@@ -82,7 +100,7 @@ script = ExtResource("8_epgui")
 [node name="RoadHighlighter" type="TileMapLayer" parent="."]
 unique_name_in_owner = true
 z_index = 15
-material = ExtResource("5_5dqjl")
+material = ExtResource("16_lq7rl")
 tile_set = ExtResource("3_driv1")
 
 [node name="Highlighter" type="TileMapLayer" parent="."]

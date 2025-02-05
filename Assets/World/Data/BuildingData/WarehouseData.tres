@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="BuildingData" load_steps=2 format=3 uid="uid://csdims0m0sqnb"]
+[gd_resource type="Resource" script_class="BuildingData" load_steps=3 format=3 uid="uid://csdims0m0sqnb"]
 
+[ext_resource type="PackedScene" uid="uid://c4guhesfdudwl" path="res://Assets/UI/TabWidgets/WarehouseTabWidget.tscn" id="1_uxh54"]
 [ext_resource type="Script" path="res://Assets/World/Data/BuildingData/BuildingData.gd" id="1_y64sp"]
 
 [resource]
@@ -7,3 +8,4 @@ script = ExtResource("1_y64sp")
 game_name = "warehouse"
 cost = {}
 building_tile = 2
+info_tab_widget = ExtResource("1_uxh54")

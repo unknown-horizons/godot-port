@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="UnitData" load_steps=3 format=3 uid="uid://ncfp5csitmj4"]
+
+[ext_resource type="Script" path="res://Assets/World/Data/UnitData/UnitData.gd" id="1_8mpxx"]
+[ext_resource type="PackedScene" uid="uid://defcfm8emxvqm" path="res://Assets/UI/TabWidgets/ShipMenuTabWidget.tscn" id="2_tri4r"]
+
+[resource]
+script = ExtResource("1_8mpxx")
+game_name = "Ship"
+speed_tile_per_sec = 0.5
+info_tab_widget = ExtResource("2_tri4r")

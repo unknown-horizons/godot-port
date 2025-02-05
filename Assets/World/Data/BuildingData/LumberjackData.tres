@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="ProductionBuildingData" load_steps=3 format=3 uid="uid://d4c5ibkax2eb5"]
+[gd_resource type="Resource" script_class="ProductionBuildingData" load_steps=4 format=3 uid="uid://d4c5ibkax2eb5"]
 
 [ext_resource type="Resource" uid="uid://c5xn4hbcdts6c" path="res://Assets/World/Data/ItemData/Timber.tres" id="1_gcety"]
+[ext_resource type="PackedScene" uid="uid://blbqmvav0vjgg" path="res://Assets/UI/TabWidgets/LumberjackTabWidget.tscn" id="1_h6057"]
 [ext_resource type="Script" path="res://Assets/World/Data/BuildingData/ProductionBuildingData.gd" id="2_2s2ns"]
 
 [resource]
@@ -14,3 +15,4 @@ input_products = {}
 game_name = "lumberjack"
 cost = {}
 building_tile = 4
+info_tab_widget = ExtResource("1_h6057")

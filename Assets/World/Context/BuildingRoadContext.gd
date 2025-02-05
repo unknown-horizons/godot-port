@@ -22,7 +22,7 @@ func _ready():
 
 func _unhandled_input(event):
   if event.is_action_pressed("toggle_build_road"):
-    %GameContextManager.current_context = self
+    self.game_context_manager.current_context = self
 
   if self.is_active:
     if event is InputEventMouseButton:
@@ -32,7 +32,7 @@ func _unhandled_input(event):
         
         if event.button_index == MOUSE_BUTTON_RIGHT:
           if not is_road_building_started:
-            %GameContextManager.current_context = null
+            self.game_context_manager.current_context = null
           else:
             self.is_road_building_started = false
             road_highlighter.clear()

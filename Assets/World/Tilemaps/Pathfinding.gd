@@ -25,5 +25,7 @@ func _ready():
   # setup the person pathfinding
   for cell in built_tilemap.get_used_cells():
     var cell_data = built_tilemap.get_cell_tile_data(cell)
+    if cell_data == null or cell_data.terrain_set == -1:
+      continue
     if cell_data != null and built_tilemap.tile_set.get_terrain_name(cell_data.terrain_set, cell_data.terrain) == "DirtRoad":
       carrier_pathfinding.set_point_solid(cell, false)

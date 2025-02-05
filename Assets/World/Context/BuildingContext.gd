@@ -38,12 +38,12 @@ func _unhandled_input(event: InputEvent) -> void:
 
         if event.button_index == MOUSE_BUTTON_RIGHT:
           building_to_build = null
-          %GameContextManager.current_context = null
+          self.game_context_manager.current_context = null
 
 func set_building_to_build(building_name: String):
   building_to_build = building_data.get(building_name)
   if not self.is_active:
-    %GameContextManager.current_context = self
+    self.game_context_manager.current_context = self
 
 func has_resources_for_building(prod_building_data: BuildingData = building_to_build) -> bool:
   for resource: ItemData in prod_building_data.cost.keys():

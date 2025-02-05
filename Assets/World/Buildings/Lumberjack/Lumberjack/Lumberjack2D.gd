@@ -1,5 +1,7 @@
 extends Unit2D
 
+class_name LumberjackWorker2D
+
 var closest_trees: Array = []
 
 @export var choping_down_tree_time: float = 2
@@ -11,6 +13,7 @@ var closest_trees: Array = []
 var count_of_objects: int = 0
 
 func _ready():
+  self.setup_unit()
   set_closest_trees()
   movement_loop()
 
@@ -37,13 +40,13 @@ func is_tree_available_for_choping(tree_pos: Vector2) -> bool:
 func walk(where: Vector2):
   var tween_time = self.global_position.distance_to(where) / speed_px_per_sec
   if count_of_objects >= 1:
-    self.person_sprite.play("MoveFull" + str(self.get_sprite_angle(where)))
+    self.unit_sprite.play("MoveFull" + str(self.get_sprite_angle(where)))
   else:
-    self.person_sprite.play("Move" + str(self.get_sprite_angle(where)))
+    self.unit_sprite.play("Move" + str(self.get_sprite_angle(where)))
   var move_tween: Tween = self.get_tree().create_tween().bind_node(self)
   move_tween.tween_property(self, "global_position", where, tween_time)
   await move_tween.finished
-  self.person_sprite.stop()
+  self.unit_sprite.stop()
 
 
 func movement_loop():

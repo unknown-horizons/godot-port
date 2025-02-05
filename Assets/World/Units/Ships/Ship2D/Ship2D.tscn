@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://bfln186sfga2v"]
+[gd_scene load_steps=7 format=3 uid="uid://bfln186sfga2v"]
 
 [ext_resource type="PackedScene" uid="uid://dcpsi3ppfn0ga" path="res://Assets/World/Units/Unit2D.tscn" id="1_cudua"]
 [ext_resource type="SpriteFrames" uid="uid://c2fl0cumlr5ug" path="res://Assets/World/Units/Ships/Ship2D/ShipAmimation.tres" id="2_1pkt4"]
 [ext_resource type="Script" path="res://Assets/World/Units/Ships/Ship2D/Ship2D.gd" id="2_f8ujq"]
 [ext_resource type="PackedScene" uid="uid://ioihkggkhi5q" path="res://Assets/World/Buoy/Buoy2D.tscn" id="3_tp4jj"]
+[ext_resource type="Resource" uid="uid://ncfp5csitmj4" path="res://Assets/World/Data/UnitData/ShipData.tres" id="4_p2d6v"]
+[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Behavior/Selectable/Selectable.tscn" id="5_vdlap"]
 
 [node name="Ship2D" type="Node2D"]
 z_index = 15
@@ -11,10 +13,13 @@ z_index = 15
 [node name="Ship" parent="." instance=ExtResource("1_cudua")]
 script = ExtResource("2_f8ujq")
 buoy = ExtResource("3_tp4jj")
+unit_data = ExtResource("4_p2d6v")
+
+[node name="Selectable2" parent="Ship" instance=ExtResource("5_vdlap")]
 
 [node name="ShipAnimation" type="AnimatedSprite2D" parent="Ship"]
+position = Vector2(16, -48)
 sprite_frames = ExtResource("2_1pkt4")
-animation = &"Move0"
-offset = Vector2(32, -48)
+animation = &"Move45"
 
 [node name="Buoys" type="StaticBody2D" parent="."]

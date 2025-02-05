@@ -8,7 +8,7 @@ const MAX_GAME_SPEED: float = 2.0
 var is_game_running = false
 
 var player_start: Node3D = null
-var player: Player = null
+#var player: Player = null
 #var players := [Player]
 
 var ai_players = []
@@ -54,19 +54,19 @@ func _input(event: InputEvent) -> void:
 
 func start_game() -> void:
   if player_start:
-    player = Player.new()
-    player.faction = Global.faction
+    #player = Player.new()
+    #player.faction = Global.faction
 
-    add_child(player)
+    #add_child(player)
 
-    connect("notification", Callable(player, "_on_Game_notification"))
+    #connect("notification", Callable(player, "_on_Game_notification"))
 
     # Assign player starter ship
     var ships: Array[Node] = player_start.ships
-    ships[(randi() % ships.size())].faction = player.faction
+    #ships[(randi() % ships.size())].faction = player.faction
 
     var factions: Array = range(1, 15)
-    factions.remove_at(factions.find(player.faction)) # Remove occupied faction from array.
+    #factions.remove_at(factions.find(player.faction)) # Remove occupied faction from array.
 
     # Assign AI starter ships
     ai_players.resize(Global.ai_players)

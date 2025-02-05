@@ -12,11 +12,8 @@ texture = ExtResource("3_cfsnr")
 z_index = 10
 script = ExtResource("1_hq3n1")
 
-[node name="ProdTimer" type="Timer" parent="."]
-
 [node name="Carrier" parent="." instance=ExtResource("2_bbdpa")]
 visible = false
-max_carry_limit = 10
 
 [node name="ItemProducedTooltip" type="Control" parent="."]
 visible = false
@@ -66,5 +63,3 @@ theme_override_font_sizes/font_size = 45
 text = "0"
 horizontal_alignment = 1
 vertical_alignment = 1
-
-[connection signal="timeout" from="ProdTimer" to="." method="produce_product"]

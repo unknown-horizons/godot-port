@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cbv53gwnxy4ar"]
+
+[ext_resource type="Shader" path="res://Assets/World/Behavior/Selectable/Highlighter.gdshader" id="1_qm48s"]
+
+[resource]
+shader = ExtResource("1_qm48s")
+shader_parameter/color = Color(1, 1, 1, 0.588235)
+shader_parameter/width = 3.0
+shader_parameter/pattern = 2
+shader_parameter/inside = false
+shader_parameter/add_margins = true

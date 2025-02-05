@@ -25,7 +25,9 @@ func wait_for_wood():
 
 func produce_wood():
   if self.input_product_storage["wood"] > 0:
-    await self.get_tree().create_timer(self.building_data.processing_time).timeout
+    self.production_timer = self.get_tree().create_timer(self.building_data.processing_time)
+    await self.production_timer.timeout
+    self.production_timer = null
     self.input_product_storage["wood"] -= 1
     self.number_of_output_products += 1
     self.show_tooltip_animation(1) # fire and forget

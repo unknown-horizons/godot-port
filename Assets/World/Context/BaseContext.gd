@@ -2,6 +2,9 @@ extends Node
 
 class_name BaseContext
 
+## the game context manager
+@onready var game_context_manager: GameContextManager = %GameContextManager
+
 ## Defines if the context is active.
 var is_active: bool = false
 
