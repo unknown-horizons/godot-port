@@ -1,20 +1,20 @@
 [gd_scene load_steps=8 format=3 uid="uid://cxg537ramv08c"]
 
-[ext_resource type="PackedScene" uid="uid://c14jc7hm1oowb" path="res://Assets/World/Buildings/ProductionBuilding2D.tscn" id="1_jrxnc"]
-[ext_resource type="Script" path="res://Assets/World/Buildings/Lumberjack/LumberjackTent2D.gd" id="2_yrxbn"]
-[ext_resource type="Resource" uid="uid://d4c5ibkax2eb5" path="res://Assets/World/Data/BuildingData/LumberjackData.tres" id="3_24o7o"]
-[ext_resource type="Texture2D" uid="uid://c10dpbgiopt0d" path="res://Assets/World/Buildings/Lumberjack/Sprites/LumberjackTent_idle.png" id="3_nfvkl"]
+[ext_resource type="PackedScene" uid="uid://c14jc7hm1oowb" path="res://Assets/World/Buildings/ProductionBuilding2D.tscn" id="1_ProductionBuilding2D"]
+[ext_resource type="Script" path="res://Assets/World/Buildings/Lumberjack/LumberjackTent2D.gd" id="2_script"]
+[ext_resource type="Resource" uid="uid://d4c5ibkax2eb5" path="res://Assets/World/Data/BuildingData/LumberjackData.tres" id="3_building_data"]
+[ext_resource type="Texture2D" uid="uid://c10dpbgiopt0d" path="res://Assets/World/Buildings/Lumberjack/Sprites/LumberjackTent_idle.png" id="4_building_sprite"]
 [ext_resource type="PackedScene" uid="uid://dnixn1uc3bjuc" path="res://Assets/World/Buildings/Lumberjack/Lumberjack/Lumberjack2D.tscn" id="4_dwcry"]
-[ext_resource type="Texture2D" uid="uid://dw84wlw36s6q5" path="res://Assets/UI/Icons/Resources/32/004.png" id="5_tw14m"]
-[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Behavior/Selectable/Selectable.tscn" id="7_phfxb"]
+[ext_resource type="Texture2D" uid="uid://dw84wlw36s6q5" path="res://Assets/UI/Icons/Resources/32/004.png" id="5_tooltip_image"]
+[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Behavior/Selectable/Selectable.tscn" id="6_selectable"]
 
-[node name="LumberjackTent2D" instance=ExtResource("1_jrxnc")]
-script = ExtResource("2_yrxbn")
+[node name="LumberjackTent2D" instance=ExtResource("1_ProductionBuilding2D")]
+script = ExtResource("2_script")
 unload_wood_time = 2
-building_data = ExtResource("3_24o7o")
+building_data = ExtResource("3_building_data")
 
-[node name="HutImage" type="Sprite2D" parent="." index="0"]
-texture = ExtResource("3_nfvkl")
+[node name="BuildingSprite" type="Sprite2D" parent="." index="0"]
+texture = ExtResource("4_building_sprite")
 region_enabled = true
 region_rect = Rect2(0, 64, 128, 64)
 
@@ -22,7 +22,8 @@ region_rect = Rect2(0, 64, 128, 64)
 visible = false
 speed_px_per_sec = 64.0
 
-[node name="ImagePlaceholder" parent="ItemProducedTooltip/Background/HBoxContainer/ItemImageContainer" index="0"]
-texture = ExtResource("5_tw14m")
+[node name="ItemProducedTooltip" parent="." index="4"]
+texture = ExtResource("5_tooltip_image")
+amount = "0"
 
-[node name="Selectable" parent="." index="4" instance=ExtResource("7_phfxb")]
+[node name="Selectable" parent="." index="4" instance=ExtResource("6_selectable")]

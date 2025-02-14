@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://cpe1pq8aivfqp" path="res://Assets/World/Buildings/Warehouse/Sprites/WarehouseWooden_idle.png" id="2_w2qwb"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Behavior/Selectable/Selectable.tscn" id="4_psukr"]
 
-[node name="WareHouse" type="Node2D"]
+[node name="Warehouse" type="Node2D"]
 z_index = 10
 script = ExtResource("1_w4xyu")
 load_and_unload_time = 4.0

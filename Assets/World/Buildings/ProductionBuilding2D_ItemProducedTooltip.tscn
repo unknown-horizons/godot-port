@@ -1,0 +1,59 @@
+[gd_scene load_steps=5 format=3 uid="uid://kn762wg2yft1"]
+
+[ext_resource type="Texture2D" uid="uid://dsgbcjg1tplnf" path="res://Assets/UI/Images/Background/produced_notification.png" id="1_ryjwg"]
+[ext_resource type="Script" path="res://Assets/World/Buildings/ProductionBuilding2D_ItemProducedTooltip.gd" id="1_wkgj3"]
+[ext_resource type="Texture2D" uid="uid://dt1ef2m6h6d7x" path="res://Assets/UI/Icons/Resources/32/placeholder.png" id="2_bjomn"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_oir58"]
+texture = ExtResource("1_ryjwg")
+
+[node name="ItemProducedTooltip" type="Control"]
+z_index = 9
+layout_mode = 3
+anchors_preset = 0
+offset_left = -64.0
+offset_top = -64.0
+offset_right = 64.0
+mouse_filter = 1
+script = ExtResource("1_wkgj3")
+texture = ExtResource("2_bjomn")
+amount = "123"
+
+[node name="Background" type="PanelContainer" parent="."]
+layout_mode = 0
+offset_right = 128.0
+offset_bottom = 64.0
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxTexture_oir58")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Background"]
+layout_mode = 2
+
+[node name="ItemImageContainer" type="MarginContainer" parent="Background/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="ImagePlaceholder" type="TextureRect" parent="Background/HBoxContainer/ItemImageContainer"]
+layout_mode = 2
+texture = ExtResource("2_bjomn")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="ItemAmountContainer" type="MarginContainer" parent="Background/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 4
+theme_override_constants/margin_right = 4
+
+[node name="AmountPlaceholder" type="Label" parent="Background/HBoxContainer/ItemAmountContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+mouse_filter = 1
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 45
+text = "123"
+horizontal_alignment = 1
+vertical_alignment = 1

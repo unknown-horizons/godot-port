@@ -21,7 +21,7 @@
 [ext_resource type="PackedScene" uid="uid://cm6yol3av2mwf" path="res://Assets/World/Context/SelectionBox.tscn" id="9_xd2e2"]
 [ext_resource type="Script" path="res://Assets/World/Context/ObjectSelectedContext.gd" id="10_c4elk"]
 [ext_resource type="PackedScene" uid="uid://bka87rk8lk7kb" path="res://Assets/Player/PlayerHUD2.tscn" id="11_2r8bi"]
-[ext_resource type="Material" path="res://Assets/World/Tilemaps/Highlight/RoadShader.tres" id="16_lq7rl"]
+[ext_resource type="Material" uid="uid://cltmqu62mbu3g" path="res://Assets/World/Tilemaps/Highlight/RoadShader.tres" id="16_lq7rl"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_g8btl"]
 shader = ExtResource("5_xwy3w")
@@ -109,7 +109,8 @@ material = SubResource("ShaderMaterial_g8btl")
 tile_set = SubResource("TileSet_qxykv")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(0.25, 0.25)
+position_smoothing_enabled = true
+position_smoothing_speed = 10.0
 script = ExtResource("4_ryeen")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]

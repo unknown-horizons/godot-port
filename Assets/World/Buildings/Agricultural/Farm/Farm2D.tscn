@@ -1,0 +1,74 @@
+[gd_scene load_steps=12 format=3 uid="uid://21pewmmm5ykv"]
+
+[ext_resource type="PackedScene" uid="uid://c14jc7hm1oowb" path="res://Assets/World/Buildings/ProductionBuilding2D.tscn" id="1_ProductionBuilding2D"]
+[ext_resource type="Script" path="res://Assets/World/Buildings/Agricultural/Farm/Farm2D.gd" id="2_script"]
+[ext_resource type="Resource" uid="uid://bhhs6phyo6c2c" path="res://Assets/World/Data/BuildingData/FarmData.tres" id="3_building_data"]
+[ext_resource type="Texture2D" uid="uid://bc1h28yno0bjo" path="res://Assets/World/Buildings/Agricultural/Farm/Sprites/Farm_idle.png" id="4_x6nrs"]
+[ext_resource type="Texture2D" uid="uid://brmfkn8sfum3n" path="res://Assets/UI/Icons/Resources/32/005.png" id="5_tooltip_image"]
+[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Behavior/Selectable/Selectable.tscn" id="6_selectable"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4gy2q"]
+atlas = ExtResource("4_x6nrs")
+region = Rect2(0, 0, 196, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mtgj1"]
+atlas = ExtResource("4_x6nrs")
+region = Rect2(196, 0, 196, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fbi6a"]
+atlas = ExtResource("4_x6nrs")
+region = Rect2(0, 128, 196, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4vwna"]
+atlas = ExtResource("4_x6nrs")
+region = Rect2(196, 128, 196, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ccg6v"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4gy2q")
+}],
+"loop": true,
+"name": &"idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mtgj1")
+}],
+"loop": true,
+"name": &"idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fbi6a")
+}],
+"loop": true,
+"name": &"idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4vwna")
+}],
+"loop": true,
+"name": &"idle_315",
+"speed": 5.0
+}]
+
+[node name="Farm2D" instance=ExtResource("1_ProductionBuilding2D")]
+script = ExtResource("2_script")
+building_data = ExtResource("3_building_data")
+
+[node name="BuildingSprite" type="AnimatedSprite2D" parent="." index="0"]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_ccg6v")
+animation = &"idle_045"
+
+[node name="ItemProducedTooltip" parent="." index="2"]
+texture = ExtResource("5_tooltip_image")
+amount = "0"
+
+[node name="Selectable" parent="." index="3" instance=ExtResource("6_selectable")]
