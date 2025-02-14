@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4e812pijkjhi"]
+
+[ext_resource type="Script" path="res://Assets/UI/InfoWidgets/ResourcesOverlay.gd" id="1_24h02"]
+[ext_resource type="PackedScene" uid="uid://brf8ay66sla7p" path="res://Assets/UI/BasicControls/ResourceSelection.tscn" id="3_77sbr"]
+
+[node name="ResourcesOverlay" type="Control"]
+custom_minimum_size = Vector2(1024, 64)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 20.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_24h02")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+offset_right = 1024.0
+offset_bottom = 66.0
+
+[node name="ResourceSelection" parent="." instance=ExtResource("3_77sbr")]
+visible = false
+layout_mode = 0
+offset_top = 64.0

@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://c20b7udu0p0yr" path="res://Assets/UI/Icons/Templates/Production/production_arrow_start.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://bladesh07u8hm" path="res://Assets/UI/Icons/Templates/Production/production_arrow_bottom.png" id="4"]
 [ext_resource type="PackedScene" uid="uid://eqtwiupdfrk" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/PauseProductionButton.tscn" id="11"]
-[ext_resource type="PackedScene" uid="uid://kw5ifpdknyd5" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="12"]
+[ext_resource type="PackedScene" uid="uid://cprnm6d5bh3f2" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="12"]
 
 [node name="ProductionChain" type="Control"]
 custom_minimum_size = Vector2(200, 51)
@@ -32,7 +32,6 @@ layout_mode = 2
 [node name="InputOne" parent="MarginContainer/VBoxContainer/TopSection" instance=ExtResource("12")]
 layout_mode = 2
 size_flags_horizontal = 0
-show_if_empty = true
 
 [node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/TopSection"]
 layout_mode = 2
@@ -50,7 +49,6 @@ layout_mode = 2
 [node name="InputTwo" parent="MarginContainer/VBoxContainer/MiddleSection" instance=ExtResource("12")]
 layout_mode = 2
 size_flags_horizontal = 2
-show_if_empty = true
 
 [node name="Control" type="Control" parent="MarginContainer/VBoxContainer/MiddleSection"]
 layout_mode = 2
@@ -112,7 +110,6 @@ layout_mode = 1
 [node name="Output" parent="MarginContainer/VBoxContainer/MiddleSection" instance=ExtResource("12")]
 layout_mode = 2
 size_flags_horizontal = 10
-show_if_empty = true
 
 [node name="BottomSection" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
 visible = false
@@ -122,7 +119,6 @@ layout_mode = 2
 [node name="InputThree" parent="MarginContainer/VBoxContainer/BottomSection" instance=ExtResource("12")]
 layout_mode = 2
 size_flags_horizontal = 0
-show_if_empty = true
 
 [node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/BottomSection"]
 layout_mode = 2

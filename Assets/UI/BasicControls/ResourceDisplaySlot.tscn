@@ -1,0 +1,56 @@
+[gd_scene load_steps=3 format=3 uid="uid://dlhf2ogaavw55"]
+
+[ext_resource type="Texture2D" uid="uid://c5xglx6q3b4fa" path="res://Assets/UI/Images/Background/Widgets/res_bg.png" id="1_50ilf"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/ResourceDisplaySlot.gd" id="2_3r6aa"]
+
+[node name="ResourceDisplay" type="TextureButton"]
+custom_minimum_size = Vector2(64, 96)
+offset_right = 64.0
+offset_bottom = 96.0
+texture_normal = ExtResource("1_50ilf")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("2_3r6aa")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+custom_minimum_size = Vector2(64, 96)
+layout_mode = 2
+offset_right = 64.0
+offset_bottom = 96.0
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+theme_override_constants/margin_left = 7
+theme_override_constants/margin_top = 2
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 4
+
+[node name="ResourceImage" type="TextureRect" parent="MarginContainer/VBoxContainer/MarginContainer"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 2
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 2
+theme_override_constants/margin_bottom = 6
+
+[node name="ResourceAmount" type="Label" parent="MarginContainer/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 10
+text = "
+"
+horizontal_alignment = 1
+vertical_alignment = 1

@@ -1,7 +1,8 @@
-[gd_scene load_steps=17 format=3 uid="uid://bn83cm4ugjyay"]
+[gd_scene load_steps=5 format=3 uid="uid://bn83cm4ugjyay"]
 
 [ext_resource type="PackedScene" uid="uid://bwtxisllq0ply" path="res://Assets/UI/TabWidgets/ProductionWithRelatedBuildingsMenuTabWidget.tscn" id="1"]
-[ext_resource type="Script" uid="uid://cxnen8ewmk1ba" path="res://Assets/UI/TabWidgets/FarmTabWidget.gd" id="2"]
+[ext_resource type="Script" path="res://Assets/UI/TabWidgets/FarmTabWidget.gd" id="2"]
+[ext_resource type="Resource" uid="uid://cadptbki7hpwf" path="res://Assets/World/Data/ItemData/Food.tres" id="4_sncyd"]
 [ext_resource type="PackedScene" uid="uid://c15lq7bmo8wwg" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildPigstyButton.tscn" id="4"]
 [ext_resource type="PackedScene" uid="uid://dg6whk6ygbtpi" path="res://Assets/UI/TabWidgets/ViewComponents/ProductionChain.tscn" id="5"]
 [ext_resource type="PackedScene" uid="uid://sc4so552e1e" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildAlveariesButton.tscn" id="6"]
@@ -26,6 +27,10 @@ text = "Farm"
 
 [node name="ProductionChain" parent="TabContainer/VBoxContainer" index="2" instance=ExtResource("5")]
 layout_mode = 2
+input_one_type = null
+input_two_type = null
+input_three_type = null
+output_type = ExtResource("4_sncyd")
 
 [node name="PauseProductionButton" parent="TabContainer/VBoxContainer/ProductionChain/MarginContainer/VBoxContainer/MiddleSection/Control" index="2"]
 grow_horizontal = 1
@@ -35,6 +40,10 @@ grow_vertical = 1
 custom_minimum_size = Vector2(200, 161)
 layout_mode = 2
 number_inputs = 2
+input_one_type = null
+input_two_type = null
+input_three_type = null
+output_type = ExtResource("4_sncyd")
 
 [node name="TopSection" parent="TabContainer/VBoxContainer/ProductionChain2/MarginContainer/VBoxContainer" index="0"]
 visible = true

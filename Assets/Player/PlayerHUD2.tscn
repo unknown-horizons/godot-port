@@ -1,7 +1,8 @@
-[gd_scene load_steps=54 format=3 uid="uid://bka87rk8lk7kb"]
+[gd_scene load_steps=55 format=3 uid="uid://bka87rk8lk7kb"]
 
 [ext_resource type="Script" path="res://Assets/Player/PlayerHUD2.gd" id="1_mg2ty"]
 [ext_resource type="PackedScene" uid="uid://bk0cq3b2hhoi2" path="res://Assets/UI/InfoWidgets/CityInfo.tscn" id="2_1pfyv"]
+[ext_resource type="PackedScene" uid="uid://c4e812pijkjhi" path="res://Assets/UI/InfoWidgets/ResourcesOverlay.tscn" id="2_7rego"]
 [ext_resource type="PackedScene" uid="uid://cwi23f5spohl" path="res://Assets/UI/InfoWidgets/BalanceInfoButton.tscn" id="3_sivbb"]
 [ext_resource type="PackedScene" uid="uid://37cfdhkia73r" path="res://Assets/UI/TabWidgets/WidgetTop.tscn" id="4_nvuti"]
 [ext_resource type="PackedScene" uid="uid://xulwo8lgh5nt" path="res://Assets/UI/TabWidgets/DebugTabWidgets.tscn" id="8_ou66n"]
@@ -66,6 +67,11 @@ grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
 script = ExtResource("1_mg2ty")
+
+[node name="ResourcesOverlay" parent="." instance=ExtResource("2_7rego")]
+offset_left = 96.0
+offset_right = 1120.0
+offset_bottom = 64.0
 
 [node name="CityInfo" parent="." instance=ExtResource("2_1pfyv")]
 layout_mode = 1

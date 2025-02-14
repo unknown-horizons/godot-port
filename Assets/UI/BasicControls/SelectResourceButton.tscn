@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://tjrcjylt4xtd"]
+
+[ext_resource type="PackedScene" uid="uid://cprnm6d5bh3f2" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="1_qryg7"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/SelectResourceButton.gd" id="2_w30jn"]
+
+[node name="SelectResourceButton" instance=ExtResource("1_qryg7")]
+custom_minimum_size = Vector2(32, 32)
+offset_right = 32.0
+offset_bottom = 32.0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture_normal = null
+script = ExtResource("2_w30jn")
+
+[node name="HBoxContainer" parent="." index="0"]
+custom_minimum_size = Vector2(32, 32)
+offset_right = 32.0
+offset_bottom = 32.0

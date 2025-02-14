@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://brf8ay66sla7p"]
+
+[ext_resource type="Texture2D" uid="uid://d0mccfotuvqm4" path="res://Assets/UI/Images/Background/Widgets/resbar_stats_full.png" id="1_qqm7m"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/ResourceSelection.gd" id="2_1urha"]
+[ext_resource type="PackedScene" uid="uid://tjrcjylt4xtd" path="res://Assets/UI/BasicControls/SelectResourceButton.tscn" id="2_vrp4u"]
+[ext_resource type="Resource" uid="uid://c5xn4hbcdts6c" path="res://Assets/World/Data/ItemData/Timber.tres" id="4_i0k7y"]
+[ext_resource type="Resource" uid="uid://cadptbki7hpwf" path="res://Assets/World/Data/ItemData/Food.tres" id="5_f4mac"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p5r0b"]
+texture = ExtResource("1_qqm7m")
+texture_margin_left = 3.0
+texture_margin_top = 3.0
+texture_margin_right = 3.0
+texture_margin_bottom = 28.0
+
+[node name="ResourceSelection" type="PanelContainer"]
+offset_right = 110.0
+offset_bottom = 59.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxTexture_p5r0b")
+script = ExtResource("2_1urha")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="GridContainer" type="GridContainer" parent="VBoxContainer"]
+layout_mode = 2
+columns = 4
+
+[node name="SelectResourceButton" parent="VBoxContainer/GridContainer" instance=ExtResource("2_vrp4u")]
+layout_mode = 2
+
+[node name="SelectResourceButton2" parent="VBoxContainer/GridContainer" instance=ExtResource("2_vrp4u")]
+layout_mode = 2
+resource_type = ExtResource("4_i0k7y")
+
+[node name="SelectResourceButton3" parent="VBoxContainer/GridContainer" instance=ExtResource("2_vrp4u")]
+layout_mode = 2
+resource_type = ExtResource("5_f4mac")
+
+[connection signal="slot_pressed" from="VBoxContainer/GridContainer/SelectResourceButton" to="." method="select_resource_button_pressed"]
+[connection signal="slot_pressed" from="VBoxContainer/GridContainer/SelectResourceButton2" to="." method="select_resource_button_pressed"]
+[connection signal="slot_pressed" from="VBoxContainer/GridContainer/SelectResourceButton3" to="." method="select_resource_button_pressed"]

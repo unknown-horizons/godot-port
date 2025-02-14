@@ -5,9 +5,6 @@ class_name ObjectSelectedContext
 
 @export var empty_tab_widget_name: String = "EmptyPanelContainer"
 
-## are all selected objects of the same type
-var are_selected_objects_same_type: bool = true
-
 var selected_objects: Array[Selectable] = []
 
 func _unhandled_input(event):
@@ -21,7 +18,7 @@ func _unhandled_input(event):
 func set_tab_widget():
   var tab_widget_name: String = ""
   var event = InputEventAction.new()
-  if are_selected_objects_same_type:
+  if len(selected_objects) == 1:
     # get the info tab widget
     var object = selected_objects[0].get_parent()
     var info_tab_widget: Resource
@@ -57,13 +54,9 @@ func set_selected_objects(new_selected_objects: Array):
     object.is_selected = false
   # check if there are some selected objects
   if not selected_objects:
-    are_selected_objects_same_type = false
     game_context_manager.current_context = null
   else:
     # select all objects to select and check if all are of the same type
-    var one_of_selected_objects_types: String = selected_objects[0].get_parent().get_class()
-    are_selected_objects_same_type = true
     for object: Selectable in selected_objects:
-      are_selected_objects_same_type = are_selected_objects_same_type and object.get_parent().is_class(one_of_selected_objects_types)
       object.is_selected = true
   set_tab_widget()

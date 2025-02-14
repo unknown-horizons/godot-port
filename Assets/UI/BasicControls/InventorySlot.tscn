@@ -1,55 +1,54 @@
-[gd_scene load_steps=6 format=3 uid="uid://kw5ifpdknyd5"]
+[gd_scene load_steps=4 format=3 uid="uid://cprnm6d5bh3f2"]
 
-[ext_resource type="PackedScene" uid="uid://qndk0ulsg1jc" path="res://Assets/UI/BasicControls/ResourceItem.tscn" id="1"]
-[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="2"]
-[ext_resource type="Script" uid="uid://de6ah0xt2sd6e" path="res://Assets/UI/BasicControls/InventorySlot.gd" id="3"]
-[ext_resource type="Texture2D" uid="uid://ci64i0ra5lm7" path="res://Assets/UI/Images/Background/inv_bg.png" id="4"]
-[ext_resource type="Texture2D" uid="uid://cke8lkljkb73" path="res://Assets/UI/Images/Background/Widgets/progressbar_fill.png" id="5"]
+[ext_resource type="Script" path="res://Assets/UI/BasicControls/InventorySlot.gd" id="1_2qu3x"]
+[ext_resource type="Texture2D" uid="uid://cke8lkljkb73" path="res://Assets/UI/Images/Background/Widgets/progressbar_fill.png" id="2_ckrin"]
+[ext_resource type="Texture2D" uid="uid://ci64i0ra5lm7" path="res://Assets/UI/Images/Background/inv_bg.png" id="2_hdugx"]
 
 [node name="InventorySlot" type="TextureButton"]
 custom_minimum_size = Vector2(49, 51)
 offset_right = 49.0
 offset_bottom = 51.0
-size_flags_horizontal = 6
-texture_normal = ExtResource("4")
-script = ExtResource("3")
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture_normal = ExtResource("2_hdugx")
+stretch_mode = 0
+script = ExtResource("1_2qu3x")
 
-[node name="ResourceItem" parent="." instance=ExtResource("1")]
-visible = false
-custom_minimum_size = Vector2(41, 32)
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
 layout_mode = 0
-anchors_preset = 0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_right = -1.274
-offset_bottom = -1.836
+offset_right = 49.0
+offset_bottom = 51.0
+theme_override_constants/separation = 0
+
+[node name="ResourceImage" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+expand_mode = 1
 stretch_mode = 5
 
-[node name="LabelEx" parent="." instance=ExtResource("2")]
-visible = false
-layout_mode = 1
-anchors_preset = -1
-anchor_top = 1.0
-anchor_right = 0.837
-anchor_bottom = 1.0
-offset_top = -22.0
-offset_right = -0.0130005
-offset_bottom = 0.0
-grow_horizontal = 2
-grow_vertical = 0
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+custom_minimum_size = Vector2(8, 0)
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="Spacer" type="Control" parent="HBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="AmountLabel" type="Label" parent="HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
 text = "0"
 horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="TextureRect" type="TextureRect" parent="."]
-visible = false
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.837
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -0.0130005
-grow_horizontal = 0
-grow_vertical = 2
-scale = Vector2(1, 1e-05)
-pivot_offset = Vector2(8, 51)
-texture = ExtResource("5")
+[node name="AmountBar" type="TextureRect" parent="HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(3, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.0
+texture = ExtResource("2_ckrin")
+expand_mode = 1
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
