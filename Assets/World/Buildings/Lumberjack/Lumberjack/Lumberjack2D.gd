@@ -69,7 +69,7 @@ func movement_loop():
 func wait_for_tree_in_need():
 # wait until needs and can go to tree
   while true:
-    var wood_amount = building_parent.input_product_storage.get("wood")
+    var wood_amount = building_parent.input_product_storage.get(building_parent.wood_data)
     if wood_amount != null and closest_trees != []:
       if wood_amount < building_parent.building_data.max_storage_capacity:
         return

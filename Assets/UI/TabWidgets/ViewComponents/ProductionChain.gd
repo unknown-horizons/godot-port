@@ -43,17 +43,43 @@ func _ready():
 
 func _process(_delta):
   if self.owner.visible:
-    var selected_objects = self.owner.selected_objects
-    var progress: float = 0
-    if len(selected_objects) == 1:
-      var building = selected_objects[0]
-      if building.production_timer != null:
-        var production_time = building.building_data.processing_time
-        progress = (production_time - building.production_timer.time_left) / production_time
-    set_progress_bar(progress)
+    update_progress_bar()
+    update_resource_amount()
 
-## Sets the progress bar to the given progress, 0 to 1 
-func set_progress_bar(progress: float = 0):
+func update_resource_amount():
+  var input_resources = self.owner.selected_objects[0].input_product_storage
+  # get the amount of the input resources
+  var new_input_one_value = input_resources.get(input_one_type)
+  var new_input_two_value = input_resources.get(input_two_type)
+  var new_input_three_value = input_resources.get(input_three_type)
+  # if no resource of that type, set it to 0
+  if new_input_one_value == null:
+    new_input_one_value = 0
+  if new_input_two_value == null:
+    new_input_two_value = 0
+  if new_input_three_value == null:
+    new_input_three_value = 0
+  # set the input values
+  input_one_value = new_input_one_value
+  input_two_value = new_input_two_value
+  input_three_value = new_input_three_value
+  # set the input limits
+  var limit = self.owner.selected_objects[0].building_data.max_storage_capacity
+  input_one_storage_limit = limit
+  input_two_storage_limit = limit
+  input_three_storage_limit = limit
+  # set the output value and limit
+  output_value = self.owner.selected_objects[0].number_of_output_products
+  output_storage_limit = limit
+
+func update_progress_bar():
+  var selected_objects = self.owner.selected_objects
+  var progress: float = 0
+  if len(selected_objects) == 1:
+    var building = selected_objects[0]
+    if building.production_timer != null:
+      var production_time = building.building_data.processing_time
+      progress = (production_time - building.production_timer.time_left) / production_time
   progress_bar.size_flags_stretch_ratio = progress
   progress_bar_spacer.size_flags_stretch_ratio = 1 - progress
 
@@ -137,28 +163,28 @@ func set_input_one_storage_limit(new_input_one_storage_limit: int) -> void:
   if not is_inside_tree():
     await self.ready
 
-  input_one.storage_limit = input_one_storage_limit
+  input_one.limit = input_one_storage_limit
 
 func set_input_two_storage_limit(new_input_two_storage_limit: int) -> void:
   input_two_storage_limit = new_input_two_storage_limit
   if not is_inside_tree():
     await self.ready
 
-  input_two.storage_limit = input_two_storage_limit
+  input_two.limit = input_two_storage_limit
 
 func set_input_three_storage_limit(new_input_three_storage_limit: int) -> void:
   input_three_storage_limit = new_input_three_storage_limit
   if not is_inside_tree():
     await self.ready
 
-  input_three.storage_limit = input_three_storage_limit
+  input_three.limit = input_three_storage_limit
 
 func set_output_storage_limit(new_output_storage_limit: int) -> void:
   output_storage_limit = new_output_storage_limit
   if not is_inside_tree():
     await self.ready
 
-  output.storage_limit = output_storage_limit
+  output.limit = output_storage_limit
 
 func _set_input_one(enabled: bool) -> void:
   top_section.visible = enabled
