@@ -5,9 +5,12 @@ class_name Lumberjack2D
 @export var wood_data: ItemData = preload("res://Assets/World/Data/ItemData/Wood.tres")
 @export var unload_wood_time: int = 2
 
-func _ready():
-  self.setup_building()
+@onready var lumberjack_worker: LumberjackWorker2D = self.get_node("Lumberjack")
+
+func start_producing():
   self.input_product_storage[wood_data] = 0
+  lumberjack_worker.start_working()
+  self.carrier.start_working()
   production_loop()
 
 func production_loop():

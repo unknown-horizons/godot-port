@@ -1,4 +1,5 @@
-extends AnimatableBody2D
+extends WorldThing2D
+## Inherited by all 2D game objects,
 
 class_name Unit2D
 
@@ -13,6 +14,13 @@ var path_back: Array = []
 
 var is_moving: bool = false
 
+func _ready():
+  self.setup_unit()
+
+## Called when the unit should start working and is to be overridden
+func start_working():
+  pass
+
 ## set up the unit
 func setup_unit():
   if unit_sprite == null:
@@ -21,10 +29,6 @@ func setup_unit():
         unit_sprite = child
   if unit_sprite == null:
     push_warning("Unit2D: No person sprite found")
-
-## To be overridden for functionality on inputs when the building is selected
-func handle_context_input(_event: InputEvent):
-  pass
 
 func get_sprite_angle(next_point: Vector2):
   var move_vec: Vector2 = next_point - self.global_position

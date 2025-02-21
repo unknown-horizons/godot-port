@@ -4,7 +4,7 @@ class_name BuildingRoadContext
 
 @onready var terrain_tilemap: TerrainTileMap = %TerrainTileMap
 @onready var built_tilemap: BuiltTileMap = %BuiltTileMap
-@onready var road_highlighter: TileMapLayer = %RoadHighlighter
+@onready var highlighter: TileMapLayer = %RoadAndBuildingHighlighter
 
 ## pathfinding for road building
 @onready var road_building_pathfindng = PathFindingManagement2D.new(%BuiltTileMap)
@@ -35,7 +35,7 @@ func _unhandled_input(event):
             self.game_context_manager.current_context = null
           else:
             self.is_road_building_started = false
-            road_highlighter.clear()
+            highlighter.clear()
   
     if event is InputEventMouseMotion and is_road_building_started:
       highlight_road()
@@ -53,12 +53,12 @@ func highlight_road() -> void:
   if last_mouse_tile_position != tile_mouse_position and is_road_building_started:
     last_mouse_tile_position = tile_mouse_position
     var path = road_building_pathfindng.get_path_to_dest(road_start_tile_position, last_mouse_tile_position, true, true)
-    road_highlighter.clear()
+    highlighter.clear()
     if path != null:
-      road_highlighter.set_cells_terrain_connect(path, 0, 0, false)
+      highlighter.set_cells_terrain_connect(path, 0, 0, false)
 
 func build_road() -> void:
-  road_highlighter.clear()
+  highlighter.clear()
   # check if there is a building on the start positionition
   var scene_in_start_point = built_tilemap.building_position_to_building.find_key(built_tilemap.map_to_local(road_start_tile_position))
   if scene_in_start_point != null:

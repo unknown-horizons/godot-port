@@ -130,7 +130,6 @@ func set_input_one_value(new_input_one_value: int) -> void:
     await self.ready
 
   input_one.resource_amount = input_one_value
-  print(input_one.resource_amount)
   notify_property_list_changed()
 
 func set_input_two_value(new_input_two_value: int) -> void:

@@ -1,10 +1,13 @@
-[gd_scene load_steps=7 format=3 uid="uid://bfln186sfga2v"]
+[gd_scene load_steps=10 format=3 uid="uid://bfln186sfga2v"]
 
 [ext_resource type="PackedScene" uid="uid://dcpsi3ppfn0ga" path="res://Assets/World/Units/Unit2D.tscn" id="1_cudua"]
 [ext_resource type="SpriteFrames" uid="uid://c2fl0cumlr5ug" path="res://Assets/World/Units/Ships/Ship2D/ShipAmimation.tres" id="2_1pkt4"]
 [ext_resource type="Script" path="res://Assets/World/Units/Ships/Ship2D/Ship2D.gd" id="2_f8ujq"]
 [ext_resource type="PackedScene" uid="uid://ioihkggkhi5q" path="res://Assets/World/Buoy/Buoy2D.tscn" id="3_tp4jj"]
+[ext_resource type="Resource" uid="uid://c5xn4hbcdts6c" path="res://Assets/World/Data/ItemData/Timber.tres" id="4_2g8w1"]
+[ext_resource type="Resource" uid="uid://csdims0m0sqnb" path="res://Assets/World/Data/BuildingData/WarehouseData.tres" id="4_ec8bt"]
 [ext_resource type="Resource" uid="uid://ncfp5csitmj4" path="res://Assets/World/Data/UnitData/ShipData.tres" id="4_p2d6v"]
+[ext_resource type="Resource" uid="uid://cadptbki7hpwf" path="res://Assets/World/Data/ItemData/Food.tres" id="5_f8i0t"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Behavior/Selectable/Selectable.tscn" id="5_vdlap"]
 
 [node name="Ship2D" type="Node2D"]
@@ -13,6 +16,11 @@ z_index = 15
 [node name="Ship" parent="." instance=ExtResource("1_cudua")]
 script = ExtResource("2_f8ujq")
 buoy = ExtResource("3_tp4jj")
+warehouse_data = ExtResource("4_ec8bt")
+ship_inventory = {
+ExtResource("4_2g8w1"): 20,
+ExtResource("5_f8i0t"): 10
+}
 unit_data = ExtResource("4_p2d6v")
 
 [node name="Selectable2" parent="Ship" instance=ExtResource("5_vdlap")]

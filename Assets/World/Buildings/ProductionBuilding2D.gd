@@ -3,7 +3,7 @@ extends Building2D
 
 class_name ProductionBuilding2D
 
-@onready var built_tilemap: BuiltTileMap = self.get_parent()
+@onready var built_tilemap: BuiltTileMap = self.get_node("/root/Main/BuiltTileMap")
 @onready var carrier: Carrier = self.get_node("Carrier")
 @onready var tooltip: Control = self.get_node("ItemProducedTooltip")
 @onready var product_amount_placeholder: Label = tooltip.get_node("Background/HBoxContainer/ItemAmountContainer/AmountPlaceholder")
@@ -16,8 +16,8 @@ var input_product_storage: Dictionary = {}
 ## The timer that waits time before the production loop produces a product
 var production_timer: SceneTreeTimer
 
-## Whether or not the production loop should run
-## if set to true, the production loop will start
+## Whether or not the production loop should run.
+## Note: if set to true, the start producing function will be called
 var should_produce = false:
   get:
     return should_produce
@@ -25,7 +25,13 @@ var should_produce = false:
     var last_value = should_produce
     should_produce = value
     if last_value != should_produce and should_produce:
-      production_loop() # fire and forget
+      start_producing() # fire and forget
+
+func _ready():
+  super()
+  if is_highlight == false:
+    setup_building()
+    should_produce = true
 
 func setup_building():
   var closest_warehouse_path_or_null = find_closest_warehouse()
@@ -36,6 +42,12 @@ func setup_building():
   # make sure that all input products are added to the input storage and set to 0
   for input_product in self.building_data.input_products.keys():
     input_product_storage[input_product] = 0
+
+## Called when the building should start producing and is to be overridden.
+## Note: on default, it will start the production loop and carrier
+func start_producing():
+  carrier.start_working()# fire and forget
+  production_loop()# fire and forget
 
 func show_tooltip_animation(amount: int):
   tooltip.visible = true

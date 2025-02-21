@@ -9,12 +9,12 @@ class_name Selectable
   get:
     return sprite
   set(value):
-    assert(value is Sprite2D or value is AnimatedSprite2D, "Sprite must be an AnimatedSprite2D or Sprite2D")
+    assert(value is Sprite2D or value is AnimatedSprite2D or value == null, "Sprite must be an AnimatedSprite2D or Sprite2D")
     sprite = value
 ## The shader to be used to highlight the sprite.
 @export var shader: ShaderMaterial = preload("res://Assets/World/Behavior/Selectable/SelectableDefultShader.tres")
 
-@onready var parent: Node2D = self.get_parent()
+@onready var parent: WorldThing2D = self.get_parent()
 
 ## The shader`s defult width
 var shader_width: float = shader.get_shader_parameter("width")
@@ -30,6 +30,8 @@ var is_selected: bool = false:
         sprite.material.set_shader_parameter("width", shader_width)
       else:
         sprite.material.set_shader_parameter("width", 0)
+    # notify the parent
+    parent.selected(is_selected)
 
 func _ready():
   if sprite == null:
@@ -48,6 +50,9 @@ func _unhandled_input(event):
     parent.handle_context_input(event)
 
 func is_in_rect(rect: Rect2) -> bool:
+  var parent_building = parent as Building2D
+  if parent_building != null and parent.is_highlight:# if the parent is a unit, then it will be invisible because it will not start working
+    return false
   if sprite:
     var sprite_size: Vector2
     if sprite is AnimatedSprite2D:

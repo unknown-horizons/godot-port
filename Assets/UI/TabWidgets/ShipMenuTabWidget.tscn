@@ -81,24 +81,19 @@ columns = 4
 
 [node name="InventorySlot" parent="TabContainer/ShipMenu/GridContainer2" index="0" instance=ExtResource("9")]
 layout_mode = 2
-resource_type = 4
-resource_value = 30
 
 [node name="InventorySlot2" parent="TabContainer/ShipMenu/GridContainer2" index="1" instance=ExtResource("9")]
 layout_mode = 2
-resource_type = 5
-resource_value = 30
 
 [node name="InventorySlot3" parent="TabContainer/ShipMenu/GridContainer2" index="2" instance=ExtResource("9")]
 layout_mode = 2
-resource_type = 6
-resource_value = 30
 
 [node name="InventorySlot4" parent="TabContainer/ShipMenu/GridContainer2" index="3" instance=ExtResource("9")]
 layout_mode = 2
-resource_type = 40
-resource_value = 12
 
 [node name="TradeMenu" type="VBoxContainer" parent="TabContainer" index="2"]
 visible = false
 layout_mode = 2
+metadata/_tab_index = 1
+
+[connection signal="pressed" from="TabContainer/ShipMenu/GridContainer/FoundSettlementButton" to="." method="_on_FoundSettlementButton_pressed"]

@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://cxg537ramv08c"]
+[gd_scene load_steps=9 format=3 uid="uid://cxg537ramv08c"]
 
 [ext_resource type="PackedScene" uid="uid://c14jc7hm1oowb" path="res://Assets/World/Buildings/ProductionBuilding2D.tscn" id="1_ProductionBuilding2D"]
 [ext_resource type="Script" path="res://Assets/World/Buildings/Lumberjack/LumberjackTent2D.gd" id="2_script"]
+[ext_resource type="Resource" uid="uid://barkk28ae0v15" path="res://Assets/World/Data/ItemData/Wood.tres" id="3_5rhj5"]
 [ext_resource type="Resource" uid="uid://d4c5ibkax2eb5" path="res://Assets/World/Data/BuildingData/LumberjackData.tres" id="3_building_data"]
 [ext_resource type="Texture2D" uid="uid://c10dpbgiopt0d" path="res://Assets/World/Buildings/Lumberjack/Sprites/LumberjackTent_idle.png" id="4_building_sprite"]
 [ext_resource type="PackedScene" uid="uid://dnixn1uc3bjuc" path="res://Assets/World/Buildings/Lumberjack/Lumberjack/Lumberjack2D.tscn" id="4_dwcry"]
@@ -10,6 +11,7 @@
 
 [node name="LumberjackTent2D" instance=ExtResource("1_ProductionBuilding2D")]
 script = ExtResource("2_script")
+wood_data = ExtResource("3_5rhj5")
 unload_wood_time = 2
 building_data = ExtResource("3_building_data")
 
@@ -22,7 +24,7 @@ region_rect = Rect2(0, 64, 128, 64)
 visible = false
 speed_px_per_sec = 64.0
 
-[node name="ItemProducedTooltip" parent="." index="4"]
+[node name="ItemProducedTooltip" parent="." index="3"]
 texture = ExtResource("5_tooltip_image")
 amount = "0"
 

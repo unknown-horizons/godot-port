@@ -1,27 +1,24 @@
-[gd_scene load_steps=27 format=4 uid="uid://caaq1eo2tha3s"]
+[gd_scene load_steps=24 format=4 uid="uid://caaq1eo2tha3s"]
 
 [ext_resource type="Script" path="res://Assets/World/Context/GameContextManager.gd" id="1_4ru01"]
 [ext_resource type="Script" path="res://Assets/World/Tilemaps/Pathfinding.gd" id="1_fhei5"]
 [ext_resource type="TileSet" uid="uid://bqskejujqsgde" path="res://Assets/World/Tilemaps/Terrain/TerrainTileSet.tres" id="1_v0l7j"]
 [ext_resource type="Script" path="res://Assets/World/Tilemaps/Terrain/TerrainTileMap.gd" id="2_gfcij"]
 [ext_resource type="Script" path="res://Assets/World/Context/BuildingContext.gd" id="2_p610i"]
-[ext_resource type="Resource" uid="uid://bhhs6phyo6c2c" path="res://Assets/World/Data/BuildingData/FarmData.tres" id="3_7d8wl"]
 [ext_resource type="TileSet" uid="uid://g0x5fr7nbdbv" path="res://Assets/World/Tilemaps/BuiltTileMap/BuiltTileSet.tres" id="3_driv1"]
 [ext_resource type="PackedScene" uid="uid://bfln186sfga2v" path="res://Assets/World/Units/Ships/Ship2D/Ship2D.tscn" id="3_oiu6s"]
 [ext_resource type="Script" path="res://Assets/World/Context/BuildingRoadContext.gd" id="3_r4jkl"]
-[ext_resource type="Resource" uid="uid://csdims0m0sqnb" path="res://Assets/World/Data/BuildingData/WarehouseData.tres" id="4_bex1s"]
 [ext_resource type="Script" path="res://Assets/World/MainCamera.gd" id="4_ryeen"]
-[ext_resource type="Resource" uid="uid://h7xtn342s6f8" path="res://Assets/World/Data/BuildingData/RoadData.tres" id="5_u7lto"]
 [ext_resource type="Shader" path="res://Assets/World/Behavior/Selectable/Highlighter.gdshader" id="5_xwy3w"]
 [ext_resource type="Texture2D" uid="uid://ojeaj1a18a44" path="res://Assets/World/white_64x32.png" id="6_4vay5"]
-[ext_resource type="Resource" uid="uid://d4c5ibkax2eb5" path="res://Assets/World/Data/BuildingData/LumberjackData.tres" id="6_jeda6"]
 [ext_resource type="Texture2D" uid="uid://ckhylkfbvys8s" path="res://Assets/World/white_64x32_a0.5.png" id="7_2c0dm"]
 [ext_resource type="Script" path="res://Assets/World/Context/SelectionContext.gd" id="8_afdhk"]
 [ext_resource type="Script" path="res://Assets/World/Tilemaps/BuiltTileMap/BuiltTileMap.gd" id="8_epgui"]
 [ext_resource type="PackedScene" uid="uid://cm6yol3av2mwf" path="res://Assets/World/Context/SelectionBox.tscn" id="9_xd2e2"]
 [ext_resource type="Script" path="res://Assets/World/Context/ObjectSelectedContext.gd" id="10_c4elk"]
 [ext_resource type="PackedScene" uid="uid://bka87rk8lk7kb" path="res://Assets/Player/PlayerHUD2.tscn" id="11_2r8bi"]
-[ext_resource type="Material" uid="uid://cltmqu62mbu3g" path="res://Assets/World/Tilemaps/Highlight/RoadShader.tres" id="16_lq7rl"]
+[ext_resource type="Material" uid="uid://cltmqu62mbu3g" path="res://Assets/World/Tilemaps/Highlight/RoadHighlighter.tres" id="17_hqgb3"]
+[ext_resource type="Script" path="res://Assets/World/Tilemaps/Highlight/RoadAndBuildingHighlighter.gd" id="18_hjeq7"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_g8btl"]
 shader = ExtResource("5_xwy3w")
@@ -56,12 +53,6 @@ script = ExtResource("1_4ru01")
 
 [node name="BuildingContext" type="Node" parent="GameContextManager"]
 script = ExtResource("2_p610i")
-building_data = {
-"farm": ExtResource("3_7d8wl"),
-"lumberjack": ExtResource("6_jeda6"),
-"road": ExtResource("5_u7lto"),
-"warehouse": ExtResource("4_bex1s")
-}
 
 [node name="BuildingRoadContext" type="Node" parent="GameContextManager"]
 script = ExtResource("3_r4jkl")
@@ -97,11 +88,12 @@ tile_map_data = PackedByteArray("AADt/woAAQAAAAAAAADt/wsAAQAAAAAAAADt/wwAAQAAAAA
 tile_set = ExtResource("3_driv1")
 script = ExtResource("8_epgui")
 
-[node name="RoadHighlighter" type="TileMapLayer" parent="."]
+[node name="RoadAndBuildingHighlighter" type="TileMapLayer" parent="."]
 unique_name_in_owner = true
 z_index = 15
-material = ExtResource("16_lq7rl")
+material = ExtResource("17_hqgb3")
 tile_set = ExtResource("3_driv1")
+script = ExtResource("18_hjeq7")
 
 [node name="Highlighter" type="TileMapLayer" parent="."]
 z_index = 15
@@ -121,3 +113,5 @@ size_flags_horizontal = 6
 size_flags_vertical = 6
 
 [connection signal="child_entered_tree" from="BuiltTileMap" to="BuiltTileMap" method="_on_child_entered_tree"]
+[connection signal="child_entered_tree" from="RoadAndBuildingHighlighter" to="RoadAndBuildingHighlighter" method="_on_child_entered_tree"]
+[connection signal="child_exiting_tree" from="RoadAndBuildingHighlighter" to="RoadAndBuildingHighlighter" method="_on_child_exiting_tree"]

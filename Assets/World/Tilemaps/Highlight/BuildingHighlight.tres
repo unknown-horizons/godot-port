@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://db1d7j8ewjg1q"]
+
+[ext_resource type="Shader" path="res://Assets/World/Tilemaps/Highlight/BuildingHighlight.gdshader" id="1_depr8"]
+
+[resource]
+shader = ExtResource("1_depr8")
+shader_parameter/can_build_color = Color(0.588235, 0.588235, 0.588235, 0.588235)
+shader_parameter/cannot_build_color = Color(1, 0, 0.196078, 0.588235)
+shader_parameter/can_build = true
+shader_parameter/should_show = false

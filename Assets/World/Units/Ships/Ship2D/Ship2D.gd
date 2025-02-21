@@ -3,14 +3,22 @@ extends Unit2D
 class_name Ship2D
 
 @export var buoy: PackedScene = preload("res://Assets/World/Buoy/Buoy2D.tscn")
+@export var warehouse_data: BuildingData
+@export var ship_inventory: Dictionary = {}
+@export var valid_distance_for_building_harbor: int = 3
 
 @onready var buoys: StaticBody2D = self.get_parent().get_node("Buoys")
 @onready var terrain_tilemap: TerrainTileMap = self.get_parent().get_parent()
+@onready var highlighter = self.get_node("/root/Main/RoadAndBuildingHighlighter")
+@onready var building_context: BuildingContext = self.get_node("/root/Main/GameContextManager/BuildingContext")
 @onready var pathfinding: Pathfinding = self.get_node("/root/Main/Pathfinding")
+
+var is_selected: bool = false
+
 signal buoy_added
 
 func _ready():
-  self.setup_unit()
+  super()
   movement_loop()
 
 func handle_context_input(event: InputEvent):
@@ -18,10 +26,6 @@ func handle_context_input(event: InputEvent):
     if event.pressed == true:
       if event.button_index == MOUSE_BUTTON_RIGHT:
         add_visit_point() # fire and forget
-      # if event.button_index == MOUSE_BUTTON_RIGHT:
-      #   self.is_moving = false
-      #   for buoy in buoys.get_children():
-      #     buoy.queue_free()
 
 func add_visit_point():
   var mouse_pos: Vector2 = terrain_tilemap.get_global_mouse_position()
@@ -51,3 +55,11 @@ func movement_loop():
     if buoy != null:
       buoys.remove_child(buoy)
       buoy.queue_free()
+
+func build_harbor():
+  building_context.building_to_build = warehouse_data
+  building_context.reference_object = self
+
+func is_tile_valid_for_building(tile: Vector2i) -> bool:
+  var ship_tile_postition: Vector2i = terrain_tilemap.local_to_map(self.global_position)
+  return ship_tile_postition.distance_to(tile) <= valid_distance_for_building_harbor
