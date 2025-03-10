@@ -1,6 +1,6 @@
 [gd_scene load_steps=22 format=3 uid="uid://bvbuafk7d6fdt"]
 
-[ext_resource type="Script" path="res://Assets/UI/TabWidgets/TabWidget.gd" id="2"]
+[ext_resource type="Script" uid="uid://siqyv25pe44r" path="res://Assets/UI/TabWidgets/TabWidget.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://5gbvga1bqpxa" path="res://Assets/UI/Images/Background/Widgets/map_bg.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://3203obnnsej3" path="res://Assets/UI/Images/TabWidget/main_bg_top.png" id="4"]
 [ext_resource type="PackedScene" uid="uid://dcgoirmxith4s" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedUpButton.tscn" id="4_g3qxs"]
@@ -9,7 +9,7 @@
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="6_5q6ss"]
 [ext_resource type="PackedScene" uid="uid://bepwv74qm83mh" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/LogbookButton.tscn" id="7"]
 [ext_resource type="PackedScene" uid="uid://b450djyry3nsh" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/TearButton.tscn" id="8"]
-[ext_resource type="Script" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedLabel.gd" id="8_joybd"]
+[ext_resource type="Script" uid="uid://dkn6dkvtme6dh" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedLabel.gd" id="8_joybd"]
 [ext_resource type="PackedScene" uid="uid://bnvf8h0p6g4p5" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedDownButton.tscn" id="8_lneb5"]
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="11"]
 [ext_resource type="PackedScene" uid="uid://b0pjmla1k4m0a" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/BuildMenuButton.tscn" id="12"]
@@ -19,7 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://dahuaxa1msk35" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameMenuButton.tscn" id="16"]
 [ext_resource type="PackedScene" uid="uid://bhnkuql6buhtp" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/RotateRightButton.tscn" id="17"]
 [ext_resource type="PackedScene" uid="uid://cx334xqdqe26t" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/ZoomInButton.tscn" id="18"]
-[ext_resource type="Script" path="res://Assets/UI/TabWidgets/WidgetDetail.gd" id="18_x0tmu"]
+[ext_resource type="Script" uid="uid://xto7t7k5nay" path="res://Assets/UI/TabWidgets/WidgetDetail.gd" id="18_x0tmu"]
 [ext_resource type="PackedScene" uid="uid://d08xfnfci8npi" path="res://Assets/Player/Minimap/Minimap.tscn" id="19"]
 
 [node name="TabWidget" type="Control"]
