@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cvhwqnt33umx7"]
 
 [ext_resource type="Texture2D" uid="uid://c5xglx6q3b4fa" path="res://Assets/UI/Images/Background/Widgets/res_bg.png" id="1"]
-[ext_resource type="Script" path="res://Assets/UI/InfoWidgets/ResInfo.gd" id="2"]
+[ext_resource type="Script" uid="uid://b7ylc8oko1lmr" path="res://Assets/UI/InfoWidgets/ResInfo.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="4"]
 
 [node name="ResInfo" type="TextureRect"]

@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bpimcst1geibt" path="res://Assets/UI/BookMenu/BookMenu.tscn" id="1_wvjta"]
 [ext_resource type="PackedScene" uid="uid://scelobikwqds" path="res://Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn" id="2_5okjo"]
-[ext_resource type="Script" path="res://Assets/UI/Pages/LogBookUI/LogbookUI.gd" id="2_ixypx"]
+[ext_resource type="Script" uid="uid://c2wbmt88j74tc" path="res://Assets/UI/Pages/LogBookUI/LogbookUI.gd" id="2_ixypx"]
 
 [node name="LogbookUI" instance=ExtResource("1_wvjta")]
 script = ExtResource("2_ixypx")

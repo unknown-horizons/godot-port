@@ -1,11 +1,11 @@
 [gd_scene load_steps=14 format=3 uid="uid://bk0cq3b2hhoi2"]
 
-[ext_resource type="Script" path="res://Assets/UI/InfoWidgets/CityInfo.gd" id="1"]
+[ext_resource type="Script" uid="uid://bcdv4kka2srat" path="res://Assets/UI/InfoWidgets/CityInfo.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://b0gi4vdahasx6" path="res://Assets/UI/Images/Background/Widgets/cityinfo_left.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://cnh4q3rem71rn" path="res://Assets/UI/Images/Background/Widgets/cityinfo_fill.png" id="3"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="3_1dd51"]
 [ext_resource type="Texture2D" uid="uid://3hepoko6w1v" path="res://Assets/UI/Icons/Widgets/CityInfo/settlement.png" id="5"]
-[ext_resource type="Script" path="res://Assets/UI/BasicControls/LabelEx.gd" id="5_24beb"]
+[ext_resource type="Script" uid="uid://bsi3w3ntqefm0" path="res://Assets/UI/BasicControls/LabelEx.gd" id="5_24beb"]
 [ext_resource type="Texture2D" uid="uid://dry1ceb3p6yk1" path="res://Assets/UI/Icons/Widgets/CityInfo/inhabitants.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://dja8u81e6ge3k" path="res://Assets/UI/Images/Background/Widgets/cityinfo_right.png" id="7"]
 
@@ -51,8 +51,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_2jvw7"]
 _data = {
-"fade_in": SubResource("3"),
-"fade_out": SubResource("4")
+&"fade_in": SubResource("3"),
+&"fade_out": SubResource("4")
 }
 
 [node name="CityInfo" type="HBoxContainer"]
