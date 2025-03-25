@@ -4,4 +4,4 @@ extends Resource
 class_name ItemData
 
 @export var game_name: String
-@export var icon: Texture
+@export var icon: Texture2D

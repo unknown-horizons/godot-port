@@ -14,7 +14,7 @@ class_name Pathfinding
   AStarGrid2D.CELL_SHAPE_ISOMETRIC_DOWN)
 
 ## pathfinding for Carriers
-@onready var carrier_pathfinding = PathFindingManagement2D.new(%BuiltTileMap, false)
+@onready var road_pathfinding = PathFindingManagement2D.new(%BuiltTileMap, false)
 
 func _ready():
   var terrain_points = terrain_tilemap.get_terrain_points()
@@ -28,4 +28,4 @@ func _ready():
     if cell_data == null or cell_data.terrain_set == -1:
       continue
     if cell_data != null and built_tilemap.tile_set.get_terrain_name(cell_data.terrain_set, cell_data.terrain) == "DirtRoad":
-      carrier_pathfinding.set_point_solid(cell, false)
+      road_pathfinding.set_point_solid(cell, false)

@@ -73,7 +73,7 @@ func find_closest_warehouse():
     return null
   var closest_warehouse_path_yet = null
   for warehouse_pos in warehouse_poses:
-    var warehouse_path = pathfinding.carrier_pathfinding.get_path_to_dest(self.position, warehouse_pos)
+    var warehouse_path = pathfinding.road_pathfinding.get_path_to_dest(self.position, warehouse_pos)
   # check if there is a path
     if warehouse_path == null:
       continue
@@ -84,7 +84,7 @@ func find_closest_warehouse():
 func new_building_built(building: Building2D):
   #check if building is warehouse
   if building.building_data.game_name == "warehouse":
-    var path_to_warehouse = self.get_node("/root/Main/Pathfinding").carrier_pathfinding.get_path_to_dest(self.position, building.position)
+    var path_to_warehouse = self.get_node("/root/Main/Pathfinding").road_pathfinding.get_path_to_dest(self.position, building.position)
     if path_to_warehouse != null and (len(path_to_warehouse) < len(closest_warehouse_path) or len(closest_warehouse_path) == 0):
       closest_warehouse_path = path_to_warehouse
       carrier.path = closest_warehouse_path

@@ -4,8 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://dg6whk6ygbtpi" path="res://Assets/UI/TabWidgets/ViewComponents/ProductionChain.tscn" id="3"]
 [ext_resource type="Resource" uid="uid://barkk28ae0v15" path="res://Assets/World/Data/ItemData/Wood.tres" id="4_j28ux"]
 [ext_resource type="Resource" uid="uid://c5xn4hbcdts6c" path="res://Assets/World/Data/ItemData/Timber.tres" id="4_pahp5"]
-[ext_resource type="Script" path="res://Assets/UI/TabWidgets/LumberjackTabWidget.gd" id="5"]
-[ext_resource type="PackedScene" uid="uid://bj3hi4dvcviuc" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildTreeButton.tscn" id="6"]
+[ext_resource type="Script" uid="uid://dkqnvnpc8gtwt" path="res://Assets/UI/TabWidgets/LumberjackTabWidget.gd" id="5"]
 [ext_resource type="PackedScene" uid="uid://clre4f1e4md30" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildTreeAreaButton.tscn" id="10"]
 
 [node name="LumberjackTabWidget" instance=ExtResource("1")]

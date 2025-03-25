@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Unknown Horizons"
 run/main_scene="res://Assets/UI/Pages/MainMenuScene.tscn"
-config/features=PackedStringArray("4.3")
+config/features=PackedStringArray("4.4")
 boot_splash/image="res://boot_splash.png"
 config/icon="res://icon.png"
 
@@ -37,7 +37,8 @@ settings/fps/force_fps=60
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
-window/stretch/mode="canvas_items"
+window/size/borderless=true
+window/stretch/mode="viewport"
 window/stretch/aspect="expand"
 
 [editor]

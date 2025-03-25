@@ -76,7 +76,7 @@ func build_road() -> void:
       if lower_tile_data != null and lower_tile_data.get_custom_data(built_tilemap.is_tree):
         built_tilemap.set_cell(lower_tile_position, -1)
 
-    %Pathfinding.carrier_pathfinding.set_points_passable(path, true)
+    %Pathfinding.road_pathfinding.set_points_passable(path, true)
     # handle notifications
     for building_node in built_tilemap.building_position_to_building.values():
       if building_node.has_method("road_built"):

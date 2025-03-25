@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://dnixn1uc3bjuc"]
 
 [ext_resource type="PackedScene" uid="uid://dcpsi3ppfn0ga" path="res://Assets/World/Units/Unit2D.tscn" id="1_87of1"]
-[ext_resource type="Script" path="res://Assets/World/Buildings/Lumberjack/Lumberjack/Lumberjack2D.gd" id="2_hh14y"]
+[ext_resource type="Script" uid="uid://d0ul152pispol" path="res://Assets/World/Buildings/Lumberjack/Lumberjack/Lumberjack2D.gd" id="2_hh14y"]
 [ext_resource type="Resource" uid="uid://wapcommxe1i6" path="res://Assets/World/Data/UnitData/LumberjackWorkerData.tres" id="3_0fs53"]
 [ext_resource type="SpriteFrames" uid="uid://b7inbywvvhts2" path="res://Assets/World/Buildings/Lumberjack/Lumberjack/LumberjackMovementFrames.tres" id="3_0mc16"]
-[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Behavior/Selectable/Selectable.tscn" id="4_urqn3"]
+[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="4_urqn3"]
 
 [node name="Lumberjack" instance=ExtResource("1_87of1")]
 z_index = 11

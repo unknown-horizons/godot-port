@@ -1,0 +1,31 @@
+[gd_scene load_steps=7 format=3 uid="uid://bdvte7s6m26nc"]
+
+[ext_resource type="Script" uid="uid://g2gvi1iudpci" path="res://Assets/World/Buildings/Bakery/Bakery2D.gd" id="1_4w467"]
+[ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="2_7v2n0"]
+[ext_resource type="SpriteFrames" uid="uid://cpt5t0hywe5qt" path="res://Assets/World/Buildings/Bakery/Sprites/BakeryFrames.tres" id="3_4qe35"]
+[ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storage/SlotStorageComponent.tscn" id="4_re5r3"]
+[ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="5_3id7a"]
+[ext_resource type="PackedScene" uid="uid://dyqwsks6v6puj" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.tscn" id="6_okw1c"]
+
+[node name="Bakery2D" type="Node2D"]
+script = ExtResource("1_4w467")
+
+[node name="BuildingActionSet" parent="." instance=ExtResource("2_7v2n0")]
+sprite_frames = ExtResource("3_4qe35")
+tier = 3
+
+[node name="SlotStorageComponent" parent="." instance=ExtResource("4_re5r3")]
+max_capacity = Dictionary[int, int]({
+0: 10,
+1: 10
+})
+
+[node name="ProductionLineComponent" parent="." instance=ExtResource("5_3id7a")]
+consumes = Dictionary[int, int]({
+0: 1
+})
+produces = Dictionary[int, int]({
+1: 1
+})
+
+[node name="BuildingCollectorComponent" parent="." instance=ExtResource("6_okw1c")]

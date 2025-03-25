@@ -1,16 +1,20 @@
 [gd_scene load_steps=10 format=3 uid="uid://b3jx1swk07856"]
 
 [ext_resource type="PackedScene" uid="uid://dis2urkbeqvnk" path="res://Assets/Player/PlayerStart.tscn" id="1"]
-[ext_resource type="Script" path="res://Assets/World/World.gd" id="1_w7xx4"]
-[ext_resource type="MeshLibrary" uid="uid://lpmno4f5y77j" path="res://Assets/World/Terrain/TerrainMeshLibrary.tres" id="2"]
-[ext_resource type="PackedScene" uid="uid://ctbaljo7ulect" path="res://Assets/Player/PlayerCamera.tscn" id="4"]
-[ext_resource type="Script" path="res://Assets/World/Terrain.gd" id="7"]
-[ext_resource type="Script" path="res://Assets/World/AStarMap.gd" id="8"]
+[ext_resource type="Script" uid="uid://b3kr1ijr51xun" path="res://Assets/World/World.gd" id="1_w7xx4"]
+[ext_resource type="Script" uid="uid://c04npxgbn33x4" path="res://Assets/World/Terrain.gd" id="7"]
+[ext_resource type="Script" uid="uid://cmacx8sf4g473" path="res://Assets/World/AStarMap.gd" id="8"]
 [ext_resource type="MeshLibrary" path="res://Assets/World/Buildings/Streets/TrailMeshLibrary.meshlib" id="9"]
-[ext_resource type="Script" path="res://Assets/World/Streets.gd" id="10"]
+[ext_resource type="Script" uid="uid://dgakmlea5dhy0" path="res://Assets/World/Streets.gd" id="10"]
+
+[sub_resource type="Resource" id="Resource_3p22m"]
+metadata/__load_path__ = "res://Assets/World/Terrain/TerrainMeshLibrary.tres"
 
 [sub_resource type="BoxShape3D" id="1"]
 size = Vector3(200, 0, 200)
+
+[sub_resource type="Resource" id="Resource_rw40b"]
+metadata/__load_path__ = "res://Assets/Player/PlayerCamera.tscn"
 
 [node name="World" type="Node3D"]
 script = ExtResource("1_w7xx4")
@@ -20,7 +24,7 @@ script = ExtResource("8")
 grid_map_path = NodePath("Terrain")
 
 [node name="Terrain" type="GridMap" parent="AStarMap"]
-mesh_library = ExtResource("2")
+mesh_library = SubResource("Resource_3p22m")
 cell_size = Vector3(1, 1, 1)
 cell_center_y = false
 data = {
@@ -44,7 +48,7 @@ shape = SubResource("1")
 [node name="PlayerStart" parent="." instance=ExtResource("1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 100, 0, 100)
 
-[node name="PlayerCamera" parent="." instance=ExtResource("4")]
+[node name="PlayerCamera" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 100, 0, 100)
 
 [node name="Traders" type="Node3D" parent="."]

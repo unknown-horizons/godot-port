@@ -1,9 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://bn83cm4ugjyay"]
+[gd_scene load_steps=18 format=3 uid="uid://bn83cm4ugjyay"]
 
 [ext_resource type="PackedScene" uid="uid://bwtxisllq0ply" path="res://Assets/UI/TabWidgets/ProductionWithRelatedBuildingsMenuTabWidget.tscn" id="1"]
-[ext_resource type="Script" path="res://Assets/UI/TabWidgets/FarmTabWidget.gd" id="2"]
-[ext_resource type="Resource" uid="uid://cadptbki7hpwf" path="res://Assets/World/Data/ItemData/Food.tres" id="4_sncyd"]
+[ext_resource type="Script" uid="uid://cchlqii0xool" path="res://Assets/UI/TabWidgets/FarmTabWidget.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://c15lq7bmo8wwg" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildPigstyButton.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://cadptbki7hpwf" path="res://Assets/World/Data/ItemData/Food.tres" id="4_sncyd"]
 [ext_resource type="PackedScene" uid="uid://dg6whk6ygbtpi" path="res://Assets/UI/TabWidgets/ViewComponents/ProductionChain.tscn" id="5"]
 [ext_resource type="PackedScene" uid="uid://sc4so552e1e" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildAlveariesButton.tscn" id="6"]
 [ext_resource type="PackedScene" uid="uid://c2tomcsognqxm" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildSpiceFieldButton.tscn" id="7"]

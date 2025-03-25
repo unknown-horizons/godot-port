@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b80iac7a57ox3"]
 
 [ext_resource type="PackedScene" uid="uid://fsa8lbk4l5p2" path="res://Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn" id="1"]
-[ext_resource type="Script" path="res://Assets/UI/Pages/NewGameUI/NewGameUI.gd" id="2"]
+[ext_resource type="Script" uid="uid://b4xmb5maoafw" path="res://Assets/UI/Pages/NewGameUI/NewGameUI.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bpimcst1geibt" path="res://Assets/UI/BookMenu/BookMenu.tscn" id="3"]
 
 [node name="NewGameUI" instance=ExtResource("3")]

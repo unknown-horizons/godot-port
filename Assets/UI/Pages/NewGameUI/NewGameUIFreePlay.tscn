@@ -1,7 +1,7 @@
 [gd_scene load_steps=22 format=3 uid="uid://fsa8lbk4l5p2"]
 
 [ext_resource type="PackedScene" uid="uid://c7vej07bi5fee" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="1"]
-[ext_resource type="Script" path="res://Assets/UI/Pages/NewGameUI/GameTypeRadioButton.gd" id="3_8y2qy"]
+[ext_resource type="Script" uid="uid://topslws0d54m" path="res://Assets/UI/Pages/NewGameUI/GameTypeRadioButton.gd" id="3_8y2qy"]
 [ext_resource type="PackedScene" uid="uid://batg8pwfpasdc" path="res://Assets/UI/BasicControls/LineEditEx.tscn" id="6"]
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="7"]
 [ext_resource type="PackedScene" uid="uid://den73347r5don" path="res://Assets/UI/BasicControls/HSliderEx.tscn" id="8"]
@@ -10,9 +10,9 @@
 [ext_resource type="FontFile" uid="uid://b132ikq6ayfyj" path="res://External/Fonts/LinLibertineC.ttf" id="10_ykia5"]
 [ext_resource type="Texture2D" uid="uid://cmaobd6boqksw" path="res://Assets/UI/Images/Background/MainMenu/selected_color_border.png" id="11"]
 [ext_resource type="Theme" uid="uid://bhvo10f8w6d64" path="res://Assets/UI/Theme/Theme.tres" id="11_wtm0q"]
-[ext_resource type="Script" path="res://Assets/UI/Pages/NewGameUI/ColorSelection.gd" id="12"]
+[ext_resource type="Script" uid="uid://chhfn82cq1gxp" path="res://Assets/UI/Pages/NewGameUI/ColorSelection.gd" id="12"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="12_ttlle"]
-[ext_resource type="Script" path="res://Assets/UI/Pages/NewGameUI/MapList.gd" id="12_ujho3"]
+[ext_resource type="Script" uid="uid://dyk7onvf4e7id" path="res://Assets/UI/Pages/NewGameUI/MapList.gd" id="12_ujho3"]
 [ext_resource type="Texture2D" uid="uid://dx3wfk7nhepo7" path="res://Assets/UI/Images/Logos/uh_no_text.svg" id="14"]
 
 [sub_resource type="ButtonGroup" id="ButtonGroup_jwci2"]
