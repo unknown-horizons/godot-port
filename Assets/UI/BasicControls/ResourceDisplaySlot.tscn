@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dlhf2ogaavw55"]
 
 [ext_resource type="Texture2D" uid="uid://c5xglx6q3b4fa" path="res://Assets/UI/Images/Background/Widgets/res_bg.png" id="1_50ilf"]
-[ext_resource type="Script" path="res://Assets/UI/BasicControls/ResourceDisplaySlot.gd" id="2_3r6aa"]
+[ext_resource type="Script" uid="uid://b180tavmym8w0" path="res://Assets/UI/BasicControls/ResourceDisplaySlot.gd" id="2_3r6aa"]
 
 [node name="ResourceDisplay" type="TextureButton"]
 custom_minimum_size = Vector2(64, 96)

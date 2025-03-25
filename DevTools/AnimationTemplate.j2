@@ -1,0 +1,37 @@
+[gd_resource type="SpriteFrames" load_steps=1{#let the godot engine correct it#} format=3 uid = "uid://{{images_folder[0][0][0].parent.parent.parent.parent.stem}}"]
+{% for state in images_folder -%}
+  {%- for rotation in state%}
+    {%- for image in rotation%}
+[ext_resource type="Texture2D" uid="" path="res://{{image.relative_to("S:/src/Richard/Godot/unknown-horizon-godot").as_posix() }}" id="{{tier + "_" + image.parent.parent.stem + "_" + image.parent.stem + "_" + image.stem}}"]
+    {%- endfor %}
+  {%- endfor %}
+{%- endfor %}
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 0.01,
+"texture": null
+}],
+"loop": false,
+"name": &"Empty",
+"speed": 5.0
+},
+{%- for state in images_folder %}
+  {%- for rotation in state%}
+{
+"frames": [
+    {%- for image in rotation%}
+{
+"duration": 1.0,
+"texture": ExtResource("{{tier + "_" + image.parent.parent.stem + "_" + image.parent.stem + "_" + image.stem}}")
+},
+    {%- endfor %}
+],
+"loop": true,
+"name": "{{tier + "_" + rotation[0].parent.parent.stem + "_" + rotation[0].parent.stem}}",
+"speed": 5.0
+},
+  {%- endfor %}
+{%- endfor %}
+]

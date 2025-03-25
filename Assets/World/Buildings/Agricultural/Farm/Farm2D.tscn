@@ -1,11 +1,11 @@
 [gd_scene load_steps=12 format=3 uid="uid://21pewmmm5ykv"]
 
 [ext_resource type="PackedScene" uid="uid://c14jc7hm1oowb" path="res://Assets/World/Buildings/ProductionBuilding2D.tscn" id="1_ProductionBuilding2D"]
-[ext_resource type="Script" path="res://Assets/World/Buildings/Agricultural/Farm/Farm2D.gd" id="2_script"]
+[ext_resource type="Script" uid="uid://c5wt2nri2k2a3" path="res://Assets/World/Buildings/Agricultural/Farm/Farm2D.gd" id="2_script"]
 [ext_resource type="Resource" uid="uid://bhhs6phyo6c2c" path="res://Assets/World/Data/BuildingData/FarmData.tres" id="3_building_data"]
 [ext_resource type="Texture2D" uid="uid://bc1h28yno0bjo" path="res://Assets/World/Buildings/Agricultural/Farm/Sprites/Farm_idle.png" id="4_x6nrs"]
 [ext_resource type="Texture2D" uid="uid://brmfkn8sfum3n" path="res://Assets/UI/Icons/Resources/32/005.png" id="5_tooltip_image"]
-[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Behavior/Selectable/Selectable.tscn" id="6_selectable"]
+[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="6_selectable"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4gy2q"]
 atlas = ExtResource("4_x6nrs")

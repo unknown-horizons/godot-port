@@ -5,8 +5,8 @@ class_name BuiltTileMap
 const is_tree: String = "is_tree"
 const is_road: String = "is_road"
 
-var building_name_to_building_poses: Dictionary = {}
-var building_position_to_building: Dictionary = {}
+var building_name_to_building_poses: Dictionary[String, Array] = {}
+var building_position_to_building: Dictionary[Vector2, WorldThing2D] = {}
 var trees_getting_choped: Dictionary = {}
 
 func is_movable_on(cell: Vector2i) -> bool:
@@ -38,7 +38,7 @@ func register_building(building) -> void:
   else:
     building_name_to_building_poses[building.building_data.game_name] = [building.position]
   # set points for pathfinding
-  %Pathfinding.carrier_pathfinding.set_point_solid(self.local_to_map(building.position), false)
+  %Pathfinding.road_pathfinding.set_point_solid(self.local_to_map(building.position), false)
   var road_building_context = %GameContextManager.get_node("BuildingRoadContext")
   road_building_context.road_building_pathfindng.set_point_solid(self.local_to_map(building.position), true)
   # handle notifications

@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://gfjfmihmduqa"]
 
 [ext_resource type="PackedScene" uid="uid://cahtqi0mpd1bh" path="res://Assets/World/Buildings/Building.tscn" id="1"]
-[ext_resource type="Script" uid="uid://d3gw0rflumkw6" path="res://Assets/World/Buildings/Agricultural/Agricultural.gd" id="2"]
+[ext_resource type="Script" uid="uid://bfam3osooxcnk" path="res://Assets/World/Buildings/Agricultural/Agricultural.gd" id="2"]
 [ext_resource type="Shape3D" uid="uid://2aqcc85m04t1" path="res://Assets/World/Shapes/BoxShape3x3Flat.tres" id="3"]
 
 [node name="Agricultural" instance=ExtResource("1")]

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cahtqi0mpd1bh"]
 
 [ext_resource type="PackedScene" uid="uid://bnhisojcm3gpm" path="res://Assets/World/WorldThing.tscn" id="1"]
-[ext_resource type="Script" uid="uid://chdbl6f15m02q" path="res://Assets/World/Buildings/Building.gd" id="2"]
+[ext_resource type="Script" uid="uid://dbaviumboom85" path="res://Assets/World/Buildings/Building.gd" id="2"]
 
 [node name="Building" groups=["buildings"] instance=ExtResource("1")]
 script = ExtResource("2")

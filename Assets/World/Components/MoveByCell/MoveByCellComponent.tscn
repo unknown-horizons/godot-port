@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://unr7kegy5cn4"]
+
+[ext_resource type="Script" uid="uid://qy1mjv44uqmk" path="res://Assets/World/Components/MoveByCell/MoveByCellComponent.gd" id="1_f1d7c"]
+
+[node name="MoveByCellComponent" type="Node2D"]
+script = ExtResource("1_f1d7c")

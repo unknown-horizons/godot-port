@@ -1,0 +1,66 @@
+[gd_scene load_steps=5 format=3 uid="uid://bo27kwd5m1jmc"]
+
+[ext_resource type="Script" uid="uid://cpdls1hcfybhm" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.gd" id="1_h1x8g"]
+[ext_resource type="Texture2D" uid="uid://dsgbcjg1tplnf" path="res://Assets/UI/Images/Background/produced_notification.png" id="2_16oi7"]
+[ext_resource type="Texture2D" uid="uid://dt1ef2m6h6d7x" path="res://Assets/UI/Icons/Resources/32/placeholder.png" id="3_kr37i"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6qvbg"]
+texture = ExtResource("2_16oi7")
+expand_margin_left = 4.0
+expand_margin_top = 4.0
+expand_margin_right = 4.0
+expand_margin_bottom = 4.0
+
+[node name="ProductionLineComponent" type="Node2D"]
+script = ExtResource("1_h1x8g")
+
+[node name="ItemProducedTooltip" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_top = -32.0
+offset_bottom = -32.0
+
+[node name="Background" type="PanelContainer" parent="ItemProducedTooltip"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -48.0
+offset_top = -32.0
+offset_right = 48.0
+offset_bottom = 16.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_6qvbg")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ItemProducedTooltip/Background"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="ItemImagePlaceholder" type="MarginContainer" parent="ItemProducedTooltip/Background/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="ItemImage" type="TextureRect" parent="ItemProducedTooltip/Background/HBoxContainer/ItemImagePlaceholder"]
+layout_mode = 2
+texture = ExtResource("3_kr37i")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ItemAmountPlaceholder" type="MarginContainer" parent="ItemProducedTooltip/Background/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="ItemAmount" type="Label" parent="ItemProducedTooltip/Background/HBoxContainer/ItemAmountPlaceholder"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 25
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
