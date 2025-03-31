@@ -1,12 +1,18 @@
-[gd_resource type="SpriteFrames" load_steps=1{#let the godot engine correct it#} format=3 uid = "uid://{{images_folder[0][0][0].parent.parent.parent.parent.stem}}"]
-{% for state in images_folder -%}
-  {%- for rotation in state%}
-    {%- for image in rotation%}
-[ext_resource type="Texture2D" uid="" path="res://{{image.relative_to("S:/src/Richard/Godot/unknown-horizon-godot").as_posix() }}" id="{{tier + "_" + image.parent.parent.stem + "_" + image.parent.stem + "_" + image.stem}}"]
+[gd_resource type="SpriteFrames" load_steps=1{#let the godot engine correct it#} format=3 uid="uid://{{images[0].atlas_path.parent.parent.stem + "Frames"}}"]
+
+{% for atlas in images -%}
+[ext_resource type="Texture2D" uid="uid://{{atlas.animation_name}}_atlas" path="res://{{atlas.atlas_path.relative_to("S:/src/Richard/Godot/unknown-horizon-godot").as_posix()}}" id="{{atlas.animation_name}}_atlas"]
+{% endfor %}
+{% for atlas in images %}
+  {%- for row in range(atlas.rows|int)%}
+    {%- for col in range(atlas.cols|int)%}
+
+[sub_resource type="AtlasTexture" id="{{atlas.animation_name}}_{{row}}_{{col}}"]
+atlas = ExtResource("{{atlas.animation_name}}_atlas")
+region = Rect2({{col * atlas.frame_width}}, {{row * atlas.frame_height}}, {{atlas.frame_width}}, {{atlas.frame_height}})
     {%- endfor %}
   {%- endfor %}
-{%- endfor %}
-
+{% endfor %}
 [resource]
 animations = [{
 "frames": [{
@@ -17,21 +23,21 @@ animations = [{
 "name": &"Empty",
 "speed": 5.0
 },
-{%- for state in images_folder %}
-  {%- for rotation in state%}
+{%- for atlas in images %}
+  {%- for row in range(0, atlas.rows | int)%}
 {
 "frames": [
-    {%- for image in rotation%}
+    {%- for col in range(0, atlas.cols | int)%}
 {
 "duration": 1.0,
-"texture": ExtResource("{{tier + "_" + image.parent.parent.stem + "_" + image.parent.stem + "_" + image.stem}}")
+"texture": SubResource("{{atlas.animation_name}}_{{row}}_{{col}}")
 },
     {%- endfor %}
 ],
 "loop": true,
-"name": "{{tier + "_" + rotation[0].parent.parent.stem + "_" + rotation[0].parent.stem}}",
+"name": &"{{atlas.animation_name}}_{{atlas.rotations[row%(atlas.rotations|length)]}}",{#remember that the first charecters of the atlas name are the name of bulding which can be determined from the path#}
 "speed": 5.0
 },
   {%- endfor %}
-{%- endfor %}
+{% endfor %}
 ]

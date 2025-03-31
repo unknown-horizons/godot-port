@@ -1,85 +1,334 @@
-[gd_resource type="SpriteFrames" load_steps=81 format=3 uid="uid://decvs8sc5y4lf"]
+[gd_resource type="SpriteFrames" load_steps=1 format=3 uid="uid://BuildingCollectorFrames"]
 
-[ext_resource type="Texture2D" uid="uid://cw6g2x5ulb7hv" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle/0/0000.png" id="sailors_idle_0_0000"]
-[ext_resource type="Texture2D" uid="uid://dbqly6yq4nosy" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle/45/0000.png" id="sailors_idle_45_0000"]
-[ext_resource type="Texture2D" uid="uid://bj23lwuekvpib" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle/90/0000.png" id="sailors_idle_90_0000"]
-[ext_resource type="Texture2D" uid="uid://bx44om5w0ilg2" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle/135/0000.png" id="sailors_idle_135_0000"]
-[ext_resource type="Texture2D" uid="uid://wdlm74osybo6" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle/180/0000.png" id="sailors_idle_180_0000"]
-[ext_resource type="Texture2D" uid="uid://qcurc40x1nfx" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle/225/0000.png" id="sailors_idle_225_0000"]
-[ext_resource type="Texture2D" uid="uid://kmrxxi7ot7h6" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle/270/0000.png" id="sailors_idle_270_0000"]
-[ext_resource type="Texture2D" uid="uid://cmm1nexpmp4jc" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle/315/0000.png" id="sailors_idle_315_0000"]
-[ext_resource type="Texture2D" uid="uid://dj8g2vfqiiv8p" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle_full/0/0000.png" id="sailors_idle_full_0_0000"]
-[ext_resource type="Texture2D" uid="uid://e4j0vywnrvmo" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle_full/45/0000.png" id="sailors_idle_full_45_0000"]
-[ext_resource type="Texture2D" uid="uid://3eh1egyk0vl2" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle_full/90/0000.png" id="sailors_idle_full_90_0000"]
-[ext_resource type="Texture2D" uid="uid://bdksf5saxki44" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle_full/135/0000.png" id="sailors_idle_full_135_0000"]
-[ext_resource type="Texture2D" uid="uid://cyrdjt0tylr2c" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle_full/180/0000.png" id="sailors_idle_full_180_0000"]
-[ext_resource type="Texture2D" uid="uid://br171ijckk20" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle_full/225/0000.png" id="sailors_idle_full_225_0000"]
-[ext_resource type="Texture2D" uid="uid://ddu7vy5wfca4a" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle_full/270/0000.png" id="sailors_idle_full_270_0000"]
-[ext_resource type="Texture2D" uid="uid://ly5op7xb7kt5" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/idle_full/315/0000.png" id="sailors_idle_full_315_0000"]
-[ext_resource type="Texture2D" uid="uid://w06v8qbyikwp" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/0/0001.png" id="sailors_move_0_0001"]
-[ext_resource type="Texture2D" uid="uid://dmoi837k778me" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/0/0002.png" id="sailors_move_0_0002"]
-[ext_resource type="Texture2D" uid="uid://c3iergflmnbv5" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/0/0003.png" id="sailors_move_0_0003"]
-[ext_resource type="Texture2D" uid="uid://dktvtrta8ilv5" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/0/0004.png" id="sailors_move_0_0004"]
-[ext_resource type="Texture2D" uid="uid://dywi8f1wqur6n" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/45/0001.png" id="sailors_move_45_0001"]
-[ext_resource type="Texture2D" uid="uid://3k2ghtfitljj" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/45/0002.png" id="sailors_move_45_0002"]
-[ext_resource type="Texture2D" uid="uid://bu1oa0nmcb4m1" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/45/0003.png" id="sailors_move_45_0003"]
-[ext_resource type="Texture2D" uid="uid://eysopyn8unvt" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/45/0004.png" id="sailors_move_45_0004"]
-[ext_resource type="Texture2D" uid="uid://drukra5mthdnk" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/90/0001.png" id="sailors_move_90_0001"]
-[ext_resource type="Texture2D" uid="uid://ct23kyygsht61" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/90/0002.png" id="sailors_move_90_0002"]
-[ext_resource type="Texture2D" uid="uid://bl6tgwq25vu8f" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/90/0003.png" id="sailors_move_90_0003"]
-[ext_resource type="Texture2D" uid="uid://c1p2ougmnalqw" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/90/0004.png" id="sailors_move_90_0004"]
-[ext_resource type="Texture2D" uid="uid://celqruao1yu0x" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/135/0001.png" id="sailors_move_135_0001"]
-[ext_resource type="Texture2D" uid="uid://dkx4quklyjt1w" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/135/0002.png" id="sailors_move_135_0002"]
-[ext_resource type="Texture2D" uid="uid://cqhnkhpw285ec" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/135/0003.png" id="sailors_move_135_0003"]
-[ext_resource type="Texture2D" uid="uid://5ny6ugxn8gmq" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/135/0004.png" id="sailors_move_135_0004"]
-[ext_resource type="Texture2D" uid="uid://dlwgx5ycfvfsq" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/180/0001.png" id="sailors_move_180_0001"]
-[ext_resource type="Texture2D" uid="uid://ts3tljdpwc3p" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/180/0002.png" id="sailors_move_180_0002"]
-[ext_resource type="Texture2D" uid="uid://dfvf6e6nh8df8" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/180/0003.png" id="sailors_move_180_0003"]
-[ext_resource type="Texture2D" uid="uid://c0vf4dkoyp54c" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/180/0004.png" id="sailors_move_180_0004"]
-[ext_resource type="Texture2D" uid="uid://cnfliu6w5do4v" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/225/0001.png" id="sailors_move_225_0001"]
-[ext_resource type="Texture2D" uid="uid://q3mfh8r826ll" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/225/0002.png" id="sailors_move_225_0002"]
-[ext_resource type="Texture2D" uid="uid://ckjg8retv0ip1" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/225/0003.png" id="sailors_move_225_0003"]
-[ext_resource type="Texture2D" uid="uid://bk8ppje4u86my" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/225/0004.png" id="sailors_move_225_0004"]
-[ext_resource type="Texture2D" uid="uid://d1regw6ldfh1c" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/270/0001.png" id="sailors_move_270_0001"]
-[ext_resource type="Texture2D" uid="uid://ds7igxsa38ngn" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/270/0002.png" id="sailors_move_270_0002"]
-[ext_resource type="Texture2D" uid="uid://dk72dhhqwvtki" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/270/0003.png" id="sailors_move_270_0003"]
-[ext_resource type="Texture2D" uid="uid://dg8v8hud3lc2" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/270/0004.png" id="sailors_move_270_0004"]
-[ext_resource type="Texture2D" uid="uid://bemvsc7a2duh0" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/315/0001.png" id="sailors_move_315_0001"]
-[ext_resource type="Texture2D" uid="uid://n14kpfjn1qk7" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/315/0002.png" id="sailors_move_315_0002"]
-[ext_resource type="Texture2D" uid="uid://j7k3oj8805da" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/315/0003.png" id="sailors_move_315_0003"]
-[ext_resource type="Texture2D" uid="uid://d2di2bd2oct1u" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move/315/0004.png" id="sailors_move_315_0004"]
-[ext_resource type="Texture2D" uid="uid://cx6smdd1rtk5d" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/0/0001.png" id="sailors_move_full_0_0001"]
-[ext_resource type="Texture2D" uid="uid://bww51gu6fl134" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/0/0002.png" id="sailors_move_full_0_0002"]
-[ext_resource type="Texture2D" uid="uid://c7xuha3db6awl" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/0/0003.png" id="sailors_move_full_0_0003"]
-[ext_resource type="Texture2D" uid="uid://dnjkdypccrayq" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/0/0004.png" id="sailors_move_full_0_0004"]
-[ext_resource type="Texture2D" uid="uid://vwjm2x6lhbd" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/45/0001.png" id="sailors_move_full_45_0001"]
-[ext_resource type="Texture2D" uid="uid://dk1lxry0vbsna" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/45/0002.png" id="sailors_move_full_45_0002"]
-[ext_resource type="Texture2D" uid="uid://cvpkpp7g6ca4n" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/45/0003.png" id="sailors_move_full_45_0003"]
-[ext_resource type="Texture2D" uid="uid://4i4amx8enmmx" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/45/0004.png" id="sailors_move_full_45_0004"]
-[ext_resource type="Texture2D" uid="uid://bbpgkylf8uwyk" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/90/0001.png" id="sailors_move_full_90_0001"]
-[ext_resource type="Texture2D" uid="uid://cxyicluyrgum3" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/90/0002.png" id="sailors_move_full_90_0002"]
-[ext_resource type="Texture2D" uid="uid://diftmhp43nbue" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/90/0003.png" id="sailors_move_full_90_0003"]
-[ext_resource type="Texture2D" uid="uid://4gu20m36r0id" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/90/0004.png" id="sailors_move_full_90_0004"]
-[ext_resource type="Texture2D" uid="uid://cpeotwwwt8ljv" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/135/0001.png" id="sailors_move_full_135_0001"]
-[ext_resource type="Texture2D" uid="uid://c62qrdytv3lt3" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/135/0002.png" id="sailors_move_full_135_0002"]
-[ext_resource type="Texture2D" uid="uid://bbsecsihpipio" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/135/0003.png" id="sailors_move_full_135_0003"]
-[ext_resource type="Texture2D" uid="uid://c00370uvelmtk" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/135/0004.png" id="sailors_move_full_135_0004"]
-[ext_resource type="Texture2D" uid="uid://dep8q4i8clabi" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/180/0001.png" id="sailors_move_full_180_0001"]
-[ext_resource type="Texture2D" uid="uid://dn4fc4wohy25w" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/180/0002.png" id="sailors_move_full_180_0002"]
-[ext_resource type="Texture2D" uid="uid://bx2tx8hljfv1k" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/180/0003.png" id="sailors_move_full_180_0003"]
-[ext_resource type="Texture2D" uid="uid://hm3x7kopu4rn" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/180/0004.png" id="sailors_move_full_180_0004"]
-[ext_resource type="Texture2D" uid="uid://cggoxajl8ts0q" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/225/0001.png" id="sailors_move_full_225_0001"]
-[ext_resource type="Texture2D" uid="uid://c77onsliprxn5" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/225/0002.png" id="sailors_move_full_225_0002"]
-[ext_resource type="Texture2D" uid="uid://dolsek0xqctbj" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/225/0003.png" id="sailors_move_full_225_0003"]
-[ext_resource type="Texture2D" uid="uid://cixeo36utn6ln" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/225/0004.png" id="sailors_move_full_225_0004"]
-[ext_resource type="Texture2D" uid="uid://cjd6a1hi61yh" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/270/0001.png" id="sailors_move_full_270_0001"]
-[ext_resource type="Texture2D" uid="uid://buy15vcerm7js" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/270/0002.png" id="sailors_move_full_270_0002"]
-[ext_resource type="Texture2D" uid="uid://d0q0nyxwm8lf0" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/270/0003.png" id="sailors_move_full_270_0003"]
-[ext_resource type="Texture2D" uid="uid://yt3si534cp8i" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/270/0004.png" id="sailors_move_full_270_0004"]
-[ext_resource type="Texture2D" uid="uid://bmm6y28uapywt" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/315/0001.png" id="sailors_move_full_315_0001"]
-[ext_resource type="Texture2D" uid="uid://cy5jp8ibcnyik" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/315/0002.png" id="sailors_move_full_315_0002"]
-[ext_resource type="Texture2D" uid="uid://m2eor7uqgh2l" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/315/0003.png" id="sailors_move_full_315_0003"]
-[ext_resource type="Texture2D" uid="uid://cr5n470f7dqsh" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/move_full/315/0004.png" id="sailors_move_full_315_0004"]
+[ext_resource type="Texture2D" uid="uid://sailors_idle_atlas" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/building_collector_sailors_idle_atlas.png" id="sailors_idle_atlas"]
+[ext_resource type="Texture2D" uid="uid://sailors_idle_full_atlas" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/building_collector_sailors_idle_full_atlas.png" id="sailors_idle_full_atlas"]
+[ext_resource type="Texture2D" uid="uid://sailors_move_atlas" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/building_collector_sailors_move_atlas.png" id="sailors_move_atlas"]
+[ext_resource type="Texture2D" uid="uid://sailors_move_full_atlas" path="res://Assets/World/Components/Collectors/BuildingCollector/Sprites/building_collector_sailors_move_full_atlas.png" id="sailors_move_full_atlas"]
+
+
+
+[sub_resource type="AtlasTexture" id="sailors_idle_0_0"]
+atlas = ExtResource("sailors_idle_atlas")
+region = Rect2(0, 0, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_1_0"]
+atlas = ExtResource("sailors_idle_atlas")
+region = Rect2(0, 42, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_2_0"]
+atlas = ExtResource("sailors_idle_atlas")
+region = Rect2(0, 84, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_3_0"]
+atlas = ExtResource("sailors_idle_atlas")
+region = Rect2(0, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_4_0"]
+atlas = ExtResource("sailors_idle_atlas")
+region = Rect2(0, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_5_0"]
+atlas = ExtResource("sailors_idle_atlas")
+region = Rect2(0, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_6_0"]
+atlas = ExtResource("sailors_idle_atlas")
+region = Rect2(0, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_7_0"]
+atlas = ExtResource("sailors_idle_atlas")
+region = Rect2(0, 294, 32, 42)
+
+
+[sub_resource type="AtlasTexture" id="sailors_idle_full_0_0"]
+atlas = ExtResource("sailors_idle_full_atlas")
+region = Rect2(0, 0, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_full_1_0"]
+atlas = ExtResource("sailors_idle_full_atlas")
+region = Rect2(0, 42, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_full_2_0"]
+atlas = ExtResource("sailors_idle_full_atlas")
+region = Rect2(0, 84, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_full_3_0"]
+atlas = ExtResource("sailors_idle_full_atlas")
+region = Rect2(0, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_full_4_0"]
+atlas = ExtResource("sailors_idle_full_atlas")
+region = Rect2(0, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_full_5_0"]
+atlas = ExtResource("sailors_idle_full_atlas")
+region = Rect2(0, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_full_6_0"]
+atlas = ExtResource("sailors_idle_full_atlas")
+region = Rect2(0, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_full_7_0"]
+atlas = ExtResource("sailors_idle_full_atlas")
+region = Rect2(0, 294, 32, 42)
+
+
+[sub_resource type="AtlasTexture" id="sailors_move_0_0"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(0, 0, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_0_1"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(32, 0, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_0_2"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(64, 0, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_0_3"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(96, 0, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_1_0"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(0, 42, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_1_1"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(32, 42, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_1_2"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(64, 42, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_1_3"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(96, 42, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_2_0"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(0, 84, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_2_1"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(32, 84, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_2_2"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(64, 84, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_2_3"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(96, 84, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_3_0"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(0, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_3_1"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(32, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_3_2"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(64, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_3_3"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(96, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_4_0"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(0, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_4_1"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(32, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_4_2"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(64, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_4_3"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(96, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_5_0"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(0, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_5_1"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(32, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_5_2"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(64, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_5_3"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(96, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_6_0"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(0, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_6_1"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(32, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_6_2"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(64, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_6_3"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(96, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_7_0"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(0, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_7_1"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(32, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_7_2"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(64, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_7_3"]
+atlas = ExtResource("sailors_move_atlas")
+region = Rect2(96, 294, 32, 42)
+
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_0_0"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(0, 0, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_0_1"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(32, 0, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_0_2"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(64, 0, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_0_3"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(96, 0, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_1_0"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(0, 42, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_1_1"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(32, 42, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_1_2"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(64, 42, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_1_3"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(96, 42, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_2_0"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(0, 84, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_2_1"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(32, 84, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_2_2"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(64, 84, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_2_3"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(96, 84, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_3_0"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(0, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_3_1"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(32, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_3_2"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(64, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_3_3"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(96, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_4_0"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(0, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_4_1"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(32, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_4_2"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(64, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_4_3"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(96, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_5_0"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(0, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_5_1"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(32, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_5_2"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(64, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_5_3"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(96, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_6_0"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(0, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_6_1"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(32, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_6_2"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(64, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_6_3"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(96, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_7_0"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(0, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_7_1"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(32, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_7_2"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(64, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="sailors_move_full_7_3"]
+atlas = ExtResource("sailors_move_full_atlas")
+region = Rect2(96, 294, 32, 42)
 
 [resource]
 animations = [{
@@ -90,404 +339,553 @@ animations = [{
 "loop": false,
 "name": &"Empty",
 "speed": 5.0
-}, {
-"frames": [{
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_idle_0_0000")
-}],
+"texture": SubResource("sailors_idle_0_0")
+},
+],
 "loop": true,
 "name": &"sailors_idle_0",
 "speed": 5.0
-}, {
-"frames": [{
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_idle_135_0000")
-}],
-"loop": true,
-"name": &"sailors_idle_135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_idle_180_0000")
-}],
-"loop": true,
-"name": &"sailors_idle_180",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_idle_225_0000")
-}],
-"loop": true,
-"name": &"sailors_idle_225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_idle_270_0000")
-}],
-"loop": true,
-"name": &"sailors_idle_270",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_idle_315_0000")
-}],
-"loop": true,
-"name": &"sailors_idle_315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_idle_45_0000")
-}],
+"texture": SubResource("sailors_idle_1_0")
+},
+],
 "loop": true,
 "name": &"sailors_idle_45",
 "speed": 5.0
-}, {
-"frames": [{
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_idle_90_0000")
-}],
+"texture": SubResource("sailors_idle_2_0")
+},
+],
 "loop": true,
 "name": &"sailors_idle_90",
 "speed": 5.0
-}, {
-"frames": [{
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_idle_full_0_0000")
-}],
+"texture": SubResource("sailors_idle_3_0")
+},
+],
+"loop": true,
+"name": &"sailors_idle_135",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_idle_4_0")
+},
+],
+"loop": true,
+"name": &"sailors_idle_180",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_idle_5_0")
+},
+],
+"loop": true,
+"name": &"sailors_idle_225",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_idle_6_0")
+},
+],
+"loop": true,
+"name": &"sailors_idle_270",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_idle_7_0")
+},
+],
+"loop": true,
+"name": &"sailors_idle_315",
+"speed": 5.0
+},
+
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_idle_full_0_0")
+},
+],
 "loop": true,
 "name": &"sailors_idle_full_0",
 "speed": 5.0
-}, {
-"frames": [{
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_idle_full_135_0000")
-}],
-"loop": true,
-"name": &"sailors_idle_full_135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_idle_full_180_0000")
-}],
-"loop": true,
-"name": &"sailors_idle_full_180",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_idle_full_225_0000")
-}],
-"loop": true,
-"name": &"sailors_idle_full_225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_idle_full_270_0000")
-}],
-"loop": true,
-"name": &"sailors_idle_full_270",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_idle_full_315_0000")
-}],
-"loop": true,
-"name": &"sailors_idle_full_315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_idle_full_45_0000")
-}],
+"texture": SubResource("sailors_idle_full_1_0")
+},
+],
 "loop": true,
 "name": &"sailors_idle_full_45",
 "speed": 5.0
-}, {
-"frames": [{
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_idle_full_90_0000")
-}],
+"texture": SubResource("sailors_idle_full_2_0")
+},
+],
 "loop": true,
 "name": &"sailors_idle_full_90",
 "speed": 5.0
-}, {
-"frames": [{
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_0_0001")
-}, {
+"texture": SubResource("sailors_idle_full_3_0")
+},
+],
+"loop": true,
+"name": &"sailors_idle_full_135",
+"speed": 5.0
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_0_0002")
-}, {
+"texture": SubResource("sailors_idle_full_4_0")
+},
+],
+"loop": true,
+"name": &"sailors_idle_full_180",
+"speed": 5.0
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_0_0003")
-}, {
+"texture": SubResource("sailors_idle_full_5_0")
+},
+],
+"loop": true,
+"name": &"sailors_idle_full_225",
+"speed": 5.0
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_0_0004")
-}],
+"texture": SubResource("sailors_idle_full_6_0")
+},
+],
+"loop": true,
+"name": &"sailors_idle_full_270",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_idle_full_7_0")
+},
+],
+"loop": true,
+"name": &"sailors_idle_full_315",
+"speed": 5.0
+},
+
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_0_0")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_0_1")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_0_2")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_0_3")
+},
+],
 "loop": true,
 "name": &"sailors_move_0",
 "speed": 5.0
-}, {
-"frames": [{
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_135_0001")
-}, {
+"texture": SubResource("sailors_move_1_0")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_135_0002")
-}, {
+"texture": SubResource("sailors_move_1_1")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_135_0003")
-}, {
+"texture": SubResource("sailors_move_1_2")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_135_0004")
-}],
-"loop": true,
-"name": &"sailors_move_135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_move_180_0001")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_180_0002")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_180_0003")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_180_0004")
-}],
-"loop": true,
-"name": &"sailors_move_180",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_move_225_0001")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_225_0002")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_225_0003")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_225_0004")
-}],
-"loop": true,
-"name": &"sailors_move_225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_move_270_0001")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_270_0002")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_270_0003")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_270_0004")
-}],
-"loop": true,
-"name": &"sailors_move_270",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_move_315_0001")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_315_0002")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_315_0003")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_315_0004")
-}],
-"loop": true,
-"name": &"sailors_move_315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_move_45_0001")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_45_0002")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_45_0003")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_45_0004")
-}],
+"texture": SubResource("sailors_move_1_3")
+},
+],
 "loop": true,
 "name": &"sailors_move_45",
 "speed": 5.0
-}, {
-"frames": [{
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_90_0001")
-}, {
+"texture": SubResource("sailors_move_2_0")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_90_0002")
-}, {
+"texture": SubResource("sailors_move_2_1")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_90_0003")
-}, {
+"texture": SubResource("sailors_move_2_2")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_90_0004")
-}],
+"texture": SubResource("sailors_move_2_3")
+},
+],
 "loop": true,
 "name": &"sailors_move_90",
 "speed": 5.0
-}, {
-"frames": [{
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_full_0_0001")
-}, {
+"texture": SubResource("sailors_move_3_0")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_full_0_0002")
-}, {
+"texture": SubResource("sailors_move_3_1")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_full_0_0003")
-}, {
+"texture": SubResource("sailors_move_3_2")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_full_0_0004")
-}],
+"texture": SubResource("sailors_move_3_3")
+},
+],
+"loop": true,
+"name": &"sailors_move_135",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_4_0")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_4_1")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_4_2")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_4_3")
+},
+],
+"loop": true,
+"name": &"sailors_move_180",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_5_0")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_5_1")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_5_2")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_5_3")
+},
+],
+"loop": true,
+"name": &"sailors_move_225",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_6_0")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_6_1")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_6_2")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_6_3")
+},
+],
+"loop": true,
+"name": &"sailors_move_270",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_7_0")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_7_1")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_7_2")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_7_3")
+},
+],
+"loop": true,
+"name": &"sailors_move_315",
+"speed": 5.0
+},
+
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_0_0")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_0_1")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_0_2")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_0_3")
+},
+],
 "loop": true,
 "name": &"sailors_move_full_0",
 "speed": 5.0
-}, {
-"frames": [{
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_full_135_0001")
-}, {
+"texture": SubResource("sailors_move_full_1_0")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_full_135_0002")
-}, {
+"texture": SubResource("sailors_move_full_1_1")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_full_135_0003")
-}, {
+"texture": SubResource("sailors_move_full_1_2")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_full_135_0004")
-}],
-"loop": true,
-"name": &"sailors_move_full_135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_180_0001")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_180_0002")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_180_0003")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_180_0004")
-}],
-"loop": true,
-"name": &"sailors_move_full_180",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_225_0001")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_225_0002")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_225_0003")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_225_0004")
-}],
-"loop": true,
-"name": &"sailors_move_full_225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_270_0001")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_270_0002")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_270_0003")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_270_0004")
-}],
-"loop": true,
-"name": &"sailors_move_full_270",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_315_0001")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_315_0002")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_315_0003")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_315_0004")
-}],
-"loop": true,
-"name": &"sailors_move_full_315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_45_0001")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_45_0002")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_45_0003")
-}, {
-"duration": 1.0,
-"texture": ExtResource("sailors_move_full_45_0004")
-}],
+"texture": SubResource("sailors_move_full_1_3")
+},
+],
 "loop": true,
 "name": &"sailors_move_full_45",
 "speed": 5.0
-}, {
-"frames": [{
+},
+{
+"frames": [
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_full_90_0001")
-}, {
+"texture": SubResource("sailors_move_full_2_0")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_full_90_0002")
-}, {
+"texture": SubResource("sailors_move_full_2_1")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_full_90_0003")
-}, {
+"texture": SubResource("sailors_move_full_2_2")
+},
+{
 "duration": 1.0,
-"texture": ExtResource("sailors_move_full_90_0004")
-}],
+"texture": SubResource("sailors_move_full_2_3")
+},
+],
 "loop": true,
 "name": &"sailors_move_full_90",
 "speed": 5.0
-}]
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_3_0")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_3_1")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_3_2")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_3_3")
+},
+],
+"loop": true,
+"name": &"sailors_move_full_135",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_4_0")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_4_1")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_4_2")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_4_3")
+},
+],
+"loop": true,
+"name": &"sailors_move_full_180",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_5_0")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_5_1")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_5_2")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_5_3")
+},
+],
+"loop": true,
+"name": &"sailors_move_full_225",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_6_0")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_6_1")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_6_2")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_6_3")
+},
+],
+"loop": true,
+"name": &"sailors_move_full_270",
+"speed": 5.0
+},
+{
+"frames": [
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_7_0")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_7_1")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_7_2")
+},
+{
+"duration": 1.0,
+"texture": SubResource("sailors_move_full_7_3")
+},
+],
+"loop": true,
+"name": &"sailors_move_full_315",
+"speed": 5.0
+},
+
+]
