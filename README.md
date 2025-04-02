@@ -29,7 +29,7 @@ Find more information about Unknown Horizons on [our website](https://unknown-ho
 
 This project is based on Godot 4. Get it from [https://godotengine.org/download/](https://godotengine.org/download/), open the executable, import the project and you are good to go for developing and playtesting. No compilation needed!
 
-Also consulate [CONTRIBUTING.md](./CONTRIBUTING.md) for the project goals and further instructions regarding the setup and coding-related instructions. The Godot port is in an early experimental state with no playable content at this point of time and therefore no release date set in stone.
+Also, consult [CONTRIBUTING.md](./CONTRIBUTING.md) for the project goals and further instructions regarding the setup and coding guidelines. The Godot port is in an early experimental state with no playable content at this point of time and therefore no release date set in stone.
 
 For that reason, please check out the [original project](https://github.com/unknown-horizons/unknown-horizons) which bears a decade long active development history with tons of implemented features and will provide you a better insight on the desired look and feel than any textual explanation could do (even more so if being unfamiliar with RTS games). Besides you should be able to grab existing logic and convert it appropriately for the Godot/GDScript style.
 
