@@ -42,7 +42,7 @@ enum BuildingStates{
   ## The building is in its idle state
   IDLE,
   ## The building is in its active state
-  ACTIVE,
+  WORK,
 }
 
 const empty_animation: String = "Empty"
@@ -65,6 +65,7 @@ func update_animation() -> void:
   for cur_tier in ActionSetEnum.tiers.keys(): # iterate over all the tiers
     var tier_with_lower: String = cur_tier.to_lower() # the tier as a lowercase string
     var animation_name_at_tier: String = tier_with_lower + "_" + state_str + "_" + rotation_str # the animation name that would be at the current tier
+    # print("sprite_frames.has_animation(animation_name_at_tier='", animation_name_at_tier, "'): ", sprite_frames.has_animation(animation_name_at_tier))
     if sprite_frames.has_animation(animation_name_at_tier): # if we have the animation, set it as a possible animation
       animation_name = animation_name_at_tier
     if ActionSetEnum.tiers[cur_tier] == tier: # tier in loop is equal to the actual tier, then break because we have checked all the previous tiers

@@ -74,14 +74,14 @@ func update_action_set():
       ProductionStages.WAITING_FOR_RESOURCES:
         action_set.building_state = BuildingActionSet.BuildingStates.IDLE
       ProductionStages.PRODUCING:
-        action_set.building_state = BuildingActionSet.BuildingStates.ACTIVE
+        action_set.building_state = BuildingActionSet.BuildingStates.WORK
 
 func notify_resource_produced():
   if len(produces.keys()) <= 0: # check that there is an output product
     return
   var starting_tooltip_position: Vector2 = item_produced_tooltip.position # the starting position of tooltip
   # set the visuals
-  resource_image_placeholder.texture = ResourceConfig.item_map.get(produces.keys()[0]).icon # set the image
+  resource_image_placeholder.texture = ResourceConfig.resource_to_icon.get(produces.keys()[0]) # set the image
   resource_amount_placeholder.text = str(produces.values()[0]) # set the amount
   item_produced_tooltip.visible = true
   # move the tooltip
