@@ -1,0 +1,3 @@
+# Normalize EOL for all files that Git considers text files.
+# Godot expects all files to be LF, not CRLF, even on windows.
+* text=auto eol=lf
