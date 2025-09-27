@@ -1,7 +1,7 @@
-[gd_resource type="SpriteFrames" load_steps=1{#let the godot engine correct it#} format=3 uid="uid://{{images[0].atlas_path.parent.parent.stem + "Frames"}}"]
+[gd_resource type="SpriteFrames" load_steps=1{#let the godot engine correct it#} format=3 uid="{{uid}}"]
 
 {% for atlas in images -%}
-[ext_resource type="Texture2D" uid="uid://{{atlas.animation_name}}_atlas" path="res://{{atlas.atlas_path.relative_to("S:/src/Richard/Godot/unknown-horizon-godot").as_posix()}}" id="{{atlas.animation_name}}_atlas"]
+[ext_resource type="Texture2D" uid="uid://{{atlas.animation_name.replace("_", "")}}atlas" path="res://{{atlas.atlas_path.relative_to(root).as_posix()}}" id="{{atlas.animation_name}}_atlas"]
 {% endfor %}
 {% for atlas in images %}
   {%- for row in range(atlas.rows|int)%}

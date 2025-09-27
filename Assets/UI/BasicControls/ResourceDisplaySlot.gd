@@ -4,7 +4,7 @@ extends TextureButton
 
 class_name ResourceDisplaySlot
 
-@export var resource_type: ItemData:
+@export var resource_type: ResourceConfig.Resources:
   get:
     return resource_type
   set(value):
@@ -13,7 +13,7 @@ class_name ResourceDisplaySlot
       return
     # set the resource_image to the correct icon
     if resource_type:
-      resource_image.texture = resource_type.icon
+      resource_image.texture = ResourceConfig.resource_to_icon.get(resource_type)
     else:
       resource_image.texture = null
 
@@ -39,7 +39,7 @@ func _ready():
     self.set_process(true)
 
   if resource_type:
-    resource_image.texture = resource_type.icon
+    resource_image.texture = ResourceConfig.resource_to_icon.get(resource_type)
   else:
     resource_image.texture = null
   resource_label.text = str(resource_amount)

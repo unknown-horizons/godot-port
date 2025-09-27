@@ -50,7 +50,7 @@ func _unhandled_input(event):
     parent.handle_context_input(event)
 
 func is_in_rect(rect: Rect2) -> bool:
-  var parent_building = parent as Building2D
+  var parent_building = parent as Building2D2
   if parent_building != null and parent.is_highlight:# if the parent is a unit, then it will be invisible because it will not start working
     return false
   if sprite:

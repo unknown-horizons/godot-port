@@ -1,9 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://blbqmvav0vjgg"]
+[gd_scene load_steps=5 format=3 uid="uid://blbqmvav0vjgg"]
 
 [ext_resource type="PackedScene" uid="uid://bwtxisllq0ply" path="res://Assets/UI/TabWidgets/ProductionWithRelatedBuildingsMenuTabWidget.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://dg6whk6ygbtpi" path="res://Assets/UI/TabWidgets/ViewComponents/ProductionChain.tscn" id="3"]
-[ext_resource type="Resource" uid="uid://barkk28ae0v15" path="res://Assets/World/Data/ItemData/Wood.tres" id="4_j28ux"]
-[ext_resource type="Resource" uid="uid://c5xn4hbcdts6c" path="res://Assets/World/Data/ItemData/Timber.tres" id="4_pahp5"]
 [ext_resource type="Script" uid="uid://dkqnvnpc8gtwt" path="res://Assets/UI/TabWidgets/LumberjackTabWidget.gd" id="5"]
 [ext_resource type="PackedScene" uid="uid://clre4f1e4md30" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildTreeAreaButton.tscn" id="10"]
 
@@ -15,8 +13,8 @@ text = "Lumberjack"
 
 [node name="ProductionChain" parent="TabContainer/VBoxContainer" index="2" instance=ExtResource("3")]
 layout_mode = 2
-input_two_type = ExtResource("4_j28ux")
-output_type = ExtResource("4_pahp5")
+input_two_type = 4
+output_type = 3
 
 [node name="MarginContainer" type="MarginContainer" parent="TabContainer/VBoxContainer" index="3"]
 layout_mode = 2

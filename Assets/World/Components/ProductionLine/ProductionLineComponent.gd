@@ -2,14 +2,19 @@ extends BaseComponent
 
 class_name ProductionLineComponent
 
+@export_group("production")
 ## The resources needed to produce the output product
-@export var consumes: Dictionary[ResourceConfig.Resources, int] = {}
+@export var consumes: Dictionary[ResourceConfig.Resources, int] = {}:
+  set(value):
+    consumes = value
 
 ## The product that will be produced[br]
 ## [b]Note[/b]: Only [b]one[/b] resource can be produced
 @export var produces: Dictionary[ResourceConfig.Resources, int] = {}
 
 @export var production_time: float = 10
+
+@export_group("")
 
 @onready var item_produced_tooltip: Control = self.get_node("ItemProducedTooltip")
 @onready var resource_image_placeholder: TextureRect = self.get_node("ItemProducedTooltip/Background/HBoxContainer/ItemImagePlaceholder/ItemImage"):

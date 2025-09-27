@@ -26,46 +26,46 @@ const WAREHOUSE_STONE_IDLE = preload("res://Assets/World/Buildings/Warehouse/Spr
 # Tier 4 (Citizens) Sprites
 
 const TIERS = [
-	WAREHOUSE_IDLE,
-	WAREHOUSE_WOODEN_IDLE,
-	WAREHOUSE_TIMBER_FRAMED_IDLE,
-	WAREHOUSE_STONE_IDLE,
+  WAREHOUSE_IDLE,
+  WAREHOUSE_WOODEN_IDLE,
+  WAREHOUSE_TIMBER_FRAMED_IDLE,
+  WAREHOUSE_STONE_IDLE,
 ]
 
 @export var tier: int : set = set_tier # (int, 0, 4)
 
 func animate() -> void:
-	match action:
-		"idle":
-			current_anim = null
-			self.texture = TIERS[tier]
-			match tier:
-				0:
-					_billboard.vframes = 2
-					_billboard.hframes = 2
-					_billboard.region_rect = Rect2(0, 0, 384, 256)
-					_billboard.region_enabled = true
-					_billboard.offset = Vector2(0, 10)
-				1, 2, 3:
-					_billboard.vframes = 2
-					_billboard.hframes = 2
-					_billboard.region_rect = Rect2(0, 0, 384, 384)
-					_billboard.region_enabled = true
-					_billboard.offset = Vector2(0, 40)
+  match action:
+    "idle":
+      current_anim = null
+      self.texture = TIERS[tier]
+      match tier:
+        0:
+          _billboard.vframes = 2
+          _billboard.hframes = 2
+          _billboard.region_rect = Rect2(0, 0, 384, 256)
+          _billboard.region_enabled = true
+          _billboard.offset = Vector2(0, 10)
+        1, 2, 3:
+          _billboard.vframes = 2
+          _billboard.hframes = 2
+          _billboard.region_rect = Rect2(0, 0, 384, 384)
+          _billboard.region_enabled = true
+          _billboard.offset = Vector2(0, 40)
 
-	super()
+  super()
 
 func set_tier(new_tier: int) -> void:
-	var previous_tier = tier
+  var previous_tier = tier
 
-	tier = clamp(new_tier, 0, TIERS.size() - 1)
-	if tier > previous_tier:
-		upgrade()
-	else:
-		downgrade()
+  tier = clamp(new_tier, 0, TIERS.size() - 1)
+  if tier > previous_tier:
+    upgrade()
+  else:
+    downgrade()
 
 func upgrade() -> void:
-	pass # TODO
+  pass # TODO
 
 func downgrade() -> void:
-	pass # TODO
+  pass # TODO
