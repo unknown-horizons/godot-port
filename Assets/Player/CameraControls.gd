@@ -88,11 +88,10 @@ func _zoom(zoom_value: float) -> void:
 		_origin.translate(move_dir)
 
 func _raycast_from_mouse(m_pos: Vector2, collision_mask: int) -> Dictionary:
-	var mouse_pos := get_viewport().get_mouse_position()
 	var space_state := _origin.get_world_3d().direct_space_state
 	var query := PhysicsRayQueryParameters3D.new()
-	query.from = _camera.project_ray_origin(mouse_pos)
-	query.to = query.from + _camera.project_ray_normal(mouse_pos) * RAY_LENGTH
+	query.from = _camera.project_ray_origin(m_pos)
+	query.to = query.from + _camera.project_ray_normal(m_pos) * RAY_LENGTH
 	query.collision_mask = collision_mask
 
 	var result := space_state.intersect_ray(query)
