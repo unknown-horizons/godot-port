@@ -86,7 +86,7 @@ func can_build_building(building_world_position: Vector2 = built_tilemap.to_loca
   # check if the tile is valid on the built_tilemap
   var is_road: bool = false
   var built_tile_data: TileData = built_tilemap.get_cell_tile_data(building_tile_position)
-  if built_tile_data != null: # if the built_tile_data is null, then it is not a road
+  if built_tile_data != null and built_tile_data.terrain_set != -1: # if the built_tile_data is null, then it is not a road
     var built_terrain_name: String = built_tilemap.tile_set.get_terrain_name(built_tile_data.terrain_set, built_tile_data.terrain)# The terrain name of the tile.
     is_road = built_terrain_name == "DirtRoad" # Is the tile a road?
   var is_building: bool = built_tilemap.building_position_to_building.has(building_world_position)# Is the tile a building?
@@ -95,9 +95,10 @@ func can_build_building(building_world_position: Vector2 = built_tilemap.to_loca
   
   # make sure that the terrain tile is valid
   var terrain_tile_data: TileData = terrain_tilemap.get_cell_tile_data(building_tile_position)
-  var terrain_name: String = terrain_tilemap.tile_set.get_terrain_name(terrain_tile_data.terrain_set, terrain_tile_data.terrain)
-  if terrain_name == "Shallow" or terrain_name == "Deep":
-    return false
+  if terrain_tile_data != null and terrain_tile_data.terrain_set != -1:
+    var terrain_name: String = terrain_tilemap.tile_set.get_terrain_name(terrain_tile_data.terrain_set, terrain_tile_data.terrain)
+    if terrain_name == "Shallow" or terrain_name == "Deep":
+      return false
   
   # make sure that there is enough resources
   if has_resources_for_building(building) == false:
@@ -106,7 +107,7 @@ func can_build_building(building_world_position: Vector2 = built_tilemap.to_loca
   return true
 
 func update_building_highlight(building_tile_position: Vector2i = built_tilemap.local_to_map(built_tilemap.to_local(built_tilemap.get_global_mouse_position()))) -> void:
-  var building_instance: Building2D = null
+  var building_instance: Building2D2 = null
   if building_tile_position != last_highlighted_building_position or len(highlighter.highlighted_objects) == 0: # if the mouse moved or there is no highlighted building, then update the highlighter
     last_highlighted_building_position = building_tile_position # update the last highlighted building position
     highlighter.clear() # clear the highlighter
@@ -121,7 +122,7 @@ func update_building_highlight(building_tile_position: Vector2i = built_tilemap.
   building_instance.is_highlight = true
 
 func has_resources_for_building(building_data: BuildingData = building_to_build) -> bool:
-  for resource: ItemData in building_data.cost.keys():
+  for resource: ResourceConfig.Resources in building_data.cost.keys():
     var amount_needed: int = building_data.cost[resource]
     var amount_available = GameStats.game_stats_resource.resources.get(resource)
     var can_be_built: bool = amount_available != null and amount_needed <= amount_available
@@ -131,10 +132,10 @@ func has_resources_for_building(building_data: BuildingData = building_to_build)
   return true
 
 func spend_resources_for_building(building_data: BuildingData = building_to_build) -> void:
-  for resource: ItemData in building_data.cost.keys():
+  for resource: ResourceConfig.Resources in building_data.cost.keys():
     var amount_needed: int = building_data.cost[resource]
     GameStats.game_stats_resource.resources[resource] -= amount_needed
-    print("the amount of %s is now %s" % [resource.game_name, GameStats.game_stats_resource.resources[resource]])
+    print("the amount of %s is now %s" % [str(resource).capitalize(), GameStats.game_stats_resource.resources[resource]])
 
 func build(building_world_position: Vector2 = built_tilemap.to_local(built_tilemap.get_global_mouse_position())) -> void:
   ## The tile position of the new building

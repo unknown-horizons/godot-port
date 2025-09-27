@@ -4,7 +4,7 @@ extends TextureButton
 
 class_name InventorySlot
 
-@export var resource_type: ItemData:
+@export var resource_type: ResourceConfig.Resources:
   get:
     return resource_type
   set(value):
@@ -13,7 +13,7 @@ class_name InventorySlot
       return
     # set the tooltips to the correct values
     if resource_type:
-      resource_image.texture = resource_type.icon
+      resource_image.texture = ResourceConfig.resource_to_icon.get(resource_type)
     else:
       resource_image.texture = null
 
@@ -44,7 +44,7 @@ signal slot_pressed
 
 func _ready():
   if resource_type:
-    resource_image.texture = resource_type.icon
+    resource_image.texture = ResourceConfig.resource_to_icon.get(resource_type)
   else:
     resource_image.texture = null
   update_resource_amount_tooltips()

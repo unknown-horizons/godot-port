@@ -42,10 +42,10 @@ func register_building(building) -> void:
   var road_building_context = %GameContextManager.get_node("BuildingRoadContext")
   road_building_context.road_building_pathfindng.set_point_solid(self.local_to_map(building.position), true)
   # handle notifications
-  for building_node: Building2D in building_position_to_building.values():
+  for building_node: Building2D2 in building_position_to_building.values():
     if building_node.has_method("new_building_built"):
       building_node.new_building_built(building)
 
 func _on_child_entered_tree(node: Node):
-  if node is Building2D:
+  if node is Building2D2:
     register_building(node)

@@ -7,7 +7,7 @@ var closest_trees: Array = []
 @export var choping_down_tree_time: float = 2
 @export var speed_px_per_sec: float = 64
 
-@onready var parent_building: Building2D = self.get_parent()
+@onready var parent_building: Building2D2 = self.get_parent()
 @onready var built_tilemap: BuiltTileMap = self.get_node("/root/Main/BuiltTileMap")
 
 var count_of_objects: int = 0
@@ -68,7 +68,7 @@ func movement_loop():
 func wait_for_tree_in_need():
 # wait until needs and can go to tree
   while true:
-    var wood_amount = parent_building.input_product_storage.get(parent_building.wood_data)
+    var wood_amount = parent_building.input_product_storage.get(ResourceConfig.Resources.WOOD)
     if wood_amount != null and closest_trees != []:
       if wood_amount < parent_building.building_data.max_storage_capacity:
         return

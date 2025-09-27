@@ -1,12 +1,10 @@
-[gd_scene load_steps=13 format=3 uid="uid://c4guhesfdudwl"]
+[gd_scene load_steps=11 format=3 uid="uid://c4guhesfdudwl"]
 
 [ext_resource type="PackedScene" uid="uid://3tfrvngmx6xl" path="res://Assets/UI/TabWidgets/StorageTabWidget.tscn" id="1"]
 [ext_resource type="Script" uid="uid://cqpptpry7gv8v" path="res://Assets/UI/TabWidgets/WarehouseTabWidget.gd" id="2_8gs72"]
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="3_ld7xp"]
 [ext_resource type="PackedScene" uid="uid://dtisfdmixmey4" path="res://Assets/UI/TabWidgets/Switches/Switches/BuySellSwitchTabWidget.tscn" id="4"]
-[ext_resource type="Resource" uid="uid://cadptbki7hpwf" path="res://Assets/World/Data/ItemData/Food.tres" id="4_1171r"]
 [ext_resource type="FontFile" uid="uid://b132ikq6ayfyj" path="res://External/Fonts/LinLibertineC.ttf" id="4_uhujm"]
-[ext_resource type="Resource" uid="uid://c5xn4hbcdts6c" path="res://Assets/World/Data/ItemData/Timber.tres" id="5_hk6sq"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="6_sird3"]
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="10"]
 [ext_resource type="Texture2D" uid="uid://iujmcgp5x37l" path="res://Assets/UI/Icons/Thumbnails/1000001.png" id="12"]
@@ -18,12 +16,6 @@ script = ExtResource("2_8gs72")
 
 [node name="BuySellSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="2" instance=ExtResource("4")]
 layout_mode = 2
-
-[node name="InventorySlot" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="0"]
-resource_type = ExtResource("4_1171r")
-
-[node name="InventorySlot2" parent="TabContainer/SettlementInventory/VBoxContainer/GridContainer" index="1"]
-resource_type = ExtResource("5_hk6sq")
 
 [node name="MarginContainer" type="MarginContainer" parent="TabContainer/SettlementInventory/VBoxContainer/HBoxContainer" index="0"]
 layout_mode = 2

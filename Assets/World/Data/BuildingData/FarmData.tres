@@ -1,7 +1,5 @@
-[gd_resource type="Resource" script_class="ProductionBuildingData" load_steps=5 format=3 uid="uid://bhhs6phyo6c2c"]
+[gd_resource type="Resource" script_class="ProductionBuildingData" load_steps=3 format=3 uid="uid://bhhs6phyo6c2c"]
 
-[ext_resource type="Resource" uid="uid://cadptbki7hpwf" path="res://Assets/World/Data/ItemData/Food.tres" id="1_1oftp"]
-[ext_resource type="Resource" uid="uid://c5xn4hbcdts6c" path="res://Assets/World/Data/ItemData/Timber.tres" id="1_wbjsf"]
 [ext_resource type="Script" uid="uid://dlrdsflg8vytm" path="res://Assets/World/Data/BuildingData/ProductionBuildingData.gd" id="2_rccs4"]
 [ext_resource type="PackedScene" uid="uid://bn83cm4ugjyay" path="res://Assets/UI/TabWidgets/FarmTabWidget.tscn" id="2_tehr6"]
 
@@ -10,11 +8,11 @@ script = ExtResource("2_rccs4")
 max_storage_capacity = 10
 processing_time = 3
 load_or_unload_time = 2.0
-output_product = ExtResource("1_1oftp")
-input_products = {}
+output_product = 2
+input_products = Dictionary[int, int]({})
 game_name = "farm"
-cost = {
-ExtResource("1_wbjsf"): 1
-}
+cost = Dictionary[int, int]({
+3: 1
+})
 building_tile = 1
 info_tab_widget = ExtResource("2_tehr6")

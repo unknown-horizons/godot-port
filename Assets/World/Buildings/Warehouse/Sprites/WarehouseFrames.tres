@@ -1,0 +1,197 @@
+[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://cwarehousefra"]
+
+[ext_resource type="Texture2D" uid="uid://cdvmsbm5dbwfy" path="res://Assets/World/Buildings/Warehouse/Sprites/warehouse_citizens_idle_atlas.png" id="citizens_idle_atlas"]
+[ext_resource type="Texture2D" uid="uid://basb5p5i43q5w" path="res://Assets/World/Buildings/Warehouse/Sprites/warehouse_pioneers_idle_atlas.png" id="pioneers_idle_atlas"]
+[ext_resource type="Texture2D" uid="uid://cmcyif7ghryrr" path="res://Assets/World/Buildings/Warehouse/Sprites/warehouse_sailors_idle_atlas.png" id="sailors_idle_atlas"]
+[ext_resource type="Texture2D" uid="uid://4lmegi353jpa" path="res://Assets/World/Buildings/Warehouse/Sprites/warehouse_settlers_idle_atlas.png" id="settlers_idle_atlas"]
+
+[sub_resource type="AtlasTexture" id="citizens_idle_1_0"]
+atlas = ExtResource("citizens_idle_atlas")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="citizens_idle_2_0"]
+atlas = ExtResource("citizens_idle_atlas")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="citizens_idle_3_0"]
+atlas = ExtResource("citizens_idle_atlas")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="citizens_idle_0_0"]
+atlas = ExtResource("citizens_idle_atlas")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pioneers_idle_1_0"]
+atlas = ExtResource("pioneers_idle_atlas")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pioneers_idle_2_0"]
+atlas = ExtResource("pioneers_idle_atlas")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pioneers_idle_3_0"]
+atlas = ExtResource("pioneers_idle_atlas")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pioneers_idle_0_0"]
+atlas = ExtResource("pioneers_idle_atlas")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_1_0"]
+atlas = ExtResource("sailors_idle_atlas")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_2_0"]
+atlas = ExtResource("sailors_idle_atlas")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sailors_idle_0_0"]
+atlas = ExtResource("sailors_idle_atlas")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="settlers_idle_1_0"]
+atlas = ExtResource("settlers_idle_atlas")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="settlers_idle_2_0"]
+atlas = ExtResource("settlers_idle_atlas")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="settlers_idle_3_0"]
+atlas = ExtResource("settlers_idle_atlas")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="settlers_idle_0_0"]
+atlas = ExtResource("settlers_idle_atlas")
+region = Rect2(0, 0, 192, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 0.01,
+"texture": null
+}],
+"loop": false,
+"name": &"Empty",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("citizens_idle_1_0")
+}],
+"loop": true,
+"name": &"citizens_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("citizens_idle_2_0")
+}],
+"loop": true,
+"name": &"citizens_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("citizens_idle_3_0")
+}],
+"loop": true,
+"name": &"citizens_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("citizens_idle_0_0")
+}],
+"loop": true,
+"name": &"citizens_idle_45",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pioneers_idle_1_0")
+}],
+"loop": true,
+"name": &"pioneers_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pioneers_idle_2_0")
+}],
+"loop": true,
+"name": &"pioneers_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pioneers_idle_3_0")
+}],
+"loop": true,
+"name": &"pioneers_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pioneers_idle_0_0")
+}],
+"loop": true,
+"name": &"pioneers_idle_45",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("sailors_idle_1_0")
+}],
+"loop": true,
+"name": &"sailors_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("sailors_idle_2_0")
+}],
+"loop": true,
+"name": &"sailors_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("sailors_idle_0_0")
+}],
+"loop": true,
+"name": &"sailors_idle_45",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("settlers_idle_1_0")
+}],
+"loop": true,
+"name": &"settlers_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("settlers_idle_2_0")
+}],
+"loop": true,
+"name": &"settlers_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("settlers_idle_3_0")
+}],
+"loop": true,
+"name": &"settlers_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("settlers_idle_0_0")
+}],
+"loop": true,
+"name": &"settlers_idle_45",
+"speed": 5.0
+}]

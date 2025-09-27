@@ -48,6 +48,8 @@ func get_tile_item_orientation(tile_pos: Vector2i) -> int:
   return get_cell_item_orientation(Vector3i(tile_pos.x,0,tile_pos.y))
 
 func get_item_name(tile_item: int) -> String:
+  if mesh_library == null:
+    return ""
   return mesh_library.get_item_name(tile_item)
 
 func get_item_index(item_name: String) -> int:
