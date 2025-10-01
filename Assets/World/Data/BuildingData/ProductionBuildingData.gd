@@ -9,5 +9,5 @@ class_name ProductionBuildingData
 @export var load_or_unload_time: float = 2
 
 @export_group("product")
-@export var output_product: ResourceConfig.Resources
-@export var input_products: Dictionary[ResourceConfig.Resources, int] = {}
+@export var output_product: StringName # output_resource
+@export var input_products: Dictionary[StringName, int] = {}

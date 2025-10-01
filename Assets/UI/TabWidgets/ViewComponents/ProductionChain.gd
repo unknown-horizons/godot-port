@@ -6,10 +6,10 @@ class_name ProductionChain
 
 @export var number_inputs: int = 1 : set = set_number_inputs
 
-@export var input_one_type: ResourceConfig.Resources : set = set_input_one_type
-@export var input_two_type: ResourceConfig.Resources : set = set_input_two_type
-@export var input_three_type: ResourceConfig.Resources : set = set_input_three_type
-@export var output_type: ResourceConfig.Resources : set = set_output_type
+@export var input_one_type: StringName : set = set_input_one_type
+@export var input_two_type: StringName : set = set_input_two_type
+@export var input_three_type: StringName : set = set_input_three_type
+@export var output_type: StringName : set = set_output_type
 
 @export var input_one_value: int : set = set_input_one_value
 @export var input_two_value: int : set = set_input_two_value
@@ -95,14 +95,14 @@ func set_number_inputs(new_number_inputs: int) -> void:
     2: _set_inputs(true, false, true)
     3: _set_inputs(true, true, true)
 
-func set_input_one_type(new_input_one_type: ResourceConfig.Resources) -> void:
+func set_input_one_type(new_input_one_type: StringName) -> void:
   input_one_type = new_input_one_type
   if not is_inside_tree():
     await self.ready
 
   input_one.resource_type = input_one_type
 
-func set_input_two_type(new_input_two_type: ResourceConfig.Resources) -> void:
+func set_input_two_type(new_input_two_type: StringName) -> void:
   input_two_type = new_input_two_type
   if not is_inside_tree():
     await self.ready
@@ -110,14 +110,14 @@ func set_input_two_type(new_input_two_type: ResourceConfig.Resources) -> void:
   input_two.resource_type = input_two_type
 
 
-func set_input_three_type(new_input_three_type: ResourceConfig.Resources) -> void:
+func set_input_three_type(new_input_three_type: StringName) -> void:
   input_three_type = new_input_three_type
   if not is_inside_tree():
     await self.ready
 
   input_three.resource_type = input_three_type
 
-func set_output_type(new_output_type: ResourceConfig.Resources) -> void:
+func set_output_type(new_output_type: StringName) -> void:
   output_type = new_output_type
   if not is_inside_tree():
     await self.ready

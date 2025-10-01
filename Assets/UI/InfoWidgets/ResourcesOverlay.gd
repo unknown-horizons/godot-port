@@ -25,7 +25,7 @@ func add_empty_resource_slot() -> void:
 
 ## Returns true, if the resource is already shown, else: false
 ## Note: includes the empty slots
-func is_already_shown(resource_type: ResourceConfig.Resources) -> bool:
+func is_already_shown(resource_type: StringName) -> bool:
   for slot: ResourceDisplaySlot in resource_slots.get_children():
     if slot.resource_type == resource_type:
       return true

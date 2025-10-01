@@ -6,7 +6,7 @@ extends StorageComponent
 class_name SlotStorageComponent
 
 ## The capacity of the storage slots.
-@export var max_capacity: Dictionary[ResourceConfig.Resources, int] = {}
+@export var max_capacity: Dictionary[StringName, int] = {} # resource_name to max_capacity
 
 func _ready():
   # check if the max_capacity and storage dictionary is in the right format and have all the nessesary keys in the storage
@@ -17,8 +17,8 @@ func _ready():
 
 ## Used to set the storage amount of a specific resource.[br]
 ## The resource key will be created if it does not exist in the storage.[br]
-func set_storage_item_amount(resource: ResourceConfig.Resources, new_amount: int):
-  var max_amount: int = max_capacity.get(resource)
+func set_storage_item_amount(resource: StringName, new_amount: int):
+  var max_amount = max_capacity.get(resource)
   if max_amount != null:
     self.storage[resource] = clamp(new_amount, 0, max_amount)
   else:

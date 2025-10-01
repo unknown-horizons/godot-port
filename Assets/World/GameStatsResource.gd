@@ -4,7 +4,7 @@ class_name GameStatsResource
 
 const save_path = "user://progress.tres"
 
-var resources: Dictionary[ResourceConfig.Resources, int] = {}
+var resources: Dictionary[StringName, int] = {} # resource_name to count
 
 func _init():
   for resource in ResourceConfig.Resources.values():

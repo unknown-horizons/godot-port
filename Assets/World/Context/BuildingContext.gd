@@ -122,7 +122,7 @@ func update_building_highlight(building_tile_position: Vector2i = built_tilemap.
   building_instance.is_highlight = true
 
 func has_resources_for_building(building_data: BuildingData = building_to_build) -> bool:
-  for resource: ResourceConfig.Resources in building_data.cost.keys():
+  for resource: StringName in building_data.cost.keys():
     var amount_needed: int = building_data.cost[resource]
     var amount_available = GameStats.game_stats_resource.resources.get(resource)
     var can_be_built: bool = amount_available != null and amount_needed <= amount_available
@@ -132,7 +132,7 @@ func has_resources_for_building(building_data: BuildingData = building_to_build)
   return true
 
 func spend_resources_for_building(building_data: BuildingData = building_to_build) -> void:
-  for resource: ResourceConfig.Resources in building_data.cost.keys():
+  for resource: StringName in building_data.cost.keys():
     var amount_needed: int = building_data.cost[resource]
     GameStats.game_stats_resource.resources[resource] -= amount_needed
     print("the amount of %s is now %s" % [str(resource).capitalize(), GameStats.game_stats_resource.resources[resource]])

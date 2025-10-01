@@ -7,7 +7,7 @@ class_name ResourceConfig
 
 const item_data_folder_path: String = "res://Assets/World/Data/ItemData/"
 
-static var resource_to_icon: Dictionary[Resources, Texture2D] = {
+static var resource_to_icon: Dictionary[StringName, Texture2D] = {
   Resources.FLOUR: preload("res://Assets/UI/Icons/Resources/32/044.png"),
   Resources.FOOD: preload("res://Assets/UI/Icons/Resources/32/005.png"),
   Resources.TIMBER: preload("res://Assets/UI/Icons/Resources/32/004.png"),
@@ -15,10 +15,10 @@ static var resource_to_icon: Dictionary[Resources, Texture2D] = {
 }
 
 ## The enum representing the resources
-enum Resources {
-  NONE,
-  FLOUR,
-  FOOD,
-  TIMBER,
-  WOOD,
+const Resources = {
+  NONE = &"NONE",
+  FLOUR = &"FLOUR",
+  FOOD = &"FOOD",
+  TIMBER = &"TIMBER",
+  WOOD = &"WOOD",
 }

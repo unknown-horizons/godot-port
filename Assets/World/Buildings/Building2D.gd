@@ -17,7 +17,7 @@ func setup_components() -> void:
   for component in components:
     component.set_components(components)
 
-func is_resource_available(resource: ResourceConfig.Resources) -> bool:
+func is_resource_available(resource: StringName) -> bool:
   var slot_storage: SlotStorageComponent = null
 
   for component in self.get_children():
@@ -32,7 +32,7 @@ func is_resource_available(resource: ResourceConfig.Resources) -> bool:
     return false
   return slot_storage.storage.get(resource) > 0
 
-func get_needed_resources() -> Array[ResourceConfig.Resources]:
+func get_needed_resources() -> Array[StringName]:
   var production_lines: Array[ProductionLineComponent] = []
   var slot_storage: SlotStorageComponent = null
   var sized_storage: SizedStorageComponent = null
@@ -46,7 +46,7 @@ func get_needed_resources() -> Array[ResourceConfig.Resources]:
     if component is SizedStorageComponent:
       sized_storage = component
   
-  var needed_resources: Dictionary[ResourceConfig.Resources, int] = {}
+  var needed_resources: Dictionary[StringName, int] = {}
 
   for production_line in production_lines: # get a list of all the resources needed
     needed_resources.merge(production_line.consumes)
@@ -66,12 +66,12 @@ func get_needed_resources() -> Array[ResourceConfig.Resources]:
     amount_needed = max_amount - amount_in_stock
     needed_resources[resource] = amount_needed
 
-  var needed_resources_sorted: Array[ResourceConfig.Resources] = needed_resources.keys()
+  var needed_resources_sorted: Array[StringName] = needed_resources.keys()
   needed_resources_sorted.sort_custom(func(a, b): return needed_resources[a] > needed_resources[b])
 
   return needed_resources.keys()
 
-func unload_resources(resource: ResourceConfig.Resources, amount: int) -> void:
+func unload_resources(resource: StringName, amount: int) -> void:
   var storage_component: Storage = null
   for component in self.get_children():
     if component is Storage:
@@ -81,7 +81,7 @@ func unload_resources(resource: ResourceConfig.Resources, amount: int) -> void:
   var amount_in_storage: int = storage_component.storage.get(resource)
   storage_component.set_storage_item_amount(resource, amount_in_storage + amount)
 
-func load_resources(resource: ResourceConfig.Resources, amount: int) -> int:
+func load_resources(resource: StringName, amount: int) -> int:
   var storage_component: Storage = null
   for component in self.get_children():
     if component is Storage:
