@@ -10,10 +10,10 @@ max_storage_capacity = 10
 processing_time = 3
 load_or_unload_time = 2.0
 output_product = 3
-input_products = Dictionary[int, int]({
+input_products = Dictionary[StringName, int]({
 4: 1
 })
 game_name = "lumberjack"
-cost = Dictionary[int, int]({})
+cost = Dictionary[StringName, int]({})
 building_tile = 4
 info_tab_widget = ExtResource("1_h6057")

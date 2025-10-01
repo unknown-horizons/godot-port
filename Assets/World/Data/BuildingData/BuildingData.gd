@@ -4,6 +4,6 @@ extends Resource
 class_name BuildingData
 
 @export var game_name : String
-@export var cost: Dictionary[ResourceConfig.Resources, int]
+@export var cost: Dictionary[StringName, int] # resource_name to count
 @export var building_tile: int
 @export var info_tab_widget: PackedScene

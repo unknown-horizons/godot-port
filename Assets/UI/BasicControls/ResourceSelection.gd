@@ -6,7 +6,7 @@ class_name ResourceSelection
 
 var inventory_slot_scene: PackedScene = preload("res://Assets/UI/BasicControls/InventorySlot.tscn")
 
-signal resource_selected(resource: ResourceConfig.Resources)
+signal resource_selected(resource: StringName)
 
 func _ready() -> void:
   self.add_slots()

@@ -15,7 +15,7 @@ z_index = 15
 script = ExtResource("2_f8ujq")
 buoy = ExtResource("3_tp4jj")
 warehouse_data = ExtResource("4_ec8bt")
-ship_inventory = Dictionary[int, int]({})
+ship_inventory = Dictionary[StringName, int]({})
 valid_distance_for_building_harbor = 3
 unit_data = ExtResource("4_p2d6v")
 

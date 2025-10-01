@@ -4,7 +4,7 @@ extends TextureButton
 
 class_name InventorySlot
 
-@export var resource_type: ResourceConfig.Resources:
+@export var resource_type: StringName:
   get:
     return resource_type
   set(value):

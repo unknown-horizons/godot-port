@@ -6,6 +6,6 @@
 [resource]
 script = ExtResource("1_y64sp")
 game_name = "warehouse"
-cost = {}
+cost = Dictionary[StringName, int]({})
 building_tile = 2
 info_tab_widget = ExtResource("1_uxh54")

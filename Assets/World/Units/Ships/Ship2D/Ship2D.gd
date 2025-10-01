@@ -4,7 +4,7 @@ class_name Ship2D
 
 @export var buoy: PackedScene = preload("res://Assets/World/Buoy/Buoy2D.tscn")
 @export var warehouse_data: BuildingData
-@export var ship_inventory: Dictionary[ResourceConfig.Resources, int] = {}
+@export var ship_inventory: Dictionary[StringName, int] = {}
 @export var valid_distance_for_building_harbor: int = 3
 
 @onready var buoys: StaticBody2D = self.get_parent().get_node("Buoys")

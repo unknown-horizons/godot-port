@@ -11,7 +11,7 @@ class_name ProductionBuilding2D
 
 var closest_warehouse_path: Array = []
 var number_of_output_products = 0
-var input_product_storage: Dictionary[ResourceConfig.Resources, int] = {}
+var input_product_storage: Dictionary[StringName, int] = {}
 
 ## The timer that waits time before the production loop produces a product
 var production_timer: SceneTreeTimer
@@ -101,21 +101,21 @@ func needs_resources() -> bool:
       return true
   return false
 
-func get_resourses_needed() -> Dictionary[ResourceConfig.Resources, int]:
+func get_resourses_needed() -> Dictionary[StringName, int]:
   # create a dictionary, needed_product : amount_needed
-  var needed_products: Dictionary[ResourceConfig.Resources, int] = {}
+  var needed_products: Dictionary[StringName, int] = {}
   for needed_product in self.building_data.input_products.keys():
     if input_product_storage[needed_product] < self.building_data.max_storage_capacity:
       needed_products[needed_product] = min(self.building_data.max_storage_capacity - input_product_storage[needed_product], carrier.max_carry_limit)
   return needed_products
 
-func unload_carrier(resources_brought: Dictionary[ResourceConfig.Resources, int]) -> Dictionary[ResourceConfig.Resources, int]:
+func unload_carrier(resources_brought: Dictionary[StringName, int]) -> Dictionary[StringName, int]:
   await self.get_tree().create_timer(self.building_data.load_or_unload_time / 2).timeout
   for resource in resources_brought.keys():
     input_product_storage[resource] = min(resources_brought[resource] + input_product_storage[resource], self.building_data.max_storage_capacity)
   return {}
 
-func load_carrier() -> Dictionary[ResourceConfig.Resources, int]:
+func load_carrier() -> Dictionary[StringName, int]:
   await self.get_tree().create_timer(self.building_data.load_or_unload_time / 2).timeout
   var amount_to_load = min(number_of_output_products, carrier.max_carry_limit)
   number_of_output_products -= amount_to_load

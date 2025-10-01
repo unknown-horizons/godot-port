@@ -19,11 +19,11 @@ var building_storage: StorageComponent = null
 
 
 class Job:
-  var resource: ResourceConfig.Resources
+  var resource: StringName
   var amount: int
   var building: Building2D
 
-  func _init(resource: ResourceConfig.Resources, amount: int, building: Building2D):
+  func _init(resource: StringName, amount: int, building: Building2D):
     self.resource = resource
     self.amount = amount
     self.building = building
@@ -50,7 +50,7 @@ func set_components(components: Array[BaseComponent]):
 
 
 ## Finds the closest building that produces the needed resource, Note: For now, we will only collect from production buildings and not warehouses
-func get_building_to_collect_from(needed_resource: ResourceConfig.Resources) -> Building2D:
+func get_building_to_collect_from(needed_resource: StringName) -> Building2D:
   if built_tilemap == null: # if the built tilemap is null, then return null
     return null
   var closest_building: Building2D = null # declare the closest building var to null
@@ -65,7 +65,7 @@ func get_building_to_collect_from(needed_resource: ResourceConfig.Resources) -> 
 
 ## Returns the best possible job at the moment
 func get_best_job() -> Job:
-  var needed_resources: Array[ResourceConfig.Resources] = parent_building.get_needed_resources()
+  var needed_resources: Array[StringName] = parent_building.get_needed_resources()
   for resource in needed_resources:
     var building_to_collect_from: WorldThing2D = get_building_to_collect_from(resource)
     if building_to_collect_from != null:
