@@ -1,8 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://c7w3xnajww1kq"]
+[gd_scene load_steps=4 format=3 uid="uid://c7w3xnajww1kq"]
 
 [ext_resource type="Script" uid="uid://cp6wlqb3spsej" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.gd" id="1_tj2mk"]
+[ext_resource type="Shader" uid="uid://hdvk7lcn1uxy" path="res://Assets/World/Tilemaps/Highlight/BuildingHighlight.gdshader" id="2_kccxb"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kccxb"]
+shader = ExtResource("2_kccxb")
+shader_parameter/can_build_color = Color(1, 1, 1, 1)
+shader_parameter/cannot_build_color = Color(1, 0, 0, 1)
+shader_parameter/can_build = true
+shader_parameter/should_show = false
 
 [node name="BuildingActionSet" type="Node2D"]
 script = ExtResource("1_tj2mk")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+material = SubResource("ShaderMaterial_kccxb")

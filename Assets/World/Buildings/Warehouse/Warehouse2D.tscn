@@ -1,11 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://dkpsgvd7lnale"]
+[gd_scene load_steps=5 format=3 uid="uid://dkpsgvd7lnale"]
 
-[ext_resource type="Script" uid="uid://c8db882etnijc" path="res://Assets/World/Buildings/Warehouse/Warehouse2D.gd" id="1_w06eb"]
+[ext_resource type="Script" uid="uid://c8db882etnijc" path="res://Assets/World/Buildings/Warehouse/Warehouse2D.gd" id="1_uibjd"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_o3pcw"]
 [ext_resource type="SpriteFrames" uid="uid://cwarehousefra" path="res://Assets/World/Buildings/Warehouse/Sprites/WarehouseFrames.tres" id="3_uibjd"]
+[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="4_uibjd"]
 
 [node name="Warehouse2D" type="Node2D"]
-script = ExtResource("1_w06eb")
+script = ExtResource("1_uibjd")
+building_type = 4
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_o3pcw")]
 sprite_frames = ExtResource("3_uibjd")
+current_as_name = ""
+
+[node name="Selectable" parent="." instance=ExtResource("4_uibjd")]

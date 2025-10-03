@@ -2,6 +2,8 @@ extends BaseComponent
 
 class_name StorageComponent
 
+@export var load_or_unload_time: float = 2.0
+
 ## The storage of the building.[br]
 ## [b]Note[/b]: The [method SlotStorageComponent.set_storage_item_amount] function is to be used to set a key
 var storage: Dictionary[StringName, int] = {} # Resource to count map

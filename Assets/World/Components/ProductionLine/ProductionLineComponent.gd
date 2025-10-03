@@ -53,6 +53,9 @@ var production_stage: ProductionStages = ProductionStages.IDLE:
     if last_stage == ProductionStages.IDLE and production_stage == ProductionStages.START:
       production_loop()
 
+
+var production_time_end: float = 0
+
 var storage_component: SlotStorageComponent
 
 var action_set: BuildingActionSet = null
@@ -65,6 +68,12 @@ func set_components(components: Array[BaseComponent]):
       action_set = component
   production_stage = ProductionStages.START
 
+func set_pause(value: bool) -> void:
+  super(value)
+  if self.paused:
+    self.production_stage = ProductionStages.IDLE
+  else:
+    self.production_stage = ProductionStages.START
 
 func update_action_set():
   if action_set != null:
@@ -123,11 +132,15 @@ func wait_for_resources():
   production_stage = ProductionStages.WAITING_FOR_RESOURCES
   while has_enough_resources() == false:
     await storage_component.storage_changed
+    if production_stage == ProductionStages.IDLE:
+      await self.unpaused
 
 func produce():
   if len(produces.keys()) <= 0:
     return
   production_stage = ProductionStages.PRODUCING
+  # simulate production, TODO: switch to Timer for game speed awareness and pauseability
+  self.production_time_end = Time.get_unix_time_from_system() + production_time
   await self.sleep(production_time)
   spend_resources()
   var produced_item = produces.keys()[0]

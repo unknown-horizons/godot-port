@@ -7,26 +7,33 @@ class_name BuildingCollectorComponent
 ## The built tilemap[br]
 ## Default: "/root/Main/BuiltTileMap"
 @export var built_tilemap: BuiltTileMap = null
-@export var load_or_unload_time: float = 2
+# @export var load_or_unload_time: float = 2
 
 
 @onready var move_by_cell: MoveByCellComponent = self.get_node("MoveByCellComponent")
 @onready var action_set: CollectorActionSet = self.get_node("CollectorActionSet")
 @onready var parent_building: Building2D = self.get_parent()
 
-var sized_storage: SizedStorageComponent = null
-var building_storage: StorageComponent = null
+var path_to_warehouse: Array[Vector2] = []
 
+var sized_storage: SizedStorageComponent = null
+var building_storage: SlotStorageComponent = null
+var production_line_components: Array[ProductionLineComponent] = []
 
 class Job:
+  static var NONE: Job = Job.new(ResourceConfig.Resources.NONE, 0, null, null)
+
   var resource: StringName
   var amount: int
-  var building: Building2D
+  var building_from: Building2D
+  var building_to: Building2D
 
-  func _init(resource: StringName, amount: int, building: Building2D):
+  func _init(resource: StringName, amount: int, building_from: Building2D, building_to: Building2D):
     self.resource = resource
     self.amount = amount
-    self.building = building
+    self.building_from = building_from
+    self.building_to = building_to
+
 
 
 func _ready():
@@ -41,20 +48,37 @@ func _ready():
   
   for component in child_components:
     component.set_components(child_components)
+  
+  if self.built_tilemap != null:
+    self.built_tilemap.buildings_built.connect(self.set_closest_warehouse)
+    self.set_closest_warehouse(built_tilemap.building_position_to_building.values())
 
 func set_components(components: Array[BaseComponent]):
   for component in components:
-    if component is StorageComponent:
+    if component is SlotStorageComponent:
       building_storage = component
+    if component is ProductionLineComponent:
+      production_line_components.append(component)
   bring_resources_loop()
 
+func set_closest_warehouse(new_buildings: Array[Building2D]):
+  if built_tilemap == null: # if the built tilemap is null, then return null
+    return
+  for building in new_buildings: # loop through the buildings
+    var warehouse: Warehouse2D = building as Warehouse2D
+    if warehouse: # if the building is a warehouse,
+      var path_to_current_warehouse = move_by_cell.pathfinding.get_path_to_dest(self.global_position, building.global_position) # get the path to the warehouse.
+      if (self.path_to_warehouse == [] or len(path_to_current_warehouse) < len(path_to_warehouse)) and path_to_current_warehouse != null: # if the warehouse is closer than the last closest warehouse,
+        self.path_to_warehouse = []
+        for cell in path_to_current_warehouse:
+          self.path_to_warehouse.append(cell as Vector2)
 
 ## Finds the closest building that produces the needed resource, Note: For now, we will only collect from production buildings and not warehouses
 func get_building_to_collect_from(needed_resource: StringName) -> Building2D:
   if built_tilemap == null: # if the built tilemap is null, then return null
     return null
   var closest_building: Building2D = null # declare the closest building var to null
-  var distance_to_building: int = 0 # declare the distance to the building var 
+  var distance_to_building: int = 0 # declare the distance to the building
   for building in built_tilemap.building_position_to_building.values(): # loop through the buildings
     if building.is_resource_available(needed_resource): # if the building has the needed resource and it is its output,
       var path_to_building = move_by_cell.pathfinding.get_path_to_dest(self.global_position, building.global_position) # get the path to the building.
@@ -65,14 +89,44 @@ func get_building_to_collect_from(needed_resource: StringName) -> Building2D:
 
 ## Returns the best possible job at the moment
 func get_best_job() -> Job:
-  var needed_resources: Array[StringName] = parent_building.get_needed_resources()
-  for resource in needed_resources:
-    var building_to_collect_from: WorldThing2D = get_building_to_collect_from(resource)
-    if building_to_collect_from != null:
-      var amount_needed: int = building_storage.storage[resource]
-      var limited_amount: int = clamp(amount_needed, 0, sized_storage.storage_capacity)
-      return Job.new(resource, limited_amount, building_to_collect_from)
-  return null
+  var best_job: Job = null
+  var job_score: int = -1000000
+  for resource in self.building_storage.storage.keys():
+    var carry_in: bool = true
+    for production_line in self.production_line_components:
+      if production_line.produces.has(resource):
+        carry_in = false
+        break
+
+    var new_job: Job = Job.new(resource, 0, null, null)
+    var max_amount_to_carry: int = 0
+    if carry_in:
+      max_amount_to_carry = self.building_storage.max_capacity[resource] - self.building_storage.storage[resource]
+      new_job.building_to = self.parent_building
+      var building_to_collect_from: WorldThing2D = get_building_to_collect_from(resource)
+      if building_to_collect_from != null:
+        new_job.building_from = building_to_collect_from
+    elif path_to_warehouse != []:
+      max_amount_to_carry = self.building_storage.storage[resource]
+      new_job.building_from = self.built_tilemap.building_position_to_building.get(self.path_to_warehouse[-1])
+      new_job.building_to = self.parent_building
+
+    new_job.amount = clamp(max_amount_to_carry, 0, sized_storage.storage_capacity)
+    if new_job.building_from == null or new_job.building_to == null or new_job.amount == 0 or new_job.resource == ResourceConfig.Resources.NONE:
+      continue
+    var path_to_start = move_by_cell.pathfinding.get_path_to_dest(self.global_position, new_job.building_from.global_position)
+    if path_to_start == null:
+      continue
+    
+    var building_to_slot_storages: Array[SlotStorageComponent] = new_job.building_to.get_components(SlotStorageComponent)
+    if building_to_slot_storages == []:
+      continue
+    var new_job_score: int = min(new_job.amount, building_to_slot_storages[0].storage.get(new_job.resource) + 2) - len(path_to_start) /2 
+    if new_job_score > job_score:
+      best_job = new_job
+      job_score = new_job_score
+
+  return best_job
 
 
 func bring_resources_loop():
@@ -81,13 +135,13 @@ func bring_resources_loop():
     var job: Job = await wait_for_job()
     # go to the building to collect from
     self.visible = true
-    await move_by_cell.move_to_dest(job.building.global_position)
+    await self.move_by_cell.move(job.building_from.global_position)
     # collect the resource
     self.visible = false
     await load_resources(job)
     # go back
     self.visible = true
-    await move_by_cell.move_to_dest(parent_building.global_position)
+    await self.move_by_cell.move(job.building_to.global_position)
     # drop the resource
     self.visible = false
     await unload_resources(job)
@@ -102,13 +156,16 @@ func wait_for_job() -> Job:
   return best_job
 
 ## Loads the resources from the building
-func load_resources(job: Job) -> void:
-  await self.sleep(load_or_unload_time)
-  var amount_collected: int = job.building.load_resources(job.needed_resource, job.amount)
-  sized_storage.set_storage_item_amount(job.needed_resource, amount_collected)
+func load_resources(job: Job = self.job) -> void:
+  if job.building_from == null or job.building_from.is_queued_for_deletion():
+    return
+
+  var amount_collected: int = await job.building_from.load_resource(job.resource, job.amount)
+  sized_storage.set_storage_item_amount(job.resource, amount_collected)
 
 ## Unloads the resources at the building
-func unload_resources(job: Job) -> void:
-  await self.sleep(load_or_unload_time)
-  parent_building.unload_resources(job.needed_resource, sized_storage.storage[job.resource])
+func unload_resources(job: Job = self.job) -> void:
+  if job.building_to == null or job.building_to.is_queued_for_deletion():
+    return
+  await job.building_to.unload_resource(job.resource, sized_storage.storage[job.resource])
   sized_storage.storage = {}

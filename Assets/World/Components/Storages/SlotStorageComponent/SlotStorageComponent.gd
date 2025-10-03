@@ -13,7 +13,6 @@ func _ready():
   for resource in max_capacity.keys():
     if storage.has(resource) == false: # if the resource is not in the storage add it
       storage[resource] = 0
-  set_storage_item_amount(ResourceConfig.Resources.FLOUR, 2)
 
 ## Used to set the storage amount of a specific resource.[br]
 ## The resource key will be created if it does not exist in the storage.[br]

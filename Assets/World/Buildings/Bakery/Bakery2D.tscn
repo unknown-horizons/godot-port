@@ -10,6 +10,7 @@
 
 [node name="Bakery2D" type="Node2D"]
 script = ExtResource("1_Building2D_gd")
+building_type = 1
 
 [node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
 

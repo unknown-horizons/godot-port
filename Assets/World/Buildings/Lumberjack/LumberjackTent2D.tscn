@@ -1,29 +1,40 @@
-[gd_scene load_steps=8 format=3 uid="uid://cxg537ramv08c"]
+[gd_scene load_steps=9 format=3 uid="uid://oh3qwuivikf1"]
 
-[ext_resource type="PackedScene" uid="uid://c14jc7hm1oowb" path="res://Assets/World/Buildings/ProductionBuilding2D.tscn" id="1_ProductionBuilding2D"]
-[ext_resource type="Script" uid="uid://dc1qowx8nckbl" path="res://Assets/World/Buildings/Lumberjack/LumberjackTent2D.gd" id="2_script"]
-[ext_resource type="Resource" uid="uid://d4c5ibkax2eb5" path="res://Assets/World/Data/BuildingData/LumberjackData.tres" id="3_building_data"]
-[ext_resource type="Texture2D" uid="uid://c10dpbgiopt0d" path="res://Assets/World/Buildings/Lumberjack/Sprites/LumberjackTent_idle.png" id="4_building_sprite"]
+[ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_avpko"]
+[ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="2_s4j2s"]
+[ext_resource type="SpriteFrames" uid="uid://c0yh4n4cjdv1b" path="res://Assets/World/Buildings/Lumberjack/Sprites/LumberjackFrames.tres" id="3_apqin"]
+[ext_resource type="PackedScene" uid="uid://dyqwsks6v6puj" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.tscn" id="3_s5kis"]
 [ext_resource type="PackedScene" uid="uid://dnixn1uc3bjuc" path="res://Assets/World/Buildings/Lumberjack/Lumberjack/Lumberjack2D.tscn" id="4_dwcry"]
-[ext_resource type="Texture2D" uid="uid://dw84wlw36s6q5" path="res://Assets/UI/Icons/Resources/32/004.png" id="5_tooltip_image"]
+[ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="4_fqfs6"]
+[ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_6a481"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="6_selectable"]
 
-[node name="LumberjackTent2D" instance=ExtResource("1_ProductionBuilding2D")]
-script = ExtResource("2_script")
-unload_wood_time = 2
-building_data = ExtResource("3_building_data")
+[node name="LumerjackTent2D" type="Node2D"]
+script = ExtResource("1_avpko")
+building_type = 2
 
-[node name="BuildingSprite" type="Sprite2D" parent="." index="0"]
-texture = ExtResource("4_building_sprite")
-region_enabled = true
-region_rect = Rect2(0, 64, 128, 64)
+[node name="BuildingActionSet" parent="." instance=ExtResource("2_s4j2s")]
+sprite_frames = ExtResource("3_apqin")
 
-[node name="Lumberjack" parent="." index="1" instance=ExtResource("4_dwcry")]
+[node name="BuildingCollectorComponent" parent="." instance=ExtResource("3_s5kis")]
+
+[node name="ProductionLineComponent" parent="." instance=ExtResource("4_fqfs6")]
+consumes = Dictionary[int, int]({
+4: 1
+})
+produces = Dictionary[int, int]({
+3: 1
+})
+production_time = 3.0
+
+[node name="SlotStorageComponent" parent="." instance=ExtResource("5_6a481")]
+max_capacity = Dictionary[int, int]({
+3: 10,
+4: 10
+})
+
+[node name="Selectable" parent="." instance=ExtResource("6_selectable")]
+
+[node name="Lumberjack" parent="." instance=ExtResource("4_dwcry")]
 visible = false
-speed_px_per_sec = 64.0
-
-[node name="ItemProducedTooltip" parent="." index="3"]
-texture = ExtResource("5_tooltip_image")
-amount = "0"
-
-[node name="Selectable" parent="." index="4" instance=ExtResource("6_selectable")]
+unload_time = 1.0
