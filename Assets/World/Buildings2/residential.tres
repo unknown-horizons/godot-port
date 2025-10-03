@@ -1,0 +1,1559 @@
+[gd_resource type="SpriteFrames" load_steps=187 format=3 uid="uid://e0b5vyyr2l2q"]
+
+[ext_resource type="Texture2D" uid="uid://d4ge81kpmve1u" path="res://Assets/World/Buildings2/residential_citizens_as_stonehouse0_idle.png" id="residential_citizens_as_stonehouse0_idle"]
+[ext_resource type="Texture2D" uid="uid://6kb32l14sd08" path="res://Assets/World/Buildings2/residential_citizens_as_stonehouse1_idle.png" id="residential_citizens_as_stonehouse1_idle"]
+[ext_resource type="Texture2D" uid="uid://c8e52xud7v1r0" path="res://Assets/World/Buildings2/residential_citizens_as_stonehouse2_idle.png" id="residential_citizens_as_stonehouse2_idle"]
+[ext_resource type="Texture2D" uid="uid://dwohc3h6fsflm" path="res://Assets/World/Buildings2/residential_citizens_as_stonehouse3_idle.png" id="residential_citizens_as_stonehouse3_idle"]
+[ext_resource type="Texture2D" uid="uid://deo5oycf2efvu" path="res://Assets/World/Buildings2/residential_merchants_as_estate0_idle.png" id="residential_merchants_as_estate0_idle"]
+[ext_resource type="Texture2D" uid="uid://cvrnqec36ky33" path="res://Assets/World/Buildings2/residential_merchants_as_estate1_idle.png" id="residential_merchants_as_estate1_idle"]
+[ext_resource type="Texture2D" uid="uid://cod4im6qdxe3e" path="res://Assets/World/Buildings2/residential_pioneers_as_hut0_idle.png" id="residential_pioneers_as_hut0_idle"]
+[ext_resource type="Texture2D" uid="uid://2xph07rkjkb1" path="res://Assets/World/Buildings2/residential_pioneers_as_hut1_idle.png" id="residential_pioneers_as_hut1_idle"]
+[ext_resource type="Texture2D" uid="uid://kcjy4dsrisq4" path="res://Assets/World/Buildings2/residential_pioneers_as_hut2_idle.png" id="residential_pioneers_as_hut2_idle"]
+[ext_resource type="Texture2D" uid="uid://cdpqqfp2sb2ef" path="res://Assets/World/Buildings2/residential_sailors_as_tent0_idle.png" id="residential_sailors_as_tent0_idle"]
+[ext_resource type="Texture2D" uid="uid://dv2thj12rx2ar" path="res://Assets/World/Buildings2/residential_sailors_as_tent1_idle.png" id="residential_sailors_as_tent1_idle"]
+[ext_resource type="Texture2D" uid="uid://2cd7sb01p8co" path="res://Assets/World/Buildings2/residential_sailors_as_tent2_idle.png" id="residential_sailors_as_tent2_idle"]
+[ext_resource type="Texture2D" uid="uid://d318qbjogda30" path="res://Assets/World/Buildings2/residential_sailors_as_tent3_idle.png" id="residential_sailors_as_tent3_idle"]
+[ext_resource type="Texture2D" uid="uid://ysgnnpnuxmo7" path="res://Assets/World/Buildings2/residential_sailors_as_tent4_idle.png" id="residential_sailors_as_tent4_idle"]
+[ext_resource type="Texture2D" uid="uid://drdtarse5q63w" path="res://Assets/World/Buildings2/residential_sailors_as_tent5_idle.png" id="residential_sailors_as_tent5_idle"]
+[ext_resource type="Texture2D" uid="uid://lctsnf4y7rml" path="res://Assets/World/Buildings2/residential_settlers_as_house0_idle.png" id="residential_settlers_as_house0_idle"]
+[ext_resource type="Texture2D" uid="uid://ckx28hniofc58" path="res://Assets/World/Buildings2/residential_settlers_as_house1_idle.png" id="residential_settlers_as_house1_idle"]
+[ext_resource type="Texture2D" uid="uid://b1ihe4jv1eyur" path="res://Assets/World/Buildings2/residential_settlers_as_house2_idle.png" id="residential_settlers_as_house2_idle"]
+
+[sub_resource type="AtlasTexture" id="estate0_merchants_idle_045_0_0"]
+atlas = ExtResource("residential_merchants_as_estate0_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="estate0_merchants_idle_135_0_128"]
+atlas = ExtResource("residential_merchants_as_estate0_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="estate0_merchants_idle_225_0_256"]
+atlas = ExtResource("residential_merchants_as_estate0_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="estate0_merchants_idle_315_0_384"]
+atlas = ExtResource("residential_merchants_as_estate0_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="estate1_merchants_idle_045_0_0"]
+atlas = ExtResource("residential_merchants_as_estate1_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="estate1_merchants_idle_135_0_128"]
+atlas = ExtResource("residential_merchants_as_estate1_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="estate1_merchants_idle_225_0_256"]
+atlas = ExtResource("residential_merchants_as_estate1_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="estate1_merchants_idle_315_0_384"]
+atlas = ExtResource("residential_merchants_as_estate1_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="house0_settlers_idle_045_0_0"]
+atlas = ExtResource("residential_settlers_as_house0_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="house0_settlers_idle_135_0_128"]
+atlas = ExtResource("residential_settlers_as_house0_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="house0_settlers_idle_225_0_256"]
+atlas = ExtResource("residential_settlers_as_house0_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="house0_settlers_idle_315_0_384"]
+atlas = ExtResource("residential_settlers_as_house0_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="house1_settlers_idle_045_0_0"]
+atlas = ExtResource("residential_settlers_as_house1_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="house1_settlers_idle_135_0_128"]
+atlas = ExtResource("residential_settlers_as_house1_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="house1_settlers_idle_225_0_256"]
+atlas = ExtResource("residential_settlers_as_house1_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="house1_settlers_idle_315_0_384"]
+atlas = ExtResource("residential_settlers_as_house1_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="house2_settlers_idle_045_0_0"]
+atlas = ExtResource("residential_settlers_as_house2_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="house2_settlers_idle_135_0_128"]
+atlas = ExtResource("residential_settlers_as_house2_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="house2_settlers_idle_225_0_256"]
+atlas = ExtResource("residential_settlers_as_house2_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="house2_settlers_idle_315_0_384"]
+atlas = ExtResource("residential_settlers_as_house2_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hut0_pioneers_idle_045_0_0"]
+atlas = ExtResource("residential_pioneers_as_hut0_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hut0_pioneers_idle_135_0_128"]
+atlas = ExtResource("residential_pioneers_as_hut0_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hut0_pioneers_idle_225_0_256"]
+atlas = ExtResource("residential_pioneers_as_hut0_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hut0_pioneers_idle_315_0_384"]
+atlas = ExtResource("residential_pioneers_as_hut0_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hut1_pioneers_idle_045_0_0"]
+atlas = ExtResource("residential_pioneers_as_hut1_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hut1_pioneers_idle_135_0_128"]
+atlas = ExtResource("residential_pioneers_as_hut1_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hut1_pioneers_idle_225_0_256"]
+atlas = ExtResource("residential_pioneers_as_hut1_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hut1_pioneers_idle_315_0_384"]
+atlas = ExtResource("residential_pioneers_as_hut1_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hut2_pioneers_idle_045_0_0"]
+atlas = ExtResource("residential_pioneers_as_hut2_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hut2_pioneers_idle_135_0_128"]
+atlas = ExtResource("residential_pioneers_as_hut2_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hut2_pioneers_idle_225_0_256"]
+atlas = ExtResource("residential_pioneers_as_hut2_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hut2_pioneers_idle_315_0_384"]
+atlas = ExtResource("residential_pioneers_as_hut2_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse0_citizens_idle_045_0_0"]
+atlas = ExtResource("residential_citizens_as_stonehouse0_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse0_citizens_idle_135_0_128"]
+atlas = ExtResource("residential_citizens_as_stonehouse0_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse0_citizens_idle_225_0_256"]
+atlas = ExtResource("residential_citizens_as_stonehouse0_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse0_citizens_idle_315_0_384"]
+atlas = ExtResource("residential_citizens_as_stonehouse0_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse1_citizens_idle_045_0_0"]
+atlas = ExtResource("residential_citizens_as_stonehouse1_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse1_citizens_idle_135_0_128"]
+atlas = ExtResource("residential_citizens_as_stonehouse1_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse1_citizens_idle_225_0_256"]
+atlas = ExtResource("residential_citizens_as_stonehouse1_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse1_citizens_idle_315_0_384"]
+atlas = ExtResource("residential_citizens_as_stonehouse1_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse2_citizens_idle_045_0_0"]
+atlas = ExtResource("residential_citizens_as_stonehouse2_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse2_citizens_idle_135_0_128"]
+atlas = ExtResource("residential_citizens_as_stonehouse2_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse2_citizens_idle_225_0_256"]
+atlas = ExtResource("residential_citizens_as_stonehouse2_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse2_citizens_idle_315_0_384"]
+atlas = ExtResource("residential_citizens_as_stonehouse2_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse3_citizens_idle_045_0_0"]
+atlas = ExtResource("residential_citizens_as_stonehouse3_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse3_citizens_idle_135_0_128"]
+atlas = ExtResource("residential_citizens_as_stonehouse3_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse3_citizens_idle_225_0_256"]
+atlas = ExtResource("residential_citizens_as_stonehouse3_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="stonehouse3_citizens_idle_315_0_384"]
+atlas = ExtResource("residential_citizens_as_stonehouse3_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent0_sailors_idle_045_0_0"]
+atlas = ExtResource("residential_sailors_as_tent0_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent0_sailors_idle_135_0_128"]
+atlas = ExtResource("residential_sailors_as_tent0_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent0_sailors_idle_225_0_256"]
+atlas = ExtResource("residential_sailors_as_tent0_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent0_sailors_idle_315_0_384"]
+atlas = ExtResource("residential_sailors_as_tent0_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_0_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_128_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_256_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_384_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_512_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_640_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_768_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(768, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_896_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_1024_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1024, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_1152_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1152, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_1280_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1280, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_1408_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1408, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_1536_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1536, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_1664_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1664, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_1792_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1792, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_1920_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1920, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_2048_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2048, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_2176_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2176, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_2304_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2304, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_2432_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2432, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_2560_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2560, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_2688_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2688, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_2816_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2816, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_2944_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2944, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_045_3072_0"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(3072, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_0_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_128_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(128, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_256_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(256, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_384_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(384, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_512_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(512, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_640_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(640, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_768_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(768, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_896_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(896, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_1024_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1024, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_1152_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1152, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_1280_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1280, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_1408_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1408, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_1536_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1536, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_1664_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1664, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_1792_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1792, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_1920_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1920, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_2048_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2048, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_2176_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2176, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_2304_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2304, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_2432_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2432, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_2560_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2560, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_2688_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2688, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_2816_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2816, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_2944_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2944, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_135_3072_128"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(3072, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_0_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_128_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(128, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_256_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(256, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_384_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(384, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_512_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(512, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_640_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(640, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_768_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(768, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_896_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(896, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_1024_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1024, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_1152_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1152, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_1280_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1280, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_1408_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1408, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_1536_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1536, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_1664_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1664, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_1792_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1792, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_1920_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1920, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_2048_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2048, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_2176_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2176, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_2304_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2304, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_2432_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2432, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_2560_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2560, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_2688_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2688, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_2816_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2816, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_2944_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2944, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_225_3072_256"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(3072, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_0_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_128_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(128, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_256_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(256, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_384_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(384, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_512_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(512, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_640_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(640, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_768_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(768, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_896_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(896, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_1024_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1024, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_1152_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1152, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_1280_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1280, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_1408_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1408, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_1536_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1536, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_1664_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1664, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_1792_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1792, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_1920_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(1920, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_2048_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2048, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_2176_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2176, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_2304_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2304, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_2432_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2432, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_2560_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2560, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_2688_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2688, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_2816_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2816, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_2944_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(2944, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent1_sailors_idle_315_3072_384"]
+atlas = ExtResource("residential_sailors_as_tent1_idle")
+region = Rect2(3072, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent2_sailors_idle_045_0_0"]
+atlas = ExtResource("residential_sailors_as_tent2_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent2_sailors_idle_135_0_128"]
+atlas = ExtResource("residential_sailors_as_tent2_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent2_sailors_idle_225_0_256"]
+atlas = ExtResource("residential_sailors_as_tent2_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent2_sailors_idle_315_0_384"]
+atlas = ExtResource("residential_sailors_as_tent2_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent3_sailors_idle_045_0_0"]
+atlas = ExtResource("residential_sailors_as_tent3_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent3_sailors_idle_135_0_128"]
+atlas = ExtResource("residential_sailors_as_tent3_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent3_sailors_idle_225_0_256"]
+atlas = ExtResource("residential_sailors_as_tent3_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent3_sailors_idle_315_0_384"]
+atlas = ExtResource("residential_sailors_as_tent3_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent4_sailors_idle_045_0_0"]
+atlas = ExtResource("residential_sailors_as_tent4_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent4_sailors_idle_135_0_128"]
+atlas = ExtResource("residential_sailors_as_tent4_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent4_sailors_idle_225_0_256"]
+atlas = ExtResource("residential_sailors_as_tent4_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent4_sailors_idle_315_0_384"]
+atlas = ExtResource("residential_sailors_as_tent4_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent5_sailors_idle_045_0_0"]
+atlas = ExtResource("residential_sailors_as_tent5_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent5_sailors_idle_135_0_128"]
+atlas = ExtResource("residential_sailors_as_tent5_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent5_sailors_idle_225_0_256"]
+atlas = ExtResource("residential_sailors_as_tent5_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tent5_sailors_idle_315_0_384"]
+atlas = ExtResource("residential_sailors_as_tent5_idle")
+region = Rect2(0, 384, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("estate0_merchants_idle_045_0_0")
+}],
+"loop": true,
+"name": &"estate0_merchants_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("estate0_merchants_idle_135_0_128")
+}],
+"loop": true,
+"name": &"estate0_merchants_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("estate0_merchants_idle_225_0_256")
+}],
+"loop": true,
+"name": &"estate0_merchants_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("estate0_merchants_idle_315_0_384")
+}],
+"loop": true,
+"name": &"estate0_merchants_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("estate1_merchants_idle_045_0_0")
+}],
+"loop": true,
+"name": &"estate1_merchants_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("estate1_merchants_idle_135_0_128")
+}],
+"loop": true,
+"name": &"estate1_merchants_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("estate1_merchants_idle_225_0_256")
+}],
+"loop": true,
+"name": &"estate1_merchants_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("estate1_merchants_idle_315_0_384")
+}],
+"loop": true,
+"name": &"estate1_merchants_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("house0_settlers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"house0_settlers_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("house0_settlers_idle_135_0_128")
+}],
+"loop": true,
+"name": &"house0_settlers_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("house0_settlers_idle_225_0_256")
+}],
+"loop": true,
+"name": &"house0_settlers_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("house0_settlers_idle_315_0_384")
+}],
+"loop": true,
+"name": &"house0_settlers_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("house1_settlers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"house1_settlers_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("house1_settlers_idle_135_0_128")
+}],
+"loop": true,
+"name": &"house1_settlers_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("house1_settlers_idle_225_0_256")
+}],
+"loop": true,
+"name": &"house1_settlers_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("house1_settlers_idle_315_0_384")
+}],
+"loop": true,
+"name": &"house1_settlers_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("house2_settlers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"house2_settlers_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("house2_settlers_idle_135_0_128")
+}],
+"loop": true,
+"name": &"house2_settlers_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("house2_settlers_idle_225_0_256")
+}],
+"loop": true,
+"name": &"house2_settlers_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("house2_settlers_idle_315_0_384")
+}],
+"loop": true,
+"name": &"house2_settlers_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hut0_pioneers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"hut0_pioneers_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hut0_pioneers_idle_135_0_128")
+}],
+"loop": true,
+"name": &"hut0_pioneers_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hut0_pioneers_idle_225_0_256")
+}],
+"loop": true,
+"name": &"hut0_pioneers_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hut0_pioneers_idle_315_0_384")
+}],
+"loop": true,
+"name": &"hut0_pioneers_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hut1_pioneers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"hut1_pioneers_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hut1_pioneers_idle_135_0_128")
+}],
+"loop": true,
+"name": &"hut1_pioneers_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hut1_pioneers_idle_225_0_256")
+}],
+"loop": true,
+"name": &"hut1_pioneers_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hut1_pioneers_idle_315_0_384")
+}],
+"loop": true,
+"name": &"hut1_pioneers_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hut2_pioneers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"hut2_pioneers_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hut2_pioneers_idle_135_0_128")
+}],
+"loop": true,
+"name": &"hut2_pioneers_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hut2_pioneers_idle_225_0_256")
+}],
+"loop": true,
+"name": &"hut2_pioneers_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hut2_pioneers_idle_315_0_384")
+}],
+"loop": true,
+"name": &"hut2_pioneers_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse0_citizens_idle_045_0_0")
+}],
+"loop": true,
+"name": &"stonehouse0_citizens_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse0_citizens_idle_135_0_128")
+}],
+"loop": true,
+"name": &"stonehouse0_citizens_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse0_citizens_idle_225_0_256")
+}],
+"loop": true,
+"name": &"stonehouse0_citizens_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse0_citizens_idle_315_0_384")
+}],
+"loop": true,
+"name": &"stonehouse0_citizens_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse1_citizens_idle_045_0_0")
+}],
+"loop": true,
+"name": &"stonehouse1_citizens_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse1_citizens_idle_135_0_128")
+}],
+"loop": true,
+"name": &"stonehouse1_citizens_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse1_citizens_idle_225_0_256")
+}],
+"loop": true,
+"name": &"stonehouse1_citizens_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse1_citizens_idle_315_0_384")
+}],
+"loop": true,
+"name": &"stonehouse1_citizens_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse2_citizens_idle_045_0_0")
+}],
+"loop": true,
+"name": &"stonehouse2_citizens_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse2_citizens_idle_135_0_128")
+}],
+"loop": true,
+"name": &"stonehouse2_citizens_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse2_citizens_idle_225_0_256")
+}],
+"loop": true,
+"name": &"stonehouse2_citizens_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse2_citizens_idle_315_0_384")
+}],
+"loop": true,
+"name": &"stonehouse2_citizens_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse3_citizens_idle_045_0_0")
+}],
+"loop": true,
+"name": &"stonehouse3_citizens_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse3_citizens_idle_135_0_128")
+}],
+"loop": true,
+"name": &"stonehouse3_citizens_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse3_citizens_idle_225_0_256")
+}],
+"loop": true,
+"name": &"stonehouse3_citizens_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonehouse3_citizens_idle_315_0_384")
+}],
+"loop": true,
+"name": &"stonehouse3_citizens_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent0_sailors_idle_045_0_0")
+}],
+"loop": true,
+"name": &"tent0_sailors_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent0_sailors_idle_135_0_128")
+}],
+"loop": true,
+"name": &"tent0_sailors_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent0_sailors_idle_225_0_256")
+}],
+"loop": true,
+"name": &"tent0_sailors_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent0_sailors_idle_315_0_384")
+}],
+"loop": true,
+"name": &"tent0_sailors_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_128_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_256_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_384_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_512_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_640_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_768_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_896_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_1024_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_1152_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_1280_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_1408_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_1536_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_1664_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_1792_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_1920_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_2048_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_2176_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_2304_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_2432_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_2560_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_2688_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_2816_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_2944_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_045_3072_0")
+}],
+"loop": true,
+"name": &"tent1_sailors_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_0_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_128_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_256_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_384_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_512_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_640_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_768_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_896_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_1024_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_1152_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_1280_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_1408_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_1536_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_1664_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_1792_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_1920_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_2048_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_2176_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_2304_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_2432_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_2560_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_2688_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_2816_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_2944_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_135_3072_128")
+}],
+"loop": true,
+"name": &"tent1_sailors_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_0_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_128_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_256_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_384_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_512_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_640_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_768_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_896_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_1024_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_1152_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_1280_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_1408_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_1536_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_1664_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_1792_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_1920_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_2048_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_2176_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_2304_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_2432_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_2560_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_2688_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_2816_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_2944_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_225_3072_256")
+}],
+"loop": true,
+"name": &"tent1_sailors_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_0_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_128_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_256_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_384_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_512_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_640_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_768_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_896_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_1024_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_1152_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_1280_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_1408_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_1536_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_1664_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_1792_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_1920_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_2048_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_2176_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_2304_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_2432_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_2560_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_2688_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_2816_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_2944_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("tent1_sailors_idle_315_3072_384")
+}],
+"loop": true,
+"name": &"tent1_sailors_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent2_sailors_idle_045_0_0")
+}],
+"loop": true,
+"name": &"tent2_sailors_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent2_sailors_idle_135_0_128")
+}],
+"loop": true,
+"name": &"tent2_sailors_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent2_sailors_idle_225_0_256")
+}],
+"loop": true,
+"name": &"tent2_sailors_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent2_sailors_idle_315_0_384")
+}],
+"loop": true,
+"name": &"tent2_sailors_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent3_sailors_idle_045_0_0")
+}],
+"loop": true,
+"name": &"tent3_sailors_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent3_sailors_idle_135_0_128")
+}],
+"loop": true,
+"name": &"tent3_sailors_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent3_sailors_idle_225_0_256")
+}],
+"loop": true,
+"name": &"tent3_sailors_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent3_sailors_idle_315_0_384")
+}],
+"loop": true,
+"name": &"tent3_sailors_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent4_sailors_idle_045_0_0")
+}],
+"loop": true,
+"name": &"tent4_sailors_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent4_sailors_idle_135_0_128")
+}],
+"loop": true,
+"name": &"tent4_sailors_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent4_sailors_idle_225_0_256")
+}],
+"loop": true,
+"name": &"tent4_sailors_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent4_sailors_idle_315_0_384")
+}],
+"loop": true,
+"name": &"tent4_sailors_idle_315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent5_sailors_idle_045_0_0")
+}],
+"loop": true,
+"name": &"tent5_sailors_idle_045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent5_sailors_idle_135_0_128")
+}],
+"loop": true,
+"name": &"tent5_sailors_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent5_sailors_idle_225_0_256")
+}],
+"loop": true,
+"name": &"tent5_sailors_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tent5_sailors_idle_315_0_384")
+}],
+"loop": true,
+"name": &"tent5_sailors_idle_315",
+"speed": 5.0
+}]

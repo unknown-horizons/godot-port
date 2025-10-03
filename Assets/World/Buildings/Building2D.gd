@@ -6,6 +6,7 @@ class_name Building2D
 
 func _ready():
   setup_components()
+  CamUtils.center_if_no_camera(self)
 
 func setup_components() -> void:
   # get a list of all the child components
@@ -60,8 +61,8 @@ func get_needed_resources() -> Array[StringName]:
       max_amount = sized_storage.storage_capacity
       amount_in_stock = sized_storage.storage.get(resource)
     elif slot_storage != null:
-      max_amount = slot_storage.max_capacity.get(resource)
-      amount_in_stock = slot_storage.storage.get(resource)
+      max_amount = slot_storage.max_capacity.get(resource, 0)
+      amount_in_stock = slot_storage.storage.get(resource, 0)
     
     amount_needed = max_amount - amount_in_stock
     needed_resources[resource] = amount_needed
