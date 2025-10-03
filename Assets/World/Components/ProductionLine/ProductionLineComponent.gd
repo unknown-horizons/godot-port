@@ -96,7 +96,7 @@ func has_enough_resources() -> bool:
   if storage_component == null: # if there is no storage then no resources
     return false
   for resource in self.consumes:
-    var available_resource_amount = storage_component.storage.get(resource) as int
+    var available_resource_amount: int = storage_component.storage.get(resource, 0)
     var needed_resource_amount: int = consumes[resource]
     if available_resource_amount == null or available_resource_amount < needed_resource_amount:
       return false
@@ -106,7 +106,7 @@ func spend_resources():
   if storage_component == null: # if there is no storage then no resources
     return
   for resource in consumes:
-    var available_resource_amount: int = storage_component.storage.get(resource)
+    var available_resource_amount: int = storage_component.storage.get(resource, 0)
     var needed_resource_amount: int = consumes[resource]
     if available_resource_amount >= needed_resource_amount: # for the case that the resources were not checked before (from unusual function, e.t.c.)
       storage_component.set_storage_item_amount(resource, available_resource_amount - needed_resource_amount)

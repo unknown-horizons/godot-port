@@ -1,0 +1,140 @@
+[gd_scene load_steps=8 format=3 uid="uid://bdvte7s6mnew2"]
+
+[ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_Building2D_gd"]
+[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
+[ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
+[ext_resource type="SpriteFrames" uid="uid://e0b5vyyr2l2q" path="res://Assets/World/Buildings2/residential.tres" id="4_sprite_frames"]
+[ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
+[ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
+[ext_resource type="PackedScene" uid="uid://dyqwsks6v6puj" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.tscn" id="7_building_collector_component"]
+
+[node name="{\'TIER_SAILORS\'_ \'_ Tent\', \'TIER_PIONEERS\'_ \'_ Hut\', \'TIER_SETTLERS\'_ \'_ House\', \'TIER_CITIZENS\'_ \'_ Stone house\', \'TIER_MERCHANTS\'_ \'_ Estate\', \'TIER_ARISTOCRATS\'_ \'_ Manor\'}" type="Node2D"]
+script = ExtResource("1_Building2D_gd")
+
+[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+
+[node name="ProductionLineComponent_30" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.COMMUNITY": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 1
+})
+
+[node name="ProductionLineComponent_72" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.FAITH": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 5
+})
+
+[node name="ProductionLineComponent_21" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.FAITH": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 3
+})
+
+[node name="ProductionLineComponent_71" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.FOOD": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 15
+})
+
+[node name="ProductionLineComponent_19" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.FOOD": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 13
+})
+
+[node name="ProductionLineComponent_43" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.FOOD": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 12
+})
+
+[node name="ProductionLineComponent_26" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.EDUCATION": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 3
+})
+
+[node name="ProductionLineComponent_44" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.EDUCATION": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 5
+})
+
+[node name="ProductionLineComponent_20" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.TEXTILE": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 5
+})
+
+[node name="ProductionLineComponent_41" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.GET_TOGETHER": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 4
+})
+
+[node name="ProductionLineComponent_69" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.SALT": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 4
+})
+
+[node name="ProductionLineComponent_70" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.TOBACCO_PRODUCTS": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 5
+})
+
+[node name="ProductionLineComponent_HYGIENE" parent="." instance=ExtResource("6_production_line_component")]
+consumes = Dictionary[StringName, int]({
+&"RES.HYGIENE": -1
+})
+produces = Dictionary[StringName, int]({
+&"RES.HAPPINESS": 5
+})
+
+[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+max_capacity = Dictionary[StringName, int]({
+&"RES.BLACKDEATH": 1,
+&"RES.COMMUNITY": 1,
+&"RES.EDUCATION": 1,
+&"RES.FAITH": 1,
+&"RES.FIRE": 1,
+&"RES.FOOD": 1,
+&"RES.GET_TOGETHER": 1,
+&"RES.HAPPINESS": 100,
+&"RES.HYGIENE": 1,
+&"RES.SALT": 1,
+&"RES.TEXTILE": 1,
+&"RES.TOBACCO_PRODUCTS": 1
+})
+
+[node name="BuildingCollectorComponent" parent="." instance=ExtResource("7_building_collector_component")]
+
+[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+sprite_frames = ExtResource("4_sprite_frames")
+current_as_name = "tent0"
