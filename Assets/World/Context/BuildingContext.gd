@@ -13,7 +13,7 @@ class_name BuildingContext
 
 ## The building to build.
 ## Note: The context will become active and reset the reference object if the property is set.
-var building_to_build: BuildingData = null:
+var building_to_build: BuildingConfig.Buildings = BuildingConfig.Buildings.NONE:
   get:
     return building_to_build
   set(value):
@@ -35,10 +35,10 @@ func context_exited() -> void:
   highlighter.clear()
 
 func _unhandled_input(event: InputEvent) -> void:
-  var build_building_data: BuildingData
+  var build_building_data: BuildingConfig.Buildings
 
   if event.is_action_pressed("toggle_build_building"):
-    build_building_data = event.get_meta("building_data")
+    build_building_data = BuildingConfig.Buildings.get(event.get_meta("button_name").replace("Build", "").replace("Button", "").to_upper())
     if build_building_data == null:
       push_error("`toggle_build_building` action is pressed, but `building_name` meta is null or empty.")
 
@@ -72,8 +72,8 @@ func _process(_delta):
   if self.is_active:
     update_building_highlight()
 
-func can_build_building(building_world_position: Vector2 = built_tilemap.to_local(built_tilemap.get_global_mouse_position()), building: BuildingData = building_to_build) -> bool:
-  if building == null:
+func can_build_building(building_world_position: Vector2 = built_tilemap.to_local(built_tilemap.get_global_mouse_position()), building: BuildingConfig.Buildings = building_to_build) -> bool:
+  if building == BuildingConfig.Buildings.NONE:
     return false
   var building_tile_position = built_tilemap.local_to_map(building_world_position)
   building_world_position = built_tilemap.map_to_local(building_tile_position) # center out the world position by tile
@@ -101,29 +101,29 @@ func can_build_building(building_world_position: Vector2 = built_tilemap.to_loca
       return false
   
   # make sure that there is enough resources
-  if has_resources_for_building(building) == false:
-    return false
-  
-  return true
+  return has_resources_for_building(building)
 
 func update_building_highlight(building_tile_position: Vector2i = built_tilemap.local_to_map(built_tilemap.to_local(built_tilemap.get_global_mouse_position()))) -> void:
-  var building_instance: Building2D2 = null
+  var building_instance: Node2D = null
   if building_tile_position != last_highlighted_building_position or len(highlighter.highlighted_objects) == 0: # if the mouse moved or there is no highlighted building, then update the highlighter
     last_highlighted_building_position = building_tile_position # update the last highlighted building position
     highlighter.clear() # clear the highlighter
-    highlighter.set_cell(building_tile_position, 0, Vector2i.ZERO, building_to_build.building_tile) # add the building highlight
+    var building_atlas_position: Vector2i = BuildingConfig.building_to_tile[building_to_build]
+    highlighter.set_cell(building_tile_position, building_atlas_position.x, Vector2i.ZERO, building_atlas_position.y) # add the building highlight
     building_instance = await highlighter.new_building_added # wait for the building highlight to be added
-    building_instance.highlight_shader = building_shader
 
   elif building_instance == null: # The highlighted_objects is not empty becouse the previous if statement would be entered and set the building_instance
     building_instance = highlighter.highlighted_objects[0]
   # now that the building instance is not null, highlight is updated, and the shader is set, set the shader to correct color
-  building_instance.highlight_shader.set_shader_parameter("can_build", can_build_building(built_tilemap.map_to_local(building_tile_position)))
-  building_instance.is_highlight = true
+  var building_instance_2D: Building2D = building_instance as Building2D
+  if building_instance_2D:
+    building_instance_2D.set_can_build_highlight(can_build_building(built_tilemap.map_to_local(building_tile_position)))
+    building_instance_2D.paused = true
 
-func has_resources_for_building(building_data: BuildingData = building_to_build) -> bool:
-  for resource: StringName in building_data.cost.keys():
-    var amount_needed: int = building_data.cost[resource]
+func has_resources_for_building(building: BuildingConfig.Buildings = building_to_build) -> bool:
+  var cost: Dictionary = BuildingConfig.building_to_cost[building] as Dictionary[StringName, int]
+  for resource: StringName in cost.keys():
+    var amount_needed: int = cost[resource]
     var amount_available = GameStats.game_stats_resource.resources.get(resource)
     var can_be_built: bool = amount_available != null and amount_needed <= amount_available
     if not can_be_built:
@@ -131,9 +131,10 @@ func has_resources_for_building(building_data: BuildingData = building_to_build)
       return false
   return true
 
-func spend_resources_for_building(building_data: BuildingData = building_to_build) -> void:
-  for resource: StringName in building_data.cost.keys():
-    var amount_needed: int = building_data.cost[resource]
+func spend_resources_for_building(building: BuildingConfig.Buildings = building_to_build) -> void:
+  var cost: Dictionary = BuildingConfig.building_to_cost[building] as Dictionary[StringName, int]
+  for resource: StringName in cost.keys():
+    var amount_needed: int = cost[resource]
     GameStats.game_stats_resource.resources[resource] -= amount_needed
     print("the amount of %s is now %s" % [str(resource).capitalize(), GameStats.game_stats_resource.resources[resource]])
 
@@ -141,7 +142,8 @@ func build(building_world_position: Vector2 = built_tilemap.to_local(built_tilem
   ## The tile position of the new building
   var building_tile_position = built_tilemap.local_to_map(building_world_position)
   building_world_position = built_tilemap.map_to_local(building_tile_position) # The centered position of the new building
-  if building_to_build != null and can_build_building(building_world_position): # If there is a building to build and it can be built
+  if building_to_build != BuildingConfig.Buildings.NONE and can_build_building(building_world_position): # If there is a building to build and it can be built
     spend_resources_for_building()
-    built_tilemap.set_cell(building_tile_position, 0, Vector2i.ZERO, building_to_build.building_tile)
+    var building_atlas_position: Vector2i = BuildingConfig.building_to_tile[building_to_build]
+    built_tilemap.set_cell(building_tile_position, building_atlas_position.x, Vector2i.ZERO, building_atlas_position.y)
     highlighter.clear()

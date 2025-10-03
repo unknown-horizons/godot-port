@@ -103,8 +103,10 @@ func _set(property_name, val):
 var per_tier_animation_names: Array[Array] = []
 
 func _ready():
-  if animated_sprite:
-    animated_sprite.sprite_frames = sprite_frames
+  # when ready, update the sprite frames and copy the shader(isn't copied by default)
+  if self.animated_sprite:
+    self.animated_sprite.sprite_frames = sprite_frames
+    self.animated_sprite.material = self.animated_sprite.material.duplicate()
 
   # initialize the per_tier_animation_names from self.sprite_frames.get_animation_names()
   per_tier_animation_names.resize(ActionSetEnum.tiers.MERCHANTS + 1)
@@ -168,3 +170,8 @@ func update_animation() -> void:
       push_error("No animation at or below current tier, how did the building get on the map?")
     animation_name = self.sprite_frames.get_animation_names()[0] # use first animation as fallback
   animated_sprite.play(animation_name)
+
+func set_can_build_shader(can_build: bool) -> void:
+  if self.animated_sprite and self.animated_sprite.material:
+    self.animated_sprite.material.set_shader_parameter("can_build", can_build)
+    self.animated_sprite.material.set_shader_parameter("should_show", true)

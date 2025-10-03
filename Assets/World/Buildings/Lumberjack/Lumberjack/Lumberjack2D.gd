@@ -5,12 +5,20 @@ class_name LumberjackWorker2D
 var closest_trees: Array = []
 
 @export var choping_down_tree_time: float = 2
+@export var unload_time: float = 1
 @export var speed_px_per_sec: float = 64
 
-@onready var parent_building: Building2D2 = self.get_parent()
+@onready var parent_building: Building2D = self.get_parent()
 @onready var built_tilemap: BuiltTileMap = self.get_node("/root/Main/BuiltTileMap")
 
+var storage_component: SlotStorageComponent
+
 var count_of_objects: int = 0
+
+func _ready() -> void:
+  await self.parent_building.ready
+  storage_component = self.parent_building.get_components(SlotStorageComponent)[0]
+  start_working()
 
 func start_working():
   set_closest_trees()
@@ -47,7 +55,6 @@ func walk(where: Vector2):
   await move_tween.finished
   self.unit_sprite.stop()
 
-
 func movement_loop():
   while true:
     await wait_for_tree_in_need()
@@ -68,11 +75,13 @@ func movement_loop():
 func wait_for_tree_in_need():
 # wait until needs and can go to tree
   while true:
-    var wood_amount = parent_building.input_product_storage.get(ResourceConfig.Resources.WOOD)
-    if wood_amount != null and closest_trees != []:
-      if wood_amount < parent_building.building_data.max_storage_capacity:
+    var wood_amount: int = self.storage_component.storage.get(ResourceConfig.Resources.WOOD)
+    if closest_trees != []:
+      if wood_amount < self.storage_component.max_capacity.get(ResourceConfig.Resources.WOOD):
         return
     await self.get_tree().create_timer(1).timeout
+    if self.parent_building.paused:
+      await self.parent_building.unpaused
 
 func get_closest_available_tree():
   var closest_tree: Vector2 = closest_trees.pop_front()
@@ -87,7 +96,9 @@ func lock_tree(tree_pos: Vector2) -> void:
   built_tilemap.trees_getting_choped[tree_pos] = null
 
 func chopdown_tree(tree_pos):
-  await self.get_tree().create_timer(choping_down_tree_time).timeout
+  await self.sleep(choping_down_tree_time)
+  if self.parent_building.paused:
+    await self.parent_building.unpaused
   if not is_cell_a_tree(tree_pos):
     return
   var tile_map_layer: BuiltTileMap = built_tilemap
@@ -97,5 +108,6 @@ func chopdown_tree(tree_pos):
 
 func unload():
   if count_of_objects >= 1:
-    await parent_building.unload_wood()
+    await self.sleep(self.unload_time)
+    self.storage_component.set_storage_item_amount(ResourceConfig.Resources.WOOD, self.storage_component.storage.get(ResourceConfig.Resources.WOOD) + 1)
   count_of_objects = 0

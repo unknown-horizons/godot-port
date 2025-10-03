@@ -47,39 +47,33 @@ func _process(_delta):
     update_resource_amount()
 
 func update_resource_amount():
-  var input_resources = self.owner.selected_objects[0].input_product_storage
+  var input_resources: Dictionary[StringName, int] = {}
+  var slot_storage: SlotStorageComponent = self.owner.selected_objects[0].get_components(SlotStorageComponent)[0]
+
+  for produciont_line in self.owner.selected_objects[0].get_components(ProductionLineComponent):
+    for consumes in produciont_line.consumes:
+      input_resources[consumes] = slot_storage.storage[consumes]
   # get the amount of the input resources
-  var new_input_one_value = input_resources.get(input_one_type)
-  var new_input_two_value = input_resources.get(input_two_type)
-  var new_input_three_value = input_resources.get(input_three_type)
-  # if no resource of that type, set it to 0
-  if new_input_one_value == null:
-    new_input_one_value = 0
-  if new_input_two_value == null:
-    new_input_two_value = 0
-  if new_input_three_value == null:
-    new_input_three_value = 0
-  # set the input values
-  input_one_value = new_input_one_value
-  input_two_value = new_input_two_value
-  input_three_value = new_input_three_value
-  # set the input limits
-  var limit = self.owner.selected_objects[0].building_data.max_storage_capacity
-  input_one_storage_limit = limit
-  input_two_storage_limit = limit
-  input_three_storage_limit = limit
+  self.input_one_value = input_resources.get(input_one_type, ResourceConfig.Resources.NONE)
+  self.input_two_value = input_resources.get(input_two_type, ResourceConfig.Resources.NONE)
+  self.input_three_value = input_resources.get(input_three_type, ResourceConfig.Resources.NONE)
+  # set the input limits 
+  self.input_one_storage_limit = slot_storage.max_capacity.get(input_one_type, 0)
+  self.input_two_storage_limit = slot_storage.max_capacity.get(input_two_type, 0)
+  self.input_three_storage_limit = slot_storage.max_capacity.get(input_three_type, 0)
   # set the output value and limit
-  output_value = self.owner.selected_objects[0].number_of_output_products
-  output_storage_limit = limit
+  self.output_value = slot_storage.storage.get(output_type, 0)
+  self.output_storage_limit = slot_storage.max_capacity.get(output_type, 0)
 
 func update_progress_bar():
   var selected_objects = self.owner.selected_objects
   var progress: float = 0
   if len(selected_objects) == 1:
-    var building = selected_objects[0]
-    if building.production_timer != null:
-      var production_time = building.building_data.processing_time
-      progress = (production_time - building.production_timer.time_left) / production_time
+    var building: Building2D = selected_objects[0]
+    var production_line = building.get_components(ProductionLineComponent)[0]
+    progress = 1 - (production_line.production_time_end - Time.get_unix_time_from_system()) / production_line.production_time
+    if progress > 1:
+      progress = 0
   progress_bar.size_flags_stretch_ratio = progress
   progress_bar_spacer.size_flags_stretch_ratio = 1 - progress
 

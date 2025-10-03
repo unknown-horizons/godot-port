@@ -22,8 +22,8 @@ func set_tab_widget():
     # get the info tab widget
     var object = selected_objects[0].get_parent()
     var info_tab_widget: Resource
-    if object is Building2D2:
-      info_tab_widget = object.building_data.info_tab_widget
+    if object is Building2D:
+      info_tab_widget = BuildingConfig.building_to_info_tab_widget.get(object.building_type)
     if object is Unit2D:
       info_tab_widget = object.unit_data.info_tab_widget
     # get the tab widget name

@@ -94,5 +94,7 @@ func move(go_to_position: Vector2) -> void:
       var move_tween: Tween = self.get_tree().create_tween().bind_node(self)
       move_tween.tween_property(object_to_be_moved, "global_position", new_position, 1/tile_per_sec)
       await move_tween.finished
+      if paused:
+        await self.unpaused
     object_to_be_moved.global_position = go_to_position # remove any tween errors
   move_state = MoveStates.IDLE

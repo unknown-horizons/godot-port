@@ -1,0 +1,50 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://bv7r3a2nriy5w"]
+
+[ext_resource type="Texture2D" uid="uid://dctpkhculgfdb" path="res://Assets/World/Buildings/Agricultural/Farm/Sprites/farm_pioneers_idle_atlas.png" id="pioneers_idle_atlas"]
+
+[sub_resource type="AtlasTexture" id="pioneers_idle_1_0"]
+atlas = ExtResource("pioneers_idle_atlas")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pioneers_idle_2_0"]
+atlas = ExtResource("pioneers_idle_atlas")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pioneers_idle_0_0"]
+atlas = ExtResource("pioneers_idle_atlas")
+region = Rect2(0, 0, 192, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 0.01,
+"texture": null
+}],
+"loop": false,
+"name": &"Empty",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pioneers_idle_1_0")
+}],
+"loop": true,
+"name": &"pioneers_idle_135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pioneers_idle_2_0")
+}],
+"loop": true,
+"name": &"pioneers_idle_225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pioneers_idle_0_0")
+}],
+"loop": true,
+"name": &"pioneers_idle_45",
+"speed": 5.0
+}]

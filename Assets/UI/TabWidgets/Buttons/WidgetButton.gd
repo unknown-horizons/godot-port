@@ -76,6 +76,7 @@ func _pressed() -> void:
     event.pressed = true;
     for key in self.input_action_meta.keys():
       event.set_meta(key, self.input_action_meta[key]);
+    event.set_meta("button_name", self.name)
     # event.set_meta("building_name", "road");
     Input.parse_input_event(event);
 
