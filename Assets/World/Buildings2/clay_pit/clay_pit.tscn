@@ -1,0 +1,33 @@
+[gd_scene load_steps=8 format=3 uid="uid://cclaypittscn0"]
+
+[ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_Building2D_gd"]
+[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
+[ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
+[ext_resource type="SpriteFrames" uid="uid://cclaypittres0" path="res://Assets/World/Buildings2/clay_pit/clay_pit.tres" id="4_sprite_frames"]
+[ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
+[ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
+[ext_resource type="PackedScene" uid="uid://dyqwsks6v6puj" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.tscn" id="7_building_collector_component"]
+
+[node name="_ Clay Pit" type="Node2D"]
+script = ExtResource("1_Building2D_gd")
+
+[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+type = "building"
+tabs = ["ProductionOverviewTab"]
+enemy_tabs = ["EnemyBuildingOverviewTab"]
+
+; [node name="HealthComponent" parent="." instance=ExtResource("2_health_component")]
+; max_health = 1000
+
+[node name="ProductionLineComponent_32" parent="." instance=ExtResource("6_production_line_component")]
+line_name = "32"
+produces = Dictionary[StringName, int]({&"CLAY": 1})
+consumes = Dictionary[StringName, int]({&"RAW_CLAY": 1})
+
+
+[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+max_capacity = Dictionary[StringName, int]({&"CLAY": 10, &"RAW_CLAY": 1000000})
+
+
+[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+sprite_frames = ExtResource("4_sprite_frames")

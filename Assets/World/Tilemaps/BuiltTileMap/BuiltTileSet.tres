@@ -1,7 +1,55 @@
-[gd_resource type="TileSet" load_steps=32 format=3 uid="uid://g0x5fr7nbdbv"]
+[gd_resource type="TileSet" load_steps=80 format=3 uid="uid://g0x5fr7nbdbv"]
 
-[ext_resource type="PackedScene" uid="uid://dkpsgvd7lnale" path="res://Assets/World/Buildings/Warehouse/Warehouse2D.tscn" id="2_n3rtg"]
-[ext_resource type="PackedScene" uid="uid://bdvte7s6m2new" path="res://Assets/World/Buildings2/bakery.tscn" id="2_sftvf"]
+[ext_resource type="PackedScene" uid="uid://cambienttscn0" path="res://Assets/World/Buildings2/ambient/ambient.tscn" id="2_AMBIENT"]
+[ext_resource type="PackedScene" uid="uid://cbakerytscn00" path="res://Assets/World/Buildings2/bakery/bakery.tscn" id="2_BAKERY"]
+[ext_resource type="PackedScene" uid="uid://cbarrackstscn" path="res://Assets/World/Buildings2/barracks/barracks.tscn" id="2_BARRACKS"]
+[ext_resource type="PackedScene" uid="uid://cbarriertscn0" path="res://Assets/World/Buildings2/barrier/barrier.tscn" id="2_BARRIER"]
+[ext_resource type="PackedScene" uid="uid://cblendertscn0" path="res://Assets/World/Buildings2/blender/blender.tscn" id="2_BLENDER"]
+[ext_resource type="PackedScene" uid="uid://cboatbuildets" path="res://Assets/World/Buildings2/boat_builder/boat_builder.tscn" id="2_BOAT_BUILDER"]
+[ext_resource type="PackedScene" uid="uid://cbrewerytscn0" path="res://Assets/World/Buildings2/brewery/brewery.tscn" id="2_BREWERY"]
+[ext_resource type="PackedScene" uid="uid://cbrickyardtsc" path="res://Assets/World/Buildings2/brickyard/brickyard.tscn" id="2_BRICKYARD"]
+[ext_resource type="PackedScene" uid="uid://cbutcherytscn" path="res://Assets/World/Buildings2/butchery/butchery.tscn" id="2_BUTCHERY"]
+[ext_resource type="PackedScene" uid="uid://ccannonfounts" path="res://Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn" id="2_CANNON_FOUNDRY"]
+[ext_resource type="PackedScene" uid="uid://ccharcoalbuts" path="res://Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn" id="2_CHARCOAL_BURNER"]
+[ext_resource type="PackedScene" uid="uid://cclaydeposits" path="res://Assets/World/Buildings2/clay_deposit/clay_deposit.tscn" id="2_CLAY_DEPOSIT"]
+[ext_resource type="PackedScene" uid="uid://cclaypittscn0" path="res://Assets/World/Buildings2/clay_pit/clay_pit.tscn" id="2_CLAY_PIT"]
+[ext_resource type="PackedScene" uid="uid://cdistilleryts" path="res://Assets/World/Buildings2/distillery/distillery.tscn" id="2_DISTILLERY"]
+[ext_resource type="PackedScene" uid="uid://cdoctortscn00" path="res://Assets/World/Buildings2/doctor/doctor.tscn" id="2_DOCTOR"]
+[ext_resource type="PackedScene" uid="uid://cfarmtscn0000" path="res://Assets/World/Buildings2/farm/farm.tscn" id="2_FARM"]
+[ext_resource type="PackedScene" uid="uid://cfirestatiots" path="res://Assets/World/Buildings2/fire_station/fire_station.tscn" id="2_FIRE_STATION"]
+[ext_resource type="PackedScene" uid="uid://cfishertscn00" path="res://Assets/World/Buildings2/fisher/fisher.tscn" id="2_FISHER"]
+[ext_resource type="PackedScene" uid="uid://cfishdeposits" path="res://Assets/World/Buildings2/fish_deposit/fish_deposit.tscn" id="2_FISH_DEPOSIT"]
+[ext_resource type="PackedScene" uid="uid://chuntertscn00" path="res://Assets/World/Buildings2/hunter/hunter.tscn" id="2_HUNTER"]
+[ext_resource type="PackedScene" uid="uid://clookouttscn0" path="res://Assets/World/Buildings2/lookout/lookout.tscn" id="2_LOOKOUT"]
+[ext_resource type="PackedScene" uid="uid://clumberjackts" path="res://Assets/World/Buildings2/lumberjack/lumberjack.tscn" id="2_LUMBERJACK"]
+[ext_resource type="PackedScene" uid="uid://cmainsquarets" path="res://Assets/World/Buildings2/main_square/main_square.tscn" id="2_MAIN_SQUARE"]
+[ext_resource type="PackedScene" uid="uid://cminetscn0000" path="res://Assets/World/Buildings2/mine/mine.tscn" id="2_MINE"]
+[ext_resource type="PackedScene" uid="uid://cmountaintscn" path="res://Assets/World/Buildings2/mountain/mountain.tscn" id="2_MOUNTAIN"]
+[ext_resource type="PackedScene" uid="uid://cpastryshopts" path="res://Assets/World/Buildings2/pastry_shop/pastry_shop.tscn" id="2_PASTRY_SHOP"]
+[ext_resource type="PackedScene" uid="uid://cpaviliontscn" path="res://Assets/World/Buildings2/pavilion/pavilion.tscn" id="2_PAVILION"]
+[ext_resource type="PackedScene" uid="uid://cpublicbathts" path="res://Assets/World/Buildings2/public_bath/public_bath.tscn" id="2_PUBLIC_BATH"]
+[ext_resource type="PackedScene" uid="uid://cresidentiats" path="res://Assets/World/Buildings2/residential/residential.tscn" id="2_RESIDENTIAL"]
+[ext_resource type="PackedScene" uid="uid://csalinetscn00" path="res://Assets/World/Buildings2/saline/saline.tscn" id="2_SALINE"]
+[ext_resource type="PackedScene" uid="uid://csaltpondstsc" path="res://Assets/World/Buildings2/salt_ponds/salt_ponds.tscn" id="2_SALT_PONDS"]
+[ext_resource type="PackedScene" uid="uid://csettlerruits" path="res://Assets/World/Buildings2/settler_ruin/settler_ruin.tscn" id="2_SETTLER_RUIN"]
+[ext_resource type="PackedScene" uid="uid://csignalfirets" path="res://Assets/World/Buildings2/signal_fire/signal_fire.tscn" id="2_SIGNAL_FIRE"]
+[ext_resource type="PackedScene" uid="uid://csmelterytscn" path="res://Assets/World/Buildings2/smeltery/smeltery.tscn" id="2_SMELTERY"]
+[ext_resource type="PackedScene" uid="uid://cstonemasonts" path="res://Assets/World/Buildings2/stonemason/stonemason.tscn" id="2_STONEMASON"]
+[ext_resource type="PackedScene" uid="uid://cstonedeposts" path="res://Assets/World/Buildings2/stone_deposit/stone_deposit.tscn" id="2_STONE_DEPOSIT"]
+[ext_resource type="PackedScene" uid="uid://cstonepittscn" path="res://Assets/World/Buildings2/stone_pit/stone_pit.tscn" id="2_STONE_PIT"]
+[ext_resource type="PackedScene" uid="uid://cstoragetscn0" path="res://Assets/World/Buildings2/storage/storage.tscn" id="2_STORAGE"]
+[ext_resource type="PackedScene" uid="uid://ctaverntscn00" path="res://Assets/World/Buildings2/tavern/tavern.tscn" id="2_TAVERN"]
+[ext_resource type="PackedScene" uid="uid://ctobacconists" path="res://Assets/World/Buildings2/tobacconist/tobacconist.tscn" id="2_TOBACCONIST"]
+[ext_resource type="PackedScene" uid="uid://ctoolmakertsc" path="res://Assets/World/Buildings2/toolmaker/toolmaker.tscn" id="2_TOOLMAKER"]
+[ext_resource type="PackedScene" uid="uid://ctrailtscn000" path="res://Assets/World/Buildings2/trail/trail.tscn" id="2_TRAIL"]
+[ext_resource type="PackedScene" uid="uid://ctreetscn0000" path="res://Assets/World/Buildings2/tree/tree.tscn" id="2_TREE"]
+[ext_resource type="PackedScene" uid="uid://cvillageschts" path="res://Assets/World/Buildings2/village_school/village_school.tscn" id="2_VILLAGE_SCHOOL"]
+[ext_resource type="PackedScene" uid="uid://cwarehousetsc" path="res://Assets/World/Buildings2/warehouse/warehouse.tscn" id="2_WAREHOUSE"]
+[ext_resource type="PackedScene" uid="uid://cweaponsmitts" path="res://Assets/World/Buildings2/weaponsmith/weaponsmith.tscn" id="2_WEAPONSMITH"]
+[ext_resource type="PackedScene" uid="uid://cweavertscn00" path="res://Assets/World/Buildings2/weaver/weaver.tscn" id="2_WEAVER"]
+[ext_resource type="PackedScene" uid="uid://cwindmilltscn" path="res://Assets/World/Buildings2/windmill/windmill.tscn" id="2_WINDMILL"]
+[ext_resource type="PackedScene" uid="uid://cwinerytscn00" path="res://Assets/World/Buildings2/winery/winery.tscn" id="2_WINERY"]
+[ext_resource type="PackedScene" uid="uid://cwoodentowets" path="res://Assets/World/Buildings2/wooden_tower/wooden_tower.tscn" id="2_WOODEN_TOWER"]
 [ext_resource type="Texture2D" uid="uid://bpj7a252mpg8h" path="res://Assets/World/Trees/Sprites/Maple1_idle_full.png" id="4_spnop"]
 [ext_resource type="Texture2D" uid="uid://dvi3gxgx1gre1" path="res://Assets/World/Buildings/Agricultural/PotatoField/Sprites/PotatoField_work_anim.png" id="5_tu0oc"]
 [ext_resource type="Texture2D" uid="uid://b4lvqs0r23ivx" path="res://Assets/World/Buildings/SaltPonds/Sprites/SaltPond_work_anim.png" id="6_g1dfa"]
@@ -29,8 +77,56 @@ tile_data = PackedInt32Array(1, 1, 0, 65536, 196612, 0, 131073, 1, 0, 196608, 19
 
 [sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_xv0cf"]
 resource_name = "Buildings"
-scenes/0/scene = ExtResource("2_n3rtg")
-scenes/6/scene = ExtResource("2_sftvf")
+scenes/100/scene = ExtResource("2_AMBIENT")
+scenes/101/scene = ExtResource("2_BAKERY")
+scenes/102/scene = ExtResource("2_BARRACKS")
+scenes/103/scene = ExtResource("2_BARRIER")
+scenes/104/scene = ExtResource("2_BLENDER")
+scenes/105/scene = ExtResource("2_BOAT_BUILDER")
+scenes/106/scene = ExtResource("2_BREWERY")
+scenes/107/scene = ExtResource("2_BRICKYARD")
+scenes/108/scene = ExtResource("2_BUTCHERY")
+scenes/109/scene = ExtResource("2_CANNON_FOUNDRY")
+scenes/110/scene = ExtResource("2_CHARCOAL_BURNER")
+scenes/111/scene = ExtResource("2_CLAY_DEPOSIT")
+scenes/112/scene = ExtResource("2_CLAY_PIT")
+scenes/113/scene = ExtResource("2_DISTILLERY")
+scenes/114/scene = ExtResource("2_DOCTOR")
+scenes/115/scene = ExtResource("2_FARM")
+scenes/116/scene = ExtResource("2_FIRE_STATION")
+scenes/117/scene = ExtResource("2_FISH_DEPOSIT")
+scenes/118/scene = ExtResource("2_FISHER")
+scenes/119/scene = ExtResource("2_HUNTER")
+scenes/120/scene = ExtResource("2_LOOKOUT")
+scenes/121/scene = ExtResource("2_LUMBERJACK")
+scenes/122/scene = ExtResource("2_MAIN_SQUARE")
+scenes/123/scene = ExtResource("2_MINE")
+scenes/124/scene = ExtResource("2_MOUNTAIN")
+scenes/125/scene = ExtResource("2_PASTRY_SHOP")
+scenes/126/scene = ExtResource("2_PAVILION")
+scenes/127/scene = ExtResource("2_PUBLIC_BATH")
+scenes/128/scene = ExtResource("2_SETTLER_RUIN")
+scenes/129/scene = ExtResource("2_SALINE")
+scenes/130/scene = ExtResource("2_SALT_PONDS")
+scenes/131/scene = ExtResource("2_SIGNAL_FIRE")
+scenes/132/scene = ExtResource("2_SMELTERY")
+scenes/133/scene = ExtResource("2_STONE_DEPOSIT")
+scenes/134/scene = ExtResource("2_STONEMASON")
+scenes/135/scene = ExtResource("2_STONE_PIT")
+scenes/136/scene = ExtResource("2_STORAGE")
+scenes/137/scene = ExtResource("2_TAVERN")
+scenes/138/scene = ExtResource("2_RESIDENTIAL")
+scenes/139/scene = ExtResource("2_TOBACCONIST")
+scenes/140/scene = ExtResource("2_TOOLMAKER")
+scenes/141/scene = ExtResource("2_TRAIL")
+scenes/142/scene = ExtResource("2_TREE")
+scenes/143/scene = ExtResource("2_VILLAGE_SCHOOL")
+scenes/144/scene = ExtResource("2_WAREHOUSE")
+scenes/145/scene = ExtResource("2_WEAPONSMITH")
+scenes/146/scene = ExtResource("2_WEAVER")
+scenes/147/scene = ExtResource("2_WINDMILL")
+scenes/148/scene = ExtResource("2_WINERY")
+scenes/149/scene = ExtResource("2_WOODEN_TOWER")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8x7ew"]
 texture = ExtResource("4_spnop")

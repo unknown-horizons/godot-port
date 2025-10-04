@@ -1,0 +1,250 @@
+[gd_resource type="SpriteFrames" load_steps=26 format=3 uid="uid://cbrickyardtre"]
+
+[ext_resource type="Texture2D" uid="uid://r4d60x0k23o0" path="res://Assets/World/Buildings2/brickyard/brickyard_pioneers_as_brickyard0_bricks_01.png" id="brickyard_pioneers_as_brickyard0_bricks_01"]
+[ext_resource type="Texture2D" uid="uid://buqxbncsor8m1" path="res://Assets/World/Buildings2/brickyard/brickyard_pioneers_as_brickyard0_bricks_02.png" id="brickyard_pioneers_as_brickyard0_bricks_02"]
+[ext_resource type="Texture2D" uid="uid://edcvpf8da2ni" path="res://Assets/World/Buildings2/brickyard/brickyard_pioneers_as_brickyard0_bricks_03.png" id="brickyard_pioneers_as_brickyard0_bricks_03"]
+[ext_resource type="Texture2D" uid="uid://d1dkxy5ka04rc" path="res://Assets/World/Buildings2/brickyard/brickyard_pioneers_as_brickyard0_bricks_04.png" id="brickyard_pioneers_as_brickyard0_bricks_04"]
+[ext_resource type="Texture2D" uid="uid://c72jtqiwaq18k" path="res://Assets/World/Buildings2/brickyard/brickyard_pioneers_as_brickyard0_idle.png" id="brickyard_pioneers_as_brickyard0_idle"]
+
+[sub_resource type="AtlasTexture" id="o6uk0"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_01")
+region = Rect2(0, 0, 192, 128)
+
+[sub_resource type="AtlasTexture" id="jvehv"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_01")
+region = Rect2(0, 128, 192, 128)
+
+[sub_resource type="AtlasTexture" id="agk15"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_01")
+region = Rect2(0, 256, 192, 128)
+
+[sub_resource type="AtlasTexture" id="lvqe1"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_01")
+region = Rect2(0, 384, 192, 128)
+
+[sub_resource type="AtlasTexture" id="78a5b"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_02")
+region = Rect2(0, 0, 192, 128)
+
+[sub_resource type="AtlasTexture" id="6c1hb"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_02")
+region = Rect2(0, 128, 192, 128)
+
+[sub_resource type="AtlasTexture" id="l5wf8"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_02")
+region = Rect2(0, 256, 192, 128)
+
+[sub_resource type="AtlasTexture" id="jo0dt"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_02")
+region = Rect2(0, 384, 192, 128)
+
+[sub_resource type="AtlasTexture" id="ep47v"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_03")
+region = Rect2(0, 0, 192, 128)
+
+[sub_resource type="AtlasTexture" id="yq2sk"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_03")
+region = Rect2(0, 128, 192, 128)
+
+[sub_resource type="AtlasTexture" id="jhjh6"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_03")
+region = Rect2(0, 256, 192, 128)
+
+[sub_resource type="AtlasTexture" id="5t1qk"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_03")
+region = Rect2(0, 384, 192, 128)
+
+[sub_resource type="AtlasTexture" id="7rm7x"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_04")
+region = Rect2(0, 0, 192, 128)
+
+[sub_resource type="AtlasTexture" id="ifewl"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_04")
+region = Rect2(0, 128, 192, 128)
+
+[sub_resource type="AtlasTexture" id="pai8m"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_04")
+region = Rect2(0, 256, 192, 128)
+
+[sub_resource type="AtlasTexture" id="esuev"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_bricks_04")
+region = Rect2(0, 384, 192, 128)
+
+[sub_resource type="AtlasTexture" id="l1omf"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_idle")
+region = Rect2(0, 0, 192, 128)
+
+[sub_resource type="AtlasTexture" id="u5vsl"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_idle")
+region = Rect2(0, 128, 192, 128)
+
+[sub_resource type="AtlasTexture" id="kcsom"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_idle")
+region = Rect2(0, 256, 192, 128)
+
+[sub_resource type="AtlasTexture" id="afmml"]
+atlas = ExtResource("brickyard_pioneers_as_brickyard0_idle")
+region = Rect2(0, 384, 192, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("o6uk0")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_01.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("jvehv")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_01.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("agk15")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_01.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("lvqe1")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_01.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("78a5b")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_02.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("6c1hb")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_02.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("l5wf8")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_02.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("jo0dt")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_02.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("ep47v")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_03.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("yq2sk")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_03.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("jhjh6")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_03.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("5t1qk")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_03.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("7rm7x")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_04.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("ifewl")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_04.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pai8m")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_04.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("esuev")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.bricks_04.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("l1omf")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("u5vsl")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("kcsom")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("afmml")
+}],
+"loop": true,
+"name": &"brickyard0.pioneers.idle.315",
+"speed": 5.0
+}]

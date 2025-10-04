@@ -24,7 +24,7 @@ class_name CollectorActionSet
     update_animation()
 
 ## The current tier
-@export var tier: ActionSetEnum.tiers = ActionSetEnum.tiers.SAILORS:
+@export var tier: ActionSetEnum.Tiers = ActionSetEnum.Tiers.MAX:
   set(value):
     tier = value
     update_animation()
@@ -71,12 +71,12 @@ func update_animation() -> void:
   
   # get the last tier before the current at which we have an animation, as string
   var animation_name: String = ""
-  for cur_tier in ActionSetEnum.tiers.keys(): # iterate over all the tiers
+  for cur_tier in ActionSetEnum.Tiers.keys(): # iterate over all the tiers
     var tier_with_lower: String = cur_tier.to_lower() # the tier as a lowercase string
     var animation_name_at_tier: String = tier_with_lower + "_" + state_str + "_" + rotation_str # the animation name that would be at the current tier
     if sprite_frames.has_animation(animation_name_at_tier): # if we have the animation, set it as a possible animation
       animation_name = animation_name_at_tier
-    if ActionSetEnum.tiers[cur_tier] == tier: # tier in loop is equal to the actual tier, then break because we have checked all the previous tiers
+    if ActionSetEnum.Tiers[cur_tier] == tier: # tier in loop is equal to the actual tier, then break because we have checked all the previous tiers
       break
   
   if animation_name == "": # if no animation has been found that can be used, give a warning

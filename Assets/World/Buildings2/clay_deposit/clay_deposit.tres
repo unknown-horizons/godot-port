@@ -1,0 +1,54 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cclaydepositr"]
+
+[ext_resource type="Texture2D" uid="uid://ccwl6n75mjtyt" path="res://Assets/World/Buildings2/clay_deposit/clay_deposit_nature_as_clay0_idle.png" id="clay_deposit_nature_as_clay0_idle"]
+
+[sub_resource type="AtlasTexture" id="bumsr"]
+atlas = ExtResource("clay_deposit_nature_as_clay0_idle")
+region = Rect2(0, 0, 192, 128)
+
+[sub_resource type="AtlasTexture" id="eosvf"]
+atlas = ExtResource("clay_deposit_nature_as_clay0_idle")
+region = Rect2(0, 128, 192, 192)
+
+[sub_resource type="AtlasTexture" id="wssg1"]
+atlas = ExtResource("clay_deposit_nature_as_clay0_idle")
+region = Rect2(0, 320, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7g5dl"]
+atlas = ExtResource("clay_deposit_nature_as_clay0_idle")
+region = Rect2(0, 512, 192, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bumsr")
+}],
+"loop": true,
+"name": &"clay0.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("eosvf")
+}],
+"loop": true,
+"name": &"clay0.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("wssg1")
+}],
+"loop": true,
+"name": &"clay0.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("7g5dl")
+}],
+"loop": true,
+"name": &"clay0.nature.idle.315",
+"speed": 5.0
+}]
