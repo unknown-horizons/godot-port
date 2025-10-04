@@ -4,7 +4,7 @@ extends TextureButton
 
 class_name ResourceDisplaySlot
 
-@export var resource_type: StringName:
+@export var resource_type: StringName = ResourceConfig.Resources.NONE:
   get:
     return resource_type
   set(value):

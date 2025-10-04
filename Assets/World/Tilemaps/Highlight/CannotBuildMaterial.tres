@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://db1d7j8ewjg1q"]
+
+[ext_resource type="Shader" uid="uid://hdvk7lcn1uxy" path="res://Assets/World/Tilemaps/Highlight/CannotBuildMaterial.gdshader" id="1_depr8"]
+
+[resource]
+shader = ExtResource("1_depr8")
+shader_parameter/cannot_build_color = Color(1, 0, 0.196078, 0.588235)

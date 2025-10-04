@@ -7,7 +7,7 @@ class_name Building2D
 @export var building_type: BuildingConfig.Buildings = BuildingConfig.Buildings.NONE
 
 ## is building paused
-var paused: bool = false:
+var paused: bool = true:
   set(value):
     paused = value
     for node: Node in self.get_children():
@@ -98,23 +98,27 @@ func get_needed_resources() -> Array[StringName]:
   return needed_resources.keys()
 
 func unload_resource(resource: StringName, amount: int) -> void:
-  var storage_components: Array = self.get_components(SizedStorageComponent)
+  if resource == ResourceConfig.Resources.NONE:
+    return
+  var storage_components: Array = self.get_components(SlotStorageComponent)
   if storage_components == []:
     return
-  var storage_component: SizedStorageComponent = storage_components[0] as SizedStorageComponent
+  var storage_component: SlotStorageComponent = storage_components[0] as SlotStorageComponent
   
   await self.sleep(storage_component.load_or_unload_time)
   var amount_in_storage: int = storage_component.storage.get(resource)
   storage_component.set_storage_item_amount(resource, amount_in_storage + amount)
 
 func load_resource(resource: StringName, amount: int) -> int:
-  var storage_components: Array = self.get_components(SizedStorageComponent)
+  if resource == ResourceConfig.Resources.NONE:
+    return 0
+  var storage_components: Array = self.get_components(SlotStorageComponent)
   if storage_components == []:
     return 0
-  var storage_component: SizedStorageComponent = storage_components[0] as SizedStorageComponent
+  var storage_component: SlotStorageComponent = storage_components[0] as SlotStorageComponent
 
   await self.sleep(storage_component.load_or_unload_time)
-  var available_amount: int = storage_component.storage.get(resource)
+  var available_amount: int = storage_component.storage.get(resource, 0)
   var amount_to_load: int = min(amount, available_amount)
   storage_component.set_storage_item_amount(resource, available_amount - amount_to_load)
 

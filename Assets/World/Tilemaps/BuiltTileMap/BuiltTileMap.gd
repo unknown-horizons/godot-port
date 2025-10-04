@@ -44,6 +44,7 @@ func register_building(building: Building2D) -> void:
   %Pathfinding.road_pathfinding.set_point_solid(self.local_to_map(building.position), false)
   var road_building_context = %GameContextManager.get_node("BuildingRoadContext")
   road_building_context.road_building_pathfindng.set_point_solid(self.local_to_map(building.position), true)
+  building.paused = false
   # handle notifications
   buildings_built.emit([building] as Array[Building2D])
 

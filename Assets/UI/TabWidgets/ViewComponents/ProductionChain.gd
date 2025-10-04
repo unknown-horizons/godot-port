@@ -58,12 +58,12 @@ func update_resource_amount():
   self.input_two_value = input_resources.get(input_two_type, ResourceConfig.Resources.NONE)
   self.input_three_value = input_resources.get(input_three_type, ResourceConfig.Resources.NONE)
   # set the input limits 
-  self.input_one_storage_limit = slot_storage.max_capacity.get(input_one_type, 0)
-  self.input_two_storage_limit = slot_storage.max_capacity.get(input_two_type, 0)
-  self.input_three_storage_limit = slot_storage.max_capacity.get(input_three_type, 0)
+  self.input_one_storage_limit = slot_storage.max_capacity.get(input_one_type, 1)
+  self.input_two_storage_limit = slot_storage.max_capacity.get(input_two_type, 1)
+  self.input_three_storage_limit = slot_storage.max_capacity.get(input_three_type, 1)
   # set the output value and limit
   self.output_value = slot_storage.storage.get(output_type, 0)
-  self.output_storage_limit = slot_storage.max_capacity.get(output_type, 0)
+  self.output_storage_limit = slot_storage.max_capacity.get(output_type, 1)
 
 func update_progress_bar():
   var selected_objects = self.owner.selected_objects

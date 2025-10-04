@@ -3,6 +3,7 @@ extends BaseComponent
 class_name ProductionLineComponent
 
 @export_group("production")
+@export var line_name: String = ""
 ## The resources needed to produce the output product
 @export var consumes: Dictionary[StringName, int] = {}:
   set(value):
@@ -66,14 +67,10 @@ func set_components(components: Array[BaseComponent]):
       storage_component = component
     if component is BuildingActionSet:
       action_set = component
+  if self.paused:
+    await self.unpaused
   production_stage = ProductionStages.START
 
-func set_pause(value: bool) -> void:
-  super(value)
-  if self.paused:
-    self.production_stage = ProductionStages.IDLE
-  else:
-    self.production_stage = ProductionStages.START
 
 func update_action_set():
   if action_set != null:
@@ -124,6 +121,8 @@ func spend_resources():
 
 
 func production_loop():
+  if self.is_node_ready() == false:
+    await self.ready
   while production_stage != ProductionStages.IDLE and storage_component != null:
     await wait_for_resources()
     await produce()
@@ -132,7 +131,7 @@ func wait_for_resources():
   production_stage = ProductionStages.WAITING_FOR_RESOURCES
   while has_enough_resources() == false:
     await storage_component.storage_changed
-    if production_stage == ProductionStages.IDLE:
+    if self.paused:
       await self.unpaused
 
 func produce():
@@ -142,6 +141,8 @@ func produce():
   # simulate production, TODO: switch to Timer for game speed awareness and pauseability
   self.production_time_end = Time.get_unix_time_from_system() + production_time
   await self.sleep(production_time)
+  if self.paused:
+    await self.unpaused
   spend_resources()
   var produced_item = produces.keys()[0]
   storage_component.set_storage_item_amount(produced_item, produces[produced_item])

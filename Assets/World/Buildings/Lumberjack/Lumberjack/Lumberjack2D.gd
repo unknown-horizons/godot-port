@@ -57,6 +57,9 @@ func walk(where: Vector2):
 
 func movement_loop():
   while true:
+    if self.parent_building.paused:
+      await self.parent_building.unpaused
+
     await wait_for_tree_in_need()
     var tree_pos = get_closest_available_tree()
   # if no tree, then wait and check again
@@ -75,9 +78,9 @@ func movement_loop():
 func wait_for_tree_in_need():
 # wait until needs and can go to tree
   while true:
-    var wood_amount: int = self.storage_component.storage.get(ResourceConfig.Resources.WOOD)
+    var wood_amount: int = self.storage_component.storage.get(ResourceConfig.Resources.TREES, 0)
     if closest_trees != []:
-      if wood_amount < self.storage_component.max_capacity.get(ResourceConfig.Resources.WOOD):
+      if wood_amount < self.storage_component.max_capacity.get(ResourceConfig.Resources.TREES, 0):
         return
     await self.get_tree().create_timer(1).timeout
     if self.parent_building.paused:
@@ -109,5 +112,5 @@ func chopdown_tree(tree_pos):
 func unload():
   if count_of_objects >= 1:
     await self.sleep(self.unload_time)
-    self.storage_component.set_storage_item_amount(ResourceConfig.Resources.WOOD, self.storage_component.storage.get(ResourceConfig.Resources.WOOD) + 1)
+    self.storage_component.set_storage_item_amount(ResourceConfig.Resources.TREES, self.storage_component.storage.get(ResourceConfig.Resources.TREES, 0) + 1)
   count_of_objects = 0

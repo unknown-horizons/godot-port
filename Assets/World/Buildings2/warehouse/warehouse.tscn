@@ -1,15 +1,13 @@
-[gd_scene load_steps=8 format=3 uid="uid://cwarehousetsc"]
+[gd_scene load_steps=6 format=3 uid="uid://cwarehousetsc"]
 
-[ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_Building2D_gd"]
+[ext_resource type="Script" uid="uid://c8db882etnijc" path="res://Assets/World/Buildings/Warehouse/Warehouse2D.gd" id="1_vo0db"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
 [ext_resource type="SpriteFrames" uid="uid://cwarehousetre" path="res://Assets/World/Buildings2/warehouse/warehouse.tres" id="4_sprite_frames"]
-[ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
-[ext_resource type="PackedScene" uid="uid://dyqwsks6v6puj" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.tscn" id="7_building_collector_component"]
 
 [node name="_ Warehouse" type="Node2D"]
-script = ExtResource("1_Building2D_gd")
+script = ExtResource("1_vo0db")
 
 [node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
 type = "building"
@@ -23,10 +21,6 @@ enemy_tabs = ["EnemyWarehouseOverviewTab"]
 line_name = "31"
 produces = Dictionary[StringName, int]({&"COMMUNITY": 10})
 consumes = Dictionary[StringName, int]({})
-
-
-
-[node name="BuildingCollectorComponent" parent="." instance=ExtResource("7_building_collector_component")]
 
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]

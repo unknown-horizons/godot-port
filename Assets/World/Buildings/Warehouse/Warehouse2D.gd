@@ -19,7 +19,7 @@ func unload_resource(resource: StringName, amount: int) -> void:
 
   units_loading += 1
   await self.sleep(load_or_unload_time)
-  GameStats.game_stats_resource.resources[resource] += amount
+  GameStats.game_stats_resource.add_resource(resource, amount)
   units_loading -= 1
   slot_opened.emit()
 
@@ -29,9 +29,9 @@ func load_resource(resource: StringName, amount: int) -> int:
 
   units_loading += 1
   self.sleep(load_or_unload_time)
-  var available_amount: int = GameStats.game_stats_resource.resources[resource]
+  var available_amount: int = GameStats.game_stats_resource.resources.get(resource, 0)
   var amount_to_load: int = clamp(amount, 0, available_amount)
-  GameStats.game_stats_resource.resources[resource] -= amount_to_load
+  GameStats.game_stats_resource.add_resource(resource, -amount_to_load)
 
   units_loading -= 1
   slot_opened.emit()
