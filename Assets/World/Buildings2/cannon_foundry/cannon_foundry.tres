@@ -1,0 +1,4044 @@
+[gd_resource type="SpriteFrames" load_steps=572 format=3 uid="uid://ccannonfountr"]
+
+[ext_resource type="Texture2D" uid="uid://cyi4k48bf3ltw" path="res://Assets/World/Buildings2/cannon_foundry/cannon_foundry_citizens_as_cannonfoundry_idle.png" id="cannon_foundry_citizens_as_cannonfoundry_idle"]
+[ext_resource type="Texture2D" uid="uid://dcfrm6uvjsu6q" path="res://Assets/World/Buildings2/cannon_foundry/cannon_foundry_citizens_as_cannonfoundry_idle_full.png" id="cannon_foundry_citizens_as_cannonfoundry_idle_full"]
+[ext_resource type="Texture2D" uid="uid://cen30haq27pa" path="res://Assets/World/Buildings2/cannon_foundry/cannon_foundry_citizens_as_cannonfoundry_work.png" id="cannon_foundry_citizens_as_cannonfoundry_work"]
+
+[sub_resource type="AtlasTexture" id="33ryb"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_idle")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tiypm"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_idle")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pi6bg"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_idle")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="unbs2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_idle")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="itwsd"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_idle_full")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="wvo67"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_idle_full")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="71qlq"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_idle_full")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="svk0s"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_idle_full")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="fe8pc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3aet5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="eld5c"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6jm08"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xw2ip"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3qws2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="v0cwm"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1152, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="5eeu3"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1344, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7d8ve"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1536, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7stun"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1728, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pynf5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1920, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="qbmur"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2112, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ojtqg"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2304, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="epsbw"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2496, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rmmo2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2688, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="nmbrf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2880, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="36ugr"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3072, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="20qra"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3264, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7ra2n"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3456, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="jn60i"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3648, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="l01k0"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3840, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cfewh"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4032, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ymqj2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4224, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="5flhu"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4416, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="14q6d"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4608, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ar3g7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4800, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="e0gmt"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4992, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="coujq"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5184, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="kllik"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5376, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="41avj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5568, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="mx5vk"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5760, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dlpwp"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5952, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="mcwsl"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6144, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="f2hfc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6336, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="5lfhb"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6528, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7w6tq"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6720, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ig3h8"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6912, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="hl3vw"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7104, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="asoq2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7296, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="qe6fb"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7488, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xsqtm"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7680, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="v6fpi"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7872, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="q3m2h"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8064, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="b4v7n"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8256, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dexbc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8448, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="1724f"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8640, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="08qyq"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8832, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="0o8md"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9024, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="s06lu"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9216, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="iect1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9408, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="k5yjc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9600, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="g0cg3"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9792, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="nbtx1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9984, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2nj41"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10176, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3cj4e"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10368, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xrati"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10560, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ctcor"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10752, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tmrnh"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10944, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ga6qt"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11136, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="4lqrl"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11328, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="b0hpu"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11520, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dy8ff"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11712, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="t4vtl"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11904, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="c11s8"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12096, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rc1gw"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12288, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="uy8ru"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12480, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="s7vx8"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12672, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="p8yo3"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12864, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="snm5c"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13056, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="1hs42"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13248, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ps6mv"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13440, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ibqjk"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13632, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="kobcs"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13824, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="0vq55"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14016, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7ai18"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14208, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="grcmf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14400, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="kctpr"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14592, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7osoa"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14784, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="iru3v"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14976, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="vt2hj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15168, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ctocj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15360, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7t6wn"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15552, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pkkkw"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15744, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ljngo"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15936, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="54lg2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16128, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="bb0ac"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16320, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="fejpc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16512, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="r451g"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16704, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cry6r"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16896, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ysdjy"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17088, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cng5x"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17280, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="jwcju"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17472, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cw264"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17664, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="4qosy"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17856, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ajfgw"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18048, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="i5jjd"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18240, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="y5psf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18432, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7221x"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18624, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="op8ft"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18816, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rovmg"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19008, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="htin5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19200, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="q4vva"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19392, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="i7pxk"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19584, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="mk0ur"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19776, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="empc8"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19968, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="mjmvb"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20160, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ym0re"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20352, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="g63ax"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20544, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="0w6ww"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20736, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cuqpy"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20928, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="05nvt"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21120, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tluxo"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21312, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="fpeb2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21504, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="1n1cl"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21696, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="k3kum"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21888, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="1n7si"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22080, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ujst1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22272, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="j1alo"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22464, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="nudrp"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22656, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="njajy"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22848, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="5rncm"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23040, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="r5ppy"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23232, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="yd8t1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23424, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="123f2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23616, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dnjxc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23808, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="auk8y"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24000, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="uukof"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="wygbo"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="iktd7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2v0y3"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="s6lic"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24960, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2socq"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25152, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="exl2v"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25344, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="is4q2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25536, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="v7cvv"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25728, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="h6sfp"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25920, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="83ofe"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26112, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tobjk"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26304, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="iwyoy"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26496, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="n1mek"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26688, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="lqw1o"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="mg1e8"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(192, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="l0ccj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(384, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="wr8so"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(576, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="8niee"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(768, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="hjvko"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(960, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="b05qj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1152, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="1rdhc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1344, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rc4fw"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1536, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="waic3"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1728, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="od5iv"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1920, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7thth"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2112, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xrvv4"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2304, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3and4"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2496, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sc3t7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2688, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dayi5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2880, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="bg42y"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3072, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="lu6kk"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3264, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3yiwk"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3456, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="snqq1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3648, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="jixco"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3840, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="t4yr7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4032, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="eeagc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4224, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ssxk1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4416, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2eub4"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4608, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="b1t83"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4800, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="52vsi"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4992, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="b0dym"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5184, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="qp7os"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5376, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cib8l"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5568, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xigu5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5760, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="uuy58"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5952, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tvntc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6144, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ghadr"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6336, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="324ur"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6528, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="kerbj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6720, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="lct2t"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6912, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ufk0a"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7104, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rynjo"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7296, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="85nrv"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7488, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="h8ace"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7680, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tua2d"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7872, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="wgbru"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8064, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xdg4h"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8256, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="h1k68"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8448, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="wbmun"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8640, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7h2yd"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8832, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="wtdbj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9024, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="fxube"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9216, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="kmukp"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9408, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dcmr1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9600, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="nvybj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9792, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="q5dsi"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9984, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7avv7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10176, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="m1sfa"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10368, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ikqer"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10560, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="qdwp1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10752, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="gn2cg"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10944, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="oif6u"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11136, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6tk1n"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11328, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="aqsb1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11520, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="64fgi"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11712, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="vixpr"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11904, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="gft7s"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12096, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="57d1j"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12288, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="y8jud"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12480, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cwqpx"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12672, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="i2oj2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12864, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="trcst"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13056, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="o8lm8"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13248, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="qrd1b"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13440, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tjb5a"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13632, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="kh0h7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13824, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="b2dch"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14016, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="mydd0"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14208, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dv78n"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14400, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="43ho5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14592, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="t4cne"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14784, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="mj76v"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14976, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="862tv"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15168, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6t11i"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15360, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="0lio5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15552, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="vgb3w"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15744, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ipp1g"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15936, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7b63d"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16128, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rgsjo"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16320, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="gimb1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16512, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="t8sw0"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16704, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ukn4h"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16896, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="hcatq"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17088, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="1xush"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17280, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3r57m"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17472, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tlhre"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17664, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="fgecs"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17856, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="a5udj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18048, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="w7eiv"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18240, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tfcvd"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18432, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="1daj3"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18624, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="j23bf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18816, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="n4kgp"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19008, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="n0wwv"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19200, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="bgv8g"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19392, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="c1l3t"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19584, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="lsxtr"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19776, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="4pix2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19968, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="8ngin"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20160, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6av85"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20352, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rd7yf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20544, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7lj7h"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20736, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="wdmy7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20928, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="17ua2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21120, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6or1x"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21312, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="q5ui4"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21504, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ywfff"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21696, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="54lgs"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21888, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sww20"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22080, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6xesg"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22272, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="evwnw"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22464, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="fmer1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22656, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tvrtt"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22848, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rng32"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23040, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="4611q"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23232, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ef8ss"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23424, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xcncq"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23616, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="g2221"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23808, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="hnia0"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24000, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="8ldf5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24192, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="jxeuh"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24384, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7tuip"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24576, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2xba4"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24768, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="jwr8p"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24960, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="p81ap"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25152, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="apwu3"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25344, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="g7oxa"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25536, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dvrl7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25728, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="djb1j"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25920, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="4fuam"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26112, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tvljb"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26304, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6ckip"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26496, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="c50w7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26688, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cbysh"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pc33r"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(192, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="w7bh3"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(384, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="r72ws"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(576, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="gesib"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(768, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ikh8t"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(960, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="fhqto"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1152, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cique"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1344, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="f7bgf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1536, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="irpla"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1728, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="5dpdm"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1920, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="wrdlt"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2112, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2ha3c"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2304, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="bn23i"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2496, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3f0dc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2688, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="x1w6c"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2880, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="04v10"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3072, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="eyp1g"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3264, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="prec6"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3456, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="i2t6m"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3648, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="x1f42"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3840, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2c822"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4032, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6nkig"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4224, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="o5pvu"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4416, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sj6yb"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4608, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="lwr1h"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4800, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2wc2y"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4992, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="5vtc2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5184, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="jf5ww"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5376, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="u5mxm"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5568, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3hy5c"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5760, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="13jhl"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5952, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ho4hn"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6144, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7wwbn"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6336, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6qbnf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6528, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="r681i"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6720, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="wnpji"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6912, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="u8obl"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7104, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ao8ip"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7296, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3x1c1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7488, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="awhbt"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7680, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pkegw"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7872, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="x7t3l"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8064, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="1sbr5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8256, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="bsx25"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8448, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rh44d"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8640, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="4xnr2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8832, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="0pbd2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9024, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3y526"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9216, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="bx0bc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9408, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ne70f"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9600, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="birto"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9792, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="fnfxr"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9984, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rkrt6"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10176, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="1j734"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10368, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="poel7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10560, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7x5xq"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10752, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="b1dny"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10944, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="e8x1l"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11136, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="hnpfp"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11328, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="urf8x"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11520, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="f7dbi"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11712, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="j81bf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11904, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pgp00"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12096, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="hgjqv"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12288, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="8m06d"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12480, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="f34qk"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12672, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="eam0i"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12864, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="gtyrp"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13056, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="w5f3b"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13248, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="wjaim"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13440, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="n61o2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13632, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rmprt"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13824, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ujwmf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14016, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="d7b3c"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14208, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="loy3g"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14400, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="n5tmk"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14592, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="yffta"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14784, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sn8qm"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14976, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6mrta"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15168, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6xmxl"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15360, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cgh0v"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15552, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="p7dk6"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15744, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="31ewx"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15936, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="yrmbk"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16128, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="am3fm"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16320, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="opuqx"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16512, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="fhll7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16704, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="j30st"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16896, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="d6202"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17088, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="5ugju"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17280, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="vxipj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17472, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pff5t"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17664, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2roij"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17856, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ri2iu"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18048, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="36gkt"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18240, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="o710s"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18432, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xbs75"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18624, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6kgk2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18816, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ixf3y"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19008, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="b4q1f"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19200, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="c3lao"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19392, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2mkmb"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19584, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dfpfc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19776, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="eciwf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19968, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dbn4d"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20160, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="naixc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20352, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="olcdu"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20544, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xoyqc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20736, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="888eq"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20928, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="qvne8"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21120, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="r5010"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21312, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="gq1px"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21504, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="4tygi"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21696, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="oqo24"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21888, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="bhs2v"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22080, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="uu4j0"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22272, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="mvj11"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22464, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3r44p"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22656, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="8p8gf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22848, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="adq5m"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23040, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6cq44"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23232, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="opid2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23424, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6naf6"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23616, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="eaa38"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23808, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="4a2hm"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24000, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="lrnqc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24192, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="undp0"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24384, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="qbn0j"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24576, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7f7y7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24768, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="1tu7d"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24960, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="v5a4l"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25152, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rbqwk"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25344, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="5kkhq"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25536, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2jt2b"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25728, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6ytdi"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25920, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="76dq1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26112, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cabcw"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26304, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rlmb3"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26496, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6og65"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26688, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="16g5w"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cu6v2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(192, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="u5x3c"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(384, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sn3e2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(576, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="s3xok"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(768, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ht3kf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(960, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="21b1r"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1152, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ngjic"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1344, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rojfe"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1536, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="lyqsy"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1728, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="x0l7l"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(1920, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="wr53r"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2112, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="lk6dc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2304, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="0drrc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2496, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2po67"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2688, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="c5h6f"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(2880, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ml2yt"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3072, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ju6hq"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3264, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3qg7a"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3456, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="0wb3m"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3648, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="oyjnf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(3840, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="c4mvu"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4032, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rdii2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4224, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ahayn"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4416, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6dmc4"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4608, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="4ebm3"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4800, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="becej"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(4992, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="1uyf5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5184, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ubcuv"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5376, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7ys5k"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5568, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="q0lnd"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5760, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="y3dd3"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(5952, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="285sf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6144, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="8yuxt"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6336, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dg26o"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6528, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="n4hfc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6720, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cvtxy"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(6912, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rilsq"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7104, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="kp3g3"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7296, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="hpg5m"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7488, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="s6gql"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7680, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tgb4h"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(7872, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="t17sw"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8064, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="a4asd"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8256, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xprkt"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8448, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="gnc6e"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8640, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="74e88"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(8832, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sk2k1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9024, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6cbvg"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9216, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tyntt"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9408, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2l0vl"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9600, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="yx7ub"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9792, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tqp7r"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(9984, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xu0j7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10176, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pdhfo"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10368, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="db0s5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10560, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="h8hnf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10752, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="vsrnm"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(10944, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="u2mhs"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11136, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ly024"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11328, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="l62ks"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11520, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cl7bk"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11712, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="27yoi"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(11904, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="jofbx"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12096, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="jdy7b"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12288, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3xs7o"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12480, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="bnpgc"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12672, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="75rgx"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(12864, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xc0nj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13056, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2du2d"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13248, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="w1srg"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13440, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="fjtli"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13632, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="p6vni"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(13824, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="288wj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14016, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="67pk2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14208, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="siun2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14400, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cg0kg"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14592, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="lrgkf"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14784, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="twhem"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(14976, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2ux8i"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15168, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dm38q"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15360, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="i3wcu"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15552, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="lqm7f"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15744, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sqejp"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(15936, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="gejat"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16128, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="cn1la"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16320, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="h7cgh"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16512, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="nqed7"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16704, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="84713"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(16896, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="o501p"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17088, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pe0ff"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17280, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="tmtgu"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17472, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ehuke"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17664, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="haxwr"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(17856, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="7jnbs"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18048, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="libcp"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18240, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="heqku"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18432, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="gst0h"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18624, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="3ek0h"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(18816, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="voxbm"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19008, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sw4be"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19200, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rql85"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19392, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="1j777"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19584, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="uiojj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19776, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ttvx2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(19968, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rj05w"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20160, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="owgia"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20352, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ty1k4"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20544, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="xhxf1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20736, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="822d4"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(20928, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="udos2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21120, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="uy2s1"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21312, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="el8jv"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21504, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="v5n5e"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21696, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="i0pxg"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(21888, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="y558s"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22080, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="p6kwv"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22272, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="mxysb"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22464, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="r3upl"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22656, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="5g71o"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(22848, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="6way5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23040, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="j56k0"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23232, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="2plht"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23424, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="vskxx"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23616, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="i5awg"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(23808, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ixlry"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24000, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="hqm5t"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24192, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="odwnj"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24384, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="obvft"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24576, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="ia7vp"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24768, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="uqy5f"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(24960, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="mw2a5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25152, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="4rrv4"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25344, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sskp2"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25536, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="sxawr"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25728, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="5y0dn"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(25920, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="4gpu5"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26112, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="rd045"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26304, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="i8qoy"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26496, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dxpxp"]
+atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
+region = Rect2(26688, 576, 192, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("33ryb")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("tiypm")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pi6bg")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("unbs2")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("itwsd")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle_full.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("wvo67")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle_full.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("71qlq")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle_full.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("svk0s")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle_full.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fe8pc")
+}, {
+"duration": 1.0,
+"texture": SubResource("3aet5")
+}, {
+"duration": 1.0,
+"texture": SubResource("eld5c")
+}, {
+"duration": 1.0,
+"texture": SubResource("6jm08")
+}, {
+"duration": 1.0,
+"texture": SubResource("xw2ip")
+}, {
+"duration": 1.0,
+"texture": SubResource("3qws2")
+}, {
+"duration": 1.0,
+"texture": SubResource("v0cwm")
+}, {
+"duration": 1.0,
+"texture": SubResource("5eeu3")
+}, {
+"duration": 1.0,
+"texture": SubResource("7d8ve")
+}, {
+"duration": 1.0,
+"texture": SubResource("7stun")
+}, {
+"duration": 1.0,
+"texture": SubResource("pynf5")
+}, {
+"duration": 1.0,
+"texture": SubResource("qbmur")
+}, {
+"duration": 1.0,
+"texture": SubResource("ojtqg")
+}, {
+"duration": 1.0,
+"texture": SubResource("epsbw")
+}, {
+"duration": 1.0,
+"texture": SubResource("rmmo2")
+}, {
+"duration": 1.0,
+"texture": SubResource("nmbrf")
+}, {
+"duration": 1.0,
+"texture": SubResource("36ugr")
+}, {
+"duration": 1.0,
+"texture": SubResource("20qra")
+}, {
+"duration": 1.0,
+"texture": SubResource("7ra2n")
+}, {
+"duration": 1.0,
+"texture": SubResource("jn60i")
+}, {
+"duration": 1.0,
+"texture": SubResource("l01k0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cfewh")
+}, {
+"duration": 1.0,
+"texture": SubResource("ymqj2")
+}, {
+"duration": 1.0,
+"texture": SubResource("5flhu")
+}, {
+"duration": 1.0,
+"texture": SubResource("14q6d")
+}, {
+"duration": 1.0,
+"texture": SubResource("ar3g7")
+}, {
+"duration": 1.0,
+"texture": SubResource("e0gmt")
+}, {
+"duration": 1.0,
+"texture": SubResource("coujq")
+}, {
+"duration": 1.0,
+"texture": SubResource("kllik")
+}, {
+"duration": 1.0,
+"texture": SubResource("41avj")
+}, {
+"duration": 1.0,
+"texture": SubResource("mx5vk")
+}, {
+"duration": 1.0,
+"texture": SubResource("dlpwp")
+}, {
+"duration": 1.0,
+"texture": SubResource("mcwsl")
+}, {
+"duration": 1.0,
+"texture": SubResource("f2hfc")
+}, {
+"duration": 1.0,
+"texture": SubResource("5lfhb")
+}, {
+"duration": 1.0,
+"texture": SubResource("7w6tq")
+}, {
+"duration": 1.0,
+"texture": SubResource("ig3h8")
+}, {
+"duration": 1.0,
+"texture": SubResource("hl3vw")
+}, {
+"duration": 1.0,
+"texture": SubResource("asoq2")
+}, {
+"duration": 1.0,
+"texture": SubResource("qe6fb")
+}, {
+"duration": 1.0,
+"texture": SubResource("xsqtm")
+}, {
+"duration": 1.0,
+"texture": SubResource("v6fpi")
+}, {
+"duration": 1.0,
+"texture": SubResource("q3m2h")
+}, {
+"duration": 1.0,
+"texture": SubResource("b4v7n")
+}, {
+"duration": 1.0,
+"texture": SubResource("dexbc")
+}, {
+"duration": 1.0,
+"texture": SubResource("1724f")
+}, {
+"duration": 1.0,
+"texture": SubResource("08qyq")
+}, {
+"duration": 1.0,
+"texture": SubResource("0o8md")
+}, {
+"duration": 1.0,
+"texture": SubResource("s06lu")
+}, {
+"duration": 1.0,
+"texture": SubResource("iect1")
+}, {
+"duration": 1.0,
+"texture": SubResource("k5yjc")
+}, {
+"duration": 1.0,
+"texture": SubResource("g0cg3")
+}, {
+"duration": 1.0,
+"texture": SubResource("nbtx1")
+}, {
+"duration": 1.0,
+"texture": SubResource("2nj41")
+}, {
+"duration": 1.0,
+"texture": SubResource("3cj4e")
+}, {
+"duration": 1.0,
+"texture": SubResource("xrati")
+}, {
+"duration": 1.0,
+"texture": SubResource("ctcor")
+}, {
+"duration": 1.0,
+"texture": SubResource("tmrnh")
+}, {
+"duration": 1.0,
+"texture": SubResource("ga6qt")
+}, {
+"duration": 1.0,
+"texture": SubResource("4lqrl")
+}, {
+"duration": 1.0,
+"texture": SubResource("b0hpu")
+}, {
+"duration": 1.0,
+"texture": SubResource("dy8ff")
+}, {
+"duration": 1.0,
+"texture": SubResource("t4vtl")
+}, {
+"duration": 1.0,
+"texture": SubResource("c11s8")
+}, {
+"duration": 1.0,
+"texture": SubResource("rc1gw")
+}, {
+"duration": 1.0,
+"texture": SubResource("uy8ru")
+}, {
+"duration": 1.0,
+"texture": SubResource("s7vx8")
+}, {
+"duration": 1.0,
+"texture": SubResource("p8yo3")
+}, {
+"duration": 1.0,
+"texture": SubResource("snm5c")
+}, {
+"duration": 1.0,
+"texture": SubResource("1hs42")
+}, {
+"duration": 1.0,
+"texture": SubResource("ps6mv")
+}, {
+"duration": 1.0,
+"texture": SubResource("ibqjk")
+}, {
+"duration": 1.0,
+"texture": SubResource("kobcs")
+}, {
+"duration": 1.0,
+"texture": SubResource("0vq55")
+}, {
+"duration": 1.0,
+"texture": SubResource("7ai18")
+}, {
+"duration": 1.0,
+"texture": SubResource("grcmf")
+}, {
+"duration": 1.0,
+"texture": SubResource("kctpr")
+}, {
+"duration": 1.0,
+"texture": SubResource("7osoa")
+}, {
+"duration": 1.0,
+"texture": SubResource("iru3v")
+}, {
+"duration": 1.0,
+"texture": SubResource("vt2hj")
+}, {
+"duration": 1.0,
+"texture": SubResource("ctocj")
+}, {
+"duration": 1.0,
+"texture": SubResource("7t6wn")
+}, {
+"duration": 1.0,
+"texture": SubResource("pkkkw")
+}, {
+"duration": 1.0,
+"texture": SubResource("ljngo")
+}, {
+"duration": 1.0,
+"texture": SubResource("54lg2")
+}, {
+"duration": 1.0,
+"texture": SubResource("bb0ac")
+}, {
+"duration": 1.0,
+"texture": SubResource("fejpc")
+}, {
+"duration": 1.0,
+"texture": SubResource("r451g")
+}, {
+"duration": 1.0,
+"texture": SubResource("cry6r")
+}, {
+"duration": 1.0,
+"texture": SubResource("ysdjy")
+}, {
+"duration": 1.0,
+"texture": SubResource("cng5x")
+}, {
+"duration": 1.0,
+"texture": SubResource("jwcju")
+}, {
+"duration": 1.0,
+"texture": SubResource("cw264")
+}, {
+"duration": 1.0,
+"texture": SubResource("4qosy")
+}, {
+"duration": 1.0,
+"texture": SubResource("ajfgw")
+}, {
+"duration": 1.0,
+"texture": SubResource("i5jjd")
+}, {
+"duration": 1.0,
+"texture": SubResource("y5psf")
+}, {
+"duration": 1.0,
+"texture": SubResource("7221x")
+}, {
+"duration": 1.0,
+"texture": SubResource("op8ft")
+}, {
+"duration": 1.0,
+"texture": SubResource("rovmg")
+}, {
+"duration": 1.0,
+"texture": SubResource("htin5")
+}, {
+"duration": 1.0,
+"texture": SubResource("q4vva")
+}, {
+"duration": 1.0,
+"texture": SubResource("i7pxk")
+}, {
+"duration": 1.0,
+"texture": SubResource("mk0ur")
+}, {
+"duration": 1.0,
+"texture": SubResource("empc8")
+}, {
+"duration": 1.0,
+"texture": SubResource("mjmvb")
+}, {
+"duration": 1.0,
+"texture": SubResource("ym0re")
+}, {
+"duration": 1.0,
+"texture": SubResource("g63ax")
+}, {
+"duration": 1.0,
+"texture": SubResource("0w6ww")
+}, {
+"duration": 1.0,
+"texture": SubResource("cuqpy")
+}, {
+"duration": 1.0,
+"texture": SubResource("05nvt")
+}, {
+"duration": 1.0,
+"texture": SubResource("tluxo")
+}, {
+"duration": 1.0,
+"texture": SubResource("fpeb2")
+}, {
+"duration": 1.0,
+"texture": SubResource("1n1cl")
+}, {
+"duration": 1.0,
+"texture": SubResource("k3kum")
+}, {
+"duration": 1.0,
+"texture": SubResource("1n7si")
+}, {
+"duration": 1.0,
+"texture": SubResource("ujst1")
+}, {
+"duration": 1.0,
+"texture": SubResource("j1alo")
+}, {
+"duration": 1.0,
+"texture": SubResource("nudrp")
+}, {
+"duration": 1.0,
+"texture": SubResource("njajy")
+}, {
+"duration": 1.0,
+"texture": SubResource("5rncm")
+}, {
+"duration": 1.0,
+"texture": SubResource("r5ppy")
+}, {
+"duration": 1.0,
+"texture": SubResource("yd8t1")
+}, {
+"duration": 1.0,
+"texture": SubResource("123f2")
+}, {
+"duration": 1.0,
+"texture": SubResource("dnjxc")
+}, {
+"duration": 1.0,
+"texture": SubResource("auk8y")
+}, {
+"duration": 1.0,
+"texture": SubResource("uukof")
+}, {
+"duration": 1.0,
+"texture": SubResource("wygbo")
+}, {
+"duration": 1.0,
+"texture": SubResource("iktd7")
+}, {
+"duration": 1.0,
+"texture": SubResource("2v0y3")
+}, {
+"duration": 1.0,
+"texture": SubResource("s6lic")
+}, {
+"duration": 1.0,
+"texture": SubResource("2socq")
+}, {
+"duration": 1.0,
+"texture": SubResource("exl2v")
+}, {
+"duration": 1.0,
+"texture": SubResource("is4q2")
+}, {
+"duration": 1.0,
+"texture": SubResource("v7cvv")
+}, {
+"duration": 1.0,
+"texture": SubResource("h6sfp")
+}, {
+"duration": 1.0,
+"texture": SubResource("83ofe")
+}, {
+"duration": 1.0,
+"texture": SubResource("tobjk")
+}, {
+"duration": 1.0,
+"texture": SubResource("iwyoy")
+}, {
+"duration": 1.0,
+"texture": SubResource("n1mek")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("lqw1o")
+}, {
+"duration": 1.0,
+"texture": SubResource("mg1e8")
+}, {
+"duration": 1.0,
+"texture": SubResource("l0ccj")
+}, {
+"duration": 1.0,
+"texture": SubResource("wr8so")
+}, {
+"duration": 1.0,
+"texture": SubResource("8niee")
+}, {
+"duration": 1.0,
+"texture": SubResource("hjvko")
+}, {
+"duration": 1.0,
+"texture": SubResource("b05qj")
+}, {
+"duration": 1.0,
+"texture": SubResource("1rdhc")
+}, {
+"duration": 1.0,
+"texture": SubResource("rc4fw")
+}, {
+"duration": 1.0,
+"texture": SubResource("waic3")
+}, {
+"duration": 1.0,
+"texture": SubResource("od5iv")
+}, {
+"duration": 1.0,
+"texture": SubResource("7thth")
+}, {
+"duration": 1.0,
+"texture": SubResource("xrvv4")
+}, {
+"duration": 1.0,
+"texture": SubResource("3and4")
+}, {
+"duration": 1.0,
+"texture": SubResource("sc3t7")
+}, {
+"duration": 1.0,
+"texture": SubResource("dayi5")
+}, {
+"duration": 1.0,
+"texture": SubResource("bg42y")
+}, {
+"duration": 1.0,
+"texture": SubResource("lu6kk")
+}, {
+"duration": 1.0,
+"texture": SubResource("3yiwk")
+}, {
+"duration": 1.0,
+"texture": SubResource("snqq1")
+}, {
+"duration": 1.0,
+"texture": SubResource("jixco")
+}, {
+"duration": 1.0,
+"texture": SubResource("t4yr7")
+}, {
+"duration": 1.0,
+"texture": SubResource("eeagc")
+}, {
+"duration": 1.0,
+"texture": SubResource("ssxk1")
+}, {
+"duration": 1.0,
+"texture": SubResource("2eub4")
+}, {
+"duration": 1.0,
+"texture": SubResource("b1t83")
+}, {
+"duration": 1.0,
+"texture": SubResource("52vsi")
+}, {
+"duration": 1.0,
+"texture": SubResource("b0dym")
+}, {
+"duration": 1.0,
+"texture": SubResource("qp7os")
+}, {
+"duration": 1.0,
+"texture": SubResource("cib8l")
+}, {
+"duration": 1.0,
+"texture": SubResource("xigu5")
+}, {
+"duration": 1.0,
+"texture": SubResource("uuy58")
+}, {
+"duration": 1.0,
+"texture": SubResource("tvntc")
+}, {
+"duration": 1.0,
+"texture": SubResource("ghadr")
+}, {
+"duration": 1.0,
+"texture": SubResource("324ur")
+}, {
+"duration": 1.0,
+"texture": SubResource("kerbj")
+}, {
+"duration": 1.0,
+"texture": SubResource("lct2t")
+}, {
+"duration": 1.0,
+"texture": SubResource("ufk0a")
+}, {
+"duration": 1.0,
+"texture": SubResource("rynjo")
+}, {
+"duration": 1.0,
+"texture": SubResource("85nrv")
+}, {
+"duration": 1.0,
+"texture": SubResource("h8ace")
+}, {
+"duration": 1.0,
+"texture": SubResource("tua2d")
+}, {
+"duration": 1.0,
+"texture": SubResource("wgbru")
+}, {
+"duration": 1.0,
+"texture": SubResource("xdg4h")
+}, {
+"duration": 1.0,
+"texture": SubResource("h1k68")
+}, {
+"duration": 1.0,
+"texture": SubResource("wbmun")
+}, {
+"duration": 1.0,
+"texture": SubResource("7h2yd")
+}, {
+"duration": 1.0,
+"texture": SubResource("wtdbj")
+}, {
+"duration": 1.0,
+"texture": SubResource("fxube")
+}, {
+"duration": 1.0,
+"texture": SubResource("kmukp")
+}, {
+"duration": 1.0,
+"texture": SubResource("dcmr1")
+}, {
+"duration": 1.0,
+"texture": SubResource("nvybj")
+}, {
+"duration": 1.0,
+"texture": SubResource("q5dsi")
+}, {
+"duration": 1.0,
+"texture": SubResource("7avv7")
+}, {
+"duration": 1.0,
+"texture": SubResource("m1sfa")
+}, {
+"duration": 1.0,
+"texture": SubResource("ikqer")
+}, {
+"duration": 1.0,
+"texture": SubResource("qdwp1")
+}, {
+"duration": 1.0,
+"texture": SubResource("gn2cg")
+}, {
+"duration": 1.0,
+"texture": SubResource("oif6u")
+}, {
+"duration": 1.0,
+"texture": SubResource("6tk1n")
+}, {
+"duration": 1.0,
+"texture": SubResource("aqsb1")
+}, {
+"duration": 1.0,
+"texture": SubResource("64fgi")
+}, {
+"duration": 1.0,
+"texture": SubResource("vixpr")
+}, {
+"duration": 1.0,
+"texture": SubResource("gft7s")
+}, {
+"duration": 1.0,
+"texture": SubResource("57d1j")
+}, {
+"duration": 1.0,
+"texture": SubResource("y8jud")
+}, {
+"duration": 1.0,
+"texture": SubResource("cwqpx")
+}, {
+"duration": 1.0,
+"texture": SubResource("i2oj2")
+}, {
+"duration": 1.0,
+"texture": SubResource("trcst")
+}, {
+"duration": 1.0,
+"texture": SubResource("o8lm8")
+}, {
+"duration": 1.0,
+"texture": SubResource("qrd1b")
+}, {
+"duration": 1.0,
+"texture": SubResource("tjb5a")
+}, {
+"duration": 1.0,
+"texture": SubResource("kh0h7")
+}, {
+"duration": 1.0,
+"texture": SubResource("b2dch")
+}, {
+"duration": 1.0,
+"texture": SubResource("mydd0")
+}, {
+"duration": 1.0,
+"texture": SubResource("dv78n")
+}, {
+"duration": 1.0,
+"texture": SubResource("43ho5")
+}, {
+"duration": 1.0,
+"texture": SubResource("t4cne")
+}, {
+"duration": 1.0,
+"texture": SubResource("mj76v")
+}, {
+"duration": 1.0,
+"texture": SubResource("862tv")
+}, {
+"duration": 1.0,
+"texture": SubResource("6t11i")
+}, {
+"duration": 1.0,
+"texture": SubResource("0lio5")
+}, {
+"duration": 1.0,
+"texture": SubResource("vgb3w")
+}, {
+"duration": 1.0,
+"texture": SubResource("ipp1g")
+}, {
+"duration": 1.0,
+"texture": SubResource("7b63d")
+}, {
+"duration": 1.0,
+"texture": SubResource("rgsjo")
+}, {
+"duration": 1.0,
+"texture": SubResource("gimb1")
+}, {
+"duration": 1.0,
+"texture": SubResource("t8sw0")
+}, {
+"duration": 1.0,
+"texture": SubResource("ukn4h")
+}, {
+"duration": 1.0,
+"texture": SubResource("hcatq")
+}, {
+"duration": 1.0,
+"texture": SubResource("1xush")
+}, {
+"duration": 1.0,
+"texture": SubResource("3r57m")
+}, {
+"duration": 1.0,
+"texture": SubResource("tlhre")
+}, {
+"duration": 1.0,
+"texture": SubResource("fgecs")
+}, {
+"duration": 1.0,
+"texture": SubResource("a5udj")
+}, {
+"duration": 1.0,
+"texture": SubResource("w7eiv")
+}, {
+"duration": 1.0,
+"texture": SubResource("tfcvd")
+}, {
+"duration": 1.0,
+"texture": SubResource("1daj3")
+}, {
+"duration": 1.0,
+"texture": SubResource("j23bf")
+}, {
+"duration": 1.0,
+"texture": SubResource("n4kgp")
+}, {
+"duration": 1.0,
+"texture": SubResource("n0wwv")
+}, {
+"duration": 1.0,
+"texture": SubResource("bgv8g")
+}, {
+"duration": 1.0,
+"texture": SubResource("c1l3t")
+}, {
+"duration": 1.0,
+"texture": SubResource("lsxtr")
+}, {
+"duration": 1.0,
+"texture": SubResource("4pix2")
+}, {
+"duration": 1.0,
+"texture": SubResource("8ngin")
+}, {
+"duration": 1.0,
+"texture": SubResource("6av85")
+}, {
+"duration": 1.0,
+"texture": SubResource("rd7yf")
+}, {
+"duration": 1.0,
+"texture": SubResource("7lj7h")
+}, {
+"duration": 1.0,
+"texture": SubResource("wdmy7")
+}, {
+"duration": 1.0,
+"texture": SubResource("17ua2")
+}, {
+"duration": 1.0,
+"texture": SubResource("6or1x")
+}, {
+"duration": 1.0,
+"texture": SubResource("q5ui4")
+}, {
+"duration": 1.0,
+"texture": SubResource("ywfff")
+}, {
+"duration": 1.0,
+"texture": SubResource("54lgs")
+}, {
+"duration": 1.0,
+"texture": SubResource("sww20")
+}, {
+"duration": 1.0,
+"texture": SubResource("6xesg")
+}, {
+"duration": 1.0,
+"texture": SubResource("evwnw")
+}, {
+"duration": 1.0,
+"texture": SubResource("fmer1")
+}, {
+"duration": 1.0,
+"texture": SubResource("tvrtt")
+}, {
+"duration": 1.0,
+"texture": SubResource("rng32")
+}, {
+"duration": 1.0,
+"texture": SubResource("4611q")
+}, {
+"duration": 1.0,
+"texture": SubResource("ef8ss")
+}, {
+"duration": 1.0,
+"texture": SubResource("xcncq")
+}, {
+"duration": 1.0,
+"texture": SubResource("g2221")
+}, {
+"duration": 1.0,
+"texture": SubResource("hnia0")
+}, {
+"duration": 1.0,
+"texture": SubResource("8ldf5")
+}, {
+"duration": 1.0,
+"texture": SubResource("jxeuh")
+}, {
+"duration": 1.0,
+"texture": SubResource("7tuip")
+}, {
+"duration": 1.0,
+"texture": SubResource("2xba4")
+}, {
+"duration": 1.0,
+"texture": SubResource("jwr8p")
+}, {
+"duration": 1.0,
+"texture": SubResource("p81ap")
+}, {
+"duration": 1.0,
+"texture": SubResource("apwu3")
+}, {
+"duration": 1.0,
+"texture": SubResource("g7oxa")
+}, {
+"duration": 1.0,
+"texture": SubResource("dvrl7")
+}, {
+"duration": 1.0,
+"texture": SubResource("djb1j")
+}, {
+"duration": 1.0,
+"texture": SubResource("4fuam")
+}, {
+"duration": 1.0,
+"texture": SubResource("tvljb")
+}, {
+"duration": 1.0,
+"texture": SubResource("6ckip")
+}, {
+"duration": 1.0,
+"texture": SubResource("c50w7")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cbysh")
+}, {
+"duration": 1.0,
+"texture": SubResource("pc33r")
+}, {
+"duration": 1.0,
+"texture": SubResource("w7bh3")
+}, {
+"duration": 1.0,
+"texture": SubResource("r72ws")
+}, {
+"duration": 1.0,
+"texture": SubResource("gesib")
+}, {
+"duration": 1.0,
+"texture": SubResource("ikh8t")
+}, {
+"duration": 1.0,
+"texture": SubResource("fhqto")
+}, {
+"duration": 1.0,
+"texture": SubResource("cique")
+}, {
+"duration": 1.0,
+"texture": SubResource("f7bgf")
+}, {
+"duration": 1.0,
+"texture": SubResource("irpla")
+}, {
+"duration": 1.0,
+"texture": SubResource("5dpdm")
+}, {
+"duration": 1.0,
+"texture": SubResource("wrdlt")
+}, {
+"duration": 1.0,
+"texture": SubResource("2ha3c")
+}, {
+"duration": 1.0,
+"texture": SubResource("bn23i")
+}, {
+"duration": 1.0,
+"texture": SubResource("3f0dc")
+}, {
+"duration": 1.0,
+"texture": SubResource("x1w6c")
+}, {
+"duration": 1.0,
+"texture": SubResource("04v10")
+}, {
+"duration": 1.0,
+"texture": SubResource("eyp1g")
+}, {
+"duration": 1.0,
+"texture": SubResource("prec6")
+}, {
+"duration": 1.0,
+"texture": SubResource("i2t6m")
+}, {
+"duration": 1.0,
+"texture": SubResource("x1f42")
+}, {
+"duration": 1.0,
+"texture": SubResource("2c822")
+}, {
+"duration": 1.0,
+"texture": SubResource("6nkig")
+}, {
+"duration": 1.0,
+"texture": SubResource("o5pvu")
+}, {
+"duration": 1.0,
+"texture": SubResource("sj6yb")
+}, {
+"duration": 1.0,
+"texture": SubResource("lwr1h")
+}, {
+"duration": 1.0,
+"texture": SubResource("2wc2y")
+}, {
+"duration": 1.0,
+"texture": SubResource("5vtc2")
+}, {
+"duration": 1.0,
+"texture": SubResource("jf5ww")
+}, {
+"duration": 1.0,
+"texture": SubResource("u5mxm")
+}, {
+"duration": 1.0,
+"texture": SubResource("3hy5c")
+}, {
+"duration": 1.0,
+"texture": SubResource("13jhl")
+}, {
+"duration": 1.0,
+"texture": SubResource("ho4hn")
+}, {
+"duration": 1.0,
+"texture": SubResource("7wwbn")
+}, {
+"duration": 1.0,
+"texture": SubResource("6qbnf")
+}, {
+"duration": 1.0,
+"texture": SubResource("r681i")
+}, {
+"duration": 1.0,
+"texture": SubResource("wnpji")
+}, {
+"duration": 1.0,
+"texture": SubResource("u8obl")
+}, {
+"duration": 1.0,
+"texture": SubResource("ao8ip")
+}, {
+"duration": 1.0,
+"texture": SubResource("3x1c1")
+}, {
+"duration": 1.0,
+"texture": SubResource("awhbt")
+}, {
+"duration": 1.0,
+"texture": SubResource("pkegw")
+}, {
+"duration": 1.0,
+"texture": SubResource("x7t3l")
+}, {
+"duration": 1.0,
+"texture": SubResource("1sbr5")
+}, {
+"duration": 1.0,
+"texture": SubResource("bsx25")
+}, {
+"duration": 1.0,
+"texture": SubResource("rh44d")
+}, {
+"duration": 1.0,
+"texture": SubResource("4xnr2")
+}, {
+"duration": 1.0,
+"texture": SubResource("0pbd2")
+}, {
+"duration": 1.0,
+"texture": SubResource("3y526")
+}, {
+"duration": 1.0,
+"texture": SubResource("bx0bc")
+}, {
+"duration": 1.0,
+"texture": SubResource("ne70f")
+}, {
+"duration": 1.0,
+"texture": SubResource("birto")
+}, {
+"duration": 1.0,
+"texture": SubResource("fnfxr")
+}, {
+"duration": 1.0,
+"texture": SubResource("rkrt6")
+}, {
+"duration": 1.0,
+"texture": SubResource("1j734")
+}, {
+"duration": 1.0,
+"texture": SubResource("poel7")
+}, {
+"duration": 1.0,
+"texture": SubResource("7x5xq")
+}, {
+"duration": 1.0,
+"texture": SubResource("b1dny")
+}, {
+"duration": 1.0,
+"texture": SubResource("e8x1l")
+}, {
+"duration": 1.0,
+"texture": SubResource("hnpfp")
+}, {
+"duration": 1.0,
+"texture": SubResource("urf8x")
+}, {
+"duration": 1.0,
+"texture": SubResource("f7dbi")
+}, {
+"duration": 1.0,
+"texture": SubResource("j81bf")
+}, {
+"duration": 1.0,
+"texture": SubResource("pgp00")
+}, {
+"duration": 1.0,
+"texture": SubResource("hgjqv")
+}, {
+"duration": 1.0,
+"texture": SubResource("8m06d")
+}, {
+"duration": 1.0,
+"texture": SubResource("f34qk")
+}, {
+"duration": 1.0,
+"texture": SubResource("eam0i")
+}, {
+"duration": 1.0,
+"texture": SubResource("gtyrp")
+}, {
+"duration": 1.0,
+"texture": SubResource("w5f3b")
+}, {
+"duration": 1.0,
+"texture": SubResource("wjaim")
+}, {
+"duration": 1.0,
+"texture": SubResource("n61o2")
+}, {
+"duration": 1.0,
+"texture": SubResource("rmprt")
+}, {
+"duration": 1.0,
+"texture": SubResource("ujwmf")
+}, {
+"duration": 1.0,
+"texture": SubResource("d7b3c")
+}, {
+"duration": 1.0,
+"texture": SubResource("loy3g")
+}, {
+"duration": 1.0,
+"texture": SubResource("n5tmk")
+}, {
+"duration": 1.0,
+"texture": SubResource("yffta")
+}, {
+"duration": 1.0,
+"texture": SubResource("sn8qm")
+}, {
+"duration": 1.0,
+"texture": SubResource("6mrta")
+}, {
+"duration": 1.0,
+"texture": SubResource("6xmxl")
+}, {
+"duration": 1.0,
+"texture": SubResource("cgh0v")
+}, {
+"duration": 1.0,
+"texture": SubResource("p7dk6")
+}, {
+"duration": 1.0,
+"texture": SubResource("31ewx")
+}, {
+"duration": 1.0,
+"texture": SubResource("yrmbk")
+}, {
+"duration": 1.0,
+"texture": SubResource("am3fm")
+}, {
+"duration": 1.0,
+"texture": SubResource("opuqx")
+}, {
+"duration": 1.0,
+"texture": SubResource("fhll7")
+}, {
+"duration": 1.0,
+"texture": SubResource("j30st")
+}, {
+"duration": 1.0,
+"texture": SubResource("d6202")
+}, {
+"duration": 1.0,
+"texture": SubResource("5ugju")
+}, {
+"duration": 1.0,
+"texture": SubResource("vxipj")
+}, {
+"duration": 1.0,
+"texture": SubResource("pff5t")
+}, {
+"duration": 1.0,
+"texture": SubResource("2roij")
+}, {
+"duration": 1.0,
+"texture": SubResource("ri2iu")
+}, {
+"duration": 1.0,
+"texture": SubResource("36gkt")
+}, {
+"duration": 1.0,
+"texture": SubResource("o710s")
+}, {
+"duration": 1.0,
+"texture": SubResource("xbs75")
+}, {
+"duration": 1.0,
+"texture": SubResource("6kgk2")
+}, {
+"duration": 1.0,
+"texture": SubResource("ixf3y")
+}, {
+"duration": 1.0,
+"texture": SubResource("b4q1f")
+}, {
+"duration": 1.0,
+"texture": SubResource("c3lao")
+}, {
+"duration": 1.0,
+"texture": SubResource("2mkmb")
+}, {
+"duration": 1.0,
+"texture": SubResource("dfpfc")
+}, {
+"duration": 1.0,
+"texture": SubResource("eciwf")
+}, {
+"duration": 1.0,
+"texture": SubResource("dbn4d")
+}, {
+"duration": 1.0,
+"texture": SubResource("naixc")
+}, {
+"duration": 1.0,
+"texture": SubResource("olcdu")
+}, {
+"duration": 1.0,
+"texture": SubResource("xoyqc")
+}, {
+"duration": 1.0,
+"texture": SubResource("888eq")
+}, {
+"duration": 1.0,
+"texture": SubResource("qvne8")
+}, {
+"duration": 1.0,
+"texture": SubResource("r5010")
+}, {
+"duration": 1.0,
+"texture": SubResource("gq1px")
+}, {
+"duration": 1.0,
+"texture": SubResource("4tygi")
+}, {
+"duration": 1.0,
+"texture": SubResource("oqo24")
+}, {
+"duration": 1.0,
+"texture": SubResource("bhs2v")
+}, {
+"duration": 1.0,
+"texture": SubResource("uu4j0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mvj11")
+}, {
+"duration": 1.0,
+"texture": SubResource("3r44p")
+}, {
+"duration": 1.0,
+"texture": SubResource("8p8gf")
+}, {
+"duration": 1.0,
+"texture": SubResource("adq5m")
+}, {
+"duration": 1.0,
+"texture": SubResource("6cq44")
+}, {
+"duration": 1.0,
+"texture": SubResource("opid2")
+}, {
+"duration": 1.0,
+"texture": SubResource("6naf6")
+}, {
+"duration": 1.0,
+"texture": SubResource("eaa38")
+}, {
+"duration": 1.0,
+"texture": SubResource("4a2hm")
+}, {
+"duration": 1.0,
+"texture": SubResource("lrnqc")
+}, {
+"duration": 1.0,
+"texture": SubResource("undp0")
+}, {
+"duration": 1.0,
+"texture": SubResource("qbn0j")
+}, {
+"duration": 1.0,
+"texture": SubResource("7f7y7")
+}, {
+"duration": 1.0,
+"texture": SubResource("1tu7d")
+}, {
+"duration": 1.0,
+"texture": SubResource("v5a4l")
+}, {
+"duration": 1.0,
+"texture": SubResource("rbqwk")
+}, {
+"duration": 1.0,
+"texture": SubResource("5kkhq")
+}, {
+"duration": 1.0,
+"texture": SubResource("2jt2b")
+}, {
+"duration": 1.0,
+"texture": SubResource("6ytdi")
+}, {
+"duration": 1.0,
+"texture": SubResource("76dq1")
+}, {
+"duration": 1.0,
+"texture": SubResource("cabcw")
+}, {
+"duration": 1.0,
+"texture": SubResource("rlmb3")
+}, {
+"duration": 1.0,
+"texture": SubResource("6og65")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("16g5w")
+}, {
+"duration": 1.0,
+"texture": SubResource("cu6v2")
+}, {
+"duration": 1.0,
+"texture": SubResource("u5x3c")
+}, {
+"duration": 1.0,
+"texture": SubResource("sn3e2")
+}, {
+"duration": 1.0,
+"texture": SubResource("s3xok")
+}, {
+"duration": 1.0,
+"texture": SubResource("ht3kf")
+}, {
+"duration": 1.0,
+"texture": SubResource("21b1r")
+}, {
+"duration": 1.0,
+"texture": SubResource("ngjic")
+}, {
+"duration": 1.0,
+"texture": SubResource("rojfe")
+}, {
+"duration": 1.0,
+"texture": SubResource("lyqsy")
+}, {
+"duration": 1.0,
+"texture": SubResource("x0l7l")
+}, {
+"duration": 1.0,
+"texture": SubResource("wr53r")
+}, {
+"duration": 1.0,
+"texture": SubResource("lk6dc")
+}, {
+"duration": 1.0,
+"texture": SubResource("0drrc")
+}, {
+"duration": 1.0,
+"texture": SubResource("2po67")
+}, {
+"duration": 1.0,
+"texture": SubResource("c5h6f")
+}, {
+"duration": 1.0,
+"texture": SubResource("ml2yt")
+}, {
+"duration": 1.0,
+"texture": SubResource("ju6hq")
+}, {
+"duration": 1.0,
+"texture": SubResource("3qg7a")
+}, {
+"duration": 1.0,
+"texture": SubResource("0wb3m")
+}, {
+"duration": 1.0,
+"texture": SubResource("oyjnf")
+}, {
+"duration": 1.0,
+"texture": SubResource("c4mvu")
+}, {
+"duration": 1.0,
+"texture": SubResource("rdii2")
+}, {
+"duration": 1.0,
+"texture": SubResource("ahayn")
+}, {
+"duration": 1.0,
+"texture": SubResource("6dmc4")
+}, {
+"duration": 1.0,
+"texture": SubResource("4ebm3")
+}, {
+"duration": 1.0,
+"texture": SubResource("becej")
+}, {
+"duration": 1.0,
+"texture": SubResource("1uyf5")
+}, {
+"duration": 1.0,
+"texture": SubResource("ubcuv")
+}, {
+"duration": 1.0,
+"texture": SubResource("7ys5k")
+}, {
+"duration": 1.0,
+"texture": SubResource("q0lnd")
+}, {
+"duration": 1.0,
+"texture": SubResource("y3dd3")
+}, {
+"duration": 1.0,
+"texture": SubResource("285sf")
+}, {
+"duration": 1.0,
+"texture": SubResource("8yuxt")
+}, {
+"duration": 1.0,
+"texture": SubResource("dg26o")
+}, {
+"duration": 1.0,
+"texture": SubResource("n4hfc")
+}, {
+"duration": 1.0,
+"texture": SubResource("cvtxy")
+}, {
+"duration": 1.0,
+"texture": SubResource("rilsq")
+}, {
+"duration": 1.0,
+"texture": SubResource("kp3g3")
+}, {
+"duration": 1.0,
+"texture": SubResource("hpg5m")
+}, {
+"duration": 1.0,
+"texture": SubResource("s6gql")
+}, {
+"duration": 1.0,
+"texture": SubResource("tgb4h")
+}, {
+"duration": 1.0,
+"texture": SubResource("t17sw")
+}, {
+"duration": 1.0,
+"texture": SubResource("a4asd")
+}, {
+"duration": 1.0,
+"texture": SubResource("xprkt")
+}, {
+"duration": 1.0,
+"texture": SubResource("gnc6e")
+}, {
+"duration": 1.0,
+"texture": SubResource("74e88")
+}, {
+"duration": 1.0,
+"texture": SubResource("sk2k1")
+}, {
+"duration": 1.0,
+"texture": SubResource("6cbvg")
+}, {
+"duration": 1.0,
+"texture": SubResource("tyntt")
+}, {
+"duration": 1.0,
+"texture": SubResource("2l0vl")
+}, {
+"duration": 1.0,
+"texture": SubResource("yx7ub")
+}, {
+"duration": 1.0,
+"texture": SubResource("tqp7r")
+}, {
+"duration": 1.0,
+"texture": SubResource("xu0j7")
+}, {
+"duration": 1.0,
+"texture": SubResource("pdhfo")
+}, {
+"duration": 1.0,
+"texture": SubResource("db0s5")
+}, {
+"duration": 1.0,
+"texture": SubResource("h8hnf")
+}, {
+"duration": 1.0,
+"texture": SubResource("vsrnm")
+}, {
+"duration": 1.0,
+"texture": SubResource("u2mhs")
+}, {
+"duration": 1.0,
+"texture": SubResource("ly024")
+}, {
+"duration": 1.0,
+"texture": SubResource("l62ks")
+}, {
+"duration": 1.0,
+"texture": SubResource("cl7bk")
+}, {
+"duration": 1.0,
+"texture": SubResource("27yoi")
+}, {
+"duration": 1.0,
+"texture": SubResource("jofbx")
+}, {
+"duration": 1.0,
+"texture": SubResource("jdy7b")
+}, {
+"duration": 1.0,
+"texture": SubResource("3xs7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("bnpgc")
+}, {
+"duration": 1.0,
+"texture": SubResource("75rgx")
+}, {
+"duration": 1.0,
+"texture": SubResource("xc0nj")
+}, {
+"duration": 1.0,
+"texture": SubResource("2du2d")
+}, {
+"duration": 1.0,
+"texture": SubResource("w1srg")
+}, {
+"duration": 1.0,
+"texture": SubResource("fjtli")
+}, {
+"duration": 1.0,
+"texture": SubResource("p6vni")
+}, {
+"duration": 1.0,
+"texture": SubResource("288wj")
+}, {
+"duration": 1.0,
+"texture": SubResource("67pk2")
+}, {
+"duration": 1.0,
+"texture": SubResource("siun2")
+}, {
+"duration": 1.0,
+"texture": SubResource("cg0kg")
+}, {
+"duration": 1.0,
+"texture": SubResource("lrgkf")
+}, {
+"duration": 1.0,
+"texture": SubResource("twhem")
+}, {
+"duration": 1.0,
+"texture": SubResource("2ux8i")
+}, {
+"duration": 1.0,
+"texture": SubResource("dm38q")
+}, {
+"duration": 1.0,
+"texture": SubResource("i3wcu")
+}, {
+"duration": 1.0,
+"texture": SubResource("lqm7f")
+}, {
+"duration": 1.0,
+"texture": SubResource("sqejp")
+}, {
+"duration": 1.0,
+"texture": SubResource("gejat")
+}, {
+"duration": 1.0,
+"texture": SubResource("cn1la")
+}, {
+"duration": 1.0,
+"texture": SubResource("h7cgh")
+}, {
+"duration": 1.0,
+"texture": SubResource("nqed7")
+}, {
+"duration": 1.0,
+"texture": SubResource("84713")
+}, {
+"duration": 1.0,
+"texture": SubResource("o501p")
+}, {
+"duration": 1.0,
+"texture": SubResource("pe0ff")
+}, {
+"duration": 1.0,
+"texture": SubResource("tmtgu")
+}, {
+"duration": 1.0,
+"texture": SubResource("ehuke")
+}, {
+"duration": 1.0,
+"texture": SubResource("haxwr")
+}, {
+"duration": 1.0,
+"texture": SubResource("7jnbs")
+}, {
+"duration": 1.0,
+"texture": SubResource("libcp")
+}, {
+"duration": 1.0,
+"texture": SubResource("heqku")
+}, {
+"duration": 1.0,
+"texture": SubResource("gst0h")
+}, {
+"duration": 1.0,
+"texture": SubResource("3ek0h")
+}, {
+"duration": 1.0,
+"texture": SubResource("voxbm")
+}, {
+"duration": 1.0,
+"texture": SubResource("sw4be")
+}, {
+"duration": 1.0,
+"texture": SubResource("rql85")
+}, {
+"duration": 1.0,
+"texture": SubResource("1j777")
+}, {
+"duration": 1.0,
+"texture": SubResource("uiojj")
+}, {
+"duration": 1.0,
+"texture": SubResource("ttvx2")
+}, {
+"duration": 1.0,
+"texture": SubResource("rj05w")
+}, {
+"duration": 1.0,
+"texture": SubResource("owgia")
+}, {
+"duration": 1.0,
+"texture": SubResource("ty1k4")
+}, {
+"duration": 1.0,
+"texture": SubResource("xhxf1")
+}, {
+"duration": 1.0,
+"texture": SubResource("822d4")
+}, {
+"duration": 1.0,
+"texture": SubResource("udos2")
+}, {
+"duration": 1.0,
+"texture": SubResource("uy2s1")
+}, {
+"duration": 1.0,
+"texture": SubResource("el8jv")
+}, {
+"duration": 1.0,
+"texture": SubResource("v5n5e")
+}, {
+"duration": 1.0,
+"texture": SubResource("i0pxg")
+}, {
+"duration": 1.0,
+"texture": SubResource("y558s")
+}, {
+"duration": 1.0,
+"texture": SubResource("p6kwv")
+}, {
+"duration": 1.0,
+"texture": SubResource("mxysb")
+}, {
+"duration": 1.0,
+"texture": SubResource("r3upl")
+}, {
+"duration": 1.0,
+"texture": SubResource("5g71o")
+}, {
+"duration": 1.0,
+"texture": SubResource("6way5")
+}, {
+"duration": 1.0,
+"texture": SubResource("j56k0")
+}, {
+"duration": 1.0,
+"texture": SubResource("2plht")
+}, {
+"duration": 1.0,
+"texture": SubResource("vskxx")
+}, {
+"duration": 1.0,
+"texture": SubResource("i5awg")
+}, {
+"duration": 1.0,
+"texture": SubResource("ixlry")
+}, {
+"duration": 1.0,
+"texture": SubResource("hqm5t")
+}, {
+"duration": 1.0,
+"texture": SubResource("odwnj")
+}, {
+"duration": 1.0,
+"texture": SubResource("obvft")
+}, {
+"duration": 1.0,
+"texture": SubResource("ia7vp")
+}, {
+"duration": 1.0,
+"texture": SubResource("uqy5f")
+}, {
+"duration": 1.0,
+"texture": SubResource("mw2a5")
+}, {
+"duration": 1.0,
+"texture": SubResource("4rrv4")
+}, {
+"duration": 1.0,
+"texture": SubResource("sskp2")
+}, {
+"duration": 1.0,
+"texture": SubResource("sxawr")
+}, {
+"duration": 1.0,
+"texture": SubResource("5y0dn")
+}, {
+"duration": 1.0,
+"texture": SubResource("4gpu5")
+}, {
+"duration": 1.0,
+"texture": SubResource("rd045")
+}, {
+"duration": 1.0,
+"texture": SubResource("i8qoy")
+}, {
+"duration": 1.0,
+"texture": SubResource("dxpxp")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.work.315",
+"speed": 5.0
+}]

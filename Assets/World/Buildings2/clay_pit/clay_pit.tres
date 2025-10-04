@@ -1,0 +1,54 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cclaypittres0"]
+
+[ext_resource type="Texture2D" uid="uid://cmndsbmp0xw10" path="res://Assets/World/Buildings2/clay_pit/clay_pit_pioneers_as_clay_pit0_idle.png" id="clay_pit_pioneers_as_clay_pit0_idle"]
+
+[sub_resource type="AtlasTexture" id="fbuau"]
+atlas = ExtResource("clay_pit_pioneers_as_clay_pit0_idle")
+region = Rect2(0, 0, 192, 128)
+
+[sub_resource type="AtlasTexture" id="5p875"]
+atlas = ExtResource("clay_pit_pioneers_as_clay_pit0_idle")
+region = Rect2(0, 128, 192, 192)
+
+[sub_resource type="AtlasTexture" id="msita"]
+atlas = ExtResource("clay_pit_pioneers_as_clay_pit0_idle")
+region = Rect2(0, 320, 192, 192)
+
+[sub_resource type="AtlasTexture" id="pejec"]
+atlas = ExtResource("clay_pit_pioneers_as_clay_pit0_idle")
+region = Rect2(0, 512, 192, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fbuau")
+}],
+"loop": true,
+"name": &"clay_pit0.pioneers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("5p875")
+}],
+"loop": true,
+"name": &"clay_pit0.pioneers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("msita")
+}],
+"loop": true,
+"name": &"clay_pit0.pioneers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pejec")
+}],
+"loop": true,
+"name": &"clay_pit0.pioneers.idle.315",
+"speed": 5.0
+}]

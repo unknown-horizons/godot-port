@@ -1,0 +1,243 @@
+[gd_resource type="SpriteFrames" load_steps=31 format=3 uid="uid://csmelterytres"]
+
+[ext_resource type="Texture2D" uid="uid://bnflkf3lys0xr" path="res://Assets/World/Buildings2/smeltery/smeltery_settlers_as_smeltery0_idle.png" id="smeltery_settlers_as_smeltery0_idle"]
+[ext_resource type="Texture2D" uid="uid://d4nxncvgh20fi" path="res://Assets/World/Buildings2/smeltery/smeltery_settlers_as_smeltery0_work.png" id="smeltery_settlers_as_smeltery0_work"]
+
+[sub_resource type="AtlasTexture" id="grctu"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_idle")
+region = Rect2(0, 0, 256, 155)
+
+[sub_resource type="AtlasTexture" id="lwo3p"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_idle")
+region = Rect2(0, 155, 256, 155)
+
+[sub_resource type="AtlasTexture" id="l5vv1"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_idle")
+region = Rect2(0, 310, 256, 155)
+
+[sub_resource type="AtlasTexture" id="yoqf4"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_idle")
+region = Rect2(0, 465, 256, 155)
+
+[sub_resource type="AtlasTexture" id="5kc6j"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(0, 0, 256, 155)
+
+[sub_resource type="AtlasTexture" id="nj7ww"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(256, 0, 256, 155)
+
+[sub_resource type="AtlasTexture" id="2llrm"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(512, 0, 256, 155)
+
+[sub_resource type="AtlasTexture" id="engsg"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(768, 0, 256, 155)
+
+[sub_resource type="AtlasTexture" id="rxg63"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(1024, 0, 256, 155)
+
+[sub_resource type="AtlasTexture" id="t3ppr"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(1280, 0, 256, 155)
+
+[sub_resource type="AtlasTexture" id="pjc1a"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(0, 155, 256, 155)
+
+[sub_resource type="AtlasTexture" id="2beph"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(256, 155, 256, 155)
+
+[sub_resource type="AtlasTexture" id="oe4c1"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(512, 155, 256, 155)
+
+[sub_resource type="AtlasTexture" id="qqhlg"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(768, 155, 256, 155)
+
+[sub_resource type="AtlasTexture" id="h6cuy"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(1024, 155, 256, 155)
+
+[sub_resource type="AtlasTexture" id="fimoc"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(1280, 155, 256, 155)
+
+[sub_resource type="AtlasTexture" id="iyw5x"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(0, 310, 256, 155)
+
+[sub_resource type="AtlasTexture" id="l1yxw"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(256, 310, 256, 155)
+
+[sub_resource type="AtlasTexture" id="xpjcm"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(512, 310, 256, 155)
+
+[sub_resource type="AtlasTexture" id="wn71v"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(768, 310, 256, 155)
+
+[sub_resource type="AtlasTexture" id="rdnwn"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(1024, 310, 256, 155)
+
+[sub_resource type="AtlasTexture" id="1y5if"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(1280, 310, 256, 155)
+
+[sub_resource type="AtlasTexture" id="ocofc"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(0, 465, 256, 155)
+
+[sub_resource type="AtlasTexture" id="okwxn"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(256, 465, 256, 155)
+
+[sub_resource type="AtlasTexture" id="35dk1"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(512, 465, 256, 155)
+
+[sub_resource type="AtlasTexture" id="vbj5t"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(768, 465, 256, 155)
+
+[sub_resource type="AtlasTexture" id="41p1k"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(1024, 465, 256, 155)
+
+[sub_resource type="AtlasTexture" id="tdwbd"]
+atlas = ExtResource("smeltery_settlers_as_smeltery0_work")
+region = Rect2(1280, 465, 256, 155)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("grctu")
+}],
+"loop": true,
+"name": &"smeltery0.settlers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("lwo3p")
+}],
+"loop": true,
+"name": &"smeltery0.settlers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("l5vv1")
+}],
+"loop": true,
+"name": &"smeltery0.settlers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("yoqf4")
+}],
+"loop": true,
+"name": &"smeltery0.settlers.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("5kc6j")
+}, {
+"duration": 1.0,
+"texture": SubResource("nj7ww")
+}, {
+"duration": 1.0,
+"texture": SubResource("2llrm")
+}, {
+"duration": 1.0,
+"texture": SubResource("engsg")
+}, {
+"duration": 1.0,
+"texture": SubResource("rxg63")
+}, {
+"duration": 1.0,
+"texture": SubResource("t3ppr")
+}],
+"loop": true,
+"name": &"smeltery0.settlers.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pjc1a")
+}, {
+"duration": 1.0,
+"texture": SubResource("2beph")
+}, {
+"duration": 1.0,
+"texture": SubResource("oe4c1")
+}, {
+"duration": 1.0,
+"texture": SubResource("qqhlg")
+}, {
+"duration": 1.0,
+"texture": SubResource("h6cuy")
+}, {
+"duration": 1.0,
+"texture": SubResource("fimoc")
+}],
+"loop": true,
+"name": &"smeltery0.settlers.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("iyw5x")
+}, {
+"duration": 1.0,
+"texture": SubResource("l1yxw")
+}, {
+"duration": 1.0,
+"texture": SubResource("xpjcm")
+}, {
+"duration": 1.0,
+"texture": SubResource("wn71v")
+}, {
+"duration": 1.0,
+"texture": SubResource("rdnwn")
+}, {
+"duration": 1.0,
+"texture": SubResource("1y5if")
+}],
+"loop": true,
+"name": &"smeltery0.settlers.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("ocofc")
+}, {
+"duration": 1.0,
+"texture": SubResource("okwxn")
+}, {
+"duration": 1.0,
+"texture": SubResource("35dk1")
+}, {
+"duration": 1.0,
+"texture": SubResource("vbj5t")
+}, {
+"duration": 1.0,
+"texture": SubResource("41p1k")
+}, {
+"duration": 1.0,
+"texture": SubResource("tdwbd")
+}],
+"loop": true,
+"name": &"smeltery0.settlers.work.315",
+"speed": 5.0
+}]

@@ -1,0 +1,54 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://ctaverntres00"]
+
+[ext_resource type="Texture2D" uid="uid://dvl3favx4h6r8" path="res://Assets/World/Buildings2/tavern/tavern_settlers_as_tavern0_idle.png" id="tavern_settlers_as_tavern0_idle"]
+
+[sub_resource type="AtlasTexture" id="t7o40"]
+atlas = ExtResource("tavern_settlers_as_tavern0_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="u6nwr"]
+atlas = ExtResource("tavern_settlers_as_tavern0_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="f064w"]
+atlas = ExtResource("tavern_settlers_as_tavern0_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="wi0ie"]
+atlas = ExtResource("tavern_settlers_as_tavern0_idle")
+region = Rect2(0, 384, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("t7o40")
+}],
+"loop": true,
+"name": &"tavern0.settlers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("u6nwr")
+}],
+"loop": true,
+"name": &"tavern0.settlers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("f064w")
+}],
+"loop": true,
+"name": &"tavern0.settlers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("wi0ie")
+}],
+"loop": true,
+"name": &"tavern0.settlers.idle.315",
+"speed": 5.0
+}]

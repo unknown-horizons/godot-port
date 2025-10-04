@@ -1,0 +1,54 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cfirestatiotr"]
+
+[ext_resource type="Texture2D" uid="uid://blgt6t042x3lk" path="res://Assets/World/Buildings2/fire_station/fire_station_pioneers_as_fireservice0_idle.png" id="fire_station_pioneers_as_fireservice0_idle"]
+
+[sub_resource type="AtlasTexture" id="esgiv"]
+atlas = ExtResource("fire_station_pioneers_as_fireservice0_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="vefcp"]
+atlas = ExtResource("fire_station_pioneers_as_fireservice0_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="6o5tp"]
+atlas = ExtResource("fire_station_pioneers_as_fireservice0_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="41avn"]
+atlas = ExtResource("fire_station_pioneers_as_fireservice0_idle")
+region = Rect2(0, 384, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("esgiv")
+}],
+"loop": true,
+"name": &"fireservice0.pioneers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vefcp")
+}],
+"loop": true,
+"name": &"fireservice0.pioneers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("6o5tp")
+}],
+"loop": true,
+"name": &"fireservice0.pioneers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("41avn")
+}],
+"loop": true,
+"name": &"fireservice0.pioneers.idle.315",
+"speed": 5.0
+}]

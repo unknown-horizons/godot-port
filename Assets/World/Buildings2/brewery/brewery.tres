@@ -1,0 +1,572 @@
+[gd_resource type="SpriteFrames" load_steps=76 format=3 uid="uid://cbrewerytres0"]
+
+[ext_resource type="Texture2D" uid="uid://usw2lb0n4p8a" path="res://Assets/World/Buildings2/brewery/brewery_pioneers_as_brewery0_idle.png" id="brewery_pioneers_as_brewery0_idle"]
+[ext_resource type="Texture2D" uid="uid://c7xc0635tm60b" path="res://Assets/World/Buildings2/brewery/brewery_pioneers_as_brewery0_idle_full.png" id="brewery_pioneers_as_brewery0_idle_full"]
+[ext_resource type="Texture2D" uid="uid://gbj78t3kqp05" path="res://Assets/World/Buildings2/brewery/brewery_pioneers_as_brewery0_work.png" id="brewery_pioneers_as_brewery0_work"]
+
+[sub_resource type="AtlasTexture" id="svw83"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="bdh2g"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="sexxo"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="n1p70"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="x66n8"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_idle_full")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="qdchq"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_idle_full")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="gmtsg"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_idle_full")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="c2fy3"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_idle_full")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="mn3ad"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="41hkd"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="yqor1"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="pf37g"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="abm56"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="ymnu2"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="jjgje"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(768, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="pnhj0"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="lfltv"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1024, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="r0b1h"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1152, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="0gkiv"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1280, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="g07jg"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1408, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="beri8"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1536, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="5a7es"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1664, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="7qawb"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1792, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="05qo6"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1920, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="rjvmx"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="mf7ro"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(128, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="dd8sx"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(256, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="324r6"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(384, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="g0tql"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(512, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="6ho1w"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(640, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="rv1ct"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(768, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="eav3o"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(896, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="ncx5e"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1024, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="j87b6"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1152, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="44qqp"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1280, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="uwmsp"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1408, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="0a232"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1536, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="xl4e8"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1664, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="r526g"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1792, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="ut2v3"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1920, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="er5xt"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="fm3bf"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(128, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="kjwaq"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(256, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="dlrmq"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(384, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="vcydh"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(512, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="kl6pp"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(640, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="4qdt4"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(768, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="584h0"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(896, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="e48e2"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1024, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="elnc4"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1152, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="h20a8"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1280, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="5pqrh"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1408, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hiyj1"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1536, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tgoh6"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1664, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="3r1it"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1792, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="kmcgo"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1920, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="jwvql"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="io1re"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(128, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="dc65g"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(256, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="n0x4y"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(384, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="eh3dn"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(512, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="rad0q"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(640, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="367jy"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(768, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="utt4f"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(896, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="d002x"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1024, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="1578h"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1152, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="t714f"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1280, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="mabls"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1408, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="orifq"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1536, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="wl2sm"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1664, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="1khgj"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1792, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="ii3vr"]
+atlas = ExtResource("brewery_pioneers_as_brewery0_work")
+region = Rect2(1920, 384, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("svw83")
+}],
+"loop": true,
+"name": &"brewery0.pioneers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bdh2g")
+}],
+"loop": true,
+"name": &"brewery0.pioneers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("sexxo")
+}],
+"loop": true,
+"name": &"brewery0.pioneers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("n1p70")
+}],
+"loop": true,
+"name": &"brewery0.pioneers.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("x66n8")
+}],
+"loop": true,
+"name": &"brewery0.pioneers.idle_full.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("qdchq")
+}],
+"loop": true,
+"name": &"brewery0.pioneers.idle_full.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("gmtsg")
+}],
+"loop": true,
+"name": &"brewery0.pioneers.idle_full.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("c2fy3")
+}],
+"loop": true,
+"name": &"brewery0.pioneers.idle_full.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mn3ad")
+}, {
+"duration": 1.0,
+"texture": SubResource("41hkd")
+}, {
+"duration": 1.0,
+"texture": SubResource("yqor1")
+}, {
+"duration": 1.0,
+"texture": SubResource("pf37g")
+}, {
+"duration": 1.0,
+"texture": SubResource("abm56")
+}, {
+"duration": 1.0,
+"texture": SubResource("ymnu2")
+}, {
+"duration": 1.0,
+"texture": SubResource("jjgje")
+}, {
+"duration": 1.0,
+"texture": SubResource("pnhj0")
+}, {
+"duration": 1.0,
+"texture": SubResource("lfltv")
+}, {
+"duration": 1.0,
+"texture": SubResource("r0b1h")
+}, {
+"duration": 1.0,
+"texture": SubResource("0gkiv")
+}, {
+"duration": 1.0,
+"texture": SubResource("g07jg")
+}, {
+"duration": 1.0,
+"texture": SubResource("beri8")
+}, {
+"duration": 1.0,
+"texture": SubResource("5a7es")
+}, {
+"duration": 1.0,
+"texture": SubResource("7qawb")
+}, {
+"duration": 1.0,
+"texture": SubResource("05qo6")
+}],
+"loop": true,
+"name": &"brewery0.pioneers.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rjvmx")
+}, {
+"duration": 1.0,
+"texture": SubResource("mf7ro")
+}, {
+"duration": 1.0,
+"texture": SubResource("dd8sx")
+}, {
+"duration": 1.0,
+"texture": SubResource("324r6")
+}, {
+"duration": 1.0,
+"texture": SubResource("g0tql")
+}, {
+"duration": 1.0,
+"texture": SubResource("6ho1w")
+}, {
+"duration": 1.0,
+"texture": SubResource("rv1ct")
+}, {
+"duration": 1.0,
+"texture": SubResource("eav3o")
+}, {
+"duration": 1.0,
+"texture": SubResource("ncx5e")
+}, {
+"duration": 1.0,
+"texture": SubResource("j87b6")
+}, {
+"duration": 1.0,
+"texture": SubResource("44qqp")
+}, {
+"duration": 1.0,
+"texture": SubResource("uwmsp")
+}, {
+"duration": 1.0,
+"texture": SubResource("0a232")
+}, {
+"duration": 1.0,
+"texture": SubResource("xl4e8")
+}, {
+"duration": 1.0,
+"texture": SubResource("r526g")
+}, {
+"duration": 1.0,
+"texture": SubResource("ut2v3")
+}],
+"loop": true,
+"name": &"brewery0.pioneers.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("er5xt")
+}, {
+"duration": 1.0,
+"texture": SubResource("fm3bf")
+}, {
+"duration": 1.0,
+"texture": SubResource("kjwaq")
+}, {
+"duration": 1.0,
+"texture": SubResource("dlrmq")
+}, {
+"duration": 1.0,
+"texture": SubResource("vcydh")
+}, {
+"duration": 1.0,
+"texture": SubResource("kl6pp")
+}, {
+"duration": 1.0,
+"texture": SubResource("4qdt4")
+}, {
+"duration": 1.0,
+"texture": SubResource("584h0")
+}, {
+"duration": 1.0,
+"texture": SubResource("e48e2")
+}, {
+"duration": 1.0,
+"texture": SubResource("elnc4")
+}, {
+"duration": 1.0,
+"texture": SubResource("h20a8")
+}, {
+"duration": 1.0,
+"texture": SubResource("5pqrh")
+}, {
+"duration": 1.0,
+"texture": SubResource("hiyj1")
+}, {
+"duration": 1.0,
+"texture": SubResource("tgoh6")
+}, {
+"duration": 1.0,
+"texture": SubResource("3r1it")
+}, {
+"duration": 1.0,
+"texture": SubResource("kmcgo")
+}],
+"loop": true,
+"name": &"brewery0.pioneers.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("jwvql")
+}, {
+"duration": 1.0,
+"texture": SubResource("io1re")
+}, {
+"duration": 1.0,
+"texture": SubResource("dc65g")
+}, {
+"duration": 1.0,
+"texture": SubResource("n0x4y")
+}, {
+"duration": 1.0,
+"texture": SubResource("eh3dn")
+}, {
+"duration": 1.0,
+"texture": SubResource("rad0q")
+}, {
+"duration": 1.0,
+"texture": SubResource("367jy")
+}, {
+"duration": 1.0,
+"texture": SubResource("utt4f")
+}, {
+"duration": 1.0,
+"texture": SubResource("d002x")
+}, {
+"duration": 1.0,
+"texture": SubResource("1578h")
+}, {
+"duration": 1.0,
+"texture": SubResource("t714f")
+}, {
+"duration": 1.0,
+"texture": SubResource("mabls")
+}, {
+"duration": 1.0,
+"texture": SubResource("orifq")
+}, {
+"duration": 1.0,
+"texture": SubResource("wl2sm")
+}, {
+"duration": 1.0,
+"texture": SubResource("1khgj")
+}, {
+"duration": 1.0,
+"texture": SubResource("ii3vr")
+}],
+"loop": true,
+"name": &"brewery0.pioneers.work.315",
+"speed": 5.0
+}]
