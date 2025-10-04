@@ -6,6 +6,8 @@ extends BaseComponent
 
 class_name BuildingActionSet
 
+@export var cannot_build_material: ShaderMaterial = preload("res://Assets/World/Tilemaps/Highlight/CannotBuildMaterial.tres")
+
 ## The sprite frames for the image of the building
 @export var sprite_frames: SpriteFrames = null:
   set(value):
@@ -103,10 +105,8 @@ func _set(property_name, val):
 var per_tier_animation_names: Array[Array] = []
 
 func _ready():
-  # when ready, update the sprite frames and copy the shader(isn't copied by default)
   if self.animated_sprite:
     self.animated_sprite.sprite_frames = sprite_frames
-    self.animated_sprite.material = self.animated_sprite.material.duplicate()
 
   # initialize the per_tier_animation_names from self.sprite_frames.get_animation_names()
   per_tier_animation_names.resize(ActionSetEnum.Tiers.MAX+1)
@@ -170,6 +170,6 @@ func update_animation() -> void:
   animated_sprite.play(animation_name)
 
 func set_can_build_shader(can_build: bool) -> void:
-  if self.animated_sprite and self.animated_sprite.material:
-    self.animated_sprite.material.set_shader_parameter("can_build", can_build)
-    self.animated_sprite.material.set_shader_parameter("should_show", true)
+  if self.has_node("AnimatedSprite2D"):
+    var shader: ShaderMaterial = self.cannot_build_material if not can_build else null
+    self.get_node("AnimatedSprite2D").material = shader

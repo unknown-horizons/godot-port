@@ -10,5 +10,5 @@ text = "Bakery"
 
 [node name="ProductionChain" parent="TabContainer/VBoxContainer" index="2" instance=ExtResource("2")]
 layout_mode = 2
-output_type = 2
-output_value = 1
+input_two_type = &"RES.FLOUR"
+output_type = &"RES.FOOD"

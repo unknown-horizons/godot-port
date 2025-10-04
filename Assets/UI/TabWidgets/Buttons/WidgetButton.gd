@@ -3,7 +3,7 @@ extends TextureButton
 class_name WidgetButton
 
 ## Name of the input action to be triggered when the button is pressed.
-@export var input_action_name := ""#:
+@export var input_action_name := "toggle_build_building"#:
   # set(name):
   #   input_action_name = name
   #   if name != "":

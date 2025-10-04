@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="4_urqn3"]
 
 [node name="Lumberjack" node_paths=PackedStringArray("unit_sprite") instance=ExtResource("1_87of1")]
+visible = false
 z_index = 11
 script = ExtResource("2_hh14y")
 choping_down_tree_time = 2.0

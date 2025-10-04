@@ -20,6 +20,8 @@ var sized_storage: SizedStorageComponent = null
 var building_storage: SlotStorageComponent = null
 var production_line_components: Array[ProductionLineComponent] = []
 
+signal storage_changed
+
 class Job:
   static var NONE: Job = Job.new(ResourceConfig.Resources.NONE, 0, null, null)
 
@@ -37,6 +39,7 @@ class Job:
 
 
 func _ready():
+  super()
   if built_tilemap == null:
     built_tilemap = self.get_node("/root/Main/BuiltTileMap")
   # setup components
@@ -45,10 +48,7 @@ func _ready():
     child_components.append(component)
     if component is SizedStorageComponent:
       sized_storage = component
-  
-  for component in child_components:
-    component.set_components(child_components)
-  
+
   if self.built_tilemap != null:
     self.built_tilemap.buildings_built.connect(self.set_closest_warehouse)
     self.set_closest_warehouse(built_tilemap.building_position_to_building.values())
@@ -56,9 +56,11 @@ func _ready():
 func set_components(components: Array[BaseComponent]):
   for component in components:
     if component is SlotStorageComponent:
-      building_storage = component
+      self.building_storage = component
+      self.building_storage.storage_changed.connect(self.call_storage_changed)
     if component is ProductionLineComponent:
       production_line_components.append(component)
+  GameStats.game_stats_resource.resources_changed.connect(self.call_storage_changed)
   bring_resources_loop()
 
 func set_closest_warehouse(new_buildings: Array[Building2D]):
@@ -68,6 +70,8 @@ func set_closest_warehouse(new_buildings: Array[Building2D]):
     var warehouse: Warehouse2D = building as Warehouse2D
     if warehouse: # if the building is a warehouse,
       var path_to_current_warehouse = move_by_cell.pathfinding.get_path_to_dest(self.global_position, building.global_position) # get the path to the warehouse.
+      if path_to_current_warehouse == null:
+        continue
       if (self.path_to_warehouse == [] or len(path_to_current_warehouse) < len(path_to_warehouse)) and path_to_current_warehouse != null: # if the warehouse is closer than the last closest warehouse,
         self.path_to_warehouse = []
         for cell in path_to_current_warehouse:
@@ -86,6 +90,10 @@ func get_building_to_collect_from(needed_resource: StringName) -> Building2D:
         closest_building = building # set the closest building to the current building,
         distance_to_building = len(path_to_building) # and set the new distance to the building to collect from
   return closest_building
+
+## merge multiple signals for await either
+func call_storage_changed():
+  storage_changed.emit() 
 
 ## Returns the best possible job at the moment
 func get_best_job() -> Job:
@@ -108,8 +116,8 @@ func get_best_job() -> Job:
         new_job.building_from = building_to_collect_from
     elif path_to_warehouse != []:
       max_amount_to_carry = self.building_storage.storage[resource]
-      new_job.building_from = self.built_tilemap.building_position_to_building.get(self.path_to_warehouse[-1])
-      new_job.building_to = self.parent_building
+      new_job.building_from = self.parent_building
+      new_job.building_to = self.built_tilemap.building_position_to_building.get(self.path_to_warehouse[-1])
 
     new_job.amount = clamp(max_amount_to_carry, 0, sized_storage.storage_capacity)
     if new_job.building_from == null or new_job.building_to == null or new_job.amount == 0 or new_job.resource == ResourceConfig.Resources.NONE:
@@ -118,13 +126,21 @@ func get_best_job() -> Job:
     if path_to_start == null:
       continue
     
-    var building_to_slot_storages: Array[SlotStorageComponent] = new_job.building_to.get_components(SlotStorageComponent)
-    if building_to_slot_storages == []:
+    var storages: Array = new_job.building_to.get_components(StorageComponent)
+    var amount_available = 0
+    if new_job.building_to is Warehouse2D:
+      amount_available = GameStats.game_stats_resource.resources.get(new_job.resource, 0)
+    elif storages == []:
       continue
-    var new_job_score: int = min(new_job.amount, building_to_slot_storages[0].storage.get(new_job.resource) + 2) - len(path_to_start) /2 
+    else:
+      amount_available = storages[0].storage.get(new_job.resource)
+    var new_job_score: int = min(new_job.amount, amount_available + 2) - len(path_to_start) /2 
     if new_job_score > job_score:
       best_job = new_job
       job_score = new_job_score
+
+  if best_job == null and self.built_tilemap.building_position_to_building.get(self.global_position) != self.parent_building:
+    return Job.new(ResourceConfig.Resources.NONE, 0, self.parent_building, self.parent_building) # go home
 
   return best_job
 
@@ -151,7 +167,9 @@ func bring_resources_loop():
 func wait_for_job() -> Job:
   var best_job: Job = get_best_job()
   while best_job == null:
-    await building_storage.storage_changed
+    await self.storage_changed
+    if self.paused:
+      await self.unpaused
     best_job = get_best_job()
   return best_job
 
@@ -162,6 +180,8 @@ func load_resources(job: Job = self.job) -> void:
 
   var amount_collected: int = await job.building_from.load_resource(job.resource, job.amount)
   sized_storage.set_storage_item_amount(job.resource, amount_collected)
+  if self.paused:
+    await self.unpaused
 
 ## Unloads the resources at the building
 func unload_resources(job: Job = self.job) -> void:
@@ -169,3 +189,5 @@ func unload_resources(job: Job = self.job) -> void:
     return
   await job.building_to.unload_resource(job.resource, sized_storage.storage[job.resource])
   sized_storage.storage = {}
+  if self.paused:
+    await self.unpaused

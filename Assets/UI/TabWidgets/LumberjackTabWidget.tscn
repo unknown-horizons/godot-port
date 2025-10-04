@@ -13,8 +13,8 @@ text = "Lumberjack"
 
 [node name="ProductionChain" parent="TabContainer/VBoxContainer" index="2" instance=ExtResource("3")]
 layout_mode = 2
-input_two_type = 4
-output_type = 3
+input_two_type = &"RES.TREES"
+output_type = &"RES.BOARDS"
 
 [node name="MarginContainer" type="MarginContainer" parent="TabContainer/VBoxContainer" index="3"]
 layout_mode = 2

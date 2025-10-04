@@ -12,7 +12,7 @@ text = "Farm"
 
 [node name="ProductionChain" parent="TabContainer/VBoxContainer" index="2" instance=ExtResource("5")]
 layout_mode = 2
-output_type = 2
+output_type = &"RES.CORN"
 output_value = 1
 
 [node name="ProductionChain2" parent="TabContainer/VBoxContainer" index="3" instance=ExtResource("5")]
