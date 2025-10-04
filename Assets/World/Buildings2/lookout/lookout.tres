@@ -1,0 +1,54 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://clookouttres0"]
+
+[ext_resource type="Texture2D" uid="uid://dcn75w6t3iwyp" path="res://Assets/World/Buildings2/lookout/lookout_sailors_as_lookout0_idle.png" id="lookout_sailors_as_lookout0_idle"]
+
+[sub_resource type="AtlasTexture" id="mnmqa"]
+atlas = ExtResource("lookout_sailors_as_lookout0_idle")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="rwtmw"]
+atlas = ExtResource("lookout_sailors_as_lookout0_idle")
+region = Rect2(0, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="eec2h"]
+atlas = ExtResource("lookout_sailors_as_lookout0_idle")
+region = Rect2(0, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="xsrtf"]
+atlas = ExtResource("lookout_sailors_as_lookout0_idle")
+region = Rect2(0, 192, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mnmqa")
+}],
+"loop": true,
+"name": &"lookout0.sailors.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rwtmw")
+}],
+"loop": true,
+"name": &"lookout0.sailors.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("eec2h")
+}],
+"loop": true,
+"name": &"lookout0.sailors.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("xsrtf")
+}],
+"loop": true,
+"name": &"lookout0.sailors.idle.315",
+"speed": 5.0
+}]

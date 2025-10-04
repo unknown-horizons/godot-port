@@ -31,11 +31,11 @@ enum Orientations {
     update_animation()
 
 ## The current world's tier
-@export var current_world_tier: ActionSetEnum.tiers = ActionSetEnum.tiers.SAILORS:
+@export var current_world_tier: ActionSetEnum.Tiers = ActionSetEnum.Tiers.MAX:
   set(value):
     current_world_tier = value
     if self.per_tier_animation_names.size() > 0 and self.per_tier_animation_names[current_world_tier].size() > 0:
-      self.current_as_name = self.per_tier_animation_names[current_world_tier][0].split("_")[0] # TODO: pick random as_name
+      self.current_as_name = self.per_tier_animation_names[current_world_tier][0].split(".")[0] # TODO: pick random as_name
     update_animation()
 
 # @export # no need to export - there is a custom one @ _get_property_list
@@ -65,7 +65,7 @@ func get_action_set_names():
   var animation_names := self.sprite_frames.get_animation_names()
   var as_names := {}
   for name in animation_names:
-    var prefix = name.split("_")[0]
+    var prefix = name.split(".")[0]
     as_names[prefix] = true  # using keys to simulate a set
   return as_names
 
@@ -109,23 +109,22 @@ func _ready():
     self.animated_sprite.material = self.animated_sprite.material.duplicate()
 
   # initialize the per_tier_animation_names from self.sprite_frames.get_animation_names()
-  per_tier_animation_names.resize(ActionSetEnum.tiers.MERCHANTS + 1)
-  for i in per_tier_animation_names.size():
-    per_tier_animation_names[i] = []
+  per_tier_animation_names.resize(ActionSetEnum.Tiers.MAX+1)
+
   for animation_name in self.sprite_frames.get_animation_names():
-    var parts = animation_name.split("_")
+    var parts = animation_name.split(".")
     if parts.size() < 2:
       push_error("Unknown animation_name: %s" % animation_name)
       continue  # skip malformed
     var animation_tier_name = parts[1].to_upper()  # e.g. "MERCHANTS"
-    if ActionSetEnum.tiers.has(animation_tier_name):
-      var tier_enum = ActionSetEnum.tiers[animation_tier_name]
+    if ActionSetEnum.Tiers.has(animation_tier_name):
+      var tier_enum = ActionSetEnum.Tiers[animation_tier_name]
       per_tier_animation_names[tier_enum].push_back(animation_name)
     else:
       push_error("Unknown tier: %s" % animation_tier_name)
 
     if self.per_tier_animation_names.size() > 0 and self.per_tier_animation_names[current_world_tier].size() > 0:
-      self.current_as_name = self.per_tier_animation_names[current_world_tier][0].split("_")[0] # TODO: pick random as_name
+      self.current_as_name = self.per_tier_animation_names[current_world_tier][0].split(".")[0] # TODO: pick random as_name
 
   update_animation()
 
@@ -141,11 +140,10 @@ func update_animation() -> void:
   # get the last tier before the current at which we have an animation, as string
   var animation_name: String = ""
 
-  for tier in range(self.current_world_tier, -1, -1): # start with current_world_tier and go backwards
-    var tier_name_lc: String = ActionSetEnum.tiers.keys()[tier].to_lower() # the tier as a lowercase string
+  for tier in range(self.current_world_tier, ActionSetEnum.Tiers.MIN+1-1, -1): # start with current_world_tier and go backwards
+    var tier_name_lc: String = ActionSetEnum.Tiers.keys()[tier].to_lower() # the tier as a lowercase string
     var tier_animations = self.per_tier_animation_names[tier]
     if tier_animations.size() > 0: # if the tier contains any animations - we choose one from them
-      # animation_name == actionsetname_tiername_statename_orientationstr. i.e: tent1_sailors_idle_225
       var as_animations = tier_animations.filter(func(k): return k.contains(self.current_as_name))
       if as_animations.size() > 0: # if actionset_name animation present - choose only from animations corresponding to the actionset_name
         tier_animations = as_animations

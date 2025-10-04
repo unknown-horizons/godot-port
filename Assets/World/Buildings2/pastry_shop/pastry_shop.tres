@@ -1,0 +1,523 @@
+[gd_resource type="SpriteFrames" load_steps=71 format=3 uid="uid://cpastryshoptr"]
+
+[ext_resource type="Texture2D" uid="uid://b8e726ws2usvp" path="res://Assets/World/Buildings2/pastry_shop/pastry_shop_citizens_as_pastryshop0_idle.png" id="pastry_shop_citizens_as_pastryshop0_idle"]
+[ext_resource type="Texture2D" uid="uid://dn6tx5itxg5ow" path="res://Assets/World/Buildings2/pastry_shop/pastry_shop_citizens_as_pastryshop0_work.png" id="pastry_shop_citizens_as_pastryshop0_work"]
+
+[sub_resource type="AtlasTexture" id="jhq5a"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_idle")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="pt3ss"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_idle")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="a3d6h"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_idle")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="6bpt1"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_idle")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="yi04b"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="83qij"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="df2pw"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="xirp8"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="4efbm"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="p3icb"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="a2wt2"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(768, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="ue8ns"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="63rsd"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1024, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="3divr"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1152, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="5310x"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1280, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="b1uvn"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1408, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="ac2fu"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1536, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="r6hlj"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1664, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="jp1bg"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1792, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="qxvfh"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1920, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="qexxx"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="ulogu"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(128, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="vneal"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(256, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="u867g"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(384, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="yv22h"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(512, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="80mcq"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(640, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="wpqxl"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(768, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="rw5at"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(896, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="c15d8"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1024, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="7yyes"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1152, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="yb5vw"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1280, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="h5ml8"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1408, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="72sjm"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1536, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="m1hok"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1664, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="gnl2i"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1792, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="86wkc"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1920, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="qcdq4"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="gcsea"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(128, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="42ijy"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(256, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="2pbn7"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(384, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="djbci"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(512, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="pvesn"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(640, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="373db"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(768, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="b6afn"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(896, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="w78qa"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1024, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="g1p7c"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1152, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="cwrgd"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1280, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="hcicg"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1408, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="5yqka"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1536, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="6qran"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1664, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="jm6fm"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1792, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="djrdm"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1920, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="unr4g"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="pnrr2"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(128, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="qihm7"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(256, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="vx5pg"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(384, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="vixgr"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(512, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="t6t6y"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(640, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="fxgfi"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(768, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="tgsk4"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(896, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="qlwhk"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1024, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="mug57"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1152, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="m63cy"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1280, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="lepdb"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1408, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="v8xgc"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1536, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="7yb1r"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1664, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="8hmxf"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1792, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="ardrn"]
+atlas = ExtResource("pastry_shop_citizens_as_pastryshop0_work")
+region = Rect2(1920, 384, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("jhq5a")
+}],
+"loop": true,
+"name": &"pastryshop0.citizens.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pt3ss")
+}],
+"loop": true,
+"name": &"pastryshop0.citizens.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("a3d6h")
+}],
+"loop": true,
+"name": &"pastryshop0.citizens.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("6bpt1")
+}],
+"loop": true,
+"name": &"pastryshop0.citizens.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("yi04b")
+}, {
+"duration": 1.0,
+"texture": SubResource("83qij")
+}, {
+"duration": 1.0,
+"texture": SubResource("df2pw")
+}, {
+"duration": 1.0,
+"texture": SubResource("xirp8")
+}, {
+"duration": 1.0,
+"texture": SubResource("4efbm")
+}, {
+"duration": 1.0,
+"texture": SubResource("p3icb")
+}, {
+"duration": 1.0,
+"texture": SubResource("a2wt2")
+}, {
+"duration": 1.0,
+"texture": SubResource("ue8ns")
+}, {
+"duration": 1.0,
+"texture": SubResource("63rsd")
+}, {
+"duration": 1.0,
+"texture": SubResource("3divr")
+}, {
+"duration": 1.0,
+"texture": SubResource("5310x")
+}, {
+"duration": 1.0,
+"texture": SubResource("b1uvn")
+}, {
+"duration": 1.0,
+"texture": SubResource("ac2fu")
+}, {
+"duration": 1.0,
+"texture": SubResource("r6hlj")
+}, {
+"duration": 1.0,
+"texture": SubResource("jp1bg")
+}, {
+"duration": 1.0,
+"texture": SubResource("qxvfh")
+}],
+"loop": true,
+"name": &"pastryshop0.citizens.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("qexxx")
+}, {
+"duration": 1.0,
+"texture": SubResource("ulogu")
+}, {
+"duration": 1.0,
+"texture": SubResource("vneal")
+}, {
+"duration": 1.0,
+"texture": SubResource("u867g")
+}, {
+"duration": 1.0,
+"texture": SubResource("yv22h")
+}, {
+"duration": 1.0,
+"texture": SubResource("80mcq")
+}, {
+"duration": 1.0,
+"texture": SubResource("wpqxl")
+}, {
+"duration": 1.0,
+"texture": SubResource("rw5at")
+}, {
+"duration": 1.0,
+"texture": SubResource("c15d8")
+}, {
+"duration": 1.0,
+"texture": SubResource("7yyes")
+}, {
+"duration": 1.0,
+"texture": SubResource("yb5vw")
+}, {
+"duration": 1.0,
+"texture": SubResource("h5ml8")
+}, {
+"duration": 1.0,
+"texture": SubResource("72sjm")
+}, {
+"duration": 1.0,
+"texture": SubResource("m1hok")
+}, {
+"duration": 1.0,
+"texture": SubResource("gnl2i")
+}, {
+"duration": 1.0,
+"texture": SubResource("86wkc")
+}],
+"loop": true,
+"name": &"pastryshop0.citizens.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("qcdq4")
+}, {
+"duration": 1.0,
+"texture": SubResource("gcsea")
+}, {
+"duration": 1.0,
+"texture": SubResource("42ijy")
+}, {
+"duration": 1.0,
+"texture": SubResource("2pbn7")
+}, {
+"duration": 1.0,
+"texture": SubResource("djbci")
+}, {
+"duration": 1.0,
+"texture": SubResource("pvesn")
+}, {
+"duration": 1.0,
+"texture": SubResource("373db")
+}, {
+"duration": 1.0,
+"texture": SubResource("b6afn")
+}, {
+"duration": 1.0,
+"texture": SubResource("w78qa")
+}, {
+"duration": 1.0,
+"texture": SubResource("g1p7c")
+}, {
+"duration": 1.0,
+"texture": SubResource("cwrgd")
+}, {
+"duration": 1.0,
+"texture": SubResource("hcicg")
+}, {
+"duration": 1.0,
+"texture": SubResource("5yqka")
+}, {
+"duration": 1.0,
+"texture": SubResource("6qran")
+}, {
+"duration": 1.0,
+"texture": SubResource("jm6fm")
+}, {
+"duration": 1.0,
+"texture": SubResource("djrdm")
+}],
+"loop": true,
+"name": &"pastryshop0.citizens.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("unr4g")
+}, {
+"duration": 1.0,
+"texture": SubResource("pnrr2")
+}, {
+"duration": 1.0,
+"texture": SubResource("qihm7")
+}, {
+"duration": 1.0,
+"texture": SubResource("vx5pg")
+}, {
+"duration": 1.0,
+"texture": SubResource("vixgr")
+}, {
+"duration": 1.0,
+"texture": SubResource("t6t6y")
+}, {
+"duration": 1.0,
+"texture": SubResource("fxgfi")
+}, {
+"duration": 1.0,
+"texture": SubResource("tgsk4")
+}, {
+"duration": 1.0,
+"texture": SubResource("qlwhk")
+}, {
+"duration": 1.0,
+"texture": SubResource("mug57")
+}, {
+"duration": 1.0,
+"texture": SubResource("m63cy")
+}, {
+"duration": 1.0,
+"texture": SubResource("lepdb")
+}, {
+"duration": 1.0,
+"texture": SubResource("v8xgc")
+}, {
+"duration": 1.0,
+"texture": SubResource("7yb1r")
+}, {
+"duration": 1.0,
+"texture": SubResource("8hmxf")
+}, {
+"duration": 1.0,
+"texture": SubResource("ardrn")
+}],
+"loop": true,
+"name": &"pastryshop0.citizens.work.315",
+"speed": 5.0
+}]
