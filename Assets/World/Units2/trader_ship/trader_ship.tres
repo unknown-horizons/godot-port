@@ -1,0 +1,233 @@
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cutradershitr"]
+
+[ext_resource type="Texture2D" path="res://Assets/World/Units2/trader_ship/trader_ship_sailors_as_trader0_idle.png" id="trader_ship_sailors_as_trader0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Units2/trader_ship/trader_ship_sailors_as_trader0_move.png" id="trader_ship_sailors_as_trader0_move"]
+
+[sub_resource type="AtlasTexture" id="trader0.sailors.idle.000_0_0"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_idle")
+region = Rect2(0, 0, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.idle.135_0_792"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_idle")
+region = Rect2(0, 792, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.idle.180_0_1056"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_idle")
+region = Rect2(0, 1056, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.idle.225_0_1320"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_idle")
+region = Rect2(0, 1320, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.idle.270_0_1584"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_idle")
+region = Rect2(0, 1584, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.idle.315_0_1848"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_idle")
+region = Rect2(0, 1848, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.idle.045_0_264"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_idle")
+region = Rect2(0, 264, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.idle.090_0_528"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_idle")
+region = Rect2(0, 528, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.move.000_0_0"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_move")
+region = Rect2(0, 0, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.move.135_0_792"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_move")
+region = Rect2(0, 792, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.move.180_0_1056"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_move")
+region = Rect2(0, 1056, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.move.225_0_1320"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_move")
+region = Rect2(0, 1320, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.move.270_0_1584"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_move")
+region = Rect2(0, 1584, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.move.315_0_1848"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_move")
+region = Rect2(0, 1848, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.move.045_0_264"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_move")
+region = Rect2(0, 264, 264, 264)
+[sub_resource type="AtlasTexture" id="trader0.sailors.move.090_0_528"]
+atlas = ExtResource("trader_ship_sailors_as_trader0_move")
+region = Rect2(0, 528, 264, 264)
+
+[resource]
+animations = [
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.idle.000_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.idle.000",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.idle.135_0_792")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.idle.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.idle.180_0_1056")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.idle.180",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.idle.225_0_1320")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.idle.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.idle.270_0_1584")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.idle.270",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.idle.315_0_1848")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.idle.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.idle.045_0_264")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.idle.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.idle.090_0_528")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.idle.090",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.move.000_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.move.000",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.move.135_0_792")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.move.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.move.180_0_1056")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.move.180",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.move.225_0_1320")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.move.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.move.270_0_1584")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.move.270",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.move.315_0_1848")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.move.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.move.045_0_264")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.move.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("trader0.sailors.move.090_0_528")
+      },
+        ],
+    "loop": true,
+    "name": &"trader0.sailors.move.090",
+    "speed": 5.0
+  },
+]

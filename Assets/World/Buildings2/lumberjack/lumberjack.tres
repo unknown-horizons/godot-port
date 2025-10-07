@@ -1,1181 +1,1375 @@
-[gd_resource type="SpriteFrames" load_steps=121 format=3 uid="uid://clumberjacktr"]
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cblumberjactr"]
 
-[ext_resource type="Texture2D" uid="uid://di3273enpn3dg" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_idle.png" id="lumberjack_pioneers_as_lumberjack_barrack0_idle"]
-[ext_resource type="Texture2D" uid="uid://c6k20sb16aivq" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_logs_01.png" id="lumberjack_pioneers_as_lumberjack_barrack0_logs_01"]
-[ext_resource type="Texture2D" uid="uid://l2ads4mguwgn" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_logs_02.png" id="lumberjack_pioneers_as_lumberjack_barrack0_logs_02"]
-[ext_resource type="Texture2D" uid="uid://c5icmxcys8yfi" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_logs_03.png" id="lumberjack_pioneers_as_lumberjack_barrack0_logs_03"]
-[ext_resource type="Texture2D" uid="uid://dciktkca10eif" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_logs_04.png" id="lumberjack_pioneers_as_lumberjack_barrack0_logs_04"]
-[ext_resource type="Texture2D" uid="uid://vxa05cng4wjl" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_logs_05.png" id="lumberjack_pioneers_as_lumberjack_barrack0_logs_05"]
-[ext_resource type="Texture2D" uid="uid://dycplwj12epvy" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_01.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_01"]
-[ext_resource type="Texture2D" uid="uid://cst7jhno5cx8v" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_02.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_02"]
-[ext_resource type="Texture2D" uid="uid://b3cbghofy2ct7" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_03.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_03"]
-[ext_resource type="Texture2D" uid="uid://b1jibquijg0u3" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_04.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_04"]
-[ext_resource type="Texture2D" uid="uid://c5u6yni1tvnen" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_05.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_05"]
-[ext_resource type="Texture2D" uid="uid://cq3ovugjg23ka" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_06.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_06"]
-[ext_resource type="Texture2D" uid="uid://cbnhc825kgmmk" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_07.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_07"]
-[ext_resource type="Texture2D" uid="uid://yxnutirqvocv" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_08.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_08"]
-[ext_resource type="Texture2D" uid="uid://bhxvrmo2ujrwu" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_09.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_09"]
-[ext_resource type="Texture2D" uid="uid://dphtwidyssvhl" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_10.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_10"]
-[ext_resource type="Texture2D" uid="uid://cw4hlok7ne1fs" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_11.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_11"]
-[ext_resource type="Texture2D" uid="uid://d1yj40g3p1l0q" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_12.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_12"]
-[ext_resource type="Texture2D" uid="uid://c5c4klgvlsve3" path="res://Assets/World/Buildings2/lumberjack/lumberjack_sailors_as_lumberjack0_idle.png" id="lumberjack_sailors_as_lumberjack0_idle"]
-[ext_resource type="Texture2D" uid="uid://bmra5qgp7pcs5" path="res://Assets/World/Buildings2/lumberjack/lumberjack_sailors_as_lumberjack0_logs_1.png" id="lumberjack_sailors_as_lumberjack0_logs_1"]
-[ext_resource type="Texture2D" uid="uid://7upeh3pyh245" path="res://Assets/World/Buildings2/lumberjack/lumberjack_sailors_as_lumberjack0_logs_2.png" id="lumberjack_sailors_as_lumberjack0_logs_2"]
-[ext_resource type="Texture2D" uid="uid://dist3pmyshsct" path="res://Assets/World/Buildings2/lumberjack/lumberjack_sailors_as_lumberjack0_logs_3.png" id="lumberjack_sailors_as_lumberjack0_logs_3"]
-[ext_resource type="Texture2D" uid="uid://dqy0n11t2fysa" path="res://Assets/World/Buildings2/lumberjack/lumberjack_sailors_as_lumberjack0_logs_4.png" id="lumberjack_sailors_as_lumberjack0_logs_4"]
-[ext_resource type="Texture2D" uid="uid://dlbikn1psjqbn" path="res://Assets/World/Buildings2/lumberjack/lumberjack_sailors_as_lumberjack0_logs_5.png" id="lumberjack_sailors_as_lumberjack0_logs_5"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_sailors_as_lumberjack0_idle.png" id="lumberjack_sailors_as_lumberjack0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_sailors_as_lumberjack0_logs_1.png" id="lumberjack_sailors_as_lumberjack0_logs_1"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_sailors_as_lumberjack0_logs_2.png" id="lumberjack_sailors_as_lumberjack0_logs_2"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_sailors_as_lumberjack0_logs_3.png" id="lumberjack_sailors_as_lumberjack0_logs_3"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_sailors_as_lumberjack0_logs_4.png" id="lumberjack_sailors_as_lumberjack0_logs_4"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_sailors_as_lumberjack0_logs_5.png" id="lumberjack_sailors_as_lumberjack0_logs_5"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_idle.png" id="lumberjack_pioneers_as_lumberjack_barrack0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_logs_01.png" id="lumberjack_pioneers_as_lumberjack_barrack0_logs_01"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_logs_02.png" id="lumberjack_pioneers_as_lumberjack_barrack0_logs_02"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_logs_03.png" id="lumberjack_pioneers_as_lumberjack_barrack0_logs_03"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_logs_04.png" id="lumberjack_pioneers_as_lumberjack_barrack0_logs_04"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_logs_05.png" id="lumberjack_pioneers_as_lumberjack_barrack0_logs_05"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_01.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_01"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_02.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_02"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_03.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_03"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_04.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_04"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_05.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_05"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_06.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_06"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_07.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_07"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_08.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_08"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_09.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_09"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_10.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_10"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_11.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_11"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/lumberjack/lumberjack_pioneers_as_lumberjack_barrack0_planks_12.png" id="lumberjack_pioneers_as_lumberjack_barrack0_planks_12"]
 
-[sub_resource type="AtlasTexture" id="u1bvw"]
-atlas = ExtResource("lumberjack_sailors_as_lumberjack0_idle")
-region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="cfrec"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.idle.135_0_128"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_idle")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="8o0ss"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.idle.225_0_256"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_idle")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="nfho3"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.idle.315_0_384"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_idle")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="vmko8"]
-atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_1")
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.idle.045_0_0"]
+atlas = ExtResource("lumberjack_sailors_as_lumberjack0_idle")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="suqvo"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_1.135_0_128"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_1")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="4e4h4"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_1.225_0_256"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_1")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="dgejp"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_1.315_0_384"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_1")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="13xsi"]
-atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_2")
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_1.045_0_0"]
+atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_1")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="vmnq4"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_2.135_0_128"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_2")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="36bbs"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_2.225_0_256"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_2")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="n86ou"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_2.315_0_384"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_2")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="khjv6"]
-atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_3")
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_2.045_0_0"]
+atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_2")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="6euvh"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_3.135_0_128"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_3")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="hmbjk"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_3.225_0_256"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_3")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="k6eh5"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_3.315_0_384"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_3")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="gj31a"]
-atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_4")
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_3.045_0_0"]
+atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_3")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="nrv1j"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_4.135_0_128"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_4")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="jiake"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_4.225_0_256"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_4")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="1rbvc"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_4.315_0_384"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_4")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="ydtio"]
-atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_5")
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_4.045_0_0"]
+atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_4")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="2jfgc"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_5.135_0_128"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_5")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="a1msd"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_5.225_0_256"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_5")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="38fx4"]
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_5.315_0_384"]
 atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_5")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="cne57"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_idle")
+[sub_resource type="AtlasTexture" id="lumberjack0.sailors.logs_5.045_0_0"]
+atlas = ExtResource("lumberjack_sailors_as_lumberjack0_logs_5")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="6da2f"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.idle.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_idle")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="ce7tm"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.idle.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_idle")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="oo80q"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.idle.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_idle")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="43i6m"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_01")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.idle.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_idle")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="dx0cd"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_01.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_01")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="mrwjt"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_01.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_01")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="k0s0s"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_01.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_01")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="3bsvu"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_02")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_01.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_01")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="r42l4"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_02.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_02")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="rb8d3"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_02.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_02")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="hyakw"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_02.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_02")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="php1r"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_03")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_02.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_02")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="3a5re"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_03.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_03")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="16358"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_03.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_03")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="8y0ea"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_03.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_03")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="6dg4j"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_04")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_03.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_03")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="kerxp"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_04.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_04")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="aufno"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_04.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_04")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="iqx80"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_04.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_04")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="ctxpt"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_05")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_04.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_04")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="nkdcd"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_05.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_05")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="hgq1t"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_05.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_05")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="p18j5"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_05.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_05")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="24l3m"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_01")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.logs_05.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_logs_05")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="biqlj"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_01.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_01")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="djhvk"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_01.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_01")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="wbc71"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_01.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_01")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="jdfgn"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_02")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_01.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_01")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="mrqt8"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_02.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_02")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="d63bx"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_02.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_02")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="dkoq3"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_02.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_02")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="yhx07"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_03")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_02.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_02")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="ek0ti"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_03.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_03")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="38aq3"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_03.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_03")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="xdv4v"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_03.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_03")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="hh8fg"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_04")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_03.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_03")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="0a2bs"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_04.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_04")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="6fnps"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_04.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_04")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="die56"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_04.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_04")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="q0pn3"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_05")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_04.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_04")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="qbsye"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_05.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_05")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="exs0k"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_05.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_05")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="21l1q"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_05.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_05")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="55sx7"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_06")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_05.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_05")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="agmwd"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_06.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_06")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="rf2sm"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_06.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_06")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="2tiaa"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_06.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_06")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="8glso"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_07")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_06.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_06")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="vogn7"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_07.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_07")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="lj4rh"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_07.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_07")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="6g443"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_07.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_07")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="xmcot"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_08")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_07.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_07")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="wgynn"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_08.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_08")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="1yrp8"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_08.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_08")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="aahy7"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_08.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_08")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="w2ne6"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_09")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_08.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_08")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="o350y"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_09.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_09")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="nfu0x"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_09.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_09")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="ugh0v"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_09.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_09")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="2v0o0"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_10")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_09.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_09")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="nvj7n"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_10.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_10")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="rokar"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_10.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_10")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="g2shq"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_10.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_10")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="8iod1"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_11")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_10.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_10")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="k684m"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_11.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_11")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="udtt6"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_11.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_11")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="812ay"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_11.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_11")
 region = Rect2(0, 384, 128, 128)
-
-[sub_resource type="AtlasTexture" id="a0su6"]
-atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_12")
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_11.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_11")
 region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="1s2tg"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_12.135_0_128"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_12")
 region = Rect2(0, 128, 128, 128)
-
-[sub_resource type="AtlasTexture" id="c8anm"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_12.225_0_256"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_12")
 region = Rect2(0, 256, 128, 128)
-
-[sub_resource type="AtlasTexture" id="rokal"]
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_12.315_0_384"]
 atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_12")
 region = Rect2(0, 384, 128, 128)
+[sub_resource type="AtlasTexture" id="lumberjack_barrack0.pioneers.planks_12.045_0_0"]
+atlas = ExtResource("lumberjack_pioneers_as_lumberjack_barrack0_planks_12")
+region = Rect2(0, 0, 128, 128)
 
 [resource]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("u1bvw")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.idle.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("cfrec")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.idle.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("8o0ss")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.idle.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("nfho3")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.idle.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("vmko8")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_1.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("suqvo")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_1.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("4e4h4")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_1.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("dgejp")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_1.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("13xsi")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_2.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("vmnq4")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_2.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("36bbs")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_2.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("n86ou")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_2.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("khjv6")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_3.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("6euvh")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_3.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("hmbjk")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_3.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("k6eh5")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_3.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("gj31a")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_4.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("nrv1j")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_4.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("jiake")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_4.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("1rbvc")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_4.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("ydtio")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_5.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("2jfgc")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_5.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("a1msd")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_5.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("38fx4")
-}],
-"loop": true,
-"name": &"lumberjack0.sailors.logs_5.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("cne57")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.idle.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("6da2f")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.idle.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("ce7tm")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.idle.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("oo80q")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.idle.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("43i6m")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_01.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("dx0cd")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_01.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("mrwjt")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_01.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("k0s0s")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_01.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("3bsvu")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_02.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("r42l4")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_02.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("rb8d3")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_02.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("hyakw")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_02.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("php1r")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_03.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("3a5re")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_03.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("16358")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_03.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("8y0ea")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_03.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("6dg4j")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_04.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("kerxp")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_04.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("aufno")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_04.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("iqx80")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_04.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("ctxpt")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_05.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("nkdcd")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_05.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("hgq1t")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_05.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("p18j5")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.logs_05.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("24l3m")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_01.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("biqlj")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_01.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("djhvk")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_01.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("wbc71")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_01.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("jdfgn")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_02.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("mrqt8")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_02.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("d63bx")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_02.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("dkoq3")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_02.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("yhx07")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_03.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("ek0ti")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_03.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("38aq3")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_03.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("xdv4v")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_03.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("hh8fg")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_04.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("0a2bs")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_04.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("6fnps")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_04.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("die56")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_04.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("q0pn3")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_05.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("qbsye")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_05.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("exs0k")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_05.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("21l1q")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_05.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("55sx7")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_06.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("agmwd")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_06.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("rf2sm")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_06.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("2tiaa")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_06.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("8glso")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_07.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("vogn7")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_07.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("lj4rh")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_07.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("6g443")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_07.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("xmcot")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_08.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("wgynn")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_08.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("1yrp8")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_08.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("aahy7")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_08.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("w2ne6")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_09.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("o350y")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_09.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("nfu0x")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_09.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("ugh0v")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_09.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("2v0o0")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_10.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("nvj7n")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_10.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("rokar")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_10.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("g2shq")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_10.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("8iod1")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_11.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("k684m")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_11.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("udtt6")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_11.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("812ay")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_11.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("a0su6")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_12.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("1s2tg")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_12.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("c8anm")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_12.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("rokal")
-}],
-"loop": true,
-"name": &"lumberjack_barrack0.pioneers.planks_12.315",
-"speed": 5.0
-}]
+animations = [
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.idle.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.idle.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.idle.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.idle.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.idle.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.idle.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.idle.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.idle.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_1.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_1.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_1.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_1.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_1.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_1.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_1.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_1.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_2.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_2.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_2.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_2.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_2.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_2.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_2.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_2.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_3.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_3.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_3.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_3.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_3.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_3.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_3.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_3.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_4.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_4.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_4.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_4.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_4.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_4.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_4.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_4.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_5.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_5.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_5.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_5.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_5.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_5.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack0.sailors.logs_5.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack0.sailors.logs_5.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.idle.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.idle.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.idle.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.idle.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.idle.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.idle.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.idle.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.idle.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_01.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_01.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_01.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_01.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_01.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_01.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_01.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_01.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_02.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_02.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_02.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_02.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_02.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_02.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_02.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_02.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_03.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_03.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_03.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_03.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_03.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_03.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_03.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_03.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_04.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_04.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_04.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_04.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_04.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_04.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_04.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_04.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_05.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_05.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_05.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_05.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_05.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_05.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.logs_05.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.logs_05.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_01.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_01.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_01.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_01.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_01.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_01.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_01.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_01.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_02.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_02.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_02.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_02.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_02.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_02.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_02.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_02.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_03.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_03.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_03.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_03.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_03.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_03.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_03.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_03.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_04.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_04.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_04.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_04.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_04.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_04.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_04.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_04.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_05.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_05.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_05.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_05.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_05.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_05.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_05.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_05.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_06.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_06.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_06.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_06.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_06.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_06.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_06.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_06.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_07.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_07.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_07.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_07.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_07.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_07.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_07.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_07.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_08.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_08.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_08.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_08.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_08.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_08.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_08.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_08.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_09.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_09.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_09.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_09.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_09.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_09.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_09.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_09.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_10.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_10.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_10.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_10.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_10.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_10.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_10.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_10.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_11.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_11.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_11.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_11.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_11.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_11.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_11.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_11.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_12.135_0_128")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_12.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_12.225_0_256")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_12.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_12.315_0_384")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_12.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("lumberjack_barrack0.pioneers.planks_12.045_0_0")
+      },
+        ],
+    "loop": true,
+    "name": &"lumberjack_barrack0.pioneers.planks_12.045",
+    "speed": 5.0
+  },
+]

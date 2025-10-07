@@ -14,7 +14,11 @@ class_name Selectable
 ## The shader to be used to highlight the sprite.
 @export var shader: ShaderMaterial = preload("res://Assets/World/Components/Selectable/SelectableDefultShader.tres")
 
+@export var type: String
+
 @export var tabs: Array[String] = []
+
+@export var enemy_tabs: Array[String] = [] # TODO: not used yet
 
 @onready var parent: WorldThing2D = self.get_parent()
 
