@@ -4,7 +4,7 @@ class_name Building2D
 
 #@export var production_chain: ProductionChain
 
-@export var building_type: BuildingConfig.Buildings = BuildingConfig.Buildings.NONE
+@export var id: StringName = &"Building"
 
 ## is building paused
 var paused: bool = true:

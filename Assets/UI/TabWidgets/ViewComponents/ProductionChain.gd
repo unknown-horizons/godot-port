@@ -6,6 +6,7 @@ class_name ProductionChain
 
 @export var number_inputs: int = 1 : set = set_number_inputs
 
+# can be commented out below
 @export var input_one_type: StringName : set = set_input_one_type
 @export var input_two_type: StringName : set = set_input_two_type
 @export var input_three_type: StringName : set = set_input_three_type
@@ -20,6 +21,7 @@ class_name ProductionChain
 @export var input_two_storage_limit: int = 10 : set = set_input_two_storage_limit
 @export var input_three_storage_limit: int = 10 : set = set_input_three_storage_limit
 @export var output_storage_limit: int = 10 : set = set_output_storage_limit
+# can be commented out above
 
 @onready var vbox_container := find_child("VBoxContainer")
 @onready var top_section := find_child("TopSection")
@@ -35,6 +37,9 @@ class_name ProductionChain
 @onready var progress_bar: ColorRect = self.get_node("MarginContainer/VBoxContainer/MiddleSection/Control/ProgressBar/ProgressBar/ProgressBar")
 @onready var progress_bar_spacer: Control = self.get_node("MarginContainer/VBoxContainer/MiddleSection/Control/ProgressBar/ProgressBar/Spacer")
 
+var slot_storage: SlotStorageComponent = null
+var production_line: ProductionLineComponent = null
+
 func _ready():
   if Engine.is_editor_hint():
     self.set_process(false)
@@ -42,40 +47,74 @@ func _ready():
     self.set_process(true)
 
 func _process(_delta):
-  if self.owner.visible:
+  if self.is_visible_in_tree():
     update_progress_bar()
     update_resource_amount()
 
 func update_resource_amount():
-  var input_resources: Dictionary[StringName, int] = {}
-  var slot_storage: SlotStorageComponent = self.owner.selected_objects[0].get_components(SlotStorageComponent)[0]
+  if self.slot_storage == null:
+    return  
 
-  for produciont_line in self.owner.selected_objects[0].get_components(ProductionLineComponent):
-    for consumes in produciont_line.consumes:
-      input_resources[consumes] = slot_storage.storage[consumes]
   # get the amount of the input resources
-  self.input_one_value = input_resources.get(input_one_type, ResourceConfig.Resources.NONE)
-  self.input_two_value = input_resources.get(input_two_type, ResourceConfig.Resources.NONE)
-  self.input_three_value = input_resources.get(input_three_type, ResourceConfig.Resources.NONE)
+  self.input_one.resource_amount = self.slot_storage.storage.get(self.input_one.resource_type, 0)
+  self.input_two.resource_amount = self.slot_storage.storage.get(self.input_two.resource_type, 0)
+  self.input_three.resource_amount = self.slot_storage.storage.get(self.input_three.resource_type, 0)
   # set the input limits 
-  self.input_one_storage_limit = slot_storage.max_capacity.get(input_one_type, 1)
-  self.input_two_storage_limit = slot_storage.max_capacity.get(input_two_type, 1)
-  self.input_three_storage_limit = slot_storage.max_capacity.get(input_three_type, 1)
+  self.input_one.limit = self.slot_storage.max_capacity.get(self.input_one.resource_type, 1)
+  self.input_two.limit = self.slot_storage.max_capacity.get(self.input_two.resource_type, 1)
+  self.input_three.limit = self.slot_storage.max_capacity.get(self.input_three.resource_type, 1)
   # set the output value and limit
-  self.output_value = slot_storage.storage.get(output_type, 0)
-  self.output_storage_limit = slot_storage.max_capacity.get(output_type, 1)
+  self.output.resource_amount = self.slot_storage.storage.get(self.output.resource_type, 0)
+  self.output.limit = self.slot_storage.max_capacity.get(self.output.resource_type, 1)
 
 func update_progress_bar():
-  var selected_objects = self.owner.selected_objects
   var progress: float = 0
-  if len(selected_objects) == 1:
-    var building: Building2D = selected_objects[0]
-    var production_line = building.get_components(ProductionLineComponent)[0]
-    progress = 1 - (production_line.production_time_end - Time.get_unix_time_from_system()) / production_line.production_time
-    if progress > 1:
+  if self.production_line:
+    progress = 1 - (self.production_line.production_time_end - Time.get_unix_time_from_system()) / self.production_line.production_time
+    if progress > 1 or progress < 0:
       progress = 0
-  progress_bar.size_flags_stretch_ratio = progress
-  progress_bar_spacer.size_flags_stretch_ratio = 1 - progress
+  self.progress_bar.size_flags_stretch_ratio = progress
+  self.progress_bar_spacer.size_flags_stretch_ratio = 1 - progress
+
+## Updates the production chain inputs and outputs
+func set_production_line(production_line: ProductionLineComponent, slot_storage: SlotStorageComponent):
+  self.slot_storage = slot_storage
+  self.production_line = production_line
+  if production_line == null or slot_storage == null:
+    return
+  # update the inputs
+  self.input_one.resource_type = ResourceConfig.Resources.NONE
+  self.input_two.resource_type = ResourceConfig.Resources.NONE
+  self.input_three.resource_type = ResourceConfig.Resources.NONE
+  var consume_keys: Array[StringName] = production_line.consumes.keys()
+  consume_keys.sort_custom(func(a, b): return production_line.consumes[a] < production_line.consumes[b])
+  self.set_number_inputs(len(consume_keys))
+
+  match len(consume_keys):
+    1:
+      self.input_two.resource_type = consume_keys[0]
+      self.input_two.resource_amount = slot_storage.storage.get(consume_keys[0], 0)
+    2:
+      self.input_one.resource_type = consume_keys[0]
+      self.input_one.resource_amount = slot_storage.storage.get(consume_keys[0], 0)
+      self.input_three.resource_type = consume_keys[1]
+      self.input_three.resource_amount = slot_storage.storage.get(consume_keys[1], 0)
+    3:
+      self.input_one.resource_type = consume_keys[0]
+      self.input_one.resource_amount = slot_storage.storage.get(consume_keys[0], 0)
+      self.input_two.resource_type = consume_keys[1]
+      self.input_two.resource_amount = slot_storage.storage.get(consume_keys[1], 0)
+      self.input_three.resource_type = consume_keys[2]
+      self.input_three.resource_amount = slot_storage.storage.get(consume_keys[2], 0)
+
+  # update the output
+  var produces_keys: Array[StringName] = production_line.produces.keys()
+  produces_keys.sort_custom(func(a, b): return production_line.produces[a] < production_line.produces[b])
+
+  self.output.resource_type = produces_keys[0]
+  self.output.resource_amount = production_line.produces[produces_keys[0]]
+  update_progress_bar()
+  update_resource_amount()
 
 func set_number_inputs(new_number_inputs: int) -> void:
   if not is_inside_tree():
@@ -89,6 +128,7 @@ func set_number_inputs(new_number_inputs: int) -> void:
     2: _set_inputs(true, false, true)
     3: _set_inputs(true, true, true)
 
+# can be commented out below
 func set_input_one_type(new_input_one_type: StringName) -> void:
   input_one_type = new_input_one_type
   if not is_inside_tree():
@@ -178,6 +218,7 @@ func set_output_storage_limit(new_output_storage_limit: int) -> void:
     await self.ready
 
   output.limit = output_storage_limit
+# can be commented out above
 
 func _set_input_one(enabled: bool) -> void:
   top_section.visible = enabled

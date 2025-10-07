@@ -8,6 +8,7 @@
 
 [node name="_ Warehouse" type="Node2D"]
 script = ExtResource("1_vo0db")
+id = &"WAREHOUSE"
 
 [node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
 type = "building"

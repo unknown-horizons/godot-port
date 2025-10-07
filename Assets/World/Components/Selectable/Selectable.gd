@@ -14,6 +14,8 @@ class_name Selectable
 ## The shader to be used to highlight the sprite.
 @export var shader: ShaderMaterial = preload("res://Assets/World/Components/Selectable/SelectableDefultShader.tres")
 
+@export var tabs: Array[String] = []
+
 @onready var parent: WorldThing2D = self.get_parent()
 
 ## The shader`s defult width

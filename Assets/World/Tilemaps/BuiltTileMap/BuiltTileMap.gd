@@ -35,11 +35,11 @@ func register_building(building: Building2D) -> void:
   # register building to building poses
   building_position_to_building[building.global_position] = building
   # register building pos into building array
-  var building_poses = building_name_to_building_poses.get(BuildingConfig.Buildings.find_key(building.building_type))
+  var building_poses = building_name_to_building_poses.get(building.id, [])
   if building_poses != null:
     building_poses.append(building.global_position)
   else:
-    building_name_to_building_poses[BuildingConfig.Buildings.find_key(building.building_type)] = [building.position]
+    building_name_to_building_poses[building.id] = [building.position]
   # set points for pathfinding
   %Pathfinding.road_pathfinding.set_point_solid(self.local_to_map(building.position), false)
   var road_building_context = %GameContextManager.get_node("BuildingRoadContext")

@@ -3,8 +3,62 @@ extends Object
 
 class_name BuildingConfig
 
+const Buildings: Dictionary[StringName, StringName] = {
+  NONE                 = &"NONE",
+  AMBIENT              = &"AMBIENT",
+  BAKERY               = &"BAKERY",
+  BARRACKS             = &"BARRACKS",
+  BARRIER              = &"BARRIER",
+  BLENDER              = &"BLENDER",
+  BOAT_BUILDER         = &"BOAT_BUILDER",
+  BREWERY              = &"BREWERY",
+  BRICKYARD            = &"BRICKYARD",
+  BUTCHERY             = &"BUTCHERY",
+  CANNON_FOUNDRY       = &"CANNON_FOUNDRY",
+  CHARCOAL_BURNER      = &"CHARCOAL_BURNER",
+  CLAY_DEPOSIT         = &"CLAY_DEPOSIT",
+  CLAY_PIT             = &"CLAY_PIT",
+  DISTILLERY           = &"DISTILLERY",
+  DOCTOR               = &"DOCTOR",
+  FARM                 = &"FARM",
+  FIRE_STATION         = &"FIRE_STATION",
+  FISH_DEPOSIT         = &"FISH_DEPOSIT",
+  FISHER               = &"FISHER",
+  HUNTER               = &"HUNTER",
+  LOOKOUT              = &"LOOKOUT",
+  LUMBERJACK           = &"LUMBERJACK",
+  MAIN_SQUARE          = &"MAIN_SQUARE",
+  MINE                 = &"MINE",
+  MOUNTAIN             = &"MOUNTAIN",
+  PASTRY_SHOP          = &"PASTRY_SHOP",
+  PAVILION             = &"PAVILION",
+  PUBLIC_BATH          = &"PUBLIC_BATH",
+  SETTLER_RUIN         = &"SETTLER_RUIN",
+  SALINE               = &"SALINE",
+  SALT_PONDS           = &"SALT_PONDS",
+  SIGNAL_FIRE          = &"SIGNAL_FIRE",
+  SMELTERY             = &"SMELTERY",
+  STONE_DEPOSIT        = &"STONE_DEPOSIT",
+  STONEMASON           = &"STONEMASON",
+  STONE_PIT            = &"STONE_PIT",
+  STORAGE              = &"STORAGE",
+  TAVERN               = &"TAVERN",
+  RESIDENTIAL          = &"RESIDENTIAL",
+  TOBACCONIST          = &"TOBACCONIST",
+  TOOLMAKER            = &"TOOLMAKER",
+  TRAIL                = &"TRAIL",
+  TREE                 = &"TREE",
+  VILLAGE_SCHOOL       = &"VILLAGE_SCHOOL",
+  WAREHOUSE            = &"WAREHOUSE",
+  WEAPONSMITH          = &"WEAPONSMITH",
+  WEAVER               = &"WEAVER",
+  WINDMILL             = &"WINDMILL",
+  WINERY               = &"WINERY",
+  WOODEN_TOWER         = &"WOODEN_TOWER",
+}
+
 ## All the buildings represented in enum state
-enum Buildings {
+const building_to_tileset_id = {
   NONE                 =   0,
   AMBIENT              = 100,
   BAKERY               = 101,
@@ -59,7 +113,7 @@ enum Buildings {
 }
 
 ## Building enum value to the cost(resource to amount)
-static var building_to_cost: Dictionary[Buildings, Dictionary] = {
+static var building_to_cost: Dictionary[StringName, Dictionary] = {
   Buildings.NONE                : {},
   Buildings.AMBIENT             : {&"GOLD": 50},
   Buildings.BAKERY              : {&"BOARDS": 2, &"BRICKS": 3, &"GOLD": 500},
@@ -128,20 +182,20 @@ static var building_to_cost: Dictionary[Buildings, Dictionary] = {
 #   Buildings.WAREHOUSE:      preload("res://Assets/World/Buildings/Warehouse/Sprites/Warehouse_idle.png")
 # }
 
-## Building enum value to the atlas(x) and the id(y)
-static var building_to_tile: Dictionary[Buildings, Vector2i] = {
-  Buildings.NONE:       Vector2i(-1, -1),
-  Buildings.BAKERY:     Vector2i(0, 3),
-  Buildings.LUMBERJACK: Vector2i(0, 1),
-  Buildings.FARM:       Vector2i(0, 2),
-  Buildings.WAREHOUSE:  Vector2i(0, 0)
-}
+# ## Building enum value to the atlas(x) and the id(y)
+# static var building_to_tile: Dictionary[StringName, Vector2i] = {
+#   Buildings.NONE:       Vector2i(-1, -1),
+#   Buildings.BAKERY:     Vector2i(0, 3),
+#   Buildings.LUMBERJACK: Vector2i(0, 1),
+#   Buildings.FARM:       Vector2i(0, 2),
+#   Buildings.WAREHOUSE:  Vector2i(0, 0)
+# }
 
 ## building enum to info tab widget scene
-static var building_to_info_tab_widget: Dictionary[Buildings, Resource] = {
-  Buildings.NONE:       null,
-  Buildings.BAKERY:     preload("res://Assets/UI/TabWidgets/BakeryTabWidget.tscn"),
-  Buildings.LUMBERJACK: preload("res://Assets/UI/TabWidgets/LumberjackTabWidget.tscn"),
-  Buildings.FARM:       preload("res://Assets/UI/TabWidgets/FarmTabWidget.tscn"),
-  Buildings.WAREHOUSE:  preload("res://Assets/UI/TabWidgets/WarehouseTabWidget.tscn")
-}
+# static var building_to_info_tab_widget: Dictionary[StringName, Resource] = {
+#   Buildings.NONE:       preload("res://Assets/UI/TabWidgets/ProductionOverviewTab.gd"),
+#   # Buildings.BAKERY:     preload("res://Assets/UI/TabWidgets/BakeryTabWidget.tscn"),
+#   # Buildings.LUMBERJACK: preload("res://Assets/UI/TabWidgets/LumberjackTabWidget.tscn"),
+#   # Buildings.FARM:       preload("res://Assets/UI/TabWidgets/FarmTabWidget.tscn"),
+#   Buildings.WAREHOUSE:  preload("res://Assets/UI/TabWidgets/WarehouseTabWidget.tscn")
+# }

@@ -14,6 +14,7 @@ static var resource_to_icon: Dictionary[StringName, Texture2D] = {
   Resources.TREES:  preload("res://Assets/UI/Icons/Resources/32/008.png"),
   Resources.GOLD:   preload("res://Assets/UI/Icons/Resources/32/001.png"),
   Resources.TOOLS:  preload("res://Assets/UI/Icons/Resources/32/006.png"),
+  Resources.CORN:   preload("res://Assets/UI/Icons/Resources/32/042.png"),
 }
 
 ## The enum representing the resources
@@ -25,4 +26,5 @@ const Resources = {
   BOARDS = &"BOARDS",
   TREES  = &"TREES",
   TOOLS  = &"TOOLS",
+  CORN   = &"CORN",
 }

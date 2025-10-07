@@ -1,0 +1,213 @@
+[gd_scene load_steps=20 format=3 uid="uid://db0jyegu5eki5"]
+
+[ext_resource type="PackedScene" uid="uid://bvbuafk7d6fdt" path="res://Assets/UI/TabWidgets/TabWidget.tscn" id="1_012xi"]
+[ext_resource type="PackedScene" uid="uid://bqqtcv3vc2v16" path="res://Assets/UI/TabWidgets/Switches/SwitchTabWidget.tscn" id="2_ig0oa"]
+[ext_resource type="Script" uid="uid://behvdkxd1qkg2" path="res://Assets/UI/TabWidgets/AllTabs.gd" id="2_wox5d"]
+[ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="3_j476x"]
+[ext_resource type="Texture2D" uid="uid://2pyc2ektprmg" path="res://Assets/UI/Icons/TabWidget/Common/building_overview_u.png" id="3_p3q1l"]
+[ext_resource type="PackedScene" uid="uid://dkhdvvwy61h7t" path="res://Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn" id="4_ir4j5"]
+[ext_resource type="Texture2D" uid="uid://d1himtfjpllte" path="res://Assets/UI/Icons/TabWidget/Common/building_overview_h.png" id="4_wox5d"]
+[ext_resource type="Texture2D" uid="uid://5nfvte07ogwq" path="res://Assets/UI/Icons/TabWidget/Common/building_overview_d.png" id="5_024wi"]
+[ext_resource type="PackedScene" uid="uid://dg6whk6ygbtpi" path="res://Assets/UI/TabWidgets/ViewComponents/ProductionChain.tscn" id="5_p3q1l"]
+[ext_resource type="Texture2D" uid="uid://b7ud7nsjtuli7" path="res://Assets/UI/Icons/TabWidget/Common/building_overview_a.png" id="6_ve7ye"]
+[ext_resource type="Texture2D" uid="uid://ca07ty5g6svqk" path="res://Assets/UI/Icons/TabWidget/Common/inventory_u.png" id="8_5fgj7"]
+[ext_resource type="Script" uid="uid://cvi4400edxadi" path="res://Assets/UI/TabWidgets/ProductionOverviewTab.gd" id="8_024wi"]
+[ext_resource type="Texture2D" uid="uid://cwqgs1gxgf1mv" path="res://Assets/UI/Icons/TabWidget/Common/inventory_d.png" id="9_o5mk3"]
+[ext_resource type="Texture2D" uid="uid://djs2n41wk6fwp" path="res://Assets/UI/Icons/TabWidget/Common/inventory_h.png" id="10_gp57u"]
+[ext_resource type="Script" uid="uid://dk6h7h83rhttw" path="res://Assets/UI/TabWidgets/InventoryTab.gd" id="12_frflk"]
+[ext_resource type="PackedScene" uid="uid://cprnm6d5bh3f2" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="12_ve7ye"]
+[ext_resource type="Texture2D" uid="uid://ctvk7bl7fo4bh" path="res://Assets/UI/Icons/Resources/32/096.png" id="13_1oexd"]
+[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="14_kdlxv"]
+[ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="15_vcl1p"]
+
+[node name="AllTabs" instance=ExtResource("1_012xi")]
+script = ExtResource("2_wox5d")
+
+[node name="ProductionOverviewTabSwitch" parent="LeftFloatingPanel/TabSwitches" index="0" node_paths=PackedStringArray("target_control") instance=ExtResource("2_ig0oa")]
+layout_mode = 2
+texture_normal = ExtResource("3_p3q1l")
+texture_pressed = ExtResource("5_024wi")
+texture_hover = ExtResource("4_wox5d")
+target_control = NodePath("../../../TabContainer/ProductionOverviewTab")
+texture_active = ExtResource("6_ve7ye")
+
+[node name="InventoryTabSwitch" parent="LeftFloatingPanel/TabSwitches" index="1" node_paths=PackedStringArray("target_control") instance=ExtResource("2_ig0oa")]
+layout_mode = 2
+texture_normal = ExtResource("8_5fgj7")
+texture_pressed = ExtResource("9_o5mk3")
+texture_hover = ExtResource("10_gp57u")
+target_control = NodePath("../../../TabContainer/InventoryTab")
+texture_active = ExtResource("10_gp57u")
+
+[node name="TabContainer" parent="." index="1"]
+current_tab = 0
+
+[node name="ProductionOverviewTab" type="VBoxContainer" parent="TabContainer" index="1"]
+layout_mode = 2
+script = ExtResource("8_024wi")
+metadata/_tab_index = 0
+
+[node name="BuildingName" parent="TabContainer/ProductionOverviewTab" index="0" instance=ExtResource("3_j476x")]
+layout_mode = 2
+text = "Building"
+
+[node name="ProductionBasicInfo" parent="TabContainer/ProductionOverviewTab" index="1" instance=ExtResource("4_ir4j5")]
+layout_mode = 2
+
+[node name="ProductionChains" type="VBoxContainer" parent="TabContainer/ProductionOverviewTab" index="2"]
+layout_mode = 2
+
+[node name="ProductionChain" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="0" instance=ExtResource("5_p3q1l")]
+layout_mode = 2
+
+[node name="ProductionChain2" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="1" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain3" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="2" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain4" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="3" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain5" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="4" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain6" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="5" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain7" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="6" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain8" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="7" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain9" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="8" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain10" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="9" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain11" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="10" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain12" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="11" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain13" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="12" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain14" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="13" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="ProductionChain15" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="14" instance=ExtResource("5_p3q1l")]
+visible = false
+layout_mode = 2
+
+[node name="InventoryTab" type="VBoxContainer" parent="TabContainer" index="2"]
+visible = false
+layout_mode = 2
+script = ExtResource("12_frflk")
+metadata/_tab_index = 1
+
+[node name="CaptionBlock" parent="TabContainer/InventoryTab" index="0" instance=ExtResource("3_j476x")]
+layout_mode = 2
+text = "Settelment"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/InventoryTab" index="1"]
+layout_mode = 2
+
+[node name="InventorySlots" type="GridContainer" parent="TabContainer/InventoryTab/VBoxContainer" index="0"]
+layout_mode = 2
+columns = 4
+
+[node name="InventorySlot" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="0" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot2" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="1" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot3" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="2" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot4" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="3" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot5" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="4" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot6" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="5" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot7" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="6" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot8" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="7" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot9" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="8" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot10" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="9" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot11" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="10" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot12" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="11" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot13" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="12" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot14" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="13" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot15" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="14" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot16" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="15" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot17" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="16" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot18" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="17" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot19" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="18" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot20" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="19" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TabContainer/InventoryTab/VBoxContainer" index="1"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="TabContainer/InventoryTab/VBoxContainer/HBoxContainer" index="0"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+texture = ExtResource("13_1oexd")
+expand_mode = 1
+
+[node name="LabelEx" parent="TabContainer/InventoryTab/VBoxContainer/HBoxContainer" index="1" instance=ExtResource("14_kdlxv")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("15_vcl1p")
+theme_override_font_sizes/font_size = 16
+text = "Limit: 30t per slot"
+font_style = 9
+
+[connection signal="new_node_selected" from="." to="TabContainer/ProductionOverviewTab" method="on_new_node_selected"]
+[connection signal="new_node_selected" from="." to="TabContainer/ProductionOverviewTab/BuildingName" method="new_node_selected"]
