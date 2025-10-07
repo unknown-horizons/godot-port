@@ -4,7 +4,7 @@ class_name Warehouse2D
 
 signal slot_opened
 
-@export var storage_capacity: int = 100
+@export var limit: int = 100
 @export var load_or_unload_time: float = 1
 @export var max_loading_and_unloading_units: int = 2
 

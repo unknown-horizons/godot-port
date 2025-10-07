@@ -1,586 +1,663 @@
-[gd_resource type="SpriteFrames" load_steps=82 format=3 uid="uid://cfishdepositr"]
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbfishdepostr"]
 
-[ext_resource type="Texture2D" uid="uid://bnf7cunnk0alp" path="res://Assets/World/Buildings2/fish_deposit/fish_deposit_nature_as_fish0_idle.png" id="fish_deposit_nature_as_fish0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/fish_deposit/fish_deposit_nature_as_fish0_idle.png" id="fish_deposit_nature_as_fish0_idle"]
 
-[sub_resource type="AtlasTexture" id="7oqv4"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_0_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(0, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="7apfe"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_128_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(128, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="ktv4u"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_256_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(256, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="ms7be"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_384_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(384, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="wjt4p"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_512_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(512, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="bhjiq"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_640_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(640, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="nwgh7"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_768_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(768, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="pqpf4"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_896_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(896, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="esol3"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_1024_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1024, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="rmm4w"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_1152_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1152, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="8iop3"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_1280_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1280, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="lqvti"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_1408_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1408, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="0tnvb"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_1536_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1536, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="lc4lf"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_1664_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1664, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="wtyp1"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_1792_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1792, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="mlm2v"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_1920_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1920, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="ro46b"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_2048_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2048, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="iduog"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_2176_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2176, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="hl8wh"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_2304_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2304, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="knx5c"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_045_2432_0"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2432, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="xfuos"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_0_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(0, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="8bvb8"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_128_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(128, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="jo2xf"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_256_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(256, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="lmup7"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_384_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(384, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="pmhhk"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_512_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(512, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="k0t2q"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_640_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(640, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="53w46"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_768_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(768, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="q2ph4"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_896_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(896, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="gg38q"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_1024_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1024, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="0au6i"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_1152_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1152, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="6gdnd"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_1280_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1280, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="l7o8a"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_1408_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1408, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="2vq5g"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_1536_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1536, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="rvvg8"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_1664_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1664, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="ldo4w"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_1792_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1792, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="wbgv5"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_1920_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1920, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="ivrqm"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_2048_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2048, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="t852n"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_2176_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2176, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="72tb4"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_2304_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2304, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="8kd4l"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_135_2432_128"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2432, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="1c1j8"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_0_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(0, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="lbe6k"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_128_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(128, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="uls1s"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_256_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(256, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="rkmcb"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_384_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(384, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="1vfu0"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_512_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(512, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="urlm2"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_640_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(640, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="ejwly"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_768_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(768, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="ht8o2"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_896_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(896, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="kqn52"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_1024_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1024, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="lnkdy"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_1152_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1152, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="g2wnt"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_1280_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1280, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="k38f7"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_1408_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1408, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="tv1pi"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_1536_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1536, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="adr0d"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_1664_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1664, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="i6k5o"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_1792_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1792, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="sf5sd"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_1920_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1920, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="t2c8p"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_2048_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2048, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="mov6f"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_2176_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2176, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="xqc1e"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_2304_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2304, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="eq7c3"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_225_2432_256"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2432, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="cbnyk"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_0_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(0, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="15tbr"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_128_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(128, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="r4o0o"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_256_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(256, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="hkeuu"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_384_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(384, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="rtjpl"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_512_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(512, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="i5a8m"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_640_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(640, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="b3i6c"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_768_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(768, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="or0bm"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_896_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(896, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="clwst"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_1024_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1024, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="yw3lb"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_1152_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1152, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="l77ht"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_1280_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1280, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="0oest"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_1408_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1408, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="tl11s"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_1536_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1536, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="g3kwc"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_1664_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1664, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="v3rpc"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_1792_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1792, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="gna73"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_1920_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(1920, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="5chwr"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_2048_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2048, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="liqdp"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_2176_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2176, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="v2v37"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_2304_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2304, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="npcim"]
+[sub_resource type="AtlasTexture" id="fish0_nature_idle_315_2432_384"]
 atlas = ExtResource("fish_deposit_nature_as_fish0_idle")
 region = Rect2(2432, 384, 128, 128)
 
+
 [resource]
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("7oqv4")
-}, {
-"duration": 1.0,
-"texture": SubResource("7apfe")
-}, {
-"duration": 1.0,
-"texture": SubResource("ktv4u")
-}, {
-"duration": 1.0,
-"texture": SubResource("ms7be")
-}, {
-"duration": 1.0,
-"texture": SubResource("wjt4p")
-}, {
-"duration": 1.0,
-"texture": SubResource("bhjiq")
-}, {
-"duration": 1.0,
-"texture": SubResource("nwgh7")
-}, {
-"duration": 1.0,
-"texture": SubResource("pqpf4")
-}, {
-"duration": 1.0,
-"texture": SubResource("esol3")
-}, {
-"duration": 1.0,
-"texture": SubResource("rmm4w")
-}, {
-"duration": 1.0,
-"texture": SubResource("8iop3")
-}, {
-"duration": 1.0,
-"texture": SubResource("lqvti")
-}, {
-"duration": 1.0,
-"texture": SubResource("0tnvb")
-}, {
-"duration": 1.0,
-"texture": SubResource("lc4lf")
-}, {
-"duration": 1.0,
-"texture": SubResource("wtyp1")
-}, {
-"duration": 1.0,
-"texture": SubResource("mlm2v")
-}, {
-"duration": 1.0,
-"texture": SubResource("ro46b")
-}, {
-"duration": 1.0,
-"texture": SubResource("iduog")
-}, {
-"duration": 1.0,
-"texture": SubResource("hl8wh")
-}, {
-"duration": 1.0,
-"texture": SubResource("knx5c")
-}],
-"loop": true,
-"name": &"fish0.nature.idle.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("xfuos")
-}, {
-"duration": 1.0,
-"texture": SubResource("8bvb8")
-}, {
-"duration": 1.0,
-"texture": SubResource("jo2xf")
-}, {
-"duration": 1.0,
-"texture": SubResource("lmup7")
-}, {
-"duration": 1.0,
-"texture": SubResource("pmhhk")
-}, {
-"duration": 1.0,
-"texture": SubResource("k0t2q")
-}, {
-"duration": 1.0,
-"texture": SubResource("53w46")
-}, {
-"duration": 1.0,
-"texture": SubResource("q2ph4")
-}, {
-"duration": 1.0,
-"texture": SubResource("gg38q")
-}, {
-"duration": 1.0,
-"texture": SubResource("0au6i")
-}, {
-"duration": 1.0,
-"texture": SubResource("6gdnd")
-}, {
-"duration": 1.0,
-"texture": SubResource("l7o8a")
-}, {
-"duration": 1.0,
-"texture": SubResource("2vq5g")
-}, {
-"duration": 1.0,
-"texture": SubResource("rvvg8")
-}, {
-"duration": 1.0,
-"texture": SubResource("ldo4w")
-}, {
-"duration": 1.0,
-"texture": SubResource("wbgv5")
-}, {
-"duration": 1.0,
-"texture": SubResource("ivrqm")
-}, {
-"duration": 1.0,
-"texture": SubResource("t852n")
-}, {
-"duration": 1.0,
-"texture": SubResource("72tb4")
-}, {
-"duration": 1.0,
-"texture": SubResource("8kd4l")
-}],
-"loop": true,
-"name": &"fish0.nature.idle.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("1c1j8")
-}, {
-"duration": 1.0,
-"texture": SubResource("lbe6k")
-}, {
-"duration": 1.0,
-"texture": SubResource("uls1s")
-}, {
-"duration": 1.0,
-"texture": SubResource("rkmcb")
-}, {
-"duration": 1.0,
-"texture": SubResource("1vfu0")
-}, {
-"duration": 1.0,
-"texture": SubResource("urlm2")
-}, {
-"duration": 1.0,
-"texture": SubResource("ejwly")
-}, {
-"duration": 1.0,
-"texture": SubResource("ht8o2")
-}, {
-"duration": 1.0,
-"texture": SubResource("kqn52")
-}, {
-"duration": 1.0,
-"texture": SubResource("lnkdy")
-}, {
-"duration": 1.0,
-"texture": SubResource("g2wnt")
-}, {
-"duration": 1.0,
-"texture": SubResource("k38f7")
-}, {
-"duration": 1.0,
-"texture": SubResource("tv1pi")
-}, {
-"duration": 1.0,
-"texture": SubResource("adr0d")
-}, {
-"duration": 1.0,
-"texture": SubResource("i6k5o")
-}, {
-"duration": 1.0,
-"texture": SubResource("sf5sd")
-}, {
-"duration": 1.0,
-"texture": SubResource("t2c8p")
-}, {
-"duration": 1.0,
-"texture": SubResource("mov6f")
-}, {
-"duration": 1.0,
-"texture": SubResource("xqc1e")
-}, {
-"duration": 1.0,
-"texture": SubResource("eq7c3")
-}],
-"loop": true,
-"name": &"fish0.nature.idle.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("cbnyk")
-}, {
-"duration": 1.0,
-"texture": SubResource("15tbr")
-}, {
-"duration": 1.0,
-"texture": SubResource("r4o0o")
-}, {
-"duration": 1.0,
-"texture": SubResource("hkeuu")
-}, {
-"duration": 1.0,
-"texture": SubResource("rtjpl")
-}, {
-"duration": 1.0,
-"texture": SubResource("i5a8m")
-}, {
-"duration": 1.0,
-"texture": SubResource("b3i6c")
-}, {
-"duration": 1.0,
-"texture": SubResource("or0bm")
-}, {
-"duration": 1.0,
-"texture": SubResource("clwst")
-}, {
-"duration": 1.0,
-"texture": SubResource("yw3lb")
-}, {
-"duration": 1.0,
-"texture": SubResource("l77ht")
-}, {
-"duration": 1.0,
-"texture": SubResource("0oest")
-}, {
-"duration": 1.0,
-"texture": SubResource("tl11s")
-}, {
-"duration": 1.0,
-"texture": SubResource("g3kwc")
-}, {
-"duration": 1.0,
-"texture": SubResource("v3rpc")
-}, {
-"duration": 1.0,
-"texture": SubResource("gna73")
-}, {
-"duration": 1.0,
-"texture": SubResource("5chwr")
-}, {
-"duration": 1.0,
-"texture": SubResource("liqdp")
-}, {
-"duration": 1.0,
-"texture": SubResource("v2v37")
-}, {
-"duration": 1.0,
-"texture": SubResource("npcim")
-}],
-"loop": true,
-"name": &"fish0.nature.idle.315",
-"speed": 5.0
-}]
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_256_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_384_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_512_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_640_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_768_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_896_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_1024_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_1152_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_1280_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_1408_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_1536_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_1664_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_1792_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_1920_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_2048_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_2176_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_2304_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_045_2432_0")
+      }],
+    "loop": true,
+    "name": &"fish0.nature.idle.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_0_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_128_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_256_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_384_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_512_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_640_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_768_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_896_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_1024_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_1152_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_1280_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_1408_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_1536_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_1664_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_1792_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_1920_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_2048_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_2176_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_2304_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_135_2432_128")
+      }],
+    "loop": true,
+    "name": &"fish0.nature.idle.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_0_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_128_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_256_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_384_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_512_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_640_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_768_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_896_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_1024_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_1152_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_1280_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_1408_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_1536_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_1664_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_1792_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_1920_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_2048_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_2176_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_2304_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_225_2432_256")
+      }],
+    "loop": true,
+    "name": &"fish0.nature.idle.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_128_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_256_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_384_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_512_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_640_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_768_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_896_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_1024_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_1152_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_1280_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_1408_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_1536_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_1664_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_1792_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_1920_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_2048_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_2176_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_2304_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("fish0_nature_idle_315_2432_384")
+      }],
+    "loop": true,
+    "name": &"fish0.nature.idle.315",
+    "speed": 5.0
+  }]

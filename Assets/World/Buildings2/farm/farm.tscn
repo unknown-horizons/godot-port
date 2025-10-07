@@ -1,15 +1,19 @@
-[gd_scene load_steps=8 format=3 uid="uid://cfarmtscn0000"]
+[gd_scene load_steps=8 format=3 uid="uid://cbfarmtscn000"]
 
-[ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_Building2D_gd"]
+[ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
-[ext_resource type="SpriteFrames" uid="uid://cfarmtres0000" path="res://Assets/World/Buildings2/farm/farm.tres" id="4_sprite_frames"]
+[ext_resource type="SpriteFrames" uid="uid://cbfarmtres000" path="res://Assets/World/Buildings2/farm/farm.tres" id="4_sprite_frames"]
+[ext_resource type="PackedScene" uid="uid://kv52rh351xud" path="res://Assets/World/Components/AmbientSoundComponent/AmbientSoundComponent.tscn" id="3_ambient_sound_component"]
+[ext_resource type="PackedScene" uid="uid://b3hix4pdlnumi" path="res://Assets/World/Components/Storages/SizedStorageComponent/SizedStorageComponent.tscn" id="5_sized_storage_component"]
 [ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 [ext_resource type="PackedScene" uid="uid://dyqwsks6v6puj" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.tscn" id="7_building_collector_component"]
 
 [node name="_ Farm" type="Node2D"]
-script = ExtResource("1_Building2D_gd")
+script = ExtResource("1_script_gd")
+baseclass = "production.Farm"
+radius = 3
 
 [node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
 type = "building"
@@ -83,7 +87,6 @@ consumes = Dictionary[StringName, int]({&"ALVEARIES": 1})
 line_name = "HOPS"
 produces = Dictionary[StringName, int]({&"HOPS": 1})
 consumes = Dictionary[StringName, int]({&"HOP_PLANTS": 1})
-
 
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({&"ALVEARIES": 6, &"CATTLE": 6, &"CATTLE_SLAUGHTER": 6, &"COCOA": 6, &"COCOA_BEANS": 6, &"CORN": 6, &"FOOD": 6, &"GRAIN": 6, &"GRAPES": 6, &"HERBS": 6, &"HONEYCOMBS": 6, &"HOPS": 6, &"HOP_PLANTS": 6, &"LAMB_WOOL": 6, &"MEDICAL_HERBS": 6, &"PIGS": 6, &"PIGS_SLAUGHTER": 6, &"POTATOES": 6, &"RAW_SUGAR": 6, &"SPICES": 6, &"SPICE_PLANTS": 6, &"SUGAR": 6, &"TOBACCO_LEAVES": 6, &"TOBACCO_PLANTS": 6, &"VINES": 6, &"WOOL": 6})

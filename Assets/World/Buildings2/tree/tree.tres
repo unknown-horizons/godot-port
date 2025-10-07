@@ -1,1853 +1,1978 @@
-[gd_resource type="SpriteFrames" load_steps=225 format=3 uid="uid://ctreetres0000"]
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbtreetres000"]
 
-[ext_resource type="Texture2D" uid="uid://b64kw8ywnogk3" path="res://Assets/World/Buildings2/tree/tree_nature_as_birch0_idle_full.png" id="tree_nature_as_birch0_idle_full"]
-[ext_resource type="Texture2D" uid="uid://2su1phc072nb" path="res://Assets/World/Buildings2/tree/tree_nature_as_birch0_work.png" id="tree_nature_as_birch0_work"]
-[ext_resource type="Texture2D" uid="uid://dbsme7ukpy57e" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple0_idle_full.png" id="tree_nature_as_maple0_idle_full"]
-[ext_resource type="Texture2D" uid="uid://bvfedmykc75iq" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple0_work.png" id="tree_nature_as_maple0_work"]
-[ext_resource type="Texture2D" uid="uid://bahnb3wnedgon" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple1_idle_full.png" id="tree_nature_as_maple1_idle_full"]
-[ext_resource type="Texture2D" uid="uid://b4kk0eyxk4q2u" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple1_work.png" id="tree_nature_as_maple1_work"]
-[ext_resource type="Texture2D" uid="uid://cf8l2qtivwe6u" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple2_idle_full.png" id="tree_nature_as_maple2_idle_full"]
-[ext_resource type="Texture2D" uid="uid://c3fy21ry4ukov" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple2_work.png" id="tree_nature_as_maple2_work"]
-[ext_resource type="Texture2D" uid="uid://cfq5tou6jsmxy" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple3_idle_full.png" id="tree_nature_as_maple3_idle_full"]
-[ext_resource type="Texture2D" uid="uid://bhtgqx7csa0au" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple3_work.png" id="tree_nature_as_maple3_work"]
-[ext_resource type="Texture2D" uid="uid://bppjkxj6u66hf" path="res://Assets/World/Buildings2/tree/tree_nature_as_spruce0_idle_full.png" id="tree_nature_as_spruce0_idle_full"]
-[ext_resource type="Texture2D" uid="uid://cqh10y856ke6h" path="res://Assets/World/Buildings2/tree/tree_nature_as_spruce0_work.png" id="tree_nature_as_spruce0_work"]
-[ext_resource type="Texture2D" uid="uid://cn0lq0b3v2cws" path="res://Assets/World/Buildings2/tree/tree_nature_as_spruce1_idle_full.png" id="tree_nature_as_spruce1_idle_full"]
-[ext_resource type="Texture2D" uid="uid://50s7gnp30v2w" path="res://Assets/World/Buildings2/tree/tree_nature_as_spruce1_work.png" id="tree_nature_as_spruce1_work"]
-[ext_resource type="Texture2D" uid="uid://d3bwvi00nft63" path="res://Assets/World/Buildings2/tree/tree_nature_as_tupelo0_idle_full.png" id="tree_nature_as_tupelo0_idle_full"]
-[ext_resource type="Texture2D" uid="uid://dabkghg4u627e" path="res://Assets/World/Buildings2/tree/tree_nature_as_tupelo0_work.png" id="tree_nature_as_tupelo0_work"]
-[ext_resource type="Texture2D" uid="uid://cmrf8v7uuyp26" path="res://Assets/World/Buildings2/tree/tree_nature_as_tupelo1_idle_full.png" id="tree_nature_as_tupelo1_idle_full"]
-[ext_resource type="Texture2D" uid="uid://vlqkhsby8kwh" path="res://Assets/World/Buildings2/tree/tree_nature_as_tupelo1_work.png" id="tree_nature_as_tupelo1_work"]
-[ext_resource type="Texture2D" uid="uid://b52bkp0y38pf7" path="res://Assets/World/Buildings2/tree/tree_nature_as_tupelo2_idle_full.png" id="tree_nature_as_tupelo2_idle_full"]
-[ext_resource type="Texture2D" uid="uid://byn1en3ktxpdl" path="res://Assets/World/Buildings2/tree/tree_nature_as_tupelo2_work.png" id="tree_nature_as_tupelo2_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_birch0_idle_full.png" id="tree_nature_as_birch0_idle_full"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_birch0_work.png" id="tree_nature_as_birch0_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple0_idle_full.png" id="tree_nature_as_maple0_idle_full"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple0_work.png" id="tree_nature_as_maple0_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple1_idle_full.png" id="tree_nature_as_maple1_idle_full"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple1_work.png" id="tree_nature_as_maple1_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple2_idle_full.png" id="tree_nature_as_maple2_idle_full"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple2_work.png" id="tree_nature_as_maple2_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple3_idle_full.png" id="tree_nature_as_maple3_idle_full"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple3_work.png" id="tree_nature_as_maple3_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_spruce0_idle_full.png" id="tree_nature_as_spruce0_idle_full"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_spruce0_work.png" id="tree_nature_as_spruce0_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_spruce1_idle_full.png" id="tree_nature_as_spruce1_idle_full"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_spruce1_work.png" id="tree_nature_as_spruce1_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_tupelo0_idle_full.png" id="tree_nature_as_tupelo0_idle_full"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_tupelo0_work.png" id="tree_nature_as_tupelo0_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_tupelo1_idle_full.png" id="tree_nature_as_tupelo1_idle_full"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_tupelo1_work.png" id="tree_nature_as_tupelo1_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_tupelo2_idle_full.png" id="tree_nature_as_tupelo2_idle_full"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/tree/tree_nature_as_tupelo2_work.png" id="tree_nature_as_tupelo2_work"]
 
-[sub_resource type="AtlasTexture" id="tptwa"]
+[sub_resource type="AtlasTexture" id="birch0_nature_idle_full_045_0_0"]
 atlas = ExtResource("tree_nature_as_birch0_idle_full")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="kleuk"]
+[sub_resource type="AtlasTexture" id="birch0_nature_idle_full_135_0_128"]
 atlas = ExtResource("tree_nature_as_birch0_idle_full")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="kxy8p"]
+[sub_resource type="AtlasTexture" id="birch0_nature_idle_full_225_0_256"]
 atlas = ExtResource("tree_nature_as_birch0_idle_full")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="8qigg"]
+[sub_resource type="AtlasTexture" id="birch0_nature_idle_full_315_0_384"]
 atlas = ExtResource("tree_nature_as_birch0_idle_full")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="6ke8x"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_045_0_0"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="36jux"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_045_64_0"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(64, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="t2k7k"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_045_128_0"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(128, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="t861t"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_045_192_0"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(192, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="w5ch4"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_045_256_0"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(256, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="y6ibp"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_135_0_128"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="086k5"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_135_64_128"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(64, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="7k28k"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_135_128_128"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(128, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="3xp1v"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_135_192_128"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(192, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="iu12h"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_135_256_128"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(256, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="3wgl1"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_225_0_256"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="t3cxi"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_225_64_256"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(64, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="3kuu0"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_225_128_256"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(128, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="1vcbq"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_225_192_256"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(192, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="ms335"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_225_256_256"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(256, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="7lrkd"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_315_0_384"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="3o52v"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_315_64_384"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(64, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="dnadk"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_315_128_384"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(128, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="ttef4"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_315_192_384"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(192, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="87cly"]
+[sub_resource type="AtlasTexture" id="birch0_nature_work_315_256_384"]
 atlas = ExtResource("tree_nature_as_birch0_work")
 region = Rect2(256, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="htitb"]
+[sub_resource type="AtlasTexture" id="maple0_nature_idle_full_045_0_0"]
 atlas = ExtResource("tree_nature_as_maple0_idle_full")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="vuu14"]
+[sub_resource type="AtlasTexture" id="maple0_nature_idle_full_135_0_128"]
 atlas = ExtResource("tree_nature_as_maple0_idle_full")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="s8frp"]
+[sub_resource type="AtlasTexture" id="maple0_nature_idle_full_225_0_256"]
 atlas = ExtResource("tree_nature_as_maple0_idle_full")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="t6nfd"]
+[sub_resource type="AtlasTexture" id="maple0_nature_idle_full_315_0_384"]
 atlas = ExtResource("tree_nature_as_maple0_idle_full")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="ujaye"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_045_0_0"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="mraf1"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_045_64_0"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(64, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="gtxiu"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_045_128_0"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(128, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="kohwx"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_045_192_0"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(192, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="5gowh"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_135_0_128"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="6nnmo"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_135_64_128"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(64, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="6cwxn"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_135_128_128"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(128, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="etmjm"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_135_192_128"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(192, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="dygkj"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_225_0_256"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="bnyb2"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_225_64_256"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(64, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="2trwj"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_225_128_256"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(128, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="xaoxr"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_225_192_256"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(192, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="0b534"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_315_0_384"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="pdqix"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_315_64_384"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(64, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="rhlpc"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_315_128_384"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(128, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="0n6bo"]
+[sub_resource type="AtlasTexture" id="maple0_nature_work_315_192_384"]
 atlas = ExtResource("tree_nature_as_maple0_work")
 region = Rect2(192, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="fkcll"]
+[sub_resource type="AtlasTexture" id="maple1_nature_idle_full_045_0_0"]
 atlas = ExtResource("tree_nature_as_maple1_idle_full")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="hgpcg"]
+[sub_resource type="AtlasTexture" id="maple1_nature_idle_full_135_0_128"]
 atlas = ExtResource("tree_nature_as_maple1_idle_full")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="b7gg2"]
+[sub_resource type="AtlasTexture" id="maple1_nature_idle_full_225_0_256"]
 atlas = ExtResource("tree_nature_as_maple1_idle_full")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="jbtkn"]
+[sub_resource type="AtlasTexture" id="maple1_nature_idle_full_315_0_384"]
 atlas = ExtResource("tree_nature_as_maple1_idle_full")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="c3d7l"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_045_0_0"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="h7spp"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_045_64_0"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(64, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="6dc2r"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_045_128_0"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(128, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="wf0uy"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_045_192_0"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(192, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="icqup"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_135_0_128"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="omjxd"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_135_64_128"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(64, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="03m57"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_135_128_128"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(128, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="siwg3"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_135_192_128"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(192, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="gw2l5"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_225_0_256"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="vha2a"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_225_64_256"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(64, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="ap0qs"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_225_128_256"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(128, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="kbelx"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_225_192_256"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(192, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="2k45g"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_315_0_384"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="slo7x"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_315_64_384"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(64, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="077jt"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_315_128_384"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(128, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="b7rns"]
+[sub_resource type="AtlasTexture" id="maple1_nature_work_315_192_384"]
 atlas = ExtResource("tree_nature_as_maple1_work")
 region = Rect2(192, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="as3bu"]
+[sub_resource type="AtlasTexture" id="maple2_nature_idle_full_045_0_0"]
 atlas = ExtResource("tree_nature_as_maple2_idle_full")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="0pou4"]
+[sub_resource type="AtlasTexture" id="maple2_nature_idle_full_135_0_128"]
 atlas = ExtResource("tree_nature_as_maple2_idle_full")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="nlo60"]
+[sub_resource type="AtlasTexture" id="maple2_nature_idle_full_225_0_256"]
 atlas = ExtResource("tree_nature_as_maple2_idle_full")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="4flaf"]
+[sub_resource type="AtlasTexture" id="maple2_nature_idle_full_315_0_384"]
 atlas = ExtResource("tree_nature_as_maple2_idle_full")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="27dao"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_045_0_0"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="cn8ah"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_045_64_0"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(64, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="khm68"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_045_128_0"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(128, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="ygcxq"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_045_192_0"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(192, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="wr8he"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_135_0_128"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="hl5wb"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_135_64_128"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(64, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="b5t3n"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_135_128_128"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(128, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="arffy"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_135_192_128"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(192, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="qdjcb"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_225_0_256"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="t6xgd"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_225_64_256"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(64, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="8k2wp"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_225_128_256"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(128, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="erj36"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_225_192_256"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(192, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="axv48"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_315_0_384"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="wm3na"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_315_64_384"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(64, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="ilkbh"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_315_128_384"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(128, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="6hiek"]
+[sub_resource type="AtlasTexture" id="maple2_nature_work_315_192_384"]
 atlas = ExtResource("tree_nature_as_maple2_work")
 region = Rect2(192, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="u4oob"]
+[sub_resource type="AtlasTexture" id="maple3_nature_idle_full_045_0_0"]
 atlas = ExtResource("tree_nature_as_maple3_idle_full")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="k3c81"]
+[sub_resource type="AtlasTexture" id="maple3_nature_idle_full_135_0_128"]
 atlas = ExtResource("tree_nature_as_maple3_idle_full")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="stjuw"]
+[sub_resource type="AtlasTexture" id="maple3_nature_idle_full_225_0_256"]
 atlas = ExtResource("tree_nature_as_maple3_idle_full")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="x1jq6"]
+[sub_resource type="AtlasTexture" id="maple3_nature_idle_full_315_0_384"]
 atlas = ExtResource("tree_nature_as_maple3_idle_full")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="xwp0p"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_045_0_0"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="lw2qi"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_045_64_0"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(64, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="11via"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_045_128_0"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(128, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="28r7m"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_045_192_0"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(192, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="en84a"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_135_0_128"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="fb3ht"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_135_64_128"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(64, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="ljc51"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_135_128_128"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(128, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="nvykl"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_135_192_128"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(192, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="sio2a"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_225_0_256"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="uw22l"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_225_64_256"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(64, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="220sf"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_225_128_256"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(128, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="apv7n"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_225_192_256"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(192, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="md0y4"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_315_0_384"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="1xf2r"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_315_64_384"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(64, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="e3ys5"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_315_128_384"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(128, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="27nlq"]
+[sub_resource type="AtlasTexture" id="maple3_nature_work_315_192_384"]
 atlas = ExtResource("tree_nature_as_maple3_work")
 region = Rect2(192, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="fgm6j"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_idle_full_045_0_0"]
 atlas = ExtResource("tree_nature_as_spruce0_idle_full")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="virn0"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_idle_full_135_0_128"]
 atlas = ExtResource("tree_nature_as_spruce0_idle_full")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="x0vhl"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_idle_full_225_0_256"]
 atlas = ExtResource("tree_nature_as_spruce0_idle_full")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="k1fv6"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_idle_full_315_0_384"]
 atlas = ExtResource("tree_nature_as_spruce0_idle_full")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="hkew7"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_045_0_0"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="rw53o"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_045_64_0"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(64, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="eln2g"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_045_128_0"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(128, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="fdlfw"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_045_192_0"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(192, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="osg8w"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_135_0_128"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="5y53d"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_135_64_128"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(64, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="0ogve"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_135_128_128"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(128, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="afmva"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_135_192_128"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(192, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="pnymw"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_225_0_256"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="765y8"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_225_64_256"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(64, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="ch6xx"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_225_128_256"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(128, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="npyic"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_225_192_256"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(192, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="0wu1t"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_315_0_384"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="jft87"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_315_64_384"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(64, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="j2qcl"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_315_128_384"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(128, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="mwyyd"]
+[sub_resource type="AtlasTexture" id="spruce0_nature_work_315_192_384"]
 atlas = ExtResource("tree_nature_as_spruce0_work")
 region = Rect2(192, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="xeqbn"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_idle_full_045_0_0"]
 atlas = ExtResource("tree_nature_as_spruce1_idle_full")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="1f1a7"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_idle_full_135_0_128"]
 atlas = ExtResource("tree_nature_as_spruce1_idle_full")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="abdoy"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_idle_full_225_0_256"]
 atlas = ExtResource("tree_nature_as_spruce1_idle_full")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="yxeml"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_idle_full_315_0_384"]
 atlas = ExtResource("tree_nature_as_spruce1_idle_full")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="i7ccb"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_045_0_0"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="nmrfe"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_045_64_0"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(64, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="houyx"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_045_128_0"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(128, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="hcs2n"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_045_192_0"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(192, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="pnqm8"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_135_0_128"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="kkfgs"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_135_64_128"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(64, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="mrmry"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_135_128_128"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(128, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="ktqsf"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_135_192_128"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(192, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="yhgod"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_225_0_256"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="7op2o"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_225_64_256"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(64, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="kycfi"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_225_128_256"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(128, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="3upj8"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_225_192_256"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(192, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="o6p8n"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_315_0_384"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="w4sac"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_315_64_384"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(64, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="shbty"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_315_128_384"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(128, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="ii2r0"]
+[sub_resource type="AtlasTexture" id="spruce1_nature_work_315_192_384"]
 atlas = ExtResource("tree_nature_as_spruce1_work")
 region = Rect2(192, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="sa04v"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_idle_full_045_0_0"]
 atlas = ExtResource("tree_nature_as_tupelo0_idle_full")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="y0fv6"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_idle_full_135_0_128"]
 atlas = ExtResource("tree_nature_as_tupelo0_idle_full")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="567xq"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_idle_full_225_0_256"]
 atlas = ExtResource("tree_nature_as_tupelo0_idle_full")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="r1yf6"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_idle_full_315_0_384"]
 atlas = ExtResource("tree_nature_as_tupelo0_idle_full")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="o7qpp"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_045_0_0"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="nlfl8"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_045_64_0"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(64, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="qe5d3"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_045_128_0"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(128, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="nriii"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_045_192_0"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(192, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="113wg"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_135_0_128"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="r4bdf"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_135_64_128"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(64, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="eqngq"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_135_128_128"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(128, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="o2sct"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_135_192_128"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(192, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="8tf2a"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_225_0_256"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="8wq63"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_225_64_256"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(64, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="08y4k"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_225_128_256"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(128, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="cmdex"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_225_192_256"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(192, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="uugvh"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_315_0_384"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="7sb8g"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_315_64_384"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(64, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="b7vn1"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_315_128_384"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(128, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="1vgc0"]
+[sub_resource type="AtlasTexture" id="tupelo0_nature_work_315_192_384"]
 atlas = ExtResource("tree_nature_as_tupelo0_work")
 region = Rect2(192, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="80n6p"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_idle_full_045_0_0"]
 atlas = ExtResource("tree_nature_as_tupelo1_idle_full")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="ho5qy"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_idle_full_135_0_128"]
 atlas = ExtResource("tree_nature_as_tupelo1_idle_full")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="j1flv"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_idle_full_225_0_256"]
 atlas = ExtResource("tree_nature_as_tupelo1_idle_full")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="htjem"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_idle_full_315_0_384"]
 atlas = ExtResource("tree_nature_as_tupelo1_idle_full")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="w6wne"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_045_0_0"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="3xfkh"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_045_64_0"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(64, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="0qwr2"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_045_128_0"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(128, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="ax6gd"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_045_192_0"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(192, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="g47s8"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_135_0_128"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="4cch2"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_135_64_128"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(64, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="uk8qg"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_135_128_128"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(128, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="8xxvj"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_135_192_128"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(192, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="1q82m"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_225_0_256"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="sgj33"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_225_64_256"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(64, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="kfltv"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_225_128_256"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(128, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="gfu8p"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_225_192_256"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(192, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="uwhjk"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_315_0_384"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="7ppla"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_315_64_384"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(64, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="f8bpf"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_315_128_384"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(128, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="vclco"]
+[sub_resource type="AtlasTexture" id="tupelo1_nature_work_315_192_384"]
 atlas = ExtResource("tree_nature_as_tupelo1_work")
 region = Rect2(192, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="4jajp"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_idle_full_045_0_0"]
 atlas = ExtResource("tree_nature_as_tupelo2_idle_full")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="kn43a"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_idle_full_135_0_128"]
 atlas = ExtResource("tree_nature_as_tupelo2_idle_full")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="lnoqi"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_idle_full_225_0_256"]
 atlas = ExtResource("tree_nature_as_tupelo2_idle_full")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="im1it"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_idle_full_315_0_384"]
 atlas = ExtResource("tree_nature_as_tupelo2_idle_full")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="dxxr3"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_045_0_0"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="lygfd"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_045_64_0"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(64, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="27ki1"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_045_128_0"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(128, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="2t4mk"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_045_192_0"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(192, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="xawkk"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_135_0_128"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(0, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="we3lp"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_135_64_128"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(64, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="cqxdy"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_135_128_128"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(128, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="cejvg"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_135_192_128"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(192, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="8jjwh"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_225_0_256"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(0, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="vempd"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_225_64_256"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(64, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="jp4yf"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_225_128_256"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(128, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="oc3s8"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_225_192_256"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(192, 256, 64, 128)
 
-[sub_resource type="AtlasTexture" id="wy5l6"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_315_0_384"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(0, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="08166"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_315_64_384"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(64, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="o6mcn"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_315_128_384"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(128, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="bc8mp"]
+[sub_resource type="AtlasTexture" id="tupelo2_nature_work_315_192_384"]
 atlas = ExtResource("tree_nature_as_tupelo2_work")
 region = Rect2(192, 384, 64, 128)
+
 
 [resource]
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("tptwa")
-}],
-"loop": true,
-"name": &"birch0.nature.idle_full.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("kleuk")
-}],
-"loop": true,
-"name": &"birch0.nature.idle_full.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("kxy8p")
-}],
-"loop": true,
-"name": &"birch0.nature.idle_full.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("8qigg")
-}],
-"loop": true,
-"name": &"birch0.nature.idle_full.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("6ke8x")
-}, {
-"duration": 1.0,
-"texture": SubResource("36jux")
-}, {
-"duration": 1.0,
-"texture": SubResource("t2k7k")
-}, {
-"duration": 1.0,
-"texture": SubResource("t861t")
-}, {
-"duration": 1.0,
-"texture": SubResource("w5ch4")
-}],
-"loop": true,
-"name": &"birch0.nature.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("y6ibp")
-}, {
-"duration": 1.0,
-"texture": SubResource("086k5")
-}, {
-"duration": 1.0,
-"texture": SubResource("7k28k")
-}, {
-"duration": 1.0,
-"texture": SubResource("3xp1v")
-}, {
-"duration": 1.0,
-"texture": SubResource("iu12h")
-}],
-"loop": true,
-"name": &"birch0.nature.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("3wgl1")
-}, {
-"duration": 1.0,
-"texture": SubResource("t3cxi")
-}, {
-"duration": 1.0,
-"texture": SubResource("3kuu0")
-}, {
-"duration": 1.0,
-"texture": SubResource("1vcbq")
-}, {
-"duration": 1.0,
-"texture": SubResource("ms335")
-}],
-"loop": true,
-"name": &"birch0.nature.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("7lrkd")
-}, {
-"duration": 1.0,
-"texture": SubResource("3o52v")
-}, {
-"duration": 1.0,
-"texture": SubResource("dnadk")
-}, {
-"duration": 1.0,
-"texture": SubResource("ttef4")
-}, {
-"duration": 1.0,
-"texture": SubResource("87cly")
-}],
-"loop": true,
-"name": &"birch0.nature.work.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("htitb")
-}],
-"loop": true,
-"name": &"maple0.nature.idle_full.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("vuu14")
-}],
-"loop": true,
-"name": &"maple0.nature.idle_full.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("s8frp")
-}],
-"loop": true,
-"name": &"maple0.nature.idle_full.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("t6nfd")
-}],
-"loop": true,
-"name": &"maple0.nature.idle_full.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("ujaye")
-}, {
-"duration": 1.0,
-"texture": SubResource("mraf1")
-}, {
-"duration": 1.0,
-"texture": SubResource("gtxiu")
-}, {
-"duration": 1.0,
-"texture": SubResource("kohwx")
-}],
-"loop": true,
-"name": &"maple0.nature.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("5gowh")
-}, {
-"duration": 1.0,
-"texture": SubResource("6nnmo")
-}, {
-"duration": 1.0,
-"texture": SubResource("6cwxn")
-}, {
-"duration": 1.0,
-"texture": SubResource("etmjm")
-}],
-"loop": true,
-"name": &"maple0.nature.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("dygkj")
-}, {
-"duration": 1.0,
-"texture": SubResource("bnyb2")
-}, {
-"duration": 1.0,
-"texture": SubResource("2trwj")
-}, {
-"duration": 1.0,
-"texture": SubResource("xaoxr")
-}],
-"loop": true,
-"name": &"maple0.nature.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("0b534")
-}, {
-"duration": 1.0,
-"texture": SubResource("pdqix")
-}, {
-"duration": 1.0,
-"texture": SubResource("rhlpc")
-}, {
-"duration": 1.0,
-"texture": SubResource("0n6bo")
-}],
-"loop": true,
-"name": &"maple0.nature.work.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("fkcll")
-}],
-"loop": true,
-"name": &"maple1.nature.idle_full.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("hgpcg")
-}],
-"loop": true,
-"name": &"maple1.nature.idle_full.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("b7gg2")
-}],
-"loop": true,
-"name": &"maple1.nature.idle_full.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("jbtkn")
-}],
-"loop": true,
-"name": &"maple1.nature.idle_full.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("c3d7l")
-}, {
-"duration": 1.0,
-"texture": SubResource("h7spp")
-}, {
-"duration": 1.0,
-"texture": SubResource("6dc2r")
-}, {
-"duration": 1.0,
-"texture": SubResource("wf0uy")
-}],
-"loop": true,
-"name": &"maple1.nature.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("icqup")
-}, {
-"duration": 1.0,
-"texture": SubResource("omjxd")
-}, {
-"duration": 1.0,
-"texture": SubResource("03m57")
-}, {
-"duration": 1.0,
-"texture": SubResource("siwg3")
-}],
-"loop": true,
-"name": &"maple1.nature.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("gw2l5")
-}, {
-"duration": 1.0,
-"texture": SubResource("vha2a")
-}, {
-"duration": 1.0,
-"texture": SubResource("ap0qs")
-}, {
-"duration": 1.0,
-"texture": SubResource("kbelx")
-}],
-"loop": true,
-"name": &"maple1.nature.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("2k45g")
-}, {
-"duration": 1.0,
-"texture": SubResource("slo7x")
-}, {
-"duration": 1.0,
-"texture": SubResource("077jt")
-}, {
-"duration": 1.0,
-"texture": SubResource("b7rns")
-}],
-"loop": true,
-"name": &"maple1.nature.work.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("as3bu")
-}],
-"loop": true,
-"name": &"maple2.nature.idle_full.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("0pou4")
-}],
-"loop": true,
-"name": &"maple2.nature.idle_full.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("nlo60")
-}],
-"loop": true,
-"name": &"maple2.nature.idle_full.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("4flaf")
-}],
-"loop": true,
-"name": &"maple2.nature.idle_full.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("27dao")
-}, {
-"duration": 1.0,
-"texture": SubResource("cn8ah")
-}, {
-"duration": 1.0,
-"texture": SubResource("khm68")
-}, {
-"duration": 1.0,
-"texture": SubResource("ygcxq")
-}],
-"loop": true,
-"name": &"maple2.nature.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("wr8he")
-}, {
-"duration": 1.0,
-"texture": SubResource("hl5wb")
-}, {
-"duration": 1.0,
-"texture": SubResource("b5t3n")
-}, {
-"duration": 1.0,
-"texture": SubResource("arffy")
-}],
-"loop": true,
-"name": &"maple2.nature.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("qdjcb")
-}, {
-"duration": 1.0,
-"texture": SubResource("t6xgd")
-}, {
-"duration": 1.0,
-"texture": SubResource("8k2wp")
-}, {
-"duration": 1.0,
-"texture": SubResource("erj36")
-}],
-"loop": true,
-"name": &"maple2.nature.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("axv48")
-}, {
-"duration": 1.0,
-"texture": SubResource("wm3na")
-}, {
-"duration": 1.0,
-"texture": SubResource("ilkbh")
-}, {
-"duration": 1.0,
-"texture": SubResource("6hiek")
-}],
-"loop": true,
-"name": &"maple2.nature.work.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("u4oob")
-}],
-"loop": true,
-"name": &"maple3.nature.idle_full.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("k3c81")
-}],
-"loop": true,
-"name": &"maple3.nature.idle_full.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("stjuw")
-}],
-"loop": true,
-"name": &"maple3.nature.idle_full.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("x1jq6")
-}],
-"loop": true,
-"name": &"maple3.nature.idle_full.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("xwp0p")
-}, {
-"duration": 1.0,
-"texture": SubResource("lw2qi")
-}, {
-"duration": 1.0,
-"texture": SubResource("11via")
-}, {
-"duration": 1.0,
-"texture": SubResource("28r7m")
-}],
-"loop": true,
-"name": &"maple3.nature.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("en84a")
-}, {
-"duration": 1.0,
-"texture": SubResource("fb3ht")
-}, {
-"duration": 1.0,
-"texture": SubResource("ljc51")
-}, {
-"duration": 1.0,
-"texture": SubResource("nvykl")
-}],
-"loop": true,
-"name": &"maple3.nature.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("sio2a")
-}, {
-"duration": 1.0,
-"texture": SubResource("uw22l")
-}, {
-"duration": 1.0,
-"texture": SubResource("220sf")
-}, {
-"duration": 1.0,
-"texture": SubResource("apv7n")
-}],
-"loop": true,
-"name": &"maple3.nature.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("md0y4")
-}, {
-"duration": 1.0,
-"texture": SubResource("1xf2r")
-}, {
-"duration": 1.0,
-"texture": SubResource("e3ys5")
-}, {
-"duration": 1.0,
-"texture": SubResource("27nlq")
-}],
-"loop": true,
-"name": &"maple3.nature.work.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("fgm6j")
-}],
-"loop": true,
-"name": &"spruce0.nature.idle_full.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("virn0")
-}],
-"loop": true,
-"name": &"spruce0.nature.idle_full.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("x0vhl")
-}],
-"loop": true,
-"name": &"spruce0.nature.idle_full.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("k1fv6")
-}],
-"loop": true,
-"name": &"spruce0.nature.idle_full.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("hkew7")
-}, {
-"duration": 1.0,
-"texture": SubResource("rw53o")
-}, {
-"duration": 1.0,
-"texture": SubResource("eln2g")
-}, {
-"duration": 1.0,
-"texture": SubResource("fdlfw")
-}],
-"loop": true,
-"name": &"spruce0.nature.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("osg8w")
-}, {
-"duration": 1.0,
-"texture": SubResource("5y53d")
-}, {
-"duration": 1.0,
-"texture": SubResource("0ogve")
-}, {
-"duration": 1.0,
-"texture": SubResource("afmva")
-}],
-"loop": true,
-"name": &"spruce0.nature.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("pnymw")
-}, {
-"duration": 1.0,
-"texture": SubResource("765y8")
-}, {
-"duration": 1.0,
-"texture": SubResource("ch6xx")
-}, {
-"duration": 1.0,
-"texture": SubResource("npyic")
-}],
-"loop": true,
-"name": &"spruce0.nature.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("0wu1t")
-}, {
-"duration": 1.0,
-"texture": SubResource("jft87")
-}, {
-"duration": 1.0,
-"texture": SubResource("j2qcl")
-}, {
-"duration": 1.0,
-"texture": SubResource("mwyyd")
-}],
-"loop": true,
-"name": &"spruce0.nature.work.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("xeqbn")
-}],
-"loop": true,
-"name": &"spruce1.nature.idle_full.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("1f1a7")
-}],
-"loop": true,
-"name": &"spruce1.nature.idle_full.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("abdoy")
-}],
-"loop": true,
-"name": &"spruce1.nature.idle_full.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("yxeml")
-}],
-"loop": true,
-"name": &"spruce1.nature.idle_full.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("i7ccb")
-}, {
-"duration": 1.0,
-"texture": SubResource("nmrfe")
-}, {
-"duration": 1.0,
-"texture": SubResource("houyx")
-}, {
-"duration": 1.0,
-"texture": SubResource("hcs2n")
-}],
-"loop": true,
-"name": &"spruce1.nature.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("pnqm8")
-}, {
-"duration": 1.0,
-"texture": SubResource("kkfgs")
-}, {
-"duration": 1.0,
-"texture": SubResource("mrmry")
-}, {
-"duration": 1.0,
-"texture": SubResource("ktqsf")
-}],
-"loop": true,
-"name": &"spruce1.nature.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("yhgod")
-}, {
-"duration": 1.0,
-"texture": SubResource("7op2o")
-}, {
-"duration": 1.0,
-"texture": SubResource("kycfi")
-}, {
-"duration": 1.0,
-"texture": SubResource("3upj8")
-}],
-"loop": true,
-"name": &"spruce1.nature.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("o6p8n")
-}, {
-"duration": 1.0,
-"texture": SubResource("w4sac")
-}, {
-"duration": 1.0,
-"texture": SubResource("shbty")
-}, {
-"duration": 1.0,
-"texture": SubResource("ii2r0")
-}],
-"loop": true,
-"name": &"spruce1.nature.work.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("sa04v")
-}],
-"loop": true,
-"name": &"tupelo0.nature.idle_full.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("y0fv6")
-}],
-"loop": true,
-"name": &"tupelo0.nature.idle_full.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("567xq")
-}],
-"loop": true,
-"name": &"tupelo0.nature.idle_full.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("r1yf6")
-}],
-"loop": true,
-"name": &"tupelo0.nature.idle_full.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("o7qpp")
-}, {
-"duration": 1.0,
-"texture": SubResource("nlfl8")
-}, {
-"duration": 1.0,
-"texture": SubResource("qe5d3")
-}, {
-"duration": 1.0,
-"texture": SubResource("nriii")
-}],
-"loop": true,
-"name": &"tupelo0.nature.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("113wg")
-}, {
-"duration": 1.0,
-"texture": SubResource("r4bdf")
-}, {
-"duration": 1.0,
-"texture": SubResource("eqngq")
-}, {
-"duration": 1.0,
-"texture": SubResource("o2sct")
-}],
-"loop": true,
-"name": &"tupelo0.nature.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("8tf2a")
-}, {
-"duration": 1.0,
-"texture": SubResource("8wq63")
-}, {
-"duration": 1.0,
-"texture": SubResource("08y4k")
-}, {
-"duration": 1.0,
-"texture": SubResource("cmdex")
-}],
-"loop": true,
-"name": &"tupelo0.nature.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("uugvh")
-}, {
-"duration": 1.0,
-"texture": SubResource("7sb8g")
-}, {
-"duration": 1.0,
-"texture": SubResource("b7vn1")
-}, {
-"duration": 1.0,
-"texture": SubResource("1vgc0")
-}],
-"loop": true,
-"name": &"tupelo0.nature.work.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("80n6p")
-}],
-"loop": true,
-"name": &"tupelo1.nature.idle_full.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("ho5qy")
-}],
-"loop": true,
-"name": &"tupelo1.nature.idle_full.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("j1flv")
-}],
-"loop": true,
-"name": &"tupelo1.nature.idle_full.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("htjem")
-}],
-"loop": true,
-"name": &"tupelo1.nature.idle_full.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("w6wne")
-}, {
-"duration": 1.0,
-"texture": SubResource("3xfkh")
-}, {
-"duration": 1.0,
-"texture": SubResource("0qwr2")
-}, {
-"duration": 1.0,
-"texture": SubResource("ax6gd")
-}],
-"loop": true,
-"name": &"tupelo1.nature.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("g47s8")
-}, {
-"duration": 1.0,
-"texture": SubResource("4cch2")
-}, {
-"duration": 1.0,
-"texture": SubResource("uk8qg")
-}, {
-"duration": 1.0,
-"texture": SubResource("8xxvj")
-}],
-"loop": true,
-"name": &"tupelo1.nature.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("1q82m")
-}, {
-"duration": 1.0,
-"texture": SubResource("sgj33")
-}, {
-"duration": 1.0,
-"texture": SubResource("kfltv")
-}, {
-"duration": 1.0,
-"texture": SubResource("gfu8p")
-}],
-"loop": true,
-"name": &"tupelo1.nature.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("uwhjk")
-}, {
-"duration": 1.0,
-"texture": SubResource("7ppla")
-}, {
-"duration": 1.0,
-"texture": SubResource("f8bpf")
-}, {
-"duration": 1.0,
-"texture": SubResource("vclco")
-}],
-"loop": true,
-"name": &"tupelo1.nature.work.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("4jajp")
-}],
-"loop": true,
-"name": &"tupelo2.nature.idle_full.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("kn43a")
-}],
-"loop": true,
-"name": &"tupelo2.nature.idle_full.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("lnoqi")
-}],
-"loop": true,
-"name": &"tupelo2.nature.idle_full.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("im1it")
-}],
-"loop": true,
-"name": &"tupelo2.nature.idle_full.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("dxxr3")
-}, {
-"duration": 1.0,
-"texture": SubResource("lygfd")
-}, {
-"duration": 1.0,
-"texture": SubResource("27ki1")
-}, {
-"duration": 1.0,
-"texture": SubResource("2t4mk")
-}],
-"loop": true,
-"name": &"tupelo2.nature.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("xawkk")
-}, {
-"duration": 1.0,
-"texture": SubResource("we3lp")
-}, {
-"duration": 1.0,
-"texture": SubResource("cqxdy")
-}, {
-"duration": 1.0,
-"texture": SubResource("cejvg")
-}],
-"loop": true,
-"name": &"tupelo2.nature.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("8jjwh")
-}, {
-"duration": 1.0,
-"texture": SubResource("vempd")
-}, {
-"duration": 1.0,
-"texture": SubResource("jp4yf")
-}, {
-"duration": 1.0,
-"texture": SubResource("oc3s8")
-}],
-"loop": true,
-"name": &"tupelo2.nature.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("wy5l6")
-}, {
-"duration": 1.0,
-"texture": SubResource("08166")
-}, {
-"duration": 1.0,
-"texture": SubResource("o6mcn")
-}, {
-"duration": 1.0,
-"texture": SubResource("bc8mp")
-}],
-"loop": true,
-"name": &"tupelo2.nature.work.315",
-"speed": 5.0
-}]
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_idle_full_045_0_0")
+      }],
+    "loop": true,
+    "name": &"birch0.nature.idle_full.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_idle_full_135_0_128")
+      }],
+    "loop": true,
+    "name": &"birch0.nature.idle_full.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_idle_full_225_0_256")
+      }],
+    "loop": true,
+    "name": &"birch0.nature.idle_full.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_idle_full_315_0_384")
+      }],
+    "loop": true,
+    "name": &"birch0.nature.idle_full.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_045_64_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_045_192_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_045_256_0")
+      }],
+    "loop": true,
+    "name": &"birch0.nature.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_135_0_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_135_64_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_135_128_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_135_192_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_135_256_128")
+      }],
+    "loop": true,
+    "name": &"birch0.nature.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_225_0_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_225_64_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_225_128_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_225_192_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_225_256_256")
+      }],
+    "loop": true,
+    "name": &"birch0.nature.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_315_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_315_64_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_315_128_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_315_192_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("birch0_nature_work_315_256_384")
+      }],
+    "loop": true,
+    "name": &"birch0.nature.work.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_idle_full_045_0_0")
+      }],
+    "loop": true,
+    "name": &"maple0.nature.idle_full.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_idle_full_135_0_128")
+      }],
+    "loop": true,
+    "name": &"maple0.nature.idle_full.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_idle_full_225_0_256")
+      }],
+    "loop": true,
+    "name": &"maple0.nature.idle_full.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_idle_full_315_0_384")
+      }],
+    "loop": true,
+    "name": &"maple0.nature.idle_full.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_045_64_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_045_192_0")
+      }],
+    "loop": true,
+    "name": &"maple0.nature.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_135_0_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_135_64_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_135_128_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_135_192_128")
+      }],
+    "loop": true,
+    "name": &"maple0.nature.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_225_0_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_225_64_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_225_128_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_225_192_256")
+      }],
+    "loop": true,
+    "name": &"maple0.nature.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_315_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_315_64_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_315_128_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple0_nature_work_315_192_384")
+      }],
+    "loop": true,
+    "name": &"maple0.nature.work.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_idle_full_045_0_0")
+      }],
+    "loop": true,
+    "name": &"maple1.nature.idle_full.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_idle_full_135_0_128")
+      }],
+    "loop": true,
+    "name": &"maple1.nature.idle_full.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_idle_full_225_0_256")
+      }],
+    "loop": true,
+    "name": &"maple1.nature.idle_full.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_idle_full_315_0_384")
+      }],
+    "loop": true,
+    "name": &"maple1.nature.idle_full.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_045_64_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_045_192_0")
+      }],
+    "loop": true,
+    "name": &"maple1.nature.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_135_0_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_135_64_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_135_128_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_135_192_128")
+      }],
+    "loop": true,
+    "name": &"maple1.nature.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_225_0_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_225_64_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_225_128_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_225_192_256")
+      }],
+    "loop": true,
+    "name": &"maple1.nature.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_315_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_315_64_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_315_128_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple1_nature_work_315_192_384")
+      }],
+    "loop": true,
+    "name": &"maple1.nature.work.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_idle_full_045_0_0")
+      }],
+    "loop": true,
+    "name": &"maple2.nature.idle_full.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_idle_full_135_0_128")
+      }],
+    "loop": true,
+    "name": &"maple2.nature.idle_full.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_idle_full_225_0_256")
+      }],
+    "loop": true,
+    "name": &"maple2.nature.idle_full.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_idle_full_315_0_384")
+      }],
+    "loop": true,
+    "name": &"maple2.nature.idle_full.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_045_64_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_045_192_0")
+      }],
+    "loop": true,
+    "name": &"maple2.nature.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_135_0_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_135_64_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_135_128_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_135_192_128")
+      }],
+    "loop": true,
+    "name": &"maple2.nature.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_225_0_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_225_64_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_225_128_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_225_192_256")
+      }],
+    "loop": true,
+    "name": &"maple2.nature.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_315_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_315_64_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_315_128_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple2_nature_work_315_192_384")
+      }],
+    "loop": true,
+    "name": &"maple2.nature.work.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_idle_full_045_0_0")
+      }],
+    "loop": true,
+    "name": &"maple3.nature.idle_full.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_idle_full_135_0_128")
+      }],
+    "loop": true,
+    "name": &"maple3.nature.idle_full.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_idle_full_225_0_256")
+      }],
+    "loop": true,
+    "name": &"maple3.nature.idle_full.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_idle_full_315_0_384")
+      }],
+    "loop": true,
+    "name": &"maple3.nature.idle_full.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_045_64_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_045_192_0")
+      }],
+    "loop": true,
+    "name": &"maple3.nature.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_135_0_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_135_64_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_135_128_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_135_192_128")
+      }],
+    "loop": true,
+    "name": &"maple3.nature.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_225_0_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_225_64_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_225_128_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_225_192_256")
+      }],
+    "loop": true,
+    "name": &"maple3.nature.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_315_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_315_64_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_315_128_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("maple3_nature_work_315_192_384")
+      }],
+    "loop": true,
+    "name": &"maple3.nature.work.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_idle_full_045_0_0")
+      }],
+    "loop": true,
+    "name": &"spruce0.nature.idle_full.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_idle_full_135_0_128")
+      }],
+    "loop": true,
+    "name": &"spruce0.nature.idle_full.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_idle_full_225_0_256")
+      }],
+    "loop": true,
+    "name": &"spruce0.nature.idle_full.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_idle_full_315_0_384")
+      }],
+    "loop": true,
+    "name": &"spruce0.nature.idle_full.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_045_64_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_045_192_0")
+      }],
+    "loop": true,
+    "name": &"spruce0.nature.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_135_0_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_135_64_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_135_128_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_135_192_128")
+      }],
+    "loop": true,
+    "name": &"spruce0.nature.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_225_0_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_225_64_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_225_128_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_225_192_256")
+      }],
+    "loop": true,
+    "name": &"spruce0.nature.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_315_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_315_64_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_315_128_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce0_nature_work_315_192_384")
+      }],
+    "loop": true,
+    "name": &"spruce0.nature.work.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_idle_full_045_0_0")
+      }],
+    "loop": true,
+    "name": &"spruce1.nature.idle_full.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_idle_full_135_0_128")
+      }],
+    "loop": true,
+    "name": &"spruce1.nature.idle_full.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_idle_full_225_0_256")
+      }],
+    "loop": true,
+    "name": &"spruce1.nature.idle_full.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_idle_full_315_0_384")
+      }],
+    "loop": true,
+    "name": &"spruce1.nature.idle_full.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_045_64_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_045_192_0")
+      }],
+    "loop": true,
+    "name": &"spruce1.nature.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_135_0_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_135_64_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_135_128_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_135_192_128")
+      }],
+    "loop": true,
+    "name": &"spruce1.nature.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_225_0_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_225_64_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_225_128_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_225_192_256")
+      }],
+    "loop": true,
+    "name": &"spruce1.nature.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_315_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_315_64_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_315_128_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("spruce1_nature_work_315_192_384")
+      }],
+    "loop": true,
+    "name": &"spruce1.nature.work.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_idle_full_045_0_0")
+      }],
+    "loop": true,
+    "name": &"tupelo0.nature.idle_full.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_idle_full_135_0_128")
+      }],
+    "loop": true,
+    "name": &"tupelo0.nature.idle_full.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_idle_full_225_0_256")
+      }],
+    "loop": true,
+    "name": &"tupelo0.nature.idle_full.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_idle_full_315_0_384")
+      }],
+    "loop": true,
+    "name": &"tupelo0.nature.idle_full.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_045_64_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_045_192_0")
+      }],
+    "loop": true,
+    "name": &"tupelo0.nature.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_135_0_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_135_64_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_135_128_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_135_192_128")
+      }],
+    "loop": true,
+    "name": &"tupelo0.nature.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_225_0_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_225_64_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_225_128_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_225_192_256")
+      }],
+    "loop": true,
+    "name": &"tupelo0.nature.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_315_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_315_64_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_315_128_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo0_nature_work_315_192_384")
+      }],
+    "loop": true,
+    "name": &"tupelo0.nature.work.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_idle_full_045_0_0")
+      }],
+    "loop": true,
+    "name": &"tupelo1.nature.idle_full.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_idle_full_135_0_128")
+      }],
+    "loop": true,
+    "name": &"tupelo1.nature.idle_full.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_idle_full_225_0_256")
+      }],
+    "loop": true,
+    "name": &"tupelo1.nature.idle_full.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_idle_full_315_0_384")
+      }],
+    "loop": true,
+    "name": &"tupelo1.nature.idle_full.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_045_64_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_045_192_0")
+      }],
+    "loop": true,
+    "name": &"tupelo1.nature.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_135_0_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_135_64_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_135_128_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_135_192_128")
+      }],
+    "loop": true,
+    "name": &"tupelo1.nature.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_225_0_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_225_64_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_225_128_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_225_192_256")
+      }],
+    "loop": true,
+    "name": &"tupelo1.nature.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_315_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_315_64_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_315_128_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo1_nature_work_315_192_384")
+      }],
+    "loop": true,
+    "name": &"tupelo1.nature.work.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_idle_full_045_0_0")
+      }],
+    "loop": true,
+    "name": &"tupelo2.nature.idle_full.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_idle_full_135_0_128")
+      }],
+    "loop": true,
+    "name": &"tupelo2.nature.idle_full.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_idle_full_225_0_256")
+      }],
+    "loop": true,
+    "name": &"tupelo2.nature.idle_full.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_idle_full_315_0_384")
+      }],
+    "loop": true,
+    "name": &"tupelo2.nature.idle_full.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_045_64_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_045_192_0")
+      }],
+    "loop": true,
+    "name": &"tupelo2.nature.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_135_0_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_135_64_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_135_128_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_135_192_128")
+      }],
+    "loop": true,
+    "name": &"tupelo2.nature.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_225_0_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_225_64_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_225_128_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_225_192_256")
+      }],
+    "loop": true,
+    "name": &"tupelo2.nature.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_315_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_315_64_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_315_128_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("tupelo2_nature_work_315_192_384")
+      }],
+    "loop": true,
+    "name": &"tupelo2.nature.work.315",
+    "speed": 5.0
+  }]

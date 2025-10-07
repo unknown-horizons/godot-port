@@ -1,15 +1,19 @@
-[gd_scene load_steps=8 format=3 uid="uid://cweaponsmitts"]
+[gd_scene load_steps=8 format=3 uid="uid://cbweaponsmits"]
 
-[ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_Building2D_gd"]
+[ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
-[ext_resource type="SpriteFrames" uid="uid://cweaponsmittr" path="res://Assets/World/Buildings2/weaponsmith/weaponsmith.tres" id="4_sprite_frames"]
+[ext_resource type="SpriteFrames" uid="uid://cbweaponsmitr" path="res://Assets/World/Buildings2/weaponsmith/weaponsmith.tres" id="4_sprite_frames"]
+[ext_resource type="PackedScene" uid="uid://kv52rh351xud" path="res://Assets/World/Components/AmbientSoundComponent/AmbientSoundComponent.tscn" id="3_ambient_sound_component"]
+[ext_resource type="PackedScene" uid="uid://b3hix4pdlnumi" path="res://Assets/World/Components/Storages/SizedStorageComponent/SizedStorageComponent.tscn" id="5_sized_storage_component"]
 [ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 [ext_resource type="PackedScene" uid="uid://dyqwsks6v6puj" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.tscn" id="7_building_collector_component"]
 
 [node name="_ Weaponsmith" type="Node2D"]
-script = ExtResource("1_Building2D_gd")
+script = ExtResource("1_script_gd")
+baseclass = "production.ProductionBuilding"
+radius = 8
 
 [node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
 type = "building"
@@ -24,12 +28,13 @@ line_name = "SWORD"
 produces = Dictionary[StringName, int]({&"SWORD": 1})
 consumes = Dictionary[StringName, int]({&"CHARCOAL": 2, &"IRON_INGOTS": 2})
 
-
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({&"CHARCOAL": 6, &"IRON_INGOTS": 6, &"SWORD": 8})
 
 [node name="BuildingCollectorComponent" parent="." instance=ExtResource("7_building_collector_component")]
 
+[node name="AmbientSoundComponent" parent="." instance=ExtResource("3_ambient_sound_component")]
+sound_files = Array[String](["content/audio/sounds/smith.ogg"])
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

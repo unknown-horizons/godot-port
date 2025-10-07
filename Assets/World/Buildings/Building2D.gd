@@ -6,6 +6,9 @@ class_name Building2D
 
 @export var id: StringName = &"Building"
 
+@export var baseclass: String  # TODO: not used yet
+@export var radius: int        # TODO: not used yet
+
 ## is building paused
 var paused: bool = true:
   set(value):
@@ -83,7 +86,7 @@ func get_needed_resources() -> Array[StringName]:
     var amount_needed: int = 0
 
     if sized_storage != null:
-      max_amount = sized_storage.storage_capacity
+      max_amount = sized_storage.limit
       amount_in_stock = sized_storage.storage.get(resource)
     elif slot_storage != null:
       max_amount = slot_storage.max_capacity.get(resource, 0)

@@ -1,54 +1,55 @@
-[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cmountaintres"]
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbmountaintre"]
 
-[ext_resource type="Texture2D" uid="uid://dqft3o162p8lj" path="res://Assets/World/Buildings2/mountain/mountain_nature_as_mountain5x5_idle.png" id="mountain_nature_as_mountain5x5_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/mountain/mountain_nature_as_mountain5x5_idle.png" id="mountain_nature_as_mountain5x5_idle"]
 
-[sub_resource type="AtlasTexture" id="55e3p"]
+[sub_resource type="AtlasTexture" id="mountain5x5_nature_idle_045_0_0"]
 atlas = ExtResource("mountain_nature_as_mountain5x5_idle")
 region = Rect2(0, 0, 320, 224)
 
-[sub_resource type="AtlasTexture" id="4j7xo"]
+[sub_resource type="AtlasTexture" id="mountain5x5_nature_idle_135_0_224"]
 atlas = ExtResource("mountain_nature_as_mountain5x5_idle")
 region = Rect2(0, 224, 320, 224)
 
-[sub_resource type="AtlasTexture" id="jehtj"]
+[sub_resource type="AtlasTexture" id="mountain5x5_nature_idle_225_0_448"]
 atlas = ExtResource("mountain_nature_as_mountain5x5_idle")
 region = Rect2(0, 448, 320, 224)
 
-[sub_resource type="AtlasTexture" id="1so7b"]
+[sub_resource type="AtlasTexture" id="mountain5x5_nature_idle_315_0_672"]
 atlas = ExtResource("mountain_nature_as_mountain5x5_idle")
 region = Rect2(0, 672, 320, 224)
 
+
 [resource]
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("55e3p")
-}],
-"loop": true,
-"name": &"mountain5x5.nature.idle.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("4j7xo")
-}],
-"loop": true,
-"name": &"mountain5x5.nature.idle.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("jehtj")
-}],
-"loop": true,
-"name": &"mountain5x5.nature.idle.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("1so7b")
-}],
-"loop": true,
-"name": &"mountain5x5.nature.idle.315",
-"speed": 5.0
-}]
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("mountain5x5_nature_idle_045_0_0")
+      }],
+    "loop": true,
+    "name": &"mountain5x5.nature.idle.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("mountain5x5_nature_idle_135_0_224")
+      }],
+    "loop": true,
+    "name": &"mountain5x5.nature.idle.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("mountain5x5_nature_idle_225_0_448")
+      }],
+    "loop": true,
+    "name": &"mountain5x5.nature.idle.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("mountain5x5_nature_idle_315_0_672")
+      }],
+    "loop": true,
+    "name": &"mountain5x5.nature.idle.315",
+    "speed": 5.0
+  }]

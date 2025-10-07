@@ -1,54 +1,55 @@
-[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://csettlerruitr"]
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbsettlerrutr"]
 
-[ext_resource type="Texture2D" uid="uid://btulyv2dudcyv" path="res://Assets/World/Buildings2/settler_ruin/settler_ruin_nature_as_ruined_tent0_idle.png" id="settler_ruin_nature_as_ruined_tent0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/settler_ruin/settler_ruin_nature_as_ruined_tent0_idle.png" id="settler_ruin_nature_as_ruined_tent0_idle"]
 
-[sub_resource type="AtlasTexture" id="n57iu"]
+[sub_resource type="AtlasTexture" id="ruined_tent0_nature_idle_045_0_0"]
 atlas = ExtResource("settler_ruin_nature_as_ruined_tent0_idle")
 region = Rect2(0, 0, 128, 96)
 
-[sub_resource type="AtlasTexture" id="jnbs1"]
+[sub_resource type="AtlasTexture" id="ruined_tent0_nature_idle_135_0_96"]
 atlas = ExtResource("settler_ruin_nature_as_ruined_tent0_idle")
 region = Rect2(0, 96, 128, 128)
 
-[sub_resource type="AtlasTexture" id="6ac2n"]
+[sub_resource type="AtlasTexture" id="ruined_tent0_nature_idle_225_0_224"]
 atlas = ExtResource("settler_ruin_nature_as_ruined_tent0_idle")
 region = Rect2(0, 224, 128, 128)
 
-[sub_resource type="AtlasTexture" id="p40qh"]
+[sub_resource type="AtlasTexture" id="ruined_tent0_nature_idle_315_0_352"]
 atlas = ExtResource("settler_ruin_nature_as_ruined_tent0_idle")
 region = Rect2(0, 352, 128, 128)
 
+
 [resource]
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("n57iu")
-}],
-"loop": true,
-"name": &"ruined_tent0.nature.idle.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("jnbs1")
-}],
-"loop": true,
-"name": &"ruined_tent0.nature.idle.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("6ac2n")
-}],
-"loop": true,
-"name": &"ruined_tent0.nature.idle.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("p40qh")
-}],
-"loop": true,
-"name": &"ruined_tent0.nature.idle.315",
-"speed": 5.0
-}]
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("ruined_tent0_nature_idle_045_0_0")
+      }],
+    "loop": true,
+    "name": &"ruined_tent0.nature.idle.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("ruined_tent0_nature_idle_135_0_96")
+      }],
+    "loop": true,
+    "name": &"ruined_tent0.nature.idle.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("ruined_tent0_nature_idle_225_0_224")
+      }],
+    "loop": true,
+    "name": &"ruined_tent0.nature.idle.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("ruined_tent0_nature_idle_315_0_352")
+      }],
+    "loop": true,
+    "name": &"ruined_tent0.nature.idle.315",
+    "speed": 5.0
+  }]

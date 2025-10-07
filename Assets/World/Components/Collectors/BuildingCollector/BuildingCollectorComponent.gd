@@ -9,6 +9,9 @@ class_name BuildingCollectorComponent
 @export var built_tilemap: BuiltTileMap = null
 # @export var load_or_unload_time: float = 2
 
+@export var baseclass: String  # TODO: not used yet
+@export var radius: int        # TODO: not used yet
+@export var velocity: float    # TODO: not used yet
 
 @onready var move_by_cell: MoveByCellComponent = self.get_node("MoveByCellComponent")
 #@onready var action_set: CollectorActionSet = self.get_node("CollectorActionSet")
@@ -119,7 +122,7 @@ func get_best_job() -> Job:
       new_job.building_from = self.parent_building
       new_job.building_to = self.built_tilemap.building_position_to_building.get(self.path_to_warehouse[-1])
 
-    new_job.amount = clamp(max_amount_to_carry, 0, sized_storage.storage_capacity)
+    new_job.amount = clamp(max_amount_to_carry, 0, sized_storage.limit)
     if new_job.building_from == null or new_job.building_to == null or new_job.amount == 0 or new_job.resource == ResourceConfig.Resources.NONE:
       continue
     var path_to_start = move_by_cell.pathfinding.get_path_to_dest(self.global_position, new_job.building_from.global_position)

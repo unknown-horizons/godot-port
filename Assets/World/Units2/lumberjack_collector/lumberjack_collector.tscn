@@ -1,24 +1,23 @@
-[gd_scene load_steps=7 format=3 uid="uid://culumberjacts"]
+[gd_scene load_steps=8 format=3 uid="uid://culumberjacts"]
 
 [ext_resource type="Script" uid="uid://dwc6g0dxao8e0" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://kv52rh351xud" path="res://Assets/World/Components/AmbientSoundComponent/AmbientSoundComponent.tscn" id="3_ambient_sound_component"]
+[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
 [ext_resource type="SpriteFrames" uid="uid://culumberjactr" path="res://Assets/World/Units2/lumberjack_collector/lumberjack_collector.tres" id="4_sprite_frames"]
 [ext_resource type="PackedScene" uid="uid://b3hix4pdlnumi" path="res://Assets/World/Components/Storages/SizedStorageComponent/SizedStorageComponent.tscn" id="5_sized_storage_component"]
-[ext_resource type="Script" uid="uid://qy1mjv44uqmk" path="res://Assets/World/Components/MoveByCell/MoveByCellComponent.gd" id="6_nbsw2"]
 
 [node name="LumberjackCollector" type="Node2D"]
 script = ExtResource("1_script_gd")
+baseclass = "FieldCollector"
+radius = 5
+velocity = 12.0
 
 [node name="SizedStorageComponent" parent="." instance=ExtResource("5_sized_storage_component")]
+limit = 8
 
 [node name="AmbientSoundComponent" parent="." instance=ExtResource("3_ambient_sound_component")]
 sound_files = Array[String](["content/audio/sounds/lumberjack.ogg"])
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")
-current_as_name = ""
-
-[node name="MoveByCellComponent" type="Node2D" parent="."]
-script = ExtResource("6_nbsw2")
-metadata/_custom_type_script = "uid://qy1mjv44uqmk"

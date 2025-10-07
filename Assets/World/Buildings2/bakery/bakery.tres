@@ -1,299 +1,328 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbakerytres00"]
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbbakerytres0"]
 
-[ext_resource type="Texture2D" uid="uid://7c8af58iary0" path="res://Assets/World/Buildings2/bakery/bakery_citizens_as_bakery0_idle.png" id="bakery_citizens_as_bakery0_idle"]
-[ext_resource type="Texture2D" uid="uid://dnksmyovfr8v2" path="res://Assets/World/Buildings2/bakery/bakery_citizens_as_bakery0_work.png" id="bakery_citizens_as_bakery0_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/bakery/bakery_citizens_as_bakery0_idle.png" id="bakery_citizens_as_bakery0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/bakery/bakery_citizens_as_bakery0_work.png" id="bakery_citizens_as_bakery0_work"]
 
-[sub_resource type="AtlasTexture" id="pca6m"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_idle_045_0_0"]
 atlas = ExtResource("bakery_citizens_as_bakery0_idle")
 region = Rect2(0, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="f5wcf"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_idle_135_0_128"]
 atlas = ExtResource("bakery_citizens_as_bakery0_idle")
 region = Rect2(0, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="6ay4u"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_idle_225_0_256"]
 atlas = ExtResource("bakery_citizens_as_bakery0_idle")
 region = Rect2(0, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="ogqas"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_idle_315_0_384"]
 atlas = ExtResource("bakery_citizens_as_bakery0_idle")
 region = Rect2(0, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="j7dt6"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_045_0_0"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(0, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="8f8ee"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_045_128_0"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(128, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="do0nc"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_045_256_0"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(256, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="58k4q"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_045_384_0"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(384, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="2c1xk"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_045_512_0"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(512, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="jieny"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_045_640_0"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(640, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="gvavc"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_045_768_0"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(768, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="4y11m"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_045_896_0"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(896, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="xon6c"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_135_0_128"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(0, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="0ndx5"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_135_128_128"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(128, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="m4h61"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_135_256_128"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(256, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="y113r"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_135_384_128"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(384, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="v2lvn"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_135_512_128"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(512, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="dx64j"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_135_640_128"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(640, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="cexhy"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_135_768_128"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(768, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="q3tqh"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_135_896_128"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(896, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="5oa0k"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_225_0_256"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(0, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="68jg6"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_225_128_256"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(128, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="gkc74"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_225_256_256"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(256, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="061db"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_225_384_256"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(384, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="igpa2"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_225_512_256"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(512, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="nf0y6"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_225_640_256"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(640, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="18oqa"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_225_768_256"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(768, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="sfs52"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_225_896_256"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(896, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="avmhg"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_315_0_384"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(0, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="d8fdl"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_315_128_384"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(128, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="34lxn"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_315_256_384"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(256, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="n4vyt"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_315_384_384"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(384, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="7rjg5"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_315_512_384"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(512, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="lmjrb"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_315_640_384"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(640, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="ihpw4"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_315_768_384"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(768, 384, 128, 128)
 
-[sub_resource type="AtlasTexture" id="0xsr6"]
+[sub_resource type="AtlasTexture" id="bakery0_citizens_work_315_896_384"]
 atlas = ExtResource("bakery_citizens_as_bakery0_work")
 region = Rect2(896, 384, 128, 128)
 
+
 [resource]
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("pca6m")
-}],
-"loop": true,
-"name": &"bakery0.citizens.idle.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("f5wcf")
-}],
-"loop": true,
-"name": &"bakery0.citizens.idle.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("6ay4u")
-}],
-"loop": true,
-"name": &"bakery0.citizens.idle.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("ogqas")
-}],
-"loop": true,
-"name": &"bakery0.citizens.idle.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("j7dt6")
-}, {
-"duration": 1.0,
-"texture": SubResource("8f8ee")
-}, {
-"duration": 1.0,
-"texture": SubResource("do0nc")
-}, {
-"duration": 1.0,
-"texture": SubResource("58k4q")
-}, {
-"duration": 1.0,
-"texture": SubResource("2c1xk")
-}, {
-"duration": 1.0,
-"texture": SubResource("jieny")
-}, {
-"duration": 1.0,
-"texture": SubResource("gvavc")
-}, {
-"duration": 1.0,
-"texture": SubResource("4y11m")
-}],
-"loop": true,
-"name": &"bakery0.citizens.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("xon6c")
-}, {
-"duration": 1.0,
-"texture": SubResource("0ndx5")
-}, {
-"duration": 1.0,
-"texture": SubResource("m4h61")
-}, {
-"duration": 1.0,
-"texture": SubResource("y113r")
-}, {
-"duration": 1.0,
-"texture": SubResource("v2lvn")
-}, {
-"duration": 1.0,
-"texture": SubResource("dx64j")
-}, {
-"duration": 1.0,
-"texture": SubResource("cexhy")
-}, {
-"duration": 1.0,
-"texture": SubResource("q3tqh")
-}],
-"loop": true,
-"name": &"bakery0.citizens.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("5oa0k")
-}, {
-"duration": 1.0,
-"texture": SubResource("68jg6")
-}, {
-"duration": 1.0,
-"texture": SubResource("gkc74")
-}, {
-"duration": 1.0,
-"texture": SubResource("061db")
-}, {
-"duration": 1.0,
-"texture": SubResource("igpa2")
-}, {
-"duration": 1.0,
-"texture": SubResource("nf0y6")
-}, {
-"duration": 1.0,
-"texture": SubResource("18oqa")
-}, {
-"duration": 1.0,
-"texture": SubResource("sfs52")
-}],
-"loop": true,
-"name": &"bakery0.citizens.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("avmhg")
-}, {
-"duration": 1.0,
-"texture": SubResource("d8fdl")
-}, {
-"duration": 1.0,
-"texture": SubResource("34lxn")
-}, {
-"duration": 1.0,
-"texture": SubResource("n4vyt")
-}, {
-"duration": 1.0,
-"texture": SubResource("7rjg5")
-}, {
-"duration": 1.0,
-"texture": SubResource("lmjrb")
-}, {
-"duration": 1.0,
-"texture": SubResource("ihpw4")
-}, {
-"duration": 1.0,
-"texture": SubResource("0xsr6")
-}],
-"loop": true,
-"name": &"bakery0.citizens.work.315",
-"speed": 5.0
-}]
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_idle_045_0_0")
+      }],
+    "loop": true,
+    "name": &"bakery0.citizens.idle.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_idle_135_0_128")
+      }],
+    "loop": true,
+    "name": &"bakery0.citizens.idle.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_idle_225_0_256")
+      }],
+    "loop": true,
+    "name": &"bakery0.citizens.idle.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_idle_315_0_384")
+      }],
+    "loop": true,
+    "name": &"bakery0.citizens.idle.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_045_256_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_045_384_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_045_512_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_045_640_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_045_768_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_045_896_0")
+      }],
+    "loop": true,
+    "name": &"bakery0.citizens.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_135_0_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_135_128_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_135_256_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_135_384_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_135_512_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_135_640_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_135_768_128")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_135_896_128")
+      }],
+    "loop": true,
+    "name": &"bakery0.citizens.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_225_0_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_225_128_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_225_256_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_225_384_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_225_512_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_225_640_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_225_768_256")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_225_896_256")
+      }],
+    "loop": true,
+    "name": &"bakery0.citizens.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_315_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_315_128_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_315_256_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_315_384_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_315_512_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_315_640_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_315_768_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("bakery0_citizens_work_315_896_384")
+      }],
+    "loop": true,
+    "name": &"bakery0.citizens.work.315",
+    "speed": 5.0
+  }]

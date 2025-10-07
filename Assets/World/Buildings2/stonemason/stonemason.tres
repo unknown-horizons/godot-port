@@ -1,54 +1,55 @@
-[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cstonemasontr"]
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbstonemasotr"]
 
-[ext_resource type="Texture2D" uid="uid://cwh15qkv7n0qv" path="res://Assets/World/Buildings2/stonemason/stonemason_citizens_as_stonemason0_idle.png" id="stonemason_citizens_as_stonemason0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/stonemason/stonemason_citizens_as_stonemason0_idle.png" id="stonemason_citizens_as_stonemason0_idle"]
 
-[sub_resource type="AtlasTexture" id="j4q8e"]
+[sub_resource type="AtlasTexture" id="stonemason0_citizens_idle_045_0_0"]
 atlas = ExtResource("stonemason_citizens_as_stonemason0_idle")
 region = Rect2(0, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="8bwjd"]
+[sub_resource type="AtlasTexture" id="stonemason0_citizens_idle_135_0_128"]
 atlas = ExtResource("stonemason_citizens_as_stonemason0_idle")
 region = Rect2(0, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="i5j2n"]
+[sub_resource type="AtlasTexture" id="stonemason0_citizens_idle_225_0_256"]
 atlas = ExtResource("stonemason_citizens_as_stonemason0_idle")
 region = Rect2(0, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="d1m61"]
+[sub_resource type="AtlasTexture" id="stonemason0_citizens_idle_315_0_384"]
 atlas = ExtResource("stonemason_citizens_as_stonemason0_idle")
 region = Rect2(0, 384, 128, 128)
 
+
 [resource]
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("j4q8e")
-}],
-"loop": true,
-"name": &"stonemason0.citizens.idle.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("8bwjd")
-}],
-"loop": true,
-"name": &"stonemason0.citizens.idle.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("i5j2n")
-}],
-"loop": true,
-"name": &"stonemason0.citizens.idle.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("d1m61")
-}],
-"loop": true,
-"name": &"stonemason0.citizens.idle.315",
-"speed": 5.0
-}]
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("stonemason0_citizens_idle_045_0_0")
+      }],
+    "loop": true,
+    "name": &"stonemason0.citizens.idle.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("stonemason0_citizens_idle_135_0_128")
+      }],
+    "loop": true,
+    "name": &"stonemason0.citizens.idle.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("stonemason0_citizens_idle_225_0_256")
+      }],
+    "loop": true,
+    "name": &"stonemason0.citizens.idle.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("stonemason0_citizens_idle_315_0_384")
+      }],
+    "loop": true,
+    "name": &"stonemason0.citizens.idle.315",
+    "speed": 5.0
+  }]
