@@ -1,0 +1,2475 @@
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cuwildanimatr"]
+
+[ext_resource type="Texture2D" path="res://Assets/World/Units2/wild_animal/wild_animal_nature_as_fallowdeer0_idle.png" id="wild_animal_nature_as_fallowdeer0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Units2/wild_animal/wild_animal_nature_as_fallowdeer0_move.png" id="wild_animal_nature_as_fallowdeer0_move"]
+[ext_resource type="Texture2D" path="res://Assets/World/Units2/wild_animal/wild_animal_nature_as_reddeer0_idle.png" id="wild_animal_nature_as_reddeer0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Units2/wild_animal/wild_animal_nature_as_reddeer0_move.png" id="wild_animal_nature_as_reddeer0_move"]
+
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.000_0_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(0, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.000_32_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(32, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.000_64_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(64, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.000_96_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(96, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.000_128_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(128, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.000_160_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(160, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.000_192_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(192, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.000_224_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(224, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.000_256_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(256, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.000_288_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(288, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.135_0_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(0, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.135_32_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(32, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.135_64_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(64, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.135_96_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(96, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.135_128_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(128, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.135_160_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(160, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.135_192_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(192, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.135_224_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(224, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.135_256_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(256, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.135_288_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(288, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.180_0_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(0, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.180_32_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(32, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.180_64_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(64, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.180_96_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(96, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.180_128_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(128, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.180_160_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(160, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.180_192_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(192, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.180_224_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(224, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.180_256_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(256, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.180_288_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(288, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.225_0_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(0, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.225_32_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(32, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.225_64_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(64, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.225_96_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(96, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.225_128_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(128, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.225_160_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(160, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.225_192_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(192, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.225_224_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(224, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.225_256_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(256, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.225_288_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(288, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.270_0_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(0, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.270_32_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(32, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.270_64_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(64, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.270_96_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(96, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.270_128_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(128, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.270_160_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(160, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.270_192_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(192, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.270_224_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(224, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.270_256_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(256, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.270_288_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(288, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.315_0_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(0, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.315_32_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(32, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.315_64_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(64, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.315_96_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(96, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.315_128_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(128, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.315_160_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(160, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.315_192_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(192, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.315_224_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(224, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.315_256_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(256, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.315_288_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(288, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.045_0_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(0, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.045_32_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(32, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.045_64_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(64, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.045_96_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(96, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.045_128_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(128, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.045_160_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(160, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.045_192_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(192, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.045_224_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(224, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.045_256_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(256, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.045_288_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(288, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.090_0_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(0, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.090_32_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(32, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.090_64_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(64, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.090_96_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(96, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.090_128_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(128, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.090_160_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(160, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.090_192_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(192, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.090_224_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(224, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.090_256_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(256, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.idle.090_288_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_idle")
+region = Rect2(288, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.000_0_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(0, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.000_32_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(32, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.000_64_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(64, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.000_96_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(96, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.000_128_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(128, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.000_160_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(160, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.000_192_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(192, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.000_224_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(224, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.000_256_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(256, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.000_288_0"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(288, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.135_0_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(0, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.135_32_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(32, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.135_64_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(64, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.135_96_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(96, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.135_128_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(128, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.135_160_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(160, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.135_192_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(192, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.135_224_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(224, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.135_256_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(256, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.135_288_96"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(288, 96, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.180_0_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(0, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.180_32_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(32, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.180_64_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(64, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.180_96_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(96, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.180_128_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(128, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.180_160_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(160, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.180_192_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(192, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.180_224_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(224, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.180_256_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(256, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.180_288_128"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(288, 128, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.225_0_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(0, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.225_32_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(32, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.225_64_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(64, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.225_96_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(96, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.225_128_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(128, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.225_160_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(160, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.225_192_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(192, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.225_224_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(224, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.225_256_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(256, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.225_288_160"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(288, 160, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.270_0_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(0, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.270_32_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(32, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.270_64_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(64, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.270_96_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(96, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.270_128_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(128, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.270_160_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(160, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.270_192_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(192, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.270_224_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(224, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.270_256_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(256, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.270_288_192"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(288, 192, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.315_0_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(0, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.315_32_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(32, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.315_64_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(64, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.315_96_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(96, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.315_128_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(128, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.315_160_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(160, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.315_192_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(192, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.315_224_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(224, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.315_256_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(256, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.315_288_224"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(288, 224, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.045_0_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(0, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.045_32_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(32, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.045_64_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(64, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.045_96_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(96, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.045_128_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(128, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.045_160_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(160, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.045_192_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(192, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.045_224_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(224, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.045_256_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(256, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.045_288_32"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(288, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.090_0_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(0, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.090_32_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(32, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.090_64_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(64, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.090_96_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(96, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.090_128_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(128, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.090_160_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(160, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.090_192_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(192, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.090_224_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(224, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.090_256_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(256, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="fallowdeer0.nature.move.090_288_64"]
+atlas = ExtResource("wild_animal_nature_as_fallowdeer0_move")
+region = Rect2(288, 64, 32, 32)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.000_0_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(0, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.000_48_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(48, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.000_96_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(96, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.000_144_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(144, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.000_192_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(192, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.000_240_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(240, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.000_288_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(288, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.000_336_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(336, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.000_384_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(384, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.000_432_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(432, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.135_0_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(0, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.135_48_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(48, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.135_96_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(96, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.135_144_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(144, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.135_192_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(192, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.135_240_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(240, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.135_288_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(288, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.135_336_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(336, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.135_384_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(384, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.135_432_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(432, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.180_0_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(0, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.180_48_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(48, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.180_96_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(96, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.180_144_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(144, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.180_192_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(192, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.180_240_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(240, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.180_288_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(288, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.180_336_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(336, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.180_384_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(384, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.180_432_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(432, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.225_0_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(0, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.225_48_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(48, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.225_96_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(96, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.225_144_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(144, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.225_192_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(192, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.225_240_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(240, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.225_288_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(288, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.225_336_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(336, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.225_384_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(384, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.225_432_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(432, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.270_0_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(0, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.270_48_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(48, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.270_96_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(96, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.270_144_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(144, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.270_192_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(192, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.270_240_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(240, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.270_288_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(288, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.270_336_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(336, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.270_384_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(384, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.270_432_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(432, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.315_0_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(0, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.315_48_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(48, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.315_96_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(96, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.315_144_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(144, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.315_192_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(192, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.315_240_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(240, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.315_288_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(288, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.315_336_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(336, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.315_384_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(384, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.315_432_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(432, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.045_0_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(0, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.045_48_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(48, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.045_96_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(96, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.045_144_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(144, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.045_192_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(192, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.045_240_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(240, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.045_288_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(288, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.045_336_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(336, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.045_384_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(384, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.045_432_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(432, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.090_0_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(0, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.090_48_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(48, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.090_96_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(96, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.090_144_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(144, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.090_192_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(192, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.090_240_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(240, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.090_288_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(288, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.090_336_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(336, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.090_384_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(384, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.idle.090_432_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_idle")
+region = Rect2(432, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.000_0_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(0, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.000_48_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(48, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.000_96_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(96, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.000_144_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(144, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.000_192_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(192, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.000_240_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(240, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.000_288_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(288, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.000_336_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(336, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.000_384_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(384, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.000_432_0"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(432, 0, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.135_0_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(0, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.135_48_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(48, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.135_96_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(96, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.135_144_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(144, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.135_192_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(192, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.135_240_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(240, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.135_288_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(288, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.135_336_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(336, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.135_384_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(384, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.135_432_144"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(432, 144, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.180_0_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(0, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.180_48_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(48, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.180_96_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(96, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.180_144_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(144, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.180_192_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(192, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.180_240_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(240, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.180_288_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(288, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.180_336_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(336, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.180_384_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(384, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.180_432_192"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(432, 192, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.225_0_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(0, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.225_48_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(48, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.225_96_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(96, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.225_144_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(144, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.225_192_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(192, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.225_240_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(240, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.225_288_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(288, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.225_336_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(336, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.225_384_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(384, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.225_432_240"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(432, 240, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.270_0_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(0, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.270_48_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(48, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.270_96_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(96, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.270_144_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(144, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.270_192_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(192, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.270_240_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(240, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.270_288_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(288, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.270_336_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(336, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.270_384_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(384, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.270_432_288"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(432, 288, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.315_0_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(0, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.315_48_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(48, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.315_96_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(96, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.315_144_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(144, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.315_192_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(192, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.315_240_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(240, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.315_288_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(288, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.315_336_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(336, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.315_384_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(384, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.315_432_336"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(432, 336, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.045_0_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(0, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.045_48_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(48, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.045_96_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(96, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.045_144_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(144, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.045_192_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(192, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.045_240_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(240, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.045_288_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(288, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.045_336_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(336, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.045_384_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(384, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.045_432_48"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(432, 48, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.090_0_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(0, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.090_48_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(48, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.090_96_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(96, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.090_144_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(144, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.090_192_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(192, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.090_240_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(240, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.090_288_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(288, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.090_336_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(336, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.090_384_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(384, 96, 48, 48)
+[sub_resource type="AtlasTexture" id="reddeer0.nature.move.090_432_96"]
+atlas = ExtResource("wild_animal_nature_as_reddeer0_move")
+region = Rect2(432, 96, 48, 48)
+
+[resource]
+animations = [
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.000_0_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.000_32_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.000_64_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.000_96_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.000_128_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.000_160_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.000_192_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.000_224_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.000_256_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.000_288_0")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.idle.000",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.135_0_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.135_32_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.135_64_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.135_96_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.135_128_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.135_160_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.135_192_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.135_224_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.135_256_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.135_288_96")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.idle.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.180_0_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.180_32_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.180_64_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.180_96_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.180_128_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.180_160_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.180_192_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.180_224_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.180_256_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.180_288_128")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.idle.180",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.225_0_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.225_32_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.225_64_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.225_96_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.225_128_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.225_160_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.225_192_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.225_224_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.225_256_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.225_288_160")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.idle.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.270_0_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.270_32_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.270_64_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.270_96_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.270_128_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.270_160_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.270_192_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.270_224_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.270_256_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.270_288_192")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.idle.270",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.315_0_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.315_32_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.315_64_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.315_96_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.315_128_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.315_160_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.315_192_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.315_224_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.315_256_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.315_288_224")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.idle.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.045_0_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.045_32_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.045_64_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.045_96_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.045_128_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.045_160_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.045_192_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.045_224_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.045_256_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.045_288_32")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.idle.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.090_0_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.090_32_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.090_64_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.090_96_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.090_128_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.090_160_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.090_192_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.090_224_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.090_256_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.idle.090_288_64")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.idle.090",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.000_0_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.000_32_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.000_64_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.000_96_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.000_128_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.000_160_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.000_192_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.000_224_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.000_256_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.000_288_0")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.move.000",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.135_0_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.135_32_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.135_64_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.135_96_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.135_128_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.135_160_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.135_192_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.135_224_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.135_256_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.135_288_96")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.move.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.180_0_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.180_32_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.180_64_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.180_96_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.180_128_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.180_160_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.180_192_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.180_224_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.180_256_128")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.180_288_128")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.move.180",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.225_0_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.225_32_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.225_64_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.225_96_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.225_128_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.225_160_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.225_192_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.225_224_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.225_256_160")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.225_288_160")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.move.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.270_0_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.270_32_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.270_64_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.270_96_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.270_128_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.270_160_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.270_192_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.270_224_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.270_256_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.270_288_192")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.move.270",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.315_0_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.315_32_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.315_64_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.315_96_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.315_128_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.315_160_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.315_192_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.315_224_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.315_256_224")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.315_288_224")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.move.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.045_0_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.045_32_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.045_64_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.045_96_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.045_128_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.045_160_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.045_192_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.045_224_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.045_256_32")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.045_288_32")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.move.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.090_0_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.090_32_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.090_64_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.090_96_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.090_128_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.090_160_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.090_192_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.090_224_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.090_256_64")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("fallowdeer0.nature.move.090_288_64")
+      },
+        ],
+    "loop": true,
+    "name": &"fallowdeer0.nature.move.090",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.000_0_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.000_48_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.000_96_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.000_144_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.000_192_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.000_240_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.000_288_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.000_336_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.000_384_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.000_432_0")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.idle.000",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.135_0_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.135_48_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.135_96_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.135_144_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.135_192_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.135_240_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.135_288_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.135_336_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.135_384_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.135_432_144")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.idle.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.180_0_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.180_48_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.180_96_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.180_144_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.180_192_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.180_240_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.180_288_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.180_336_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.180_384_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.180_432_192")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.idle.180",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.225_0_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.225_48_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.225_96_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.225_144_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.225_192_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.225_240_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.225_288_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.225_336_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.225_384_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.225_432_240")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.idle.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.270_0_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.270_48_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.270_96_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.270_144_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.270_192_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.270_240_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.270_288_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.270_336_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.270_384_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.270_432_288")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.idle.270",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.315_0_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.315_48_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.315_96_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.315_144_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.315_192_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.315_240_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.315_288_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.315_336_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.315_384_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.315_432_336")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.idle.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.045_0_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.045_48_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.045_96_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.045_144_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.045_192_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.045_240_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.045_288_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.045_336_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.045_384_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.045_432_48")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.idle.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.090_0_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.090_48_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.090_96_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.090_144_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.090_192_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.090_240_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.090_288_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.090_336_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.090_384_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.idle.090_432_96")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.idle.090",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.000_0_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.000_48_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.000_96_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.000_144_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.000_192_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.000_240_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.000_288_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.000_336_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.000_384_0")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.000_432_0")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.move.000",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.135_0_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.135_48_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.135_96_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.135_144_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.135_192_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.135_240_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.135_288_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.135_336_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.135_384_144")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.135_432_144")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.move.135",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.180_0_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.180_48_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.180_96_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.180_144_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.180_192_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.180_240_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.180_288_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.180_336_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.180_384_192")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.180_432_192")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.move.180",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.225_0_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.225_48_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.225_96_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.225_144_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.225_192_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.225_240_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.225_288_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.225_336_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.225_384_240")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.225_432_240")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.move.225",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.270_0_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.270_48_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.270_96_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.270_144_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.270_192_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.270_240_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.270_288_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.270_336_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.270_384_288")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.270_432_288")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.move.270",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.315_0_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.315_48_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.315_96_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.315_144_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.315_192_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.315_240_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.315_288_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.315_336_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.315_384_336")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.315_432_336")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.move.315",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.045_0_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.045_48_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.045_96_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.045_144_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.045_192_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.045_240_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.045_288_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.045_336_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.045_384_48")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.045_432_48")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.move.045",
+    "speed": 5.0
+  },
+  {
+    "frames": [
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.090_0_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.090_48_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.090_96_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.090_144_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.090_192_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.090_240_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.090_288_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.090_336_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.090_384_96")
+      },
+          {
+        "duration": 1.0,
+        "texture": SubResource("reddeer0.nature.move.090_432_96")
+      },
+        ],
+    "loop": true,
+    "name": &"reddeer0.nature.move.090",
+    "speed": 5.0
+  },
+]

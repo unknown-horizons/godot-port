@@ -12,9 +12,9 @@ class_name BuildingActionSet
 @export var sprite_frames: SpriteFrames = null:
   set(value):
     sprite_frames = value
-    if animated_sprite == null:
+    if self.animated_sprite == null:
       return
-    animated_sprite.sprite_frames = sprite_frames
+    self.animated_sprite.sprite_frames = sprite_frames
     if sprite_frames == null:
       push_warning("No sprite frames assigned")
     update_animation()
@@ -56,11 +56,11 @@ var current_as_name: String = "":
       update_animation()
 
 ## The possible states of the building
-enum BuildingStates{
-  ## The building is in its idle state
+enum BuildingStates {
   IDLE,
-  ## The building is in its active state
+  IDLE_FULL,
   WORK,
+  MOVE
 }
 
 func get_action_set_names():
@@ -144,14 +144,14 @@ func update_animation() -> void:
     var tier_name_lc: String = ActionSetEnum.Tiers.keys()[tier].to_lower() # the tier as a lowercase string
     var tier_animations = self.per_tier_animation_names[tier]
     if tier_animations.size() > 0: # if the tier contains any animations - we choose one from them
-      var as_animations = tier_animations.filter(func(k): return k.contains(self.current_as_name))
+      var as_animations = tier_animations.filter(func(k: String): return k.begins_with(self.current_as_name+"."))
       if as_animations.size() > 0: # if actionset_name animation present - choose only from animations corresponding to the actionset_name
         tier_animations = as_animations
       var orientation_animations = tier_animations.filter(func(k): return k.contains(orientation_str))
       if orientation_animations.size() > 0: # if orientation animation present - choose only from the animations corresponding to the orientation
         tier_animations = orientation_animations
 
-      var working_state_animations = tier_animations.filter(func(k): return k.contains(state_str)) # lease priority for filtering
+      var working_state_animations = tier_animations.filter(func(k): return k.contains("."+state_str+".")) # lease priority for filtering
       if working_state_animations.size() > 0: # if working state animation present - choose only from the animations corresponding to the working state
         tier_animations = working_state_animations
       

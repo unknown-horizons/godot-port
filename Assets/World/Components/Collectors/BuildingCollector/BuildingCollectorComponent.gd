@@ -11,7 +11,7 @@ class_name BuildingCollectorComponent
 
 
 @onready var move_by_cell: MoveByCellComponent = self.get_node("MoveByCellComponent")
-@onready var action_set: CollectorActionSet = self.get_node("CollectorActionSet")
+#@onready var action_set: CollectorActionSet = self.get_node("CollectorActionSet")
 @onready var parent_building: Building2D = self.get_parent()
 
 var path_to_warehouse: Array[Vector2] = []
