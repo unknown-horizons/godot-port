@@ -1,54 +1,55 @@
-[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cclaypittres0"]
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbclaypittres"]
 
-[ext_resource type="Texture2D" uid="uid://cmndsbmp0xw10" path="res://Assets/World/Buildings2/clay_pit/clay_pit_pioneers_as_clay_pit0_idle.png" id="clay_pit_pioneers_as_clay_pit0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/clay_pit/clay_pit_pioneers_as_clay_pit0_idle.png" id="clay_pit_pioneers_as_clay_pit0_idle"]
 
-[sub_resource type="AtlasTexture" id="fbuau"]
+[sub_resource type="AtlasTexture" id="clay_pit0_pioneers_idle_045_0_0"]
 atlas = ExtResource("clay_pit_pioneers_as_clay_pit0_idle")
 region = Rect2(0, 0, 192, 128)
 
-[sub_resource type="AtlasTexture" id="5p875"]
+[sub_resource type="AtlasTexture" id="clay_pit0_pioneers_idle_135_0_128"]
 atlas = ExtResource("clay_pit_pioneers_as_clay_pit0_idle")
 region = Rect2(0, 128, 192, 192)
 
-[sub_resource type="AtlasTexture" id="msita"]
+[sub_resource type="AtlasTexture" id="clay_pit0_pioneers_idle_225_0_320"]
 atlas = ExtResource("clay_pit_pioneers_as_clay_pit0_idle")
 region = Rect2(0, 320, 192, 192)
 
-[sub_resource type="AtlasTexture" id="pejec"]
+[sub_resource type="AtlasTexture" id="clay_pit0_pioneers_idle_315_0_512"]
 atlas = ExtResource("clay_pit_pioneers_as_clay_pit0_idle")
 region = Rect2(0, 512, 192, 192)
 
+
 [resource]
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("fbuau")
-}],
-"loop": true,
-"name": &"clay_pit0.pioneers.idle.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("5p875")
-}],
-"loop": true,
-"name": &"clay_pit0.pioneers.idle.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("msita")
-}],
-"loop": true,
-"name": &"clay_pit0.pioneers.idle.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("pejec")
-}],
-"loop": true,
-"name": &"clay_pit0.pioneers.idle.315",
-"speed": 5.0
-}]
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("clay_pit0_pioneers_idle_045_0_0")
+      }],
+    "loop": true,
+    "name": &"clay_pit0.pioneers.idle.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("clay_pit0_pioneers_idle_135_0_128")
+      }],
+    "loop": true,
+    "name": &"clay_pit0.pioneers.idle.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("clay_pit0_pioneers_idle_225_0_320")
+      }],
+    "loop": true,
+    "name": &"clay_pit0.pioneers.idle.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("clay_pit0_pioneers_idle_315_0_512")
+      }],
+    "loop": true,
+    "name": &"clay_pit0.pioneers.idle.315",
+    "speed": 5.0
+  }]

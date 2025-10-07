@@ -1,215 +1,232 @@
-[gd_resource type="SpriteFrames" load_steps=27 format=3 uid="uid://cdistillerytr"]
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbdistillertr"]
 
-[ext_resource type="Texture2D" uid="uid://267ayyhe26ys" path="res://Assets/World/Buildings2/distillery/distillery_pioneers_as_distillery0_idle.png" id="distillery_pioneers_as_distillery0_idle"]
-[ext_resource type="Texture2D" uid="uid://b1e8fisddynmf" path="res://Assets/World/Buildings2/distillery/distillery_pioneers_as_distillery0_work.png" id="distillery_pioneers_as_distillery0_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/distillery/distillery_pioneers_as_distillery0_idle.png" id="distillery_pioneers_as_distillery0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/distillery/distillery_pioneers_as_distillery0_work.png" id="distillery_pioneers_as_distillery0_work"]
 
-[sub_resource type="AtlasTexture" id="nuln2"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_idle_045_0_0"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_idle")
 region = Rect2(0, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="lee5q"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_idle_135_0_98"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_idle")
 region = Rect2(0, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="7ttce"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_idle_225_0_196"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_idle")
 region = Rect2(0, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="t73s2"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_idle_315_0_294"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_idle")
 region = Rect2(0, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="odiry"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_045_0_0"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(0, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="ikj7i"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_045_128_0"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(128, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="e3lyo"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_045_256_0"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(256, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="8aabw"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_045_384_0"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(384, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="pu7lc"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_045_512_0"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(512, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="iy1mc"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_135_0_98"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(0, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="6yhsj"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_135_128_98"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(128, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="ichga"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_135_256_98"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(256, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="xp4a0"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_135_384_98"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(384, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="qoph3"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_135_512_98"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(512, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="881ex"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_225_0_196"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(0, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="16mso"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_225_128_196"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(128, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="ucrdx"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_225_256_196"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(256, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="wqtca"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_225_384_196"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(384, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="vqoim"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_225_512_196"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(512, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="dahfd"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_315_0_294"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(0, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="7pxdi"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_315_128_294"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(128, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="8ks74"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_315_256_294"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(256, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="igypd"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_315_384_294"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(384, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="jp6s8"]
+[sub_resource type="AtlasTexture" id="distillery0_pioneers_work_315_512_294"]
 atlas = ExtResource("distillery_pioneers_as_distillery0_work")
 region = Rect2(512, 294, 128, 98)
 
+
 [resource]
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("nuln2")
-}],
-"loop": true,
-"name": &"distillery0.pioneers.idle.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("lee5q")
-}],
-"loop": true,
-"name": &"distillery0.pioneers.idle.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("7ttce")
-}],
-"loop": true,
-"name": &"distillery0.pioneers.idle.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("t73s2")
-}],
-"loop": true,
-"name": &"distillery0.pioneers.idle.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("odiry")
-}, {
-"duration": 1.0,
-"texture": SubResource("ikj7i")
-}, {
-"duration": 1.0,
-"texture": SubResource("e3lyo")
-}, {
-"duration": 1.0,
-"texture": SubResource("8aabw")
-}, {
-"duration": 1.0,
-"texture": SubResource("pu7lc")
-}],
-"loop": true,
-"name": &"distillery0.pioneers.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("iy1mc")
-}, {
-"duration": 1.0,
-"texture": SubResource("6yhsj")
-}, {
-"duration": 1.0,
-"texture": SubResource("ichga")
-}, {
-"duration": 1.0,
-"texture": SubResource("xp4a0")
-}, {
-"duration": 1.0,
-"texture": SubResource("qoph3")
-}],
-"loop": true,
-"name": &"distillery0.pioneers.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("881ex")
-}, {
-"duration": 1.0,
-"texture": SubResource("16mso")
-}, {
-"duration": 1.0,
-"texture": SubResource("ucrdx")
-}, {
-"duration": 1.0,
-"texture": SubResource("wqtca")
-}, {
-"duration": 1.0,
-"texture": SubResource("vqoim")
-}],
-"loop": true,
-"name": &"distillery0.pioneers.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("dahfd")
-}, {
-"duration": 1.0,
-"texture": SubResource("7pxdi")
-}, {
-"duration": 1.0,
-"texture": SubResource("8ks74")
-}, {
-"duration": 1.0,
-"texture": SubResource("igypd")
-}, {
-"duration": 1.0,
-"texture": SubResource("jp6s8")
-}],
-"loop": true,
-"name": &"distillery0.pioneers.work.315",
-"speed": 5.0
-}]
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_idle_045_0_0")
+      }],
+    "loop": true,
+    "name": &"distillery0.pioneers.idle.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_idle_135_0_98")
+      }],
+    "loop": true,
+    "name": &"distillery0.pioneers.idle.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_idle_225_0_196")
+      }],
+    "loop": true,
+    "name": &"distillery0.pioneers.idle.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_idle_315_0_294")
+      }],
+    "loop": true,
+    "name": &"distillery0.pioneers.idle.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_045_256_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_045_384_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_045_512_0")
+      }],
+    "loop": true,
+    "name": &"distillery0.pioneers.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_135_0_98")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_135_128_98")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_135_256_98")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_135_384_98")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_135_512_98")
+      }],
+    "loop": true,
+    "name": &"distillery0.pioneers.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_225_0_196")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_225_128_196")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_225_256_196")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_225_384_196")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_225_512_196")
+      }],
+    "loop": true,
+    "name": &"distillery0.pioneers.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_315_0_294")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_315_128_294")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_315_256_294")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_315_384_294")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("distillery0_pioneers_work_315_512_294")
+      }],
+    "loop": true,
+    "name": &"distillery0.pioneers.work.315",
+    "speed": 5.0
+  }]

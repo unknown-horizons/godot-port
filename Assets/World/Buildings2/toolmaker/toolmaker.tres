@@ -1,299 +1,328 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://ctoolmakertre"]
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbtoolmakertr"]
 
-[ext_resource type="Texture2D" uid="uid://bpfvth2ao2xm1" path="res://Assets/World/Buildings2/toolmaker/toolmaker_settlers_as_toolmaker0_idle.png" id="toolmaker_settlers_as_toolmaker0_idle"]
-[ext_resource type="Texture2D" uid="uid://cutxf4c7nqvfv" path="res://Assets/World/Buildings2/toolmaker/toolmaker_settlers_as_toolmaker0_work.png" id="toolmaker_settlers_as_toolmaker0_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/toolmaker/toolmaker_settlers_as_toolmaker0_idle.png" id="toolmaker_settlers_as_toolmaker0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/toolmaker/toolmaker_settlers_as_toolmaker0_work.png" id="toolmaker_settlers_as_toolmaker0_work"]
 
-[sub_resource type="AtlasTexture" id="nv0ji"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_idle_045_0_0"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_idle")
 region = Rect2(0, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="0wye6"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_idle_135_0_98"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_idle")
 region = Rect2(0, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="qyot1"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_idle_225_0_196"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_idle")
 region = Rect2(0, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="b0d3a"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_idle_315_0_294"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_idle")
 region = Rect2(0, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="c5uv5"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_045_0_0"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(0, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="55qf8"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_045_128_0"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(128, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="i2r6q"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_045_256_0"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(256, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="g7we7"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_045_384_0"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(384, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="dvrkc"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_045_512_0"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(512, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="5xvy8"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_045_640_0"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(640, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="fsq3r"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_045_768_0"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(768, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="m8iq0"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_045_896_0"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(896, 0, 128, 98)
 
-[sub_resource type="AtlasTexture" id="2ht3d"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_135_0_98"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(0, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="uhc0f"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_135_128_98"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(128, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="pcis0"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_135_256_98"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(256, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="6lqcg"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_135_384_98"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(384, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="7kkie"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_135_512_98"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(512, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="8c2fi"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_135_640_98"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(640, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="u5ydp"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_135_768_98"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(768, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="jvx1d"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_135_896_98"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(896, 98, 128, 98)
 
-[sub_resource type="AtlasTexture" id="oyqkb"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_225_0_196"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(0, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="6gqbx"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_225_128_196"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(128, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="ktfrx"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_225_256_196"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(256, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="p53ov"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_225_384_196"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(384, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="5ui82"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_225_512_196"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(512, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="owoed"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_225_640_196"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(640, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="ajpdn"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_225_768_196"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(768, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="bst0c"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_225_896_196"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(896, 196, 128, 98)
 
-[sub_resource type="AtlasTexture" id="2hkk4"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_315_0_294"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(0, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="javp5"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_315_128_294"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(128, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="37twu"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_315_256_294"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(256, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="b1n05"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_315_384_294"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(384, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="njdt7"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_315_512_294"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(512, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="iavm2"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_315_640_294"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(640, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="x5rcd"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_315_768_294"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(768, 294, 128, 98)
 
-[sub_resource type="AtlasTexture" id="kgpdj"]
+[sub_resource type="AtlasTexture" id="toolmaker0_settlers_work_315_896_294"]
 atlas = ExtResource("toolmaker_settlers_as_toolmaker0_work")
 region = Rect2(896, 294, 128, 98)
 
+
 [resource]
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("nv0ji")
-}],
-"loop": true,
-"name": &"toolmaker0.settlers.idle.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("0wye6")
-}],
-"loop": true,
-"name": &"toolmaker0.settlers.idle.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("qyot1")
-}],
-"loop": true,
-"name": &"toolmaker0.settlers.idle.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("b0d3a")
-}],
-"loop": true,
-"name": &"toolmaker0.settlers.idle.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("c5uv5")
-}, {
-"duration": 1.0,
-"texture": SubResource("55qf8")
-}, {
-"duration": 1.0,
-"texture": SubResource("i2r6q")
-}, {
-"duration": 1.0,
-"texture": SubResource("g7we7")
-}, {
-"duration": 1.0,
-"texture": SubResource("dvrkc")
-}, {
-"duration": 1.0,
-"texture": SubResource("5xvy8")
-}, {
-"duration": 1.0,
-"texture": SubResource("fsq3r")
-}, {
-"duration": 1.0,
-"texture": SubResource("m8iq0")
-}],
-"loop": true,
-"name": &"toolmaker0.settlers.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("2ht3d")
-}, {
-"duration": 1.0,
-"texture": SubResource("uhc0f")
-}, {
-"duration": 1.0,
-"texture": SubResource("pcis0")
-}, {
-"duration": 1.0,
-"texture": SubResource("6lqcg")
-}, {
-"duration": 1.0,
-"texture": SubResource("7kkie")
-}, {
-"duration": 1.0,
-"texture": SubResource("8c2fi")
-}, {
-"duration": 1.0,
-"texture": SubResource("u5ydp")
-}, {
-"duration": 1.0,
-"texture": SubResource("jvx1d")
-}],
-"loop": true,
-"name": &"toolmaker0.settlers.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("oyqkb")
-}, {
-"duration": 1.0,
-"texture": SubResource("6gqbx")
-}, {
-"duration": 1.0,
-"texture": SubResource("ktfrx")
-}, {
-"duration": 1.0,
-"texture": SubResource("p53ov")
-}, {
-"duration": 1.0,
-"texture": SubResource("5ui82")
-}, {
-"duration": 1.0,
-"texture": SubResource("owoed")
-}, {
-"duration": 1.0,
-"texture": SubResource("ajpdn")
-}, {
-"duration": 1.0,
-"texture": SubResource("bst0c")
-}],
-"loop": true,
-"name": &"toolmaker0.settlers.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("2hkk4")
-}, {
-"duration": 1.0,
-"texture": SubResource("javp5")
-}, {
-"duration": 1.0,
-"texture": SubResource("37twu")
-}, {
-"duration": 1.0,
-"texture": SubResource("b1n05")
-}, {
-"duration": 1.0,
-"texture": SubResource("njdt7")
-}, {
-"duration": 1.0,
-"texture": SubResource("iavm2")
-}, {
-"duration": 1.0,
-"texture": SubResource("x5rcd")
-}, {
-"duration": 1.0,
-"texture": SubResource("kgpdj")
-}],
-"loop": true,
-"name": &"toolmaker0.settlers.work.315",
-"speed": 5.0
-}]
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_idle_045_0_0")
+      }],
+    "loop": true,
+    "name": &"toolmaker0.settlers.idle.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_idle_135_0_98")
+      }],
+    "loop": true,
+    "name": &"toolmaker0.settlers.idle.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_idle_225_0_196")
+      }],
+    "loop": true,
+    "name": &"toolmaker0.settlers.idle.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_idle_315_0_294")
+      }],
+    "loop": true,
+    "name": &"toolmaker0.settlers.idle.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_045_128_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_045_256_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_045_384_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_045_512_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_045_640_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_045_768_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_045_896_0")
+      }],
+    "loop": true,
+    "name": &"toolmaker0.settlers.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_135_0_98")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_135_128_98")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_135_256_98")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_135_384_98")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_135_512_98")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_135_640_98")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_135_768_98")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_135_896_98")
+      }],
+    "loop": true,
+    "name": &"toolmaker0.settlers.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_225_0_196")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_225_128_196")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_225_256_196")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_225_384_196")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_225_512_196")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_225_640_196")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_225_768_196")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_225_896_196")
+      }],
+    "loop": true,
+    "name": &"toolmaker0.settlers.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_315_0_294")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_315_128_294")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_315_256_294")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_315_384_294")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_315_512_294")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_315_640_294")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_315_768_294")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("toolmaker0_settlers_work_315_896_294")
+      }],
+    "loop": true,
+    "name": &"toolmaker0.settlers.work.315",
+    "speed": 5.0
+  }]

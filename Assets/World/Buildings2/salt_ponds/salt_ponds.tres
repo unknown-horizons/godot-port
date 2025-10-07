@@ -1,292 +1,313 @@
-[gd_resource type="SpriteFrames" load_steps=36 format=3 uid="uid://csaltpondstre"]
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbsaltpondstr"]
 
-[ext_resource type="Texture2D" uid="uid://brhcwx8eqipme" path="res://Assets/World/Buildings2/salt_ponds/salt_ponds_settlers_as_saltponds0_idle.png" id="salt_ponds_settlers_as_saltponds0_idle"]
-[ext_resource type="Texture2D" uid="uid://cul2tlgw8jolv" path="res://Assets/World/Buildings2/salt_ponds/salt_ponds_settlers_as_saltponds0_idle_full.png" id="salt_ponds_settlers_as_saltponds0_idle_full"]
-[ext_resource type="Texture2D" uid="uid://o7f3gkm3pl47" path="res://Assets/World/Buildings2/salt_ponds/salt_ponds_settlers_as_saltponds0_work.png" id="salt_ponds_settlers_as_saltponds0_work"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/salt_ponds/salt_ponds_settlers_as_saltponds0_idle.png" id="salt_ponds_settlers_as_saltponds0_idle"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/salt_ponds/salt_ponds_settlers_as_saltponds0_idle_full.png" id="salt_ponds_settlers_as_saltponds0_idle_full"]
+[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/salt_ponds/salt_ponds_settlers_as_saltponds0_work.png" id="salt_ponds_settlers_as_saltponds0_work"]
 
-[sub_resource type="AtlasTexture" id="06r65"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_idle_045_0_0"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_idle")
 region = Rect2(0, 0, 192, 128)
 
-[sub_resource type="AtlasTexture" id="th73y"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_idle_135_0_128"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_idle")
 region = Rect2(0, 128, 192, 192)
 
-[sub_resource type="AtlasTexture" id="x2po0"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_idle_225_0_320"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_idle")
 region = Rect2(0, 320, 192, 192)
 
-[sub_resource type="AtlasTexture" id="tngwr"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_idle_315_0_512"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_idle")
 region = Rect2(0, 512, 192, 192)
 
-[sub_resource type="AtlasTexture" id="gleky"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_idle_full_045_0_0"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_idle_full")
 region = Rect2(0, 0, 192, 128)
 
-[sub_resource type="AtlasTexture" id="bc27t"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_idle_full_135_0_128"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_idle_full")
 region = Rect2(0, 128, 192, 192)
 
-[sub_resource type="AtlasTexture" id="us1ds"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_idle_full_225_0_320"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_idle_full")
 region = Rect2(0, 320, 192, 192)
 
-[sub_resource type="AtlasTexture" id="1m7we"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_idle_full_315_0_512"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_idle_full")
 region = Rect2(0, 512, 192, 192)
 
-[sub_resource type="AtlasTexture" id="0bbl1"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_045_0_0"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(0, 0, 192, 192)
 
-[sub_resource type="AtlasTexture" id="x1djk"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_045_192_0"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(192, 0, 192, 192)
 
-[sub_resource type="AtlasTexture" id="mxle3"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_045_384_0"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(384, 0, 192, 192)
 
-[sub_resource type="AtlasTexture" id="2afe4"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_045_576_0"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(576, 0, 192, 192)
 
-[sub_resource type="AtlasTexture" id="48qyq"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_045_768_0"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(768, 0, 192, 192)
 
-[sub_resource type="AtlasTexture" id="yc7k1"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_045_960_0"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(960, 0, 192, 192)
 
-[sub_resource type="AtlasTexture" id="do2bu"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_135_0_192"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(0, 192, 192, 192)
 
-[sub_resource type="AtlasTexture" id="bxgpq"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_135_192_192"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(192, 192, 192, 192)
 
-[sub_resource type="AtlasTexture" id="g1mmg"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_135_384_192"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(384, 192, 192, 192)
 
-[sub_resource type="AtlasTexture" id="fptwa"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_135_576_192"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(576, 192, 192, 192)
 
-[sub_resource type="AtlasTexture" id="fg3j8"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_135_768_192"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(768, 192, 192, 192)
 
-[sub_resource type="AtlasTexture" id="i8mee"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_135_960_192"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(960, 192, 192, 192)
 
-[sub_resource type="AtlasTexture" id="gb5pe"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_225_0_384"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(0, 384, 192, 192)
 
-[sub_resource type="AtlasTexture" id="5kxgp"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_225_192_384"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(192, 384, 192, 192)
 
-[sub_resource type="AtlasTexture" id="fwgnm"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_225_384_384"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(384, 384, 192, 192)
 
-[sub_resource type="AtlasTexture" id="otwds"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_225_576_384"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(576, 384, 192, 192)
 
-[sub_resource type="AtlasTexture" id="3ptsa"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_225_768_384"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(768, 384, 192, 192)
 
-[sub_resource type="AtlasTexture" id="ng8lo"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_225_960_384"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(960, 384, 192, 192)
 
-[sub_resource type="AtlasTexture" id="tjxys"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_315_0_576"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(0, 576, 192, 192)
 
-[sub_resource type="AtlasTexture" id="tswfa"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_315_192_576"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(192, 576, 192, 192)
 
-[sub_resource type="AtlasTexture" id="kvoal"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_315_384_576"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(384, 576, 192, 192)
 
-[sub_resource type="AtlasTexture" id="uv03g"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_315_576_576"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(576, 576, 192, 192)
 
-[sub_resource type="AtlasTexture" id="v2g6m"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_315_768_576"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(768, 576, 192, 192)
 
-[sub_resource type="AtlasTexture" id="a0x63"]
+[sub_resource type="AtlasTexture" id="saltponds0_settlers_work_315_960_576"]
 atlas = ExtResource("salt_ponds_settlers_as_saltponds0_work")
 region = Rect2(960, 576, 192, 192)
 
+
 [resource]
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("06r65")
-}],
-"loop": true,
-"name": &"saltponds0.settlers.idle.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("th73y")
-}],
-"loop": true,
-"name": &"saltponds0.settlers.idle.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("x2po0")
-}],
-"loop": true,
-"name": &"saltponds0.settlers.idle.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("tngwr")
-}],
-"loop": true,
-"name": &"saltponds0.settlers.idle.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("gleky")
-}],
-"loop": true,
-"name": &"saltponds0.settlers.idle_full.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("bc27t")
-}],
-"loop": true,
-"name": &"saltponds0.settlers.idle_full.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("us1ds")
-}],
-"loop": true,
-"name": &"saltponds0.settlers.idle_full.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("1m7we")
-}],
-"loop": true,
-"name": &"saltponds0.settlers.idle_full.315",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("0bbl1")
-}, {
-"duration": 1.0,
-"texture": SubResource("x1djk")
-}, {
-"duration": 1.0,
-"texture": SubResource("mxle3")
-}, {
-"duration": 1.0,
-"texture": SubResource("2afe4")
-}, {
-"duration": 1.0,
-"texture": SubResource("48qyq")
-}, {
-"duration": 1.0,
-"texture": SubResource("yc7k1")
-}],
-"loop": true,
-"name": &"saltponds0.settlers.work.045",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("do2bu")
-}, {
-"duration": 1.0,
-"texture": SubResource("bxgpq")
-}, {
-"duration": 1.0,
-"texture": SubResource("g1mmg")
-}, {
-"duration": 1.0,
-"texture": SubResource("fptwa")
-}, {
-"duration": 1.0,
-"texture": SubResource("fg3j8")
-}, {
-"duration": 1.0,
-"texture": SubResource("i8mee")
-}],
-"loop": true,
-"name": &"saltponds0.settlers.work.135",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("gb5pe")
-}, {
-"duration": 1.0,
-"texture": SubResource("5kxgp")
-}, {
-"duration": 1.0,
-"texture": SubResource("fwgnm")
-}, {
-"duration": 1.0,
-"texture": SubResource("otwds")
-}, {
-"duration": 1.0,
-"texture": SubResource("3ptsa")
-}, {
-"duration": 1.0,
-"texture": SubResource("ng8lo")
-}],
-"loop": true,
-"name": &"saltponds0.settlers.work.225",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("tjxys")
-}, {
-"duration": 1.0,
-"texture": SubResource("tswfa")
-}, {
-"duration": 1.0,
-"texture": SubResource("kvoal")
-}, {
-"duration": 1.0,
-"texture": SubResource("uv03g")
-}, {
-"duration": 1.0,
-"texture": SubResource("v2g6m")
-}, {
-"duration": 1.0,
-"texture": SubResource("a0x63")
-}],
-"loop": true,
-"name": &"saltponds0.settlers.work.315",
-"speed": 5.0
-}]
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_idle_045_0_0")
+      }],
+    "loop": true,
+    "name": &"saltponds0.settlers.idle.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_idle_135_0_128")
+      }],
+    "loop": true,
+    "name": &"saltponds0.settlers.idle.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_idle_225_0_320")
+      }],
+    "loop": true,
+    "name": &"saltponds0.settlers.idle.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_idle_315_0_512")
+      }],
+    "loop": true,
+    "name": &"saltponds0.settlers.idle.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_idle_full_045_0_0")
+      }],
+    "loop": true,
+    "name": &"saltponds0.settlers.idle_full.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_idle_full_135_0_128")
+      }],
+    "loop": true,
+    "name": &"saltponds0.settlers.idle_full.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_idle_full_225_0_320")
+      }],
+    "loop": true,
+    "name": &"saltponds0.settlers.idle_full.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_idle_full_315_0_512")
+      }],
+    "loop": true,
+    "name": &"saltponds0.settlers.idle_full.315",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_045_0_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_045_192_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_045_384_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_045_576_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_045_768_0")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_045_960_0")
+      }],
+    "loop": true,
+    "name": &"saltponds0.settlers.work.045",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_135_0_192")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_135_192_192")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_135_384_192")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_135_576_192")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_135_768_192")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_135_960_192")
+      }],
+    "loop": true,
+    "name": &"saltponds0.settlers.work.135",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_225_0_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_225_192_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_225_384_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_225_576_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_225_768_384")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_225_960_384")
+      }],
+    "loop": true,
+    "name": &"saltponds0.settlers.work.225",
+    "speed": 5.0
+  }, {
+    "frames": [{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_315_0_576")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_315_192_576")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_315_384_576")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_315_576_576")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_315_768_576")
+      },
+{
+        "duration": 1.0,
+        "texture": SubResource("saltponds0_settlers_work_315_960_576")
+      }],
+    "loop": true,
+    "name": &"saltponds0.settlers.work.315",
+    "speed": 5.0
+  }]
