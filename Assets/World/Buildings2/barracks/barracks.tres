@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbbarrackstre"]
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cbbarrackstre"]
 
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/barracks/barracks_settlers_as_barracks0_idle.png" id="barracks_settlers_as_barracks0_idle"]
+[ext_resource type="Texture2D" uid="uid://jbj3nat7cds5" path="res://Assets/World/Buildings2/barracks/barracks_settlers_as_barracks0_idle.png" id="barracks_settlers_as_barracks0_idle"]
 
 [sub_resource type="AtlasTexture" id="barracks0_settlers_idle_045_0_0"]
 atlas = ExtResource("barracks_settlers_as_barracks0_idle")
@@ -18,38 +18,37 @@ region = Rect2(0, 384, 192, 192)
 atlas = ExtResource("barracks_settlers_as_barracks0_idle")
 region = Rect2(0, 576, 192, 192)
 
-
 [resource]
 animations = [{
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("barracks0_settlers_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"barracks0.settlers.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("barracks0_settlers_idle_135_0_192")
-      }],
-    "loop": true,
-    "name": &"barracks0.settlers.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("barracks0_settlers_idle_225_0_384")
-      }],
-    "loop": true,
-    "name": &"barracks0.settlers.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("barracks0_settlers_idle_315_0_576")
-      }],
-    "loop": true,
-    "name": &"barracks0.settlers.idle.315",
-    "speed": 5.0
-  }]
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("barracks0_settlers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"barracks0.settlers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("barracks0_settlers_idle_135_0_192")
+}],
+"loop": true,
+"name": &"barracks0.settlers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("barracks0_settlers_idle_225_0_384")
+}],
+"loop": true,
+"name": &"barracks0.settlers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("barracks0_settlers_idle_315_0_576")
+}],
+"loop": true,
+"name": &"barracks0.settlers.idle.315",
+"speed": 5.0
+}]

@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbstonepittre"]
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cbstonepittre"]
 
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/stone_pit/stone_pit_citizens_as_stone_pit0_idle.png" id="stone_pit_citizens_as_stone_pit0_idle"]
+[ext_resource type="Texture2D" uid="uid://dddxb5jhalthw" path="res://Assets/World/Buildings2/stone_pit/stone_pit_citizens_as_stone_pit0_idle.png" id="stone_pit_citizens_as_stone_pit0_idle"]
 
 [sub_resource type="AtlasTexture" id="stone_pit0_citizens_idle_045_0_0"]
 atlas = ExtResource("stone_pit_citizens_as_stone_pit0_idle")
@@ -18,38 +18,37 @@ region = Rect2(0, 256, 192, 128)
 atlas = ExtResource("stone_pit_citizens_as_stone_pit0_idle")
 region = Rect2(0, 384, 192, 128)
 
-
 [resource]
 animations = [{
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("stone_pit0_citizens_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"stone_pit0.citizens.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("stone_pit0_citizens_idle_135_0_128")
-      }],
-    "loop": true,
-    "name": &"stone_pit0.citizens.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("stone_pit0_citizens_idle_225_0_256")
-      }],
-    "loop": true,
-    "name": &"stone_pit0.citizens.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("stone_pit0_citizens_idle_315_0_384")
-      }],
-    "loop": true,
-    "name": &"stone_pit0.citizens.idle.315",
-    "speed": 5.0
-  }]
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stone_pit0_citizens_idle_045_0_0")
+}],
+"loop": true,
+"name": &"stone_pit0.citizens.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stone_pit0_citizens_idle_135_0_128")
+}],
+"loop": true,
+"name": &"stone_pit0.citizens.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stone_pit0_citizens_idle_225_0_256")
+}],
+"loop": true,
+"name": &"stone_pit0.citizens.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stone_pit0_citizens_idle_315_0_384")
+}],
+"loop": true,
+"name": &"stone_pit0.citizens.idle.315",
+"speed": 5.0
+}]

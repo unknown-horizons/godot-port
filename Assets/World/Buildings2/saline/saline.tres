@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbsalinetres0"]
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cbsalinetres0"]
 
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/saline/saline_merchants_as_2x2_idle.png" id="saline_merchants_as_2x2_idle"]
+[ext_resource type="Texture2D" uid="uid://ddcbvssk3kuv6" path="res://Assets/World/Buildings2/saline/saline_merchants_as_2x2_idle.png" id="saline_merchants_as_2x2_idle"]
 
 [sub_resource type="AtlasTexture" id="2x2_merchants_idle_045_0_0"]
 atlas = ExtResource("saline_merchants_as_2x2_idle")
@@ -18,38 +18,37 @@ region = Rect2(0, 224, 128, 128)
 atlas = ExtResource("saline_merchants_as_2x2_idle")
 region = Rect2(0, 352, 128, 128)
 
-
 [resource]
 animations = [{
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("2x2_merchants_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"2x2.merchants.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("2x2_merchants_idle_135_0_96")
-      }],
-    "loop": true,
-    "name": &"2x2.merchants.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("2x2_merchants_idle_225_0_224")
-      }],
-    "loop": true,
-    "name": &"2x2.merchants.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("2x2_merchants_idle_315_0_352")
-      }],
-    "loop": true,
-    "name": &"2x2.merchants.idle.315",
-    "speed": 5.0
-  }]
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("2x2_merchants_idle_045_0_0")
+}],
+"loop": true,
+"name": &"2x2.merchants.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("2x2_merchants_idle_135_0_96")
+}],
+"loop": true,
+"name": &"2x2.merchants.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("2x2_merchants_idle_225_0_224")
+}],
+"loop": true,
+"name": &"2x2.merchants.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("2x2_merchants_idle_315_0_352")
+}],
+"loop": true,
+"name": &"2x2.merchants.idle.315",
+"speed": 5.0
+}]

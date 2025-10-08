@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbclaydepostr"]
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cbclaydepostr"]
 
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/clay_deposit/clay_deposit_nature_as_clay0_idle.png" id="clay_deposit_nature_as_clay0_idle"]
+[ext_resource type="Texture2D" uid="uid://ccwl6n75mjtyt" path="res://Assets/World/Buildings2/clay_deposit/clay_deposit_nature_as_clay0_idle.png" id="clay_deposit_nature_as_clay0_idle"]
 
 [sub_resource type="AtlasTexture" id="clay0_nature_idle_045_0_0"]
 atlas = ExtResource("clay_deposit_nature_as_clay0_idle")
@@ -18,38 +18,37 @@ region = Rect2(0, 320, 192, 192)
 atlas = ExtResource("clay_deposit_nature_as_clay0_idle")
 region = Rect2(0, 512, 192, 192)
 
-
 [resource]
 animations = [{
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("clay0_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"clay0.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("clay0_nature_idle_135_0_128")
-      }],
-    "loop": true,
-    "name": &"clay0.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("clay0_nature_idle_225_0_320")
-      }],
-    "loop": true,
-    "name": &"clay0.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("clay0_nature_idle_315_0_512")
-      }],
-    "loop": true,
-    "name": &"clay0.nature.idle.315",
-    "speed": 5.0
-  }]
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("clay0_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"clay0.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("clay0_nature_idle_135_0_128")
+}],
+"loop": true,
+"name": &"clay0.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("clay0_nature_idle_225_0_320")
+}],
+"loop": true,
+"name": &"clay0.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("clay0_nature_idle_315_0_512")
+}],
+"loop": true,
+"name": &"clay0.nature.idle.315",
+"speed": 5.0
+}]

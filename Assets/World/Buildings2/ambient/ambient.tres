@@ -1,20 +1,20 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbambienttres"]
+[gd_resource type="SpriteFrames" load_steps=76 format=3 uid="uid://cbambienttres"]
 
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom0_idle.png" id="ambient_nature_as_mushroom0_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom1_idle.png" id="ambient_nature_as_mushroom1_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom2_idle.png" id="ambient_nature_as_mushroom2_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom3_idle.png" id="ambient_nature_as_mushroom3_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom4_idle.png" id="ambient_nature_as_mushroom4_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom5_idle.png" id="ambient_nature_as_mushroom5_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_rock0_idle.png" id="ambient_nature_as_rock0_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_rock1_idle.png" id="ambient_nature_as_rock1_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_rock2_idle.png" id="ambient_nature_as_rock2_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_rock3_idle.png" id="ambient_nature_as_rock3_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_rock4_idle.png" id="ambient_nature_as_rock4_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_treestumps0_idle.png" id="ambient_nature_as_treestumps0_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_treestumps1_idle.png" id="ambient_nature_as_treestumps1_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_treestumps2_idle.png" id="ambient_nature_as_treestumps2_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_treestumps3_idle.png" id="ambient_nature_as_treestumps3_idle"]
+[ext_resource type="Texture2D" uid="uid://c0q8cyfbf24xp" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom0_idle.png" id="ambient_nature_as_mushroom0_idle"]
+[ext_resource type="Texture2D" uid="uid://ckfo4eeb676po" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom1_idle.png" id="ambient_nature_as_mushroom1_idle"]
+[ext_resource type="Texture2D" uid="uid://4ueu0vhcpb7r" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom2_idle.png" id="ambient_nature_as_mushroom2_idle"]
+[ext_resource type="Texture2D" uid="uid://chfcj2rhy5vfh" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom3_idle.png" id="ambient_nature_as_mushroom3_idle"]
+[ext_resource type="Texture2D" uid="uid://bu2qsguth0cua" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom4_idle.png" id="ambient_nature_as_mushroom4_idle"]
+[ext_resource type="Texture2D" uid="uid://cyxnibcio0o8q" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom5_idle.png" id="ambient_nature_as_mushroom5_idle"]
+[ext_resource type="Texture2D" uid="uid://3ikd3r317ep0" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_rock0_idle.png" id="ambient_nature_as_rock0_idle"]
+[ext_resource type="Texture2D" uid="uid://cp7a8jnaaunud" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_rock1_idle.png" id="ambient_nature_as_rock1_idle"]
+[ext_resource type="Texture2D" uid="uid://c4tqpeer2bqfp" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_rock2_idle.png" id="ambient_nature_as_rock2_idle"]
+[ext_resource type="Texture2D" uid="uid://cttuv7733gu0s" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_rock3_idle.png" id="ambient_nature_as_rock3_idle"]
+[ext_resource type="Texture2D" uid="uid://cf3aq0d5hlxd7" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_rock4_idle.png" id="ambient_nature_as_rock4_idle"]
+[ext_resource type="Texture2D" uid="uid://c1161ubyy32ql" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_treestumps0_idle.png" id="ambient_nature_as_treestumps0_idle"]
+[ext_resource type="Texture2D" uid="uid://buuippbp1wlbd" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_treestumps1_idle.png" id="ambient_nature_as_treestumps1_idle"]
+[ext_resource type="Texture2D" uid="uid://cveasbut8r3o1" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_treestumps2_idle.png" id="ambient_nature_as_treestumps2_idle"]
+[ext_resource type="Texture2D" uid="uid://dcalpd5nkglj8" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_treestumps3_idle.png" id="ambient_nature_as_treestumps3_idle"]
 
 [sub_resource type="AtlasTexture" id="mushroom0_nature_idle_045_0_0"]
 atlas = ExtResource("ambient_nature_as_mushroom0_idle")
@@ -256,486 +256,485 @@ region = Rect2(0, 128, 64, 64)
 atlas = ExtResource("ambient_nature_as_treestumps3_idle")
 region = Rect2(0, 192, 64, 64)
 
-
 [resource]
 animations = [{
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom0_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"mushroom0.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom0_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"mushroom0.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom0_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"mushroom0.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom0_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"mushroom0.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom1_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"mushroom1.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom1_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"mushroom1.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom1_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"mushroom1.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom1_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"mushroom1.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom2_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"mushroom2.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom2_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"mushroom2.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom2_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"mushroom2.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom2_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"mushroom2.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom3_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"mushroom3.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom3_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"mushroom3.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom3_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"mushroom3.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom3_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"mushroom3.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom4_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"mushroom4.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom4_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"mushroom4.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom4_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"mushroom4.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom4_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"mushroom4.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom5_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"mushroom5.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom5_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"mushroom5.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom5_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"mushroom5.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("mushroom5_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"mushroom5.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock0_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"rock0.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock0_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"rock0.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock0_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"rock0.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock0_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"rock0.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock1_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"rock1.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock1_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"rock1.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock1_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"rock1.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock1_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"rock1.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock2_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"rock2.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock2_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"rock2.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock2_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"rock2.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock2_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"rock2.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock3_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"rock3.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock3_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"rock3.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock3_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"rock3.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock3_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"rock3.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock4_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"rock4.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock4_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"rock4.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock4_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"rock4.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("rock4_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"rock4.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps0_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"treestumps0.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps0_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"treestumps0.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps0_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"treestumps0.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps0_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"treestumps0.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps1_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"treestumps1.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps1_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"treestumps1.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps1_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"treestumps1.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps1_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"treestumps1.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps2_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"treestumps2.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps2_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"treestumps2.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps2_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"treestumps2.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps2_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"treestumps2.nature.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps3_nature_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"treestumps3.nature.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps3_nature_idle_135_0_64")
-      }],
-    "loop": true,
-    "name": &"treestumps3.nature.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps3_nature_idle_225_0_128")
-      }],
-    "loop": true,
-    "name": &"treestumps3.nature.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("treestumps3_nature_idle_315_0_192")
-      }],
-    "loop": true,
-    "name": &"treestumps3.nature.idle.315",
-    "speed": 5.0
-  }]
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom0_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"mushroom0.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom0_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"mushroom0.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom0_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"mushroom0.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom0_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"mushroom0.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom1_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"mushroom1.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom1_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"mushroom1.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom1_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"mushroom1.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom1_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"mushroom1.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom2_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"mushroom2.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom2_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"mushroom2.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom2_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"mushroom2.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom2_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"mushroom2.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom3_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"mushroom3.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom3_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"mushroom3.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom3_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"mushroom3.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom3_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"mushroom3.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom4_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"mushroom4.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom4_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"mushroom4.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom4_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"mushroom4.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom4_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"mushroom4.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom5_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"mushroom5.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom5_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"mushroom5.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom5_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"mushroom5.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mushroom5_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"mushroom5.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock0_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"rock0.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock0_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"rock0.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock0_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"rock0.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock0_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"rock0.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock1_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"rock1.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock1_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"rock1.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock1_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"rock1.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock1_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"rock1.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock2_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"rock2.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock2_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"rock2.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock2_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"rock2.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock2_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"rock2.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock3_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"rock3.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock3_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"rock3.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock3_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"rock3.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock3_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"rock3.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock4_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"rock4.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock4_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"rock4.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock4_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"rock4.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("rock4_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"rock4.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps0_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"treestumps0.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps0_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"treestumps0.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps0_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"treestumps0.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps0_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"treestumps0.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps1_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"treestumps1.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps1_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"treestumps1.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps1_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"treestumps1.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps1_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"treestumps1.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps2_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"treestumps2.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps2_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"treestumps2.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps2_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"treestumps2.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps2_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"treestumps2.nature.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps3_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"treestumps3.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps3_nature_idle_135_0_64")
+}],
+"loop": true,
+"name": &"treestumps3.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps3_nature_idle_225_0_128")
+}],
+"loop": true,
+"name": &"treestumps3.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("treestumps3_nature_idle_315_0_192")
+}],
+"loop": true,
+"name": &"treestumps3.nature.idle.315",
+"speed": 5.0
+}]
