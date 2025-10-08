@@ -1,6 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbboatbuildtr"]
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cbboatbuildtr"]
 
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/boat_builder/boat_builder_pioneers_as_boat_builder0_idle.png" id="boat_builder_pioneers_as_boat_builder0_idle"]
+[ext_resource type="Texture2D" uid="uid://db3pmrs2l68uu" path="res://Assets/World/Buildings2/boat_builder/boat_builder_pioneers_as_boat_builder0_idle.png" id="boat_builder_pioneers_as_boat_builder0_idle"]
 
 [sub_resource type="AtlasTexture" id="boat_builder0_pioneers_idle_045_0_0"]
 atlas = ExtResource("boat_builder_pioneers_as_boat_builder0_idle")
@@ -18,38 +18,37 @@ region = Rect2(0, 320, 192, 192)
 atlas = ExtResource("boat_builder_pioneers_as_boat_builder0_idle")
 region = Rect2(0, 512, 192, 192)
 
-
 [resource]
 animations = [{
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("boat_builder0_pioneers_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"boat_builder0.pioneers.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("boat_builder0_pioneers_idle_135_0_128")
-      }],
-    "loop": true,
-    "name": &"boat_builder0.pioneers.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("boat_builder0_pioneers_idle_225_0_320")
-      }],
-    "loop": true,
-    "name": &"boat_builder0.pioneers.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("boat_builder0_pioneers_idle_315_0_512")
-      }],
-    "loop": true,
-    "name": &"boat_builder0.pioneers.idle.315",
-    "speed": 5.0
-  }]
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("boat_builder0_pioneers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"boat_builder0.pioneers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("boat_builder0_pioneers_idle_135_0_128")
+}],
+"loop": true,
+"name": &"boat_builder0.pioneers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("boat_builder0_pioneers_idle_225_0_320")
+}],
+"loop": true,
+"name": &"boat_builder0.pioneers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("boat_builder0_pioneers_idle_315_0_512")
+}],
+"loop": true,
+"name": &"boat_builder0.pioneers.idle.315",
+"speed": 5.0
+}]

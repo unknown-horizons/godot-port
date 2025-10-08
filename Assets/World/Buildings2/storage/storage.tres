@@ -1,7 +1,7 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbstoragetres"]
+[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://cbstoragetres"]
 
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/storage/storage_pioneers_as_storagetent1_idle.png" id="storage_pioneers_as_storagetent1_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/storage/storage_sailors_as_storagetent0_idle.png" id="storage_sailors_as_storagetent0_idle"]
+[ext_resource type="Texture2D" uid="uid://chacnjwrra1gh" path="res://Assets/World/Buildings2/storage/storage_pioneers_as_storagetent1_idle.png" id="storage_pioneers_as_storagetent1_idle"]
+[ext_resource type="Texture2D" uid="uid://cnoa5mtlknaim" path="res://Assets/World/Buildings2/storage/storage_sailors_as_storagetent0_idle.png" id="storage_sailors_as_storagetent0_idle"]
 
 [sub_resource type="AtlasTexture" id="storagetent0_sailors_idle_045_0_0"]
 atlas = ExtResource("storage_sailors_as_storagetent0_idle")
@@ -35,70 +35,69 @@ region = Rect2(0, 256, 128, 128)
 atlas = ExtResource("storage_pioneers_as_storagetent1_idle")
 region = Rect2(0, 384, 128, 128)
 
-
 [resource]
 animations = [{
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("storagetent0_sailors_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"storagetent0.sailors.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("storagetent0_sailors_idle_135_0_96")
-      }],
-    "loop": true,
-    "name": &"storagetent0.sailors.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("storagetent0_sailors_idle_225_0_224")
-      }],
-    "loop": true,
-    "name": &"storagetent0.sailors.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("storagetent0_sailors_idle_315_0_352")
-      }],
-    "loop": true,
-    "name": &"storagetent0.sailors.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("storagetent1_pioneers_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"storagetent1.pioneers.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("storagetent1_pioneers_idle_135_0_128")
-      }],
-    "loop": true,
-    "name": &"storagetent1.pioneers.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("storagetent1_pioneers_idle_225_0_256")
-      }],
-    "loop": true,
-    "name": &"storagetent1.pioneers.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("storagetent1_pioneers_idle_315_0_384")
-      }],
-    "loop": true,
-    "name": &"storagetent1.pioneers.idle.315",
-    "speed": 5.0
-  }]
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("storagetent0_sailors_idle_045_0_0")
+}],
+"loop": true,
+"name": &"storagetent0.sailors.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("storagetent0_sailors_idle_135_0_96")
+}],
+"loop": true,
+"name": &"storagetent0.sailors.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("storagetent0_sailors_idle_225_0_224")
+}],
+"loop": true,
+"name": &"storagetent0.sailors.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("storagetent0_sailors_idle_315_0_352")
+}],
+"loop": true,
+"name": &"storagetent0.sailors.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("storagetent1_pioneers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"storagetent1.pioneers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("storagetent1_pioneers_idle_135_0_128")
+}],
+"loop": true,
+"name": &"storagetent1.pioneers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("storagetent1_pioneers_idle_225_0_256")
+}],
+"loop": true,
+"name": &"storagetent1.pioneers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("storagetent1_pioneers_idle_315_0_384")
+}],
+"loop": true,
+"name": &"storagetent1.pioneers.idle.315",
+"speed": 5.0
+}]

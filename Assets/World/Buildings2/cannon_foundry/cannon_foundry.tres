@@ -1,8 +1,8 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbcannonfoutr"]
+[gd_resource type="SpriteFrames" load_steps=572 format=3 uid="uid://cbcannonfoutr"]
 
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/cannon_foundry/cannon_foundry_citizens_as_cannonfoundry_idle.png" id="cannon_foundry_citizens_as_cannonfoundry_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/cannon_foundry/cannon_foundry_citizens_as_cannonfoundry_idle_full.png" id="cannon_foundry_citizens_as_cannonfoundry_idle_full"]
-[ext_resource type="Texture2D" path="res://Assets/World/Buildings2/cannon_foundry/cannon_foundry_citizens_as_cannonfoundry_work.png" id="cannon_foundry_citizens_as_cannonfoundry_work"]
+[ext_resource type="Texture2D" uid="uid://cyi4k48bf3ltw" path="res://Assets/World/Buildings2/cannon_foundry/cannon_foundry_citizens_as_cannonfoundry_idle.png" id="cannon_foundry_citizens_as_cannonfoundry_idle"]
+[ext_resource type="Texture2D" uid="uid://dcfrm6uvjsu6q" path="res://Assets/World/Buildings2/cannon_foundry/cannon_foundry_citizens_as_cannonfoundry_idle_full.png" id="cannon_foundry_citizens_as_cannonfoundry_idle_full"]
+[ext_resource type="Texture2D" uid="uid://cen30haq27pa" path="res://Assets/World/Buildings2/cannon_foundry/cannon_foundry_citizens_as_cannonfoundry_work.png" id="cannon_foundry_citizens_as_cannonfoundry_work"]
 
 [sub_resource type="AtlasTexture" id="cannonfoundry_citizens_idle_045_0_0"]
 atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_idle")
@@ -2276,2326 +2276,1769 @@ region = Rect2(26496, 576, 192, 192)
 atlas = ExtResource("cannon_foundry_citizens_as_cannonfoundry_work")
 region = Rect2(26688, 576, 192, 192)
 
-
 [resource]
 animations = [{
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"cannonfoundry.citizens.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_idle_135_0_192")
-      }],
-    "loop": true,
-    "name": &"cannonfoundry.citizens.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_idle_225_0_384")
-      }],
-    "loop": true,
-    "name": &"cannonfoundry.citizens.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_idle_315_0_576")
-      }],
-    "loop": true,
-    "name": &"cannonfoundry.citizens.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_idle_full_045_0_0")
-      }],
-    "loop": true,
-    "name": &"cannonfoundry.citizens.idle_full.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_idle_full_135_0_192")
-      }],
-    "loop": true,
-    "name": &"cannonfoundry.citizens.idle_full.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_idle_full_225_0_384")
-      }],
-    "loop": true,
-    "name": &"cannonfoundry.citizens.idle_full.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_idle_full_315_0_576")
-      }],
-    "loop": true,
-    "name": &"cannonfoundry.citizens.idle_full.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_0_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_192_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_384_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_576_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_768_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_960_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_1152_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_1344_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_1536_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_1728_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_1920_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_2112_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_2304_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_2496_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_2688_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_2880_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_3072_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_3264_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_3456_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_3648_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_3840_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_4032_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_4224_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_4416_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_4608_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_4800_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_4992_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_5184_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_5376_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_5568_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_5760_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_5952_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_6144_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_6336_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_6528_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_6720_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_6912_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_7104_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_7296_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_7488_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_7680_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_7872_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_8064_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_8256_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_8448_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_8640_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_8832_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_9024_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_9216_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_9408_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_9600_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_9792_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_9984_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_10176_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_10368_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_10560_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_10752_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_10944_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_11136_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_11328_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_11520_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_11712_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_11904_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_12096_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_12288_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_12480_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_12672_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_12864_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_13056_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_13248_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_13440_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_13632_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_13824_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_14016_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_14208_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_14400_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_14592_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_14784_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_14976_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_15168_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_15360_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_15552_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_15744_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_15936_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_16128_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_16320_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_16512_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_16704_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_16896_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_17088_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_17280_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_17472_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_17664_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_17856_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_18048_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_18240_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_18432_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_18624_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_18816_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_19008_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_19200_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_19392_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_19584_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_19776_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_19968_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_20160_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_20352_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_20544_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_20736_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_20928_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_21120_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_21312_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_21504_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_21696_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_21888_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_22080_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_22272_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_22464_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_22656_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_22848_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_23040_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_23232_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_23424_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_23616_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_23808_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_24000_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_24192_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_24384_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_24576_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_24768_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_24960_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_25152_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_25344_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_25536_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_25728_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_25920_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_26112_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_26304_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_26496_0")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_045_26688_0")
-      }],
-    "loop": true,
-    "name": &"cannonfoundry.citizens.work.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_0_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_192_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_384_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_576_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_768_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_960_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_1152_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_1344_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_1536_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_1728_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_1920_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_2112_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_2304_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_2496_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_2688_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_2880_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_3072_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_3264_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_3456_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_3648_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_3840_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_4032_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_4224_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_4416_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_4608_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_4800_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_4992_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_5184_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_5376_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_5568_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_5760_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_5952_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_6144_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_6336_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_6528_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_6720_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_6912_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_7104_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_7296_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_7488_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_7680_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_7872_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_8064_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_8256_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_8448_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_8640_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_8832_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_9024_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_9216_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_9408_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_9600_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_9792_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_9984_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_10176_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_10368_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_10560_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_10752_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_10944_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_11136_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_11328_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_11520_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_11712_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_11904_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_12096_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_12288_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_12480_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_12672_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_12864_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_13056_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_13248_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_13440_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_13632_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_13824_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_14016_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_14208_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_14400_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_14592_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_14784_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_14976_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_15168_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_15360_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_15552_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_15744_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_15936_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_16128_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_16320_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_16512_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_16704_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_16896_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_17088_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_17280_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_17472_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_17664_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_17856_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_18048_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_18240_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_18432_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_18624_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_18816_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_19008_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_19200_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_19392_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_19584_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_19776_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_19968_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_20160_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_20352_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_20544_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_20736_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_20928_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_21120_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_21312_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_21504_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_21696_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_21888_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_22080_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_22272_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_22464_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_22656_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_22848_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_23040_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_23232_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_23424_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_23616_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_23808_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_24000_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_24192_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_24384_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_24576_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_24768_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_24960_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_25152_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_25344_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_25536_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_25728_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_25920_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_26112_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_26304_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_26496_192")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_135_26688_192")
-      }],
-    "loop": true,
-    "name": &"cannonfoundry.citizens.work.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_0_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_192_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_384_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_576_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_768_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_960_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_1152_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_1344_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_1536_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_1728_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_1920_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_2112_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_2304_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_2496_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_2688_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_2880_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_3072_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_3264_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_3456_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_3648_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_3840_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_4032_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_4224_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_4416_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_4608_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_4800_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_4992_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_5184_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_5376_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_5568_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_5760_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_5952_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_6144_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_6336_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_6528_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_6720_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_6912_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_7104_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_7296_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_7488_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_7680_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_7872_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_8064_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_8256_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_8448_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_8640_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_8832_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_9024_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_9216_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_9408_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_9600_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_9792_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_9984_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_10176_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_10368_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_10560_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_10752_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_10944_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_11136_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_11328_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_11520_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_11712_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_11904_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_12096_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_12288_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_12480_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_12672_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_12864_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_13056_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_13248_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_13440_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_13632_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_13824_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_14016_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_14208_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_14400_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_14592_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_14784_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_14976_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_15168_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_15360_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_15552_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_15744_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_15936_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_16128_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_16320_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_16512_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_16704_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_16896_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_17088_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_17280_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_17472_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_17664_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_17856_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_18048_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_18240_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_18432_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_18624_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_18816_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_19008_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_19200_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_19392_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_19584_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_19776_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_19968_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_20160_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_20352_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_20544_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_20736_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_20928_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_21120_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_21312_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_21504_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_21696_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_21888_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_22080_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_22272_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_22464_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_22656_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_22848_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_23040_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_23232_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_23424_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_23616_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_23808_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_24000_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_24192_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_24384_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_24576_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_24768_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_24960_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_25152_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_25344_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_25536_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_25728_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_25920_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_26112_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_26304_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_26496_384")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_225_26688_384")
-      }],
-    "loop": true,
-    "name": &"cannonfoundry.citizens.work.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_0_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_192_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_384_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_576_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_768_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_960_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_1152_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_1344_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_1536_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_1728_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_1920_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_2112_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_2304_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_2496_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_2688_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_2880_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_3072_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_3264_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_3456_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_3648_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_3840_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_4032_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_4224_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_4416_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_4608_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_4800_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_4992_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_5184_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_5376_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_5568_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_5760_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_5952_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_6144_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_6336_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_6528_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_6720_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_6912_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_7104_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_7296_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_7488_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_7680_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_7872_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_8064_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_8256_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_8448_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_8640_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_8832_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_9024_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_9216_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_9408_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_9600_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_9792_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_9984_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_10176_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_10368_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_10560_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_10752_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_10944_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_11136_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_11328_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_11520_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_11712_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_11904_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_12096_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_12288_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_12480_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_12672_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_12864_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_13056_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_13248_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_13440_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_13632_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_13824_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_14016_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_14208_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_14400_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_14592_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_14784_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_14976_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_15168_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_15360_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_15552_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_15744_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_15936_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_16128_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_16320_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_16512_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_16704_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_16896_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_17088_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_17280_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_17472_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_17664_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_17856_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_18048_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_18240_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_18432_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_18624_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_18816_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_19008_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_19200_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_19392_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_19584_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_19776_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_19968_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_20160_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_20352_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_20544_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_20736_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_20928_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_21120_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_21312_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_21504_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_21696_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_21888_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_22080_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_22272_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_22464_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_22656_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_22848_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_23040_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_23232_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_23424_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_23616_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_23808_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_24000_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_24192_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_24384_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_24576_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_24768_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_24960_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_25152_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_25344_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_25536_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_25728_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_25920_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_26112_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_26304_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_26496_576")
-      },
-{
-        "duration": 1.0,
-        "texture": SubResource("cannonfoundry_citizens_work_315_26688_576")
-      }],
-    "loop": true,
-    "name": &"cannonfoundry.citizens.work.315",
-    "speed": 5.0
-  }]
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_idle_045_0_0")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_idle_135_0_192")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_idle_225_0_384")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_idle_315_0_576")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_idle_full_045_0_0")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle_full.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_idle_full_135_0_192")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle_full.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_idle_full_225_0_384")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle_full.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_idle_full_315_0_576")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.idle_full.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_192_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_384_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_576_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_768_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_960_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_1152_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_1344_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_1536_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_1728_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_1920_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_2112_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_2304_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_2496_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_2688_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_2880_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_3072_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_3264_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_3456_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_3648_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_3840_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_4032_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_4224_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_4416_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_4608_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_4800_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_4992_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_5184_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_5376_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_5568_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_5760_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_5952_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_6144_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_6336_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_6528_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_6720_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_6912_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_7104_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_7296_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_7488_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_7680_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_7872_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_8064_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_8256_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_8448_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_8640_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_8832_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_9024_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_9216_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_9408_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_9600_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_9792_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_9984_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_10176_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_10368_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_10560_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_10752_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_10944_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_11136_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_11328_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_11520_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_11712_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_11904_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_12096_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_12288_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_12480_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_12672_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_12864_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_13056_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_13248_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_13440_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_13632_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_13824_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_14016_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_14208_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_14400_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_14592_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_14784_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_14976_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_15168_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_15360_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_15552_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_15744_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_15936_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_16128_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_16320_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_16512_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_16704_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_16896_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_17088_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_17280_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_17472_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_17664_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_17856_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_18048_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_18240_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_18432_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_18624_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_18816_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_19008_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_19200_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_19392_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_19584_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_19776_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_19968_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_20160_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_20352_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_20544_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_20736_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_20928_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_21120_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_21312_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_21504_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_21696_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_21888_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_22080_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_22272_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_22464_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_22656_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_22848_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_23040_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_23232_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_23424_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_23616_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_23808_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_24000_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_24192_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_24384_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_24576_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_24768_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_24960_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_25152_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_25344_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_25536_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_25728_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_25920_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_26112_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_26304_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_26496_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_045_26688_0")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_0_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_192_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_384_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_576_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_768_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_960_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_1152_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_1344_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_1536_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_1728_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_1920_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_2112_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_2304_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_2496_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_2688_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_2880_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_3072_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_3264_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_3456_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_3648_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_3840_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_4032_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_4224_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_4416_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_4608_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_4800_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_4992_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_5184_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_5376_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_5568_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_5760_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_5952_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_6144_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_6336_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_6528_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_6720_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_6912_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_7104_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_7296_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_7488_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_7680_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_7872_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_8064_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_8256_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_8448_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_8640_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_8832_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_9024_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_9216_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_9408_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_9600_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_9792_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_9984_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_10176_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_10368_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_10560_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_10752_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_10944_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_11136_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_11328_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_11520_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_11712_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_11904_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_12096_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_12288_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_12480_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_12672_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_12864_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_13056_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_13248_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_13440_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_13632_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_13824_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_14016_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_14208_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_14400_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_14592_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_14784_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_14976_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_15168_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_15360_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_15552_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_15744_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_15936_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_16128_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_16320_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_16512_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_16704_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_16896_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_17088_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_17280_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_17472_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_17664_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_17856_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_18048_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_18240_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_18432_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_18624_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_18816_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_19008_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_19200_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_19392_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_19584_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_19776_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_19968_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_20160_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_20352_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_20544_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_20736_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_20928_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_21120_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_21312_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_21504_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_21696_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_21888_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_22080_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_22272_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_22464_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_22656_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_22848_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_23040_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_23232_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_23424_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_23616_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_23808_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_24000_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_24192_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_24384_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_24576_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_24768_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_24960_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_25152_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_25344_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_25536_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_25728_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_25920_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_26112_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_26304_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_26496_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_135_26688_192")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_0_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_192_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_384_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_576_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_768_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_960_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_1152_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_1344_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_1536_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_1728_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_1920_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_2112_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_2304_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_2496_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_2688_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_2880_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_3072_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_3264_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_3456_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_3648_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_3840_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_4032_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_4224_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_4416_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_4608_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_4800_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_4992_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_5184_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_5376_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_5568_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_5760_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_5952_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_6144_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_6336_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_6528_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_6720_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_6912_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_7104_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_7296_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_7488_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_7680_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_7872_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_8064_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_8256_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_8448_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_8640_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_8832_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_9024_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_9216_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_9408_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_9600_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_9792_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_9984_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_10176_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_10368_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_10560_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_10752_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_10944_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_11136_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_11328_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_11520_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_11712_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_11904_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_12096_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_12288_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_12480_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_12672_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_12864_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_13056_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_13248_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_13440_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_13632_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_13824_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_14016_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_14208_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_14400_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_14592_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_14784_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_14976_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_15168_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_15360_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_15552_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_15744_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_15936_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_16128_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_16320_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_16512_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_16704_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_16896_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_17088_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_17280_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_17472_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_17664_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_17856_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_18048_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_18240_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_18432_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_18624_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_18816_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_19008_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_19200_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_19392_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_19584_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_19776_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_19968_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_20160_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_20352_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_20544_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_20736_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_20928_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_21120_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_21312_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_21504_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_21696_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_21888_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_22080_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_22272_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_22464_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_22656_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_22848_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_23040_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_23232_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_23424_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_23616_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_23808_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_24000_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_24192_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_24384_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_24576_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_24768_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_24960_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_25152_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_25344_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_25536_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_25728_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_25920_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_26112_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_26304_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_26496_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_225_26688_384")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_0_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_192_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_384_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_576_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_768_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_960_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_1152_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_1344_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_1536_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_1728_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_1920_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_2112_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_2304_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_2496_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_2688_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_2880_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_3072_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_3264_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_3456_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_3648_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_3840_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_4032_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_4224_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_4416_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_4608_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_4800_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_4992_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_5184_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_5376_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_5568_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_5760_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_5952_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_6144_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_6336_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_6528_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_6720_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_6912_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_7104_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_7296_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_7488_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_7680_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_7872_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_8064_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_8256_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_8448_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_8640_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_8832_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_9024_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_9216_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_9408_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_9600_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_9792_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_9984_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_10176_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_10368_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_10560_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_10752_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_10944_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_11136_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_11328_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_11520_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_11712_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_11904_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_12096_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_12288_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_12480_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_12672_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_12864_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_13056_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_13248_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_13440_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_13632_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_13824_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_14016_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_14208_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_14400_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_14592_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_14784_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_14976_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_15168_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_15360_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_15552_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_15744_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_15936_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_16128_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_16320_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_16512_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_16704_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_16896_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_17088_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_17280_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_17472_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_17664_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_17856_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_18048_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_18240_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_18432_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_18624_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_18816_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_19008_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_19200_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_19392_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_19584_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_19776_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_19968_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_20160_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_20352_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_20544_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_20736_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_20928_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_21120_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_21312_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_21504_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_21696_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_21888_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_22080_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_22272_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_22464_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_22656_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_22848_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_23040_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_23232_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_23424_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_23616_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_23808_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_24000_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_24192_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_24384_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_24576_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_24768_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_24960_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_25152_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_25344_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_25536_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_25728_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_25920_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_26112_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_26304_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_26496_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("cannonfoundry_citizens_work_315_26688_576")
+}],
+"loop": true,
+"name": &"cannonfoundry.citizens.work.315",
+"speed": 5.0
+}]
