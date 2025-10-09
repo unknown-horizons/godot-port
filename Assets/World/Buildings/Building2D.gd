@@ -6,8 +6,16 @@ class_name Building2D
 
 @export var id: StringName = &"Building"
 
-@export var baseclass: String  # TODO: not used yet
-@export var radius: int        # TODO: not used yet
+@export var baseclass: String       # TODO: not used yet
+@export var radius: int             # TODO: not used yet
+@export var cost: int               # TODO: not used yet
+@export var cost_inactive: int      # TODO: not used yet
+@export var size: Vector2i = Vector2i(1, 1)
+@export var inhabitants: int        # TODO: not used yet
+@export var tooltip_text: String    # TODO: not used yet
+@export var tier: String            # TODO: not used yet
+# buildingcosts - in BuildingConfig.gd
+@export var show_status_icons: bool # TODO: not used yet
 
 ## is building paused
 var paused: bool = true:
@@ -45,19 +53,17 @@ func setup_components() -> void:
     component.set_components(components)
 
 func is_resource_available(resource: StringName) -> bool:
-  var slot_storage: SlotStorageComponent = null
-
   for component in self.get_children():
-    var production_line: ProductionLineComponent = component as ProductionLineComponent
+    var production_line := component as ProductionLineComponent
     if production_line != null:
-      if production_line.produces.has(resource) == false:
-        return false
-    if component is SlotStorageComponent:
-      slot_storage = component
-  
-  if slot_storage == null:
-    return false
-  return slot_storage.storage.get(resource) > 0
+      if production_line.consumes.has(resource) == true:
+        return false # if the building consumes the resource, do not take that resource from the building
+    var storage_component := component as StorageComponent
+    if storage_component != null:
+      if storage_component.get_storage_item_amount(resource) > 0:
+        return true # found in at least one of the storages
+
+  return false
 
 func get_needed_resources() -> Array[StringName]:
   var production_lines: Array[ProductionLineComponent] = []

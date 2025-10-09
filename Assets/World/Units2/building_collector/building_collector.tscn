@@ -4,21 +4,19 @@
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
 [ext_resource type="SpriteFrames" uid="uid://cubuildingctr" path="res://Assets/World/Units2/building_collector/building_collector.tres" id="4_sprite_frames"]
-[ext_resource type="PackedScene" uid="uid://kv52rh351xud" path="res://Assets/World/Components/AmbientSoundComponent/AmbientSoundComponent.tscn" id="3_ambient_sound_component"]
 [ext_resource type="PackedScene" uid="uid://b3hix4pdlnumi" path="res://Assets/World/Components/Storages/SizedStorageComponent/SizedStorageComponent.tscn" id="5_sized_storage_component"]
-[ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
-[ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
-[ext_resource type="PackedScene" uid="uid://dyqwsks6v6puj" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.tscn" id="7_building_collector_component"]
+[ext_resource type="PackedScene" uid="uid://unr7kegy5cn4" path="res://Assets/World/Components/MoveByCell/MoveByCellComponent.tscn" id="10_move_by_cell_component"]
 
 [node name="BuildingCollector" type="Node2D"]
 script = ExtResource("1_script_gd")
-baseclass = "BuildingCollector"
+baseclass = "collectors.BuildingCollector"
 radius = 5
-velocity= 12.0
+velocity = 12.0
 
 [node name="SizedStorageComponent" parent="." instance=ExtResource("5_sized_storage_component")]
 limit = 8
 
+[node name="MoveByCellComponent" parent="." instance=ExtResource("10_move_by_cell_component")]
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")
