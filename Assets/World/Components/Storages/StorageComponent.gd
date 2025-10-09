@@ -16,3 +16,6 @@ signal storage_changed
 func set_storage_item_amount(resource: StringName, new_amount: int):
   storage[resource] = max(new_amount, 0)
   storage_changed.emit()
+
+func get_storage_item_amount(resource: StringName) -> int:
+  return self.storage.get(resource, 0)

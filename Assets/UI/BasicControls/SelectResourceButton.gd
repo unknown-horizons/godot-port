@@ -12,7 +12,7 @@ func _process(_delta):
         self.resource_amount = resource_amount
       else:
         self.resource_amount = 0
-      var warehouse_poses = built_tilemap.building_name_to_building_poses.get("warehouse")
-      if warehouse_poses != null and len(warehouse_poses) > 0:
-        var warehouse = built_tilemap.building_position_to_building.get(warehouse_poses[0])
+      var warehouses_cells = built_tilemap.building_name_to_cell_coords.get("warehouse", [])
+      if len(warehouses_cells) > 0:
+        var warehouse = built_tilemap.building_position_to_building.get(warehouses_cells[0])
         self.limit = warehouse.storage_capacity

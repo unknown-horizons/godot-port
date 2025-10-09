@@ -8,6 +8,7 @@ var resources: Dictionary[StringName, int] = {
   ResourceConfig.Resources.GOLD: 100000,
   ResourceConfig.Resources.TOOLS: 1000,
   ResourceConfig.Resources.BOARDS: 100,
+  ResourceConfig.Resources.FLOUR: 100,
 } # resource_name to count
 
 signal resources_changed

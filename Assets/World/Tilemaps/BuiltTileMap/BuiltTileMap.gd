@@ -5,12 +5,12 @@ class_name BuiltTileMap
 const is_tree: String = "is_tree"
 const is_road: String = "is_road"
 
-var building_name_to_building_poses: Dictionary[String, Array] = {}
-var building_position_to_building: Dictionary[Vector2, Building2D] = {}
+var building_name_to_cell_coords: Dictionary[String, Array] = {} # Dictionary[String, Array[Vector2i]] = {}. Nested types are not supported in Godot 4.5
+var building_position_to_building: Dictionary[Vector2i, Building2D] = {}
 var trees_getting_choped: Dictionary = {}
 
 ## emited when new buildings were built, usually one building at a time
-signal buildings_built(building: Array[Building2D])
+signal buildings_built(building: Building2D, cells: Array[Vector2i])
 
 func is_movable_on(cell: Vector2i) -> bool:
   var tile_data: TileData = self.get_cell_tile_data(cell)
@@ -33,20 +33,21 @@ func get_trees(in_grid: bool = true) -> Array[Vector2]:
 
 func register_building(building: Building2D) -> void:
   # register building to building poses
-  building_position_to_building[building.global_position] = building
-  # register building pos into building array
-  var building_poses = building_name_to_building_poses.get(building.id, [])
-  if building_poses != null:
-    building_poses.append(building.global_position)
-  else:
-    building_name_to_building_poses[building.id] = [building.position]
-  # set points for pathfinding
-  %Pathfinding.road_pathfinding.set_point_solid(self.local_to_map(building.position), false)
-  var road_building_context = %GameContextManager.get_node("BuildingRoadContext")
-  road_building_context.road_building_pathfindng.set_point_solid(self.local_to_map(building.position), true)
+  var building_all_cell_coords = building_name_to_cell_coords.get(building.id, [])
+  var building_tile_coords = self.local_to_map(building.position)
+  var new_building_cells: Array[Vector2i] = []
+  for dx in range(building.size.x):
+    for dy in range(building.size.y):
+      var building_cell_tile_coords = building_tile_coords + Vector2i(dx, dy)
+      new_building_cells.append(building_cell_tile_coords)
+      building_position_to_building[building_cell_tile_coords] = building
+      building_all_cell_coords.append(building_cell_tile_coords)
+      %Pathfinding.road_pathfinding.set_point_solid(building_cell_tile_coords, false)
+      var road_building_context = %GameContextManager.get_node("BuildingRoadContext")
+      road_building_context.road_building_pathfindng.set_point_solid(building_cell_tile_coords, true)
   building.paused = false
   # handle notifications
-  buildings_built.emit([building] as Array[Building2D])
+  buildings_built.emit(building, new_building_cells)
 
 func _on_child_entered_tree(node: Node):
   if node is Building2D:

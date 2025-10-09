@@ -17,7 +17,7 @@ class_name BuildingCollectorComponent
 #@onready var action_set: CollectorActionSet = self.get_node("CollectorActionSet")
 @onready var parent_building: Building2D = self.get_parent()
 
-var path_to_warehouse: Array[Vector2] = []
+var path_to_warehouse: Array[Vector2i] = []
 
 var sized_storage: SizedStorageComponent = null
 var building_storage: SlotStorageComponent = null
@@ -54,7 +54,8 @@ func _ready():
 
   if self.built_tilemap != null:
     self.built_tilemap.buildings_built.connect(self.set_closest_warehouse)
-    self.set_closest_warehouse(built_tilemap.building_position_to_building.values())
+    for cell in self.built_tilemap.building_position_to_building: # TODO: Should be called once per building?
+      self.set_closest_warehouse(self.built_tilemap.building_position_to_building.get(cell), [cell])
 
 func set_components(components: Array[BaseComponent]):
   for component in components:
@@ -66,19 +67,21 @@ func set_components(components: Array[BaseComponent]):
   GameStats.game_stats_resource.resources_changed.connect(self.call_storage_changed)
   bring_resources_loop()
 
-func set_closest_warehouse(new_buildings: Array[Building2D]):
-  if built_tilemap == null: # if the built tilemap is null, then return null
+func set_closest_warehouse(building: Building2D, cells: Array[Vector2i]):
+  if built_tilemap == null:
     return
-  for building in new_buildings: # loop through the buildings
-    var warehouse: Warehouse2D = building as Warehouse2D
-    if warehouse: # if the building is a warehouse,
-      var path_to_current_warehouse = move_by_cell.pathfinding.get_path_to_dest(self.global_position, building.global_position) # get the path to the warehouse.
-      if path_to_current_warehouse == null:
-        continue
-      if (self.path_to_warehouse == [] or len(path_to_current_warehouse) < len(path_to_warehouse)) and path_to_current_warehouse != null: # if the warehouse is closer than the last closest warehouse,
-        self.path_to_warehouse = []
-        for cell in path_to_current_warehouse:
-          self.path_to_warehouse.append(cell as Vector2)
+  var warehouse: Warehouse2D = building as Warehouse2D
+  if warehouse == null: # if the building is not a warehouse
+    return
+  for cell in cells:
+    # TODO: check path from all src cells to all dst cells
+    var path_to_new_warehouse = move_by_cell.pathfinding.get_path_to_dest(built_tilemap.local_to_map(self.global_position), cell, true, true) # get the path to the warehouse.
+    if path_to_new_warehouse == null:
+      continue
+    if len(path_to_new_warehouse) < len(self.path_to_warehouse): # if the warehouse is closer than the last closest warehouse,
+      self.path_to_warehouse = []
+      for path_cell in path_to_new_warehouse:
+        self.path_to_warehouse.append(path_cell)
 
 ## Finds the closest building that produces the needed resource, Note: For now, we will only collect from production buildings and not warehouses
 func get_building_to_collect_from(needed_resource: StringName) -> Building2D:
@@ -86,9 +89,11 @@ func get_building_to_collect_from(needed_resource: StringName) -> Building2D:
     return null
   var closest_building: Building2D = null # declare the closest building var to null
   var distance_to_building: int = 0 # declare the distance to the building
-  for building in built_tilemap.building_position_to_building.values(): # loop through the buildings
+  for building_cell in built_tilemap.building_position_to_building: # TODO: Should be called once per building?
+    var building = built_tilemap.building_position_to_building[building_cell]
     if building.is_resource_available(needed_resource): # if the building has the needed resource and it is its output,
-      var path_to_building = move_by_cell.pathfinding.get_path_to_dest(self.global_position, building.global_position) # get the path to the building.
+      # TODO: check path from all src cells to all dst cells
+      var path_to_building = move_by_cell.pathfinding.get_path_to_dest(built_tilemap.local_to_map(self.global_position), building_cell, true, true) # get the path to the building.
       if path_to_building != null and (closest_building == null or len(path_to_building) < distance_to_building): # if the building is closer than the last closest building,
         closest_building = building # set the closest building to the current building,
         distance_to_building = len(path_to_building) # and set the new distance to the building to collect from
@@ -102,6 +107,11 @@ func call_storage_changed():
 func get_best_job() -> Job:
   var best_job: Job = null
   var job_score: int = -1000000
+  if self.building_storage == null:
+    return null
+
+  var current_cell_pos = self.built_tilemap.local_to_map(self.global_position)
+
   for resource in self.building_storage.storage.keys():
     var carry_in: bool = true
     for production_line in self.production_line_components:
@@ -125,7 +135,8 @@ func get_best_job() -> Job:
     new_job.amount = clamp(max_amount_to_carry, 0, sized_storage.limit)
     if new_job.building_from == null or new_job.building_to == null or new_job.amount == 0 or new_job.resource == ResourceConfig.Resources.NONE:
       continue
-    var path_to_start = move_by_cell.pathfinding.get_path_to_dest(self.global_position, new_job.building_from.global_position)
+    # TODO: check path from all src cells to all dst cells
+    var path_to_start = move_by_cell.pathfinding.get_path_to_dest(current_cell_pos, self.built_tilemap.local_to_map(new_job.building_from.global_position), true, true)
     if path_to_start == null:
       continue
     
@@ -142,7 +153,7 @@ func get_best_job() -> Job:
       best_job = new_job
       job_score = new_job_score
 
-  if best_job == null and self.built_tilemap.building_position_to_building.get(self.global_position) != self.parent_building:
+  if best_job == null and self.built_tilemap.building_position_to_building.get(current_cell_pos) != self.parent_building:
     return Job.new(ResourceConfig.Resources.NONE, 0, self.parent_building, self.parent_building) # go home
 
   return best_job

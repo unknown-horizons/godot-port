@@ -1,3 +1,5 @@
+@tool
+
 extends WidgetButton
 class_name GameSpeedChangeButton
 
