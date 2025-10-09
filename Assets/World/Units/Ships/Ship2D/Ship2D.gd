@@ -6,8 +6,8 @@ class_name Ship2D
 @export var ship_inventory: Dictionary[StringName, int] = {}
 @export var valid_distance_for_building_harbor: int = 3
 
-@onready var buoys: StaticBody2D = self.get_parent().get_node("Buoys")
-@onready var terrain_tilemap: TerrainTileMap = self.get_parent().get_parent()
+@onready var buoys: StaticBody2D = self.get_node("../Buoys")
+@onready var terrain_tilemap: TerrainTileMap = self.get_node("../..") as TerrainTileMap
 @onready var highlighter = self.get_node("/root/Main/RoadAndBuildingHighlighter")
 @onready var building_context: BuildingContext = self.get_node("/root/Main/GameContextManager/BuildingContext")
 @onready var pathfinding: Pathfinding = self.get_node("/root/Main/Pathfinding")
@@ -19,6 +19,7 @@ signal buoy_added
 func _ready():
   super()
   movement_loop()
+  CamUtils.center_if_no_camera(self)
 
 func handle_context_input(event: InputEvent):
   if event is InputEventMouseButton:
