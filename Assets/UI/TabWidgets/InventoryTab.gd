@@ -2,7 +2,7 @@ extends VBoxContainer
 
 class_name InventoryTab
 
-@onready var inventory_slots: GridContainer = self.get_node("VBoxContainer/InventorySlots")
+@onready var inventory_slots: GridContainer = $VBoxContainer/InventorySlots
 
 func _process(_delta: float) -> void:
   if self.inventory_slots.is_visible_in_tree():

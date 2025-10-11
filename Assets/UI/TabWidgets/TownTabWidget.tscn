@@ -12,6 +12,6 @@ layout_mode = 2
 [node name="TabContainer" parent="." index="1"]
 current_tab = 0
 
-[node name="CityOverview" parent="TabContainer" index="1" instance=ExtResource("1")]
+[node name="CityOverview" parent="ScrollContainer/TabContainer" index="1" instance=ExtResource("1")]
 layout_mode = 2
 metadata/_tab_index = 0

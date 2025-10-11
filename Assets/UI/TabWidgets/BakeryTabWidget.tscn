@@ -7,10 +7,10 @@
 [node name="BakeryTabWidget" instance=ExtResource("1")]
 theme_override_styles/panel = ExtResource("2_1lpxp")
 
-[node name="CaptionBlock" parent="TabContainer/VBoxContainer" index="0"]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/VBoxContainer" index="0"]
 text = "Bakery"
 
-[node name="ProductionChain" parent="TabContainer/VBoxContainer" index="2" instance=ExtResource("2")]
+[node name="ProductionChain" parent="ScrollContainer/TabContainer/VBoxContainer" index="2" instance=ExtResource("2")]
 layout_mode = 2
 input_two_type = &"RES.FLOUR"
 output_type = &"RES.FOOD"

@@ -1,10 +1,11 @@
-extends VBoxContainer
+extends ScrollContainer
 
 @onready var tab_container: TabContainer = $"../VBoxContainer/TabContainer"
+@onready var debug_tab_widget_buttons_container = $VBoxContainer
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-  for child in self.get_children():
+  for child in debug_tab_widget_buttons_container.get_children():
     var child_btn = child as Button
     if child_btn:
       child_btn.pressed.connect(func(): _on_button_pressed(child_btn))

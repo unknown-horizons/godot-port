@@ -4,5 +4,5 @@
 
 [node name="BrickyardTabWidget" instance=ExtResource("1")]
 
-[node name="CaptionBlock" parent="TabContainer/VBoxContainer" index="0"]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/VBoxContainer" index="0"]
 text = "This is a Book Title"

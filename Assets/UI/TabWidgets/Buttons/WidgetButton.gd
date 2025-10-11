@@ -51,7 +51,7 @@ const TEXTURE_CLICK_MASK_ROUNDED = preload("res://Assets/UI/Images/Buttons/msg_b
 #export var style: Style := Style.ROUNDED #: set = set_style
 
 @onready var texture_rect := $TextureRect as TextureRect
-@onready var _texture_hover := texture_hover
+#@onready var _texture_hover := texture_hover
 
 func _ready() -> void:
 #	prints("texture_normal.get_size()", texture_normal.get_size())

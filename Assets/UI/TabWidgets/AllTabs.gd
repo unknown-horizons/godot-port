@@ -2,7 +2,7 @@ extends PanelContainer
 
 class_name AllTabs
 
-@onready var tab_container: TabContainer = self.get_node("TabContainer")
+@onready var tab_container: TabContainer = self.get_node("ScrollContainer/TabContainer")
 @onready var tab_switches: VBoxContainer = self.get_node("LeftFloatingPanel/TabSwitches")
 
 var tabs: Array[String] = []:

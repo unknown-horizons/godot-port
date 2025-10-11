@@ -28,7 +28,7 @@ layout_mode = 2
 texture_normal = ExtResource("3_p3q1l")
 texture_pressed = ExtResource("5_024wi")
 texture_hover = ExtResource("4_wox5d")
-target_control = NodePath("../../../TabContainer/ProductionOverviewTab")
+target_control = NodePath("../../../ScrollContainer/TabContainer/ProductionOverviewTab")
 texture_active = ExtResource("6_ve7ye")
 
 [node name="InventoryTabSwitch" parent="LeftFloatingPanel/TabSwitches" index="1" node_paths=PackedStringArray("target_control") instance=ExtResource("2_ig0oa")]
@@ -36,178 +36,419 @@ layout_mode = 2
 texture_normal = ExtResource("8_5fgj7")
 texture_pressed = ExtResource("9_o5mk3")
 texture_hover = ExtResource("10_gp57u")
-target_control = NodePath("../../../TabContainer/InventoryTab")
+target_control = NodePath("../../../ScrollContainer/TabContainer/InventoryTab")
 texture_active = ExtResource("10_gp57u")
 
-[node name="TabContainer" parent="." index="1"]
-current_tab = 0
+[node name="ScrollContainer" parent="." index="1"]
 
-[node name="ProductionOverviewTab" type="VBoxContainer" parent="TabContainer" index="1"]
+[node name="TabContainer" parent="ScrollContainer" index="0"]
+current_tab = 1
+
+[node name="ProductionOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="1"]
+visible = false
 layout_mode = 2
 script = ExtResource("8_024wi")
 metadata/_tab_index = 0
 
-[node name="BuildingName" parent="TabContainer/ProductionOverviewTab" index="0" instance=ExtResource("3_j476x")]
+[node name="BuildingName" parent="ScrollContainer/TabContainer/ProductionOverviewTab" index="0" instance=ExtResource("3_j476x")]
 layout_mode = 2
 text = "Building"
 
-[node name="ProductionBasicInfo" parent="TabContainer/ProductionOverviewTab" index="1" instance=ExtResource("4_ir4j5")]
+[node name="ProductionBasicInfo" parent="ScrollContainer/TabContainer/ProductionOverviewTab" index="1" instance=ExtResource("4_ir4j5")]
 layout_mode = 2
 
-[node name="ProductionChains" type="VBoxContainer" parent="TabContainer/ProductionOverviewTab" index="2"]
+[node name="ProductionChains" type="VBoxContainer" parent="ScrollContainer/TabContainer/ProductionOverviewTab" index="2"]
 layout_mode = 2
 
-[node name="ProductionChain" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="0" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="0" instance=ExtResource("5_p3q1l")]
 layout_mode = 2
 
-[node name="ProductionChain2" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="1" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain2" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="1" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain3" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="2" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain3" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="2" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain4" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="3" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain4" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="3" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain5" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="4" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain5" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="4" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain6" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="5" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain6" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="5" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain7" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="6" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain7" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="6" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain8" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="7" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain8" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="7" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain9" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="8" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain9" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="8" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain10" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="9" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain10" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="9" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain11" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="10" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain11" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="10" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain12" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="11" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain12" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="11" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain13" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="12" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain13" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="12" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain14" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="13" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain14" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="13" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain15" parent="TabContainer/ProductionOverviewTab/ProductionChains" index="14" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain15" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="14" instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="InventoryTab" type="VBoxContainer" parent="TabContainer" index="2"]
-visible = false
+[node name="InventoryTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="2"]
+custom_minimum_size = Vector2(0, 300)
 layout_mode = 2
 script = ExtResource("12_frflk")
 metadata/_tab_index = 1
 
-[node name="CaptionBlock" parent="TabContainer/InventoryTab" index="0" instance=ExtResource("3_j476x")]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/InventoryTab" index="0" instance=ExtResource("3_j476x")]
 layout_mode = 2
 text = "Settelment"
 
-[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/InventoryTab" index="1"]
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/TabContainer/InventoryTab" index="1"]
 layout_mode = 2
+size_flags_vertical = 3
 
-[node name="InventorySlots" type="GridContainer" parent="TabContainer/InventoryTab/VBoxContainer" index="0"]
+[node name="InventorySlots" type="GridContainer" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer" index="0"]
 layout_mode = 2
 columns = 4
 
-[node name="InventorySlot" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="0" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="0" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot2" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="1" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot2" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="1" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot3" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="2" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot3" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="2" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot4" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="3" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot4" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="3" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot5" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="4" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot5" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="4" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot6" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="5" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot6" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="5" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot7" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="6" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot7" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="6" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot8" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="7" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot8" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="7" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot9" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="8" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot9" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="8" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot10" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="9" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot10" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="9" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot11" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="10" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot11" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="10" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot12" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="11" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot12" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="11" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot13" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="12" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot13" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="12" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot14" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="13" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot14" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="13" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot15" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="14" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot15" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="14" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot16" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="15" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot16" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="15" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot17" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="16" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot17" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="16" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot18" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="17" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot18" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="17" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot19" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="18" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot19" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="18" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot20" parent="TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="19" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot20" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="19" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="TabContainer/InventoryTab/VBoxContainer" index="1"]
+[node name="InventorySlot21" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="20" instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="TabContainer/InventoryTab/VBoxContainer/HBoxContainer" index="0"]
+[node name="InventorySlot22" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="21" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot23" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="22" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot24" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="23" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot25" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="24" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot26" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="25" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot27" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="26" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot28" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="27" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot29" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="28" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot30" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="29" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot31" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="30" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot32" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="31" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot33" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="32" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot34" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="33" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot35" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="34" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot36" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="35" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot37" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="36" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot38" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="37" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot39" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="38" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot40" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="39" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot41" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="40" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot42" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="41" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot43" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="42" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot44" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="43" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot45" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="44" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot46" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="45" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot47" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="46" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot48" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="47" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot49" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="48" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot50" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="49" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot51" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="50" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot52" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="51" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot53" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="52" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot54" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="53" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot55" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="54" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot56" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="55" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot57" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="56" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot58" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="57" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot59" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="58" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot60" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="59" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot61" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="60" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot62" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="61" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot63" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="62" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot64" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="63" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot65" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="64" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot66" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="65" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot67" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="66" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot68" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="67" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot69" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="68" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot70" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="69" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot71" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="70" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot72" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="71" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot73" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="72" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot74" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="73" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot75" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="74" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot76" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="75" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot77" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="76" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot78" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="77" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot79" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="78" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot80" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="79" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot81" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="80" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot82" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="81" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot83" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="82" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot84" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="83" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot85" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="84" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot86" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="85" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot87" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="86" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot88" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="87" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot89" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="88" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot90" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="89" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot91" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="90" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot92" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="91" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot93" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="92" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot94" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="93" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot95" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="94" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot96" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="95" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot97" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="96" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot98" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="97" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="InventorySlot99" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="98" instance=ExtResource("12_ve7ye")]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer" index="1"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/HBoxContainer" index="0"]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
 texture = ExtResource("13_1oexd")
 expand_mode = 1
 
-[node name="LabelEx" parent="TabContainer/InventoryTab/VBoxContainer/HBoxContainer" index="1" instance=ExtResource("14_kdlxv")]
+[node name="LabelEx" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/HBoxContainer" index="1" instance=ExtResource("14_kdlxv")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("15_vcl1p")
 theme_override_font_sizes/font_size = 16
 text = "Limit: 30t per slot"
 font_style = 9
 
-[connection signal="new_node_selected" from="." to="TabContainer/ProductionOverviewTab" method="on_new_node_selected"]
-[connection signal="new_node_selected" from="." to="TabContainer/ProductionOverviewTab/BuildingName" method="new_node_selected"]
+[connection signal="new_node_selected" from="." to="ScrollContainer/TabContainer/ProductionOverviewTab" method="on_new_node_selected"]
+[connection signal="new_node_selected" from="." to="ScrollContainer/TabContainer/ProductionOverviewTab/BuildingName" method="new_node_selected"]
