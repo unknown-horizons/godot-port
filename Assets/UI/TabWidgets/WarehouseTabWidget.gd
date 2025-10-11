@@ -1,6 +1,6 @@
 extends BuildingMenuTabWidget
 
-@onready var settlement_inventory: GridContainer = self.get_node("TabContainer/SettlementInventory/VBoxContainer/GridContainer")
+@onready var settlement_inventory: GridContainer = self.get_node("ScrollContainer/TabContainer/SettlementInventory/VBoxContainer/GridContainer")
 
 func _process(_delta):
   if settlement_inventory.is_visible_in_tree(): # avoid extra functionality when not visible

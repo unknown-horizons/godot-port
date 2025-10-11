@@ -149,151 +149,151 @@ region = Rect2(896, 384, 128, 128)
 
 [resource]
 animations = [{
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_idle_045_0_0")
-      }],
-    "loop": true,
-    "name": &"bakery0.citizens.idle.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_idle_135_0_128")
-      }],
-    "loop": true,
-    "name": &"bakery0.citizens.idle.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_idle_225_0_256")
-      }],
-    "loop": true,
-    "name": &"bakery0.citizens.idle.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_idle_315_0_384")
-      }],
-    "loop": true,
-    "name": &"bakery0.citizens.idle.315",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_045_0_0")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_045_128_0")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_045_256_0")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_045_384_0")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_045_512_0")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_045_640_0")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_045_768_0")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_045_896_0")
-      }],
-    "loop": true,
-    "name": &"bakery0.citizens.work.045",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_135_0_128")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_135_128_128")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_135_256_128")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_135_384_128")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_135_512_128")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_135_640_128")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_135_768_128")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_135_896_128")
-      }],
-    "loop": true,
-    "name": &"bakery0.citizens.work.135",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_225_0_256")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_225_128_256")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_225_256_256")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_225_384_256")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_225_512_256")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_225_640_256")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_225_768_256")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_225_896_256")
-      }],
-    "loop": true,
-    "name": &"bakery0.citizens.work.225",
-    "speed": 5.0
-  }, {
-    "frames": [{
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_315_0_384")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_315_128_384")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_315_256_384")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_315_384_384")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_315_512_384")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_315_640_384")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_315_768_384")
-      }, {
-        "duration": 1.0,
-        "texture": SubResource("bakery0_citizens_work_315_896_384")
-      }],
-    "loop": true,
-    "name": &"bakery0.citizens.work.315",
-    "speed": 5.0
-  }]
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_idle_045_0_0")
+}],
+"loop": true,
+"name": &"bakery0.citizens.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_idle_135_0_128")
+}],
+"loop": true,
+"name": &"bakery0.citizens.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_idle_225_0_256")
+}],
+"loop": true,
+"name": &"bakery0.citizens.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_idle_315_0_384")
+}],
+"loop": true,
+"name": &"bakery0.citizens.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_045_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_045_128_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_045_256_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_045_384_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_045_512_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_045_640_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_045_768_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_045_896_0")
+}],
+"loop": true,
+"name": &"bakery0.citizens.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_135_0_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_135_128_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_135_256_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_135_384_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_135_512_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_135_640_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_135_768_128")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_135_896_128")
+}],
+"loop": true,
+"name": &"bakery0.citizens.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_225_0_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_225_128_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_225_256_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_225_384_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_225_512_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_225_640_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_225_768_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_225_896_256")
+}],
+"loop": true,
+"name": &"bakery0.citizens.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_315_0_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_315_128_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_315_256_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_315_384_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_315_512_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_315_640_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_315_768_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("bakery0_citizens_work_315_896_384")
+}],
+"loop": true,
+"name": &"bakery0.citizens.work.315",
+"speed": 5.0
+}]

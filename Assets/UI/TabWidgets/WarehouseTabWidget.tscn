@@ -17,70 +17,70 @@ script = ExtResource("2_8gs72")
 [node name="BuySellSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="2" instance=ExtResource("4")]
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="TabContainer/SettlementInventory/VBoxContainer/HBoxContainer" index="0"]
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/SettlementInventory/VBoxContainer/HBoxContainer" index="0"]
 layout_mode = 2
 theme_override_constants/margin_left = 2
 
-[node name="TextureRect" parent="TabContainer/SettlementInventory/VBoxContainer/HBoxContainer" index="1"]
+[node name="TextureRect" parent="ScrollContainer/TabContainer/SettlementInventory/VBoxContainer/HBoxContainer" index="1"]
 expand_mode = 1
 
-[node name="Trade" type="VBoxContainer" parent="TabContainer" index="3"]
+[node name="Trade" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="3"]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 2
 
-[node name="CaptionBlock" parent="TabContainer/Trade" index="0" instance=ExtResource("3_ld7xp")]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/Trade" index="0" instance=ExtResource("3_ld7xp")]
 layout_mode = 2
 text = "Buy or sell resources"
 
-[node name="GridContainer" type="GridContainer" parent="TabContainer/Trade" index="1"]
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/Trade" index="1"]
 layout_mode = 2
 columns = 4
 
-[node name="HSeparator2" type="HSeparator" parent="TabContainer/Trade" index="2"]
+[node name="HSeparator2" type="HSeparator" parent="ScrollContainer/TabContainer/Trade" index="2"]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Trade" index="3"]
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/Trade" index="3"]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="LabelEx2" parent="TabContainer/Trade/MarginContainer" index="0" instance=ExtResource("10")]
+[node name="LabelEx2" parent="ScrollContainer/TabContainer/Trade/MarginContainer" index="0" instance=ExtResource("10")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_sird3")
 theme_override_font_sizes/font_size = 18
 text = "Will buy tools for 21 gold/t whenever less than 10t are in stock."
 font_style = 10
 
-[node name="HSeparator3" type="HSeparator" parent="TabContainer/Trade" index="4"]
+[node name="HSeparator3" type="HSeparator" parent="ScrollContainer/TabContainer/Trade" index="4"]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="MarginContainer2" type="MarginContainer" parent="TabContainer/Trade" index="5"]
+[node name="MarginContainer2" type="MarginContainer" parent="ScrollContainer/TabContainer/Trade" index="5"]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Trade/MarginContainer2" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/TabContainer/Trade/MarginContainer2" index="0"]
 layout_mode = 2
 
-[node name="LabelEx3" parent="TabContainer/Trade/MarginContainer2/VBoxContainer" index="0" instance=ExtResource("10")]
+[node name="LabelEx3" parent="ScrollContainer/TabContainer/Trade/MarginContainer2/VBoxContainer" index="0" instance=ExtResource("10")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_uhujm")
 theme_override_font_sizes/font_size = 16
 text = "Trade history"
 font_style = 0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="TabContainer/Trade/MarginContainer2/VBoxContainer" index="1"]
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/TabContainer/Trade/MarginContainer2/VBoxContainer" index="1"]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="TabContainer/Trade/MarginContainer2/VBoxContainer/HBoxContainer" index="0"]
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/Trade/MarginContainer2/VBoxContainer/HBoxContainer" index="0"]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
 texture = ExtResource("12")
 
-[node name="LabelEx" parent="TabContainer/Trade/MarginContainer2/VBoxContainer/HBoxContainer" index="1" instance=ExtResource("10")]
+[node name="LabelEx" parent="ScrollContainer/TabContainer/Trade/MarginContainer2/VBoxContainer/HBoxContainer" index="1" instance=ExtResource("10")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_sird3")
 theme_override_font_sizes/font_size = 16
@@ -88,31 +88,31 @@ text = "Free Trader"
 autowrap_mode = 0
 font_style = 9
 
-[node name="LabelEx2" parent="TabContainer/Trade/MarginContainer2/VBoxContainer/HBoxContainer" index="2" instance=ExtResource("10")]
+[node name="LabelEx2" parent="ScrollContainer/TabContainer/Trade/MarginContainer2/VBoxContainer/HBoxContainer" index="2" instance=ExtResource("10")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_sird3")
 theme_override_font_sizes/font_size = 16
 text = "+8"
 font_style = 9
 
-[node name="TextureRect2" type="TextureRect" parent="TabContainer/Trade/MarginContainer2/VBoxContainer/HBoxContainer" index="3"]
+[node name="TextureRect2" type="TextureRect" parent="ScrollContainer/TabContainer/Trade/MarginContainer2/VBoxContainer/HBoxContainer" index="3"]
 layout_mode = 2
 texture = ExtResource("13")
 stretch_mode = 4
 
-[node name="MarginContainer2" type="MarginContainer" parent="TabContainer/Trade/MarginContainer2/VBoxContainer" index="2"]
+[node name="MarginContainer2" type="MarginContainer" parent="ScrollContainer/TabContainer/Trade/MarginContainer2/VBoxContainer" index="2"]
 layout_mode = 2
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="TabContainer/Trade/MarginContainer2/VBoxContainer/MarginContainer2" index="0"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="ScrollContainer/TabContainer/Trade/MarginContainer2/VBoxContainer/MarginContainer2" index="0"]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="TabContainer/Trade/MarginContainer2/VBoxContainer/MarginContainer2/HBoxContainer2" index="0"]
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/Trade/MarginContainer2/VBoxContainer/MarginContainer2/HBoxContainer2" index="0"]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
 texture = ExtResource("14")
 expand_mode = 1
 
-[node name="LabelEx" parent="TabContainer/Trade/MarginContainer2/VBoxContainer/MarginContainer2/HBoxContainer2" index="1" instance=ExtResource("10")]
+[node name="LabelEx" parent="ScrollContainer/TabContainer/Trade/MarginContainer2/VBoxContainer/MarginContainer2/HBoxContainer2" index="1" instance=ExtResource("10")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_sird3")
 theme_override_font_sizes/font_size = 16

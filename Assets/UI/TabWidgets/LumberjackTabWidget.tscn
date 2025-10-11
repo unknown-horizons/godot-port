@@ -8,22 +8,22 @@
 [node name="LumberjackTabWidget" instance=ExtResource("1")]
 script = ExtResource("5")
 
-[node name="CaptionBlock" parent="TabContainer/VBoxContainer" index="0"]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/VBoxContainer" index="0"]
 text = "Lumberjack"
 
-[node name="ProductionChain" parent="TabContainer/VBoxContainer" index="2" instance=ExtResource("3")]
+[node name="ProductionChain" parent="ScrollContainer/TabContainer/VBoxContainer" index="2" instance=ExtResource("3")]
 layout_mode = 2
 input_two_type = &"RES.TREES"
 output_type = &"RES.BOARDS"
 
-[node name="MarginContainer" type="MarginContainer" parent="TabContainer/VBoxContainer" index="3"]
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/VBoxContainer" index="3"]
 layout_mode = 2
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_top = 5
 
-[node name="GridContainer" type="GridContainer" parent="TabContainer/VBoxContainer/MarginContainer" index="0"]
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/VBoxContainer/MarginContainer" index="0"]
 layout_mode = 2
 columns = 4
 
-[node name="BuildTreeAreaButton" parent="TabContainer/VBoxContainer/MarginContainer/GridContainer" index="0" instance=ExtResource("10")]
+[node name="BuildTreeAreaButton" parent="ScrollContainer/TabContainer/VBoxContainer/MarginContainer/GridContainer" index="0" instance=ExtResource("10")]
 layout_mode = 2

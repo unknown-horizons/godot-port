@@ -9,11 +9,11 @@
 offset_top = 24.4
 offset_bottom = 161.4
 
-[node name="CaptionBlock" parent="TabContainer/VBoxContainer" index="0"]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/VBoxContainer" index="0"]
 layout_mode = 2
 text = "Hunter"
 
-[node name="ProductionChain" parent="TabContainer/VBoxContainer" index="2" instance=ExtResource("2")]
+[node name="ProductionChain" parent="ScrollContainer/TabContainer/VBoxContainer" index="2" instance=ExtResource("2")]
 layout_mode = 2
 input_two_type = 13
 output_type = 5

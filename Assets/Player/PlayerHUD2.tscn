@@ -70,6 +70,7 @@ mouse_filter = 2
 script = ExtResource("1_mg2ty")
 
 [node name="ResourcesOverlay" parent="." instance=ExtResource("2_7rego")]
+layout_mode = 0
 offset_left = 96.0
 offset_right = 1120.0
 offset_bottom = 64.0
@@ -90,12 +91,13 @@ size_flags_horizontal = 0
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 layout_mode = 1
-anchors_preset = 1
+anchors_preset = 11
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -251.0
-offset_bottom = 427.0
+anchor_bottom = 1.0
+offset_left = -608.0
 grow_horizontal = 0
+grow_vertical = 2
 
 [node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
 layout_mode = 2

@@ -7,12 +7,12 @@ class_name SwitchTabWidget
 @export var target_control: Control
 
 @export var texture_active: Texture2D
-@onready var _texture_normal := texture_normal
+#@onready var _texture_normal := texture_normal
 
 # func get_tab_container() -> TabContainer:
 #   if owner is TabWidget:
 #     if tab_container == null:
-#       tab_container = owner.body.get_node("TabContainer")
+#       tab_container = owner.body.get_node("ScrollContainer/TabContainer")
 
 #       for switch in get_parent().get_children():
 #         switch.tab_container = tab_container
@@ -23,20 +23,20 @@ class_name SwitchTabWidget
 var target_tab_container: TabContainer
 
 func _ready() -> void:
-  var node := get_node("../../../TabContainer")
+  var node := get_node("../../../ScrollContainer/TabContainer")
   if node == null:
-    push_error("../../../TabContainer not found for SwitchTabWidget for ", self)
+    push_error("../../../ScrollContainer/TabContainer not found for SwitchTabWidget for ", self)
     return
   self.target_tab_container = node as TabContainer
   if self.target_tab_container == null:
-    push_error("../../../TabContainer is not of type TabContainer for ", self)
+    push_error("../../../ScrollContainer/TabContainer is not of type TabContainer for ", self)
     return
   
   if Engine.is_editor_hint():
     return
   
   if self.target_tab_container.get_child_count() != self.get_parent().get_child_count():
-    push_error("TabContainer child count does not match SwitchTabWidget count for ", self)
+    push_error("ScrollContainer/TabContainer child count does not match SwitchTabWidget count for ", self)
     return
 
 func _pressed() -> void:
