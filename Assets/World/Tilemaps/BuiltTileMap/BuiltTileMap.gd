@@ -12,6 +12,8 @@ var trees_getting_choped: Dictionary = {}
 ## emited when new buildings were built, usually one building at a time
 signal buildings_built(building: Building2D, cells: Array[Vector2i])
 
+
+
 func is_movable_on(cell: Vector2i) -> bool:
   var tile_data: TileData = self.get_cell_tile_data(cell)
   if tile_data != null:
@@ -20,15 +22,12 @@ func is_movable_on(cell: Vector2i) -> bool:
     return is_road
   return false
 
-func get_trees(in_grid: bool = true) -> Array[Vector2]:
-  var trees: Array[Vector2] = []
+func get_trees() -> Array[Vector2i]:
+  var trees: Array[Vector2i] = []
   for cell in self.get_used_cells():
     var cell_data = self.get_cell_tile_data(cell)
     if cell_data != null and cell_data.get_custom_data(is_tree):
-      if in_grid:
-        trees.append(cell)
-      else:
-        trees.append(self.map_to_local(cell))
+      trees.append(cell)
   return trees
 
 func register_building(building: Building2D) -> void:

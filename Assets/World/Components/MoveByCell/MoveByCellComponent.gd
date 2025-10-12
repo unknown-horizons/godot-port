@@ -1,3 +1,5 @@
+@tool
+
 extends BaseComponent
 ## Moves the an object by cells
 ##
@@ -8,7 +10,19 @@ class_name MoveByCellComponent
 ## The speed of the object in tiles per second
 @export var tile_per_sec: float = 2
 ## The type of allowed movement
-@export var allowed_movement: AllowedMovementTypes = AllowedMovementTypes.MOVE_ON_ROAD
+@export var allowed_movement: AllowedMovementTypes = AllowedMovementTypes.MOVE_ON_ROAD:
+  set(value):
+    allowed_movement = value
+    if pathfinding_node == null:
+      push_warning("Pathfinding node is not found")
+    else:
+      match allowed_movement:
+        AllowedMovementTypes.MOVE_ON_WATER:
+          pathfinding = pathfinding_node.ship_pathfinding
+        AllowedMovementTypes.MOVE_ON_ROAD:
+          pathfinding = pathfinding_node.road_pathfinding
+        AllowedMovementTypes.MOVE_ON_LAND:
+          pathfinding = pathfinding_node.land_pathfinding
 
 ## The object this component is moving[br]
 ## Default: ".."
@@ -23,29 +37,18 @@ enum AllowedMovementTypes {
   MOVE_ON_WATER,
   ## The value representing movement allowed only on road
   MOVE_ON_ROAD,
+  ## The value representing movement allowed on all land tiles
+  MOVE_ON_LAND,
 }
 
-## The possible movement states for the unit.
-enum MoveStates {
-  ## The value representing no movement.
-  IDLE,
-  ## The value representing the moving state
-  MOVING,
-}
-
-var action_set: CollectorActionSet = null
+var action_set: BuildingActionSet = null
 
 var pathfinding: PathFindingManagement2D = null
 
-## The current movement state.[br]
-## Please [b]do not[/b] change the values outside the class.[br]
-## [b]Note[/b]: if set, it will update the action set.
-var move_state: MoveStates = MoveStates.IDLE:
-  set(value):
-    var last_state = move_state
-    move_state = value
-    if last_state != move_state:
-      update_action_set()
+## emited when the action state changes(MOVE/IDLE)
+signal action_state_changed(action_state: BuildingActionSet.ActionStates)
+## emited when the orientation changes
+signal orientation_changed(orientation: BuildingActionSet.Orientations)
 
 func _ready():
   if object_to_be_moved == null:
@@ -60,41 +63,42 @@ func _ready():
         pathfinding = pathfinding_node.ship_pathfinding
       AllowedMovementTypes.MOVE_ON_ROAD:
         pathfinding = pathfinding_node.road_pathfinding
+      AllowedMovementTypes.MOVE_ON_LAND:
+        pathfinding = pathfinding_node.land_pathfinding
 
 func set_components(components: Array[BaseComponent]):
   for component in components:
-    if component is CollectorActionSet:
+    if component is BuildingActionSet:
       action_set = component
 
-func update_action_set():
-  if action_set != null:
-    match move_state:
-      MoveStates.IDLE:
-        action_set.collector_action = CollectorActionSet.CollectorActions.IDLE
-      MoveStates.MOVING:
-        action_set.collector_action = CollectorActionSet.CollectorActions.MOVE
+func update_action_set(direction: int, state: BuildingActionSet.ActionStates) -> void:
+  var orientation = BuildingActionSet.Orientations.find_key(direction)
+  if orientation == null:
+    orientation = BuildingActionSet.Orientations._045
+  self.orientation_changed.emit(orientation as BuildingActionSet.Orientations)
+  self.action_state_changed.emit(state)
 
-func move(go_to_position: Vector2) -> void:
+func move(path: Array[Vector2i]) -> void:
   if pathfinding == null:
     push_error("Pathfinding is not set and the object is wanted to be moved")
     return
   
-  move_state = MoveStates.MOVING
-  var path = pathfinding.get_path_to_dest(object_to_be_moved.global_position, go_to_position)
   if path != null:
-    path.pop_front() # remove the starting position because the object is already there
+    var direction: int = 90
+    self.object_to_be_moved.visible = true
+    if self.pathfinding.tile_map_layer.local_to_map(object_to_be_moved.global_position) != path.pop_front(): # remove the starting position because the object is already there
+      push_error("The path does not start from the current position")
     for new_position in path:
-      var move_vec: Vector2 = new_position - object_to_be_moved.global_position
+      var move_vec: Vector2 = self.pathfinding.tile_map_layer.map_to_local(new_position) - object_to_be_moved.global_position
 
-      if action_set:
-        var direction = rad_to_deg(move_vec.angle_to(Vector2(1, 0)))
-        direction = posmod(direction, 360) # make in range of 0-359
-        action_set.direction = direction
+      direction = snappedi(rad_to_deg(move_vec.angle_to(Vector2.RIGHT)), 45)
+      direction = posmod(direction, 360) # make in range of 0-359
+      self.update_action_set(direction, BuildingActionSet.ActionStates.MOVE)
+
       
       var move_tween: Tween = self.get_tree().create_tween().bind_node(self)
-      move_tween.tween_property(object_to_be_moved, "global_position", new_position, 1/tile_per_sec)
+      move_tween.tween_property(object_to_be_moved, "global_position", self.pathfinding.tile_map_layer.map_to_local(new_position), 1/tile_per_sec)
       await move_tween.finished
       if paused:
         await self.unpaused
-    object_to_be_moved.global_position = go_to_position # remove any tween errors
-  move_state = MoveStates.IDLE
+    self.update_action_set(direction, BuildingActionSet.ActionStates.IDLE)

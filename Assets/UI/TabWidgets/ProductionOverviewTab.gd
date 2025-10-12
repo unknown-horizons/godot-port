@@ -14,7 +14,7 @@ func on_new_node_selected(node: WorldThing2D) -> void:
   var building_selected: Building2D = node as Building2D
   var production_chain_index: int = 0
   if building_selected != null:
-    for production_line: ProductionLineComponent in building_selected.get_components(ProductionLineComponent):
+    for production_line: ProductionLineComponent in building_selected.get_all_nodes_of_type(ProductionLineComponent):
       # get the next production chain
       var production_chain: ProductionChain = production_chains.get_child(production_chain_index) as ProductionChain
       production_chain_index += 1
@@ -25,9 +25,9 @@ func on_new_node_selected(node: WorldThing2D) -> void:
         production_chain = production_chains.get_child(production_chain_index)
         production_chain_index += 1
       production_chain.visible = true
-      var slot_storages: Array = building_selected.get_components(SlotStorageComponent)
-      if slot_storages == []:
+      var slot_storage: SlotStorageComponent = building_selected.get_first_node_of_type(SlotStorageComponent) as SlotStorageComponent
+      if slot_storage == null:
         if self.visible:
           push_warning("No slot storages found for: %s" % building_selected.name)
         continue
-      production_chain.set_production_line(production_line, slot_storages[0] as SlotStorageComponent)
+      production_chain.set_production_line(production_line, slot_storage)
