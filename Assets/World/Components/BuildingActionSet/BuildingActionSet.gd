@@ -19,12 +19,15 @@ class_name BuildingActionSet
       push_warning("No sprite frames assigned")
     update_animation()
 
-enum Orientations {
-  _045 = 45,
-  _135 = 135,
-  _225 = 225,
-  _315 = 315
-}
+@export var action_state: ActionStates = ActionStates.IDLE:
+  set(value): 
+    action_state = value
+    update_animation()
+
+@export var storage_state: StorageStates = StorageStates.EMPTY:
+  set(value):
+    storage_state = value
+    update_animation()
 
 ## The rotation of the building, used to determine the animation
 @export var orientation: Orientations = Orientations._045:
@@ -38,30 +41,15 @@ enum Orientations {
     current_world_tier = value
     if self.per_tier_animation_names.size() > 0 and self.per_tier_animation_names[current_world_tier].size() > 0:
       self.current_as_name = self.per_tier_animation_names[current_world_tier][0].split(".")[0] # TODO: pick random as_name
-    update_animation()
+    self.update_animation()
 
 # @export # no need to export - there is a custom one @ _get_property_list
 var current_as_name: String = "":
   set(value):
     current_as_name = value
-    update_animation()
+    self.update_animation()
 
 @onready var animated_sprite: AnimatedSprite2D = self.get_node("AnimatedSprite2D")
-
-## The current state of the building, used to determine the animation
-@export var building_state: BuildingStates = BuildingStates.IDLE:
-  set(value):
-    if building_state != value:
-      building_state = value
-      update_animation()
-
-## The possible states of the building
-enum BuildingStates {
-  IDLE,
-  IDLE_FULL,
-  WORK,
-  MOVE
-}
 
 func get_action_set_names():
   var animation_names := self.sprite_frames.get_animation_names()
@@ -128,14 +116,45 @@ func _ready():
 
   update_animation()
 
+func set_components(new_components: Array[BaseComponent]) -> void:
+  for component in new_components:
+    var storage_component = component as StorageComponent
+    var production_line_component = component as ProductionLineComponent
+    var move_by_cell_component = component as MoveByCellComponent
+    if storage_component != null:
+      storage_component.storage_changed.connect(set_storage_state)
+    if production_line_component != null:
+      production_line_component.action_state_changed.connect(func(action_state): self.action_state = action_state)
+    if move_by_cell_component != null:
+      move_by_cell_component.action_state_changed.connect(func(action_state): self.action_state = action_state)
+      move_by_cell_component.orientation_changed.connect(func(orientation): self.orientation = orientation)
+
+func set_storage_state(new_storage_state: StorageComponent.StorageComponentStates) -> void:
+  match new_storage_state:
+    StorageComponent.StorageComponentStates.EMPTY:
+      self.storage_state = StorageStates.EMPTY
+    StorageComponent.StorageComponentStates.PARTIALLY_FULL:
+      if self.has_node(".."):
+        var parent := self.get_parent()
+        if parent is Building2D:
+          self.storage_state = StorageStates.EMPTY
+        elif parent is Collector:
+          self.storage_state = StorageStates.FULL
+    StorageComponent.StorageComponentStates.FULL:
+      self.storage_state = StorageStates.FULL
+
 func update_animation() -> void:
   # if the sprite frames or the animated sprite is null then return because there is nothing to update
   if animated_sprite == null or sprite_frames == null:
     return
   
-  var orientation_str: String = str(snappedi(self.orientation+45, 90)-45).pad_zeros(3) # get the rotation as string
+  var orientation_str := str(snappedi(self.orientation, 45)).pad_zeros(3) # get the rotation as string
   # get the state as string
-  var state_str: String = BuildingStates.find_key(building_state).to_lower()
+  var storage_state_str := str(StorageStates.find_key(self.storage_state)).to_lower()
+  var action_state_str := str(ActionStates.find_key(self.action_state)).to_lower()
+  var state_str = action_state_str
+  if self.storage_state != StorageStates.EMPTY:
+    state_str += "_" + storage_state_str
 
   # get the last tier before the current at which we have an animation, as string
   var animation_name: String = ""
