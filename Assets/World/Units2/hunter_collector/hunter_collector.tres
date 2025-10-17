@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cuhuntercoltr"]
+[gd_resource type="SpriteFrames" load_steps=238 format=3 uid="uid://cuhuntercoltr"]
 
 [ext_resource type="Texture2D" uid="uid://dw6tdlkxujd3v" path="res://Assets/World/Units2/hunter_collector/hunter_collector_sailors_as_hunterunit0_idle.png" id="hunter_collector_sailors_as_hunterunit0_idle"]
 [ext_resource type="Texture2D" uid="uid://b01ekto30sgb1" path="res://Assets/World/Units2/hunter_collector/hunter_collector_sailors_as_hunterunit0_idle_full.png" id="hunter_collector_sailors_as_hunterunit0_idle_full"]
@@ -1067,13 +1067,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_000_0_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_000_32_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_000_64_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_000_96_0")
 }],
@@ -1084,13 +1084,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_045_0_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_045_32_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_045_64_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_045_96_42")
 }],
@@ -1101,13 +1101,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_090_0_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_090_32_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_090_64_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_090_96_84")
 }],
@@ -1118,13 +1118,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_135_0_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_135_32_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_135_64_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_135_96_126")
 }],
@@ -1135,13 +1135,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_180_0_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_180_32_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_180_64_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_180_96_168")
 }],
@@ -1152,13 +1152,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_225_0_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_225_32_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_225_64_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_225_96_210")
 }],
@@ -1169,13 +1169,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_270_0_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_270_32_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_270_64_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_270_96_252")
 }],
@@ -1186,13 +1186,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_315_0_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_315_32_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_315_64_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_315_96_294")
 }],
@@ -1203,13 +1203,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_000_0_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_000_32_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_000_64_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_000_96_0")
 }],
@@ -1220,13 +1220,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_045_0_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_045_32_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_045_64_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_045_96_42")
 }],
@@ -1237,13 +1237,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_090_0_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_090_32_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_090_64_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_090_96_84")
 }],
@@ -1254,13 +1254,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_135_0_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_135_32_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_135_64_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_135_96_126")
 }],
@@ -1271,13 +1271,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_180_0_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_180_32_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_180_64_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_180_96_168")
 }],
@@ -1288,13 +1288,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_225_0_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_225_32_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_225_64_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_225_96_210")
 }],
@@ -1305,13 +1305,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_270_0_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_270_32_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_270_64_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_270_96_252")
 }],
@@ -1322,13 +1322,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_315_0_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_315_32_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_315_64_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_move_full_315_96_294")
 }],
@@ -1339,58 +1339,58 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_0_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_32_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_64_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_96_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_128_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_160_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_192_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_224_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_256_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_288_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_320_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_352_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_384_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_416_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_448_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_480_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_512_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_544_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_000_576_0")
 }],
@@ -1401,58 +1401,58 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_0_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_32_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_64_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_96_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_128_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_160_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_192_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_224_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_256_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_288_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_320_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_352_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_384_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_416_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_448_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_480_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_512_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_544_42")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_045_576_42")
 }],
@@ -1463,58 +1463,58 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_0_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_32_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_64_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_96_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_128_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_160_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_192_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_224_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_256_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_288_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_320_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_352_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_384_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_416_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_448_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_480_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_512_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_544_84")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_090_576_84")
 }],
@@ -1525,58 +1525,58 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_0_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_32_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_64_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_96_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_128_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_160_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_192_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_224_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_256_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_288_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_320_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_352_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_384_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_416_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_448_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_480_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_512_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_544_126")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_135_576_126")
 }],
@@ -1587,58 +1587,58 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_0_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_32_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_64_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_96_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_128_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_160_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_192_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_224_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_256_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_288_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_320_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_352_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_384_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_416_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_448_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_480_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_512_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_544_168")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_180_576_168")
 }],
@@ -1649,58 +1649,58 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_0_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_32_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_64_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_96_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_128_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_160_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_192_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_224_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_256_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_288_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_320_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_352_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_384_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_416_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_448_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_480_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_512_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_544_210")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_225_576_210")
 }],
@@ -1711,58 +1711,58 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_0_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_32_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_64_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_96_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_128_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_160_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_192_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_224_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_256_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_288_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_320_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_352_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_384_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_416_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_448_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_480_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_512_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_544_252")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_270_576_252")
 }],
@@ -1773,58 +1773,58 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_0_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_32_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_64_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_96_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_128_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_160_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_192_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_224_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_256_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_288_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_320_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_352_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_384_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_416_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_448_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_480_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_512_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_544_294")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("hunterunit0_sailors_work_315_576_294")
 }],
