@@ -152,8 +152,10 @@ func update_animation() -> void:
   # get the state as string
   var storage_state_str := str(StorageStates.find_key(self.storage_state)).to_lower()
   var action_state_str := str(ActionStates.find_key(self.action_state)).to_lower()
+  if self.action_state == ActionStates.WORK:
+    storage_state_str = "empty"
   var state_str = action_state_str
-  if self.storage_state != StorageStates.EMPTY:
+  if storage_state_str != "empty":
     state_str += "_" + storage_state_str
 
   # get the last tier before the current at which we have an animation, as string

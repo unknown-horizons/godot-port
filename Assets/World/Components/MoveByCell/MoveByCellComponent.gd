@@ -49,6 +49,9 @@ var action_set: BuildingActionSet = null
 
 var pathfinding: PathFindingManagement2D = null
 
+var cancel_move_requested: bool = false
+
+# signal move_canceled
 ## emited when the action state changes(MOVE/IDLE)
 signal action_state_changed(action_state: BuildingActionSet.ActionStates)
 ## emited when the orientation changes
@@ -86,18 +89,27 @@ func update_action_set(direction: int, state: BuildingActionSet.ActionStates) ->
   self.orientation_changed.emit(orientation as BuildingActionSet.Orientations)
   self.action_state_changed.emit(state)
 
+## cancels the move, doesn't wait until move canceled
+func cancel_move() -> void:
+  self.cancel_move_requested = true
+  # await self.move_canceled
+
 func move(path: Array[Vector2i]) -> void:
   if pathfinding == null:
     push_error("Pathfinding is not set and the object is wanted to be moved")
     return
   
-  if path != null:
+  if path != []:
     var direction: int = 90
     self.object_to_be_moved.visible = true
-    if self.pathfinding.tile_map_layer.local_to_map(object_to_be_moved.global_position) != path.pop_front(): # remove the starting position because the object is already there
+    if self.pathfinding.tile_map_layer.local_to_map(object_to_be_moved.global_position) != path[0]: # remove the starting position because the object is already there
       push_error("The path does not start from the current position")
-    for new_position in path:
-      var move_vec: Vector2 = self.pathfinding.tile_map_layer.map_to_local(new_position) - object_to_be_moved.global_position
+    self.cancel_move_requested = false
+    if self.paused:
+      await self.unpaused
+    for cell in path.slice(1):
+      var new_local_position: Vector2 = self.pathfinding.tile_map_layer.map_to_local(cell)
+      var move_vec: Vector2 = new_local_position - object_to_be_moved.global_position
 
       direction = snappedi(rad_to_deg(move_vec.angle_to(Vector2.RIGHT)), 45)
       direction = posmod(direction, 360) # make in range of 0-359
@@ -105,8 +117,12 @@ func move(path: Array[Vector2i]) -> void:
 
       
       var move_tween: Tween = self.get_tree().create_tween().bind_node(self)
-      move_tween.tween_property(object_to_be_moved, "global_position", self.pathfinding.tile_map_layer.map_to_local(new_position), 1/tile_per_sec)
+      move_tween.tween_property(object_to_be_moved, "global_position", new_local_position, 1/tile_per_sec)
       await move_tween.finished
-      if paused:
+      self.object_to_be_moved.global_position = new_local_position
+      if self.cancel_move_requested:
+        # self.move_canceled.emit()
+        break
+      if self.paused:
         await self.unpaused
     self.update_action_set(direction, BuildingActionSet.ActionStates.IDLE)
