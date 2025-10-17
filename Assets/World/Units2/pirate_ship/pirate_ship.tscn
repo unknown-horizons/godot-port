@@ -4,26 +4,21 @@
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
 [ext_resource type="SpriteFrames" uid="uid://cupirateshitr" path="res://Assets/World/Units2/pirate_ship/pirate_ship.tres" id="4_sprite_frames"]
-[ext_resource type="PackedScene" uid="uid://kv52rh351xud" path="res://Assets/World/Components/AmbientSoundComponent/AmbientSoundComponent.tscn" id="3_ambient_sound_component"]
-[ext_resource type="PackedScene" uid="uid://b3hix4pdlnumi" path="res://Assets/World/Components/Storages/SizedStorageComponent/SizedStorageComponent.tscn" id="5_sized_storage_component"]
-[ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
-[ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
-[ext_resource type="PackedScene" uid="uid://dyqwsks6v6puj" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.tscn" id="7_building_collector_component"]
+[ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 
 [node name="Pirate" type="Node2D"]
 script = ExtResource("1_script_gd")
 baseclass = "pirateship.PirateShip"
 radius = 5
-velocity= 12.0
+velocity = 12.0
 
 [node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
 type = "ship"
-tabs = ["ShipOverviewTab"]
-enemy_tabs = ["EnemyShipOverviewTab"]
+tabs = Array[String](["ShipOverviewTab"])
+enemy_tabs = Array[String](["EnemyShipOverviewTab"])
 
-; [node name="HealthComponent" parent="." instance=ExtResource("2_health_component")]
-; max_health = 250
-
+[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+max_health = 250
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

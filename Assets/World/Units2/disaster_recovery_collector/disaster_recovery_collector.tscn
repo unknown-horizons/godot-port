@@ -1,7 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://cudisasterrts"]
 
-[ext_resource type="Script" uid="uid://dwc6g0dxao8e0" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.gd" id="1_script_gd"]
-[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
+[ext_resource type="Script" uid="uid://dryewpxj1qix4" path="res://Assets/World/Components/Collectors/Collector.gd" id="1_script_gd"][ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
 [ext_resource type="SpriteFrames" uid="uid://cudisasterrtr" path="res://Assets/World/Units2/disaster_recovery_collector/disaster_recovery_collector.tres" id="4_sprite_frames"]
 [ext_resource type="PackedScene" uid="uid://b3hix4pdlnumi" path="res://Assets/World/Components/Storages/SizedStorageComponent/SizedStorageComponent.tscn" id="5_sized_storage_component"]

@@ -25,10 +25,7 @@ script = ExtResource("17")
 [node name="RelatedSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="1" instance=ExtResource("2")]
 layout_mode = 2
 
-[node name="TabContainer" parent="." index="1"]
-offset_left = -109.0
-offset_right = 109.0
-offset_bottom = 389.0
+[node name="ScrollContainer" parent="." index="1"]
 
 [node name="CaptionBlock" parent="ScrollContainer/TabContainer/VBoxContainer" index="0"]
 text = "Residence"

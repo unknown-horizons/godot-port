@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=225 format=3 uid="uid://cbtreetres000"]
+[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbtreetres000"]
 
 [ext_resource type="Texture2D" uid="uid://b64kw8ywnogk3" path="res://Assets/World/Buildings2/tree/tree_nature_as_birch0_idle_full.png" id="tree_nature_as_birch0_idle_full"]
 [ext_resource type="Texture2D" uid="uid://2su1phc072nb" path="res://Assets/World/Buildings2/tree/tree_nature_as_birch0_work.png" id="tree_nature_as_birch0_work"]
@@ -874,16 +874,16 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_045_0_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_045_64_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_045_128_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_045_192_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_045_256_0")
 }],
@@ -894,16 +894,16 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_135_0_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_135_64_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_135_128_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_135_192_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_135_256_128")
 }],
@@ -914,16 +914,16 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_225_0_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_225_64_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_225_128_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_225_192_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_225_256_256")
 }],
@@ -934,16 +934,16 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_315_0_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_315_64_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_315_128_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_315_192_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("birch0_nature_work_315_256_384")
 }],
@@ -986,13 +986,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_045_0_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_045_64_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_045_128_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_045_192_0")
 }],
@@ -1003,13 +1003,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_135_0_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_135_64_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_135_128_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_135_192_128")
 }],
@@ -1020,13 +1020,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_225_0_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_225_64_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_225_128_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_225_192_256")
 }],
@@ -1037,13 +1037,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_315_0_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_315_64_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_315_128_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple0_nature_work_315_192_384")
 }],
@@ -1086,13 +1086,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_045_0_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_045_64_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_045_128_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_045_192_0")
 }],
@@ -1103,13 +1103,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_135_0_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_135_64_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_135_128_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_135_192_128")
 }],
@@ -1120,13 +1120,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_225_0_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_225_64_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_225_128_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_225_192_256")
 }],
@@ -1137,13 +1137,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_315_0_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_315_64_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_315_128_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple1_nature_work_315_192_384")
 }],
@@ -1186,13 +1186,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_045_0_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_045_64_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_045_128_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_045_192_0")
 }],
@@ -1203,13 +1203,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_135_0_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_135_64_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_135_128_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_135_192_128")
 }],
@@ -1220,13 +1220,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_225_0_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_225_64_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_225_128_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_225_192_256")
 }],
@@ -1237,13 +1237,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_315_0_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_315_64_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_315_128_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple2_nature_work_315_192_384")
 }],
@@ -1286,13 +1286,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_045_0_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_045_64_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_045_128_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_045_192_0")
 }],
@@ -1303,13 +1303,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_135_0_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_135_64_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_135_128_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_135_192_128")
 }],
@@ -1320,13 +1320,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_225_0_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_225_64_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_225_128_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_225_192_256")
 }],
@@ -1337,13 +1337,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_315_0_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_315_64_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_315_128_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("maple3_nature_work_315_192_384")
 }],
@@ -1386,13 +1386,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_045_0_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_045_64_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_045_128_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_045_192_0")
 }],
@@ -1403,13 +1403,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_135_0_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_135_64_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_135_128_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_135_192_128")
 }],
@@ -1420,13 +1420,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_225_0_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_225_64_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_225_128_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_225_192_256")
 }],
@@ -1437,13 +1437,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_315_0_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_315_64_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_315_128_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce0_nature_work_315_192_384")
 }],
@@ -1486,13 +1486,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_045_0_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_045_64_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_045_128_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_045_192_0")
 }],
@@ -1503,13 +1503,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_135_0_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_135_64_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_135_128_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_135_192_128")
 }],
@@ -1520,13 +1520,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_225_0_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_225_64_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_225_128_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_225_192_256")
 }],
@@ -1537,13 +1537,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_315_0_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_315_64_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_315_128_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("spruce1_nature_work_315_192_384")
 }],
@@ -1586,13 +1586,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_045_0_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_045_64_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_045_128_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_045_192_0")
 }],
@@ -1603,13 +1603,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_135_0_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_135_64_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_135_128_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_135_192_128")
 }],
@@ -1620,13 +1620,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_225_0_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_225_64_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_225_128_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_225_192_256")
 }],
@@ -1637,13 +1637,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_315_0_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_315_64_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_315_128_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo0_nature_work_315_192_384")
 }],
@@ -1686,13 +1686,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_045_0_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_045_64_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_045_128_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_045_192_0")
 }],
@@ -1703,13 +1703,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_135_0_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_135_64_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_135_128_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_135_192_128")
 }],
@@ -1720,13 +1720,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_225_0_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_225_64_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_225_128_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_225_192_256")
 }],
@@ -1737,13 +1737,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_315_0_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_315_64_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_315_128_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo1_nature_work_315_192_384")
 }],
@@ -1786,13 +1786,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_045_0_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_045_64_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_045_128_0")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_045_192_0")
 }],
@@ -1803,13 +1803,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_135_0_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_135_64_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_135_128_128")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_135_192_128")
 }],
@@ -1820,13 +1820,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_225_0_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_225_64_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_225_128_256")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_225_192_256")
 }],
@@ -1837,13 +1837,13 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_315_0_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_315_64_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_315_128_384")
-}, {
+},{
 "duration": 1.0,
 "texture": SubResource("tupelo2_nature_work_315_192_384")
 }],

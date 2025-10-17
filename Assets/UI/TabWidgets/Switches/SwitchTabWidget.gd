@@ -23,6 +23,8 @@ class_name SwitchTabWidget
 var target_tab_container: TabContainer
 
 func _ready() -> void:
+  if Engine.is_editor_hint():
+    return
   var node := get_node("../../../ScrollContainer/TabContainer")
   if node == null:
     push_error("../../../ScrollContainer/TabContainer not found for SwitchTabWidget for ", self)

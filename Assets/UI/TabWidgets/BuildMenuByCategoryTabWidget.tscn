@@ -61,7 +61,10 @@ layout_mode = 2
 custom_minimum_size = Vector2(40, 46)
 layout_mode = 2
 
-[node name="TabContainer" parent="." index="1"]
+[node name="ScrollContainer" parent="." index="1"]
+custom_minimum_size = Vector2(0, 331)
+
+[node name="TabContainer" parent="ScrollContainer" index="0"]
 current_tab = 0
 
 [node name="Settlement" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="1"]

@@ -13,8 +13,12 @@ class_name MoveByCellComponent
 @export var allowed_movement: AllowedMovementTypes = AllowedMovementTypes.MOVE_ON_ROAD:
   set(value):
     allowed_movement = value
+
+    if Engine.is_editor_hint():
+      return
+
     if pathfinding_node == null:
-      push_warning("Pathfinding node is not found")
+      push_error("Pathfinding node is not found")
     else:
       match allowed_movement:
         AllowedMovementTypes.MOVE_ON_WATER:
@@ -53,10 +57,14 @@ signal orientation_changed(orientation: BuildingActionSet.Orientations)
 func _ready():
   if object_to_be_moved == null:
     object_to_be_moved = self.get_node("..")
+    
+  if Engine.is_editor_hint():
+    return
+
   if pathfinding_node == null:
     pathfinding_node = self.get_node("/root/Main/Pathfinding")
   if pathfinding_node == null:
-    push_warning("Pathfinding node is not found")
+    push_error("Pathfinding node is not found")
   else:
     match allowed_movement:
       AllowedMovementTypes.MOVE_ON_WATER:

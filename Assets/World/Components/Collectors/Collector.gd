@@ -29,7 +29,7 @@ const CollectorTypes: Dictionary[StringName, StringName] = {
 @export var radius: int = 10
 @export var velocity: float    # TODO: not used yet
 
-@onready var built_tilemap: BuiltTileMap = self.get_node("/root/Main/BuiltTileMap")
+@onready var built_tilemap: BuiltTileMap = self.get_node("/root/Main/BuiltTileMap") if not Engine.is_editor_hint() else null
 @onready var parent_building: Building2D = self.get_parent()
 
 # var building_from: Building2D

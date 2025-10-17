@@ -1,797 +1,699 @@
 [gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cuhukershiptr"]
 
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/huker_ship/huker_ship_sailors_as_huker0_attack_left.png" id="huker_ship_sailors_as_huker0_attack_left"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/huker_ship/huker_ship_sailors_as_huker0_attack_right.png" id="huker_ship_sailors_as_huker0_attack_right"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/huker_ship/huker_ship_sailors_as_huker0_color_idle.png" id="huker_ship_sailors_as_huker0_color_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/huker_ship/huker_ship_sailors_as_huker0_color_move.png" id="huker_ship_sailors_as_huker0_color_move"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/huker_ship/huker_ship_sailors_as_huker0_idle.png" id="huker_ship_sailors_as_huker0_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/huker_ship/huker_ship_sailors_as_huker0_move.png" id="huker_ship_sailors_as_huker0_move"]
+[ext_resource type="Texture2D" uid="uid://b12uj5lgnrqqs" path="res://Assets/World/Units2/huker_ship/huker_ship_sailors_as_huker0_attack_left.png" id="huker_ship_sailors_as_huker0_attack_left"]
+[ext_resource type="Texture2D" uid="uid://dwd7dqggwg6q3" path="res://Assets/World/Units2/huker_ship/huker_ship_sailors_as_huker0_attack_right.png" id="huker_ship_sailors_as_huker0_attack_right"]
+[ext_resource type="Texture2D" uid="uid://3uxhf81uasrs" path="res://Assets/World/Units2/huker_ship/huker_ship_sailors_as_huker0_color_idle.png" id="huker_ship_sailors_as_huker0_color_idle"]
+[ext_resource type="Texture2D" uid="uid://d1plvqty4t7rm" path="res://Assets/World/Units2/huker_ship/huker_ship_sailors_as_huker0_color_move.png" id="huker_ship_sailors_as_huker0_color_move"]
+[ext_resource type="Texture2D" uid="uid://gd01sgefn3d6" path="res://Assets/World/Units2/huker_ship/huker_ship_sailors_as_huker0_idle.png" id="huker_ship_sailors_as_huker0_idle"]
+[ext_resource type="Texture2D" uid="uid://d132mr15qfrbs" path="res://Assets/World/Units2/huker_ship/huker_ship_sailors_as_huker0_move.png" id="huker_ship_sailors_as_huker0_move"]
 
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.000_0_0"]
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_000_0_0"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
 region = Rect2(0, 0, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.000_192_0"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_000_192_0"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
 region = Rect2(192, 0, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.135_0_576"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
-region = Rect2(0, 576, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.135_192_576"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
-region = Rect2(192, 576, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.180_0_768"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
-region = Rect2(0, 768, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.180_192_768"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
-region = Rect2(192, 768, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.225_0_960"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
-region = Rect2(0, 960, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.225_192_960"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
-region = Rect2(192, 960, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.270_0_1152"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
-region = Rect2(0, 1152, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.270_192_1152"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
-region = Rect2(192, 1152, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.315_0_1344"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
-region = Rect2(0, 1344, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.315_192_1344"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
-region = Rect2(192, 1344, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.045_0_192"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_045_0_192"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
 region = Rect2(0, 192, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.045_192_192"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_045_192_192"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
 region = Rect2(192, 192, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.090_0_384"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_090_0_384"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
 region = Rect2(0, 384, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_left.090_192_384"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_090_192_384"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
 region = Rect2(192, 384, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_135_0_576"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_135_192_576"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
+region = Rect2(192, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_180_0_768"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
+region = Rect2(0, 768, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_180_192_768"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
+region = Rect2(192, 768, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_225_0_960"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
+region = Rect2(0, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_225_192_960"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
+region = Rect2(192, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_270_0_1152"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
+region = Rect2(0, 1152, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_270_192_1152"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
+region = Rect2(192, 1152, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_315_0_1344"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
+region = Rect2(0, 1344, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_left_315_192_1344"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_left")
+region = Rect2(192, 1344, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_000_0_0"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
 region = Rect2(0, 0, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.000_192_0"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_000_192_0"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
 region = Rect2(192, 0, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.135_0_576"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
-region = Rect2(0, 576, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.135_192_576"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
-region = Rect2(192, 576, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.180_0_768"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
-region = Rect2(0, 768, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.180_192_768"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
-region = Rect2(192, 768, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.225_0_960"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
-region = Rect2(0, 960, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.225_192_960"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
-region = Rect2(192, 960, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.270_0_1152"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
-region = Rect2(0, 1152, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.270_192_1152"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
-region = Rect2(192, 1152, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.315_0_1344"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
-region = Rect2(0, 1344, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.315_192_1344"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
-region = Rect2(192, 1344, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.045_0_192"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_045_0_192"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
 region = Rect2(0, 192, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.045_192_192"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_045_192_192"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
 region = Rect2(192, 192, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.090_0_384"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_090_0_384"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
 region = Rect2(0, 384, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.attack_right.090_192_384"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_090_192_384"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
 region = Rect2(192, 384, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_idle.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_135_0_576"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_135_192_576"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
+region = Rect2(192, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_180_0_768"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
+region = Rect2(0, 768, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_180_192_768"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
+region = Rect2(192, 768, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_225_0_960"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
+region = Rect2(0, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_225_192_960"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
+region = Rect2(192, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_270_0_1152"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
+region = Rect2(0, 1152, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_270_192_1152"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
+region = Rect2(192, 1152, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_315_0_1344"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
+region = Rect2(0, 1344, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_attack_right_315_192_1344"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_attack_right")
+region = Rect2(192, 1344, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_idle_000_0_0"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
 region = Rect2(0, 0, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_idle.135_0_576"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
-region = Rect2(0, 576, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_idle.180_0_768"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
-region = Rect2(0, 768, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_idle.225_0_960"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
-region = Rect2(0, 960, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_idle.270_0_1152"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
-region = Rect2(0, 1152, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_idle.315_0_1344"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
-region = Rect2(0, 1344, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_idle.045_0_192"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_idle_045_0_192"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
 region = Rect2(0, 192, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_idle.090_0_384"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_idle_090_0_384"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
 region = Rect2(0, 384, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_move.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_idle_135_0_576"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_idle_180_0_768"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
+region = Rect2(0, 768, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_idle_225_0_960"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
+region = Rect2(0, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_idle_270_0_1152"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
+region = Rect2(0, 1152, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_idle_315_0_1344"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_color_idle")
+region = Rect2(0, 1344, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_move_000_0_0"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
 region = Rect2(0, 0, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_move.135_0_576"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
-region = Rect2(0, 576, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_move.180_0_768"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
-region = Rect2(0, 768, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_move.225_0_960"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
-region = Rect2(0, 960, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_move.270_0_1152"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
-region = Rect2(0, 1152, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_move.315_0_1344"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
-region = Rect2(0, 1344, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_move.045_0_192"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_move_045_0_192"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
 region = Rect2(0, 192, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.color_move.090_0_384"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_move_090_0_384"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
 region = Rect2(0, 384, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.idle.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_move_135_0_576"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_move_180_0_768"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
+region = Rect2(0, 768, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_move_225_0_960"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
+region = Rect2(0, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_move_270_0_1152"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
+region = Rect2(0, 1152, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_color_move_315_0_1344"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_color_move")
+region = Rect2(0, 1344, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_idle_000_0_0"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
 region = Rect2(0, 0, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.idle.135_0_576"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
-region = Rect2(0, 576, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.idle.180_0_768"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
-region = Rect2(0, 768, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.idle.225_0_960"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
-region = Rect2(0, 960, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.idle.270_0_1152"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
-region = Rect2(0, 1152, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.idle.315_0_1344"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
-region = Rect2(0, 1344, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.idle.045_0_192"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_idle_045_0_192"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
 region = Rect2(0, 192, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.idle.090_0_384"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_idle_090_0_384"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
 region = Rect2(0, 384, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.move.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_idle_135_0_576"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_idle_180_0_768"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
+region = Rect2(0, 768, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_idle_225_0_960"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
+region = Rect2(0, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_idle_270_0_1152"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
+region = Rect2(0, 1152, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_idle_315_0_1344"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_idle")
+region = Rect2(0, 1344, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_move_000_0_0"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_move")
 region = Rect2(0, 0, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.move.135_0_576"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_move")
-region = Rect2(0, 576, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.move.180_0_768"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_move")
-region = Rect2(0, 768, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.move.225_0_960"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_move")
-region = Rect2(0, 960, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.move.270_0_1152"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_move")
-region = Rect2(0, 1152, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.move.315_0_1344"]
-atlas = ExtResource("huker_ship_sailors_as_huker0_move")
-region = Rect2(0, 1344, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.move.045_0_192"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_move_045_0_192"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_move")
 region = Rect2(0, 192, 192, 192)
-[sub_resource type="AtlasTexture" id="huker0.sailors.move.090_0_384"]
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_move_090_0_384"]
 atlas = ExtResource("huker_ship_sailors_as_huker0_move")
 region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_move_135_0_576"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_move")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_move_180_0_768"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_move")
+region = Rect2(0, 768, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_move_225_0_960"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_move")
+region = Rect2(0, 960, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_move_270_0_1152"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_move")
+region = Rect2(0, 1152, 192, 192)
+
+[sub_resource type="AtlasTexture" id="huker0_sailors_move_315_0_1344"]
+atlas = ExtResource("huker_ship_sailors_as_huker0_move")
+region = Rect2(0, 1344, 192, 192)
 
 [resource]
-animations = [
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.000_0_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.000_192_0")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_left.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.135_0_576")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.135_192_576")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_left.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.180_0_768")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.180_192_768")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_left.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.225_0_960")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.225_192_960")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_left.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.270_0_1152")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.270_192_1152")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_left.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.315_0_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.315_192_1344")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_left.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.045_0_192")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.045_192_192")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_left.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.090_0_384")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_left.090_192_384")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_left.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.000_0_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.000_192_0")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_right.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.135_0_576")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.135_192_576")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_right.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.180_0_768")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.180_192_768")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_right.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.225_0_960")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.225_192_960")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_right.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.270_0_1152")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.270_192_1152")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_right.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.315_0_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.315_192_1344")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_right.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.045_0_192")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.045_192_192")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_right.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.090_0_384")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.attack_right.090_192_384")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.attack_right.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_idle.000_0_0")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_idle.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_idle.135_0_576")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_idle.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_idle.180_0_768")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_idle.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_idle.225_0_960")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_idle.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_idle.270_0_1152")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_idle.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_idle.315_0_1344")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_idle.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_idle.045_0_192")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_idle.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_idle.090_0_384")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_idle.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_move.000_0_0")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_move.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_move.135_0_576")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_move.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_move.180_0_768")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_move.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_move.225_0_960")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_move.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_move.270_0_1152")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_move.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_move.315_0_1344")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_move.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_move.045_0_192")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_move.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.color_move.090_0_384")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.color_move.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.idle.000_0_0")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.idle.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.idle.135_0_576")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.idle.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.idle.180_0_768")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.idle.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.idle.225_0_960")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.idle.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.idle.270_0_1152")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.idle.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.idle.315_0_1344")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.idle.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.idle.045_0_192")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.idle.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.idle.090_0_384")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.idle.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.move.000_0_0")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.move.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.move.135_0_576")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.move.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.move.180_0_768")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.move.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.move.225_0_960")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.move.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.move.270_0_1152")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.move.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.move.315_0_1344")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.move.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.move.045_0_192")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.move.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("huker0.sailors.move.090_0_384")
-      },
-        ],
-    "loop": true,
-    "name": &"huker0.sailors.move.090",
-    "speed": 5.0
-  },
-]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_000_0_0")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_000_192_0")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_left.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_045_0_192")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_045_192_192")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_left.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_090_0_384")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_090_192_384")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_left.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_135_0_576")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_135_192_576")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_left.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_180_0_768")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_180_192_768")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_left.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_225_0_960")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_225_192_960")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_left.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_270_0_1152")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_270_192_1152")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_left.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_315_0_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_left_315_192_1344")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_left.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_000_0_0")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_000_192_0")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_right.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_045_0_192")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_045_192_192")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_right.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_090_0_384")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_090_192_384")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_right.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_135_0_576")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_135_192_576")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_right.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_180_0_768")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_180_192_768")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_right.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_225_0_960")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_225_192_960")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_right.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_270_0_1152")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_270_192_1152")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_right.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_315_0_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_attack_right_315_192_1344")
+}],
+"loop": true,
+"name": &"huker0.sailors.attack_right.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_idle_000_0_0")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_idle.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_idle_045_0_192")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_idle_090_0_384")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_idle.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_idle_135_0_576")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_idle_180_0_768")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_idle.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_idle_225_0_960")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_idle_270_0_1152")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_idle.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_idle_315_0_1344")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_move_000_0_0")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_move.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_move_045_0_192")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_move.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_move_090_0_384")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_move.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_move_135_0_576")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_move.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_move_180_0_768")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_move.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_move_225_0_960")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_move.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_move_270_0_1152")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_move.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_color_move_315_0_1344")
+}],
+"loop": true,
+"name": &"huker0.sailors.color_move.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_idle_000_0_0")
+}],
+"loop": true,
+"name": &"huker0.sailors.idle.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_idle_045_0_192")
+}],
+"loop": true,
+"name": &"huker0.sailors.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_idle_090_0_384")
+}],
+"loop": true,
+"name": &"huker0.sailors.idle.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_idle_135_0_576")
+}],
+"loop": true,
+"name": &"huker0.sailors.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_idle_180_0_768")
+}],
+"loop": true,
+"name": &"huker0.sailors.idle.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_idle_225_0_960")
+}],
+"loop": true,
+"name": &"huker0.sailors.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_idle_270_0_1152")
+}],
+"loop": true,
+"name": &"huker0.sailors.idle.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_idle_315_0_1344")
+}],
+"loop": true,
+"name": &"huker0.sailors.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_move_000_0_0")
+}],
+"loop": true,
+"name": &"huker0.sailors.move.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_move_045_0_192")
+}],
+"loop": true,
+"name": &"huker0.sailors.move.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_move_090_0_384")
+}],
+"loop": true,
+"name": &"huker0.sailors.move.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_move_135_0_576")
+}],
+"loop": true,
+"name": &"huker0.sailors.move.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_move_180_0_768")
+}],
+"loop": true,
+"name": &"huker0.sailors.move.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_move_225_0_960")
+}],
+"loop": true,
+"name": &"huker0.sailors.move.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_move_270_0_1152")
+}],
+"loop": true,
+"name": &"huker0.sailors.move.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("huker0_sailors_move_315_0_1344")
+}],
+"loop": true,
+"name": &"huker0.sailors.move.315",
+"speed": 5.0
+}]

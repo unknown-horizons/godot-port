@@ -23,13 +23,15 @@ texture_hover = ExtResource("13")
 [node name="BuySellSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="1" instance=ExtResource("7")]
 layout_mode = 2
 
-[node name="TabContainer" parent="." index="1"]
-offset_left = -110.0
-offset_right = 110.0
-offset_bottom = 181.0
+[node name="ScrollContainer" parent="." index="1"]
+custom_minimum_size = Vector2(0, 177)
+
+[node name="TabContainer" parent="ScrollContainer" index="0"]
+current_tab = 0
 
 [node name="ShipMenu" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="1"]
 layout_mode = 2
+metadata/_tab_index = 0
 
 [node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/ShipMenu" index="0"]
 layout_mode = 2

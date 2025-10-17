@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://1jrftdm3ck1n"]
+[gd_scene load_steps=9 format=3 uid="uid://1jrftdm3ck1n"]
 
 [ext_resource type="PackedScene" uid="uid://dtee0xbn3mwpi" path="res://Assets/UI/TabWidgets/Views/InhabitantsView.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://glq6yuqh3xap" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants6SwitchTabWidget.tscn" id="2"]
@@ -7,7 +7,6 @@
 [ext_resource type="PackedScene" uid="uid://dqy1022bidoi7" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants3SwitchTabWidget.tscn" id="5"]
 [ext_resource type="PackedScene" uid="uid://bc54ix30k47yf" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants2SwitchTabWidget.tscn" id="6"]
 [ext_resource type="PackedScene" uid="uid://w5w3wg8h38fg" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants4SwitchTabWidget.tscn" id="7"]
-[ext_resource type="FontFile" uid="uid://c7mf5eos0ogry" path="res://External/Fonts/LinLibertineB.ttf" id="9_udhhm"]
 [ext_resource type="PackedScene" uid="uid://cbwxslwr25ww" path="res://Assets/UI/TabWidgets/Switches/Switches/Inhabitants1SwitchTabWidget.tscn" id="17"]
 
 [node name="MainSquareTabWidget" instance=ExtResource("3")]
@@ -16,245 +15,50 @@
 layout_mode = 2
 
 [node name="Inhabitants2SwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="2" instance=ExtResource("6")]
-visible = false
 layout_mode = 2
 
 [node name="Inhabitants3SwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="3" instance=ExtResource("5")]
-visible = false
 layout_mode = 2
 
 [node name="Inhabitants4SwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="4" instance=ExtResource("7")]
-visible = false
 custom_minimum_size = Vector2(40, 46)
 layout_mode = 2
 
 [node name="Inhabitants5SwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="5" instance=ExtResource("4")]
-visible = false
 custom_minimum_size = Vector2(40, 46)
 layout_mode = 2
 
 [node name="Inhabitants6SwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="6" instance=ExtResource("2")]
-visible = false
 custom_minimum_size = Vector2(40, 46)
 layout_mode = 2
+
+[node name="ScrollContainer" parent="." index="1"]
+custom_minimum_size = Vector2(0, 289)
+
+[node name="TabContainer" parent="ScrollContainer" index="0"]
+current_tab = 0
 
 [node name="Sailors" parent="ScrollContainer/TabContainer" index="2" instance=ExtResource("1")]
 visible = false
 layout_mode = 2
-
-[node name="Caption" parent="ScrollContainer/TabContainer/Sailors" index="0"]
-text = "Sailors"
-
-[node name="TextureRect" parent="ScrollContainer/TabContainer/Sailors/MarginContainer/VBoxContainer/AllowButton" index="0"]
-layout_mode = 0
-anchors_preset = 0
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 52.0
-offset_bottom = 52.0
-grow_horizontal = 1
-grow_vertical = 1
-
-[node name="TextureRect" parent="ScrollContainer/TabContainer/Sailors/MarginContainer/VBoxContainer/GridContainer" index="1"]
-expand_mode = 1
-
-[node name="TextureRect2" parent="ScrollContainer/TabContainer/Sailors/MarginContainer/VBoxContainer/GridContainer" index="2"]
-expand_mode = 1
-
-[node name="TextureRect3" parent="ScrollContainer/TabContainer/Sailors/MarginContainer/VBoxContainer/GridContainer" index="3"]
-expand_mode = 1
-
-[node name="LabelEx" parent="ScrollContainer/TabContainer/Sailors/MarginContainer/VBoxContainer/GridContainer2" index="1"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx2" parent="ScrollContainer/TabContainer/Sailors/MarginContainer/VBoxContainer/GridContainer2" index="2"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx3" parent="ScrollContainer/TabContainer/Sailors/MarginContainer/VBoxContainer/GridContainer2" index="4"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx4" parent="ScrollContainer/TabContainer/Sailors/MarginContainer/VBoxContainer/GridContainer2" index="5"]
-theme_override_fonts/font = ExtResource("9_udhhm")
+metadata/_tab_index = 1
 
 [node name="Pioneers" parent="ScrollContainer/TabContainer" index="3" instance=ExtResource("1")]
 visible = false
 layout_mode = 2
-
-[node name="Caption" parent="ScrollContainer/TabContainer/Pioneers" index="0"]
-text = "Pioneers"
-
-[node name="TextureRect" parent="ScrollContainer/TabContainer/Pioneers/MarginContainer/VBoxContainer/AllowButton" index="0"]
-layout_mode = 0
-anchors_preset = 0
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 52.0
-offset_bottom = 52.0
-grow_horizontal = 1
-grow_vertical = 1
-
-[node name="TextureRect" parent="ScrollContainer/TabContainer/Pioneers/MarginContainer/VBoxContainer/GridContainer" index="1"]
-expand_mode = 1
-
-[node name="TextureRect2" parent="ScrollContainer/TabContainer/Pioneers/MarginContainer/VBoxContainer/GridContainer" index="2"]
-expand_mode = 1
-
-[node name="TextureRect3" parent="ScrollContainer/TabContainer/Pioneers/MarginContainer/VBoxContainer/GridContainer" index="3"]
-expand_mode = 1
-
-[node name="LabelEx" parent="ScrollContainer/TabContainer/Pioneers/MarginContainer/VBoxContainer/GridContainer2" index="1"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx2" parent="ScrollContainer/TabContainer/Pioneers/MarginContainer/VBoxContainer/GridContainer2" index="2"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx3" parent="ScrollContainer/TabContainer/Pioneers/MarginContainer/VBoxContainer/GridContainer2" index="4"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx4" parent="ScrollContainer/TabContainer/Pioneers/MarginContainer/VBoxContainer/GridContainer2" index="5"]
-theme_override_fonts/font = ExtResource("9_udhhm")
+metadata/_tab_index = 2
 
 [node name="Settlers" parent="ScrollContainer/TabContainer" index="4" instance=ExtResource("1")]
 visible = false
 layout_mode = 2
-
-[node name="Caption" parent="ScrollContainer/TabContainer/Settlers" index="0"]
-text = "Settlers"
-
-[node name="TextureRect" parent="ScrollContainer/TabContainer/Settlers/MarginContainer/VBoxContainer/AllowButton" index="0"]
-layout_mode = 0
-anchors_preset = 0
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 52.0
-offset_bottom = 52.0
-grow_horizontal = 1
-grow_vertical = 1
-
-[node name="TextureRect" parent="ScrollContainer/TabContainer/Settlers/MarginContainer/VBoxContainer/GridContainer" index="1"]
-expand_mode = 1
-
-[node name="TextureRect2" parent="ScrollContainer/TabContainer/Settlers/MarginContainer/VBoxContainer/GridContainer" index="2"]
-expand_mode = 1
-
-[node name="TextureRect3" parent="ScrollContainer/TabContainer/Settlers/MarginContainer/VBoxContainer/GridContainer" index="3"]
-expand_mode = 1
-
-[node name="LabelEx" parent="ScrollContainer/TabContainer/Settlers/MarginContainer/VBoxContainer/GridContainer2" index="1"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx2" parent="ScrollContainer/TabContainer/Settlers/MarginContainer/VBoxContainer/GridContainer2" index="2"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx3" parent="ScrollContainer/TabContainer/Settlers/MarginContainer/VBoxContainer/GridContainer2" index="4"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx4" parent="ScrollContainer/TabContainer/Settlers/MarginContainer/VBoxContainer/GridContainer2" index="5"]
-theme_override_fonts/font = ExtResource("9_udhhm")
+metadata/_tab_index = 3
 
 [node name="Citizens" parent="ScrollContainer/TabContainer" index="5" instance=ExtResource("1")]
 visible = false
 layout_mode = 2
-
-[node name="Caption" parent="ScrollContainer/TabContainer/Citizens" index="0"]
-text = "Citizens"
-
-[node name="TextureRect" parent="ScrollContainer/TabContainer/Citizens/MarginContainer/VBoxContainer/AllowButton" index="0"]
-layout_mode = 0
-anchors_preset = 0
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 52.0
-offset_bottom = 52.0
-grow_horizontal = 1
-grow_vertical = 1
-
-[node name="TextureRect" parent="ScrollContainer/TabContainer/Citizens/MarginContainer/VBoxContainer/GridContainer" index="1"]
-expand_mode = 1
-
-[node name="TextureRect2" parent="ScrollContainer/TabContainer/Citizens/MarginContainer/VBoxContainer/GridContainer" index="2"]
-expand_mode = 1
-
-[node name="TextureRect3" parent="ScrollContainer/TabContainer/Citizens/MarginContainer/VBoxContainer/GridContainer" index="3"]
-expand_mode = 1
-
-[node name="LabelEx" parent="ScrollContainer/TabContainer/Citizens/MarginContainer/VBoxContainer/GridContainer2" index="1"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx2" parent="ScrollContainer/TabContainer/Citizens/MarginContainer/VBoxContainer/GridContainer2" index="2"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx3" parent="ScrollContainer/TabContainer/Citizens/MarginContainer/VBoxContainer/GridContainer2" index="4"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx4" parent="ScrollContainer/TabContainer/Citizens/MarginContainer/VBoxContainer/GridContainer2" index="5"]
-theme_override_fonts/font = ExtResource("9_udhhm")
+metadata/_tab_index = 4
 
 [node name="Merchants" parent="ScrollContainer/TabContainer" index="6" instance=ExtResource("1")]
 visible = false
 layout_mode = 2
-
-[node name="Caption" parent="ScrollContainer/TabContainer/Merchants" index="0"]
-text = "Merchants"
-
-[node name="TextureRect" parent="ScrollContainer/TabContainer/Merchants/MarginContainer/VBoxContainer/AllowButton" index="0"]
-layout_mode = 0
-anchors_preset = 0
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_left = 0.0
-offset_top = 0.0
-offset_right = 52.0
-offset_bottom = 52.0
-grow_horizontal = 1
-grow_vertical = 1
-
-[node name="TextureRect" parent="ScrollContainer/TabContainer/Merchants/MarginContainer/VBoxContainer/GridContainer" index="1"]
-expand_mode = 1
-
-[node name="TextureRect2" parent="ScrollContainer/TabContainer/Merchants/MarginContainer/VBoxContainer/GridContainer" index="2"]
-expand_mode = 1
-
-[node name="TextureRect3" parent="ScrollContainer/TabContainer/Merchants/MarginContainer/VBoxContainer/GridContainer" index="3"]
-expand_mode = 1
-
-[node name="LabelEx" parent="ScrollContainer/TabContainer/Merchants/MarginContainer/VBoxContainer/GridContainer2" index="1"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx2" parent="ScrollContainer/TabContainer/Merchants/MarginContainer/VBoxContainer/GridContainer2" index="2"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx3" parent="ScrollContainer/TabContainer/Merchants/MarginContainer/VBoxContainer/GridContainer2" index="4"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[node name="LabelEx4" parent="ScrollContainer/TabContainer/Merchants/MarginContainer/VBoxContainer/GridContainer2" index="5"]
-theme_override_fonts/font = ExtResource("9_udhhm")
-
-[editable path="WidgetDetail/Body/TabContainer/Sailors"]
-[editable path="WidgetDetail/Body/TabContainer/Sailors/MarginContainer/VBoxContainer/AllowButton"]
-[editable path="WidgetDetail/Body/TabContainer/Pioneers"]
-[editable path="WidgetDetail/Body/TabContainer/Pioneers/MarginContainer/VBoxContainer/AllowButton"]
-[editable path="WidgetDetail/Body/TabContainer/Settlers"]
-[editable path="WidgetDetail/Body/TabContainer/Settlers/MarginContainer/VBoxContainer/AllowButton"]
-[editable path="WidgetDetail/Body/TabContainer/Citizens"]
-[editable path="WidgetDetail/Body/TabContainer/Citizens/MarginContainer/VBoxContainer/AllowButton"]
-[editable path="WidgetDetail/Body/TabContainer/Merchants"]
-[editable path="WidgetDetail/Body/TabContainer/Merchants/MarginContainer/VBoxContainer/AllowButton"]
+metadata/_tab_index = 5
