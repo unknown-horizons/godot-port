@@ -1,233 +1,199 @@
 [gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cuusablefistr"]
 
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/usable_fisher_boat/usable_fisher_boat_sailors_as_fisher0_idle.png" id="usable_fisher_boat_sailors_as_fisher0_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/usable_fisher_boat/usable_fisher_boat_sailors_as_fisher0_move.png" id="usable_fisher_boat_sailors_as_fisher0_move"]
+[ext_resource type="Texture2D" uid="uid://cdmpbdmjryoqb" path="res://Assets/World/Units2/usable_fisher_boat/usable_fisher_boat_sailors_as_fisher0_idle.png" id="usable_fisher_boat_sailors_as_fisher0_idle"]
+[ext_resource type="Texture2D" uid="uid://clg4ecy1y7s5u" path="res://Assets/World/Units2/usable_fisher_boat/usable_fisher_boat_sailors_as_fisher0_move.png" id="usable_fisher_boat_sailors_as_fisher0_move"]
 
-[sub_resource type="AtlasTexture" id="fisher0.sailors.idle.000_0_0"]
+[sub_resource type="AtlasTexture" id="fisher0_sailors_idle_000_0_0"]
 atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
 region = Rect2(0, 0, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.idle.135_0_192"]
-atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
-region = Rect2(0, 192, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.idle.180_0_256"]
-atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
-region = Rect2(0, 256, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.idle.225_0_320"]
-atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
-region = Rect2(0, 320, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.idle.270_0_384"]
-atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
-region = Rect2(0, 384, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.idle.315_0_448"]
-atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
-region = Rect2(0, 448, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.idle.045_0_64"]
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_idle_045_0_64"]
 atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
 region = Rect2(0, 64, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.idle.090_0_128"]
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_idle_090_0_128"]
 atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
 region = Rect2(0, 128, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.move.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_idle_135_0_192"]
+atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
+region = Rect2(0, 192, 64, 64)
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_idle_180_0_256"]
+atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
+region = Rect2(0, 256, 64, 64)
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_idle_225_0_320"]
+atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
+region = Rect2(0, 320, 64, 64)
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_idle_270_0_384"]
+atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
+region = Rect2(0, 384, 64, 64)
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_idle_315_0_448"]
+atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_idle")
+region = Rect2(0, 448, 64, 64)
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_move_000_0_0"]
 atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
 region = Rect2(0, 0, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.move.135_0_192"]
-atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
-region = Rect2(0, 192, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.move.180_0_256"]
-atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
-region = Rect2(0, 256, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.move.225_0_320"]
-atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
-region = Rect2(0, 320, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.move.270_0_384"]
-atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
-region = Rect2(0, 384, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.move.315_0_448"]
-atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
-region = Rect2(0, 448, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.move.045_0_64"]
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_move_045_0_64"]
 atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
 region = Rect2(0, 64, 64, 64)
-[sub_resource type="AtlasTexture" id="fisher0.sailors.move.090_0_128"]
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_move_090_0_128"]
 atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
 region = Rect2(0, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_move_135_0_192"]
+atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
+region = Rect2(0, 192, 64, 64)
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_move_180_0_256"]
+atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
+region = Rect2(0, 256, 64, 64)
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_move_225_0_320"]
+atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
+region = Rect2(0, 320, 64, 64)
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_move_270_0_384"]
+atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
+region = Rect2(0, 384, 64, 64)
+
+[sub_resource type="AtlasTexture" id="fisher0_sailors_move_315_0_448"]
+atlas = ExtResource("usable_fisher_boat_sailors_as_fisher0_move")
+region = Rect2(0, 448, 64, 64)
 
 [resource]
-animations = [
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.idle.000_0_0")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.idle.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.idle.135_0_192")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.idle.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.idle.180_0_256")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.idle.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.idle.225_0_320")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.idle.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.idle.270_0_384")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.idle.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.idle.315_0_448")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.idle.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.idle.045_0_64")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.idle.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.idle.090_0_128")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.idle.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.move.000_0_0")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.move.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.move.135_0_192")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.move.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.move.180_0_256")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.move.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.move.225_0_320")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.move.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.move.270_0_384")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.move.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.move.315_0_448")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.move.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.move.045_0_64")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.move.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("fisher0.sailors.move.090_0_128")
-      },
-        ],
-    "loop": true,
-    "name": &"fisher0.sailors.move.090",
-    "speed": 5.0
-  },
-]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_idle_000_0_0")
+}],
+"loop": true,
+"name": &"fisher0.sailors.idle.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_idle_045_0_64")
+}],
+"loop": true,
+"name": &"fisher0.sailors.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_idle_090_0_128")
+}],
+"loop": true,
+"name": &"fisher0.sailors.idle.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_idle_135_0_192")
+}],
+"loop": true,
+"name": &"fisher0.sailors.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_idle_180_0_256")
+}],
+"loop": true,
+"name": &"fisher0.sailors.idle.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_idle_225_0_320")
+}],
+"loop": true,
+"name": &"fisher0.sailors.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_idle_270_0_384")
+}],
+"loop": true,
+"name": &"fisher0.sailors.idle.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_idle_315_0_448")
+}],
+"loop": true,
+"name": &"fisher0.sailors.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_move_000_0_0")
+}],
+"loop": true,
+"name": &"fisher0.sailors.move.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_move_045_0_64")
+}],
+"loop": true,
+"name": &"fisher0.sailors.move.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_move_090_0_128")
+}],
+"loop": true,
+"name": &"fisher0.sailors.move.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_move_135_0_192")
+}],
+"loop": true,
+"name": &"fisher0.sailors.move.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_move_180_0_256")
+}],
+"loop": true,
+"name": &"fisher0.sailors.move.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_move_225_0_320")
+}],
+"loop": true,
+"name": &"fisher0.sailors.move.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_move_270_0_384")
+}],
+"loop": true,
+"name": &"fisher0.sailors.move.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fisher0_sailors_move_315_0_448")
+}],
+"loop": true,
+"name": &"fisher0.sailors.move.315",
+"speed": 5.0
+}]

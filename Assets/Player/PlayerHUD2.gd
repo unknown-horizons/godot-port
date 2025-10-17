@@ -45,15 +45,3 @@ func _input(event: InputEvent) -> void:
           tab_container.current_tab = 0
       _:
         tab_container.current_tab = 0
-      
-    # for tab_widget in tab_container.get_children():
-    #   var building_menu_tab_widget = tab_widget as ProductionOverviewTab
-    #   var ship_menu_tab_widget = tab_widget as ShipMenuTabWidget
-    #   if tab_widget.name == target_tab_widget_name:
-    #     if building_menu_tab_widget:
-    #       building_menu_tab_widget.selected_objects = selected_objects
-    #     if ship_menu_tab_widget:
-    #       ship_menu_tab_widget.selected_objects = selected_objects
-    #     var tab_index := get_tab_index(tab_container, tab_widget)
-    #     tab_container.current_tab = tab_index
-    #     break

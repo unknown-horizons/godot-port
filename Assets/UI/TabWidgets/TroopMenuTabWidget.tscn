@@ -12,9 +12,11 @@ script = ExtResource("2")
 custom_minimum_size = Vector2(42, 46)
 layout_mode = 2
 
-[node name="TabContainer" parent="." index="1"]
-offset_top = 10.0
-offset_bottom = 76.0
+[node name="ScrollContainer" parent="." index="1"]
+custom_minimum_size = Vector2(0, -138)
+
+[node name="TabContainer" parent="ScrollContainer" index="0"]
+current_tab = 0
 
 [node name="LabelEx" parent="ScrollContainer/TabContainer" index="1" instance=ExtResource("5")]
 layout_mode = 2
@@ -22,3 +24,4 @@ text = "Troop Menu
 
 Not implemented yet"
 horizontal_alignment = 1
+metadata/_tab_index = 0

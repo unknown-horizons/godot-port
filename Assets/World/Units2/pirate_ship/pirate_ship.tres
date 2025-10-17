@@ -1,2259 +1,2191 @@
 [gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cupirateshitr"]
 
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/pirate_ship/pirate_ship_sailors_as_pirate0_idle.png" id="pirate_ship_sailors_as_pirate0_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/pirate_ship/pirate_ship_sailors_as_pirate0_move.png" id="pirate_ship_sailors_as_pirate0_move"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/pirate_ship/pirate_ship_sailors_as_pirate0_wateroverlay.png" id="pirate_ship_sailors_as_pirate0_wateroverlay"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/pirate_ship/pirate_ship_sailors_as_pirate1_idle.png" id="pirate_ship_sailors_as_pirate1_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/pirate_ship/pirate_ship_sailors_as_pirate1_move.png" id="pirate_ship_sailors_as_pirate1_move"]
+[ext_resource type="Texture2D" uid="uid://cnuhwiexx8rhx" path="res://Assets/World/Units2/pirate_ship/pirate_ship_sailors_as_pirate0_idle.png" id="pirate_ship_sailors_as_pirate0_idle"]
+[ext_resource type="Texture2D" uid="uid://cga3v880esq32" path="res://Assets/World/Units2/pirate_ship/pirate_ship_sailors_as_pirate0_move.png" id="pirate_ship_sailors_as_pirate0_move"]
+[ext_resource type="Texture2D" uid="uid://cpkkdwwrsgdjs" path="res://Assets/World/Units2/pirate_ship/pirate_ship_sailors_as_pirate0_wateroverlay.png" id="pirate_ship_sailors_as_pirate0_wateroverlay"]
+[ext_resource type="Texture2D" uid="uid://bom6iiqafbgpk" path="res://Assets/World/Units2/pirate_ship/pirate_ship_sailors_as_pirate1_idle.png" id="pirate_ship_sailors_as_pirate1_idle"]
+[ext_resource type="Texture2D" uid="uid://o3a385j35apa" path="res://Assets/World/Units2/pirate_ship/pirate_ship_sailors_as_pirate1_move.png" id="pirate_ship_sailors_as_pirate1_move"]
 
-[sub_resource type="AtlasTexture" id="pirate0.sailors.idle.000_0_0"]
+[sub_resource type="AtlasTexture" id="pirate0_sailors_idle_000_0_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
 region = Rect2(0, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.idle.135_0_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
-region = Rect2(0, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.idle.180_0_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
-region = Rect2(0, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.idle.225_0_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
-region = Rect2(0, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.idle.270_0_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
-region = Rect2(0, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.idle.315_0_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
-region = Rect2(0, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.idle.045_0_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_idle_045_0_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
 region = Rect2(0, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.idle.090_0_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_idle_090_0_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
 region = Rect2(0, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_idle_135_0_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
+region = Rect2(0, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_idle_180_0_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
+region = Rect2(0, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_idle_225_0_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
+region = Rect2(0, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_idle_270_0_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
+region = Rect2(0, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_idle_315_0_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_idle")
+region = Rect2(0, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_0_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(0, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_224_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_224_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(224, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_448_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_448_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(448, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_672_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_672_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(672, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_896_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_896_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(896, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_1120_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_1120_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(1120, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_1344_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_1344_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(1344, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_1568_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_1568_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(1568, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_1792_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_1792_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(1792, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_2016_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_2016_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2016, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_2240_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_2240_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2240, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_2464_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_2464_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2464, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_2688_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_2688_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2688, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_2912_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_2912_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2912, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_3136_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_3136_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(3136, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.000_3360_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_000_3360_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(3360, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_0_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(0, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_224_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(224, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_448_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(448, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_672_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(672, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_896_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(896, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_1120_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1120, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_1344_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1344, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_1568_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1568, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_1792_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1792, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_2016_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2016, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_2240_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2240, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_2464_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2464, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_2688_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2688, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_2912_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2912, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_3136_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(3136, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.135_3360_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(3360, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_0_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(0, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_224_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(224, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_448_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(448, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_672_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(672, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_896_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(896, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_1120_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1120, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_1344_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1344, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_1568_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1568, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_1792_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1792, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_2016_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2016, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_2240_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2240, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_2464_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2464, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_2688_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2688, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_2912_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2912, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_3136_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(3136, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.180_3360_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(3360, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_0_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(0, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_224_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(224, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_448_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(448, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_672_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(672, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_896_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(896, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_1120_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1120, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_1344_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1344, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_1568_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1568, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_1792_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1792, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_2016_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2016, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_2240_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2240, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_2464_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2464, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_2688_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2688, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_2912_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2912, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_3136_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(3136, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.225_3360_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(3360, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_0_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(0, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_224_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(224, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_448_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(448, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_672_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(672, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_896_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(896, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_1120_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1120, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_1344_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1344, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_1568_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1568, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_1792_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1792, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_2016_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2016, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_2240_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2240, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_2464_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2464, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_2688_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2688, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_2912_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2912, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_3136_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(3136, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.270_3360_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(3360, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_0_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(0, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_224_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(224, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_448_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(448, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_672_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(672, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_896_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(896, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_1120_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1120, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_1344_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1344, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_1568_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1568, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_1792_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(1792, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_2016_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2016, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_2240_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2240, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_2464_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2464, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_2688_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2688, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_2912_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(2912, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_3136_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(3136, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.315_3360_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
-region = Rect2(3360, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_0_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_0_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(0, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_224_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_224_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(224, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_448_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_448_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(448, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_672_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_672_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(672, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_896_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_896_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(896, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_1120_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_1120_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(1120, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_1344_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_1344_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(1344, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_1568_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_1568_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(1568, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_1792_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_1792_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(1792, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_2016_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_2016_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2016, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_2240_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_2240_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2240, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_2464_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_2464_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2464, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_2688_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_2688_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2688, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_2912_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_2912_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2912, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_3136_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_3136_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(3136, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.045_3360_224"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_045_3360_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(3360, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_0_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_0_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(0, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_224_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_224_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(224, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_448_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_448_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(448, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_672_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_672_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(672, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_896_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_896_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(896, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_1120_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_1120_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(1120, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_1344_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_1344_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(1344, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_1568_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_1568_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(1568, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_1792_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_1792_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(1792, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_2016_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_2016_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2016, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_2240_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_2240_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2240, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_2464_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_2464_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2464, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_2688_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_2688_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2688, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_2912_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_2912_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(2912, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_3136_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_3136_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(3136, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.move.090_3360_448"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_090_3360_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
 region = Rect2(3360, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_0_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(0, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_224_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(224, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_448_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(448, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_672_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(672, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_896_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(896, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_1120_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1120, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_1344_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1344, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_1568_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1568, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_1792_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1792, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_2016_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2016, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_2240_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2240, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_2464_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2464, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_2688_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2688, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_2912_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2912, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_3136_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(3136, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_135_3360_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(3360, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_0_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(0, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_224_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(224, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_448_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(448, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_672_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(672, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_896_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(896, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_1120_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1120, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_1344_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1344, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_1568_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1568, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_1792_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1792, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_2016_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2016, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_2240_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2240, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_2464_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2464, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_2688_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2688, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_2912_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2912, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_3136_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(3136, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_180_3360_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(3360, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_0_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(0, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_224_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(224, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_448_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(448, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_672_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(672, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_896_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(896, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_1120_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1120, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_1344_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1344, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_1568_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1568, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_1792_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1792, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_2016_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2016, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_2240_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2240, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_2464_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2464, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_2688_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2688, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_2912_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2912, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_3136_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(3136, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_225_3360_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(3360, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_0_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(0, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_224_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(224, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_448_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(448, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_672_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(672, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_896_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(896, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_1120_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1120, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_1344_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1344, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_1568_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1568, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_1792_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1792, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_2016_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2016, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_2240_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2240, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_2464_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2464, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_2688_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2688, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_2912_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2912, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_3136_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(3136, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_270_3360_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(3360, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_0_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(0, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_224_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(224, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_448_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(448, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_672_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(672, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_896_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(896, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_1120_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1120, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_1344_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1344, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_1568_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1568, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_1792_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(1792, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_2016_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2016, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_2240_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2240, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_2464_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2464, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_2688_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2688, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_2912_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(2912, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_3136_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(3136, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_move_315_3360_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate0_move")
+region = Rect2(3360, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_0_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(0, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_224_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_224_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(224, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_448_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_448_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(448, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_672_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_672_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(672, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_896_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_896_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(896, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_1120_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_1120_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(1120, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_1344_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_1344_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(1344, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_1568_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_1568_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(1568, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_1792_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_1792_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(1792, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_2016_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_2016_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(2016, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_2240_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_2240_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(2240, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_2464_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_2464_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(2464, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_2688_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_2688_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(2688, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_2912_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_2912_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(2912, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_3136_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_3136_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(3136, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate0.sailors.wateroverlay.000_3360_0"]
+
+[sub_resource type="AtlasTexture" id="pirate0_sailors_wateroverlay_000_3360_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate0_wateroverlay")
 region = Rect2(3360, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.idle.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_idle_000_0_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
 region = Rect2(0, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.idle.135_0_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
-region = Rect2(0, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.idle.180_0_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
-region = Rect2(0, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.idle.225_0_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
-region = Rect2(0, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.idle.270_0_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
-region = Rect2(0, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.idle.315_0_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
-region = Rect2(0, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.idle.045_0_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_idle_045_0_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
 region = Rect2(0, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.idle.090_0_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_idle_090_0_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
 region = Rect2(0, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_idle_135_0_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
+region = Rect2(0, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_idle_180_0_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
+region = Rect2(0, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_idle_225_0_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
+region = Rect2(0, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_idle_270_0_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
+region = Rect2(0, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_idle_315_0_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_idle")
+region = Rect2(0, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_0_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(0, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_224_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_224_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(224, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_448_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_448_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(448, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_672_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_672_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(672, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_896_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_896_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(896, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_1120_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_1120_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(1120, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_1344_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_1344_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(1344, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_1568_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_1568_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(1568, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_1792_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_1792_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(1792, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_2016_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_2016_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2016, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_2240_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_2240_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2240, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_2464_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_2464_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2464, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_2688_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_2688_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2688, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_2912_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_2912_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2912, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_3136_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_3136_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(3136, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.000_3360_0"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_000_3360_0"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(3360, 0, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_0_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(0, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_224_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(224, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_448_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(448, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_672_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(672, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_896_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(896, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_1120_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1120, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_1344_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1344, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_1568_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1568, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_1792_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1792, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_2016_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2016, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_2240_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2240, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_2464_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2464, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_2688_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2688, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_2912_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2912, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_3136_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(3136, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.135_3360_672"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(3360, 672, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_0_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(0, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_224_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(224, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_448_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(448, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_672_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(672, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_896_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(896, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_1120_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1120, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_1344_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1344, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_1568_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1568, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_1792_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1792, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_2016_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2016, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_2240_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2240, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_2464_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2464, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_2688_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2688, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_2912_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2912, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_3136_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(3136, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.180_3360_896"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(3360, 896, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_0_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(0, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_224_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(224, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_448_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(448, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_672_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(672, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_896_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(896, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_1120_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1120, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_1344_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1344, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_1568_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1568, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_1792_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1792, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_2016_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2016, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_2240_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2240, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_2464_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2464, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_2688_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2688, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_2912_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2912, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_3136_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(3136, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.225_3360_1120"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(3360, 1120, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_0_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(0, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_224_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(224, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_448_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(448, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_672_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(672, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_896_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(896, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_1120_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1120, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_1344_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1344, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_1568_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1568, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_1792_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1792, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_2016_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2016, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_2240_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2240, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_2464_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2464, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_2688_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2688, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_2912_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2912, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_3136_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(3136, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.270_3360_1344"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(3360, 1344, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_0_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(0, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_224_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(224, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_448_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(448, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_672_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(672, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_896_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(896, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_1120_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1120, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_1344_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1344, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_1568_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1568, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_1792_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(1792, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_2016_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2016, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_2240_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2240, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_2464_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2464, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_2688_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2688, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_2912_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(2912, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_3136_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(3136, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.315_3360_1568"]
-atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
-region = Rect2(3360, 1568, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_0_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_0_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(0, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_224_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_224_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(224, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_448_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_448_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(448, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_672_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_672_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(672, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_896_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_896_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(896, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_1120_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_1120_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(1120, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_1344_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_1344_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(1344, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_1568_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_1568_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(1568, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_1792_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_1792_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(1792, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_2016_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_2016_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2016, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_2240_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_2240_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2240, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_2464_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_2464_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2464, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_2688_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_2688_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2688, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_2912_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_2912_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2912, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_3136_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_3136_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(3136, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.045_3360_224"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_045_3360_224"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(3360, 224, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_0_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_0_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(0, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_224_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_224_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(224, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_448_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_448_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(448, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_672_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_672_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(672, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_896_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_896_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(896, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_1120_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_1120_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(1120, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_1344_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_1344_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(1344, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_1568_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_1568_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(1568, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_1792_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_1792_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(1792, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_2016_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_2016_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2016, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_2240_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_2240_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2240, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_2464_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_2464_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2464, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_2688_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_2688_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2688, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_2912_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_2912_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(2912, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_3136_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_3136_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(3136, 448, 224, 224)
-[sub_resource type="AtlasTexture" id="pirate1.sailors.move.090_3360_448"]
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_090_3360_448"]
 atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
 region = Rect2(3360, 448, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_0_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(0, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_224_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(224, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_448_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(448, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_672_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(672, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_896_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(896, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_1120_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1120, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_1344_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1344, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_1568_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1568, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_1792_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1792, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_2016_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2016, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_2240_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2240, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_2464_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2464, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_2688_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2688, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_2912_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2912, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_3136_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(3136, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_135_3360_672"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(3360, 672, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_0_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(0, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_224_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(224, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_448_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(448, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_672_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(672, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_896_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(896, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_1120_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1120, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_1344_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1344, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_1568_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1568, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_1792_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1792, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_2016_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2016, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_2240_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2240, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_2464_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2464, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_2688_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2688, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_2912_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2912, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_3136_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(3136, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_180_3360_896"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(3360, 896, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_0_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(0, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_224_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(224, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_448_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(448, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_672_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(672, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_896_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(896, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_1120_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1120, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_1344_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1344, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_1568_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1568, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_1792_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1792, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_2016_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2016, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_2240_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2240, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_2464_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2464, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_2688_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2688, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_2912_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2912, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_3136_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(3136, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_225_3360_1120"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(3360, 1120, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_0_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(0, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_224_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(224, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_448_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(448, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_672_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(672, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_896_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(896, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_1120_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1120, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_1344_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1344, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_1568_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1568, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_1792_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1792, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_2016_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2016, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_2240_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2240, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_2464_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2464, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_2688_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2688, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_2912_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2912, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_3136_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(3136, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_270_3360_1344"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(3360, 1344, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_0_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(0, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_224_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(224, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_448_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(448, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_672_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(672, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_896_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(896, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_1120_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1120, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_1344_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1344, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_1568_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1568, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_1792_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(1792, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_2016_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2016, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_2240_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2240, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_2464_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2464, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_2688_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2688, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_2912_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(2912, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_3136_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(3136, 1568, 224, 224)
+
+[sub_resource type="AtlasTexture" id="pirate1_sailors_move_315_3360_1568"]
+atlas = ExtResource("pirate_ship_sailors_as_pirate1_move")
+region = Rect2(3360, 1568, 224, 224)
 
 [resource]
-animations = [
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.idle.000_0_0")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.idle.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.idle.135_0_672")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.idle.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.idle.180_0_896")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.idle.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.idle.225_0_1120")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.idle.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.idle.270_0_1344")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.idle.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.idle.315_0_1568")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.idle.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.idle.045_0_224")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.idle.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.idle.090_0_448")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.idle.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_0_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_224_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_448_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_672_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_896_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_1120_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_1344_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_1568_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_1792_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_2016_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_2240_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_2464_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_2688_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_2912_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_3136_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.000_3360_0")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.move.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_0_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_224_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_448_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_672_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_896_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_1120_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_1344_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_1568_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_1792_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_2016_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_2240_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_2464_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_2688_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_2912_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_3136_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.135_3360_672")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.move.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_0_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_224_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_448_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_672_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_896_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_1120_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_1344_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_1568_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_1792_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_2016_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_2240_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_2464_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_2688_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_2912_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_3136_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.180_3360_896")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.move.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_0_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_224_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_448_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_672_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_896_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_1120_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_1344_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_1568_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_1792_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_2016_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_2240_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_2464_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_2688_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_2912_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_3136_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.225_3360_1120")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.move.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_0_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_224_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_448_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_672_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_896_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_1120_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_1344_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_1568_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_1792_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_2016_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_2240_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_2464_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_2688_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_2912_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_3136_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.270_3360_1344")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.move.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_0_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_224_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_448_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_672_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_896_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_1120_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_1344_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_1568_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_1792_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_2016_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_2240_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_2464_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_2688_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_2912_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_3136_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.315_3360_1568")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.move.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_0_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_224_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_448_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_672_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_896_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_1120_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_1344_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_1568_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_1792_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_2016_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_2240_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_2464_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_2688_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_2912_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_3136_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.045_3360_224")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.move.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_0_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_224_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_448_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_672_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_896_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_1120_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_1344_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_1568_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_1792_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_2016_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_2240_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_2464_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_2688_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_2912_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_3136_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.move.090_3360_448")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.move.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_0_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_224_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_448_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_672_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_896_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_1120_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_1344_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_1568_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_1792_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_2016_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_2240_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_2464_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_2688_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_2912_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_3136_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate0.sailors.wateroverlay.000_3360_0")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate0.sailors.wateroverlay.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.idle.000_0_0")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.idle.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.idle.135_0_672")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.idle.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.idle.180_0_896")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.idle.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.idle.225_0_1120")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.idle.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.idle.270_0_1344")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.idle.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.idle.315_0_1568")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.idle.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.idle.045_0_224")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.idle.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.idle.090_0_448")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.idle.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_0_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_224_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_448_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_672_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_896_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_1120_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_1344_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_1568_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_1792_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_2016_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_2240_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_2464_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_2688_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_2912_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_3136_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.000_3360_0")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.move.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_0_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_224_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_448_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_672_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_896_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_1120_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_1344_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_1568_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_1792_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_2016_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_2240_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_2464_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_2688_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_2912_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_3136_672")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.135_3360_672")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.move.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_0_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_224_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_448_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_672_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_896_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_1120_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_1344_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_1568_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_1792_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_2016_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_2240_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_2464_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_2688_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_2912_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_3136_896")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.180_3360_896")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.move.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_0_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_224_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_448_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_672_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_896_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_1120_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_1344_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_1568_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_1792_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_2016_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_2240_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_2464_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_2688_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_2912_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_3136_1120")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.225_3360_1120")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.move.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_0_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_224_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_448_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_672_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_896_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_1120_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_1344_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_1568_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_1792_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_2016_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_2240_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_2464_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_2688_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_2912_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_3136_1344")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.270_3360_1344")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.move.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_0_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_224_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_448_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_672_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_896_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_1120_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_1344_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_1568_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_1792_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_2016_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_2240_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_2464_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_2688_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_2912_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_3136_1568")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.315_3360_1568")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.move.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_0_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_224_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_448_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_672_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_896_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_1120_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_1344_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_1568_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_1792_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_2016_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_2240_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_2464_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_2688_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_2912_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_3136_224")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.045_3360_224")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.move.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_0_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_224_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_448_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_672_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_896_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_1120_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_1344_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_1568_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_1792_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_2016_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_2240_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_2464_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_2688_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_2912_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_3136_448")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("pirate1.sailors.move.090_3360_448")
-      },
-        ],
-    "loop": true,
-    "name": &"pirate1.sailors.move.090",
-    "speed": 5.0
-  },
-]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_idle_000_0_0")
+}],
+"loop": true,
+"name": &"pirate0.sailors.idle.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_idle_045_0_224")
+}],
+"loop": true,
+"name": &"pirate0.sailors.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_idle_090_0_448")
+}],
+"loop": true,
+"name": &"pirate0.sailors.idle.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_idle_135_0_672")
+}],
+"loop": true,
+"name": &"pirate0.sailors.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_idle_180_0_896")
+}],
+"loop": true,
+"name": &"pirate0.sailors.idle.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_idle_225_0_1120")
+}],
+"loop": true,
+"name": &"pirate0.sailors.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_idle_270_0_1344")
+}],
+"loop": true,
+"name": &"pirate0.sailors.idle.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_idle_315_0_1568")
+}],
+"loop": true,
+"name": &"pirate0.sailors.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_0_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_224_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_448_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_672_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_896_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_1120_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_1344_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_1568_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_1792_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_2016_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_2240_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_2464_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_2688_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_2912_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_3136_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_000_3360_0")
+}],
+"loop": true,
+"name": &"pirate0.sailors.move.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_0_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_224_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_448_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_672_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_896_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_1120_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_1344_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_1568_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_1792_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_2016_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_2240_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_2464_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_2688_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_2912_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_3136_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_045_3360_224")
+}],
+"loop": true,
+"name": &"pirate0.sailors.move.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_0_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_224_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_448_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_672_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_896_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_1120_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_1344_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_1568_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_1792_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_2016_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_2240_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_2464_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_2688_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_2912_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_3136_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_090_3360_448")
+}],
+"loop": true,
+"name": &"pirate0.sailors.move.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_0_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_224_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_448_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_672_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_896_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_1120_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_1344_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_1568_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_1792_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_2016_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_2240_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_2464_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_2688_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_2912_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_3136_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_135_3360_672")
+}],
+"loop": true,
+"name": &"pirate0.sailors.move.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_0_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_224_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_448_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_672_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_896_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_1120_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_1344_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_1568_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_1792_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_2016_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_2240_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_2464_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_2688_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_2912_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_3136_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_180_3360_896")
+}],
+"loop": true,
+"name": &"pirate0.sailors.move.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_0_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_224_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_448_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_672_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_896_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_1120_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_1344_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_1568_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_1792_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_2016_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_2240_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_2464_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_2688_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_2912_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_3136_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_225_3360_1120")
+}],
+"loop": true,
+"name": &"pirate0.sailors.move.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_0_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_224_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_448_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_672_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_896_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_1120_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_1344_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_1568_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_1792_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_2016_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_2240_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_2464_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_2688_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_2912_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_3136_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_270_3360_1344")
+}],
+"loop": true,
+"name": &"pirate0.sailors.move.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_0_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_224_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_448_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_672_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_896_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_1120_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_1344_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_1568_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_1792_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_2016_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_2240_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_2464_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_2688_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_2912_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_3136_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_move_315_3360_1568")
+}],
+"loop": true,
+"name": &"pirate0.sailors.move.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_0_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_224_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_448_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_672_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_896_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_1120_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_1344_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_1568_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_1792_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_2016_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_2240_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_2464_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_2688_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_2912_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_3136_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate0_sailors_wateroverlay_000_3360_0")
+}],
+"loop": true,
+"name": &"pirate0.sailors.wateroverlay.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_idle_000_0_0")
+}],
+"loop": true,
+"name": &"pirate1.sailors.idle.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_idle_045_0_224")
+}],
+"loop": true,
+"name": &"pirate1.sailors.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_idle_090_0_448")
+}],
+"loop": true,
+"name": &"pirate1.sailors.idle.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_idle_135_0_672")
+}],
+"loop": true,
+"name": &"pirate1.sailors.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_idle_180_0_896")
+}],
+"loop": true,
+"name": &"pirate1.sailors.idle.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_idle_225_0_1120")
+}],
+"loop": true,
+"name": &"pirate1.sailors.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_idle_270_0_1344")
+}],
+"loop": true,
+"name": &"pirate1.sailors.idle.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_idle_315_0_1568")
+}],
+"loop": true,
+"name": &"pirate1.sailors.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_0_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_224_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_448_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_672_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_896_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_1120_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_1344_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_1568_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_1792_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_2016_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_2240_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_2464_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_2688_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_2912_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_3136_0")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_000_3360_0")
+}],
+"loop": true,
+"name": &"pirate1.sailors.move.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_0_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_224_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_448_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_672_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_896_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_1120_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_1344_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_1568_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_1792_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_2016_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_2240_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_2464_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_2688_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_2912_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_3136_224")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_045_3360_224")
+}],
+"loop": true,
+"name": &"pirate1.sailors.move.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_0_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_224_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_448_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_672_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_896_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_1120_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_1344_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_1568_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_1792_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_2016_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_2240_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_2464_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_2688_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_2912_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_3136_448")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_090_3360_448")
+}],
+"loop": true,
+"name": &"pirate1.sailors.move.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_0_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_224_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_448_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_672_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_896_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_1120_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_1344_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_1568_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_1792_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_2016_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_2240_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_2464_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_2688_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_2912_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_3136_672")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_135_3360_672")
+}],
+"loop": true,
+"name": &"pirate1.sailors.move.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_0_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_224_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_448_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_672_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_896_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_1120_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_1344_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_1568_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_1792_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_2016_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_2240_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_2464_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_2688_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_2912_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_3136_896")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_180_3360_896")
+}],
+"loop": true,
+"name": &"pirate1.sailors.move.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_0_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_224_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_448_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_672_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_896_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_1120_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_1344_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_1568_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_1792_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_2016_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_2240_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_2464_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_2688_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_2912_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_3136_1120")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_225_3360_1120")
+}],
+"loop": true,
+"name": &"pirate1.sailors.move.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_0_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_224_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_448_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_672_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_896_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_1120_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_1344_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_1568_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_1792_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_2016_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_2240_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_2464_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_2688_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_2912_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_3136_1344")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_270_3360_1344")
+}],
+"loop": true,
+"name": &"pirate1.sailors.move.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_0_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_224_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_448_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_672_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_896_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_1120_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_1344_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_1568_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_1792_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_2016_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_2240_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_2464_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_2688_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_2912_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_3136_1568")
+},{
+"duration": 1.0,
+"texture": SubResource("pirate1_sailors_move_315_3360_1568")
+}],
+"loop": true,
+"name": &"pirate1.sailors.move.315",
+"speed": 5.0
+}]

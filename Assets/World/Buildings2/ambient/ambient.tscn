@@ -4,20 +4,22 @@
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
 [ext_resource type="SpriteFrames" uid="uid://cbambienttres" path="res://Assets/World/Buildings2/ambient/ambient.tres" id="4_sprite_frames"]
-[ext_resource type="PackedScene" uid="uid://kv52rh351xud" path="res://Assets/World/Components/AmbientSoundComponent/AmbientSoundComponent.tscn" id="3_ambient_sound_component"]
-[ext_resource type="PackedScene" uid="uid://b3hix4pdlnumi" path="res://Assets/World/Components/Storages/SizedStorageComponent/SizedStorageComponent.tscn" id="5_sized_storage_component"]
-[ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
-[ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
-[ext_resource type="PackedScene" uid="uid://dyqwsks6v6puj" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.tscn" id="7_building_collector_component"]
+[ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 
 [node name="_ Ambient" type="Node2D"]
 script = ExtResource("1_script_gd")
 baseclass = "nature.Ambient"
 radius = 0
+cost = 0
+cost_inactive = 0
+size = Vector2i(1, 1)
+inhabitants = 0
+tooltip_text = "_ Lookin fine dandelion."
+   show_status_icons = false
+tier = "TIER.NATURE"
 
-; [node name="HealthComponent" parent="." instance=ExtResource("2_health_component")]
-; max_health = 10
-
+[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+max_health = 10
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

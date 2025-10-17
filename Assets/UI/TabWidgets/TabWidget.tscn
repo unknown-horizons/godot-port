@@ -27,8 +27,11 @@ size_flags_vertical = 0
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 layout_mode = 2
+horizontal_scroll_mode = 0
 script = ExtResource("2_r0jft")
 
 [node name="TabContainer" type="TabContainer" parent="ScrollContainer"]
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 tabs_visible = false

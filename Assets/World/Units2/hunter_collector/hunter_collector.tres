@@ -1,1916 +1,1834 @@
 [gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cuhuntercoltr"]
 
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/hunter_collector/hunter_collector_sailors_as_hunterunit0_idle.png" id="hunter_collector_sailors_as_hunterunit0_idle"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/hunter_collector/hunter_collector_sailors_as_hunterunit0_idle_full.png" id="hunter_collector_sailors_as_hunterunit0_idle_full"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/hunter_collector/hunter_collector_sailors_as_hunterunit0_move.png" id="hunter_collector_sailors_as_hunterunit0_move"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/hunter_collector/hunter_collector_sailors_as_hunterunit0_move_full.png" id="hunter_collector_sailors_as_hunterunit0_move_full"]
-[ext_resource type="Texture2D" path="res://Assets/World/Units2/hunter_collector/hunter_collector_sailors_as_hunterunit0_work.png" id="hunter_collector_sailors_as_hunterunit0_work"]
+[ext_resource type="Texture2D" uid="uid://dw6tdlkxujd3v" path="res://Assets/World/Units2/hunter_collector/hunter_collector_sailors_as_hunterunit0_idle.png" id="hunter_collector_sailors_as_hunterunit0_idle"]
+[ext_resource type="Texture2D" uid="uid://b01ekto30sgb1" path="res://Assets/World/Units2/hunter_collector/hunter_collector_sailors_as_hunterunit0_idle_full.png" id="hunter_collector_sailors_as_hunterunit0_idle_full"]
+[ext_resource type="Texture2D" uid="uid://dfjvbe7il168j" path="res://Assets/World/Units2/hunter_collector/hunter_collector_sailors_as_hunterunit0_move.png" id="hunter_collector_sailors_as_hunterunit0_move"]
+[ext_resource type="Texture2D" uid="uid://b43jj136gcw4l" path="res://Assets/World/Units2/hunter_collector/hunter_collector_sailors_as_hunterunit0_move_full.png" id="hunter_collector_sailors_as_hunterunit0_move_full"]
+[ext_resource type="Texture2D" uid="uid://brt1ivqvpfufg" path="res://Assets/World/Units2/hunter_collector/hunter_collector_sailors_as_hunterunit0_work.png" id="hunter_collector_sailors_as_hunterunit0_work"]
 
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle.000_0_0"]
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_000_0_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
 region = Rect2(0, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle.135_0_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
-region = Rect2(0, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle.180_0_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
-region = Rect2(0, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle.225_0_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
-region = Rect2(0, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle.270_0_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
-region = Rect2(0, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle.315_0_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
-region = Rect2(0, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle.045_0_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_045_0_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
 region = Rect2(0, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle.090_0_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_090_0_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
 region = Rect2(0, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle_full.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_135_0_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
+region = Rect2(0, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_180_0_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
+region = Rect2(0, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_225_0_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
+region = Rect2(0, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_270_0_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
+region = Rect2(0, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_315_0_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle")
+region = Rect2(0, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_full_000_0_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
 region = Rect2(0, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle_full.135_0_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
-region = Rect2(0, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle_full.180_0_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
-region = Rect2(0, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle_full.225_0_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
-region = Rect2(0, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle_full.270_0_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
-region = Rect2(0, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle_full.315_0_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
-region = Rect2(0, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle_full.045_0_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_full_045_0_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
 region = Rect2(0, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.idle_full.090_0_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_full_090_0_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
 region = Rect2(0, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_full_135_0_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
+region = Rect2(0, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_full_180_0_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
+region = Rect2(0, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_full_225_0_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
+region = Rect2(0, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_full_270_0_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
+region = Rect2(0, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_idle_full_315_0_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_idle_full")
+region = Rect2(0, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_000_0_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
 region = Rect2(0, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.000_32_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_000_32_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
 region = Rect2(32, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.000_64_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_000_64_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
 region = Rect2(64, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.000_96_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_000_96_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
 region = Rect2(96, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.135_0_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(0, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.135_32_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(32, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.135_64_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(64, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.135_96_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(96, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.180_0_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(0, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.180_32_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(32, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.180_64_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(64, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.180_96_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(96, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.225_0_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(0, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.225_32_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(32, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.225_64_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(64, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.225_96_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(96, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.270_0_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(0, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.270_32_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(32, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.270_64_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(64, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.270_96_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(96, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.315_0_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(0, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.315_32_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(32, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.315_64_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(64, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.315_96_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
-region = Rect2(96, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.045_0_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_045_0_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
 region = Rect2(0, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.045_32_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_045_32_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
 region = Rect2(32, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.045_64_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_045_64_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
 region = Rect2(64, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.045_96_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_045_96_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
 region = Rect2(96, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.090_0_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_090_0_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
 region = Rect2(0, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.090_32_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_090_32_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
 region = Rect2(32, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.090_64_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_090_64_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
 region = Rect2(64, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move.090_96_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_090_96_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
 region = Rect2(96, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_135_0_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(0, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_135_32_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(32, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_135_64_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(64, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_135_96_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(96, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_180_0_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(0, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_180_32_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(32, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_180_64_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(64, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_180_96_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(96, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_225_0_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(0, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_225_32_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(32, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_225_64_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(64, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_225_96_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(96, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_270_0_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(0, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_270_32_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(32, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_270_64_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(64, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_270_96_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(96, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_315_0_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(0, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_315_32_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(32, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_315_64_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(64, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_315_96_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move")
+region = Rect2(96, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_000_0_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
 region = Rect2(0, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.000_32_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_000_32_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
 region = Rect2(32, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.000_64_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_000_64_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
 region = Rect2(64, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.000_96_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_000_96_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
 region = Rect2(96, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.135_0_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(0, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.135_32_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(32, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.135_64_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(64, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.135_96_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(96, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.180_0_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(0, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.180_32_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(32, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.180_64_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(64, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.180_96_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(96, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.225_0_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(0, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.225_32_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(32, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.225_64_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(64, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.225_96_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(96, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.270_0_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(0, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.270_32_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(32, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.270_64_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(64, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.270_96_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(96, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.315_0_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(0, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.315_32_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(32, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.315_64_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(64, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.315_96_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
-region = Rect2(96, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.045_0_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_045_0_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
 region = Rect2(0, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.045_32_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_045_32_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
 region = Rect2(32, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.045_64_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_045_64_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
 region = Rect2(64, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.045_96_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_045_96_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
 region = Rect2(96, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.090_0_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_090_0_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
 region = Rect2(0, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.090_32_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_090_32_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
 region = Rect2(32, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.090_64_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_090_64_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
 region = Rect2(64, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.move_full.090_96_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_090_96_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
 region = Rect2(96, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_0_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_135_0_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(0, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_135_32_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(32, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_135_64_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(64, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_135_96_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(96, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_180_0_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(0, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_180_32_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(32, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_180_64_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(64, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_180_96_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(96, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_225_0_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(0, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_225_32_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(32, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_225_64_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(64, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_225_96_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(96, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_270_0_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(0, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_270_32_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(32, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_270_64_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(64, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_270_96_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(96, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_315_0_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(0, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_315_32_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(32, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_315_64_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(64, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_move_full_315_96_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_move_full")
+region = Rect2(96, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_0_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(0, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_32_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_32_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(32, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_64_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_64_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(64, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_96_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_96_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(96, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_128_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_128_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(128, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_160_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_160_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(160, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_192_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_192_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(192, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_224_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_224_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(224, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_256_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_256_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(256, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_288_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_288_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(288, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_320_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_320_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(320, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_352_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_352_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(352, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_384_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_384_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(384, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_416_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_416_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(416, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_448_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_448_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(448, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_480_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_480_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(480, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_512_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_512_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(512, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_544_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_544_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(544, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.000_576_0"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_000_576_0"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(576, 0, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_0_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(0, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_32_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(32, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_64_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(64, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_96_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(96, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_128_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(128, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_160_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(160, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_192_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(192, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_224_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(224, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_256_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(256, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_288_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(288, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_320_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(320, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_352_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(352, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_384_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(384, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_416_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(416, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_448_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(448, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_480_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(480, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_512_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(512, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_544_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(544, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.135_576_126"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(576, 126, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_0_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(0, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_32_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(32, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_64_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(64, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_96_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(96, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_128_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(128, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_160_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(160, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_192_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(192, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_224_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(224, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_256_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(256, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_288_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(288, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_320_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(320, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_352_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(352, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_384_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(384, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_416_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(416, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_448_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(448, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_480_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(480, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_512_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(512, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_544_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(544, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.180_576_168"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(576, 168, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_0_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(0, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_32_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(32, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_64_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(64, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_96_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(96, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_128_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(128, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_160_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(160, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_192_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(192, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_224_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(224, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_256_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(256, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_288_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(288, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_320_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(320, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_352_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(352, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_384_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(384, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_416_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(416, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_448_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(448, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_480_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(480, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_512_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(512, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_544_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(544, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.225_576_210"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(576, 210, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_0_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(0, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_32_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(32, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_64_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(64, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_96_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(96, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_128_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(128, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_160_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(160, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_192_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(192, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_224_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(224, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_256_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(256, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_288_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(288, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_320_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(320, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_352_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(352, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_384_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(384, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_416_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(416, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_448_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(448, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_480_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(480, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_512_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(512, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_544_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(544, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.270_576_252"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(576, 252, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_0_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(0, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_32_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(32, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_64_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(64, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_96_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(96, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_128_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(128, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_160_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(160, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_192_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(192, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_224_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(224, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_256_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(256, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_288_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(288, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_320_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(320, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_352_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(352, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_384_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(384, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_416_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(416, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_448_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(448, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_480_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(480, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_512_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(512, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_544_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(544, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.315_576_294"]
-atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
-region = Rect2(576, 294, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_0_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_0_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(0, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_32_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_32_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(32, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_64_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_64_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(64, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_96_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_96_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(96, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_128_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_128_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(128, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_160_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_160_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(160, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_192_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_192_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(192, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_224_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_224_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(224, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_256_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_256_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(256, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_288_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_288_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(288, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_320_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_320_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(320, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_352_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_352_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(352, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_384_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_384_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(384, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_416_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_416_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(416, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_448_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_448_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(448, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_480_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_480_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(480, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_512_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_512_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(512, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_544_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_544_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(544, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.045_576_42"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_045_576_42"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(576, 42, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_0_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_0_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(0, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_32_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_32_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(32, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_64_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_64_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(64, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_96_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_96_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(96, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_128_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_128_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(128, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_160_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_160_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(160, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_192_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_192_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(192, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_224_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_224_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(224, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_256_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_256_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(256, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_288_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_288_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(288, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_320_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_320_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(320, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_352_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_352_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(352, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_384_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_384_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(384, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_416_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_416_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(416, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_448_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_448_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(448, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_480_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_480_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(480, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_512_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_512_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(512, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_544_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_544_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(544, 84, 32, 42)
-[sub_resource type="AtlasTexture" id="hunterunit0.sailors.work.090_576_84"]
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_090_576_84"]
 atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
 region = Rect2(576, 84, 32, 42)
 
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_0_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(0, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_32_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(32, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_64_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(64, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_96_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(96, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_128_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(128, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_160_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(160, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_192_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(192, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_224_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(224, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_256_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(256, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_288_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(288, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_320_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(320, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_352_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(352, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_384_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(384, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_416_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(416, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_448_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(448, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_480_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(480, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_512_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(512, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_544_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(544, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_135_576_126"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(576, 126, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_0_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(0, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_32_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(32, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_64_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(64, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_96_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(96, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_128_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(128, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_160_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(160, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_192_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(192, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_224_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(224, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_256_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(256, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_288_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(288, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_320_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(320, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_352_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(352, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_384_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(384, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_416_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(416, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_448_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(448, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_480_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(480, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_512_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(512, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_544_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(544, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_180_576_168"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(576, 168, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_0_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(0, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_32_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(32, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_64_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(64, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_96_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(96, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_128_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(128, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_160_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(160, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_192_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(192, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_224_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(224, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_256_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(256, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_288_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(288, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_320_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(320, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_352_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(352, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_384_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(384, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_416_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(416, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_448_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(448, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_480_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(480, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_512_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(512, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_544_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(544, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_225_576_210"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(576, 210, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_0_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(0, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_32_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(32, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_64_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(64, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_96_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(96, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_128_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(128, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_160_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(160, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_192_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(192, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_224_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(224, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_256_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(256, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_288_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(288, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_320_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(320, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_352_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(352, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_384_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(384, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_416_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(416, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_448_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(448, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_480_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(480, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_512_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(512, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_544_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(544, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_270_576_252"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(576, 252, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_0_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(0, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_32_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(32, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_64_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(64, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_96_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(96, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_128_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(128, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_160_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(160, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_192_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(192, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_224_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(224, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_256_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(256, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_288_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(288, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_320_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(320, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_352_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(352, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_384_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(384, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_416_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(416, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_448_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(448, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_480_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(480, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_512_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(512, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_544_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(544, 294, 32, 42)
+
+[sub_resource type="AtlasTexture" id="hunterunit0_sailors_work_315_576_294"]
+atlas = ExtResource("hunter_collector_sailors_as_hunterunit0_work")
+region = Rect2(576, 294, 32, 42)
+
 [resource]
-animations = [
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle.000_0_0")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle.135_0_126")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle.180_0_168")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle.225_0_210")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle.270_0_252")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle.315_0_294")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle.045_0_42")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle.090_0_84")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle_full.000_0_0")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle_full.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle_full.135_0_126")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle_full.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle_full.180_0_168")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle_full.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle_full.225_0_210")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle_full.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle_full.270_0_252")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle_full.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle_full.315_0_294")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle_full.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle_full.045_0_42")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle_full.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.idle_full.090_0_84")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.idle_full.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.000_0_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.000_32_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.000_64_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.000_96_0")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.135_0_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.135_32_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.135_64_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.135_96_126")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.180_0_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.180_32_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.180_64_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.180_96_168")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.225_0_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.225_32_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.225_64_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.225_96_210")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.270_0_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.270_32_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.270_64_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.270_96_252")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.315_0_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.315_32_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.315_64_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.315_96_294")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.045_0_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.045_32_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.045_64_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.045_96_42")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.090_0_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.090_32_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.090_64_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move.090_96_84")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.000_0_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.000_32_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.000_64_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.000_96_0")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move_full.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.135_0_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.135_32_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.135_64_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.135_96_126")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move_full.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.180_0_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.180_32_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.180_64_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.180_96_168")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move_full.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.225_0_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.225_32_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.225_64_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.225_96_210")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move_full.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.270_0_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.270_32_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.270_64_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.270_96_252")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move_full.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.315_0_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.315_32_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.315_64_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.315_96_294")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move_full.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.045_0_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.045_32_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.045_64_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.045_96_42")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move_full.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.090_0_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.090_32_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.090_64_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.move_full.090_96_84")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.move_full.090",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_0_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_32_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_64_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_96_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_128_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_160_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_192_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_224_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_256_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_288_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_320_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_352_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_384_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_416_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_448_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_480_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_512_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_544_0")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.000_576_0")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.work.000",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_0_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_32_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_64_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_96_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_128_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_160_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_192_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_224_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_256_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_288_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_320_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_352_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_384_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_416_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_448_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_480_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_512_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_544_126")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.135_576_126")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.work.135",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_0_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_32_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_64_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_96_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_128_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_160_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_192_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_224_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_256_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_288_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_320_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_352_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_384_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_416_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_448_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_480_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_512_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_544_168")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.180_576_168")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.work.180",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_0_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_32_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_64_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_96_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_128_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_160_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_192_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_224_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_256_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_288_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_320_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_352_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_384_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_416_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_448_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_480_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_512_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_544_210")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.225_576_210")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.work.225",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_0_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_32_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_64_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_96_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_128_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_160_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_192_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_224_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_256_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_288_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_320_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_352_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_384_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_416_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_448_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_480_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_512_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_544_252")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.270_576_252")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.work.270",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_0_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_32_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_64_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_96_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_128_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_160_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_192_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_224_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_256_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_288_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_320_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_352_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_384_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_416_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_448_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_480_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_512_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_544_294")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.315_576_294")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.work.315",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_0_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_32_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_64_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_96_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_128_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_160_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_192_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_224_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_256_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_288_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_320_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_352_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_384_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_416_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_448_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_480_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_512_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_544_42")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.045_576_42")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.work.045",
-    "speed": 5.0
-  },
-  {
-    "frames": [
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_0_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_32_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_64_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_96_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_128_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_160_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_192_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_224_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_256_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_288_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_320_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_352_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_384_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_416_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_448_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_480_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_512_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_544_84")
-      },
-          {
-        "duration": 1.0,
-        "texture": SubResource("hunterunit0.sailors.work.090_576_84")
-      },
-        ],
-    "loop": true,
-    "name": &"hunterunit0.sailors.work.090",
-    "speed": 5.0
-  },
-]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_000_0_0")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_045_0_42")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_090_0_84")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_135_0_126")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_180_0_168")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_225_0_210")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_270_0_252")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_315_0_294")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_full_000_0_0")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle_full.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_full_045_0_42")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle_full.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_full_090_0_84")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle_full.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_full_135_0_126")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle_full.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_full_180_0_168")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle_full.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_full_225_0_210")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle_full.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_full_270_0_252")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle_full.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_idle_full_315_0_294")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.idle_full.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_000_0_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_000_32_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_000_64_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_000_96_0")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_045_0_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_045_32_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_045_64_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_045_96_42")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_090_0_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_090_32_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_090_64_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_090_96_84")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_135_0_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_135_32_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_135_64_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_135_96_126")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_180_0_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_180_32_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_180_64_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_180_96_168")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_225_0_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_225_32_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_225_64_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_225_96_210")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_270_0_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_270_32_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_270_64_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_270_96_252")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_315_0_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_315_32_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_315_64_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_315_96_294")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_000_0_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_000_32_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_000_64_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_000_96_0")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move_full.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_045_0_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_045_32_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_045_64_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_045_96_42")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move_full.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_090_0_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_090_32_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_090_64_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_090_96_84")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move_full.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_135_0_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_135_32_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_135_64_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_135_96_126")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move_full.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_180_0_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_180_32_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_180_64_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_180_96_168")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move_full.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_225_0_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_225_32_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_225_64_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_225_96_210")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move_full.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_270_0_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_270_32_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_270_64_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_270_96_252")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move_full.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_315_0_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_315_32_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_315_64_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_move_full_315_96_294")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.move_full.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_0_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_32_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_64_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_96_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_128_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_160_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_192_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_224_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_256_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_288_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_320_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_352_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_384_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_416_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_448_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_480_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_512_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_544_0")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_000_576_0")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.work.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_0_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_32_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_64_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_96_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_128_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_160_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_192_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_224_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_256_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_288_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_320_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_352_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_384_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_416_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_448_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_480_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_512_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_544_42")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_045_576_42")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_0_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_32_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_64_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_96_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_128_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_160_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_192_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_224_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_256_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_288_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_320_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_352_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_384_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_416_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_448_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_480_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_512_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_544_84")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_090_576_84")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.work.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_0_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_32_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_64_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_96_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_128_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_160_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_192_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_224_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_256_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_288_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_320_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_352_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_384_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_416_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_448_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_480_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_512_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_544_126")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_135_576_126")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_0_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_32_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_64_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_96_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_128_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_160_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_192_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_224_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_256_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_288_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_320_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_352_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_384_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_416_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_448_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_480_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_512_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_544_168")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_180_576_168")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.work.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_0_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_32_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_64_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_96_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_128_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_160_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_192_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_224_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_256_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_288_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_320_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_352_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_384_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_416_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_448_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_480_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_512_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_544_210")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_225_576_210")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_0_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_32_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_64_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_96_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_128_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_160_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_192_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_224_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_256_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_288_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_320_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_352_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_384_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_416_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_448_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_480_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_512_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_544_252")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_270_576_252")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.work.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_0_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_32_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_64_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_96_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_128_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_160_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_192_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_224_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_256_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_288_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_320_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_352_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_384_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_416_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_448_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_480_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_512_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_544_294")
+},{
+"duration": 1.0,
+"texture": SubResource("hunterunit0_sailors_work_315_576_294")
+}],
+"loop": true,
+"name": &"hunterunit0.sailors.work.315",
+"speed": 5.0
+}]

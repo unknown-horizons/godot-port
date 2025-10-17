@@ -5,6 +5,9 @@ class_name AllTabs
 @onready var tab_container: TabContainer = self.get_node("ScrollContainer/TabContainer")
 @onready var tab_switches: VBoxContainer = self.get_node("LeftFloatingPanel/TabSwitches")
 
+func _ready() -> void:
+  CamUtils.center_if_no_camera(self)
+
 var tabs: Array[String] = []:
   set(value):
     tabs = value
@@ -22,6 +25,7 @@ signal new_node_selected(node: WorldThing2D)
 
 func update_switches() -> void:
   var building: Building2D = self.node_selected as Building2D
+  # building
   if building != null:
     # The firts tab in the needed tabs, to open it at the beginning
     var first_available_tab_index: int = len(self.tabs)

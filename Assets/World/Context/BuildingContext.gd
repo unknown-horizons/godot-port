@@ -3,7 +3,7 @@ extends BaseContext
 
 class_name BuildingContext
 
-@onready var object_selected_context: ObjectSelectedContext = self.get_node("/root/Main/GameContextManager/ObjectSelectedContext")
+@onready var object_selected_context: ObjectSelectedContext = self.get_node("/root/Main/GameContextManager/ObjectSelectedContext") if not Engine.is_editor_hint() else null
 @onready var terrain_tilemap: TerrainTileMap = %TerrainTileMap
 @onready var built_tilemap: BuiltTileMap = %BuiltTileMap
 @onready var highlighter: RoadAndBuildingHighlighter = %RoadAndBuildingHighlighter

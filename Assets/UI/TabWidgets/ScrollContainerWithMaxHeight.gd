@@ -13,7 +13,7 @@ func _ready() -> void:
   adjust_scroll_height()
 
 func adjust_scroll_height():
-  print(self.get_viewport_rect())
+  # print(self.get_viewport_rect())
   # Get screen or parent height
   var screen_height = parent_container.get_viewport_rect().size.y
   var top_position = scroll.global_position.y

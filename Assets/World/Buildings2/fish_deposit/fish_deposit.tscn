@@ -4,28 +4,37 @@
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
 [ext_resource type="SpriteFrames" uid="uid://cbfishdepostr" path="res://Assets/World/Buildings2/fish_deposit/fish_deposit.tres" id="4_sprite_frames"]
-[ext_resource type="PackedScene" uid="uid://kv52rh351xud" path="res://Assets/World/Components/AmbientSoundComponent/AmbientSoundComponent.tscn" id="3_ambient_sound_component"]
-[ext_resource type="PackedScene" uid="uid://b3hix4pdlnumi" path="res://Assets/World/Components/Storages/SizedStorageComponent/SizedStorageComponent.tscn" id="5_sized_storage_component"]
+[ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 [ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
-[ext_resource type="PackedScene" uid="uid://dyqwsks6v6puj" path="res://Assets/World/Components/Collectors/BuildingCollector/BuildingCollectorComponent.tscn" id="7_building_collector_component"]
 
 [node name="_ Fish Deposit" type="Node2D"]
 script = ExtResource("1_script_gd")
 baseclass = "nature.Fish"
 radius = 0
+cost = 0
+cost_inactive = 0
+size = Vector2i(2, 2)
+inhabitants = 0
+tooltip_text = "None"
+   show_status_icons = false
+tier = "TIER.NATURE"
 
-; [node name="HealthComponent" parent="." instance=ExtResource("2_health_component")]
-; max_health = 10
+[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+max_health = 10
 
 [node name="ProductionLineComponent_FISH" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "FISH"
-produces = Dictionary[StringName, int]({&"FISH": 1})
-consumes = Dictionary[StringName, int]({})
+consumes = Dictionary[StringName, int]({
+})
+produces = Dictionary[StringName, int]({
+&"FISH": 1
+})
 
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
-max_capacity = Dictionary[StringName, int]({&"FISH": 1})
-
+max_capacity = Dictionary[StringName, int]({
+&"FISH": 1
+})
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

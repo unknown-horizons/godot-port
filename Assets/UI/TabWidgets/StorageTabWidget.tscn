@@ -15,13 +15,11 @@ offset_bottom = 485.0
 [node name="InventorySwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="1" instance=ExtResource("7")]
 layout_mode = 2
 
-[node name="TabContainer" parent="." index="1"]
-current_tab = 1
-
-[node name="CityOverview" parent="ScrollContainer/TabContainer" index="1"]
-visible = false
+[node name="ScrollContainer" parent="." index="1"]
+custom_minimum_size = Vector2(0, -138)
 
 [node name="SettlementInventory" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="2"]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 1
 
