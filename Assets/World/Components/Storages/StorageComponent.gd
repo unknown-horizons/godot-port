@@ -1,5 +1,3 @@
-@tool
-
 extends BaseComponent
 
 class_name StorageComponent

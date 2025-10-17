@@ -18,7 +18,7 @@ class_name Building2D
 @export var show_status_icons: bool # TODO: not used yet
 
 ## is building paused
-var paused: bool = true:
+@export var paused: bool = true:
   set(value):
     paused = value
     for node: Node in self.get_children():
@@ -31,6 +31,7 @@ var paused: bool = true:
 signal unpaused
 
 func _ready():
+  self.paused = self.paused # call pause setter
   setup_components()
   CamUtils.center_if_no_camera(self)
 
@@ -52,7 +53,7 @@ func is_resource_available(resource: StringName) -> bool:
       if production_line.consumes.has(resource) == true:
         return false # if the building consumes the resource, do not take that resource from the building
     var current_storage_component := component as StorageComponent
-    if current_storage_component: 
+    if current_storage_component != null: 
       storage_component = current_storage_component
   if storage_component != null:
     if storage_component.get_storage_item_amount(resource) > 0:

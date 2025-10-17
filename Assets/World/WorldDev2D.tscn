@@ -6,7 +6,7 @@
 [ext_resource type="Script" uid="uid://bpjptkikp1330" path="res://Assets/World/Tilemaps/Terrain/TerrainTileMap.gd" id="2_gfcij"]
 [ext_resource type="Script" uid="uid://g6b3whtc1m5y" path="res://Assets/World/Context/BuildingContext.gd" id="2_p610i"]
 [ext_resource type="TileSet" uid="uid://g0x5fr7nbdbv" path="res://Assets/World/Tilemaps/BuiltTileMap/BuiltTileSet.tres" id="3_driv1"]
-[ext_resource type="PackedScene" uid="uid://bfln186sfga2v" path="res://Assets/World/Units/Ships/Ship2D/Ship2D.tscn" id="3_oiu6s"]
+[ext_resource type="PackedScene" uid="uid://cufrigatetscn" path="res://Assets/World/Units2/frigate/frigate.tscn" id="19_a06xh"]
 [ext_resource type="Script" uid="uid://db6g6ewi28i8" path="res://Assets/World/Context/BuildingRoadContext.gd" id="3_r4jkl"]
 [ext_resource type="Script" uid="uid://2jwdai8tqa12" path="res://Assets/World/MainCamera.gd" id="4_ryeen"]
 [ext_resource type="Shader" uid="uid://b70kkb40rbjf7" path="res://Assets/World/Components/Selectable/Highlighter.gdshader" id="5_xwy3w"]
@@ -78,7 +78,7 @@ tile_map_data = PackedByteArray("AAAXANz/AQAAAAAAAAAXAN3/AQAAAAAAAAAWAN7/AQACAAM
 tile_set = ExtResource("1_v0l7j")
 script = ExtResource("2_gfcij")
 
-[node name="Ship2D" parent="TerrainTileMap" instance=ExtResource("3_oiu6s")]
+[node name="Frigate" parent="TerrainTileMap" instance=ExtResource("19_a06xh")]
 position = Vector2(448, 1248)
 
 [node name="BuiltTileMap" type="TileMapLayer" parent="."]
