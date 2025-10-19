@@ -12,6 +12,7 @@
 
 [node name="_ Warehouse" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.WAREHOUSE"
 baseclass = "storages.Warehouse"
 radius = 24
 cost = 5
@@ -19,7 +20,7 @@ cost_inactive = 0
 size = Vector2i(3, 3)
 inhabitants = 2
 tooltip_text = "None"
-   show_status_icons = false
+show_status_icons = false
 tier = "TIER.SAILORS"
 
 [node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]

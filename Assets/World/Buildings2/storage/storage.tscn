@@ -10,6 +10,7 @@
 
 [node name="{\'TIER_SAILORS\'_ \'_ Storage Tent\', \'TIER_PIONEERS\'_ \'_ Storage Hut\'}" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.STORAGE"
 baseclass = "storages.StorageTent"
 radius = 17
 cost = 10

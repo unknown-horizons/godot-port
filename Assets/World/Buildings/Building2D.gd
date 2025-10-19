@@ -46,18 +46,17 @@ func setup_components() -> void:
     component.set_components(components)
 
 func is_resource_available(resource: StringName) -> bool:
-  var storage_component: StorageComponent = null
   for component in self.get_children():
     var production_line := component as ProductionLineComponent
     if production_line != null:
       if production_line.consumes.has(resource) == true:
         return false # if the building consumes the resource, do not take that resource from the building
-    var current_storage_component := component as StorageComponent
-    if current_storage_component != null: 
-      storage_component = current_storage_component
-  if storage_component != null:
-    if storage_component.get_storage_item_amount(resource) > 0:
-      return true # found in at least one of the storages
+  for component in self.get_children():
+    var storage_component := component as StorageComponent
+    if storage_component != null:
+      # prints("      Looking for %s in %s" % [resource, self.name])
+      if storage_component.get_storage_item_amount(resource) > 0:
+        return true # found in at least one of the storages
 
   return false
 

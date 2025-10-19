@@ -8,6 +8,9 @@
 [node name="LumberjackTabWidget" instance=ExtResource("1")]
 script = ExtResource("5")
 
+[node name="ScrollContainer" parent="." index="1"]
+custom_minimum_size = Vector2(0, 189)
+
 [node name="CaptionBlock" parent="ScrollContainer/TabContainer/VBoxContainer" index="0"]
 text = "Lumberjack"
 

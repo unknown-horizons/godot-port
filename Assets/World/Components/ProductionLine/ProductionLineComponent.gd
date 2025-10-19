@@ -146,6 +146,8 @@ func produce():
   if self.paused:
     await self.unpaused
   spend_resources()
-  var produced_item = produces.keys()[0]
-  storage_component.set_storage_item_amount(produced_item, produces[produced_item])
+  for produced_resource_name in self.produces:
+    var current_amount := storage_component.get_storage_item_amount(produced_resource_name)
+    var produced_amount = self.produces[produced_resource_name]
+    storage_component.set_storage_item_amount(produced_resource_name, current_amount + produced_amount)
   notify_resource_produced()

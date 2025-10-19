@@ -31,7 +31,6 @@ func _input(event: InputEvent) -> void:
     var tab_container: TabContainer = self.get_node("HBoxContainer/VBoxContainer/TabContainer")
     # var target_tab_widget_name = event.get_meta("tab_widget_name")
     var selected_objects: Array = event.get_meta("selected_objects")
-    var tabs: Array[String] = event.get_meta("tabs") as Array[String]
     match len(selected_objects):
       0:
         tab_container.current_tab = 0
@@ -39,7 +38,6 @@ func _input(event: InputEvent) -> void:
         var all_tabs: AllTabs = %AllTabs
         if all_tabs:
           toggle_tab_widget(all_tabs)
-          all_tabs.tabs = tabs
           all_tabs.node_selected = selected_objects[0]
         else:
           tab_container.current_tab = 0
