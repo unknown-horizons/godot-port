@@ -259,14 +259,20 @@ func get_jobs_for_building_collector() -> Array[Job]:
   var parent_building_map_position: Vector2i = self.built_tilemap.local_to_map(self.parent_building.global_position)
   var cells_in_radius: Array[Vector2i] = self.get_cells_in_radius(self.radius)
   var jobs: Array[Job] = []
+  # print("Building: %s" % [self.get_parent().name])
   # create jobs for each resource
   for delta in cells_in_radius:
     var cell := parent_building_map_position + delta
-    var building: Building2D = self.built_tilemap.building_position_to_building.get(cell)
-    if building == null:
+    #print("  Cell: %s" % [cell])
+    #if cell == Vector2i(20, 27):
+      #print("Hey")
+    var other_building: Building2D = self.built_tilemap.building_position_to_building.get(cell)
+    if other_building == null or other_building == self.parent_building:
       continue
-    # ckeck for any jobs possible with the building
+    # print("  Other building: %s" % [other_building.name])
+    # ckeck for any jobs possible with the other_building
     for resource in self.building_storage.storage.keys():
+      # print("    Resource: %s" % [resource])
       # get if consumed and/or produced
       var consumed: bool = false
       var produced: bool = false
@@ -276,22 +282,20 @@ func get_jobs_for_building_collector() -> Array[Job]:
 
       if consumed and produced: # do nothing
         continue
-      # create a job to carry in if only consumed
-      if consumed:
-        if building.is_resource_available(resource) == false:
+      if consumed: # the resource is consumed by the this building, create job to bring it in
+        if other_building.is_resource_available(resource) == false:
           continue
         var path_to_start: Array[Vector2i] = self.get_cell_path(collector_map_position, cell) # to cell
-        var path_from_start_to_end: Array[Vector2i] = self.get_cell_path(cell, parent_building_map_position) # from cell to building
+        var path_from_start_to_end: Array[Vector2i] = self.get_cell_path(cell, parent_building_map_position) # from cell to other_building
         var new_job: Job = Job.new(path_to_start, path_from_start_to_end, resource)
         jobs.append(new_job)
-      # create a job to carry out if only produced
-      if produced:
+      if produced: # the resource is produced by the this building, create job to take it out
         if self.building_storage.get_storage_item_amount(resource) <= 0:
           continue
-        if building.id.to_lower() != BuildingConfig.Buildings.WAREHOUSE.to_lower():
+        if not other_building.id in ["BUILDINGS." + BuildingConfig.Buildings.WAREHOUSE, "BUILDINGS." + BuildingConfig.Buildings.STORAGE]:
           continue
-        var path_to_start: Array[Vector2i] = self.get_cell_path(collector_map_position, parent_building_map_position) # to building
-        var path_from_home_to_job: Array[Vector2i] = self.get_cell_path(parent_building_map_position, cell) # from cell to building
+        var path_to_start: Array[Vector2i] = self.get_cell_path(collector_map_position, parent_building_map_position) # to this building
+        var path_from_home_to_job: Array[Vector2i] = self.get_cell_path(parent_building_map_position, cell) # from cell to other_building
         var new_job: Job = Job.new(path_to_start, path_from_home_to_job, resource)
         jobs.append(new_job)
   return jobs

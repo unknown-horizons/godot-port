@@ -21,7 +21,7 @@ tier = "TIER.SAILORS"
 
 [node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
 type = "building"
-tabs = Array[String](["MainSquareOverviewTab", "MainSquareSailorsTab", "MainSquarePioneersTab", "MainSquareSettlersTab", "MainSquareCitizensTab", "MainSquareMerchantsTab"])
+tabs = Array[String](["AccountTab", "MainSquareSailorsTab", "MainSquarePioneersTab", "MainSquareSettlersTab", "MainSquareCitizensTab", "MainSquareMerchantsTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
 [node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]

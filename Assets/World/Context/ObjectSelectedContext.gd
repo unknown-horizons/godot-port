@@ -41,10 +41,6 @@ func set_tab_widget():
   
   event.action = "toggle_building_info_menu"
   event.pressed = true
-  var tabs: Array[String] = []
-  if len(selected_objects) == 1:
-    tabs = selected_objects[0].tabs
-  event.set_meta("tabs", tabs)
   # get the parent of the selectable characteristic
   ## the parents of the selectable characteristic
   var selected_buildings_and_units: Array = []

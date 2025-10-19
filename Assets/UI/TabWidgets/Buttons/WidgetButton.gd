@@ -1,4 +1,3 @@
-@tool
 extends TextureButton
 class_name WidgetButton
 
