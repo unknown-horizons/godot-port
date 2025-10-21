@@ -77,7 +77,7 @@ func _pressed() -> void:
       event.set_meta(key, self.input_action_meta[key]);
     event.set_meta("button_name", self.name)
     # event.set_meta("building_name", "road");
-    Input.parse_input_event(event);
+    Input.parse_input_event(event); # ../../../World/Context/BuildingContext.gd:40
 
 func _notification(what: int) -> void:
   match what:

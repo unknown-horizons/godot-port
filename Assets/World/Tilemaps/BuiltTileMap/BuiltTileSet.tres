@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=80 format=3 uid="uid://g0x5fr7nbdbv"]
+[gd_resource type="TileSet" load_steps=81 format=3 uid="uid://g0x5fr7nbdbv"]
 
 [ext_resource type="PackedScene" uid="uid://cbambienttscn" path="res://Assets/World/Buildings2/ambient/ambient.tscn" id="2_AMBIENT"]
 [ext_resource type="PackedScene" uid="uid://cbbakerytscn0" path="res://Assets/World/Buildings2/bakery/bakery.tscn" id="2_BAKERY"]
@@ -50,6 +50,7 @@
 [ext_resource type="PackedScene" uid="uid://cbwindmilltsc" path="res://Assets/World/Buildings2/windmill/windmill.tscn" id="2_WINDMILL"]
 [ext_resource type="PackedScene" uid="uid://cbwinerytscn0" path="res://Assets/World/Buildings2/winery/winery.tscn" id="2_WINERY"]
 [ext_resource type="PackedScene" uid="uid://cbwoodentowts" path="res://Assets/World/Buildings2/wooden_tower/wooden_tower.tscn" id="2_WOODEN_TOWER"]
+[ext_resource type="PackedScene" uid="uid://cbdummy3x3tsc" path="res://Assets/World/Buildings2/dummy/dummy3x3.tscn" id="3_DUMMY_3x3"]
 [ext_resource type="Texture2D" uid="uid://bpj7a252mpg8h" path="res://Assets/World/Trees/Sprites/Maple1_idle_full.png" id="4_spnop"]
 [ext_resource type="Texture2D" uid="uid://dvi3gxgx1gre1" path="res://Assets/World/Buildings/Agricultural/PotatoField/Sprites/PotatoField_work_anim.png" id="5_tu0oc"]
 [ext_resource type="Texture2D" uid="uid://b4lvqs0r23ivx" path="res://Assets/World/Buildings/SaltPonds/Sprites/SaltPond_work_anim.png" id="6_g1dfa"]
@@ -127,6 +128,7 @@ scenes/146/scene = ExtResource("2_WEAVER")
 scenes/147/scene = ExtResource("2_WINDMILL")
 scenes/148/scene = ExtResource("2_WINERY")
 scenes/149/scene = ExtResource("2_WOODEN_TOWER")
+scenes/200/scene = ExtResource("3_DUMMY_3x3")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8x7ew"]
 texture = ExtResource("4_spnop")

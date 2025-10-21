@@ -90,3 +90,16 @@ func set_can_build_highlight(can_build: bool) -> void:
     var action_set := node as BuildingActionSet
     if action_set != null:
       action_set.set_can_build_shader(can_build)
+
+func get_oriented_size() -> Vector2i:
+  var size_x = self.size.x
+  var size_y = self.size.y
+  if size_x != size_y: # for rectangular building, swap size_x and size_y if at particular orientation
+    var actionset := self.get_first_node_of_type(BuildingActionSet) as BuildingActionSet
+    if actionset == null:
+      push_error("Building %s is not square and has no building action set to get orientation from" % self.name)
+    var orientation := actionset.orientation if actionset != null else BuildingActionSet.Orientations._045
+    if orientation == BuildingActionSet.Orientations._045 or orientation == BuildingActionSet.Orientations._225:
+      size_x = self.size.y
+      size_y = self.size.x
+  return Vector2i(size_x, size_y)
