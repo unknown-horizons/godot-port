@@ -111,8 +111,8 @@ func set_production_line(production_line: ProductionLineComponent, slot_storage:
   var produces_keys: Array[StringName] = production_line.produces.keys()
   produces_keys.sort_custom(func(a, b): return production_line.produces[a] < production_line.produces[b])
 
-  self.output.resource_type = produces_keys[0]
-  self.output.resource_amount = production_line.produces[produces_keys[0]]
+  self.output.resource_type = produces_keys[0] if len(produces_keys) > 0 else ResourceConfig.Resources.NONE
+  self.output.resource_amount = production_line.produces[produces_keys[0]] if len(produces_keys) > 0 else 0
   update_progress_bar()
   update_resource_amount()
 

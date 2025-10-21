@@ -48,10 +48,11 @@ storage = Dictionary[StringName, int]({
 })
 
 [node name="lumberjack_collector_0" parent="." instance=ExtResource("7_lumberjack_collector")]
+"Collector Type" = "BUILDING_COLLECTOR"
 
 [node name="BuildingCollector" parent="." instance=ExtResource("9_building_collector_component")]
 "Collector Type" = "BUILDING_COLLECTOR"
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")
-current_as_name = ""
+current_as_name = "lumberjack0"
