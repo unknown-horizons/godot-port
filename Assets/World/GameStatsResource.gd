@@ -11,6 +11,17 @@ var resources: Dictionary[StringName, int] = {
   ResourceConfig.Resources.FLOUR: 100,
 } # resource_name to count
 
+var world_tier: StringName = WorldTiers.Tiers.SAILORS: 
+  set(value):
+    var new_enum_value = WorldTiers.TierEnum.get(value, WorldTiers.TierEnum.SAILORS)
+    var current_enum_value = WorldTiers.TierEnum.get(self.world_tier, WorldTiers.TierEnum.SAILORS)
+    if new_enum_value < current_enum_value:
+      return # don't allow going down tiers
+    world_tier = value
+    world_tier_changed.emit()
+
+## Called when the world tier changes
+signal world_tier_changed
 signal resources_changed
 
 func add_resource(resource: StringName, amount: int):

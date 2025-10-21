@@ -14,6 +14,8 @@ class_name Building2D
 @export var inhabitants: int        # TODO: not used yet
 @export var tooltip_text: String    # TODO: not used yet
 @export var tier: String            # TODO: not used yet
+@export var current_tier: StringName = WorldTiers.Tiers.MAX: set = set_tier
+
 # buildingcosts - in BuildingConfig.gd
 @export var show_status_icons: bool # TODO: not used yet
 
@@ -30,10 +32,36 @@ class_name Building2D
 
 signal unpaused
 
+## setter for current_tier
+func set_tier(new_tier: StringName) -> void:
+  current_tier = new_tier
+  var enum_tier: WorldTiers.TierEnum = WorldTiers.TierEnum.get(self.current_tier, WorldTiers.TierEnum.SAILORS)
+  for node: Node in self.get_children():
+    if "current_tier" in node:
+      if node.current_tier is StringName: # if uses StringName
+        node.current_tier = self.current_tier
+      elif node.current_tier is WorldTiers.TierEnum: # if uses enum
+        node.current_tier = enum_tier
+  var world_enum_tier: WorldTiers.TierEnum = WorldTiers.TierEnum.get(GameStats.game_stats_resource.world_tier, WorldTiers.TierEnum.SAILORS)
+  if world_enum_tier < enum_tier:
+    GameStats.game_stats_resource.world_tier = self.current_tier
+
+## Changes current_tier if needed
+func update_tier() -> void:
+  self.current_tier = GameStats.game_stats_resource.world_tier
+
 func _ready():
   self.paused = self.paused # call pause setter
+  # handle world tier
   setup_components()
+  self.current_tier = GameStats.game_stats_resource.world_tier
+  self.update_tier()
+  self.connect_set_tier()
   CamUtils.center_if_no_camera(self)
+
+## Called when to connect set_tier connections
+func connect_set_tier() -> void:
+  GameStats.game_stats_resource.world_tier_changed.connect(self.update_tier)
 
 func setup_components() -> void:
   # get a list of all the child components

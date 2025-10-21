@@ -14,8 +14,12 @@ class_name ProductionLineComponent
 @export var produces: Dictionary[StringName, int] = {}
 
 @export var production_time: float = 10
-
+## The multiplier applied to consumed and produced resources' amounts.
+@export var consumes_multiplier: int = 1: set = set_consumes_multiplier
+@export var produces_multiplier: int = 1: set = set_produces_multiplier
 @export_group("")
+
+@export var show_tooltip: bool = true
 
 @onready var item_produced_tooltip: Control = self.get_node("ItemProducedTooltip")
 @onready var resource_image_placeholder: TextureRect = self.get_node("ItemProducedTooltip/Background/HBoxContainer/ItemImagePlaceholder/ItemImage"):
@@ -85,6 +89,8 @@ func update_action_set():
         self.action_state_changed.emit(ActionStates.WORK)
 
 func notify_resource_produced():
+  if self.show_tooltip == false:
+    return
   if len(produces.keys()) <= 0: # check that there is an output product
     return
   var starting_tooltip_position: Vector2 = item_produced_tooltip.position # the starting position of tooltip
@@ -105,7 +111,7 @@ func has_enough_resources() -> bool:
     return false
   for resource in self.consumes:
     var available_resource_amount: int = storage_component.storage.get(resource, 0)
-    var needed_resource_amount: int = consumes[resource]
+    var needed_resource_amount: int = consumes[resource] * self.consumes_multiplier
     if available_resource_amount == null or available_resource_amount < needed_resource_amount:
       return false
   return true
@@ -117,9 +123,9 @@ func spend_resources():
     var available_resource_amount: int = storage_component.storage.get(resource, 0)
     var needed_resource_amount: int = consumes[resource]
     if available_resource_amount >= needed_resource_amount: # for the case that the resources were not checked before (from unusual function, e.t.c.)
-      storage_component.set_storage_item_amount(resource, available_resource_amount - needed_resource_amount)
-    else:
-      push_error("not enough resources at spending stage.")
+      storage_component.set_storage_item_amount(resource, available_resource_amount - needed_resource_amount * self.consumes_multiplier)
+    # else:
+    #   push_error("not enough resources at spending stage.")
 
 
 func production_loop():
@@ -137,8 +143,8 @@ func wait_for_resources():
       await self.unpaused
 
 func produce():
-  if len(produces.keys()) <= 0:
-    return
+  # if len(produces.keys()) <= 0:
+  #   return
   production_stage = ProductionStages.PRODUCING
   # simulate production, TODO: switch to Timer for game speed awareness and pauseability
   self.production_time_end = Time.get_unix_time_from_system() + production_time
@@ -149,5 +155,12 @@ func produce():
   for produced_resource_name in self.produces:
     var current_amount := storage_component.get_storage_item_amount(produced_resource_name)
     var produced_amount = self.produces[produced_resource_name]
-    storage_component.set_storage_item_amount(produced_resource_name, current_amount + produced_amount)
+    storage_component.set_storage_item_amount(produced_resource_name, current_amount + produced_amount * self.produces_multiplier)
   notify_resource_produced()
+
+
+func set_consumes_multiplier(multiplier: int):
+  consumes_multiplier = multiplier
+
+func set_produces_multiplier(multiplier: int):
+  produces_multiplier = multiplier

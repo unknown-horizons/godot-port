@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://b607l3mhn27rv"]
-
-[ext_resource type="Script" uid="uid://bk314l25ya4mk" path="res://Assets/World/Components/CollectorActionSet/CollectorActionSet.gd" id="1_2omcd"]
-
-[node name="CollectorActionSet" type="Node2D"]
-script = ExtResource("1_2omcd")
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-animation = &""
