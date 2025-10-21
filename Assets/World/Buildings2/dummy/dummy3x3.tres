@@ -1,0 +1,54 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cbdummy3x3tre"]
+
+[ext_resource type="Texture2D" uid="uid://ctffpujgll45c" path="res://Assets/World/Buildings2/dummy/dummy3x3_settlers_as_dummy3x3_idle.png" id="dummy3x3_settlers_as_dummy3x3_idle"]
+
+[sub_resource type="AtlasTexture" id="dummy3x3_settlers_idle_045_0_0"]
+atlas = ExtResource("dummy3x3_settlers_as_dummy3x3_idle")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dummy3x3_settlers_idle_135_0_192"]
+atlas = ExtResource("dummy3x3_settlers_as_dummy3x3_idle")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dummy3x3_settlers_idle_225_0_384"]
+atlas = ExtResource("dummy3x3_settlers_as_dummy3x3_idle")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="dummy3x3_settlers_idle_315_0_576"]
+atlas = ExtResource("dummy3x3_settlers_as_dummy3x3_idle")
+region = Rect2(0, 576, 192, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("dummy3x3_settlers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"dummy3x3.settlers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("dummy3x3_settlers_idle_135_0_192")
+}],
+"loop": true,
+"name": &"dummy3x3.settlers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("dummy3x3_settlers_idle_225_0_384")
+}],
+"loop": true,
+"name": &"dummy3x3.settlers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("dummy3x3_settlers_idle_315_0_576")
+}],
+"loop": true,
+"name": &"dummy3x3.settlers.idle.315",
+"speed": 5.0
+}]

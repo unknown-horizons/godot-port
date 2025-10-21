@@ -177,6 +177,10 @@ func update_animation() -> void:
         tier_animations = working_state_animations
       
       if tier_animations.size() > 1:
+        # TODO: we filter logs and planks for now. Those need to be an overlay layer on top of the lumberjack (hut) animation
+        tier_animations = tier_animations.filter(func(k): return not k.contains(".logs_") and not k.contains(".planks_"))
+
+      if tier_animations.size() > 1:
         push_error("Multiple animations found for tier %s, state %s, orientation %s: %s" % [tier_name_lc, state_str, orientation_str, tier_animations])
 
       animation_name = tier_animations[0]
@@ -188,7 +192,28 @@ func update_animation() -> void:
     else: # else, it is a runtime error, so it is not going to be touched anytime soon, so raise attention: push_error
       push_error("No animation at or below current tier, how did the building get on the map?")
     animation_name = self.sprite_frames.get_animation_names()[0] # use first animation as fallback
-  animated_sprite.play(animation_name)
+  
+  var building_instance := self.get_parent() as Building2D
+
+  if building_instance != null: # use building_instance.size to determine the multicell sprite offset 
+    var texture = self.animated_sprite.sprite_frames.get_frame_texture(animation_name, 0)
+    var w = texture.get_width()
+    var h = texture.get_height()
+    self.animated_sprite.centered = false
+    # the multicell sprites are aligned at the center of bottom.
+    # Cell size is 64x32. The midpoint of bottom cell is (h-32/2). The horizontal offset depends if the sprite is square (2x2, 3x3, etc) or rectangular (3x2, etc). 
+    if building_instance.size.x == building_instance.size.y: # a square footprint for the building
+      self.animated_sprite.offset = Vector2(-w/2, -(h-32/2)) # where 32 - is cell height.
+    else: # non square footprint sprite (2x3, 3x4 etc)
+      if self.orientation == 135 or self.orientation == 315: # 2x3 isometric (goes up right "/") => the bottom cell is shifted left comparing to the center of the image
+        self.animated_sprite.offset = Vector2(-building_instance.size.x*64/2, -(h-32/2))
+        pass
+      elif self.orientation == 45 or self.orientation == 225: # 2x3 isometric (goes up left "\") => the bottom cell is shifted right comparing to the center of the image
+        self.animated_sprite.offset = Vector2(-building_instance.size.y*64/2, -(h-32/2))
+      else:
+        self.animated_sprite.offset = Vector2(-w/2, -(h-32/2))
+        push_error("Unexpected orientation: %s" % self.orientation)
+  self.animated_sprite.play(animation_name)
 
 func set_can_build_shader(can_build: bool) -> void:
   if self.has_node("AnimatedSprite2D"):

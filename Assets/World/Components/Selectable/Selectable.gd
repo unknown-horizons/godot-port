@@ -67,7 +67,8 @@ func is_in_rect(rect: Rect2) -> bool:
         sprite_size = self.sprite.region_rect.size * self.sprite.scale
       else:
         sprite_size = self.sprite.texture.get_size() * self.sprite.scale
-    var sprite_rect: Rect2 = Rect2(sprite.global_position - sprite_size/2, sprite_size).abs()
+    var sprite_rect: Rect2 = Rect2(sprite.global_position + sprite.offset, sprite_size).abs() # TODO: test this logic with negative scale and centered sprite
+    # var sprite_rect: Rect2 = Rect2(sprite.global_position - sprite_size/2, sprite_size).abs()
     var does_intersect: bool = rect.intersects(sprite_rect) and parent.visible
     # print("%s does_intersect: %s" % [self.get_path(), does_intersect])
     return does_intersect

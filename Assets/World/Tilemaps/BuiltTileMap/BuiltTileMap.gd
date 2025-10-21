@@ -33,16 +33,26 @@ func register_building(building: Building2D) -> void:
   var building_all_cell_coords = building_name_to_cell_coords.get(building.id, [])
   var building_tile_coords = self.local_to_map(building.position)
   var new_building_cells: Array[Vector2i] = []
-  for dx in range(building.size.x):
-    for dy in range(building.size.y):
-      var building_cell_tile_coords = building_tile_coords + Vector2i(dx, dy)
+
+  var road_building_context = %GameContextManager.get_node("BuildingRoadContext")
+  var road_pathfinding = %Pathfinding.road_pathfinding
+
+  var size = building.get_oriented_size()
+  for dy in range(size.y):
+    for dx in range(size.x):
+      var building_cell_tile_coords = building_tile_coords - Vector2i(dx, dy) # build up and left
       new_building_cells.append(building_cell_tile_coords)
-      building_position_to_building[building_cell_tile_coords] = building
+      self.building_position_to_building[building_cell_tile_coords] = building
       building_all_cell_coords.append(building_cell_tile_coords)
-      %Pathfinding.road_pathfinding.set_point_solid(building_cell_tile_coords, false)
-      var road_building_context = %GameContextManager.get_node("BuildingRoadContext")
+      road_pathfinding.set_point_solid(building_cell_tile_coords, false)
       road_building_context.road_building_pathfindng.set_point_solid(building_cell_tile_coords, true)
   building.paused = false
+
+  await get_tree().process_frame # wait for one frame, otherwise erase cells doesn't refresh the drawing if called from _on_child_entered_tree callstack
+  for cell in building_all_cell_coords:
+    if cell != building_tile_coords: # erase all other cells which the building covers
+      self.set_cell(cell, -1)
+
   # handle notifications
   buildings_built.emit(building, new_building_cells)
   GameStats.game_stats_resource.resources_changed.emit() # trigger other buildings to look for resources again (including this building)

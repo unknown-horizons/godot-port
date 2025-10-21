@@ -15,6 +15,8 @@ func _ready() -> void:
 func adjust_scroll_height():
   # print(self.get_viewport_rect())
   # Get screen or parent height
+  if not parent_container.is_inside_tree():
+    return
   var screen_height = parent_container.get_viewport_rect().size.y
   var top_position = scroll.global_position.y
   var extra_height = (parent_container.global_position.y + parent_container.size.y) - (scroll.global_position.y + scroll.size.y)
