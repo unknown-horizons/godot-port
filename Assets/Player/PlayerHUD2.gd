@@ -28,7 +28,7 @@ func _input(event: InputEvent) -> void:
     # toggle_tab_widget(%BuildMenuByCategoryTabWidget);
   
   if event.is_action_pressed("toggle_building_info_menu"):
-    var tab_container: TabContainer = self.get_node("HBoxContainer/VBoxContainer/TabContainer")
+    var tab_container: TabContainer = self.get_node("RightMenuPanel/TabContainer")
     # var target_tab_widget_name = event.get_meta("tab_widget_name")
     var selected_objects: Array = event.get_meta("selected_objects")
     match len(selected_objects):
@@ -38,7 +38,7 @@ func _input(event: InputEvent) -> void:
         var all_tabs: AllTabs = %AllTabs
         if all_tabs:
           toggle_tab_widget(all_tabs)
-          all_tabs.node_selected = selected_objects[0]
+          all_tabs.selected_node = selected_objects[0]
         else:
           tab_container.current_tab = 0
       _:

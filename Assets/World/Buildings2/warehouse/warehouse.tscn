@@ -10,10 +10,13 @@
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 [ext_resource type="PackedScene" uid="uid://custoragecots" path="res://Assets/World/Units2/storage_collector/storage_collector.tscn" id="7_storage_collector"]
 
-[node name="_ Warehouse" type="Node2D"]
+[node name="warehouse" type="Node2D"]
 script = ExtResource("1_script_gd")
 id = "BUILDINGS.WAREHOUSE"
 baseclass = "storages.Warehouse"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Warehouse"
+})
 radius = 24
 cost = 5
 cost_inactive = 0
@@ -40,12 +43,6 @@ produces = Dictionary[StringName, int]({
 })
 
 [node name="SettlementStorageComponent" parent="." instance=ExtResource("5_settlement_storage_component")]
-
-[node name="storage_collector_0" parent="." instance=ExtResource("7_storage_collector")]
-
-[node name="storage_collector_1" parent="." instance=ExtResource("7_storage_collector")]
-
-[node name="storage_collector_2" parent="." instance=ExtResource("7_storage_collector")]
 
 [node name="AmbientSoundComponent" parent="." instance=ExtResource("3_ambient_sound_component")]
 sound_files = Array[String](["content/audio/sounds/warehouse.ogg"])

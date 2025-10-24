@@ -10,9 +10,13 @@
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="7_building_collector"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="9_building_collector_component"]
 
-[node name="_ Smeltery" type="Node2D"]
+[node name="smeltery" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.SMELTERY"
 baseclass = "production.ProductionBuilding"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Smeltery"
+})
 radius = 10
 cost = 50
 cost_inactive = 15
@@ -41,8 +45,8 @@ produces = Dictionary[StringName, int]({
 
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
-&"CHARCOAL": 6, 
-&"IRON_INGOTS": 9, 
+&"CHARCOAL": 6,
+&"IRON_INGOTS": 9,
 &"IRON_ORE": 6
 })
 

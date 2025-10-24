@@ -6,9 +6,13 @@
 [ext_resource type="SpriteFrames" uid="uid://cbsettlerrutr" path="res://Assets/World/Buildings2/settler_ruin/settler_ruin.tres" id="4_sprite_frames"]
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 
-[node name="_ Ruined Tent" type="Node2D"]
+[node name="settler_ruin" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.SETTLER_RUIN"
 baseclass = "settler.SettlerRuin"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Ruined Tent"
+})
 radius = 0
 cost = 0
 cost_inactive = 0

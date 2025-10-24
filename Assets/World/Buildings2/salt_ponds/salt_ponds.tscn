@@ -9,9 +9,13 @@
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="9_building_collector_component"]
 
-[node name="_ Salt Ponds" type="Node2D"]
+[node name="salt_ponds" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.SALT_PONDS"
 baseclass = "production.CoastalProducer"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Salt Ponds"
+})
 radius = 0
 cost = 10
 cost_inactive = 0

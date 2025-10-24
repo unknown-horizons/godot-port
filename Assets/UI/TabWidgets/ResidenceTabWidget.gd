@@ -1,3 +1,0 @@
-@tool
-extends BuildingMenuTabWidget
-class_name ResidenceTabWidget

@@ -6,9 +6,13 @@
 [ext_resource type="SpriteFrames" uid="uid://cblookouttres" path="res://Assets/World/Buildings2/lookout/lookout.tres" id="4_sprite_frames"]
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 
-[node name="_ Lookout" type="Node2D"]
+[node name="lookout" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.LOOKOUT"
 baseclass = "building.DefaultBuilding"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Lookout"
+})
 radius = 12
 cost = 5
 cost_inactive = 0

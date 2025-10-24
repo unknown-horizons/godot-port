@@ -1,5 +1,6 @@
-[gd_scene load_steps=12 format=3 uid="uid://mfw66ys7s1bq"]
+[gd_scene load_steps=13 format=3 uid="uid://mfw66ys7s1bq"]
 
+[ext_resource type="Script" uid="uid://ddncpha77448x" path="res://Assets/UI/TabWidgets/Views/AccountTab.gd" id="1_f8uv7"]
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="1_ovo35"]
 [ext_resource type="FontFile" uid="uid://b132ikq6ayfyj" path="res://External/Fonts/LinLibertineC.ttf" id="4_bpcj4"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="6_juqhn"]
@@ -19,10 +20,11 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 offset_right = -1383.0
 offset_bottom = -602.0
+script = ExtResource("1_f8uv7")
 
 [node name="CaptionBlock" parent="." instance=ExtResource("1_ovo35")]
 layout_mode = 2
-text = "Town Name"
+caption_text = "Account tab"
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 2

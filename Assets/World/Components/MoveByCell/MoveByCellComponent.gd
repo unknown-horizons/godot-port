@@ -17,9 +17,7 @@ class_name MoveByCellComponent
     if Engine.is_editor_hint():
       return
 
-    if pathfinding_node == null:
-      push_error("Pathfinding node is not found")
-    else:
+    if pathfinding_node != null:
       match allowed_movement:
         AllowedMovementTypes.MOVE_ON_WATER:
           pathfinding = pathfinding_node.ship_pathfinding

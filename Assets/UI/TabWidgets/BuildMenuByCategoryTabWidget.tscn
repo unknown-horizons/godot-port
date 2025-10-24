@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=3 uid="uid://poqoikb77ih2"]
+[gd_scene load_steps=33 format=3 uid="uid://poqoikb77ih2"]
 
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://bvbuafk7d6fdt" path="res://Assets/UI/TabWidgets/TabWidget.tscn" id="2"]
@@ -26,15 +26,12 @@
 [ext_resource type="PackedScene" uid="uid://nhl0p4nywtxx" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildBoatBuilderButton.tscn" id="25"]
 [ext_resource type="PackedScene" uid="uid://dr76ohwujw1er" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildDistilleryButton.tscn" id="26"]
 [ext_resource type="PackedScene" uid="uid://df8j7bhpnq8sv" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildLumberjackButton.tscn" id="27"]
+[ext_resource type="PackedScene" uid="uid://dxhx0mblwnog8" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildBakeryButton.tscn" id="27_70dgb"]
 [ext_resource type="PackedScene" uid="uid://5p22dia2ikym" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildClayPitButton.tscn" id="28"]
 [ext_resource type="PackedScene" uid="uid://dxhx0mblwnog7" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildBrickyardButton.tscn" id="29"]
-[ext_resource type="Texture2D" uid="uid://bnwi17jqnk2a1" path="res://Assets/World/Buildings/Bakery/Sprites/BuildMenuIcons/BuildMenuIcon.png" id="29_22dju"]
-[ext_resource type="PackedScene" uid="uid://77w0fa2ig1qg" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButton.tscn" id="29_uewla"]
 [ext_resource type="PackedScene" uid="uid://b1nvknge1r1ly" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildFishermanButton.tscn" id="30"]
 [ext_resource type="PackedScene" uid="uid://bttl07b8eembn" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildHunterButton.tscn" id="31"]
 [ext_resource type="PackedScene" uid="uid://cavvyxjtjx50u" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildWindmillButton.tscn" id="31_22dju"]
-[ext_resource type="Texture2D" uid="uid://ulkpobspu04w" path="res://Assets/World/Buildings/Bakery/Sprites/BuildMenuIcons/BuildMenuIconHighlighted.png" id="31_mv4jb"]
-[ext_resource type="Texture2D" uid="uid://b2owsjui5mwcd" path="res://Assets/World/Buildings/Bakery/Sprites/BuildMenuIcons/BuildMenuIconGray.png" id="32_w1h3q"]
 
 [node name="BuildMenuByCategoryTabWidget" instance=ExtResource("2")]
 anchors_preset = 5
@@ -62,12 +59,13 @@ custom_minimum_size = Vector2(40, 46)
 layout_mode = 2
 
 [node name="ScrollContainer" parent="." index="1"]
-custom_minimum_size = Vector2(0, 331)
+custom_minimum_size = Vector2(0, 255)
 
 [node name="TabContainer" parent="ScrollContainer" index="0"]
-current_tab = 0
+current_tab = 2
 
 [node name="Residents" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="1"]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
@@ -253,7 +251,6 @@ font_style = 1
 layout_mode = 2
 
 [node name="Agriculture" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="3"]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 2
 
@@ -324,13 +321,8 @@ layout_mode = 2
 [node name="BuildDistilleryButton" parent="ScrollContainer/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="1" instance=ExtResource("26")]
 layout_mode = 2
 
-[node name="BuildBakeryButton" parent="ScrollContainer/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="2" instance=ExtResource("29_uewla")]
+[node name="BuildBakeryButton" parent="ScrollContainer/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="2" instance=ExtResource("27_70dgb")]
 layout_mode = 2
-texture_normal = ExtResource("29_22dju")
-texture_pressed = ExtResource("29_22dju")
-texture_hover = ExtResource("31_mv4jb")
-texture_disabled = ExtResource("32_w1h3q")
-texture_focused = ExtResource("29_22dju")
 
 [node name="BuildWindmillButton" parent="ScrollContainer/TabContainer/Agriculture/MarginContainer/VBoxContainer/VBoxContainer3/BuildMenuContainer" index="3" instance=ExtResource("31_22dju")]
 layout_mode = 2

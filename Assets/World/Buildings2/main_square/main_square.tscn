@@ -8,9 +8,13 @@
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 [ext_resource type="PackedScene" uid="uid://bw7vhkspeuvnf" path="res://Assets/World/Components/Storages/SettlementStorageComponent/SettlementStorageComponent.tscn" id="5_settlement_storage_component"]
 
-[node name="_ Main Square" type="Node2D"]
+[node name="main_square" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.MAIN_SQUARE"
 baseclass = "storages.MainSquare"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Main Square"
+})
 radius = 0
 cost = 0
 cost_inactive = 0

@@ -8,16 +8,20 @@
 [ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 
-[node name="_ Fish Deposit" type="Node2D"]
+[node name="fish_deposit" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.FISH_DEPOSIT"
 baseclass = "nature.Fish"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Fish Deposit"
+})
 radius = 0
 cost = 0
 cost_inactive = 0
 size = Vector2i(2, 2)
 inhabitants = 0
 tooltip_text = "None"
-   show_status_icons = false
+show_status_icons = false
 tier = "TIER.NATURE"
 
 [node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]

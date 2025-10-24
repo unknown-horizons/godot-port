@@ -8,18 +8,16 @@ class_name AllTabs
 func _ready() -> void:
   CamUtils.center_if_no_camera(self)
 
-var node_selected: WorldThing2D = null:
+var selected_node: WorldThing2D = null:
   set(value):
-    node_selected = value
-    if self.node_selected == null:
+    selected_node = value
+    if self.selected_node == null:
       push_error("node selected null and All tabs toggled")
       return
     update_switches()
 
-signal new_node_selected(node: WorldThing2D)
-
 func update_switches() -> void:
-  var selectable := self.node_selected.get_node("Selectable") as Selectable
+  var selectable := self.selected_node.get_node("Selectable") as Selectable
 
   var tabs_to_display: Dictionary[String, bool] = {} # set of tabs to display (imitated by dict)
   for tab in selectable.tabs:
@@ -31,13 +29,13 @@ func update_switches() -> void:
 
   var active_tab = selectable.tabs[0]
 
-  var tab_container_node = tab_container.get_node(active_tab)
-  if tab_container_node == null:
+  var active_tab_tab_container_node = tab_container.get_node(active_tab) # match tab node by tab name
+  if active_tab_tab_container_node == null:
     push_error("Tab not found for '%s'" % [active_tab])
   else:
     for tab_index in tab_container.get_tab_count():
-      if tab_container.get_tab_control(tab_index) == tab_container_node:
+      if tab_container.get_tab_control(tab_index) == active_tab_tab_container_node:
+        if "selected_node" in active_tab_tab_container_node:
+          active_tab_tab_container_node.selected_node = self.selected_node
         tab_container.current_tab = tab_index
         break
-
-  new_node_selected.emit(self.node_selected)

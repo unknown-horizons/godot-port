@@ -6,16 +6,21 @@
 [ext_resource type="SpriteFrames" uid="uid://cbbarriertres" path="res://Assets/World/Buildings2/barrier/barrier.tres" id="4_sprite_frames"]
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 
-[node name="{\'TIER_SAILORS\'_ \'_ Wooden barrier\', \'TIER_PIONEERS\'_ \'_ Clay wall\'}" type="Node2D"]
+[node name="barrier" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.BARRIER"
 baseclass = "war.Barrier"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Wooden barrier", 
+&"PIONEERS": "_ Clay wall"
+})
 radius = 0
 cost = 0
 cost_inactive = 0
 size = Vector2i(1, 1)
 inhabitants = 0
 tooltip_text = "_ Provides security."
-   show_status_icons = false
+show_status_icons = false
 tier = "TIER.SAILORS"
 
 [node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
