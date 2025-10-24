@@ -1,4 +1,4 @@
-[gd_scene load_steps=87 format=3 uid="uid://db0jyegu5eki5"]
+[gd_scene load_steps=106 format=3 uid="uid://db0jyegu5eki5"]
 
 [ext_resource type="PackedScene" uid="uid://bvbuafk7d6fdt" path="res://Assets/UI/TabWidgets/TabWidget.tscn" id="1_012xi"]
 [ext_resource type="PackedScene" uid="uid://bqqtcv3vc2v16" path="res://Assets/UI/TabWidgets/Switches/SwitchTabWidget.tscn" id="2_ig0oa"]
@@ -12,11 +12,12 @@
 [ext_resource type="Texture2D" uid="uid://ctvk7bl7fo4bh" path="res://Assets/UI/Icons/Resources/32/096.png" id="13_1oexd"]
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="14_kdlxv"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="15_vcl1p"]
+[ext_resource type="Script" uid="uid://b756bltjlqq3k" path="res://Assets/UI/TabWidgets/SettlerOverviewTab.gd" id="16_egkp5"]
+[ext_resource type="Texture2D" uid="uid://dev17cbd3o05u" path="res://Assets/World/Buildings2/residential/residential_sailors_as_tent3_idle.png" id="17_prl8c"]
 [ext_resource type="PackedScene" uid="uid://mfw66ys7s1bq" path="res://Assets/UI/TabWidgets/Views/AccountTab.tscn" id="21_go27e"]
 [ext_resource type="Texture2D" uid="uid://bgyonk7toefi1" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_red.png" id="23_ba20v"]
 [ext_resource type="PackedScene" uid="uid://daextxbtctkbi" path="res://Assets/UI/BasicControls/Caption.tscn" id="24_t8603"]
 [ext_resource type="PackedScene" uid="uid://bht6m616i3njv" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/TransferButton.tscn" id="25_egkp5"]
-[ext_resource type="Texture2D" uid="uid://dkjfwp6qyqmsu" path="res://Assets/World/Buildings/Residential/Sprites/Tent4_idle.png" id="26_gvjj0"]
 [ext_resource type="PackedScene" uid="uid://ijjptewfo3fs" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/FoundSettlementButton.tscn" id="26_prl8c"]
 [ext_resource type="PackedScene" uid="uid://dd0xhcqj23hve" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/TradeRouteButton.tscn" id="27_a0gmt"]
 [ext_resource type="PackedScene" uid="uid://2u6dqy2k2v1n" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/DiscardAllButton.tscn" id="28_urajk"]
@@ -485,10 +486,10 @@ texture_hover = SubResource("mainsquare_inhabitants5_h")
 texture_active = SubResource("mainsquare_inhabitants5_a")
 
 [node name="ScrollContainer" parent="." index="1"]
-custom_minimum_size = Vector2(0, 238)
+custom_minimum_size = Vector2(0, 134)
 
 [node name="TabContainer" parent="ScrollContainer" index="0"]
-current_tab = 11
+current_tab = 4
 
 [node name="AccountTab" parent="ScrollContainer/TabContainer" index="1" instance=ExtResource("21_go27e")]
 visible = false
@@ -504,7 +505,7 @@ metadata/_tab_index = 1
 
 [node name="CaptionBlock" parent="ScrollContainer/TabContainer/InventoryTab" index="0" instance=ExtResource("3_j476x")]
 layout_mode = 2
-text = "Settelment"
+caption_text = "InventoryTab"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/TabContainer/InventoryTab" index="1"]
 layout_mode = 2
@@ -834,6 +835,7 @@ metadata/_tab_index = 2
 
 [node name="CaptionBlock" parent="ScrollContainer/TabContainer/BuySellTab" index="0" instance=ExtResource("3_j476x")]
 layout_mode = 2
+caption_text = "BuySellTab"
 
 [node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/BuySellTab" index="1"]
 layout_mode = 2
@@ -924,10 +926,12 @@ font_style = 9
 [node name="SettlerOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="4"]
 visible = false
 layout_mode = 2
+script = ExtResource("16_egkp5")
 metadata/_tab_index = 3
 
 [node name="CaptionBlock" parent="ScrollContainer/TabContainer/SettlerOverviewTab" index="0" instance=ExtResource("3_j476x")]
 layout_mode = 2
+caption_text = "SettlerOverviewTab"
 
 [node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/SettlerOverviewTab" index="1"]
 layout_mode = 2
@@ -944,12 +948,9 @@ size_flags_horizontal = 4
 size_flags_vertical = 6
 
 [node name="Sprite2D" type="Sprite2D" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer/Control" index="0"]
-texture = ExtResource("26_gvjj0")
+texture = ExtResource("17_prl8c")
 centered = false
-hframes = 2
-vframes = 2
-region_enabled = true
-region_rect = Rect2(0, 20, 256, 256)
+vframes = 4
 
 [node name="LabelEx2" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer" index="1" instance=ExtResource("14_kdlxv")]
 layout_mode = 2
@@ -1012,14 +1013,13 @@ texture = ExtResource("34_8csgm")
 resource_type = 9
 
 [node name="ProductionOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="5"]
-visible = false
 layout_mode = 2
 script = ExtResource("8_024wi")
 metadata/_tab_index = 4
 
-[node name="BuildingName" parent="ScrollContainer/TabContainer/ProductionOverviewTab" index="0" instance=ExtResource("3_j476x")]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/ProductionOverviewTab" index="0" instance=ExtResource("3_j476x")]
 layout_mode = 2
-text = "Building"
+caption_text = "ProductionOverviewTab"
 
 [node name="ProductionBasicInfo" parent="ScrollContainer/TabContainer/ProductionOverviewTab" index="1" instance=ExtResource("4_ir4j5")]
 layout_mode = 2
@@ -1177,11 +1177,13 @@ layout_mode = 2
 layout_mode = 2
 
 [node name="TradeTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="12"]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 11
 
 [node name="CaptionBlock" parent="ScrollContainer/TabContainer/TradeTab" index="0" instance=ExtResource("3_j476x")]
 layout_mode = 2
+caption_text = "TradeTab"
 
 [node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/TradeTab" index="1"]
 layout_mode = 2
@@ -1277,15 +1279,20 @@ metadata/_tab_index = 12
 [node name="LumberjackOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="14"]
 visible = false
 layout_mode = 2
+script = ExtResource("8_024wi")
 metadata/_tab_index = 13
 
 [node name="CaptionBlock" parent="ScrollContainer/TabContainer/LumberjackOverviewTab" index="0" instance=ExtResource("3_j476x")]
 layout_mode = 2
+caption_text = "LumberjackOverviewTab"
 
 [node name="ProductionBasicInfo" parent="ScrollContainer/TabContainer/LumberjackOverviewTab" index="1" instance=ExtResource("4_ir4j5")]
 layout_mode = 2
 
-[node name="ProductionChain" parent="ScrollContainer/TabContainer/LumberjackOverviewTab" index="2" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChains" type="VBoxContainer" parent="ScrollContainer/TabContainer/LumberjackOverviewTab" index="2"]
+layout_mode = 2
+
+[node name="ProductionChain" parent="ScrollContainer/TabContainer/LumberjackOverviewTab/ProductionChains" index="0" instance=ExtResource("5_p3q1l")]
 layout_mode = 2
 input_two_type = &"RES.TREES"
 output_type = &"RES.BOARDS"
@@ -1301,6 +1308,3 @@ columns = 4
 
 [node name="BuildTreeAreaButton" parent="ScrollContainer/TabContainer/LumberjackOverviewTab/MarginContainer/GridContainer" index="0" instance=ExtResource("32_t8603")]
 layout_mode = 2
-
-[connection signal="new_node_selected" from="." to="ScrollContainer/TabContainer/ProductionOverviewTab" method="on_new_node_selected"]
-[connection signal="new_node_selected" from="." to="ScrollContainer/TabContainer/ProductionOverviewTab/BuildingName" method="new_node_selected"]

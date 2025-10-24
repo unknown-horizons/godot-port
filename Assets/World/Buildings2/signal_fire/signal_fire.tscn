@@ -6,9 +6,13 @@
 [ext_resource type="SpriteFrames" uid="uid://cbsignalfirtr" path="res://Assets/World/Buildings2/signal_fire/signal_fire.tres" id="4_sprite_frames"]
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 
-[node name="_ Signal Fire" type="Node2D"]
+[node name="signal_fire" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.SIGNAL_FIRE"
 baseclass = "building.DefaultBuilding"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Signal Fire"
+})
 radius = 13
 cost = 0
 cost_inactive = 0

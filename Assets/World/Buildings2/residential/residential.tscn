@@ -1,6 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://cbresidentits"]
+[gd_scene load_steps=8 format=3 uid="uid://cbresidentits"]
 
-[ext_resource type="Script" uid="uid://c6udx706kqrfr" path="res://Assets/World/Buildings2/residential/residential.gd" id="1_l2cyr"]
+[ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
 [ext_resource type="SpriteFrames" uid="uid://cbresidentitr" path="res://Assets/World/Buildings2/residential/residential.tres" id="4_sprite_frames"]
@@ -9,11 +9,23 @@
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 [ext_resource type="PackedScene" uid="uid://cusettlercots" path="res://Assets/World/Units2/settler_collector/settler_collector.tscn" id="7_settler_collector"]
 
-[node name="{\'TIER_SAILORS\'_ \'_ Tent\', \'TIER_PIONEERS\'_ \'_ Hut\', \'TIER_SETTLERS\'_ \'_ House\', \'TIER_CITIZENS\'_ \'_ Stone house\', \'TIER_MERCHANTS\'_ \'_ Estate\', \'TIER_ARISTOCRATS\'_ \'_ Manor\'}" type="Node2D"]
-script = ExtResource("1_l2cyr")
+[node name="residential" type="Node2D"]
+script = ExtResource("1_script_gd")
+id = "BUILDINGS.RESIDENTIAL"
 baseclass = "settler.Settler"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Tent", 
+&"PIONEERS": "_ Hut", 
+&"SETTLERS": "_ House", 
+&"CITIZENS": "_ Stone house", 
+&"MERCHANTS": "_ Estate", 
+&"ARISTOCRATS": "_ Manor"
+})
 radius = 12
+cost = 0
+cost_inactive = 0
 size = Vector2i(2, 2)
+inhabitants = 1
 tooltip_text = "_ Houses your inhabitants."
 tier = "TIER.SAILORS"
 
@@ -33,7 +45,6 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 1
 })
-show_tooltip = false
 
 [node name="ProductionLineComponent_72" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "72"
@@ -43,7 +54,6 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 5
 })
-show_tooltip = false
 
 [node name="ProductionLineComponent_21" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "21"
@@ -53,7 +63,6 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 3
 })
-show_tooltip = false
 
 [node name="ProductionLineComponent_71" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "71"
@@ -63,7 +72,6 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 15
 })
-show_tooltip = false
 
 [node name="ProductionLineComponent_19" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "19"
@@ -73,7 +81,6 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 13
 })
-show_tooltip = false
 
 [node name="ProductionLineComponent_43" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "43"
@@ -83,7 +90,6 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 12
 })
-show_tooltip = false
 
 [node name="ProductionLineComponent_26" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "26"
@@ -93,7 +99,6 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 3
 })
-show_tooltip = false
 
 [node name="ProductionLineComponent_44" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "44"
@@ -103,7 +108,6 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 5
 })
-show_tooltip = false
 
 [node name="ProductionLineComponent_20" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "20"
@@ -113,7 +117,6 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 5
 })
-show_tooltip = false
 
 [node name="ProductionLineComponent_41" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "41"
@@ -123,7 +126,6 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 4
 })
-show_tooltip = false
 
 [node name="ProductionLineComponent_69" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "69"
@@ -133,7 +135,6 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 4
 })
-show_tooltip = false
 
 [node name="ProductionLineComponent_70" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "70"
@@ -143,7 +144,6 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 5
 })
-show_tooltip = false
 
 [node name="ProductionLineComponent_HYGIENE" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "HYGIENE"
@@ -153,62 +153,24 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 5
 })
-show_tooltip = false
-
-[node name="HappinessComsumer" parent="." instance=ExtResource("6_production_line_component")]
-consumes = Dictionary[StringName, int]({
-&"HAPPINESS": 1
-})
-production_time = 1.0
-show_tooltip = false
 
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"BLACKDEATH": 1,
-&"COMMUNITY": 10,
-&"EDUCATION": 10,
-&"FAITH": 10,
+&"COMMUNITY": 1,
+&"EDUCATION": 1,
+&"FAITH": 1,
 &"FIRE": 1,
-&"FOOD": 10,
-&"GET_TOGETHER": 10,
+&"FOOD": 1,
+&"GET_TOGETHER": 1,
 &"HAPPINESS": 100,
-&"HYGIENE": 10,
-&"SALT": 10,
-&"TEXTILE": 10,
-&"TOBACCO_PRODUCTS": 10
-})
-storage = Dictionary[StringName, int]({
-&"BLACKDEATH": 0,
-&"COMMUNITY": 10,
-&"EDUCATION": 10,
-&"FAITH": 10,
-&"FIRE": 0,
-&"FOOD": 10,
-&"GET_TOGETHER": 10,
-&"HAPPINESS": 50,
-&"HYGIENE": 10,
-&"SALT": 10,
-&"TEXTILE": 10,
-&"TOBACCO_PRODUCTS": 10
+&"HYGIENE": 1,
+&"SALT": 1,
+&"TEXTILE": 1,
+&"TOBACCO_PRODUCTS": 1
 })
 
 [node name="settler_collector_0" parent="." instance=ExtResource("7_settler_collector")]
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")
-current_as_name = "estate0"
-
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_30" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_72" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_21" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_71" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_19" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_43" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_26" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_44" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_20" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_41" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_69" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_70" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="ProductionLineComponent_HYGIENE" method="set_consumes_multiplier"]
-; [connection signal="residence_changed" from="." to="HappinessComsumer" method="set_consumes_multiplier"]

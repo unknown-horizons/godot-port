@@ -143,11 +143,11 @@ func _on_ActionButton_gui_input(_event: InputEvent) -> void:
 
 func _on_ActionButton_mouse_entered() -> void:
   pass # Override in sub-class for specific behavior
-  prints("entered")
+  # prints("entered")
 
 func _on_ActionButton_mouse_exited() -> void:
   pass # Override in sub-class for specific behavior
-  prints("exited")
+  # prints("exited")
 
 func _on_TextureRect_gui_input(_event: InputEvent) -> void:
   return # TODO: Revise function for Godot 4

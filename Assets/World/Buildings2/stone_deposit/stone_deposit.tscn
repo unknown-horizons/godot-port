@@ -7,9 +7,13 @@
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 [ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 
-[node name="_ Stone Deposit" type="Node2D"]
+[node name="stone_deposit" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.STONE_DEPOSIT"
 baseclass = "nature.ResourceDeposit"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Stone Deposit"
+})
 radius = 0
 cost = 0
 cost_inactive = 0

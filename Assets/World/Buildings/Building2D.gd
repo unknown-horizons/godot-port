@@ -5,8 +5,9 @@ class_name Building2D
 #@export var production_chain: ProductionChain
 
 @export var id: StringName = &"Building"
-
 @export var baseclass: String       # TODO: not used yet
+
+@export var game_name_per_tier: Dictionary[StringName, String]
 @export var radius: int             # TODO: not used yet
 @export var cost: int               # TODO: not used yet
 @export var cost_inactive: int      # TODO: not used yet
@@ -18,6 +19,16 @@ class_name Building2D
 
 # buildingcosts - in BuildingConfig.gd
 @export var show_status_icons: bool # TODO: not used yet
+
+var game_name: String:
+  get():
+    var latest_name = "NameNotSet"
+    for tier_name in WorldTiers.TierEnum.keys():
+      if self.game_name_per_tier.has(tier_name):
+        latest_name = self.game_name_per_tier[tier_name]
+      if tier_name == self.current_tier:
+        break
+    return latest_name
 
 ## is building paused
 @export var paused: bool = true:

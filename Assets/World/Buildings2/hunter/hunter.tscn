@@ -10,9 +10,13 @@
 [ext_resource type="PackedScene" uid="uid://cuhuntercolts" path="res://Assets/World/Units2/hunter_collector/hunter_collector.tscn" id="7_hunter_collector"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="9_building_collector_component"]
 
-[node name="_ Hunter\'s Tent" type="Node2D"]
+[node name="hunter" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.HUNTER"
 baseclass = "production.ProductionBuilding"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Hunter's Tent"
+})
 radius = 10
 cost = 5
 cost_inactive = 0
@@ -40,7 +44,7 @@ produces = Dictionary[StringName, int]({
 
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
-&"DEER_MEAT": 4, 
+&"DEER_MEAT": 4,
 &"FOOD": 6
 })
 

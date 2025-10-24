@@ -37,6 +37,19 @@ func get_trees() -> Array[Vector2i]:
       trees.append(cell)
   return trees
 
+func build(building_cell_coords: Vector2i, building_to_build: StringName, orientation: BuildingActionSet.Orientations) -> void:
+  # TODO: the can_build_building check is not full: the size here is not available, since there is no instance of the building. Does it need to be checked there again after highlight?
+  self.set_cell_orientation_workaround = orientation
+  var building_tileset_id = BuildingConfig.building_to_tileset_id.get(building_to_build, -1)
+  if building_tileset_id == -1:
+    push_error("Building %s does not have a tileset id in `BuildingConfig.building_to_tileset_id`" % building_to_build)
+    return
+  self.set_cell(building_cell_coords, 0, Vector2i.ZERO, building_tileset_id)
+  await self.buildings_built
+  # self.set_cell_orientation_workaround = WorldThings.Orientations._045
+
+var set_cell_orientation_workaround := BuildingActionSet.Orientations._045
+
 func register_building(building: Building2D) -> void:
   # register building to building poses
   var building_all_cell_coords = building_name_to_cell_coords.get(building.id, [])
@@ -45,6 +58,10 @@ func register_building(building: Building2D) -> void:
 
   var road_building_context = %GameContextManager.get_node("BuildingRoadContext")
   var road_pathfinding = %Pathfinding.road_pathfinding
+
+  var action_set := building.get_first_node_of_type(BuildingActionSet) as BuildingActionSet if building != null else null
+  if action_set != null:
+    action_set.orientation = self.set_cell_orientation_workaround
 
   var size = building.get_oriented_size()
   for dy in range(size.y):

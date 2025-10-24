@@ -4,7 +4,8 @@ extends ItemList
 var maps = {
 	#"WorldDev": preload("res://Assets/World/WorldDev.tscn"),
 	"WorldDev": preload("res://Assets/World/WorldDev2D.tscn"),
-	"World": preload("res://Assets/World/World.tscn"),
+	"WorldDev_simple": preload("res://Assets/World/WorldDev2D_simple.tscn"),
+	# "World": preload("res://Assets/World/World.tscn"),
 }
 
 func _ready() -> void:

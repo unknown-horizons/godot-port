@@ -10,9 +10,13 @@
 [ext_resource type="PackedScene" uid="uid://cufieldcollts" path="res://Assets/World/Units2/field_collector/field_collector.tscn" id="7_field_collector"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="9_building_collector_component"]
 
-[node name="_ Farm" type="Node2D"]
+[node name="farm" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.FARM"
 baseclass = "production.Farm"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Farm"
+})
 radius = 3
 cost = 10
 cost_inactive = 0
@@ -148,31 +152,31 @@ produces = Dictionary[StringName, int]({
 
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
-&"ALVEARIES": 6, 
-&"CATTLE": 6, 
-&"CATTLE_SLAUGHTER": 6, 
-&"COCOA": 6, 
-&"COCOA_BEANS": 6, 
-&"CORN": 6, 
-&"FOOD": 6, 
-&"GRAIN": 6, 
-&"GRAPES": 6, 
-&"HERBS": 6, 
-&"HONEYCOMBS": 6, 
-&"HOPS": 6, 
-&"HOP_PLANTS": 6, 
-&"LAMB_WOOL": 6, 
-&"MEDICAL_HERBS": 6, 
-&"PIGS": 6, 
-&"PIGS_SLAUGHTER": 6, 
-&"POTATOES": 6, 
-&"RAW_SUGAR": 6, 
-&"SPICES": 6, 
-&"SPICE_PLANTS": 6, 
-&"SUGAR": 6, 
-&"TOBACCO_LEAVES": 6, 
-&"TOBACCO_PLANTS": 6, 
-&"VINES": 6, 
+&"ALVEARIES": 6,
+&"CATTLE": 6,
+&"CATTLE_SLAUGHTER": 6,
+&"COCOA": 6,
+&"COCOA_BEANS": 6,
+&"CORN": 6,
+&"FOOD": 6,
+&"GRAIN": 6,
+&"GRAPES": 6,
+&"HERBS": 6,
+&"HONEYCOMBS": 6,
+&"HOPS": 6,
+&"HOP_PLANTS": 6,
+&"LAMB_WOOL": 6,
+&"MEDICAL_HERBS": 6,
+&"PIGS": 6,
+&"PIGS_SLAUGHTER": 6,
+&"POTATOES": 6,
+&"RAW_SUGAR": 6,
+&"SPICES": 6,
+&"SPICE_PLANTS": 6,
+&"SUGAR": 6,
+&"TOBACCO_LEAVES": 6,
+&"TOBACCO_PLANTS": 6,
+&"VINES": 6,
 &"WOOL": 6
 })
 

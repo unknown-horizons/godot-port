@@ -10,9 +10,13 @@
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="7_building_collector"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="9_building_collector_component"]
 
-[node name="_ Pastry Shop" type="Node2D"]
+[node name="pastry_shop" type="Node2D"]
 script = ExtResource("1_script_gd")
+id = "BUILDINGS.PASTRY_SHOP"
 baseclass = "production.PastryShop"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Pastry Shop"
+})
 radius = 8
 cost = 25
 cost_inactive = 10
@@ -61,11 +65,11 @@ produces = Dictionary[StringName, int]({
 
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
-&"CANDLES": 6, 
-&"COCOA": 6, 
-&"CONFECTIONERY": 6, 
-&"GRAPES": 6, 
-&"HONEYCOMBS": 6, 
+&"CANDLES": 6,
+&"COCOA": 6,
+&"CONFECTIONERY": 6,
+&"GRAPES": 6,
+&"HONEYCOMBS": 6,
 &"SUGAR": 8
 })
 

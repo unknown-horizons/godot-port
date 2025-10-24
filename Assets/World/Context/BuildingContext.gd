@@ -21,7 +21,7 @@ var building_to_build: StringName = BuildingConfig.Buildings.NONE:
     if not self.is_active:
       self.game_context_manager.current_context = self
 
-var building_size: Vector2i
+var building_oriented_size: Vector2i
 
 ## The object that is used as a reference for the building placement and other things.
 ## If a additional check for valid building tile is desired, the object must have a function, "is_tile_valid_for_building(building_tile_position)".
@@ -68,7 +68,7 @@ func _unhandled_input(event: InputEvent) -> void:
           var action_set := highlighted_building_instance.get_first_node_of_type(BuildingActionSet) as BuildingActionSet
           var orientation := action_set.orientation if action_set != null else BuildingActionSet.Orientations._045
 
-          build(building_cell_coords, self.building_size, self.building_to_build, orientation)
+          self.build(building_cell_coords, self.building_oriented_size, self.building_to_build, orientation)
 
         if mouseButtonEvent.button_index == MOUSE_BUTTON_RIGHT:
           if reference_object != null:
@@ -132,6 +132,12 @@ func can_build_building(building_cell_starting_coords: Vector2i, size: Vector2i,
   var is_enough_resources = self.has_resources_for_building(building_name)
   return is_enough_resources
 
+func build(building_cell_coords: Vector2i, building_size: Vector2i, building_to_build: StringName, orientation: BuildingActionSet.Orientations) -> void:
+  if building_to_build != BuildingConfig.Buildings.NONE and can_build_building(building_cell_coords, building_size, building_to_build): # If there is a building to build and it can be built
+    spend_resources_for_building(self.building_to_build)
+    built_tilemap.build(building_cell_coords, building_to_build, orientation)
+    highlighter.clear()
+
 func update_building_highlight(building_cell_coords: Vector2i) -> void:
   var building_instance: Building2D = null
   if building_cell_coords != self.last_highlighted_building_position or len(highlighter.highlighted_objects) == 0: # if the mouse moved or there is no highlighted building, then update the highlighter
@@ -155,7 +161,7 @@ func update_building_highlight(building_cell_coords: Vector2i) -> void:
   # now that the building instance is not null, highlight is updated, and the shader is set, set the shader to correct color
   var building_instance_2D := building_instance as Building2D
   if building_instance_2D != null:
-    self.building_size = building_instance_2D.size # cache the size
+    self.building_oriented_size = building_instance_2D.get_oriented_size() # cache the size
     var can_build := can_build_building(building_cell_coords, building_instance_2D.get_oriented_size(), self.building_to_build)
     building_instance_2D.set_can_build_highlight(can_build)
 
@@ -176,17 +182,3 @@ func spend_resources_for_building(building_name: StringName) -> void:
     var amount_needed: int = cost[resource]
     GameStats.game_stats_resource.add_resource(resource, -amount_needed)
     print("the amount of %s is now %s" % [str(resource).capitalize(), GameStats.game_stats_resource.resources[resource]])
-
-func build(building_cell_coords: Vector2i, building_size: Vector2i, building_to_build: StringName, orientation: BuildingActionSet.Orientations) -> void:
-  # TODO: the can_build_building check is not full: the size here is not available, since there is no instance of the building. Does it need to be checked there again after highlight?
-  if building_to_build != BuildingConfig.Buildings.NONE and can_build_building(building_cell_coords, building_size, building_to_build): # If there is a building to build and it can be built
-    spend_resources_for_building(self.building_to_build)
-    built_tilemap.set_cell(building_cell_coords, 0, Vector2i.ZERO, BuildingConfig.building_to_tileset_id.get(self.building_to_build, -1))
-    highlighter.clear()
-    var res = await built_tilemap.buildings_built
-    var building := res[0] as Building2D
-    # var cells := res[1] as Array[Vector2i]
-    var action_set := building.get_first_node_of_type(BuildingActionSet) as BuildingActionSet if building != null else null
-    if action_set != null:
-      action_set.orientation = orientation
-    pass

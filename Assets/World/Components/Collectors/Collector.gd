@@ -154,24 +154,8 @@ func get_cells_in_radius(radius: int) -> Array[Vector2i]:
       if dx + dy <= self.radius:
         cells_in_radius.append(Vector2i(dx, dy))
 
-  cells_in_radius.sort_custom(func(a, b): return abs(a).x + abs(a).y < abs(b).x + abs(b).y)
+  cells_in_radius.sort_custom(func(a, b): return abs(a.x) + abs(a.y) < abs(b.x) + abs(b.y))
   return cells_in_radius
-
-func get_path_to_closest_warehouse() -> Array[Vector2]:
-  if built_tilemap == null: # if the built tilemap is null, then return null
-    return []
-  var path_to_warehouse: Array[Vector2] = []
-  for building_cell in built_tilemap.building_name_to_cell_coords.get("Warehouse", []): # loop through the buildings
-    var warehouse := self.built_tilemap.building_position_to_building.get(building_cell, null) as Warehouse2D
-    if warehouse: # if the building is a warehouse,
-      var path_to_current_warehouse = move_by_cell.pathfinding.get_path_to_dest(self.global_position, warehouse.global_position) # get the path to the warehouse.
-      if path_to_current_warehouse == null:
-        continue
-      if (path_to_warehouse == [] or len(path_to_current_warehouse) < len(path_to_warehouse)) and path_to_current_warehouse != null: # if the warehouse is closer than the last closest warehouse,
-        path_to_warehouse = []
-        for cell in path_to_current_warehouse:
-          path_to_warehouse.append(cell as Vector2)
-  return path_to_warehouse
 
 ## Returns the best possible job at the moment
 func get_best_job() -> Job:

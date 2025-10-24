@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="7_building_collector"]
 
 [node name="_ dummy3x3" type="Node2D"]
+game_name = "_ dummy3x3"
 script = ExtResource("1_script_gd")
 baseclass = "unitproduction.dummy3x3"
 radius = 6
