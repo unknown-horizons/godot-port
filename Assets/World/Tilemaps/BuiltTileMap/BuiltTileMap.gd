@@ -58,7 +58,7 @@ func register_building(building: Building2D) -> void:
   building.paused = false
 
   await get_tree().process_frame # wait for one frame, otherwise erase cells doesn't refresh the drawing if called from _on_child_entered_tree callstack
-  for cell in building_all_cell_coords:
+  for cell in new_building_cells:
     if cell != building_tile_coords: # erase all other cells which the building covers
       self.set_cell(cell, -1)
 
