@@ -55,6 +55,19 @@ const Buildings: Dictionary[StringName, StringName] = {
   WINDMILL             = &"WINDMILL",
   WINERY               = &"WINERY",
   WOODEN_TOWER         = &"WOODEN_TOWER",
+  ALVEARIES            = &"ALVEARIES",
+  CATTLE_RUN           = &"CATTLE_RUN",
+  COCOA_FIELD          = &"COCOA_FIELD",
+  CORN_FIELD           = &"CORN_FIELD",
+  HERBARY              = &"HERBARY",
+  HOP_FIELD            = &"HOP_FIELD",
+  PASTURE              = &"PASTURE",
+  PIGSTY               = &"PIGSTY",
+  POTATO_FIELD         = &"POTATO_FIELD",
+  SPICE_FIELD          = &"SPICE_FIELD",
+  SUGARCANE_FIELD      = &"SUGARCANE_FIELD",
+  TOBACCO_FIELD        = &"TOBACCO_FIELD",
+  VINEYARD             = &"VINEYARD",
 }
 
 ## All the buildings represented in enum state
@@ -110,6 +123,19 @@ const building_to_tileset_id = {
   WINDMILL             = 147,
   WINERY               = 148,
   WOODEN_TOWER         = 149,
+  ALVEARIES            = 150,
+  CATTLE_RUN           = 151,
+  COCOA_FIELD          = 152,
+  CORN_FIELD           = 153,
+  HERBARY              = 154,
+  HOP_FIELD            = 155,
+  PASTURE              = 156,
+  PIGSTY               = 157,
+  POTATO_FIELD         = 158,
+  SPICE_FIELD          = 159,
+  SUGARCANE_FIELD      = 160,
+  TOBACCO_FIELD        = 161,
+  VINEYARD             = 162,
 }
 
 ## Building enum value to the cost(resource to amount)
@@ -165,6 +191,19 @@ static var building_to_cost: Dictionary[StringName, Dictionary] = {
   Buildings.WINDMILL            : {&"BOARDS": 4, &"BRICKS": 5, &"GOLD": 400},
   Buildings.WINERY              : {&"BOARDS": 2, &"BRICKS": 3, &"GOLD": 500},
   Buildings.WOODEN_TOWER        : {&"BOARDS": 12, &"CANNON": 2, &"GOLD": 500, &"TOOLS": 3},
+  Buildings.ALVEARIES           : {&"GOLD": 150},
+  Buildings.CATTLE_RUN          : {&"BOARDS": 1, &"GOLD": 100},
+  Buildings.COCOA_FIELD         : {&"GOLD": 150},
+  Buildings.CORN_FIELD          : {&"GOLD": 150},
+  Buildings.HERBARY             : {&"GOLD": 150},
+  Buildings.HOP_FIELD           : {&"GOLD": 150},
+  Buildings.PASTURE             : {&"BOARDS": 1, &"GOLD": 100},
+  Buildings.PIGSTY              : {&"BOARDS": 2, &"GOLD": 200},
+  Buildings.POTATO_FIELD        : {&"GOLD": 150},
+  Buildings.SPICE_FIELD         : {&"GOLD": 150},
+  Buildings.SUGARCANE_FIELD     : {&"GOLD": 150},
+  Buildings.TOBACCO_FIELD       : {&"GOLD": 150},
+  Buildings.VINEYARD            : {&"GOLD": 150},
 }
 
 # ## Building enum value to the scene of it

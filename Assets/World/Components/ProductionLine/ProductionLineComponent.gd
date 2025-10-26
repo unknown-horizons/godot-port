@@ -106,6 +106,14 @@ func notify_resource_produced():
   item_produced_tooltip.visible = false
   item_produced_tooltip.position = starting_tooltip_position
 
+func has_output_space():
+  for produces in self.produces.keys():
+    var current_amount := self.storage_component.get_storage_item_amount(produces)
+    var max_amount: int = self.storage_component.max_capacity.get(produces, 0)
+    if current_amount < max_amount:
+      return true
+  return false
+
 func has_enough_resources() -> bool:
   if storage_component == null: # if there is no storage then no resources
     return false
@@ -137,7 +145,7 @@ func production_loop():
 
 func wait_for_resources():
   production_stage = ProductionStages.WAITING_FOR_RESOURCES
-  while has_enough_resources() == false:
+  while has_enough_resources() == false or self.has_output_space() == false:
     await GameStats.game_stats_resource.resources_changed
     if self.paused:
       await self.unpaused

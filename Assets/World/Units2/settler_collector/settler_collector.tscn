@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://unr7kegy5cn4" path="res://Assets/World/Components/MoveByCell/MoveByCellComponent.tscn" id="10_move_by_cell_component"]
 
 [node name="SettlerCollector" type="Node2D"]
+visible = false
 script = ExtResource("1_script_gd")
 baseclass = "collectors.SettlerCollector"
 radius = 5
