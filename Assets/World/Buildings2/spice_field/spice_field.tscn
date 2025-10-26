@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://cbspicefielts"]
+
+[ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
+[ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
+[ext_resource type="SpriteFrames" uid="uid://cbspicefieltr" path="res://Assets/World/Buildings2/spice_field/spice_field.tres" id="4_sprite_frames"]
+[ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
+[ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
+[ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
+
+[node name="spice_field" type="Node2D"]
+z_index = -1
+script = ExtResource("1_script_gd")
+id = "BUILDINGS.SPICE_FIELD"
+baseclass = "nature.Field"
+game_name_per_tier = Dictionary[StringName, String]({
+&"SAILORS": "_ Spice Field"
+})
+size = Vector2i(3, 3)
+tooltip_text = "_ Grows spices. Needs a farm."
+tier = "TIER.SETTLERS"
+
+[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+max_health = 10
+
+[node name="ProductionLineComponent_SPICES" parent="." instance=ExtResource("6_production_line_component")]
+line_name = "SPICES"
+produces = Dictionary[StringName, int]({
+&"SPICE_PLANTS": 1
+})
+
+[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+max_capacity = Dictionary[StringName, int]({
+&"SPICE_PLANTS": 1
+})
+storage = Dictionary[StringName, int]({
+&"SPICE_PLANTS": 0
+})
+
+[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+sprite_frames = ExtResource("4_sprite_frames")
+current_as_name = ""

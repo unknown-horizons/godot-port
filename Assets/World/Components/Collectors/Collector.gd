@@ -22,6 +22,7 @@ class Job:
 const CollectorTypes: Dictionary[StringName, StringName] = {
   BUILDING_COLLECTOR   = &"BUILDING_COLLECTOR",
   LUMBERJACK_COLLECTOR = &"LUMBERJACK_COLLECTOR",
+  FIELD_COLLECTOR      = &"FIELD_COLLECTOR",
 }
 
 
@@ -51,13 +52,6 @@ var action_set: BuildingActionSet
 var collector_type: String = self.CollectorTypes.BUILDING_COLLECTOR:
   set(value):
     collector_type = value
-    if self.move_by_cell:
-      match self.collector_type:
-        self.CollectorTypes.BUILDING_COLLECTOR:
-          self.move_by_cell.allowed_movement = self.MoveByCellComponent.AllowedMovementTypes.MOVE_ON_ROAD
-        self.CollectorTypes.LUMBERJACK_COLLECTOR:
-          self.move_by_cell.allowed_movement = self.MoveByCellComponent.AllowedMovementTypes.MOVE_ON_LAND 
-
 
 
 #region Editor: dynamic values for dropdown for `collector_type`
@@ -171,11 +165,13 @@ func get_best_job() -> Job:
       jobs = self.get_jobs_for_lumberjack_collector()
     self.CollectorTypes.BUILDING_COLLECTOR:
       jobs = self.get_jobs_for_building_collector()
+    self.CollectorTypes.FIELD_COLLECTOR:
+      jobs = self.get_jobs_for_building_collector()
 
   for job in jobs:
     if job == null:
       continue
-    var score: float = 1 - (len(job.path_to_start) + len(job.path_from_start_to_end)) / float(self.radius) / 2 # 0-1
+    var score: float = clampf(1 - (len(job.path_to_start) + len(job.path_from_start_to_end)) / float(self.radius) / 2, 0, 1) # 0-1
     if score >= best_job_score:
       best_job = job
       best_job_score = score
@@ -214,6 +210,8 @@ func load_resources(job: Job) -> void:
       await self.chop_tree(job)
     self.CollectorTypes.BUILDING_COLLECTOR:
       await self.load_resources_for_building_collector(job)
+    self.CollectorTypes.FIELD_COLLECTOR:
+      await self.load_resources_for_building_collector(job)
 
 ## Unloads resources, one for all types right now
 func unload_resources(job: Job) -> void:
@@ -231,7 +229,7 @@ func unload_resources(job: Job) -> void:
 
 ## returns all possible jobs for a building collector
 func get_jobs_for_building_collector() -> Array[Job]:
-  if self.collector_type != self.CollectorTypes.BUILDING_COLLECTOR:
+  if self.collector_type != self.CollectorTypes.BUILDING_COLLECTOR and self.collector_type != self.CollectorTypes.FIELD_COLLECTOR:
     push_error("Wrong function called for this collector. Collector: %s, get_jobs_for_building_collector" % self.collector_type)
     return []
   if self.building_storage == null or self.built_tilemap == null or self.parent_building == null:
@@ -252,9 +250,17 @@ func get_jobs_for_building_collector() -> Array[Job]:
     var other_building: Building2D = self.built_tilemap.building_position_to_building.get(cell)
     if other_building == null or other_building == self.parent_building:
       continue
+    # seperate field/building collectors
+    match self.collector_type:
+      self.CollectorTypes.BUILDING_COLLECTOR:
+        if other_building.baseclass == "nature.Field":
+          continue # building collectors don't collect from fields
+      self.CollectorTypes.FIELD_COLLECTOR:
+        if other_building.baseclass != "nature.Field":
+          continue # and field collectors don't collect from buildings
     # print("  Other building: %s" % [other_building.name])
     # ckeck for any jobs possible with the other_building
-    for resource in self.building_storage.storage.keys():
+    for resource in self.building_storage.max_capacity.keys():
       # print("    Resource: %s" % [resource])
       # get if consumed and/or produced
       var consumed: bool = false
@@ -268,8 +274,14 @@ func get_jobs_for_building_collector() -> Array[Job]:
       if consumed: # the resource is consumed by the this building, create job to bring it in
         if other_building.is_resource_available(resource) == false:
           continue
+        var amount_in_storage := self.building_storage.get_storage_item_amount(resource)
+        var max_amount: int = self.building_storage.max_capacity.get(resource, 0)
+        if amount_in_storage >= max_amount:
+          continue
         var path_to_start: Array[Vector2i] = self.get_cell_path(collector_map_position, cell) # to cell
         var path_from_start_to_end: Array[Vector2i] = self.get_cell_path(cell, parent_building_map_position) # from cell to other_building
+        if path_to_start == [] or path_from_start_to_end == []:
+          continue
         var new_job: Job = Job.new(path_to_start, path_from_start_to_end, resource)
         jobs.append(new_job)
       if produced: # the resource is produced by the this building, create job to take it out
@@ -279,6 +291,8 @@ func get_jobs_for_building_collector() -> Array[Job]:
           continue
         var path_to_start: Array[Vector2i] = self.get_cell_path(collector_map_position, parent_building_map_position) # to this building
         var path_from_home_to_job: Array[Vector2i] = self.get_cell_path(parent_building_map_position, cell) # from cell to other_building
+        if path_to_start == [] or path_from_home_to_job == []:
+          continue
         var new_job: Job = Job.new(path_to_start, path_from_home_to_job, resource)
         jobs.append(new_job)
   return jobs
@@ -325,6 +339,8 @@ func get_jobs_for_lumberjack_collector() -> Array[Job]:
         continue
       var path_to_start: Array[Vector2i] = self.get_cell_path(collector_map_position, cell) # to cell
       var path_from_start_to_end: Array[Vector2i] = self.get_cell_path(cell, parent_building_map_position) # from cell to building
+      if path_to_start == [] or path_from_start_to_end == []:
+          continue
       var new_job: Job = Job.new(path_to_start, path_from_start_to_end, ResourceConfig.Resources.TREES)
       jobs.append(new_job)
       break # terminate if tree found, get closest tree by distance not path

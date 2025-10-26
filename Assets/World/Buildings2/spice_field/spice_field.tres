@@ -1,0 +1,236 @@
+[gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://cbspicefieltr"]
+
+[ext_resource type="Texture2D" uid="uid://be2bmw88umc1i" path="res://Assets/World/Buildings2/spice_field/spice_field_settlers_as_spicefield0_idle.png" id="spice_field_settlers_as_spicefield0_idle"]
+[ext_resource type="Texture2D" uid="uid://c32ynltgidehq" path="res://Assets/World/Buildings2/spice_field/spice_field_settlers_as_spicefield0_idle_full.png" id="spice_field_settlers_as_spicefield0_idle_full"]
+[ext_resource type="Texture2D" uid="uid://bjixjw6gpm055" path="res://Assets/World/Buildings2/spice_field/spice_field_settlers_as_spicefield0_work.png" id="spice_field_settlers_as_spicefield0_work"]
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_idle_045_0_0"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_idle")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_idle_135_0_192"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_idle")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_idle_225_0_384"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_idle")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_idle_315_0_576"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_idle")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_idle_full_045_0_0"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_idle_full")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_idle_full_135_0_192"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_idle_full")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_idle_full_225_0_384"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_idle_full")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_idle_full_315_0_576"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_idle_full")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_045_0_0"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_045_192_0"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_045_384_0"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_045_576_0"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_135_0_192"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_135_192_192"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(192, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_135_384_192"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(384, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_135_576_192"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(576, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_225_0_384"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_225_192_384"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(192, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_225_384_384"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(384, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_225_576_384"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(576, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_315_0_576"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(0, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_315_192_576"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(192, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_315_384_576"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(384, 576, 192, 192)
+
+[sub_resource type="AtlasTexture" id="spicefield0_settlers_work_315_576_576"]
+atlas = ExtResource("spice_field_settlers_as_spicefield0_work")
+region = Rect2(576, 576, 192, 192)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"spicefield0.settlers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_idle_135_0_192")
+}],
+"loop": true,
+"name": &"spicefield0.settlers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_idle_225_0_384")
+}],
+"loop": true,
+"name": &"spicefield0.settlers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_idle_315_0_576")
+}],
+"loop": true,
+"name": &"spicefield0.settlers.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_idle_full_045_0_0")
+}],
+"loop": true,
+"name": &"spicefield0.settlers.idle_full.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_idle_full_135_0_192")
+}],
+"loop": true,
+"name": &"spicefield0.settlers.idle_full.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_idle_full_225_0_384")
+}],
+"loop": true,
+"name": &"spicefield0.settlers.idle_full.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_idle_full_315_0_576")
+}],
+"loop": true,
+"name": &"spicefield0.settlers.idle_full.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_045_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_045_192_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_045_384_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_045_576_0")
+}],
+"loop": true,
+"name": &"spicefield0.settlers.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_135_0_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_135_192_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_135_384_192")
+}, {
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_135_576_192")
+}],
+"loop": true,
+"name": &"spicefield0.settlers.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_225_0_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_225_192_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_225_384_384")
+}, {
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_225_576_384")
+}],
+"loop": true,
+"name": &"spicefield0.settlers.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_315_0_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_315_192_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_315_384_576")
+}, {
+"duration": 1.0,
+"texture": SubResource("spicefield0_settlers_work_315_576_576")
+}],
+"loop": true,
+"name": &"spicefield0.settlers.work.315",
+"speed": 5.0
+}]

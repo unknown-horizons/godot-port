@@ -1,5 +1,6 @@
-[gd_resource type="TileSet" load_steps=61 format=3 uid="uid://g0x5fr7nbdbv"]
+[gd_resource type="TileSet" load_steps=74 format=3 uid="uid://g0x5fr7nbdbv"]
 
+[ext_resource type="PackedScene" uid="uid://cbalveariests" path="res://Assets/World/Buildings2/alvearies/alvearies.tscn" id="2_ALVEARIES"]
 [ext_resource type="PackedScene" uid="uid://cbambienttscn" path="res://Assets/World/Buildings2/ambient/ambient.tscn" id="2_AMBIENT"]
 [ext_resource type="PackedScene" uid="uid://cbbakerytscn0" path="res://Assets/World/Buildings2/bakery/bakery.tscn" id="2_BAKERY"]
 [ext_resource type="PackedScene" uid="uid://cbbarrackstsc" path="res://Assets/World/Buildings2/barracks/barracks.tscn" id="2_BARRACKS"]
@@ -10,15 +11,20 @@
 [ext_resource type="PackedScene" uid="uid://cbbrickyardts" path="res://Assets/World/Buildings2/brickyard/brickyard.tscn" id="2_BRICKYARD"]
 [ext_resource type="PackedScene" uid="uid://cbbutcherytsc" path="res://Assets/World/Buildings2/butchery/butchery.tscn" id="2_BUTCHERY"]
 [ext_resource type="PackedScene" uid="uid://cbcannonfouts" path="res://Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn" id="2_CANNON_FOUNDRY"]
+[ext_resource type="PackedScene" uid="uid://cbcattlerunts" path="res://Assets/World/Buildings2/cattle_run/cattle_run.tscn" id="2_CATTLE_RUN"]
 [ext_resource type="PackedScene" uid="uid://cbcharcoalbts" path="res://Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn" id="2_CHARCOAL_BURNER"]
 [ext_resource type="PackedScene" uid="uid://cbclaydeposts" path="res://Assets/World/Buildings2/clay_deposit/clay_deposit.tscn" id="2_CLAY_DEPOSIT"]
 [ext_resource type="PackedScene" uid="uid://cbclaypittscn" path="res://Assets/World/Buildings2/clay_pit/clay_pit.tscn" id="2_CLAY_PIT"]
+[ext_resource type="PackedScene" uid="uid://cbcocoafielts" path="res://Assets/World/Buildings2/cocoa_field/cocoa_field.tscn" id="2_COCOA_FIELD"]
+[ext_resource type="PackedScene" uid="uid://cbcornfieldts" path="res://Assets/World/Buildings2/corn_field/corn_field.tscn" id="2_CORN_FIELD"]
 [ext_resource type="PackedScene" uid="uid://cbdistillerts" path="res://Assets/World/Buildings2/distillery/distillery.tscn" id="2_DISTILLERY"]
 [ext_resource type="PackedScene" uid="uid://cbdoctortscn0" path="res://Assets/World/Buildings2/doctor/doctor.tscn" id="2_DOCTOR"]
 [ext_resource type="PackedScene" uid="uid://cbfarmtscn000" path="res://Assets/World/Buildings2/farm/farm.tscn" id="2_FARM"]
 [ext_resource type="PackedScene" uid="uid://cbfirestatits" path="res://Assets/World/Buildings2/fire_station/fire_station.tscn" id="2_FIRE_STATION"]
 [ext_resource type="PackedScene" uid="uid://cbfishertscn0" path="res://Assets/World/Buildings2/fisher/fisher.tscn" id="2_FISHER"]
 [ext_resource type="PackedScene" uid="uid://cbfishdeposts" path="res://Assets/World/Buildings2/fish_deposit/fish_deposit.tscn" id="2_FISH_DEPOSIT"]
+[ext_resource type="PackedScene" uid="uid://cbherbarytscn" path="res://Assets/World/Buildings2/herbary/herbary.tscn" id="2_HERBARY"]
+[ext_resource type="PackedScene" uid="uid://cbhopfieldtsc" path="res://Assets/World/Buildings2/hop_field/hop_field.tscn" id="2_HOP_FIELD"]
 [ext_resource type="PackedScene" uid="uid://cbhuntertscn0" path="res://Assets/World/Buildings2/hunter/hunter.tscn" id="2_HUNTER"]
 [ext_resource type="PackedScene" uid="uid://cblookouttscn" path="res://Assets/World/Buildings2/lookout/lookout.tscn" id="2_LOOKOUT"]
 [ext_resource type="PackedScene" uid="uid://cblumberjacts" path="res://Assets/World/Buildings2/lumberjack/lumberjack.tscn" id="2_LUMBERJACK"]
@@ -26,7 +32,10 @@
 [ext_resource type="PackedScene" uid="uid://cbminetscn000" path="res://Assets/World/Buildings2/mine/mine.tscn" id="2_MINE"]
 [ext_resource type="PackedScene" uid="uid://cbmountaintsc" path="res://Assets/World/Buildings2/mountain/mountain.tscn" id="2_MOUNTAIN"]
 [ext_resource type="PackedScene" uid="uid://cbpastryshots" path="res://Assets/World/Buildings2/pastry_shop/pastry_shop.tscn" id="2_PASTRY_SHOP"]
+[ext_resource type="PackedScene" uid="uid://cbpasturetscn" path="res://Assets/World/Buildings2/pasture/pasture.tscn" id="2_PASTURE"]
 [ext_resource type="PackedScene" uid="uid://cbpaviliontsc" path="res://Assets/World/Buildings2/pavilion/pavilion.tscn" id="2_PAVILION"]
+[ext_resource type="PackedScene" uid="uid://cbpigstytscn0" path="res://Assets/World/Buildings2/pigsty/pigsty.tscn" id="2_PIGSTY"]
+[ext_resource type="PackedScene" uid="uid://cbpotatofiets" path="res://Assets/World/Buildings2/potato_field/potato_field.tscn" id="2_POTATO_FIELD"]
 [ext_resource type="PackedScene" uid="uid://cbpublicbatts" path="res://Assets/World/Buildings2/public_bath/public_bath.tscn" id="2_PUBLIC_BATH"]
 [ext_resource type="PackedScene" uid="uid://cbresidentits" path="res://Assets/World/Buildings2/residential/residential.tscn" id="2_RESIDENTIAL"]
 [ext_resource type="PackedScene" uid="uid://cbsalinetscn0" path="res://Assets/World/Buildings2/saline/saline.tscn" id="2_SALINE"]
@@ -34,16 +43,20 @@
 [ext_resource type="PackedScene" uid="uid://cbsettlerruts" path="res://Assets/World/Buildings2/settler_ruin/settler_ruin.tscn" id="2_SETTLER_RUIN"]
 [ext_resource type="PackedScene" uid="uid://cbsignalfirts" path="res://Assets/World/Buildings2/signal_fire/signal_fire.tscn" id="2_SIGNAL_FIRE"]
 [ext_resource type="PackedScene" uid="uid://cbsmelterytsc" path="res://Assets/World/Buildings2/smeltery/smeltery.tscn" id="2_SMELTERY"]
+[ext_resource type="PackedScene" uid="uid://cbspicefielts" path="res://Assets/World/Buildings2/spice_field/spice_field.tscn" id="2_SPICE_FIELD"]
 [ext_resource type="PackedScene" uid="uid://cbstonemasots" path="res://Assets/World/Buildings2/stonemason/stonemason.tscn" id="2_STONEMASON"]
 [ext_resource type="PackedScene" uid="uid://cbstonedepots" path="res://Assets/World/Buildings2/stone_deposit/stone_deposit.tscn" id="2_STONE_DEPOSIT"]
 [ext_resource type="PackedScene" uid="uid://cbstonepittsc" path="res://Assets/World/Buildings2/stone_pit/stone_pit.tscn" id="2_STONE_PIT"]
 [ext_resource type="PackedScene" uid="uid://cbstoragetscn" path="res://Assets/World/Buildings2/storage/storage.tscn" id="2_STORAGE"]
+[ext_resource type="PackedScene" uid="uid://cbsugarcanets" path="res://Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn" id="2_SUGARCANE_FIELD"]
 [ext_resource type="PackedScene" uid="uid://cbtaverntscn0" path="res://Assets/World/Buildings2/tavern/tavern.tscn" id="2_TAVERN"]
 [ext_resource type="PackedScene" uid="uid://cbtobacconits" path="res://Assets/World/Buildings2/tobacconist/tobacconist.tscn" id="2_TOBACCONIST"]
+[ext_resource type="PackedScene" uid="uid://cbtobaccofits" path="res://Assets/World/Buildings2/tobacco_field/tobacco_field.tscn" id="2_TOBACCO_FIELD"]
 [ext_resource type="PackedScene" uid="uid://cbtoolmakerts" path="res://Assets/World/Buildings2/toolmaker/toolmaker.tscn" id="2_TOOLMAKER"]
 [ext_resource type="PackedScene" uid="uid://cbtrailtscn00" path="res://Assets/World/Buildings2/trail/trail.tscn" id="2_TRAIL"]
 [ext_resource type="PackedScene" uid="uid://cbtreetscn000" path="res://Assets/World/Buildings2/tree/tree.tscn" id="2_TREE"]
 [ext_resource type="PackedScene" uid="uid://cbvillagescts" path="res://Assets/World/Buildings2/village_school/village_school.tscn" id="2_VILLAGE_SCHOOL"]
+[ext_resource type="PackedScene" uid="uid://cbvineyardtsc" path="res://Assets/World/Buildings2/vineyard/vineyard.tscn" id="2_VINEYARD"]
 [ext_resource type="PackedScene" uid="uid://cbwarehousets" path="res://Assets/World/Buildings2/warehouse/warehouse.tscn" id="2_WAREHOUSE"]
 [ext_resource type="PackedScene" uid="uid://cbweaponsmits" path="res://Assets/World/Buildings2/weaponsmith/weaponsmith.tscn" id="2_WEAPONSMITH"]
 [ext_resource type="PackedScene" uid="uid://cbweavertscn0" path="res://Assets/World/Buildings2/weaver/weaver.tscn" id="2_WEAVER"]
@@ -118,6 +131,19 @@ scenes/146/scene = ExtResource("2_WEAVER")
 scenes/147/scene = ExtResource("2_WINDMILL")
 scenes/148/scene = ExtResource("2_WINERY")
 scenes/149/scene = ExtResource("2_WOODEN_TOWER")
+scenes/150/scene = ExtResource("2_ALVEARIES")
+scenes/151/scene = ExtResource("2_CATTLE_RUN")
+scenes/152/scene = ExtResource("2_COCOA_FIELD")
+scenes/153/scene = ExtResource("2_CORN_FIELD")
+scenes/154/scene = ExtResource("2_HERBARY")
+scenes/155/scene = ExtResource("2_HOP_FIELD")
+scenes/156/scene = ExtResource("2_PASTURE")
+scenes/157/scene = ExtResource("2_PIGSTY")
+scenes/158/scene = ExtResource("2_POTATO_FIELD")
+scenes/159/scene = ExtResource("2_SPICE_FIELD")
+scenes/160/scene = ExtResource("2_SUGARCANE_FIELD")
+scenes/161/scene = ExtResource("2_TOBACCO_FIELD")
+scenes/162/scene = ExtResource("2_VINEYARD")
 scenes/200/scene = ExtResource("3_DUMMY_3x3")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8x7ew"]
@@ -209,21 +235,25 @@ texture_region_size = Vector2i(64, 32)
 14:3/0 = 0
 15:3/0 = 0
 0:4/0 = 0
+0:4/0/z_index = -1
 0:4/0/terrain_set = 0
 0:4/0/terrain = 0
 0:4/0/terrains_peering_bit/bottom_left_side = 0
 0:4/0/custom_data_0 = true
 1:4/0 = 0
+1:4/0/z_index = -1
 1:4/0/terrain_set = 0
 1:4/0/terrain = 0
 1:4/0/terrains_peering_bit/bottom_right_side = 0
 1:4/0/custom_data_0 = true
 2:4/0 = 0
+2:4/0/z_index = -1
 2:4/0/terrain_set = 0
 2:4/0/terrain = 0
 2:4/0/terrains_peering_bit/top_right_side = 0
 2:4/0/custom_data_0 = true
 3:4/0 = 0
+3:4/0/z_index = -1
 3:4/0/terrain_set = 0
 3:4/0/terrain = 0
 3:4/0/terrains_peering_bit/top_left_side = 0
@@ -241,24 +271,28 @@ texture_region_size = Vector2i(64, 32)
 14:4/0 = 0
 15:4/0 = 0
 0:5/0 = 0
+0:5/0/z_index = -1
 0:5/0/terrain_set = 0
 0:5/0/terrain = 0
 0:5/0/terrains_peering_bit/bottom_left_side = 0
 0:5/0/terrains_peering_bit/top_left_side = 0
 0:5/0/custom_data_0 = true
 1:5/0 = 0
+1:5/0/z_index = -1
 1:5/0/terrain_set = 0
 1:5/0/terrain = 0
 1:5/0/terrains_peering_bit/bottom_right_side = 0
 1:5/0/terrains_peering_bit/bottom_left_side = 0
 1:5/0/custom_data_0 = true
 2:5/0 = 0
+2:5/0/z_index = -1
 2:5/0/terrain_set = 0
 2:5/0/terrain = 0
 2:5/0/terrains_peering_bit/bottom_right_side = 0
 2:5/0/terrains_peering_bit/top_right_side = 0
 2:5/0/custom_data_0 = true
 3:5/0 = 0
+3:5/0/z_index = -1
 3:5/0/terrain_set = 0
 3:5/0/terrain = 0
 3:5/0/terrains_peering_bit/top_left_side = 0
@@ -277,6 +311,7 @@ texture_region_size = Vector2i(64, 32)
 14:5/0 = 0
 15:5/0 = 0
 0:6/0 = 0
+0:6/0/z_index = -1
 0:6/0/terrain_set = 0
 0:6/0/terrain = 0
 0:6/0/terrains_peering_bit/bottom_left_side = 0
@@ -284,6 +319,7 @@ texture_region_size = Vector2i(64, 32)
 0:6/0/terrains_peering_bit/top_right_side = 0
 0:6/0/custom_data_0 = true
 1:6/0 = 0
+1:6/0/z_index = -1
 1:6/0/terrain_set = 0
 1:6/0/terrain = 0
 1:6/0/terrains_peering_bit/bottom_right_side = 0
@@ -291,6 +327,7 @@ texture_region_size = Vector2i(64, 32)
 1:6/0/terrains_peering_bit/top_left_side = 0
 1:6/0/custom_data_0 = true
 2:6/0 = 0
+2:6/0/z_index = -1
 2:6/0/terrain_set = 0
 2:6/0/terrain = 0
 2:6/0/terrains_peering_bit/bottom_right_side = 0
@@ -298,6 +335,7 @@ texture_region_size = Vector2i(64, 32)
 2:6/0/terrains_peering_bit/top_right_side = 0
 2:6/0/custom_data_0 = true
 3:6/0 = 0
+3:6/0/z_index = -1
 3:6/0/terrain_set = 0
 3:6/0/terrain = 0
 3:6/0/terrains_peering_bit/bottom_right_side = 0
@@ -305,6 +343,7 @@ texture_region_size = Vector2i(64, 32)
 3:6/0/terrains_peering_bit/top_right_side = 0
 3:6/0/custom_data_0 = true
 4:6/0 = 0
+4:6/0/z_index = -1
 4:6/0/terrain_set = 0
 4:6/0/terrain = 0
 4:6/0/terrains_peering_bit/bottom_right_side = 0
@@ -327,6 +366,7 @@ texture_region_size = Vector2i(64, 32)
 2:7/0 = 0
 3:7/0 = 0
 4:7/0 = 0
+4:7/0/z_index = -1
 4:7/0/terrain_set = 0
 4:7/0/terrain = 0
 4:7/0/terrains_peering_bit/bottom_right_side = 0
@@ -336,6 +376,7 @@ texture_region_size = Vector2i(64, 32)
 4:7/0/terrains_peering_bit/top_right_side = 0
 4:7/0/custom_data_0 = true
 5:7/0 = 0
+5:7/0/z_index = -1
 5:7/0/terrain_set = 0
 5:7/0/terrain = 0
 5:7/0/terrains_peering_bit/bottom_right_side = 0
@@ -345,6 +386,7 @@ texture_region_size = Vector2i(64, 32)
 5:7/0/terrains_peering_bit/top_right_side = 0
 5:7/0/custom_data_0 = true
 6:7/0 = 0
+6:7/0/z_index = -1
 6:7/0/terrain_set = 0
 6:7/0/terrain = 0
 6:7/0/terrains_peering_bit/right_corner = 0
@@ -354,6 +396,7 @@ texture_region_size = Vector2i(64, 32)
 6:7/0/terrains_peering_bit/top_right_side = 0
 6:7/0/custom_data_0 = true
 7:7/0 = 0
+7:7/0/z_index = -1
 7:7/0/terrain_set = 0
 7:7/0/terrain = 0
 7:7/0/terrains_peering_bit/bottom_right_side = 0
@@ -375,6 +418,7 @@ texture_region_size = Vector2i(64, 32)
 2:8/0 = 0
 3:8/0 = 0
 4:8/0 = 0
+4:8/0/z_index = -1
 4:8/0/terrain_set = 0
 4:8/0/terrain = 0
 4:8/0/terrains_peering_bit/bottom_right_side = 0
@@ -385,6 +429,7 @@ texture_region_size = Vector2i(64, 32)
 4:8/0/terrains_peering_bit/top_right_side = 0
 4:8/0/custom_data_0 = true
 5:8/0 = 0
+5:8/0/z_index = -1
 5:8/0/terrain_set = 0
 5:8/0/terrain = 0
 5:8/0/terrains_peering_bit/bottom_right_side = 0
@@ -395,6 +440,7 @@ texture_region_size = Vector2i(64, 32)
 5:8/0/terrains_peering_bit/top_right_side = 0
 5:8/0/custom_data_0 = true
 6:8/0 = 0
+6:8/0/z_index = -1
 6:8/0/terrain_set = 0
 6:8/0/terrain = 0
 6:8/0/terrains_peering_bit/right_corner = 0
@@ -405,6 +451,7 @@ texture_region_size = Vector2i(64, 32)
 6:8/0/terrains_peering_bit/top_right_side = 0
 6:8/0/custom_data_0 = true
 7:8/0 = 0
+7:8/0/z_index = -1
 7:8/0/terrain_set = 0
 7:8/0/terrain = 0
 7:8/0/terrains_peering_bit/right_corner = 0
@@ -427,6 +474,7 @@ texture_region_size = Vector2i(64, 32)
 2:9/0 = 0
 3:9/0 = 0
 4:9/0 = 0
+4:9/0/z_index = -1
 4:9/0/terrain_set = 0
 4:9/0/terrain = 0
 4:9/0/terrains_peering_bit/right_corner = 0
@@ -438,6 +486,7 @@ texture_region_size = Vector2i(64, 32)
 4:9/0/terrains_peering_bit/top_right_side = 0
 4:9/0/custom_data_0 = true
 5:9/0 = 0
+5:9/0/z_index = -1
 5:9/0/terrain_set = 0
 5:9/0/terrain = 0
 5:9/0/terrains_peering_bit/bottom_right_side = 0
@@ -449,6 +498,7 @@ texture_region_size = Vector2i(64, 32)
 5:9/0/terrains_peering_bit/top_right_side = 0
 5:9/0/custom_data_0 = true
 6:9/0 = 0
+6:9/0/z_index = -1
 6:9/0/terrain_set = 0
 6:9/0/terrain = 0
 6:9/0/terrains_peering_bit/right_corner = 0
@@ -460,6 +510,7 @@ texture_region_size = Vector2i(64, 32)
 6:9/0/terrains_peering_bit/top_right_side = 0
 6:9/0/custom_data_0 = true
 7:9/0 = 0
+7:9/0/z_index = -1
 7:9/0/terrain_set = 0
 7:9/0/terrain = 0
 7:9/0/terrains_peering_bit/right_corner = 0
@@ -471,6 +522,7 @@ texture_region_size = Vector2i(64, 32)
 7:9/0/terrains_peering_bit/top_right_side = 0
 7:9/0/custom_data_0 = true
 8:9/0 = 0
+8:9/0/z_index = -1
 8:9/0/terrain_set = 0
 8:9/0/terrain = 0
 8:9/0/terrains_peering_bit/right_corner = 0
@@ -489,6 +541,7 @@ texture_region_size = Vector2i(64, 32)
 0:10/0 = 0
 1:10/0 = 0
 2:10/0 = 0
+2:10/0/z_index = -1
 2:10/0/terrain_set = 0
 2:10/0/terrain = 0
 2:10/0/terrains_peering_bit/right_corner = 0
@@ -499,6 +552,7 @@ texture_region_size = Vector2i(64, 32)
 2:10/0/terrains_peering_bit/top_right_side = 0
 2:10/0/custom_data_0 = true
 3:10/0 = 0
+3:10/0/z_index = -1
 3:10/0/terrain_set = 0
 3:10/0/terrain = 0
 3:10/0/terrains_peering_bit/bottom_right_side = 0
@@ -521,6 +575,7 @@ texture_region_size = Vector2i(64, 32)
 14:10/0 = 0
 15:10/0 = 0
 0:11/0 = 0
+0:11/0/z_index = -1
 0:11/0/terrain_set = 0
 0:11/0/terrain = 0
 0:11/0/terrains_peering_bit/bottom_left_side = 0
@@ -529,6 +584,7 @@ texture_region_size = Vector2i(64, 32)
 0:11/0/terrains_peering_bit/top_right_side = 0
 0:11/0/custom_data_0 = true
 1:11/0 = 0
+1:11/0/z_index = -1
 1:11/0/terrain_set = 0
 1:11/0/terrain = 0
 1:11/0/terrains_peering_bit/bottom_right_side = 0
@@ -537,6 +593,7 @@ texture_region_size = Vector2i(64, 32)
 1:11/0/terrains_peering_bit/top_left_side = 0
 1:11/0/custom_data_0 = true
 2:11/0 = 0
+2:11/0/z_index = -1
 2:11/0/terrain_set = 0
 2:11/0/terrain = 0
 2:11/0/terrains_peering_bit/right_corner = 0
@@ -545,6 +602,7 @@ texture_region_size = Vector2i(64, 32)
 2:11/0/terrains_peering_bit/top_right_side = 0
 2:11/0/custom_data_0 = true
 3:11/0 = 0
+3:11/0/z_index = -1
 3:11/0/terrain_set = 0
 3:11/0/terrain = 0
 3:11/0/terrains_peering_bit/bottom_right_side = 0
@@ -565,6 +623,7 @@ texture_region_size = Vector2i(64, 32)
 14:11/0 = 0
 15:11/0 = 0
 0:12/0 = 0
+0:12/0/z_index = -1
 0:12/0/terrain_set = 0
 0:12/0/terrain = 0
 0:12/0/terrains_peering_bit/bottom_left_side = 0
@@ -574,6 +633,7 @@ texture_region_size = Vector2i(64, 32)
 0:12/0/terrains_peering_bit/top_right_side = 0
 0:12/0/custom_data_0 = true
 1:12/0 = 0
+1:12/0/z_index = -1
 1:12/0/terrain_set = 0
 1:12/0/terrain = 0
 1:12/0/terrains_peering_bit/bottom_right_side = 0
@@ -583,6 +643,7 @@ texture_region_size = Vector2i(64, 32)
 1:12/0/terrains_peering_bit/top_left_side = 0
 1:12/0/custom_data_0 = true
 2:12/0 = 0
+2:12/0/z_index = -1
 2:12/0/terrain_set = 0
 2:12/0/terrain = 0
 2:12/0/terrains_peering_bit/right_corner = 0
@@ -592,6 +653,7 @@ texture_region_size = Vector2i(64, 32)
 2:12/0/terrains_peering_bit/top_right_side = 0
 2:12/0/custom_data_0 = true
 3:12/0 = 0
+3:12/0/z_index = -1
 3:12/0/terrain_set = 0
 3:12/0/terrain = 0
 3:12/0/terrains_peering_bit/right_corner = 0
@@ -613,6 +675,7 @@ texture_region_size = Vector2i(64, 32)
 14:12/0 = 0
 15:12/0 = 0
 0:13/0 = 0
+0:13/0/z_index = -1
 0:13/0/terrain_set = 0
 0:13/0/terrain = 0
 0:13/0/terrains_peering_bit/bottom_left_side = 0
@@ -621,6 +684,7 @@ texture_region_size = Vector2i(64, 32)
 0:13/0/terrains_peering_bit/top_right_side = 0
 0:13/0/custom_data_0 = true
 1:13/0 = 0
+1:13/0/z_index = -1
 1:13/0/terrain_set = 0
 1:13/0/terrain = 0
 1:13/0/terrains_peering_bit/bottom_right_side = 0
@@ -629,6 +693,7 @@ texture_region_size = Vector2i(64, 32)
 1:13/0/terrains_peering_bit/top_left_side = 0
 1:13/0/custom_data_0 = true
 2:13/0 = 0
+2:13/0/z_index = -1
 2:13/0/terrain_set = 0
 2:13/0/terrain = 0
 2:13/0/terrains_peering_bit/bottom_right_side = 0
@@ -637,6 +702,7 @@ texture_region_size = Vector2i(64, 32)
 2:13/0/terrains_peering_bit/top_right_side = 0
 2:13/0/custom_data_0 = true
 3:13/0 = 0
+3:13/0/z_index = -1
 3:13/0/terrain_set = 0
 3:13/0/terrain = 0
 3:13/0/terrains_peering_bit/right_corner = 0
@@ -657,6 +723,7 @@ texture_region_size = Vector2i(64, 32)
 14:13/0 = 0
 15:13/0 = 0
 0:14/0 = 0
+0:14/0/z_index = -1
 0:14/0/terrain_set = 0
 0:14/0/terrain = 0
 0:14/0/terrains_peering_bit/bottom_left_side = 0
@@ -664,6 +731,7 @@ texture_region_size = Vector2i(64, 32)
 0:14/0/terrains_peering_bit/top_left_side = 0
 0:14/0/custom_data_0 = true
 1:14/0 = 0
+1:14/0/z_index = -1
 1:14/0/terrain_set = 0
 1:14/0/terrain = 0
 1:14/0/terrains_peering_bit/bottom_right_side = 0
@@ -671,6 +739,7 @@ texture_region_size = Vector2i(64, 32)
 1:14/0/terrains_peering_bit/bottom_left_side = 0
 1:14/0/custom_data_0 = true
 2:14/0 = 0
+2:14/0/z_index = -1
 2:14/0/terrain_set = 0
 2:14/0/terrain = 0
 2:14/0/terrains_peering_bit/right_corner = 0
@@ -678,6 +747,7 @@ texture_region_size = Vector2i(64, 32)
 2:14/0/terrains_peering_bit/top_right_side = 0
 2:14/0/custom_data_0 = true
 3:14/0 = 0
+3:14/0/z_index = -1
 3:14/0/terrain_set = 0
 3:14/0/terrain = 0
 3:14/0/terrains_peering_bit/top_left_side = 0
@@ -685,6 +755,7 @@ texture_region_size = Vector2i(64, 32)
 3:14/0/terrains_peering_bit/top_right_side = 0
 3:14/0/custom_data_0 = true
 4:14/0 = 0
+4:14/0/z_index = -1
 4:14/0/terrain_set = 0
 4:14/0/terrain = 0
 4:14/0/terrains_peering_bit/bottom_right_side = 0
@@ -693,6 +764,7 @@ texture_region_size = Vector2i(64, 32)
 5:14/0 = 0
 6:14/0 = 0
 7:14/0 = 0
+7:14/0/z_index = -1
 7:14/0/terrain_set = 0
 7:14/0/terrain = 0
 7:14/0/terrains_peering_bit/bottom_left_side = 0
