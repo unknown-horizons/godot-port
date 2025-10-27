@@ -1,0 +1,103 @@
+[gd_scene load_steps=12 format=3 uid="uid://j2oxjtyxo70r"]
+
+[ext_resource type="Script" uid="uid://b756bltjlqq3k" path="res://Assets/UI/TabWidgets/SettlerOverviewTab.gd" id="1_sgont"]
+[ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="2_4mdya"]
+[ext_resource type="Texture2D" uid="uid://dev17cbd3o05u" path="res://Assets/World/Buildings2/residential/residential_sailors_as_tent3_idle.png" id="3_3tija"]
+[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="4_gjhul"]
+[ext_resource type="FontFile" uid="uid://b132ikq6ayfyj" path="res://External/Fonts/LinLibertineC.ttf" id="5_2uvfm"]
+[ext_resource type="Texture2D" uid="uid://dmowgnr3yck1o" path="res://Assets/UI/Icons/Templates/Happiness/happy.png" id="6_oiv2b"]
+[ext_resource type="Texture2D" uid="uid://o3aikxwqsv82" path="res://Assets/UI/Icons/Widgets/CityInfo/inhabitants_small.png" id="7_otnn0"]
+[ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="8_3s0ft"]
+[ext_resource type="PackedScene" uid="uid://y3joqgx1438n" path="res://Assets/UI/TabWidgets/Views/TaxesControl.tscn" id="9_qvcho"]
+[ext_resource type="PackedScene" uid="uid://qndk0ulsg1jc" path="res://Assets/UI/BasicControls/ResourceItem.tscn" id="10_igtsh"]
+[ext_resource type="Texture2D" uid="uid://bfps6rk8vnmq0" path="res://Assets/UI/Icons/Resources/32/009.png" id="11_exo0b"]
+
+[node name="SettlerOverviewTab" type="VBoxContainer"]
+script = ExtResource("1_sgont")
+metadata/_tab_index = 3
+
+[node name="CaptionBlock" parent="." instance=ExtResource("2_4mdya")]
+layout_mode = 2
+caption_text = "SettlerOverviewTab"
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_right = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Control" type="Control" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer/VBoxContainer/Control"]
+texture = ExtResource("3_3tija")
+centered = false
+vframes = 4
+
+[node name="LabelEx2" parent="MarginContainer/VBoxContainer" instance=ExtResource("4_gjhul")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_2uvfm")
+theme_override_font_sizes/font_size = 16
+text = "Tent"
+font_style = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("6_oiv2b")
+
+[node name="HappinessSlider" type="HSlider" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+value = 50.0
+editable = false
+
+[node name="TextureRect2" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("7_otnn0")
+
+[node name="ResidentsCountLabel" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("4_gjhul")]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_fonts/font = ExtResource("8_3s0ft")
+theme_override_font_sizes/font_size = 16
+text = "1/2"
+font_style = 9
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HSeparatorBrownThin"
+
+[node name="TaxesControl" parent="MarginContainer/VBoxContainer" instance=ExtResource("9_qvcho")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"HSeparatorBrownThin"
+
+[node name="LabelEx" parent="MarginContainer/VBoxContainer" instance=ExtResource("4_gjhul")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("8_3s0ft")
+theme_override_font_sizes/font_size = 16
+text = "Needed resources:"
+font_style = 9
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+columns = 4
+
+[node name="ResourceItem" parent="MarginContainer/VBoxContainer/GridContainer" instance=ExtResource("10_igtsh")]
+layout_mode = 2
+texture = ExtResource("11_exo0b")
+resource_type = 9

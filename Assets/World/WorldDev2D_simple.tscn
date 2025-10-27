@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=4 uid="uid://cmjommteas4c6"]
+[gd_scene load_steps=16 format=4 uid="uid://cmjommteas4c6"]
 
 [ext_resource type="Script" uid="uid://cd8ykokfidoiu" path="res://Assets/World/Context/GameContextManager.gd" id="1_xnban"]
 [ext_resource type="Script" uid="uid://g6b3whtc1m5y" path="res://Assets/World/Context/BuildingContext.gd" id="2_agjt6"]
@@ -13,36 +13,8 @@
 [ext_resource type="Script" uid="uid://bfb7rha8tel6v" path="res://Assets/World/Tilemaps/BuiltTileMap/BuiltTileMap.gd" id="12_f5ujg"]
 [ext_resource type="Material" uid="uid://cltmqu62mbu3g" path="res://Assets/World/Tilemaps/Highlight/RoadHighlighter.tres" id="13_r0icm"]
 [ext_resource type="Script" uid="uid://7s8tdwbp17x5" path="res://Assets/World/Tilemaps/Highlight/RoadAndBuildingHighlighter.gd" id="14_cw7xy"]
-[ext_resource type="Shader" uid="uid://b70kkb40rbjf7" path="res://Assets/World/Components/Selectable/Highlighter.gdshader" id="15_s0j8b"]
-[ext_resource type="Texture2D" uid="uid://ojeaj1a18a44" path="res://Assets/World/white_64x32.png" id="16_hu0ko"]
-[ext_resource type="Texture2D" uid="uid://ckhylkfbvys8s" path="res://Assets/World/white_64x32_a0.5.png" id="17_3gfjw"]
 [ext_resource type="Script" uid="uid://2jwdai8tqa12" path="res://Assets/World/MainCamera.gd" id="18_nvd3d"]
 [ext_resource type="PackedScene" uid="uid://bka87rk8lk7kb" path="res://Assets/Player/PlayerHUD2.tscn" id="19_qvtmx"]
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_g8btl"]
-shader = ExtResource("15_s0j8b")
-shader_parameter/color = Color(0, 0.5, 0.5, 0.5)
-shader_parameter/width = 3.0
-shader_parameter/pattern = 0
-shader_parameter/inside = false
-shader_parameter/add_margins = true
-
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eo6gi"]
-texture = ExtResource("16_hu0ko")
-texture_region_size = Vector2i(64, 32)
-0:0/0 = 0
-
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tmhlt"]
-texture = ExtResource("17_3gfjw")
-texture_region_size = Vector2i(64, 32)
-0:0/0 = 0
-
-[sub_resource type="TileSet" id="TileSet_qxykv"]
-tile_shape = 1
-tile_layout = 5
-tile_size = Vector2i(64, 32)
-sources/1 = SubResource("TileSetAtlasSource_eo6gi")
-sources/5 = SubResource("TileSetAtlasSource_tmhlt")
 
 [node name="Main" type="Node2D"]
 
@@ -90,11 +62,6 @@ z_index = 15
 material = ExtResource("13_r0icm")
 tile_set = ExtResource("11_op3n3")
 script = ExtResource("14_cw7xy")
-
-[node name="Highlighter" type="TileMapLayer" parent="."]
-z_index = 15
-material = SubResource("ShaderMaterial_g8btl")
-tile_set = SubResource("TileSet_qxykv")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position_smoothing_enabled = true

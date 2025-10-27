@@ -4,11 +4,20 @@ class_name CaptionBlock
 
 @onready var caption_label: LabelEx = $Caption
 
+@export var caption_text: String:
+  set(value):
+    caption_text = value
+    if caption_label != null:
+      caption_label.text = value
+
 var selected_node: WorldThing2D = null:
   set(value):
     selected_node = value
-    if self.caption_label != null && selected_node != null:
-      self.caption_label.text = selected_node.game_name
+    if selected_node != null:
+      self.caption_text = selected_node.game_name
+
+func _ready():
+  self.caption_label.text = caption_text
 
 ## How far the top margin should be when the control is appended below a
 ## sibling control.

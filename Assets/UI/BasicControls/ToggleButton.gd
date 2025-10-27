@@ -73,7 +73,7 @@ func _on_ActionButton_gui_input(_event: InputEvent) -> void:
 #	animated_texture.hide()
 
 func _on_ActionButton_mouse_exited() -> void:
-	prints("exited")
+	# prints("exited")
 	if animated_texture:
 		if not button_pressed:
 			animated_texture.show()
