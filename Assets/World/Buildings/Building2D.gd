@@ -15,7 +15,13 @@ class_name Building2D
 @export var inhabitants: int        # TODO: not used yet
 @export var tooltip_text: String    # TODO: not used yet
 @export var tier: String            # TODO: not used yet
-@export var current_tier: StringName = WorldTiers.Tiers.MAX: set = set_tier
+@export var current_tier: StringName = WorldTiers.Tiers.MAX:
+  set(value):
+    current_tier = value
+    _on_tier_changed() # to be overloaded
+var current_tier_val: WorldTiers.TierEnum:
+  get():
+    return WorldTiers.TierEnum.get(self.current_tier, WorldTiers.TierEnum.SAILORS)
 
 # buildingcosts - in BuildingConfig.gd
 @export var show_status_icons: bool # TODO: not used yet
@@ -44,8 +50,7 @@ var game_name: String:
 signal unpaused
 
 ## setter for current_tier
-func set_tier(new_tier: StringName) -> void:
-  current_tier = new_tier
+func _on_tier_changed() -> void:
   var enum_tier: WorldTiers.TierEnum = WorldTiers.TierEnum.get(self.current_tier, WorldTiers.TierEnum.SAILORS)
   for node: Node in self.get_children():
     if "current_tier" in node:
@@ -62,13 +67,13 @@ func update_tier() -> void:
   self.current_tier = GameStats.game_stats_resource.world_tier
 
 func _ready():
+  CamUtils.center_if_no_camera(self)
   self.paused = self.paused # call pause setter
   # handle world tier
   setup_components()
   self.current_tier = GameStats.game_stats_resource.world_tier
   self.update_tier()
   self.connect_set_tier()
-  CamUtils.center_if_no_camera(self)
 
 ## Called when to connect set_tier connections
 func connect_set_tier() -> void:

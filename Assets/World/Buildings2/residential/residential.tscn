@@ -9,7 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 [ext_resource type="PackedScene" uid="uid://cusettlercots" path="res://Assets/World/Units2/settler_collector/settler_collector.tscn" id="7_settler_collector"]
 
-[node name="residential" type="Node2D"]
+[node name="residential" type="Node2D" groups=["Residence"]]
 script = ExtResource("1_script_gd")
 id = "BUILDINGS.RESIDENTIAL"
 baseclass = "settler.Settler"

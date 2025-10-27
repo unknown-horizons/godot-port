@@ -1,4 +1,4 @@
-[gd_scene load_steps=106 format=3 uid="uid://db0jyegu5eki5"]
+[gd_scene load_steps=100 format=3 uid="uid://db0jyegu5eki5"]
 
 [ext_resource type="PackedScene" uid="uid://bvbuafk7d6fdt" path="res://Assets/UI/TabWidgets/TabWidget.tscn" id="1_012xi"]
 [ext_resource type="PackedScene" uid="uid://bqqtcv3vc2v16" path="res://Assets/UI/TabWidgets/Switches/SwitchTabWidget.tscn" id="2_ig0oa"]
@@ -12,8 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://ctvk7bl7fo4bh" path="res://Assets/UI/Icons/Resources/32/096.png" id="13_1oexd"]
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="14_kdlxv"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="15_vcl1p"]
-[ext_resource type="Script" uid="uid://b756bltjlqq3k" path="res://Assets/UI/TabWidgets/SettlerOverviewTab.gd" id="16_egkp5"]
-[ext_resource type="Texture2D" uid="uid://dev17cbd3o05u" path="res://Assets/World/Buildings2/residential/residential_sailors_as_tent3_idle.png" id="17_prl8c"]
+[ext_resource type="PackedScene" uid="uid://j2oxjtyxo70r" path="res://Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn" id="16_cs6t1"]
 [ext_resource type="PackedScene" uid="uid://mfw66ys7s1bq" path="res://Assets/UI/TabWidgets/Views/AccountTab.tscn" id="21_go27e"]
 [ext_resource type="Texture2D" uid="uid://bgyonk7toefi1" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_red.png" id="23_ba20v"]
 [ext_resource type="PackedScene" uid="uid://daextxbtctkbi" path="res://Assets/UI/BasicControls/Caption.tscn" id="24_t8603"]
@@ -21,14 +20,9 @@
 [ext_resource type="PackedScene" uid="uid://ijjptewfo3fs" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/FoundSettlementButton.tscn" id="26_prl8c"]
 [ext_resource type="PackedScene" uid="uid://dd0xhcqj23hve" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/TradeRouteButton.tscn" id="27_a0gmt"]
 [ext_resource type="PackedScene" uid="uid://2u6dqy2k2v1n" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/DiscardAllButton.tscn" id="28_urajk"]
-[ext_resource type="Texture2D" uid="uid://dmowgnr3yck1o" path="res://Assets/UI/Icons/Templates/Happiness/happy.png" id="29_a6rkx"]
-[ext_resource type="Texture2D" uid="uid://o3aikxwqsv82" path="res://Assets/UI/Icons/Widgets/CityInfo/inhabitants_small.png" id="30_03vdw"]
-[ext_resource type="PackedScene" uid="uid://y3joqgx1438n" path="res://Assets/UI/TabWidgets/Views/TaxesControl.tscn" id="32_a25dw"]
 [ext_resource type="PackedScene" uid="uid://clre4f1e4md30" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButtons/BuildTreeAreaButton.tscn" id="32_t8603"]
-[ext_resource type="PackedScene" uid="uid://qndk0ulsg1jc" path="res://Assets/UI/BasicControls/ResourceItem.tscn" id="33_443ux"]
-[ext_resource type="Texture2D" uid="uid://bfps6rk8vnmq0" path="res://Assets/UI/Icons/Resources/32/009.png" id="34_8csgm"]
 [ext_resource type="FontFile" uid="uid://b132ikq6ayfyj" path="res://External/Fonts/LinLibertineC.ttf" id="37_k4f0b"]
-[ext_resource type="PackedScene" uid="uid://dtee0xbn3mwpi" path="res://Assets/UI/TabWidgets/Views/InhabitantsView.tscn" id="37_t8gxx"]
+[ext_resource type="PackedScene" uid="uid://dtee0xbn3mwpi" path="res://Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn" id="37_t8gxx"]
 [ext_resource type="Texture2D" uid="uid://iujmcgp5x37l" path="res://Assets/UI/Icons/Thumbnails/1000001.png" id="38_anfog"]
 [ext_resource type="Texture2D" uid="uid://bhmhs27fjux2p" path="res://Assets/UI/Images/ResbarStats/gold_icon.png" id="39_2g5qe"]
 [ext_resource type="Texture2D" uid="uid://brmfkn8sfum3n" path="res://Assets/UI/Icons/Resources/32/005.png" id="40_go27e"]
@@ -325,6 +319,8 @@ region = Rect2(1, 577, 40, 46)
 [node name="AllTabs" instance=ExtResource("1_012xi")]
 script = ExtResource("2_wox5d")
 
+[node name="RefreshTimer" type="Timer" parent="." index="0"]
+
 [node name="AccountTab" parent="LeftFloatingPanel/TabSwitches" index="0" instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("warehouse_account_u")
@@ -485,11 +481,11 @@ texture_pressed = SubResource("mainsquare_inhabitants5_d")
 texture_hover = SubResource("mainsquare_inhabitants5_h")
 texture_active = SubResource("mainsquare_inhabitants5_a")
 
-[node name="ScrollContainer" parent="." index="1"]
-custom_minimum_size = Vector2(0, 134)
+[node name="ScrollContainer" parent="." index="2"]
+custom_minimum_size = Vector2(0, 399)
 
 [node name="TabContainer" parent="ScrollContainer" index="0"]
-current_tab = 4
+current_tab = 6
 
 [node name="AccountTab" parent="ScrollContainer/TabContainer" index="1" instance=ExtResource("21_go27e")]
 visible = false
@@ -923,96 +919,12 @@ theme_override_font_sizes/font_size = 16
 text = "-4"
 font_style = 9
 
-[node name="SettlerOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="4"]
+[node name="SettlerOverviewTab" parent="ScrollContainer/TabContainer" index="4" instance=ExtResource("16_cs6t1")]
 visible = false
 layout_mode = 2
-script = ExtResource("16_egkp5")
-metadata/_tab_index = 3
-
-[node name="CaptionBlock" parent="ScrollContainer/TabContainer/SettlerOverviewTab" index="0" instance=ExtResource("3_j476x")]
-layout_mode = 2
-caption_text = "SettlerOverviewTab"
-
-[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/SettlerOverviewTab" index="1"]
-layout_mode = 2
-theme_override_constants/margin_left = 10
-theme_override_constants/margin_right = 10
-
-[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer" index="0"]
-layout_mode = 2
-
-[node name="Control" type="Control" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer" index="0"]
-custom_minimum_size = Vector2(128, 128)
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 6
-
-[node name="Sprite2D" type="Sprite2D" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer/Control" index="0"]
-texture = ExtResource("17_prl8c")
-centered = false
-vframes = 4
-
-[node name="LabelEx2" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer" index="1" instance=ExtResource("14_kdlxv")]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("37_k4f0b")
-theme_override_font_sizes/font_size = 16
-text = "Tent"
-font_style = 0
-
-[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer" index="2"]
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer/HBoxContainer" index="0"]
-layout_mode = 2
-size_flags_vertical = 4
-texture = ExtResource("29_a6rkx")
-
-[node name="HSlider" type="HSlider" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer/HBoxContainer" index="1"]
-layout_mode = 2
-size_flags_horizontal = 3
-value = 50.0
-editable = false
-
-[node name="TextureRect2" type="TextureRect" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer/HBoxContainer" index="2"]
-layout_mode = 2
-size_flags_vertical = 4
-texture = ExtResource("30_03vdw")
-
-[node name="LabelEx" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer/HBoxContainer" index="3" instance=ExtResource("14_kdlxv")]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("15_vcl1p")
-theme_override_font_sizes/font_size = 16
-text = "1/2"
-font_style = 9
-
-[node name="HSeparator" type="HSeparator" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer" index="3"]
-layout_mode = 2
-theme_type_variation = &"HSeparatorBrownThin"
-
-[node name="TaxesControl" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer" index="4" instance=ExtResource("32_a25dw")]
-layout_mode = 2
-
-[node name="HSeparator2" type="HSeparator" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer" index="5"]
-layout_mode = 2
-theme_type_variation = &"HSeparatorBrownThin"
-
-[node name="LabelEx" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer" index="6" instance=ExtResource("14_kdlxv")]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("15_vcl1p")
-theme_override_font_sizes/font_size = 16
-text = "Needed resources:"
-font_style = 9
-
-[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer" index="7"]
-layout_mode = 2
-columns = 4
-
-[node name="ResourceItem" parent="ScrollContainer/TabContainer/SettlerOverviewTab/MarginContainer/VBoxContainer/GridContainer" index="0" instance=ExtResource("33_443ux")]
-layout_mode = 2
-texture = ExtResource("34_8csgm")
-resource_type = 9
 
 [node name="ProductionOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="5"]
+visible = false
 layout_mode = 2
 script = ExtResource("8_024wi")
 metadata/_tab_index = 4
@@ -1089,26 +1001,30 @@ layout_mode = 2
 [node name="MainSquareSailorsTab" parent="ScrollContainer/TabContainer" index="6" instance=ExtResource("37_t8gxx")]
 visible = false
 layout_mode = 2
+tab_tier = &"SAILORS"
 metadata/_tab_index = 5
 
 [node name="MainSquarePioneersTab" parent="ScrollContainer/TabContainer" index="7" instance=ExtResource("37_t8gxx")]
-visible = false
 layout_mode = 2
+tab_tier = &"PIONEERS"
 metadata/_tab_index = 6
 
 [node name="MainSquareSettlersTab" parent="ScrollContainer/TabContainer" index="8" instance=ExtResource("37_t8gxx")]
 visible = false
 layout_mode = 2
+tab_tier = &"SETTLERS"
 metadata/_tab_index = 7
 
 [node name="MainSquareCitizensTab" parent="ScrollContainer/TabContainer" index="9" instance=ExtResource("37_t8gxx")]
 visible = false
 layout_mode = 2
+tab_tier = &"CITIZENS"
 metadata/_tab_index = 8
 
 [node name="MainSquareMerchantsTab" parent="ScrollContainer/TabContainer" index="10" instance=ExtResource("37_t8gxx")]
 visible = false
 layout_mode = 2
+tab_tier = &"MERCHANTS"
 metadata/_tab_index = 9
 
 [node name="FightingShipOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="11"]

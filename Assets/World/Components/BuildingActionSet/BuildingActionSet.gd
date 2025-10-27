@@ -172,10 +172,14 @@ func update_animation() -> void:
       if orientation_animations.size() > 0: # if orientation animation present - choose only from the animations corresponding to the orientation
         tier_animations = orientation_animations
 
-      var working_state_animations = tier_animations.filter(func(k): return k.contains("."+state_str+".")) # lease priority for filtering
+      var working_state_animations = tier_animations.filter(func(k): return k.contains("."+state_str+".")) # least priority for filtering. Eg ".idle_full."
       if working_state_animations.size() > 0: # if working state animation present - choose only from the animations corresponding to the working state
         tier_animations = working_state_animations
-      
+
+      var working_action_state_animations = tier_animations.filter(func(k): return k.contains("."+action_state_str+".")) # least priority for filtering. Eg ".idle."
+      if working_action_state_animations.size() > 0: # if `action_state_str` animation present - choose only from the animations corresponding to the working state
+        tier_animations = working_action_state_animations
+
       if tier_animations.size() > 1:
         # TODO: we filter logs and planks for now. Those need to be an overlay layer on top of the lumberjack (hut) animation
         tier_animations = tier_animations.filter(func(k): return not k.contains(".logs_") and not k.contains(".planks_"))
@@ -191,6 +195,7 @@ func update_animation() -> void:
       push_warning("No animation at or below current tier, check the animations")
     else: # else, it is a runtime error, so it is not going to be touched anytime soon, so raise attention: push_error
       push_error("No animation at or below current tier, how did the building get on the map?")
+      pass
     animation_name = self.sprite_frames.get_animation_names()[0] # use first animation as fallback
   
   var building_instance := self.get_parent() as Building2D

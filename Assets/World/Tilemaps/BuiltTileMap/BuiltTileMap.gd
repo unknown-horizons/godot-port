@@ -15,6 +15,10 @@ signal buildings_built(building: Building2D, cells: Array[Vector2i])
 
 ## test tiers
 # func _ready() -> void:
+#   for pos in self.get_used_cells():
+#     var source_id = self.get_cell_source_id(pos)
+#     if source_id == 4:
+#       print("Broken tile at", pos)
 #   while true:
 #     await self.get_tree().create_timer(5).timeout
 #     var world_enum_tier: WorldTiers.TierEnum = WorldTiers.TierEnum.get(GameStats.game_stats_resource.world_tier, WorldTiers.TierEnum.SAILORS)

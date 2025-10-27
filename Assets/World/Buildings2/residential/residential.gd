@@ -6,8 +6,10 @@ class_name Residential
 @export var stable_residence_range: Vector2 = Vector2(30, 70)
 ## The range within which the tier of this building is stable(not increasing or decreasing)
 @export var stable_tier_range: Vector2 = Vector2(10, 80)
-## The maximum number of residence for each tier, ten by default
-@export var max_residence_for_tiers: Dictionary[StringName, int] = {}
+
+var max_residents_for_current_tier: int:
+  get():
+    return GameStats.game_stats_resource.max_residents_per_tier.get(self.current_tier, 10)
 
 @export var happiness_usage_per_inhabitant: int = 20
 @export var happiness_usage_per_tier: int = 40
@@ -18,15 +20,14 @@ signal residence_changed(residence: int)
 var residence: int = 1:
   set(value):
     var previous_residence := self.residence
-    residence = clampi(value, 1, self.max_residence_for_tiers.get(self.current_tier, 10))
+    residence = clampi(value, 1, self.max_residents_for_current_tier)
 
     self.spend_happiness((residence - previous_residence) * self.happiness_usage_per_inhabitant)
     
     self.residence_changed.emit(self.residence)
 
-func set_tier(new_tier: StringName) -> void:
+func _on_tier_changed() -> void:
   var previous_enum_tier: WorldTiers.TierEnum = WorldTiers.TierEnum.get(self.current_tier, WorldTiers.TierEnum.SAILORS)
-  current_tier = new_tier
   var current_enum_tier: WorldTiers.TierEnum = WorldTiers.TierEnum.get(self.current_tier, WorldTiers.TierEnum.SAILORS)
   # notify children
   for node: Node in self.get_children():
@@ -48,12 +49,16 @@ func connect_set_tier() -> void:
   for storage: StorageComponent in self.get_all_nodes_of_type(StorageComponent):
     storage.storage_changed.connect(self.update_tier.unbind(1))
 
-func update_tier() -> void:
-  # calculate happiness
+func get_happiness() -> int:
   var happiness := 0
   var storages: Array = self.get_all_nodes_of_type(StorageComponent)
   for storage: StorageComponent in storages:
     happiness += storage.get_storage_item_amount(ResourceConfig.Resources.HAPPINESS)
+  return happiness
+
+func update_tier() -> void:
+  # calculate happiness
+  var happiness := self.get_happiness()
   # print("    residence: %s |     tier: %s |     happiness: %s" % [self.residence, self.current_tier, happiness])
 
   # set residence
