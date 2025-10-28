@@ -11,7 +11,7 @@
 
 [node name="public_bath" type="Node2D"]
 script = ExtResource("1_script_gd")
-id = "BUILDINGS.PUBLIC_BATH"
+id = &"BUILDINGS.PUBLIC_BATH"
 baseclass = "production.ProductionBuilding"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Public Bath"

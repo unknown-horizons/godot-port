@@ -11,7 +11,7 @@
 
 [node name="clay_pit" type="Node2D"]
 script = ExtResource("1_script_gd")
-id = "BUILDINGS.CLAY_PIT"
+id = &"BUILDINGS.CLAY_PIT"
 baseclass = "production.Mine"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Clay Pit"

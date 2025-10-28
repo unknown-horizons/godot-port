@@ -4,7 +4,7 @@ class_name BuildingRoadContext
 
 @onready var terrain_tilemap: TerrainTileMap = %TerrainTileMap
 @onready var built_tilemap: BuiltTileMap = %BuiltTileMap
-@onready var highlighter: TileMapLayer = %RoadAndBuildingHighlighter
+@onready var highlighter: TileMapLayer = %BuildRoadHighlighter
 
 ## pathfinding for road building
 @onready var road_building_pathfindng = PathFindingManagement2D.new(%BuiltTileMap)

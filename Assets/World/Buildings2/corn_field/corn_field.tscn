@@ -10,7 +10,7 @@
 [node name="corn_field" type="Node2D"]
 z_index = -1
 script = ExtResource("1_script_gd")
-id = "BUILDINGS.CORN_FIELD"
+id = &"BUILDINGS.CORN_FIELD"
 baseclass = "nature.Field"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Corn Field"

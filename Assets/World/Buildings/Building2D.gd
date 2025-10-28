@@ -1,3 +1,5 @@
+@tool
+
 extends WorldThing2D
 
 class_name Building2D
@@ -78,6 +80,9 @@ func update_tier() -> void:
 
 func _ready():
   CamUtils.center_if_no_camera(self)
+  if Engine.is_editor_hint():
+    self.set_notify_transform(true)
+    return
   self.paused = self.paused # call pause setter
   # handle world tier
   setup_components()
@@ -157,3 +162,10 @@ func get_oriented_size() -> Vector2i:
       size_x = self.size.y
       size_y = self.size.x
   return Vector2i(size_x, size_y)
+
+func _notification(what):
+  if what == NOTIFICATION_TRANSFORM_CHANGED:
+    if Engine.is_editor_hint():
+      var built_tilemap := self.get_parent() as BuiltTileMap
+      if built_tilemap != null:
+        self.position = built_tilemap.map_to_local(built_tilemap.local_to_map(self.position)) # snap position to cells in editor mode

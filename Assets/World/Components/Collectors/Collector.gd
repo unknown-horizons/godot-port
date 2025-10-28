@@ -247,7 +247,7 @@ func get_jobs_for_building_collector() -> Array[Job]:
     #print("  Cell: %s" % [cell])
     #if cell == Vector2i(20, 27):
       #print("Hey")
-    var other_building: Building2D = self.built_tilemap.building_position_to_building.get(cell)
+    var other_building: Building2D = self.built_tilemap.building_position_to_building.get(cell, null)
     if other_building == null or other_building == self.parent_building:
       continue
     # seperate field/building collectors
@@ -362,7 +362,7 @@ func chop_tree(job: Job) -> void:
   await self.sleep(self.load_or_unload_time)
   if self.paused:
     await self.unpaused
-  self.built_tilemap.set_cell(cell)
+  self.built_tilemap.set_cell(cell, -1)
   self.built_tilemap.trees_getting_choped.erase(cell)
   self.action_set.action_state = self.action_set.ActionStates.IDLE
   self.storage.set_storage_item_amount(ResourceConfig.Resources.TREES, 1)

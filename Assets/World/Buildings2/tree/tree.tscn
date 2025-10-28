@@ -10,7 +10,7 @@
 
 [node name="tree" type="Node2D"]
 script = ExtResource("1_script_gd")
-id = "BUILDINGS.TREE"
+id = &"BUILDINGS.TREE"
 baseclass = "nature.Tree"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Tree"

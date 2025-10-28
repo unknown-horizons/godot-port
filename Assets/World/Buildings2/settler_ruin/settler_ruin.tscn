@@ -8,7 +8,7 @@
 
 [node name="settler_ruin" type="Node2D"]
 script = ExtResource("1_script_gd")
-id = "BUILDINGS.SETTLER_RUIN"
+id = &"BUILDINGS.SETTLER_RUIN"
 baseclass = "settler.SettlerRuin"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Ruined Tent"

@@ -11,7 +11,7 @@
 [node name="pasture" type="Node2D"]
 z_index = -1
 script = ExtResource("1_script_gd")
-id = "BUILDINGS.PASTURE"
+id = &"BUILDINGS.PASTURE"
 baseclass = "nature.Field"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Pasture"

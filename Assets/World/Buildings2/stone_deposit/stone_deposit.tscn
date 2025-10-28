@@ -9,7 +9,7 @@
 
 [node name="stone_deposit" type="Node2D"]
 script = ExtResource("1_script_gd")
-id = "BUILDINGS.STONE_DEPOSIT"
+id = &"BUILDINGS.STONE_DEPOSIT"
 baseclass = "nature.ResourceDeposit"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Stone Deposit"
