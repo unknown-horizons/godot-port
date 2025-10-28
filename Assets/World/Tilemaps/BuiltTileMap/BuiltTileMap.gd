@@ -117,3 +117,17 @@ func _update_tooltip(cell_coords: Vector2i):
 
   var building = self.building_position_to_building.get(cell_coords, null)
   self.tooltip_label.text = "Tile: %s\nAtlas: %s\ncell_alternative_tile: %s\nBuilding: %s" % [cell_coords, atlas_coords, cell_alternative_tile, building]
+
+## returns the cell bitmask for the buildings on it(any_building, mountain, stone_deposit, clay_deposit) if no building on it, returns 0
+func get_cell_building_bitmask(cell: Vector2i) -> int:
+  # find the cell bitmask for buildings on it
+  var cell_bitmask: int = 0
+  var building_on_tile: Building2D = self.building_position_to_building.get(cell) # Is the cell a building?
+  if building_on_tile != null:
+    cell_bitmask = 1 << 7 # any building
+    var building_on_tile_string_name := BuildingConfig.id_to_string_name(building_on_tile.id)
+    cell_bitmask |= int(building_on_tile_string_name == BuildingConfig.Buildings.CLAY_DEPOSIT)  << 4
+    cell_bitmask |= int(building_on_tile_string_name == BuildingConfig.Buildings.STONE_DEPOSIT) << 5
+    cell_bitmask |= int(building_on_tile_string_name == BuildingConfig.Buildings.MOUNTAIN)      << 6
+
+  return cell_bitmask

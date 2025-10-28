@@ -238,3 +238,6 @@ static var building_to_cost: Dictionary[StringName, Dictionary] = {
 #   # Buildings.FARM:       preload("res://Assets/UI/TabWidgets/FarmTabWidget.tscn"),
 #   Buildings.WAREHOUSE:  preload("res://Assets/UI/TabWidgets/WarehouseTabWidget.tscn")
 # }
+
+static func id_to_string_name(id: String) -> StringName:
+  return StringName(id.trim_prefix("BUILDINGS.").to_upper())
