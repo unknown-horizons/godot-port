@@ -23,6 +23,11 @@ size = Vector2i(5, 5)
 inhabitants = 0
 tooltip_text = "_ Gets iron ore from deposit."
 tier = "TIER.SETTLERS"
+buildable_on = Array[Array]([[207, 207, 207, 207, 207],
+                             [207, 207, 207, 207, 207],
+                             [207, 207, 207, 207, 207],
+                             [207, 207, 207, 207, 207],
+                             [207, 207, 207, 207, 207],])
 
 [node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
 type = "building"

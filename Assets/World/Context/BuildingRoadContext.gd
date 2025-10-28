@@ -44,7 +44,10 @@ func respond_to_left_click() -> void:
   if is_road_building_started:
     build_road()
   else:
-    road_start_tile_position = terrain_tilemap.local_to_map(terrain_tilemap.get_global_mouse_position())
+    var cell_clicked := terrain_tilemap.local_to_map(terrain_tilemap.to_local(terrain_tilemap.get_global_mouse_position()))
+    if self.road_building_pathfindng.is_point_solid(cell_clicked):
+      return
+    road_start_tile_position = cell_clicked
   is_road_building_started = not is_road_building_started
 
 func highlight_road() -> void:

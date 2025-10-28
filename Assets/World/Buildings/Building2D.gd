@@ -15,6 +15,16 @@ class_name Building2D
 @export var inhabitants: int        # TODO: not used yet
 @export var tooltip_text: String    # TODO: not used yet
 @export var tier: String            # TODO: not used yet
+
+## The terrain the building can be built on per tile: [code]Array[Array[int]][/code],
+## Ex: [code][[0, 0],[0, 0]][/code],[br]
+## encoded as a bitmask of [(any_building](mountain)(iron deposit)(clay deposit)(Deep)(Shallow)(Beach)(Grass)] * amount of tiles[br]
+## The first four bits are responsible for [b]required[/b] buildings on cell.[br]
+## The last four bits are responsible for [b]allowed[/b] terrain.[br]
+## Examples: tile buildable on grass would be 0b00000001, buildable on coastline would be 000010 = 2
+## if buildable on coastline or grass, it would be 00000011 = 3 and so on[br]
+## empty means the building can be built on Grass
+@export var buildable_on: Array[Array] = []
 @export var current_tier: StringName = WorldTiers.Tiers.MAX:
   set(value):
     current_tier = value
