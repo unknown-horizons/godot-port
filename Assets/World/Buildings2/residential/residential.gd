@@ -1,3 +1,5 @@
+@tool
+
 extends Building2D
 
 class_name Residential
@@ -21,6 +23,9 @@ var residence: int = 1:
   set(value):
     var previous_residence := self.residence
     residence = clampi(value, 1, self.max_residents_for_current_tier)
+    
+    if Engine.is_editor_hint():
+      return
 
     self.spend_happiness((residence - previous_residence) * self.happiness_usage_per_inhabitant)
     

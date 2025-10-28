@@ -12,9 +12,15 @@ var trees_getting_choped: Dictionary = {}
 ## emited when new buildings were built, usually one building at a time
 signal buildings_built(building: Building2D, cells: Array[Vector2i])
 
+func register_initial_scenes():
+  for cell in self.get_children():
+    var building: Building2D = cell as Building2D
+    self.register_building(building, false) # keep the cell uncleared to prevent scene deletion
+
+func _ready() -> void:
+  register_initial_scenes()
 
 ## test tiers
-# func _ready() -> void:
 #   for pos in self.get_used_cells():
 #     var source_id = self.get_cell_source_id(pos)
 #     if source_id == 4:
@@ -41,20 +47,12 @@ func get_trees() -> Array[Vector2i]:
       trees.append(cell)
   return trees
 
-func build(building_cell_coords: Vector2i, building_to_build: StringName, orientation: BuildingActionSet.Orientations) -> void:
-  # TODO: the can_build_building check is not full: the size here is not available, since there is no instance of the building. Does it need to be checked there again after highlight?
-  self.set_cell_orientation_workaround = orientation
-  var building_tileset_id = BuildingConfig.building_to_tileset_id.get(building_to_build, -1)
-  if building_tileset_id == -1:
-    push_error("Building %s does not have a tileset id in `BuildingConfig.building_to_tileset_id`" % building_to_build)
-    return
-  self.set_cell(building_cell_coords, 0, Vector2i.ZERO, building_tileset_id)
-  await self.buildings_built
-  # self.set_cell_orientation_workaround = WorldThings.Orientations._045
+func build(building_instance: Building2D) -> void:
+  self.register_building(building_instance, true)
 
-var set_cell_orientation_workaround := BuildingActionSet.Orientations._045
 
-func register_building(building: Building2D) -> void:
+func register_building(building: Building2D, clear_origin: bool) -> void:
+  print("BuiltTileMap.register_building(%s[%s], %s)" % [building.id, building, clear_origin])
   # register building to building poses
   var building_all_cell_coords = building_name_to_cell_coords.get(building.id, [])
   var building_tile_coords = self.local_to_map(building.position)
@@ -62,10 +60,6 @@ func register_building(building: Building2D) -> void:
 
   var road_building_context = %GameContextManager.get_node("BuildingRoadContext")
   var road_pathfinding = %Pathfinding.road_pathfinding
-
-  var action_set := building.get_first_node_of_type(BuildingActionSet) as BuildingActionSet if building != null else null
-  if action_set != null:
-    action_set.orientation = self.set_cell_orientation_workaround
 
   var size = building.get_oriented_size()
   for dy in range(size.y):
@@ -80,16 +74,12 @@ func register_building(building: Building2D) -> void:
 
   await get_tree().process_frame # wait for one frame, otherwise erase cells doesn't refresh the drawing if called from _on_child_entered_tree callstack
   for cell in new_building_cells:
-    if cell != building_tile_coords: # erase all other cells which the building covers
+    if cell != building_tile_coords or clear_origin: # erase all other cells which the building covers
       self.set_cell(cell, -1)
 
   # handle notifications
   buildings_built.emit(building, new_building_cells)
   GameStats.game_stats_resource.resources_changed.emit() # trigger other buildings to look for resources again (including this building)
-
-func _on_child_entered_tree(node: Node):
-  if node is Building2D:
-    register_building(node)
 
 # debug layer:
 @onready var tooltip_label: Label = self.get_node("/root/Main/DebugCanvasLayer/Control/BuiltTileMapLayerInfo") if not Engine.is_editor_hint() else null

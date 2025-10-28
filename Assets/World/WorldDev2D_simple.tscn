@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=4 uid="uid://cmjommteas4c6"]
+[gd_scene load_steps=15 format=4 uid="uid://cmjommteas4c6"]
 
 [ext_resource type="Script" uid="uid://cd8ykokfidoiu" path="res://Assets/World/Context/GameContextManager.gd" id="1_xnban"]
 [ext_resource type="Script" uid="uid://g6b3whtc1m5y" path="res://Assets/World/Context/BuildingContext.gd" id="2_agjt6"]
@@ -12,7 +12,6 @@
 [ext_resource type="TileSet" uid="uid://g0x5fr7nbdbv" path="res://Assets/World/Tilemaps/BuiltTileMap/BuiltTileSet.tres" id="11_op3n3"]
 [ext_resource type="Script" uid="uid://bfb7rha8tel6v" path="res://Assets/World/Tilemaps/BuiltTileMap/BuiltTileMap.gd" id="12_f5ujg"]
 [ext_resource type="Material" uid="uid://cltmqu62mbu3g" path="res://Assets/World/Tilemaps/Highlight/RoadHighlighter.tres" id="13_r0icm"]
-[ext_resource type="Script" uid="uid://7s8tdwbp17x5" path="res://Assets/World/Tilemaps/Highlight/RoadAndBuildingHighlighter.gd" id="14_cw7xy"]
 [ext_resource type="Script" uid="uid://2jwdai8tqa12" path="res://Assets/World/MainCamera.gd" id="18_nvd3d"]
 [ext_resource type="PackedScene" uid="uid://bka87rk8lk7kb" path="res://Assets/Player/PlayerHUD2.tscn" id="19_qvtmx"]
 
@@ -56,12 +55,11 @@ tile_map_data = PackedByteArray("AADt/woAAQAAAAAAAADt/wsAAQAAAAAAAADt/wwAAQAAAAA
 tile_set = ExtResource("11_op3n3")
 script = ExtResource("12_f5ujg")
 
-[node name="RoadAndBuildingHighlighter" type="TileMapLayer" parent="."]
+[node name="BuildRoadHighlighter" type="TileMapLayer" parent="."]
 unique_name_in_owner = true
 z_index = 15
 material = ExtResource("13_r0icm")
 tile_set = ExtResource("11_op3n3")
-script = ExtResource("14_cw7xy")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position_smoothing_enabled = true
@@ -74,6 +72,7 @@ script = ExtResource("18_nvd3d")
 z_index = 100
 size_flags_horizontal = 6
 size_flags_vertical = 6
+metadata/_edit_lock_ = true
 
 [node name="DebugCanvasLayer" type="CanvasLayer" parent="."]
 
@@ -87,6 +86,7 @@ grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 2
+metadata/_edit_lock_ = true
 
 [node name="BuiltTileMapLayerInfo" type="Label" parent="DebugCanvasLayer/Control"]
 layout_mode = 1
@@ -100,7 +100,3 @@ theme_override_colors/font_color = Color(0.8143436, 0.9336464, 0.89049816, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 32
 text = "Tile Debug Info"
-
-[connection signal="child_entered_tree" from="BuiltTileMap" to="BuiltTileMap" method="_on_child_entered_tree"]
-[connection signal="child_entered_tree" from="RoadAndBuildingHighlighter" to="RoadAndBuildingHighlighter" method="_on_child_entered_tree"]
-[connection signal="child_exiting_tree" from="RoadAndBuildingHighlighter" to="RoadAndBuildingHighlighter" method="_on_child_exiting_tree"]

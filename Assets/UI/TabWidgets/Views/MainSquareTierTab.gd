@@ -21,6 +21,9 @@ var tab_tier_val: WorldTiers.TierEnum:
 func _ready():
   self.caption_block.caption_text = str(self.tab_tier)
 
+  if Engine.is_editor_hint():
+    return
+    
   self.taxes_control.tax_rate_changed.connect(func (tax_rate: float): GameStats.treasury.tax_rate_per_tier[self.tab_tier_val] = tax_rate)
   # self.visibility_changed.connect(func(): print("MainSquareTierTab Visibility changed %s" % [self.visible]))
 

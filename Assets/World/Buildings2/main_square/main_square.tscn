@@ -10,7 +10,7 @@
 
 [node name="main_square" type="Node2D"]
 script = ExtResource("1_script_gd")
-id = "BUILDINGS.MAIN_SQUARE"
+id = &"BUILDINGS.MAIN_SQUARE"
 baseclass = "storages.MainSquare"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Main Square"

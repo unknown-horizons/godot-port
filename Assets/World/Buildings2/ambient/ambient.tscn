@@ -8,7 +8,7 @@
 
 [node name="ambient" type="Node2D"]
 script = ExtResource("1_script_gd")
-id = "BUILDINGS.AMBIENT"
+id = &"BUILDINGS.AMBIENT"
 baseclass = "nature.Ambient"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Ambient"

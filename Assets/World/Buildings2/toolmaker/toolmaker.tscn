@@ -13,7 +13,7 @@
 
 [node name="toolmaker" type="Node2D"]
 script = ExtResource("1_script_gd")
-id = "BUILDINGS.TOOLMAKER"
+id = &"BUILDINGS.TOOLMAKER"
 baseclass = "production.ProductionBuilding"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Toolmaker"

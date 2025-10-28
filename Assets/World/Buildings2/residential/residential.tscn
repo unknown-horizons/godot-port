@@ -11,7 +11,7 @@
 
 [node name="residential" type="Node2D" groups=["Residence"]]
 script = ExtResource("1_script_gd")
-id = "BUILDINGS.RESIDENTIAL"
+id = &"BUILDINGS.RESIDENTIAL"
 baseclass = "settler.Settler"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Tent", 

@@ -10,7 +10,7 @@
 
 [node name="vineyard" type="Node2D"]
 script = ExtResource("1_script_gd")
-id = "BUILDINGS.VINEYARD"
+id = &"BUILDINGS.VINEYARD"
 baseclass = "nature.Field"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Vineyard"
