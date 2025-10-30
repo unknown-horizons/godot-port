@@ -1,7 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbfishdeposts"]
+[gd_scene load_steps=7 format=3 uid="uid://cbfishdeposts"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
-[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
 [ext_resource type="SpriteFrames" uid="uid://cbfishdepostr" path="res://Assets/World/Buildings2/fish_deposit/fish_deposit.tres" id="4_sprite_frames"]
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
@@ -29,16 +28,19 @@ max_health = 10
 
 [node name="ProductionLineComponent_FISH" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "FISH"
-consumes = Dictionary[StringName, int]({
-})
 produces = Dictionary[StringName, int]({
 &"FISH": 1
 })
+show_tooltip = false
 
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"FISH": 1
 })
+storage = Dictionary[StringName, int]({
+&"FISH": 1
+})
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")
+current_as_name = "fish0"

@@ -20,6 +20,10 @@ func _ready():
   land.append_array(terrain_points["Beach"].keys().duplicate())
   road_building_pathfindng.set_points_passable(land, true)
 
+func context_exited():
+  self.highlighter.clear()
+  self.is_road_building_started = false
+
 func _unhandled_input(event):
   if event.is_action_pressed("toggle_build_road"):
     self.game_context_manager.current_context = self
@@ -62,9 +66,8 @@ func highlight_road() -> void:
 
 func build_road() -> void:
   highlighter.clear()
-  # check if there is a building on the start positionition
-  var scene_in_start_point = built_tilemap.building_position_to_building.find_key(built_tilemap.map_to_local(road_start_tile_position))
-  if scene_in_start_point != null:
+  # check if there is a building on the start position
+  if built_tilemap.building_position_to_building.has(road_start_tile_position):
     return
 
   ## finish tile of the road
