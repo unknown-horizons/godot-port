@@ -29,9 +29,8 @@ var building_to_build: StringName = BuildingConfig.Buildings.NONE:
     self.building_instance.position = built_tilemap.to_local(built_tilemap.get_global_mouse_position())
     self.built_tilemap.add_child(self.building_instance)
 
-    self.building_instance.set_can_build_highlight(false)
+    self.update_building_highlight()
 
-    # update_building_highlight(building_cell_coords)
     if not self.is_active:
       self.game_context_manager.current_context = self
 
@@ -48,6 +47,7 @@ var last_highlighted_building_position: Vector2i
 # clear the highlights
 func context_exited() -> void:
   super()
+  self.cancel_build()
   # highlighter.clear()
 
 static func pascal_to_upper_snake_case(text: String) -> String:
@@ -55,6 +55,9 @@ static func pascal_to_upper_snake_case(text: String) -> String:
   regex.compile(r"([a-z])([A-Z])")  # match lowercase followed by uppercase
   var result := regex.sub(text, r"$1_$2", true)
   return result.to_upper()
+
+func _ready() -> void:
+  GameStats.game_stats_resource.resources_changed.connect(update_building_highlight)
 
 func _unhandled_input(event: InputEvent) -> void:
   var build_building_data: StringName = BuildingConfig.Buildings.NONE
@@ -77,11 +80,7 @@ func _unhandled_input(event: InputEvent) -> void:
   if self.is_active:
     var mouse_move_event := event as InputEventMouseMotion
     if mouse_move_event != null:
-      if self.is_active and self.building_instance != null:
-        var building_cell_coords = built_tilemap.local_to_map(built_tilemap.to_local(built_tilemap.get_global_mouse_position()))
-        self.building_instance.position = built_tilemap.map_to_local(building_cell_coords) # rounded_pos
-        var can_build := self.can_build_building(building_cell_coords, self.building_instance.get_oriented_size(), self.building_to_build)
-        self.building_instance.set_can_build_highlight(can_build)
+      self.update_building_highlight()
 
     var mouseButtonEvent := event as InputEventMouseButton
     if mouseButtonEvent != null and mouseButtonEvent.pressed == true:
@@ -96,9 +95,7 @@ func _unhandled_input(event: InputEvent) -> void:
             self.game_context_manager.current_context = object_selected_context
             object_selected_context.set_selected_objects([selectable])
             return
-        self.building_instance.queue_free() # delete the building from the scene
-        self.building_instance = null
-        self.building_to_build = BuildingConfig.Buildings.NONE
+        self.cancel_build()
         self.game_context_manager.current_context = null # if cannot get the selectable of the reference object then set the context to null
 
     var rotation_angle = 0
@@ -109,14 +106,23 @@ func _unhandled_input(event: InputEvent) -> void:
 
     if rotation_angle != 0:
       var action_set := self.building_instance.get_first_node_of_type(BuildingActionSet) as BuildingActionSet
-      action_set.orientation = posmod(action_set.orientation + rotation_angle, 360) # make in range of 0-359 
+      action_set.orientation = posmod(action_set.orientation + rotation_angle, 360) # make in range of 0-359
+      self.update_building_highlight()
 
-func can_build_building(building_cell_starting_coords: Vector2i, size: Vector2i, building_name: StringName) -> bool:
+func update_building_highlight() -> void:
+  if self.is_active and self.building_instance != null:
+    var building_cell_coords = built_tilemap.local_to_map(built_tilemap.to_local(built_tilemap.get_global_mouse_position()))
+    self.building_instance.position = built_tilemap.map_to_local(building_cell_coords) # rounded_pos
+    var can_build := self.can_build_building(building_cell_coords, self.building_instance.get_oriented_cells(), self.building_to_build)
+    self.building_instance.set_can_build_highlight(can_build)
+
+func can_build_building(building_cell_starting_coords: Vector2i, oriented_cells: Array[Array], building_name: StringName) -> bool:
   if building_name == BuildingConfig.Buildings.NONE:
     return false
-  for dy in range(size.y):
-    for dx in range(size.x):
-      var building_cell_coords = building_cell_starting_coords - Vector2i(dx, dy)
+  for y in len(oriented_cells):
+    for x in len(oriented_cells[y]):
+      var dv: Vector2i = oriented_cells[y][x]
+      var building_cell_coords = building_cell_starting_coords + dv
 
       ## check if the reference object says that the cell is valid
       if reference_object != null and reference_object.has_method("is_tile_valid_for_building"):
@@ -138,7 +144,8 @@ func can_build_building(building_cell_starting_coords: Vector2i, size: Vector2i,
       # get the bitmask for the buildable cell of a building, inverse because stored left to right, top to bottom
       var buildable_cell_bitmask: int = 0b0000001 # by default the building can only be built on grass
       if len(building_instance.buildable_on) > 0:
-        buildable_cell_bitmask = building_instance.buildable_on[size.y - dy - 1][dx]
+        # in tscn, the array is top to bottom, but we build bottom to top, hence inverse y
+        buildable_cell_bitmask = building_instance.buildable_on[len(oriented_cells) - 1 - y][x]
       # check if the cell is buildable using allowed by terrain and required by building
       var buildable_on_cell: bool = ((buildable_cell_bitmask & 0b00001111) & terrain_bitmask) != 0 # allowed by terrain(one match)
       buildable_on_cell = buildable_on_cell and (buildable_cell_bitmask & 0b11110000) == building_bitmask # required by building(all matching)
@@ -151,13 +158,17 @@ func can_build_building(building_cell_starting_coords: Vector2i, size: Vector2i,
 func build(building_to_build: StringName, building_instance: Building2D) -> void:
   if building_instance != null: # If there is a building to build and it can be built
     var building_cell_coords = built_tilemap.local_to_map(building_instance.position)
-    if can_build_building(building_cell_coords, building_instance.get_oriented_size(), building_to_build):
-      spend_resources_for_building(self.building_to_build)
+    if self.can_build_building(building_cell_coords, self.building_instance.get_oriented_cells(), building_to_build):
+      self.update_building_highlight()
       built_tilemap.build(building_instance)
       self.building_instance = null # detach the instance first, the instance will remain stored in the built_tilemap
+      self.spend_resources_for_building(self.building_to_build) # then spend the resources(not to affect building any more)
       self.building_to_build = self.building_to_build
       # self.building_to_build = BuildingConfig.Buildings.NONE # then clear the building to be built
       # self.game_context_manager.current_context = null # release the context
+
+func cancel_build() -> void:
+  self.building_to_build = BuildingConfig.Buildings.NONE
 
 func has_resources_for_building(building_name: StringName) -> bool:
   var cost: Dictionary = BuildingConfig.building_to_cost[building_name] as Dictionary[StringName, int]

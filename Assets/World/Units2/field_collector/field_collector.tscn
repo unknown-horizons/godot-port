@@ -13,6 +13,7 @@ baseclass = "collectors.FieldCollector"
 radius = 5
 velocity = 12.0
 "Collector Type" = "FIELD_COLLECTOR"
+"Show Loading" = false
 
 [node name="SizedStorageComponent" parent="." instance=ExtResource("5_sized_storage_component")]
 limit = 8

@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=4 uid="uid://caaq1eo2tha3s"]
+[gd_scene load_steps=24 format=4 uid="uid://caaq1eo2tha3s"]
 
 [ext_resource type="Script" uid="uid://cd8ykokfidoiu" path="res://Assets/World/Context/GameContextManager.gd" id="1_4ru01"]
 [ext_resource type="Script" uid="uid://c46addh5upage" path="res://Assets/World/Tilemaps/Pathfinding.gd" id="1_fhei5"]
@@ -22,6 +22,7 @@
 [ext_resource type="PackedScene" uid="uid://cbblendertscn" path="res://Assets/World/Buildings2/blender/blender.tscn" id="18_goqk7"]
 [ext_resource type="PackedScene" uid="uid://cufrigatetscn" path="res://Assets/World/Units2/frigate/frigate.tscn" id="19_a06xh"]
 [ext_resource type="PackedScene" uid="uid://cbclaydeposts" path="res://Assets/World/Buildings2/clay_deposit/clay_deposit.tscn" id="19_jn5qs"]
+[ext_resource type="PackedScene" uid="uid://cbfishdeposts" path="res://Assets/World/Buildings2/fish_deposit/fish_deposit.tscn" id="20_goqk7"]
 
 [node name="Main" type="Node2D"]
 
@@ -101,6 +102,96 @@ position = Vector2(448, 1248)
 
 [node name="clay_deposit" parent="BuiltTileMap" instance=ExtResource("19_jn5qs")]
 position = Vector2(32, 1008)
+
+[node name="fish_deposit" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2176, 1536)
+
+[node name="fish_deposit2" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2304, 1568)
+
+[node name="fish_deposit3" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2496, 1664)
+
+[node name="fish_deposit4" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2560, 1888)
+
+[node name="fish_deposit5" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2496, 1856)
+
+[node name="fish_deposit6" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2432, 1824)
+
+[node name="fish_deposit7" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2336, 1680)
+
+[node name="fish_deposit8" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2240, 1664)
+
+[node name="fish_deposit9" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2112, 1600)
+
+[node name="fish_deposit10" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2016, 1584)
+
+[node name="fish_deposit11" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2240, 1376)
+
+[node name="fish_deposit12" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2368, 1440)
+
+[node name="fish_deposit13" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2464, 1488)
+
+[node name="fish_deposit14" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2592, 1552)
+
+[node name="fish_deposit15" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2688, 1600)
+
+[node name="fish_deposit16" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-2368, 1632)
+
+[node name="fish_deposit17" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-3008, 1984)
+
+[node name="fish_deposit18" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-3360, 1808)
+
+[node name="fish_deposit19" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-1600, -544)
+
+[node name="fish_deposit20" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-1088, -800)
+
+[node name="fish_deposit23" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-1984, -352)
+
+[node name="fish_deposit24" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-864, -912)
+
+[node name="fish_deposit25" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-1248, -720)
+
+[node name="fish_deposit21" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-1760, -464)
+
+[node name="fish_deposit22" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(-1504, -592)
+
+[node name="fish_deposit26" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(320, 1408)
+
+[node name="fish_deposit27" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(480, 1584)
+
+[node name="fish_deposit28" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(512, 1408)
+
+[node name="fish_deposit29" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(640, 1344)
+
+[node name="fish_deposit30" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
+position = Vector2(576, 1248)
 
 [node name="BuildRoadHighlighter" type="TileMapLayer" parent="."]
 unique_name_in_owner = true

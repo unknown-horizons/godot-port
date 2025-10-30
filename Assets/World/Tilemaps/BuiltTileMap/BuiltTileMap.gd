@@ -61,14 +61,14 @@ func register_building(building: Building2D, clear_origin: bool) -> void:
   var road_building_context = %GameContextManager.get_node("BuildingRoadContext")
   var road_pathfinding = %Pathfinding.road_pathfinding
 
-  var size = building.get_oriented_size()
-  for dy in range(size.y):
-    for dx in range(size.x):
-      var building_cell_tile_coords = building_tile_coords - Vector2i(dx, dy) # build up and left
+  var cells: Array[Array] = building.get_oriented_cells()
+  for row in cells:
+    for dv: Vector2i in row:
+      var building_cell_tile_coords = building_tile_coords + dv # build up and left
       new_building_cells.append(building_cell_tile_coords)
       self.building_position_to_building[building_cell_tile_coords] = building
       building_all_cell_coords.append(building_cell_tile_coords)
-      road_pathfinding.set_point_solid(building_cell_tile_coords, false)
+      road_pathfinding.set_point_solid(building_cell_tile_coords, true)
       road_building_context.road_building_pathfindng.set_point_solid(building_cell_tile_coords, true)
   building.paused = false
 

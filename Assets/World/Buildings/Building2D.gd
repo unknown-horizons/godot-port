@@ -154,14 +154,46 @@ func get_oriented_size() -> Vector2i:
   var size_x = self.size.x
   var size_y = self.size.y
   if size_x != size_y: # for rectangular building, swap size_x and size_y if at particular orientation
-    var actionset := self.get_first_node_of_type(BuildingActionSet) as BuildingActionSet
-    if actionset == null:
+    var action_set := self.get_first_node_of_type(BuildingActionSet) as BuildingActionSet
+    if action_set == null:
       push_error("Building %s is not square and has no building action set to get orientation from" % self.name)
-    var orientation := actionset.orientation if actionset != null else BuildingActionSet.Orientations._045
+    var orientation := action_set.orientation if action_set != null else BuildingActionSet.Orientations._045
     if orientation == BuildingActionSet.Orientations._045 or orientation == BuildingActionSet.Orientations._225:
       size_x = self.size.y
       size_y = self.size.x
   return Vector2i(size_x, size_y)
+
+## Returns an array of array of Vector2i (cell offsets) based on current orientation from _045 orientation
+func get_oriented_cells() -> Array[Array]:
+  # get action set
+  var action_set := self.get_first_node_of_type(BuildingActionSet) as BuildingActionSet
+  if action_set == null:
+    push_error("Building %s has no BuildingActionSet to get orientation from" % self.name)
+    return []
+  var orientation := action_set.orientation
+
+  var oriented_cells: Array[Array] = []
+  oriented_cells.resize(self.size.y)
+  for dy in range(self.size.y):
+    var row := oriented_cells[dy]
+    row.resize(self.size.x)
+    for dx in range(self.size.x):
+      var cell: Vector2i
+      match orientation: # Calculate the cell position acording to orientation
+        BuildingActionSet.Orientations._045:
+          cell = -Vector2i(dy, dx) # axis switched
+        BuildingActionSet.Orientations._135:
+          # 90° from original, axis stays same, dy inverted(from end)
+          cell = -Vector2i(dx , size.y - 1 - dy)
+        BuildingActionSet.Orientations._225:
+          # 180° from original, dx and dy inverted, axis switched
+          cell = -Vector2i(self.size.y - dy - 1, self.size.x - dx - 1)
+        BuildingActionSet.Orientations._315:
+          # 270° from original, axis stay same, dx inverted(from end)
+          cell = -Vector2i(size.x - 1 - dx, dy)
+      row[dx] = cell
+
+  return oriented_cells
 
 func _notification(what):
   if what == NOTIFICATION_TRANSFORM_CHANGED:
