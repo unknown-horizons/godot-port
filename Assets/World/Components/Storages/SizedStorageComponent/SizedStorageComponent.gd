@@ -27,6 +27,12 @@ func get_storage_state() -> StorageComponentStates:
   
   return storage_state
 
+func get_storage_items() -> Array[StringName]:
+  return ResourceConfig.Resources.keys()
+
+func get_max_capacity(_resource: StringName) -> int:
+  return self.limit
+
 func set_storage_item_amount(resource: StringName, new_amount: int) -> void:
   self.storage[resource] = clamp(new_amount, 0, limit)
   if self.storage[resource] == 0:

@@ -155,11 +155,12 @@ func build(building_to_build: StringName, building_instance: Building2D) -> void
   if building_instance != null: # If there is a building to build and it can be built
     var building_cell_coords = built_tilemap.local_to_map(building_instance.position)
     if self.can_build_building(building_cell_coords, self.building_instance.get_oriented_cells(), building_to_build):
-      self.update_building_highlight()
-      built_tilemap.build(building_instance)
+      var building: Building2D = building_instance
       self.building_instance = null # detach the instance first, the instance will remain stored in the built_tilemap
-      self.spend_resources_for_building(self.building_to_build) # then spend the resources(not to affect building any more)
+      self.spend_resources_for_building(self.building_to_build)
+      built_tilemap.build(building)
       self.building_to_build = self.building_to_build
+      GameStats.game_stats_resource.resources_changed.emit() # trigger other buildings to look for resources again (including this building)
       # self.building_to_build = BuildingConfig.Buildings.NONE # then clear the building to be built
       # self.game_context_manager.current_context = null # release the context
 

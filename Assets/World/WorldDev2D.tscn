@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=4 uid="uid://caaq1eo2tha3s"]
+[gd_scene load_steps=26 format=4 uid="uid://caaq1eo2tha3s"]
 
 [ext_resource type="Script" uid="uid://cd8ykokfidoiu" path="res://Assets/World/Context/GameContextManager.gd" id="1_4ru01"]
 [ext_resource type="Script" uid="uid://c46addh5upage" path="res://Assets/World/Tilemaps/Pathfinding.gd" id="1_fhei5"]
@@ -23,6 +23,8 @@
 [ext_resource type="PackedScene" uid="uid://cufrigatetscn" path="res://Assets/World/Units2/frigate/frigate.tscn" id="19_a06xh"]
 [ext_resource type="PackedScene" uid="uid://cbclaydeposts" path="res://Assets/World/Buildings2/clay_deposit/clay_deposit.tscn" id="19_jn5qs"]
 [ext_resource type="PackedScene" uid="uid://cbfishdeposts" path="res://Assets/World/Buildings2/fish_deposit/fish_deposit.tscn" id="20_goqk7"]
+[ext_resource type="PackedScene" uid="uid://cbmountaintsc" path="res://Assets/World/Buildings2/mountain/mountain.tscn" id="21_oixb2"]
+[ext_resource type="PackedScene" uid="uid://cbstonedepots" path="res://Assets/World/Buildings2/stone_deposit/stone_deposit.tscn" id="22_o7g2s"]
 
 [node name="Main" type="Node2D"]
 
@@ -193,6 +195,30 @@ position = Vector2(640, 1344)
 [node name="fish_deposit30" parent="BuiltTileMap" instance=ExtResource("20_goqk7")]
 position = Vector2(576, 1248)
 
+[node name="mountain" parent="BuiltTileMap" instance=ExtResource("21_oixb2")]
+position = Vector2(-2720, 624)
+
+[node name="mountain2" parent="BuiltTileMap" instance=ExtResource("21_oixb2")]
+position = Vector2(-416, -560)
+
+[node name="stone_deposit" parent="BuiltTileMap" instance=ExtResource("22_o7g2s")]
+position = Vector2(-1472, -64)
+
+[node name="stone_deposit2" parent="BuiltTileMap" instance=ExtResource("22_o7g2s")]
+position = Vector2(896, -224)
+
+[node name="clay_deposit2" parent="BuiltTileMap" instance=ExtResource("19_jn5qs")]
+position = Vector2(-672, 1680)
+
+[node name="clay_deposit3" parent="BuiltTileMap" instance=ExtResource("19_jn5qs")]
+position = Vector2(-1408, 1344)
+
+[node name="clay_deposit4" parent="BuiltTileMap" instance=ExtResource("19_jn5qs")]
+position = Vector2(1376, 432)
+
+[node name="clay_deposit5" parent="BuiltTileMap" instance=ExtResource("19_jn5qs")]
+position = Vector2(-2144, 848)
+
 [node name="BuildRoadHighlighter" type="TileMapLayer" parent="."]
 unique_name_in_owner = true
 z_index = 15
@@ -203,6 +229,7 @@ tile_set = ExtResource("3_driv1")
 position_smoothing_enabled = true
 position_smoothing_speed = 10.0
 script = ExtResource("4_ryeen")
+metadata/_edit_lock_ = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 

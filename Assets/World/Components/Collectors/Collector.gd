@@ -44,7 +44,7 @@ const CollectorTypes: Dictionary[StringName, StringName] = {
 
 var load_or_unload_time: float = 2
 
-var building_storage: SlotStorageComponent
+var building_storage: StorageComponent
 var production_line_components: Array[ProductionLineComponent]
 
 var storage: SizedStorageComponent
@@ -120,10 +120,12 @@ func _ready() -> void:
 
 func set_components(new_components: Array[BaseComponent]) -> void:
   for component in new_components:
-    if component is SlotStorageComponent:
-      self.building_storage = component as SlotStorageComponent
-    if component is ProductionLineComponent:
-      self.production_line_components.append(component)
+    var storage_component = component as StorageComponent
+    var production_line_component = component as ProductionLineComponent
+    if storage_component != null and self.building_storage == null:
+      self.building_storage = storage_component
+    if production_line_component != null:
+      self.production_line_components.append(production_line_component)
   if self.paused:
     await self.unpaused
   self.collecting_loop()
@@ -316,7 +318,7 @@ func get_jobs_for_building_collector() -> Array[Job]:
     # set the other building cells to passable for pathfinding
     self.set_building_cells_passable(other_building, self.move_by_cell.pathfinding, true)
     # check for any jobs possible with the other_building
-    for resource in self.building_storage.max_capacity.keys():
+    for resource in self.building_storage.get_storage_items():
       # print("    Resource: %s" % [resource])
       # get if consumed and/or produced
       var consumed: bool = false
@@ -331,7 +333,7 @@ func get_jobs_for_building_collector() -> Array[Job]:
         if other_building.is_resource_available(resource) == false:
           continue
         var amount_in_storage := self.building_storage.get_storage_item_amount(resource)
-        var max_amount: int = self.building_storage.max_capacity.get(resource, 0)
+        var max_amount: int = self.building_storage.get_max_capacity(resource)
         if amount_in_storage >= max_amount:
           continue
          # find path from other_building back home
@@ -378,7 +380,7 @@ func load_resources_for_building_collector(job: Job) -> void:
   if building == self.parent_building:
     needed_resource_amount = self.building_storage.get_storage_item_amount(job.resource)
   else:
-    needed_resource_amount = self.building_storage.max_capacity.get(job.resource, 0) - self.building_storage.get_storage_item_amount(job.resource)
+    needed_resource_amount = self.building_storage.get_max_capacity(job.resource) - self.building_storage.get_storage_item_amount(job.resource)
   var resource_amount: int = await building.load_resource(job.resource, needed_resource_amount)
   if self.paused:
     await self.unpaused
@@ -393,7 +395,7 @@ func get_jobs_for_lumberjack_collector() -> Array[Job]:
     return []
   if self.built_tilemap == null or self.parent_building == null or self.building_storage == null:
     push_error("Mising nodes in get_jobs_for_lumberjack_collector, Collector.gd")
-  if self.building_storage.get_storage_item_amount(ResourceConfig.Resources.TREES) >= self.building_storage.max_capacity.get(ResourceConfig.Resources.TREES):
+  if self.building_storage.get_storage_item_amount(ResourceConfig.Resources.TREES) >= self.building_storage.get_max_capacity(ResourceConfig.Resources.TREES):
     return []
   var collector_map_position: Vector2i = self.built_tilemap.local_to_map(self.global_position)
   var parent_building_map_position: Vector2i = self.built_tilemap.local_to_map(self.parent_building.global_position)

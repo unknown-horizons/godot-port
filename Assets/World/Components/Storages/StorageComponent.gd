@@ -11,7 +11,7 @@ enum StorageComponentStates {
 @export var load_or_unload_time: float = 2.0
 
 ## The storage of the building.[br]
-## [b]Note[/b]: The [method SlotStorageComponent.set_storage_item_amount] function is to be used to set a key
+## [b]Note[/b]: The [method StorageComponent.set_storage_item_amount] function is to be used to set a key
 @export var storage: Dictionary[StringName, int] = {} # Resource to count map
 
 ## a local signal emited when the storage changes
@@ -21,6 +21,13 @@ signal storage_changed(storage_state: StorageComponentStates)
 
 func get_storage_state() -> StorageComponentStates:
   return StorageComponentStates.EMPTY
+
+func get_storage_items() -> Array[StringName]:
+  return self.storage.keys()
+
+## Used to get the max capacity of a specific resource
+func get_max_capacity(resource: StringName) -> int:
+  return INF
 
 ## Used to set the storage amount of a specific resource.[br]
 ## The resource key will be created if it does not exist in the storage.[br]

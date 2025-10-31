@@ -61,25 +61,35 @@ func register_building(building: Building2D, clear_origin: bool) -> void:
   var road_building_context = %GameContextManager.get_node("BuildingRoadContext")
   var road_pathfinding = %Pathfinding.road_pathfinding
 
+  var buildings_built_on: Array[Building2D] = []
   var cells: Array[Array] = building.get_oriented_cells()
   for row in cells:
     for dv: Vector2i in row:
       var building_cell_tile_coords = building_tile_coords + dv # build up and left
+      # get the buildings this building is getting built on(if any)
+      var building_on_cell: Building2D = self.building_position_to_building.get(building_cell_tile_coords, null)
+      if building_on_cell != null:
+          buildings_built_on.append(building_on_cell)
+
       new_building_cells.append(building_cell_tile_coords)
       self.building_position_to_building[building_cell_tile_coords] = building
       building_all_cell_coords.append(building_cell_tile_coords)
       road_pathfinding.set_point_solid(building_cell_tile_coords, true)
       road_building_context.road_building_pathfindng.set_point_solid(building_cell_tile_coords, true)
-  building.paused = false
 
-  await get_tree().process_frame # wait for one frame, otherwise erase cells doesn't refresh the drawing if called from _on_child_entered_tree callstack
   for cell in new_building_cells:
     if cell != building_tile_coords or clear_origin: # erase all other cells which the building covers
       self.set_cell(cell, -1)
 
+  # add all buildings that were built on top of, to the building built
+  for building_built_on: Building2D in buildings_built_on:
+    building_built_on.position = Vector2i.ZERO
+    building_built_on.visible = false
+    building_built_on.reparent(building)
+
+  building.paused = false
   # handle notifications
   buildings_built.emit(building, new_building_cells)
-  GameStats.game_stats_resource.resources_changed.emit() # trigger other buildings to look for resources again (including this building)
 
 # debug layer:
 @onready var tooltip_label: Label = self.get_node("/root/Main/DebugCanvasLayer/Control/BuiltTileMapLayerInfo") if not Engine.is_editor_hint() else null
