@@ -50,12 +50,6 @@ func context_exited() -> void:
   self.cancel_build()
   # highlighter.clear()
 
-static func pascal_to_upper_snake_case(text: String) -> String:
-  var regex := RegEx.new()
-  regex.compile(r"([a-z])([A-Z])")  # match lowercase followed by uppercase
-  var result := regex.sub(text, r"$1_$2", true)
-  return result.to_upper()
-
 func _ready() -> void:
   GameStats.game_stats_resource.resources_changed.connect(update_building_highlight)
 
@@ -63,8 +57,10 @@ func _unhandled_input(event: InputEvent) -> void:
   var build_building_data: StringName = BuildingConfig.Buildings.NONE
 
   if event.is_action_pressed("toggle_build_building"):
-    build_building_data = event.get_meta("button_name").replace("Build", "").replace("Button", "")
-    build_building_data = pascal_to_upper_snake_case(build_building_data)
+    build_building_data = event.get_meta("button_name").trim_prefix("Build").trim_suffix("Button")
+    if build_building_data == "Trail":
+      return # road building is handled in the RoadContext
+    build_building_data = build_building_data.to_snake_case().to_upper()
     if build_building_data == null:
       push_error("`toggle_build_building` action is pressed, but `building_name` meta is null or empty.")
 

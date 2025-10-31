@@ -21,11 +21,11 @@ func toggle_tab_widget(tab_widget: Control):
 
 func _input(event: InputEvent) -> void:
   if event.is_action_pressed("toggle_building_menu"):
-    toggle_tab_widget(%BuildMenuByCategoryTabWidget);
+    toggle_tab_widget(%BuildingMenuTabWidget);
 
   if event.is_action_pressed("toggle_diplomacy_menu"):
     push_warning("Diplomacy menu is not implemented yet.")
-    # toggle_tab_widget(%BuildMenuByCategoryTabWidget);
+    # toggle_tab_widget(%BuildingMenuTabWidget);
   
   if event.is_action_pressed("toggle_building_info_menu"):
     var tab_container: TabContainer = self.get_node("RightMenuPanel/TabContainer")

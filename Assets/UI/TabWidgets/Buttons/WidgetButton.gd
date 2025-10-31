@@ -3,13 +3,6 @@ class_name WidgetButton
 
 ## Name of the input action to be triggered when the button is pressed.
 @export var input_action_name := "toggle_build_building"#:
-  # set(name):
-  #   input_action_name = name
-  #   if name != "":
-  #     if not InputMap.has_action(name):
-  #       push_warning("Input action not found in InputMap (project settings):", name)
-  #     else:
-  #       prints("Input action found in InputMap (project settings):", name)
 
 ## Additional meta data for the input action.
 @export var input_action_meta := {}
@@ -55,6 +48,16 @@ const TEXTURE_CLICK_MASK_ROUNDED = preload("res://Assets/UI/Images/Buttons/msg_b
 func _ready() -> void:
 #	prints("texture_normal.get_size()", texture_normal.get_size())
 #	prints("size", size)
+  CamUtils.center_if_no_camera(self)
+  if self.material != null:
+    self.mouse_entered.connect(_on_mouse_entered)
+    self.mouse_exited.connect(_on_mouse_exited)
+    self.material = self.material.duplicate()
+
+  if not self.tooltip_text:
+    # self.tooltip_text = self.name.to_snake_case().replace("_", " ").trim_suffix(" button")
+    self.tooltip_text = self.name.capitalize().trim_suffix(" Button")
+
   if texture_normal:
     if texture_click_mask:
       if Vector2i(texture_normal.get_size()) != texture_click_mask.get_size():
@@ -78,6 +81,12 @@ func _pressed() -> void:
     event.set_meta("button_name", self.name)
     # event.set_meta("building_name", "road");
     Input.parse_input_event(event); # ../../../World/Context/BuildingContext.gd:40
+
+func _on_mouse_entered():
+  self.material.set_shader_parameter("is_hovered", true)
+
+func _on_mouse_exited():
+  self.material.set_shader_parameter("is_hovered", false)
 
 func _notification(what: int) -> void:
   match what:
