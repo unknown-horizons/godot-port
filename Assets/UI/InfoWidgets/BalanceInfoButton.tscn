@@ -40,7 +40,7 @@ grow_vertical = 2
 texture = ExtResource("3")
 stretch_mode = 5
 
-[node name="Money" parent="TextureButton" instance=ExtResource("4")]
+[node name="GoldLabel" parent="TextureButton" instance=ExtResource("4")]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.069
@@ -89,20 +89,20 @@ grow_vertical = 2
 layout_mode = 2
 theme_override_constants/separation = 0
 
-[node name="Expense" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource("6")]
+[node name="ExpensesBalanceInfoItem" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource("6")]
 layout_mode = 2
 balance_value = -5
 
-[node name="Income" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource("6")]
+[node name="RevenueBalanceInfoItem" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource("6")]
 layout_mode = 2
 balance_type = 1
 balance_value = 12
 
-[node name="Buy" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource("6")]
+[node name="BuyBalanceInfoItem" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource("6")]
 layout_mode = 2
 balance_type = 2
 
-[node name="Sell" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource("6")]
+[node name="SellBalanceInfoItem" parent="VBoxContainer/Details/MarginContainer/VBoxContainer" instance=ExtResource("6")]
 layout_mode = 2
 balance_type = 3
 
@@ -116,7 +116,7 @@ size_flags_horizontal = 4
 texture = ExtResource("7")
 stretch_mode = 5
 
-[node name="Results" parent="VBoxContainer/TextureRect3" instance=ExtResource("6")]
+[node name="Balance" parent="VBoxContainer/TextureRect3" instance=ExtResource("6")]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.064

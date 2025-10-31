@@ -1,7 +1,8 @@
-[gd_scene load_steps=26 format=4 uid="uid://caaq1eo2tha3s"]
+[gd_scene load_steps=27 format=4 uid="uid://caaq1eo2tha3s"]
 
 [ext_resource type="Script" uid="uid://cd8ykokfidoiu" path="res://Assets/World/Context/GameContextManager.gd" id="1_4ru01"]
 [ext_resource type="Script" uid="uid://c46addh5upage" path="res://Assets/World/Tilemaps/Pathfinding.gd" id="1_fhei5"]
+[ext_resource type="Script" uid="uid://bhlps7h4ktt4r" path="res://Assets/World/Main.gd" id="1_oixb2"]
 [ext_resource type="TileSet" uid="uid://bqskejujqsgde" path="res://Assets/World/Tilemaps/Terrain/TerrainTileSet.tres" id="1_v0l7j"]
 [ext_resource type="Script" uid="uid://bpjptkikp1330" path="res://Assets/World/Tilemaps/Terrain/TerrainTileMap.gd" id="2_gfcij"]
 [ext_resource type="Script" uid="uid://g6b3whtc1m5y" path="res://Assets/World/Context/BuildingContext.gd" id="2_p610i"]
@@ -27,6 +28,7 @@
 [ext_resource type="PackedScene" uid="uid://cbstonedepots" path="res://Assets/World/Buildings2/stone_deposit/stone_deposit.tscn" id="22_o7g2s"]
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_oixb2")
 
 [node name="GameContextManager" type="Node" parent="."]
 unique_name_in_owner = true
@@ -48,6 +50,10 @@ visible = false
 
 [node name="ObjectSelectedContext" type="Node" parent="GameContextManager"]
 script = ExtResource("10_c4elk")
+
+[node name="TreasuryTimer" type="Timer" parent="."]
+unique_name_in_owner = true
+autostart = true
 
 [node name="Pathfinding" type="Node" parent="."]
 unique_name_in_owner = true
@@ -234,6 +240,7 @@ metadata/_edit_lock_ = true
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="PlayerHud2" parent="CanvasLayer" instance=ExtResource("11_2r8bi")]
+unique_name_in_owner = true
 z_index = 100
 size_flags_horizontal = 6
 size_flags_vertical = 6
@@ -265,3 +272,5 @@ theme_override_colors/font_color = Color(0.8143436, 0.9336464, 0.89049816, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 32
 text = "Tile Debug Info"
+
+[connection signal="timeout" from="TreasuryTimer" to="." method="_on_TreasuryTimer_timeout"]

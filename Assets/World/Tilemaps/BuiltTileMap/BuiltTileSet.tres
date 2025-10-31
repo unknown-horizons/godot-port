@@ -1,27 +1,23 @@
 [gd_resource type="TileSet" load_steps=5 format=3 uid="uid://g0x5fr7nbdbv"]
 
-[ext_resource type="Texture2D" uid="uid://bpj7a252mpg8h" path="res://Assets/World/Trees/Sprites/Maple1_idle_full.png" id="4_spnop"]
+[ext_resource type="Texture2D" uid="uid://dbsme7ukpy57e" path="res://Assets/World/Buildings2/tree/tree_nature_as_maple0_idle_full.png" id="4_3n3kq"]
 [ext_resource type="Texture2D" uid="uid://bywpxtmebk3ts" path="res://Roads.png" id="9_m4qb1"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8x7ew"]
-texture = ExtResource("4_spnop")
-texture_region_size = Vector2i(64, 64)
-0:0/size_in_atlas = Vector2i(1, 2)
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v2es3"]
+texture = ExtResource("4_3n3kq")
+texture_region_size = Vector2i(64, 128)
 0:0/0 = 0
 0:0/0/texture_origin = Vector2i(0, 48)
 0:0/0/custom_data_1 = true
-1:0/size_in_atlas = Vector2i(1, 2)
-1:0/0 = 0
-1:0/0/texture_origin = Vector2i(0, 48)
-1:0/0/custom_data_1 = true
-0:2/size_in_atlas = Vector2i(1, 2)
+0:1/0 = 0
+0:1/0/texture_origin = Vector2i(0, 48)
+0:1/0/custom_data_1 = true
 0:2/0 = 0
 0:2/0/texture_origin = Vector2i(0, 48)
 0:2/0/custom_data_1 = true
-1:2/size_in_atlas = Vector2i(1, 2)
-1:2/0 = 0
-1:2/0/texture_origin = Vector2i(0, 48)
-1:2/0/custom_data_1 = true
+0:3/0 = 0
+0:3/0/texture_origin = Vector2i(0, 48)
+0:3/0/custom_data_1 = true
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_18atu"]
 resource_name = "Roads"
@@ -915,5 +911,5 @@ custom_data_layer_0/name = "is_navigatable"
 custom_data_layer_0/type = 1
 custom_data_layer_1/name = "is_tree"
 custom_data_layer_1/type = 1
-sources/1 = SubResource("TileSetAtlasSource_8x7ew")
 sources/2 = SubResource("TileSetAtlasSource_18atu")
+sources/1 = SubResource("TileSetAtlasSource_v2es3")
