@@ -10,12 +10,6 @@ class_name SlotStorageComponent
 ## The capacity of the storage slots.
 @export var max_capacity: Dictionary[StringName, int] = {} # resource_name to max_capacity
 
-func _ready():
-  # check if the max_capacity and storage dictionary is in the right format and have all the nessesary keys in the storage
-  for resource in max_capacity.keys():
-    if storage.has(resource) == false: # if the resource is not in the storage add it
-      storage[resource] = 0
-
 func get_storage_state() -> StorageComponentStates:
   var storage_state: StorageComponentStates = StorageComponentStates.FULL
   if self.has_node(".."):
@@ -36,6 +30,12 @@ func get_storage_state() -> StorageComponentStates:
       storage_state = StorageComponentStates.EMPTY
   
   return storage_state
+
+func get_storage_items() -> Array[StringName]:
+  return self.max_capacity.keys()
+
+func get_max_capacity(resource: StringName) -> int:
+  return self.max_capacity.get(resource, 1)
 
 ## Used to set the storage amount of a specific resource.[br]
 ## The resource key will be created if it does not exist in the storage.[br]
