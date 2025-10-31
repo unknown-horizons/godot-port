@@ -4,8 +4,8 @@ extends Building2D
 
 class_name Residential
 
-## The range within which the residence of this building are stable(not increasing or decreasing)
-@export var stable_residence_range: Vector2 = Vector2(30, 70)
+## The range within which the residents_count of this building are stable(not increasing or decreasing)
+@export var stable_residents_count_range: Vector2 = Vector2(30, 70)
 ## The range within which the tier of this building is stable(not increasing or decreasing)
 @export var stable_tier_range: Vector2 = Vector2(10, 80)
 
@@ -16,20 +16,20 @@ var max_residents_for_current_tier: int:
 @export var happiness_usage_per_inhabitant: int = 20
 @export var happiness_usage_per_tier: int = 40
 
-## emitted when the number of residence of this building changes
-signal residence_changed(residence: int)
+## emitted when the number of residents_count of this building changes
+signal residents_count_changed(residents_count: int)
 
-var residence: int = 1:
+var residents_count: int = 1:
   set(value):
-    var previous_residence := self.residence
-    residence = clampi(value, 1, self.max_residents_for_current_tier)
+    var previous_residents_count := self.residents_count
+    residents_count = clampi(value, 1, self.max_residents_for_current_tier)
     
     if Engine.is_editor_hint():
       return
 
-    self.spend_happiness((residence - previous_residence) * self.happiness_usage_per_inhabitant)
+    self.spend_happiness((residents_count - previous_residents_count) * self.happiness_usage_per_inhabitant)
     
-    self.residence_changed.emit(self.residence)
+    self.residents_count_changed.emit(self.residents_count)
 
 func _on_tier_changed() -> void:
   var previous_enum_tier: WorldTiers.TierEnum = WorldTiers.TierEnum.get(self.current_tier, WorldTiers.TierEnum.SAILORS)
@@ -64,15 +64,15 @@ func get_happiness() -> int:
 func update_tier() -> void:
   # calculate happiness
   var happiness := self.get_happiness()
-  # print("    residence: %s |     tier: %s |     happiness: %s" % [self.residence, self.current_tier, happiness])
+  # print("    residents_count: %s |     tier: %s |     happiness: %s" % [self.residents_count, self.current_tier, happiness])
 
-  # set residence
+  # set residents_count
   # -1 if decreasing, 0 if stable, 1 if increasing
-  var residence_change := signi(happiness - clamp(happiness, self.stable_residence_range.x, self.stable_residence_range.y))
-  var last_residence := self.residence
-  self.residence += residence_change
-  if last_residence != self.residence:
-    return # increase residence first
+  var residents_count_change := signi(happiness - clamp(happiness, self.stable_residents_count_range.x, self.stable_residents_count_range.y))
+  var last_residents_count := self.residents_count
+  self.residents_count += residents_count_change
+  if last_residents_count != self.residents_count:
+    return # increase residents_count first
   
   # set tier
   # -1 if downgrading, 0 if stable, 1 if upgrading
@@ -83,7 +83,7 @@ func update_tier() -> void:
   self.current_tier = new_tier
   
   # # log default
-  # print("New residence: %s | New tier: %s | New happiness: %s" % [self.residence, self.current_tier, 
+  # print("New residents_count: %s | New tier: %s | New happiness: %s" % [self.residents_count, self.current_tier, 
   # self.get_first_node_of_type(StorageComponent).get_storage_item_amount(ResourceConfig.Resources.HAPPINESS)])
 
 ## goes across all storages trying to spend the given amount of happiness
@@ -92,10 +92,14 @@ func spend_happiness(happiness_to_spend: int):
   var i := 0
   while abs(happiness_to_spend) > 0:
     if i >= len(storages):
-      push_error("trying to increase residence but not enough happiness in storages")
+      push_error("trying to increase residents_count but not enough happiness in storages")
       break
     var storage: StorageComponent = storages[i]
     var happiness_in_storage: int = storage.get_storage_item_amount(ResourceConfig.Resources.HAPPINESS)
     var happiness_to_take_or_give := mini(happiness_to_spend, happiness_in_storage)
     storage.set_storage_item_amount(ResourceConfig.Resources.HAPPINESS, happiness_in_storage - happiness_to_take_or_give)
     happiness_to_spend -= happiness_to_take_or_give
+
+func calculate_tax_revenue():
+  var tax_revenue = self.residents_count * GameStats.treasury.tax_rate_per_tier[self.current_tier_val] * GameStats.treasury.gold_per_person_per_second
+  return tax_revenue

@@ -41,7 +41,8 @@ layout_mode = 2
 layout_mode = 2
 texture = ExtResource("13")
 
-[node name="LabelEx" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("14")]
+[node name="GoldLabel" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("14")]
+unique_name_in_owner = true
 layout_mode = 2
 text = "---"
 
@@ -69,7 +70,8 @@ theme_override_font_sizes/font_size = 16
 text = "Taxes"
 font_style = 9
 
-[node name="LabelEx2" parent="MarginContainer/VBoxContainer/HBoxContainer2" instance=ExtResource("14")]
+[node name="TaxesLabel" parent="MarginContainer/VBoxContainer/HBoxContainer2" instance=ExtResource("14")]
+unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
 theme_override_font_sizes/font_size = 16
@@ -94,7 +96,8 @@ theme_override_font_sizes/font_size = 16
 text = "Sale"
 font_style = 9
 
-[node name="LabelEx2" parent="MarginContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("14")]
+[node name="SaleLabel" parent="MarginContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("14")]
+unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
 theme_override_font_sizes/font_size = 16
@@ -127,7 +130,8 @@ theme_override_font_sizes/font_size = 16
 text = "Running costs"
 font_style = 9
 
-[node name="LabelEx2" parent="MarginContainer/VBoxContainer/HBoxContainer4" instance=ExtResource("14")]
+[node name="RunningCostsLabel" parent="MarginContainer/VBoxContainer/HBoxContainer4" instance=ExtResource("14")]
+unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
 theme_override_font_sizes/font_size = 16
@@ -152,7 +156,8 @@ theme_override_font_sizes/font_size = 16
 text = "Buying"
 font_style = 9
 
-[node name="LabelEx2" parent="MarginContainer/VBoxContainer/HBoxContainer5" instance=ExtResource("14")]
+[node name="BuyingLabel" parent="MarginContainer/VBoxContainer/HBoxContainer5" instance=ExtResource("14")]
+unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
 theme_override_font_sizes/font_size = 16
@@ -181,7 +186,8 @@ theme_override_font_sizes/font_size = 18
 text = "Balance"
 font_style = 1
 
-[node name="LabelEx2" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer6" instance=ExtResource("14")]
+[node name="BalanceLabel" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer6" instance=ExtResource("14")]
+unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
 theme_override_font_sizes/font_size = 16

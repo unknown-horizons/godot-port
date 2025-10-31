@@ -80,6 +80,7 @@ func update_tier() -> void:
 
 func _ready():
   CamUtils.center_if_no_camera(self)
+  self.add_to_group("Buildings")
   if Engine.is_editor_hint():
     self.set_notify_transform(true)
     return

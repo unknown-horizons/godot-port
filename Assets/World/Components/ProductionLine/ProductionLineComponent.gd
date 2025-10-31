@@ -141,7 +141,7 @@ func spend_resources():
     var storage_index: int = 0
     while needed_resource_amount > 0:
       if storage_index >= len(self.storage_components):
-        push_error("not enough resources at spending stage.")
+        push_error("not enough resources at spending stage %s" % [self.get_parent().name])
         return
       var current_resource_amount: int = self.storage_components[storage_index].get_storage_item_amount(resource)
       var resource_amount_used: int = min(needed_resource_amount, current_resource_amount)
