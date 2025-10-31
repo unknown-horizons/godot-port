@@ -1,26 +1,1522 @@
-[gd_scene load_steps=5 format=3 uid="uid://ddx05pxr84tol"]
+[gd_scene load_steps=82 format=3 uid="uid://ddx05pxr84tol"]
 
 [ext_resource type="Script" uid="uid://c0gb7oelq8ru0" path="res://Assets/UI/TabWidgets/BuildingMenuTabWidget.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bvbuafk7d6fdt" path="res://Assets/UI/TabWidgets/TabWidget.tscn" id="3"]
-[ext_resource type="PackedScene" uid="uid://bgt4majf8f241" path="res://Assets/UI/TabWidgets/Switches/Switches/BuildingSwitchTabWidget.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://bqqtcv3vc2v16" path="res://Assets/UI/TabWidgets/Switches/SwitchTabWidget.tscn" id="3_switch_tab_widget"]
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="4_cvvym"]
+[ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="6_0ndkb"]
+[ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="7_s0mmr"]
+[ext_resource type="PackedScene" uid="uid://77w0fa2ig1qg" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/BuildButton.tscn" id="9_build_button"]
+[ext_resource type="Texture2D" uid="uid://u6ln6b0vrce4" path="res://Assets/UI/Icons/TabWidget/buildmenu_all_icons.png" id="buildmenu_all_icons_png"]
+
+[sub_resource type="AtlasTexture" id="class_residential"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(94, 329, 40, 46)
+
+[sub_resource type="AtlasTexture" id="class_fields"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(0, 329, 40, 46)
+
+[sub_resource type="AtlasTexture" id="class_agricultural_companies"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(329, 282, 40, 46)
+
+[sub_resource type="AtlasTexture" id="class_companies"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(376, 282, 40, 46)
+
+[sub_resource type="AtlasTexture" id="class_military"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(47, 329, 40, 46)
+
+[sub_resource type="AtlasTexture" id="class_aesthetics"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(282, 282, 40, 46)
+
+[sub_resource type="AtlasTexture" id="tier_1"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(141, 329, 40, 46)
+
+[sub_resource type="AtlasTexture" id="tier_2"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(188, 329, 40, 46)
+
+[sub_resource type="AtlasTexture" id="tier_3"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(235, 329, 40, 46)
+
+[sub_resource type="AtlasTexture" id="tier_4"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(282, 329, 40, 46)
+
+[sub_resource type="AtlasTexture" id="tier_5"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(329, 329, 40, 46)
+
+[sub_resource type="AtlasTexture" id="tier_6"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(376, 329, 40, 46)
+
+[sub_resource type="AtlasTexture" id="bb_trail"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(141, 235, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_storage"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(235, 188, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_lookout"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(282, 94, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_signal_fire"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(0, 188, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_residential"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(329, 141, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_main_square"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(376, 94, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_pavilion"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(141, 141, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_village_school"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(235, 235, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_tavern"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(376, 188, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_fire_station"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(0, 94, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_doctor"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(329, 47, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_public_bath"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(282, 141, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_farm"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(376, 47, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_pasture"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(94, 141, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_potato_field"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(235, 141, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_sugarcane_field"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(282, 188, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_tobacco_field"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(0, 235, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_cattle_run"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(47, 47, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_herbary"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(141, 94, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_spice_field"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(94, 188, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_corn_field"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(235, 47, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_cocoa_field"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(188, 47, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_vineyard"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(282, 235, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_alvearies"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(0, 0, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_hop_field"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(188, 94, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_pigsty"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(188, 141, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_fisher"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(47, 94, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_salt_ponds"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(376, 141, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_saline"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(282, 141, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_hunter"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(235, 94, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_butchery"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(376, 0, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_windmill"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(47, 282, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_bakery"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(47, 0, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_weaver"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(0, 282, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_blender"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(188, 0, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_pastry_shop"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(47, 141, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_distillery"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(282, 47, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_tobacconist"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(47, 235, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_winery"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(94, 282, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_brewery"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(282, 0, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_lumberjack"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(329, 94, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_tree"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(188, 235, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_charcoal_burner"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(94, 47, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_clay_pit"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(141, 47, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_mine"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(0, 141, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_stone_pit"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(141, 188, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_toolmaker"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(94, 235, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_stonemason"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(188, 188, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_smeltery"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(47, 188, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_brickyard"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(329, 0, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_barrier"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(141, 0, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_weaponsmith"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(376, 235, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_cannon_foundry"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(0, 47, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_wooden_tower"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(141, 282, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_boat_builder"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(235, 0, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_barracks"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(94, 0, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_warehouse"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(329, 235, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_tannery"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(329, 188, 46, 46)
+
+[sub_resource type="AtlasTexture" id="bb_gravel_path"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(94, 94, 46, 46)
+
+[sub_resource type="AtlasTexture" id="by_class"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(188, 282, 30, 30)
+
+[sub_resource type="AtlasTexture" id="by_tier"]
+atlas = ExtResource("buildmenu_all_icons_png")
+region = Rect2(235, 282, 30, 30)
 
 [node name="BuildingMenuTabWidget" instance=ExtResource("3")]
 script = ExtResource("2")
 
-[node name="BuildingSwitchTabWidget" parent="LeftFloatingPanel/TabSwitches" index="0" instance=ExtResource("4")]
+[node name="class_residential" parent="LeftFloatingPanel/TabSwitches" index="0" instance=ExtResource("3_switch_tab_widget")]
 layout_mode = 2
+texture_normal = SubResource("class_residential")
+
+[node name="class_fields" parent="LeftFloatingPanel/TabSwitches" index="1" instance=ExtResource("3_switch_tab_widget")]
+layout_mode = 2
+texture_normal = SubResource("class_fields")
+
+[node name="class_agricultural_companies" parent="LeftFloatingPanel/TabSwitches" index="2" instance=ExtResource("3_switch_tab_widget")]
+layout_mode = 2
+texture_normal = SubResource("class_agricultural_companies")
+
+[node name="class_companies" parent="LeftFloatingPanel/TabSwitches" index="3" instance=ExtResource("3_switch_tab_widget")]
+layout_mode = 2
+texture_normal = SubResource("class_companies")
+
+[node name="class_military" parent="LeftFloatingPanel/TabSwitches" index="4" instance=ExtResource("3_switch_tab_widget")]
+layout_mode = 2
+texture_normal = SubResource("class_military")
+
+[node name="class_aesthetics" parent="LeftFloatingPanel/TabSwitches" index="5" instance=ExtResource("3_switch_tab_widget")]
+visible = false
+layout_mode = 2
+texture_normal = SubResource("class_aesthetics")
+
+[node name="tier_1" parent="LeftFloatingPanel/TabSwitches" index="6" instance=ExtResource("3_switch_tab_widget")]
+layout_mode = 2
+texture_normal = SubResource("tier_1")
+
+[node name="tier_2" parent="LeftFloatingPanel/TabSwitches" index="7" instance=ExtResource("3_switch_tab_widget")]
+layout_mode = 2
+texture_normal = SubResource("tier_2")
+
+[node name="tier_3" parent="LeftFloatingPanel/TabSwitches" index="8" instance=ExtResource("3_switch_tab_widget")]
+layout_mode = 2
+texture_normal = SubResource("tier_3")
+
+[node name="tier_4" parent="LeftFloatingPanel/TabSwitches" index="9" instance=ExtResource("3_switch_tab_widget")]
+layout_mode = 2
+texture_normal = SubResource("tier_4")
+
+[node name="tier_5" parent="LeftFloatingPanel/TabSwitches" index="10" instance=ExtResource("3_switch_tab_widget")]
+layout_mode = 2
+texture_normal = SubResource("tier_5")
+
+[node name="tier_6" parent="LeftFloatingPanel/TabSwitches" index="11" instance=ExtResource("3_switch_tab_widget")]
+layout_mode = 2
+texture_normal = SubResource("tier_6")
 
 [node name="ScrollContainer" parent="." index="1"]
-custom_minimum_size = Vector2(0, 47)
+custom_minimum_size = Vector2(0, 351)
 
 [node name="TabContainer" parent="ScrollContainer" index="0"]
 current_tab = 0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="1"]
+[node name="class_residential" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="1"]
 layout_mode = 2
 metadata/_tab_index = 0
 
-[node name="CaptionBlock" parent="ScrollContainer/TabContainer/VBoxContainer" index="0" instance=ExtResource("4_cvvym")]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/class_residential" index="0" instance=ExtResource("4_cvvym")]
 layout_mode = 2
-text = "Any building"
+caption_text = "Settlement"
+
+[node name="Infrastructure" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_residential" index="1"]
+layout_mode = 2
+
+[node name="InfrastructureLabel" parent="ScrollContainer/TabContainer/class_residential/Infrastructure" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Infrastructure"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_residential/Infrastructure" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildTrailButton" parent="ScrollContainer/TabContainer/class_residential/Infrastructure/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_trail")
+
+[node name="BuildStorageButton" parent="ScrollContainer/TabContainer/class_residential/Infrastructure/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_storage")
+
+[node name="BuildLookoutButton" parent="ScrollContainer/TabContainer/class_residential/Infrastructure/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_lookout")
+
+[node name="BuildSignalFireButton" parent="ScrollContainer/TabContainer/class_residential/Infrastructure/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_signal_fire")
+
+[node name="Residential" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_residential" index="2"]
+layout_mode = 2
+
+[node name="ResidentialLabel" parent="ScrollContainer/TabContainer/class_residential/Residential" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Residential"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_residential/Residential" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildResidentialButton" parent="ScrollContainer/TabContainer/class_residential/Residential/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_residential")
+
+[node name="Services" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_residential" index="3"]
+layout_mode = 2
+
+[node name="ServicesLabel" parent="ScrollContainer/TabContainer/class_residential/Services" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Services"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_residential/Services" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildMainSquareButton" parent="ScrollContainer/TabContainer/class_residential/Services/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_main_square")
+
+[node name="BuildPavilionButton" parent="ScrollContainer/TabContainer/class_residential/Services/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_pavilion")
+
+[node name="BuildVillageSchoolButton" parent="ScrollContainer/TabContainer/class_residential/Services/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_village_school")
+
+[node name="BuildTavernButton" parent="ScrollContainer/TabContainer/class_residential/Services/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_tavern")
+
+[node name="Precaution" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_residential" index="4"]
+layout_mode = 2
+
+[node name="PrecautionLabel" parent="ScrollContainer/TabContainer/class_residential/Precaution" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Precaution"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_residential/Precaution" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildFireStationButton" parent="ScrollContainer/TabContainer/class_residential/Precaution/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_fire_station")
+
+[node name="BuildDoctorButton" parent="ScrollContainer/TabContainer/class_residential/Precaution/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_doctor")
+
+[node name="BuildPublicBathButton" parent="ScrollContainer/TabContainer/class_residential/Precaution/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_public_bath")
+
+[node name="class_fields" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="2"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/class_fields" index="0" instance=ExtResource("4_cvvym")]
+layout_mode = 2
+caption_text = "Fields"
+
+[node name="Pioneers" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_fields" index="1"]
+layout_mode = 2
+
+[node name="PioneersLabel" parent="ScrollContainer/TabContainer/class_fields/Pioneers" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Pioneers"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_fields/Pioneers" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildFarmButton" parent="ScrollContainer/TabContainer/class_fields/Pioneers/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_farm")
+
+[node name="BuildPastureButton" parent="ScrollContainer/TabContainer/class_fields/Pioneers/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_pasture")
+
+[node name="BuildPotatoFieldButton" parent="ScrollContainer/TabContainer/class_fields/Pioneers/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_potato_field")
+
+[node name="BuildSugarcaneFieldButton" parent="ScrollContainer/TabContainer/class_fields/Pioneers/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_sugarcane_field")
+
+[node name="Settlers" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_fields" index="2"]
+layout_mode = 2
+
+[node name="SettlersLabel" parent="ScrollContainer/TabContainer/class_fields/Settlers" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Settlers"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_fields/Settlers" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildTobaccoFieldButton" parent="ScrollContainer/TabContainer/class_fields/Settlers/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_tobacco_field")
+
+[node name="BuildCattleRunButton" parent="ScrollContainer/TabContainer/class_fields/Settlers/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_cattle_run")
+
+[node name="BuildHerbaryButton" parent="ScrollContainer/TabContainer/class_fields/Settlers/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_herbary")
+
+[node name="BuildSpiceFieldButton" parent="ScrollContainer/TabContainer/class_fields/Settlers/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_spice_field")
+
+[node name="Citizens" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_fields" index="3"]
+layout_mode = 2
+
+[node name="CitizensLabel" parent="ScrollContainer/TabContainer/class_fields/Citizens" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Citizens"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_fields/Citizens" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildCornFieldButton" parent="ScrollContainer/TabContainer/class_fields/Citizens/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_corn_field")
+
+[node name="BuildCocoaFieldButton" parent="ScrollContainer/TabContainer/class_fields/Citizens/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_cocoa_field")
+
+[node name="BuildVineyardButton" parent="ScrollContainer/TabContainer/class_fields/Citizens/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_vineyard")
+
+[node name="BuildAlveariesButton" parent="ScrollContainer/TabContainer/class_fields/Citizens/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_alvearies")
+
+[node name="Citizens2" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_fields" index="4"]
+layout_mode = 2
+
+[node name="CitizensLabel" parent="ScrollContainer/TabContainer/class_fields/Citizens2" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Citizens"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_fields/Citizens2" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildHopFieldButton" parent="ScrollContainer/TabContainer/class_fields/Citizens2/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_hop_field")
+
+[node name="BuildPigstyButton" parent="ScrollContainer/TabContainer/class_fields/Citizens2/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_pigsty")
+
+[node name="class_agricultural_companies" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="3"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/class_agricultural_companies" index="0" instance=ExtResource("4_cvvym")]
+layout_mode = 2
+caption_text = "Agriculture"
+
+[node name="Sea" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_agricultural_companies" index="1"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/class_agricultural_companies/Sea" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Sea"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_agricultural_companies/Sea" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildFisherButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Sea/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_fisher")
+
+[node name="BuildSaltPondsButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Sea/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_salt_ponds")
+
+[node name="BuildSalineButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Sea/GridContainer" index="2" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_saline")
+
+[node name="Food" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_agricultural_companies" index="2"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/class_agricultural_companies/Food" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Food"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_agricultural_companies/Food" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildHunterButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Food/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_hunter")
+
+[node name="BuildButcheryButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Food/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_butchery")
+
+[node name="BuildWindmillButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Food/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_windmill")
+
+[node name="BuildBakeryButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Food/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_bakery")
+
+[node name="Workshops" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_agricultural_companies" index="3"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/class_agricultural_companies/Workshops" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Workshops"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_agricultural_companies/Workshops" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildWeaverButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Workshops/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_weaver")
+
+[node name="BuildBlenderButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Workshops/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_blender")
+
+[node name="BuildPastryShopButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Workshops/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_pastry_shop")
+
+[node name="Workshops2" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_agricultural_companies" index="4"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/class_agricultural_companies/Workshops2" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Workshops"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_agricultural_companies/Workshops2" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildDistilleryButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Workshops2/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_distillery")
+
+[node name="BuildTobacconistButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Workshops2/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_tobacconist")
+
+[node name="BuildWineryButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Workshops2/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_winery")
+
+[node name="BuildBreweryButton" parent="ScrollContainer/TabContainer/class_agricultural_companies/Workshops2/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_brewery")
+
+[node name="class_companies" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="4"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 3
+
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/class_companies" index="0" instance=ExtResource("4_cvvym")]
+layout_mode = 2
+caption_text = "Companies"
+
+[node name="Wood" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_companies" index="1"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/class_companies/Wood" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Wood"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_companies/Wood" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildLumberjackButton" parent="ScrollContainer/TabContainer/class_companies/Wood/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_lumberjack")
+
+[node name="BuildTreeButton" parent="ScrollContainer/TabContainer/class_companies/Wood/GridContainer" index="1" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_tree")
+
+[node name="BuildCharcoalBurnerButton" parent="ScrollContainer/TabContainer/class_companies/Wood/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_charcoal_burner")
+
+[node name="Mining" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_companies" index="2"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/class_companies/Mining" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Mining"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_companies/Mining" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildClayPitButton" parent="ScrollContainer/TabContainer/class_companies/Mining/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_clay_pit")
+
+[node name="BuildMineButton" parent="ScrollContainer/TabContainer/class_companies/Mining/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_mine")
+
+[node name="BuildStonePitButton" parent="ScrollContainer/TabContainer/class_companies/Mining/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_stone_pit")
+
+[node name="Workshops" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_companies" index="3"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/class_companies/Workshops" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Workshops"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_companies/Workshops" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildToolmakerButton" parent="ScrollContainer/TabContainer/class_companies/Workshops/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_toolmaker")
+
+[node name="BuildStonemasonButton" parent="ScrollContainer/TabContainer/class_companies/Workshops/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_stonemason")
+
+[node name="BuildSmelteryButton" parent="ScrollContainer/TabContainer/class_companies/Workshops/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_smeltery")
+
+[node name="BuildBrickyardButton" parent="ScrollContainer/TabContainer/class_companies/Workshops/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_brickyard")
+
+[node name="class_military" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="5"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 4
+
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/class_military" index="0" instance=ExtResource("4_cvvym")]
+layout_mode = 2
+caption_text = "Companies"
+
+[node name="Infrastructure" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_military" index="1"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/class_military/Infrastructure" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Infrastructure"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_military/Infrastructure" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildBarrierButton" parent="ScrollContainer/TabContainer/class_military/Infrastructure/GridContainer" index="0" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_barrier")
+
+[node name="Workshops" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_military" index="2"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/class_military/Workshops" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Workshops"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_military/Workshops" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildWeaponsmithButton" parent="ScrollContainer/TabContainer/class_military/Workshops/GridContainer" index="0" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_weaponsmith")
+
+[node name="BuildCannonFoundryButton" parent="ScrollContainer/TabContainer/class_military/Workshops/GridContainer" index="1" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_cannon_foundry")
+
+[node name="Fortifications" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_military" index="3"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/class_military/Fortifications" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Fortifications"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_military/Fortifications" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildWoodenTowerButton" parent="ScrollContainer/TabContainer/class_military/Fortifications/GridContainer" index="0" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_wooden_tower")
+
+[node name="MilitaryService" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_military" index="4"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/class_military/MilitaryService" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Military Service"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_military/MilitaryService" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildBoatBuilderButton" parent="ScrollContainer/TabContainer/class_military/MilitaryService/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_boat_builder")
+
+[node name="BuildBarracksButton" parent="ScrollContainer/TabContainer/class_military/MilitaryService/GridContainer" index="1" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_barracks")
+
+[node name="class_aesthetics" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="6"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 5
+
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/class_aesthetics" index="0" instance=ExtResource("4_cvvym")]
+layout_mode = 2
+caption_text = "Aesthetics"
+
+[node name="OtherButtons" type="VBoxContainer" parent="ScrollContainer/TabContainer/class_aesthetics" index="1"]
+layout_mode = 2
+
+[node name="OtherButtonsLabel" parent="ScrollContainer/TabContainer/class_aesthetics/OtherButtons" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Other buttons"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/class_aesthetics/OtherButtons" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildWarehouseButton" parent="ScrollContainer/TabContainer/class_aesthetics/OtherButtons/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_warehouse")
+
+[node name="BuildTanneryButton" parent="ScrollContainer/TabContainer/class_aesthetics/OtherButtons/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_tannery")
+
+[node name="BuildGravelPathButton" parent="ScrollContainer/TabContainer/class_aesthetics/OtherButtons/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_gravel_path")
+
+[node name="tier_1" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="7"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 6
+
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/tier_1" index="0" instance=ExtResource("4_cvvym")]
+layout_mode = 2
+caption_text = "Sailors"
+
+[node name="ResidentsAndInfrastructure" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_1" index="1"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_1/ResidentsAndInfrastructure" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 16
+text = "Residents and Infrastructure	"
+font_style = 9
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_1/ResidentsAndInfrastructure" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildResidentialButton" parent="ScrollContainer/TabContainer/tier_1/ResidentsAndInfrastructure/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_residential")
+
+[node name="BuildStorageButton" parent="ScrollContainer/TabContainer/tier_1/ResidentsAndInfrastructure/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_storage")
+
+[node name="BuildTrailButton" parent="ScrollContainer/TabContainer/tier_1/ResidentsAndInfrastructure/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_trail")
+
+[node name="BuildLookoutButton" parent="ScrollContainer/TabContainer/tier_1/ResidentsAndInfrastructure/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_lookout")
+
+[node name="Services" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_1" index="2"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_1/Services" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Services"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_1/Services" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildMainSquareButton" parent="ScrollContainer/TabContainer/tier_1/Services/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_main_square")
+
+[node name="BuildPavilionButton" parent="ScrollContainer/TabContainer/tier_1/Services/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_pavilion")
+
+[node name="BuildSignalFireButton" parent="ScrollContainer/TabContainer/tier_1/Services/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_signal_fire")
+
+[node name="Companies" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_1" index="3"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_1/Companies" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Companies"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_1/Companies" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildLumberjackButton" parent="ScrollContainer/TabContainer/tier_1/Companies/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_lumberjack")
+
+[node name="BuildHunterButton" parent="ScrollContainer/TabContainer/tier_1/Companies/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_hunter")
+
+[node name="BuildFisherButton" parent="ScrollContainer/TabContainer/tier_1/Companies/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_fisher")
+
+[node name="Military" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_1" index="4"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_1/Military" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Military"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_1/Military" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildBarrierButton" parent="ScrollContainer/TabContainer/tier_1/Military/GridContainer" index="0" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_barrier")
+
+[node name="tier_2" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="8"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 7
+
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/tier_2" index="0" instance=ExtResource("4_cvvym")]
+layout_mode = 2
+caption_text = "Pioneers"
+
+[node name="Companies" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_2" index="1"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_2/Companies" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Companies"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_2/Companies" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildClayPitButton" parent="ScrollContainer/TabContainer/tier_2/Companies/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_clay_pit")
+
+[node name="BuildBrickyardButton" parent="ScrollContainer/TabContainer/tier_2/Companies/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_brickyard")
+
+[node name="BuildWeaverButton" parent="ScrollContainer/TabContainer/tier_2/Companies/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_weaver")
+
+[node name="BuildDistilleryButton" parent="ScrollContainer/TabContainer/tier_2/Companies/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_distillery")
+
+[node name="fields" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_2" index="2"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_2/fields" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Fields"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_2/fields" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildFarmButton" parent="ScrollContainer/TabContainer/tier_2/fields/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_farm")
+
+[node name="BuildPotatoFieldButton" parent="ScrollContainer/TabContainer/tier_2/fields/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_potato_field")
+
+[node name="BuildPastureButton" parent="ScrollContainer/TabContainer/tier_2/fields/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_pasture")
+
+[node name="BuildSugarcaneFieldButton" parent="ScrollContainer/TabContainer/tier_2/fields/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_sugarcane_field")
+
+[node name="Services" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_2" index="3"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_2/Services" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Services"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_2/Services" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildVillageSchoolButton" parent="ScrollContainer/TabContainer/tier_2/Services/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_village_school")
+
+[node name="BuildFireStationButton" parent="ScrollContainer/TabContainer/tier_2/Services/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_fire_station")
+
+[node name="BuildBoatBuilderButton" parent="ScrollContainer/TabContainer/tier_2/Services/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_boat_builder")
+
+[node name="Military" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_2" index="4"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_2/Military" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Military"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_2/Military" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildWoodenTowerButton" parent="ScrollContainer/TabContainer/tier_2/Military/GridContainer" index="0" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_wooden_tower")
+
+[node name="tier_3" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="9"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 8
+
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/tier_3" index="0" instance=ExtResource("4_cvvym")]
+layout_mode = 2
+caption_text = "Settlers"
+
+[node name="Mining" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_3" index="1"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_3/Mining" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Mining"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_3/Mining" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildMineButton" parent="ScrollContainer/TabContainer/tier_3/Mining/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_mine")
+
+[node name="BuildSmelteryButton" parent="ScrollContainer/TabContainer/tier_3/Mining/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_smeltery")
+
+[node name="BuildToolmakerButton" parent="ScrollContainer/TabContainer/tier_3/Mining/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_toolmaker")
+
+[node name="BuildCharcoalBurnerButton" parent="ScrollContainer/TabContainer/tier_3/Mining/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_charcoal_burner")
+
+[node name="Companies" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_3" index="2"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_3/Companies" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Companies"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_3/Companies" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildSaltPondsButton" parent="ScrollContainer/TabContainer/tier_3/Companies/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_salt_ponds")
+
+[node name="BuildButcheryButton" parent="ScrollContainer/TabContainer/tier_3/Companies/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_butchery")
+
+[node name="BuildTobacconistButton" parent="ScrollContainer/TabContainer/tier_3/Companies/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_tobacconist")
+
+[node name="BuildBlenderButton" parent="ScrollContainer/TabContainer/tier_3/Companies/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_blender")
+
+[node name="Fields" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_3" index="3"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_3/Fields" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Fields"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_3/Fields" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildTobaccoFieldButton" parent="ScrollContainer/TabContainer/tier_3/Fields/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_tobacco_field")
+
+[node name="BuildCattleRunButton" parent="ScrollContainer/TabContainer/tier_3/Fields/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_cattle_run")
+
+[node name="BuildHerbaryButton" parent="ScrollContainer/TabContainer/tier_3/Fields/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_herbary")
+
+[node name="BuildSpiceFieldButton" parent="ScrollContainer/TabContainer/tier_3/Fields/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_spice_field")
+
+[node name="Services" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_3" index="4"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_3/Services" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Services"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_3/Services" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildTavernButton" parent="ScrollContainer/TabContainer/tier_3/Services/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_tavern")
+
+[node name="BuildDoctorButton" parent="ScrollContainer/TabContainer/tier_3/Services/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_doctor")
+
+[node name="BuildBreweryButton" parent="ScrollContainer/TabContainer/tier_3/Services/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_brewery")
+
+[node name="tier_4" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="10"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 9
+
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/tier_4" index="0" instance=ExtResource("4_cvvym")]
+layout_mode = 2
+caption_text = "Citizens"
+
+[node name="Companies" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_4" index="1"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_4/Companies" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Companies"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_4/Companies" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildWindmillButton" parent="ScrollContainer/TabContainer/tier_4/Companies/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_windmill")
+
+[node name="BuildBakeryButton" parent="ScrollContainer/TabContainer/tier_4/Companies/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_bakery")
+
+[node name="BuildWineryButton" parent="ScrollContainer/TabContainer/tier_4/Companies/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_winery")
+
+[node name="BuildPastryShopButton" parent="ScrollContainer/TabContainer/tier_4/Companies/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_pastry_shop")
+
+[node name="Fields" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_4" index="2"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_4/Fields" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Fields"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_4/Fields" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildCornFieldButton" parent="ScrollContainer/TabContainer/tier_4/Fields/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_corn_field")
+
+[node name="BuildCocoaFieldButton" parent="ScrollContainer/TabContainer/tier_4/Fields/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_cocoa_field")
+
+[node name="BuildVineyardButton" parent="ScrollContainer/TabContainer/tier_4/Fields/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_vineyard")
+
+[node name="BuildAlveariesButton" parent="ScrollContainer/TabContainer/tier_4/Fields/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_alvearies")
+
+[node name="Fields2" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_4" index="3"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_4/Fields2" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Fields"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_4/Fields2" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildHopFieldButton" parent="ScrollContainer/TabContainer/tier_4/Fields2/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_hop_field")
+
+[node name="BuildStonePitButton" parent="ScrollContainer/TabContainer/tier_4/Fields2/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_stone_pit")
+
+[node name="BuildStonemasonButton" parent="ScrollContainer/TabContainer/tier_4/Fields2/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_stonemason")
+
+[node name="BuildPigstyButton" parent="ScrollContainer/TabContainer/tier_4/Fields2/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_pigsty")
+
+[node name="Military" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_4" index="4"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_4/Military" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Military"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_4/Military" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildWeaponsmithButton" parent="ScrollContainer/TabContainer/tier_4/Military/GridContainer" index="0" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_weaponsmith")
+
+[node name="BuildCannonFoundryButton" parent="ScrollContainer/TabContainer/tier_4/Military/GridContainer" index="1" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_cannon_foundry")
+
+[node name="BuildBarracksButton" parent="ScrollContainer/TabContainer/tier_4/Military/GridContainer" index="2" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_barracks")
+
+[node name="tier_5" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="11"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 10
+
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/tier_5" index="0" instance=ExtResource("4_cvvym")]
+layout_mode = 2
+caption_text = "Merchants"
+
+[node name="Companies" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_5" index="1"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_5/Companies" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Companies"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_5/Companies" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildSalineButton" parent="ScrollContainer/TabContainer/tier_5/Companies/GridContainer" index="0" instance=ExtResource("9_build_button")]
+modulate = Color(0.6901961, 0.6901961, 0.6901961, 1)
+layout_mode = 2
+disabled = true
+texture_normal = SubResource("bb_saline")
+
+[node name="Services" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_5" index="2"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_5/Services" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Services"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_5/Services" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildPublicBathButton" parent="ScrollContainer/TabContainer/tier_5/Services/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_public_bath")
+
+[node name="tier_6" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="12"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 11
+
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/tier_6" index="0" instance=ExtResource("4_cvvym")]
+layout_mode = 2
+caption_text = "Merchants"
+
+[node name="OtherButtonsLabel" type="VBoxContainer" parent="ScrollContainer/TabContainer/tier_6" index="1"]
+layout_mode = 2
+
+[node name="CategoryLabel" parent="ScrollContainer/TabContainer/tier_6/OtherButtonsLabel" index="0" instance=ExtResource("6_0ndkb")]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("7_s0mmr")
+theme_override_font_sizes/font_size = 18
+text = "Other buttons"
+font_style = 10
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/tier_6/OtherButtonsLabel" index="1"]
+layout_mode = 2
+columns = 4
+
+[node name="BuildWarehouseButton" parent="ScrollContainer/TabContainer/tier_6/OtherButtonsLabel/GridContainer" index="0" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_warehouse")
+
+[node name="BuildTreeButton" parent="ScrollContainer/TabContainer/tier_6/OtherButtonsLabel/GridContainer" index="1" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_tree")
+
+[node name="BuildTanneryButton" parent="ScrollContainer/TabContainer/tier_6/OtherButtonsLabel/GridContainer" index="2" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_tannery")
+
+[node name="BuildGravelPathButton" parent="ScrollContainer/TabContainer/tier_6/OtherButtonsLabel/GridContainer" index="3" instance=ExtResource("9_build_button")]
+layout_mode = 2
+texture_normal = SubResource("bb_gravel_path")
+
+[node name="BuildingMenuTypeSwitch" type="TextureButton" parent="ScrollContainer" index="1"]
+layout_mode = 2
+size_flags_horizontal = 10
+size_flags_vertical = 0
+toggle_mode = true
+button_pressed = true
+texture_normal = SubResource("by_class")
+texture_pressed = SubResource("by_tier")
+
+[connection signal="toggled" from="ScrollContainer/BuildingMenuTypeSwitch" to="." method="_on_BuildingMenuTypeSwitch_toggled"]

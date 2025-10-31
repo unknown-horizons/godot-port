@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://c4e812pijkjhi" path="res://Assets/UI/InfoWidgets/ResourcesOverlay.tscn" id="2_7rego"]
 [ext_resource type="PackedScene" uid="uid://cwi23f5spohl" path="res://Assets/UI/InfoWidgets/BalanceInfoButton.tscn" id="3_sivbb"]
 [ext_resource type="PackedScene" uid="uid://37cfdhkia73r" path="res://Assets/UI/TabWidgets/WidgetTop.tscn" id="4_nvuti"]
-[ext_resource type="PackedScene" uid="uid://poqoikb77ih2" path="res://Assets/UI/TabWidgets/BuildMenuByCategoryTabWidget.tscn" id="11"]
+[ext_resource type="PackedScene" uid="uid://ddx05pxr84tol" path="res://Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn" id="7_louy2"]
 [ext_resource type="PackedScene" uid="uid://db0jyegu5eki5" path="res://Assets/UI/TabWidgets/AllTabs.tscn" id="53_lmqcj"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f12q6"]
@@ -66,7 +66,7 @@ layout_mode = 2
 theme = SubResource("Theme_nxfqi")
 metadata/_tab_index = 0
 
-[node name="BuildMenuByCategoryTabWidget" parent="RightMenuPanel/TabContainer" instance=ExtResource("11")]
+[node name="BuildingMenuTabWidget" parent="RightMenuPanel/TabContainer" instance=ExtResource("7_louy2")]
 unique_name_in_owner = true
 layout_mode = 2
 metadata/_tab_index = 1

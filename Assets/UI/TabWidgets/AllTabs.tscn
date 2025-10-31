@@ -60,6 +60,22 @@ region = Rect2(85, 289, 40, 46)
 atlas = ExtResource("42_tabwidget_icons_png")
 region = Rect2(1, 289, 40, 46)
 
+[sub_resource type="AtlasTexture" id="warehouse_buysell_u"]
+atlas = ExtResource("42_tabwidget_icons_png")
+region = Rect2(127, 817, 40, 46)
+
+[sub_resource type="AtlasTexture" id="warehouse_buysell_d"]
+atlas = ExtResource("42_tabwidget_icons_png")
+region = Rect2(43, 817, 40, 46)
+
+[sub_resource type="AtlasTexture" id="warehouse_buysell_h"]
+atlas = ExtResource("42_tabwidget_icons_png")
+region = Rect2(85, 817, 40, 46)
+
+[sub_resource type="AtlasTexture" id="warehouse_buysell_a"]
+atlas = ExtResource("42_tabwidget_icons_png")
+region = Rect2(1, 817, 40, 46)
+
 [sub_resource type="AtlasTexture" id="common_building_overview_u"]
 atlas = ExtResource("42_tabwidget_icons_png")
 region = Rect2(127, 241, 40, 46)
@@ -156,6 +172,22 @@ region = Rect2(85, 529, 40, 46)
 atlas = ExtResource("42_tabwidget_icons_png")
 region = Rect2(1, 529, 40, 46)
 
+[sub_resource type="AtlasTexture" id="ship_ship_inv_u"]
+atlas = ExtResource("42_tabwidget_icons_png")
+region = Rect2(127, 721, 40, 46)
+
+[sub_resource type="AtlasTexture" id="ship_ship_inv_d"]
+atlas = ExtResource("42_tabwidget_icons_png")
+region = Rect2(43, 721, 40, 46)
+
+[sub_resource type="AtlasTexture" id="ship_ship_inv_h"]
+atlas = ExtResource("42_tabwidget_icons_png")
+region = Rect2(85, 721, 40, 46)
+
+[sub_resource type="AtlasTexture" id="ship_ship_inv_a"]
+atlas = ExtResource("42_tabwidget_icons_png")
+region = Rect2(1, 721, 40, 46)
+
 [sub_resource type="AtlasTexture" id="production_related_u"]
 atlas = ExtResource("42_tabwidget_icons_png")
 region = Rect2(127, 625, 40, 46)
@@ -187,22 +219,6 @@ region = Rect2(85, 673, 40, 46)
 [sub_resource type="AtlasTexture" id="production_work_a"]
 atlas = ExtResource("42_tabwidget_icons_png")
 region = Rect2(1, 673, 40, 46)
-
-[sub_resource type="AtlasTexture" id="ship_ship_inv_u"]
-atlas = ExtResource("42_tabwidget_icons_png")
-region = Rect2(127, 721, 40, 46)
-
-[sub_resource type="AtlasTexture" id="ship_ship_inv_d"]
-atlas = ExtResource("42_tabwidget_icons_png")
-region = Rect2(43, 721, 40, 46)
-
-[sub_resource type="AtlasTexture" id="ship_ship_inv_h"]
-atlas = ExtResource("42_tabwidget_icons_png")
-region = Rect2(85, 721, 40, 46)
-
-[sub_resource type="AtlasTexture" id="ship_ship_inv_a"]
-atlas = ExtResource("42_tabwidget_icons_png")
-region = Rect2(1, 721, 40, 46)
 
 [sub_resource type="AtlasTexture" id="boatbuilder_fisher_u"]
 atlas = ExtResource("42_tabwidget_icons_png")
@@ -283,22 +299,6 @@ region = Rect2(85, 1, 40, 46)
 [sub_resource type="AtlasTexture" id="barracks_swordman_a"]
 atlas = ExtResource("42_tabwidget_icons_png")
 region = Rect2(1, 1, 40, 46)
-
-[sub_resource type="AtlasTexture" id="warehouse_buysell_u"]
-atlas = ExtResource("42_tabwidget_icons_png")
-region = Rect2(127, 817, 40, 46)
-
-[sub_resource type="AtlasTexture" id="warehouse_buysell_d"]
-atlas = ExtResource("42_tabwidget_icons_png")
-region = Rect2(43, 817, 40, 46)
-
-[sub_resource type="AtlasTexture" id="warehouse_buysell_h"]
-atlas = ExtResource("42_tabwidget_icons_png")
-region = Rect2(85, 817, 40, 46)
-
-[sub_resource type="AtlasTexture" id="warehouse_buysell_a"]
-atlas = ExtResource("42_tabwidget_icons_png")
-region = Rect2(1, 817, 40, 46)
 
 [sub_resource type="AtlasTexture" id="mainsquare_inhabitants5_u"]
 atlas = ExtResource("42_tabwidget_icons_png")
@@ -461,11 +461,7 @@ texture_pressed = SubResource("boatbuilder_war2_d")
 texture_hover = SubResource("boatbuilder_war2_h")
 texture_active = SubResource("boatbuilder_war2_a")
 
-[node name="DoNotExistInGame" type="VBoxContainer" parent="LeftFloatingPanel/TabSwitches" index="20"]
-visible = false
-layout_mode = 2
-
-[node name="barracks_swordman" parent="LeftFloatingPanel/TabSwitches" index="21" instance=ExtResource("2_ig0oa")]
+[node name="not-in-game-barracks_swordman" parent="LeftFloatingPanel/TabSwitches" index="20" instance=ExtResource("2_ig0oa")]
 visible = false
 layout_mode = 2
 texture_normal = SubResource("barracks_swordman_u")
@@ -473,7 +469,7 @@ texture_pressed = SubResource("barracks_swordman_d")
 texture_hover = SubResource("barracks_swordman_h")
 texture_active = SubResource("barracks_swordman_a")
 
-[node name="mainsquare_inhabitants5" parent="LeftFloatingPanel/TabSwitches" index="22" instance=ExtResource("2_ig0oa")]
+[node name="not-in-game-mainsquare_inhabitants5" parent="LeftFloatingPanel/TabSwitches" index="21" instance=ExtResource("2_ig0oa")]
 visible = false
 layout_mode = 2
 texture_normal = SubResource("mainsquare_inhabitants5_u")
@@ -482,7 +478,7 @@ texture_hover = SubResource("mainsquare_inhabitants5_h")
 texture_active = SubResource("mainsquare_inhabitants5_a")
 
 [node name="ScrollContainer" parent="." index="2"]
-custom_minimum_size = Vector2(0, 399)
+custom_minimum_size = Vector2(0, 370)
 
 [node name="TabContainer" parent="ScrollContainer" index="0"]
 current_tab = 6

@@ -25,6 +25,11 @@ func context_exited():
   self.is_road_building_started = false
 
 func _unhandled_input(event):
+  if event.is_action_pressed("toggle_build_building"):
+    var build_building_data = event.get_meta("button_name").replace("Build", "").replace("Button", "")
+    if build_building_data == "Trail":
+      self.game_context_manager.current_context = self
+
   if event.is_action_pressed("toggle_build_road"):
     self.game_context_manager.current_context = self
 

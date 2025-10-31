@@ -1,9 +1,20 @@
-[gd_scene load_steps=3 format=3 uid="uid://77w0fa2ig1qg"]
+[gd_scene load_steps=6 format=3 uid="uid://77w0fa2ig1qg"]
 
 [ext_resource type="PackedScene" uid="uid://cff5va6e0sqyv" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButton.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cmrvaja6tqdt5" path="res://Assets/UI/Images/Buttons/buildmenu_button_bg.png" id="2"]
+[ext_resource type="Shader" uid="uid://e04kba6lswpa" path="res://Assets/UI/TabWidgets/ButtonHighlighter.gdshader" id="2_8dmri"]
+[ext_resource type="Texture2D" uid="uid://d06s04d06gpg3" path="res://Assets/UI/Icons/BuildMenu/018.png" id="3_6vlnt"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wq2dg"]
+shader = ExtResource("2_8dmri")
+shader_parameter/is_hovered = false
+shader_parameter/is_active = false
+shader_parameter/glow_color = Color(0.9765625, 1, 1, 0.3)
+shader_parameter/glow_radius = 0.5
+shader_parameter/glow_softness = 0.5
 
 [node name="BuildButton" instance=ExtResource("1")]
+material = SubResource("ShaderMaterial_wq2dg")
 custom_minimum_size = Vector2(46, 46)
 anchors_preset = -1
 anchor_left = 0.502
@@ -15,6 +26,7 @@ offset_top = -22.9001
 offset_right = 16.7999
 offset_bottom = 17.0999
 pivot_offset = Vector2(23, 23)
+texture_normal = ExtResource("3_6vlnt")
 texture_click_mask = null
 stretch_mode = 5
 

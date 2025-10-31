@@ -14,6 +14,19 @@ func _ready() -> void:
   tab_container.tab_changed.connect(self.tab_changed)
   self.refresh_timer.timeout.connect(self.refresh_timeout)
 
+  for tab_switch: SwitchTabWidget in self.tab_switches.get_children():
+    tab_switch.toggled.connect(func (_toggled): self.update_toggle_states(tab_switch))
+  update_toggle_states(self.tab_switches.get_child(0))
+
+var updating_toggle_states := false
+func update_toggle_states(tab_switch_on: SwitchTabWidget):
+  if updating_toggle_states: # avoid recursion due to tab_switch.toggled signal
+    return
+  updating_toggle_states = true
+  for tab_switch: SwitchTabWidget in self.tab_switches.get_children():
+    var should_be_pressed = tab_switch_on == tab_switch
+    tab_switch.button_pressed = should_be_pressed
+  updating_toggle_states = false
 var selected_node: WorldThing2D = null:
   set(value):
     selected_node = value
