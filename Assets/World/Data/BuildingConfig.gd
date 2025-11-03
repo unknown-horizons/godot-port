@@ -81,7 +81,7 @@ static var buildings_packed_scenes: Dictionary[StringName, PackedScene] = {
   Buildings.BREWERY              : preload("res://Assets/World/Buildings2/brewery/brewery.tscn"),
   Buildings.BRICKYARD            : preload("res://Assets/World/Buildings2/brickyard/brickyard.tscn"),
   Buildings.BUTCHERY             : preload("res://Assets/World/Buildings2/butchery/butchery.tscn"),
-  Buildings.CANNON_FOUNDRY       : preload("res://Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn"),
+  # Buildings.CANNON_FOUNDRY       : preload("res://Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn"),
   Buildings.CHARCOAL_BURNER      : preload("res://Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn"),
   Buildings.CLAY_DEPOSIT         : preload("res://Assets/World/Buildings2/clay_deposit/clay_deposit.tscn"),
   Buildings.CLAY_PIT             : preload("res://Assets/World/Buildings2/clay_pit/clay_pit.tscn"),
