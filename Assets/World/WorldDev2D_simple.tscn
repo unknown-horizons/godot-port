@@ -1,5 +1,6 @@
 [gd_scene load_steps=16 format=4 uid="uid://cmjommteas4c6"]
 
+[ext_resource type="Script" uid="uid://bhlps7h4ktt4r" path="res://Assets/World/Main.gd" id="1_tc8s8"]
 [ext_resource type="Script" uid="uid://cd8ykokfidoiu" path="res://Assets/World/Context/GameContextManager.gd" id="1_xnban"]
 [ext_resource type="Script" uid="uid://g6b3whtc1m5y" path="res://Assets/World/Context/BuildingContext.gd" id="2_agjt6"]
 [ext_resource type="Script" uid="uid://db6g6ewi28i8" path="res://Assets/World/Context/BuildingRoadContext.gd" id="3_wk4sb"]
@@ -17,6 +18,7 @@
 [ext_resource type="PackedScene" uid="uid://bka87rk8lk7kb" path="res://Assets/Player/PlayerHUD2.tscn" id="19_qvtmx"]
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_tc8s8")
 
 [node name="GameContextManager" type="Node" parent="."]
 unique_name_in_owner = true
@@ -41,6 +43,10 @@ script = ExtResource("6_q7svf")
 
 [node name="DemolitionContext" type="Node" parent="GameContextManager"]
 script = ExtResource("7_tc8s8")
+
+[node name="TreasuryTimer" type="Timer" parent="."]
+unique_name_in_owner = true
+autostart = true
 
 [node name="Pathfinding" type="Node" parent="."]
 unique_name_in_owner = true
@@ -73,6 +79,7 @@ script = ExtResource("18_nvd3d")
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="PlayerHud2" parent="CanvasLayer" instance=ExtResource("19_qvtmx")]
+unique_name_in_owner = true
 z_index = 100
 size_flags_horizontal = 6
 size_flags_vertical = 6

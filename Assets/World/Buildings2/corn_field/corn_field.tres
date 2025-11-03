@@ -22,19 +22,19 @@ region = Rect2(0, 576, 192, 192)
 
 [sub_resource type="AtlasTexture" id="cornfield0_citizens_idle_full_045_0_0"]
 atlas = ExtResource("corn_field_citizens_as_cornfield0_idle_full")
-region = Rect2(0, 0, 192, 128)
+region = Rect2(0, 0, 192, 107)
 
-[sub_resource type="AtlasTexture" id="cornfield0_citizens_idle_full_135_0_128"]
+[sub_resource type="AtlasTexture" id="cornfield0_citizens_idle_full_135_0_107"]
 atlas = ExtResource("corn_field_citizens_as_cornfield0_idle_full")
-region = Rect2(0, 128, 192, 192)
+region = Rect2(0, 107, 192, 192)
 
-[sub_resource type="AtlasTexture" id="cornfield0_citizens_idle_full_225_0_320"]
+[sub_resource type="AtlasTexture" id="cornfield0_citizens_idle_full_225_0_299"]
 atlas = ExtResource("corn_field_citizens_as_cornfield0_idle_full")
-region = Rect2(0, 320, 192, 192)
+region = Rect2(0, 299, 192, 192)
 
-[sub_resource type="AtlasTexture" id="cornfield0_citizens_idle_full_315_0_512"]
+[sub_resource type="AtlasTexture" id="cornfield0_citizens_idle_full_315_0_491"]
 atlas = ExtResource("corn_field_citizens_as_cornfield0_idle_full")
-region = Rect2(0, 512, 192, 192)
+region = Rect2(0, 491, 192, 192)
 
 [sub_resource type="AtlasTexture" id="cornfield0_citizens_work_045_0_0"]
 atlas = ExtResource("corn_field_citizens_as_cornfield0_work")
@@ -144,7 +144,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("cornfield0_citizens_idle_full_135_0_128")
+"texture": SubResource("cornfield0_citizens_idle_full_135_0_107")
 }],
 "loop": true,
 "name": &"cornfield0.citizens.idle_full.135",
@@ -152,7 +152,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("cornfield0_citizens_idle_full_225_0_320")
+"texture": SubResource("cornfield0_citizens_idle_full_225_0_299")
 }],
 "loop": true,
 "name": &"cornfield0.citizens.idle_full.225",
@@ -160,7 +160,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("cornfield0_citizens_idle_full_315_0_512")
+"texture": SubResource("cornfield0_citizens_idle_full_315_0_491")
 }],
 "loop": true,
 "name": &"cornfield0.citizens.idle_full.315",
