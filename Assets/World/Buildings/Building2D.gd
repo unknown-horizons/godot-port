@@ -124,10 +124,12 @@ func unload_resource(resource: StringName, amount: int) -> void:
   if resource == ResourceConfig.Resources.NONE:
     return
   var storage_component: StorageComponent = self.get_first_node_of_type(StorageComponent)
-  if storage_component == null:
+  if storage_component == null or self.is_inside_tree() == false:
     return
   
-  await self.sleep(storage_component.load_or_unload_time)
+  var successful := await self.sleep(storage_component.load_or_unload_time)
+  if successful == false:
+    return
   var amount_in_storage: int = storage_component.get_storage_item_amount(resource)
   storage_component.set_storage_item_amount(resource, amount_in_storage + amount)
 
@@ -138,7 +140,9 @@ func load_resource(resource: StringName, amount: int) -> int:
   if storage_component == null:
     return 0
 
-  await self.sleep(storage_component.load_or_unload_time)
+  var successful := await self.sleep(storage_component.load_or_unload_time)
+  if successful == false:
+    return 0
   var available_amount: int = storage_component.get_storage_item_amount(resource)
   var amount_to_load: int = min(amount, available_amount)
   storage_component.set_storage_item_amount(resource, available_amount - amount_to_load)

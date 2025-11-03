@@ -24,6 +24,7 @@ enum Orientations {
   _315 = 315
 }
 
+signal cancel_sleep
 
 func binary_insert(sorted_list: Array, value, key: Callable = func(a, b): return a < b):
   var low := 0
@@ -65,7 +66,12 @@ func handle_context_input(event: InputEvent):
 func selected(_is_now_selected: bool) -> void:
   pass
 
-
-## ends after a given amount of time
-func sleep(time: float) -> void:
-  await self.get_tree().create_timer(time).timeout
+## ends after a given amount of time, returns true if successful
+func sleep(time: float) -> bool:
+  if self.is_inside_tree() == false:
+    return false
+  var timer := self.get_tree().create_timer(time)
+  self.cancel_sleep.connect(timer.timeout.emit)
+  await timer.timeout
+  self.cancel_sleep.disconnect(timer.timeout.emit)
+  return timer.time_left == 0

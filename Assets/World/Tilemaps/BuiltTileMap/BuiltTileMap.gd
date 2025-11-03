@@ -85,11 +85,47 @@ func register_building(building: Building2D, clear_origin: bool) -> void:
   for building_built_on: Building2D in buildings_built_on:
     building_built_on.position = Vector2i.ZERO
     building_built_on.visible = false
-    building_built_on.reparent(building)
+    building_built_on.reparent(building, true)
 
   building.paused = false
   # handle notifications
   buildings_built.emit(building, new_building_cells)
+
+func demolish(cell: Vector2i) -> void:
+  # demolish building if any
+  var building: Building2D = self.building_position_to_building.get(cell, null)
+  if building != null:
+    var road_building_pathfindng: PathFindingManagement2D = %GameContextManager.get_node("BuildingRoadContext").road_building_pathfindng
+    var building_oriented_cells = building.get_oriented_cells()
+    var building_starting_cell: Vector2i = self.local_to_map(building.position)
+    for row in building_oriented_cells:
+      for dv: Vector2i in row:
+        var building_cell: Vector2i = building_starting_cell + dv
+        self.building_position_to_building.erase(building_cell)
+        road_building_pathfindng.set_point_solid(building_cell, false)
+
+    # put back all other buildings that were built on top of(deposits)
+    var buildings_built_on := building.get_all_nodes_of_type(Building2D)
+    for building_built_on: Building2D in buildings_built_on:
+      building_built_on.reparent(self, true)
+      building_built_on.visible = true
+      self.register_building(building_built_on, true)
+    building.paused = true # stop all action
+    building.cancel_sleep.emit() # notify the building to stop(timers)
+    building.queue_free()
+  
+  self.set_cell(cell, -1) # delete cell
+  # upadate road
+  for neighbor in self.get_surrounding_cells(cell):
+    var tile_data: TileData = self.get_cell_tile_data(neighbor)
+    if tile_data != null:
+      var terrain_set: int = tile_data.terrain_set
+      var terrain: int = tile_data.terrain
+      if terrain == -1:
+        continue
+      if self.tile_set.get_terrain_name(terrain_set, terrain) == "DirtRoad":
+        self.set_cell(neighbor, -1)
+        self.set_cells_terrain_connect([neighbor], terrain_set, terrain, false)
 
 # debug layer:
 @onready var tooltip_label: Label = self.get_node("/root/Main/DebugCanvasLayer/Control/BuiltTileMapLayerInfo") if not Engine.is_editor_hint() else null

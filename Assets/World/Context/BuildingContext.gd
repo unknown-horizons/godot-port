@@ -3,6 +3,8 @@ extends BaseContext
 
 class_name BuildingContext
 
+@export var default_cursor: Texture2D = preload("res://Assets/UI/Images/Cursors/Cursor.png")
+
 @onready var object_selected_context: ObjectSelectedContext = self.get_node("/root/Main/GameContextManager/ObjectSelectedContext") if not Engine.is_editor_hint() else null
 @onready var terrain_tilemap: TerrainTileMap = %TerrainTileMap
 @onready var built_tilemap: BuiltTileMap = %BuiltTileMap
@@ -43,6 +45,9 @@ var building_oriented_size: Vector2i
 var reference_object: WorldThing2D = null
 
 var last_highlighted_building_position: Vector2i
+
+func context_entered() -> void:
+  Input.set_custom_mouse_cursor(self.default_cursor)
 
 # clear the highlights
 func context_exited() -> void:

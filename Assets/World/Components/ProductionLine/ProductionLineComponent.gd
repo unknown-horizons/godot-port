@@ -95,7 +95,7 @@ func update_action_set():
         self.action_state_changed.emit(ActionStates.WORK)
 
 func notify_resource_produced():
-  if self.show_tooltip == false:
+  if self.show_tooltip == false or self.is_inside_tree() == false:
     return
   if len(produces.keys()) <= 0: # check that there is an output product
     return

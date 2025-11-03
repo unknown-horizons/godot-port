@@ -12,8 +12,8 @@ script = ExtResource("1_v6lx7")
 baseclass = "ship.FisherShip"
 radius = 5
 velocity = 12.0
+show_while_loading = true
 "Collector Type" = "FISH_COLLECTOR"
-"Show Loading" = true
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

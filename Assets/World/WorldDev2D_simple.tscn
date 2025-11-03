@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=4 uid="uid://cmjommteas4c6"]
+[gd_scene load_steps=16 format=4 uid="uid://cmjommteas4c6"]
 
 [ext_resource type="Script" uid="uid://cd8ykokfidoiu" path="res://Assets/World/Context/GameContextManager.gd" id="1_xnban"]
 [ext_resource type="Script" uid="uid://g6b3whtc1m5y" path="res://Assets/World/Context/BuildingContext.gd" id="2_agjt6"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://dssx33us0cxb2" path="res://Assets/World/Context/SelectionContext.gd" id="4_vno37"]
 [ext_resource type="PackedScene" uid="uid://cm6yol3av2mwf" path="res://Assets/World/Context/SelectionBox.tscn" id="5_ea62f"]
 [ext_resource type="Script" uid="uid://t7mhuwh0jtpl" path="res://Assets/World/Context/ObjectSelectedContext.gd" id="6_q7svf"]
+[ext_resource type="Script" uid="uid://dc78c1kk0g54y" path="res://Assets/World/Context/DemolitionContext.gd" id="7_tc8s8"]
 [ext_resource type="Script" uid="uid://c46addh5upage" path="res://Assets/World/Tilemaps/Pathfinding.gd" id="7_ul0qd"]
 [ext_resource type="TileSet" uid="uid://bqskejujqsgde" path="res://Assets/World/Tilemaps/Terrain/TerrainTileSet.tres" id="8_ltrrt"]
 [ext_resource type="Script" uid="uid://bpjptkikp1330" path="res://Assets/World/Tilemaps/Terrain/TerrainTileMap.gd" id="9_6s6ok"]
@@ -37,6 +38,9 @@ visible = false
 
 [node name="ObjectSelectedContext" type="Node" parent="GameContextManager"]
 script = ExtResource("6_q7svf")
+
+[node name="DemolitionContext" type="Node" parent="GameContextManager"]
+script = ExtResource("7_tc8s8")
 
 [node name="Pathfinding" type="Node" parent="."]
 unique_name_in_owner = true
