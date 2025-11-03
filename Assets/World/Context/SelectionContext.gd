@@ -3,12 +3,17 @@ extends BaseContext
 
 class_name SelectionContext
 
+@export var default_cursor: Texture2D = preload("res://Assets/UI/Images/Cursors/Cursor.png")
+
 @onready var built_tilemap: BuiltTileMap = %BuiltTileMap
 @onready var selection_box: SelectionBox = self.get_node("CanvasLayer/SelectionBox")
 @onready var object_selected_context: ObjectSelectedContext = self.get_parent().get_node("ObjectSelectedContext")
 
 var is_selecting: bool = false
 var selection_rect: Rect2 = Rect2()
+
+func context_entered() -> void:
+  Input.set_custom_mouse_cursor(self.default_cursor)
 
 func _unhandled_input(event):
   if self.is_active or object_selected_context.is_active:

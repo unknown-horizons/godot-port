@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=4 uid="uid://caaq1eo2tha3s"]
+[gd_scene load_steps=28 format=4 uid="uid://caaq1eo2tha3s"]
 
 [ext_resource type="Script" uid="uid://cd8ykokfidoiu" path="res://Assets/World/Context/GameContextManager.gd" id="1_4ru01"]
 [ext_resource type="Script" uid="uid://c46addh5upage" path="res://Assets/World/Tilemaps/Pathfinding.gd" id="1_fhei5"]
@@ -11,6 +11,7 @@
 [ext_resource type="Script" uid="uid://2jwdai8tqa12" path="res://Assets/World/MainCamera.gd" id="4_ryeen"]
 [ext_resource type="Script" uid="uid://dssx33us0cxb2" path="res://Assets/World/Context/SelectionContext.gd" id="8_afdhk"]
 [ext_resource type="Script" uid="uid://bfb7rha8tel6v" path="res://Assets/World/Tilemaps/BuiltTileMap/BuiltTileMap.gd" id="8_epgui"]
+[ext_resource type="Script" uid="uid://dc78c1kk0g54y" path="res://Assets/World/Context/DemolitionContext.gd" id="8_ol6sr"]
 [ext_resource type="PackedScene" uid="uid://cm6yol3av2mwf" path="res://Assets/World/Context/SelectionBox.tscn" id="9_xd2e2"]
 [ext_resource type="Script" uid="uid://t7mhuwh0jtpl" path="res://Assets/World/Context/ObjectSelectedContext.gd" id="10_c4elk"]
 [ext_resource type="PackedScene" uid="uid://bka87rk8lk7kb" path="res://Assets/Player/PlayerHUD2.tscn" id="11_2r8bi"]
@@ -50,6 +51,9 @@ visible = false
 
 [node name="ObjectSelectedContext" type="Node" parent="GameContextManager"]
 script = ExtResource("10_c4elk")
+
+[node name="DemolitionContext" type="Node" parent="GameContextManager"]
+script = ExtResource("8_ol6sr")
 
 [node name="TreasuryTimer" type="Timer" parent="."]
 unique_name_in_owner = true

@@ -106,6 +106,8 @@ func move(path: Array[Vector2i]) -> void:
     if self.paused:
       await self.unpaused
     for cell in path.slice(1):
+      if self.is_inside_tree() == false:
+        break # break if not in tree(game exited)
       var new_local_position: Vector2 = self.pathfinding.tile_map_layer.map_to_local(cell)
       var move_vec: Vector2 = new_local_position - object_to_be_moved.global_position
 

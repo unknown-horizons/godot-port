@@ -4,8 +4,12 @@ extends BaseContext
 class_name ObjectSelectedContext
 
 @export var empty_tab_widget_name: String = "EmptyPanelContainer"
+@export var default_cursor: Texture2D = preload("res://Assets/UI/Images/Cursors/Cursor.png")
 
 var selected_objects: Array[Selectable] = []
+
+func context_entered() -> void:
+  Input.set_custom_mouse_cursor(self.default_cursor)
 
 func _unhandled_input(event):
   if self.is_active:
@@ -70,3 +74,4 @@ func context_exited():
   for object in selected_objects:
     object.is_selected = false
   selected_objects = []
+  set_tab_widget()

@@ -42,8 +42,8 @@ offset_left = 6.748
 offset_top = -29.067
 offset_right = 34.748
 offset_bottom = -1.067
+tooltip_text = "Game Speed Up"
 input_action_name = ""
-input_action_meta = {}
 
 [node name="GameSpeedLabel" parent="GameSpeedControls" instance=ExtResource("3_nhb3k")]
 layout_mode = 0
@@ -65,11 +65,11 @@ font_style = 9
 [node name="GameSpeedDownButton" parent="GameSpeedControls" instance=ExtResource("6_wrt6l")]
 layout_mode = 1
 offset_left = -34.056
-offset_top = 1.801
-offset_right = -6.056
-offset_bottom = 29.801
+offset_top = 1.8010006
+offset_right = -6.0559998
+offset_bottom = 29.801003
+tooltip_text = "Game Speed Down"
 input_action_name = ""
-input_action_meta = {}
 
 [node name="ZoomControls" type="Control" parent="."]
 anchors_preset = 0
@@ -97,7 +97,6 @@ grow_horizontal = 1
 grow_vertical = 1
 size_flags_horizontal = 6
 input_action_name = ""
-input_action_meta = {}
 
 [node name="ZoomOutButton" parent="ZoomControls" instance=ExtResource("8_pa4xb")]
 layout_mode = 1
@@ -114,7 +113,6 @@ grow_horizontal = 0
 grow_vertical = 0
 size_flags_horizontal = 6
 input_action_name = ""
-input_action_meta = {}
 
 [node name="RotateControls" type="Control" parent="."]
 layout_mode = 1
@@ -145,7 +143,6 @@ grow_horizontal = 1
 grow_vertical = 1
 size_flags_horizontal = 6
 input_action_name = ""
-input_action_meta = {}
 
 [node name="RotateRightButton" parent="RotateControls" instance=ExtResource("10_ynpmq")]
 layout_mode = 1
@@ -162,7 +159,6 @@ grow_horizontal = 0
 grow_vertical = 1
 size_flags_horizontal = 6
 input_action_name = ""
-input_action_meta = {}
 
 [node name="TearButton" parent="." instance=ExtResource("11_xlhqk")]
 layout_mode = 1
@@ -171,8 +167,7 @@ offset_top = 43.0
 offset_right = -60.0
 offset_bottom = 69.0
 size_flags_horizontal = 6
-input_action_name = ""
-input_action_meta = {}
+input_action_name = "toggle_demolish"
 
 [node name="LogbookButton" parent="." instance=ExtResource("12_ciegf")]
 layout_mode = 1
@@ -182,7 +177,6 @@ offset_right = -27.036
 offset_bottom = 96.343
 size_flags_horizontal = 6
 input_action_name = ""
-input_action_meta = {}
 
 [node name="BuildMenuButton" parent="." instance=ExtResource("13_ki2t4")]
 layout_mode = 1
@@ -200,7 +194,6 @@ offset_right = 51.0
 offset_bottom = 95.501
 size_flags_horizontal = 6
 input_action_name = "toggle_diplomacy_menu"
-input_action_meta = {}
 
 [node name="GameMenuButton" parent="." instance=ExtResource("15_aw6d8")]
 layout_mode = 1
@@ -210,4 +203,3 @@ offset_right = 92.0
 offset_bottom = 72.0
 size_flags_horizontal = 6
 input_action_name = ""
-input_action_meta = {}

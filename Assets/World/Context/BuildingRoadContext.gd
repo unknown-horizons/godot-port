@@ -2,6 +2,8 @@ extends BaseContext
 
 class_name BuildingRoadContext
 
+@export var default_cursor: Texture2D = preload("res://Assets/UI/Images/Cursors/Cursor.png")
+
 @onready var terrain_tilemap: TerrainTileMap = %TerrainTileMap
 @onready var built_tilemap: BuiltTileMap = %BuiltTileMap
 @onready var highlighter: TileMapLayer = %BuildRoadHighlighter
@@ -19,6 +21,9 @@ func _ready():
   var land = terrain_points["Grass"].keys().duplicate()
   land.append_array(terrain_points["Beach"].keys().duplicate())
   road_building_pathfindng.set_points_passable(land, true)
+
+func context_entered() -> void:
+  Input.set_custom_mouse_cursor(self.default_cursor)
 
 func context_exited():
   self.highlighter.clear()
