@@ -31,7 +31,9 @@ line_name = "FISH"
 produces = Dictionary[StringName, int]({
 &"FISH": 1
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({

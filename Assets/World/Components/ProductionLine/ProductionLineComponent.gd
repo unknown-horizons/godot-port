@@ -23,7 +23,14 @@ class_name ProductionLineComponent
 @export var produces_multiplier: int = 1: set = set_produces_multiplier
 @export_group("")
 
-@export var show_tooltip: bool = true
+@export var show_resource_produced_tooltip: bool = true
+@export var show_resource_deficit_tooltip: bool = true
+@export var show_inventory_full_tooltip: bool = true
+
+## The tooltip that shows that there are not enough resources to produce
+@onready var resource_deficit_tooltip: AnimatedSprite2D = %ResourceDeficitTooltip
+## The tooltip that shows that the inventory is full
+@onready var inventory_full_tooltip: AnimatedSprite2D = %InventoryFullTooltip
 
 @onready var item_produced_tooltip: Control = self.get_node("ItemProducedTooltip")
 @onready var resource_image_placeholder: TextureRect = self.get_node("ItemProducedTooltip/Background/HBoxContainer/ItemImagePlaceholder/ItemImage"):
@@ -81,6 +88,10 @@ func set_components(components: Array[BaseComponent]):
       self.action_set = action_set
   if self.paused:
     await self.unpaused
+  # set the tooltip positions
+  var building_local_top := self.get_local_building_height()
+  self.resource_deficit_tooltip.position = building_local_top
+  self.inventory_full_tooltip.position = building_local_top
   production_stage = ProductionStages.START
 
 
@@ -95,7 +106,7 @@ func update_action_set():
         self.action_state_changed.emit(ActionStates.WORK)
 
 func notify_resource_produced():
-  if self.show_tooltip == false or self.is_inside_tree() == false:
+  if self.show_resource_produced_tooltip == false or self.is_inside_tree() == false:
     return
   if len(produces.keys()) <= 0: # check that there is an output product
     return
@@ -112,7 +123,41 @@ func notify_resource_produced():
   item_produced_tooltip.visible = false
   item_produced_tooltip.position = starting_tooltip_position
 
-func has_output_space():
+## updates the resource storage tooltips[br]
+## [member ProductionLineComponent.resource_deficit_tooltip] depending on the has_enough_resources
+## and [member ProductionLineComponent.inventory_full_tooltip] depending on the has_output_space
+func update_resource_storage_tooltips(has_enough_resources: bool, has_output_space: bool):
+  if self.show_inventory_full_tooltip:
+    if has_output_space == false: # show full output
+      if self.inventory_full_tooltip.visible == false:
+        self.inventory_full_tooltip.visible = true
+        self.inventory_full_tooltip.play("inventory_full")
+    elif self.inventory_full_tooltip.visible == true:
+      self.inventory_full_tooltip.visible = false
+      self.inventory_full_tooltip.stop()
+
+  if self.show_resource_deficit_tooltip:
+    if has_enough_resources == false and has_output_space == true: # show resource deficit
+      if self.resource_deficit_tooltip.visible == false:
+        self.resource_deficit_tooltip.visible = true
+        self.resource_deficit_tooltip.play("resource_deficit")
+    elif self.resource_deficit_tooltip.visible == true:
+      self.resource_deficit_tooltip.visible = false
+      self.resource_deficit_tooltip.stop()
+
+## returns the local top position of the building
+func get_local_building_height() -> Vector2:
+  var building_height: Vector2 = self.global_position
+  var parent_building: Building2D = self.get_parent() as Building2D
+  if parent_building != null:
+    var built_tilemap: BuiltTileMap = self.get_node("/root/Main/BuiltTileMap")
+    # calculate the top position
+    var oriented_size: Vector2i = parent_building.get_oriented_size()
+    var top_cell_dy := 1 - oriented_size.x
+    building_height = Vector2i(0, int(built_tilemap.tile_set.tile_size.y * (top_cell_dy - 0.5)))
+  return building_height
+
+func has_output_space() -> bool:
   for produces in self.produces.keys():
     for storage_component in self.storage_components:
       var current_amount := storage_component.get_storage_item_amount(produces)
@@ -124,9 +169,9 @@ func has_output_space():
 func has_enough_resources() -> bool:
   if self.storage_components == []: # if there is no storage then no resources
     return false
-  for resource in self.consumes:
+  for resource in self.consumes.keys():
     var available_resource_amount: int = 0
-    var needed_resource_amount: int = consumes[resource] * self.consumes_multiplier
+    var needed_resource_amount: int = self.consumes[resource] * self.consumes_multiplier
     for storage_component in self.storage_components:
       available_resource_amount += storage_component.get_storage_item_amount(resource)
     if available_resource_amount < needed_resource_amount:
@@ -136,8 +181,8 @@ func has_enough_resources() -> bool:
 func spend_resources():
   if self.storage_components == []: # if there is no storage then no resources
     return
-  for resource in consumes:
-    var needed_resource_amount: int = consumes[resource]
+  for resource in self.consumes.keys():
+    var needed_resource_amount: int = self.consumes[resource]
     var storage_index: int = 0
     while needed_resource_amount > 0:
       if storage_index >= len(self.storage_components):
@@ -161,7 +206,13 @@ func production_loop():
 
 func wait_for_resources():
   production_stage = ProductionStages.WAITING_FOR_RESOURCES
-  while has_enough_resources() == false or self.has_output_space() == false:
+  while true:
+    var has_enough_resources := self.has_enough_resources()
+    var has_output_space := self.has_output_space()
+    self.update_resource_storage_tooltips(has_enough_resources, has_output_space)
+    if has_enough_resources and has_output_space:
+      break # if all good for production, then break
+
     await GameStats.game_stats_resource.resources_changed
     if self.paused:
       await self.unpaused

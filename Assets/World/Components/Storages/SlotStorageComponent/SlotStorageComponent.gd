@@ -35,7 +35,7 @@ func get_storage_items() -> Array[StringName]:
   return self.max_capacity.keys()
 
 func get_max_capacity(resource: StringName) -> int:
-  return self.max_capacity.get(resource, 1)
+  return self.max_capacity.get(resource, 0)
 
 ## Used to set the storage amount of a specific resource.[br]
 ## The resource key will be created if it does not exist in the storage.[br]

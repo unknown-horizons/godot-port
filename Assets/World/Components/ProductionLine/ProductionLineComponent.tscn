@@ -1,8 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://bo27kwd5m1jmc"]
+[gd_scene load_steps=7 format=3 uid="uid://bo27kwd5m1jmc"]
 
 [ext_resource type="Script" uid="uid://cpdls1hcfybhm" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.gd" id="1_h1x8g"]
 [ext_resource type="Texture2D" uid="uid://dsgbcjg1tplnf" path="res://Assets/UI/Images/Background/produced_notification.png" id="2_16oi7"]
 [ext_resource type="Texture2D" uid="uid://dt1ef2m6h6d7x" path="res://Assets/UI/Icons/Resources/32/placeholder.png" id="3_kr37i"]
+[ext_resource type="SpriteFrames" uid="uid://bd7tk52aa4hfg" path="res://Assets/UI/Icons/StatusIcons/ResourceDeficitAnimation.tres" id="4_8vudw"]
+[ext_resource type="SpriteFrames" uid="uid://cbmlobgad3csq" path="res://Assets/UI/Icons/StatusIcons/InventoryFullAnimation.tres" id="5_fc5tl"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6qvbg"]
 texture = ExtResource("2_16oi7")
@@ -12,6 +14,7 @@ expand_margin_right = 4.0
 expand_margin_bottom = 4.0
 
 [node name="ProductionLineComponent" type="Node2D"]
+z_index = 1
 script = ExtResource("1_h1x8g")
 
 [node name="ItemProducedTooltip" type="Control" parent="."]
@@ -64,3 +67,17 @@ theme_override_font_sizes/font_size = 25
 text = "0"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="ResourceDeficitTooltip" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
+visible = false
+sprite_frames = ExtResource("4_8vudw")
+animation = &"resource_deficit"
+offset = Vector2(0, -32)
+
+[node name="InventoryFullTooltip" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
+visible = false
+sprite_frames = ExtResource("5_fc5tl")
+animation = &"inventory_full"
+offset = Vector2(0, -32)
