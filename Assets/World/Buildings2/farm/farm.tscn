@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbfarmtscn000"]
+[gd_scene load_steps=10 format=3 uid="uid://cbfarmtscn000"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -41,6 +41,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"WOOL": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="ProductionLineComponent_TOBACCO_LEAVES" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "TOBACCO_LEAVES"
@@ -50,6 +51,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"TOBACCO_LEAVES": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="ProductionLineComponent_CATTLE_SLAUGHTER" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "CATTLE_SLAUGHTER"
@@ -59,6 +61,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"CATTLE_SLAUGHTER": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="ProductionLineComponent_PIGS_SLAUGHTER" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "PIGS_SLAUGHTER"
@@ -68,6 +71,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"PIGS_SLAUGHTER": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="ProductionLineComponent_POTATOES" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "POTATOES"
@@ -77,6 +81,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"FOOD": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="ProductionLineComponent_SUGAR" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "SUGAR"
@@ -86,6 +91,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"SUGAR": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="ProductionLineComponent_MEDICAL_HERBS" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "MEDICAL_HERBS"
@@ -95,6 +101,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"MEDICAL_HERBS": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="ProductionLineComponent_CORN" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "CORN"
@@ -104,6 +111,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"CORN": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="ProductionLineComponent_SPICES" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "SPICES"
@@ -113,6 +121,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"SPICES": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="ProductionLineComponent_COCOA" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "COCOA"
@@ -122,6 +131,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"COCOA": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="ProductionLineComponent_GRAPES" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "GRAPES"
@@ -131,6 +141,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"GRAPES": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="ProductionLineComponent_HONEYCOMBS" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "HONEYCOMBS"
@@ -140,6 +151,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HONEYCOMBS": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="ProductionLineComponent_HOPS" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "HOPS"
@@ -149,6 +161,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HOPS": 1
 })
+show_resource_deficit_tooltip = false
 
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
@@ -185,5 +198,6 @@ max_capacity = Dictionary[StringName, int]({
 [node name="field_collector_1" parent="." instance=ExtResource("7_field_collector")]
 
 [node name="BuildingCollector" parent="." instance=ExtResource("9_building_collector_component")]
+
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

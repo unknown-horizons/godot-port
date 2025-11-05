@@ -41,6 +41,7 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"COMMUNITY": 10
 })
+show_resource_deficit_tooltip = false
 
 [node name="SettlementStorageComponent" parent="." instance=ExtResource("5_settlement_storage_component")]
 

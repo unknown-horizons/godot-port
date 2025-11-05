@@ -45,7 +45,9 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 1
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="ProductionLineComponent_72" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "72"
@@ -55,7 +57,9 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 5
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="ProductionLineComponent_21" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "21"
@@ -65,7 +69,9 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 3
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="ProductionLineComponent_71" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "71"
@@ -75,7 +81,9 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 15
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="ProductionLineComponent_19" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "19"
@@ -85,7 +93,9 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 13
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="ProductionLineComponent_43" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "43"
@@ -95,7 +105,9 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 12
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="ProductionLineComponent_26" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "26"
@@ -105,7 +117,9 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 3
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="ProductionLineComponent_44" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "44"
@@ -115,7 +129,9 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 5
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="ProductionLineComponent_20" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "20"
@@ -125,7 +141,9 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 5
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="ProductionLineComponent_41" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "41"
@@ -135,7 +153,9 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 4
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="ProductionLineComponent_69" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "69"
@@ -145,7 +165,9 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 4
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="ProductionLineComponent_70" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "70"
@@ -155,7 +177,9 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 5
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="ProductionLineComponent_HYGIENE" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "HYGIENE"
@@ -165,14 +189,18 @@ consumes = Dictionary[StringName, int]({
 produces = Dictionary[StringName, int]({
 &"HAPPINESS": 5
 })
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="HappinessConsumer" parent="." instance=ExtResource("6_production_line_component")]
 consumes = Dictionary[StringName, int]({
 &"HAPPINESS": 1
 })
 production_time = 1.0
-show_tooltip = false
+show_resource_produced_tooltip = false
+show_resource_deficit_tooltip = false
+show_inventory_full_tooltip = false
 
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({

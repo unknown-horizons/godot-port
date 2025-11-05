@@ -84,6 +84,7 @@ func update_progress_bar():
 
 ## Updates the production chain inputs and outputs
 func set_production_line(production_line: ProductionLineComponent, building: Building2D):
+  self.storages = []
   for storage: StorageComponent in building.get_all_nodes_of_type(StorageComponent):
     self.storages.append(storage)
   self.production_line = production_line
