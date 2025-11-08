@@ -18,10 +18,11 @@ size_flags_vertical = 4
 theme_override_styles/panel = SubResource("StyleBoxTexture_p5r0b")
 script = ExtResource("2_1urha")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
 layout_mode = 2
-theme_override_constants/separation = 0
+horizontal_scroll_mode = 0
 
-[node name="GridContainer" type="GridContainer" parent="VBoxContainer"]
+[node name="ResourceSelectionGrid" type="GridContainer" parent="ScrollContainer"]
+unique_name_in_owner = true
 layout_mode = 2
 columns = 4
