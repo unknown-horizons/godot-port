@@ -2,7 +2,7 @@ extends PanelContainer
 
 class_name ResourceSelection
 
-@onready var grid_container: GridContainer = self.get_node("VBoxContainer/GridContainer")
+@onready var resource_selection_grid: GridContainer = %ResourceSelectionGrid
 
 var inventory_slot_scene: PackedScene = preload("res://Assets/UI/BasicControls/InventorySlot.tscn")
 
@@ -17,7 +17,7 @@ func add_slots():
     slot.resource_type = resource
     slot.resource_amount = GameStats.game_stats_resource.resources[resource]
     slot.pressed.connect(select_resource_button_pressed.bind(slot))
-    self.grid_container.add_child(slot)
+    self.resource_selection_grid.add_child(slot)
 
 func select_resource_button_pressed(slot: InventorySlot):
   resource_selected.emit(slot.resource_type)

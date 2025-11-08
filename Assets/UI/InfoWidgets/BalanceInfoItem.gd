@@ -1,7 +1,7 @@
 @tool
 extends HBoxContainer
 
-class_name BalanceInfoButton
+class_name BalanceInfoItem
 
 enum BalanceType {
   EXPENSE,

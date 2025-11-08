@@ -55,8 +55,19 @@ func _ready() -> void:
     self.material = self.material.duplicate()
 
   if not self.tooltip_text:
+    if self.name.to_lower().begins_with("build"): # if a build button
+      # get the building of this button
+      var building_str := self.name.to_snake_case().to_upper().trim_prefix("BUILD_").trim_suffix("_BUTTON")
+      var building: StringName = BuildingConfig.Buildings.get(building_str, &"")
+      # get the resources cost to show, use filter to make in order
+      var cost: Dictionary = BuildingConfig.building_to_cost.get(building, {})
+      var resources_required: Array[StringName] = ["GOLD", "TOOLS", "BOARDS", "BRICKS"]
+      resources_required = resources_required.filter(func(resource: StringName): return cost.get(resource, 0) > 0)
+      # add to tooltip text
+      for resource: StringName in resources_required:
+        self.tooltip_text += "%s: %s\n" % [resource, cost[resource]]
     # self.tooltip_text = self.name.to_snake_case().replace("_", " ").trim_suffix(" button")
-    self.tooltip_text = self.name.capitalize().trim_suffix(" Button")
+    self.tooltip_text += self.name.capitalize().trim_suffix(" Button")
 
   if texture_normal:
     if texture_click_mask:

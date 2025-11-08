@@ -1,12 +1,19 @@
 @tool
 extends VBoxContainer
 
-@onready var gold_label: LabelEx = $TextureButton/GoldLabel
-@onready var expenses_balance_info_item: BalanceInfoButton = $VBoxContainer/Details/MarginContainer/VBoxContainer/ExpensesBalanceInfoItem
-@onready var revenue_balance_info_item: BalanceInfoButton = $VBoxContainer/Details/MarginContainer/VBoxContainer/RevenueBalanceInfoItem
-@onready var buy_balance_info_item: BalanceInfoButton = $VBoxContainer/Details/MarginContainer/VBoxContainer/BuyBalanceInfoItem
-@onready var sell_balance_info_item: BalanceInfoButton = $VBoxContainer/Details/MarginContainer/VBoxContainer/SellBalanceInfoItem
-@onready var total_balance_per_second: BalanceInfoButton = $VBoxContainer/TextureRect3/Balance
+class_name BalanceInfoButton
+
+@onready var overlays_tab_container: TabContainer = %Overlays
+# @onready var finance_overlay: MarginContainer = %FinanceOverlay
+@onready var building_cost_label: LabelEx = %BuildingCostLabel
+
+@onready var gold_label: LabelEx = %GoldLabel
+@onready var expenses_balance_info_item: BalanceInfoItem = %ExpensesBalanceInfoItem
+@onready var revenue_balance_info_item: BalanceInfoItem = %RevenueBalanceInfoItem
+@onready var buy_balance_info_item: BalanceInfoItem = %BuyBalanceInfoItem
+@onready var sell_balance_info_item: BalanceInfoItem = %SellBalanceInfoItem
+@onready var total_balance_per_second: BalanceInfoItem = %Balance
+@onready var details = %ShowDetails
 
 @export var show_details: bool:
   set(value):
@@ -16,10 +23,17 @@ extends VBoxContainer
     show_details = value
     details.visible = show_details
 
-@onready var details = $VBoxContainer/Details
 
 func _ready() -> void:
   show_details = details.visible
+
+func show_building_cost_overlay(building: StringName) -> void:
+  self.overlays_tab_container.current_tab = self.overlays_tab_container.get_tab_idx_from_control(self.building_cost_label)
+  var gold_cost: int = BuildingConfig.building_to_cost.get(building, {}).get(ResourceConfig.Resources.GOLD, 0)
+  self.building_cost_label.text = "-%s" % gold_cost
+
+func show_normal_overlay() -> void:
+  self.overlays_tab_container.current_tab = 0 # set default overlay
 
 func _on_TextureButton_pressed() -> void:
   self.show_details = !show_details

@@ -29,8 +29,8 @@ func _unhandled_input(event: InputEvent) -> void:
       if event.button_index == MOUSE_BUTTON_LEFT and event.pressed == true:
         self.demolish(mouse_cell)
       
-      if event.button_index == MOUSE_BUTTON_RIGHT and event.pressed == true:
-        self.game_context_manager.current_context = null
+    if event.is_action_pressed("cancel"):
+      self.game_context_manager.current_context = null
 
     if event is InputEventMouseMotion:
       if mouse_cell != self.previous_mouse_cell:
