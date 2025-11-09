@@ -1,6 +1,6 @@
 extends AStarGrid2D
 
-class_name PathFindingManagement2D
+class_name Pathfinder
 
 var tile_map_layer: TileMapLayer
 var straight_first: bool

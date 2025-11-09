@@ -1,7 +1,7 @@
 [gd_scene load_steps=28 format=4 uid="uid://caaq1eo2tha3s"]
 
 [ext_resource type="Script" uid="uid://cd8ykokfidoiu" path="res://Assets/World/Context/GameContextManager.gd" id="1_4ru01"]
-[ext_resource type="Script" uid="uid://c46addh5upage" path="res://Assets/World/Tilemaps/Pathfinding.gd" id="1_fhei5"]
+[ext_resource type="Script" uid="uid://c46addh5upage" path="res://Assets/World/Tilemaps/PathfindingManager.gd" id="1_fhei5"]
 [ext_resource type="Script" uid="uid://bhlps7h4ktt4r" path="res://Assets/World/Main.gd" id="1_oixb2"]
 [ext_resource type="TileSet" uid="uid://bqskejujqsgde" path="res://Assets/World/Tilemaps/Terrain/TerrainTileSet.tres" id="1_v0l7j"]
 [ext_resource type="Script" uid="uid://bpjptkikp1330" path="res://Assets/World/Tilemaps/Terrain/TerrainTileMap.gd" id="2_gfcij"]
@@ -59,7 +59,7 @@ script = ExtResource("8_ol6sr")
 unique_name_in_owner = true
 autostart = true
 
-[node name="Pathfinding" type="Node" parent="."]
+[node name="PathfindingManager" type="Node" parent="."]
 unique_name_in_owner = true
 script = ExtResource("1_fhei5")
 

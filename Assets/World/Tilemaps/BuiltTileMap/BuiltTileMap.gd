@@ -50,7 +50,6 @@ func get_trees() -> Array[Vector2i]:
 func build(building_instance: Building2D) -> void:
   self.register_building(building_instance, true)
 
-
 func register_building(building: Building2D, clear_origin: bool) -> void:
   print("BuiltTileMap.register_building(%s[%s], %s)" % [building.id, building, clear_origin])
   # register building to building poses
@@ -59,7 +58,7 @@ func register_building(building: Building2D, clear_origin: bool) -> void:
   var new_building_cells: Array[Vector2i] = []
 
   var road_building_context = %GameContextManager.get_node("BuildingRoadContext")
-  var road_pathfinding = %Pathfinding.road_pathfinding
+  var road_pathfinding = %PathfindingManager.road_pathfinding
 
   var buildings_built_on: Array[Building2D] = []
   var cells: Array[Array] = building.get_oriented_cells()
@@ -88,17 +87,28 @@ func register_building(building: Building2D, clear_origin: bool) -> void:
     building_built_on.reparent(building, true)
 
   building.paused = false
+
+  self.invalidate_buildings_caches(new_building_cells)
   # handle notifications
   buildings_built.emit(building, new_building_cells)
 
+func invalidate_buildings_caches(cells: Array[Vector2i]) -> void:
+  for node in self.get_children():
+    var building: Building2D = node as Building2D
+    if building != null:
+      building.invalidate_cache(cells)
+
 func demolish(cell: Vector2i) -> void:
+  print("BuiltTileMap.demolish(%s)" % cell)
   # demolish building if any
+  var affected_cells: Array[Vector2i] = []
   var building: Building2D = self.building_position_to_building.get(cell, null)
   if building != null:
-    var road_building_pathfindng: PathFindingManagement2D = %GameContextManager.get_node("BuildingRoadContext").road_building_pathfindng
-    var building_oriented_cells = building.get_oriented_cells()
+    var road_building_pathfindng: Pathfinder = %GameContextManager.get_node("BuildingRoadContext").road_building_pathfindng
+    var building_oriented_cells := building.get_oriented_cells()
     var building_starting_cell: Vector2i = self.local_to_map(building.position)
-    for row in building_oriented_cells:
+    for row: Array[Vector2i] in building_oriented_cells:
+      affected_cells.append_array(row)
       for dv: Vector2i in row:
         var building_cell: Vector2i = building_starting_cell + dv
         self.building_position_to_building.erase(building_cell)
@@ -111,11 +121,10 @@ func demolish(cell: Vector2i) -> void:
       building_built_on.visible = true
       self.register_building(building_built_on, true)
     building.paused = true # stop all action
-    building.cancel_sleep.emit() # notify the building to stop(timers)
-    building.queue_free()
-  
+
+  affected_cells.append(cell)
   self.set_cell(cell, -1) # delete cell
-  # upadate road
+  # update road
   for neighbor in self.get_surrounding_cells(cell):
     var tile_data: TileData = self.get_cell_tile_data(neighbor)
     if tile_data != null:
@@ -126,6 +135,15 @@ func demolish(cell: Vector2i) -> void:
       if self.tile_set.get_terrain_name(terrain_set, terrain) == "DirtRoad":
         self.set_cell(neighbor, -1)
         self.set_cells_terrain_connect([neighbor], terrain_set, terrain, false)
+  
+  # invalidate buildings caches before resuming the building to be deleted
+  # this avoid the race condition when the other async loops (get_best_job) are resumed, but their caches still contain this building
+  self.invalidate_buildings_caches(affected_cells)
+
+  if building != null:
+    # other async loops (get_best_job) are resumed on `building.cancel_sleep`. That's ok, since current building are no longer registered in built_tilemap
+    building.cancel_sleep.emit() # notify the building to stop(timers)
+    building.queue_free()
 
 # debug layer:
 @onready var tooltip_label: Label = self.get_node("/root/Main/DebugCanvasLayer/Control/BuiltTileMapLayerInfo") if not Engine.is_editor_hint() else null
@@ -167,3 +185,69 @@ func get_cell_building_bitmask(cell: Vector2i) -> int:
     cell_bitmask |= int(building_on_tile_string_name == BuildingConfig.Buildings.MOUNTAIN)      << 6
 
   return cell_bitmask
+
+func get_buildings_in_radius(rect: Rect2i, radius: int) -> Array[Building2D]:
+  var buildings_in_radius: Dictionary[Building2D, bool] = {}
+
+  var affected_rect := rect.grow(radius) 
+  for y in range(affected_rect.position.y, affected_rect.end.y):
+    for x in range(affected_rect.position.x, affected_rect.end.x):
+      var cell := Vector2i(x, y)
+      if Utils.distance_to_rect_L1(cell, affected_rect) > radius:
+        continue
+      var building: Building2D = self.building_position_to_building.get(cell, null)
+      if building != null:
+        buildings_in_radius[building] = true
+
+  return buildings_in_radius.keys()
+
+func get_building_to_building_path(src_building: Building2D, dst_building: Building2D, pathfinding: Pathfinder) -> NavPath:
+  var path := self.get_rect_to_rect_path(src_building.oriented_rect, dst_building.oriented_rect, pathfinding)
+  print("  Path from %s to %s: %s" % [src_building.__repr__, dst_building.__repr__, path])
+  return path
+
+func get_rect_to_rect_path(src_rect: Rect2i, dst_rect: Rect2i, pathfinding: Pathfinder) -> NavPath:
+  var was_impassable_src := pathfinding.is_point_solid(src_rect.position) # We use only first point to remember if it was solid
+  if was_impassable_src:
+    pathfinding.fill_solid_region(src_rect, false) # the unit should be able to walk on src building
+
+  var was_impassable_dst := pathfinding.is_point_solid(dst_rect.position) # We use only first point to remember if it was solid
+  if was_impassable_dst:
+    pathfinding.fill_solid_region(dst_rect, false) # the unit should be able to walk on partner dst_building
+
+  # var merged = src_rect.merge(dst_rect)
+  # var pt_data = pathfinding.get_point_data_in_region(merged)
+  # var cnt_x = 0
+  # var s := ""
+  # print(merged)
+  # for pt in pt_data:
+  #   s += "x" if pt["solid"] else "o"
+  #   cnt_x += 1
+  #   if cnt_x % merged.size.x == 0:
+  #     print(s)
+  #     s = ""
+  var shortest_path: Array[Vector2i] = []
+  for src_y in range(src_rect.position.y, src_rect.end.y):
+    for src_x in range(src_rect.position.x, src_rect.end.x):
+      var src_cell = Vector2i(src_x, src_y)
+      for dst_y in range(dst_rect.position.y, dst_rect.end.y):
+        for dst_x in range(dst_rect.position.x, dst_rect.end.x):
+          var dst_cell = Vector2i(dst_x, dst_y)
+          var cur_path = pathfinding.get_id_path(src_cell, dst_cell)
+          if cur_path.size() > 0:
+            if shortest_path.size() == 0 or cur_path.size() < shortest_path.size():
+              shortest_path = cur_path
+  var res_path: NavPath = NavPath.new(shortest_path) if shortest_path.size() > 0 else null
+ 
+  if was_impassable_dst:
+    pathfinding.fill_solid_region(dst_rect, true) # make partner dst_building non-passible
+
+  if was_impassable_src:
+    pathfinding.fill_solid_region(src_rect, true) # make it non-passible
+ 
+  return res_path
+
+func get_cell_position_to_building_path(cell_position: Vector2i, dst_building: Building2D, pathfinding: Pathfinder) -> NavPath:
+  var path := self.get_rect_to_rect_path(Rect2i(cell_position, Vector2i.ONE), dst_building.oriented_rect, pathfinding)
+  print("  Path from %s to %s: %s" % [cell_position, dst_building.__repr__, path])
+  return path

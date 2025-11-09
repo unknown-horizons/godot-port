@@ -9,7 +9,7 @@ class_name BuildingRoadContext
 @onready var highlighter: TileMapLayer = %BuildRoadHighlighter
 
 ## pathfinding for road building
-@onready var road_building_pathfindng = PathFindingManagement2D.new(%BuiltTileMap)
+@onready var road_building_pathfindng = Pathfinder.new(%BuiltTileMap)
 
 var is_road_building_started: bool = false
 var road_start_tile_position: Vector2i = Vector2i(0,0)
@@ -92,7 +92,7 @@ func build_road() -> void:
       if lower_tile_data != null and lower_tile_data.get_custom_data(built_tilemap.is_tree):
         built_tilemap.set_cell(lower_tile_position, -1)
 
-    %Pathfinding.road_pathfinding.set_points_passable(path, true)
+    %PathfindingManager.road_pathfinding.set_points_passable(path, true)
     # handle notifications
     for building_node in built_tilemap.building_position_to_building.values():
       if building_node.has_method("road_built"):

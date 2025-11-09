@@ -46,8 +46,11 @@ func set_storage_item_amount(resource: StringName, new_amount: int) -> void:
   else:
     self.storage[resource] = new_amount
     push_warning("The resource %s does not have a max capacity" % resource)
-  if self.storage[resource] == 0:
-    self.storage.erase(resource)
   var storage_state := self.get_storage_state()
   self.storage_changed.emit(storage_state)
-  GameStats.game_stats_resource.resources_changed.emit()
+  if not self.get_tree().process_frame.is_connected(GameStats.game_stats_resource.resources_changed.emit):
+    self.get_tree().process_frame.connect(GameStats.game_stats_resource.resources_changed.emit, CONNECT_ONE_SHOT)
+  #GameStats.game_stats_resource.resources_changed.emit()
+
+func get_storage_item_amount(resource: StringName) -> int:
+  return self.storage.get(resource, 0)

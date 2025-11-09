@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://cbcornfieldts"]
+[gd_scene load_steps=8 format=3 uid="uid://cbcornfieldts"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
+[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_mxi5x"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
 [ext_resource type="SpriteFrames" uid="uid://cbcornfieldtr" path="res://Assets/World/Buildings2/corn_field/corn_field.tres" id="4_sprite_frames"]
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
@@ -18,6 +19,11 @@ game_name_per_tier = Dictionary[StringName, String]({
 size = Vector2i(3, 3)
 tooltip_text = "_ Yields corn. Needs a farm."
 tier = "TIER.CITIZENS"
+
+[node name="Selectable" parent="." instance=ExtResource("2_mxi5x")]
+type = "building"
+tabs = Array[String](["ProductionOverviewTab"])
+enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
 [node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
 max_health = 10

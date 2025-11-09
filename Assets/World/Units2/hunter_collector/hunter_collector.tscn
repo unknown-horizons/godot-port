@@ -9,7 +9,6 @@
 [node name="HunterCollector" type="Node2D"]
 script = ExtResource("1_script_gd")
 baseclass = "collectors.HunterCollector"
-radius = 5
 velocity = 12.0
 
 [node name="SizedStorageComponent" parent="." instance=ExtResource("5_sized_storage_component")]
