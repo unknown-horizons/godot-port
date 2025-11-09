@@ -4,19 +4,22 @@ extends WorldThing2D
 
 class_name Building2D
 
+var __repr__: String:
+  get():
+    return "Building2D(%s, %s)<%s>" % [id, self.get_name(), self.get_instance_id()]
 #@export var production_chain: ProductionChain
 
 @export var id: StringName = &"Building"
 @export var baseclass: String       # TODO: not used yet
 
 @export var game_name_per_tier: Dictionary[StringName, String]
-@export var radius: int             # TODO: not used yet
-@export var cost: int               # TODO: not used yet
+@export var radius: int             # radius collector uses if collector doesn't have overridden radius
+@export var cost: int               # cost per game_second
 @export var cost_inactive: int      # TODO: not used yet
-@export var size: Vector2i = Vector2i(1, 1)
+@export var size: Vector2i = Vector2i(1, 1) # building footpring in cells
 @export var inhabitants: int        # TODO: not used yet
 @export var tooltip_text: String    # TODO: not used yet
-@export var tier: String            # TODO: not used yet
+@export var tier: String            # TODO: not used yet. Supposed to be a tier when the building unlocks
 
 ## The terrain the building can be built on per tile: [code]Array[Array[int]][/code],
 ## Ex: [code][[0, 0],[0, 0]][/code],[br]
@@ -61,6 +64,9 @@ var game_name: String:
 
 signal unpaused
 
+var resources_produced: Dictionary[StringName, bool]
+var resources_consumed: Dictionary[StringName, bool]
+
 ## setter for current_tier
 func _on_tier_changed() -> void:
   var enum_tier: WorldTiers.TierEnum = WorldTiers.TierEnum.get(self.current_tier, WorldTiers.TierEnum.SAILORS)
@@ -73,6 +79,8 @@ func _on_tier_changed() -> void:
   var world_enum_tier: WorldTiers.TierEnum = WorldTiers.TierEnum.get(GameStats.game_stats_resource.world_tier, WorldTiers.TierEnum.SAILORS)
   if world_enum_tier < enum_tier:
     GameStats.game_stats_resource.world_tier = self.current_tier
+
+  self.refresh_resources_produced_consumed()
 
 ## Changes current_tier if needed
 func update_tier() -> void:
@@ -105,20 +113,19 @@ func setup_components() -> void:
   for component in components:
     component.set_components(components)
 
-func is_resource_available(resource: StringName) -> bool:
-  for component in self.get_children():
-    var production_line := component as ProductionLineComponent
-    if production_line != null:
-      if production_line.consumes.has(resource) == true:
-        return false # if the building consumes the resource, do not take that resource from the building
-  for component in self.get_children():
-    var storage_component := component as StorageComponent
-    if storage_component != null:
-      # prints("      Looking for %s in %s" % [resource, self.name])
-      if storage_component.get_storage_item_amount(resource) > 0:
-        return true # found in at least one of the storages
+func refresh_resources_produced_consumed():
+  var resources_produced: Dictionary[StringName, bool] = {}
+  var resources_consumed: Dictionary[StringName, bool] = {}
+  for node: Node in self.get_children():
+    var production_line_component := node as ProductionLineComponent
+    if production_line_component != null:
+      for resource in production_line_component.produces:
+        resources_produced[resource] = true
+      for resource in production_line_component.consumes:
+        resources_consumed[resource] = true
+  self.resources_produced = resources_produced
+  self.resources_consumed = resources_consumed
 
-  return false
 
 func unload_resource(resource: StringName, amount: int) -> void:
   if resource == ResourceConfig.Resources.NONE:
@@ -168,6 +175,17 @@ func get_oriented_size() -> Vector2i:
       size_y = self.size.x
   return Vector2i(size_x, size_y)
 
+@onready var built_tilemap: BuiltTileMap = self.get_node("/root/Main/BuiltTileMap") if not Engine.is_editor_hint() else null
+
+var cell_position: Vector2i:
+  get():
+    return self.built_tilemap.local_to_map(self.global_position) if self.built_tilemap != null else Vector2i.ZERO
+
+var oriented_rect: Rect2i:
+  get():
+    var rect = Rect2i(self.cell_position+Vector2i(1,1), -self.get_oriented_size()).abs()
+    return rect
+
 ## Returns an array of array of Vector2i (cell offsets) based on current orientation from _045 orientation
 func get_oriented_cells() -> Array[Array]:
   # get action set
@@ -180,8 +198,9 @@ func get_oriented_cells() -> Array[Array]:
   var oriented_cells: Array[Array] = []
   oriented_cells.resize(self.size.y)
   for dy in range(self.size.y):
-    var row := oriented_cells[dy]
+    var row: Array[Vector2i] = []
     row.resize(self.size.x)
+    oriented_cells[dy] = row
     for dx in range(self.size.x):
       var cell: Vector2i
       match orientation: # Calculate the cell position acording to orientation
@@ -206,3 +225,61 @@ func _notification(what):
       var built_tilemap := self.get_parent() as BuiltTileMap
       if built_tilemap != null:
         self.position = built_tilemap.map_to_local(built_tilemap.local_to_map(self.position)) # snap position to cells in editor mode
+
+var buildings_in_radius_cache: Array[Building2D]
+var buildings_in_radius_cache_radius: int = -1
+# var buildings_paths_cache: Dictionary[Building2D, NavPath] = {}
+var buildings_paths_cache: Dictionary[Building2D, Dictionary] = {} # Dictionary[Building2D, Dictionary[Pathfinder, NavPath]] = {}
+
+func get_buildings_in_radius(radius: int) -> Array[Building2D]:
+  if buildings_in_radius_cache_radius < radius:
+    self.buildings_in_radius_cache = self.built_tilemap.get_buildings_in_radius(self.oriented_rect, radius)
+    self.buildings_in_radius_cache.erase(self) # remove self from the list
+
+  return self.buildings_in_radius_cache
+
+func get_path_to_building(building: Building2D, pathfinding: Pathfinder) -> NavPath:
+  var pathfinder_to_path_cache: Dictionary[Pathfinder, NavPath]
+  if not self.buildings_paths_cache.has(building):
+    pathfinder_to_path_cache = {}
+    self.buildings_paths_cache[building] = pathfinder_to_path_cache
+  else:
+    pathfinder_to_path_cache = self.buildings_paths_cache[building]
+  # var path: NavPath = pathfinder_to_path_cache.get(pathfinding, null) if pathfinder_to_path_cache != null else null
+
+  var path: NavPath
+  if pathfinder_to_path_cache.has(pathfinding):
+    path = pathfinder_to_path_cache[pathfinding]
+  else:
+    path = self.built_tilemap.get_building_to_building_path(self, building, pathfinding)
+    pathfinder_to_path_cache[pathfinding] = path
+
+  return path
+
+func invalidate_cache(_cells: Array[Vector2i]):
+  # TODO: use cells to limit the invalidate region
+  self.buildings_in_radius_cache = []
+  self.buildings_in_radius_cache_radius = -1
+  self.buildings_paths_cache = {}
+  print("Building %s cache invalidated" % self.__repr__)
+
+func get_resources_produced_amounts() -> Dictionary[StringName, int]:
+  var resources_produced_amounts: Dictionary[StringName, int] = {}
+  for storage_component: StorageComponent in self.get_all_nodes_of_type(StorageComponent):
+    for resource in resources_produced.keys():
+      var storage_amount := storage_component.get_storage_item_amount(resource)
+      resources_produced_amounts[resource] = resources_produced_amounts.get(resource, 0) + storage_amount
+  return resources_produced_amounts
+
+
+func get_resource_amount(resource: StringName) -> int:
+  var resource_amount := 0
+  for storage_component: StorageComponent in self.get_all_nodes_of_type(StorageComponent):
+    resource_amount += storage_component.get_storage_item_amount(resource)
+  return resource_amount
+
+func get_max_resource_amount(resource: StringName) -> int:
+  var max_resource_amount := 0
+  for storage_component: StorageComponent in self.get_all_nodes_of_type(StorageComponent):
+    max_resource_amount = max(max_resource_amount, storage_component.get_max_capacity(resource))
+  return max_resource_amount

@@ -30,8 +30,8 @@ class_name MoveByCellComponent
 ## Default: ".."
 @export var object_to_be_moved: Node2D = null
 ## The pathfinding node[br]
-## Default: "root/Main/Pathfinding"
-@export var pathfinding_node: Pathfinding = null
+## Default: "root/Main/PathfindingManager"
+@export var pathfinding_node: PathfindingManager = null
 
 ## The possible types for determining if movement is allowed
 enum AllowedMovementTypes {
@@ -45,7 +45,7 @@ enum AllowedMovementTypes {
 
 var action_set: BuildingActionSet = null
 
-var pathfinding: PathFindingManagement2D = null
+var pathfinding: Pathfinder = null
 
 var cancel_move_requested: bool = false
 
@@ -63,9 +63,9 @@ func _ready():
     return
 
   if pathfinding_node == null:
-    pathfinding_node = self.get_node("/root/Main/Pathfinding")
+    pathfinding_node = self.get_node("/root/Main/PathfindingManager")
   if pathfinding_node == null:
-    push_error("Pathfinding node is not found")
+    push_error("PathfindingManager node is not found")
   else:
     match allowed_movement:
       AllowedMovementTypes.MOVE_ON_WATER:
@@ -94,13 +94,14 @@ func cancel_move() -> void:
 
 func move(path: Array[Vector2i]) -> void:
   if pathfinding == null:
-    push_error("Pathfinding is not set and the object is wanted to be moved")
+    push_error("PathfindingManager is not set and the object is wanted to be moved")
     return
   
   if path != []:
     var direction: int = 90
     self.object_to_be_moved.visible = true
-    if self.pathfinding.tile_map_layer.local_to_map(object_to_be_moved.global_position) != path[0]: # remove the starting position because the object is already there
+
+    if object_to_be_moved.cell_position != path[0]: # remove the starting position because the object is already there
       push_error("The path does not start from the current position")
     self.cancel_move_requested = false
     if self.paused:
@@ -115,7 +116,6 @@ func move(path: Array[Vector2i]) -> void:
       direction = posmod(direction, 360) # make in range of 0-359
       self.update_action_set(direction, BuildingActionSet.ActionStates.MOVE)
 
-      
       var move_tween: Tween = self.get_tree().create_tween().bind_node(self)
       move_tween.tween_property(object_to_be_moved, "global_position", new_local_position, 1/tile_per_sec)
       await move_tween.finished

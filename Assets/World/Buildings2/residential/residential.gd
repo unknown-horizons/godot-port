@@ -41,6 +41,7 @@ func _on_tier_changed() -> void:
         node.current_tier = self.current_tier
       elif node.current_tier is WorldTiers.TierEnum: # if uses enum
         node.current_tier = current_enum_tier
+  self.refresh_resources_produced_consumed()
   
   # spend/gain happiness from upgarde/downgrade
   self.spend_happiness((current_enum_tier - previous_enum_tier) * self.happiness_usage_per_tier)

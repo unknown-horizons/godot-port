@@ -17,7 +17,6 @@ baseclass = "production.Mine"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Clay Pit"
 })
-radius = 0
 cost = 15
 cost_inactive = 5
 size = Vector2i(3, 3)
@@ -54,6 +53,7 @@ max_capacity = Dictionary[StringName, int]({
 [node name="ProxyStorageComponent" parent="." instance=ExtResource("5_k5q4s")]
 
 [node name="BuildingCollector" parent="." instance=ExtResource("9_building_collector_component")]
+radius = 8
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

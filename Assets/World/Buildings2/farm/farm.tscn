@@ -27,7 +27,7 @@ tier = "TIER.PIONEERS"
 
 [node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
 type = "building"
-tabs = Array[String](["SmallProductionOverviewTab"])
+tabs = Array[String](["ProductionOverviewTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
 [node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]

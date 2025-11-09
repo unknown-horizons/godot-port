@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cblumberjacts"]
+[gd_scene load_steps=10 format=3 uid="uid://cblumberjacts"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -50,8 +50,10 @@ max_capacity = Dictionary[StringName, int]({
 })
 
 [node name="lumberjack_collector_0" parent="." instance=ExtResource("7_lumberjack_collector")]
+radius = 3
 
 [node name="BuildingCollector" parent="." instance=ExtResource("9_building_collector_component")]
+radius = 8
 
 [node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

@@ -200,12 +200,14 @@ func spend_resources():
 func production_loop():
   if self.is_node_ready() == false:
     await self.ready
+  await self.sleep(randf_range(0, 3)) # random delay to avoid same-time production on map start
   while production_stage != ProductionStages.IDLE and self.storage_components != []:
     await wait_for_resources()
     await produce()
 
 func wait_for_resources():
   production_stage = ProductionStages.WAITING_FOR_RESOURCES
+
   while true:
     var has_enough_resources := self.has_enough_resources()
     var has_output_space := self.has_output_space()
@@ -213,7 +215,8 @@ func wait_for_resources():
     if has_enough_resources and has_output_space:
       break # if all good for production, then break
 
-    await GameStats.game_stats_resource.resources_changed
+    await sleep(1) # check again in 1 second # TODO: switch to storage events
+
     if self.paused:
       await self.unpaused
 

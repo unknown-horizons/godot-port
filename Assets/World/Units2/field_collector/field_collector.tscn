@@ -7,10 +7,10 @@
 [ext_resource type="PackedScene" uid="uid://unr7kegy5cn4" path="res://Assets/World/Components/MoveByCell/MoveByCellComponent.tscn" id="10_move_by_cell_component"]
 
 [node name="FieldCollector" type="Node2D"]
-visible = false
 script = ExtResource("1_script_gd")
+visible = false
+modulate = Color(0.55, 0.55, 0.55, 1)
 baseclass = "collectors.FieldCollector"
-radius = 5
 velocity = 12.0
 "Collector Type" = "FIELD_COLLECTOR"
 "Show Loading" = false
