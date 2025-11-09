@@ -20,8 +20,14 @@ var world_tier: StringName = WorldTiers.Tiers.SAILORS:
     world_tier = value
     world_tier_changed.emit()
 
-## The maximum number of residence for each tier, ten by default
-@export var max_residents_per_tier: Dictionary[StringName, int] = {}
+## The maximum number of residents for each tier, ten by default
+@export var max_residents_per_tier: Dictionary[StringName, int] = {
+  WorldTiers.Tiers.SAILORS    : 2,
+  WorldTiers.Tiers.PIONEERS   : 3,
+  WorldTiers.Tiers.SETTLERS   : 5,
+  WorldTiers.Tiers.CITIZENS   : 8,
+  WorldTiers.Tiers.MERCHANTS  : 13,
+}
 
 ## Called when the world tier changes
 signal world_tier_changed

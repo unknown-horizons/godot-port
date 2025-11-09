@@ -16,7 +16,14 @@ var total_revenue_per_second: float = 0.
 
 var total_balance_per_second: float = 0.0
 
-var gold_per_person_per_second: float = 2.0
+## The taxes payed per resident for each tier on default
+@export var gold_per_resident_per_tier_per_second: Dictionary[StringName, float] = {
+  WorldTiers.Tiers.SAILORS    : 2.0,
+  WorldTiers.Tiers.PIONEERS   : 2.5,
+  WorldTiers.Tiers.SETTLERS   : 3.0,
+  WorldTiers.Tiers.CITIZENS   : 3.5,
+  WorldTiers.Tiers.MERCHANTS  : 4.0,
+} # Note: the values of the original project are different in the file: game.sql, it might be per house.
 
 var revenue_per_tier_per_second: Dictionary[WorldTiers.TierEnum, float] = {}
 
