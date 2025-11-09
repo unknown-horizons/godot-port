@@ -39,7 +39,7 @@ line_name = "FAITH"
 consumes = Dictionary[StringName, int]({
 })
 produces = Dictionary[StringName, int]({
-&"FAITH": 1
+&"FAITH": 3
 })
 
 [node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]

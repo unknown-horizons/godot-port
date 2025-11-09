@@ -101,5 +101,6 @@ func spend_happiness(happiness_to_spend: int):
     happiness_to_spend -= happiness_to_take_or_give
 
 func calculate_tax_revenue():
-  var tax_revenue = self.residents_count * GameStats.treasury.tax_rate_per_tier[self.current_tier_val] * GameStats.treasury.gold_per_person_per_second
+  var gold_per_resident_per_second := GameStats.treasury.gold_per_resident_per_tier_per_second[self.current_tier]
+  var tax_revenue = self.residents_count * GameStats.treasury.tax_rate_per_tier[self.current_tier_val] * gold_per_resident_per_second
   return tax_revenue
