@@ -35,6 +35,7 @@ var building_to_build: StringName = BuildingConfig.Buildings.NONE:
 
     if not self.is_active:
       self.game_context_manager.current_context = self
+    self.building_changed.emit(self.building_to_build)
 
 var building_instance: Building2D = null
 
@@ -45,6 +46,8 @@ var building_oriented_size: Vector2i
 var reference_object: WorldThing2D = null
 
 var last_highlighted_building_position: Vector2i
+
+signal building_changed(building: StringName)
 
 func context_entered() -> void:
   Input.set_custom_mouse_cursor(self.default_cursor)
