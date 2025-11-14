@@ -19,10 +19,10 @@ var total_balance_per_second: float = 0.0
 ## The taxes payed per resident for each tier on default
 @export var gold_per_resident_per_tier_per_second: Dictionary[StringName, float] = {
   WorldTiers.Tiers.SAILORS    : 2.0,
-  WorldTiers.Tiers.PIONEERS   : 2.5,
-  WorldTiers.Tiers.SETTLERS   : 3.0,
-  WorldTiers.Tiers.CITIZENS   : 3.5,
-  WorldTiers.Tiers.MERCHANTS  : 4.0,
+  WorldTiers.Tiers.PIONEERS   : 3.0,
+  WorldTiers.Tiers.SETTLERS   : 4.0,
+  WorldTiers.Tiers.CITIZENS   : 4.5,
+  WorldTiers.Tiers.MERCHANTS  : 5.0,
 } # Note: the values of the original project are different in the file: game.sql, it might be per house.
 
 var revenue_per_tier_per_second: Dictionary[WorldTiers.TierEnum, float] = {}
@@ -36,7 +36,7 @@ func _on_treasury_timer_timeout(timer: Timer):
     var residence := building as Residential
     if residence != null:
       if not building.paused:
-        var residence_revenue = residence.calculate_tax_revenue()
+        var residence_revenue := residence.collect_taxes_and_pay_hapinness(timer.wait_time)
         total_revenue += residence_revenue
         revenue_per_tier[residence.current_tier_val] = revenue_per_tier.get(residence.current_tier_val, 0.0) + residence_revenue
     total_cost += building.cost if not building.paused else building.cost_inactive

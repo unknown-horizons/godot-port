@@ -20,6 +20,8 @@ func get_storage_state() -> StorageComponentStates:
     var production_lines := parent.get_all_nodes_of_type(ProductionLineComponent) as Array[WorldThing2D]
     # for each resource produced, check if not full in storage
     for production_line in production_lines:
+      if production_line.paused:
+        continue # do not count paused production lines
       for produces in production_line.produces.keys():
         var max_amount = max_capacity.get(produces, 0)
         var current_amount = storage.get(produces, 0)
