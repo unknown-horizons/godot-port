@@ -161,7 +161,8 @@ func get_best_job() -> Job:
   for job in jobs:
     if job == null:
       continue
-    var score: float = clampf(1 - (len(job.path_to_start) + len(job.path_from_start_to_end)) / float(self.effective_radius) / 2, 0, 1) # 0-1
+    var score: float = 1 - (len(job.path_to_start) + len(job.path_from_start_to_end)) / float(self.effective_radius) / 2
+    score += clamp((randf_range(-0.1, 0.1)), 0, 1) # add some randomness and clamp from 0 to 1
     if score >= best_job_score:
       best_job = job
       best_job_score = score
