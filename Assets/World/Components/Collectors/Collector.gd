@@ -49,7 +49,6 @@ const CollectorTypes: Dictionary[StringName, StringName] = {
 var load_or_unload_time: float = 2
 
 var building_storage: StorageComponent
-var production_line_components: Array[ProductionLineComponent]
 
 var storage: SizedStorageComponent
 var move_by_cell: MoveByCellComponent
@@ -125,11 +124,8 @@ func _ready() -> void:
 func set_components(new_components: Array[BaseComponent]) -> void:
   for component in new_components:
     var storage_component = component as StorageComponent
-    var production_line_component = component as ProductionLineComponent
     if storage_component != null and self.building_storage == null:
       self.building_storage = storage_component
-    if production_line_component != null:
-      self.production_line_components.append(production_line_component)
   self.collecting_loop()
 
 

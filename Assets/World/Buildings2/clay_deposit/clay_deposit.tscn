@@ -24,8 +24,8 @@ tier = "TIER.NATURE"
 
 [node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
 type = "building"
-tabs = Array[String](["ResourceDepositOverviewTab"])
-enemy_tabs = Array[String](["ResourceDepositOverviewTab"])
+tabs = Array[String](["InventoryTab"])
+enemy_tabs = Array[String](["InventoryTab"])
 
 [node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
 max_health = 10

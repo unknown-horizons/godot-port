@@ -30,10 +30,7 @@ var __repr__: String:
 ## if buildable on coastline or grass, it would be 00000011 = 3 and so on[br]
 ## empty means the building can be built on Grass
 @export var buildable_on: Array[Array] = []
-@export var current_tier: StringName = WorldTiers.Tiers.MAX:
-  set(value):
-    current_tier = value
-    _on_tier_changed() # to be overloaded
+@export var current_tier: StringName = WorldTiers.Tiers.MAX: set = set_current_tier
 var current_tier_val: WorldTiers.TierEnum:
   get():
     return WorldTiers.TierEnum.get(self.current_tier, WorldTiers.TierEnum.SAILORS)
@@ -58,9 +55,14 @@ var game_name: String:
     for node: Node in self.get_children():
       var component := node as BaseComponent
       if component != null:
-        component.paused = self.paused
+        if self.paused == false:
+          component.unpause_if_can()
+        else:
+          component.paused = self.paused
     if self.paused == false:
       unpaused.emit()
+
+    self.refresh_resources_produced_consumed()
 
 signal unpaused
 
@@ -68,7 +70,8 @@ var resources_produced: Dictionary[StringName, bool]
 var resources_consumed: Dictionary[StringName, bool]
 
 ## setter for current_tier
-func _on_tier_changed() -> void:
+func set_current_tier(new_tier: StringName) -> void:
+  current_tier = new_tier
   var enum_tier: WorldTiers.TierEnum = WorldTiers.TierEnum.get(self.current_tier, WorldTiers.TierEnum.SAILORS)
   for node: Node in self.get_children():
     if "current_tier" in node:
@@ -113,19 +116,24 @@ func setup_components() -> void:
   for component in components:
     component.set_components(components)
 
+
+## Can be overriden
 func refresh_resources_produced_consumed():
   var resources_produced: Dictionary[StringName, bool] = {}
   var resources_consumed: Dictionary[StringName, bool] = {}
   for node: Node in self.get_children():
     var production_line_component := node as ProductionLineComponent
-    if production_line_component != null:
-      for resource in production_line_component.produces:
-        resources_produced[resource] = true
+    if production_line_component != null and production_line_component.paused == false:
       for resource in production_line_component.consumes:
         resources_consumed[resource] = true
+      for resource in production_line_component.produces:
+        resources_produced[resource] = true
+  # remove all resources that are consumed from produced, they should never be set as produced if consumed
+  for resource_consumed in resources_consumed.keys():
+    resources_produced.erase(resource_consumed)
+  # set the values
   self.resources_produced = resources_produced
   self.resources_consumed = resources_consumed
-
 
 func unload_resource(resource: StringName, amount: int) -> void:
   if resource == ResourceConfig.Resources.NONE:

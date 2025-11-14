@@ -25,6 +25,10 @@ func set_pause(value: bool) -> void:
   if self.paused == false:
     unpaused.emit()
 
+## unpause the component if allowed
+func unpause_if_can():
+  self.paused = false
+
 ## Default function to let the component know about neighboring components
 func set_components(_new_components: Array[BaseComponent]) -> void:
   pass
