@@ -4,6 +4,30 @@ extends BaseComponent
 
 class_name Collector
 
+var tree_spawn_timer: Timer = Timer.new()
+
+func plant_tree() -> void:
+  var building: Building2D = self.home_building
+  var rect = building.oriented_rect
+  var affected_rect := rect.grow(radius)
+  var free_cells = []
+
+   # get all free cells inside affected_rect
+  for y in range(affected_rect.position.y, affected_rect.end.y):
+    for x in range(affected_rect.position.x, affected_rect.end.x):
+      var cell = Vector2i(x, y)
+      if built_tilemap.get_cell_atlas_coords(cell) == Vector2i(-1, -1) and not built_tilemap.building_position_to_building.has(cell):
+        free_cells.append(cell)
+
+  # pick a random cell if there is any
+  if free_cells.size() > 0:
+    var random_index = randi() % free_cells.size()
+    var cell_to_plant = free_cells[random_index]
+
+    built_tilemap.set_cell(cell_to_plant, 1, Vector2i(0, 0))
+    print("tree planted at: ", cell_to_plant)
+
+
 class Job:
   var path_to_start: Array[Vector2i]
   var path_from_start_to_end: Array[Vector2i]
@@ -17,7 +41,7 @@ class Job:
     self.path_from_start_to_end = path_from_start_to_end
     self.resource = resource
     self.amount = amount
-  
+
   func _to_string() -> String:
     if self.path_to_start == [] or self.path_from_start_to_end == []:
       return "Resource: %s" % self.resource
@@ -64,7 +88,7 @@ var cell_position: Vector2i:
   set(value):
     self.global_position = self.built_tilemap.map_to_local(value)
 
-var effective_radius: int: 
+var effective_radius: int:
   get():
     return self.radius if self.radius != -1 or self.home_building == null else self.home_building.radius
 
@@ -111,7 +135,7 @@ func _ready() -> void:
     var component := node as BaseComponent
     if component != null:
       components.append(component)
-  
+
   for component in components:
     if component is SizedStorageComponent:
       self.storage = component
@@ -120,6 +144,17 @@ func _ready() -> void:
     if component is BuildingActionSet:
       self.action_set = component
     component.set_components(components)
+
+
+  if self.collector_type == self.CollectorTypes.LUMBERJACK_COLLECTOR:
+    var timer := Timer.new()
+    timer.wait_time = 5
+    timer.one_shot = false  # repeats forever
+    self.add_child(timer)
+    timer.timeout.connect(self.plant_tree)
+    timer.start()
+
+
 
 func set_components(new_components: Array[BaseComponent]) -> void:
   for component in new_components:
@@ -290,7 +325,7 @@ func get_jobs_for_building_collector() -> Array[Job]:
     if navpath_to_building_from_home == null:
       continue
     var path_to_building_from_home := navpath_to_building_from_home.path
-    if path_to_building_from_home.size() - 1 > self.effective_radius: # the max path length excluding starting cell (on buildings) 
+    if path_to_building_from_home.size() - 1 > self.effective_radius: # the max path length excluding starting cell (on buildings)
       continue
 
     if other_building.id in ["BUILDINGS." + BuildingConfig.Buildings.WAREHOUSE, "BUILDINGS." + BuildingConfig.Buildings.STORAGE]:
