@@ -279,6 +279,11 @@ func get_resources_produced_amounts() -> Dictionary[StringName, int]:
       resources_produced_amounts[resource] = resources_produced_amounts.get(resource, 0) + storage_amount
   return resources_produced_amounts
 
+func get_storage_items() -> Array[StringName]:
+  var storages_items: Array[StringName] = []
+  for storage_component: StorageComponent in self.get_all_nodes_of_type(StorageComponent):
+    storages_items.append_array(storage_component.get_storage_items())
+  return storages_items
 
 func get_resource_amount(resource: StringName) -> int:
   var resource_amount := 0
