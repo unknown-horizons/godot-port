@@ -122,8 +122,10 @@ func demolish(cell: Vector2i) -> void:
       self.register_building(building_built_on, true)
     building.paused = true # stop all action
 
+  var road_pathfinding: Pathfinder = %PathfindingManager.road_pathfinding
   affected_cells.append(cell)
   self.set_cell(cell, -1) # delete cell
+  road_pathfinding.set_point_solid(cell, true)
   # update road
   for neighbor in self.get_surrounding_cells(cell):
     var tile_data: TileData = self.get_cell_tile_data(neighbor)
