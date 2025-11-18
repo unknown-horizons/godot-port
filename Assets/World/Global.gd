@@ -55,9 +55,9 @@ enum ResourceType {
   SPICE_PLANTS     = 45,
   SPICES           = 46,
   CONDIMENTS       = 47,
-#	MARBLE_DEPOSIT   = GOLD, # 48
-#	MARBLE_TOPS      = GOLD, # 49
-#	COAL_DEPOSIT     = GOLD, # 50
+#  MARBLE_DEPOSIT   = GOLD, # 48
+#  MARBLE_TOPS      = GOLD, # 49
+#  COAL_DEPOSIT     = GOLD, # 50
   STONE_DEPOSIT    = 51,
   STONE_TOPS       = 52,
   COCOA_BEANS      = 53,
@@ -68,44 +68,44 @@ enum ResourceType {
   GRAPES           = 58,
   ALVEARIES        = 59,
   HONEYCOMBS       = 60,
-#	GOLD_DEPOSIT     = GOLD, # 61
-#	GOLD_ORE         = GOLD, # 62
-#	GOLD_INGOTS      = GOLD, # 63
-#	GEM_DEPOSIT      = GOLD, # 64
-#	ROUGH_GEMS       = GOLD, # 65
-#	GEMS             = GOLD, # 66
-#	SILVER_DEPOSIT   = GOLD, # 67
-#	SILVER_ORE       = GOLD, # 68
-#	SILVER_INGOTS    = GOLD, # 69
-#	COFFEE_PLANTS    = GOLD, # 70
-#	COFFEE_BEANS     = GOLD, # 71
-#	COFFEE           = GOLD, # 72
-#	TEA_PLANTS       = GOLD, # 73
-#	TEA_LEAVES       = GOLD, # 74
-#	TEA              = GOLD, # 75
-#	FLOWER_MEADOWS   = GOLD, # 76
-#	BLOSSOMS         = GOLD, # 77
-#	BRINE            = GOLD, # 78
-#	BRINE_DEPOSIT    = GOLD, # 79
-#	WHALES           = GOLD, # 80
-#	AMBERGRIS        = GOLD, # 81
-#	LAMP_OIL         = GOLD, # 82
-#	COTTON_PLANTS    = GOLD, # 83
-#	COTTON           = GOLD, # 84
-#	INDIGO_PLANTS    = GOLD, # 85
-#	INDIGO           = GOLD, # 86
-#	GARMENTS         = GOLD, # 87
-#	PERFUME          = GOLD, # 88
+#  GOLD_DEPOSIT     = GOLD, # 61
+#  GOLD_ORE         = GOLD, # 62
+#  GOLD_INGOTS      = GOLD, # 63
+#  GEM_DEPOSIT      = GOLD, # 64
+#  ROUGH_GEMS       = GOLD, # 65
+#  GEMS             = GOLD, # 66
+#  SILVER_DEPOSIT   = GOLD, # 67
+#  SILVER_ORE       = GOLD, # 68
+#  SILVER_INGOTS    = GOLD, # 69
+#  COFFEE_PLANTS    = GOLD, # 70
+#  COFFEE_BEANS     = GOLD, # 71
+#  COFFEE           = GOLD, # 72
+#  TEA_PLANTS       = GOLD, # 73
+#  TEA_LEAVES       = GOLD, # 74
+#  TEA              = GOLD, # 75
+#  FLOWER_MEADOWS   = GOLD, # 76
+#  BLOSSOMS         = GOLD, # 77
+#  BRINE            = GOLD, # 78
+#  BRINE_DEPOSIT    = GOLD, # 79
+#  WHALES           = GOLD, # 80
+#  AMBERGRIS        = GOLD, # 81
+#  LAMP_OIL         = GOLD, # 82
+#  COTTON_PLANTS    = GOLD, # 83
+#  COTTON           = GOLD, # 84
+#  INDIGO_PLANTS    = GOLD, # 85
+#  INDIGO           = GOLD, # 86
+#  GARMENTS         = GOLD, # 87
+#  PERFUME          = GOLD, # 88
   HOP_PLANTS       = 89,
   HOPS             = 90,
   BEER             = 91,
   # 92-99 reserved for services
-#	REPRESENTATION   = GOLD, # 92
-#	SOCIETY          = GOLD, # 93
-#	FAITH_2          = GOLD, # 94
-#	EDUCATION_2      = GOLD, # 95
+#  REPRESENTATION   = GOLD, # 92
+#  SOCIETY          = GOLD, # 93
+#  FAITH_2          = GOLD, # 94
+#  EDUCATION_2      = GOLD, # 95
   HYGIENE          = 96,
-#	RECREATION       = GOLD, # 97
+#  RECREATION       = GOLD, # 97
   BLACKDEATH       = 98,
   FIRE             = 99,
   # 92-99 reserved for services
@@ -253,8 +253,8 @@ const RESOURCE_TYPES = [
 const MESSAGE_SCENE = preload("res://Assets/UI/Notification/Message.tscn")
 
 #const WINDOW_MODES = [
-#	WindowMode.WINDOWED,
-#	WindowMode.FULLSCREEN
+#  WindowMode.WINDOWED,
+#  WindowMode.FULLSCREEN
 #]
 
 const WINDOW_MODES = {
@@ -264,9 +264,9 @@ const WINDOW_MODES = {
 
 # Language choices
 #const LANGUAGES = {
-#	"Deutsch": "de",
-#	"English": "en",
-#	"Français": "fr",
+#  "Deutsch": "de",
+#  "English": "en",
+#  "Français": "fr",
 #}
 
 const LANGUAGES = [

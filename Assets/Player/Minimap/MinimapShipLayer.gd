@@ -45,15 +45,15 @@ func get_ships():
     # get trader ship(s)
     #var trader_ships_node : Node3D = get_tree().current_scene.get_node("Traders")
     #for trader_ship in trader_ships_node.get_children():
-    #	if trader_ship is Ship:
-    #		trader_ships.append(
-    #			minimap.world_to_minimap_position(trader_ship.global_transform.origin))
+    #  if trader_ship is Ship:
+    #    trader_ships.append(
+    #      minimap.world_to_minimap_position(trader_ship.global_transform.origin))
 
     # get trader ship(s)
     #var pirate_ships_node : Node3D = get_tree().current_scene.get_node("Traders")
     #for pirate_ship in pirate_ships_node.get_children():
-    #	if pirate_ship is Ship:
-    #		pirate_ships.append(
-    #			minimap.world_to_minimap_position(pirate_ship.global_transform.origin))
+    #  if pirate_ship is Ship:
+    #    pirate_ships.append(
+    #      minimap.world_to_minimap_position(pirate_ship.global_transform.origin))
 
     queue_redraw()

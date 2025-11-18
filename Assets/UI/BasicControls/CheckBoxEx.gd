@@ -13,7 +13,7 @@ signal toggled(check_state) # bool
 @onready var check_box_node := $CheckBox as CheckBox
 
 #func _ready():
-#	gui_input.size = size
+#  gui_input.size = size
 
 func set_description(new_description: String) -> void:
   if not is_inside_tree():

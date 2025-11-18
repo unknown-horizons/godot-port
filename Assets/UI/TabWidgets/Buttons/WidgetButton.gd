@@ -20,8 +20,8 @@ class_name WidgetButton
 ## swap it back and forth into the texture slot whenever actually needed.
 
 ## ❗TODO: Investigate what's needed in total and
-##		create several styles for various purposes.
-##		Unused for now, maybe not this much of variation needed after all?
+##    create several styles for various purposes.
+##    Unused for now, maybe not this much of variation needed after all?
 enum Style {
   NONE,
   ROUNDED,
@@ -46,8 +46,8 @@ const TEXTURE_CLICK_MASK_ROUNDED = preload("res://Assets/UI/Images/Buttons/msg_b
 #@onready var _texture_hover := texture_hover
 
 func _ready() -> void:
-#	prints("texture_normal.get_size()", texture_normal.get_size())
-#	prints("size", size)
+#  prints("texture_normal.get_size()", texture_normal.get_size())
+#  prints("size", size)
   CamUtils.center_if_no_camera(self)
   if self.material != null:
     self.mouse_entered.connect(_on_mouse_entered)
@@ -106,44 +106,44 @@ func _notification(what: int) -> void:
       #texture_rect.pivot_offset = texture_rect.size / 2
 
 #func set_style(new_style: int) -> void:
-#	if not is_inside_tree():
-#		await self.ready
+#  if not is_inside_tree():
+#    await self.ready
 #
-#	var configuration := {
-#		Style.NONE:           [false, null, null],
-#		Style.ROUNDED:        [true, STYLES[Style.ROUNDED - 1], TEXTURE_CLICK_MASK_ROUNDED],
-#		Style.SQUARED_SMALL:  [true, STYLES[Style.SQUARED_SMALL - 1], null],
-#		Style.SQUARED_MEDIUM: [true, STYLES[Style.SQUARED_MEDIUM - 1], null],
-#		Style.SQUARED_LARGE:  [true, STYLES[Style.SQUARED_LARGE - 1], null],
-#	}.get(new_style) as Array
+#  var configuration := {
+#    Style.NONE:           [false, null, null],
+#    Style.ROUNDED:        [true, STYLES[Style.ROUNDED - 1], TEXTURE_CLICK_MASK_ROUNDED],
+#    Style.SQUARED_SMALL:  [true, STYLES[Style.SQUARED_SMALL - 1], null],
+#    Style.SQUARED_MEDIUM: [true, STYLES[Style.SQUARED_MEDIUM - 1], null],
+#    Style.SQUARED_LARGE:  [true, STYLES[Style.SQUARED_LARGE - 1], null],
+#  }.get(new_style) as Array
 #
-#	texture_rect.visible = configuration[0]
-#	texture_rect.texture = configuration[1]
-#	texture_click_mask = configuration[2]
+#  texture_rect.visible = configuration[0]
+#  texture_rect.texture = configuration[1]
+#  texture_click_mask = configuration[2]
 #
-##	match new_style:
-##		Style.NONE:
-##			texture_rect.hide()
-##			texture_rect.texture = null
-##			texture_click_mask = null
-##		Style.ROUNDED:
-##			texture_rect.show()
-##			texture_rect.texture = STYLES[Style.ROUNDED]
-##			texture_click_mask = TEXTURE_CLICK_MASK_ROUNDED
-##		Style.SQUARED_SMALL:
-##			texture_rect.show()
-##			texture_rect.texture = STYLES[Style.SQUARED_SMALL]
-##			texture_click_mask = null
-##		Style.SQUARED_MEDIUM:
-##			texture_rect.show()
-##			texture_rect.texture = STYLES[Style.SQUARED_MEDIUM]
-##			texture_click_mask = null
-##		Style.SQUARED_LARGE:
-##			texture_rect.show()
-##			texture_rect.texture = STYLES[Style.SQUARED_LARGE]
-##			texture_click_mask = null
+##  match new_style:
+##    Style.NONE:
+##      texture_rect.hide()
+##      texture_rect.texture = null
+##      texture_click_mask = null
+##    Style.ROUNDED:
+##      texture_rect.show()
+##      texture_rect.texture = STYLES[Style.ROUNDED]
+##      texture_click_mask = TEXTURE_CLICK_MASK_ROUNDED
+##    Style.SQUARED_SMALL:
+##      texture_rect.show()
+##      texture_rect.texture = STYLES[Style.SQUARED_SMALL]
+##      texture_click_mask = null
+##    Style.SQUARED_MEDIUM:
+##      texture_rect.show()
+##      texture_rect.texture = STYLES[Style.SQUARED_MEDIUM]
+##      texture_click_mask = null
+##    Style.SQUARED_LARGE:
+##      texture_rect.show()
+##      texture_rect.texture = STYLES[Style.SQUARED_LARGE]
+##      texture_click_mask = null
 #
-#	style = new_style
+#  style = new_style
 
 func _is_pixel_opaque(tolerance: int = 145) -> bool:
   var image := texture_rect.texture.get_data() as Image
