@@ -25,8 +25,8 @@ signal building_started
     #if body.get_child(0).get_child_count() == 0:
       #$WidgetDetail.visible = false
 #
-##	if body.get_child_count() > 0:
-##		var child_container = body.get_child(0) as Control
+##  if body.get_child_count() > 0:
+##    var child_container = body.get_child(0) as Control
   #if body.get_child_count() > 0:
     #for child_container in body.get_children():
       ##prints("Attach signals to", child_container.name, "of", self.name)
@@ -35,14 +35,14 @@ signal building_started
       #child_container.sort_children.connect(_on_TabContainer_sort_children)
 
 #func _process(_delta: float) -> void:
-#	if Engine.is_editor_hint():
-#	_adapt_rect_size()
+#  if Engine.is_editor_hint():
+#  _adapt_rect_size()
 
 #func _draw() -> void:
-#	if not is_inside_tree():
-#		await self.ready
+#  if not is_inside_tree():
+#    await self.ready
 #
-#	body.size.y = body.custom_minimum_size.y
+#  body.size.y = body.custom_minimum_size.y
 
 func update_data(context_data: Dictionary) -> void:
   for data in context_data:
@@ -60,21 +60,21 @@ func update_data(context_data: Dictionary) -> void:
       #body.custom_minimum_size.y = child_container.size.y
 
 #func _on_TabContainer_resized() -> void:
-#	prints("resized checked", self.name)
-#	_adapt_rect_size()
+#  prints("resized checked", self.name)
+#  _adapt_rect_size()
 #
 #func _on_TabContainer_draw() -> void:
-#	prints("Draw call checked", self.name)
-#	_adapt_rect_size()
+#  prints("Draw call checked", self.name)
+#  _adapt_rect_size()
 
 #func _on_TabContainer_sort_children() -> void:
   ##prints("sort_children checked", self.name)
   #_adapt_rect_size()
 
 #func _notification(what: int) -> void:
-#	match what:
-#		NOTIFICATION_PARENTED:
-#			prints(self, "has been parented.")
+#  match what:
+#    NOTIFICATION_PARENTED:
+#      prints(self, "has been parented.")
 
 func _on_TearButton_pressed() -> void:
   button_tear_pressed.emit()

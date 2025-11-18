@@ -68,7 +68,7 @@ func _move_drag() -> void:
     else:
       # DEBUG
       #if new_drag_pos != _drag_pos:
-      #	prints(_drag_pos, "=>", new_drag_pos)
+      #  prints(_drag_pos, "=>", new_drag_pos)
       var drag_dir = (_drag_pos - new_drag_pos) * _camera.size / _viewport_size * 6
       var move_dir := _basis * Utils.map_2_to_3(drag_dir)
       _origin.translate(move_dir)
