@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://cyb8jqt6k3y2b"]
 
 [ext_resource type="Theme" uid="uid://lyx8kydf373j" path="res://Assets/UI/Theme/MenuTheme.tres" id="1"]
-[ext_resource type="Script" uid="uid://cjd5faak72jwb" path="res://Assets/UI/Pages/MainMenuUI/MainMenuUI.gd" id="2"]
+[ext_resource type="Script" uid="uid://xyy4mmyc80j7" path="res://Assets/UI/Pages/MainMenuUI/MainMenuUI.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://cpn75tf5b4csq" path="res://Assets/UI/Images/Background/MainMenu/wheel.png" id="3"]
 [ext_resource type="PackedScene" uid="uid://d4eobn6sah5a" path="res://Assets/UI/Pages/MainMenuUI/MainMenuButton.tscn" id="4"]
 [ext_resource type="Texture2D" uid="uid://dsir2lhwmdm3c" path="res://Assets/UI/Icons/MainMenu/compass.png" id="5"]
@@ -368,10 +368,10 @@ mouse_filter = 2
 color = Color(0.137255, 0.137255, 0.137255, 1)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-autoplay = "intro"
 libraries = {
 "": SubResource("AnimationLibrary_hgqkq")
 }
+autoplay = "intro"
 
 [connection signal="pressed" from="Decoration/MenuItems/SinglePlayerButton" to="." method="_go_to_scene" binds= ["sp_game"]]
 [connection signal="pressed" from="Decoration/MenuItems/LoadGameButton" to="." method="_go_to_scene" binds= ["load_game"]]

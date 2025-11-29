@@ -1,0 +1,20 @@
+[gd_scene load_steps=8 format=3 uid="uid://custoragecots"]
+
+[ext_resource type="Script" uid="uid://dryewpxj1qix4" path="res://Assets/World/Components/Collectors/Collector.gd" id="1_script_gd"][ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
+[ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
+[ext_resource type="SpriteFrames" uid="uid://custoragecotr" path="res://Assets/World/Units2/storage_collector/storage_collector.tres" id="4_sprite_frames"]
+[ext_resource type="PackedScene" uid="uid://b3hix4pdlnumi" path="res://Assets/World/Components/Storages/SizedStorageComponent/SizedStorageComponent.tscn" id="5_sized_storage_component"]
+[ext_resource type="PackedScene" uid="uid://unr7kegy5cn4" path="res://Assets/World/Components/MoveByCell/MoveByCellComponent.tscn" id="10_move_by_cell_component"]
+
+[node name="StorageCollector" type="Node2D"]
+script = ExtResource("1_script_gd")
+baseclass = "collectors.StorageCollector"
+velocity = 12.0
+
+[node name="SizedStorageComponent" parent="." instance=ExtResource("5_sized_storage_component")]
+limit = 8
+
+[node name="MoveByCellComponent" parent="." instance=ExtResource("10_move_by_cell_component")]
+
+[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+sprite_frames = ExtResource("4_sprite_frames")

@@ -5,59 +5,51 @@ class_name SwitchTabWidget
 ## Base class for all widget switch handles.
 
 @export var texture_active: Texture2D
-@onready var _texture_normal := texture_normal
 
-@onready var tab_container: TabContainer : get = get_tab_container
+var tab_container: TabContainer
 
-#func _ready() -> void:
-#	if not Engine.is_editor_hint():
-#		if get_index() == 0: # => every other switch node is ready
-#			for sibling in get_parent().get_children():
-#				sibling._listen_to_other_switches()
-#
-#func _listen_to_other_switches() -> void:
-#	for sibling in get_parent().get_children():
-#		sibling.tab_changed.connect(_on_SwitchTabWidget_tab_changed)
+@onready var background_texture_rect: TextureRect = $BackgroundTextureRect
 
-func _draw() -> void:
-#	if texture_normal:
-#		custom_minimum_size = texture_normal.get_size()
-#	else:
-#		custom_minimum_size = size
-	custom_minimum_size.y = 46
+func _ready() -> void:
+  if Engine.is_editor_hint():
+    return
+  CamUtils.center_if_no_camera(self)
+  self.mouse_entered.connect(_on_mouse_entered)
+  self.mouse_exited.connect(_on_mouse_exited)
+  
+  self.material = self.material.duplicate()
 
-	notify_property_list_changed()
+  if not self.tooltip_text:
+    # self.tooltip_text = self.name.to_snake_case().replace("_", " ").trim_suffix(" button")
+    self.tooltip_text = self.name.capitalize().trim_suffix(" Button")
 
-func get_tab_container() -> TabContainer:
-	if owner is TabWidget:
-		if tab_container == null:
-			tab_container = owner.body.get_node("TabContainer")
-
-			for switch in get_parent().get_children():
-				switch.tab_container = tab_container
-				Utils.ensure_connected(tab_container.tab_changed, _on_TabContainer_tab_changed)
-
-	return tab_container
+  self.tab_container = get_node("../../../ScrollContainer/TabContainer") as TabContainer
+  if self.tab_container == null:
+    push_error("../../../ScrollContainer/TabContainer is not found or not of type TabContainer for ", self)
+    return
 
 func _pressed() -> void:
-	Audio.play_snd_click()
+  Audio.play_snd_click()
+
+func _on_mouse_entered():
+  self.material.set_shader_parameter("is_hovered", true)
+
+func _on_mouse_exited():
+  self.material.set_shader_parameter("is_hovered", false)
+
+func _on_toggled(toggled_on: bool) -> void:
+  self.material.set_shader_parameter("is_active", toggled_on)
+  if toggled_on:
+    self.background_texture_rect.modulate = Color(1.5, 1.5, 1.5, 1)
+  else:
+    self.background_texture_rect.modulate = Color(1, 1, 1, 1)
 
 func _on_SwitchTabWidget_pressed() -> void:
-	if self.tab_container:
-		prints("Set page", get_index(), "for", owner.name)
-		tab_container.current_tab = get_index()
-		tab_container.emit_signal("tab_changed", tab_container.current_tab)
-
-#func _on_SwitchTabWidget_tab_changed(tab: int) -> void:
-#	if self.tab_container:
-#		prints("Notify", self.name, "about tab change to", tab_container.current_tab)
-#		if tab_container.current_tab == get_index():
-#			texture_normal = texture_active
-#		else:
-#			texture_normal = _texture_normal
-
-func _on_TabContainer_tab_changed(tab: int) -> void:
-	if tab_container.current_tab == get_index():
-		texture_normal = texture_active
-	else:
-		texture_normal = _texture_normal
+  var tab_container_node = self.tab_container.get_node(str(self.name))
+  if tab_container_node == null:
+    push_error("Tab not found for '%s'" % [self.name])
+  else:
+    for tab_index in tab_container.get_tab_count():
+      if tab_container.get_tab_control(tab_index) == tab_container_node:
+        tab_container.current_tab = tab_index
+        break

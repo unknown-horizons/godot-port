@@ -1,0 +1,236 @@
+[gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://cbvineyardtre"]
+
+[ext_resource type="Texture2D" uid="uid://dbqs0hhifm51v" path="res://Assets/World/Buildings2/vineyard/vineyard_citizens_as_vineyard0_idle.png" id="vineyard_citizens_as_vineyard0_idle"]
+[ext_resource type="Texture2D" uid="uid://bp2r2pjhp2hs0" path="res://Assets/World/Buildings2/vineyard/vineyard_citizens_as_vineyard0_idle_full.png" id="vineyard_citizens_as_vineyard0_idle_full"]
+[ext_resource type="Texture2D" uid="uid://dhdtrol66n3hb" path="res://Assets/World/Buildings2/vineyard/vineyard_citizens_as_vineyard0_work.png" id="vineyard_citizens_as_vineyard0_work"]
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_idle_045_0_0"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_idle")
+region = Rect2(0, 0, 192, 110)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_idle_135_0_110"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_idle")
+region = Rect2(0, 110, 192, 111)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_idle_225_0_221"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_idle")
+region = Rect2(0, 221, 192, 110)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_idle_315_0_331"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_idle")
+region = Rect2(0, 331, 192, 110)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_idle_full_045_0_0"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_idle_full")
+region = Rect2(0, 0, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_idle_full_135_0_114"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_idle_full")
+region = Rect2(0, 114, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_idle_full_225_0_228"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_idle_full")
+region = Rect2(0, 228, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_idle_full_315_0_342"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_idle_full")
+region = Rect2(0, 342, 192, 115)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_045_0_0"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(0, 0, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_045_192_0"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(192, 0, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_045_384_0"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(384, 0, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_045_576_0"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(576, 0, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_135_0_114"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(0, 114, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_135_192_114"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(192, 114, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_135_384_114"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(384, 114, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_135_576_114"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(576, 114, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_225_0_228"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(0, 228, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_225_192_228"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(192, 228, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_225_384_228"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(384, 228, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_225_576_228"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(576, 228, 192, 114)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_315_0_342"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(0, 342, 192, 115)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_315_192_342"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(192, 342, 192, 115)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_315_384_342"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(384, 342, 192, 115)
+
+[sub_resource type="AtlasTexture" id="vineyard0_citizens_work_315_576_342"]
+atlas = ExtResource("vineyard_citizens_as_vineyard0_work")
+region = Rect2(576, 342, 192, 115)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_idle_045_0_0")
+}],
+"loop": true,
+"name": &"vineyard0.citizens.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_idle_135_0_110")
+}],
+"loop": true,
+"name": &"vineyard0.citizens.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_idle_225_0_221")
+}],
+"loop": true,
+"name": &"vineyard0.citizens.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_idle_315_0_331")
+}],
+"loop": true,
+"name": &"vineyard0.citizens.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_idle_full_045_0_0")
+}],
+"loop": true,
+"name": &"vineyard0.citizens.idle_full.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_idle_full_135_0_114")
+}],
+"loop": true,
+"name": &"vineyard0.citizens.idle_full.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_idle_full_225_0_228")
+}],
+"loop": true,
+"name": &"vineyard0.citizens.idle_full.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_idle_full_315_0_342")
+}],
+"loop": true,
+"name": &"vineyard0.citizens.idle_full.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_045_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_045_192_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_045_384_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_045_576_0")
+}],
+"loop": true,
+"name": &"vineyard0.citizens.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_135_0_114")
+}, {
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_135_192_114")
+}, {
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_135_384_114")
+}, {
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_135_576_114")
+}],
+"loop": true,
+"name": &"vineyard0.citizens.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_225_0_228")
+}, {
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_225_192_228")
+}, {
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_225_384_228")
+}, {
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_225_576_228")
+}],
+"loop": true,
+"name": &"vineyard0.citizens.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_315_0_342")
+}, {
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_315_192_342")
+}, {
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_315_384_342")
+}, {
+"duration": 1.0,
+"texture": SubResource("vineyard0_citizens_work_315_576_342")
+}],
+"loop": true,
+"name": &"vineyard0.citizens.work.315",
+"speed": 5.0
+}]

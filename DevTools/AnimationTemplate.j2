@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" load_steps=1{#let the godot engine correct it#} format=3 uid="{{uid}}"]
+
+{% for atlas in images -%}
+[ext_resource type="Texture2D" uid="uid://{{atlas.animation_name.replace("_", "")}}atlas" path="res://{{atlas.atlas_path.relative_to(root).as_posix()}}" id="{{atlas.animation_name}}_atlas"]
+{% endfor %}
+{% for atlas in images %}
+  {%- for row in range(atlas.rows|int)%}
+    {%- for col in range(atlas.cols|int)%}
+
+[sub_resource type="AtlasTexture" id="{{atlas.animation_name}}_{{row}}_{{col}}"]
+atlas = ExtResource("{{atlas.animation_name}}_atlas")
+region = Rect2({{col * atlas.frame_width}}, {{row * atlas.frame_height}}, {{atlas.frame_width}}, {{atlas.frame_height}})
+    {%- endfor %}
+  {%- endfor %}
+{% endfor %}
+[resource]
+animations = [{
+"frames": [{
+"duration": 0.01,
+"texture": null
+}],
+"loop": false,
+"name": &"Empty",
+"speed": 5.0
+},
+{%- for atlas in images %}
+  {%- for row in range(0, atlas.rows | int)%}
+{
+"frames": [
+    {%- for col in range(0, atlas.cols | int)%}
+{
+"duration": 1.0,
+"texture": SubResource("{{atlas.animation_name}}_{{row}}_{{col}}")
+},
+    {%- endfor %}
+],
+"loop": true,
+"name": &"{{atlas.animation_name}}_{{atlas.rotations[row%(atlas.rotations|length)]}}",{#remember that the first charecters of the atlas name are the name of bulding which can be determined from the path#}
+"speed": 5.0
+},
+  {%- endfor %}
+{% endfor %}
+]

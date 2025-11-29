@@ -1,0 +1,411 @@
+[gd_resource type="SpriteFrames" load_steps=55 format=3 uid="uid://cbminetres000"]
+
+[ext_resource type="Texture2D" uid="uid://dfpivov1mt38x" path="res://Assets/World/Buildings2/mine/mine_settlers_as_mine5x5_idle.png" id="mine_settlers_as_mine5x5_idle"]
+[ext_resource type="Texture2D" uid="uid://jfgd7k2nl38p" path="res://Assets/World/Buildings2/mine/mine_settlers_as_mine5x5_work.png" id="mine_settlers_as_mine5x5_work"]
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_idle_045_0_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_idle")
+region = Rect2(0, 0, 320, 224)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_idle_135_0_224"]
+atlas = ExtResource("mine_settlers_as_mine5x5_idle")
+region = Rect2(0, 224, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_idle_225_0_544"]
+atlas = ExtResource("mine_settlers_as_mine5x5_idle")
+region = Rect2(0, 544, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_idle_315_0_864"]
+atlas = ExtResource("mine_settlers_as_mine5x5_idle")
+region = Rect2(0, 864, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_045_0_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(0, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_045_320_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(320, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_045_640_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(640, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_045_960_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(960, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_045_1280_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(1280, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_045_1600_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(1600, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_045_1920_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(1920, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_045_2240_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(2240, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_045_2560_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(2560, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_045_2880_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(2880, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_045_3200_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(3200, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_045_3520_0"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(3520, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_135_0_320"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(0, 320, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_135_320_320"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(320, 320, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_135_640_320"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(640, 320, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_135_960_320"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(960, 320, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_135_1280_320"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(1280, 320, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_135_1600_320"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(1600, 320, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_135_1920_320"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(1920, 320, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_135_2240_320"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(2240, 320, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_135_2560_320"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(2560, 320, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_135_2880_320"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(2880, 320, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_135_3200_320"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(3200, 320, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_135_3520_320"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(3520, 320, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_225_0_640"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(0, 640, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_225_320_640"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(320, 640, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_225_640_640"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(640, 640, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_225_960_640"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(960, 640, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_225_1280_640"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(1280, 640, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_225_1600_640"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(1600, 640, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_225_1920_640"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(1920, 640, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_225_2240_640"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(2240, 640, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_225_2560_640"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(2560, 640, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_225_2880_640"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(2880, 640, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_225_3200_640"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(3200, 640, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_225_3520_640"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(3520, 640, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_315_0_960"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(0, 960, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_315_320_960"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(320, 960, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_315_640_960"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(640, 960, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_315_960_960"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(960, 960, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_315_1280_960"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(1280, 960, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_315_1600_960"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(1600, 960, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_315_1920_960"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(1920, 960, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_315_2240_960"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(2240, 960, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_315_2560_960"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(2560, 960, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_315_2880_960"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(2880, 960, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_315_3200_960"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(3200, 960, 320, 320)
+
+[sub_resource type="AtlasTexture" id="mine5x5_settlers_work_315_3520_960"]
+atlas = ExtResource("mine_settlers_as_mine5x5_work")
+region = Rect2(3520, 960, 320, 320)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"mine5x5.settlers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_idle_135_0_224")
+}],
+"loop": true,
+"name": &"mine5x5.settlers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_idle_225_0_544")
+}],
+"loop": true,
+"name": &"mine5x5.settlers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_idle_315_0_864")
+}],
+"loop": true,
+"name": &"mine5x5.settlers.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_045_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_045_320_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_045_640_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_045_960_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_045_1280_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_045_1600_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_045_1920_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_045_2240_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_045_2560_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_045_2880_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_045_3200_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_045_3520_0")
+}],
+"loop": true,
+"name": &"mine5x5.settlers.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_135_0_320")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_135_320_320")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_135_640_320")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_135_960_320")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_135_1280_320")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_135_1600_320")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_135_1920_320")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_135_2240_320")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_135_2560_320")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_135_2880_320")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_135_3200_320")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_135_3520_320")
+}],
+"loop": true,
+"name": &"mine5x5.settlers.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_225_0_640")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_225_320_640")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_225_640_640")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_225_960_640")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_225_1280_640")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_225_1600_640")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_225_1920_640")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_225_2240_640")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_225_2560_640")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_225_2880_640")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_225_3200_640")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_225_3520_640")
+}],
+"loop": true,
+"name": &"mine5x5.settlers.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_315_0_960")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_315_320_960")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_315_640_960")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_315_960_960")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_315_1280_960")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_315_1600_960")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_315_1920_960")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_315_2240_960")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_315_2560_960")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_315_2880_960")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_315_3200_960")
+}, {
+"duration": 1.0,
+"texture": SubResource("mine5x5_settlers_work_315_3520_960")
+}],
+"loop": true,
+"name": &"mine5x5.settlers.work.315",
+"speed": 5.0
+}]

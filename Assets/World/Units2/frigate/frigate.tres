@@ -1,0 +1,4999 @@
+[gd_resource type="SpriteFrames" load_steps=695 format=3 uid="uid://cufrigatetres"]
+
+[ext_resource type="Texture2D" uid="uid://b7pcjf6g8q487" path="res://Assets/World/Units2/frigate/frigate_sailors_as_frigate0_fire_left.png" id="frigate_sailors_as_frigate0_fire_left"]
+[ext_resource type="Texture2D" uid="uid://vuolaob7tglu" path="res://Assets/World/Units2/frigate/frigate_sailors_as_frigate0_fire_right.png" id="frigate_sailors_as_frigate0_fire_right"]
+[ext_resource type="Texture2D" uid="uid://b7267sko25ndv" path="res://Assets/World/Units2/frigate/frigate_sailors_as_frigate0_idle.png" id="frigate_sailors_as_frigate0_idle"]
+[ext_resource type="Texture2D" uid="uid://cx8gc8dfldu7k" path="res://Assets/World/Units2/frigate/frigate_sailors_as_frigate0_move.png" id="frigate_sailors_as_frigate0_move"]
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_0_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_256_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_512_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(512, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_768_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(768, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_1024_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1024, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_1280_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1280, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_1536_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1536, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_1792_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1792, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_2048_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2048, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_2304_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2304, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_2560_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2560, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_2816_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2816, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_3072_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3072, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_3328_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3328, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_3584_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3584, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_3840_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3840, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_4096_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4096, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_4352_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4352, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_4608_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4608, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_4864_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4864, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_5120_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5120, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_5376_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5376, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_5632_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5632, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_5888_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5888, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_6144_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6144, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_6400_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6400, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_6656_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6656, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_6912_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6912, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_7168_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7168, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_7424_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7424, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_7680_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7680, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_7936_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7936, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_8192_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8192, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_8448_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8448, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_8704_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8704, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_8960_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8960, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_9216_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9216, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_9472_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9472, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_9728_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9728, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_9984_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9984, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_10240_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10240, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_000_10496_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10496, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_0_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(0, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_256_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(256, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_512_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(512, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_768_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(768, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_1024_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1024, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_1280_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1280, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_1536_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1536, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_1792_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1792, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_2048_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2048, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_2304_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2304, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_2560_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2560, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_2816_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2816, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_3072_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3072, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_3328_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3328, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_3584_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3584, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_3840_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3840, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_4096_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4096, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_4352_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4352, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_4608_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4608, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_4864_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4864, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_5120_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5120, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_5376_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5376, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_5632_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5632, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_5888_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5888, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_6144_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6144, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_6400_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6400, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_6656_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6656, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_6912_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6912, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_7168_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7168, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_7424_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7424, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_7680_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7680, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_7936_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7936, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_8192_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8192, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_8448_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8448, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_8704_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8704, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_8960_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8960, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_9216_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9216, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_9472_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9472, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_9728_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9728, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_9984_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9984, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_10240_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10240, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_10496_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10496, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_045_10752_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10752, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_0_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(0, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_256_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(256, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_512_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(512, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_768_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(768, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_1024_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1024, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_1280_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1280, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_1536_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1536, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_1792_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1792, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_2048_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2048, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_2304_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2304, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_2560_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2560, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_2816_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2816, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_3072_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3072, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_3328_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3328, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_3584_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3584, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_3840_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3840, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_4096_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4096, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_4352_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4352, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_4608_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4608, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_4864_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4864, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_5120_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5120, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_5376_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5376, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_5632_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5632, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_5888_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5888, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_6144_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6144, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_6400_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6400, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_6656_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6656, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_6912_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6912, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_7168_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7168, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_7424_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7424, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_7680_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7680, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_7936_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7936, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_8192_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8192, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_8448_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8448, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_8704_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8704, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_8960_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8960, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_9216_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9216, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_9472_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9472, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_9728_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9728, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_9984_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9984, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_10240_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10240, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_090_10496_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10496, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_0_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(0, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_256_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(256, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_512_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(512, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_768_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(768, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_1024_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1024, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_1280_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1280, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_1536_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1536, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_1792_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1792, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_2048_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2048, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_2304_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2304, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_2560_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2560, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_2816_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2816, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_3072_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3072, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_3328_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3328, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_3584_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3584, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_3840_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3840, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_4096_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4096, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_4352_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4352, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_4608_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4608, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_4864_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4864, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_5120_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5120, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_5376_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5376, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_5632_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5632, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_5888_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5888, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_6144_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6144, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_6400_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6400, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_6656_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6656, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_6912_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6912, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_7168_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7168, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_7424_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7424, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_7680_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7680, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_7936_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7936, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_8192_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8192, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_8448_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8448, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_8704_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8704, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_8960_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8960, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_9216_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9216, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_9472_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9472, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_9728_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9728, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_9984_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9984, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_10240_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10240, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_135_10496_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10496, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_0_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(0, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_256_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(256, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_512_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(512, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_768_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(768, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_1024_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1024, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_1280_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1280, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_1536_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1536, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_1792_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1792, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_2048_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2048, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_2304_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2304, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_2560_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2560, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_2816_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2816, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_3072_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3072, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_3328_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3328, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_3584_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3584, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_3840_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3840, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_4096_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4096, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_4352_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4352, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_4608_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4608, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_4864_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4864, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_5120_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5120, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_5376_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5376, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_5632_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5632, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_5888_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5888, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_6144_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6144, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_6400_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6400, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_6656_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6656, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_6912_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6912, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_7168_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7168, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_7424_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7424, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_7680_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7680, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_7936_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7936, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_8192_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8192, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_8448_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8448, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_8704_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8704, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_8960_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8960, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_9216_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9216, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_9472_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9472, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_9728_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9728, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_9984_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9984, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_10240_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10240, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_180_10496_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10496, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_0_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(0, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_256_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(256, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_512_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(512, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_768_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(768, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_1024_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1024, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_1280_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1280, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_1536_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1536, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_1792_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1792, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_2048_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2048, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_2304_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2304, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_2560_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2560, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_2816_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2816, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_3072_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3072, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_3328_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3328, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_3584_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3584, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_3840_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3840, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_4096_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4096, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_4352_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4352, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_4608_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4608, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_4864_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4864, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_5120_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5120, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_5376_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5376, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_5632_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5632, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_5888_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5888, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_6144_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6144, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_6400_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6400, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_6656_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6656, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_6912_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6912, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_7168_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7168, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_7424_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7424, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_7680_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7680, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_7936_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7936, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_8192_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8192, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_8448_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8448, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_8704_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8704, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_8960_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8960, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_9216_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9216, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_9472_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9472, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_9728_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9728, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_9984_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9984, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_10240_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10240, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_225_10496_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10496, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_0_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(0, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_256_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(256, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_512_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(512, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_768_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(768, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_1024_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1024, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_1280_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1280, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_1536_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1536, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_1792_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1792, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_2048_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2048, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_2304_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2304, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_2560_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2560, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_2816_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2816, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_3072_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3072, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_3328_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3328, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_3584_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3584, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_3840_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3840, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_4096_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4096, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_4352_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4352, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_4608_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4608, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_4864_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4864, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_5120_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5120, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_5376_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5376, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_5632_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5632, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_5888_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5888, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_6144_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6144, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_6400_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6400, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_6656_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6656, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_6912_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6912, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_7168_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7168, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_7424_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7424, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_7680_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7680, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_7936_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7936, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_8192_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8192, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_8448_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8448, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_8704_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8704, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_8960_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8960, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_9216_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9216, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_9472_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9472, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_9728_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9728, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_9984_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9984, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_10240_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10240, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_270_10496_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10496, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_0_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(0, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_256_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(256, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_512_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(512, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_768_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(768, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_1024_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1024, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_1280_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1280, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_1536_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1536, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_1792_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(1792, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_2048_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2048, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_2304_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2304, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_2560_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2560, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_2816_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(2816, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_3072_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3072, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_3328_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3328, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_3584_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3584, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_3840_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(3840, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_4096_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4096, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_4352_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4352, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_4608_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4608, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_4864_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(4864, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_5120_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5120, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_5376_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5376, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_5632_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5632, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_5888_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(5888, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_6144_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6144, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_6400_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6400, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_6656_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6656, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_6912_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(6912, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_7168_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7168, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_7424_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7424, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_7680_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7680, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_7936_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(7936, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_8192_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8192, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_8448_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8448, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_8704_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8704, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_8960_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(8960, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_9216_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9216, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_9472_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9472, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_9728_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9728, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_9984_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(9984, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_10240_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10240, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_left_315_10496_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_left")
+region = Rect2(10496, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_0_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_256_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_512_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(512, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_768_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(768, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_1024_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1024, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_1280_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1280, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_1536_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1536, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_1792_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1792, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_2048_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2048, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_2304_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2304, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_2560_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2560, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_2816_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2816, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_3072_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3072, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_3328_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3328, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_3584_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3584, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_3840_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3840, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_4096_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4096, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_4352_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4352, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_4608_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4608, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_4864_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4864, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_5120_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5120, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_5376_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5376, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_5632_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5632, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_5888_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5888, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_6144_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6144, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_6400_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6400, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_6656_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6656, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_6912_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6912, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_7168_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7168, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_7424_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7424, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_7680_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7680, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_7936_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7936, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_8192_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8192, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_8448_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8448, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_8704_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8704, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_8960_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8960, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_9216_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9216, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_9472_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9472, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_9728_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9728, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_9984_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9984, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_10240_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10240, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_000_10496_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10496, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_0_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(0, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_256_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(256, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_512_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(512, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_768_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(768, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_1024_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1024, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_1280_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1280, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_1536_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1536, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_1792_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1792, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_2048_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2048, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_2304_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2304, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_2560_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2560, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_2816_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2816, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_3072_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3072, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_3328_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3328, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_3584_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3584, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_3840_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3840, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_4096_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4096, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_4352_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4352, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_4608_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4608, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_4864_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4864, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_5120_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5120, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_5376_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5376, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_5632_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5632, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_5888_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5888, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_6144_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6144, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_6400_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6400, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_6656_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6656, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_6912_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6912, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_7168_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7168, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_7424_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7424, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_7680_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7680, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_7936_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7936, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_8192_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8192, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_8448_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8448, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_8704_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8704, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_8960_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8960, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_9216_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9216, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_9472_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9472, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_9728_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9728, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_9984_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9984, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_10240_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10240, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_10496_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10496, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_045_10752_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10752, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_0_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(0, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_256_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(256, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_512_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(512, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_768_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(768, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_1024_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1024, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_1280_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1280, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_1536_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1536, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_1792_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1792, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_2048_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2048, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_2304_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2304, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_2560_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2560, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_2816_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2816, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_3072_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3072, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_3328_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3328, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_3584_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3584, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_3840_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3840, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_4096_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4096, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_4352_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4352, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_4608_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4608, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_4864_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4864, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_5120_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5120, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_5376_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5376, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_5632_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5632, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_5888_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5888, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_6144_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6144, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_6400_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6400, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_6656_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6656, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_6912_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6912, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_7168_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7168, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_7424_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7424, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_7680_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7680, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_7936_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7936, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_8192_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8192, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_8448_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8448, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_8704_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8704, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_8960_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8960, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_9216_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9216, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_9472_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9472, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_9728_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9728, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_9984_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9984, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_10240_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10240, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_090_10496_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10496, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_0_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(0, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_256_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(256, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_512_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(512, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_768_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(768, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_1024_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1024, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_1280_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1280, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_1536_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1536, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_1792_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1792, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_2048_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2048, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_2304_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2304, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_2560_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2560, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_2816_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2816, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_3072_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3072, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_3328_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3328, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_3584_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3584, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_3840_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3840, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_4096_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4096, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_4352_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4352, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_4608_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4608, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_4864_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4864, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_5120_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5120, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_5376_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5376, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_5632_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5632, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_5888_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5888, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_6144_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6144, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_6400_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6400, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_6656_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6656, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_6912_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6912, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_7168_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7168, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_7424_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7424, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_7680_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7680, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_7936_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7936, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_8192_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8192, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_8448_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8448, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_8704_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8704, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_8960_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8960, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_9216_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9216, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_9472_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9472, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_9728_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9728, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_9984_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9984, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_10240_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10240, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_135_10496_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10496, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_0_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(0, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_256_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(256, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_512_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(512, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_768_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(768, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_1024_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1024, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_1280_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1280, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_1536_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1536, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_1792_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1792, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_2048_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2048, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_2304_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2304, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_2560_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2560, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_2816_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2816, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_3072_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3072, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_3328_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3328, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_3584_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3584, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_3840_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3840, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_4096_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4096, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_4352_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4352, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_4608_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4608, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_4864_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4864, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_5120_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5120, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_5376_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5376, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_5632_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5632, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_5888_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5888, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_6144_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6144, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_6400_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6400, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_6656_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6656, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_6912_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6912, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_7168_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7168, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_7424_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7424, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_7680_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7680, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_7936_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7936, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_8192_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8192, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_8448_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8448, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_8704_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8704, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_8960_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8960, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_9216_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9216, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_9472_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9472, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_9728_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9728, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_9984_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9984, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_10240_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10240, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_180_10496_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10496, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_0_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(0, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_256_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(256, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_512_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(512, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_768_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(768, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_1024_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1024, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_1280_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1280, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_1536_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1536, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_1792_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1792, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_2048_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2048, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_2304_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2304, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_2560_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2560, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_2816_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2816, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_3072_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3072, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_3328_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3328, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_3584_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3584, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_3840_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3840, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_4096_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4096, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_4352_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4352, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_4608_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4608, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_4864_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4864, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_5120_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5120, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_5376_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5376, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_5632_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5632, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_5888_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5888, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_6144_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6144, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_6400_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6400, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_6656_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6656, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_6912_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6912, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_7168_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7168, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_7424_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7424, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_7680_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7680, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_7936_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7936, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_8192_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8192, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_8448_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8448, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_8704_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8704, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_8960_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8960, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_9216_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9216, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_9472_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9472, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_9728_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9728, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_9984_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9984, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_10240_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10240, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_225_10496_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10496, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_0_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(0, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_256_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(256, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_512_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(512, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_768_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(768, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_1024_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1024, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_1280_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1280, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_1536_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1536, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_1792_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1792, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_2048_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2048, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_2304_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2304, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_2560_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2560, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_2816_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2816, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_3072_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3072, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_3328_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3328, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_3584_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3584, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_3840_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3840, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_4096_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4096, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_4352_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4352, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_4608_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4608, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_4864_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4864, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_5120_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5120, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_5376_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5376, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_5632_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5632, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_5888_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5888, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_6144_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6144, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_6400_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6400, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_6656_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6656, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_6912_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6912, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_7168_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7168, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_7424_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7424, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_7680_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7680, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_7936_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7936, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_8192_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8192, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_8448_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8448, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_8704_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8704, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_8960_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8960, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_9216_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9216, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_9472_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9472, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_9728_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9728, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_9984_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9984, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_10240_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10240, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_270_10496_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10496, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_0_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(0, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_256_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(256, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_512_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(512, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_768_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(768, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_1024_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1024, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_1280_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1280, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_1536_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1536, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_1792_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(1792, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_2048_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2048, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_2304_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2304, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_2560_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2560, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_2816_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(2816, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_3072_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3072, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_3328_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3328, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_3584_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3584, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_3840_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(3840, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_4096_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4096, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_4352_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4352, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_4608_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4608, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_4864_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(4864, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_5120_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5120, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_5376_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5376, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_5632_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5632, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_5888_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(5888, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_6144_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6144, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_6400_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6400, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_6656_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6656, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_6912_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(6912, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_7168_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7168, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_7424_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7424, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_7680_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7680, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_7936_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(7936, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_8192_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8192, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_8448_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8448, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_8704_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8704, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_8960_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(8960, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_9216_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9216, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_9472_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9472, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_9728_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9728, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_9984_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(9984, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_10240_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10240, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_fire_right_315_10496_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_fire_right")
+region = Rect2(10496, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_idle_000_0_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_idle")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_idle_045_0_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_idle")
+region = Rect2(0, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_idle_090_0_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_idle")
+region = Rect2(0, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_idle_135_0_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_idle")
+region = Rect2(0, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_idle_180_0_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_idle")
+region = Rect2(0, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_idle_225_0_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_idle")
+region = Rect2(0, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_idle_270_0_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_idle")
+region = Rect2(0, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_idle_315_0_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_idle")
+region = Rect2(0, 1792, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_move_000_0_0"]
+atlas = ExtResource("frigate_sailors_as_frigate0_move")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_move_045_0_256"]
+atlas = ExtResource("frigate_sailors_as_frigate0_move")
+region = Rect2(0, 256, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_move_090_0_512"]
+atlas = ExtResource("frigate_sailors_as_frigate0_move")
+region = Rect2(0, 512, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_move_135_0_768"]
+atlas = ExtResource("frigate_sailors_as_frigate0_move")
+region = Rect2(0, 768, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_move_180_0_1024"]
+atlas = ExtResource("frigate_sailors_as_frigate0_move")
+region = Rect2(0, 1024, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_move_225_0_1280"]
+atlas = ExtResource("frigate_sailors_as_frigate0_move")
+region = Rect2(0, 1280, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_move_270_0_1536"]
+atlas = ExtResource("frigate_sailors_as_frigate0_move")
+region = Rect2(0, 1536, 256, 256)
+
+[sub_resource type="AtlasTexture" id="frigate0_sailors_move_315_0_1792"]
+atlas = ExtResource("frigate_sailors_as_frigate0_move")
+region = Rect2(0, 1792, 256, 256)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_256_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_512_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_768_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_1024_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_1280_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_1536_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_1792_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_2048_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_2304_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_2560_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_2816_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_3072_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_3328_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_3584_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_3840_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_4096_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_4352_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_4608_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_4864_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_5120_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_5376_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_5632_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_5888_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_6144_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_6400_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_6656_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_6912_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_7168_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_7424_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_7680_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_7936_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_8192_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_8448_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_8704_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_8960_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_9216_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_9472_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_9728_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_9984_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_10240_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_000_10496_0")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_left.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_0_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_256_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_512_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_768_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_1024_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_1280_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_1536_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_1792_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_2048_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_2304_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_2560_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_2816_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_3072_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_3328_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_3584_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_3840_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_4096_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_4352_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_4608_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_4864_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_5120_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_5376_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_5632_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_5888_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_6144_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_6400_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_6656_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_6912_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_7168_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_7424_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_7680_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_7936_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_8192_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_8448_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_8704_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_8960_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_9216_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_9472_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_9728_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_9984_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_10240_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_10496_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_045_10752_256")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_left.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_0_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_256_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_512_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_768_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_1024_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_1280_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_1536_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_1792_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_2048_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_2304_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_2560_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_2816_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_3072_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_3328_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_3584_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_3840_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_4096_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_4352_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_4608_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_4864_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_5120_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_5376_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_5632_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_5888_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_6144_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_6400_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_6656_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_6912_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_7168_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_7424_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_7680_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_7936_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_8192_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_8448_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_8704_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_8960_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_9216_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_9472_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_9728_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_9984_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_10240_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_090_10496_512")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_left.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_0_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_256_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_512_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_768_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_1024_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_1280_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_1536_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_1792_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_2048_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_2304_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_2560_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_2816_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_3072_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_3328_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_3584_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_3840_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_4096_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_4352_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_4608_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_4864_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_5120_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_5376_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_5632_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_5888_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_6144_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_6400_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_6656_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_6912_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_7168_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_7424_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_7680_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_7936_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_8192_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_8448_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_8704_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_8960_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_9216_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_9472_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_9728_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_9984_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_10240_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_135_10496_768")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_left.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_0_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_256_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_512_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_768_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_1024_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_1280_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_1536_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_1792_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_2048_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_2304_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_2560_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_2816_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_3072_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_3328_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_3584_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_3840_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_4096_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_4352_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_4608_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_4864_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_5120_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_5376_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_5632_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_5888_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_6144_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_6400_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_6656_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_6912_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_7168_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_7424_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_7680_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_7936_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_8192_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_8448_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_8704_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_8960_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_9216_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_9472_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_9728_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_9984_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_10240_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_180_10496_1024")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_left.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_0_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_256_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_512_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_768_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_1024_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_1280_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_1536_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_1792_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_2048_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_2304_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_2560_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_2816_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_3072_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_3328_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_3584_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_3840_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_4096_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_4352_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_4608_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_4864_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_5120_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_5376_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_5632_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_5888_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_6144_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_6400_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_6656_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_6912_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_7168_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_7424_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_7680_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_7936_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_8192_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_8448_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_8704_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_8960_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_9216_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_9472_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_9728_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_9984_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_10240_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_225_10496_1280")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_left.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_0_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_256_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_512_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_768_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_1024_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_1280_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_1536_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_1792_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_2048_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_2304_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_2560_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_2816_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_3072_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_3328_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_3584_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_3840_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_4096_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_4352_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_4608_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_4864_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_5120_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_5376_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_5632_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_5888_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_6144_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_6400_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_6656_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_6912_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_7168_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_7424_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_7680_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_7936_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_8192_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_8448_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_8704_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_8960_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_9216_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_9472_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_9728_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_9984_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_10240_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_270_10496_1536")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_left.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_0_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_256_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_512_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_768_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_1024_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_1280_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_1536_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_1792_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_2048_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_2304_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_2560_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_2816_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_3072_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_3328_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_3584_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_3840_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_4096_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_4352_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_4608_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_4864_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_5120_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_5376_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_5632_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_5888_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_6144_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_6400_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_6656_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_6912_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_7168_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_7424_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_7680_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_7936_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_8192_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_8448_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_8704_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_8960_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_9216_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_9472_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_9728_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_9984_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_10240_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_left_315_10496_1792")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_left.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_256_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_512_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_768_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_1024_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_1280_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_1536_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_1792_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_2048_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_2304_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_2560_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_2816_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_3072_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_3328_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_3584_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_3840_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_4096_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_4352_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_4608_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_4864_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_5120_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_5376_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_5632_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_5888_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_6144_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_6400_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_6656_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_6912_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_7168_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_7424_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_7680_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_7936_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_8192_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_8448_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_8704_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_8960_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_9216_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_9472_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_9728_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_9984_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_10240_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_000_10496_0")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_right.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_0_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_256_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_512_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_768_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_1024_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_1280_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_1536_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_1792_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_2048_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_2304_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_2560_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_2816_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_3072_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_3328_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_3584_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_3840_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_4096_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_4352_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_4608_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_4864_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_5120_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_5376_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_5632_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_5888_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_6144_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_6400_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_6656_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_6912_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_7168_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_7424_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_7680_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_7936_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_8192_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_8448_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_8704_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_8960_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_9216_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_9472_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_9728_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_9984_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_10240_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_10496_256")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_045_10752_256")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_right.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_0_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_256_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_512_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_768_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_1024_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_1280_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_1536_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_1792_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_2048_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_2304_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_2560_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_2816_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_3072_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_3328_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_3584_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_3840_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_4096_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_4352_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_4608_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_4864_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_5120_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_5376_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_5632_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_5888_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_6144_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_6400_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_6656_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_6912_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_7168_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_7424_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_7680_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_7936_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_8192_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_8448_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_8704_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_8960_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_9216_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_9472_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_9728_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_9984_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_10240_512")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_090_10496_512")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_right.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_0_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_256_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_512_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_768_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_1024_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_1280_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_1536_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_1792_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_2048_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_2304_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_2560_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_2816_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_3072_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_3328_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_3584_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_3840_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_4096_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_4352_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_4608_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_4864_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_5120_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_5376_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_5632_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_5888_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_6144_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_6400_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_6656_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_6912_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_7168_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_7424_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_7680_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_7936_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_8192_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_8448_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_8704_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_8960_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_9216_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_9472_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_9728_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_9984_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_10240_768")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_135_10496_768")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_right.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_0_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_256_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_512_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_768_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_1024_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_1280_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_1536_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_1792_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_2048_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_2304_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_2560_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_2816_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_3072_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_3328_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_3584_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_3840_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_4096_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_4352_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_4608_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_4864_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_5120_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_5376_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_5632_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_5888_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_6144_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_6400_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_6656_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_6912_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_7168_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_7424_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_7680_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_7936_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_8192_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_8448_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_8704_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_8960_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_9216_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_9472_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_9728_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_9984_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_10240_1024")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_180_10496_1024")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_right.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_0_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_256_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_512_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_768_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_1024_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_1280_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_1536_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_1792_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_2048_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_2304_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_2560_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_2816_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_3072_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_3328_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_3584_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_3840_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_4096_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_4352_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_4608_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_4864_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_5120_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_5376_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_5632_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_5888_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_6144_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_6400_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_6656_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_6912_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_7168_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_7424_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_7680_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_7936_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_8192_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_8448_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_8704_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_8960_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_9216_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_9472_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_9728_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_9984_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_10240_1280")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_225_10496_1280")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_right.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_0_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_256_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_512_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_768_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_1024_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_1280_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_1536_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_1792_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_2048_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_2304_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_2560_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_2816_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_3072_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_3328_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_3584_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_3840_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_4096_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_4352_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_4608_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_4864_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_5120_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_5376_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_5632_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_5888_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_6144_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_6400_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_6656_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_6912_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_7168_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_7424_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_7680_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_7936_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_8192_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_8448_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_8704_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_8960_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_9216_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_9472_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_9728_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_9984_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_10240_1536")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_270_10496_1536")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_right.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_0_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_256_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_512_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_768_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_1024_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_1280_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_1536_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_1792_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_2048_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_2304_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_2560_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_2816_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_3072_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_3328_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_3584_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_3840_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_4096_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_4352_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_4608_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_4864_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_5120_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_5376_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_5632_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_5888_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_6144_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_6400_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_6656_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_6912_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_7168_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_7424_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_7680_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_7936_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_8192_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_8448_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_8704_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_8960_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_9216_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_9472_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_9728_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_9984_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_10240_1792")
+}, {
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_fire_right_315_10496_1792")
+}],
+"loop": true,
+"name": &"frigate0.sailors.fire_right.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_idle_000_0_0")
+}],
+"loop": true,
+"name": &"frigate0.sailors.idle.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_idle_045_0_256")
+}],
+"loop": true,
+"name": &"frigate0.sailors.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_idle_090_0_512")
+}],
+"loop": true,
+"name": &"frigate0.sailors.idle.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_idle_135_0_768")
+}],
+"loop": true,
+"name": &"frigate0.sailors.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_idle_180_0_1024")
+}],
+"loop": true,
+"name": &"frigate0.sailors.idle.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_idle_225_0_1280")
+}],
+"loop": true,
+"name": &"frigate0.sailors.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_idle_270_0_1536")
+}],
+"loop": true,
+"name": &"frigate0.sailors.idle.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_idle_315_0_1792")
+}],
+"loop": true,
+"name": &"frigate0.sailors.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_move_000_0_0")
+}],
+"loop": true,
+"name": &"frigate0.sailors.move.000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_move_045_0_256")
+}],
+"loop": true,
+"name": &"frigate0.sailors.move.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_move_090_0_512")
+}],
+"loop": true,
+"name": &"frigate0.sailors.move.090",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_move_135_0_768")
+}],
+"loop": true,
+"name": &"frigate0.sailors.move.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_move_180_0_1024")
+}],
+"loop": true,
+"name": &"frigate0.sailors.move.180",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_move_225_0_1280")
+}],
+"loop": true,
+"name": &"frigate0.sailors.move.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_move_270_0_1536")
+}],
+"loop": true,
+"name": &"frigate0.sailors.move.270",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("frigate0_sailors_move_315_0_1792")
+}],
+"loop": true,
+"name": &"frigate0.sailors.move.315",
+"speed": 5.0
+}]

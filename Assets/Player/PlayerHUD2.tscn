@@ -1,0 +1,86 @@
+[gd_scene load_steps=11 format=3 uid="uid://bka87rk8lk7kb"]
+
+[ext_resource type="Script" uid="uid://co44sdl42vl2b" path="res://Assets/Player/PlayerHUD2.gd" id="1_mg2ty"]
+[ext_resource type="PackedScene" uid="uid://bk0cq3b2hhoi2" path="res://Assets/UI/InfoWidgets/CityInfo.tscn" id="2_1pfyv"]
+[ext_resource type="PackedScene" uid="uid://c4e812pijkjhi" path="res://Assets/UI/InfoWidgets/ResourcesOverlay.tscn" id="2_7rego"]
+[ext_resource type="Script" uid="uid://cio1pvsofqs" path="res://Assets/UI/InfoWidgets/FinanceAndResourceOverlay.gd" id="2_louy2"]
+[ext_resource type="PackedScene" uid="uid://cwi23f5spohl" path="res://Assets/UI/InfoWidgets/BalanceInfoButton.tscn" id="3_sivbb"]
+[ext_resource type="PackedScene" uid="uid://37cfdhkia73r" path="res://Assets/UI/TabWidgets/WidgetTop.tscn" id="4_nvuti"]
+[ext_resource type="PackedScene" uid="uid://ddx05pxr84tol" path="res://Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn" id="7_louy2"]
+[ext_resource type="PackedScene" uid="uid://db0jyegu5eki5" path="res://Assets/UI/TabWidgets/AllTabs.tscn" id="53_lmqcj"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f12q6"]
+
+[sub_resource type="Theme" id="Theme_nxfqi"]
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_f12q6")
+
+[node name="PlayerHud2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_mg2ty")
+
+[node name="FinanceAndResourceOverlay" type="HBoxContainer" parent="."]
+layout_mode = 1
+offset_right = 1152.0
+offset_bottom = 176.0
+script = ExtResource("2_louy2")
+
+[node name="BalanceInfoButton" parent="FinanceAndResourceOverlay" instance=ExtResource("3_sivbb")]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="ResourcesOverlay" parent="FinanceAndResourceOverlay" instance=ExtResource("2_7rego")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="CityInfo" parent="." instance=ExtResource("2_1pfyv")]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -120.5
+offset_right = 120.5
+grow_horizontal = 2
+
+[node name="RightMenuPanel" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -251.0
+offset_bottom = 861.0
+grow_horizontal = 0
+theme_override_constants/separation = -57
+
+[node name="WidgetTop" parent="RightMenuPanel" instance=ExtResource("4_nvuti")]
+layout_mode = 2
+
+[node name="TabContainer" type="TabContainer" parent="RightMenuPanel"]
+show_behind_parent = true
+layout_mode = 2
+mouse_filter = 2
+current_tab = 1
+tabs_visible = false
+
+[node name="EmptyPanelContainer" type="PanelContainer" parent="RightMenuPanel/TabContainer"]
+visible = false
+layout_mode = 2
+theme = SubResource("Theme_nxfqi")
+metadata/_tab_index = 0
+
+[node name="BuildingMenuTabWidget" parent="RightMenuPanel/TabContainer" instance=ExtResource("7_louy2")]
+unique_name_in_owner = true
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="AllTabs" parent="RightMenuPanel/TabContainer" instance=ExtResource("53_lmqcj")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2

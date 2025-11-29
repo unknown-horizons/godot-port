@@ -1,0 +1,904 @@
+[gd_resource type="SpriteFrames" load_steps=124 format=3 uid="uid://cbmainsquartr"]
+
+[ext_resource type="Texture2D" uid="uid://t5aimptv6dy0" path="res://Assets/World/Buildings2/main_square/main_square_citizens_as_mainsquare_stone0_idle.png" id="main_square_citizens_as_mainsquare_stone0_idle"]
+[ext_resource type="Texture2D" uid="uid://pmfw50p3hmue" path="res://Assets/World/Buildings2/main_square/main_square_pioneers_as_mainsquare_wooden0_idle.png" id="main_square_pioneers_as_mainsquare_wooden0_idle"]
+[ext_resource type="Texture2D" uid="uid://c1tbavdtry3yf" path="res://Assets/World/Buildings2/main_square/main_square_sailors_as_mainsquare0_work_045.png" id="main_square_sailors_as_mainsquare0_work_045"]
+[ext_resource type="Texture2D" uid="uid://b8l4ehb1soib6" path="res://Assets/World/Buildings2/main_square/main_square_sailors_as_mainsquare0_work_135.png" id="main_square_sailors_as_mainsquare0_work_135"]
+[ext_resource type="Texture2D" uid="uid://d2yjhpn3gsu2r" path="res://Assets/World/Buildings2/main_square/main_square_sailors_as_mainsquare0_work_225.png" id="main_square_sailors_as_mainsquare0_work_225"]
+[ext_resource type="Texture2D" uid="uid://63qxv5kbrwga" path="res://Assets/World/Buildings2/main_square/main_square_sailors_as_mainsquare0_work_315.png" id="main_square_sailors_as_mainsquare0_work_315"]
+[ext_resource type="Texture2D" uid="uid://cyijd1u56b3x8" path="res://Assets/World/Buildings2/main_square/main_square_settlers_as_mainsquare_timberframed0_idle.png" id="main_square_settlers_as_mainsquare_timberframed0_idle"]
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_0_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(0, 0, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_384_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(384, 0, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_768_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(768, 0, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_1152_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(1152, 0, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_0_187"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(0, 187, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_384_187"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(384, 187, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_768_187"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(768, 187, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_1152_187"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(1152, 187, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_0_374"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(0, 374, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_384_374"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(384, 374, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_768_374"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(768, 374, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_1152_374"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(1152, 374, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_0_561"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(0, 561, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_384_561"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(384, 561, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_768_561"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(768, 561, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_1152_561"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(1152, 561, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_0_748"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(0, 748, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_384_748"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(384, 748, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_768_748"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(768, 748, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_1152_748"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(1152, 748, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_0_935"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(0, 935, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_384_935"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(384, 935, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_768_935"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(768, 935, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_1152_935"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(1152, 935, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_0_1122"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(0, 1122, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_045_384_1122"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_045")
+region = Rect2(384, 1122, 384, 187)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_0_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(0, 0, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_384_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(384, 0, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_768_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(768, 0, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_1152_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(1152, 0, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_0_197"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(0, 197, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_384_197"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(384, 197, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_768_197"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(768, 197, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_1152_197"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(1152, 197, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_0_394"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(0, 394, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_384_394"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(384, 394, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_768_394"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(768, 394, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_1152_394"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(1152, 394, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_0_591"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(0, 591, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_384_591"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(384, 591, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_768_591"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(768, 591, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_1152_591"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(1152, 591, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_0_788"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(0, 788, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_384_788"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(384, 788, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_768_788"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(768, 788, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_1152_788"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(1152, 788, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_0_985"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(0, 985, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_384_985"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(384, 985, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_768_985"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(768, 985, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_1152_985"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(1152, 985, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_0_1182"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(0, 1182, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_135_384_1182"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_135")
+region = Rect2(384, 1182, 384, 197)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_0_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(0, 0, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_384_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(384, 0, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_768_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(768, 0, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_1152_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(1152, 0, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_0_186"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(0, 186, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_384_186"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(384, 186, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_768_186"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(768, 186, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_1152_186"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(1152, 186, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_0_372"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(0, 372, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_384_372"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(384, 372, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_768_372"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(768, 372, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_1152_372"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(1152, 372, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_0_558"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(0, 558, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_384_558"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(384, 558, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_768_558"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(768, 558, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_1152_558"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(1152, 558, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_0_744"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(0, 744, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_384_744"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(384, 744, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_768_744"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(768, 744, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_1152_744"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(1152, 744, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_0_930"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(0, 930, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_384_930"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(384, 930, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_768_930"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(768, 930, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_1152_930"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(1152, 930, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_0_1116"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(0, 1116, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_225_384_1116"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_225")
+region = Rect2(384, 1116, 384, 186)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_0_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(0, 0, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_384_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(384, 0, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_768_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(768, 0, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_1152_0"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(1152, 0, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_0_224"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(0, 224, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_384_224"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(384, 224, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_768_224"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(768, 224, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_1152_224"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(1152, 224, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_0_448"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(0, 448, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_384_448"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(384, 448, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_768_448"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(768, 448, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_1152_448"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(1152, 448, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_0_672"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(0, 672, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_384_672"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(384, 672, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_768_672"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(768, 672, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_1152_672"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(1152, 672, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_0_896"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(0, 896, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_384_896"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(384, 896, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_768_896"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(768, 896, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_1152_896"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(1152, 896, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_0_1120"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(0, 1120, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_384_1120"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(384, 1120, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_768_1120"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(768, 1120, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_1152_1120"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(1152, 1120, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_0_1344"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(0, 1344, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare0_sailors_work_315_384_1344"]
+atlas = ExtResource("main_square_sailors_as_mainsquare0_work_315")
+region = Rect2(384, 1344, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare_stone0_citizens_idle_045_0_0"]
+atlas = ExtResource("main_square_citizens_as_mainsquare_stone0_idle")
+region = Rect2(0, 0, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare_stone0_citizens_idle_135_0_224"]
+atlas = ExtResource("main_square_citizens_as_mainsquare_stone0_idle")
+region = Rect2(0, 224, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare_stone0_citizens_idle_225_0_448"]
+atlas = ExtResource("main_square_citizens_as_mainsquare_stone0_idle")
+region = Rect2(0, 448, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare_stone0_citizens_idle_315_0_672"]
+atlas = ExtResource("main_square_citizens_as_mainsquare_stone0_idle")
+region = Rect2(0, 672, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare_timberframed0_settlers_idle_045_0_0"]
+atlas = ExtResource("main_square_settlers_as_mainsquare_timberframed0_idle")
+region = Rect2(0, 0, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare_timberframed0_settlers_idle_135_0_224"]
+atlas = ExtResource("main_square_settlers_as_mainsquare_timberframed0_idle")
+region = Rect2(0, 224, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare_timberframed0_settlers_idle_225_0_448"]
+atlas = ExtResource("main_square_settlers_as_mainsquare_timberframed0_idle")
+region = Rect2(0, 448, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare_timberframed0_settlers_idle_315_0_672"]
+atlas = ExtResource("main_square_settlers_as_mainsquare_timberframed0_idle")
+region = Rect2(0, 672, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare_wooden0_pioneers_idle_045_0_0"]
+atlas = ExtResource("main_square_pioneers_as_mainsquare_wooden0_idle")
+region = Rect2(0, 0, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare_wooden0_pioneers_idle_135_0_224"]
+atlas = ExtResource("main_square_pioneers_as_mainsquare_wooden0_idle")
+region = Rect2(0, 224, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare_wooden0_pioneers_idle_225_0_448"]
+atlas = ExtResource("main_square_pioneers_as_mainsquare_wooden0_idle")
+region = Rect2(0, 448, 384, 224)
+
+[sub_resource type="AtlasTexture" id="mainsquare_wooden0_pioneers_idle_315_0_672"]
+atlas = ExtResource("main_square_pioneers_as_mainsquare_wooden0_idle")
+region = Rect2(0, 672, 384, 224)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_384_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_768_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_1152_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_0_187")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_384_187")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_768_187")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_1152_187")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_0_374")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_384_374")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_768_374")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_1152_374")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_0_561")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_384_561")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_768_561")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_1152_561")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_0_748")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_384_748")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_768_748")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_1152_748")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_0_935")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_384_935")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_768_935")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_1152_935")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_0_1122")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_045_384_1122")
+}],
+"loop": true,
+"name": &"mainsquare0.sailors.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_384_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_768_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_1152_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_0_197")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_384_197")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_768_197")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_1152_197")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_0_394")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_384_394")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_768_394")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_1152_394")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_0_591")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_384_591")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_768_591")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_1152_591")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_0_788")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_384_788")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_768_788")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_1152_788")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_0_985")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_384_985")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_768_985")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_1152_985")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_0_1182")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_135_384_1182")
+}],
+"loop": true,
+"name": &"mainsquare0.sailors.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_384_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_768_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_1152_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_0_186")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_384_186")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_768_186")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_1152_186")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_0_372")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_384_372")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_768_372")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_1152_372")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_0_558")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_384_558")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_768_558")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_1152_558")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_0_744")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_384_744")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_768_744")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_1152_744")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_0_930")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_384_930")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_768_930")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_1152_930")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_0_1116")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_225_384_1116")
+}],
+"loop": true,
+"name": &"mainsquare0.sailors.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_384_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_768_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_1152_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_0_224")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_384_224")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_768_224")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_1152_224")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_0_448")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_384_448")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_768_448")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_1152_448")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_0_672")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_384_672")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_768_672")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_1152_672")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_0_896")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_384_896")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_768_896")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_1152_896")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_0_1120")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_384_1120")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_768_1120")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_1152_1120")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_0_1344")
+}, {
+"duration": 1.0,
+"texture": SubResource("mainsquare0_sailors_work_315_384_1344")
+}],
+"loop": true,
+"name": &"mainsquare0.sailors.work.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare_stone0_citizens_idle_045_0_0")
+}],
+"loop": true,
+"name": &"mainsquare_stone0.citizens.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare_stone0_citizens_idle_135_0_224")
+}],
+"loop": true,
+"name": &"mainsquare_stone0.citizens.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare_stone0_citizens_idle_225_0_448")
+}],
+"loop": true,
+"name": &"mainsquare_stone0.citizens.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare_stone0_citizens_idle_315_0_672")
+}],
+"loop": true,
+"name": &"mainsquare_stone0.citizens.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare_timberframed0_settlers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"mainsquare_timberframed0.settlers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare_timberframed0_settlers_idle_135_0_224")
+}],
+"loop": true,
+"name": &"mainsquare_timberframed0.settlers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare_timberframed0_settlers_idle_225_0_448")
+}],
+"loop": true,
+"name": &"mainsquare_timberframed0.settlers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare_timberframed0_settlers_idle_315_0_672")
+}],
+"loop": true,
+"name": &"mainsquare_timberframed0.settlers.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare_wooden0_pioneers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"mainsquare_wooden0.pioneers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare_wooden0_pioneers_idle_135_0_224")
+}],
+"loop": true,
+"name": &"mainsquare_wooden0.pioneers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare_wooden0_pioneers_idle_225_0_448")
+}],
+"loop": true,
+"name": &"mainsquare_wooden0.pioneers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("mainsquare_wooden0_pioneers_idle_315_0_672")
+}],
+"loop": true,
+"name": &"mainsquare_wooden0.pioneers.idle.315",
+"speed": 5.0
+}]

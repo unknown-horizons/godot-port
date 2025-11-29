@@ -5,6 +5,7 @@
 .import/
 export.cfg
 export_presets.cfg
+*.tmp
 
 # Mono-specific ignores
 .mono/
@@ -20,3 +21,4 @@ build
 
 # Custom folders to ignore
 Builds/
+DevTools/conda

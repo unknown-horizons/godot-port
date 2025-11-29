@@ -1,0 +1,264 @@
+[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://cbpotatofietr"]
+
+[ext_resource type="Texture2D" uid="uid://dh6dyhp0aejt" path="res://Assets/World/Buildings2/potato_field/potato_field_pioneers_as_potatofield0_idle.png" id="potato_field_pioneers_as_potatofield0_idle"]
+[ext_resource type="Texture2D" uid="uid://dvnsp5j0qaxlc" path="res://Assets/World/Buildings2/potato_field/potato_field_pioneers_as_potatofield0_idle_full.png" id="potato_field_pioneers_as_potatofield0_idle_full"]
+[ext_resource type="Texture2D" uid="uid://c7xe6owkcrlfe" path="res://Assets/World/Buildings2/potato_field/potato_field_pioneers_as_potatofield0_work.png" id="potato_field_pioneers_as_potatofield0_work"]
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_idle_045_0_0"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_idle")
+region = Rect2(0, 0, 192, 93)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_idle_135_0_93"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_idle")
+region = Rect2(0, 93, 192, 93)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_idle_225_0_186"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_idle")
+region = Rect2(0, 186, 192, 93)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_idle_315_0_279"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_idle")
+region = Rect2(0, 279, 192, 93)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_idle_full_045_0_0"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_idle_full")
+region = Rect2(0, 0, 192, 102)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_idle_full_135_0_102"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_idle_full")
+region = Rect2(0, 102, 192, 100)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_idle_full_225_0_202"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_idle_full")
+region = Rect2(0, 202, 192, 100)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_idle_full_315_0_302"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_idle_full")
+region = Rect2(0, 302, 192, 101)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_045_0_0"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(0, 0, 192, 102)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_045_192_0"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(192, 0, 192, 102)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_045_384_0"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(384, 0, 192, 102)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_045_576_0"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(576, 0, 192, 102)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_045_768_0"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(768, 0, 192, 102)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_135_0_102"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(0, 102, 192, 100)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_135_192_102"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(192, 102, 192, 100)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_135_384_102"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(384, 102, 192, 100)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_135_576_102"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(576, 102, 192, 100)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_135_768_102"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(768, 102, 192, 100)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_225_0_202"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(0, 202, 192, 100)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_225_192_202"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(192, 202, 192, 100)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_225_384_202"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(384, 202, 192, 100)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_225_576_202"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(576, 202, 192, 100)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_225_768_202"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(768, 202, 192, 100)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_315_0_302"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(0, 302, 192, 101)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_315_192_302"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(192, 302, 192, 101)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_315_384_302"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(384, 302, 192, 101)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_315_576_302"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(576, 302, 192, 101)
+
+[sub_resource type="AtlasTexture" id="potatofield0_pioneers_work_315_768_302"]
+atlas = ExtResource("potato_field_pioneers_as_potatofield0_work")
+region = Rect2(768, 302, 192, 101)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_idle_045_0_0")
+}],
+"loop": true,
+"name": &"potatofield0.pioneers.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_idle_135_0_93")
+}],
+"loop": true,
+"name": &"potatofield0.pioneers.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_idle_225_0_186")
+}],
+"loop": true,
+"name": &"potatofield0.pioneers.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_idle_315_0_279")
+}],
+"loop": true,
+"name": &"potatofield0.pioneers.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_idle_full_045_0_0")
+}],
+"loop": true,
+"name": &"potatofield0.pioneers.idle_full.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_idle_full_135_0_102")
+}],
+"loop": true,
+"name": &"potatofield0.pioneers.idle_full.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_idle_full_225_0_202")
+}],
+"loop": true,
+"name": &"potatofield0.pioneers.idle_full.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_idle_full_315_0_302")
+}],
+"loop": true,
+"name": &"potatofield0.pioneers.idle_full.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_045_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_045_192_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_045_384_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_045_576_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_045_768_0")
+}],
+"loop": true,
+"name": &"potatofield0.pioneers.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_135_0_102")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_135_192_102")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_135_384_102")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_135_576_102")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_135_768_102")
+}],
+"loop": true,
+"name": &"potatofield0.pioneers.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_225_0_202")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_225_192_202")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_225_384_202")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_225_576_202")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_225_768_202")
+}],
+"loop": true,
+"name": &"potatofield0.pioneers.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_315_0_302")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_315_192_302")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_315_384_302")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_315_576_302")
+}, {
+"duration": 1.0,
+"texture": SubResource("potatofield0_pioneers_work_315_768_302")
+}],
+"loop": true,
+"name": &"potatofield0.pioneers.work.315",
+"speed": 5.0
+}]

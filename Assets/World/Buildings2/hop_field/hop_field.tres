@@ -1,0 +1,236 @@
+[gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://cbhopfieldtre"]
+
+[ext_resource type="Texture2D" uid="uid://ct7d8ay765oa4" path="res://Assets/World/Buildings2/hop_field/hop_field_citizens_as_hopfield_idle.png" id="hop_field_citizens_as_hopfield_idle"]
+[ext_resource type="Texture2D" uid="uid://b1ktm6trsecda" path="res://Assets/World/Buildings2/hop_field/hop_field_citizens_as_hopfield_idle_full.png" id="hop_field_citizens_as_hopfield_idle_full"]
+[ext_resource type="Texture2D" uid="uid://d2um04o2w2i4k" path="res://Assets/World/Buildings2/hop_field/hop_field_citizens_as_hopfield_work.png" id="hop_field_citizens_as_hopfield_work"]
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_idle_045_0_0"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_idle")
+region = Rect2(0, 0, 192, 167)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_idle_135_0_167"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_idle")
+region = Rect2(0, 167, 192, 161)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_idle_225_0_328"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_idle")
+region = Rect2(0, 328, 192, 163)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_idle_315_0_491"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_idle")
+region = Rect2(0, 491, 192, 164)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_idle_full_045_0_0"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_idle_full")
+region = Rect2(0, 0, 192, 167)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_idle_full_135_0_167"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_idle_full")
+region = Rect2(0, 167, 192, 162)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_idle_full_225_0_329"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_idle_full")
+region = Rect2(0, 329, 192, 163)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_idle_full_315_0_492"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_idle_full")
+region = Rect2(0, 492, 192, 164)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_045_0_0"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(0, 0, 192, 167)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_045_192_0"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(192, 0, 192, 167)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_045_384_0"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(384, 0, 192, 167)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_045_576_0"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(576, 0, 192, 167)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_135_0_167"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(0, 167, 192, 162)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_135_192_167"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(192, 167, 192, 162)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_135_384_167"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(384, 167, 192, 162)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_135_576_167"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(576, 167, 192, 162)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_225_0_329"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(0, 329, 192, 163)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_225_192_329"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(192, 329, 192, 163)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_225_384_329"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(384, 329, 192, 163)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_225_576_329"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(576, 329, 192, 163)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_315_0_492"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(0, 492, 192, 164)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_315_192_492"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(192, 492, 192, 164)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_315_384_492"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(384, 492, 192, 164)
+
+[sub_resource type="AtlasTexture" id="hopfield_citizens_work_315_576_492"]
+atlas = ExtResource("hop_field_citizens_as_hopfield_work")
+region = Rect2(576, 492, 192, 164)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_idle_045_0_0")
+}],
+"loop": true,
+"name": &"hopfield.citizens.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_idle_135_0_167")
+}],
+"loop": true,
+"name": &"hopfield.citizens.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_idle_225_0_328")
+}],
+"loop": true,
+"name": &"hopfield.citizens.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_idle_315_0_491")
+}],
+"loop": true,
+"name": &"hopfield.citizens.idle.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_idle_full_045_0_0")
+}],
+"loop": true,
+"name": &"hopfield.citizens.idle_full.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_idle_full_135_0_167")
+}],
+"loop": true,
+"name": &"hopfield.citizens.idle_full.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_idle_full_225_0_329")
+}],
+"loop": true,
+"name": &"hopfield.citizens.idle_full.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_idle_full_315_0_492")
+}],
+"loop": true,
+"name": &"hopfield.citizens.idle_full.315",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_045_0_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_045_192_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_045_384_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_045_576_0")
+}],
+"loop": true,
+"name": &"hopfield.citizens.work.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_135_0_167")
+}, {
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_135_192_167")
+}, {
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_135_384_167")
+}, {
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_135_576_167")
+}],
+"loop": true,
+"name": &"hopfield.citizens.work.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_225_0_329")
+}, {
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_225_192_329")
+}, {
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_225_384_329")
+}, {
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_225_576_329")
+}],
+"loop": true,
+"name": &"hopfield.citizens.work.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_315_0_492")
+}, {
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_315_192_492")
+}, {
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_315_384_492")
+}, {
+"duration": 1.0,
+"texture": SubResource("hopfield_citizens_work_315_576_492")
+}],
+"loop": true,
+"name": &"hopfield.citizens.work.315",
+"speed": 5.0
+}]

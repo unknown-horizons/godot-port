@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Unknown Horizons"
 run/main_scene="res://Assets/UI/Pages/MainMenuScene.tscn"
-config/features=PackedStringArray("4.4")
+config/features=PackedStringArray("4.5")
 boot_splash/image="res://boot_splash.png"
 config/icon="res://icon.png"
 
@@ -22,6 +22,7 @@ Global="*res://Assets/World/Global.gd"
 Config="*res://Assets/World/Config.gd"
 Audio="*res://Assets/World/Audio.gd"
 Cursor="*res://Assets/UI/Cursor.gd"
+GameStats="*res://Assets/World/SingleTons/GameStats.gd"
 
 [debug]
 
@@ -34,9 +35,7 @@ settings/fps/force_fps=60
 
 [display]
 
-window/size/viewport_width=1600
-window/size/viewport_height=900
-window/size/resizable=false
+window/size/mode=2
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
@@ -44,6 +43,11 @@ window/stretch/aspect="expand"
 
 naming/default_signal_callback_name="_on_{NodeName}_{signal_name}"
 naming/scene_name_casing=0
+
+[global_group]
+
+Selectable="The group is assinged to a node that gives a selectable behaviour to the scene."
+Residence=""
 
 [gui]
 
@@ -144,8 +148,7 @@ toggle_fullscreen={
 }
 quit_game={
 "deadzone": 0.5,
-"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":4194305,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
-]
+"events": []
 }
 restart_scene={
 "deadzone": 0.5,
@@ -188,6 +191,58 @@ debug_raise_notification={
 "events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":78,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
 ]
 }
+toggle_diplomacy_menu={
+"deadzone": 0.5,
+"events": []
+}
+toggle_building_menu={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":66,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+toggle_build_road={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":82,"physical_keycode":0,"key_label":0,"unicode":114,"location":0,"echo":false,"script":null)
+]
+}
+toggle_build_building={
+"deadzone": 0.5,
+"events": []
+}
+exit={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194305,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+toggle_building_info_menu={
+"deadzone": 0.5,
+"events": []
+}
+select_resource_to_pin={
+"deadzone": 0.5,
+"events": []
+}
+rotate_building_left={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":44,"key_label":0,"unicode":44,"location":0,"echo":false,"script":null)
+]
+}
+rotate_building_right={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":46,"key_label":0,"unicode":46,"location":0,"echo":false,"script":null)
+]
+}
+toggle_demolish={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":68,"key_label":0,"unicode":100,"location":0,"echo":false,"script":null)
+]
+}
+cancel={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194305,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+, Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":2,"position":Vector2(182, 2),"global_position":Vector2(191, 50),"factor":1.0,"button_index":2,"canceled":false,"pressed":true,"double_click":false,"script":null)
+]
+}
 
 [logging]
 
@@ -199,6 +254,8 @@ limits/message_queue/max_size_kb=16384
 
 [rendering]
 
-renderer/rendering_method="mobile"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
 environment/defaults/default_clear_color=Color(0.2, 0.294118, 0.486275, 1)
 environment/defaults/default_environment="res://default_env.tres"

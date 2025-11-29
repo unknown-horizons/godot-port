@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://kv52rh351xud"]
+
+[ext_resource type="Script" uid="uid://c85fjkantwb1a" path="res://Assets/World/Components/AmbientSoundComponent/AmbientSoundComponent.gd" id="1_ix3d3"]
+
+[node name="AmbientSoundComponent" type="Node2D"]
+script = ExtResource("1_ix3d3")

@@ -1,12 +1,12 @@
 [gd_scene load_steps=8 format=3 uid="uid://dg6whk6ygbtpi"]
 
 [ext_resource type="Texture2D" uid="uid://bjtbmeiyntpbv" path="res://Assets/UI/Icons/Templates/Production/production_arrow_head.png" id="1"]
-[ext_resource type="Script" uid="uid://jr0ai2lm5jpu" path="res://Assets/UI/TabWidgets/ViewComponents/ProductionChain.gd" id="1_8psne"]
+[ext_resource type="Script" uid="uid://cvd4jkj5fhsxy" path="res://Assets/UI/TabWidgets/ViewComponents/ProductionChain.gd" id="1_8psne"]
 [ext_resource type="Texture2D" uid="uid://6lx1jr5eq3qi" path="res://Assets/UI/Icons/Templates/Production/production_arrow_top.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://c20b7udu0p0yr" path="res://Assets/UI/Icons/Templates/Production/production_arrow_start.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://bladesh07u8hm" path="res://Assets/UI/Icons/Templates/Production/production_arrow_bottom.png" id="4"]
 [ext_resource type="PackedScene" uid="uid://eqtwiupdfrk" path="res://Assets/UI/TabWidgets/Buttons/ActionButton/ActionButtons/PauseProductionButton.tscn" id="11"]
-[ext_resource type="PackedScene" uid="uid://kw5ifpdknyd5" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="12"]
+[ext_resource type="PackedScene" uid="uid://cprnm6d5bh3f2" path="res://Assets/UI/BasicControls/InventorySlot.tscn" id="12"]
 
 [node name="ProductionChain" type="Control"]
 custom_minimum_size = Vector2(200, 51)
@@ -32,7 +32,6 @@ layout_mode = 2
 [node name="InputOne" parent="MarginContainer/VBoxContainer/TopSection" instance=ExtResource("12")]
 layout_mode = 2
 size_flags_horizontal = 0
-show_if_empty = true
 
 [node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/TopSection"]
 layout_mode = 2
@@ -50,7 +49,6 @@ layout_mode = 2
 [node name="InputTwo" parent="MarginContainer/VBoxContainer/MiddleSection" instance=ExtResource("12")]
 layout_mode = 2
 size_flags_horizontal = 2
-show_if_empty = true
 
 [node name="Control" type="Control" parent="MarginContainer/VBoxContainer/MiddleSection"]
 layout_mode = 2
@@ -67,6 +65,31 @@ offset_top = -9.0
 offset_bottom = 9.0
 size_flags_vertical = 4
 texture = ExtResource("3")
+
+[node name="ProgressBar" type="MarginContainer" parent="MarginContainer/VBoxContainer/MiddleSection/Control"]
+z_index = 1
+layout_mode = 0
+offset_left = 28.0
+offset_right = 92.0
+offset_bottom = 64.0
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 32
+
+[node name="ProgressBar" type="HBoxContainer" parent="MarginContainer/VBoxContainer/MiddleSection/Control/ProgressBar"]
+layout_mode = 2
+
+[node name="ProgressBar" type="ColorRect" parent="MarginContainer/VBoxContainer/MiddleSection/Control/ProgressBar/ProgressBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.0
+color = Color(0, 1, 0, 0.392157)
+
+[node name="Spacer" type="Control" parent="MarginContainer/VBoxContainer/MiddleSection/Control/ProgressBar/ProgressBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 100.0
 
 [node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/MiddleSection/Control"]
 layout_mode = 0
@@ -87,7 +110,6 @@ layout_mode = 1
 [node name="Output" parent="MarginContainer/VBoxContainer/MiddleSection" instance=ExtResource("12")]
 layout_mode = 2
 size_flags_horizontal = 10
-show_if_empty = true
 
 [node name="BottomSection" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
 visible = false
@@ -97,7 +119,6 @@ layout_mode = 2
 [node name="InputThree" parent="MarginContainer/VBoxContainer/BottomSection" instance=ExtResource("12")]
 layout_mode = 2
 size_flags_horizontal = 0
-show_if_empty = true
 
 [node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/BottomSection"]
 layout_mode = 2

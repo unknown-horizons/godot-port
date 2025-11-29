@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://brf8ay66sla7p"]
+
+[ext_resource type="Texture2D" uid="uid://d0mccfotuvqm4" path="res://Assets/UI/Images/Background/Widgets/resbar_stats_full.png" id="1_qqm7m"]
+[ext_resource type="Script" uid="uid://e6e56iaywwm4" path="res://Assets/UI/BasicControls/ResourceSelection.gd" id="2_1urha"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p5r0b"]
+texture = ExtResource("1_qqm7m")
+texture_margin_left = 3.0
+texture_margin_top = 3.0
+texture_margin_right = 3.0
+texture_margin_bottom = 28.0
+
+[node name="ResourceSelection" type="PanelContainer"]
+offset_right = 110.0
+offset_bottom = 59.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxTexture_p5r0b")
+script = ExtResource("2_1urha")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="ResourceSelectionGrid" type="GridContainer" parent="ScrollContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+columns = 4

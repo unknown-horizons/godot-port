@@ -1,0 +1,28 @@
+{
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "terminal.sourceControlRepositoriesKind": "integrated",
+  "git.alwaysShowStagedChangesResourceGroup": false,
+  "git.discardUntrackedChangesToTrash": true,
+  "git.untrackedChanges": "mixed",
+  "git.branchSortOrder": "committerdate",
+  "git.branchRandomName.enable": false,
+  "git.checkoutType": [
+    "remote",
+    "tags",
+    "local"
+  ],
+  "git.enableCommitSigning": false,
+  "git.replaceTagsWhenPull": false,
+  "editor.renderWhitespace": "all",
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "python-envs.pythonProjects": [],
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.gd": "${capture}.gd.uid",
+    "*.gdshader": "${capture}.gdshader.uid",
+    "*.png": "${capture}.png.import"
+  },
+  "explorer.fileNesting.expand": false
+}

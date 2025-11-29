@@ -1,0 +1,44 @@
+[gd_scene load_steps=8 format=3 uid="uid://cbdummy3x3tsc"]
+
+[ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
+[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
+[ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
+[ext_resource type="SpriteFrames" uid="uid://cbdummy3x3tre" path="res://Assets/World/Buildings2/dummy/dummy3x3.tres" id="4_sprite_frames"]
+[ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
+[ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
+[ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="7_building_collector"]
+
+[node name="_ dummy3x3" type="Node2D"]
+game_name = "_ dummy3x3"
+script = ExtResource("1_script_gd")
+baseclass = "unitproduction.dummy3x3"
+radius = 6
+cost = 25
+cost_inactive = 10
+size = Vector2i(3, 3)
+inhabitants = 6
+tooltip_text = "_ Recruits units suitable for ground combat."
+tier = "TIER.SETTLERS"
+
+[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+type = "building"
+tabs = Array[String](["dummy3x3Tab", "dummy3x3SwordmanTab"])
+enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
+
+[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+max_health = 1000
+
+[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+max_capacity = Dictionary[StringName, int]({
+&"SWORD": 5
+})
+storage = Dictionary[StringName, int]({
+&"SWORD": 0
+})
+
+[node name="building_collector_0" parent="." instance=ExtResource("7_building_collector")]
+"Collector Type" = "BUILDING_COLLECTOR"
+
+[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+sprite_frames = ExtResource("4_sprite_frames")
+current_as_name = ""

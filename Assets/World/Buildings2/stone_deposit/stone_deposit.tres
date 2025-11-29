@@ -1,0 +1,54 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cbstonedepotr"]
+
+[ext_resource type="Texture2D" uid="uid://b25r2rgvo5ss0" path="res://Assets/World/Buildings2/stone_deposit/stone_deposit_nature_as_stonedeposit0_idle.png" id="stone_deposit_nature_as_stonedeposit0_idle"]
+
+[sub_resource type="AtlasTexture" id="stonedeposit0_nature_idle_045_0_0"]
+atlas = ExtResource("stone_deposit_nature_as_stonedeposit0_idle")
+region = Rect2(0, 0, 192, 128)
+
+[sub_resource type="AtlasTexture" id="stonedeposit0_nature_idle_135_0_128"]
+atlas = ExtResource("stone_deposit_nature_as_stonedeposit0_idle")
+region = Rect2(0, 128, 192, 128)
+
+[sub_resource type="AtlasTexture" id="stonedeposit0_nature_idle_225_0_256"]
+atlas = ExtResource("stone_deposit_nature_as_stonedeposit0_idle")
+region = Rect2(0, 256, 192, 128)
+
+[sub_resource type="AtlasTexture" id="stonedeposit0_nature_idle_315_0_384"]
+atlas = ExtResource("stone_deposit_nature_as_stonedeposit0_idle")
+region = Rect2(0, 384, 192, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonedeposit0_nature_idle_045_0_0")
+}],
+"loop": true,
+"name": &"stonedeposit0.nature.idle.045",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonedeposit0_nature_idle_135_0_128")
+}],
+"loop": true,
+"name": &"stonedeposit0.nature.idle.135",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonedeposit0_nature_idle_225_0_256")
+}],
+"loop": true,
+"name": &"stonedeposit0.nature.idle.225",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("stonedeposit0_nature_idle_315_0_384")
+}],
+"loop": true,
+"name": &"stonedeposit0.nature.idle.315",
+"speed": 5.0
+}]

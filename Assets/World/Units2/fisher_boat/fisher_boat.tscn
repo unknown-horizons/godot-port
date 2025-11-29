@@ -1,0 +1,25 @@
+[gd_scene load_steps=6 format=3 uid="uid://cufisherboats"]
+
+[ext_resource type="Script" uid="uid://dryewpxj1qix4" path="res://Assets/World/Components/Collectors/Collector.gd" id="1_v6lx7"]
+[ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
+[ext_resource type="SpriteFrames" uid="uid://cufisherboatr" path="res://Assets/World/Units2/fisher_boat/fisher_boat.tres" id="4_sprite_frames"]
+[ext_resource type="PackedScene" uid="uid://unr7kegy5cn4" path="res://Assets/World/Components/MoveByCell/MoveByCellComponent.tscn" id="4_ygv4f"]
+[ext_resource type="PackedScene" uid="uid://b3hix4pdlnumi" path="res://Assets/World/Components/Storages/SizedStorageComponent/SizedStorageComponent.tscn" id="5_v6lx7"]
+
+[node name="Fisher" type="Node2D"]
+visible = false
+script = ExtResource("1_v6lx7")
+baseclass = "ship.FisherShip"
+velocity = 12.0
+show_while_loading = true
+"Collector Type" = "FISH_COLLECTOR"
+
+[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+sprite_frames = ExtResource("4_sprite_frames")
+current_as_name = ""
+
+[node name="MoveByCellComponent" parent="." node_paths=PackedStringArray("object_to_be_moved") instance=ExtResource("4_ygv4f")]
+allowed_movement = 0
+object_to_be_moved = NodePath("..")
+
+[node name="SizedStorageComponent" parent="." instance=ExtResource("5_v6lx7")]

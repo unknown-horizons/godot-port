@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://ioihkggkhi5q"]
+
+[ext_resource type="Texture2D" uid="uid://beoosv8bgkjxr" path="res://Assets/World/Buoy/Sprites/Buoy_idle_full.png" id="1_p4717"]
+
+[node name="Buoy2D" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(4, 4)
+texture = ExtResource("1_p4717")
+region_enabled = true
+region_rect = Rect2(8, 8, 16, 16)
