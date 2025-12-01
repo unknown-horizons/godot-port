@@ -3,7 +3,7 @@ extends BaseContext
 
 class_name SelectionContext
 
-@export var default_cursor: Texture2D = preload("res://Assets/UI/Images/Cursors/Cursor.png")
+@export var default_cursor: Texture2D = preload("res://Assets/UI/Images/Cursors/cursor.png")
 
 @onready var built_tilemap: BuiltTileMap = %BuiltTileMap
 @onready var selection_box: SelectionBox = self.get_node("CanvasLayer/SelectionBox")

@@ -2,7 +2,7 @@ extends BaseContext
 
 class_name BuildingRoadContext
 
-@export var default_cursor: Texture2D = preload("res://Assets/UI/Images/Cursors/Cursor.png")
+@export var default_cursor: Texture2D = preload("res://Assets/UI/Images/Cursors/cursor.png")
 
 @onready var terrain_tilemap: TerrainTileMap = %TerrainTileMap
 @onready var built_tilemap: BuiltTileMap = %BuiltTileMap

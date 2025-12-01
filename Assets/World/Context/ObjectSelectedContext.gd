@@ -4,7 +4,7 @@ extends BaseContext
 class_name ObjectSelectedContext
 
 @export var empty_tab_widget_name: String = "EmptyPanelContainer"
-@export var default_cursor: Texture2D = preload("res://Assets/UI/Images/Cursors/Cursor.png")
+@export var default_cursor: Texture2D = preload("res://Assets/UI/Images/Cursors/cursor.png")
 
 var selected_objects: Array[Selectable] = []
 
