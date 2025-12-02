@@ -55,7 +55,7 @@ func pin_resource_to_slot(slot: ResourceDisplaySlot) -> void:
   resource_selection.position.y = slot.position.y + slot.size.y
   var resource_type = await resource_selection.resource_selected
   resource_selection.visible = false
-  
+
   if resource_type == ResourceConfig.Resources.NONE and was_slot_empty == false: # if a pin is removed
     slot.queue_free()
     return

@@ -16,7 +16,7 @@ func get_storage_state() -> StorageComponentStates:
     var parent := self.get_parent() as WorldThing2D
     if parent == null:
       return StorageComponentStates.EMPTY
-    
+
     var production_lines := parent.get_all_nodes_of_type(ProductionLineComponent) as Array[WorldThing2D]
     # for each resource produced, check if not full in storage
     for production_line in production_lines:
@@ -30,7 +30,7 @@ func get_storage_state() -> StorageComponentStates:
     # set to empty if all resources are empty
     if self.storage.values().reduce(func(sum, amount): return sum + amount, 0) as int <= 0:
       storage_state = StorageComponentStates.EMPTY
-  
+
   return storage_state
 
 func get_storage_items() -> Array[StringName]:

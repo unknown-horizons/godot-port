@@ -101,7 +101,7 @@ func unpause_if_can():
 func set_components(components: Array[BaseComponent]):
   for component in components:
     var storage_component = component as StorageComponent
-    var action_set = component as BuildingActionSet 
+    var action_set = component as BuildingActionSet
     if storage_component != null:
       self.storage_components.append(storage_component)
     if action_set != null:

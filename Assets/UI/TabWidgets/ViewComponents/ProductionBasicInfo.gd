@@ -9,4 +9,4 @@ var selected_node: WorldThing2D = null:
     var building := value as Building2D
     if building != null:
       self.cost_label.text = str(building.cost)
-      
+

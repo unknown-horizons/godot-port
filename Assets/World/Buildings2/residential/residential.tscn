@@ -14,11 +14,11 @@ script = ExtResource("1_script_gd")
 id = &"BUILDINGS.RESIDENTIAL"
 baseclass = "settler.Settler"
 game_name_per_tier = Dictionary[StringName, String]({
-&"SAILORS": "_ Tent", 
-&"PIONEERS": "_ Hut", 
-&"SETTLERS": "_ House", 
-&"CITIZENS": "_ Stone house", 
-&"MERCHANTS": "_ Estate", 
+&"SAILORS": "_ Tent",
+&"PIONEERS": "_ Hut",
+&"SETTLERS": "_ House",
+&"CITIZENS": "_ Stone house",
+&"MERCHANTS": "_ Estate",
 &"ARISTOCRATS": "_ Manor"
 })
 radius = 12

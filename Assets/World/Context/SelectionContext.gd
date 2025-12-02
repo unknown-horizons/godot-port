@@ -32,7 +32,7 @@ func _unhandled_input(event):
           assert(selection_rect.size.x >= 0 and selection_rect.size.y >= 0)
           selection_box.visible = false
           select_objects()
-    
+
     if Input.is_action_just_pressed("exit") and is_selecting:
       is_selecting = false
       selection_box.visible = false

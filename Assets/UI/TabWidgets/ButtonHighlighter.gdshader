@@ -22,7 +22,7 @@ void fragment() {
 
     // Soft circular gradient for glow
     float glow_alpha = 1.0 - smoothstep(glow_radius, glow_radius + glow_softness, dist);
-    
+
     // Combine texture + glow (glow drawn "behind")
     vec4 glow_layer = vec4(glow_color.rgb, glow_alpha);
 

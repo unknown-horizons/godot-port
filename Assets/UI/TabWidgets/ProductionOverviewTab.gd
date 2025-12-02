@@ -13,12 +13,12 @@ func on_new_selected_node(node: WorldThing2D) -> void:
   for child in self.get_children():
     if "selected_node" in child:
       child.selected_node = node
-  
+
   # hide all production chains
   for child in production_chains.get_children():
     if child is ProductionChain:
       child.visible = false
-  
+
   var building_selected: Building2D = node as Building2D
   if building_selected != null:
     # turn on the needed ones

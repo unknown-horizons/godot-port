@@ -80,7 +80,7 @@ func _unhandled_input(event: InputEvent) -> void:
     # print_debug(event, ", building_data: ", build_building_data);
     self.building_to_build = build_building_data
     return
-  
+
   if self.is_active:
     var mouse_move_event := event as InputEventMouseMotion
     if mouse_move_event != null:
@@ -132,7 +132,7 @@ func can_build_building(building_cell_starting_coords: Vector2i, oriented_cells:
       if reference_object != null and reference_object.has_method("is_tile_valid_for_building"):
         if reference_object.is_tile_valid_for_building(building_cell_coords) == false:
           return false
-      
+
       # check if the cell is vaild in terms of road
       var is_road: bool = false
       var built_tile_data: TileData = built_tilemap.get_cell_tile_data(building_cell_coords)

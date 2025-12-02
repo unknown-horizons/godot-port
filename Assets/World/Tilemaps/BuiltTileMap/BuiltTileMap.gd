@@ -137,7 +137,7 @@ func demolish(cell: Vector2i) -> void:
       if self.tile_set.get_terrain_name(terrain_set, terrain) == "DirtRoad":
         self.set_cell(neighbor, -1)
         self.set_cells_terrain_connect([neighbor], terrain_set, terrain, false)
-  
+
   # invalidate buildings caches before resuming the building to be deleted
   # this avoid the race condition when the other async loops (get_best_job) are resumed, but their caches still contain this building
   self.invalidate_buildings_caches(affected_cells)
@@ -191,7 +191,7 @@ func get_cell_building_bitmask(cell: Vector2i) -> int:
 func get_buildings_in_radius(rect: Rect2i, radius: int) -> Array[Building2D]:
   var buildings_in_radius: Dictionary[Building2D, bool] = {}
 
-  var affected_rect := rect.grow(radius) 
+  var affected_rect := rect.grow(radius)
   for y in range(affected_rect.position.y, affected_rect.end.y):
     for x in range(affected_rect.position.x, affected_rect.end.x):
       var cell := Vector2i(x, y)
@@ -240,13 +240,13 @@ func get_rect_to_rect_path(src_rect: Rect2i, dst_rect: Rect2i, pathfinding: Path
             if shortest_path.size() == 0 or cur_path.size() < shortest_path.size():
               shortest_path = cur_path
   var res_path: NavPath = NavPath.new(shortest_path) if shortest_path.size() > 0 else null
- 
+
   if was_impassable_dst:
     pathfinding.fill_solid_region(dst_rect, true) # make partner dst_building non-passible
 
   if was_impassable_src:
     pathfinding.fill_solid_region(src_rect, true) # make it non-passible
- 
+
   return res_path
 
 func get_cell_position_to_building_path(cell_position: Vector2i, dst_building: Building2D, pathfinding: Pathfinder) -> NavPath:

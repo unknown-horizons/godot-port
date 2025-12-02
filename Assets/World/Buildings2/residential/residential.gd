@@ -25,12 +25,12 @@ var residents_count: int = 1:
   set(value):
     var previous_residents_count := self.residents_count
     residents_count = clampi(value, 1, self.max_residents_for_current_tier)
-    
+
     if Engine.is_editor_hint():
       return
 
     self.spend_happiness((residents_count - previous_residents_count) * self.happiness_usage_per_inhabitant)
-    
+
     self.residents_count_changed.emit(self.residents_count)
 
 func set_current_tier(new_tier: StringName) -> void:
@@ -44,7 +44,7 @@ func set_current_tier(new_tier: StringName) -> void:
         node.current_tier = self.current_tier
       elif node.current_tier is WorldTiers.TierEnum: # if uses enum
         node.current_tier = current_enum_tier
-  
+
   # spend/gain happiness from upgarde/downgrade
   var previous_enum_tier: WorldTiers.TierEnum = WorldTiers.TierEnum.get(previous_tier, WorldTiers.TierEnum.SAILORS)
   self.spend_happiness((current_enum_tier - previous_enum_tier) * self.happiness_usage_per_tier)
@@ -85,7 +85,7 @@ func update_tier() -> void:
   self.residents_count += residents_count_change
   if last_residents_count != self.residents_count:
     return # increase residents_count first
-  
+
   # set tier
   # -1 if downgrading, 0 if stable, 1 if upgrading
   var tier_change := signi(happiness - clamp(happiness, self.stable_tier_range.x, self.stable_tier_range.y))
@@ -94,9 +94,9 @@ func update_tier() -> void:
   var new_tier: StringName = WorldTiers.TierEnum.find_key(new_enum_tier)
   if new_tier != self.current_tier:
     self.current_tier = new_tier
-  
+
   # # log default
-  # print("New residents_count: %s | New tier: %s | New happiness: %s" % [self.residents_count, self.current_tier, 
+  # print("New residents_count: %s | New tier: %s | New happiness: %s" % [self.residents_count, self.current_tier,
   # self.get_first_node_of_type(StorageComponent).get_storage_item_amount(ResourceConfig.Resources.HAPPINESS)])
 
 ## goes across all storages trying to spend the given amount of happiness

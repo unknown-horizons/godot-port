@@ -16,7 +16,7 @@ bool hasContraryNeighbour(vec2 uv, vec2 texture_pixel_size, sampler2D texture) {
 	for (float i = -ceil(width); i <= ceil(width); i++) {
 		float x = abs(i) > width ? width * sign(i) : i;
 		float offset;
-		
+
 		if (pattern == 0) {
 			offset = width - abs(x);
 		} else if (pattern == 1) {
@@ -24,29 +24,29 @@ bool hasContraryNeighbour(vec2 uv, vec2 texture_pixel_size, sampler2D texture) {
 		} else if (pattern == 2) {
 			offset = width;
 		}
-		
+
 		for (float j = -ceil(offset); j <= ceil(offset); j++) {
 			float y = abs(j) > offset ? offset * sign(j) : j;
 			vec2 xy = uv + texture_pixel_size * vec2(x, y);
-			
+
 			if ((xy != clamp(xy, vec2(0.0), vec2(1.0)) || texture(texture, xy).a <= 0.0) == inside) {
 				return true;
 			}
 		}
 	}
-	
+
 	return false;
 }
 
 void fragment() {
 	vec2 uv = UV;
   COLOR = texture(TEXTURE, uv);
-	
+
 	if (add_margins) {
 		vec2 texture_pixel_size = vec2(1.0) / (vec2(1.0) / TEXTURE_PIXEL_SIZE + vec2(width * 2.0));
-		
+
 		uv = (uv - texture_pixel_size * width) * TEXTURE_PIXEL_SIZE / texture_pixel_size;
-		
+
 		if (uv != clamp(uv, vec2(0.0), vec2(1.0))) {
 			COLOR.a = 0.0;
 		} else {
@@ -55,7 +55,7 @@ void fragment() {
 	} else {
 		COLOR = texture(TEXTURE, uv);
 	}
-	
+
 	if ((COLOR.a > 0.0) == inside && hasContraryNeighbour(uv, TEXTURE_PIXEL_SIZE, TEXTURE)) {
 	// if (hasContraryNeighbour(uv, TEXTURE_PIXEL_SIZE, TEXTURE)) {
 		COLOR.rgb = inside ? mix(COLOR.rgb, color.rgb, color.a) : color.rgb;

@@ -12,7 +12,7 @@ var resources: Dictionary[StringName, int] = {
   ResourceConfig.Resources.BRICKS: 100,
 } # resource_name to count
 
-var world_tier: StringName = WorldTiers.Tiers.SAILORS: 
+var world_tier: StringName = WorldTiers.Tiers.SAILORS:
   set(value):
     var new_enum_value = WorldTiers.TierEnum.get(value, WorldTiers.TierEnum.SAILORS)
     var current_enum_value = WorldTiers.TierEnum.get(self.world_tier, WorldTiers.TierEnum.SAILORS)

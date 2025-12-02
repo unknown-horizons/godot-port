@@ -16,7 +16,7 @@ func _ready() -> void:
   CamUtils.center_if_no_camera(self)
   self.mouse_entered.connect(_on_mouse_entered)
   self.mouse_exited.connect(_on_mouse_exited)
-  
+
   self.material = self.material.duplicate()
 
   if not self.tooltip_text:

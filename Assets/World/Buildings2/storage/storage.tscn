@@ -12,7 +12,7 @@ script = ExtResource("1_script_gd")
 id = &"BUILDINGS.STORAGE"
 baseclass = "storages.StorageTent"
 game_name_per_tier = Dictionary[StringName, String]({
-&"SAILORS": "_ Storage Tent", 
+&"SAILORS": "_ Storage Tent",
 &"PIONEERS": "_ Storage Hut"
 })
 radius = 17
