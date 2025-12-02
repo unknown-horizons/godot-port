@@ -3,7 +3,7 @@ extends BaseContext
 
 class_name BuildingContext
 
-@export var default_cursor: Texture2D = preload("res://Assets/UI/Images/Cursors/Cursor.png")
+@export var default_cursor: Texture2D = preload("res://Assets/UI/Images/Cursors/cursor.png")
 
 @onready var object_selected_context: ObjectSelectedContext = self.get_node("/root/Main/GameContextManager/ObjectSelectedContext") if not Engine.is_editor_hint() else null
 @onready var terrain_tilemap: TerrainTileMap = %TerrainTileMap
