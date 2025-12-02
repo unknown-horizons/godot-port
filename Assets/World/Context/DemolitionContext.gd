@@ -25,8 +25,9 @@ func _unhandled_input(event: InputEvent) -> void:
 
   if self.is_active:
     var mouse_cell := self.built_tilemap.local_to_map(self.built_tilemap.get_global_mouse_position())
-    if event is InputEventMouseButton:
-      if event.button_index == MOUSE_BUTTON_LEFT and event.pressed == true:
+    var mouseButtonEvent := event as InputEventMouseButton
+    if mouseButtonEvent != null:
+      if mouseButtonEvent.button_index == MOUSE_BUTTON_LEFT and mouseButtonEvent.pressed:
         self.demolish(mouse_cell)
 
     if event.is_action_pressed("cancel"):

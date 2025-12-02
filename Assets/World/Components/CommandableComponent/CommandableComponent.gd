@@ -26,7 +26,7 @@ func set_components(new_components: Array[BaseComponent]) -> void:
 
 func handle_context_input(event: InputEvent):
   if event is InputEventMouseButton:
-    if event.pressed == true:
+    if event.pressed:
       if event.button_index == MOUSE_BUTTON_RIGHT:
         self.add_checkpoint() # fire and forget
 

@@ -7,9 +7,10 @@ var sel_pos_start := Vector2(0,0) # first click position
 @export var line_color: Color = Color(1, 1, 1, 0.5)
 
 func _unhandled_input(event):
-  if event is InputEventMouseButton:
-    if event.button_index == MOUSE_BUTTON_LEFT:
-      if event.pressed == true:
+  var mouseButtonEvent := event as InputEventMouseButton
+  if mouseButtonEvent != null:
+    if mouseButtonEvent.button_index == MOUSE_BUTTON_LEFT:
+      if mouseButtonEvent.pressed:
         sel_pos_start = get_viewport().get_mouse_position()
 
 func _process(_delta: float) -> void:

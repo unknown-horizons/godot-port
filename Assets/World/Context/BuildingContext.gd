@@ -87,7 +87,7 @@ func _unhandled_input(event: InputEvent) -> void:
       self.update_building_highlight()
 
     var mouseButtonEvent := event as InputEventMouseButton
-    if mouseButtonEvent != null and mouseButtonEvent.pressed == true:
+    if mouseButtonEvent != null and mouseButtonEvent.pressed:
       if mouseButtonEvent.button_index == MOUSE_BUTTON_LEFT:
         self.build(self.building_to_build, self.building_instance)
         return

@@ -39,9 +39,10 @@ func _unhandled_input(event):
     self.game_context_manager.current_context = self
 
   if self.is_active:
-    if event is InputEventMouseButton:
-      if event.pressed == true:
-        if event.button_index == MOUSE_BUTTON_LEFT:
+    var mouseButtonEvent := event as InputEventMouseButton
+    if mouseButtonEvent != null:
+      if mouseButtonEvent.pressed:
+        if mouseButtonEvent.button_index == MOUSE_BUTTON_LEFT:
           respond_to_left_click()
 
     if event.is_action_pressed("cancel"):

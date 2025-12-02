@@ -17,9 +17,10 @@ func context_entered() -> void:
 
 func _unhandled_input(event):
   if self.is_active or object_selected_context.is_active:
-    if event is InputEventMouseButton:
-      if event.button_index == MOUSE_BUTTON_LEFT:
-        if event.pressed == true:
+    var mouseButtonEvent := event as InputEventMouseButton
+    if mouseButtonEvent != null:
+      if mouseButtonEvent.button_index == MOUSE_BUTTON_LEFT:
+        if mouseButtonEvent.pressed:
           # print(built_tilemap.get_global_mouse_position())
           selection_rect.position = built_tilemap.get_global_mouse_position()
           selection_box.visible = true
