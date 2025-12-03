@@ -22,7 +22,7 @@ func on_context_changed(context: BaseContext) -> void:
     building = building_context.building_to_build
   else: # if the context is not the building context disconnect the update signal
     var remembered_building_context := self.current_context as BuildingContext
-    if remembered_building_context != null and remembered_building_context.building_changed.is_connected(self.on_building_changed) == true:
+    if remembered_building_context != null and remembered_building_context.building_changed.is_connected(self.on_building_changed):
       remembered_building_context.building_changed.disconnect(self.on_building_changed)
 
   if building != &"":

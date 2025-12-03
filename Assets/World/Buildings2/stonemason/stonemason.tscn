@@ -16,7 +16,7 @@ script = ExtResource("1_script_gd")
 id = &"BUILDINGS.STONEMASON"
 baseclass = "production.ProductionBuilding"
 game_name_per_tier = Dictionary[StringName, String]({
-&"CITIZENS": "_ Stonemason", 
+&"CITIZENS": "_ Stonemason",
 &"MERCHANTS": "_ Carver"
 })
 radius = 8

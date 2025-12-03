@@ -141,7 +141,7 @@ func unload_resource(resource: StringName, amount: int) -> void:
   var storage_component: StorageComponent = self.get_first_node_of_type(StorageComponent)
   if storage_component == null or self.is_inside_tree() == false:
     return
-  
+
   var successful := await self.sleep(storage_component.load_or_unload_time)
   if successful == false:
     return

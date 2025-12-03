@@ -20,7 +20,7 @@ class_name BuildingActionSet
     update_animation()
 
 @export var action_state: ActionStates = ActionStates.IDLE:
-  set(value): 
+  set(value):
     action_state = value
     update_animation()
 
@@ -147,7 +147,7 @@ func update_animation() -> void:
   # if the sprite frames or the animated sprite is null then return because there is nothing to update
   if animated_sprite == null or sprite_frames == null:
     return
-  
+
   var orientation_str := str(snappedi(self.orientation, 45)).pad_zeros(3) # get the rotation as string
   # get the state as string
   var storage_state_str := str(StorageStates.find_key(self.storage_state)).to_lower()
@@ -191,22 +191,22 @@ func update_animation() -> void:
       break
 
   if animation_name == "": # if no animation has been found that can be used, give a warning
-    if Engine.is_editor_hint(): # if we are in the editor, then it is development error and still has attention 
+    if Engine.is_editor_hint(): # if we are in the editor, then it is development error and still has attention
       push_warning("No animation at or below current tier, check the animations")
     else: # else, it is a runtime error, so it is not going to be touched anytime soon, so raise attention: push_error
       push_error("No animation at or below current tier, how did the building get on the map?")
       pass
     animation_name = self.sprite_frames.get_animation_names()[0] # use first animation as fallback
-  
+
   var building_instance := self.get_parent() as Building2D
 
-  if building_instance != null: # use building_instance.size to determine the multicell sprite offset 
+  if building_instance != null: # use building_instance.size to determine the multicell sprite offset
     var texture = self.animated_sprite.sprite_frames.get_frame_texture(animation_name, 0)
     var w = texture.get_width()
     var h = texture.get_height()
     self.animated_sprite.centered = false
     # the multicell sprites are aligned at the center of bottom.
-    # Cell size is 64x32. The midpoint of bottom cell is (h-32/2). The horizontal offset depends if the sprite is square (2x2, 3x3, etc) or rectangular (3x2, etc). 
+    # Cell size is 64x32. The midpoint of bottom cell is (h-32/2). The horizontal offset depends if the sprite is square (2x2, 3x3, etc) or rectangular (3x2, etc).
     if building_instance.size.x == building_instance.size.y: # a square footprint for the building
       self.animated_sprite.offset = Vector2(-w/2, -(h-32/2)) # where 32 - is cell height.
     else: # non square footprint sprite (2x3, 3x4 etc)

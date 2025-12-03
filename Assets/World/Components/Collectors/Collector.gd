@@ -402,7 +402,8 @@ func get_jobs_for_lumberjack_collector() -> Array[Job]:
       var cell_data: TileData = self.built_tilemap.get_cell_tile_data(cell)
       if cell_data == null:
         continue
-      if cell_data.get_custom_data(self.built_tilemap.is_tree) == true:
+      var is_tree: bool = cell_data.get_custom_data(self.built_tilemap.is_tree)
+      if is_tree:
         if cell in self.built_tilemap.trees_getting_choped:
           continue
         var path_to_start: Array[Vector2i] = self.get_cell_path(collector_map_position, cell) # to cell

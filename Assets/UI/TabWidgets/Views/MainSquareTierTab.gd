@@ -23,7 +23,7 @@ func _ready():
 
   if Engine.is_editor_hint():
     return
-    
+
   self.taxes_control.tax_rate_changed.connect(func (tax_rate: float): GameStats.treasury.tax_rate_per_tier[self.tab_tier_val] = tax_rate)
   # self.visibility_changed.connect(func(): print("MainSquareTierTab Visibility changed %s" % [self.visible]))
 
@@ -46,7 +46,7 @@ func refresh_tab(): # called by AllTabs.gd
       continue
     if residence.current_tier != self.tab_tier: # filter by tier to account for
       continue
-      
+
     houses_count += 1
     residents_count += residence.residents_count
     var happiness = 0
@@ -64,7 +64,7 @@ func refresh_tab(): # called by AllTabs.gd
 
   self.sad_houses_count_label.text = str(sad_count)
   self.satisfied_houses_count_label.text = str(satisfied_count)
-  self.happy_houses_count_label.text = str(happy_count)  
+  self.happy_houses_count_label.text = str(happy_count)
 
   self.houses_count_label.text = str(houses_count)
   self.residents_count_label.text = str(residents_count)

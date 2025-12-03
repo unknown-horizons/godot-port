@@ -101,7 +101,7 @@ func unpause_if_can():
 func set_components(components: Array[BaseComponent]):
   for component in components:
     var storage_component = component as StorageComponent
-    var action_set = component as BuildingActionSet 
+    var action_set = component as BuildingActionSet
     if storage_component != null:
       self.storage_components.append(storage_component)
     if action_set != null:
@@ -151,16 +151,16 @@ func update_resource_storage_tooltips(has_enough_resources: bool, has_output_spa
       if self.inventory_full_tooltip.visible == false:
         self.inventory_full_tooltip.visible = true
         self.inventory_full_tooltip.play("inventory_full")
-    elif self.inventory_full_tooltip.visible == true:
+    elif self.inventory_full_tooltip.visible:
       self.inventory_full_tooltip.visible = false
       self.inventory_full_tooltip.stop()
 
   if self.show_resource_deficit_tooltip:
-    if has_enough_resources == false and has_output_space == true: # show resource deficit
+    if has_enough_resources == false and has_output_space: # show resource deficit
       if self.resource_deficit_tooltip.visible == false:
         self.resource_deficit_tooltip.visible = true
         self.resource_deficit_tooltip.play("resource_deficit")
-    elif self.resource_deficit_tooltip.visible == true:
+    elif self.resource_deficit_tooltip.visible:
       self.resource_deficit_tooltip.visible = false
       self.resource_deficit_tooltip.stop()
 

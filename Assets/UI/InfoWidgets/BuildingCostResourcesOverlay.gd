@@ -1,7 +1,7 @@
 @tool
 
 extends HBoxContainer
-## Displays the resources needed to build a building, sets only the labels under the path "*child*/PanelContainer/BuildCostDisplay" 
+## Displays the resources needed to build a building, sets only the labels under the path "*child*/PanelContainer/BuildCostDisplay"
 ## to the resource name of [code]child.name.trim_suffix("Display").to_snake_case().to_upper()"[/code]
 
 class_name BuildingCostResourcesOverlay

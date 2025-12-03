@@ -42,14 +42,14 @@ func set_tab_widget():
 
   # else:
   #   tab_widget_name = empty_tab_widget_name
-  
+
   event.action = "toggle_building_info_menu"
   event.pressed = true
   # get the parent of the selectable characteristic
   ## the parents of the selectable characteristic
   var selected_buildings_and_units: Array = []
   for object in selected_objects:
-    selected_buildings_and_units.append(object.get_parent())  
+    selected_buildings_and_units.append(object.get_parent())
   event.set_meta("selected_objects", selected_buildings_and_units)
   Input.parse_input_event(event)
 

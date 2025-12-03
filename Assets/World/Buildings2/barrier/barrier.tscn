@@ -11,7 +11,7 @@ script = ExtResource("1_script_gd")
 id = &"BUILDINGS.BARRIER"
 baseclass = "war.Barrier"
 game_name_per_tier = Dictionary[StringName, String]({
-&"SAILORS": "_ Wooden barrier", 
+&"SAILORS": "_ Wooden barrier",
 &"PIONEERS": "_ Clay wall"
 })
 radius = 0

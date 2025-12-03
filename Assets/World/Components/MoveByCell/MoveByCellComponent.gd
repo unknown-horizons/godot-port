@@ -58,7 +58,7 @@ signal orientation_changed(orientation: BuildingActionSet.Orientations)
 func _ready():
   if object_to_be_moved == null:
     object_to_be_moved = self.get_node("..")
-    
+
   if Engine.is_editor_hint():
     return
 
@@ -96,7 +96,7 @@ func move(path: Array[Vector2i]) -> void:
   if pathfinding == null:
     push_error("PathfindingManager is not set and the object is wanted to be moved")
     return
-  
+
   if path != []:
     var direction: int = 90
     self.object_to_be_moved.visible = true

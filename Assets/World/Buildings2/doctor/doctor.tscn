@@ -37,7 +37,7 @@ max_health = 1000
 [node name="ProductionLineComponent_HERBS" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "HERBS"
 consumes = Dictionary[StringName, int]({
-&"BLACKDEATH": 1, 
+&"BLACKDEATH": 1,
 &"MEDICAL_HERBS": 2
 })
 produces = Dictionary[StringName, int]({

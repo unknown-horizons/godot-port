@@ -10,7 +10,7 @@ var paid_taxes: float = 0.0:
   set(value):
     paid_taxes = value
     self.paid_taxes_label.text = str(paid_taxes)
-    
+
 var tax_rate: float = 0.0:
   set(value):
     tax_rate = value

@@ -68,7 +68,7 @@ func update_switches() -> void:
         else:
           self.tab_changed(tab_index)
         break
-  
+
 func refresh_timeout():
   if !self.is_visible_in_tree():
     self.refresh_timer.stop()

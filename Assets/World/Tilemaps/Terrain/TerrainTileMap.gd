@@ -21,5 +21,5 @@ func get_cell_terrain_bitmask(cell: Vector2i) -> int:
     cell_bitmask |= int(terrain_name == "Beach")   << 1
     cell_bitmask |= int(terrain_name == "Shallow") << 2
     cell_bitmask |= int(terrain_name == "Deep")    << 3
-  
+
   return cell_bitmask

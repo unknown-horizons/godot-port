@@ -7,7 +7,7 @@ class_name BuildingMenuTabWidget
 func _ready():
   CamUtils.center_if_no_camera(self)
   self._on_BuildingMenuTypeSwitch_toggled(building_menu_type_switch.button_pressed)
-  
+
   for tab_switch: SwitchTabWidget in self.tab_switches.get_children():
     tab_switch.toggled.connect(func (_toggled): self.update_toggle_states(tab_switch))
   update_toggle_states(self.tab_switches.get_child(0))

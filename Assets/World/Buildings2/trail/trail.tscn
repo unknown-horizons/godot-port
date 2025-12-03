@@ -11,8 +11,8 @@ script = ExtResource("1_script_gd")
 id = &"BUILDINGS.TRAIL"
 baseclass = "path.Road"
 game_name_per_tier = Dictionary[StringName, String]({
-&"SAILORS": "_ Trail", 
-&"PIONEERS": "_ Gravel Path", 
+&"SAILORS": "_ Trail",
+&"PIONEERS": "_ Gravel Path",
 &"CITIZENS": "_ Cobblestone Street"
 })
 radius = 0

@@ -17,7 +17,7 @@ func toggle_tab_widget(tab_widget: Control):
   #   tab_container.current_tab = 0 # switch off the tabs, by switching to the first tab
   # else:
   #   tab_container.current_tab = tab_index
-  
+
 
 func _input(event: InputEvent) -> void:
   if event.is_action_pressed("toggle_building_menu"):
@@ -26,7 +26,7 @@ func _input(event: InputEvent) -> void:
   if event.is_action_pressed("toggle_diplomacy_menu"):
     push_warning("Diplomacy menu is not implemented yet.")
     # toggle_tab_widget(%BuildingMenuTabWidget);
-  
+
   if event.is_action_pressed("toggle_building_info_menu"):
     var tab_container: TabContainer = self.get_node("RightMenuPanel/TabContainer")
     # var target_tab_widget_name = event.get_meta("tab_widget_name")

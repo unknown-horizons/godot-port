@@ -36,7 +36,7 @@ max_health = 1000
 [node name="ProductionLineComponent_SUGAR_COCOA" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "SUGAR_COCOA"
 consumes = Dictionary[StringName, int]({
-&"COCOA": 1, 
+&"COCOA": 1,
 &"SUGAR": 1
 })
 produces = Dictionary[StringName, int]({
@@ -46,7 +46,7 @@ produces = Dictionary[StringName, int]({
 [node name="ProductionLineComponent_SUGAR_GRAPES" parent="." instance=ExtResource("6_production_line_component")]
 line_name = "SUGAR_GRAPES"
 consumes = Dictionary[StringName, int]({
-&"GRAPES": 1, 
+&"GRAPES": 1,
 &"SUGAR": 1
 })
 produces = Dictionary[StringName, int]({
@@ -59,7 +59,7 @@ consumes = Dictionary[StringName, int]({
 &"HONEYCOMBS": 1
 })
 produces = Dictionary[StringName, int]({
-&"CANDLES": 1, 
+&"CANDLES": 1,
 &"SUGAR": 2
 })
 
