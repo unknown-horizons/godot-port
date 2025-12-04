@@ -1,12 +1,12 @@
 {
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.expand": false,
-  "explorer.fileNesting.patterns": {
-    "*.gd": "${capture}.gd.uid",
-    "*.gdshader": "${capture}.gdshader.uid",
-    "*.png": "${capture}.png.import"
-  },
-  "files.eol": "\n",
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.expand": false,
+	"explorer.fileNesting.patterns": {
+		"*.gd": "${capture}.gd.uid",
+		"*.gdshader": "${capture}.gdshader.uid",
+		"*.png": "${capture}.png.import"
+	},
+	"files.eol": "\n",
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
 }

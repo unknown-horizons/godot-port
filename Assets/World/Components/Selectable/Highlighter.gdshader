@@ -40,7 +40,7 @@ bool hasContraryNeighbour(vec2 uv, vec2 texture_pixel_size, sampler2D texture) {
 
 void fragment() {
 	vec2 uv = UV;
-  COLOR = texture(TEXTURE, uv);
+	COLOR = texture(TEXTURE, uv);
 
 	if (add_margins) {
 		vec2 texture_pixel_size = vec2(1.0) / (vec2(1.0) / TEXTURE_PIXEL_SIZE + vec2(width * 2.0));
