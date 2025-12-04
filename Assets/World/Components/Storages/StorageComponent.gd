@@ -3,9 +3,9 @@ extends BaseComponent
 class_name StorageComponent
 
 enum StorageComponentStates {
-  EMPTY          = 0,
-  PARTIALLY_FULL = 1,
-  FULL           = 2,
+	EMPTY					= 0,
+	PARTIALLY_FULL = 1,
+	FULL					 = 2,
 }
 
 @export var load_or_unload_time: float = 2.0
@@ -20,22 +20,22 @@ signal storage_changed(storage_state: StorageComponentStates)
 
 
 func get_storage_state() -> StorageComponentStates:
-  return StorageComponentStates.EMPTY
+	return StorageComponentStates.EMPTY
 
 func get_storage_items() -> Array[StringName]:
-  return self.storage.keys()
+	return self.storage.keys()
 
 ## Used to get the max capacity of a specific resource
 func get_max_capacity(_resource: StringName) -> int:
-  return 2**63 - 1
+	return 2**63 - 1
 
 ## Used to set the storage amount of a specific resource.[br]
 ## The resource key will be created if it does not exist in the storage.[br]
 func set_storage_item_amount(resource: StringName, new_amount: int) -> void:
-  storage[resource] = max(new_amount, 0)
-  var storage_state: StorageComponentStates = self.get_storage_state()
-  self.storage_changed.emit(storage_state)
-  GameStats.game_stats_resource.resources_changed.emit()
+	storage[resource] = max(new_amount, 0)
+	var storage_state: StorageComponentStates = self.get_storage_state()
+	self.storage_changed.emit(storage_state)
+	GameStats.game_stats_resource.resources_changed.emit()
 
 func get_storage_item_amount(resource: StringName) -> int:
-  return self.storage.get(resource, 0)
+	return self.storage.get(resource, 0)

@@ -27,21 +27,21 @@ class_name InteractionContext
 ## The method should be constructed as follows:
 ## [codeblock]
 ## func _on_ia_<action name>_<pressed|released>(
-##      target: Node,
-##      position: Vector2
+##			target: Node,
+##			position: Vector2
 ## ) -> void
 ## [/codeblock]
 ##
 ## Spaces in the action name will be replaced by underscores, hence
 ## ...[code]action name[/code]... will become [code]_on_ia_action_name_pressed()[/code]
-##  or [code]_on_ia_action_name_released()[/code].[br][br]
+##	or [code]_on_ia_action_name_released()[/code].[br][br]
 ##
 ## A notable exception to that is the method:
 ## [codeblock]
-##  func _on_mouse_motion(
-##      target: Node,
-##      position: Vector2
-##  ) -> void
+##	func _on_mouse_motion(
+##			target: Node,
+##			position: Vector2
+##	) -> void
 ## [/codeblock]
 ##
 ## All InputEventMouseMotion events will be routed to this function. This can
@@ -56,39 +56,39 @@ signal context_aborted
 @export var valid_actions: PackedStringArray = ["main_command", "alt_command"]
 
 func interact(event: InputEvent, target: Node, position: Vector2) -> void:
-  if event.is_action_type():
-    for action in valid_actions:
-      if event.is_action(action):
-        var function: String = _make_function_name(
-          action, event.is_action_pressed(action))
-        if self.has_method(function):
-          self.call(function, target, position)
-          return
-  elif event is InputEventMouseMotion:
-    _on_mouse_motion(target, position)
-    return
+	if event.is_action_type():
+		for action in valid_actions:
+			if event.is_action(action):
+				var function: String = _make_function_name(
+					action, event.is_action_pressed(action))
+				if self.has_method(function):
+					self.call(function, target, position)
+					return
+	elif event is InputEventMouseMotion:
+		_on_mouse_motion(target, position)
+		return
 
 func abort_context() -> void:
-  emit_signal("context_aborted")
-  get_viewport().set_input_as_handled()
+	emit_signal("context_aborted")
+	get_viewport().set_input_as_handled()
 
 func _on_enter() -> void:
-  pass#print("InteractionContext %s entered" % _context_name)
+	pass#print("InteractionContext %s entered" % _context_name)
 
 func _on_exit() -> void:
-  pass#print("InteractionContext %s exited" % _context_name)
+	pass#print("InteractionContext %s exited" % _context_name)
 
 func _on_mouse_motion(target: Node, position: Vector2) -> void:
-  pass
+	pass
 
 func _on_ia_main_command_pressed(target: Node, position: Vector2) -> void:
-  abort_context()
+	abort_context()
 
 func _make_function_name(action: String, pressed: bool = true) -> String:
-  var func_name: String = action.replace(" ", "_")
-  func_name = "_on_ia_" + func_name
-  if pressed:
-    func_name += "_pressed"
-  else:
-    func_name += "_released"
-  return func_name
+	var func_name: String = action.replace(" ", "_")
+	func_name = "_on_ia_" + func_name
+	if pressed:
+		func_name += "_pressed"
+	else:
+		func_name += "_released"
+	return func_name
