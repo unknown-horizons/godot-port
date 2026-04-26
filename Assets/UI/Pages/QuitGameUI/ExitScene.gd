@@ -1,4 +1,4 @@
 extends Node
 
 func _ready() -> void:
-  get_tree().quit()
+	get_tree().quit()

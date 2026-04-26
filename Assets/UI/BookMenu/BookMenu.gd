@@ -15,106 +15,106 @@ var parent: Control = null
 @export var has_ok_button: bool = true : set = set_has_ok_button
 
 func _ready() -> void:
-  var page_control: Control
-  for page in %Pages.get_children():
-    if %Pages.get_tab_count() > 1:
-      page_control = page.find_child("PageControl")
-      Utils.ensure_connected(page_control.get_node("PrevButton").pressed, _on_PrevButton_pressed)
-      Utils.ensure_connected(page_control.get_node("NextButton").pressed, _on_NextButton_pressed)
+	var page_control: Control
+	for page in %Pages.get_children():
+		if %Pages.get_tab_count() > 1:
+			page_control = page.find_child("PageControl")
+			Utils.ensure_connected(page_control.get_node("PrevButton").pressed, _on_PrevButton_pressed)
+			Utils.ensure_connected(page_control.get_node("NextButton").pressed, _on_NextButton_pressed)
 
-      page_control.visible = true
+			page_control.visible = true
 
-  Utils.ensure_connected(%Pages.tab_changed, _on_Pages_tab_changed)
+	Utils.ensure_connected(%Pages.tab_changed, _on_Pages_tab_changed)
 
-  # Force-call to determine initial state of page controls (enabled/disabled)
-  %Pages.tab_changed.emit(%Pages.current_tab)
+	# Force-call to determine initial state of page controls (enabled/disabled)
+	%Pages.tab_changed.emit(%Pages.current_tab)
 
 func set_has_delete_button(new_has_delete_button: bool) -> void:
-  if not is_inside_tree():
-    await self.ready
+	if not is_inside_tree():
+		await self.ready
 
-  has_delete_button = new_has_delete_button
+	has_delete_button = new_has_delete_button
 
-  for page in %Pages.get_children():
-    var delete_button := page.find_child("DeleteButton") as TextureButton
-    Utils.ensure_connected(delete_button.pressed, _on_DeleteButton_pressed)
-    delete_button.visible = has_delete_button
+	for page in %Pages.get_children():
+		var delete_button := page.find_child("DeleteButton") as TextureButton
+		Utils.ensure_connected(delete_button.pressed, _on_DeleteButton_pressed)
+		delete_button.visible = has_delete_button
 
 func set_has_cancel_button(new_has_cancel_button: bool) -> void:
-  if not is_inside_tree():
-    await self.ready
+	if not is_inside_tree():
+		await self.ready
 
-  has_cancel_button = new_has_cancel_button
+	has_cancel_button = new_has_cancel_button
 
-  for page in %Pages.get_children():
-    # Place CancelButton on
-    #  left side for one-paged menus
-    #  right side for multi-paged menus
-    var cancel_button: TextureButton
-    if %Pages.get_child_count() > 1:
-      cancel_button = page.find_child("RightPageControls").find_child("CancelButton") as TextureButton
-    else:
-      cancel_button = page.find_child("CancelButton") as TextureButton
-    Utils.ensure_connected(cancel_button.pressed, _on_CancelButton_pressed)
-    cancel_button.visible = has_cancel_button
+	for page in %Pages.get_children():
+		# Place CancelButton on
+		#  left side for one-paged menus
+		#  right side for multi-paged menus
+		var cancel_button: TextureButton
+		if %Pages.get_child_count() > 1:
+			cancel_button = page.find_child("RightPageControls").find_child("CancelButton") as TextureButton
+		else:
+			cancel_button = page.find_child("CancelButton") as TextureButton
+		Utils.ensure_connected(cancel_button.pressed, _on_CancelButton_pressed)
+		cancel_button.visible = has_cancel_button
 
 
 func set_has_ok_button(new_has_ok_button: bool) -> void:
-  if not is_inside_tree():
-    await self.ready
+	if not is_inside_tree():
+		await self.ready
 
-  has_ok_button = new_has_ok_button
+	has_ok_button = new_has_ok_button
 
-  for page in %Pages.get_children():
-    var ok_button := page.find_child("OKButton") as TextureButton
-    Utils.ensure_connected(ok_button.pressed, _on_OKButton_pressed)
-    ok_button.visible = has_ok_button
+	for page in %Pages.get_children():
+		var ok_button := page.find_child("OKButton") as TextureButton
+		Utils.ensure_connected(ok_button.pressed, _on_OKButton_pressed)
+		ok_button.visible = has_ok_button
 
 func _on_PrevButton_pressed() -> void:
-  #prints("_on_PrevButton_pressed", "current_tab:", %Pages.current_tab)
+	#prints("_on_PrevButton_pressed", "current_tab:", %Pages.current_tab)
 
-  %Pages.current_tab -= 1
-  %Pages.emit_signal("tab_changed", %Pages.current_tab)
+	%Pages.current_tab -= 1
+	%Pages.emit_signal("tab_changed", %Pages.current_tab)
 
 func _on_NextButton_pressed() -> void:
-  #prints("_on_NextButton_pressed", "current_tab:", %Pages.current_tab)
+	#prints("_on_NextButton_pressed", "current_tab:", %Pages.current_tab)
 
-  %Pages.current_tab += 1
-  %Pages.emit_signal("tab_changed", %Pages.current_tab)
+	%Pages.current_tab += 1
+	%Pages.emit_signal("tab_changed", %Pages.current_tab)
 
 func _on_Pages_tab_changed(tab: int) -> void:
-  #var tab_count = %Pages.get_tab_count()
-  #var current_tab = %Pages.current_tab
-  var current_tab_control := %Pages.get_current_tab_control() as Control
-  var current_page_control := current_tab_control.find_child("PageControl")
+	#var tab_count = %Pages.get_tab_count()
+	#var current_tab = %Pages.current_tab
+	var current_tab_control := %Pages.get_current_tab_control() as Control
+	var current_page_control := current_tab_control.find_child("PageControl")
 
 #  if %Pages.get_tab_count() <= 1:
 #    page_control.get_node("PrevButton").disabled = true
 #    page_control.get_node("NextButton").disabled = true
-  current_page_control.get_node("PrevButton").disabled = true
-  current_page_control.get_node("NextButton").disabled = true
-  if %Pages.get_tab_count() > 1:
-    if 0 < tab:
-      current_page_control.get_node("PrevButton").disabled = false
-    if tab < %Pages.get_tab_count() - 1:
-      current_page_control.get_node("NextButton").disabled = false
+	current_page_control.get_node("PrevButton").disabled = true
+	current_page_control.get_node("NextButton").disabled = true
+	if %Pages.get_tab_count() > 1:
+		if 0 < tab:
+			current_page_control.get_node("PrevButton").disabled = false
+		if tab < %Pages.get_tab_count() - 1:
+			current_page_control.get_node("NextButton").disabled = false
 
 func _on_DeleteButton_pressed() -> void:
-  #print("_on_DeleteButton_pressed")
-  Audio.play_snd_click()
+	#print("_on_DeleteButton_pressed")
+	Audio.play_snd_click()
 
 func _on_CancelButton_pressed() -> void:
-  #print("_on_CancelButton_pressed")
-  Audio.play_snd_click()
+	#print("_on_CancelButton_pressed")
+	Audio.play_snd_click()
 
-  if parent != null:
-    parent.visible = true
-  queue_free()
+	if parent != null:
+		parent.visible = true
+	queue_free()
 
 func _on_OKButton_pressed() -> void:
-  #print("_on_OKButton_pressed")
-  Audio.play_snd_click()
+	#print("_on_OKButton_pressed")
+	Audio.play_snd_click()
 
-  if parent != null:
-    parent.visible = true
-  queue_free()
+	if parent != null:
+		parent.visible = true
+	queue_free()
