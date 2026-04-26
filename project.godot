@@ -8,11 +8,15 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
 config/name="Unknown Horizons"
 run/main_scene="res://Assets/UI/Pages/MainMenuScene.tscn"
-config/features=PackedStringArray("4.5")
+config/features=PackedStringArray("4.6")
 boot_splash/image="res://boot_splash.png"
 config/icon="res://icon.png"
 
@@ -23,6 +27,9 @@ Config="*res://Assets/World/Config.gd"
 Audio="*res://Assets/World/Audio.gd"
 Cursor="*res://Assets/UI/Cursor.gd"
 GameStats="*res://Assets/World/SingleTons/GameStats.gd"
+MCPScreenshot="*res://addons/godot_mcp/mcp_screenshot_service.gd"
+MCPInputService="*res://addons/godot_mcp/mcp_input_service.gd"
+MCPGameInspector="*res://addons/godot_mcp/mcp_game_inspector_service.gd"
 
 [debug]
 
@@ -43,6 +50,10 @@ window/stretch/aspect="expand"
 
 naming/default_signal_callback_name="_on_{NodeName}_{signal_name}"
 naming/scene_name_casing=0
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_mcp/plugin.cfg")
 
 [global_group]
 
