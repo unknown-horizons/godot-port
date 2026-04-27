@@ -1,0 +1,3533 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Unknown Horizons Team
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2020-02-27 11:11+0000\n"
+"Last-Translator: k ks <kmshts@naver.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/uh/uh/ko/>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.0-dev\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "알 수 없는 저장 날짜"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "알 수 없는 저장 날짜"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+msgid "Descriptive Label:"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "건물"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "알수 없음"
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "알 수 없는 저장 날짜"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "혼자 놀기"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "놀이 불러오기"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr "크레딧"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr "편집기"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Quit"
+msgstr "끝내기"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Help"
+msgstr "도움말"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Options"
+msgstr "행동"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "새로운 놀이 - 혼자 놀기"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Scenario"
+msgstr "시나리오"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Random map"
+msgstr "임의의 지도"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Free play"
+msgstr "자유롭게 놀기"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "알 수 없는 저장 날짜"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Color:"
+msgstr "색상:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "AI players:"
+msgstr "인공지능 선수:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "놀이 지도를 선택하십시오:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "추천하는 선수 수: {number}"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Game settings:"
+msgstr "놀이 설정:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "자원 밀도:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "자유 무역상선"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Pirates"
+msgstr "해적"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr "재난"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Saving"
+msgstr "저장중"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr "일반"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "언어 선택:"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Mouse"
+msgstr "마우스"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Graphics"
+msgstr "그래픽"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Sound"
+msgstr "소리"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr "단축키"
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "통계"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Players"
+msgstr "선수"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My ships"
+msgstr "내 배"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My settlements"
+msgstr "내 정착지"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Player scores"
+msgstr "선수 점수"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Name"
+msgstr "이름"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Money"
+msgstr "돈"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Land"
+msgstr "땅"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Resources"
+msgstr "자원"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Buildings"
+msgstr "건물"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlers"
+msgstr "정착민"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Units"
+msgstr "유닛"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Total"
+msgstr "합계"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "140"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "104"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "InventoryTab"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Limit: 30t per slot"
+msgstr "제한: 슬롯당 {amount}t"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "구매/판매"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr ""
+"{resource_name}을 {price} 골드/t 에 구매합니다. 언제든지 {limit}t 보다 적은 "
+"양이 비축되어있습니다."
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Trade history"
+msgstr "무역 기록"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Free Trader"
+msgstr "자유 무역상선"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "생산 요약"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "알 수 없는 저장 날짜"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "무역"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "LumberjackOverviewTab"
+msgstr "나무꾼 천막"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr "정착"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr "기반 시설"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr "주택"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr "봉사"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr "예방책"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "밭"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Pioneers"
+msgstr "개척자"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Citizens"
+msgstr "시민"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr "농업"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr "바다"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr "식량"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr "작업장"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr "생산시설"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr "목재"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Mining"
+msgstr "광산업"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr "축성 공사"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr "군 복무"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sailors"
+msgstr "선원"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "주민들과 기반시설"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military"
+msgstr "군대"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Merchants"
+msgstr "무역상선"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "Game Speed Up"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "Game Speed Down"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "회계"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr "수입:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr "세금"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Sale"
+msgstr "판매"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Expenses:"
+msgstr "지출:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Running costs"
+msgstr "운영 비용"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Buying"
+msgstr "구매"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Balance"
+msgstr "잔고"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Upgrade permissions:"
+msgstr "상향 권한:"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr "가구 당 행복도"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents per house"
+msgstr "가구 당 주민들"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr "가구 당 주민들수"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr "이 인구를 가진 집들"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Summary"
+msgstr "요약"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "집"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents"
+msgstr "주민들"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "정착지 요약"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Tent"
+msgstr "천막"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Needed resources:"
+msgstr "필요한 자원:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr "세금:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Paid taxes"
+msgstr "지불한 세금"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Tax rate"
+msgstr "세율"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr "꿀벌을 지킵니다. 과자에 사용되는 벌집을 생산합니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "밀가루 소비. 식량 생산."
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+#, fuzzy
+msgid "_ Recruits units suitable for ground combat."
+msgstr "지상전투를 위해 적당한 부대를 모집합니다."
+
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "안전을 제공합니다."
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "향신료없이 양념을 생산합니다."
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "배와 소형선박을 건조합니다. 해안에 건설합니다."
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "호프를 사용하여 맥주를 제조합니다."
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "점토로 벽돌을 만듬."
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "돼지나 소가 필요합니다. 식량을 생산합니다."
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "대포를 생산합니다."
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "소를 키웁니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+#, fuzzy
+msgid "_ Burns a lot of boards."
+msgstr "많은 판을 굽습니다."
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+msgid "None"
+msgstr "없음"
+
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "매장층에서 점토를 채취합니다."
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr "과자에 사용되는 코코아 열매를 생산합니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "옥수수를 기릅니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "설탕을 술로 바꿉니다."
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+#, fuzzy
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr "질병을 치료합니다. 약초를 소비합니다."
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "밭 작물을 기르고 가축을 사육합니다."
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+#, fuzzy
+msgid "_ Extinguishes fires."
+msgstr "화재를 진화합니다."
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "바다에서 낚시합니다. 식량을 생산합니다."
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "약초를 생산합니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "맥주재료를 얻습니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "숲속 야생 동물을 사냥하여, 식량을 생산합니다."
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "정착지 범위를 확장합니다."
+
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "나무를 자르고 판자로 만듭니다."
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+#, fuzzy
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr "시민들에게 물품을 공급하고, 공동체를 제공합니다."
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "매장층에서 철광석을 가져옵니다."
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "모든 종류의 과자를 생산합니다."
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "양을 사육합니다. 양모를 생산합니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "선원들의 종교적 요구를 충족시킵니다."
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "돼지를 사육합니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "식량을 수확합니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "주민들 주택."
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "소금을 증발시킵니다. 해안에 건설합니다."
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "선수가 자유 무역상선과의 무역을 허용합니다."
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "모든 광물을 정제합니다."
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "향신료를 기릅니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "벽돌에 돌 탑을 새겨놓다."
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "산에서 돌을 채취합니다."
+
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr "재고와 정착지를 확장하고 수집자을 제공합니다."
+
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "주류 생산에 사용됩니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "먹고 마시며 즐길 수 있는 대중적 모임을 위한 장소를 제공합니다."
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "담배잎으로 담배를 만듭니다."
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "담배잎을 생산합니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "철 없이 도구 제작."
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "물품을 모우는데 필요합니다."
+
+#: Assets/World/Buildings2/tree/tree.tscn
+#, fuzzy
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr "목재를 제공합니다. 나무꾼이 베어 생산합니다."
+
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "교육을 제공합니다."
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr "포도주와 과자에 사용되는 포도를 생산합니다. 농장이 필요합니다."
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "철에서 무기를 생산."
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "양털을 옷감으로 만듭니다."
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "옥수수를 밀가루로 빻기."
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "포도 없이 포도주 제조."
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "정착지를 방어."
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "미지의 지평선이 강제 종료되었습니다."
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "미지의 지평선을 이용해 주셔서 고맙습니다!"
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr ""
+#~ "이 문제에 대해 매우 죄송합니다. 저희는 근본적인 오류를 해결하고 싶습니다."
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr "이를 해결 하기 위해서는, 로그 파일안에 있는 정보가 필요합니다:"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "그것을 IRC나 홈페이지 포럼 게시판을 통해 우리에게 주십시오. 자세한 방법은 "
+#~ "http://unknown-horizons.org 를 참조하십시오."
+
+#~ msgid "Return to editor"
+#~ msgstr "편집기로 돌아가기"
+
+#~ msgid "Save map"
+#~ msgstr "지도 저장"
+
+#~ msgid "Load map"
+#~ msgstr "지도 불러오기"
+
+#~ msgid "Settings"
+#~ msgstr "설정"
+
+#~ msgid "Exit editor"
+#~ msgstr "편집기 종료"
+
+#~ msgid "Select brush size:"
+#~ msgstr "붓 크기 선택:"
+
+#~ msgid "Select terrain:"
+#~ msgstr "지형 선택:"
+
+#~ msgid "(right click to stop)"
+#~ msgstr "(중지 하려면 마우스 오른쪽 클릭)"
+
+#~ msgid "Game start"
+#~ msgstr "놀이 시작"
+
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr "건물을 건설하기 전에 가장 먼저 정착지를 세워야 합니다!"
+
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr "오른쪽 클릭을 배를 선택하고 통해 해안에 접근하십시오."
+
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr "이후에, 선박 요약 탭의 큰 단추를 누르십시오."
+
+#~ msgid "Build"
+#~ msgstr "건설"
+
+#~ msgid "Running costs:"
+#~ msgstr "운영 비용:"
+
+#~ msgid "Related buildings"
+#~ msgstr "관련된 건물"
+
+#~ msgid "Inhabitants"
+#~ msgstr "주민"
+
+#, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr "놀이 속도 상승 ({key})"
+
+#, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr "놀이 속도 감소 ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map counterclockwise ({key})"
+#~ msgstr "지도를 시계 반대방향으로 회전 ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map clockwise ({key})"
+#~ msgstr "지도를 시계 방향으로 회전 ({key})"
+
+#~ msgid "Zoom in"
+#~ msgstr "확대"
+
+#~ msgid "Zoom out"
+#~ msgstr "축소"
+
+#, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "철거 ({key})"
+
+#, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "선장의 일기 ({key})"
+
+#, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "건설 메뉴 ({key})"
+
+#~ msgid "Diplomacy"
+#~ msgstr "외교"
+
+#, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "놀이 메뉴 ({key})"
+
+#~ msgid "Change name"
+#~ msgstr "이름 변경"
+
+#~ msgid "Old name:"
+#~ msgstr "이전 이름:"
+
+#~ msgid "Enter new name:"
+#~ msgstr "새 이름을 입력:"
+
+#~ msgid "Apply the new name"
+#~ msgstr "새 이름을 적용"
+
+#~ msgid "Chat"
+#~ msgstr "대화"
+
+#~ msgid "Enter your message:"
+#~ msgstr "메시지를 입력하십시오:"
+
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr ""
+#~ "지상 건물을 건설하기 위해서, 계층 탭중 하나를 클릭하고, 원하는 지상 건물"
+#~ "을 선택하고 명령을 확인하십시오."
+
+#~ msgid "Currently building:"
+#~ msgstr "현재 건물:"
+
+#~ msgid "Pause"
+#~ msgstr "일시 중지"
+
+#~ msgid "Resume"
+#~ msgstr "계속하기"
+
+#~ msgid "Construction progress:"
+#~ msgstr "건설 진행 상황:"
+
+#~ msgid "Resources still needed:"
+#~ msgstr "아직도 필요한 자원:"
+
+#~ msgid "Cancel building:"
+#~ msgstr "건설 취소:"
+
+#~ msgid "(lose all resources)"
+#~ msgstr "(모든 자원을 잃습니다.)"
+
+#~ msgid "Cancel all building progress"
+#~ msgstr "모든 건물의 건설을 취소"
+
+#~ msgid "Confirm order"
+#~ msgstr "명령 확인"
+
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "(선택 탭 처럼)"
+
+#~ msgid "$res"
+#~ msgstr "$res"
+
+#~ msgid "24t"
+#~ msgstr "24t"
+
+#~ msgid "06t"
+#~ msgstr "06t"
+
+#~ msgid "2500"
+#~ msgstr "2500"
+
+#~ msgid "Sloop-o'-war"
+#~ msgstr "슬루프 오브 워"
+
+#~ msgid "Three-masted most common classified war ship with one gun deck."
+#~ msgstr "하나의 총 갑판으로 3 개의 돛을 올린 가장 일반적인 분류된 전함."
+
+#~ msgid "Buy Upgrades"
+#~ msgstr "업그레드 사기"
+
+#~ msgid "Cannons"
+#~ msgstr "대포"
+
+#~ msgid "Hull"
+#~ msgstr "선체"
+
+#~ msgid "+ 24t"
+#~ msgstr "+ 24t"
+
+#~ msgid "+ 14t"
+#~ msgstr "+ 14t"
+
+#~ msgid "+ 06t"
+#~ msgstr "+ 06t"
+
+#~ msgid "+ 1457"
+#~ msgstr "+ 1457"
+
+#~ msgid "Build groundunit:"
+#~ msgstr "지상 건물 건설:"
+
+#~ msgid "Build this groundunit!"
+#~ msgstr "이 건물을 건설하십시오!"
+
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "선박을 건설하기 위해서, 계층 탭중 하나를 클릭하고, 원하는 배를 선택하고 주"
+#~ "문을 확인하십시오."
+
+#~ msgid "Build ship:"
+#~ msgstr "배를 건조:"
+
+#~ msgid "Build this ship!"
+#~ msgstr "이 배를 건조!"
+
+#~ msgid "ally"
+#~ msgstr "동맹"
+
+#~ msgid "neutral"
+#~ msgstr "중립"
+
+#~ msgid "enemy"
+#~ msgstr "적"
+
+#~ msgid "Building overview"
+#~ msgstr "건물 요약"
+
+#~ msgid "Capacity utilization"
+#~ msgstr "가동률"
+
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "이 지상 유닛의 이름을 변경 하려면 클릭 하십시오"
+
+#~ msgid "Settlement inventory"
+#~ msgstr "정착지 물품 목록"
+
+#~ msgid "sad"
+#~ msgstr "슬픔"
+
+#~ msgid "satisfied"
+#~ msgstr "만족"
+
+#~ msgid "happy"
+#~ msgstr "행복"
+
+#~ msgid "Amount of houses with this happiness"
+#~ msgstr "이런 행복한 주택의 액수"
+
+#~ msgid "houses"
+#~ msgstr "주택들"
+
+#~ msgid "residents"
+#~ msgstr "주민들"
+
+#~ msgid "Provides security for your settlement."
+#~ msgstr "정착지의 안전을 제공합니다."
+
+#~ msgid "Selling"
+#~ msgstr "판매"
+
+#~ msgid "Name:"
+#~ msgstr "이름:"
+
+#~ msgid "Weapons:"
+#~ msgstr "무기:"
+
+#~ msgid "Resource deposit"
+#~ msgstr "자원 매장층"
+
+#~ msgid ""
+#~ "This is a resource deposit where you can build a mine to dig up resources."
+#~ msgstr "이 자원 매장층에, 자원 광산을 건설할 수 있습니다."
+
+#~ msgid "It contains these resources:"
+#~ msgstr "매장된 자원:"
+
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "정착지 이름을 변경 하려면 클릭 하십시오"
+
+#~ msgid "Happiness"
+#~ msgstr "행복도"
+
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr ""
+#~ "봉화대는 무역상선을 정착지에 도착하는 방법을 보여줍니다. 무역상선은 물품"
+#~ "을 구매 또는 판매합니다."
+
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr ""
+#~ "이것은 자유 무역상선입니다. 물품을 구매하거나 판매하기위해 수시로 방문할 "
+#~ "것입니다."
+
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "이 배의 이름을 변경 하려면 클릭 하십시오"
+
+#~ msgid "Build settlement"
+#~ msgstr "정착지 건설"
+
+#~ msgid "Configure trading route"
+#~ msgstr "무역 경로 구성"
+
+#~ msgid "Discard all resources"
+#~ msgstr "모든 자원을 폐기"
+
+#~ msgid "Ship:"
+#~ msgstr "배:"
+
+#~ msgid "Exchange:"
+#~ msgstr "교환:"
+
+#~ msgid "Trade partner:"
+#~ msgstr "무역 상대:"
+
+#~ msgid "Buy or sell resources"
+#~ msgstr "자원 구매 또는 판매"
+
+#~ msgid "Select resources:"
+#~ msgstr "선택한 자원:"
+
+#~ msgid "Collector utilization"
+#~ msgstr "수집자 활용도"
+
+#~ msgid "Balance:"
+#~ msgstr "잔고:"
+
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "이 정착지에서 생산되는 자원 보기"
+
+#~ msgid "Pause production"
+#~ msgstr "생산 멈춤"
+
+#~ msgid "Start production"
+#~ msgstr "생산 시작"
+
+#~ msgid "Select resource:"
+#~ msgstr "자원 선택:"
+
+#~ msgid ""
+#~ "The resource you select is displayed instead of the current one. Empty by "
+#~ "clicking on X."
+#~ msgstr ""
+#~ "현재 자원 대신 당신이 선택한 자원이 표시됩니다. X를 눌러 비울 수 있습니다."
+
+#~ msgid "Save current resource configuration as default for all settlements."
+#~ msgstr "현재 자원 설정을 모든 정착지에 기본으로 설정."
+
+#~ msgid "Reset default resource configuration for all settlements."
+#~ msgstr "모든 정착지의 기본 자원 설정을 초기화."
+
+#~ msgid "Move up"
+#~ msgstr "위로 옮김"
+
+#~ msgid "Delete entry"
+#~ msgstr "항목 삭제"
+
+#~ msgid "Move down"
+#~ msgstr "아래로 옮김"
+
+#~ msgid "Read previous entries"
+#~ msgstr "이전 항목들 읽기"
+
+#~ msgid "Read next entries"
+#~ msgstr "다음 항목들 읽기"
+
+#~ msgid "Game messages"
+#~ msgstr "놀이 메시지"
+
+#~ msgid "Whole world"
+#~ msgstr "전체 세계"
+
+#~ msgid "Everybody"
+#~ msgstr "모든 사람"
+
+#~ msgid "Sends the chat messages to all players."
+#~ msgstr "모든 선수에게 메시지를 보냅니다."
+
+#~ msgid "Enter your message here"
+#~ msgstr "여기에 메시지를 입력"
+
+#~ msgid "Return to game"
+#~ msgstr "놀이로 돌아가기"
+
+#~ msgid "Island Name:"
+#~ msgstr "섬 이름:"
+
+#~ msgid "Player Name:"
+#~ msgstr "선수 이름:"
+
+#~ msgid "Wait at load:"
+#~ msgstr "짐 실을 때 기다리기:"
+
+#~ msgid "Wait at unload:"
+#~ msgstr "짐 내릴 때 기다리기:"
+
+#~ msgid "Select a resource:"
+#~ msgstr "자원 선택:"
+
+#~ msgid "Route activity:"
+#~ msgstr "경로 활성화:"
+
+#~ msgid "Start route"
+#~ msgstr "경로 시작"
+
+#~ msgid "Exit"
+#~ msgstr "끝내기"
+
+#~ msgid "Go to previous page"
+#~ msgstr "이전 페이지로 이동"
+
+#~ msgid "Go to next page"
+#~ msgstr "다음 페이지로 이동"
+
+#~ msgid "Close"
+#~ msgstr "닫기"
+
+#~ msgid "Player Name"
+#~ msgstr "선수 이름"
+
+#~ msgid "Player's current treasury + income expected in near future"
+#~ msgstr "선수의 현재 잔고 + 곧 발생할 수입"
+
+#~ msgid ""
+#~ "Value of usable land i.e Amount of Land that can be used to create "
+#~ "buildings"
+#~ msgstr "사용 가능한 땅의 점수. 즉, 건물을 지을 수 있는 땅의 양"
+
+#~ msgid ""
+#~ "Value of resources generated from all the possible sources in the "
+#~ "player's settlement(s)"
+#~ msgstr "플레이어의 정착지에서 생산된 모든 자원의 점수"
+
+#~ msgid "Value of all the buildings in the player's settlement(s)"
+#~ msgstr "선수의 정착지에 있는 모든 건물의 점수"
+
+#~ msgid ""
+#~ "Value denoting the progress of the settlement(s) in terms of inhabitants, "
+#~ "buildings and overall happiness"
+#~ msgstr "정착지의 주민들·건물·전체 행복도를 종합한 점수"
+
+#~ msgid "Value of all the units owned by the player"
+#~ msgstr "선수가 소유한 모든 유닛의 가치"
+
+#~ msgid ""
+#~ "The total value from all individual entities or in short : Total Player "
+#~ "Score"
+#~ msgstr "모든 항목을 종합한 점수: 선수 종합 점수"
+
+#~ msgid "Type"
+#~ msgstr "종류"
+
+#~ msgid "Weapons"
+#~ msgstr "무기"
+
+#~ msgid "Health"
+#~ msgstr "체력"
+
+#~ msgid "Status"
+#~ msgstr "상태"
+
+#~ msgid "Aggressive"
+#~ msgstr "공격적"
+
+#~ msgid "Hold ground"
+#~ msgstr "가만히 있기"
+
+#~ msgid "Passive"
+#~ msgstr "수동적"
+
+#~ msgid "Flee"
+#~ msgstr "도망"
+
+#~ msgid "Exit to main menu"
+#~ msgstr "메인 메뉴로 나가기"
+
+#~ msgid "Choose a map size:"
+#~ msgstr "지도 크기 선택:"
+
+#~ msgid "Choose a map:"
+#~ msgstr "지도 선택:"
+
+#~ msgid "Choose a saved game's map:"
+#~ msgstr "저장된 놀이의 지도 선택:"
+
+#~ msgid "Select map source"
+#~ msgstr "지도 소스 선택"
+
+#~ msgid "Create new map"
+#~ msgstr "새로운 지도 생성"
+
+#~ msgid "Load existing map"
+#~ msgstr "기존 지도 불러오기"
+
+#~ msgid "Load saved game's map"
+#~ msgstr "저장된 놀이의 지도 불러오기"
+
+#~ msgid "Start editor"
+#~ msgstr "편집기 시작"
+
+#~ msgid "Return"
+#~ msgstr "돌아가기"
+
+#~ msgid "Scroll left"
+#~ msgstr "왼쪽으로 스크롤"
+
+#~ msgid "Scroll right"
+#~ msgstr "오른쪽으로 스크롤"
+
+#~ msgid "Scroll up"
+#~ msgstr "위로 스크롤"
+
+#~ msgid "Scroll down"
+#~ msgstr "아래로 스크롤"
+
+#~ msgid "Rotate building or map clockwise"
+#~ msgstr "건물이나 지도를 시계방향으로 회전"
+
+#~ msgid "Rotate building or map counterclockwise"
+#~ msgstr "건물이나 지도를 시계반대방향으로 회전"
+
+#~ msgid "Increase game speed"
+#~ msgstr "놀이 속도 증가"
+
+#~ msgid "Decrease game speed"
+#~ msgstr "놀이 속도 감소"
+
+#~ msgid "Pause game"
+#~ msgstr "놀이 멈춤"
+
+#~ msgid "Show build menu"
+#~ msgstr "건설 메뉴 보이기"
+
+#~ msgid "Enable destruct mode"
+#~ msgstr "파괴 모드 켜기"
+
+#~ msgid "Enable road building mode"
+#~ msgstr "도로 건설 모드 켜기"
+
+#~ msgid "Enable pipette mode (clone buildings)"
+#~ msgstr "피펫 모드 켜기 (건물 복제)"
+
+#~ msgid "Show player scores"
+#~ msgstr "선수 점수 보이기"
+
+#~ msgid "Show settlement list"
+#~ msgstr "정착지 목록 보이기"
+
+#~ msgid "Show ship list"
+#~ msgstr "배 목록 보이기"
+
+#~ msgid "Toggle Captain's log"
+#~ msgstr "선장의 일기 보이기/숨기기"
+
+#~ msgid "Quicksave"
+#~ msgstr "빠른 저장"
+
+#~ msgid "Quickload"
+#~ msgstr "빠른 불러오기"
+
+#~ msgid "Toggle translucency of ambient buildings"
+#~ msgstr "주변 건물 투명화 토글"
+
+#~ msgid "Highlight tile ownership"
+#~ msgstr "타일 소유권 강조"
+
+#~ msgid "Toggle health bars"
+#~ msgstr "체력 막대 토글"
+
+#~ msgid "Focus camera on selection"
+#~ msgstr "선택에 카메로 포커스"
+
+#~ msgid "Remove selected units / buildings"
+#~ msgstr "선택한 유닛/건물 삭제"
+
+#~ msgid "Display help"
+#~ msgstr "도움말 보이기"
+
+#~ msgid "Screenshot"
+#~ msgstr "스크린샷"
+
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "FPS 보이기 토글"
+
+#~ msgid "Toggle grid on/off"
+#~ msgstr "격자 보이기 토글"
+
+#~ msgid "Show coordinate values (Debug)"
+#~ msgstr "좌표 정보 보이지 (디버그용)"
+
+#~ msgid "Primary"
+#~ msgstr "기본"
+
+#~ msgid "Secondary"
+#~ msgstr "보조"
+
+#~ msgid "Reset to default"
+#~ msgstr "기본 값으로 초기화"
+
+#~ msgid "Reset to default keys"
+#~ msgstr "기본 키로 초기화"
+
+#~ msgid "Save game"
+#~ msgstr "놀이 저장"
+
+#~ msgid "Cancel game"
+#~ msgstr "놀이 취소"
+
+#~ msgid "Loading…"
+#~ msgstr "불러오는 중…"
+
+#~ msgid "Change Background"
+#~ msgstr "배경 변경"
+
+#~ msgid "Multiplayer"
+#~ msgstr "함께 놀기"
+
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "놀이 만들기 - 함께 놀기"
+
+#~ msgid "Player limit:"
+#~ msgstr "선수 제한:"
+
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "함께 놀기 차림표 나가기"
+
+#~ msgid "Name of the game:"
+#~ msgstr "놀이 이름:"
+
+#~ msgid "This will be displayed to other players so they recognize the game."
+#~ msgstr "다른 선수들이 놀이를 인식 할 수 있도록 표시합니다."
+
+#~ msgid "Unnamed Game"
+#~ msgstr "이름없는 놀이"
+
+#~ msgid "Password of the game:"
+#~ msgstr "놀이의 암호:"
+
+#~ msgid "This game's password. Required to join this game."
+#~ msgstr "이 놀이의 암호를 입력합니다. 이 놀이를 참여하는 데 필요합니다."
+
+#~ msgid "Create this new game"
+#~ msgstr "이 새로운 놀이 만들기"
+
+#~ msgid "Gamelobby"
+#~ msgstr "앞마당"
+
+#~ msgid "Chat:"
+#~ msgstr "대화:"
+
+#~ msgid "Exit gamelobby"
+#~ msgstr "대기방 나가기"
+
+#~ msgid "The game will start as soon as all players are ready."
+#~ msgstr "선수들이 전부 준비되면 바로 놀이를 시작합니다."
+
+#~ msgid "Game details:"
+#~ msgstr "놀이 상세 정보:"
+
+#~ msgid "Color"
+#~ msgstr "색상"
+
+#~ msgid "Ready:"
+#~ msgstr "준비:"
+
+#~ msgid "Sets your state to ready (necessary for the game to start)"
+#~ msgstr "준비 상태를 설정 합니다(놀이 시작을 위해 필요한)"
+
+#~ msgid "New game - Multiplayer"
+#~ msgstr "새로운 놀이 - 다중 사용자"
+
+#~ msgid "Load game:"
+#~ msgstr "놀이 불러오기:"
+
+#~ msgid "Load a saved game"
+#~ msgstr "저장된 놀이를 불러오기"
+
+#~ msgid "Active games:"
+#~ msgstr "활성화된 놀이:"
+
+#~ msgid "Refresh list:"
+#~ msgstr "목록 새로고침:"
+
+#~ msgid "Refresh list of active games"
+#~ msgstr "활성 놀이의 목록 새로 고침"
+
+#~ msgid "Create game:"
+#~ msgstr "놀이 생성:"
+
+#~ msgid "Create a new game"
+#~ msgstr "새로운 놀이 만들기"
+
+#~ msgid "Join game:"
+#~ msgstr "놀이 참여:"
+
+#~ msgid "Join the selected game"
+#~ msgstr "선택한 놀이에 참여하기"
+
+#~ msgid "Change player details"
+#~ msgstr "선수 상세정보 바꾸기"
+
+#~ msgid "Screen resolution:"
+#~ msgstr "화면 해상도:"
+
+#~ msgid "Full screen:"
+#~ msgstr "전체 화면:"
+
+#~ msgid "Frame rate limit:"
+#~ msgstr "프레임 속도 제한:"
+
+#~ msgid "Set the maximum frame rate used. Default: 60 fps."
+#~ msgstr "사용될 최대 프레임 속도 설정하기. 기본값: 60 fps."
+
+#~ msgid "Music volume:"
+#~ msgstr "음악 음량:"
+
+#~ msgid "Effects volume:"
+#~ msgstr "효과 음량:"
+
+#~ msgid "Enable sound:"
+#~ msgstr "소리 사용:"
+
+#~ msgid "Scroll at map edge:"
+#~ msgstr "지도 가장자리로 스크롤:"
+
+#~ msgid ""
+#~ "Whether to move the viewport when the mouse pointer is close to map edges"
+#~ msgstr ""
+#~ "마우스 포인터가 지도 가장자리 가까이에 있을 때 뷰포트를 이동할 것인지 여부"
+
+#~ msgid "Cursor centered zoom:"
+#~ msgstr "커서 중심으로 확대:"
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center. When disabled, always zoom to current viewport center."
+#~ msgstr ""
+#~ "활성화 하면, 마우스 휠 확대/축소는 새로운 뷰포트 중심으로 커서 위치를 사"
+#~ "용 합니다. 비활성화 하면, 항상 현재 뷰포트 중심에 확대/축소 합니다."
+
+#~ msgid "Middle mouse button pan:"
+#~ msgstr "마우스 중간 버튼 팬:"
+
+#~ msgid "When enabled, dragging the middle mouse button will pan the camera"
+#~ msgstr "활성화 하면, 마우스 가운데 버튼을 드래그하면 카메라를 이동 합니다"
+
+#~ msgid "0 is default system settings"
+#~ msgstr "0은 기본 시스템 설정"
+
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "마우스 감도:"
+
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "분 간격으로 자동 저장:"
+
+#~ msgid "Number of autosaves:"
+#~ msgstr "자동 저장 개수:"
+
+#~ msgid "Number of quicksaves:"
+#~ msgstr "빠른 저장 개수:"
+
+#~ msgid "Language"
+#~ msgstr "언어"
+
+#~ msgid "Rotate minimap with map:"
+#~ msgstr "지도의 미니맵 회전:"
+
+#~ msgid ""
+#~ "Whether to also rotate the minimap whenever the regular map is rotated"
+#~ msgstr "일반 지도가 회전할때마다 미니맵도 같이 회전할지 여부"
+
+#~ msgid "Uninterrupted building:"
+#~ msgstr "중단되지 않은 건물:"
+
+#~ msgid ""
+#~ "When enabled, do not exit the build mode after successful construction"
+#~ msgstr "활성화 되면, 성공적인 건설 이후 빌드 모드를 종료 하지 마십시오"
+
+#~ msgid "Auto-unload ship:"
+#~ msgstr "자동 하역 배:"
+
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr "정착 이후 배에서 하역할 것인지 여부"
+
+#~ msgid ""
+#~ "Don't use in normal game session. Decides whether to write debug "
+#~ "information in the logging directory of your user directory. Slows the "
+#~ "game down."
+#~ msgstr ""
+#~ "정상적인 놀이 세션에서 사용 하지 마십시오. 사용자 디렉토리의 로그 디렉토리"
+#~ "에 디버그 정보를 기록할건지 여부를 결정합니다. 놀이 속도가 느려집니다."
+
+#~ msgid "Enable logging:"
+#~ msgstr "로깅 활성화:"
+
+#~ msgid "Production indicators:"
+#~ msgstr "생산 지표:"
+
+#~ msgid ""
+#~ "Whether to show resource icons over buildings whenever they finish "
+#~ "production"
+#~ msgstr "그들이 생산을 끝낼 때마다 건물에 자원 아이콘을 표시할지 여부"
+
+#~ msgid "Higher values slow down scrolling."
+#~ msgstr "값이 높을수록 스크롤 천천히."
+
+#~ msgid "Scroll delay:"
+#~ msgstr "스크롤 지연:"
+
+#~ msgid "Choose a quote type:"
+#~ msgstr "견적 유형을 선택:"
+
+#~ msgid "What kind of quote to display while loading a game"
+#~ msgstr "놀이를 로드하는 동안 표시할 견적의 종류"
+
+#~ msgid "Network"
+#~ msgstr "네트워크"
+
+#~ msgid "If set to 0, use the router default"
+#~ msgstr "0으로 설정하면 라우터 기본값을 사용합니다"
+
+#~ msgid "Network port:"
+#~ msgstr "네트워크 포트:"
+
+#~ msgid "Discard current changes"
+#~ msgstr "현재 변경 내용 무시"
+
+#~ msgid "Reset to default settings"
+#~ msgstr "기본 설정으로 다시 설정"
+
+#~ msgid "Save changes"
+#~ msgstr "변경 사항 저장"
+
+#~ msgid "Your saved games:"
+#~ msgstr "저장된 놀이:"
+
+#~ msgid "Password of the game. Required to join this game"
+#~ msgstr "놀이 암호. 참여하는데 필요합니다"
+
+#~ msgid "Cancel"
+#~ msgstr "취소"
+
+#~ msgid "Enter filename:"
+#~ msgstr "파일 이름 입력:"
+
+#~ msgid "Details:"
+#~ msgstr "세부사항:"
+
+#~ msgid "Delete selected savegame"
+#~ msgstr "선택한 저장된 놀이 삭제"
+
+#~ msgid "Start game"
+#~ msgstr "놀이 시작"
+
+#~ msgid "Map settings:"
+#~ msgstr "지도 설정:"
+
+#~ msgid "Seed:"
+#~ msgstr "종자:"
+
+#~ msgid "Player name:"
+#~ msgstr "선수 이름:"
+
+#~ msgid "Invalid filename"
+#~ msgstr "잘못된 파일이름"
+
+#~ msgid "Received an invalid filename for a save command."
+#~ msgstr "명령어를 저장하기 위해 잘못된 파일 이름을 수신."
+
+#~ msgid "Error"
+#~ msgstr "오류"
+
+#~ msgid "Failed to save."
+#~ msgstr "저장하기 실패."
+
+#~ msgid "The trade partner does not sell this."
+#~ msgstr "무역 대상자는 이것을 판매 하지 않습니다."
+
+#~ msgid "You can not store this."
+#~ msgstr "이것을 저장할 수 없습니다."
+
+#~ msgid "You can not afford to buy this."
+#~ msgstr "이것을 살 여유가 없습니다."
+
+#~ msgid "The trade partner does not sell more of this."
+#~ msgstr "무역 대상자는 이것을 더 많이 판매하지 않습니다."
+
+#~ msgid "The trade partner does not buy this."
+#~ msgstr "무역 대상자는 이것을 구입하지 않습니다."
+
+#~ msgid "You do not possess this."
+#~ msgstr "이것을 소유하고 있지 않습니다."
+
+#~ msgid "The trade partner can not store more of this."
+#~ msgstr "무역 대상자는 이것을 더 많이 저장할 수 없습니다."
+
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "무역 대상자는 이것을 구입할 여유가 없습니다."
+
+#~ msgid "The trade partner does not buy more of this."
+#~ msgstr "무역 대상자는 이것을 더 이상 구입할 수 없습니다."
+
+#~ msgid "Failed to quicksave."
+#~ msgstr "빠른 저장 실패."
+
+#~ msgid "An error happened during quicksave."
+#~ msgstr "빠른 저장중에 오류가 발생했습니다."
+
+#~ msgid "Your map has not been saved."
+#~ msgstr "지도가 저장되지 않았습니다."
+
+#, python-brace-format
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: "
+#~ "{website}"
+#~ msgstr "이 오류가 또 다시 발생하면, 개발모임에게 연락주십시오: {website}"
+
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "놀이를 종료 하시겠습니까?"
+
+#~ msgid "Quit Game"
+#~ msgstr "놀이 종료"
+
+#~ msgid "No diplomacy possible"
+#~ msgstr "가능한 외교가 없습니다"
+
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr "다른 선수가 없기 때문에 외교를 할 수 없습니다."
+
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "이 객체들을 삭제 하시겠습니까?"
+
+#~ msgid "Delete"
+#~ msgstr "삭제"
+
+#, python-brace-format
+#~ msgid "{size}x{size} tiles"
+#~ msgstr "{size}x{size} 타일"
+
+#~ msgid "Press key…"
+#~ msgstr "키를 누르십시오…"
+
+#, python-brace-format
+#~ msgid "{key} is already set to {action}."
+#~ msgstr "{key}는 이미 {action}으로 설정되었습니다."
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "덮어 씌우시겠습니까?"
+
+#~ msgid "Confirmation for overwriting"
+#~ msgstr "덮어쓰기 확인"
+
+#~ msgid "Quotes"
+#~ msgstr "견적"
+
+#~ msgid "Gameplay Tips"
+#~ msgstr "놀이 방법 도움말"
+
+#~ msgid "Press 'ESC' to access Game Menu."
+#~ msgstr "놀이 메뉴를 접근하려면 'ESC'를 누르십시오."
+
+#~ msgid "Use 'SHIFT' to place multiple buildings."
+#~ msgstr "여러 건물을 배치하려면 'SHIFT'를 사용하십시오."
+
+#, python-brace-format
+#~ msgid "Currently only the first {tier} tiers are playable."
+#~ msgstr "현재 처음 {tier} 계층만 사용할수 있습니다."
+
+#~ msgid "You can pause the game with 'P'."
+#~ msgstr "'P'를 눌러서 놀이를 일시 정지 할 수 있습니다."
+
+#~ msgid "You can drag roads by holding the left mouse button."
+#~ msgstr "마우스 왼쪽버튼을 누른상태에서 길을 드래그 할 수 있습니다."
+
+#~ msgid "You can build multiple buildings by holding the 'SHIFT' key."
+#~ msgstr "'SHIFT'키를 누른 상태로 여러 건물을 지을 수 있습니다."
+
+#~ msgid ""
+#~ "You can increase the happiness of your inhabitants by lowering the taxes."
+#~ msgstr "세금을 낮춰 주민들의 행복도를 올릴 수 있습니다."
+
+#~ msgid ""
+#~ "Build fire stations and doctors to protect your inhabitants from fire and "
+#~ "disease."
+#~ msgstr ""
+#~ "화재와 질병으로부터 주민들을 보호하기위해 소방서와 진료소를 건설하십시오."
+
+#~ msgid "Build storage tents to increase your storage capacity."
+#~ msgstr "저장고의 용량을 늘리기위해 저장고 천막을 건설하십시오."
+
+#~ msgid "Make sure every house is in range of a marketplace."
+#~ msgstr "시장의 범위내에 집들이 있도록 하십시오."
+
+#~ msgid "Press 'T' to make trees transparent."
+#~ msgstr "나무를 투명하게 하기위해서는 'T'를 누르십시오."
+
+#~ msgid "Build storage tents and lookouts to expand your settlement range."
+#~ msgstr "정착지의 영역을 늘리려면 저장고 천믹과 전망대를 건설하십시오."
+
+#~ msgid ""
+#~ "To easily see whether the pavilion's range cover all your tents, select "
+#~ "it from the build menu and hover it over your existing pavilion. "
+#~ "Uncovered tents are shown in yellow. It's a good idea to build a new "
+#~ "pavilion in their neighborhood."
+#~ msgstr ""
+#~ "종교 시설의 범위가 모든 천막에 포함되는지 쉽게 확인하려면 건설 메뉴에서 선"
+#~ "택하고 기존 종교시설 위로 가져 가십시오. 포함되지않는 천막은 노란색으로 표"
+#~ "시됩니다. 이웃에 새로운 종교 시설을 건설하는 것이 좋습니다."
+
+#~ msgid ""
+#~ "Make singleplayer more fun with additional computer players by increasing "
+#~ "'AI players' when starting a new game."
+#~ msgstr ""
+#~ "새로운 놀이를 시작할 때 '인공지능 놀사람'을 증가시켜 컴퓨터 놀사람을 추가"
+#~ "하여 혼자 놀사람과 즐기십시오."
+
+#~ msgid ""
+#~ "First steps are easier by looking at how AI players are setting up their "
+#~ "settlement."
+#~ msgstr ""
+#~ "첫 번째 단계는 인공지능 놀사람이 정착을 설정하는 방법을 보면 더 쉽습니다."
+
+#~ msgid ""
+#~ "Want funny quotes only? Change the quote types shown here in the settings "
+#~ "menu on the game page."
+#~ msgstr ""
+#~ "재미있는 따옴표만 원하십니까? 놀이 페이지의 설정 메뉴에서 여기에 표시된 따"
+#~ "옴표 유형을 변경하십시오."
+
+#~ msgid "A marketplace links your buildings like a road."
+#~ msgstr "장터는 길을 건설하여 연결 하십시오."
+
+#~ msgid "Mixed"
+#~ msgstr "혼합됨"
+
+#~ msgid "Starting engine…"
+#~ msgstr "엔진을 시작하는중…"
+
+#~ msgid "Catching fish…"
+#~ msgstr "고기를 잡는중…"
+
+#~ msgid "Drawing user interface…"
+#~ msgstr "사용자 인터페이스를 그리는중…"
+
+#~ msgid "Activating timer…"
+#~ msgstr "타이머를 활성화하는중…"
+
+#~ msgid "Chomping game data…"
+#~ msgstr "놀이 데이터를 쩝쩝거리며 먹고 있는중…"
+
+#~ msgid "Shaping islands…"
+#~ msgstr "섬들을 형성중…"
+
+#~ msgid "Preparing blueprints…"
+#~ msgstr "청사진 준비중…"
+
+#~ msgid "Filling world with water…"
+#~ msgstr "세상을 물로 체우는중…"
+
+#~ msgid "Raising animals…"
+#~ msgstr "동물을 기르는중…"
+
+#~ msgid "Convincing AI…"
+#~ msgstr "인공지능을 설득하는중…"
+
+#~ msgid "Burying treasures…"
+#~ msgstr "보물을 묻고 있는중…"
+
+#~ msgid "Unable to find pyenet"
+#~ msgstr "pyenet을 찾을 수 없습니다"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which could not "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "다중 사용자 기능은 시스템에서 발견되지 않은 \"pyenet\" 라이브러리를 요구합"
+#~ "니다."
+
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr "리눅스 사용자: 꾸러미 관리자를 통해 pyenet을 설치 합니다."
+
+#~ msgid "Failed to initialize networking."
+#~ msgstr "네트워킹을 초기화하는데 실패."
+
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr "네트워크 기능은 현재의 환경설정을 초기화 할 수 없습니다."
+
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "네트워크 섹션에서 지정한 설정을 재확인하십시오."
+
+#~ msgid "Fatal Network Error"
+#~ msgstr "치명적인 네트워크 오류"
+
+#~ msgid "Could not connect to master server."
+#~ msgstr "마스터 서버에 연결할 수 없습니다."
+
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "인터넷 연결을 확인하십시오. 인터넷 연결이 좋으면, 우리의 주 서버가 일시적"
+#~ "으로 다운된것입니다."
+
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "뭔가는 네트워크가 잘못되었습니다:"
+
+#~ msgid "Version differs!"
+#~ msgstr "버전이 다릅니다!"
+
+#, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "지도: {map_name}"
+
+#, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "이름: {game_name}"
+
+#, python-brace-format
+#~ msgid "Creator: {game_creator}"
+#~ msgstr "제작자: {game_creator}"
+
+#, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "선수: {player_amount}/{player_limit}"
+
+#~ msgid "Wrong version"
+#~ msgstr "잘못된 버전"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "놀이 버전이 당신이 가지고 있는것과 다릅니다. 함께 놀기 놀이의 모든 선수가 "
+#~ "같은 버전을 사용해야 합니다. 모든 선수가 최신 버전으로 갱신하면 해결됩니"
+#~ "다. 놀이 버전: {game_version} 당신 버전: {own_version}"
+
+#~ msgid "Password of the game"
+#~ msgstr "놀이 암호"
+
+#~ msgid "Enter password:"
+#~ msgstr "암호 입력:"
+
+#~ msgid "Ready"
+#~ msgstr "준비"
+
+#~ msgid "Not ready"
+#~ msgstr "준비 안됨"
+
+#~ msgid "Enter your message"
+#~ msgstr "메시지를 입력하십시오"
+
+#~ msgid "Click here to change your name and/or color"
+#~ msgstr "이름 및/또는 색상을 변경하려면 여기를 클릭하십시오"
+
+#, python-brace-format
+#~ msgid "Kick {player}"
+#~ msgstr "{player} 님을 추방"
+
+#, python-brace-format
+#~ msgid "{player} has joined the game"
+#~ msgstr "{player} 님이 들어왔습니다"
+
+#, python-brace-format
+#~ msgid "{player} has left the game"
+#~ msgstr "{player} 님이 나갔습니다"
+
+#~ msgid "You are now ready"
+#~ msgstr "준비되었습니다"
+
+#~ msgid "You are not ready anymore"
+#~ msgstr "요즘 준비되지 않았습니다"
+
+#, python-brace-format
+#~ msgid "{player} is now ready"
+#~ msgstr "{player} 님이 준비되었습니다"
+
+#, python-brace-format
+#~ msgid "{player} not ready anymore"
+#~ msgstr "{player} 님이 준비되지 않았습니다"
+
+#, python-brace-format
+#~ msgid "You are now known as {new_name}"
+#~ msgstr "이제부터 당신의 이름은 {new_name} 입니다"
+
+#, python-brace-format
+#~ msgid "{player} is now known as {new_name}"
+#~ msgstr "{player} 님이 {new_name}로 바뀌었습니다"
+
+#~ msgid "You changed your color"
+#~ msgstr "색상을 변경했습니다"
+
+#, python-brace-format
+#~ msgid "{player} changed their color"
+#~ msgstr "{player} 님이 색상을 바꿨습니다"
+
+#~ msgid "Kicked"
+#~ msgstr "강퇴되었습니다"
+
+#~ msgid "You have been kicked from the game by creator"
+#~ msgstr "방장에 의해 놀이에서 강퇴 되었습니다"
+
+#, python-brace-format
+#~ msgid "{player} got kicked by creator"
+#~ msgstr "{player} 님이 방장에 의해 강퇴 되었습니다"
+
+#~ msgid "Are you sure you want to abort the running session?"
+#~ msgstr "실행중인 세션을 종료하시겠습니까?"
+
+#~ msgid "Quit Session"
+#~ msgstr "세션 종료"
+
+#~ msgid "No saved games"
+#~ msgstr "저장된 놀이가 없음"
+
+#~ msgid "There are no saved games to load."
+#~ msgstr "불러오기할 저장된 놀이가 없습니다."
+
+#~ msgid "No filename given"
+#~ msgstr "주어진 파일 이름이 없습니다"
+
+#~ msgid "Please enter a valid filename."
+#~ msgstr "올바른 파일이름을 입력하십시오."
+
+#, python-brace-format
+#~ msgid "A savegame with the name {name} already exists."
+#~ msgstr "{name} 이름으로 저장된 놀이가 이미 존재합니다."
+
+#, python-brace-format
+#~ msgid "A map with the name {name} already exists."
+#~ msgstr "{name} 이름의 지도가 이미 존재합니다."
+
+#~ msgid "Overwrite it?"
+#~ msgstr "덮어쓰시겠습니까?"
+
+#, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "{time}에 저장됨"
+
+#, python-brace-format
+#~ msgid "Saved {amount} time"
+#~ msgid_plural "Saved {amount} times"
+#~ msgstr[0] "{amount} 시간 저장되었습니다.- 확인요망"
+
+#, python-brace-format
+#~ msgid "Savegame version {version}"
+#~ msgstr "저장된 놀이 버전 {version}"
+
+#~ msgid "(probably incompatible)"
+#~ msgstr "(아마도 호환되지 않음)"
+
+#~ msgid "Incompatible version"
+#~ msgstr "호환되지 않는 버전"
+
+#~ msgid "No file selected"
+#~ msgstr "선택한 파일이 없습니다"
+
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr "삭제할 저장된 놀이를 선택해야합니다."
+
+#, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "정말로 저장된 놀이 '{name}'를 삭제 하시겠습니까?"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "삭제 확인"
+
+#~ msgid "Error!"
+#~ msgstr "오류!"
+
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "저장된 파일 삭제 실패!"
+
+#~ msgid "Game"
+#~ msgstr "놀이"
+
+#~ msgid "Disabled"
+#~ msgstr "비활성화됨"
+
+#~ msgid "Restart required"
+#~ msgstr "다시 시작이 필요"
+
+#~ msgid ""
+#~ "Some of your changes require a restart of Unknown Horizons. Do you want "
+#~ "to restart Unknown Horizons now?"
+#~ msgstr ""
+#~ "변경 사항중 일부는 재시작이 필요합니다. 지금 놀이를 다시 시작하시겠습니까?"
+
+#~ msgid "Restore default settings"
+#~ msgstr "기본 설정을 복원"
+
+#~ msgid ""
+#~ "Restoring the default settings will delete all changes to the settings "
+#~ "you made so far."
+#~ msgstr ""
+#~ "기본 설정을 복원하는것은 지금까지 만든 설정에대한 모든 변경사항을 삭제할 "
+#~ "것입니다."
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "계속 하시겠습니까?"
+
+#~ msgid "Invalid network port"
+#~ msgstr "잘못된 네트워크 포트"
+
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr "명시된 포트는 올바르지 않습니다. 1부터 65535사의 숫자이어야 합니다."
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it is in the specified "
+#~ "range."
+#~ msgstr "입력한 포트를 확인하고 반드시 지정된 범위에 있는지 확인하십시오."
+
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "새로운 네트워크 설정을 적용하기 실패."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special access privileges, try 0 or a "
+#~ "number greater than 1024."
+#~ msgstr ""
+#~ "때로 낮은 포트 번호는 특별한 접근 권한을 요구합니다, 0 또는 1024보다 더 "
+#~ "큰 수를 사용하십시오."
+
+#~ msgid "Invalid player name"
+#~ msgstr "잘못된 선수 이름"
+
+#~ msgid "You entered an invalid playername."
+#~ msgstr "잘못된 선수 이름을 입력하였습니다."
+
+#~ msgid "Map size:"
+#~ msgstr "지도 크기:"
+
+#~ msgid "Water:"
+#~ msgstr "물:"
+
+#~ msgid "Max island size:"
+#~ msgstr "최대 섬 크기:"
+
+#~ msgid "Preferred island size:"
+#~ msgstr "선호하는 섬의 크기:"
+
+#~ msgid "Island size deviation:"
+#~ msgstr "섬의 크기 편차:"
+
+#~ msgid "Click to generate a different random map"
+#~ msgstr "클릭하여 다른 임의의 지도 생성하기"
+
+#~ msgid "Invalid scenario file"
+#~ msgstr "잘못된 시나리오 파일"
+
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "선택한 파일은 올바른 시나리오 파일이 아닙니다."
+
+#~ msgid "Error message:"
+#~ msgstr "오류 메시지:"
+
+#~ msgid "Please report this to the author."
+#~ msgstr "제작자에게 이것을 보고해주십시오."
+
+#, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "난이도: {difficulty}"
+
+#, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "제작자: {author}"
+
+#, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "설명: {desc}"
+
+#, python-brace-format
+#~ msgid "Build {building}"
+#~ msgstr "건설 {building}"
+
+#~ msgid "Press H to remove this hint"
+#~ msgstr "이 힌트를 삭제하려면 H를 누르십시오"
+
+#~ msgid "Destroy all buildings"
+#~ msgstr "모든 건물 파괴"
+
+#~ msgid ""
+#~ "This will destroy all the buildings that fall outside of the settlement "
+#~ "range."
+#~ msgstr "이 정착 범위를 벗어나는 모든 건물을 파괴 됩니다."
+
+#, python-format
+#~ msgid "%s additional building will be destroyed."
+#~ msgid_plural "%s additional buildings will be destroyed"
+#~ msgstr[0] "%s 의 추가 건물은 파괴 됩니다."
+
+#~ msgid "Barracks overview"
+#~ msgstr "병영 개요"
+
+#~ msgid "Swordman"
+#~ msgstr "검투사"
+
+#~ msgid "Overview"
+#~ msgstr "요약"
+
+#, python-brace-format
+#~ msgid "{ship} (place in queue: {place})"
+#~ msgstr "{ship} (대기열에에 배치: {place})"
+
+#~ msgid "Boat builder overview"
+#~ msgstr "선박 제조사 개요"
+
+#~ msgid "Fisher boats"
+#~ msgstr "어선"
+
+#~ msgid "Trade boats"
+#~ msgstr "상선"
+
+#~ msgid "War boats"
+#~ msgstr "전투선"
+
+#~ msgid "War ships"
+#~ msgstr "전함"
+
+#~ msgid "Tower overview"
+#~ msgstr "타워 요약"
+
+#~ msgid "Build related buildings"
+#~ msgstr "관련된 건물을 건설"
+
+#~ msgid "Click on one of the resource slots to add a trade offer."
+#~ msgstr "무역 매물을 추가하기 위해 자원 슬롯 중 하나에 클릭합니다."
+
+#~ msgid ""
+#~ "Set to buy or sell by clicking on that label, then adjust the amount via "
+#~ "the slider to the right."
+#~ msgstr ""
+#~ "라벨을 클릭함으로서 구매와 판매를 설정하고, 오른쪽 슬라이더를 통해 양을 조"
+#~ "정하십시오."
+
+#, python-brace-format
+#~ msgid ""
+#~ "Will sell {resource_name} for {price} gold/t whenever more than {limit}t "
+#~ "are available."
+#~ msgstr ""
+#~ "{resource_name} 을 {price} 골드/t 에 판매합니다. 언제든지 {limit}t 보다 많"
+#~ "은 양이 사용가능합니다."
+
+#~ msgid "Warehouse overview"
+#~ msgstr "창고 개요"
+
+#~ msgid "Main square overview"
+#~ msgstr "중앙광장 개요"
+
+#~ msgid "Upgrade not possible:"
+#~ msgstr "업그레이드가 불가능:"
+
+#~ msgid "This is the highest playable tier for now!"
+#~ msgstr "지금은 이것이 놀이의 가장 높은 계층 계층입니다!"
+
+#~ msgid "Don't allow upgrades"
+#~ msgstr "업그레이드 안함"
+
+#~ msgid "Allow upgrades"
+#~ msgstr "업그레드 허용"
+
+#~ msgid "Unit overview"
+#~ msgstr "유닛 요약"
+
+#, python-brace-format
+#~ msgid "Fill range with {how_many} trees"
+#~ msgstr "{how_many} 그루의 나무를 범위에 채움"
+
+#~ msgid "Selected Units"
+#~ msgstr "선택한 유닛"
+
+#~ msgid "Ship overview"
+#~ msgstr "선박 요약"
+
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr "배가 정착하기위한 섬에 근접해야합니다."
+
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "이 섬에 이미 정착하였습니다."
+
+#~ msgid "Load/Unload"
+#~ msgstr "선적/하역"
+
+#~ msgid "Too far from the nearest tradeable warehouse"
+#~ msgstr "근처의 무역가능한 창고에서 너무 멉니다"
+
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "무역상선에 무기를 장착할수 없습니다"
+
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "무기를 무역상선에 장착 할 수 없습니다."
+
+#~ msgid "Equip weapon"
+#~ msgstr "무기 장착"
+
+#~ msgid "Unequip weapon"
+#~ msgstr "무기 장착해제"
+
+#, python-brace-format
+#~ msgid "{resource_name}: {price} gold"
+#~ msgstr "{resource_name}: {price} 골드"
+
+#, python-brace-format
+#~ msgid "buy for {buyprice} gold"
+#~ msgstr "{buyprice} 골드에 구입"
+
+#, python-brace-format
+#~ msgid "sell for {sellprice} gold"
+#~ msgstr "{sellprice} 골드에 판매"
+
+#, python-brace-format
+#~ msgid "{stored}/{limit}"
+#~ msgstr "{stored}/{limit}"
+
+#~ msgid "Logbook"
+#~ msgstr "일기장"
+
+#~ msgid "Emptiness"
+#~ msgstr "텅 비어있음"
+
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "아직 일기장에 쓰여진게 없습니다!"
+
+#, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "{player} 님의 정착지"
+
+#, python-brace-format
+#~ msgid "Ships of {player}"
+#~ msgstr "{player} 님의 배"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#, python-brace-format
+#~ msgid "Production overview of {settlement}"
+#~ msgstr "{settlement}의 생산 개요"
+
+#~ msgid "Click to show statistics"
+#~ msgstr "클릭하여 통계를 표시"
+
+#~ msgid "Click to add a new slot"
+#~ msgstr "클릭하여 새로운 슬롯에 추가"
+
+#~ msgid "Reset this configuration to the factory default."
+#~ msgstr "이 설정을 공장 기본값으로 다시 설정 합니다."
+
+#~ msgid ""
+#~ "Reset this settlement's displayed resources to the default configuration "
+#~ "you have saved."
+#~ msgstr ""
+#~ "이 정착지의 표시된 자원을 저장했던 기본 환경설정으로 다시 설정합니다."
+
+#~ msgid ""
+#~ "Reset the default configuration (which you see here) to the factory "
+#~ "default for all settlements."
+#~ msgstr ""
+#~ "기본 환경 설정(보고 있는 여기)을 모든 정착지에 대해 공장 기본값으로 다시 "
+#~ "설정합니다."
+
+#~ msgid "Buy expenses"
+#~ msgstr "구매 비용"
+
+#~ msgid "Sell income"
+#~ msgstr "판매 수입"
+
+#~ msgid "Stop route"
+#~ msgstr "경로 중지"
+
+#~ msgid "Need at least two settlements"
+#~ msgstr "최소한 2개의 정착지가 필요합니다"
+
+#~ msgid "You need at least two different settlements in your route."
+#~ msgstr "경로에 최소한 2개의 다른 정착지가 필요합니다."
+
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "웨이포인트를 추가할 정착지를 클릭하십시오!"
+
+#~ msgid "Loading into ship"
+#~ msgstr "선적하는중"
+
+#~ msgid "Unloading from ship"
+#~ msgstr "하역하는중"
+
+#~ msgid "You are not allowed to trade with this player"
+#~ msgstr "이 선수와 무역할 수 없습니다"
+
+#, python-brace-format
+#~ msgid "{weapon}: {amount}"
+#~ msgstr "{weapon}: {amount}"
+
+#~ msgid "none"
+#~ msgstr "없음"
+
+#, python-brace-format
+#~ msgid "Details: {error_details}"
+#~ msgstr "상세정보: {error_details}"
+
+#, python-brace-format
+#~ msgid "Error: {error_message}"
+#~ msgstr "오류: {error_message}"
+
+#~ msgid "Bakery"
+#~ msgstr "빵집"
+
+#~ msgid "Barracks"
+#~ msgstr "병영"
+
+#~ msgid "Wooden barrier"
+#~ msgstr "나무 장벽"
+
+#~ msgid "Clay wall"
+#~ msgstr "진흙 벽"
+
+#~ msgid "Blender"
+#~ msgstr "혼합소"
+
+#~ msgid "Boat Builder"
+#~ msgstr "선박 건조자"
+
+#~ msgid "Brewery"
+#~ msgstr "양조장"
+
+#~ msgid "Brickyard"
+#~ msgstr "벽돌공장"
+
+#~ msgid "Butchery"
+#~ msgstr "도축장"
+
+#~ msgid "Cannon Foundry"
+#~ msgstr "대포 제작소"
+
+#~ msgid "Charcoal Burning"
+#~ msgstr "숯 굽기"
+
+#~ msgid "Clay Deposit"
+#~ msgstr "점토 매장층"
+
+#~ msgid "Clay Pit"
+#~ msgstr "점토 채취장"
+
+#~ msgid "Distillery"
+#~ msgstr "양조장"
+
+#~ msgid "Doctor"
+#~ msgstr "의사"
+
+#~ msgid "Farm"
+#~ msgstr "농장"
+
+#~ msgid "Alvearies"
+#~ msgstr "벌집"
+
+#~ msgid "Cattle Run"
+#~ msgstr "소 방목지"
+
+#~ msgid "Cocoa Field"
+#~ msgstr "코코아 밭"
+
+#~ msgid "Corn Field"
+#~ msgstr "옥수수 밭"
+
+#~ msgid "Herbary"
+#~ msgstr "약초밭"
+
+#~ msgid "Hop Field"
+#~ msgstr "호프 밭"
+
+#~ msgid "Pasture"
+#~ msgstr "초원"
+
+#~ msgid "Pigsty"
+#~ msgstr "양돈장"
+
+#~ msgid "Potato Field"
+#~ msgstr "감자밭"
+
+#~ msgid "Spice Field"
+#~ msgstr "향신료 밭"
+
+#~ msgid "Sugar Field"
+#~ msgstr "설탕 밭"
+
+#~ msgid "Tobacco Field"
+#~ msgstr "담배 밭"
+
+#~ msgid "Vineyard"
+#~ msgstr "포도원"
+
+#~ msgid "Fire Station"
+#~ msgstr "소방서"
+
+#~ msgid "Fish Deposit"
+#~ msgstr "어장"
+
+#~ msgid "Fisherman's Tent"
+#~ msgstr "어부의 천막"
+
+#~ msgid "Hunter's Tent"
+#~ msgstr "사냥꾼의 천막"
+
+#~ msgid "Lookout"
+#~ msgstr "전망대"
+
+#~ msgid "Lumberjack Hut"
+#~ msgstr "나무꾼 오두막"
+
+#~ msgid "Main Square"
+#~ msgstr "중앙광장"
+
+#~ msgid "Mine"
+#~ msgstr "광산"
+
+#~ msgid "Mountain"
+#~ msgstr "산"
+
+#~ msgid "Pastry Shop"
+#~ msgstr "제과점"
+
+#~ msgid "Pavilion"
+#~ msgstr "종교건물"
+
+#~ msgid "Ruined Tent"
+#~ msgstr "폐허 천막"
+
+#~ msgid "Salt Ponds"
+#~ msgstr "염전"
+
+#~ msgid "Signal Fire"
+#~ msgstr "봉화대"
+
+#~ msgid "Smeltery"
+#~ msgstr "용광로"
+
+#~ msgid "Stone Deposit"
+#~ msgstr "석재 매장층"
+
+#~ msgid "Stonemason"
+#~ msgstr "석수"
+
+#~ msgid "Carver"
+#~ msgstr "조각가"
+
+#~ msgid "Stone Pit"
+#~ msgstr "채석장"
+
+#~ msgid "Storage Tent"
+#~ msgstr "저장소 천막"
+
+#~ msgid "Storage Hut"
+#~ msgstr "저장소 오두막"
+
+#~ msgid "Tavern"
+#~ msgstr "선술집"
+
+#~ msgid "Hut"
+#~ msgstr "오두막"
+
+#~ msgid "Stone house"
+#~ msgstr "석조 가옥"
+
+#~ msgid "Estate"
+#~ msgstr "사유지"
+
+#~ msgid "Manor"
+#~ msgstr "영주의 저택"
+
+#~ msgid "Tobacconist"
+#~ msgstr "연초장"
+
+#~ msgid "Toolmaker"
+#~ msgstr "도구 제작자"
+
+#~ msgid "Trail"
+#~ msgstr "오솔 길"
+
+#~ msgid "Gravel Path"
+#~ msgstr "비포장 길"
+
+#~ msgid "Cobblestone Street"
+#~ msgstr "조약돌 거리"
+
+#~ msgid "Tree"
+#~ msgstr "나무"
+
+#~ msgid "Village School"
+#~ msgstr "마을 학교"
+
+#~ msgid "Warehouse"
+#~ msgstr "창고"
+
+#~ msgid "Weaponsmith"
+#~ msgstr "무기 제작소"
+
+#~ msgid "Weaver's Hut"
+#~ msgstr "직공의 오두막"
+
+#~ msgid "Windmill"
+#~ msgstr "풍차"
+
+#~ msgid "Winery"
+#~ msgstr "양조장"
+
+#~ msgid "Wooden Tower"
+#~ msgstr "목조 탑"
+
+#~ msgid "Failed to start/load the game"
+#~ msgstr "놀이를 시작/불러오기 실패"
+
+#~ msgid "The game you selected could not be started."
+#~ msgstr "선택한 놀이를 시작할 수 없습니다."
+
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr "저장된 놀이가 깨졌거나 이전 버전으로 저장되었습니다."
+
+#~ msgid "No quicksaves found"
+#~ msgstr "빠른 저장을 찾을 수 없습니다"
+
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr "빠른 불러오기를 하기전에 빠른 저장을 해야합니다."
+
+#~ msgid "Logging enabled"
+#~ msgstr "로그 활성화됨"
+
+#, python-brace-format
+#~ msgid "Logs are written to {directory}."
+#~ msgstr "로그는 {directory}에 기록 됩니다."
+
+#~ msgid ""
+#~ "The games have run out of sync. This indicates an unknown internal error, "
+#~ "the game cannot continue."
+#~ msgstr ""
+#~ "동기화 없이 놀이를 실행되었습니다. 알수없는 내부 오류를 나타냅니다, 놀이"
+#~ "를 계속할 수 없습니다."
+
+#~ msgid ""
+#~ "We are very sorry and hope to have this bug fixed in a future version."
+#~ msgstr ""
+#~ "정말 죄송합니다. 이후버전에서는 이 문제를 고칠수있도록 노력하겠습니다."
+
+#~ msgid "Not possible"
+#~ msgstr "가능 하지 않음"
+
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr "다중 사용자 놀이에서 저장하기/불러오기는 아직 가능하지 않습니다"
+
+#~ msgid ""
+#~ "The filename must consist only of letters, numbers, spaces and these "
+#~ "characters: _ . -"
+#~ msgstr ""
+#~ "파일이름은 문자, 숫자, 공백 그리고 다음의 문자로만 구성되어야합니다: _ . -"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "서버에 연결할 수 없습니다."
+
+#~ msgid "Maybe invalid or irresolvable server address."
+#~ msgstr "잘못되었거나 확인할 수 없는 서버 주소입니다."
+
+#~ msgid "Not Ready"
+#~ msgstr "준비 안됨"
+
+#~ msgid ""
+#~ "Old or unsupported multiplayer protocol. Please check your game version"
+#~ msgstr ""
+#~ "오래 되었거나 지원 되지 않는 다중 선수 프로토콜입니다. 놀이 버전을 확인 하"
+#~ "시기 바랍니다"
+
+#~ msgid "You've exceeded the global packet size."
+#~ msgstr "전체 패킷 크기를 초과 했습니다."
+
+#~ msgid "This should never happen. Please contact us or file a bug report."
+#~ msgstr ""
+#~ "이것은 결코 일어나서는 안됩니다. 저희에게 버그 보고서를 보내주십시오."
+
+#~ msgid "You've exceeded the per packet size."
+#~ msgstr "패킷 크기를 초과했습니다."
+
+#~ msgid "Unknown or malformed packet. Please check your game version"
+#~ msgstr "알 수 없거나 잘못된 패킷입니다. 놀이 버전을 확인 하시기 바랍니다"
+
+#~ msgid "Invalid/Unknown session"
+#~ msgstr "잘못되었거나 알 수 없는 세션"
+
+#~ msgid "You can't join a game while in another game"
+#~ msgstr "다른 놀이에는 참여할 수 없습니다"
+
+#~ msgid "Unknown game or game is running a different version"
+#~ msgstr "알 수 없는 놀이이거나 다른버전의 놀이가 실행중입니다"
+
+#~ msgid "Game has already started. No more joining"
+#~ msgstr "이 놀이는 이미 시작되었습니다. 더 이상 참여할수 없습니다"
+
+#~ msgid "Game is full"
+#~ msgstr "이 놀이는 정원이 채워졌습니다"
+
+#~ msgid "Wrong password"
+#~ msgstr "잘못된 암호입니다"
+
+#~ msgid "There's already a player with your name inside this game."
+#~ msgstr "이 놀이에 이미 같은 이름의 사용자가 있습니다."
+
+#~ msgid "Please change your name."
+#~ msgstr "이름을 바꾸십시오."
+
+#~ msgid "There's already a player with your color inside this game."
+#~ msgstr "이 놀이에는 이미 같은 색상의 사용자가 있습니다."
+
+#~ msgid "Please change your color."
+#~ msgstr "색상을 바꾸십시오."
+
+#~ msgid ""
+#~ "There's already a player with your unique player ID inside this game. "
+#~ "This should never occur."
+#~ msgstr ""
+#~ "이미 놀이 안에 고유 한 선수 아이디가 있는 선수가 있습니다. 이런 일은 절대"
+#~ "로 발생해서는 안됩니다."
+
+#~ msgid "You are not inside a game"
+#~ msgstr "놀이안에 있지 않습니다"
+
+#~ msgid "Unable to change your name."
+#~ msgstr "이름을 바꿀 수 없습니다."
+
+#~ msgid "Unable to change your color."
+#~ msgstr "색상을 바꿀 수 없습니다."
+
+#~ msgid "You can't fetch a game while in another game"
+#~ msgstr "한 놀이를 하는중에는 다른 놀이를 선택할 수 없습니다"
+
+#~ msgid "The game has been terminated. The creator has left the game."
+#~ msgstr "놀이가 끝났습니다. 방장이 놀이를 떠났습니다."
+
+#~ msgid ""
+#~ "One player has terminated their game. For technical reasons, this "
+#~ "currently means the game cannot continue. We are very sorry about that."
+#~ msgstr ""
+#~ "한 선수가 놀이를 끝냈습니다. 기술적인 이유로 인해, 지금은 놀이를 계속할 "
+#~ "수 없다는 의미입니다. 죄송합니다."
+
+#~ msgid "You have won!"
+#~ msgstr "승리하셨습니다!"
+
+#~ msgid "You have completed this scenario."
+#~ msgstr "이 시나리오를 완료하였습니다."
+
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "놀이를 계속 하시겠습니까?"
+
+#~ msgid "Failed to create savegame file"
+#~ msgstr "저장된 놀이 파일 생성 실패"
+
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr "저장된 놀이 파일을 만드는 동안 오류가 발생했습니다."
+
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr ""
+#~ "이것은 일반적으로 저장된 놀이 이름이 지원되지 않는 특수 문자가 포함되어 있"
+#~ "음을 의미합니다."
+
+#~ msgid "Access is denied"
+#~ msgstr "접근이 거부되었습니다"
+
+#~ msgid "The savegame file could be read-only or locked by another process."
+#~ msgstr ""
+#~ "이 저장 놀이 파일은 읽기 전용이거나 다른 프로세스에 의해 잠겨있을 수 있습"
+#~ "니다."
+
+#~ msgid "Your game has not been saved."
+#~ msgstr "놀이가 저장되지 않았습니다."
+
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "미지의 지평선 새로운 버전"
+
+#, python-brace-format
+#~ msgid ""
+#~ "There is a more recent release of Unknown Horizons ({new_version}) than "
+#~ "the one you are currently using ({old_version})."
+#~ msgstr ""
+#~ "미지의 지평선의 버전이 현재의 ({old_version}) 보다 최신 버전인 "
+#~ "({new_version})이 있습니다."
+
+#~ msgid "Click to download"
+#~ msgstr "클릭하여 내려받기"
+
+#~ msgid "A page has been opened in your browser."
+#~ msgstr "페이지가 브라우저에서 열렸습니다."
+
+#, python-brace-format
+#~ msgid "{slotnum} slots, {limit}t"
+#~ msgstr "{slotnum} 슬롯, {limit}t"
+
+#, python-brace-format
+#~ msgid "Health: {health}"
+#~ msgstr "체력: {health}"
+
+#, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}: {description}"
+
+#~ msgid "This building must be built on an island."
+#~ msgstr "이 건물은 섬에 건설해야 합니다."
+
+#~ msgid "This ground is not suitable for this building."
+#~ msgstr "이 땅은 이 건물에 적합하지 않습니다."
+
+#~ msgid "This building has to be built within your settlement."
+#~ msgstr "이 건물은 정착지 내에 건설해야 합니다."
+
+#~ msgid "This area is already occupied by another player."
+#~ msgstr "이 지역은 다른 선수가 점령중입니다."
+
+#~ msgid "This area is already occupied by another building."
+#~ msgstr "이 지역은 다른 건물이 있습니다."
+
+#~ msgid "This area is already occupied by a unit."
+#~ msgstr "이 지역은 다른 유닛이 있습니다."
+
+#~ msgid "This building must be built on the coastline."
+#~ msgstr "이 건물은 해안선에 건설되어야 합니다."
+
+#~ msgid "This building has to be placed at the ocean."
+#~ msgstr "이 건물은 바다에 배치되어야 합니다."
+
+#~ msgid "This spot is too far away from your ship."
+#~ msgstr "이 지점은 배에서 너무 멀리 떨어져 있습니다."
+
+#~ msgid "This building can only be built on a resource source."
+#~ msgstr "이 건물은 자원에을 기반으로 건설할 수 있습니다."
+
+#~ msgid "You have already settled this island."
+#~ msgstr "이미 이 섬에 정착했습니다."
+
+#~ msgid "This building must be partly on flat land."
+#~ msgstr "이 건물은 부분적이라도 평지에 있어야 합니다."
+
+#~ msgid "The inhabitants are infected by the Black Death!"
+#~ msgstr "주민들이 흑사병에 감염되었습니다!"
+
+#~ msgid "This building is on fire!"
+#~ msgstr "이 건물에 불이 났습니다!"
+
+#~ msgid "These residents are unhappy."
+#~ msgstr "이 주민들은 행복하지 않습니다."
+
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "이 주민들은 중앙광장에 접근할 수 없습니다."
+
+#~ msgid "The inventory of this building is full."
+#~ msgstr "이 건물의 재고가 가득 찼습니다."
+
+#~ msgid "This building has a very low productivity."
+#~ msgstr "이 건물은 생산성이 매우 낮습니다."
+
+#~ msgid "This building is decommissioned."
+#~ msgstr "이 건물은 해체 됩니다."
+
+#, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "무역 경로: {location}로 가는중"
+
+#, python-brace-format
+#~ msgid "Trade route: waiting at {position}"
+#~ msgstr "무역 경로: {position}에서 대기중"
+
+#, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "{location}로 가는중"
+
+#, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "{x}, {y}로 가는중"
+
+#, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "{location}에서 대기중"
+
+#, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "{x}, {y}에서 대기중"
+
+#~ msgid "Trader"
+#~ msgstr "무역상선"
+
+#, python-brace-format
+#~ msgid "Attacking {target} '{name}' ({owner})"
+#~ msgstr "{target} '{name}' ({owner})를 공격중"
+
+#, python-brace-format
+#~ msgid "Attacking {owner}"
+#~ msgstr "{owner}를 공격중"
+
+#~ msgid "Your game has been autosaved."
+#~ msgstr "놀이가 자동 저장되었습니다."
+
+#~ msgid "Your building has caught fire!"
+#~ msgstr "건물에 불이 붙었습니다!"
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}: {message}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "{player1} and {player2} have ended their alliance and are now in a state "
+#~ "of war."
+#~ msgstr ""
+#~ "{player1} 님과 {player2} 님이 동맹관계를 끝내고 이제부터 전쟁상태로 들어갑"
+#~ "니다."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have terminated their alliance."
+#~ msgstr "{player1} 님과 {player2} 님이 동맹관계를 끝냅니다."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have ended the war and are now allied."
+#~ msgstr "{player1}님과 {player2}님이 전쟁을 끝내고 지금 동맹을 맺었습니다."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have settled their hostility."
+#~ msgstr "{player1} 님과 {player2} 님이 적대관계가 되었습니다."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have allied their forces."
+#~ msgstr "{player1} 님과 {player2}님이 동맹을 맺었습니다."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} will fight each other to the death."
+#~ msgstr "{player1} 님과 {player2} 님이 서로 죽을때까지 싸울것입니다."
+
+#~ msgid "You can also drag roads."
+#~ msgstr "길도 드래그 할 수 있습니다."
+
+#~ msgid "One of your fields requires a farm to harvest its crops."
+#~ msgstr "밭들중 하나가 작물을 수확하기위해 농장이 필요합니다."
+
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "광산의 자원이 부족합니다."
+
+#~ msgid ""
+#~ "You have reached the current maximum tier. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "현재 최대 계층에 도달 했습니다. 주민들은 더이상 업그레이드할 필요가 없습니"
+#~ "다."
+
+#~ msgid "Cannot go here."
+#~ msgstr "여기로 갈 수 없습니다."
+
+#~ msgid "Your crew refuses to leave this map."
+#~ msgstr "승무원들이 이 지도 떠나기를 거부 합니다."
+
+#, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "이 건물을 지으려면 더 많은 {resource} 이(가) 필요합니다."
+
+#, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "{player} 님이 새로운 정착지를 설립하였습니다."
+
+#, python-brace-format
+#~ msgid "A new ship by the name of {name} has been created."
+#~ msgstr "{name}의 이름으로 새로운 배 생성 되었습니다."
+
+#, python-brace-format
+#~ msgid "The Soldier by the name of {name} is ready to battle."
+#~ msgstr "{name}의 이름으로 병사가 전투 준비 되었습니다."
+
+#, python-brace-format
+#~ msgid "The inhabitant by the name of {name} is available."
+#~ msgstr "{name} 호가 건조 되었습니다."
+
+#~ msgid "A new world has been created."
+#~ msgstr "새로운 세계가 만들어졌습니다."
+
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "주민중 일부가 중앙광장에 접근할 수 없습니다."
+
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "놀이가 빠른 저장이 되었습니다."
+
+#~ msgid ""
+#~ "The route is now configured. Start it via the \"start route\" button in "
+#~ "the \"configure route\" menu."
+#~ msgstr ""
+#~ "이제 경로가 구성 되었습니다. \"경로 구성\" 메뉴에서 \"경로 시작\" 버튼을 "
+#~ "통해 시작합니다."
+
+#~ msgid "Your game has been saved."
+#~ msgstr "놀이가 저장되었습니다."
+
+#, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "스크린샷이 {file}로 저장되었습니다."
+
+#, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "주민들이 {level} 수준에 도달했습니다."
+
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "주민들의 일부가 그냥 이사 갔습니다."
+
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr "창고를 찟을 수 없습니다, 정착지는 그것이 필요합니다."
+
+#~ msgid "You won!"
+#~ msgstr "승리하셨습니다!"
+
+#~ msgid "You failed the scenario."
+#~ msgstr "시나리오 실패."
+
+#~ msgid "The inhabitants of this building are infected by the Black Death!"
+#~ msgstr "이 건물의 주민들이 흑사병에 감염되었습니다!"
+
+#~ msgid "coins"
+#~ msgstr "동전"
+
+#~ msgid "lamb wool"
+#~ msgstr "양모"
+
+#~ msgid "textile"
+#~ msgstr "직물"
+
+#~ msgid "boards"
+#~ msgstr "판자"
+
+#~ msgid "food"
+#~ msgstr "식량"
+
+#~ msgid "tools"
+#~ msgstr "도구"
+
+#~ msgid "bricks"
+#~ msgstr "벽돌"
+
+#~ msgid "trees"
+#~ msgstr "나무"
+
+#~ msgid "grass"
+#~ msgstr "잔디"
+
+#~ msgid "wool"
+#~ msgstr "양모"
+
+#~ msgid "faith"
+#~ msgstr "신앙"
+
+#~ msgid "deer food A"
+#~ msgstr "사슴 식량 A"
+
+#~ msgid "deer meat"
+#~ msgstr "사슴 고기"
+
+#~ msgid "happiness"
+#~ msgstr "행복도"
+
+#~ msgid "potatoes"
+#~ msgstr "감자"
+
+#~ msgid "education"
+#~ msgstr "교육"
+
+#~ msgid "sugar cane"
+#~ msgstr "사탕수수"
+
+#~ msgid "sugar"
+#~ msgstr "설탕"
+
+#~ msgid "community"
+#~ msgstr "공동체"
+
+#~ msgid "clay deposit"
+#~ msgstr "점토 매장층"
+
+#~ msgid "clay"
+#~ msgstr "점토"
+
+#~ msgid "liquor"
+#~ msgstr "독한 술"
+
+#~ msgid "charcoal"
+#~ msgstr "숯"
+
+#~ msgid "iron deposit"
+#~ msgstr "철 매장층"
+
+#~ msgid "iron ore"
+#~ msgstr "철광석"
+
+#~ msgid "iron ingots"
+#~ msgstr "주괴철"
+
+#~ msgid "get-together"
+#~ msgstr "모임"
+
+#~ msgid "fish"
+#~ msgstr "물고기"
+
+#~ msgid "salt"
+#~ msgstr "소금"
+
+#~ msgid "tobacco plants"
+#~ msgstr "담배밭"
+
+#~ msgid "tobacco leaves"
+#~ msgstr "담배잎"
+
+#~ msgid "tobaccos"
+#~ msgstr "담배"
+
+#~ msgid "cattle"
+#~ msgstr "소"
+
+#~ msgid "pigs"
+#~ msgstr "돼지"
+
+#~ msgid "cattle for slaughter"
+#~ msgstr "도축용 소"
+
+#~ msgid "pigs for slaughter"
+#~ msgstr "도축용 돼지"
+
+#~ msgid "herbs"
+#~ msgstr "약초"
+
+#~ msgid "medical herbs"
+#~ msgstr "한약"
+
+#~ msgid "acorns"
+#~ msgstr "도토리"
+
+#~ msgid "cannon"
+#~ msgstr "캐논"
+
+#~ msgid "sword"
+#~ msgstr "칼"
+
+#~ msgid "grain"
+#~ msgstr "곡물"
+
+#~ msgid "corn"
+#~ msgstr "곡물"
+
+#~ msgid "flour"
+#~ msgstr "밀가루"
+
+#~ msgid "spice plants"
+#~ msgstr "향신료 식물"
+
+#~ msgid "spices"
+#~ msgstr "향신료"
+
+#~ msgid "condiments"
+#~ msgstr "조미료"
+
+#~ msgid "marble deposit"
+#~ msgstr "대리석 매장층"
+
+#~ msgid "marble tops"
+#~ msgstr "대리석 상판"
+
+#~ msgid "coal deposit"
+#~ msgstr "석탄 매장층"
+
+#~ msgid "stone deposit"
+#~ msgstr "석재 매장층"
+
+#~ msgid "stone tops"
+#~ msgstr "돌 탑"
+
+#~ msgid "cocoa beans"
+#~ msgstr "코코아 열매"
+
+#~ msgid "cocoa"
+#~ msgstr "코코아"
+
+#~ msgid "confectionery"
+#~ msgstr "과자"
+
+#~ msgid "candles"
+#~ msgstr "양초"
+
+#~ msgid "vines"
+#~ msgstr "포도나무"
+
+#~ msgid "grapes"
+#~ msgstr "포도"
+
+#~ msgid "alvearies"
+#~ msgstr "벌집"
+
+#~ msgid "honeycombs"
+#~ msgstr "벌집"
+
+#~ msgid "gold deposit"
+#~ msgstr "금 매장층"
+
+#~ msgid "gold ore"
+#~ msgstr "금광석"
+
+#~ msgid "gold ingots"
+#~ msgstr "금괴"
+
+#~ msgid "gem deposit"
+#~ msgstr "보석 매장층"
+
+#~ msgid "rough gems"
+#~ msgstr "보석 원석"
+
+#~ msgid "gems"
+#~ msgstr "보석"
+
+#~ msgid "coffee plants"
+#~ msgstr "커피 식물"
+
+#~ msgid "coffee beans"
+#~ msgstr "커피 콩"
+
+#~ msgid "coffee"
+#~ msgstr "커피"
+
+#~ msgid "tea plants"
+#~ msgstr "차 식물"
+
+#~ msgid "tea leaves"
+#~ msgstr "찻 잎"
+
+#~ msgid "tea"
+#~ msgstr "차"
+
+#~ msgid "flower meadows"
+#~ msgstr "화초지"
+
+#~ msgid "blossoms"
+#~ msgstr "유실수 꽃"
+
+#~ msgid "brine deposit"
+#~ msgstr "소금물 매장층"
+
+#~ msgid "brine"
+#~ msgstr "소금물"
+
+#~ msgid "whales"
+#~ msgstr "고래"
+
+#~ msgid "ambergris"
+#~ msgstr "용연향"
+
+#~ msgid "lamp oil"
+#~ msgstr "등유"
+
+#~ msgid "cotton plants"
+#~ msgstr "목화 식물"
+
+#~ msgid "cotton"
+#~ msgstr "목화"
+
+#~ msgid "indigo plants"
+#~ msgstr "쪽 식물"
+
+#~ msgid "indigo"
+#~ msgstr "남색,쪽빛"
+
+#~ msgid "garments"
+#~ msgstr "의류"
+
+#~ msgid "perfume"
+#~ msgstr "향수"
+
+#~ msgid "hop plants"
+#~ msgstr "홉 식물"
+
+#~ msgid "hops"
+#~ msgstr "홉"
+
+#~ msgid "beer"
+#~ msgstr "맥주"
+
+#~ msgid "hygiene"
+#~ msgstr "위생"
+
+#~ msgid "recreation"
+#~ msgstr "오락"
+
+#~ msgid "blackdeath"
+#~ msgstr "흑사병"
+
+#~ msgid "fire"
+#~ msgstr "불"
+
+#~ msgid "Aristocrats"
+#~ msgstr "귀족"
+
+#~ msgid "Error: Unable to find required library \"PyYAML\"."
+#~ msgstr "오류: 필요한 \"PyYAML\" 라이브러리 을 찾을 수 없습니다."
+
+#~ msgid "PyYAML (a required library) is missing and needs to be installed."
+#~ msgstr "누락된 PyYAML(필요한 라이브러리)를 설치 해야 합니다."
+
+#~ msgid "The Windows installer is available at http://pyyaml.org/wiki/PyYAML."
+#~ msgstr ""
+#~ "Windows installer는 http://pyyaml.org/wiki/PyYAML 에서 받을 수 있습니다."
+
+#~ msgid ""
+#~ "Linux users should find it using their package manager under the name "
+#~ "\"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "리눅스 사용자는 \"pyyaml\" 또는 \"python-yaml\" 라는 이름으로 패키지 관리"
+#~ "자를 사용하여 그것을 찾아내야 합니다."
+
+#~| msgid "Unit overview"
+#~ msgid "Groundunit overview"
+#~ msgstr "지상 유닛 요약"
+
+#~ msgid "SDL is only meant as unsupported fallback and might cause problems!"
+#~ msgstr "SDL은 지원되지 않는 대비책을 의미하며 문제를 일으킬 수 있습니다!"
+
+#~ msgid "Used renderer:"
+#~ msgstr "사용된 렌더러:"
+
+#~ msgid "Warning"
+#~ msgstr "경고"
+
+#~ msgid ""
+#~ "The SDL renderer is meant as a fallback solution only and has serious "
+#~ "graphical glitches. \n"
+#~ "\n"
+#~ "Use at own risk!"
+#~ msgstr ""
+#~ "SDL 렌더러는 대체 솔루션만 의미하고 심각한 그래픽 문제를 가집니다. \n"
+#~ "\n"
+#~ "위험할때 사용하세요!"
+
+#~ msgid "Increases the player's sight."
+#~ msgstr "플레이어의 시야를 증가시킵니다."
+
+#~ msgid "Vintner"
+#~ msgstr "포도주 무역상인"
+
+#~ msgid "dagger"
+#~ msgstr "단검"

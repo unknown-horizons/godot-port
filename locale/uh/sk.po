@@ -1,0 +1,3518 @@
+# Slovak translations for Unknown Horizons package.
+# Copyright (C) 2017 The Unknown Horizons Team
+# This file is distributed under the same license as the Unknown Horizons package.
+# Automatically generated, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Unknown Horizons d2bbe58\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2022-03-31 22:09+0000\n"
+"Last-Translator: Pexauteau Santander <pexauteau@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/uh/uh/sk/>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.12-dev\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "Neznámy dátum uloženia"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "Neznámy dátum uloženia"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+msgid "Descriptive Label:"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "Stavby"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "neznáme"
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "Neznámy dátum uloženia"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "Jeden hráč"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "Nahrať hru"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr "Autori"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr "Editor"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Quit"
+msgstr "Koniec"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Help"
+msgstr "Pomoc"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Options"
+msgstr "Akcia"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "Nová hra pre jedného hráča"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Scenario"
+msgstr "Scenár"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Random map"
+msgstr "Náhodná mapa"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Free play"
+msgstr "Nekonečná hra"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "Neznámy dátum uloženia"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Color:"
+msgstr "Farba:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "AI players:"
+msgstr "Hráči ovládany počítačom:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "Vyberte mapu na hranie:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "Doporučený počet hráčov: {number}"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Game settings:"
+msgstr "Nastavenie hry:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "Hustota zdrojov:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "Slobodný obchodník"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Pirates"
+msgstr "Piráti"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr "Pohromy"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Saving"
+msgstr "Ukladám"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr "Obecné"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "Zvoľte jazyk:"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Mouse"
+msgstr "Myš"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Graphics"
+msgstr "Grafika"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Sound"
+msgstr "Zvuk"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr "Klávesové skratky"
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "Štatistiky"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Players"
+msgstr "Hráči"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My ships"
+msgstr "Moje lode"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My settlements"
+msgstr "Moje osady"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Player scores"
+msgstr "Skóre"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Name"
+msgstr "Meno"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Money"
+msgstr "Peniaze"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Land"
+msgstr "Zem"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Resources"
+msgstr "Tovar"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Buildings"
+msgstr "Stavby"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlers"
+msgstr "Osadníci"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Units"
+msgstr "Jednotky"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Total"
+msgstr "Celkom"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "140"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "104"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "InventoryTab"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Limit: 30t per slot"
+msgstr "Limit: {amount} na slot"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "Kúpiť/Predať"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr ""
+"Nakúpiť {resource_name} za {price} zlata/t, kedykoľvek je zásoba menšia než "
+"{limit} t."
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Trade history"
+msgstr "História obchodu"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Free Trader"
+msgstr "Slobodný obchodník"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "Prehľad výroby"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "Neznámy dátum uloženia"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "Obchod"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "LumberjackOverviewTab"
+msgstr "Drevorubársky stan"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr "Obydlie"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr "Infraštruktúra"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr "Obydlia"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr "Služby"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr "Opatrenia"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "Pole"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Pioneers"
+msgstr "Priekopníci"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Citizens"
+msgstr "Občania"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr "Poľnohospodárstvo"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr "More"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr "Jedlo"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr "Dielne"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr "Spoločnosti"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr "Drevo"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Mining"
+msgstr "Baníctvo"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr "Pevnosti"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr "Vojenská služba"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sailors"
+msgstr "Námorníci"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "Obyvatelia a infraštruktúra"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military"
+msgstr "Armáda"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Merchants"
+msgstr "Obchodníci"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "Game Speed Up"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "Game Speed Down"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "Účet"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr "Príjem:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr "Dane"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Sale"
+msgstr "Predaj"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Expenses:"
+msgstr "Výdaje:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Running costs"
+msgstr "Prevádzkové náklady"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Buying"
+msgstr "Nákup"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Balance"
+msgstr "Bilancia"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Upgrade permissions:"
+msgstr "Povolenie k vylepšeniu:"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr "Spokojnosť podľa domu"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents per house"
+msgstr "Obyvatelia domu"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr "Počet obyvateľov v dome"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr "Domy s týmto počtom obyvateľov"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Summary"
+msgstr "Súhrn"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "Dom"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents"
+msgstr "Obyvatelia"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "Prehľad osadníkov"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Tent"
+msgstr "Stan"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Needed resources:"
+msgstr "Potrebné suroviny:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr "Dane:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Paid taxes"
+msgstr "Zaplatené dane"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Tax rate"
+msgstr "Daňové zaťaženie"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr ""
+"Chová včely. Vyrába medové plásty pre výrobu cukroviniek. Vyžaduje farmu."
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "Spotrebuváva múku. Vyrába jedlo."
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+#, fuzzy
+msgid "_ Recruits units suitable for ground combat."
+msgstr "Poskytuje jednotky vhodné pre pozemné súboje."
+
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "Poskytuje bezpečnosť."
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "Vyrába korenie."
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "Stavia loďky a malé lode. Stavá sa na pobreží."
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "Spotrebováva chmel. Vyrába pivo."
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "Z ílu vyrába tehly."
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "Produkuje jedlo. Potrebuje ošípané alebo dobytok."
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "Vyrába delá."
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "Chová sa tu dobytok. Potrebuje farmu."
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+#, fuzzy
+msgid "_ Burns a lot of boards."
+msgstr "Spaľuje veľa dosiek."
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+msgid "None"
+msgstr "Žiadne"
+
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "Ťaží íl."
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr "Vyrába kakaové bôby. Potrebuje farmu."
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "Dáva kukuricu. Potrebuje farmu."
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "Z cukru destiluje alkohol."
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+#, fuzzy
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr "Lieči choroby. Spotrebuváva bylinky."
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "Obhospodáruje pole a chová dobytok."
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+#, fuzzy
+msgid "_ Extinguishes fires."
+msgstr "Hasí oheň."
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "Chytá ryby, dodáva jedlo."
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "Produkuje bylinky. Potrebuje farmu."
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "Dáva chmel. Potrebuje farmu."
+
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "Loví divoké zvieratá, dodáva jedlo."
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "Rozšíri dosah osady."
+
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "Káca stromy a vyrába z nich dosky."
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+#, fuzzy
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr "Zásobuje obyvateľov tovarom a podporuje spoločenstvo."
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "Získava železnú rudu."
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "Vyrába cukrovinky."
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "Chová ovce. Produkuje vlnu. Potrebuje farmu."
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "Plní náboženské potreby námorníkov."
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "Chová ošípané. Potrebuje farmu."
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "Produkuje jedlo. Potrebuje farmu."
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "Ubytovanie pre tvojich obyvateľov."
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "Produkuje soľ. Dá sa postaviť iba na pobreží."
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "Umožňuje hráčovy obchodovať s slobodným obchodníkom."
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "Zušľachťuje všetky rudy."
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "Produkuje korenie. Potrebuje farmu."
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "Z kameňov vytesáva tehly."
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "Zo skaly ťaží kameň."
+
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr "Zvyšuje zásobnú kapacitu a poskytu zberačov."
+
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "Produkuje cukor na výrobu alkoholu. Potrebuje farmu."
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "Poskytuje posedenie."
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "Vyrába cigary z tabakových lístkov."
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "Produkuje tabakové lístky. Potrebuje farmu."
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "Vyrába železné nástroje."
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "Potrebná pre zbieranie tovaru."
+
+#: Assets/World/Buildings2/tree/tree.tscn
+#, fuzzy
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr "Poskytuje drevo pre drevorubačov."
+
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "Poskytuje vzdelanie."
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr "Produkuje hrozno. Potrebuje farmu."
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "Vyrába zbrane zo železa."
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "Z ovčej vlny vyráva odevy."
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "Z kukurice melie múku."
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "Produkuje víno z hrozna."
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "Bráni tvoju osadu."
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "Unknown Horizons spadol."
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "Ďakujeme, že hraješ Unknown Horizons!"
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr "Úprimne sa za to ospravedlňujeme a chceme túto chybu opraviť."
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr "K tomu potrebujeme informácie z logovacieho súboru:"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Prosím, ozvi sa nám cez IRC, alebo cez naše fórum, oboje nájdeš na http://"
+#~ "uknown-horizons.org ."
+
+#~ msgid "Return to editor"
+#~ msgstr "Vrátiť sa do editoru"
+
+#~ msgid "Save map"
+#~ msgstr "Uložiť mapu"
+
+#~ msgid "Load map"
+#~ msgstr "Načítať mapu"
+
+#~ msgid "Settings"
+#~ msgstr "Nastavenia"
+
+#~ msgid "Exit editor"
+#~ msgstr "Ukončiť editor"
+
+#~ msgid "Select brush size:"
+#~ msgstr "Zvoliť veľkosť štetca:"
+
+#~ msgid "Select terrain:"
+#~ msgstr "Zvoliť terén:"
+
+#~ msgid "(right click to stop)"
+#~ msgstr "(zastaviť pravým kliknutím myši)"
+
+#~ msgid "Game start"
+#~ msgstr "Hra začala"
+
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr "Musíte založiť osadu predtým než budete môcť stavať!"
+
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr "Vyberte svoju loď a pravým kliknutím sa priblížite k pobrežiu."
+
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr "Následne stlačte veľké tlačidlo na záložke prehľadu lodí."
+
+#~ msgid "Build"
+#~ msgstr "Postaviť"
+
+#~ msgid "Running costs:"
+#~ msgstr "Prevádzkové náklady:"
+
+#~ msgid "Related buildings"
+#~ msgstr "Súvisiace budovy"
+
+#~ msgid "Inhabitants"
+#~ msgstr "Obyvatelia"
+
+#, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr "Zrýchliť rýchlosť hry ({key})"
+
+#, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr "Spomaliť rýchlosť hry ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map counterclockwise ({key})"
+#~ msgstr "Otočiť mapu proti smeru hodinových ručičiek ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map clockwise ({key})"
+#~ msgstr "Otočiť mapu v smere hodinových ručičiek ({key})"
+
+#~ msgid "Zoom in"
+#~ msgstr "Priblížiť"
+
+#~ msgid "Zoom out"
+#~ msgstr "Oddialiť"
+
+#, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "Zbúrať ({key})"
+
+#, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "Kapitánov denník ({key})"
+
+#, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "Stavebná ponuka ({key})"
+
+#~ msgid "Diplomacy"
+#~ msgstr "Diplomacia"
+
+#, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "Herná ponuka ({key})"
+
+#~ msgid "Change name"
+#~ msgstr "Zmeniť meno"
+
+#~ msgid "Old name:"
+#~ msgstr "Pôvodné meno:"
+
+#~ msgid "Enter new name:"
+#~ msgstr "Zadaj nové meno:"
+
+#~ msgid "Apply the new name"
+#~ msgstr "Použiť nové meno"
+
+#~ msgid "Chat"
+#~ msgstr "Komunikácia"
+
+#~ msgid "Enter your message:"
+#~ msgstr "Tvoja správa:"
+
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr ""
+#~ "Ak chcete postaviť pozemnú jednotku, kliknite na jednu zo záložiek, "
+#~ "vyberte jednotku a potvrďte objednávku."
+
+#~ msgid "Currently building:"
+#~ msgstr "Práve staviate:"
+
+#~ msgid "Pause"
+#~ msgstr "Pauza"
+
+#~ msgid "Resume"
+#~ msgstr "Návrat do hry"
+
+#~ msgid "Construction progress:"
+#~ msgstr "Priebeh výstavby:"
+
+#~ msgid "Resources still needed:"
+#~ msgstr "Zostávajúce potrebné zdroje:"
+
+#~ msgid "Cancel building:"
+#~ msgstr "Zrušiť stavbu:"
+
+#~ msgid "(lose all resources)"
+#~ msgstr "(stratiť všetok materiál)"
+
+#~ msgid "Cancel all building progress"
+#~ msgstr "Zastaviť výstavbu všetkého"
+
+#~ msgid "Confirm order"
+#~ msgstr "Potvrdiť"
+
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "(rovnako ako vo vybraných záložkách)"
+
+#~ msgid "$res"
+#~ msgstr "$res"
+
+#~ msgid "24t"
+#~ msgstr "24t"
+
+#~ msgid "06t"
+#~ msgstr "06t"
+
+#~ msgid "2500"
+#~ msgstr "2500"
+
+#~ msgid "Sloop-o'-war"
+#~ msgstr "Delová šalupa"
+
+#~ msgid "Three-masted most common classified war ship with one gun deck."
+#~ msgstr "Trojsťažník je najbežnejšia vojnová loď s jednou delovou palubou."
+
+#~ msgid "Buy Upgrades"
+#~ msgstr "Nakúpiť vylepšenia"
+
+#~ msgid "Cannons"
+#~ msgstr "Delá"
+
+#~ msgid "Hull"
+#~ msgstr "Trup"
+
+#~ msgid "+ 24t"
+#~ msgstr "+ 24t"
+
+#~ msgid "+ 14t"
+#~ msgstr "+ 14t"
+
+#~ msgid "+ 06t"
+#~ msgstr "+ 06t"
+
+#~ msgid "+ 1457"
+#~ msgstr "+ 1457"
+
+#~ msgid "Build groundunit:"
+#~ msgstr "Postaviť pozemné jednotky:"
+
+#~ msgid "Build this groundunit!"
+#~ msgstr "Postaviť pozemnú jednotku!"
+
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "Ak chcete postaviť loď, kliknite na záložku, vyberte loď a potvrdte "
+#~ "objednávku."
+
+#~ msgid "Build ship:"
+#~ msgstr "Postaviť loď:"
+
+#~ msgid "Build this ship!"
+#~ msgstr "Postaviť loď!"
+
+#~ msgid "ally"
+#~ msgstr "spojenec"
+
+#~ msgid "neutral"
+#~ msgstr "neutrálny"
+
+#~ msgid "enemy"
+#~ msgstr "nepriateľ"
+
+#~ msgid "Building overview"
+#~ msgstr "Prehľad budov"
+
+#~ msgid "Capacity utilization"
+#~ msgstr "Využitie kapacity"
+
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "Kliknite pre zmenu názvu jednotky"
+
+#~ msgid "Settlement inventory"
+#~ msgstr "Skladové zásoby"
+
+#~ msgid "sad"
+#~ msgstr "smutný"
+
+#~ msgid "satisfied"
+#~ msgstr "uspokojený"
+
+#~ msgid "happy"
+#~ msgstr "šťastný"
+
+#~ msgid "Amount of houses with this happiness"
+#~ msgstr "Počet domov s touto spokojnosťou"
+
+#~ msgid "houses"
+#~ msgstr "domy"
+
+#~ msgid "residents"
+#~ msgstr "obyvatelia"
+
+#~ msgid "Provides security for your settlement."
+#~ msgstr "Poskytuje ochranu tvojej osade."
+
+#~ msgid "Selling"
+#~ msgstr "Predaj"
+
+#~ msgid "Name:"
+#~ msgstr "Meno:"
+
+#~ msgid "Weapons:"
+#~ msgstr "Zbrane:"
+
+#~ msgid "Resource deposit"
+#~ msgstr "Ložisko surovín"
+
+#~ msgid ""
+#~ "This is a resource deposit where you can build a mine to dig up resources."
+#~ msgstr ""
+#~ "Toto je nálezisko surovín, kde môžete postaviť dol, aby ste mohli ťažiť "
+#~ "suroviny."
+
+#~ msgid "It contains these resources:"
+#~ msgstr "Obsahuje nasledujúce suroviny:"
+
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "Kliknite pre zmenu mena vašej osady"
+
+#~ msgid "Happiness"
+#~ msgstr "Spokojnosť"
+
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr ""
+#~ "Signálny oheň ukazuje slobodným obchodníkom cestu do vašej osady, aby "
+#~ "mohli nakupovať a predávať."
+
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr ""
+#~ "Toto je loď slobodného obchodníka. Z času na čas navštívi vašu osadu aby "
+#~ "mohol nakúpiť alebo predať tovar."
+
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "Kliknite pre zmenu mena lodi"
+
+#~ msgid "Build settlement"
+#~ msgstr "Postaviť osadu"
+
+#~ msgid "Configure trading route"
+#~ msgstr "Nastavenie obchodnej cesty"
+
+#~ msgid "Discard all resources"
+#~ msgstr "Zahodiť všetky zásoby"
+
+#~ msgid "Ship:"
+#~ msgstr "Loď:"
+
+#~ msgid "Exchange:"
+#~ msgstr "Zmena:"
+
+#~ msgid "Trade partner:"
+#~ msgstr "Obchodný partner:"
+
+#~ msgid "Buy or sell resources"
+#~ msgstr "Nákup alebo predaj"
+
+#~ msgid "Select resources:"
+#~ msgstr "Vyberte tovar:"
+
+#~ msgid "Collector utilization"
+#~ msgstr "Zaneprázdnenosť zberača"
+
+#~ msgid "Balance:"
+#~ msgstr "Bilancia:"
+
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "Ukázať tovar vyrábaný v tejto osade"
+
+#~ msgid "Pause production"
+#~ msgstr "Zastaviť výrobu"
+
+#~ msgid "Start production"
+#~ msgstr "Začať výrobu"
+
+#~ msgid "Select resource:"
+#~ msgstr "Vyberte tovar:"
+
+#~ msgid ""
+#~ "The resource you select is displayed instead of the current one. Empty by "
+#~ "clicking on X."
+#~ msgstr ""
+#~ "Tovar, ktorý vyberiete, je zobrazovaný namiesto súčasného. vynulujte "
+#~ "stlačenám klávesy X."
+
+#~ msgid "Save current resource configuration as default for all settlements."
+#~ msgstr ""
+#~ "Uložiť momentálne nastavenie tovaru ako predvolené pre všetky osady."
+
+#~ msgid "Reset default resource configuration for all settlements."
+#~ msgstr "Obnoviť predvolené nastavenie surovín pre všetky osady."
+
+#~ msgid "Move up"
+#~ msgstr "Posuň hore"
+
+#~ msgid "Delete entry"
+#~ msgstr "Zmazať položku"
+
+#~ msgid "Move down"
+#~ msgstr "Posuň dole"
+
+#~ msgid "Read previous entries"
+#~ msgstr "Prečítať predchádzajúce záznamy"
+
+#~ msgid "Read next entries"
+#~ msgstr "Prečítať ďalšie záznamy"
+
+#~ msgid "Game messages"
+#~ msgstr "Herné správy"
+
+#~ msgid "Whole world"
+#~ msgstr "Celý svet"
+
+#~ msgid "Everybody"
+#~ msgstr "Všetci"
+
+#~ msgid "Sends the chat messages to all players."
+#~ msgstr "Poslať túto správu všetkým užívateľom."
+
+#~ msgid "Enter your message here"
+#~ msgstr "Tu zadajte vašu správu"
+
+#~ msgid "Return to game"
+#~ msgstr "Návrat do hry"
+
+#~ msgid "Island Name:"
+#~ msgstr "Názov ostrova:"
+
+#~ msgid "Player Name:"
+#~ msgstr "Meno hráča:"
+
+#~ msgid "Wait at load:"
+#~ msgstr "Čakať na naloženie:"
+
+#~ msgid "Wait at unload:"
+#~ msgstr "Čakať na vyloženie:"
+
+#~ msgid "Select a resource:"
+#~ msgstr "Vyberte zdroj:"
+
+#~ msgid "Route activity:"
+#~ msgstr "Obchodná aktivita:"
+
+#~ msgid "Start route"
+#~ msgstr "Začať obchodnú trasu"
+
+#~ msgid "Exit"
+#~ msgstr "Koniec"
+
+#~ msgid "Go to previous page"
+#~ msgstr "Choď na predchádzajúcu stranu"
+
+#~ msgid "Go to next page"
+#~ msgstr "Choď na nasledujúcu stranu"
+
+#~ msgid "Close"
+#~ msgstr "Zavrieť"
+
+#~ msgid "Player Name"
+#~ msgstr "Meno hráča"
+
+#~ msgid "Player's current treasury + income expected in near future"
+#~ msgstr "Hráčové aktuálne bohatstvo + príjem očakávaný v blízkej budúcnosti"
+
+#~ msgid ""
+#~ "Value of usable land i.e Amount of Land that can be used to create "
+#~ "buildings"
+#~ msgstr ""
+#~ "Hodnota použitelnej zeme, napríklad rozloha zeme, ktorá môže byť použitá "
+#~ "na stavbu budov"
+
+#~ msgid ""
+#~ "Value of resources generated from all the possible sources in the "
+#~ "player's settlement(s)"
+#~ msgstr ""
+#~ "Hodnota surovín generovaná zo všetkých možných zdrojov v hráčových osadách"
+
+#~ msgid "Value of all the buildings in the player's settlement(s)"
+#~ msgstr "Hodnota všetkých budov v hráčových osadách"
+
+#~ msgid ""
+#~ "Value denoting the progress of the settlement(s) in terms of inhabitants, "
+#~ "buildings and overall happiness"
+#~ msgstr ""
+#~ "Hodnota označujúca pokrok osád na základe obyvateľov, budov a celkového "
+#~ "šťastia"
+
+#~ msgid "Value of all the units owned by the player"
+#~ msgstr "Hodnota všetkých jednotiek vo vlastíctve hráča"
+
+#~ msgid ""
+#~ "The total value from all individual entities or in short : Total Player "
+#~ "Score"
+#~ msgstr ""
+#~ "Celková hodnota zo všetkých jednotlivých entít alebo skrátene: Hráčové "
+#~ "skóre"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Weapons"
+#~ msgstr "Zbrane"
+
+#~ msgid "Health"
+#~ msgstr "Zdravie"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Aggressive"
+#~ msgstr "Agresívny"
+
+#~ msgid "Hold ground"
+#~ msgstr "Držať územie"
+
+#~ msgid "Passive"
+#~ msgstr "Pasívne"
+
+#~ msgid "Flee"
+#~ msgstr "Utiecť"
+
+#~ msgid "Exit to main menu"
+#~ msgstr "Odísť do hlavného menu"
+
+#~ msgid "Choose a map size:"
+#~ msgstr "Zvolte si velkosť mapy:"
+
+#~ msgid "Choose a map:"
+#~ msgstr "Vybrať mapu:"
+
+#~ msgid "Choose a saved game's map:"
+#~ msgstr "Vyberte mapu uloženej hry:"
+
+#~ msgid "Select map source"
+#~ msgstr "Vyberte si zdroj mapy"
+
+#~ msgid "Create new map"
+#~ msgstr "Vytvoriť novú mapu"
+
+#~ msgid "Load existing map"
+#~ msgstr "Načítať existujúcu mapu"
+
+#~ msgid "Load saved game's map"
+#~ msgstr "Načítať mapu uloženej hry"
+
+#~ msgid "Start editor"
+#~ msgstr "Spustiť editor"
+
+#~ msgid "Return"
+#~ msgstr "Návrat"
+
+#~ msgid "Scroll left"
+#~ msgstr "Posunúť doľava"
+
+#~ msgid "Scroll right"
+#~ msgstr "Posunúť doprava"
+
+#~ msgid "Scroll up"
+#~ msgstr "Posunúť hore"
+
+#~ msgid "Scroll down"
+#~ msgstr "Posunúť dole"
+
+#~ msgid "Rotate building or map clockwise"
+#~ msgstr "Otočiť stavbu či mapu v smere hodinových ručičiek"
+
+#~ msgid "Rotate building or map counterclockwise"
+#~ msgstr "Otočiť stavbu či mapu proti smeru hodinových ručičiek"
+
+#~ msgid "Increase game speed"
+#~ msgstr "Zrýchliť rýchlosť hry"
+
+#~ msgid "Decrease game speed"
+#~ msgstr "Zpomaliť rýchlosť hry"
+
+#~ msgid "Pause game"
+#~ msgstr "Pozastaviť hru"
+
+#~ msgid "Show build menu"
+#~ msgstr "Ukázať menu stavieb"
+
+#~ msgid "Enable destruct mode"
+#~ msgstr "Povoliť destrukčný režim"
+
+#~ msgid "Enable road building mode"
+#~ msgstr "Povoliť mód stavby ciest"
+
+#~ msgid "Enable pipette mode (clone buildings)"
+#~ msgstr "Povoliť pipetový režim (klonovať budovy)"
+
+#~ msgid "Show player scores"
+#~ msgstr "Ukázať skóre"
+
+#~ msgid "Show settlement list"
+#~ msgstr "Ukázať zozanm osád"
+
+#~ msgid "Show ship list"
+#~ msgstr "Ukázať zoznam lodí"
+
+#~ msgid "Toggle Captain's log"
+#~ msgstr "Ukázať Kapitánov denník"
+
+#~ msgid "Quicksave"
+#~ msgstr "Rýchle uloženie"
+
+#~ msgid "Quickload"
+#~ msgstr "Rýchle načítanie"
+
+#~ msgid "Toggle translucency of ambient buildings"
+#~ msgstr "Zapnúť priesvitnosť okolitých budov"
+
+#~ msgid "Highlight tile ownership"
+#~ msgstr "Zvýrazniť vlastníctvo územia"
+
+#~ msgid "Toggle health bars"
+#~ msgstr "Prepnúť indikátory zdravia"
+
+#~ msgid "Focus camera on selection"
+#~ msgstr "Zamerať kameru na výber"
+
+#~ msgid "Remove selected units / buildings"
+#~ msgstr "Odstrániť vybrané jednotky či budovy"
+
+#~ msgid "Display help"
+#~ msgstr "Ukázať nápovedu"
+
+#~ msgid "Screenshot"
+#~ msgstr "Obrázok z hry"
+
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "Prepnúť zobrazenie FPS"
+
+#~ msgid "Toggle grid on/off"
+#~ msgstr "Zobraziť/zakryť mriežku"
+
+#~ msgid "Show coordinate values (Debug)"
+#~ msgstr "Ukázať súradnice (Debug)"
+
+#~ msgid "Primary"
+#~ msgstr "Primárne"
+
+#~ msgid "Secondary"
+#~ msgstr "Sekundárne"
+
+#~ msgid "Reset to default"
+#~ msgstr "Obnoviť preddefinované"
+
+#~ msgid "Reset to default keys"
+#~ msgstr "Resetnúť na preddefinované"
+
+#~ msgid "Save game"
+#~ msgstr "Uložiť hru"
+
+#~ msgid "Cancel game"
+#~ msgstr "Zrušiť hru"
+
+#~ msgid "Loading…"
+#~ msgstr "Načítavam…"
+
+#~ msgid "Change Background"
+#~ msgstr "Zmeniť pozadie"
+
+#~ msgid "Multiplayer"
+#~ msgstr "Viac hráčov"
+
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "Vytvoriť hru pre viac hráčov"
+
+#~ msgid "Player limit:"
+#~ msgstr "Maximálny počet hráčov:"
+
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "Odísť do menu pre viac hráčov"
+
+#~ msgid "Name of the game:"
+#~ msgstr "Názov hry:"
+
+#~ msgid "This will be displayed to other players so they recognize the game."
+#~ msgstr "Toto sa zobrazí ostatným hráčom, takže spoznajú vašu hru."
+
+#~ msgid "Unnamed Game"
+#~ msgstr "Nepomenovaná hra"
+
+#~ msgid "Password of the game:"
+#~ msgstr "Heslo hry:"
+
+#~ msgid "This game's password. Required to join this game."
+#~ msgstr "Heslo tejto hry. Je potrebné pre pripojenie k hre."
+
+#~ msgid "Create this new game"
+#~ msgstr "Vytvoriť novú hru"
+
+#~ msgid "Gamelobby"
+#~ msgstr "Herné lobby"
+
+#~ msgid "Chat:"
+#~ msgstr "Chat:"
+
+#~ msgid "Exit gamelobby"
+#~ msgstr "Opustiť herné lobby"
+
+#~ msgid "The game will start as soon as all players are ready."
+#~ msgstr "Hra sa odštartuje hneď ako budú všetci hráči pripravení."
+
+#~ msgid "Game details:"
+#~ msgstr "Podrobnosti hry:"
+
+#~ msgid "Color"
+#~ msgstr "Farba"
+
+#~ msgid "Ready:"
+#~ msgstr "Pripravený:"
+
+#~ msgid "Sets your state to ready (necessary for the game to start)"
+#~ msgstr "Nastaví váš stav na pripravený (potrebné pre štart hry)"
+
+#~ msgid "New game - Multiplayer"
+#~ msgstr "Nová hra pre viac hráčov"
+
+#~ msgid "Load game:"
+#~ msgstr "Nahrať hru:"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Načítať uloženú hru"
+
+#~ msgid "Active games:"
+#~ msgstr "Aktívne hry:"
+
+#~ msgid "Refresh list:"
+#~ msgstr "Obnoviť zoznam:"
+
+#~ msgid "Refresh list of active games"
+#~ msgstr "Znovu načítať zoznam aktívnych hier"
+
+#~ msgid "Create game:"
+#~ msgstr "Vytvoriť hru:"
+
+#~ msgid "Create a new game"
+#~ msgstr "Vytvoriť novú hru"
+
+#~ msgid "Join game:"
+#~ msgstr "Pripojiť do hry:"
+
+#~ msgid "Join the selected game"
+#~ msgstr "Pripojiť do vybranej hry"
+
+#~ msgid "Change player details"
+#~ msgstr "Zmeniť podrobnosti hráča"
+
+#~ msgid "Screen resolution:"
+#~ msgstr "Veľkosť obrazu:"
+
+#~ msgid "Full screen:"
+#~ msgstr "Celá obrazovka:"
+
+#~ msgid "Frame rate limit:"
+#~ msgstr "Limit frekvencie snímkov:"
+
+#~ msgid "Set the maximum frame rate used. Default: 60 fps."
+#~ msgstr "Nastaviť maximálnu obnovovaciu frekvenciu: Preddefinované: 60 fps."
+
+#~ msgid "Music volume:"
+#~ msgstr "Hlasitosť hudby:"
+
+#~ msgid "Effects volume:"
+#~ msgstr "Hlasitosť efektov:"
+
+#~ msgid "Enable sound:"
+#~ msgstr "Povoliť zvuk:"
+
+#~ msgid "Scroll at map edge:"
+#~ msgstr "Posúvať na okraji mapy:"
+
+#~ msgid ""
+#~ "Whether to move the viewport when the mouse pointer is close to map edges"
+#~ msgstr "Posúvať náhľad, pokiaľ je myš blízko okraju mapy"
+
+#~ msgid "Cursor centered zoom:"
+#~ msgstr "Zväčšenie okolo kurzora:"
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center. When disabled, always zoom to current viewport center."
+#~ msgstr ""
+#~ "Keď je zapnuté, priblíženie na količku myši použije pozíciu kurzoru ako "
+#~ "stred nového pohľadu. Keď je vypnuté, vždy priblíži na aktuálny stred "
+#~ "pohľadu."
+
+#~ msgid "Middle mouse button pan:"
+#~ msgstr "Potiahnutím prostredným tlačidlom myši:"
+
+#~ msgid "When enabled, dragging the middle mouse button will pan the camera"
+#~ msgstr ""
+#~ "Keď je zapnuté, potiahnutie stredným tlačidom myši bude posúvať kameru"
+
+#~ msgid "0 is default system settings"
+#~ msgstr "0 je preddefinované nastavenie"
+
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "Citlivosť myši:"
+
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "Interval automatického ukladanie v munútach:"
+
+#~ msgid "Number of autosaves:"
+#~ msgstr "Počet automaticky uložených hier:"
+
+#~ msgid "Number of quicksaves:"
+#~ msgstr "Počet rýchlo uložených hier:"
+
+#~ msgid "Language"
+#~ msgstr "Jazyk"
+
+#~ msgid "Rotate minimap with map:"
+#~ msgstr "Otočiť minimapu zároveň s mapou:"
+
+#~ msgid ""
+#~ "Whether to also rotate the minimap whenever the regular map is rotated"
+#~ msgstr "Otočiť minimapu, pokiaľ je otočená mapa"
+
+#~ msgid "Uninterrupted building:"
+#~ msgstr "Neprerušené stavanie:"
+
+#~ msgid ""
+#~ "When enabled, do not exit the build mode after successful construction"
+#~ msgstr ""
+#~ "Pokiaľ je povolené, po úspešnom postavení sa neukončí stavebný režim"
+
+#~ msgid "Auto-unload ship:"
+#~ msgstr "Automaticky vyložiť loď:"
+
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr "Vyložiť loď pri nájdení osady"
+
+#~ msgid ""
+#~ "Don't use in normal game session. Decides whether to write debug "
+#~ "information in the logging directory of your user directory. Slows the "
+#~ "game down."
+#~ msgstr ""
+#~ "Nepoužívať v normálnom hernom sedení. Rozhoduje sa o tom či zapisovať "
+#~ "liadiace informácie v adresáry logovanie vášho uživateľského adresára. "
+#~ "Spomaľuje hru."
+
+#~ msgid "Enable logging:"
+#~ msgstr "Povoliť protokolovanie:"
+
+#~ msgid "Production indicators:"
+#~ msgstr "Výrobný ukazovatelia:"
+
+#~ msgid ""
+#~ "Whether to show resource icons over buildings whenever they finish "
+#~ "production"
+#~ msgstr "Zobrazovať ikony surovín nad budovami kedykoľvek dokončia produkciu"
+
+#~ msgid "Higher values slow down scrolling."
+#~ msgstr "Nižšie hodnoty spomaľujú posúvanie."
+
+#~ msgid "Scroll delay:"
+#~ msgstr "Oneskorenie posúvania:"
+
+#~ msgid "Choose a quote type:"
+#~ msgstr "Zvoľte štýl citácí:"
+
+#~ msgid "What kind of quote to display while loading a game"
+#~ msgstr "Ktoré citácie zobraziť pri nahrávaní hry"
+
+#~ msgid "Network"
+#~ msgstr "Sieť"
+
+#~ msgid "If set to 0, use the router default"
+#~ msgstr "Pokiaľ je nastavená 0, použije preddefinované nastavenie routeru"
+
+#~ msgid "Network port:"
+#~ msgstr "Sieťový port:"
+
+#~ msgid "Discard current changes"
+#~ msgstr "Zrušiť zmeny"
+
+#~ msgid "Reset to default settings"
+#~ msgstr "Obnoviť pôvodné nastavenie"
+
+#~ msgid "Save changes"
+#~ msgstr "Uložiť zmeny"
+
+#~ msgid "Your saved games:"
+#~ msgstr "Vaše uložené hry:"
+
+#~ msgid "Password of the game. Required to join this game"
+#~ msgstr "Heslo hry, ktoré je potrebné pre pripojenie"
+
+#~ msgid "Cancel"
+#~ msgstr "Zrušiť"
+
+#~ msgid "Enter filename:"
+#~ msgstr "Zadajte názov súboru:"
+
+#~ msgid "Details:"
+#~ msgstr "Podrobnosti:"
+
+#~ msgid "Delete selected savegame"
+#~ msgstr "Zmazať vybranú hru"
+
+#~ msgid "Start game"
+#~ msgstr "Začať hru"
+
+#~ msgid "Map settings:"
+#~ msgstr "Nastavenie mapy:"
+
+#~ msgid "Seed:"
+#~ msgstr "Semienko:"
+
+#~ msgid "Player name:"
+#~ msgstr "Meno hráča:"
+
+#~ msgid "Invalid filename"
+#~ msgstr "Chybné meno súboru"
+
+#~ msgid "Received an invalid filename for a save command."
+#~ msgstr "Chybné meno súboru pre uloženie."
+
+#~ msgid "Error"
+#~ msgstr "Chyba"
+
+#~ msgid "Failed to save."
+#~ msgstr "Uloženie sa nepodarilo."
+
+#~ msgid "The trade partner does not sell this."
+#~ msgstr "Obchodný partner tento tovar nepredáva."
+
+#~ msgid "You can not store this."
+#~ msgstr "Tento tovar nie je možné skladovať."
+
+#~ msgid "You can not afford to buy this."
+#~ msgstr "Tento tovar nie je možné kúpiť."
+
+#~ msgid "The trade partner does not sell more of this."
+#~ msgstr "Obchodný partner väčšie množsto tohoto tovaru nepredáva."
+
+#~ msgid "The trade partner does not buy this."
+#~ msgstr "Obchodný partner tento tovar nekupuje."
+
+#~ msgid "You do not possess this."
+#~ msgstr "Tento tovar nemáte."
+
+#~ msgid "The trade partner can not store more of this."
+#~ msgstr "Obchodný partner nemôže skladovať väčšie množstvo tohto tovaru."
+
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "Obchodný partner nemôže tento tovar kúpiť."
+
+#~ msgid "The trade partner does not buy more of this."
+#~ msgstr "Obchodný partner nemôže kúpiť ďlšie kusy tohto tovaru."
+
+#~ msgid "Failed to quicksave."
+#~ msgstr "Nepodarilo sa uložiť."
+
+#~ msgid "An error happened during quicksave."
+#~ msgstr "Došlo k chybe počas rýchleho ukladania."
+
+#~ msgid "Your map has not been saved."
+#~ msgstr "Vaša mapa bola uložená."
+
+#, python-brace-format
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: "
+#~ "{website}"
+#~ msgstr ""
+#~ "Pokiaľ k tejto chybe dôjde znova, prosím kontaktujte vývojárov: {website}"
+
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "Naozaj chcete ukončiť Unknown Horizons?"
+
+#~ msgid "Quit Game"
+#~ msgstr "Ukončiť hru"
+
+#~ msgid "No diplomacy possible"
+#~ msgstr "Diplomacia nie je použiteľná"
+
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr "Diplomacia nie je možná. Neexistujú ďaľší hráči."
+
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "Ste si istý, že chcete odstrániť tieto objekty?"
+
+#~ msgid "Delete"
+#~ msgstr "Zmazať"
+
+#, python-brace-format
+#~ msgid "{size}x{size} tiles"
+#~ msgstr "dlaždice {size}x{size}"
+
+#~ msgid "Press key…"
+#~ msgstr "Stlačte klávesu…"
+
+#, python-brace-format
+#~ msgid "{key} is already set to {action}."
+#~ msgstr "{key} už bolo nastavené na {action}."
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "Chcete toto priradenie prepísať?"
+
+#~ msgid "Confirmation for overwriting"
+#~ msgstr "Potvrďte prepísanie"
+
+#~ msgid "Quotes"
+#~ msgstr "Citáty"
+
+#~ msgid "Gameplay Tips"
+#~ msgstr "Herné tipy"
+
+#~ msgid "Press 'ESC' to access Game Menu."
+#~ msgstr "Stlačte 'ESC' pre otvorenie herného menu."
+
+#~ msgid "Use 'SHIFT' to place multiple buildings."
+#~ msgstr "Použite 'SHIFT' pre umiestnenie viac budov."
+
+#, python-brace-format
+#~ msgid "Currently only the first {tier} tiers are playable."
+#~ msgstr "Momentálne sú hratelné len prvé {tier} stupne."
+
+#~ msgid "You can pause the game with 'P'."
+#~ msgstr "Klávesou 'P' pozastavíte hru."
+
+#~ msgid "You can drag roads by holding the left mouse button."
+#~ msgstr "Cesty môžete ťahať držaním ľavého tlačidla myši."
+
+#~ msgid "You can build multiple buildings by holding the 'SHIFT' key."
+#~ msgstr "Držaním klávesy 'SHIFT' môžete postaviť viac budov naraz."
+
+#~ msgid ""
+#~ "You can increase the happiness of your inhabitants by lowering the taxes."
+#~ msgstr "Obyvateľov môžete urobiť šťastnejšími znížením daní."
+
+#~ msgid ""
+#~ "Build fire stations and doctors to protect your inhabitants from fire and "
+#~ "disease."
+#~ msgstr ""
+#~ "Ochráňte svojich obyvateľov proti ohňi a chorobám postavením požiarnych "
+#~ "staníc a doktorov."
+
+#~ msgid "Build storage tents to increase your storage capacity."
+#~ msgstr "Stavajte skladovacie stany pre zvýšenie kapacity vášho skladu."
+
+#~ msgid "Make sure every house is in range of a marketplace."
+#~ msgstr "Uistite sa, že každá budova je v dosahu tržiska."
+
+#~ msgid "Press 'T' to make trees transparent."
+#~ msgstr "Stlačením klávesy 'T' urobíte stromy priehľadnými."
+
+#~ msgid "Build storage tents and lookouts to expand your settlement range."
+#~ msgstr ""
+#~ "Stavajte skladové stany a výhliadkové veže pre zvýšenie rozsahu vašej "
+#~ "osady."
+
+#~ msgid ""
+#~ "To easily see whether the pavilion's range cover all your tents, select "
+#~ "it from the build menu and hover it over your existing pavilion. "
+#~ "Uncovered tents are shown in yellow. It's a good idea to build a new "
+#~ "pavilion in their neighborhood."
+#~ msgstr ""
+#~ "Aby ste jednoducho vydeli či pavilón dosahuje všetky stany, označte si ju "
+#~ "v stavebnom menu a prejdite s ňou k existujúcemu pavilónu. Nedosiahnuté "
+#~ "stany sú označené žltou. Je dobrý nápad postaviť pavilón vedľa takýchto "
+#~ "stanov."
+
+#~ msgid ""
+#~ "Make singleplayer more fun with additional computer players by increasing "
+#~ "'AI players' when starting a new game."
+#~ msgstr ""
+#~ "Urobte si hru pre jedného hráča zábavnejšou s viacerými počítačovými "
+#~ "hráčmi pridaním 'AI hráčov', keď štartujete hru."
+
+#~ msgid ""
+#~ "First steps are easier by looking at how AI players are setting up their "
+#~ "settlement."
+#~ msgstr ""
+#~ "Prvé kroky sú ľahšie ak sa pozriete ako AI hráči stavajú svoje osady."
+
+#~ msgid ""
+#~ "Want funny quotes only? Change the quote types shown here in the settings "
+#~ "menu on the game page."
+#~ msgstr ""
+#~ "Chcete iba zábavné citáty? Zmeňte si typ citátov v nastaveniach hry v "
+#~ "hernom menu."
+
+#~ msgid "A marketplace links your buildings like a road."
+#~ msgstr "Tržisko spája budovy ako cesta."
+
+#~ msgid "Mixed"
+#~ msgstr "Rôzne"
+
+#~ msgid "Starting engine…"
+#~ msgstr "Štartovanie motorov…"
+
+#~ msgid "Catching fish…"
+#~ msgstr "Chytanie rýb…"
+
+#~ msgid "Drawing user interface…"
+#~ msgstr "Kreslenie užívateľského rozhrania…"
+
+#~ msgid "Activating timer…"
+#~ msgstr "Aktivovanie časovača…"
+
+#~ msgid "Chomping game data…"
+#~ msgstr "Chrumkanie herných dát…"
+
+#~ msgid "Shaping islands…"
+#~ msgstr "Tvarovanie ostrovov…"
+
+#~ msgid "Preparing blueprints…"
+#~ msgstr "Pripravovanie plánov…"
+
+#~ msgid "Filling world with water…"
+#~ msgstr "Zaplavovanie sveta…"
+
+#~ msgid "Raising animals…"
+#~ msgstr "Vychovávanie zvierat…"
+
+#~ msgid "Convincing AI…"
+#~ msgstr "Presvedčovanie umelej inteligencie…"
+
+#~ msgid "Burying treasures…"
+#~ msgstr "Zakopávanie pokladov…"
+
+#~ msgid "Unable to find pyenet"
+#~ msgstr "Nejde nájsť pyenet"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which could not "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "Hra pre viac hráčov vyžaduje knižnicu \"pyenet\", ktorá nebola vo vašom "
+#~ "systéme nájdená."
+
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr "Uživatelia linuxu: Skús inštalovať \"pyenet\" cez správcu balíčkov."
+
+#~ msgid "Failed to initialize networking."
+#~ msgstr "Nepodarilo sa inicializovať sieť."
+
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr "Sieť nemôže byť inicialozovaná s aktuálnym nastavením."
+
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "Skontrolujte nastavenie siete."
+
+#~ msgid "Fatal Network Error"
+#~ msgstr "Fatálna chyba siete"
+
+#~ msgid "Could not connect to master server."
+#~ msgstr "Spojenie s hlavným serverom sa nepodarilo."
+
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "Prosím, skontrolujte vaše pripojenie k internetu. Pokiaľ je v poriadku, "
+#~ "je možné, že hlavný server je dočasne mimo prevádzku."
+
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "Niečo sa pokazilo so sieťou:"
+
+#~ msgid "Version differs!"
+#~ msgstr "Verzia sa líši!"
+
+#, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "Mapa: {map_name}"
+
+#, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "Meno hry: {game_name}"
+
+#, python-brace-format
+#~ msgid "Creator: {game_creator}"
+#~ msgstr "Tvorca: {game_creator}"
+
+#, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "Hráči: {player_amount}/{player_limit}"
+
+#~ msgid "Wrong version"
+#~ msgstr "Nesprávna verzia"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "Rozdielna verzia hry! Hráč musí používať rovnakú verziu hry, prosím "
+#~ "aktualizujte na najnovšiiu verziu. Verzia hry: {game_version} Vaša "
+#~ "verzia: {own_version}"
+
+#~ msgid "Password of the game"
+#~ msgstr "Heslo hry"
+
+#~ msgid "Enter password:"
+#~ msgstr "Zadajte heslo:"
+
+#~ msgid "Ready"
+#~ msgstr "Pripravené"
+
+#~ msgid "Not ready"
+#~ msgstr "Nepripravený"
+
+#~ msgid "Enter your message"
+#~ msgstr "Vaša správa"
+
+#~ msgid "Click here to change your name and/or color"
+#~ msgstr "Kliknite sem pre zmenu vášho mena alebo farby"
+
+#, python-brace-format
+#~ msgid "Kick {player}"
+#~ msgstr "Vykopnúť {player}"
+
+#, python-brace-format
+#~ msgid "{player} has joined the game"
+#~ msgstr "{player} sa pripojil do hry"
+
+#, python-brace-format
+#~ msgid "{player} has left the game"
+#~ msgstr "{player} odišiel z hry"
+
+#~ msgid "You are now ready"
+#~ msgstr "Teraz ste pripravený"
+
+#~ msgid "You are not ready anymore"
+#~ msgstr "Už nie ste pripravený"
+
+#, python-brace-format
+#~ msgid "{player} is now ready"
+#~ msgstr "{player} je teraz pripravený"
+
+#, python-brace-format
+#~ msgid "{player} not ready anymore"
+#~ msgstr "{player} už nie je pripravený"
+
+#, python-brace-format
+#~ msgid "You are now known as {new_name}"
+#~ msgstr "Teraz ste známy ako {new_name}"
+
+#, python-brace-format
+#~ msgid "{player} is now known as {new_name}"
+#~ msgstr "{player} je teraz známy ako {new_name}"
+
+#~ msgid "You changed your color"
+#~ msgstr "Zmenili ste farbu"
+
+#, python-brace-format
+#~ msgid "{player} changed their color"
+#~ msgstr "{player} zmenil farbu"
+
+#~ msgid "Kicked"
+#~ msgstr "Vyhodený"
+
+#~ msgid "You have been kicked from the game by creator"
+#~ msgstr "Bol si vyhodený tvorcom"
+
+#, python-brace-format
+#~ msgid "{player} got kicked by creator"
+#~ msgstr "{player} bol vyhodený tvorcom"
+
+#~ msgid "Are you sure you want to abort the running session?"
+#~ msgstr "Ste si istý že chcete prerušiť aktuálnu hru?"
+
+#~ msgid "Quit Session"
+#~ msgstr "Ukončiť sedenie"
+
+#~ msgid "No saved games"
+#~ msgstr "Žiadne uložené hry"
+
+#~ msgid "There are no saved games to load."
+#~ msgstr "Nenachádzajú sa tu žiadne uložené hry na nahranie."
+
+#~ msgid "No filename given"
+#~ msgstr "Nebol zadaný názov súboru"
+
+#~ msgid "Please enter a valid filename."
+#~ msgstr "Zadajte prosím platný názov súboru."
+
+#, python-brace-format
+#~ msgid "A savegame with the name {name} already exists."
+#~ msgstr "Uložená hra s názvom {name} už existuje."
+
+#, python-brace-format
+#~ msgid "A map with the name {name} already exists."
+#~ msgstr "Mapa s názvom {name} už existuje."
+
+#~ msgid "Overwrite it?"
+#~ msgstr "Prepísať?"
+
+#, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "Uložené {time}"
+
+#, python-brace-format
+#~ msgid "Saved {amount} time"
+#~ msgid_plural "Saved {amount} times"
+#~ msgstr[0] "Uložené {amount}-krát"
+#~ msgstr[1] "Uložené {amount}-krát"
+#~ msgstr[2] "Uložené {amount}-krát"
+
+#, python-brace-format
+#~ msgid "Savegame version {version}"
+#~ msgstr "Uložená verzia {version}"
+
+#~ msgid "(probably incompatible)"
+#~ msgstr "{pravdepodobne nekompatibilný}"
+
+#~ msgid "Incompatible version"
+#~ msgstr "Nekompatibilná verzia"
+
+#~ msgid "No file selected"
+#~ msgstr "Nebol vybraný žiadny súbor"
+
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr "Vyberte hru pre znmazanie."
+
+#, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "Naozaj chcete vymazať hru '{name}'?"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "Potvrdiť zmazanie"
+
+#~ msgid "Error!"
+#~ msgstr "Chyba!"
+
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "Chyba pri vymazávaní uloženého súboru!"
+
+#~ msgid "Game"
+#~ msgstr "Hra"
+
+#~ msgid "Disabled"
+#~ msgstr "Vypnuté"
+
+#~ msgid "Restart required"
+#~ msgstr "Vyžadovaný reštart"
+
+#~ msgid ""
+#~ "Some of your changes require a restart of Unknown Horizons. Do you want "
+#~ "to restart Unknown Horizons now?"
+#~ msgstr ""
+#~ "Niektoré zmeny vyžadujú reštartovanie hry. Chcete reštartovať hru teraz?"
+
+#~ msgid "Restore default settings"
+#~ msgstr "Obnoviť pôvodné nastavenie"
+
+#~ msgid ""
+#~ "Restoring the default settings will delete all changes to the settings "
+#~ "you made so far."
+#~ msgstr "Obnovenie pôvodného nastavenia zruší všetky vaše nastavenia."
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "Chcete pokračovať?"
+
+#~ msgid "Invalid network port"
+#~ msgstr "Nesprávny sieťový port"
+
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr "Vybraný port nie je platný. Musí byť medzi číslom 1 a 65545."
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it is in the specified "
+#~ "range."
+#~ msgstr ""
+#~ "Skontrolujte prosím port. ktorý ste zadali a uistite sa, že je v určenom "
+#~ "rozsahu."
+
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "Nepodarilo sa načítať nové sieťové nastavenie."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special access privileges, try 0 or a "
+#~ "number greater than 1024."
+#~ msgstr ""
+#~ "Nízke čísla portov niekedy vyžadujú zvláštny prístup oprávnenia, skúste 0 "
+#~ "alebo číslo večšie než 1024."
+
+#~ msgid "Invalid player name"
+#~ msgstr "Neplatné meno hráča"
+
+#~ msgid "You entered an invalid playername."
+#~ msgstr "Zadali ste neplatné meno hráča."
+
+#~ msgid "Map size:"
+#~ msgstr "Veľkosť mapy:"
+
+#~ msgid "Water:"
+#~ msgstr "Voda:"
+
+#~ msgid "Max island size:"
+#~ msgstr "Maximálna velkosť ostrova:"
+
+#~ msgid "Preferred island size:"
+#~ msgstr "Doporučená velkosť ostrova:"
+
+#~ msgid "Island size deviation:"
+#~ msgstr "Odchýlka velkosti ostrovu:"
+
+#~ msgid "Click to generate a different random map"
+#~ msgstr "Kliknite pre generovanie inej náhodnej mapy"
+
+#~ msgid "Invalid scenario file"
+#~ msgstr "Neplatný scenár"
+
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "Zvolený súbor nie je platným súborom scenára."
+
+#~ msgid "Error message:"
+#~ msgstr "Chybová správa:"
+
+#~ msgid "Please report this to the author."
+#~ msgstr "Porsím, oznámte túto vec autorovi."
+
+#, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "Obtiažnosť: {difficulty}"
+
+#, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "Autor: {author}"
+
+#, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "Popis: {desc}"
+
+#, python-brace-format
+#~ msgid "Build {building}"
+#~ msgstr "Postaviť {building}"
+
+#~ msgid "Press H to remove this hint"
+#~ msgstr "Kliknite klávesu H pre odstránenie tohoto tipu"
+
+#~ msgid "Destroy all buildings"
+#~ msgstr "Zničiť všetky budovy"
+
+#~ msgid ""
+#~ "This will destroy all the buildings that fall outside of the settlement "
+#~ "range."
+#~ msgstr "Toto zničí všetky budovy, ktoré zostanú mimo dosah osady."
+
+#, python-format
+#~ msgid "%s additional building will be destroyed."
+#~ msgid_plural "%s additional buildings will be destroyed"
+#~ msgstr[0] "%s ďaľšia budova bude zničená."
+#~ msgstr[1] "%s ďaľších budov bude zničených"
+#~ msgstr[2] "%s ďaľších budov bude zničených"
+
+#~ msgid "Barracks overview"
+#~ msgstr "Prehľad kasární"
+
+#~ msgid "Swordman"
+#~ msgstr "Šermiar"
+
+#~ msgid "Overview"
+#~ msgstr "Prehľad"
+
+#, python-brace-format
+#~ msgid "{ship} (place in queue: {place})"
+#~ msgstr "{ship} (umiestniť do fronty: {place})"
+
+#~ msgid "Boat builder overview"
+#~ msgstr "Prehľad staviteľa lodí"
+
+#~ msgid "Fisher boats"
+#~ msgstr "Rybárske lode"
+
+#~ msgid "Trade boats"
+#~ msgstr "Obchodné lode"
+
+#~ msgid "War boats"
+#~ msgstr "Vojnové člny"
+
+#~ msgid "War ships"
+#~ msgstr "Vojnové lode"
+
+#~ msgid "Tower overview"
+#~ msgstr "Prehľad obranných veží"
+
+#~ msgid "Build related buildings"
+#~ msgstr "Vybuduj súvisiace stavby"
+
+#~ msgid "Click on one of the resource slots to add a trade offer."
+#~ msgstr "Kliknite na jeden z slotov na tovar pre pridanie obchodnej ponuky."
+
+#~ msgid ""
+#~ "Set to buy or sell by clicking on that label, then adjust the amount via "
+#~ "the slider to the right."
+#~ msgstr ""
+#~ "Zadajte nákup alebo predaj kliknutím na šípku, a potom posuvníkom "
+#~ "nastavte cieľové množstvo v sklade."
+
+#, python-brace-format
+#~ msgid ""
+#~ "Will sell {resource_name} for {price} gold/t whenever more than {limit}t "
+#~ "are available."
+#~ msgstr ""
+#~ "Predať {resource_name} za {price} zlata/t, kedykoľvek je zásoba väčšia "
+#~ "než {limit} t."
+
+#~ msgid "Warehouse overview"
+#~ msgstr "Prehľad obchodného prístavu"
+
+#~ msgid "Main square overview"
+#~ msgstr "Prehľad námestia"
+
+#~ msgid "Upgrade not possible:"
+#~ msgstr "Vylepšenie nie je možné:"
+
+#~ msgid "This is the highest playable tier for now!"
+#~ msgstr "Toto je najvyššia úroveň, ktorá sa dá momentálne hrať!"
+
+#~ msgid "Don't allow upgrades"
+#~ msgstr "Nie sú povolené vylepšenia"
+
+#~ msgid "Allow upgrades"
+#~ msgstr "Vylepšenie povolené"
+
+#~ msgid "Unit overview"
+#~ msgstr "Prehľad jednotiek"
+
+#, python-brace-format
+#~ msgid "Fill range with {how_many} trees"
+#~ msgstr "Zaplň priestor {how_many} stromami"
+
+#~ msgid "Selected Units"
+#~ msgstr "Vybrané jednotky"
+
+#~ msgid "Ship overview"
+#~ msgstr "Prehľad lode"
+
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr "Pre založenie osady musí byť loď bližšie k ostrovu."
+
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "Na tomto ostrove už osadu máte."
+
+#~ msgid "Load/Unload"
+#~ msgstr "Naložiť/Vyložiť"
+
+#~ msgid "Too far from the nearest tradeable warehouse"
+#~ msgstr "Veľmi ďaleko od najbližšieho obchodného skladu"
+
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "Obchodné lode nejde vyzbrojiť"
+
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "Nie je možné vybaviť obchodné lode zbraňami."
+
+#~ msgid "Equip weapon"
+#~ msgstr "Ozbrojiť"
+
+#~ msgid "Unequip weapon"
+#~ msgstr "Odzbrojiť"
+
+#, python-brace-format
+#~ msgid "{resource_name}: {price} gold"
+#~ msgstr "{resource_name}: {price} zlata"
+
+#, python-brace-format
+#~ msgid "buy for {buyprice} gold"
+#~ msgstr "nakúpte za {buyprice} zlaza"
+
+#, python-brace-format
+#~ msgid "sell for {sellprice} gold"
+#~ msgstr "predajte za {sellprice} zlaza"
+
+#, python-brace-format
+#~ msgid "{stored}/{limit}"
+#~ msgstr "{stored}/{limit}"
+
+#~ msgid "Logbook"
+#~ msgstr "Záznamy"
+
+#~ msgid "Emptiness"
+#~ msgstr "Prázdnota"
+
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "Vo vašom lodnom denníku nie je zatiaľ žiadny záznam!"
+
+#, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "Osadníci hráča {player}"
+
+#, python-brace-format
+#~ msgid "Ships of {player}"
+#~ msgstr "Lode hráča {player}"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#, python-brace-format
+#~ msgid "Production overview of {settlement}"
+#~ msgstr "Prehľad výroby osady {settlement}"
+
+#~ msgid "Click to show statistics"
+#~ msgstr "Kliknite pre zobrazenie štatistík"
+
+#~ msgid "Click to add a new slot"
+#~ msgstr "kliknite pre pridanie nového oddielu"
+
+#~ msgid "Reset this configuration to the factory default."
+#~ msgstr "Obnoviť toto nastavenie na továrne nastavenie."
+
+#~ msgid ""
+#~ "Reset this settlement's displayed resources to the default configuration "
+#~ "you have saved."
+#~ msgstr ""
+#~ "Obnoviť zobrazovanie surovín tejto osady na vami uložené nastavenie."
+
+#~ msgid ""
+#~ "Reset the default configuration (which you see here) to the factory "
+#~ "default for all settlements."
+#~ msgstr ""
+#~ "Obnoviť preddefinované nastavenie (tu zobrazené) na továrne nastavenie "
+#~ "pre všetky osady."
+
+#~ msgid "Buy expenses"
+#~ msgstr "Výdaje na nákupy"
+
+#~ msgid "Sell income"
+#~ msgstr "Príjem z predajov"
+
+#~ msgid "Stop route"
+#~ msgstr "Ukončiť obchodnú trasu"
+
+#~ msgid "Need at least two settlements"
+#~ msgstr "Potrebujete najmenej dve osady"
+
+#~ msgid "You need at least two different settlements in your route."
+#~ msgstr "Pre cestu potrebujete najmenej dve rôzne osady."
+
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "Kliknutím na osadu pridáte vyčkávaciu pozíciu!"
+
+#~ msgid "Loading into ship"
+#~ msgstr "Nakladanie na loď"
+
+#~ msgid "Unloading from ship"
+#~ msgstr "Vykladanie z lodi"
+
+#~ msgid "You are not allowed to trade with this player"
+#~ msgstr "Nemáte povolené obchodovať s týmto hráčom"
+
+#, python-brace-format
+#~ msgid "{weapon}: {amount}"
+#~ msgstr "{weapon}: {amount}"
+
+#~ msgid "none"
+#~ msgstr "žiadne"
+
+#, python-brace-format
+#~ msgid "Details: {error_details}"
+#~ msgstr "Detaily: {error_details}"
+
+#, python-brace-format
+#~ msgid "Error: {error_message}"
+#~ msgstr "Chyba: {error_message}"
+
+#~ msgid "Bakery"
+#~ msgstr "Pekáreň"
+
+#~ msgid "Barracks"
+#~ msgstr "Kasárne"
+
+#~ msgid "Wooden barrier"
+#~ msgstr "Drevená bariéra"
+
+#~ msgid "Clay wall"
+#~ msgstr "Ílova stena"
+
+#~ msgid "Blender"
+#~ msgstr "Bylinkárstvo"
+
+#~ msgid "Boat Builder"
+#~ msgstr "Staviteľ lodí"
+
+#~ msgid "Brewery"
+#~ msgstr "Pivovar"
+
+#~ msgid "Brickyard"
+#~ msgstr "Tehláreň"
+
+#~ msgid "Butchery"
+#~ msgstr "Mesiareň"
+
+#~ msgid "Cannon Foundry"
+#~ msgstr "Výrobňa dieľ"
+
+#~ msgid "Charcoal Burning"
+#~ msgstr "Uhliar"
+
+#~ msgid "Clay Deposit"
+#~ msgstr "Ložisko ílu"
+
+#~ msgid "Clay Pit"
+#~ msgstr "Ílovy dol"
+
+#~ msgid "Distillery"
+#~ msgstr "Liehovar"
+
+#~ msgid "Doctor"
+#~ msgstr "Lekár"
+
+#~ msgid "Farm"
+#~ msgstr "Farma"
+
+#~ msgid "Alvearies"
+#~ msgstr "Úly"
+
+#~ msgid "Cattle Run"
+#~ msgstr "Výbeh pre dobytok"
+
+#~ msgid "Cocoa Field"
+#~ msgstr "Kakaovníkové pole"
+
+#~ msgid "Corn Field"
+#~ msgstr "Kukuričné pole"
+
+#~ msgid "Herbary"
+#~ msgstr "Bylinkárstvo"
+
+#~ msgid "Hop Field"
+#~ msgstr "Chmelové pole"
+
+#~ msgid "Pasture"
+#~ msgstr "Pastvina"
+
+#~ msgid "Pigsty"
+#~ msgstr "Prasačí chliev"
+
+#~ msgid "Potato Field"
+#~ msgstr "Zemiakové pole"
+
+#~ msgid "Spice Field"
+#~ msgstr "Plantáž na korenie"
+
+#~ msgid "Sugar Field"
+#~ msgstr "Trstinové pole"
+
+#~ msgid "Tobacco Field"
+#~ msgstr "Tabakové pole"
+
+#~ msgid "Vineyard"
+#~ msgstr "Vinica"
+
+#~ msgid "Fire Station"
+#~ msgstr "Požiarna stanica"
+
+#~ msgid "Fish Deposit"
+#~ msgstr "Nálezisko rýb"
+
+#~ msgid "Fisherman's Tent"
+#~ msgstr "Rybársky stan"
+
+#~ msgid "Hunter's Tent"
+#~ msgstr "Lovecký stan"
+
+#~ msgid "Lookout"
+#~ msgstr "Rozhladňa"
+
+#~ msgid "Lumberjack Hut"
+#~ msgstr "Drevorubárska chatrč"
+
+#~ msgid "Main Square"
+#~ msgstr "Námestie"
+
+#~ msgid "Mine"
+#~ msgstr "Dol"
+
+#~ msgid "Mountain"
+#~ msgstr "Hora"
+
+#~ msgid "Pastry Shop"
+#~ msgstr "Cukráreň"
+
+#~ msgid "Pavilion"
+#~ msgstr "Kostol"
+
+#~ msgid "Ruined Tent"
+#~ msgstr "Opustený stan"
+
+#~ msgid "Salt Ponds"
+#~ msgstr "Solné jazerá"
+
+#~ msgid "Signal Fire"
+#~ msgstr "Signálny oheň"
+
+#~ msgid "Smeltery"
+#~ msgstr "Zlievárňa"
+
+#~ msgid "Stone Deposit"
+#~ msgstr "Ložisko kameňa"
+
+#~ msgid "Stonemason"
+#~ msgstr "Kameník"
+
+#~ msgid "Carver"
+#~ msgstr "Kameník"
+
+#~ msgid "Stone Pit"
+#~ msgstr "Kamenný lom"
+
+#~ msgid "Storage Tent"
+#~ msgstr "Sklad"
+
+#~ msgid "Storage Hut"
+#~ msgstr "Skladisko"
+
+#~ msgid "Tavern"
+#~ msgstr "Krčma"
+
+#~ msgid "Hut"
+#~ msgstr "Chatrč"
+
+#~ msgid "Stone house"
+#~ msgstr "Kamenný dom"
+
+#~ msgid "Estate"
+#~ msgstr "Skladisko"
+
+#~ msgid "Manor"
+#~ msgstr "Statok"
+
+#~ msgid "Tobacconist"
+#~ msgstr "Predajca tabaku"
+
+#~ msgid "Toolmaker"
+#~ msgstr "Výrobca nástrojov"
+
+#~ msgid "Trail"
+#~ msgstr "Cesta"
+
+#~ msgid "Gravel Path"
+#~ msgstr "Štrková cesta"
+
+#~ msgid "Cobblestone Street"
+#~ msgstr "Dlaždená ulica"
+
+#~ msgid "Tree"
+#~ msgstr "Strom"
+
+#~ msgid "Village School"
+#~ msgstr "Dedinská škola"
+
+#~ msgid "Warehouse"
+#~ msgstr "Obchodný prístav"
+
+#~ msgid "Weaponsmith"
+#~ msgstr "Zbrane"
+
+#~ msgid "Weaver's Hut"
+#~ msgstr "Tkáčová dielňa"
+
+#~ msgid "Windmill"
+#~ msgstr "Mlyn"
+
+#~ msgid "Winery"
+#~ msgstr "Vinná pivnica"
+
+#~ msgid "Wooden Tower"
+#~ msgstr "Drevená veža"
+
+#~ msgid "Failed to start/load the game"
+#~ msgstr "Štart/načítanie hry na nepodaril(o)"
+
+#~ msgid "The game you selected could not be started."
+#~ msgstr "Vami zvolená hra nemohla byť spustená."
+
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr "Uložená hra je stará alebo poškodená."
+
+#~ msgid "No quicksaves found"
+#~ msgstr "Žiadne rýchle uloženia neboly nájdené"
+
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr "Pred rýchlym načítaním potrebujete rýchle uloženie."
+
+#~ msgid "Logging enabled"
+#~ msgstr "Zaznamenávanie povolené"
+
+#, python-brace-format
+#~ msgid "Logs are written to {directory}."
+#~ msgstr "Logy sa ukladajú do adresára {directory}."
+
+#~ msgid ""
+#~ "The games have run out of sync. This indicates an unknown internal error, "
+#~ "the game cannot continue."
+#~ msgstr "Neznáma chyba. Hra nemôže pokračovať."
+
+#~ msgid ""
+#~ "We are very sorry and hope to have this bug fixed in a future version."
+#~ msgstr ""
+#~ "Veľmi sa ospravedlňujeme a dúfame, že bude chyba opravená čo najskôr."
+
+#~ msgid "Not possible"
+#~ msgstr "Nemožné"
+
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr "Uloženie/nahranie hry viac hráčov nie je zatial dostupné"
+
+#~ msgid ""
+#~ "The filename must consist only of letters, numbers, spaces and these "
+#~ "characters: _ . -"
+#~ msgstr ""
+#~ "Názov súboru môže obsahovať iba písmena, číslice, medzery a nasledujúce "
+#~ "znaky: _ . -"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "Nepodarilo sa pripojiť k serveru."
+
+#~ msgid "Maybe invalid or irresolvable server address."
+#~ msgstr "Možno je neplatná alebo nepreložitelná adresa serveru."
+
+#~ msgid "Not Ready"
+#~ msgstr "Nepripravený"
+
+#~ msgid ""
+#~ "Old or unsupported multiplayer protocol. Please check your game version"
+#~ msgstr ""
+#~ "Neaktuálny alebo nepodporovaný protokol hry pre viac hráčov. Prosím "
+#~ "skontoluj svoju verziu hry"
+
+#~ msgid "You've exceeded the global packet size."
+#~ msgstr "Prekročil si velkosť packetu."
+
+#~ msgid "This should never happen. Please contact us or file a bug report."
+#~ msgstr "Toto by sa nemalo stať. Kontaktuj nás."
+
+#~ msgid "You've exceeded the per packet size."
+#~ msgstr "Prekročil si velkosť packetu."
+
+#~ msgid "Unknown or malformed packet. Please check your game version"
+#~ msgstr "Neznámy alebo znefunkčnený packet. Prosím skontrolujte verziu hry"
+
+#~ msgid "Invalid/Unknown session"
+#~ msgstr "Neplatné/Neznámé sedenie"
+
+#~ msgid "You can't join a game while in another game"
+#~ msgstr "Nemôžeš sa pripojiť do hry pokiaľ si v druhej"
+
+#~ msgid "Unknown game or game is running a different version"
+#~ msgstr "Neznáma hra alebo hra bežiaca na inej verzií hry"
+
+#~ msgid "Game has already started. No more joining"
+#~ msgstr "Hra už začala. Nedá sa pripojiť"
+
+#~ msgid "Game is full"
+#~ msgstr "Hra je plná"
+
+#~ msgid "Wrong password"
+#~ msgstr "Nesprávne heslo"
+
+#~ msgid "There's already a player with your name inside this game."
+#~ msgstr "Už je pripojený hráč s rovnakým menom."
+
+#~ msgid "Please change your name."
+#~ msgstr "Prosím zmeň si meno."
+
+#~ msgid "There's already a player with your color inside this game."
+#~ msgstr "Už existuje hráč s rovnakou farbou ako máš ty."
+
+#~ msgid "Please change your color."
+#~ msgstr "Prosím zmeň svoju farbu."
+
+#~ msgid ""
+#~ "There's already a player with your unique player ID inside this game. "
+#~ "This should never occur."
+#~ msgstr ""
+#~ "Už sa v hre nachádza hráč s rovnakým ID v hre. Toto by sa nemalo stať."
+
+#~ msgid "You are not inside a game"
+#~ msgstr "Nie ste účastníkom hry"
+
+#~ msgid "Unable to change your name."
+#~ msgstr "Neviem zmeniť tvoje meno."
+
+#~ msgid "Unable to change your color."
+#~ msgstr "Neviem zmeniť tvoju farbu."
+
+#~ msgid "You can't fetch a game while in another game"
+#~ msgstr "Nemôžeš sa pripojiť do ďalšej hry pokiaľ si v jednej pripojený"
+
+#~ msgid "The game has been terminated. The creator has left the game."
+#~ msgstr "Hra bola vypnutá. Tvorca odišiel z hry."
+
+#~ msgid ""
+#~ "One player has terminated their game. For technical reasons, this "
+#~ "currently means the game cannot continue. We are very sorry about that."
+#~ msgstr ""
+#~ "Jeden hráč odišiel z hry. Z technických príčin nemôže momentálna hra "
+#~ "pokračovať. Ospravedlňujeme sa."
+
+#~ msgid "You have won!"
+#~ msgstr "Vyhrali ste!"
+
+#~ msgid "You have completed this scenario."
+#~ msgstr "Dokončili ste scenár."
+
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "Chcete pokračovať?"
+
+#~ msgid "Failed to create savegame file"
+#~ msgstr "Vytvorenie súboru hry sa nepodarilo"
+
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr "V priebehu vytvárania súboru hry sa vyskytla chyba."
+
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr "Názov hry obsahuje znaky, ktoré nie sú podporované."
+
+#~ msgid "Access is denied"
+#~ msgstr "Prístup odmietnutý"
+
+#~ msgid "The savegame file could be read-only or locked by another process."
+#~ msgstr ""
+#~ "Súbor s uloženou hrou môže byť len na čítanie alebo je zamknutý iným "
+#~ "procesom."
+
+#~ msgid "Your game has not been saved."
+#~ msgstr "Vaša hra nebola uložená."
+
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "Nová verzia Unknown Horizons"
+
+#, python-brace-format
+#~ msgid ""
+#~ "There is a more recent release of Unknown Horizons ({new_version}) than "
+#~ "the one you are currently using ({old_version})."
+#~ msgstr ""
+#~ "Je k dispozícií novšia verzia Unknown Horizons ({new_version}). Vaša "
+#~ "verzia je ({old_version})."
+
+#~ msgid "Click to download"
+#~ msgstr "Kliknite pre stiahnutie"
+
+#~ msgid "A page has been opened in your browser."
+#~ msgstr "Stránka bola otvorená vo vašom prehliadači."
+
+#, python-brace-format
+#~ msgid "{slotnum} slots, {limit}t"
+#~ msgstr "{slotnum} pozící, {limit}t"
+
+#, python-brace-format
+#~ msgid "Health: {health}"
+#~ msgstr "Zdravie: {health}"
+
+#, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}: {description}"
+
+#~ msgid "This building must be built on an island."
+#~ msgstr "Táto budova môže byť postavená len na pobreží."
+
+#~ msgid "This ground is not suitable for this building."
+#~ msgstr "Tento povrch nie je vyhovujúci pre túto budovu."
+
+#~ msgid "This building has to be built within your settlement."
+#~ msgstr "Táto budeova musí byť postavená vnútri osady."
+
+#~ msgid "This area is already occupied by another player."
+#~ msgstr "Toto územie je už obsadené iným hráčom."
+
+#~ msgid "This area is already occupied by another building."
+#~ msgstr "Táto plocha je už zabraná inou stavbou."
+
+#~ msgid "This area is already occupied by a unit."
+#~ msgstr "Táto oblasť je už obsadená jednotkou."
+
+#~ msgid "This building must be built on the coastline."
+#~ msgstr "Táto budova môže byť postavená len na pobreží."
+
+#~ msgid "This building has to be placed at the ocean."
+#~ msgstr "Táto budova musí byť postavená v blízkosti oceánu."
+
+#~ msgid "This spot is too far away from your ship."
+#~ msgstr "Toto miesto je príliš ďaleko od vašej lodi."
+
+#~ msgid "This building can only be built on a resource source."
+#~ msgstr "Táto budova môže byť postavená len na ložisku surovín."
+
+#~ msgid "You have already settled this island."
+#~ msgstr "Tento ostrov si už osídlil."
+
+#~ msgid "This building must be partly on flat land."
+#~ msgstr "Táto budeova musí byť čiastočne na plochej zemi."
+
+#~ msgid "The inhabitants are infected by the Black Death!"
+#~ msgstr "Obyvatelia sú napadnutý čiernou smrťou!"
+
+#~ msgid "This building is on fire!"
+#~ msgstr "Táto budova horí!"
+
+#~ msgid "These residents are unhappy."
+#~ msgstr "Títo obyvatelia sú nešťastný."
+
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "Títo obyvatelia nemajú prístup k tržnici."
+
+#~ msgid "The inventory of this building is full."
+#~ msgstr "Zásoby tejto budovy sú plné."
+
+#~ msgid "This building has a very low productivity."
+#~ msgstr "Táto budova má veľmi nízku produktivitu."
+
+#~ msgid "This building is decommissioned."
+#~ msgstr "Táto budova bola vypnutá."
+
+#, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "Obchodná cesta: sa plaví do {location}"
+
+#, python-brace-format
+#~ msgid "Trade route: waiting at {position}"
+#~ msgstr "Obchodná cesta: čaká v {position}"
+
+#, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "Pláva do {location}"
+
+#, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "Pláva na {x}, {y}"
+
+#, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "Nečinná v {location}"
+
+#, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "Nečinná na {x}, {y}"
+
+#~ msgid "Trader"
+#~ msgstr "Obchodník"
+
+#, python-brace-format
+#~ msgid "Attacking {target} '{name}' ({owner})"
+#~ msgstr "Útočí na {target} '{name}' ({owner})"
+
+#, python-brace-format
+#~ msgid "Attacking {owner}"
+#~ msgstr "Útočí na {owner}"
+
+#~ msgid "Your game has been autosaved."
+#~ msgstr "Hra bola automaticky uložená."
+
+#~ msgid "Your building has caught fire!"
+#~ msgstr "Vaša budeova horí!"
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}: {message}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "{player1} and {player2} have ended their alliance and are now in a state "
+#~ "of war."
+#~ msgstr "Hráči {player1} a {player2} zrušili mierovú zmluvu a sú vo vojne."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have terminated their alliance."
+#~ msgstr "Hráči {player1} a {player2} zrušili mierovú zmluvu."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have ended the war and are now allied."
+#~ msgstr "Hráči {player1} a {player2} ukončili vojnnu a teraz sú spojenci."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have settled their hostility."
+#~ msgstr "Hráči {player1} a {player2} ukončili nepriateľstvo."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have allied their forces."
+#~ msgstr "Hráči {player1} a {player2} spojili svoje sily."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} will fight each other to the death."
+#~ msgstr "Hráči {player1} a {player2} začali vojnu na život a na smrť."
+
+#~ msgid "You can also drag roads."
+#~ msgstr "Cestu môžete postaviť aj ťahaním myši."
+
+#~ msgid "One of your fields requires a farm to harvest its crops."
+#~ msgstr "Jedno z vaších polí nie je v dosahu farmy."
+
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "Vo vašom dole už nie sú žiadne suroviny."
+
+#~ msgid ""
+#~ "You have reached the current maximum tier. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Dosiahli ste maximálnej úrovne. Vaši obyvatelia sa nebudú ďalej "
+#~ "vylepšovať."
+
+#~ msgid "Cannot go here."
+#~ msgstr "Miesto je nedostupné."
+
+#~ msgid "Your crew refuses to leave this map."
+#~ msgstr "Vaši ľudia  odmietajú opustiť túto mapu."
+
+#, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "Chýba dostatok {resource} na postavenie tejto budovy."
+
+#, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "Nová osada bola založená hráčom {player}."
+
+#, python-brace-format
+#~ msgid "A new ship by the name of {name} has been created."
+#~ msgstr "Boly vyrobená nová loď pomenovaná {name}."
+
+#, python-brace-format
+#~ msgid "The Soldier by the name of {name} is ready to battle."
+#~ msgstr "Vojak s menom {name} je pripravený do boja."
+
+#, python-brace-format
+#~ msgid "The inhabitant by the name of {name} is available."
+#~ msgstr "Obyvateľ s menom {name} je dostupný."
+
+#~ msgid "A new world has been created."
+#~ msgstr "Bol vytvorený nový svet."
+
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "Niektorý vaši obyvatelia nemajú prístup k tržnici."
+
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "Hra bola rýchlo uložená."
+
+#~ msgid ""
+#~ "The route is now configured. Start it via the \"start route\" button in "
+#~ "the \"configure route\" menu."
+#~ msgstr ""
+#~ "Obchodná cesta je pripravená. Začnete ju tlačidlo \"začať cestu\" v menu "
+#~ "\"nastavenia cesty\"."
+
+#~ msgid "Your game has been saved."
+#~ msgstr "Hra bola uložená."
+
+#, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "Snímok obrazovky bol uložený do {file}."
+
+#, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "Vaši obyvatelia dosiahli úrovne {level}."
+
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "Niektorý z osadníkov sa odsťahovali."
+
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr "Obchodný prístav nie je možné zbúrať, vaši osadníci ho potrebujú."
+
+#~ msgid "You won!"
+#~ msgstr "Vyhrali ste!"
+
+#~ msgid "You failed the scenario."
+#~ msgstr "Nauspel si v scenári."
+
+#~ msgid "The inhabitants of this building are infected by the Black Death!"
+#~ msgstr "Obyvatelia tejto budovy sú napadnutý čiernou smrťou!"
+
+#~ msgid "coins"
+#~ msgstr "mince"
+
+#~ msgid "lamb wool"
+#~ msgstr "ovčia vlna"
+
+#~ msgid "textile"
+#~ msgstr "textília"
+
+#~ msgid "boards"
+#~ msgstr "dosky"
+
+#~ msgid "food"
+#~ msgstr "jedlo"
+
+#~ msgid "tools"
+#~ msgstr "náradie"
+
+#~ msgid "bricks"
+#~ msgstr "tehly"
+
+#~ msgid "trees"
+#~ msgstr "stromy"
+
+#~ msgid "grass"
+#~ msgstr "tráva"
+
+#~ msgid "wool"
+#~ msgstr "vlna"
+
+#~ msgid "faith"
+#~ msgstr "viera"
+
+#~ msgid "deer food A"
+#~ msgstr "jedlo pre jelene"
+
+#~ msgid "deer meat"
+#~ msgstr "jelenie mäso"
+
+#~ msgid "happiness"
+#~ msgstr "šťastie"
+
+#~ msgid "potatoes"
+#~ msgstr "zemiaky"
+
+#~ msgid "education"
+#~ msgstr "vzdelanie"
+
+#~ msgid "sugar cane"
+#~ msgstr "cukrová trstina"
+
+#~ msgid "sugar"
+#~ msgstr "cukor"
+
+#~ msgid "community"
+#~ msgstr "spoločnosť"
+
+#~ msgid "clay deposit"
+#~ msgstr "ložisko ílu"
+
+#~ msgid "clay"
+#~ msgstr "íl"
+
+#~ msgid "liquor"
+#~ msgstr "pálenka"
+
+#~ msgid "charcoal"
+#~ msgstr "drevené uhlie"
+
+#~ msgid "iron deposit"
+#~ msgstr "ložisko železa"
+
+#~ msgid "iron ore"
+#~ msgstr "železná ruda"
+
+#~ msgid "iron ingots"
+#~ msgstr "železné ingoty"
+
+#~ msgid "get-together"
+#~ msgstr "stretnutie"
+
+#~ msgid "fish"
+#~ msgstr "ryby"
+
+#~ msgid "salt"
+#~ msgstr "soľ"
+
+#~ msgid "tobacco plants"
+#~ msgstr "tabakové rastliny"
+
+#~ msgid "tobacco leaves"
+#~ msgstr "tabakové lístky"
+
+#~ msgid "tobaccos"
+#~ msgstr "cigary"
+
+#~ msgid "cattle"
+#~ msgstr "dobytok"
+
+#~ msgid "pigs"
+#~ msgstr "ošípané"
+
+#~ msgid "cattle for slaughter"
+#~ msgstr "dobytok na porážku"
+
+#~ msgid "pigs for slaughter"
+#~ msgstr "ošípané na porážku"
+
+#~ msgid "herbs"
+#~ msgstr "bylinky"
+
+#~ msgid "medical herbs"
+#~ msgstr "bylinky"
+
+#~ msgid "acorns"
+#~ msgstr "žalude"
+
+#~ msgid "cannon"
+#~ msgstr "delo"
+
+#~ msgid "sword"
+#~ msgstr "meč"
+
+#~ msgid "grain"
+#~ msgstr "obilie"
+
+#~ msgid "corn"
+#~ msgstr "kukurica"
+
+#~ msgid "flour"
+#~ msgstr "múka"
+
+#~ msgid "spice plants"
+#~ msgstr "bylinky"
+
+#~ msgid "spices"
+#~ msgstr "korenie"
+
+#~ msgid "condiments"
+#~ msgstr "korenie"
+
+#~ msgid "marble deposit"
+#~ msgstr "ložisko mramoru"
+
+#~ msgid "marble tops"
+#~ msgstr "mramorové dosky"
+
+#~ msgid "coal deposit"
+#~ msgstr "ložisko uhlia"
+
+#~ msgid "stone deposit"
+#~ msgstr "ložisko kameňov"
+
+#~ msgid "stone tops"
+#~ msgstr "kamene"
+
+#~ msgid "cocoa beans"
+#~ msgstr "kakaové bôby"
+
+#~ msgid "cocoa"
+#~ msgstr "kakao"
+
+#~ msgid "confectionery"
+#~ msgstr "cukrovinky"
+
+#~ msgid "candles"
+#~ msgstr "sviečky"
+
+#~ msgid "vines"
+#~ msgstr "víno"
+
+#~ msgid "grapes"
+#~ msgstr "hrozno"
+
+#~ msgid "alvearies"
+#~ msgstr "včelárstvo"
+
+#~ msgid "honeycombs"
+#~ msgstr "včelie plásty"
+
+#~ msgid "gold deposit"
+#~ msgstr "ložisko zlata"
+
+#~ msgid "gold ore"
+#~ msgstr "zlatá ruda"
+
+#~ msgid "gold ingots"
+#~ msgstr "zlaté ingoty"
+
+#~ msgid "gem deposit"
+#~ msgstr "ložisko drahokamov"
+
+#~ msgid "rough gems"
+#~ msgstr "neupravené drahokamy"
+
+#~ msgid "gems"
+#~ msgstr "drahokamy"
+
+#~ msgid "coffee plants"
+#~ msgstr "kávovníky"
+
+#~ msgid "coffee beans"
+#~ msgstr "kávové bôby"
+
+#~ msgid "coffee"
+#~ msgstr "káva"
+
+#~ msgid "tea plants"
+#~ msgstr "čajovníky"
+
+#~ msgid "tea leaves"
+#~ msgstr "čajové lístky"
+
+#~ msgid "tea"
+#~ msgstr "čaj"
+
+#~ msgid "flower meadows"
+#~ msgstr "kvitnúce lúky"
+
+#~ msgid "blossoms"
+#~ msgstr "kvety"
+
+#~ msgid "brine deposit"
+#~ msgstr "ložisko soľanky"
+
+#~ msgid "brine"
+#~ msgstr "soľanka"
+
+#~ msgid "whales"
+#~ msgstr "veľryby"
+
+#~ msgid "ambergris"
+#~ msgstr "ambra"
+
+#~ msgid "lamp oil"
+#~ msgstr "lampový olej"
+
+#~ msgid "cotton plants"
+#~ msgstr "bavlníky"
+
+#~ msgid "cotton"
+#~ msgstr "bavlna"
+
+#~ msgid "indigo plants"
+#~ msgstr "sadenice indiga"
+
+#~ msgid "indigo"
+#~ msgstr "indigo"
+
+#~ msgid "garments"
+#~ msgstr "odevy"
+
+#~ msgid "perfume"
+#~ msgstr "voňavka"
+
+#~ msgid "hop plants"
+#~ msgstr "chmeľové sadenice"
+
+#~ msgid "hops"
+#~ msgstr "chmeľ"
+
+#~ msgid "beer"
+#~ msgstr "pivo"
+
+#~ msgid "hygiene"
+#~ msgstr "hygiena"
+
+#~ msgid "recreation"
+#~ msgstr "rekreácia"
+
+#~ msgid "blackdeath"
+#~ msgstr "čierna smrť"
+
+#~ msgid "fire"
+#~ msgstr "oheň"
+
+#~ msgid "Aristocrats"
+#~ msgstr "Šľachta"
+
+#~ msgid "Error: Unable to find required library \"PyYAML\"."
+#~ msgstr "Chyba: Nemôžem nájsť potrebnú knižnicu \"PyYAML\"."
+
+#~ msgid "PyYAML (a required library) is missing and needs to be installed."
+#~ msgstr "PyYAML (požadovaná knižnica) chýba a musí byť nainštalovaná."
+
+#~ msgid "The Windows installer is available at http://pyyaml.org/wiki/PyYAML."
+#~ msgstr ""
+#~ "Inštalátor pre Windows je dostupný na http://pyyaml.org/wiki/PyYAML."
+
+#~ msgid ""
+#~ "Linux users should find it using their package manager under the name "
+#~ "\"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Užívatelia Linuxu by ho mali nájsť pomocou správca balíčkov pod menom "
+#~ "\"pyyaml\", alebo \"python-yaml\"."

@@ -1,0 +1,3451 @@
+# Chinese translations for Unknown Horizons package.
+# Copyright (C) 2017 The Unknown Horizons Team
+# This file is distributed under the same license as the Unknown Horizons package.
+# Automatically generated, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Unknown Horizons e124229\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2023-06-16 16:47+0000\n"
+"Last-Translator: chenli <chengxi.li724@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/uh/"
+"uh/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.1\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "未知的保存日期"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "未知的保存日期"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+msgid "Descriptive Label:"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "建筑物"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "未知"
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "未知的保存日期"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "单人游戏"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "载入游戏"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr "制作人员名单"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr "地图编辑器"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Quit"
+msgstr "退出"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Help"
+msgstr "帮助"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Options"
+msgstr "动作"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "新游戏 - 单人模式"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Scenario"
+msgstr "方案"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Random map"
+msgstr "随机地图"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Free play"
+msgstr "自由游玩"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "未知的保存日期"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Color:"
+msgstr "颜色:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "AI players:"
+msgstr "AI玩家："
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "选择要游玩的地图："
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "推荐玩家人数：{number}"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Game settings:"
+msgstr "游戏的设置:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "资源密度："
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "自由贸易"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Pirates"
+msgstr "海盗"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr "灾害"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Saving"
+msgstr "保存"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr "通用"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "选择语言:"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Mouse"
+msgstr "鼠标"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Graphics"
+msgstr "图形"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Sound"
+msgstr "声音"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr "热键"
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "统计数据"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Players"
+msgstr "玩家"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My ships"
+msgstr "我的船只"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My settlements"
+msgstr "我的驻地"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Player scores"
+msgstr "玩家得分"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Name"
+msgstr "名称"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Money"
+msgstr "金钱"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Land"
+msgstr "国土"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Resources"
+msgstr "资源"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Buildings"
+msgstr "建筑物"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlers"
+msgstr "殖民者"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Units"
+msgstr "单位"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Total"
+msgstr "合计"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "140"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "104"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "InventoryTab"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Limit: 30t per slot"
+msgstr "限制： 每个槽位{amount}吨"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "买／卖"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr "每当库存低于{limit}吨时，将以{price}金币/吨的价格购买{resource_name}。"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Trade history"
+msgstr "贸易历史"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Free Trader"
+msgstr "自由贸易"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "产品概述"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "未知的保存日期"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "贸易"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "LumberjackOverviewTab"
+msgstr "伐木工的帐篷"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr "殖民"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr "基础设施"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr "居民区的"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr "服务"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr "预防措施"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "场"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Pioneers"
+msgstr "括荒着"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Citizens"
+msgstr "市民"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr "农业"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr "大海"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr "食品"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr "车间"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr "公司"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr "木"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Mining"
+msgstr "采矿"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr "防御工事"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr "军事服务"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sailors"
+msgstr "水手"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "居民和基础设施"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military"
+msgstr "军事"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Merchants"
+msgstr "商人"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "Game Speed Up"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "Game Speed Down"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "帐号"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr "收入："
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr "税"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Sale"
+msgstr "销售"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Expenses:"
+msgstr "费用："
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Running costs"
+msgstr "运行开销"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Buying"
+msgstr "购买"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Balance"
+msgstr "平衡"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Upgrade permissions:"
+msgstr "升级许可："
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr "每户幸福指数"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents per house"
+msgstr "每户人口"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr "各家房屋的居民数量"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr "达到这个人口数的房屋"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Summary"
+msgstr "概要"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "房子"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents"
+msgstr "居民"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "开拓者概述"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Tent"
+msgstr "帐篷"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Needed resources:"
+msgstr "所需资源："
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr "税额:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Paid taxes"
+msgstr "已缴税款"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Tax rate"
+msgstr "税率"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr "养蜜蜂的设施。产生蜂巢，用于制作糖果。需要一个农场。"
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "使用面粉。生产食物。"
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+#, fuzzy
+msgid "_ Recruits units suitable for ground combat."
+msgstr "招募适合地上战斗的单位。"
+
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "提供安全保障。"
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "将香料制作成调味品。"
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "建造船只和小型船只。在海岸上建造。"
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "消耗啤酒花。生产啤酒。"
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "将泥土制成砖块。"
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "需要猪或者牛。生产食物。"
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "生产火炮。"
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "饲养牛。需要一个农场。"
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+#, fuzzy
+msgid "_ Burns a lot of boards."
+msgstr "燃烧大量木板。"
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+msgid "None"
+msgstr "无"
+
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "从矿床获取泥土。"
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr "生产可可豆，用于制作糖果。需要一个农场。"
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "生产玉米。需要一个农场。"
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "用糖制作酒。"
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+#, fuzzy
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr "治疗疾病。消耗药草。"
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "种植农作物并饲养牲畜。"
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+#, fuzzy
+msgid "_ Extinguishes fires."
+msgstr "扑灭火灾。"
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "在海上捕鱼，生产食物。"
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "生产药草。需要一个农场。"
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "生产啤酒花。需要一个农场。"
+
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "捕猎森林野生动物，生产食物。"
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "扩大驻地的范围。"
+
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "砍树，产出木板。"
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+#, fuzzy
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr "为居民提供商品。提供社区。"
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "从矿床中获取铁矿石。"
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "生产各种糖果。"
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "饲养羊。生产羊毛。需要一个农场。"
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "满足船员的宗教需求。"
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "饲养猪。需要一个农场。"
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "生产食物。需要一个农场。"
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "容纳居民居住。"
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "通过蒸发制盐。建造在海岸上。"
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "允许玩家和其他自由贸易者交易。"
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "精炼各种矿石。"
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "生产香料。需要一个农场。"
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "将石头切割成砖块。"
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "从山上获取石头。"
+
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr "扩展库存，扩大驻地范围并提供收集者。"
+
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "用于生产酒。需要一个农场。"
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "提供聚会场所。"
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "用烟草生产香烟。"
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "生产烟草。需要一个农场。"
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "用铁制造工具。"
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "用于收集商品。"
+
+#: Assets/World/Buildings2/tree/tree.tscn
+#, fuzzy
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr "提供木材。伐木工负责砍树。"
+
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "提供教育。"
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr "生产葡萄，用于制造葡萄酒和糖果。需要一个农场。"
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "用铁生产武器。"
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "用羊毛制作服装。"
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "把玉米磨成面粉。"
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "用葡萄制作红酒。"
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "为你的驻地提供防御。"
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "未知地平线已崩溃。"
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "感谢您玩Unknown Horizons！"
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr "很抱歉程序发生了错误，我们需要查出并修复错误。"
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr "为了修复错误，我们需要日志文件（logfile）中的信息："
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "请把日志文件的内容通过IRC或者论坛发送给我们，你可以通过http://unknown-"
+#~ "horizons.org获得IRC和论坛的地址。"
+
+#~ msgid "Return to editor"
+#~ msgstr "返回编辑器"
+
+#~ msgid "Save map"
+#~ msgstr "保存地图"
+
+#~ msgid "Load map"
+#~ msgstr "载入地图"
+
+#~ msgid "Settings"
+#~ msgstr "设定"
+
+#~ msgid "Exit editor"
+#~ msgstr "退出编辑器"
+
+#~ msgid "Select brush size:"
+#~ msgstr "选择画笔大小:"
+
+#~ msgid "Select terrain:"
+#~ msgstr "选择地形:"
+
+#~ msgid "(right click to stop)"
+#~ msgstr "(点击右键停止)"
+
+#~ msgid "Game start"
+#~ msgstr "游戏开始"
+
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr "你需要找到一个殖民点，过后你才可以建造房子！"
+
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr "选择你的船只，并通过右键接近海岸。"
+
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr "然后,按下船只总览标签中的大按钮。"
+
+#~ msgid "Build"
+#~ msgstr "建造"
+
+#~ msgid "Running costs:"
+#~ msgstr "运行开销:"
+
+#~ msgid "Related buildings"
+#~ msgstr "相关建筑"
+
+#~ msgid "Inhabitants"
+#~ msgstr "居民"
+
+#, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr "增加游戏速度({key})"
+
+#, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr "降低游戏速度({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map counterclockwise ({key})"
+#~ msgstr "逆时针旋转地图({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map clockwise ({key})"
+#~ msgstr "顺时针旋转地图({key})"
+
+#~ msgid "Zoom in"
+#~ msgstr "放大"
+
+#~ msgid "Zoom out"
+#~ msgstr "缩小"
+
+#, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "破坏({key})"
+
+#, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "船长的日志({key})"
+
+#, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "建筑菜单({key})"
+
+#~ msgid "Diplomacy"
+#~ msgstr "外交"
+
+#, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "游戏菜单({key})"
+
+#~ msgid "Change name"
+#~ msgstr "更改名称"
+
+#~ msgid "Old name:"
+#~ msgstr "旧名称:"
+
+#~ msgid "Enter new name:"
+#~ msgstr "输入新名称:"
+
+#~ msgid "Apply the new name"
+#~ msgstr "应用新名称"
+
+#~ msgid "Chat"
+#~ msgstr "聊天"
+
+#~ msgid "Enter your message:"
+#~ msgstr "输入你的信息:"
+
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr "要建造陆地设施，点击一个级别标签，选择想建造的设施并确认。"
+
+#~ msgid "Currently building:"
+#~ msgstr "当前建造:"
+
+#~ msgid "Pause"
+#~ msgstr "暂停"
+
+#~ msgid "Resume"
+#~ msgstr "放回"
+
+#~ msgid "Construction progress:"
+#~ msgstr "建筑进展:"
+
+#~ msgid "Resources still needed:"
+#~ msgstr "需要的资源:"
+
+#~ msgid "Cancel building:"
+#~ msgstr "取消建造:"
+
+#~ msgid "(lose all resources)"
+#~ msgstr "(失去所有资源)"
+
+#~ msgid "Cancel all building progress"
+#~ msgstr "取消所有建筑进展"
+
+#~ msgid "Confirm order"
+#~ msgstr "确认指令"
+
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "（像在选择标签里一样）"
+
+#~ msgid "$res"
+#~ msgstr "$res"
+
+#~ msgid "24t"
+#~ msgstr "24t"
+
+#~ msgid "06t"
+#~ msgstr "06t"
+
+#~ msgid "2500"
+#~ msgstr "2500"
+
+#~ msgid "Sloop-o'-war"
+#~ msgstr "皇家海军战船"
+
+#~ msgid "Three-masted most common classified war ship with one gun deck."
+#~ msgstr "最常见的装有一个炮台的三桅战船。"
+
+#~ msgid "Buy Upgrades"
+#~ msgstr "购买升级"
+
+#~ msgid "Cannons"
+#~ msgstr "大炮"
+
+#~ msgid "Hull"
+#~ msgstr "船壳"
+
+#~ msgid "+ 24t"
+#~ msgstr "+ 24t"
+
+#~ msgid "+ 14t"
+#~ msgstr "+ 14t"
+
+#~ msgid "+ 06t"
+#~ msgstr "+ 06t"
+
+#~ msgid "+ 1457"
+#~ msgstr "+ 1457"
+
+#~ msgid "Build groundunit:"
+#~ msgstr "建造陆地单位:"
+
+#~ msgid "Build this groundunit!"
+#~ msgstr "建造这个陆地单位！"
+
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "要造一艘船，先点击其中一个级别标签，再选择想要的船型，最后确定造船命令。"
+
+#~ msgid "Build ship:"
+#~ msgstr "建造船只:"
+
+#~ msgid "Build this ship!"
+#~ msgstr "建造这艘船只！"
+
+#~ msgid "ally"
+#~ msgstr "盟友"
+
+#~ msgid "neutral"
+#~ msgstr "中立"
+
+#~ msgid "enemy"
+#~ msgstr "敌人"
+
+#~ msgid "Building overview"
+#~ msgstr "建筑概述"
+
+#~ msgid "Capacity utilization"
+#~ msgstr "容量采用"
+
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "点击更改这个陆地单位的名字"
+
+#~ msgid "Settlement inventory"
+#~ msgstr "驻地库存"
+
+#~ msgid "sad"
+#~ msgstr "伤心"
+
+#~ msgid "satisfied"
+#~ msgstr "满意"
+
+#~ msgid "happy"
+#~ msgstr "开心"
+
+#~ msgid "Amount of houses with this happiness"
+#~ msgstr "达到此幸福指数的房屋数量"
+
+#~ msgid "houses"
+#~ msgstr "房屋"
+
+#~ msgid "residents"
+#~ msgstr "居民"
+
+#~ msgid "Provides security for your settlement."
+#~ msgstr "维护你驻地的治安。"
+
+#~ msgid "Selling"
+#~ msgstr "出售"
+
+#~ msgid "Name:"
+#~ msgstr "名称:"
+
+#~ msgid "Weapons:"
+#~ msgstr "武器:"
+
+#~ msgid "Resource deposit"
+#~ msgstr "资源储藏"
+
+#~ msgid ""
+#~ "This is a resource deposit where you can build a mine to dig up resources."
+#~ msgstr "这里是资源储藏地，你可以在这里建矿场来挖掘资源。"
+
+#~ msgid "It contains these resources:"
+#~ msgstr "这里有如下资源："
+
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "点击更改你的驻地名"
+
+#~ msgid "Happiness"
+#~ msgstr "幸福"
+
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr "信号火堆会吸引自由贸易船来到你的驻地进行买卖。"
+
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr "这是自由贸易船。它会时常到访来买卖货物。"
+
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "点击更改船名"
+
+#~ msgid "Build settlement"
+#~ msgstr "建设驻地"
+
+#~ msgid "Configure trading route"
+#~ msgstr "设置通商路线"
+
+#~ msgid "Discard all resources"
+#~ msgstr "丢弃所有资源"
+
+#~ msgid "Ship:"
+#~ msgstr "舰船："
+
+#~ msgid "Exchange:"
+#~ msgstr "交换："
+
+#~ msgid "Trade partner:"
+#~ msgstr "交易伙伴："
+
+#~ msgid "Buy or sell resources"
+#~ msgstr "买卖资源"
+
+#~ msgid "Select resources:"
+#~ msgstr "选择资源："
+
+#~ msgid "Collector utilization"
+#~ msgstr "采集者效率"
+
+#~ msgid "Balance:"
+#~ msgstr "总计："
+
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "显示这个驻地产生的资源"
+
+#~ msgid "Pause production"
+#~ msgstr "暂停生产"
+
+#~ msgid "Start production"
+#~ msgstr "开始生产"
+
+#~ msgid "Select resource:"
+#~ msgstr "选择资源："
+
+#~ msgid ""
+#~ "The resource you select is displayed instead of the current one. Empty by "
+#~ "clicking on X."
+#~ msgstr "已暂时显示你选择的资源。清空请点X。"
+
+#~ msgid "Save current resource configuration as default for all settlements."
+#~ msgstr "保存当前资源配置为所有驻地默认配置。"
+
+#~ msgid "Reset default resource configuration for all settlements."
+#~ msgstr "重置所有的定居点默认资源配置。"
+
+#~ msgid "Move up"
+#~ msgstr "向上移动"
+
+#~ msgid "Delete entry"
+#~ msgstr "删除航线"
+
+#~ msgid "Move down"
+#~ msgstr "向下移动"
+
+#~ msgid "Read previous entries"
+#~ msgstr "阅读上一条目"
+
+#~ msgid "Read next entries"
+#~ msgstr "阅读下一条目"
+
+#~ msgid "Game messages"
+#~ msgstr "游戏消息"
+
+#~ msgid "Whole world"
+#~ msgstr "全部消息"
+
+#~ msgid "Everybody"
+#~ msgstr "所有人"
+
+#~ msgid "Sends the chat messages to all players."
+#~ msgstr "给所有玩家发送消息。"
+
+#~ msgid "Enter your message here"
+#~ msgstr "输入你的消息"
+
+#~ msgid "Return to game"
+#~ msgstr "返回游戏"
+
+#~ msgid "Island Name:"
+#~ msgstr "岛名:"
+
+#~ msgid "Player Name:"
+#~ msgstr "玩家姓名："
+
+#~ msgid "Wait at load:"
+#~ msgstr "是否等待所有货物装船："
+
+#~ msgid "Wait at unload:"
+#~ msgstr "是否等待所有货物卸船："
+
+#~ msgid "Select a resource:"
+#~ msgstr "选择一种资源："
+
+#~ msgid "Route activity:"
+#~ msgstr "航线事件："
+
+#~ msgid "Start route"
+#~ msgstr "开始航线"
+
+#~ msgid "Exit"
+#~ msgstr "离开"
+
+#~ msgid "Go to previous page"
+#~ msgstr "上一页"
+
+#~ msgid "Go to next page"
+#~ msgstr "下一页"
+
+#~ msgid "Close"
+#~ msgstr "关闭"
+
+#~ msgid "Player Name"
+#~ msgstr "玩家名称"
+
+#~ msgid "Player's current treasury + income expected in near future"
+#~ msgstr "玩家当前财富 + 近期期望收益"
+
+#~ msgid ""
+#~ "Value of usable land i.e Amount of Land that can be used to create "
+#~ "buildings"
+#~ msgstr "可用土地数，即可用于建造建筑物的土地数量"
+
+#~ msgid ""
+#~ "Value of resources generated from all the possible sources in the "
+#~ "player's settlement(s)"
+#~ msgstr "玩家驻地中所有可用来源产生的资源总值"
+
+#~ msgid "Value of all the buildings in the player's settlement(s)"
+#~ msgstr "玩家驻地内所有建筑的价值"
+
+#~ msgid ""
+#~ "Value denoting the progress of the settlement(s) in terms of inhabitants, "
+#~ "buildings and overall happiness"
+#~ msgstr "以居民、建筑物和整体幸福度为衡量标准的驻地发展进度值"
+
+#~ msgid "Value of all the units owned by the player"
+#~ msgstr "玩家所有单位的价值"
+
+#~ msgid ""
+#~ "The total value from all individual entities or in short : Total Player "
+#~ "Score"
+#~ msgstr "所有个体实体的总价值，简称为：玩家总分数"
+
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#~ msgid "Weapons"
+#~ msgstr "武器"
+
+#~ msgid "Health"
+#~ msgstr "健康"
+
+#~ msgid "Status"
+#~ msgstr "状态"
+
+#~ msgid "Aggressive"
+#~ msgstr "好斗的"
+
+#~ msgid "Hold ground"
+#~ msgstr "善守的"
+
+#~ msgid "Passive"
+#~ msgstr "被动的"
+
+#~ msgid "Flee"
+#~ msgstr "逃避的"
+
+#~ msgid "Exit to main menu"
+#~ msgstr "退出到主菜单"
+
+#~ msgid "Choose a map size:"
+#~ msgstr "选择地图大小:"
+
+#~ msgid "Choose a map:"
+#~ msgstr "选择地图:"
+
+#~ msgid "Choose a saved game's map:"
+#~ msgstr "选择一个保存的游戏地图："
+
+#~ msgid "Select map source"
+#~ msgstr "选择地图源"
+
+#~ msgid "Create new map"
+#~ msgstr "创建新地图"
+
+#~ msgid "Load existing map"
+#~ msgstr "加载已存在的地图"
+
+#~ msgid "Load saved game's map"
+#~ msgstr "加载已保存的游戏地图"
+
+#~ msgid "Start editor"
+#~ msgstr "开始编辑"
+
+#~ msgid "Return"
+#~ msgstr "返回"
+
+#~ msgid "Scroll left"
+#~ msgstr "向左滚动"
+
+#~ msgid "Scroll right"
+#~ msgstr "向右滚动"
+
+#~ msgid "Scroll up"
+#~ msgstr "向上滚动"
+
+#~ msgid "Scroll down"
+#~ msgstr "向下滚动"
+
+#~ msgid "Rotate building or map clockwise"
+#~ msgstr "顺时针旋转建筑或地图"
+
+#~ msgid "Rotate building or map counterclockwise"
+#~ msgstr "逆时针旋转建筑或地图"
+
+#~ msgid "Increase game speed"
+#~ msgstr "提高游戏速度"
+
+#~ msgid "Decrease game speed"
+#~ msgstr "降低游戏速度"
+
+#~ msgid "Pause game"
+#~ msgstr "暂停游戏"
+
+#~ msgid "Show build menu"
+#~ msgstr "显示建造界面"
+
+#~ msgid "Enable destruct mode"
+#~ msgstr "开启销毁模式"
+
+#~ msgid "Enable road building mode"
+#~ msgstr "开启道路建造模式"
+
+#~ msgid "Enable pipette mode (clone buildings)"
+#~ msgstr "开启吸管模式（克隆建筑）"
+
+#~ msgid "Show player scores"
+#~ msgstr "显示玩家得分"
+
+#~ msgid "Show settlement list"
+#~ msgstr "显示定居点列表"
+
+#~ msgid "Show ship list"
+#~ msgstr "显示船只列表"
+
+#~ msgid "Toggle Captain's log"
+#~ msgstr "切换船长日志"
+
+#~ msgid "Quicksave"
+#~ msgstr "快速保存"
+
+#~ msgid "Quickload"
+#~ msgstr "快速读取"
+
+#~ msgid "Toggle translucency of ambient buildings"
+#~ msgstr "切换环境建筑透明显示"
+
+#~ msgid "Highlight tile ownership"
+#~ msgstr "高亮地块所有权"
+
+#~ msgid "Toggle health bars"
+#~ msgstr "切换显示血条"
+
+#~ msgid "Focus camera on selection"
+#~ msgstr "聚焦相机至选中"
+
+#~ msgid "Remove selected units / buildings"
+#~ msgstr "移除选中单位/建筑"
+
+#~ msgid "Display help"
+#~ msgstr "显示帮助"
+
+#~ msgid "Screenshot"
+#~ msgstr "截屏"
+
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "切换显示帧率(FPS)"
+
+#~ msgid "Toggle grid on/off"
+#~ msgstr "切换显示网格"
+
+#~ msgid "Show coordinate values (Debug)"
+#~ msgstr "显示坐标值(Debug)"
+
+#~ msgid "Primary"
+#~ msgstr "主要按键"
+
+#~ msgid "Secondary"
+#~ msgstr "次要按键"
+
+#~ msgid "Reset to default"
+#~ msgstr "重设至默认值"
+
+#~ msgid "Reset to default keys"
+#~ msgstr "重设默认按键"
+
+#~ msgid "Save game"
+#~ msgstr "保存游戏"
+
+#~ msgid "Cancel game"
+#~ msgstr "取消游戏"
+
+#~ msgid "Loading…"
+#~ msgstr "载入中…"
+
+#~ msgid "Change Background"
+#~ msgstr "改变背景"
+
+#~ msgid "Multiplayer"
+#~ msgstr "多人游戏"
+
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "创建游戏 - 多人"
+
+#~ msgid "Player limit:"
+#~ msgstr "玩家限制:"
+
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "退出至多人游戏菜单"
+
+#~ msgid "Name of the game:"
+#~ msgstr "当局游戏的名称："
+
+#~ msgid "This will be displayed to other players so they recognize the game."
+#~ msgstr "为方便其他玩家识别，名称会对外显示。"
+
+#~ msgid "Unnamed Game"
+#~ msgstr "未命名的游戏"
+
+#~ msgid "Password of the game:"
+#~ msgstr "当局游戏的密码："
+
+#~ msgid "This game's password. Required to join this game."
+#~ msgstr "加入游戏时，需要输入密码。"
+
+#~ msgid "Create this new game"
+#~ msgstr "创建这个新游戏"
+
+#~ msgid "Gamelobby"
+#~ msgstr "游戏大厅"
+
+#~ msgid "Chat:"
+#~ msgstr "聊天："
+
+#~ msgid "Exit gamelobby"
+#~ msgstr "离开游戏大厅"
+
+#~ msgid "The game will start as soon as all players are ready."
+#~ msgstr "游戏将会在所有玩家准备完毕后开始。"
+
+#~ msgid "Game details:"
+#~ msgstr "游戏详情："
+
+#~ msgid "Color"
+#~ msgstr "颜色"
+
+#~ msgid "Ready:"
+#~ msgstr "就绪："
+
+#~ msgid "Sets your state to ready (necessary for the game to start)"
+#~ msgstr "将您的状态设置为准备就绪（游戏开始所必需）"
+
+#~ msgid "New game - Multiplayer"
+#~ msgstr "新游戏—多人游戏"
+
+#~ msgid "Load game:"
+#~ msgstr "载入游戏："
+
+#~ msgid "Load a saved game"
+#~ msgstr "加载已保存的游戏"
+
+#~ msgid "Active games:"
+#~ msgstr "激活游戏："
+
+#~ msgid "Refresh list:"
+#~ msgstr "刷新列表："
+
+#~ msgid "Refresh list of active games"
+#~ msgstr "刷新活跃游戏列表"
+
+#~ msgid "Create game:"
+#~ msgstr "创建游戏："
+
+#~ msgid "Create a new game"
+#~ msgstr "创建新游戏"
+
+#~ msgid "Join game:"
+#~ msgstr "参加游戏："
+
+#~ msgid "Join the selected game"
+#~ msgstr "加入已选取的游戏"
+
+#~ msgid "Change player details"
+#~ msgstr "修改玩家详细信息"
+
+#~ msgid "Screen resolution:"
+#~ msgstr "屏幕分辨率："
+
+#~ msgid "Full screen:"
+#~ msgstr "全屏："
+
+#~ msgid "Frame rate limit:"
+#~ msgstr "最大帧率："
+
+#~ msgid "Set the maximum frame rate used. Default: 60 fps."
+#~ msgstr "设置最大帧率。默认：60帧。"
+
+#~ msgid "Music volume:"
+#~ msgstr "音量："
+
+#~ msgid "Effects volume:"
+#~ msgstr "特效音量："
+
+#~ msgid "Enable sound:"
+#~ msgstr "启用声音："
+
+#~ msgid "Scroll at map edge:"
+#~ msgstr "在地图边缘滚动："
+
+#~ msgid ""
+#~ "Whether to move the viewport when the mouse pointer is close to map edges"
+#~ msgstr "当鼠标靠近地图边缘时是否移动视区"
+
+#~ msgid "Cursor centered zoom:"
+#~ msgstr "以光标为中心放大："
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center. When disabled, always zoom to current viewport center."
+#~ msgstr ""
+#~ "启用后滚动鼠标滚轮将以光标位置为中心缩放。禁用后将以当前视区中心为中心缩"
+#~ "放。"
+
+#~ msgid "Middle mouse button pan:"
+#~ msgstr "鼠标中键拖动："
+
+#~ msgid "When enabled, dragging the middle mouse button will pan the camera"
+#~ msgstr "启用后拖动鼠标中键将平移摄像机"
+
+#~ msgid "0 is default system settings"
+#~ msgstr "0 是默认系统设置"
+
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "鼠标灵敏度："
+
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "自动保存间隔（以分钟为单位）："
+
+#~ msgid "Number of autosaves:"
+#~ msgstr "自动保存数量："
+
+#~ msgid "Number of quicksaves:"
+#~ msgstr "快速保存数量："
+
+#~ msgid "Language"
+#~ msgstr "语言"
+
+#~ msgid "Rotate minimap with map:"
+#~ msgstr "随地图旋转小地图："
+
+#~ msgid ""
+#~ "Whether to also rotate the minimap whenever the regular map is rotated"
+#~ msgstr "旋转地图时是否也旋转小地图"
+
+#~ msgid "Uninterrupted building:"
+#~ msgstr "不间断建造："
+
+#~ msgid ""
+#~ "When enabled, do not exit the build mode after successful construction"
+#~ msgstr "启用后，成功建造后不退出建造模式"
+
+#~ msgid "Auto-unload ship:"
+#~ msgstr "自动从船上卸货："
+
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr "建造驻地后是否自动从船上卸货"
+
+#~ msgid ""
+#~ "Don't use in normal game session. Decides whether to write debug "
+#~ "information in the logging directory of your user directory. Slows the "
+#~ "game down."
+#~ msgstr ""
+#~ "请勿在正常游戏中使用。决定是否在用户目录的日志目录中编写调试信息。这会降低"
+#~ "游戏速度。"
+
+#~ msgid "Enable logging:"
+#~ msgstr "启用日志："
+
+#~ msgid "Production indicators:"
+#~ msgstr "生产指标："
+
+#~ msgid ""
+#~ "Whether to show resource icons over buildings whenever they finish "
+#~ "production"
+#~ msgstr "是否在完成生产后在建筑上显示资源图标"
+
+#~ msgid "Higher values slow down scrolling."
+#~ msgstr "更高的数值会使滚动变慢。"
+
+#~ msgid "Scroll delay:"
+#~ msgstr "滚动延迟："
+
+#~ msgid "Choose a quote type:"
+#~ msgstr "选择引述类型："
+
+#~ msgid "What kind of quote to display while loading a game"
+#~ msgstr "加载游戏时显示哪一种类型的引述"
+
+#~ msgid "Network"
+#~ msgstr "网络"
+
+#~ msgid "If set to 0, use the router default"
+#~ msgstr "如果设置为0，则使用路由器的默认设置"
+
+#~ msgid "Network port:"
+#~ msgstr "网络端口："
+
+#~ msgid "Discard current changes"
+#~ msgstr "放弃当前的修改"
+
+#~ msgid "Reset to default settings"
+#~ msgstr "重置为默认设置"
+
+#~ msgid "Save changes"
+#~ msgstr "保存更改"
+
+#~ msgid "Your saved games:"
+#~ msgstr "你的已保存游戏："
+
+#~ msgid "Password of the game. Required to join this game"
+#~ msgstr "游戏密码。用于加入此游戏"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Enter filename:"
+#~ msgstr "输入文件名称："
+
+#~ msgid "Details:"
+#~ msgstr "详细信息："
+
+#~ msgid "Delete selected savegame"
+#~ msgstr "删除已选取保存游戏"
+
+#~ msgid "Start game"
+#~ msgstr "开始游戏"
+
+#~ msgid "Map settings:"
+#~ msgstr "地图设置:"
+
+#~ msgid "Seed:"
+#~ msgstr "种子："
+
+#~ msgid "Player name:"
+#~ msgstr "玩家姓名："
+
+#~ msgid "Invalid filename"
+#~ msgstr "无效文件名"
+
+#~ msgid "Received an invalid filename for a save command."
+#~ msgstr "保存指令的文件名无效。"
+
+#~ msgid "Error"
+#~ msgstr "错误"
+
+#~ msgid "Failed to save."
+#~ msgstr "保存失败。"
+
+#~ msgid "The trade partner does not sell this."
+#~ msgstr "贸易伙伴不卖这个。"
+
+#~ msgid "You can not store this."
+#~ msgstr "你不能存储这个。"
+
+#~ msgid "You can not afford to buy this."
+#~ msgstr "你买不起这个。"
+
+#~ msgid "The trade partner does not sell more of this."
+#~ msgstr "贸易伙伴不再出售更多此物品。"
+
+#~ msgid "The trade partner does not buy this."
+#~ msgstr "贸易伙伴不买这个。"
+
+#~ msgid "You do not possess this."
+#~ msgstr "你没有这个。"
+
+#~ msgid "The trade partner can not store more of this."
+#~ msgstr "贸易伙伴无法存储更多此物品。"
+
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "贸易伙伴买不起这个。"
+
+#~ msgid "The trade partner does not buy more of this."
+#~ msgstr "贸易伙伴不会买更多此物品。"
+
+#~ msgid "Failed to quicksave."
+#~ msgstr "快速保存失败。"
+
+#~ msgid "An error happened during quicksave."
+#~ msgstr "快速保存时发生错误。"
+
+#~ msgid "Your map has not been saved."
+#~ msgstr "你的地图还没有被保存。"
+
+#, python-brace-format
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: "
+#~ "{website}"
+#~ msgstr "如果此错误再次发生，请联系开发团队：{website}"
+
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "确定要退出Unknown Horizons吗？"
+
+#~ msgid "Quit Game"
+#~ msgstr "退出游戏"
+
+#~ msgid "No diplomacy possible"
+#~ msgstr "没有外交的可能"
+
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr "因为没有其他玩家，所以无法外交。"
+
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "是否确定要删除这些？"
+
+#~ msgid "Delete"
+#~ msgstr "删除"
+
+#, python-brace-format
+#~ msgid "{size}x{size} tiles"
+#~ msgstr "{size}x{size} 格"
+
+#~ msgid "Press key…"
+#~ msgstr "按键…"
+
+#, python-brace-format
+#~ msgid "{key} is already set to {action}."
+#~ msgstr "{key} 已被设定为 {action}."
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "要覆盖它吗？"
+
+#~ msgid "Confirmation for overwriting"
+#~ msgstr "确认覆盖"
+
+#~ msgid "Quotes"
+#~ msgstr "引述"
+
+#~ msgid "Gameplay Tips"
+#~ msgstr "游戏玩法提示"
+
+#~ msgid "Press 'ESC' to access Game Menu."
+#~ msgstr "按 'ESC' 键进入游戏菜单。"
+
+#~ msgid "Use 'SHIFT' to place multiple buildings."
+#~ msgstr "按 'SHIFT' 放置多个建筑。"
+
+#, python-brace-format
+#~ msgid "Currently only the first {tier} tiers are playable."
+#~ msgstr "目前只有前 {tier} 级可以游玩。"
+
+#~ msgid "You can pause the game with 'P'."
+#~ msgstr "你可以用 'P' 键暂停游戏。"
+
+#~ msgid "You can drag roads by holding the left mouse button."
+#~ msgstr "按住鼠标左键就可以拖动道路。"
+
+#~ msgid "You can build multiple buildings by holding the 'SHIFT' key."
+#~ msgstr "你可以通过长按 'SHIFT' 键建造多个建筑。"
+
+#~ msgid ""
+#~ "You can increase the happiness of your inhabitants by lowering the taxes."
+#~ msgstr "你可以通过降低税来增加居民的幸福度。"
+
+#~ msgid ""
+#~ "Build fire stations and doctors to protect your inhabitants from fire and "
+#~ "disease."
+#~ msgstr "建造消防站和医生来保护你的居民免于火灾和疾病。"
+
+#~ msgid "Build storage tents to increase your storage capacity."
+#~ msgstr "建造储物帐篷以增加你的存储容量。"
+
+#~ msgid "Make sure every house is in range of a marketplace."
+#~ msgstr "确保每间房子都在市场的范围内。"
+
+#~ msgid "Press 'T' to make trees transparent."
+#~ msgstr "按 'T' 键使树木变透明。"
+
+#~ msgid "Build storage tents and lookouts to expand your settlement range."
+#~ msgstr "建造储物帐篷和瞭望塔以扩展你的驻地范围。"
+
+#~ msgid ""
+#~ "To easily see whether the pavilion's range cover all your tents, select "
+#~ "it from the build menu and hover it over your existing pavilion. "
+#~ "Uncovered tents are shown in yellow. It's a good idea to build a new "
+#~ "pavilion in their neighborhood."
+#~ msgstr ""
+#~ "为了方便查看亭楼的范围是否覆盖了所有的帐篷，从建筑菜单中选择亭楼，并将其悬"
+#~ "停在现有的亭楼上方。未被覆盖的帐篷将显示为黄色。在它们附近建造一个新的亭楼"
+#~ "是个不错的主意。"
+
+#~ msgid ""
+#~ "Make singleplayer more fun with additional computer players by increasing "
+#~ "'AI players' when starting a new game."
+#~ msgstr "在创建新游戏时，可以通过增加AI玩家数量来让单人模式更有趣。"
+
+#~ msgid ""
+#~ "First steps are easier by looking at how AI players are setting up their "
+#~ "settlement."
+#~ msgstr ""
+#~ "你可以通过观察AI玩家如何建立他们的驻地从而更轻松地迈出你的游戏第一步。"
+
+#~ msgid ""
+#~ "Want funny quotes only? Change the quote types shown here in the settings "
+#~ "menu on the game page."
+#~ msgstr "只想要搞笑的引述吗？可以在设定菜单里更改显示的引述类型。"
+
+#~ msgid "A marketplace links your buildings like a road."
+#~ msgstr "市场能像路径一样连接建筑。"
+
+#~ msgid "Mixed"
+#~ msgstr "混合"
+
+#~ msgid "Starting engine…"
+#~ msgstr "引擎启动中…"
+
+#~ msgid "Catching fish…"
+#~ msgstr "捕鱼中…"
+
+#~ msgid "Drawing user interface…"
+#~ msgstr "正在绘制用户界面…"
+
+#~ msgid "Activating timer…"
+#~ msgstr "计时器启动中…"
+
+#~ msgid "Chomping game data…"
+#~ msgstr "正在加载游戏数据…"
+
+#~ msgid "Shaping islands…"
+#~ msgstr "正在塑形岛屿…"
+
+#~ msgid "Preparing blueprints…"
+#~ msgstr "正在准备蓝图…"
+
+#~ msgid "Filling world with water…"
+#~ msgstr "正在为世界中加入水…"
+
+#~ msgid "Raising animals…"
+#~ msgstr "饲养动物中…"
+
+#~ msgid "Convincing AI…"
+#~ msgstr "说服AI中…"
+
+#~ msgid "Burying treasures…"
+#~ msgstr "正在埋藏宝藏…"
+
+#~ msgid "Unable to find pyenet"
+#~ msgstr "未能找到pyenet"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which could not "
+#~ "be found on your system."
+#~ msgstr "多人模式需要库\"pyenet\"，你的系统中没有这个库。"
+
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr "Linux 用户： 尝试通过你的package manager来安装pyenet。"
+
+#~ msgid "Failed to initialize networking."
+#~ msgstr "初始化网络失败。"
+
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr "当前配置无法启动网络功能。"
+
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "检查你的网络设置。"
+
+#~ msgid "Fatal Network Error"
+#~ msgstr "致命的网络错误"
+
+#~ msgid "Could not connect to master server."
+#~ msgstr "无法连接到主服务器。"
+
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "请检查你的网络连接。如果连接正常的话，说明我们的主服务器暂时停服了。"
+
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "网络出现了问题："
+
+#~ msgid "Version differs!"
+#~ msgstr "版本不一致！"
+
+#, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "地图：{map_name}"
+
+#, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "姓名：{game_name}"
+
+#, python-brace-format
+#~ msgid "Creator: {game_creator}"
+#~ msgstr "创建者：{game_creator}"
+
+#, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "玩家：{player_amount}／{player_limit}"
+
+#~ msgid "Wrong version"
+#~ msgstr "版本错误"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "该游戏版本与你的游戏版本不一致。多人游戏模式中的每位玩家必须使用同一版本的"
+#~ "游戏。可以通过让每位玩家更新到游戏的最新版本来解决此问题。该游戏版本："
+#~ "{game_version} 你的游戏版本： {own_version}"
+
+#~ msgid "Password of the game"
+#~ msgstr "游戏的密码"
+
+#~ msgid "Enter password:"
+#~ msgstr "输入密码："
+
+#~ msgid "Ready"
+#~ msgstr "就绪"
+
+#~ msgid "Not ready"
+#~ msgstr "未就绪"
+
+#~ msgid "Enter your message"
+#~ msgstr "输入你的消息"
+
+#~ msgid "Click here to change your name and/or color"
+#~ msgstr "点击此处修改你的姓名和颜色"
+
+#, python-brace-format
+#~ msgid "Kick {player}"
+#~ msgstr "踢出 {player}"
+
+#, python-brace-format
+#~ msgid "{player} has joined the game"
+#~ msgstr "{player} 加入了游戏"
+
+#, python-brace-format
+#~ msgid "{player} has left the game"
+#~ msgstr "{player}离开游戏"
+
+#~ msgid "You are now ready"
+#~ msgstr "你现在准备好了"
+
+#~ msgid "You are not ready anymore"
+#~ msgstr "你不再是就绪状态"
+
+#, python-brace-format
+#~ msgid "{player} is now ready"
+#~ msgstr "{player}现在准备好了"
+
+#, python-brace-format
+#~ msgid "{player} not ready anymore"
+#~ msgstr "{player} 不再处于就绪状态"
+
+#, python-brace-format
+#~ msgid "You are now known as {new_name}"
+#~ msgstr "你的名字是 {new_name}"
+
+#, python-brace-format
+#~ msgid "{player} is now known as {new_name}"
+#~ msgstr "{player} 现在的名字是 {new_name}"
+
+#~ msgid "You changed your color"
+#~ msgstr "你修改了你的颜色"
+
+#, python-brace-format
+#~ msgid "{player} changed their color"
+#~ msgstr "{player} 修改了颜色"
+
+#~ msgid "Kicked"
+#~ msgstr "已被踢出"
+
+#~ msgid "You have been kicked from the game by creator"
+#~ msgstr "你已被创建者踢出游戏"
+
+#, python-brace-format
+#~ msgid "{player} got kicked by creator"
+#~ msgstr "{player} 被创建者踢出了"
+
+#~ msgid "Are you sure you want to abort the running session?"
+#~ msgstr "确定要中止当前正在运行的游戏吗？"
+
+#~ msgid "Quit Session"
+#~ msgstr "结束游戏"
+
+#~ msgid "No saved games"
+#~ msgstr "没有保存的游戏"
+
+#~ msgid "There are no saved games to load."
+#~ msgstr "没有可以加载的游戏存档。"
+
+#~ msgid "No filename given"
+#~ msgstr "没有文件名称"
+
+#~ msgid "Please enter a valid filename."
+#~ msgstr "请输入有效的文件名。"
+
+#, python-brace-format
+#~ msgid "A savegame with the name {name} already exists."
+#~ msgstr "名为 {name} 的游戏存档已存在。"
+
+#, python-brace-format
+#~ msgid "A map with the name {name} already exists."
+#~ msgstr "名为 {name} 的地图已经存在。"
+
+#~ msgid "Overwrite it?"
+#~ msgstr "要覆盖吗？"
+
+#, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "在{time}已保存"
+
+#, python-brace-format
+#~ msgid "Saved {amount} time"
+#~ msgid_plural "Saved {amount} times"
+#~ msgstr[0] "已保存 {amount} 次"
+
+#, python-brace-format
+#~ msgid "Savegame version {version}"
+#~ msgstr "存档版本 {version}"
+
+#~ msgid "(probably incompatible)"
+#~ msgstr "（可能不兼容）"
+
+#~ msgid "Incompatible version"
+#~ msgstr "版本不兼容"
+
+#~ msgid "No file selected"
+#~ msgstr "没有选择的文件"
+
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr "你需要选择一个存档以删除。"
+
+#, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "确定要删除游戏存档 '{name}' 吗？"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "确认删除"
+
+#~ msgid "Error!"
+#~ msgstr "错误！"
+
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "存档删除失败！"
+
+#~ msgid "Game"
+#~ msgstr "游戏"
+
+#~ msgid "Disabled"
+#~ msgstr "已禁用"
+
+#~ msgid "Restart required"
+#~ msgstr "需要重新启动"
+
+#~ msgid ""
+#~ "Some of your changes require a restart of Unknown Horizons. Do you want "
+#~ "to restart Unknown Horizons now?"
+#~ msgstr ""
+#~ "部分更改需要重启 Unknown Horizons。你想要现在重启 Unknown Horizons 吗？"
+
+#~ msgid "Restore default settings"
+#~ msgstr "恢复默认设置"
+
+#~ msgid ""
+#~ "Restoring the default settings will delete all changes to the settings "
+#~ "you made so far."
+#~ msgstr "恢复默认设置将删除目前为止所有的修改。"
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "你希望继续吗？"
+
+#~ msgid "Invalid network port"
+#~ msgstr "无效网络端口"
+
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr "指定的端口无效。必须是1到65535之间的数字。"
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it is in the specified "
+#~ "range."
+#~ msgstr "请确认你输入的端口号在指定的范围内。"
+
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "网络设定保存失败。"
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special access privileges, try 0 or a "
+#~ "number greater than 1024."
+#~ msgstr "低端口号有时需要特殊的访问权限，请尝试使用0或者大于1024的端口号。"
+
+#~ msgid "Invalid player name"
+#~ msgstr "无效玩家姓名"
+
+#~ msgid "You entered an invalid playername."
+#~ msgstr "你输入了无效的玩家名称。"
+
+#~ msgid "Map size:"
+#~ msgstr "地图大小："
+
+#~ msgid "Water:"
+#~ msgstr "水："
+
+#~ msgid "Max island size:"
+#~ msgstr "最多的岛屿大小："
+
+#~ msgid "Preferred island size:"
+#~ msgstr "首选岛屿大小："
+
+#~ msgid "Island size deviation:"
+#~ msgstr "岛屿大小偏差："
+
+#~ msgid "Click to generate a different random map"
+#~ msgstr "点击生成一个不同的随机地图"
+
+#~ msgid "Invalid scenario file"
+#~ msgstr "无效的场景文件"
+
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "无效的场景文件。"
+
+#~ msgid "Error message:"
+#~ msgstr "错误消息："
+
+#~ msgid "Please report this to the author."
+#~ msgstr "请通知作者此事。"
+
+#, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "难度：{difficulty}"
+
+#, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "作者：{author}"
+
+#, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "描述：{desc}"
+
+#, python-brace-format
+#~ msgid "Build {building}"
+#~ msgstr "建造{building}"
+
+#~ msgid "Press H to remove this hint"
+#~ msgstr "按 H 键删除这个提示"
+
+#~ msgid "Destroy all buildings"
+#~ msgstr "摧毁所有建筑物"
+
+#~ msgid ""
+#~ "This will destroy all the buildings that fall outside of the settlement "
+#~ "range."
+#~ msgstr "这将摧毁所有驻地范围外的建筑。"
+
+#, python-format
+#~ msgid "%s additional building will be destroyed."
+#~ msgid_plural "%s additional buildings will be destroyed"
+#~ msgstr[0] "%s 额外的建筑物将被摧毁。"
+
+#~ msgid "Barracks overview"
+#~ msgstr "兵营概述"
+
+#~ msgid "Swordman"
+#~ msgstr "剑士"
+
+#~ msgid "Overview"
+#~ msgstr "概述"
+
+#, python-brace-format
+#~ msgid "{ship} (place in queue: {place})"
+#~ msgstr "{ship} （队列位置: {place}）"
+
+#~ msgid "Boat builder overview"
+#~ msgstr "造船厂概述"
+
+#~ msgid "Fisher boats"
+#~ msgstr "渔船"
+
+#~ msgid "Trade boats"
+#~ msgstr "贸易船"
+
+#~ msgid "War boats"
+#~ msgstr "战船"
+
+#~ msgid "War ships"
+#~ msgstr "战舰"
+
+#~ msgid "Tower overview"
+#~ msgstr "堡垒概述"
+
+#~ msgid "Build related buildings"
+#~ msgstr "建造相关建筑物"
+
+#~ msgid "Click on one of the resource slots to add a trade offer."
+#~ msgstr "点击一个资源槽来增加一个贸易项目。"
+
+#~ msgid ""
+#~ "Set to buy or sell by clicking on that label, then adjust the amount via "
+#~ "the slider to the right."
+#~ msgstr "通过点击该标签设置购买或销售，然后通过右侧滑块调整数量。"
+
+#, python-brace-format
+#~ msgid ""
+#~ "Will sell {resource_name} for {price} gold/t whenever more than {limit}t "
+#~ "are available."
+#~ msgstr ""
+#~ "每当库存大于{limit}吨时，将以{price}金币/吨的价格出售{resource_name}。"
+
+#~ msgid "Warehouse overview"
+#~ msgstr "仓库概述"
+
+#~ msgid "Main square overview"
+#~ msgstr "中央广场概述"
+
+#~ msgid "Upgrade not possible:"
+#~ msgstr "无法升级："
+
+#~ msgid "This is the highest playable tier for now!"
+#~ msgstr "这是目前可以游玩的最高等级！"
+
+#~ msgid "Don't allow upgrades"
+#~ msgstr "不允许升级"
+
+#~ msgid "Allow upgrades"
+#~ msgstr "允许升级"
+
+#~ msgid "Unit overview"
+#~ msgstr "单位概述"
+
+#, python-brace-format
+#~ msgid "Fill range with {how_many} trees"
+#~ msgstr "用{how_many}棵树填充范围"
+
+#~ msgid "Selected Units"
+#~ msgstr "选择的单位"
+
+#~ msgid "Ship overview"
+#~ msgstr "显示概述"
+
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr "船只需要靠近岛屿才能建立驻地。"
+
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "你已经在这个岛屿上有驻地了。"
+
+#~ msgid "Load/Unload"
+#~ msgstr "装货 / 卸货"
+
+#~ msgid "Too far from the nearest tradeable warehouse"
+#~ msgstr "距离最近的可交易仓库太远"
+
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "无法在贸易船上装备武器"
+
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "无法在贸易船上装备武器。"
+
+#~ msgid "Equip weapon"
+#~ msgstr "装备武器"
+
+#~ msgid "Unequip weapon"
+#~ msgstr "卸下武器"
+
+#, python-brace-format
+#~ msgid "{resource_name}: {price} gold"
+#~ msgstr "{resource_name}： {price} 金"
+
+#, python-brace-format
+#~ msgid "buy for {buyprice} gold"
+#~ msgstr "以 {buyprice} 金的价格购买"
+
+#, python-brace-format
+#~ msgid "sell for {sellprice} gold"
+#~ msgstr "以 {sellprice} 金的价格卖出"
+
+#, python-brace-format
+#~ msgid "{stored}/{limit}"
+#~ msgstr "{stored}／{limit}"
+
+#~ msgid "Logbook"
+#~ msgstr "日志"
+
+#~ msgid "Emptiness"
+#~ msgstr "空"
+
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "你的日志中还没有任何记录！"
+
+#, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "{player}的殖民"
+
+#, python-brace-format
+#~ msgid "Ships of {player}"
+#~ msgstr "{player}的船"
+
+#~ msgid "N/A"
+#~ msgstr "不可用"
+
+#, python-brace-format
+#~ msgid "Production overview of {settlement}"
+#~ msgstr "{settlement}的产品概述"
+
+#~ msgid "Click to show statistics"
+#~ msgstr "点击以显示统计数据"
+
+#~ msgid "Click to add a new slot"
+#~ msgstr "点击以增加一个新的空位"
+
+#~ msgid "Reset this configuration to the factory default."
+#~ msgstr "恢复初始设置。"
+
+#~ msgid ""
+#~ "Reset this settlement's displayed resources to the default configuration "
+#~ "you have saved."
+#~ msgstr "将此驻地显示的资源重置为你保存的默认配置。"
+
+#~ msgid ""
+#~ "Reset the default configuration (which you see here) to the factory "
+#~ "default for all settlements."
+#~ msgstr ""
+#~ "将默认配置（您在此处看到的配置）重置为初始配置，并应用在所有驻地上。"
+
+#~ msgid "Buy expenses"
+#~ msgstr "购买费用"
+
+#~ msgid "Sell income"
+#~ msgstr "销售收入"
+
+#~ msgid "Stop route"
+#~ msgstr "停止航线"
+
+#~ msgid "Need at least two settlements"
+#~ msgstr "需要至少两个驻地"
+
+#~ msgid "You need at least two different settlements in your route."
+#~ msgstr "你的航线需要至少两个不同的驻地。"
+
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "点击一个驻地以添加一个航点！"
+
+#~ msgid "Loading into ship"
+#~ msgstr "船只装货中"
+
+#~ msgid "Unloading from ship"
+#~ msgstr "船只卸货中"
+
+#~ msgid "You are not allowed to trade with this player"
+#~ msgstr "你不被允许和这名玩家进行交易"
+
+#, python-brace-format
+#~ msgid "{weapon}: {amount}"
+#~ msgstr "{weapon}：{amount}"
+
+#~ msgid "none"
+#~ msgstr "无"
+
+#, python-brace-format
+#~ msgid "Details: {error_details}"
+#~ msgstr "详细信息：{error_details}"
+
+#, python-brace-format
+#~ msgid "Error: {error_message}"
+#~ msgstr "错误：{error_message}"
+
+#~ msgid "Bakery"
+#~ msgstr "面包店"
+
+#~ msgid "Barracks"
+#~ msgstr "兵营"
+
+#~ msgid "Wooden barrier"
+#~ msgstr "木制障碍物"
+
+#~ msgid "Clay wall"
+#~ msgstr "土墙"
+
+#~ msgid "Blender"
+#~ msgstr "搅拌机"
+
+#~ msgid "Boat Builder"
+#~ msgstr "造船厂"
+
+#~ msgid "Brewery"
+#~ msgstr "酿酒厂"
+
+#~ msgid "Brickyard"
+#~ msgstr "砖厂"
+
+#~ msgid "Butchery"
+#~ msgstr "屠宰场"
+
+#~ msgid "Cannon Foundry"
+#~ msgstr "火炮铸造厂"
+
+#~ msgid "Charcoal Burning"
+#~ msgstr "烧炭"
+
+#~ msgid "Clay Deposit"
+#~ msgstr "泥土矿藏"
+
+#~ msgid "Clay Pit"
+#~ msgstr "黏土矿场"
+
+#~ msgid "Distillery"
+#~ msgstr "蒸馏厂"
+
+#~ msgid "Doctor"
+#~ msgstr "医生"
+
+#~ msgid "Farm"
+#~ msgstr "农场"
+
+#~ msgid "Alvearies"
+#~ msgstr "蜂窝"
+
+#~ msgid "Cattle Run"
+#~ msgstr "牛圈"
+
+#~ msgid "Cocoa Field"
+#~ msgstr "可可田"
+
+#~ msgid "Corn Field"
+#~ msgstr "玉米田"
+
+#~ msgid "Herbary"
+#~ msgstr "药草园"
+
+#~ msgid "Hop Field"
+#~ msgstr "啤酒花田"
+
+#~ msgid "Pasture"
+#~ msgstr "牧场"
+
+#~ msgid "Pigsty"
+#~ msgstr "猪舍"
+
+#~ msgid "Potato Field"
+#~ msgstr "土豆田"
+
+#~ msgid "Spice Field"
+#~ msgstr "香料田"
+
+#~ msgid "Sugar Field"
+#~ msgstr "糖厂"
+
+#~ msgid "Tobacco Field"
+#~ msgstr "烟草田"
+
+#~ msgid "Vineyard"
+#~ msgstr "葡萄园"
+
+#~ msgid "Fire Station"
+#~ msgstr "消防站"
+
+#~ msgid "Fish Deposit"
+#~ msgstr "鱼塘"
+
+#~ msgid "Fisherman's Tent"
+#~ msgstr "渔夫的帐篷"
+
+#~ msgid "Hunter's Tent"
+#~ msgstr "猎人的帐篷"
+
+#~ msgid "Lookout"
+#~ msgstr "瞭望塔"
+
+#~ msgid "Lumberjack Hut"
+#~ msgstr "伐木工小屋"
+
+#~ msgid "Main Square"
+#~ msgstr "中央广场"
+
+#~ msgid "Mine"
+#~ msgstr "矿山"
+
+#~ msgid "Mountain"
+#~ msgstr "山"
+
+#~ msgid "Pastry Shop"
+#~ msgstr "糕点店"
+
+#~ msgid "Pavilion"
+#~ msgstr "帐篷"
+
+#~ msgid "Ruined Tent"
+#~ msgstr "被摧毁的帐篷"
+
+#~ msgid "Salt Ponds"
+#~ msgstr "盐池"
+
+#~ msgid "Signal Fire"
+#~ msgstr "烽火"
+
+#~ msgid "Smeltery"
+#~ msgstr "冶炼厂"
+
+#~ msgid "Stone Deposit"
+#~ msgstr "石矿储量"
+
+#~ msgid "Stonemason"
+#~ msgstr "石匠工坊"
+
+#~ msgid "Carver"
+#~ msgstr "雕刻师"
+
+#~ msgid "Stone Pit"
+#~ msgstr "石矿场"
+
+#~ msgid "Storage Tent"
+#~ msgstr "储物帐篷"
+
+#~ msgid "Storage Hut"
+#~ msgstr "储物小屋"
+
+#~ msgid "Tavern"
+#~ msgstr "酒馆"
+
+#~ msgid "Hut"
+#~ msgstr "小屋"
+
+#~ msgid "Stone house"
+#~ msgstr "石头房子"
+
+#~ msgid "Estate"
+#~ msgstr "庄园"
+
+#~ msgid "Manor"
+#~ msgstr "宅邸"
+
+#~ msgid "Tobacconist"
+#~ msgstr "烟草店"
+
+#~ msgid "Toolmaker"
+#~ msgstr "工具制造者"
+
+#~ msgid "Trail"
+#~ msgstr "小径"
+
+#~ msgid "Gravel Path"
+#~ msgstr "碎石路"
+
+#~ msgid "Cobblestone Street"
+#~ msgstr "鹅卵石路"
+
+#~ msgid "Tree"
+#~ msgstr "树木"
+
+#~ msgid "Village School"
+#~ msgstr "乡村学校"
+
+#~ msgid "Warehouse"
+#~ msgstr "仓库"
+
+#~ msgid "Weaponsmith"
+#~ msgstr "武器铁匠"
+
+#~ msgid "Weaver's Hut"
+#~ msgstr "织工小屋"
+
+#~ msgid "Windmill"
+#~ msgstr "风车磨坊"
+
+#~ msgid "Winery"
+#~ msgstr "酿酒厂"
+
+#~ msgid "Wooden Tower"
+#~ msgstr "木塔"
+
+#~ msgid "Failed to start/load the game"
+#~ msgstr "启动 / 加载游戏失败"
+
+#~ msgid "The game you selected could not be started."
+#~ msgstr "无法启动你选择的游戏。"
+
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr "存档可能已损坏或使用较早版本保存。"
+
+#~ msgid "No quicksaves found"
+#~ msgstr "找不到快速保存文件"
+
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr "你需要先快速保存，才能使用快速加载。"
+
+#~ msgid "Logging enabled"
+#~ msgstr "已启用日志"
+
+#, python-brace-format
+#~ msgid "Logs are written to {directory}."
+#~ msgstr "日志被保存在{directory}。"
+
+#~ msgid ""
+#~ "The games have run out of sync. This indicates an unknown internal error, "
+#~ "the game cannot continue."
+#~ msgstr "游戏同步失败。发生了未知的内部错误。游戏无法继续。"
+
+#~ msgid ""
+#~ "We are very sorry and hope to have this bug fixed in a future version."
+#~ msgstr "非常抱歉。我们希望会在未来的版本中修复这个错误。"
+
+#~ msgid "Not possible"
+#~ msgstr "无法实现"
+
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr "目前还无法进行多人模式游戏保存 / 加载"
+
+#~ msgid ""
+#~ "The filename must consist only of letters, numbers, spaces and these "
+#~ "characters: _ . -"
+#~ msgstr "文件名只能包括字母，数字，空格，和以下特殊字符：_ . -"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "无法连接到服务器。"
+
+#~ msgid "Maybe invalid or irresolvable server address."
+#~ msgstr "服务器地址可能无效或无法解析。"
+
+#~ msgid "Not Ready"
+#~ msgstr "未就绪"
+
+#~ msgid ""
+#~ "Old or unsupported multiplayer protocol. Please check your game version"
+#~ msgstr "多玩家协议已更新。 请检查你的游戏版本"
+
+#~ msgid "You've exceeded the global packet size."
+#~ msgstr "你全部网络包 (packet)大小总和超标了。"
+
+#~ msgid "This should never happen. Please contact us or file a bug report."
+#~ msgstr "系统出现严重问题。 请联系我们或者报告这个bug。"
+
+#~ msgid "You've exceeded the per packet size."
+#~ msgstr "你的单个网络包(packet)大小超标了。"
+
+#~ msgid "Unknown or malformed packet. Please check your game version"
+#~ msgstr "网络包格式不兼容。请检查你的游戏版本"
+
+#~ msgid "Invalid/Unknown session"
+#~ msgstr "无效联络阶段"
+
+#~ msgid "You can't join a game while in another game"
+#~ msgstr "你不能同时加入另一个游戏"
+
+#~ msgid "Unknown game or game is running a different version"
+#~ msgstr "游戏不兼容，或者当前游戏用另一个版本运行"
+
+#~ msgid "Game has already started. No more joining"
+#~ msgstr "游戏已经开始。不能再加入"
+
+#~ msgid "Game is full"
+#~ msgstr "游戏已满"
+
+#~ msgid "Wrong password"
+#~ msgstr "密码错误"
+
+#~ msgid "There's already a player with your name inside this game."
+#~ msgstr "你的名字在游戏里已被占用了。"
+
+#~ msgid "Please change your name."
+#~ msgstr "请修改你的名字。"
+
+#~ msgid "There's already a player with your color inside this game."
+#~ msgstr "你的颜色在游戏里已被占用了。"
+
+#~ msgid "Please change your color."
+#~ msgstr "请修改你的颜色。"
+
+#~ msgid ""
+#~ "There's already a player with your unique player ID inside this game. "
+#~ "This should never occur."
+#~ msgstr "你的玩家ID已经在游戏里了。系统可能出现故障了。"
+
+#~ msgid "You are not inside a game"
+#~ msgstr "你没有加入一局游戏"
+
+#~ msgid "Unable to change your name."
+#~ msgstr "无法修改你的名字。"
+
+#~ msgid "Unable to change your color."
+#~ msgstr "无法修改你的颜色。"
+
+#~ msgid "You can't fetch a game while in another game"
+#~ msgstr "加入游戏以后不能调取另一个游戏"
+
+#~ msgid "The game has been terminated. The creator has left the game."
+#~ msgstr "游戏已终止。创建者已退出游戏。"
+
+#~ msgid ""
+#~ "One player has terminated their game. For technical reasons, this "
+#~ "currently means the game cannot continue. We are very sorry about that."
+#~ msgstr ""
+#~ "有一个玩家终止游戏。由于技术原因游戏不能继续了。我们对此感到非常抱歉。"
+
+#~ msgid "You have won!"
+#~ msgstr "你赢了！"
+
+#~ msgid "You have completed this scenario."
+#~ msgstr "你已经完成了这个场景。"
+
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "你想要继续游玩吗？"
+
+#~ msgid "Failed to create savegame file"
+#~ msgstr "创建存档失败"
+
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr "在创建您的存档时发生了错误。"
+
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr "这通常说明此存档名包含不被支持的特殊字符。"
+
+#~ msgid "Access is denied"
+#~ msgstr "访问被拒绝"
+
+#~ msgid "The savegame file could be read-only or locked by another process."
+#~ msgstr "此存档可能是只读模式或者被其他进程锁定。"
+
+#~ msgid "Your game has not been saved."
+#~ msgstr "你还没有保存游戏。"
+
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "新版本的Unknown Horizons"
+
+#, python-brace-format
+#~ msgid ""
+#~ "There is a more recent release of Unknown Horizons ({new_version}) than "
+#~ "the one you are currently using ({old_version})."
+#~ msgstr ""
+#~ "有新版本的Unknown Horizons（{new_version}) 您正在使用的版本是 "
+#~ "({old_version}）。"
+
+#~ msgid "Click to download"
+#~ msgstr "点击下载"
+
+#~ msgid "A page has been opened in your browser."
+#~ msgstr "已在您的浏览器中打开一个页面。"
+
+#, python-brace-format
+#~ msgid "{slotnum} slots, {limit}t"
+#~ msgstr "{slotnum} 槽位， {limit}吨"
+
+#, python-brace-format
+#~ msgid "Health: {health}"
+#~ msgstr "健康：{health}"
+
+#, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}：{description}"
+
+#~ msgid "This building must be built on an island."
+#~ msgstr "该建筑必须建造在岛屿上。"
+
+#~ msgid "This ground is not suitable for this building."
+#~ msgstr "该地面不适合该建筑。"
+
+#~ msgid "This building has to be built within your settlement."
+#~ msgstr "该建筑必须被建造在你的驻地范围内。"
+
+#~ msgid "This area is already occupied by another player."
+#~ msgstr "这个区域已经被另一个玩家占领了。"
+
+#~ msgid "This area is already occupied by another building."
+#~ msgstr "这个区域已经被另一个建筑使用了。"
+
+#~ msgid "This area is already occupied by a unit."
+#~ msgstr "这个地区已经被一个单位占用了。"
+
+#~ msgid "This building must be built on the coastline."
+#~ msgstr "该建筑必须被建造在海岸上。"
+
+#~ msgid "This building has to be placed at the ocean."
+#~ msgstr "该建筑必须被放置在海上。"
+
+#~ msgid "This spot is too far away from your ship."
+#~ msgstr "这里离你的船太远了。"
+
+#~ msgid "This building can only be built on a resource source."
+#~ msgstr "该建筑只能被建造在资源上。"
+
+#~ msgid "You have already settled this island."
+#~ msgstr "你已经殖民这座岛屿了。"
+
+#~ msgid "This building must be partly on flat land."
+#~ msgstr "该建筑必须部分建在平坦的陆地上。"
+
+#~ msgid "The inhabitants are infected by the Black Death!"
+#~ msgstr "居民已感染黑死病！"
+
+#~ msgid "This building is on fire!"
+#~ msgstr "此建筑物已着火了！"
+
+#~ msgid "These residents are unhappy."
+#~ msgstr "这些居民不开心。"
+
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "这些居民不能进入主要广场。"
+
+#~ msgid "The inventory of this building is full."
+#~ msgstr "此建筑物的库存已满。"
+
+#~ msgid "This building has a very low productivity."
+#~ msgstr "此建筑物的生产效率极低。"
+
+#~ msgid "This building is decommissioned."
+#~ msgstr "此建筑物已退役。"
+
+#, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "贸易航线：移动到{location}"
+
+#, python-brace-format
+#~ msgid "Trade route: waiting at {position}"
+#~ msgstr "贸易航线：等待在{position}"
+
+#, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "移动到{location}"
+
+#, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "移动到{x},{y}"
+
+#, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "空闲在{location}"
+
+#, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "空闲在{x},{y}"
+
+#~ msgid "Trader"
+#~ msgstr "商人"
+
+#, python-brace-format
+#~ msgid "Attacking {target} '{name}' ({owner})"
+#~ msgstr "攻击{target}'{name}'({owner})"
+
+#, python-brace-format
+#~ msgid "Attacking {owner}"
+#~ msgstr "攻击{owner}"
+
+#~ msgid "Your game has been autosaved."
+#~ msgstr "你的游戏已自动保存。"
+
+#~ msgid "Your building has caught fire!"
+#~ msgstr "你的建筑物失火了！"
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}： {message}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "{player1} and {player2} have ended their alliance and are now in a state "
+#~ "of war."
+#~ msgstr "{player1}和{player2}已结束了他们的联合并开始进入战争状态。"
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have terminated their alliance."
+#~ msgstr "{player1}和{player2}已断绝了他们的联盟关系。"
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have ended the war and are now allied."
+#~ msgstr "{player1}和{player2}现在已结束他们之间的战争并成为盟友。"
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have settled their hostility."
+#~ msgstr "{player1}和{player2}已经平定了他们的敌对状态。"
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have allied their forces."
+#~ msgstr "{player1}和{player2}结盟了。"
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} will fight each other to the death."
+#~ msgstr "{player1}和{player2}将会对战直到一方灭亡。"
+
+#~ msgid "You can also drag roads."
+#~ msgstr "你也可以拖动道路。"
+
+#~ msgid "One of your fields requires a farm to harvest its crops."
+#~ msgstr "你的其中一个田地需要一个农场来收割庄稼。"
+
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "你的矿厂没资源了。"
+
+#~ msgid ""
+#~ "You have reached the current maximum tier. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr "你已达到当前最大值的级别。你的居民将不能进一步升级。"
+
+#~ msgid "Cannot go here."
+#~ msgstr "不能走到这里。"
+
+#~ msgid "Your crew refuses to leave this map."
+#~ msgstr "你的船员拒绝离开这个地图。"
+
+#, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "你需要更多{resource}来建造这间建筑物。"
+
+#, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "发现{player}的新殖民地。"
+
+#, python-brace-format
+#~ msgid "A new ship by the name of {name} has been created."
+#~ msgstr "一艘名叫{name}的新船只已创建。"
+
+#, python-brace-format
+#~ msgid "The Soldier by the name of {name} is ready to battle."
+#~ msgstr "一个名叫{name}的士兵已准备战斗。"
+
+#, python-brace-format
+#~ msgid "The inhabitant by the name of {name} is available."
+#~ msgstr "一个名叫{name}的居民已可使用。"
+
+#~ msgid "A new world has been created."
+#~ msgstr "新的世界已创建。"
+
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "你的一些居民不能访问主要厂场。"
+
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "你的游戏已经快速储存。"
+
+#~ msgid ""
+#~ "The route is now configured. Start it via the \"start route\" button in "
+#~ "the \"configure route\" menu."
+#~ msgstr "航线现在已配置。开始它须通过在“配置航线”菜单里的“开始航线”按钮。"
+
+#~ msgid "Your game has been saved."
+#~ msgstr "你的游戏已储存。"
+
+#, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "截图已保存到{file}。"
+
+#, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "你的居民已达到级别{level}。"
+
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "你的一些居民已搬出。"
+
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr "你不能摧毁仓库，你的殖民地需要它。"
+
+#~ msgid "You won!"
+#~ msgstr "你赢了！"
+
+#~ msgid "You failed the scenario."
+#~ msgstr "你任务失败了。"
+
+#~ msgid "The inhabitants of this building are infected by the Black Death!"
+#~ msgstr "这间建筑的居民已感染黑死病！"
+
+#~ msgid "coins"
+#~ msgstr "硬币"
+
+#~ msgid "lamb wool"
+#~ msgstr "羊毛"
+
+#~ msgid "textile"
+#~ msgstr "纺织品"
+
+#~ msgid "boards"
+#~ msgstr "木板"
+
+#~ msgid "food"
+#~ msgstr "食物"
+
+#~ msgid "tools"
+#~ msgstr "工具"
+
+#~ msgid "bricks"
+#~ msgstr "砖块"
+
+#~ msgid "trees"
+#~ msgstr "树木"
+
+#~ msgid "grass"
+#~ msgstr "草"
+
+#~ msgid "wool"
+#~ msgstr "羊毛"
+
+#~ msgid "faith"
+#~ msgstr "信仰"
+
+#~ msgid "deer food A"
+#~ msgstr "鹿的食物 A"
+
+#~ msgid "deer meat"
+#~ msgstr "鹿肉"
+
+#~ msgid "happiness"
+#~ msgstr "幸福"
+
+#~ msgid "potatoes"
+#~ msgstr "土豆"
+
+#~ msgid "education"
+#~ msgstr "教育"
+
+#~ msgid "sugar cane"
+#~ msgstr "甘蔗"
+
+#~ msgid "sugar"
+#~ msgstr "糖"
+
+#~ msgid "community"
+#~ msgstr "社区"
+
+#~ msgid "clay deposit"
+#~ msgstr "泥土储量"
+
+#~ msgid "clay"
+#~ msgstr "泥土"
+
+#~ msgid "liquor"
+#~ msgstr "酒"
+
+#~ msgid "charcoal"
+#~ msgstr "木炭"
+
+#~ msgid "iron deposit"
+#~ msgstr "铁矿储量"
+
+#~ msgid "iron ore"
+#~ msgstr "铁矿"
+
+#~ msgid "iron ingots"
+#~ msgstr "铁锭"
+
+#~ msgid "get-together"
+#~ msgstr "聚合"
+
+#~ msgid "fish"
+#~ msgstr "鱼"
+
+#~ msgid "salt"
+#~ msgstr "盐"
+
+#~ msgid "tobacco plants"
+#~ msgstr "烟草植物"
+
+#~ msgid "tobacco leaves"
+#~ msgstr "烟叶"
+
+#~ msgid "tobaccos"
+#~ msgstr "烟草"
+
+#~ msgid "cattle"
+#~ msgstr "小牛"
+
+#~ msgid "pigs"
+#~ msgstr "猪"
+
+#~ msgid "cattle for slaughter"
+#~ msgstr "屠宰家畜"
+
+#~ msgid "pigs for slaughter"
+#~ msgstr "用于屠宰的猪"
+
+#~ msgid "herbs"
+#~ msgstr "草药"
+
+#~ msgid "medical herbs"
+#~ msgstr "药材"
+
+#~ msgid "acorns"
+#~ msgstr "橡子"
+
+#~ msgid "cannon"
+#~ msgstr "大炮"
+
+#~ msgid "sword"
+#~ msgstr "剑"
+
+#~ msgid "grain"
+#~ msgstr "谷类"
+
+#~ msgid "corn"
+#~ msgstr "玉米"
+
+#~ msgid "flour"
+#~ msgstr "面粉"
+
+#~ msgid "spice plants"
+#~ msgstr "香料植物"
+
+#~ msgid "spices"
+#~ msgstr "香料"
+
+#~ msgid "condiments"
+#~ msgstr "调味料"
+
+#~ msgid "marble deposit"
+#~ msgstr "大理石储量"
+
+#~ msgid "marble tops"
+#~ msgstr "大理石台面"
+
+#~ msgid "coal deposit"
+#~ msgstr "煤矿储量"
+
+#~ msgid "stone deposit"
+#~ msgstr "石矿储量"
+
+#~ msgid "stone tops"
+#~ msgstr "石头台面"
+
+#~ msgid "cocoa beans"
+#~ msgstr "可可豆"
+
+#~ msgid "cocoa"
+#~ msgstr "可可"
+
+#~ msgid "confectionery"
+#~ msgstr "甜品店"
+
+#~ msgid "candles"
+#~ msgstr "蜡烛"
+
+#~ msgid "vines"
+#~ msgstr "藤蔓"
+
+#~ msgid "grapes"
+#~ msgstr "葡萄"
+
+#~ msgid "alvearies"
+#~ msgstr "蜂窝"
+
+#~ msgid "honeycombs"
+#~ msgstr "蜂巢"
+
+#~ msgid "gold deposit"
+#~ msgstr "金矿储量"
+
+#~ msgid "gold ore"
+#~ msgstr "金矿"
+
+#~ msgid "gold ingots"
+#~ msgstr "金元宝"
+
+#~ msgid "gem deposit"
+#~ msgstr "宝石储量"
+
+#~ msgid "rough gems"
+#~ msgstr "粗糙的宝石"
+
+#~ msgid "gems"
+#~ msgstr "宝石"
+
+#~ msgid "coffee plants"
+#~ msgstr "咖啡植物"
+
+#~ msgid "coffee beans"
+#~ msgstr "咖啡豆"
+
+#~ msgid "coffee"
+#~ msgstr "咖啡"
+
+#~ msgid "tea plants"
+#~ msgstr "茶叶"
+
+#~ msgid "tea leaves"
+#~ msgstr "茶叶"
+
+#~ msgid "tea"
+#~ msgstr "茶"
+
+#~ msgid "flower meadows"
+#~ msgstr "花草牧场"
+
+#~ msgid "blossoms"
+#~ msgstr "繁荣"
+
+#~ msgid "brine deposit"
+#~ msgstr "盐水储量"
+
+#~ msgid "brine"
+#~ msgstr "盐水"
+
+#~ msgid "whales"
+#~ msgstr "鲸鱼"
+
+#~ msgid "ambergris"
+#~ msgstr "龙涎香"
+
+#~ msgid "lamp oil"
+#~ msgstr "灯油"
+
+#~ msgid "cotton plants"
+#~ msgstr "棉花植物"
+
+#~ msgid "cotton"
+#~ msgstr "棉花"
+
+#~ msgid "indigo plants"
+#~ msgstr "靛青"
+
+#~ msgid "indigo"
+#~ msgstr "靛青"
+
+#~ msgid "garments"
+#~ msgstr "服装"
+
+#~ msgid "perfume"
+#~ msgstr "香水"
+
+#~ msgid "hop plants"
+#~ msgstr "酒花植物"
+
+#~ msgid "hops"
+#~ msgstr "酒花"
+
+#~ msgid "beer"
+#~ msgstr "啤酒"
+
+#~ msgid "hygiene"
+#~ msgstr "卫生"
+
+#~ msgid "recreation"
+#~ msgstr "娱乐"
+
+#~ msgid "blackdeath"
+#~ msgstr "黑死病"
+
+#~ msgid "fire"
+#~ msgstr "火焰"
+
+#~ msgid "Aristocrats"
+#~ msgstr "贵族"
+
+#~ msgid "Error: Unable to find required library \"PyYAML\"."
+#~ msgstr "错误：无法找到需要的库：“PyYAML”。"
+
+#~ msgid "PyYAML (a required library) is missing and needs to be installed."
+#~ msgstr "PyYAML（依赖库）没有找到，需要安装。"
+
+#~ msgid "The Windows installer is available at http://pyyaml.org/wiki/PyYAML."
+#~ msgstr "Windows安装程序可以在这里找到：http://pyyaml.org/wiki/PyYAML。"
+
+#~ msgid ""
+#~ "Linux users should find it using their package manager under the name "
+#~ "\"pyyaml\" or \"python-yaml\"."
+#~ msgstr "Linux用户可以用包管理器搜索“pyyaml”或“python-yaml”安装。"
