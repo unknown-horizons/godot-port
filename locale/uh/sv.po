@@ -1,0 +1,4216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Unknown Horizons Team
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2020-04-12 10:11+0000\n"
+"Last-Translator: Jonatan Nyberg <jonatan.nyberg.karl@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/uh/uh/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0-dev\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "Okänt spardatum"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "Okänt spardatum"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+#, fuzzy
+msgid "Descriptive Label:"
+msgstr "Beskrivning: "
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "Byggnader"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "Unknown Horizons har kraschat."
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "Okänt spardatum"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "En spelare"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "Läs in spel"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr "Medverkande"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr "Redigerare"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Quit"
+msgstr "Avsluta"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Help"
+msgstr "Hjälp"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Options"
+msgstr "Handlingar"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "Nytt spel - En spelare"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Scenario"
+msgstr "Scenario"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Random map"
+msgstr "Slumpmässig karta"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Free play"
+msgstr "Fritt spel"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "Okänt spardatum"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Color:"
+msgstr "Färg:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "AI players:"
+msgstr "AI spelare:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "Välj en karta att spela:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "Rekommenderat antal spelare: "
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Game settings:"
+msgstr "Spelinställningar:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "Råvarutäthet:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "Fria Handelsfartyget"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Pirates"
+msgstr "Pirater"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr "Katastrofer"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Saving"
+msgstr "Spara"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr "Allmänt"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "Välj språk:"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Mouse"
+msgstr "Mus"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Graphics"
+msgstr "Grafik"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Sound"
+msgstr "Ljud"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr "Kortkommandon"
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "Statistik"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Players"
+msgstr "Spelare"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My ships"
+msgstr "Mina fartyg"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My settlements"
+msgstr "Mina bosättningar"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Player scores"
+msgstr "Spelarpoäng"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Name"
+msgstr "Namn"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Money"
+msgstr "Pengar"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Land"
+msgstr "Land"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Resources"
+msgstr "Varor"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Buildings"
+msgstr "Byggnader"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlers"
+msgstr "Nybyggare"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Units"
+msgstr "Enheter"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Total"
+msgstr "Totalt"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "140"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "104"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "InventoryTab"
+msgstr "Inventarie"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Limit: 30t per slot"
+msgstr "Begränsa: %st per plats"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "Köp/Sälj"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr ""
+"Kommer att köpa {resource_name} för {price} guld/t när mindre än {limit}t "
+"finns i lager."
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Trade history"
+msgstr "Handelshistorik"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Free Trader"
+msgstr "Fria Handelsfartyget"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+# Mellanslag, bindesstreck eller utan genitiv?
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "Produktionsöversikt"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "Okänt spardatum"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "Handel"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "LumberjackOverviewTab"
+msgstr "Skogshuggartält"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr "Mina bosättningar"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr "Infrastruktur"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr "Bostäder"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr "Tjänster"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr "Försiktighetsåtgärd"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "Fält"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Pioneers"
+msgstr "Pionjärer"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Citizens"
+msgstr "Medborgare"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr "Jordbruk"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr "Hav"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr "Föda"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr "Verkstäder"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr "Företag"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr "Ved"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Mining"
+msgstr "Gruvarbete"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr "Fortifikationer"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr "Militärtjänstgöring"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sailors"
+msgstr "Sjömän"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "Bostäder och infrastruktur"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military"
+msgstr "Militära"
+
+# merchant kan även översättas till köpman, men krockar med översättningen av trader. Borgare är ett alternativ för att skilja dem åt.
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Merchants"
+msgstr "Borgare"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Up"
+msgstr "Spel pausat"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Down"
+msgstr "Spel pausat"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "Konto"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr "Inkomster:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr "Skatter"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Sale"
+msgstr "Försäljning"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Expenses:"
+msgstr "Utgifter:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Running costs"
+msgstr "Driftskostnader"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Buying"
+msgstr "Varuomkostnader"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Balance"
+msgstr "Saldo"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Upgrade permissions:"
+msgstr "Uppgradera rättigheter:"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr "Invånare per hus"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents per house"
+msgstr "Invånare per hus"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr "Några av dina invånare har precis flyttat ut"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr "Bostad för dina invånare"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Summary"
+msgstr "Sammanfattning"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "Hus"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents"
+msgstr "Invånare"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "Nybyggaröversikt"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Tent"
+msgstr "Tält"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Needed resources:"
+msgstr "Varor som behövs:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr "Skatter:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Paid taxes"
+msgstr "Betald skatt"
+
+# alt. marginalskatt beroende på översättning.
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Tax rate"
+msgstr "Skattesats"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr ""
+"Har bin. Producerar vaxkakor som används för konfektyr. Behöver en bondgård."
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "Konsumerar mjöl. Producerar mat."
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+#, fuzzy
+msgid "_ Recruits units suitable for ground combat."
+msgstr "Rekryterar artillerienheter."
+
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "Tillhandahåller säkerhet."
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "Producerar kryddor utav kryddplantor."
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "Bygger båtar och mindre fartyg. Placeras vid kusten."
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "Konsumerar humle. Producerar öl."
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "Gör lera till tegel."
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "Behöver grisar eller nötkreatur. Producerar mat."
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "Producerar kanoner."
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "Föder upp nötkreatur. Behöver ett jordbruk."
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+#, fuzzy
+msgid "_ Burns a lot of boards."
+msgstr "Bränner massa brädor."
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+msgid "None"
+msgstr "Inget"
+
+# Ev. lergrop eller lergrav.
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "Gräver upp lera från fyndighet."
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr "Producerar kakaobönor som används för konfektyr."
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "Ger majs. Behöver ett jordbruk."
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "Omvandlar socker till sprit."
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+#, fuzzy
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr "Botar sjukdomar. Konsumerar örter."
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "Odlar grödor och föder upp boskap."
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+#, fuzzy
+msgid "_ Extinguishes fires."
+msgstr "Släcker bränder."
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "Fiskar havet, producerar mat."
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "Producerar örter. Behöver en gård."
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "Ger humle. Behöver ett jordbruk."
+
+# hunter och hunters tent syftar till samma byggnad/yrke. Allt heter Jägare.
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "Jagar vilda djur i skogen, producerar mat."
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "Expanderar koloniområdet."
+
+# lumberjack och lumberjacks camp syftar till samma byggnad/yrke. Allt heter Skogshuggare
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "Hugger ner träd och förädlar dem till brädor."
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+#, fuzzy
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr "Levererar varor till medborgarna."
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "Bryter järnmalm från fyndighet."
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "Producerar alla former av konfektyr."
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "Föder upp får. Producerar ull. Behöver en gård."
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "Uppfyller invånarnas religiösa behov."
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "Föder upp grisar. Behöver en gård."
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "Ger mat. Behöver en gård."
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "Bostad för dina invånare."
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "Avdunstar havsvatten för att utvinna salt. Byggs längsmed kusten."
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "Tillåter spelaren att bedriva handel med fria handelsfartyg."
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "Förädlar all slags malm."
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "Odlar kryddor. Behöver en bondgård."
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "Hugger sten toppar till stenblock."
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "Hämtar sten från ett berg."
+
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr ""
+"Utökar lagringskapaciteten, koloniområdet samt tillhandahåller samlare."
+
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "Används till produktion av sprit. Behöver en gård."
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "Tillhandahåller sammankomster."
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "Producerar tobak av råtobak."
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "Producerar råtobak. Behöver en gård."
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "Producerar verktyg av järn."
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "Behövs för att samla in varor."
+
+#: Assets/World/Buildings2/tree/tree.tscn
+#, fuzzy
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr "Ger brädor. Huggs ner av skogshuggare."
+
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "Tillhandahåller utbildning."
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr ""
+"Producerar vindruvor för användning i vin och sötsaker. Behöver ett jordbruk."
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "Producerar vapen utav järn."
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "Gör lammull till tyg."
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "Maler majs till mjöl."
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "Producerar vin utav vindruvor."
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "Försvarar din koloni."
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "Unknown Horizons har kraschat."
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "Tack för att du använder Unknown Horizons!"
+
+#~ msgid "Unknown Horizons has crashed."
+#~ msgstr "Unknown Horizons har kraschat."
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr "Vi beklagar detta och vill fixa det underliggande felet."
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr "För att göra det behöver vi informationen från loggfilen:"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Vänligen skicka den till oss via IRC eller vårt forum, för båda se http://"
+#~ "unknown-horizons.org ."
+
+#~ msgid "Return to editor"
+#~ msgstr "Återgå till editor"
+
+#~ msgid "Save map"
+#~ msgstr "Spara karta"
+
+#~ msgid "Load map"
+#~ msgstr "Läs in karta"
+
+#~ msgid "Settings"
+#~ msgstr "Inställningar"
+
+#~ msgid "Exit editor"
+#~ msgstr "Lämna editor"
+
+#~ msgid "Select brush size:"
+#~ msgstr "Välj borststorlek:"
+
+#~ msgid "Select terrain:"
+#~ msgstr "Välj terräng:"
+
+#~ msgid "(right click to stop)"
+#~ msgstr "(högerklicka för att stoppa)"
+
+#~ msgid "Game start"
+#~ msgstr "Starta spel"
+
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr "Du måste skapa en koloni innan du kan bygga byggnader!"
+
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr "Välj ditt fartyg och närma dig kusten genom att högerklicka."
+
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr "Tryck sedan på den stora knappen i fartygets översiktsflik."
+
+#~ msgid "Build"
+#~ msgstr "Bygga"
+
+#~ msgid "Running costs:"
+#~ msgstr "Driftskostnader:"
+
+# Korrekt översatt men ser väldigt dumt ut. Några andra förslag?
+#~ msgid "Related buildings"
+#~ msgstr "Relaterade byggnader"
+
+#~ msgid "Inhabitants"
+#~ msgstr "Invånare"
+
+#, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr "Öka spelhastigheten ({key})"
+
+#, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr "Minska spelhastigheten ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map counterclockwise ({key})"
+#~ msgstr "Rotera kartan moturs ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map clockwise ({key})"
+#~ msgstr "Rotera kartan medurs ({key})"
+
+#~ msgid "Zoom in"
+#~ msgstr "Zooma in"
+
+#~ msgid "Zoom out"
+#~ msgstr "Zooma ut"
+
+#, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "Riv ({key})"
+
+#, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "Kaptenens loggbok ({key})"
+
+#, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "Byggmeny ({key})"
+
+#~ msgid "Diplomacy"
+#~ msgstr "Diplomati"
+
+#, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "Spelmeny ({key})"
+
+#~ msgid "Change name"
+#~ msgstr "Byt namn"
+
+#~ msgid "Old name:"
+#~ msgstr "Gammalt namn:"
+
+#~ msgid "Enter new name:"
+#~ msgstr "Skriv nytt namn:"
+
+#~ msgid "Apply the new name"
+#~ msgstr "Tryck för att ändra namnet"
+
+#~ msgid "Chat"
+#~ msgstr "Chatt"
+
+#~ msgid "Enter your message:"
+#~ msgstr "Skriv ditt meddelande:"
+
+# Fritt översatt?
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr ""
+#~ "För att bygga en markenhet, klicka på en av flikarna, välj önskad "
+#~ "markenhet och godkänn byggnationen."
+
+# Vagt?
+#~ msgid "Currently building:"
+#~ msgstr "Nuvarande byggnation:"
+
+#~ msgid "Pause"
+#~ msgstr "Pausa"
+
+#~ msgid "Resume"
+#~ msgstr "Återuppta"
+
+# procent färdigt?
+#~ msgid "Construction progress:"
+#~ msgstr "Framsteg i byggnationen:"
+
+#~ msgid "Resources still needed:"
+#~ msgstr "Resurser som fortfarande behövs:"
+
+#~ msgid "Cancel building:"
+#~ msgstr "Avbryt byggnation:"
+
+#~ msgid "(lose all resources)"
+#~ msgstr "(förlora alla resurser)"
+
+#~ msgid "Cancel all building progress"
+#~ msgstr "Avbryt all byggnation"
+
+#~ msgid "Confirm order"
+#~ msgstr "Verkställ order"
+
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "(som i markeringsflikarna)"
+
+#~ msgid "$res"
+#~ msgstr "$res"
+
+#~ msgid "24t"
+#~ msgstr "24t"
+
+#~ msgid "06t"
+#~ msgstr "06t"
+
+#~ msgid "2500"
+#~ msgstr "2500"
+
+#~ msgid "Sloop-o'-war"
+#~ msgstr "Slup-för-krig"
+
+#~ msgid "Three-masted most common classified war ship with one gun deck."
+#~ msgstr ""
+#~ "Tremastare är det vanligast klassificierade krigsskeppet med ett "
+#~ "kanondäck."
+
+#~ msgid "Buy Upgrades"
+#~ msgstr "Köp uppgraderingar"
+
+#~ msgid "Cannons"
+#~ msgstr "Kanoner"
+
+#~ msgid "Hull"
+#~ msgstr "Skrov"
+
+#~ msgid "+ 24t"
+#~ msgstr "+ 24t"
+
+#~ msgid "+ 14t"
+#~ msgstr "+ 14t"
+
+#~ msgid "+ 06t"
+#~ msgstr "+ 06t"
+
+#~ msgid "+ 1457"
+#~ msgstr "+ 1457"
+
+#~ msgid "Build groundunit:"
+#~ msgstr "Bygg markenhet:"
+
+#~ msgid "Build this groundunit!"
+#~ msgstr "Bygg denna markenhet!"
+
+# Fritt översatt?
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "För att bygga ett fartyg, klicka på en av flikarna, välj önskat fartyg "
+#~ "och godkänn byggnationen."
+
+#~ msgid "Build ship:"
+#~ msgstr "Bygg fartyg:"
+
+#~ msgid "Build this ship!"
+#~ msgstr "Bygg fartyget!"
+
+#~ msgid "ally"
+#~ msgstr "allierad"
+
+#~ msgid "neutral"
+#~ msgstr "neutral"
+
+#~ msgid "enemy"
+#~ msgstr "fiende"
+
+#~ msgid "Building overview"
+#~ msgstr "Byggnadsöversikt"
+
+#~ msgid "Capacity utilization"
+#~ msgstr "Kapacitetsanvändning"
+
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "Tryck för att ändra namnet på denna marktrupp"
+
+#~ msgid "Settlement inventory"
+#~ msgstr "Bosättningsinventarie"
+
+#~ msgid "sad"
+#~ msgstr "ledsen"
+
+#~ msgid "satisfied"
+#~ msgstr "tillfredsställd"
+
+#~ msgid "happy"
+#~ msgstr "glad"
+
+#~ msgid "Amount of houses with this happiness"
+#~ msgstr "Antal hus med den här glädjen"
+
+#~ msgid "houses"
+#~ msgstr "hus"
+
+#~ msgid "residents"
+#~ msgstr "invånare"
+
+#~ msgid "Provides security for your settlement."
+#~ msgstr "Ger försvar åt din koloni."
+
+#~ msgid "Selling"
+#~ msgstr "Säljer"
+
+#~ msgid "Name:"
+#~ msgstr "Namn:"
+
+#~ msgid "Weapons:"
+#~ msgstr "Vapen:"
+
+#~ msgid "Resource deposit"
+#~ msgstr "Råvarufyndighet"
+
+#~ msgid ""
+#~ "This is a resource deposit where you can build a mine to dig up resources."
+#~ msgstr ""
+#~ "Det här är en råvarufyndighet där du kan bygga en gruva för att komma åt "
+#~ "resurser."
+
+# resurser, varor eller råvaror.
+#~ msgid "It contains these resources:"
+#~ msgstr "Innehåller dessa resurser:"
+
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "Klicka för att ändra namnet på din bosättning"
+
+# Lycka rätt form av mätning?
+#~ msgid "Happiness"
+#~ msgstr "Lycka"
+
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr ""
+#~ "Signalelden visar det fria handelsfartyget hur det ska nå din bosättning "
+#~ "ifall du vill köpa eller sälja varor."
+
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr ""
+#~ "Det här är det fria handelsfartyget. Det kommer att besöka dig då och då "
+#~ "för att köpa eller sälja varor."
+
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "Tryck för att ändra namnet på fartyget"
+
+# eller koloni? se 313.
+#~ msgid "Build settlement"
+#~ msgstr "Bygg bosättning"
+
+#~ msgid "Configure trading route"
+#~ msgstr "Konfigurera handelsrutt"
+
+#~ msgid "Discard all resources"
+#~ msgstr "Ta bort alla resurser"
+
+#~ msgid "Ship:"
+#~ msgstr "Fartyg:"
+
+#~ msgid "Exchange:"
+#~ msgstr "Utbyte:"
+
+#~ msgid "Trade partner:"
+#~ msgstr "Handelspartner:"
+
+#~ msgid "Buy or sell resources"
+#~ msgstr "Köp eller sälj varor"
+
+#~ msgid "Select resources:"
+#~ msgstr "Välj varor:"
+
+#~ msgid "Collector utilization"
+#~ msgstr "Insamlar användning"
+
+#~ msgid "Balance:"
+#~ msgstr "Saldo:"
+
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "Visa varor producerade i denna bosättningen"
+
+#~ msgid "Pause production"
+#~ msgstr "Pausa produktion"
+
+#~ msgid "Start production"
+#~ msgstr "Återuppta produktion"
+
+#~ msgid "Select resource:"
+#~ msgstr "Välj resurs:"
+
+#~ msgid ""
+#~ "The resource you select is displayed instead of the current one. Empty by "
+#~ "clicking on X."
+#~ msgstr ""
+#~ "Resursen du valde visas istället för den nuvarande. Töm genom att klicka "
+#~ "på X."
+
+#~ msgid "Save current resource configuration as default for all settlements."
+#~ msgstr ""
+#~ "Spara den här konfigureringen av resurser som standard för alla "
+#~ "bosättningar."
+
+#~ msgid "Reset default resource configuration for all settlements."
+#~ msgstr "Återställ standardkonfigurering av resurser för alla bosättningar."
+
+#~ msgid "Move up"
+#~ msgstr "Flytta upp"
+
+#~ msgid "Delete entry"
+#~ msgstr "Ta bort inmatning"
+
+#~ msgid "Move down"
+#~ msgstr "Flytta ner"
+
+#~ msgid "Read previous entries"
+#~ msgstr "Läs föregående poster"
+
+#~ msgid "Read next entries"
+#~ msgstr "Läs nästa post"
+
+#~ msgid "Game messages"
+#~ msgstr "Spelmeddelanden"
+
+#~ msgid "Whole world"
+#~ msgstr "Hela världen"
+
+#~ msgid "Everybody"
+#~ msgstr "Alla"
+
+#~ msgid "Sends the chat messages to all players."
+#~ msgstr "Skicka chattmeddelandena till alla spelare."
+
+#~ msgid "Enter your message here"
+#~ msgstr "Skriv ditt meddelande"
+
+#~ msgid "Return to game"
+#~ msgstr "Återgå till spel"
+
+#~ msgid "Island Name:"
+#~ msgstr "Ö-namn:"
+
+#~ msgid "Player Name:"
+#~ msgstr "Spelarnamn:"
+
+#~ msgid "Wait at load:"
+#~ msgstr "Vänta vid lastning:"
+
+#~ msgid "Wait at unload:"
+#~ msgstr "Vänta vid avlastning:"
+
+#~ msgid "Select a resource:"
+#~ msgstr "Välj en resurs:"
+
+#~ msgid "Route activity:"
+#~ msgstr "Ruttaktivitet:"
+
+#~ msgid "Start route"
+#~ msgstr "Starta rutt"
+
+#~ msgid "Exit"
+#~ msgstr "Avsluta"
+
+#~ msgid "Go to previous page"
+#~ msgstr "Gå till föregående sida"
+
+#~ msgid "Go to next page"
+#~ msgstr "Gå till nästa sida"
+
+#~ msgid "Close"
+#~ msgstr "Stäng"
+
+#~ msgid "Player Name"
+#~ msgstr "Spelarnamn"
+
+#~ msgid "Player's current treasury + income expected in near future"
+#~ msgstr "Spelarens konto och snart förväntade inkomst"
+
+#~ msgid ""
+#~ "Value of usable land i.e Amount of Land that can be used to create "
+#~ "buildings"
+#~ msgstr ""
+#~ "Värdet of användbart land t, ex Mängd av Land som kan användas för att "
+#~ "bygga på"
+
+#~ msgid ""
+#~ "Value of resources generated from all the possible sources in the "
+#~ "player's settlement(s)"
+#~ msgstr ""
+#~ "Värdet på genererade resurser från alla möjliga källor i spelarens "
+#~ "koloni(er)"
+
+#~ msgid "Value of all the buildings in the player's settlement(s)"
+#~ msgstr "Värdet på alla byggnader i spelarens koloni(er)"
+
+#~ msgid ""
+#~ "Value denoting the progress of the settlement(s) in terms of inhabitants, "
+#~ "buildings and overall happiness"
+#~ msgstr ""
+#~ "Värdet anger utvecklingen av koloni(n/er) i fråga om invånare, byggnader "
+#~ "och total lycka"
+
+#~ msgid "Value of all the units owned by the player"
+#~ msgstr "Värde av alla spelarens enheter"
+
+#~ msgid ""
+#~ "The total value from all individual entities or in short : Total Player "
+#~ "Score"
+#~ msgstr ""
+#~ "Totala värdet från alla andra värder.  I andra ord: Spelarens Totalpoäng"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Weapons"
+#~ msgstr "Vapen"
+
+#~ msgid "Health"
+#~ msgstr "Hälsa"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Aggressive"
+#~ msgstr "Aggressiv"
+
+#~ msgid "Hold ground"
+#~ msgstr "Håll mark"
+
+#~ msgid "Passive"
+#~ msgstr "Passiv"
+
+#~ msgid "Flee"
+#~ msgstr "Fly"
+
+#~ msgid "Exit to main menu"
+#~ msgstr "Avsluta till huvudmenyn"
+
+#~ msgid "Choose a map size:"
+#~ msgstr "Välj kartans storlek:"
+
+#~ msgid "Choose a map:"
+#~ msgstr "Välj en bana:"
+
+#~ msgid "Choose a saved game's map:"
+#~ msgstr "Välj en karta från ett sparat spel:"
+
+#~ msgid "Select map source"
+#~ msgstr "Välj kartkälla"
+
+#~ msgid "Create new map"
+#~ msgstr "Skapa ny karta"
+
+#~ msgid "Load existing map"
+#~ msgstr "Läs in en karta som redan finns"
+
+#~ msgid "Load saved game's map"
+#~ msgstr "Läs in sparade spelets karta"
+
+#~ msgid "Start editor"
+#~ msgstr "Starta redigerare"
+
+#~ msgid "Return"
+#~ msgstr "Återgå"
+
+#~ msgid "Scroll left"
+#~ msgstr "Flytta vyn åt vänster"
+
+#~ msgid "Scroll right"
+#~ msgstr "Flytta vyn åt höger"
+
+#~ msgid "Scroll up"
+#~ msgstr "Flytta vyn uppåt"
+
+#~ msgid "Scroll down"
+#~ msgstr "Flytta vyn nedåt"
+
+#~ msgid "Rotate building or map clockwise"
+#~ msgstr "Rotera byggnad eller karta medurs"
+
+#~ msgid "Rotate building or map counterclockwise"
+#~ msgstr "Rotera byggnad eller karta moturs"
+
+#~ msgid "Increase game speed"
+#~ msgstr "Öka spelhastigheten"
+
+#~ msgid "Decrease game speed"
+#~ msgstr "Minska spelhastigheten"
+
+#~ msgid "Pause game"
+#~ msgstr "Pausa spel"
+
+#~ msgid "Show build menu"
+#~ msgstr "Visa byggmenyn"
+
+#~ msgid "Enable destruct mode"
+#~ msgstr "Aktivera rivläge"
+
+#~ msgid "Enable road building mode"
+#~ msgstr "Aktivera vägbyggarläge"
+
+#~ msgid "Enable pipette mode (clone buildings)"
+#~ msgstr "Aktivera klon byggnad läge"
+
+#~ msgid "Show player scores"
+#~ msgstr "Visa spelarpoäng"
+
+#~ msgid "Show settlement list"
+#~ msgstr "Visa bosättningslista"
+
+#~ msgid "Show ship list"
+#~ msgstr "Visa fartygslista"
+
+#~ msgid "Toggle Captain's log"
+#~ msgstr "Visa Kaptenens loggbok"
+
+#~ msgid "Quicksave"
+#~ msgstr "Snabbspara"
+
+#~ msgid "Quickload"
+#~ msgstr "Snabbinläs"
+
+#~ msgid "Toggle translucency of ambient buildings"
+#~ msgstr "Gör bakgrunds byggnader (o)genomskinlig"
+
+#~ msgid "Highlight tile ownership"
+#~ msgstr "Färglägg rutornas ägare"
+
+#~ msgid "Toggle health bars"
+#~ msgstr "Växla liv bom"
+
+#~ msgid "Focus camera on selection"
+#~ msgstr "Fokusera kamera på val"
+
+#~ msgid "Remove selected units / buildings"
+#~ msgstr "Ta bort markerade enheter / byggnader"
+
+#~ msgid "Display help"
+#~ msgstr "Visa hjälp"
+
+#~ msgid "Screenshot"
+#~ msgstr "Skärmdump"
+
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "Visa FPS på/av"
+
+#~ msgid "Toggle grid on/off"
+#~ msgstr "Visa rutnät på/av"
+
+#~ msgid "Show coordinate values (Debug)"
+#~ msgstr "Visa koordinatvärden (Debug)"
+
+#~ msgid "Primary"
+#~ msgstr "Primär"
+
+#~ msgid "Secondary"
+#~ msgstr "Sekundär"
+
+#~ msgid "Reset to default"
+#~ msgstr "Återställ till standard"
+
+#~ msgid "Reset to default keys"
+#~ msgstr "Återställ till standard tangentbordsknappar"
+
+#~ msgid "Save game"
+#~ msgstr "Spara spel"
+
+# Avbryta spelet?
+#~ msgid "Cancel game"
+#~ msgstr "Avbryt spel"
+
+#~ msgid "Loading…"
+#~ msgstr "Läser in…"
+
+#~ msgid "Change Background"
+#~ msgstr "Ändra bakgrund"
+
+#~ msgid "Multiplayer"
+#~ msgstr "Flera spelare"
+
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "Skapa spel - Flera spelare"
+
+#~ msgid "Player limit:"
+#~ msgstr "Spelargräns:"
+
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "Avsluta till flerspelarmenyn"
+
+#~ msgid "Name of the game:"
+#~ msgstr "Spelets namn:"
+
+#~ msgid "This will be displayed to other players so they recognize the game."
+#~ msgstr ""
+#~ "Detta kommer att visas för andra spelare så att de känna igen spelet."
+
+#~ msgid "Unnamed Game"
+#~ msgstr "Namnlöst spel"
+
+#~ msgid "Password of the game:"
+#~ msgstr "Spelets namn:"
+
+#~ msgid "This game's password. Required to join this game."
+#~ msgstr "Spelets lösenord. Behövs för att ansluta till detta spel."
+
+#~ msgid "Create this new game"
+#~ msgstr "Skapa det nya spelet"
+
+#~ msgid "Gamelobby"
+#~ msgstr "Spellobby"
+
+#~ msgid "Chat:"
+#~ msgstr "Chatt:"
+
+#~ msgid "Exit gamelobby"
+#~ msgstr "Avsluta spellobby"
+
+#~ msgid "The game will start as soon as all players are ready."
+#~ msgstr "Spelet kommer börja då tillräckligt många spelare har anslutit."
+
+#~ msgid "Game details:"
+#~ msgstr "Speldetaljer:"
+
+#~ msgid "Color"
+#~ msgstr "Färg"
+
+#~ msgid "Ready:"
+#~ msgstr "Redo:"
+
+#~ msgid "Sets your state to ready (necessary for the game to start)"
+#~ msgstr "Sätt din status till redo (nödvändigt för att spelet ska starta)"
+
+#~ msgid "New game - Multiplayer"
+#~ msgstr "Nytt spel - Flera spelare"
+
+#~ msgid "Load game:"
+#~ msgstr "Läs in spel:"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Läs in ett sparat spel"
+
+#~ msgid "Active games:"
+#~ msgstr "Aktiva spel:"
+
+#~ msgid "Refresh list:"
+#~ msgstr "Uppdatera lista:"
+
+#~ msgid "Refresh list of active games"
+#~ msgstr "Uppdatera listan över aktiva spel"
+
+#~ msgid "Create game:"
+#~ msgstr "Skapa spel:"
+
+#~ msgid "Create a new game"
+#~ msgstr "Skapa nytt spel"
+
+#~ msgid "Join game:"
+#~ msgstr "Gå med i spelet:"
+
+#~ msgid "Join the selected game"
+#~ msgstr "Gå med i det valda spelet"
+
+#~ msgid "Change player details"
+#~ msgstr "Ändra spelaruppgifter"
+
+#~ msgid "Screen resolution:"
+#~ msgstr "Skärmupplösning:"
+
+#~ msgid "Full screen:"
+#~ msgstr "Helskärm:"
+
+#~ msgid "Frame rate limit:"
+#~ msgstr "Bildfrekvensbegränsning:"
+
+#~ msgid "Set the maximum frame rate used. Default: 60 fps."
+#~ msgstr "Ställ in den maximala bildfrekvensen. Standard: 60fps."
+
+# volym för musik?
+#~ msgid "Music volume:"
+#~ msgstr "Musikvolym:"
+
+# volym för effekter?
+#~ msgid "Effects volume:"
+#~ msgstr "Effektvolym:"
+
+#~ msgid "Enable sound:"
+#~ msgstr "Aktivera ljud:"
+
+#~ msgid "Scroll at map edge:"
+#~ msgstr "Flytta kartan när musen rör vid kanten:"
+
+#~ msgid ""
+#~ "Whether to move the viewport when the mouse pointer is close to map edges"
+#~ msgstr "Vare sig att flytta synporten när muspekaren är nära kart kanterna"
+
+#~ msgid "Cursor centered zoom:"
+#~ msgstr "Zooma vid muspekaren:"
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center. When disabled, always zoom to current viewport center."
+#~ msgstr ""
+#~ "Om aktiverad så kommer mushjulsskrollning att använda muspekaren som "
+#~ "centrerings punkt vid zoomning. När funktionen är inaktiverad så kommer "
+#~ "mushjulsskrollning att zooma i mitten av skärmen."
+
+#~ msgid "Middle mouse button pan:"
+#~ msgstr "Mellersta musknappspanorering:"
+
+#~ msgid "When enabled, dragging the middle mouse button will pan the camera"
+#~ msgstr ""
+#~ "När aktiverad, kan du hålla ner mitten musknappen för att flytta kameran"
+
+#~ msgid "0 is default system settings"
+#~ msgstr "0 är systemets standardinställning"
+
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "Muskänslighet:"
+
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "Intervall för autosparande i minuter:"
+
+#~ msgid "Number of autosaves:"
+#~ msgstr "Antal automatiska sparanden:"
+
+#~ msgid "Number of quicksaves:"
+#~ msgstr "Antal snabbsparanden:"
+
+#~ msgid "Language"
+#~ msgstr "Språk"
+
+#~ msgid "Rotate minimap with map:"
+#~ msgstr "Rotera minikartan och kartan samtidigt:"
+
+#~ msgid ""
+#~ "Whether to also rotate the minimap whenever the regular map is rotated"
+#~ msgstr ""
+#~ "Om du vill att minikartan ska rotera samtidigt som du roterar den vanliga "
+#~ "kartan"
+
+#~ msgid "Uninterrupted building:"
+#~ msgstr "Oavbruten byggnad:"
+
+#~ msgid ""
+#~ "When enabled, do not exit the build mode after successful construction"
+#~ msgstr ""
+#~ "När det är aktiverat,var vänlig och lämna inte byggnadsläge efter lyckad "
+#~ "konstruktion"
+
+#~ msgid "Auto-unload ship:"
+#~ msgstr "Lasta av fartyget automatiskt:"
+
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr ""
+#~ "Huruvida du vill att fartyget ska lasta av automatiskt efter att en "
+#~ "bosättning har skapats"
+
+#~ msgid ""
+#~ "Don't use in normal game session. Decides whether to write debug "
+#~ "information in the logging directory of your user directory. Slows the "
+#~ "game down."
+#~ msgstr ""
+#~ "Använd ej i ett normalt spel session. Väljer om den ska skriva debug "
+#~ "information eller inte i loggningskatalogen i användarkatalogen. Detta "
+#~ "gör spelet trögt."
+
+#~ msgid "Enable logging:"
+#~ msgstr "Aktivera loggning:"
+
+# Mellanslag, bindesstreck eller utan genitiv?
+#~ msgid "Production indicators:"
+#~ msgstr "Produktionsöversikt:"
+
+#~ msgid ""
+#~ "Whether to show resource icons over buildings whenever they finish "
+#~ "production"
+#~ msgstr ""
+#~ "Vare sig man vill visa resurs ikoner över byggnader när de slutför sin "
+#~ "produktion"
+
+#~ msgid "Higher values slow down scrolling."
+#~ msgstr "Högre värden minskar rullningen."
+
+#~ msgid "Scroll delay:"
+#~ msgstr "Skrollningsfördröjning:"
+
+#~ msgid "Choose a quote type:"
+#~ msgstr "Välj en bana:"
+
+#~ msgid "What kind of quote to display while loading a game"
+#~ msgstr "Vad för slags citat att visa när spelet läses in"
+
+#~ msgid "Network"
+#~ msgstr "Nätverk"
+
+#~ msgid "If set to 0, use the router default"
+#~ msgstr "Om satt till 0, använd routerns standardval"
+
+#~ msgid "Network port:"
+#~ msgstr "Nätverksport:"
+
+#~ msgid "Discard current changes"
+#~ msgstr "Ta bort nuvarande ändringar"
+
+#~ msgid "Reset to default settings"
+#~ msgstr "Återställ till standardinställningar"
+
+#~ msgid "Save changes"
+#~ msgstr "Spara ändringar"
+
+#~ msgid "Your saved games:"
+#~ msgstr "Dina sparade spel:"
+
+#~ msgid "Password of the game. Required to join this game"
+#~ msgstr "Lösenord för spelet. Krävs för att gå med i spelet"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Enter filename:"
+#~ msgstr "Skriv filnamn:"
+
+#~ msgid "Details:"
+#~ msgstr "Detaljer:"
+
+#~ msgid "Delete selected savegame"
+#~ msgstr "Radera sparat spel"
+
+#~ msgid "Start game"
+#~ msgstr "Starta spel"
+
+#~ msgid "Map settings:"
+#~ msgstr "Inställningar för karta:"
+
+#~ msgid "Seed:"
+#~ msgstr "Frö:"
+
+#~ msgid "Player name:"
+#~ msgstr "Spelarnamn:"
+
+#~ msgid "Invalid filename"
+#~ msgstr "Ogiltigt filnamn"
+
+#~ msgid "Received an invalid filename for a save command."
+#~ msgstr "Mottog ett felaktigt filnamn vid försök att spara."
+
+#~ msgid "Error"
+#~ msgstr "Fel"
+
+#~ msgid "Failed to save."
+#~ msgstr "Misslyckades med att spara."
+
+#~ msgid "The trade partner does not sell this."
+#~ msgstr "Handelspartnern säljer inte detta."
+
+#~ msgid "You can not store this."
+#~ msgstr "Du kan inte lagra detta."
+
+#~ msgid "You can not afford to buy this."
+#~ msgstr "Du har inte råd att köpa detta."
+
+#~ msgid "The trade partner does not sell more of this."
+#~ msgstr "Handelspartnern säljer inte mer av detta."
+
+#~ msgid "The trade partner does not buy this."
+#~ msgstr "Handelspartnern köper inte detta."
+
+#~ msgid "You do not possess this."
+#~ msgstr "Du äger inte detta."
+
+#~ msgid "The trade partner can not store more of this."
+#~ msgstr "Handelspartnern kan inte lagra mer av detta."
+
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "Handelspartnern har inte råd att köpa detta."
+
+#~ msgid "The trade partner does not buy more of this."
+#~ msgstr "Handelspartnern köper inte mer av detta."
+
+#~ msgid "Failed to quicksave."
+#~ msgstr "Misslyckades med att snabbspara."
+
+#~ msgid "An error happened during quicksave."
+#~ msgstr "Ett fel inträffade under snabbsparningen."
+
+#~ msgid "Your map has not been saved."
+#~ msgstr "Ditt spel har inte sparats."
+
+#, python-brace-format
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: "
+#~ "{website}"
+#~ msgstr ""
+#~ "Om felet uppstår igen, var vänlig kontakta spelutvecklarna: {website}"
+
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "Är du säker att du vill avsluta Unknown Horizons?"
+
+#~ msgid "Quit Game"
+#~ msgstr "Avsluta spel"
+
+#~ msgid "No diplomacy possible"
+#~ msgstr "Diplomati är inte möjlig"
+
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr ""
+#~ "Kan inte göra diplomati eftersom det inte finns några andra spelare."
+
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "Är du säker att du vill ta bort dessa objekt?"
+
+#~ msgid "Delete"
+#~ msgstr "Ta bort"
+
+#, python-brace-format
+#~ msgid "{size}x{size} tiles"
+#~ msgstr "{size}x{size} rutor"
+
+#~ msgid "Press key…"
+#~ msgstr "Tryck på knapp…"
+
+#, python-brace-format
+#~ msgid "{key} is already set to {action}."
+#~ msgstr "{key} är redan satt för {action}."
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "Vill du skriva över den?"
+
+#~ msgid "Confirmation for overwriting"
+#~ msgstr "Bekräftelse för att skriva över"
+
+#~ msgid "Quotes"
+#~ msgstr "Citat"
+
+#~ msgid "Gameplay Tips"
+#~ msgstr "Speltips"
+
+#~ msgid "Press 'ESC' to access Game Menu."
+#~ msgstr "Tryck 'ESC' för att komma åt spelmenyn."
+
+#~ msgid "Use 'SHIFT' to place multiple buildings."
+#~ msgstr "Håll ner för att placera flera byggnader."
+
+#, python-brace-format
+#~ msgid "Currently only the first {tier} tiers are playable."
+#~ msgstr "Just nu är bara {tier} nivåer spelbara."
+
+#~ msgid "You can pause the game with 'P'."
+#~ msgstr "Du kan pausa spelet med 'P'."
+
+#~ msgid "You can drag roads by holding the left mouse button."
+#~ msgstr "Du kan dra vägar genom att hålla ner vänster musknapp."
+
+#~ msgid "You can build multiple buildings by holding the 'SHIFT' key."
+#~ msgstr "Du kan bygga flera vägar genom att hålla ner 'SHIFT' knappen."
+
+#~ msgid ""
+#~ "You can increase the happiness of your inhabitants by lowering the taxes."
+#~ msgstr "Du kan öka lyckan hos dina invånare genom att sänka skatterna."
+
+#~ msgid ""
+#~ "Build fire stations and doctors to protect your inhabitants from fire and "
+#~ "disease."
+#~ msgstr ""
+#~ "Bygg brandstationer och sjukhus för att skydda dina invånare från "
+#~ "eldsvådor och sjukdomar."
+
+#~ msgid "Build storage tents to increase your storage capacity."
+#~ msgstr "Bygg förvaringstält för att utöka lagringskapaciteten."
+
+#~ msgid "Make sure every house is in range of a marketplace."
+#~ msgstr "Säkerställ att alla hus är inom räckhåll till en marknadsplats."
+
+#~ msgid "Press 'T' to make trees transparent."
+#~ msgstr "Tryck 'T' för att göra träd transparenta."
+
+#~ msgid "Build storage tents and lookouts to expand your settlement range."
+#~ msgstr ""
+#~ "Bygg förvaringstält och utkiksplatser för att utöka räckvidden för din "
+#~ "koloni."
+
+#~ msgid ""
+#~ "To easily see whether the pavilion's range cover all your tents, select "
+#~ "it from the build menu and hover it over your existing pavilion. "
+#~ "Uncovered tents are shown in yellow. It's a good idea to build a new "
+#~ "pavilion in their neighborhood."
+#~ msgstr ""
+#~ "För att lätt se huruvida paviljongens räckvidd täcker alla dina tält, "
+#~ "markera den från byggmenyn och låt den hovra ovanför din existerande "
+#~ "paviljong. Otäckta tält visas i gult. Det är en bra idé att bygga en ny "
+#~ "paviljong i deras grannskap."
+
+#~ msgid ""
+#~ "Make singleplayer more fun with additional computer players by increasing "
+#~ "'AI players' when starting a new game."
+#~ msgstr ""
+#~ "Gör enkelspelarspel roligare med ytterligare datorspelare genom att öka "
+#~ "”AI-spelare” när du startar ett nytt spel."
+
+#~ msgid ""
+#~ "First steps are easier by looking at how AI players are setting up their "
+#~ "settlement."
+#~ msgstr ""
+#~ "De första stegen blir lättare genom att titta på hur AI-spelare sätter "
+#~ "upp sina kolonier."
+
+#~ msgid ""
+#~ "Want funny quotes only? Change the quote types shown here in the settings "
+#~ "menu on the game page."
+#~ msgstr ""
+#~ "Vill du endast ha roliga citat? Ändra citattyperna som visas här i "
+#~ "inställningsmenyn på spelsidan."
+
+#~ msgid "A marketplace links your buildings like a road."
+#~ msgstr ""
+#~ "En marknadsplats länkar ihop dina byggnader på samma sätt som en väg."
+
+#~ msgid "Mixed"
+#~ msgstr "Blandade"
+
+#~ msgid "Starting engine…"
+#~ msgstr "Startar spelmotorn…"
+
+#~ msgid "Catching fish…"
+#~ msgstr "Fångar fisk…"
+
+#~ msgid "Drawing user interface…"
+#~ msgstr "Ritar användargränssnitt…"
+
+#~ msgid "Activating timer…"
+#~ msgstr "Aktiverar timers…"
+
+#~ msgid "Chomping game data…"
+#~ msgstr "Mumsar på speldatan…"
+
+#~ msgid "Shaping islands…"
+#~ msgstr "Formar öar…"
+
+#~ msgid "Preparing blueprints…"
+#~ msgstr "Förbereder ritningar…"
+
+#~ msgid "Filling world with water…"
+#~ msgstr "Fyller världen med vatten…"
+
+#~ msgid "Raising animals…"
+#~ msgstr "Uppföder djur…"
+
+#~ msgid "Convincing AI…"
+#~ msgstr "Övertalar AI:n…"
+
+#~ msgid "Burying treasures…"
+#~ msgstr "Gräver ner skatter…"
+
+#~ msgid "Unable to find pyenet"
+#~ msgstr "Kunde inte hitta pyenet"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which could not "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "Flerspelarfunktionen kräver biblioteket \"pyenet\", vilket inte kunde "
+#~ "hittas på ditt system."
+
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr "Linuxanvändare: Försök installera pyenet genom din pakethanterare."
+
+#~ msgid "Failed to initialize networking."
+#~ msgstr "Misslyckades med att initiera nätverk."
+
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr ""
+#~ "Nätverksfunktioner kan inte initieras med den valda konfigurationen."
+
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "Kolla inställningar som du specificerat under nätverkssektionen."
+
+#~ msgid "Fatal Network Error"
+#~ msgstr "Kritiskt nätverksfel"
+
+#~ msgid "Could not connect to master server."
+#~ msgstr "Kunde inte kontakta masterservern."
+
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "Var god kontrollera din internetanslutning. Om den är som den ska, "
+#~ "betyder det att vår masterserver är tillfälligt nere."
+
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "Något gick fel med nätverket:"
+
+#~ msgid "Version differs!"
+#~ msgstr "Versionerna skiljer sig!"
+
+#, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "Karta: {map_name}"
+
+#, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "Namn: {game_name}"
+
+#, python-brace-format
+#~ msgid "Creator: {game_creator}"
+#~ msgstr "Skapare: {game_creator}"
+
+#, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "Spelare: {player_amount}/{player_limit}"
+
+#~ msgid "Wrong version"
+#~ msgstr "Fel version"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "Spelets version skiljer sig från din nuvarande version. Varje spelare i "
+#~ "ett flerspelarspel måste ha samma version. Detta kan fixas genom att "
+#~ "varje spelare uppdaterar till den senaste versionen. Senaste versionen: "
+#~ "{game_version} Din version: {own_version}"
+
+#~ msgid "Password of the game"
+#~ msgstr "Spelets lösenord"
+
+#~ msgid "Enter password:"
+#~ msgstr "Ange lösenord:"
+
+#, python-brace-format
+#~ msgid "Recommended number of players: {number}"
+#~ msgstr "Rekommenderat antal spelare: {number}"
+
+#~ msgid "Ready"
+#~ msgstr "Redo"
+
+#~ msgid "Not ready"
+#~ msgstr "Inte redo"
+
+#~ msgid "Enter your message"
+#~ msgstr "Skriv ditt meddelande"
+
+#~ msgid "Click here to change your name and/or color"
+#~ msgstr "Klicka för att ändra namnet på din bosättning"
+
+#, python-brace-format
+#~ msgid "Kick {player}"
+#~ msgstr "Fartyg av {player}"
+
+#, python-brace-format
+#~ msgid "{player} has joined the game"
+#~ msgstr "{player} har gått med i spelet"
+
+#, python-brace-format
+#~ msgid "{player} has left the game"
+#~ msgstr "{player} har lämnat spelet"
+
+#~ msgid "You are now ready"
+#~ msgstr "Du är nu redo"
+
+#~ msgid "You are not ready anymore"
+#~ msgstr "Du är inte längre redo"
+
+#, python-brace-format
+#~ msgid "{player} is now ready"
+#~ msgstr "{player} är nu redo"
+
+#, python-brace-format
+#~ msgid "{player} not ready anymore"
+#~ msgstr "{player} är inte längre redo"
+
+#, python-brace-format
+#~ msgid "You are now known as {new_name}"
+#~ msgstr "Du är nu känd som {new_name}"
+
+#, python-brace-format
+#~ msgid "{player} is now known as {new_name}"
+#~ msgstr "{player} är nu känd som {new_name}"
+
+#~ msgid "You changed your color"
+#~ msgstr "Du har ändrat din färg"
+
+#, python-brace-format
+#~ msgid "{player} changed their color"
+#~ msgstr "{player} har ändrat sin färg"
+
+#~ msgid "Kicked"
+#~ msgstr "Sparkad"
+
+#~ msgid "You have been kicked from the game by creator"
+#~ msgstr "Du har sparkats från spelet av skaparen"
+
+#, python-brace-format
+#~ msgid "{player} got kicked by creator"
+#~ msgstr "{player} har sparkats av skaparen"
+
+#~ msgid "Are you sure you want to abort the running session?"
+#~ msgstr "Är du säker att du vill avbryta den pågående sessionen?"
+
+#~ msgid "Quit Session"
+#~ msgstr "Avsluta sessionen"
+
+#~ msgid "No saved games"
+#~ msgstr "Inga sparade spel"
+
+#~ msgid "There are no saved games to load."
+#~ msgstr "Det finns inga sparade spel att läsa in."
+
+#~ msgid "No filename given"
+#~ msgstr "Inget filnamn angavs"
+
+#~ msgid "Please enter a valid filename."
+#~ msgstr "Ange ett giltigt filnamn."
+
+#, python-brace-format
+#~ msgid "A savegame with the name {name} already exists."
+#~ msgstr "Det finns redan ett sparat spel med namnet {name}."
+
+#, python-brace-format
+#~ msgid "A map with the name {name} already exists."
+#~ msgstr "Det finns redan en karta med namnet '{name}'."
+
+# Translated "would you like to save anyway?"
+#~ msgid "Overwrite it?"
+#~ msgstr "Vill du spara ändå?"
+
+#, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "Sparades {time}"
+
+#, python-brace-format
+#~ msgid "Saved {amount} time"
+#~ msgid_plural "Saved {amount} times"
+#~ msgstr[0] "Sparat {amount} gång"
+#~ msgstr[1] "Sparat {amount} gånger"
+
+#, python-brace-format
+#~ msgid "Savegame version {version}"
+#~ msgstr "Sparad version: {version}"
+
+#~ msgid "(probably incompatible)"
+#~ msgstr "(eventuellt inkompatibel)"
+
+#~ msgid "Incompatible version"
+#~ msgstr "Inkompatibel version"
+
+#~ msgid "No file selected"
+#~ msgstr "Ingen fil vald"
+
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr "Du måste välja ett sparat spel för att radera."
+
+#, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "Är du säker på att du vill radera det sparade spelet '{name}'?"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "Bekräfta borttagningen"
+
+#~ msgid "Error!"
+#~ msgstr "Fel!"
+
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "Misslyckades att radera sparat spel!"
+
+#~ msgid "Game"
+#~ msgstr "Spel"
+
+#~ msgid "Disabled"
+#~ msgstr "Avstängd"
+
+#~ msgid "Restart required"
+#~ msgstr "Omstart krävs"
+
+#~ msgid ""
+#~ "Some of your changes require a restart of Unknown Horizons. Do you want "
+#~ "to restart Unknown Horizons now?"
+#~ msgstr ""
+#~ "Några av dina ändringar kräver att Unknown Horizons startas om. Vill du "
+#~ "starta om Unknown Horizons nu?"
+
+#~ msgid "Restore default settings"
+#~ msgstr "Återställ standardinställningar"
+
+#~ msgid ""
+#~ "Restoring the default settings will delete all changes to the settings "
+#~ "you made so far."
+#~ msgstr ""
+#~ "Att återställa till standardinställningar kommer att ta bort alla "
+#~ "ändringar du har gjort i inställningar."
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "Vill du fortsätta?"
+
+#~ msgid "Invalid network port"
+#~ msgstr "Ogiltig nätverksport"
+
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr ""
+#~ "Porten du specificerade är inte giltig. Det måste vara ett tal mellan 1 "
+#~ "och 65535."
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it is in the specified "
+#~ "range."
+#~ msgstr ""
+#~ "Kontrollera att porten du skrev in är inom den specificerade räckvidden."
+
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "Det gick inte att tillämpa de nya nätverksinställningarna."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special access privileges, try 0 or a "
+#~ "number greater than 1024."
+#~ msgstr ""
+#~ "Låga portnummer behöver ibland speciella rättigheter för att användas, "
+#~ "prova 0 eller ett högre värde än 1024."
+
+#~ msgid "Invalid player name"
+#~ msgstr "Ogiltigt spelarnamn"
+
+#~ msgid "You entered an invalid playername."
+#~ msgstr "Du angav ett ogiltigt spelarnamn."
+
+#~ msgid "Map size:"
+#~ msgstr "Kartans storlek:"
+
+#~ msgid "Water:"
+#~ msgstr "Vatten:"
+
+#~ msgid "Max island size:"
+#~ msgstr "Maximal storlek på öar:"
+
+#~ msgid "Preferred island size:"
+#~ msgstr "Föredragen storlek på öar:"
+
+#~ msgid "Island size deviation:"
+#~ msgstr "Avvikelse på östorlek:"
+
+#~ msgid "Click to generate a different random map"
+#~ msgstr "Klicka för att skapa en ny slumpmässig karta"
+
+#~ msgid "Invalid scenario file"
+#~ msgstr "Ogiltig scenariofil"
+
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "Den valda filen är inte en giltig scenariofil."
+
+#~ msgid "Error message:"
+#~ msgstr "Felmeddelande:"
+
+#~ msgid "Please report this to the author."
+#~ msgstr "Vänligen rapportera detta till upphovsmannen."
+
+#, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "Svårighetsgrad: {difficulty}"
+
+#, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "Upphovsman: {author}"
+
+#, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "Beskrivning: {desc}"
+
+#, python-brace-format
+#~ msgid "Build {building}"
+#~ msgstr "Bygg {building}"
+
+#~ msgid "Press H to remove this hint"
+#~ msgstr "Tryck H för att ta bort detta tips"
+
+#~ msgid "Destroy all buildings"
+#~ msgstr "Förstör alla byggnader"
+
+#~ msgid ""
+#~ "This will destroy all the buildings that fall outside of the settlement "
+#~ "range."
+#~ msgstr ""
+#~ "Detta kommer att förstöra alla byggnader som står utanför kolonins område."
+
+#, python-format
+#~ msgid "%s additional building will be destroyed."
+#~ msgid_plural "%s additional buildings will be destroyed"
+#~ msgstr[0] "%s ytterligare byggnad kommer att förstöras."
+#~ msgstr[1] "%s ytterligare byggnader kommer att förstöras"
+
+# Mellanslag, bindesstreck eller utan genitiv?
+#~ msgid "Barracks overview"
+#~ msgstr "Baracköversikt"
+
+#~ msgid "Swordman"
+#~ msgstr "Fäktare"
+
+#~ msgid "Overview"
+#~ msgstr "Översikt"
+
+#, python-brace-format
+#~ msgid "{ship} (place in queue: {place})"
+#~ msgstr "{ship} (plats i kön: {place})"
+
+#~ msgid "Boat builder overview"
+#~ msgstr "Båtbyggnadsöversikt"
+
+#~ msgid "Fisher boats"
+#~ msgstr "Fiskebåtar"
+
+#~ msgid "Trade boats"
+#~ msgstr "Handelsbåtar"
+
+#~ msgid "War boats"
+#~ msgstr "Krigsbåtar"
+
+#~ msgid "War ships"
+#~ msgstr "Krigsfartyg"
+
+#~ msgid "Tower overview"
+#~ msgstr "Torn översikt"
+
+#~ msgid "Build related buildings"
+#~ msgstr "Bygg relaterade byggnader"
+
+#~ msgid "Click on one of the resource slots to add a trade offer."
+#~ msgstr "Tryck på en av resursplatserna för att lägga ett handelserbjudande."
+
+#~ msgid ""
+#~ "Set to buy or sell by clicking on that label, then adjust the amount via "
+#~ "the slider to the right."
+#~ msgstr ""
+#~ "Ställ in köp eller sälj genom att klicka på etiketten och justera sedan "
+#~ "mängden genom att dra reglaget till höger."
+
+#, python-brace-format
+#~ msgid ""
+#~ "Will sell {resource_name} for {price} gold/t whenever more than {limit}t "
+#~ "are available."
+#~ msgstr ""
+#~ "Kommer att sälja {resource_name} för {price} guld/t när mer än {limit}t "
+#~ "finns tillgängligt."
+
+# Mellanslag, bindesstreck eller utan genitiv?
+#~ msgid "Warehouse overview"
+#~ msgstr "Packhus översikt"
+
+#~ msgid "Main square overview"
+#~ msgstr "Torgöversikt"
+
+#~ msgid "Upgrade not possible:"
+#~ msgstr "Uppgradering inte möjlig:"
+
+#~ msgid "This is the highest playable tier for now!"
+#~ msgstr "Detta är den högst spelbara nivån just nu!"
+
+#~ msgid "Don't allow upgrades"
+#~ msgstr "Tillåt inte uppgraderingar"
+
+#~ msgid "Allow upgrades"
+#~ msgstr "Tillåt uppgraderingar"
+
+#~ msgid "Unit overview"
+#~ msgstr "Enhetsöversikt"
+
+#, python-brace-format
+#~ msgid "Fill range with {how_many} trees"
+#~ msgstr "Fyll arean med {how_many} träd"
+
+#~ msgid "Selected Units"
+#~ msgstr "Valda Enheter"
+
+#~ msgid "Ship overview"
+#~ msgstr "Fartygsöversikt"
+
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr ""
+#~ "Fartyget måste vara i närheten av en ö för att skapa en ny bosättning."
+
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "Du har redan en bosättning på den här ön."
+
+#~ msgid "Load/Unload"
+#~ msgstr "Lasta/Lasta av"
+
+#~ msgid "Too far from the nearest tradeable warehouse"
+#~ msgstr "För långt bort från närmaste handelsaktiverad varuhus"
+
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "Kan inte bestycka handelsfartyg med vapen"
+
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "Det är inte möjligt att bestycka ett handelsfartyg med vapen."
+
+#~ msgid "Equip weapon"
+#~ msgstr "Bestycka vapen"
+
+#~ msgid "Unequip weapon"
+#~ msgstr "Avbestycka vapen"
+
+#, python-brace-format
+#~ msgid "{resource_name}: {price} gold"
+#~ msgstr "{resource_name}: {price} guld"
+
+#, python-brace-format
+#~ msgid "buy for {buyprice} gold"
+#~ msgstr "köp för {buyprice} guld"
+
+#, python-brace-format
+#~ msgid "sell for {sellprice} gold"
+#~ msgstr "sälj för {sellprice} guld"
+
+#, python-brace-format
+#~ msgid "{stored}/{limit}"
+#~ msgstr "{stored}/{limit}"
+
+#, python-brace-format
+#~ msgid "Limit: {amount}t per slot"
+#~ msgstr "Gräns: {amount}t per plats"
+
+#~ msgid "Logbook"
+#~ msgstr "Loggbok"
+
+# Rubriken när loggboken är tom. Något bättre alternativ?
+#~ msgid "Emptiness"
+#~ msgstr "Tomhet"
+
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "Det finns inget skrivet i din loggbok ännu!"
+
+#, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "Bosättningar av {player}"
+
+#, python-brace-format
+#~ msgid "Ships of {player}"
+#~ msgstr "Fartyg av {player}"
+
+#~ msgid "N/A"
+#~ msgstr "Inte tillgänglig"
+
+#, python-brace-format
+#~ msgid "Production overview of {settlement}"
+#~ msgstr "Produktionsöversikt över {settlement}"
+
+#~ msgid "Click to show statistics"
+#~ msgstr "Tryck för att visa statistik"
+
+#~ msgid "Click to add a new slot"
+#~ msgstr "Klicka för att lägga till ny plats"
+
+#~ msgid "Reset this configuration to the factory default."
+#~ msgstr "Återställ denna konfiguration till fabriksinställningarna."
+
+#~ msgid ""
+#~ "Reset this settlement's displayed resources to the default configuration "
+#~ "you have saved."
+#~ msgstr ""
+#~ "Återställ denna bosättnings resurser till standardkonfigurationen du "
+#~ "sparat."
+
+#~ msgid ""
+#~ "Reset the default configuration (which you see here) to the factory "
+#~ "default for all settlements."
+#~ msgstr ""
+#~ "Återställ standardkonfigurationen (vilket du ser här) till "
+#~ "fabriksstandard för alla kolonier."
+
+#~ msgid "Buy expenses"
+#~ msgstr "Utgifter"
+
+#~ msgid "Sell income"
+#~ msgstr "Säljer"
+
+#~ msgid "Stop route"
+#~ msgstr "Stoppa rutt"
+
+#~ msgid "Need at least two settlements"
+#~ msgstr "Behöver minst två bosättningar"
+
+#~ msgid "You need at least two different settlements in your route."
+#~ msgstr "Du behöver minst två bosättningar i din rutt."
+
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "Klicka på en bosättning för att lägga till en vägpunkt!"
+
+#~ msgid "Loading into ship"
+#~ msgstr "Lasta på fartyget"
+
+#~ msgid "Unloading from ship"
+#~ msgstr "Avlasta från fartyget"
+
+#~ msgid "You are not allowed to trade with this player"
+#~ msgstr "Du är inte tillåten att göra affärer med denna spelare"
+
+#, python-brace-format
+#~ msgid "{weapon}: {amount}"
+#~ msgstr "{weapon}: {amount}"
+
+#~ msgid "none"
+#~ msgstr "ingen"
+
+#, python-brace-format
+#~ msgid "Details: {error_details}"
+#~ msgstr "Detaljer: {error_details}"
+
+#, python-brace-format
+#~ msgid "Error: {error_message}"
+#~ msgstr "Felmeddelande: {error_message}"
+
+#~ msgid "Bakery"
+#~ msgstr "Bageri"
+
+#~ msgid "Barracks"
+#~ msgstr "Baracker"
+
+#~ msgid "Wooden barrier"
+#~ msgstr "Träbarriär"
+
+#~ msgid "Clay wall"
+#~ msgstr "Lervägg"
+
+#~ msgid "Blender"
+#~ msgstr "Blender"
+
+#~ msgid "Boat Builder"
+#~ msgstr "Båtbyggare"
+
+#~ msgid "Brewery"
+#~ msgstr "Bryggeri"
+
+#~ msgid "Brickyard"
+#~ msgstr "Tegelbruk"
+
+#~ msgid "Butchery"
+#~ msgstr "Slakteri"
+
+#~ msgid "Cannon Foundry"
+#~ msgstr "Kanongjuteri"
+
+#~ msgid "Charcoal Burning"
+#~ msgstr "Kolmila"
+
+#~ msgid "Clay Deposit"
+#~ msgstr "Lerfyndighet"
+
+#~ msgid "Clay Pit"
+#~ msgstr "Lertäkt"
+
+#~ msgid "Distillery"
+#~ msgstr "Bränneri"
+
+#~ msgid "Doctor"
+#~ msgstr "Läkare"
+
+#~ msgid "Farm"
+#~ msgstr "Gård"
+
+#~ msgid "Alvearies"
+#~ msgstr "Biodling"
+
+#~ msgid "Cattle Run"
+#~ msgstr "Nötkreatursinhägnad"
+
+#~ msgid "Cocoa Field"
+#~ msgstr "Kakao-odling"
+
+#~ msgid "Corn Field"
+#~ msgstr "Majsodling"
+
+#~ msgid "Herbary"
+#~ msgstr "Örtagård"
+
+#~ msgid "Hop Field"
+#~ msgstr "Humlefält"
+
+#~ msgid "Pasture"
+#~ msgstr "Betesmark"
+
+#~ msgid "Pigsty"
+#~ msgstr "Svinstia"
+
+#~ msgid "Potato Field"
+#~ msgstr "Potatisfält"
+
+#~ msgid "Spice Field"
+#~ msgstr "Kryddodling"
+
+#~ msgid "Sugar Field"
+#~ msgstr "Sockerrörsodling"
+
+#~ msgid "Tobacco Field"
+#~ msgstr "Tobaksfält"
+
+#~ msgid "Vineyard"
+#~ msgstr "Vingård"
+
+#~ msgid "Fire Station"
+#~ msgstr "Brandstation"
+
+#~ msgid "Fish Deposit"
+#~ msgstr "Fiskfyndighet"
+
+#~ msgid "Fisherman's Tent"
+#~ msgstr "Fiskarbod"
+
+# hunter och hunters tent syftar till samma byggnad/yrke. Allt heter Jägare
+#~ msgid "Hunter's Tent"
+#~ msgstr "Jägare"
+
+# Byggnad finns inte ännu. Tror det är byggnaden som syftas till.
+#~ msgid "Lookout"
+#~ msgstr "Utkiksplats"
+
+#~ msgid "Lumberjack Hut"
+#~ msgstr "Skogshuggarhydda"
+
+#~ msgid "Main Square"
+#~ msgstr "Marknadsplats"
+
+#~ msgid "Mine"
+#~ msgstr "Gruva"
+
+#~ msgid "Mountain"
+#~ msgstr "Berg"
+
+#~ msgid "Pastry Shop"
+#~ msgstr "Konditori"
+
+#~ msgid "Pavilion"
+#~ msgstr "Paviljong"
+
+#~ msgid "Ruined Tent"
+#~ msgstr "Förstört tält"
+
+#~ msgid "Salt Ponds"
+#~ msgstr "Saliner"
+
+#~ msgid "Signal Fire"
+#~ msgstr "Signalbrand"
+
+#~ msgid "Smeltery"
+#~ msgstr "Smältverk"
+
+#~ msgid "Stone Deposit"
+#~ msgstr "Stenfyndighet"
+
+#~ msgid "Stonemason"
+#~ msgstr "Stenhuggare"
+
+#~ msgid "Carver"
+#~ msgstr "Skulptör"
+
+#~ msgid "Stone Pit"
+#~ msgstr "Stengrop"
+
+#~ msgid "Storage Tent"
+#~ msgstr "Förvaringstält"
+
+#~ msgid "Storage Hut"
+#~ msgstr "Lagerhydda"
+
+#~ msgid "Tavern"
+#~ msgstr "Taverna"
+
+#~ msgid "Hut"
+#~ msgstr "Hydda"
+
+#~ msgid "Stone house"
+#~ msgstr "Stenhus"
+
+#~ msgid "Estate"
+#~ msgstr "Villa"
+
+#~ msgid "Manor"
+#~ msgstr "Herrgård"
+
+#~ msgid "Tobacconist"
+#~ msgstr "Tobakshandlare"
+
+#~ msgid "Toolmaker"
+#~ msgstr "Verktygsmakare"
+
+#~ msgid "Trail"
+#~ msgstr "Gångstig"
+
+#~ msgid "Gravel Path"
+#~ msgstr "Grusstig"
+
+#~ msgid "Cobblestone Street"
+#~ msgstr "Kullerstensgata"
+
+#~ msgid "Tree"
+#~ msgstr "Träd"
+
+# Kallas endast skola?
+#~ msgid "Village School"
+#~ msgstr "Byskola"
+
+#~ msgid "Warehouse"
+#~ msgstr "Packhus"
+
+#~ msgid "Weaponsmith"
+#~ msgstr "Vapensmed"
+
+# Eg. Vävaretält. jämför weaver description. Byggnaden är inte ens ett tält, snarare en hydda.
+#~ msgid "Weaver's Hut"
+#~ msgstr "Vävarhydda"
+
+#~ msgid "Windmill"
+#~ msgstr "Väderkvarn"
+
+#~ msgid "Winery"
+#~ msgstr "Vingård"
+
+#~ msgid "Wooden Tower"
+#~ msgstr "Trätorn"
+
+#~ msgid "Failed to start/load the game"
+#~ msgstr "Misslyckades med att starta/läsa in spelet"
+
+#~ msgid "The game you selected could not be started."
+#~ msgstr "Spelet som du valde kunde inte startas."
+
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr ""
+#~ "Det sparade spelet kan vara trasigt eller blivit sparat av en tidigare "
+#~ "version."
+
+#~ msgid "No quicksaves found"
+#~ msgstr "Inga snabbsparade spel hittade"
+
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr "Du behöver snabbspara innan du kan snabbinläsa."
+
+#~ msgid "Logging enabled"
+#~ msgstr "Loggning aktiverad"
+
+#, python-brace-format
+#~ msgid "Logs are written to {directory}."
+#~ msgstr "Loggarna är skrivna till {directory}."
+
+#~ msgid ""
+#~ "The games have run out of sync. This indicates an unknown internal error, "
+#~ "the game cannot continue."
+#~ msgstr ""
+#~ "Spelet är osynkroniserat. Detta indikerar ett okänt internt problem, "
+#~ "spelet kan inte fortsätta."
+
+#~ msgid ""
+#~ "We are very sorry and hope to have this bug fixed in a future version."
+#~ msgstr "Vi beklagar och hoppas att ha fixat denna bug i framtida versioner."
+
+#~ msgid "Not possible"
+#~ msgstr "Inte möjligt"
+
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr "Spara/läsa in spel med flera spelare är ännu inte möjligt"
+
+#~ msgid ""
+#~ "The filename must consist only of letters, numbers, spaces and these "
+#~ "characters: _ . -"
+#~ msgstr ""
+#~ "Filnamnet får endast innehålla bokstäver, nummer, mellanslag samt dessa "
+#~ "symboler: _ . -"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "Kunde inte ansluta till servern."
+
+#~ msgid "Maybe invalid or irresolvable server address."
+#~ msgstr "Eventuellt felaktig eller ej nåbar serveradress."
+
+#~ msgid "Not Ready"
+#~ msgstr "Inte redo"
+
+#~ msgid ""
+#~ "Old or unsupported multiplayer protocol. Please check your game version"
+#~ msgstr ""
+#~ "Gammalt flerspelarprotokoll eller så stöds det inte. Vänligen kontrollera "
+#~ "spelets version"
+
+#~ msgid "You've exceeded the global packet size."
+#~ msgstr "Du har överskridit den globala paketstorleken."
+
+#~ msgid "This should never happen. Please contact us or file a bug report."
+#~ msgstr ""
+#~ "Detta ska inte hända. Vänligen och kontakta oss eller lämna in en "
+#~ "felrapport."
+
+#~ msgid "You've exceeded the per packet size."
+#~ msgstr "Du har överskridit storleken per paket."
+
+#~ msgid "Unknown or malformed packet. Please check your game version"
+#~ msgstr "Okänt eller felaktigt paket. Vänligen kontrollera din spelversion"
+
+#~ msgid "Invalid/Unknown session"
+#~ msgstr "Ogiltig/okänd session"
+
+#~ msgid "You can't join a game while in another game"
+#~ msgstr "Du kan inte gå med i ett spel medan du är i ett annat spel"
+
+#~ msgid "Unknown game or game is running a different version"
+#~ msgstr "Okänt spel eller så kör spelet en annorlunda version"
+
+#~ msgid "Game has already started. No more joining"
+#~ msgstr "Spelet är redan igång. Inga fler anslutningar"
+
+#~ msgid "Game is full"
+#~ msgstr "Spelet är fullt"
+
+#~ msgid "Wrong password"
+#~ msgstr "Fel lösenord"
+
+#~ msgid "There's already a player with your name inside this game."
+#~ msgstr "Det finns redan en spelare med ditt namn i detta spel."
+
+#~ msgid "Please change your name."
+#~ msgstr "Vänligen ändra ditt namn."
+
+#~ msgid "There's already a player with your color inside this game."
+#~ msgstr "Det finns redan en spelare med din färg i detta spel."
+
+#~ msgid "Please change your color."
+#~ msgstr "Vänligen ändra din färg."
+
+#~ msgid ""
+#~ "There's already a player with your unique player ID inside this game. "
+#~ "This should never occur."
+#~ msgstr ""
+#~ "Det finns redan en spelare med ditt unika spelar-ID i detta spel. Detta "
+#~ "ska inte inträffa."
+
+#~ msgid "You are not inside a game"
+#~ msgstr "Du är inte i något spel"
+
+#~ msgid "Unable to change your name."
+#~ msgstr "Det gick inte att ändra ditt namn."
+
+#~ msgid "Unable to change your color."
+#~ msgstr "Det gick inte att ändra din färg."
+
+#~ msgid "You can't fetch a game while in another game"
+#~ msgstr "Du kan inte hämta ett spel medan du deltar i ett annat spel"
+
+#~ msgid "The game has been terminated. The creator has left the game."
+#~ msgstr "Spelet har avbrutits. Skaparen har lämnat spelet."
+
+#~ msgid ""
+#~ "One player has terminated their game. For technical reasons, this "
+#~ "currently means the game cannot continue. We are very sorry about that."
+#~ msgstr ""
+#~ "En spelare har avslutat sitt spel. Av tekniska skäl innebär detta att det "
+#~ "nuvarande spelet inte kan fortsätta. Vi beklagar detta."
+
+# eller segrat?
+#~ msgid "You have won!"
+#~ msgstr "Du har vunnit!"
+
+#~ msgid "You have completed this scenario."
+#~ msgstr "Du har avklarat det här scenariot."
+
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "Vill du fortsätta spela?"
+
+#~ msgid "unknown"
+#~ msgstr "okänd"
+
+#~ msgid "Failed to create savegame file"
+#~ msgstr "Misslyckades med att skapa en fil att spara på"
+
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr "Det uppstod ett fel när du försökte skapa en fil att spara på."
+
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr "Detta kan bero på att filnamnet innehåller tecken som inte stöds."
+
+#~ msgid "Access is denied"
+#~ msgstr "Åtkomst nekad"
+
+#~ msgid "The savegame file could be read-only or locked by another process."
+#~ msgstr "Det här området är redan upptaget av en annan spelare."
+
+#~ msgid "Your game has not been saved."
+#~ msgstr "Ditt spel har inte sparats."
+
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "Ny version av Unknown Horizons"
+
+#, python-brace-format
+#~ msgid ""
+#~ "There is a more recent release of Unknown Horizons ({new_version}) than "
+#~ "the one you are currently using ({old_version})."
+#~ msgstr ""
+#~ "Det finns en nyare version av Unknown Horizons ({new_version}) än den du "
+#~ "använder ({old_version})."
+
+#~ msgid "Click to download"
+#~ msgstr "Klicka för att hämta"
+
+#~ msgid "A page has been opened in your browser."
+#~ msgstr "En sida har öppnats i din webbläsare."
+
+#, python-brace-format
+#~ msgid "{slotnum} slots, {limit}t"
+#~ msgstr "{slotnum} platser, {limit}t"
+
+#, python-brace-format
+#~ msgid "Health: {health}"
+#~ msgstr "Hälsa: {health}"
+
+#, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}: {description}"
+
+#~ msgid "This building must be built on an island."
+#~ msgstr "Den här byggnaden måste byggas på en ö."
+
+#~ msgid "This ground is not suitable for this building."
+#~ msgstr "Den här marken är inte lämplig för den här byggnaden."
+
+#~ msgid "This building has to be built within your settlement."
+#~ msgstr "Den här byggnaden måste byggas inom din bosättning."
+
+#~ msgid "This area is already occupied by another player."
+#~ msgstr "Det här området är redan upptaget av en annan spelare."
+
+#~ msgid "This area is already occupied by another building."
+#~ msgstr "Det här området är redan upptaget av en annan byggnad."
+
+#~ msgid "This area is already occupied by a unit."
+#~ msgstr "Det här området är redan upptaget av en enhet."
+
+#~ msgid "This building must be built on the coastline."
+#~ msgstr "Den här byggnaden måste byggas längsmed kusten."
+
+#~ msgid "This building has to be placed at the ocean."
+#~ msgstr "Den här byggnaden måste placeras i havet."
+
+#~ msgid "This spot is too far away from your ship."
+#~ msgstr "Denna plats är för långt ifrån ditt skepp."
+
+#~ msgid "This building can only be built on a resource source."
+#~ msgstr "Den här byggnaden kan endast byggas på en resurskälla."
+
+#~ msgid "You have already settled this island."
+#~ msgstr "Du har redan bosatt den här ön."
+
+#~ msgid "This building must be partly on flat land."
+#~ msgstr "Den här byggnaden vara på delvist platt land."
+
+#~ msgid "The inhabitants are infected by the Black Death!"
+#~ msgstr "Invånarna är infekterade av digerdöden!"
+
+#~ msgid "This building is on fire!"
+#~ msgstr "Den här byggnaden brinner!"
+
+#~ msgid "These residents are unhappy."
+#~ msgstr "Dessa invånare är olyckliga."
+
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "Dessa invånare har inte tillgång till ett torg."
+
+#~ msgid "The inventory of this building is full."
+#~ msgstr "Lagret är fullt i den här byggnaden."
+
+#~ msgid "This building has a very low productivity."
+#~ msgstr "Den här byggnaden har en väldigt låg produktivitet."
+
+#~ msgid "This building is decommissioned."
+#~ msgstr "Denna byggnad är ur bruk."
+
+#, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "Handelsrutt: på väg mot {location}"
+
+#, python-brace-format
+#~ msgid "Trade route: waiting at {position}"
+#~ msgstr "Handelsrutt: stannar vid {position}"
+
+#, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "På väg mot {location}"
+
+#, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "På väg mot {x}, {y}"
+
+#, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "Inaktiv vid {location}"
+
+#, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "Inaktiv vid {x}, {y}"
+
+#~ msgid "Trader"
+#~ msgstr "Köpman"
+
+#, python-brace-format
+#~ msgid "Attacking {target} '{name}' ({owner})"
+#~ msgstr "Attackerar {target} '{name}' ({owner})"
+
+#, python-brace-format
+#~ msgid "Attacking {owner}"
+#~ msgstr "Attackerar {owner}"
+
+#~ msgid "Your game has been autosaved."
+#~ msgstr "Ditt spel har autosparats."
+
+#~ msgid "Your building has caught fire!"
+#~ msgstr "Din byggnad har börjat brinna!"
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}: {message}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "{player1} and {player2} have ended their alliance and are now in a state "
+#~ "of war."
+#~ msgstr "{player1} och {player2} har förklarat krig mot varandra."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have terminated their alliance."
+#~ msgstr "{player1} och {player2} har avslutat sin allians."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have ended the war and are now allied."
+#~ msgstr "{player1} och {player2} har slutit fred och är nu allierade."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have settled their hostility."
+#~ msgstr "{player1} och {player2} har avslutat deras fientlighet."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have allied their forces."
+#~ msgstr "{player1} och {player2} är nu allierade."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} will fight each other to the death."
+#~ msgstr "{player1} och {player2} kommer att slåss till döden."
+
+#~ msgid "You can also drag roads."
+#~ msgstr "Du kan också dra vägar."
+
+#~ msgid "One of your fields requires a farm to harvest its crops."
+#~ msgstr "Ett av dina fält kräver en farm för att kunna skörda."
+
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "Din gruva har sinat."
+
+#~ msgid ""
+#~ "You have reached the current maximum tier. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Du har nått den nuvarande högsta nivån. Dina invånare kommer inte att "
+#~ "uppgradera ytterligare."
+
+#~ msgid "Cannot go here."
+#~ msgstr "Kan inte gå hit."
+
+#~ msgid "Your crew refuses to leave this map."
+#~ msgstr "Din besättning vägrar lämna denna karta."
+
+#, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "Du behöver mer {resource} för att kunna bygga denna byggnad."
+
+#, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "En ny bosättning har grundats av {player}."
+
+#, python-brace-format
+#~ msgid "A new ship by the name of {name} has been created."
+#~ msgstr "Ett nytt skepp med namnet {name} har skapats."
+
+#, python-brace-format
+#~ msgid "The Soldier by the name of {name} is ready to battle."
+#~ msgstr "Soldaten med namnet {name} är redo att slåss."
+
+#, python-brace-format
+#~ msgid "The inhabitant by the name of {name} is available."
+#~ msgstr "Invånaren med namnet {name} är tillgänglig."
+
+#~ msgid "A new world has been created."
+#~ msgstr "En ny värld har skapats."
+
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "Några av dina invånare har kan inte ta sig till torget."
+
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "Ditt spel har snabbsparats."
+
+#~ msgid ""
+#~ "The route is now configured. Start it via the \"start route\" button in "
+#~ "the \"configure route\" menu."
+#~ msgstr ""
+#~ "Rutten är nu klar. Starta den via \"starta rutt\"-knappen i \"konfigurera "
+#~ "rutt\"-menyn."
+
+#~ msgid "Your game has been saved."
+#~ msgstr "Ditt spel har sparats."
+
+#, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "Skärmdump har sparats till {file}."
+
+#, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "Dina invånare har nått level {level}."
+
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "Några av dina invånare har precis flyttat ut."
+
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr "Du kan inte rasera ditt lager, din bosättning behöver den."
+
+#~ msgid "You won!"
+#~ msgstr "Du vann!"
+
+#~ msgid "You failed the scenario."
+#~ msgstr "Du misslyckades med scenariot."
+
+#~ msgid "The inhabitants of this building are infected by the Black Death!"
+#~ msgstr "Invånarna av denna byggnad är infekterade av digerdöden!"
+
+#~ msgid "coins"
+#~ msgstr "mynt"
+
+#~ msgid "lamb wool"
+#~ msgstr "lammull"
+
+#~ msgid "textile"
+#~ msgstr "tyg"
+
+#~ msgid "boards"
+#~ msgstr "trä"
+
+#~ msgid "food"
+#~ msgstr "föda"
+
+#~ msgid "tools"
+#~ msgstr "verktyg"
+
+#~ msgid "bricks"
+#~ msgstr "tegel"
+
+#~ msgid "trees"
+#~ msgstr "träd"
+
+#~ msgid "grass"
+#~ msgstr "gräs"
+
+#~ msgid "wool"
+#~ msgstr "ull"
+
+#~ msgid "faith"
+#~ msgstr "tro"
+
+#~ msgid "deer food A"
+#~ msgstr "rådjursmat A"
+
+#~ msgid "deer meat"
+#~ msgstr "rådjurskött"
+
+#~ msgid "happiness"
+#~ msgstr "lycka"
+
+#~ msgid "potatoes"
+#~ msgstr "potatis"
+
+#~ msgid "education"
+#~ msgstr "utbildning"
+
+#~ msgid "sugar cane"
+#~ msgstr "sockerrör"
+
+#~ msgid "sugar"
+#~ msgstr "socker"
+
+#~ msgid "community"
+#~ msgstr "gemenskap"
+
+#~ msgid "clay deposit"
+#~ msgstr "lerfyndighet"
+
+#~ msgid "clay"
+#~ msgstr "lera"
+
+#~ msgid "liquor"
+#~ msgstr "sprit"
+
+#~ msgid "charcoal"
+#~ msgstr "träkol"
+
+#~ msgid "iron deposit"
+#~ msgstr "järnfyndighet"
+
+#~ msgid "iron ore"
+#~ msgstr "järnmalm"
+
+#~ msgid "iron ingots"
+#~ msgstr "järntackor"
+
+#~ msgid "get-together"
+#~ msgstr "sammankomst"
+
+#~ msgid "fish"
+#~ msgstr "fisk"
+
+#~ msgid "salt"
+#~ msgstr "salt"
+
+#~ msgid "tobacco plants"
+#~ msgstr "tobaksplantor"
+
+#~ msgid "tobacco leaves"
+#~ msgstr "tobaksblad"
+
+#~ msgid "tobaccos"
+#~ msgstr "tobak"
+
+#~ msgid "cattle"
+#~ msgstr "nötkreatur"
+
+#~ msgid "pigs"
+#~ msgstr "grisar"
+
+#~ msgid "cattle for slaughter"
+#~ msgstr "nötkreatur för slakt"
+
+#~ msgid "pigs for slaughter"
+#~ msgstr "grisar för slakt"
+
+#~ msgid "herbs"
+#~ msgstr "örter"
+
+#~ msgid "medical herbs"
+#~ msgstr "medicinska örter"
+
+#~ msgid "acorns"
+#~ msgstr "ekollon"
+
+#~ msgid "cannon"
+#~ msgstr "kanon"
+
+#~ msgid "sword"
+#~ msgstr "svärd"
+
+#~ msgid "grain"
+#~ msgstr "korn"
+
+#~ msgid "corn"
+#~ msgstr "majs"
+
+#~ msgid "flour"
+#~ msgstr "mjöl"
+
+#~ msgid "spice plants"
+#~ msgstr "kryddväxter"
+
+#~ msgid "spices"
+#~ msgstr "kryddor"
+
+#~ msgid "condiments"
+#~ msgstr "kryddor"
+
+#~ msgid "marble deposit"
+#~ msgstr "marmorfyndighet"
+
+#~ msgid "marble tops"
+#~ msgstr "marmor toppar"
+
+#~ msgid "coal deposit"
+#~ msgstr "kolfyndighet"
+
+#~ msgid "stone deposit"
+#~ msgstr "stenfyndighet"
+
+#~ msgid "stone tops"
+#~ msgstr "sten toppar"
+
+#~ msgid "cocoa beans"
+#~ msgstr "kakaobönor"
+
+#~ msgid "cocoa"
+#~ msgstr "kakao"
+
+#~ msgid "confectionery"
+#~ msgstr "konfektyr"
+
+#~ msgid "candles"
+#~ msgstr "ljus"
+
+#~ msgid "vines"
+#~ msgstr "vinrankor"
+
+#~ msgid "grapes"
+#~ msgstr "druvor"
+
+#~ msgid "alvearies"
+#~ msgstr "biodling"
+
+#~ msgid "honeycombs"
+#~ msgstr "vaxkakor"
+
+#~ msgid "gold deposit"
+#~ msgstr "guldfyndighet"
+
+#~ msgid "gold ore"
+#~ msgstr "guldmalm"
+
+#~ msgid "gold ingots"
+#~ msgstr "guldtackor"
+
+#~ msgid "gem deposit"
+#~ msgstr "ädelstensfyndighet"
+
+#~ msgid "rough gems"
+#~ msgstr "grova ädelstenar"
+
+#~ msgid "gems"
+#~ msgstr "ädelstenar"
+
+#~ msgid "coffee plants"
+#~ msgstr "kaffeplantor"
+
+#~ msgid "coffee beans"
+#~ msgstr "kaffebönor"
+
+#~ msgid "coffee"
+#~ msgstr "kaffe"
+
+#~ msgid "tea plants"
+#~ msgstr "teplantor"
+
+#~ msgid "tea leaves"
+#~ msgstr "teblad"
+
+#~ msgid "tea"
+#~ msgstr "te"
+
+#~ msgid "flower meadows"
+#~ msgstr "blomsterängar"
+
+#~ msgid "blossoms"
+#~ msgstr "blommor"
+
+#~ msgid "brine deposit"
+#~ msgstr "saltvattenstillgång"
+
+#~ msgid "brine"
+#~ msgstr "saltvatten"
+
+#~ msgid "whales"
+#~ msgstr "valar"
+
+#~ msgid "ambergris"
+#~ msgstr "ambra"
+
+#~ msgid "lamp oil"
+#~ msgstr "lampolja"
+
+#~ msgid "cotton plants"
+#~ msgstr "bomullsplantor"
+
+#~ msgid "cotton"
+#~ msgstr "bomull"
+
+#~ msgid "indigo plants"
+#~ msgstr "indigoplantor"
+
+#~ msgid "indigo"
+#~ msgstr "indigo"
+
+#~ msgid "garments"
+#~ msgstr "klädesplagg"
+
+#~ msgid "perfume"
+#~ msgstr "parfym"
+
+#~ msgid "hop plants"
+#~ msgstr "humleplantor"
+
+#~ msgid "hops"
+#~ msgstr "humle"
+
+#~ msgid "beer"
+#~ msgstr "öl"
+
+#~ msgid "hygiene"
+#~ msgstr "hygien"
+
+#~ msgid "recreation"
+#~ msgstr "nöjen"
+
+#~ msgid "blackdeath"
+#~ msgstr "digerdöden"
+
+#~ msgid "fire"
+#~ msgstr "eld"
+
+#~ msgid "Aristocrats"
+#~ msgstr "Aristokrater"
+
+#~ msgid "Error: Unable to find required library \"PyYAML\"."
+#~ msgstr "Fel: Kunde inte hitta det nödvändiga paketet \"PyYAML\"."
+
+#~ msgid "PyYAML (a required library) is missing and needs to be installed."
+#~ msgstr "PyYAML (ett nödvändigt paket) saknas och måste installeras."
+
+#~ msgid "The Windows installer is available at http://pyyaml.org/wiki/PyYAML."
+#~ msgstr ""
+#~ "Windows-installeraren finns tillgänglig från http://pyyaml.org/wiki/"
+#~ "PyYAML."
+
+#~ msgid ""
+#~ "Linux users should find it using their package manager under the name "
+#~ "\"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Linux användrare kan hitta den i sin pakethanterare under namnet "
+#~ "\"pyyaml\" eller \"python-yaml\"."
+
+#~| msgid "Unit overview"
+#~ msgid "Groundunit overview"
+#~ msgstr "Marktruppsöverblick"
+
+#~ msgid "SDL is only meant as unsupported fallback and might cause problems!"
+#~ msgstr ""
+#~ "SDL är menat som ett säkerhetsreserv som är utan stöd och kan därför "
+#~ "innehålla problem!"
+
+#~ msgid "Used renderer:"
+#~ msgstr "Rendering:"
+
+#~ msgid "Warning"
+#~ msgstr "Varning"
+
+#~ msgid ""
+#~ "The SDL renderer is meant as a fallback solution only and has serious "
+#~ "graphical glitches. \n"
+#~ "\n"
+#~ "Use at own risk!"
+#~ msgstr ""
+#~ "SDL renderaren är endast tänkt som en reservlösning och har allvarliga "
+#~ "grafiska buggar. \n"
+#~ "Använd på egen risk!"
+
+#~ msgid "Increases the player's sight."
+#~ msgstr "Öker spelarens synfält."
+
+#~ msgid "dagger"
+#~ msgstr "kniv"
+
+#~ msgid "Back:"
+#~ msgstr "Backa:"
+
+#~ msgid "Leave:"
+#~ msgstr "Lämna:"
+
+#~ msgid "Main menu:"
+#~ msgstr "Huvudmenyn:"
+
+#~ msgid "Color depth:"
+#~ msgstr "Färgdjup:"
+
+#~ msgid "Apply"
+#~ msgstr "Använd"
+
+#~ msgid "Start game:"
+#~ msgstr "Starta spel:"
+
+#~ msgid "16 bit"
+#~ msgstr "16-bitar"
+
+#~ msgid "32 bit"
+#~ msgstr "32-bitar"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#, fuzzy
+#~ msgid "Resources needed:"
+#~ msgstr "Resurser som fortfarande behövs:"
+
+#~ msgid "The inhabitants of this building have the plague."
+#~ msgstr "Lagret är fullt i den här byggnaden."
+
+#~ msgid "Key bindings"
+#~ msgstr "Kortkommandon"
+
+#~ msgid "Hold to place multiple buildings"
+#~ msgstr "Håll ner för att placera flera byggnader"
+
+#~ msgid "[{key}] = {text}"
+#~ msgstr "[{key}] = {text}"
+
+#, fuzzy
+#~ msgid "Project Coordination"
+#~ msgstr "utbildning"
+
+#, fuzzy
+#~ msgid "Graphics Artists"
+#~ msgstr "Grafik"
+
+#, fuzzy
+#~ msgid "Patchers"
+#~ msgstr "Slakteri"
+
+#, fuzzy
+#~ msgid "Translators"
+#~ msgstr "Översättningsstatus:"
+
+#, fuzzy
+#~ msgid "Hosting Weblate"
+#~ msgstr "Loggning aktiverad"
+
+#, fuzzy
+#~ msgid "Spanish"
+#~ msgstr "Företag"
+
+#, fuzzy
+#~ msgid "Dutch"
+#~ msgstr "Slakteri"
+
+#, fuzzy
+#~ msgid "Chinese"
+#~ msgstr "vinrankor"
+
+#, fuzzy
+#~ msgid "Enter name:"
+#~ msgstr "Skriv nytt namn:"
+
+#~ msgid "Save the map"
+#~ msgstr "Spara kartan"
+
+#~ msgid "Toggle console on/off"
+#~ msgstr "Visa konsoll på/av"
+
+#~ msgid "Only show games with the same version:"
+#~ msgstr "Visa endast spel med samma version:"
+
+#~ msgid "Specify the path to FIFE root directory."
+#~ msgstr "Specifiera sökvägen till FIFE-rootkatalog."
+
+#~ msgid "Invalid filename given"
+#~ msgstr "Ogiltigt filnamn angavs"
+
+#~ msgid "Please select a savegame or click on cancel."
+#~ msgstr "Välj ett sparat spel eller klicka på avbryt."
+
+#~ msgid "Select a savegame"
+#~ msgstr "Välj ett sparat spel"
+
+#~ msgid "Error:"
+#~ msgstr "Fel:"
+
+#~ msgid "Windows users: There is currently no reasonable support for Windows."
+#~ msgstr ""
+#~ "Windows användare: Det finns för tillfället inget rimligt stöd för "
+#~ "Windows."
+
+#~ msgid ""
+#~ "This is not nice and we hope to offer a more convenient solution very "
+#~ "soon."
+#~ msgstr ""
+#~ "Detta är inte trevligt och vi hoppas att kunna erbjuda en mer praktisk "
+#~ "lösning väldigt snart."
+
+#~ msgid "Gold"
+#~ msgstr "Guld"
+
+# Översatt från tyska
+#~ msgid "Huker"
+#~ msgstr "Fiskebåt"
+
+#~ msgid "Cloth"
+#~ msgstr "Tyg"
+
+#~ msgid "Boards"
+#~ msgstr "Brädor"
+
+#~ msgid "Tools"
+#~ msgstr "Verktyg"
+
+#~ msgid "Frigate"
+#~ msgstr "Fregatt"
+
+#~ msgid "Build fields"
+#~ msgstr "Bygg fält"
+
+#~ msgid "1 resident"
+#~ msgstr "1 invånare"
+
+#~ msgid "2 residents"
+#~ msgstr "2 invånare"
+
+#~ msgid "3 residents"
+#~ msgstr "3 invånare"
+
+#~ msgid "4 residents"
+#~ msgstr "4 invånare"
+
+#~ msgid "5 residents"
+#~ msgstr "5 invånare"
+
+#, fuzzy
+#~ msgid "6 residents"
+#~ msgstr "2 invånare"
+
+#, fuzzy
+#~ msgid "7 residents"
+#~ msgstr "2 invånare"
+
+#, fuzzy
+#~ msgid "8 residents"
+#~ msgstr "2 invånare"
+
+#~ msgid "This is the current maximum increment!"
+#~ msgstr "Detta är det för tillfället högsta tillväxtsteget!"
+
+#~ msgid "Average happiness:"
+#~ msgstr "Genomsnittlig lycka:"
+
+# mest behövda resurs? Krockar med vara som används i andra delar av översättningen.
+#~ msgid "Most needed resource:"
+#~ msgstr "Mest behövda vara:"
+
+#~ msgid "Save as default"
+#~ msgstr "Spara som standard"
+
+#~ msgid "Restore default"
+#~ msgstr "Återställ standard"
+
+#~ msgid "Available Scenarios"
+#~ msgstr "Tillgängliga Scenarion"
+
+#~ msgid "Scenario description"
+#~ msgstr "Scenariobeskrivning"
+
+#~ msgid "Continue playing"
+#~ msgstr "Fortsätt spela"
+
+#~ msgid "Choose this scenario"
+#~ msgstr "Välj det här scenariot"
+
+# utvecklingsteam?
+#~ msgid "The FIFE and Unknown Horizons development teams"
+#~ msgstr "FIFE och Unknown Horizons utvecklingsteam"
+
+#~ msgid "Have fun."
+#~ msgstr "Ha roligt."
+
+#~ msgid "Attention please!"
+#~ msgstr "Vänligen uppmärksamma!"
+
+# Rätt översatt?
+#, fuzzy
+#~ msgid "Campaign"
+#~ msgstr "Kampanj"
+
+#~ msgid ""
+#~ "This means that changes in the file you specified will not apply to the "
+#~ "game directly."
+#~ msgstr ""
+#~ "Detta betyder att ändringar i filen du angav inte kommer att verkställas "
+#~ "i spelet direkt."
+
+#~ msgid "File used by another process"
+#~ msgstr "Filen används av en annan process"
+
+#~ msgid "FIFE was not found."
+#~ msgstr "FIFE kunde inte hittas."
+
+#~ msgid "Build related fields"
+#~ msgstr "Bygg besläktade fält"
+
+#~ msgid "Log"
+#~ msgstr "Logg"
+
+#~ msgid "The game you selected couldn't be started."
+#~ msgstr "Det valda spelet kunde inte startas."
+
+#~ msgid "aristocrat"
+#~ msgstr "aristokrat"
+
+#~ msgid "citizen"
+#~ msgstr "medborgare"
+
+# merchant kan även översättas till köpman, men krockar med översättningen av trader. Borgare är ett alternativ för att skilja dem åt.
+#~ msgid "merchant"
+#~ msgstr "borgare"
+
+#~ msgid "pioneer"
+#~ msgstr "pionjär"
+
+#~ msgid "sailor"
+#~ msgstr "sjöman"
+
+#~ msgid "settler"
+#~ msgstr "nybyggare"
+
+#~ msgid "wood"
+#~ msgstr "trä"
+
+# Eg. Vävaretält. jämför weaver description. Byggnaden är inte ens ett tält, snarare en hydda.
+#~ msgid "Weaver's Tent"
+#~ msgstr "Vävare"
+
+#~ msgid "Leave Captain's log"
+#~ msgstr "Lämna Kaptenens loggbok"
+
+# lumberjack och lumberjacks camp syftar till samma byggnad/yrke. Allt heter Skogshuggare
+#~ msgid "Lumberjack Camp"
+#~ msgstr "Skogshuggare"
+
+#~ msgid "This will delete all changes to the settings you made so far."
+#~ msgstr "Det här kommer att radera alla inställningar du har gjort hittills."
+
+#~ msgid "Click to change the name of your settlement."
+#~ msgstr "Klicka för att ändra namnet på din bosättning."
+
+#~ msgid "Bricks"
+#~ msgstr "Tegel"
+
+#~ msgid "Textiles"
+#~ msgstr "Tyg"
+
+#~ msgid "Click to change the name of this ship."
+#~ msgstr "Tryck för att ändra namnet på fartyget."
+
+#~ msgid "Buy resources"
+#~ msgstr "Köp varor"
+
+#~ msgid "Click on slot icon to toggle mode:"
+#~ msgstr "Klicka på en platsikon för att växla läge:"
+
+#~ msgid "Sell resources"
+#~ msgstr "Sälj varor"
+
+#~ msgid "blue"
+#~ msgstr "blå"
+
+#~ msgid "cyan"
+#~ msgstr "cyan"
+
+#~ msgid "green"
+#~ msgstr "grön"
+
+#~ msgid "pink"
+#~ msgstr "rosa"
+
+#~ msgid "red"
+#~ msgstr "röd"
+
+#~ msgid "white"
+#~ msgstr "vit"
+
+#~ msgid "yellow"
+#~ msgstr "gul"
+
+#~ msgid "Apply:"
+#~ msgstr "Ändra:"
+
+#~ msgid "Branch Office"
+#~ msgstr "Handelskontor"
+
+#~ msgid "Cattle"
+#~ msgstr "Nötkreatur"
+
+# Mellanslag, bindesstreck eller utan genitiv?
+#~ msgid "Branch office overview"
+#~ msgstr "Handelskontorsöversikt"
+
+#~ msgid "Sailor buildings"
+#~ msgstr "Sjömansbyggnader"
+
+#~ msgid "Pioneer buildings"
+#~ msgstr "Pionjärsbyggnader"
+
+#~ msgid "Charcoal burning: Burns a lot of boards to charcoal."
+#~ msgstr "Bränner brädor till träkol."
+
+#~ msgid "Mine: Gets ores from deposit."
+#~ msgstr "Bryter malm från fyndighet."
+
+#~ msgid "Error: No quicksave found."
+#~ msgstr "Inga snabbsparade spel hittades."
+
+#~ msgid "Screenshot has been saved to ${file}."
+#~ msgstr "Skärmdump har sparats till ${file}."
+
+#~ msgid "You need more ${resource} to build this building."
+#~ msgstr "Du behöver mer ${resource} för att bygga den här byggnaden."
+
+#~ msgid "System default"
+#~ msgstr "Systemstandard"
+
+# Lista eller bestämd form listan?
+#~ msgid "Add to list"
+#~ msgstr "Lägg till i lista"
+
+#~ msgid "100/100"
+#~ msgstr "100/100"
+
+#~ msgid "Rotate building left"
+#~ msgstr "Rotera byggnaden åt vänster"
+
+#~ msgid "Rotate building right"
+#~ msgstr "Rotera byggnaden åt höger"
+
+#~ msgid "Enable minimap rotation:"
+#~ msgstr "Möjliggör rotation av världskartan:"
+
+#~ msgid "(0 means default)"
+#~ msgstr "(0 betyder standard)"
+
+#~ msgid "Please make sure that you know what you do."
+#~ msgstr "Var säker på att du vet vad du gör."
+
+#~ msgid "A new settlement has been created by ${player}."
+#~ msgstr "En ny bosättning har skapats av ${player}."
+
+#~ msgid "One of your settler has no main square in it's range."
+#~ msgstr "En av dina nybyggare har ingen torg inom sin räckvidd."
+
+#~ msgid "Some of your settlers just moved out."
+#~ msgstr "Några av din nybyggare har flyttat ut."
+
+# Fritt översatt.
+#~ msgid "Configured language %(lang)s at %(place)s could not be loaded"
+#~ msgstr "Inställt språk %(lang)s vid %(place)s kunde inte laddas"
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it's in the specified "
+#~ "range."
+#~ msgstr ""
+#~ "Vänligen kontrollera porten du angav och säkerställ att den är inom den "
+#~ "specificerade räckvidden. "
+
+#~ msgid "Failed to apply new network data."
+#~ msgstr "Misslyckades med att applicera ny nätverks data."
+
+#~ msgid "Networking couldn't be initialised with the current configuration."
+#~ msgstr "Nätverk kunde inte initieras med den aktuella konfigurationen."
+
+#~ msgid "Check the data you entered in the Network section."
+#~ msgstr "Kontrollera datan du skrev in under Nätverk."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special privileges, try one greater "
+#~ "than 1024 or 0."
+#~ msgstr ""
+#~ "Låga portnummer kräver ibland särskilda privilegier, prova med en högre "
+#~ "1024 eller 0."
+
+#~ msgid "There are no saved games to load"
+#~ msgstr "Det finns inga sparade spel att ladda"
+
+#~ msgid ""
+#~ "A savegame with the name \"%s\" already exists. \n"
+#~ "Should i overwrite it?"
+#~ msgstr ""
+#~ "Ett sparat spel med namnet \"%s\" finns redan. \n"
+#~ "Vill du skriva över filen?"
+
+#~ msgid "Savegame ver. %d"
+#~ msgstr "Sparat spel ver. %d"
+
+#~ msgid ""
+#~ "WARNING: Incompatible ver. %(ver)d!\n"
+#~ "Need ver. %(need)d!"
+#~ msgstr ""
+#~ "VARNING: Inkompatibel ver. %(ver)d!\n"
+#~ "Behöver ver. %(need)d!"
+
+#~ msgid "INCOMPATIBLE VERSION\n"
+#~ msgstr "INKOMPATIBEL VERSION\n"
+
+#~ msgid "You need to select a savegame to delete"
+#~ msgstr "Du behöver välja ett sparat spel att ta bort"
+
+#~ msgid "Do you really want to delete the savegame \"%s\"?"
+#~ msgstr "Vill du verkligen radera det sparade spelet \"%s\"?"
+
+#~ msgid ""
+#~ "Check the data you entered in the Network section in the settings "
+#~ "dialogue."
+#~ msgstr "Kontrollera datan du angav under Nätverk i inställnings dialogen."
+
+#~ msgid ""
+#~ "Could not connect to master server. Please check your Internet "
+#~ "connection. If it is fine, it means our master server is temporarily "
+#~ "down.\n"
+#~ "Details: %s"
+#~ msgstr ""
+#~ "Kunde inte koppla upp till huvudservern. Vänligen kontrollera din "
+#~ "internetanslutning. Fungerar den betyder det att vår huvudservern "
+#~ "tillfälligt är nere.\n"
+#~ "Detaljer: %s"
+
+#~ msgid "Network Error"
+#~ msgstr "Nätverksfel"
+
+#~ msgid "Map: "
+#~ msgstr "Karta: "
+
+#~ msgid "Players: "
+#~ msgstr "Spelare: "
+
+#~ msgid "Creator: "
+#~ msgstr "Skapare: "
+
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: %(gameversion)s Your "
+#~ "version: %(ownversion)s"
+#~ msgstr ""
+#~ "Spelets version skiljer sig från din version. Alla spelare i ett "
+#~ "flerspelarspel måste använda samma version. Detta kan lösas genom att "
+#~ "alla spelare uppdaterar till den senaste versionen. Spel version: %"
+#~ "(gameversion)s Din version: %(ownversion)s"
+
+#~ msgid "Difficulty: "
+#~ msgstr "Svårighetsgrad: "
+
+#~ msgid "Author: "
+#~ msgstr "Upphovsman: "
+
+#~ msgid "You entered an invalid playername"
+#~ msgstr "Du skrev in ett ogiltigt spelarnamn"
+
+#~ msgid "Ship inventory"
+#~ msgstr "Fartygsinventarie"
+
+#~ msgid "Load/Unload:"
+#~ msgstr "Lasta/Lasta av:"
+
+#~ msgid "Buy/Sell:"
+#~ msgstr "Köp/Sälj:"
+
+#~ msgid "%(player)s's settlements"
+#~ msgstr "%(player)s's bosättning"
+
+#~ msgid "%(player)s's ships"
+#~ msgstr "%(player)s's fartyg"
+
+#~ msgid "Production overview of %(settlement)s"
+#~ msgstr "Produktionsöversikt av %(settlement)s"
+
+#~ msgid "Build menu"
+#~ msgstr "Byggmenyn"
+
+#~ msgid "Destroy"
+#~ msgstr "Förstör"
+
+#~ msgid "Game menu"
+#~ msgstr "Spelmenyn"
+
+#~ msgid "Captain's log"
+#~ msgstr "Kaptenens loggbok"
+
+#~ msgid "Rotate map counterclockwise"
+#~ msgstr "Rotera kartan moturs"
+
+#~ msgid "Rotate map clockwise"
+#~ msgstr "Rotera kartan medurs"
+
+# Låter uppåt väggarna märkligt, men kan stämma.
+#~ msgid "capacity utilization"
+#~ msgstr "kapacitetsutnyttjande"
+
+# bosättning eller kanske koloni?
+#~ msgid "Build settlement:"
+#~ msgstr "Bygg bosättning:"
+
+#~ msgid "Configure trading route:"
+#~ msgstr "Konfigurera handels rutt:"
+
+#~ msgid "Read prev. entries"
+#~ msgstr "Läs tidigare post"
+
+#~ msgid "Show only games with the same version:"
+#~ msgstr "Visa endast spel med samma version:"
+
+#~ msgid "Error: Cannot find map \"%s\"."
+#~ msgstr "Fel: Kan inte hitta karta \"%s\"."
+
+#~ msgid "Error: Cannot find savegame \"%s\"."
+#~ msgstr "Fel: Kan inte hitta sparat spel \"%s\"."
+
+#~ msgid "Error: Cannot find scenario \"%s\"."
+#~ msgstr "Fel: Kan inte hitta scenario \"%s\"."
+
+#~ msgid "Error: Cannot find scenario with file \"%s\"."
+#~ msgstr "Fel: Kan inte hitta scenario med fil \"%s\"."
+
+#~ msgid "You have completed this scenario. "
+#~ msgstr "Du har klarat det här scenariot."
+
+#~ msgid "Saved at %s"
+#~ msgstr "Sparad den %s"
+
+#~ msgid "Unknown savedate\n"
+#~ msgstr "Okänt spardatum\n"
+
+#~ msgid "Saved at %s\n"
+#~ msgstr "Sparad den %s\n"
+
+#~ msgid "Fishing boat"
+#~ msgstr "Fiskebåt"
+
+#~ msgid "Fishing boats"
+#~ msgstr "Fiskefartyg"
+
+#~ msgid "Not yet implemented!"
+#~ msgstr "Ännu inte implementerat!"
+
+#~ msgid "Legend:"
+#~ msgstr "Förklaring:"
+
+#~ msgid "Refresh data"
+#~ msgstr "Uppdatera data"
+
+#~ msgid "Hit P to continue the game or click below!"
+#~ msgstr "Tryck P för att fortsätta eller klicka nedan!"
+
+#~ msgid "One of your settler has no market place in it's range."
+#~ msgstr "En av dina nybyggare har ingen marknadsplats inom sin räckvidd."
+
+# raw clay är fyndigheten. clay är det som grävts upp. Ser inget fel med att båda heter lera.
+#~ msgid "raw clay"
+#~ msgstr "lera"
+
+# raw iron är fyndigheten. iron ore är det som grävts upp. Ser inget fel med att båda heter järnmalm.
+#~ msgid "raw iron"
+#~ msgstr "järnmalm"
+
+# raw sugar kommer från sockerrörsodling för att få fram socker. Bilden visar sockerrör, ser inga hinder att kalla det sockerrör.
+#~ msgid "raw sugar"
+#~ msgstr "sockerrör"
+
+#~ msgid "raw tobacco"
+#~ msgstr "råtobak"
+
+#~ msgid "tobacco"
+#~ msgstr "tobak"

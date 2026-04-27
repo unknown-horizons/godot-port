@@ -1,0 +1,3678 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Unknown Horizons Team
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2023-08-05 18:49+0000\n"
+"Last-Translator: TD <talentdev.keywords.montreal@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/uh/uh/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.0-dev\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "保存日時が不明"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "保存日時が不明"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+msgid "Descriptive Label:"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "建築物"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "不明"
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "保存日時が不明"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "単独プレイヤー"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "ゲームを読み込む"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr "製作者"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr "エディタ"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Quit"
+msgstr "終了"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Help"
+msgstr "ヘルプ"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Options"
+msgstr "動作"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "新規ゲーム ― 単独プレイヤー"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Scenario"
+msgstr "シナリオ"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Random map"
+msgstr "ランダム生成地図"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Free play"
+msgstr "自由プレイ"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "保存日時が不明"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Color:"
+msgstr "色："
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "AI players:"
+msgstr "AIプレイヤー："
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "プレイする地図を選択："
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "推奨プレイヤー数：{number}"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Game settings:"
+msgstr "ゲーム設定："
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "資源の密度："
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "自由交易船"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Pirates"
+msgstr "海賊"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr "災害"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Saving"
+msgstr "保存法"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr "一般"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "言語を選択："
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Mouse"
+msgstr "マウス"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Graphics"
+msgstr "グラフィックス"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Sound"
+msgstr "音声"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr "ホットキー"
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "統計"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Players"
+msgstr "プレイヤー"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My ships"
+msgstr "自分の船"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My settlements"
+msgstr "自分の入植地"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Player scores"
+msgstr "プレイヤー得点"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Name"
+msgstr "名称"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Money"
+msgstr "貨幣"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Land"
+msgstr "土地"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Resources"
+msgstr "資源"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Buildings"
+msgstr "建築物"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlers"
+msgstr "入植者"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Units"
+msgstr "ユニット"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Total"
+msgstr "総合点"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "140"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "104"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "InventoryTab"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Limit: 30t per slot"
+msgstr "上限：スロット当たり{amount}t"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "売り/買い"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr ""
+"在庫が{limit}tよりも少なくなれば、常に{resource_name}を{price}ゴールド/tの価"
+"格で買います。"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Trade history"
+msgstr "交易の履歴"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Free Trader"
+msgstr "自由交易船"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "生産の概要"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "保存日時が不明"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "交易"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "LumberjackOverviewTab"
+msgstr "木こりのテント"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr "入植"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr "社会基盤"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr "住民"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr "サービス"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr "警戒"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "畑"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Pioneers"
+msgstr "開拓者"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Citizens"
+msgstr "市民"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr "農業"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr "海"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr "食糧"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr "作業場"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr "生産拠点"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr "木"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Mining"
+msgstr "鉱業"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr "防衛"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr "軍務"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sailors"
+msgstr "船乗り"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "住民と社会基盤"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military"
+msgstr "軍隊"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Merchants"
+msgstr "商人"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "Game Speed Up"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "Game Speed Down"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "会計"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr "収入："
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr "税収"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Sale"
+msgstr "売上"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Expenses:"
+msgstr "支出："
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Running costs"
+msgstr "維持費"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Buying"
+msgstr "買入"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Balance"
+msgstr "収支"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Upgrade permissions:"
+msgstr "昇格の許可："
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr "一軒毎の幸福度"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents per house"
+msgstr "一軒あたりの住民数"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr "一軒あたりの住民数"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr "この住民数の軒数"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Summary"
+msgstr "要約"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "住宅"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents"
+msgstr "住民数"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "入植者の概要"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Tent"
+msgstr "テント"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Needed resources:"
+msgstr "必要としている資源："
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr "税額："
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Paid taxes"
+msgstr "税収"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Tax rate"
+msgstr "税率"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr "蜂を飼います。菓子に使う蜂の巣を生産します。農家が必要です。"
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "小麦粉を消費し、食糧を生産します。"
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+#, fuzzy
+msgid "_ Recruits units suitable for ground combat."
+msgstr "陸地戦に適したユニットを募集します。"
+
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "セキュリティを強化します。"
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "スパイスから調味料を作ります。"
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "手漕ぎ船と小舟を作ります。海岸沿いに建造してください。"
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "ホップを消費し、ビールを生産します。"
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "粘土から煉瓦を作ります。"
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "豚か牛を必要とし、食糧を生産します。"
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "キャノン砲を生産します。"
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "牛を育てます。農家が必要です。"
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+#, fuzzy
+msgid "_ Burns a lot of boards."
+msgstr "木板を大量に燃やします。"
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+msgid "None"
+msgstr "なし"
+
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "粘土層から粘土を採取します。"
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr "菓子に使うカカオ豆を生産します。農家が必要です。"
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "とうもろこしを生産します。農家が必要です。"
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "砂糖から酒を造ります。"
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+#, fuzzy
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr "病の手当をします。薬草を消費します。"
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "作物を栽培し、家畜を育てます。"
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+#, fuzzy
+msgid "_ Extinguishes fires."
+msgstr "火事を消火します。"
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "海で漁を行い、食糧を生産します。"
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "薬草を生産します。農家が必要です。"
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "ホップを生産します。農家が必要です。"
+
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "森の野生動物を狩って、食糧を生産します。"
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "居住範囲を拡張します。"
+
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "木を切って板材を作ります。"
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+#, fuzzy
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr "市民に財を供給し、コミュニティを提供します。"
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "鉱床から鉄鉱石を掘り出します。"
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "あらゆる種類の菓子を生産します。"
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "羊を育て、羊毛を生産します。農家が必要です。"
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "船乗りの信仰心を満たします。"
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "豚を育てます。農家が必要です。"
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "食糧を生産します。農家が必要です。"
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "住民に住居を提供します。"
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "塩を抽出します。海岸沿いに造ってください。"
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "プレイヤーが自由交易船と交易できるようにします。"
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "あらゆる種類の鉱石を精錬します。"
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "スパイスを育てます。農家が必要です。"
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "石片を切り出して煉瓦にします。"
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "山から石を切り出します。"
+
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr "貯蔵、居住範囲を拡大し、コレクターを提供します。"
+
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "酒の醸造に使います。農家が必要です。"
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "住民の集いの場を提供します。"
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "たばこの葉からたばこを作ります。"
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "たばこを作ります。農家が必要です。"
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "鉄から工具を生産します。"
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "財を集めるのに必要です。"
+
+#: Assets/World/Buildings2/tree/tree.tscn
+#, fuzzy
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr "板材を提供します。伐採人によって切りだされます。"
+
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "教育を提供します。"
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr "ワインと菓子に使う葡萄を生産します。農家が必要です。"
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "鉄から武器を生産します。"
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "ラムウールから布を作ります。"
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "とうもろこしを製粉します。"
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "葡萄からワインを生産します。"
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "入植地を防衛します。"
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "Unknown Horizonsは強制終了しました。"
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "Unknown Horizonsをご利用頂き、ありがとうございます！"
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr ""
+#~ "たいへん申し訳ありませんが、これを引き起こしたエラーを修正したいので、"
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr "右記のログファイルから情報を得る必要があります:"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "これをIRCもしくはフォーラム経由で私達に送ってください。どちらの場合も"
+#~ "http://unknown-horizons.orgをご参照ください。"
+
+#~ msgid "Return to editor"
+#~ msgstr "エディタに戻る"
+
+#~ msgid "Save map"
+#~ msgstr "地図を保存"
+
+#~ msgid "Load map"
+#~ msgstr "地図を読み込む"
+
+#~ msgid "Settings"
+#~ msgstr "設定"
+
+#~ msgid "Exit editor"
+#~ msgstr "エディタを終了"
+
+#~ msgid "Select brush size:"
+#~ msgstr "ブラシの寸法を選択："
+
+#~ msgid "Select terrain:"
+#~ msgstr "地形を選択："
+
+#~ msgid "(right click to stop)"
+#~ msgstr "（右クリックで終了）"
+
+#~ msgid "Game start"
+#~ msgstr "ゲーム開始"
+
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr "建築物を建てる前に開拓地をおく必要があります!"
+
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr "自分の船を選択して右クリックで海岸に近づけて下さい。"
+
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr "その後、船の概要タブにある大きなボタンを押して下さい。"
+
+#~ msgid "Build"
+#~ msgstr "建設"
+
+#~ msgid "Running costs:"
+#~ msgstr "維持費："
+
+#~ msgid "Related buildings"
+#~ msgstr "関連する建築物"
+
+#~ msgid "Inhabitants"
+#~ msgstr "住民"
+
+#, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr "ゲーム速度増加({key})"
+
+#, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr "ゲーム速度減少({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map counterclockwise ({key})"
+#~ msgstr "地図を左に回転({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map clockwise ({key})"
+#~ msgstr "地図を右に回転({key})"
+
+#~ msgid "Zoom in"
+#~ msgstr "拡大"
+
+#~ msgid "Zoom out"
+#~ msgstr "縮小"
+
+#, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "取り壊す({key})"
+
+#, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "船長の航海日誌({key})"
+
+#, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "建設メニュー({key})"
+
+#~ msgid "Diplomacy"
+#~ msgstr "外交"
+
+#, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "ゲームメニュー({key})"
+
+#~ msgid "Change name"
+#~ msgstr "名称の変更"
+
+#~ msgid "Old name:"
+#~ msgstr "旧名称："
+
+#~ msgid "Enter new name:"
+#~ msgstr "新名称を入力："
+
+#~ msgid "Apply the new name"
+#~ msgstr "新名称を適用"
+
+#~ msgid "Chat"
+#~ msgstr "チャット"
+
+#~ msgid "Enter your message:"
+#~ msgstr "メッセージを入力："
+
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr ""
+#~ "地上ユニットの建築には、種別タブのいずれかをクリックし、希望するユニットを"
+#~ "選択して、注文を確定してください。"
+
+#~ msgid "Currently building:"
+#~ msgstr "現在の建築物："
+
+#~ msgid "Pause"
+#~ msgstr "一時停止"
+
+#~ msgid "Resume"
+#~ msgstr "再開"
+
+#~ msgid "Construction progress:"
+#~ msgstr "建設の進捗状況："
+
+#~ msgid "Resources still needed:"
+#~ msgstr "未だ必要な資源："
+
+#~ msgid "Cancel building:"
+#~ msgstr "建設の中止："
+
+#~ msgid "(lose all resources)"
+#~ msgstr "（全資源を失います）"
+
+#~ msgid "Cancel all building progress"
+#~ msgstr "全ての建設作業を中止"
+
+#~ msgid "Confirm order"
+#~ msgstr "注文を確認"
+
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "(選択タブと同様)"
+
+#~ msgid "$res"
+#~ msgstr "$res"
+
+#~ msgid "24t"
+#~ msgstr "24t"
+
+#~ msgid "06t"
+#~ msgstr "06t"
+
+#~ msgid "2500"
+#~ msgstr "2500"
+
+#~ msgid "Sloop-o'-war"
+#~ msgstr "戦闘スループ"
+
+#~ msgid "Three-masted most common classified war ship with one gun deck."
+#~ msgstr "1 つの砲甲板に3 本マストを備えた最も一般的な軍艦。"
+
+#~ msgid "Buy Upgrades"
+#~ msgstr "昇格を購入"
+
+#, fuzzy
+#~| msgid "cannon"
+#~ msgid "Cannons"
+#~ msgstr "キャノン砲"
+
+#~ msgid "Hull"
+#~ msgstr "船体"
+
+#~ msgid "+ 24t"
+#~ msgstr "+ 24t"
+
+#~ msgid "+ 14t"
+#~ msgstr "+ 14t"
+
+#~ msgid "+ 06t"
+#~ msgstr "+ 06t"
+
+#~ msgid "+ 1457"
+#~ msgstr "+ 1457"
+
+#~ msgid "Build groundunit:"
+#~ msgstr "地上ユニットを建設"
+
+#~ msgid "Build this groundunit!"
+#~ msgstr "この地上ユニットを建造します！"
+
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "造船には、種別タブのいずれかをクリックし、希望する船を選択して、注文を確定"
+#~ "してください。"
+
+#~ msgid "Build ship:"
+#~ msgstr "この船を建造します："
+
+#~ msgid "Build this ship!"
+#~ msgstr "この船を建造します！"
+
+#~ msgid "ally"
+#~ msgstr "同盟"
+
+#~ msgid "neutral"
+#~ msgstr "中立"
+
+#~ msgid "enemy"
+#~ msgstr "敵対"
+
+#~ msgid "Building overview"
+#~ msgstr "建築物の概要"
+
+#~ msgid "Capacity utilization"
+#~ msgstr "稼働率"
+
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "クリックすると、このユニット名を変更できます"
+
+#~ msgid "Settlement inventory"
+#~ msgstr "入植地の在庫"
+
+#~ msgid "sad"
+#~ msgstr "不幸"
+
+#~ msgid "satisfied"
+#~ msgstr "満足"
+
+#~ msgid "happy"
+#~ msgstr "幸福"
+
+#~ msgid "Amount of houses with this happiness"
+#~ msgstr "この幸福度の軒数"
+
+#~ msgid "houses"
+#~ msgstr "軒数"
+
+#~ msgid "residents"
+#~ msgstr "住民数"
+
+#~ msgid "Provides security for your settlement."
+#~ msgstr "居住区を防衛します。"
+
+#~ msgid "Selling"
+#~ msgstr "売上"
+
+#~ msgid "Name:"
+#~ msgstr "名称："
+
+#~ msgid "Weapons:"
+#~ msgstr "武器："
+
+#~ msgid "Resource deposit"
+#~ msgstr "資源鉱床"
+
+#~ msgid ""
+#~ "This is a resource deposit where you can build a mine to dig up resources."
+#~ msgstr "この資源鉱床には、資源採掘坑を造ることができます。"
+
+#~ msgid "It contains these resources:"
+#~ msgstr "下記の資源が埋蔵されています："
+
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "クリックすると入植地名を変更することができます"
+
+#~ msgid "Happiness"
+#~ msgstr "幸福度"
+
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr ""
+#~ "狼煙台は、財の売買をしたいとき、自由交易者を入植地に導くのに必要です。"
+
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr ""
+#~ "これは自由交易者の船です。ときおり財の売買のために、あなたのところに立ち寄"
+#~ "ります。"
+
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "クリックすると、この船名を変更できます"
+
+#~ msgid "Build settlement"
+#~ msgstr "入植地の建設"
+
+#~ msgid "Configure trading route"
+#~ msgstr "交易路の調整"
+
+#~ msgid "Discard all resources"
+#~ msgstr "全資源を失います"
+
+#~ msgid "Ship:"
+#~ msgstr "船："
+
+#~ msgid "Exchange:"
+#~ msgstr "交換："
+
+#~ msgid "Trade partner:"
+#~ msgstr "交易相手："
+
+#~ msgid "Buy or sell resources"
+#~ msgstr "資源を売買"
+
+#~ msgid "Select resources:"
+#~ msgstr "資源を選択："
+
+#~ msgid "Collector utilization"
+#~ msgstr "人夫稼働率"
+
+#~ msgid "Balance:"
+#~ msgstr "収支："
+
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "この入植地で生産された資源を表示"
+
+#~ msgid "Pause production"
+#~ msgstr "生産を停止"
+
+#~ msgid "Start production"
+#~ msgstr "生産を開始"
+
+#~ msgid "Select resource:"
+#~ msgstr "資源を選択してください："
+
+#~ msgid ""
+#~ "The resource you select is displayed instead of the current one. Empty by "
+#~ "clicking on X."
+#~ msgstr ""
+#~ "選択した資源が現在のものの代わりに表示されます。×をクリックすれば消去され"
+#~ "ます。"
+
+#~ msgid "Save current resource configuration as default for all settlements."
+#~ msgstr "現在の資源設定を全ての入植地の既定値として保存します。"
+
+#~ msgid "Reset default resource configuration for all settlements."
+#~ msgstr "全ての入植地の既定資源設定を初期化します。"
+
+#~ msgid "Move up"
+#~ msgstr "上に移動"
+
+#~ msgid "Delete entry"
+#~ msgstr "項目を削除"
+
+#~ msgid "Move down"
+#~ msgstr "下に移動"
+
+#~ msgid "Read previous entries"
+#~ msgstr "前の項目を読む"
+
+#~ msgid "Read next entries"
+#~ msgstr "次の項目を読む"
+
+#~ msgid "Game messages"
+#~ msgstr "ゲームメッセージ"
+
+#~ msgid "Whole world"
+#~ msgstr "全世界"
+
+#~ msgid "Everybody"
+#~ msgstr "全員"
+
+#~ msgid "Sends the chat messages to all players."
+#~ msgstr "全プレイヤーにチャットメッセージを送信します。"
+
+#~ msgid "Enter your message here"
+#~ msgstr "ここにメッセージを入力してください"
+
+#~ msgid "Return to game"
+#~ msgstr "ゲームに戻る"
+
+#~ msgid "Island Name:"
+#~ msgstr "島の名称："
+
+#~ msgid "Player Name:"
+#~ msgstr "プレイヤー名："
+
+#~ msgid "Wait at load:"
+#~ msgstr "荷積み時に待機："
+
+#~ msgid "Wait at unload:"
+#~ msgstr "荷揚げ時に待機："
+
+#~ msgid "Select a resource:"
+#~ msgstr "資源を選択してください："
+
+#~ msgid "Route activity:"
+#~ msgstr "交易路の活動："
+
+#~ msgid "Start route"
+#~ msgstr "交易路を開始"
+
+#~ msgid "Exit"
+#~ msgstr "終了"
+
+#~ msgid "Go to previous page"
+#~ msgstr "前のページに戻る"
+
+#~ msgid "Go to next page"
+#~ msgstr "次のページへ"
+
+#~ msgid "Close"
+#~ msgstr "閉じる"
+
+#~ msgid "Player Name"
+#~ msgstr "プレイヤー名"
+
+#~ msgid "Player's current treasury + income expected in near future"
+#~ msgstr "プレイヤーの現在の財産＋近い将来の予想所得"
+
+#~ msgid ""
+#~ "Value of usable land i.e Amount of Land that can be used to create "
+#~ "buildings"
+#~ msgstr "利用可能な土地の価値、すなわち建築物を建てることのできる土地の量"
+
+#~ msgid ""
+#~ "Value of resources generated from all the possible sources in the "
+#~ "player's settlement(s)"
+#~ msgstr "プレイヤーの入植地の全拠点から生成された資源の価値"
+
+#~ msgid "Value of all the buildings in the player's settlement(s)"
+#~ msgstr "プレイヤーの入植地の全建築物の価値"
+
+#~ msgid ""
+#~ "Value denoting the progress of the settlement(s) in terms of inhabitants, "
+#~ "buildings and overall happiness"
+#~ msgstr "住民数や建築物、全体的な幸福度の観点から入植の進捗を表す価値"
+
+#~ msgid "Value of all the units owned by the player"
+#~ msgstr "プレイヤが所有する全ユニットの価値"
+
+#~ msgid ""
+#~ "The total value from all individual entities or in short : Total Player "
+#~ "Score"
+#~ msgstr "全要素からの全価値：つまりはプレイヤー総合点"
+
+#~ msgid "Type"
+#~ msgstr "種別"
+
+#~ msgid "Weapons"
+#~ msgstr "武器"
+
+#~ msgid "Health"
+#~ msgstr "健康"
+
+#~ msgid "Status"
+#~ msgstr "状態"
+
+#~ msgid "Aggressive"
+#~ msgstr "攻撃的"
+
+#~ msgid "Hold ground"
+#~ msgstr "死守"
+
+#~ msgid "Passive"
+#~ msgstr "受動的"
+
+#~ msgid "Flee"
+#~ msgstr "退却"
+
+#~ msgid "Exit to main menu"
+#~ msgstr "メインメニューへ"
+
+#~ msgid "Choose a map size:"
+#~ msgstr "地図の寸法を選択："
+
+#~ msgid "Choose a map:"
+#~ msgstr "地図を選択："
+
+#~ msgid "Choose a saved game's map:"
+#~ msgstr "保存済みゲームの地図を選択："
+
+#~ msgid "Select map source"
+#~ msgstr "地図のソースを選択"
+
+#~ msgid "Create new map"
+#~ msgstr "地図を新規作成"
+
+#~ msgid "Load existing map"
+#~ msgstr "既存の地図の読み込み"
+
+#~ msgid "Load saved game's map"
+#~ msgstr "保存済みゲームの地図を読み込む"
+
+#~ msgid "Start editor"
+#~ msgstr "エディタを開始"
+
+#~ msgid "Return"
+#~ msgstr "戻る"
+
+#~ msgid "Scroll left"
+#~ msgstr "左へスクロール"
+
+#~ msgid "Scroll right"
+#~ msgstr "右へスクロール"
+
+#~ msgid "Scroll up"
+#~ msgstr "上へスクロール"
+
+#~ msgid "Scroll down"
+#~ msgstr "下へスクロール"
+
+#~ msgid "Rotate building or map clockwise"
+#~ msgstr "建築物または地図を時計廻りに回転"
+
+#~ msgid "Rotate building or map counterclockwise"
+#~ msgstr "建築物または地図を反時計廻りに回転"
+
+#~ msgid "Increase game speed"
+#~ msgstr "ゲーム速度を上げる"
+
+#~ msgid "Decrease game speed"
+#~ msgstr "ゲーム速度を下げる"
+
+#~ msgid "Pause game"
+#~ msgstr "ゲームを一時停止"
+
+#~ msgid "Show build menu"
+#~ msgstr "建築メニューを表示"
+
+#~ msgid "Enable destruct mode"
+#~ msgstr "整地モードを有効にする"
+
+#~ msgid "Enable road building mode"
+#~ msgstr "道路建設モードを有効にする"
+
+#~ msgid "Enable pipette mode (clone buildings)"
+#~ msgstr "ピペットモードを有効にする（建築物を複製）"
+
+#~ msgid "Show player scores"
+#~ msgstr "プレイヤー得点を表示"
+
+#~ msgid "Show settlement list"
+#~ msgstr "入植地一覧を表示"
+
+#~ msgid "Show ship list"
+#~ msgstr "船舶一覧を表示"
+
+#~ msgid "Toggle Captain's log"
+#~ msgstr "船長の航海日誌を開閉"
+
+#~ msgid "Quicksave"
+#~ msgstr "簡易保存"
+
+#~ msgid "Quickload"
+#~ msgstr "簡易読込"
+
+#~ msgid "Toggle translucency of ambient buildings"
+#~ msgstr "周囲の建造物の半透明化を入切"
+
+#~ msgid "Highlight tile ownership"
+#~ msgstr "コマの所有権を強調表示"
+
+#~ msgid "Toggle health bars"
+#~ msgstr "健康インジケーターを入切"
+
+#~ msgid "Focus camera on selection"
+#~ msgstr "選択したものにカメラの焦点を当てる"
+
+#~ msgid "Remove selected units / buildings"
+#~ msgstr "選択したユニットや建造物を削除"
+
+#~ msgid "Display help"
+#~ msgstr "ヘルプを表示"
+
+#~ msgid "Screenshot"
+#~ msgstr "スクリーンショット"
+
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "FPS表示を入切"
+
+#~ msgid "Toggle grid on/off"
+#~ msgstr "グリッド表示を入切"
+
+#~ msgid "Show coordinate values (Debug)"
+#~ msgstr "座標値を表示（デバッグ用）"
+
+#~ msgid "Primary"
+#~ msgstr "第一鍵"
+
+#~ msgid "Secondary"
+#~ msgstr "第二鍵"
+
+#~ msgid "Reset to default"
+#~ msgstr "既定値に初期化"
+
+#~ msgid "Reset to default keys"
+#~ msgstr "既定鍵に初期化"
+
+#~ msgid "Save game"
+#~ msgstr "ゲームを保存"
+
+#~ msgid "Cancel game"
+#~ msgstr "ゲームを取り消す"
+
+#~ msgid "Loading…"
+#~ msgstr "読み込み中…"
+
+#~ msgid "Change Background"
+#~ msgstr "背景を変更"
+
+#~ msgid "Multiplayer"
+#~ msgstr "複数プレイヤー"
+
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "ゲームを作成―複数プレイヤー"
+
+#~ msgid "Player limit:"
+#~ msgstr "プレイヤー数上限："
+
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "複数プレイヤーメニューに戻る"
+
+#~ msgid "Name of the game:"
+#~ msgstr "ゲームの名称："
+
+#~ msgid "This will be displayed to other players so they recognize the game."
+#~ msgstr "これはゲームを識別できるように他のプレイヤーに対して表示されます。"
+
+#~ msgid "Unnamed Game"
+#~ msgstr "名のないゲーム"
+
+#~ msgid "Password of the game:"
+#~ msgstr "ゲームのパスワード："
+
+#~ msgid "This game's password. Required to join this game."
+#~ msgstr "このゲームのパスワード。このゲームに参加するのに必要です。"
+
+#~ msgid "Create this new game"
+#~ msgstr "この新規ゲームを作成する"
+
+#~ msgid "Gamelobby"
+#~ msgstr "ゲームロビー"
+
+#~ msgid "Chat:"
+#~ msgstr "チャット："
+
+#~ msgid "Exit gamelobby"
+#~ msgstr "ゲームロビーを出る"
+
+#~ msgid "The game will start as soon as all players are ready."
+#~ msgstr "全プレイヤーの準備が出来次第、ゲームを開始します。"
+
+#~ msgid "Game details:"
+#~ msgstr "ゲーム詳細："
+
+#~ msgid "Color"
+#~ msgstr "色"
+
+#~ msgid "Ready:"
+#~ msgstr "準備完了："
+
+#~ msgid "Sets your state to ready (necessary for the game to start)"
+#~ msgstr "あなたの状態を準備完了にする（ゲーム開始に必要）"
+
+#~ msgid "New game - Multiplayer"
+#~ msgstr "新規ゲーム ― 複数プレイヤー"
+
+#~ msgid "Load game:"
+#~ msgstr "ゲームを読み込む："
+
+#~ msgid "Load a saved game"
+#~ msgstr "保存済みゲームを読み込む"
+
+#~ msgid "Active games:"
+#~ msgstr "有効なゲーム："
+
+#~ msgid "Refresh list:"
+#~ msgstr "一覧の更新："
+
+#~ msgid "Refresh list of active games"
+#~ msgstr "有効なゲームの一覧を更新します"
+
+#~ msgid "Create game:"
+#~ msgstr "ゲームを作成："
+
+#~ msgid "Create a new game"
+#~ msgstr "新規ゲームを作成します"
+
+#~ msgid "Join game:"
+#~ msgstr "ゲームに参加："
+
+#~ msgid "Join the selected game"
+#~ msgstr "選択したゲームに参加します"
+
+#~ msgid "Change player details"
+#~ msgstr "プレイヤー詳細を変更"
+
+#~ msgid "Screen resolution:"
+#~ msgstr "画面解像度："
+
+#~ msgid "Full screen:"
+#~ msgstr "フルスクリーン："
+
+#~ msgid "Frame rate limit:"
+#~ msgstr "フレームレート上限："
+
+#~ msgid "Set the maximum frame rate used. Default: 60 fps."
+#~ msgstr "使用する最大フレームレートを設定します。既定値：60fps。"
+
+#~ msgid "Music volume:"
+#~ msgstr "音楽音量："
+
+#~ msgid "Effects volume:"
+#~ msgstr "効果音音量："
+
+#~ msgid "Enable sound:"
+#~ msgstr "音声を有効化："
+
+#~ msgid "Scroll at map edge:"
+#~ msgstr "地図の縁でスクロール："
+
+#~ msgid ""
+#~ "Whether to move the viewport when the mouse pointer is close to map edges"
+#~ msgstr "マウスポインターが地図の縁部にあるとき、視点を移動するか否か"
+
+#~ msgid "Cursor centered zoom:"
+#~ msgstr "カーソル位置への拡大縮小："
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center. When disabled, always zoom to current viewport center."
+#~ msgstr ""
+#~ "有効にすると、マウスホイールでの拡大縮小に際して、カーソル位置を新しい視点"
+#~ "中央に据えます。無効にした場合には、現在の視点中央を維持します。"
+
+#~ msgid "Middle mouse button pan:"
+#~ msgstr "中央マウスボタンでのパン："
+
+#~ msgid "When enabled, dragging the middle mouse button will pan the camera"
+#~ msgstr ""
+#~ "有効にした場合、中央マウスボタンを押しながらドラッグするとカメラをパン（振"
+#~ "る）します"
+
+#~ msgid "0 is default system settings"
+#~ msgstr "０は既定のシステム設定です"
+
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "マウスの感度："
+
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "自動保存間隔（分）："
+
+#~ msgid "Number of autosaves:"
+#~ msgstr "自動保存の数："
+
+#~ msgid "Number of quicksaves:"
+#~ msgstr "簡易保存の数："
+
+#~ msgid "Language"
+#~ msgstr "言語"
+
+#~ msgid "Rotate minimap with map:"
+#~ msgstr "小地図を地図と共に回転："
+
+#~ msgid ""
+#~ "Whether to also rotate the minimap whenever the regular map is rotated"
+#~ msgstr "通常の地図を回転した時に小地図も回転させるか否か"
+
+#~ msgid "Uninterrupted building:"
+#~ msgstr "連続建設："
+
+#~ msgid ""
+#~ "When enabled, do not exit the build mode after successful construction"
+#~ msgstr "有効にすると、建設に成功した後、建設モードから抜け出しません"
+
+#~ msgid "Auto-unload ship:"
+#~ msgstr "自動荷揚げ："
+
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr "入植地を拓いた後、船から荷揚げするか否か"
+
+#~ msgid ""
+#~ "Don't use in normal game session. Decides whether to write debug "
+#~ "information in the logging directory of your user directory. Slows the "
+#~ "game down."
+#~ msgstr ""
+#~ "通常のゲームセッションでは使わないでください。ユーザーディレクトリ中のログ"
+#~ "保存ディレクトリにデバッグ情報を書き込むか否かを設定します。ゲームの速度が"
+#~ "遅くなります。"
+
+#~ msgid "Enable logging:"
+#~ msgstr "ログを有効化："
+
+#~ msgid "Production indicators:"
+#~ msgstr "生産インジケーター："
+
+#~ msgid ""
+#~ "Whether to show resource icons over buildings whenever they finish "
+#~ "production"
+#~ msgstr "生産を終了した時に建造物上に資源アイコンを表示するか否か"
+
+#~ msgid "Higher values slow down scrolling."
+#~ msgstr "値を増やすとスクロール速度が落ちます。"
+
+#~ msgid "Scroll delay:"
+#~ msgstr "スクロール遅延："
+
+#~ msgid "Choose a quote type:"
+#~ msgstr "引用型を選択："
+
+#~ msgid "What kind of quote to display while loading a game"
+#~ msgstr "ゲーム読み込み中にどのような引用文を表示するか"
+
+#~ msgid "Network"
+#~ msgstr "ネットワーク"
+
+#~ msgid "If set to 0, use the router default"
+#~ msgstr "0に設定すると、ルーターの既定値を使用します"
+
+#~ msgid "Network port:"
+#~ msgstr "ネットワークポート："
+
+#~ msgid "Discard current changes"
+#~ msgstr "現在の変更分を破棄"
+
+#~ msgid "Reset to default settings"
+#~ msgstr "設定を既定値に初期化"
+
+#~ msgid "Save changes"
+#~ msgstr "変更分を保存"
+
+#~ msgid "Your saved games:"
+#~ msgstr "保存済みゲーム："
+
+#~ msgid "Password of the game. Required to join this game"
+#~ msgstr "ゲームのパスワード。このゲームに参加するのに必要です"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Enter filename:"
+#~ msgstr "ファイル名を入力："
+
+#~ msgid "Details:"
+#~ msgstr "詳細："
+
+#~ msgid "Delete selected savegame"
+#~ msgstr "選択した保存済みゲームを削除"
+
+#~ msgid "Start game"
+#~ msgstr "ゲームを開始"
+
+#~ msgid "Map settings:"
+#~ msgstr "地図の設定："
+
+#~ msgid "Seed:"
+#~ msgstr "乱数生成種："
+
+#~ msgid "Player name:"
+#~ msgstr "プレイヤー名："
+
+#~ msgid "Invalid filename"
+#~ msgstr "無効なファイル名です"
+
+#~ msgid "Received an invalid filename for a save command."
+#~ msgstr "保存コマンド実行時に無効なファイル名を受け取りました。"
+
+#~ msgid "Error"
+#~ msgstr "エラー"
+
+#~ msgid "Failed to save."
+#~ msgstr "保存に失敗しました。"
+
+#~ msgid "The trade partner does not sell this."
+#~ msgstr "交易相手はこれを売っていません。"
+
+#~ msgid "You can not store this."
+#~ msgstr "これを保存することはできません。"
+
+#~ msgid "You can not afford to buy this."
+#~ msgstr "これを買う余裕がありません。"
+
+#~ msgid "The trade partner does not sell more of this."
+#~ msgstr "交易相手はこれ以上売ることができません。"
+
+#~ msgid "The trade partner does not buy this."
+#~ msgstr "交易相手はこれを買っていません。"
+
+#~ msgid "You do not possess this."
+#~ msgstr "あなたはこれを保有していません。"
+
+#~ msgid "The trade partner can not store more of this."
+#~ msgstr "交易相手はこれをもう保存することができません。"
+
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "交易相手はこれを買うことができません。"
+
+#~ msgid "The trade partner does not buy more of this."
+#~ msgstr "交易相手はこれをもう買うことができません。"
+
+#~ msgid "Failed to quicksave."
+#~ msgstr "簡易保存に失敗しました。"
+
+#~ msgid "An error happened during quicksave."
+#~ msgstr "簡易保存中にエラーが発生しました。"
+
+#~ msgid "Your map has not been saved."
+#~ msgstr "あなたの地図は保存されていません。"
+
+#, python-brace-format
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: "
+#~ "{website}"
+#~ msgstr ""
+#~ "このエラーが再現するようならば、開発チームに連絡してください：{website}"
+
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "本当にUnknown Horizonsを終了しますか？"
+
+#~ msgid "Quit Game"
+#~ msgstr "ゲーム終了"
+
+#~ msgid "No diplomacy possible"
+#~ msgstr "何も外交はありません"
+
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr "他にプレイヤーがいないので、外交を続けることができません。"
+
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "本当に削除しますか？"
+
+#~ msgid "Delete"
+#~ msgstr "削除"
+
+#, python-brace-format
+#~ msgid "{size}x{size} tiles"
+#~ msgstr "{size}x{size}コマ"
+
+#~ msgid "Press key…"
+#~ msgstr "鍵を押す…"
+
+#, python-brace-format
+#~ msgid "{key} is already set to {action}."
+#~ msgstr "{key}は既に{action}に割り当てられています。"
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "これを上書きしますか？"
+
+#~ msgid "Confirmation for overwriting"
+#~ msgstr "上書きの確認"
+
+#~ msgid "Quotes"
+#~ msgstr "引用"
+
+#~ msgid "Gameplay Tips"
+#~ msgstr "ゲームで遊ぶ上でのヒント"
+
+#~ msgid "Press 'ESC' to access Game Menu."
+#~ msgstr "ゲームメニューを開くには「ESC」を押してください。"
+
+#~ msgid "Use 'SHIFT' to place multiple buildings."
+#~ msgstr "複数の建造物を配置するには「SHIFT」を押してください。"
+
+#, python-brace-format
+#~ msgid "Currently only the first {tier} tiers are playable."
+#~ msgstr "現在、最初の{tier}階層のみプレイすることができます。"
+
+#~ msgid "You can pause the game with 'P'."
+#~ msgstr "「P」を押せばゲームを一時停止することができます。"
+
+#~ msgid "You can drag roads by holding the left mouse button."
+#~ msgstr ""
+#~ "左のマウスボタンを押しながらドラッグすれば、道を引くことができます。"
+
+#~ msgid "You can build multiple buildings by holding the 'SHIFT' key."
+#~ msgstr ""
+#~ "「SHIFT」鍵を押しながらやれば、複数の建造物を建設することができます。"
+
+#~ msgid ""
+#~ "You can increase the happiness of your inhabitants by lowering the taxes."
+#~ msgstr "税金を引き下げることで住民の幸福度を増すことができます。"
+
+#~ msgid ""
+#~ "Build fire stations and doctors to protect your inhabitants from fire and "
+#~ "disease."
+#~ msgstr "住民を火事や病気から守るためには、消防署と病院を建設してください。"
+
+#~ msgid "Build storage tents to increase your storage capacity."
+#~ msgstr "貯蔵容量を増やすためには貯蔵テントを建設してください。"
+
+#~ msgid "Make sure every house is in range of a marketplace."
+#~ msgstr "全戸を市場の届く範囲内に収めるようにしてください。"
+
+#~ msgid "Press 'T' to make trees transparent."
+#~ msgstr "「T」を押せば木が透明になります。"
+
+#~ msgid "Build storage tents and lookouts to expand your settlement range."
+#~ msgstr "居住範囲を増やすためには貯蔵テントを建設してください。"
+
+#~ msgid ""
+#~ "To easily see whether the pavilion's range cover all your tents, select "
+#~ "it from the build menu and hover it over your existing pavilion. "
+#~ "Uncovered tents are shown in yellow. It's a good idea to build a new "
+#~ "pavilion in their neighborhood."
+#~ msgstr ""
+#~ "建築メニューから、既存のパビリオンの上にマウスを置くと、パビリオンがすべて"
+#~ "の範囲のテントをカバーしているかどうかを簡単に確認できます。覆われていない"
+#~ "テントは黄色で表示されます。彼らの近所に新しいパビリオンを建てましょう。"
+
+#~ msgid ""
+#~ "Make singleplayer more fun with additional computer players by increasing "
+#~ "'AI players' when starting a new game."
+#~ msgstr ""
+#~ "新しいゲームを開始するときに「AI プレイヤー」を増やすことで、コンピュータ "
+#~ "プレイヤーを追加でき、シングルプレイをさらに楽しくします。"
+
+#~ msgid ""
+#~ "First steps are easier by looking at how AI players are setting up their "
+#~ "settlement."
+#~ msgstr ""
+#~ "AI プレイヤーがどのように決済を設定しているかを確認することで、最初のス"
+#~ "テップが簡単になります。"
+
+#~ msgid ""
+#~ "Want funny quotes only? Change the quote types shown here in the settings "
+#~ "menu on the game page."
+#~ msgstr ""
+#~ "面白い引用文だけが必要ですか?ゲームページの設定メニューで、ここに表示され"
+#~ "る引用タイプを変更します。"
+
+#~ msgid "A marketplace links your buildings like a road."
+#~ msgstr "マーケットプレイスは道路のように建造物同士をつなぎます。"
+
+#~ msgid "Mixed"
+#~ msgstr "両方"
+
+#~ msgid "Starting engine…"
+#~ msgstr "エンジンを起動します…"
+
+#~ msgid "Catching fish…"
+#~ msgstr "魚を獲っています…"
+
+#~ msgid "Drawing user interface…"
+#~ msgstr "ユーザーインタフェースを描画しています…"
+
+#~ msgid "Activating timer…"
+#~ msgstr "タイマーを起動しています…"
+
+#~ msgid "Chomping game data…"
+#~ msgstr "ゲームデータを飲み込んでいます…"
+
+#~ msgid "Shaping islands…"
+#~ msgstr "島を形成しています…"
+
+#~ msgid "Preparing blueprints…"
+#~ msgstr "青写真を描いています…"
+
+#~ msgid "Filling world with water…"
+#~ msgstr "世界を水で満たしています…"
+
+#~ msgid "Raising animals…"
+#~ msgstr "動物たちを起こしています…"
+
+#~ msgid "Convincing AI…"
+#~ msgstr "AIを説得中です…"
+
+#~ msgid "Burying treasures…"
+#~ msgstr "宝物を埋めています…"
+
+#~ msgid "Unable to find pyenet"
+#~ msgstr "pyenetが見つかりません"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which could not "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "複数プレイヤー機能は「pyenet」ライブラリを必要としますが、本システム上に見"
+#~ "つかりませんでした。"
+
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr ""
+#~ "Linuxユーザーへ：パッケージマネージャーを使ってpyenetを導入してください。"
+
+#~ msgid "Failed to initialize networking."
+#~ msgstr "ネットワークの初期化に失敗しました。"
+
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr "現在の設定ではネットワーク機能を初期化することができませんでした。"
+
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "ネットワークセクションで指定した設定を再確認してください。"
+
+#~ msgid "Fatal Network Error"
+#~ msgstr "ネットワークの致命的エラー"
+
+#~ msgid "Could not connect to master server."
+#~ msgstr "マスターサーバーに接続できませんでした。"
+
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "インターネット接続状況を確認してください。もしそれに問題がなければ、我々の"
+#~ "マスターサーバーが一時的に落ちているものと思われます。"
+
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "このネットワークで不具合がありました："
+
+#~ msgid "Version differs!"
+#~ msgstr "バージョンが違います！"
+
+#, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "地図：{map_name}"
+
+#, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "名称：{game_name}"
+
+#, python-brace-format
+#~ msgid "Creator: {game_creator}"
+#~ msgstr "作成者：{game_creator}"
+
+#, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "プレイヤー数：{player_amount}/{player_limit}"
+
+#~ msgid "Wrong version"
+#~ msgstr "バージョン違い"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "ゲームのバージョンがあなたのものと異なります。複数プレイヤーゲームのプレイ"
+#~ "ヤーは、全員同じバージョンを使っていなければなりません。全プレイヤーが最新"
+#~ "のバージョンに更新することで問題は解決します。ゲームバージョン："
+#~ "{game_version} あなたのバージョン：{own_version}"
+
+#~ msgid "Password of the game"
+#~ msgstr "ゲームのパスワード"
+
+#~ msgid "Enter password:"
+#~ msgstr "パスワードを入力してください："
+
+#~ msgid "Ready"
+#~ msgstr "準備完了"
+
+#~ msgid "Not ready"
+#~ msgstr "準備中"
+
+#~ msgid "Enter your message"
+#~ msgstr "あなたからのメッセージを入力してください"
+
+#~ msgid "Click here to change your name and/or color"
+#~ msgstr "名前や色の変更をするにはここをクリックしてください"
+
+#, python-brace-format
+#~ msgid "Kick {player}"
+#~ msgstr "{player}を追い出す"
+
+#, python-brace-format
+#~ msgid "{player} has joined the game"
+#~ msgstr "{player}がゲームに参加しました"
+
+#, python-brace-format
+#~ msgid "{player} has left the game"
+#~ msgstr "{player}がゲームから去りました"
+
+#~ msgid "You are now ready"
+#~ msgstr "あなたは準備完了です"
+
+#~ msgid "You are not ready anymore"
+#~ msgstr "あなたは準備完了ではなくなりました"
+
+#, python-brace-format
+#~ msgid "{player} is now ready"
+#~ msgstr "{player}は準備完了です"
+
+#, python-brace-format
+#~ msgid "{player} not ready anymore"
+#~ msgstr "{player}は準備完了ではなくなりました"
+
+#, python-brace-format
+#~ msgid "You are now known as {new_name}"
+#~ msgstr "あなたの名前はこれから{new_name}です"
+
+#, python-brace-format
+#~ msgid "{player} is now known as {new_name}"
+#~ msgstr "{player}の名前はこれから{new_name}です"
+
+#~ msgid "You changed your color"
+#~ msgstr "あなたは色を変更しました"
+
+#, python-brace-format
+#~ msgid "{player} changed their color"
+#~ msgstr "{player}は色を変更しました"
+
+#~ msgid "Kicked"
+#~ msgstr "追い出されました"
+
+#~ msgid "You have been kicked from the game by creator"
+#~ msgstr "あなたは作成者によってゲームから追い出されました"
+
+#, python-brace-format
+#~ msgid "{player} got kicked by creator"
+#~ msgstr "{player}は作成者によって追い出されました"
+
+#~ msgid "Are you sure you want to abort the running session?"
+#~ msgstr "本当に実行中のセッションを停止しますか？"
+
+#~ msgid "Quit Session"
+#~ msgstr "セッション終了"
+
+#~ msgid "No saved games"
+#~ msgstr "保存済みゲームはありません"
+
+#~ msgid "There are no saved games to load."
+#~ msgstr "読み込める保存済みゲームがありません。"
+
+#~ msgid "No filename given"
+#~ msgstr "ファイル名がありません"
+
+#~ msgid "Please enter a valid filename."
+#~ msgstr "有効なファイル名を入力してください。"
+
+#, python-brace-format
+#~ msgid "A savegame with the name {name} already exists."
+#~ msgstr "{name}という名の保存済みゲームが既に存在します。"
+
+#, python-brace-format
+#~ msgid "A map with the name {name} already exists."
+#~ msgstr "{name}という名の地図が既に存在します。"
+
+#~ msgid "Overwrite it?"
+#~ msgstr "これに上書きしますか？"
+
+#, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "{time}に保存されました"
+
+#, python-brace-format
+#~ msgid "Saved {amount} time"
+#~ msgid_plural "Saved {amount} times"
+#~ msgstr[0] "{amount}回保存されました"
+
+#, python-brace-format
+#~ msgid "Savegame version {version}"
+#~ msgstr "保存ゲームバージョン{version}"
+
+#~ msgid "(probably incompatible)"
+#~ msgstr "（おそらく互換性なし）"
+
+#~ msgid "Incompatible version"
+#~ msgstr "互換性のないバージョン"
+
+#~ msgid "No file selected"
+#~ msgstr "ファイルが選択されていません"
+
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr "削除する保存済みゲームを選択する必要があります。"
+
+#, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "本当に保存済みゲーム「{name}」を削除しますか？"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "削除の確認"
+
+#~ msgid "Error!"
+#~ msgstr "エラー！"
+
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "保存ファイルの削除に失敗しました！"
+
+#~ msgid "Game"
+#~ msgstr "ゲーム"
+
+#~ msgid "Disabled"
+#~ msgstr "無効"
+
+#~ msgid "Restart required"
+#~ msgstr "再起動が必要です"
+
+#~ msgid ""
+#~ "Some of your changes require a restart of Unknown Horizons. Do you want "
+#~ "to restart Unknown Horizons now?"
+#~ msgstr "いくつかの変更はUnknown Horizonsの再起動を必要とします。"
+
+#~ msgid "Restore default settings"
+#~ msgstr "設定を既定値に戻す"
+
+#~ msgid ""
+#~ "Restoring the default settings will delete all changes to the settings "
+#~ "you made so far."
+#~ msgstr "設定を既定値に戻すと、これまで設定に加えた変更の全てが失われます。"
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "続けますか？"
+
+#~ msgid "Invalid network port"
+#~ msgstr "ネットワークポートが無効です"
+
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr ""
+#~ "あなたが指定したポートは有効ではありません。ポート番号は1から65535までの数"
+#~ "でなくてはなりません。"
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it is in the specified "
+#~ "range."
+#~ msgstr "入力したポートを再確認して指定範囲内に収めて下さい。"
+
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "新しいネットワーク設定の適用に失敗しました。"
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special access privileges, try 0 or a "
+#~ "number greater than 1024."
+#~ msgstr ""
+#~ "小さいポート番号は特別なアクセス権限を必要とすることがありますので、0か"
+#~ "1024よりも大きい番号を選んでください。"
+
+#~ msgid "Invalid player name"
+#~ msgstr "プレイヤー名が無効です"
+
+#~ msgid "You entered an invalid playername."
+#~ msgstr "無効なプレイヤー名を入力しました。"
+
+#~ msgid "Map size:"
+#~ msgstr "地図の寸法："
+
+#~ msgid "Water:"
+#~ msgstr "水："
+
+#~ msgid "Max island size:"
+#~ msgstr "最大の島の大きさ："
+
+#~ msgid "Preferred island size:"
+#~ msgstr "望ましい島の大きさ："
+
+#~ msgid "Island size deviation:"
+#~ msgstr "島の大きさのずれ："
+
+#~ msgid "Click to generate a different random map"
+#~ msgstr "クリックすると別のランダム地図を生成します"
+
+#~ msgid "Invalid scenario file"
+#~ msgstr "シナリオファイルが無効です"
+
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "選択したファイルは有効なシナリオファイルではありません。"
+
+#~ msgid "Error message:"
+#~ msgstr "エラーメッセージ："
+
+#~ msgid "Please report this to the author."
+#~ msgstr "これを作者に知らせてください。"
+
+#, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "難易度：{difficulty}"
+
+#, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "著者：{author}"
+
+#, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "摘要：{desc}"
+
+#, python-brace-format
+#~ msgid "Build {building}"
+#~ msgstr "{building}を建設"
+
+#~ msgid "Press H to remove this hint"
+#~ msgstr "このヒントを消すにはHを押してください"
+
+#~ msgid "Destroy all buildings"
+#~ msgstr "すべての建築物を削除"
+
+#~ msgid ""
+#~ "This will destroy all the buildings that fall outside of the settlement "
+#~ "range."
+#~ msgstr "これにより、決算範囲外の建造物はすべて破壊されます。"
+
+#, python-format
+#~ msgid "%s additional building will be destroyed."
+#~ msgid_plural "%s additional buildings will be destroyed"
+#~ msgstr[0] "%s の建造物が追加で破壊されます。"
+
+#~ msgid "Barracks overview"
+#~ msgstr "兵舎の概要"
+
+#~ msgid "Swordman"
+#~ msgstr "剣士"
+
+#~ msgid "Overview"
+#~ msgstr "概要"
+
+#, python-brace-format
+#~ msgid "{ship} (place in queue: {place})"
+#~ msgstr "{ship}（待機場所：{place}）"
+
+#~ msgid "Boat builder overview"
+#~ msgstr "造船所の概要"
+
+#~ msgid "Fisher boats"
+#~ msgstr "漁船"
+
+#~ msgid "Trade boats"
+#~ msgstr "貿易船"
+
+#~ msgid "War boats"
+#~ msgstr "戦船"
+
+#~ msgid "War ships"
+#~ msgstr "軍艦"
+
+#~ msgid "Tower overview"
+#~ msgstr "塔の概要"
+
+#~ msgid "Build related buildings"
+#~ msgstr "関連建造物を建設"
+
+#~ msgid "Click on one of the resource slots to add a trade offer."
+#~ msgstr ""
+#~ "交易の提案を追加するには、資源スロットの一つをクリックしてください。"
+
+#~ msgid ""
+#~ "Set to buy or sell by clicking on that label, then adjust the amount via "
+#~ "the slider to the right."
+#~ msgstr ""
+#~ "そのラベルをクリックして売りか買いかを設定し、右側のスライダーを使って量を"
+#~ "調節してください。"
+
+#, python-brace-format
+#~ msgid ""
+#~ "Will sell {resource_name} for {price} gold/t whenever more than {limit}t "
+#~ "are available."
+#~ msgstr ""
+#~ "在庫が{limit}tよりも多ければ、常に{resource_name}を{price}ゴールド/tの価格"
+#~ "で売ります。"
+
+#~ msgid "Warehouse overview"
+#~ msgstr "倉庫の概要"
+
+#~ msgid "Main square overview"
+#~ msgstr "中央広場の概要"
+
+#~ msgid "Upgrade not possible:"
+#~ msgstr "昇格はできません："
+
+#~ msgid "This is the highest playable tier for now!"
+#~ msgstr "今のところ、これがプレイしうる最高の階層です！"
+
+#~ msgid "Don't allow upgrades"
+#~ msgstr "昇格を許可しない"
+
+#~ msgid "Allow upgrades"
+#~ msgstr "昇格を許可"
+
+#~ msgid "Unit overview"
+#~ msgstr "ユニットの概要"
+
+#, python-brace-format
+#~ msgid "Fill range with {how_many} trees"
+#~ msgstr "{how_many} 本の木で範囲を埋める"
+
+#~ msgid "Selected Units"
+#~ msgstr "選択したユニット"
+
+#~ msgid "Ship overview"
+#~ msgstr "船の概要"
+
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr "入植地を拓くためには、船を島に近づけなくてはなりません。"
+
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "あなたは既にこの島に入植地を持っています。"
+
+#~ msgid "Load/Unload"
+#~ msgstr "荷積み/荷揚げ"
+
+#~ msgid "Too far from the nearest tradeable warehouse"
+#~ msgstr "最寄りの交易可能な倉庫から離れすぎています"
+
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "貿易船に武器を装備することはできません"
+
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "貿易船に武器を装備することはできません。"
+
+#~ msgid "Equip weapon"
+#~ msgstr "武装"
+
+#~ msgid "Unequip weapon"
+#~ msgstr "武装解除"
+
+#, python-brace-format
+#~ msgid "{resource_name}: {price} gold"
+#~ msgstr "{resource_name}: {price}ゴールド"
+
+#, python-brace-format
+#~ msgid "buy for {buyprice} gold"
+#~ msgstr "{buyprice}ゴールドで買う"
+
+#, python-brace-format
+#~ msgid "sell for {sellprice} gold"
+#~ msgstr "{sellprice}ゴールドで売る"
+
+#, python-brace-format
+#~ msgid "{stored}/{limit}"
+#~ msgstr "{stored}/{limit}"
+
+#~ msgid "Logbook"
+#~ msgstr "航海日誌"
+
+#~ msgid "Emptiness"
+#~ msgstr "白紙"
+
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "あなたの航海日誌にはまだ何も書かれていません！"
+
+#, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "{player}の入植地"
+
+#, python-brace-format
+#~ msgid "Ships of {player}"
+#~ msgstr "{player}の船"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#, python-brace-format
+#~ msgid "Production overview of {settlement}"
+#~ msgstr "{settlement}の生産概要"
+
+#~ msgid "Click to show statistics"
+#~ msgstr "クリックすると統計が表示されます"
+
+#~ msgid "Click to add a new slot"
+#~ msgstr "クリックすると新しいスロットが追加されます"
+
+#~ msgid "Reset this configuration to the factory default."
+#~ msgstr "この設定を出荷時既定値に初期化する。"
+
+#~ msgid ""
+#~ "Reset this settlement's displayed resources to the default configuration "
+#~ "you have saved."
+#~ msgstr "表示されているこの入植地の資源を保存した既定設定に初期化する。"
+
+#~ msgid ""
+#~ "Reset the default configuration (which you see here) to the factory "
+#~ "default for all settlements."
+#~ msgstr ""
+#~ "（ここに表示されている）全入植地の既定設定を出荷時既定値に初期化する。"
+
+#~ msgid "Buy expenses"
+#~ msgstr "購入費用"
+
+#~ msgid "Sell income"
+#~ msgstr "売上所得"
+
+#~ msgid "Stop route"
+#~ msgstr "交易路を停止"
+
+#~ msgid "Need at least two settlements"
+#~ msgstr "少なくとも2つの入植地が必要です"
+
+#~ msgid "You need at least two different settlements in your route."
+#~ msgstr "交易路上には少なくとも別々の2つの入植地が必要です。"
+
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "経路点を追加するには入植地をクリックしてください！"
+
+#~ msgid "Loading into ship"
+#~ msgstr "船に積み込む"
+
+#~ msgid "Unloading from ship"
+#~ msgstr "船から荷揚げする"
+
+#~ msgid "You are not allowed to trade with this player"
+#~ msgstr "このプレイヤーと交易することは禁じられています"
+
+#, python-brace-format
+#~ msgid "{weapon}: {amount}"
+#~ msgstr "{weapon}：{amount}"
+
+#~ msgid "none"
+#~ msgstr "なし"
+
+#, python-brace-format
+#~ msgid "Details: {error_details}"
+#~ msgstr "詳細：{error_details}"
+
+#, python-brace-format
+#~ msgid "Error: {error_message}"
+#~ msgstr "エラー：{error_message}"
+
+#~ msgid "Bakery"
+#~ msgstr "パン屋"
+
+#~ msgid "Barracks"
+#~ msgstr "兵営"
+
+#~ msgid "Wooden barrier"
+#~ msgstr "木製の障壁"
+
+#~ msgid "Clay wall"
+#~ msgstr "土壁"
+
+#~ msgid "Blender"
+#~ msgstr "調合所"
+
+#~ msgid "Boat Builder"
+#~ msgstr "船大工"
+
+#~ msgid "Brewery"
+#~ msgstr "醸造所"
+
+#~ msgid "Brickyard"
+#~ msgstr "煉瓦工場"
+
+#~ msgid "Butchery"
+#~ msgstr "肉屋"
+
+#~ msgid "Cannon Foundry"
+#~ msgstr "大砲鋳造所"
+
+#~ msgid "Charcoal Burning"
+#~ msgstr "炭焼き"
+
+#~ msgid "Clay Deposit"
+#~ msgstr "粘土層"
+
+#~ msgid "Clay Pit"
+#~ msgstr "粘土採掘所"
+
+#~ msgid "Distillery"
+#~ msgstr "蒸留所"
+
+#~ msgid "Doctor"
+#~ msgstr "医師"
+
+#~ msgid "Farm"
+#~ msgstr "農家"
+
+#~ msgid "Alvearies"
+#~ msgstr "養蜂家"
+
+#~ msgid "Cattle Run"
+#~ msgstr "牛放牧地"
+
+#~ msgid "Cocoa Field"
+#~ msgstr "カカオ畑"
+
+#~ msgid "Corn Field"
+#~ msgstr "とうもろこし畑"
+
+#~ msgid "Herbary"
+#~ msgstr "薬草畑"
+
+#~ msgid "Hop Field"
+#~ msgstr "ホップ畑"
+
+#~ msgid "Pasture"
+#~ msgstr "牧草地"
+
+#~ msgid "Pigsty"
+#~ msgstr "豚小屋"
+
+#~ msgid "Potato Field"
+#~ msgstr "じゃがいも畑"
+
+#~ msgid "Spice Field"
+#~ msgstr "スパイス畑"
+
+#~ msgid "Sugar Field"
+#~ msgstr "さとうきび畑"
+
+#~ msgid "Tobacco Field"
+#~ msgstr "たばこ畑"
+
+#~ msgid "Vineyard"
+#~ msgstr "葡萄畑"
+
+#~ msgid "Fire Station"
+#~ msgstr "消防署"
+
+#~ msgid "Fish Deposit"
+#~ msgstr "漁場"
+
+#~ msgid "Fisherman's Tent"
+#~ msgstr "漁師のテント"
+
+#~ msgid "Hunter's Tent"
+#~ msgstr "猟師のテント"
+
+#~ msgid "Lookout"
+#~ msgstr "見張り台"
+
+#~ msgid "Lumberjack Hut"
+#~ msgstr "伐採所"
+
+#~ msgid "Main Square"
+#~ msgstr "中央広場"
+
+#~ msgid "Mine"
+#~ msgstr "鉱山"
+
+#~ msgid "Mountain"
+#~ msgstr "山"
+
+#~ msgid "Pastry Shop"
+#~ msgstr "菓子店"
+
+#~ msgid "Pavilion"
+#~ msgstr "大型テント"
+
+#~ msgid "Ruined Tent"
+#~ msgstr "テントの残骸"
+
+#~ msgid "Salt Ponds"
+#~ msgstr "塩田"
+
+#~ msgid "Signal Fire"
+#~ msgstr "狼煙台"
+
+#~ msgid "Smeltery"
+#~ msgstr "精錬所"
+
+#~ msgid "Stone Deposit"
+#~ msgstr "石の堆積物"
+
+#~ msgid "Stonemason"
+#~ msgstr "石屋"
+
+#~ msgid "Carver"
+#~ msgstr "石工"
+
+#~ msgid "Stone Pit"
+#~ msgstr "採石場"
+
+#~ msgid "Storage Tent"
+#~ msgstr "貯蔵テント"
+
+#~ msgid "Storage Hut"
+#~ msgstr "貯蔵所"
+
+#~ msgid "Tavern"
+#~ msgstr "酒場"
+
+#~ msgid "Hut"
+#~ msgstr "小屋"
+
+#~ msgid "Stone house"
+#~ msgstr "石造りの家"
+
+#~ msgid "Estate"
+#~ msgstr "邸宅"
+
+#~ msgid "Manor"
+#~ msgstr "荘園"
+
+#~ msgid "Tobacconist"
+#~ msgstr "たばこ屋"
+
+#~ msgid "Toolmaker"
+#~ msgstr "工具屋"
+
+#~ msgid "Trail"
+#~ msgstr "小道"
+
+#~ msgid "Gravel Path"
+#~ msgstr "砂利道"
+
+#~ msgid "Cobblestone Street"
+#~ msgstr "石畳の街路"
+
+#~ msgid "Tree"
+#~ msgstr "木"
+
+#, fuzzy
+#~| msgid "Village school"
+#~ msgid "Village School"
+#~ msgstr "村校"
+
+#~ msgid "Warehouse"
+#~ msgstr "倉庫"
+
+#~ msgid "Weaponsmith"
+#~ msgstr "武器鍛冶屋"
+
+#~ msgid "Weaver's Hut"
+#~ msgstr "機織小屋"
+
+#~ msgid "Windmill"
+#~ msgstr "風車"
+
+#~ msgid "Winery"
+#~ msgstr "ワイナリー"
+
+#~ msgid "Wooden Tower"
+#~ msgstr "木塔"
+
+#~ msgid "Failed to start/load the game"
+#~ msgstr "ゲームの開始/読込に失敗しました"
+
+#~ msgid "The game you selected could not be started."
+#~ msgstr "選択したゲームを開始できませんでした。"
+
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr "保存ゲームが壊れているか古いバージョンで保存されています。"
+
+#~ msgid "No quicksaves found"
+#~ msgstr "簡易保存はありません"
+
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr "簡易読込をするには前もって簡易保存が必要です。"
+
+#~ msgid "Logging enabled"
+#~ msgstr "ログが有効です"
+
+#, python-brace-format
+#~ msgid "Logs are written to {directory}."
+#~ msgstr "ログは{directory}に書き込まれます。"
+
+#~ msgid ""
+#~ "The games have run out of sync. This indicates an unknown internal error, "
+#~ "the game cannot continue."
+#~ msgstr ""
+#~ "ゲームの同調が取れません。これは未知の内部エラーがあったことを意味し、ゲー"
+#~ "ムを続けることができません。"
+
+#~ msgid ""
+#~ "We are very sorry and hope to have this bug fixed in a future version."
+#~ msgstr ""
+#~ "たいへん申しわけありませんが、将来のバージョンでこのバグを修正したいと思い"
+#~ "ます。"
+
+#~ msgid "Not possible"
+#~ msgstr "不可能"
+
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr "複数プレイヤーの保存/読込はまだできません"
+
+#~ msgid ""
+#~ "The filename must consist only of letters, numbers, spaces and these "
+#~ "characters: _ . -"
+#~ msgstr "ファイル名には半角英数字・スペース・「_ . -」の各記号のみが使えます"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "サーバーに接続することができません。"
+
+#~ msgid "Maybe invalid or irresolvable server address."
+#~ msgstr "無効あるいは解決できないサーバーアドレスである可能性があります。"
+
+#~ msgid "Not Ready"
+#~ msgstr "準備中"
+
+#~ msgid ""
+#~ "Old or unsupported multiplayer protocol. Please check your game version"
+#~ msgstr ""
+#~ "古いバージョンまたはマルチプレイヤー プロトコルがサポートされていません。"
+#~ "ゲームのバージョンを確認してください"
+
+#~ msgid "You've exceeded the global packet size."
+#~ msgstr "グローバル パケット サイズを超えました。"
+
+#~ msgid "This should never happen. Please contact us or file a bug report."
+#~ msgstr ""
+#~ "このようなことは決してあってはなりません。弊社までご連絡いただくか、バグレ"
+#~ "ポートを提出してください。"
+
+#~ msgid "You've exceeded the per packet size."
+#~ msgstr "パケットあたりのサイズを超えました。"
+
+#~ msgid "Unknown or malformed packet. Please check your game version"
+#~ msgstr ""
+#~ "不明なパケットまたは不正な形式のパケットです。ゲームのバージョンを確認して"
+#~ "ください"
+
+#~ msgid "Invalid/Unknown session"
+#~ msgstr "無効/不明なセッション"
+
+#~ msgid "You can't join a game while in another game"
+#~ msgstr "別のゲームをプレイ中にはゲームに参加することはできません"
+
+#~ msgid "Unknown game or game is running a different version"
+#~ msgstr "不明なゲーム、または別のバージョンのゲームが実行されています"
+
+#~ msgid "Game has already started. No more joining"
+#~ msgstr "ゲームはすでに始まっています。参加できません"
+
+#~ msgid "Game is full"
+#~ msgstr "ゲームは満員です"
+
+#~ msgid "Wrong password"
+#~ msgstr "間違ったパスワード"
+
+#~ msgid "There's already a player with your name inside this game."
+#~ msgstr "このゲーム内には同じ名前のプレイヤーがすでに存在します。"
+
+#~ msgid "Please change your name."
+#~ msgstr "名前を変更してください。"
+
+#~ msgid "There's already a player with your color inside this game."
+#~ msgstr "このゲームには同じ色のプレイヤーがすでに存在します。"
+
+#~ msgid "Please change your color."
+#~ msgstr "色を変更してください。"
+
+#~ msgid ""
+#~ "There's already a player with your unique player ID inside this game. "
+#~ "This should never occur."
+#~ msgstr ""
+#~ "このゲーム内には、あなた特有のプレイヤー ID を持つプレイヤーがすでに存在し"
+#~ "ます。このようなことは決して起こらないはずです。"
+
+#~ msgid "You are not inside a game"
+#~ msgstr "あなたはゲーム中ではありません"
+
+#~ msgid "Unable to change your name."
+#~ msgstr "名前を変更できません。"
+
+#~ msgid "Unable to change your color."
+#~ msgstr "色を変更できません。"
+
+#~ msgid "You can't fetch a game while in another game"
+#~ msgstr "別のゲームをプレイしている間はゲームをフェッチすることはできません"
+
+#~ msgid "The game has been terminated. The creator has left the game."
+#~ msgstr "ゲームは終了しました。作成者がゲームから離れました。"
+
+#~ msgid ""
+#~ "One player has terminated their game. For technical reasons, this "
+#~ "currently means the game cannot continue. We are very sorry about that."
+#~ msgstr ""
+#~ "1 人のプレイヤーがゲームを終了しました。技術的な理由により、現時点ではゲー"
+#~ "ムを続行できないことを意味します。誠に申し訳ございません。"
+
+#~ msgid "You have won!"
+#~ msgstr "あなたの勝ちです！"
+
+#~ msgid "You have completed this scenario."
+#~ msgstr "あなたはこのシナリオを完遂しました。"
+
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "ゲームを続けますか？"
+
+#~ msgid "Failed to create savegame file"
+#~ msgstr "保存ゲームファイルの生成に失敗しました"
+
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr "保存ゲームファイルの生成中にエラーが発生しました。"
+
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr ""
+#~ "これは通常、保存ゲーム名にサポートされていない特殊文字が含まれている時に起"
+#~ "こります。"
+
+#~ msgid "Access is denied"
+#~ msgstr "アクセスが拒否されました"
+
+#~ msgid "The savegame file could be read-only or locked by another process."
+#~ msgstr ""
+#~ "保存ゲームファイルが、読み取り専用か、もしくは他のプロセスによってロックさ"
+#~ "れた状態になっている可能性があります。"
+
+#~ msgid "Your game has not been saved."
+#~ msgstr "このゲームは保存できませんでした。"
+
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "Unknown Horizonsの新しいバージョンがあります"
+
+#, python-brace-format
+#~ msgid ""
+#~ "There is a more recent release of Unknown Horizons ({new_version}) than "
+#~ "the one you are currently using ({old_version})."
+#~ msgstr ""
+#~ "現在ご利用のUnknown Horizons（{old_version}）よりも新しいリリース"
+#~ "（{new_version}）があります。"
+
+#~ msgid "Click to download"
+#~ msgstr "クリックするとダウンロードします"
+
+#~ msgid "A page has been opened in your browser."
+#~ msgstr "ページがブラウザ中に開かれました。"
+
+#, python-brace-format
+#~ msgid "{slotnum} slots, {limit}t"
+#~ msgstr "{slotnum}スロット、{limit}t"
+
+#, python-brace-format
+#~ msgid "Health: {health}"
+#~ msgstr "健康：{health}"
+
+#, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}：　{description}"
+
+#~ msgid "This building must be built on an island."
+#~ msgstr "この建造物は陸上に作らなければなりません。"
+
+#~ msgid "This ground is not suitable for this building."
+#~ msgstr "この土地は、この建造物には適していません。"
+
+#~ msgid "This building has to be built within your settlement."
+#~ msgstr "この建造物はあなたの入植地内に建てなければなりません。"
+
+#~ msgid "This area is already occupied by another player."
+#~ msgstr "この区画は、既に他のプレイヤーが占有しています。"
+
+#~ msgid "This area is already occupied by another building."
+#~ msgstr "この区画は、既に他の建造物が占有しています。"
+
+#~ msgid "This area is already occupied by a unit."
+#~ msgstr "この区画は、既にユニットによって占有されています。"
+
+#~ msgid "This building must be built on the coastline."
+#~ msgstr "この建造物は海岸線上に建てなければなりません。"
+
+#~ msgid "This building has to be placed at the ocean."
+#~ msgstr "この建造物は海辺に建てなくてはなりません。"
+
+#~ msgid "This spot is too far away from your ship."
+#~ msgstr "この地点はあなたの船から遠すぎます。"
+
+#~ msgid "This building can only be built on a resource source."
+#~ msgstr "この建造物は資源の上にのみ建てることができます。"
+
+#~ msgid "You have already settled this island."
+#~ msgstr "あなたは既にこの島に入植しています。"
+
+#~ msgid "This building must be partly on flat land."
+#~ msgstr "この建造物は平らな土地にかかっている必要があります。"
+
+#~ msgid "The inhabitants are infected by the Black Death!"
+#~ msgstr "住民たちが黒死病に感染しました！"
+
+#~ msgid "This building is on fire!"
+#~ msgstr "この建造物は燃えています！"
+
+#~ msgid "These residents are unhappy."
+#~ msgstr "この住民たちは不幸です。"
+
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "この住民たちには中央広場への経路がありません。"
+
+#~ msgid "The inventory of this building is full."
+#~ msgstr "この建造物の在庫が満杯です。"
+
+#~ msgid "This building has a very low productivity."
+#~ msgstr "この建造物の生産性が非常に低くなっています。"
+
+#~ msgid "This building is decommissioned."
+#~ msgstr "この建造物は閉鎖されました。"
+
+#, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "交易路：{location}へ行く"
+
+#, python-brace-format
+#~ msgid "Trade route: waiting at {position}"
+#~ msgstr "交易路：{position}で待機"
+
+#, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "{location}へ行く"
+
+#, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "{x},{y}へ行く"
+
+#, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "{location}で待機"
+
+#, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "{x},{y}で待機"
+
+#~ msgid "Trader"
+#~ msgstr "貿易船"
+
+#, python-brace-format
+#~ msgid "Attacking {target} '{name}' ({owner})"
+#~ msgstr "{target}「{name}」（{owner}）を攻撃"
+
+#, python-brace-format
+#~ msgid "Attacking {owner}"
+#~ msgstr "{owner}を攻撃"
+
+#~ msgid "Your game has been autosaved."
+#~ msgstr "このゲームは自動保存されました。"
+
+#~ msgid "Your building has caught fire!"
+#~ msgstr "あなたの建造物が火事です！"
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}：{message}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "{player1} and {player2} have ended their alliance and are now in a state "
+#~ "of war."
+#~ msgstr "{player1}と{player2}は同盟関係を解消し交戦状態にあります。"
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have terminated their alliance."
+#~ msgstr "{player1}と{player2}は同盟を解消しました。"
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have ended the war and are now allied."
+#~ msgstr "{player1}と{player2}は戦争を終結して同盟を結びました。"
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have settled their hostility."
+#~ msgstr "{player1}と{player2}は互いに矛を収めました。"
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have allied their forces."
+#~ msgstr "{player1}と{player2}は戦力を合わせることにしました。"
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} will fight each other to the death."
+#~ msgstr "{player1}と{player2}は決死戦に入ります。"
+
+#~ msgid "You can also drag roads."
+#~ msgstr "道をドラッグすることもできます。"
+
+#~ msgid "One of your fields requires a farm to harvest its crops."
+#~ msgstr "あなたの畑の一つは、作物を収穫するのに農家を必要としています。"
+
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "あなたの鉱山の資源が枯渇しました。"
+
+#~ msgid ""
+#~ "You have reached the current maximum tier. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "現在の最上位の階層に到達しました。あなたの住民は、これ以上昇格することはあ"
+#~ "りません。"
+
+#~ msgid "Cannot go here."
+#~ msgstr "ここには行けません。"
+
+#~ msgid "Your crew refuses to leave this map."
+#~ msgstr "あなたの仲間がこの地図を去るのを拒んでいます。"
+
+#, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "この建造物を建てるには${resource}がもっと必要です。"
+
+#, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "{player}が新しい入植地を拓きました。"
+
+#, python-brace-format
+#~ msgid "A new ship by the name of {name} has been created."
+#~ msgstr "{name}という名の新造船が造られました。"
+
+#, python-brace-format
+#~ msgid "The Soldier by the name of {name} is ready to battle."
+#~ msgstr "兵士の{name} は戦闘の準備ができています。"
+
+#, python-brace-format
+#~ msgid "The inhabitant by the name of {name} is available."
+#~ msgstr "住人の{name} が利用可能です。"
+
+#~ msgid "A new world has been created."
+#~ msgstr "新しい世界が造られました。"
+
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "中央広場への経路がない住民がいます。"
+
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "このゲームは簡易保存されました。"
+
+#~ msgid ""
+#~ "The route is now configured. Start it via the \"start route\" button in "
+#~ "the \"configure route\" menu."
+#~ msgstr ""
+#~ "交易路が設定されました。「交易路の調整」メニュー中の「交易路を開始」ボタン"
+#~ "を押して交易路を開始してください。"
+
+#~ msgid "Your game has been saved."
+#~ msgstr "このゲームは保存されました。"
+
+#, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "スクリーンショットを{file}に保存しました。"
+
+#, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "あなたの住民はレベル${level}に到達しました。"
+
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "一部の住民が出て行きました。"
+
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr "倉庫を剥ぎ取ることはできません。入植地が必要としています。"
+
+#~ msgid "You won!"
+#~ msgstr "あなたの勝ちです！"
+
+#~ msgid "You failed the scenario."
+#~ msgstr "シナリオを完遂できませんでした。"
+
+#~ msgid "The inhabitants of this building are infected by the Black Death!"
+#~ msgstr "この建造物の住民たちは黒死病に感染しています！"
+
+#~ msgid "coins"
+#~ msgstr "コイン"
+
+#~ msgid "lamb wool"
+#~ msgstr "ラムウール"
+
+#~ msgid "textile"
+#~ msgstr "織物"
+
+#~ msgid "boards"
+#~ msgstr "板材"
+
+#~ msgid "food"
+#~ msgstr "食糧"
+
+#~ msgid "tools"
+#~ msgstr "工具"
+
+#~ msgid "bricks"
+#~ msgstr "煉瓦"
+
+#~ msgid "trees"
+#~ msgstr "木"
+
+#~ msgid "grass"
+#~ msgstr "牧草"
+
+#~ msgid "wool"
+#~ msgstr "羊毛"
+
+#~ msgid "faith"
+#~ msgstr "信仰"
+
+#~ msgid "deer food A"
+#~ msgstr "鹿の食糧A"
+
+#~ msgid "deer meat"
+#~ msgstr "鹿肉"
+
+#~ msgid "happiness"
+#~ msgstr "幸福"
+
+#~ msgid "potatoes"
+#~ msgstr "じゃがいも"
+
+#~ msgid "education"
+#~ msgstr "教育"
+
+#~ msgid "sugar cane"
+#~ msgstr "さとうきび"
+
+#~ msgid "sugar"
+#~ msgstr "砂糖"
+
+#~ msgid "community"
+#~ msgstr "コミュニティ"
+
+#~ msgid "clay deposit"
+#~ msgstr "粘土層"
+
+#~ msgid "clay"
+#~ msgstr "粘土"
+
+#~ msgid "liquor"
+#~ msgstr "酒類"
+
+#~ msgid "charcoal"
+#~ msgstr "木炭"
+
+#~ msgid "iron deposit"
+#~ msgstr "鉄鉱床"
+
+#~ msgid "iron ore"
+#~ msgstr "鉄鉱石"
+
+#~ msgid "iron ingots"
+#~ msgstr "鉄塊"
+
+#~ msgid "get-together"
+#~ msgstr "集いの場"
+
+#~ msgid "fish"
+#~ msgstr "魚"
+
+#~ msgid "salt"
+#~ msgstr "塩"
+
+#~ msgid "tobacco plants"
+#~ msgstr "たばこ農場"
+
+#~ msgid "tobacco leaves"
+#~ msgstr "たばこの葉"
+
+#~ msgid "tobaccos"
+#~ msgstr "たばこ"
+
+#~ msgid "cattle"
+#~ msgstr "牛"
+
+#~ msgid "pigs"
+#~ msgstr "豚"
+
+#~ msgid "cattle for slaughter"
+#~ msgstr "食用牛"
+
+#~ msgid "pigs for slaughter"
+#~ msgstr "食用豚"
+
+#~ msgid "herbs"
+#~ msgstr "薬草"
+
+#~ msgid "medical herbs"
+#~ msgstr "薬草"
+
+#~ msgid "acorns"
+#~ msgstr "どんぐり"
+
+#~ msgid "cannon"
+#~ msgstr "キャノン砲"
+
+#~ msgid "sword"
+#~ msgstr "剣"
+
+#~ msgid "grain"
+#~ msgstr "穀物"
+
+#~ msgid "corn"
+#~ msgstr "とうもろこし"
+
+#~ msgid "flour"
+#~ msgstr "穀粉"
+
+#~ msgid "spice plants"
+#~ msgstr "スパイス農場"
+
+#~ msgid "spices"
+#~ msgstr "スパイス"
+
+#~ msgid "condiments"
+#~ msgstr "調味料"
+
+#~ msgid "marble deposit"
+#~ msgstr "大理石鉱床"
+
+#~ msgid "marble tops"
+#~ msgstr "大理石片"
+
+#~ msgid "coal deposit"
+#~ msgstr "石炭層"
+
+#~ msgid "stone deposit"
+#~ msgstr "岩石層"
+
+#~ msgid "stone tops"
+#~ msgstr "石片"
+
+#~ msgid "cocoa beans"
+#~ msgstr "カカオ豆"
+
+#~ msgid "cocoa"
+#~ msgstr "カカオ"
+
+#~ msgid "confectionery"
+#~ msgstr "菓子屋"
+
+#~ msgid "candles"
+#~ msgstr "ろうそく"
+
+#~ msgid "vines"
+#~ msgstr "葡萄"
+
+#~ msgid "grapes"
+#~ msgstr "葡萄"
+
+#~ msgid "alvearies"
+#~ msgstr "蜂の巣"
+
+#~ msgid "honeycombs"
+#~ msgstr "蜂の巣"
+
+#~ msgid "gold deposit"
+#~ msgstr "金鉱床"
+
+#~ msgid "gold ore"
+#~ msgstr "金鉱石"
+
+#~ msgid "gold ingots"
+#~ msgstr "金塊"
+
+#~ msgid "gem deposit"
+#~ msgstr "宝石鉱床"
+
+#~ msgid "rough gems"
+#~ msgstr "原石"
+
+#~ msgid "gems"
+#~ msgstr "宝石"
+
+#~ msgid "coffee plants"
+#~ msgstr "珈琲農場"
+
+#~ msgid "coffee beans"
+#~ msgstr "珈琲豆"
+
+#~ msgid "coffee"
+#~ msgstr "珈琲"
+
+#~ msgid "tea plants"
+#~ msgstr "茶農場"
+
+#~ msgid "tea leaves"
+#~ msgstr "茶葉"
+
+#~ msgid "tea"
+#~ msgstr "茶"
+
+#~ msgid "flower meadows"
+#~ msgstr "花畑"
+
+#~ msgid "blossoms"
+#~ msgstr "花"
+
+#~ msgid "brine deposit"
+#~ msgstr "塩田適地"
+
+#~ msgid "brine"
+#~ msgstr "塩水"
+
+#~ msgid "whales"
+#~ msgstr "鯨"
+
+#~ msgid "ambergris"
+#~ msgstr "龍涎香"
+
+#~ msgid "lamp oil"
+#~ msgstr "灯油"
+
+#~ msgid "cotton plants"
+#~ msgstr "綿花農場"
+
+#~ msgid "cotton"
+#~ msgstr "綿花"
+
+#~ msgid "indigo plants"
+#~ msgstr "藍農場"
+
+#~ msgid "indigo"
+#~ msgstr "藍"
+
+#~ msgid "garments"
+#~ msgstr "衣類"
+
+#~ msgid "perfume"
+#~ msgstr "香水"
+
+#~ msgid "hop plants"
+#~ msgstr "ホップ農場"
+
+#~ msgid "hops"
+#~ msgstr "ホップ"
+
+#~ msgid "beer"
+#~ msgstr "ビール"
+
+#~ msgid "hygiene"
+#~ msgstr "衛生"
+
+#~ msgid "recreation"
+#~ msgstr "レクリエーション"
+
+#~ msgid "blackdeath"
+#~ msgstr "黒死病"
+
+#~ msgid "fire"
+#~ msgstr "火事"
+
+#~ msgid "Aristocrats"
+#~ msgstr "貴族"
+
+#~ msgid "Error: Unable to find required library \"PyYAML\"."
+#~ msgstr "エラー：必要なライブラリ「PyYAML」が見つかりません。"
+
+#~ msgid "PyYAML (a required library) is missing and needs to be installed."
+#~ msgstr ""
+#~ "PyYAML（必要なライブラリ）が存在しないため、導入する必要があります。"
+
+#~ msgid "The Windows installer is available at http://pyyaml.org/wiki/PyYAML."
+#~ msgstr "Windows用導入プログラムはhttp://pyyaml.org/wiki/PyYAMLにあります。"
+
+#~ msgid ""
+#~ "Linux users should find it using their package manager under the name "
+#~ "\"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Linuxユーザーは、パッケージマネージャを使って「pyyaml」もしくは「python-"
+#~ "yaml」という名称を検索して下さい。"
+
+#, fuzzy
+#~| msgid "Unit overview"
+#~ msgid "Groundunit overview"
+#~ msgstr "ユニットの概要"
+
+#~ msgid "SDL is only meant as unsupported fallback and might cause problems!"
+#~ msgstr ""
+#~ "SDLはサポートのない最終手段であり、問題を引き起こす可能性があります！"
+
+#~ msgid "Used renderer:"
+#~ msgstr "使用するレンダラー："
+
+#~ msgid "Warning"
+#~ msgstr "警告"
+
+#~ msgid ""
+#~ "The SDL renderer is meant as a fallback solution only and has serious "
+#~ "graphical glitches. \n"
+#~ "\n"
+#~ "Use at own risk!"
+#~ msgstr ""
+#~ "SDLレンダラーは、最終手段として用意されているに過ぎず、描画上深刻な不具合"
+#~ "が起こり得ます。\n"
+#~ "\n"
+#~ "自己責任でお使い下さい！"
+
+#~ msgid "Increases the player's sight."
+#~ msgstr "プレイヤーの視界を広げます。"
+
+#~ msgid "Vintner"
+#~ msgstr "ワイン商人"
+
+#~ msgid "dagger"
+#~ msgstr "短剣"
+
+#~ msgid "Click to change the name of this ship."
+#~ msgstr "クリックで船の名前を変更できます。"
+
+#~ msgid "Click on slot icon to toggle mode:"
+#~ msgstr "モードを切り替えるには枠のアイコンをクリック："
+
+#~ msgid "Apply:"
+#~ msgstr "適用："
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-master commandline option. Port must be a "
+#~ "number between 1 and 65535."
+#~ msgstr ""
+#~ "エラー：　--mp-masterオプションが不正です。ポート番号は1から65535までの数"
+#~ "を指定してください。"
+
+#~ msgid "Error: Cannot find map '{name}'."
+#~ msgstr "エラー：　マップ '{name}' が見つかりません。"
+
+#~ msgid "Error: Found multiple matches:"
+#~ msgstr "エラー：　候補が複数あります："
+
+#~ msgid "Error: campaign filenames have to end in \".yaml\"."
+#~ msgstr ""
+#~ "エラー：　キャンペーンファイルは \".yaml\" で終わる名前にしてください。"
+
+#~ msgid "Error: Cannot find savegame '{name}'."
+#~ msgstr "エラー：　セーブデータ '{name}' が見つかりません。"
+
+#~ msgid "Add to list"
+#~ msgstr "交易路に追加"
+
+#~ msgid "100/100"
+#~ msgstr "100/100"
+
+#~ msgid "Rotate building right"
+#~ msgstr "建造物を右に回転"
+
+#~ msgid "Enable minimap rotation:"
+#~ msgstr "ミニマップを回転する："
+
+#~ msgid "(0 means default)"
+#~ msgstr "（0にすると初期値になる）"
+
+#~ msgid "Please make sure that you know what you do."
+#~ msgstr "することを確認してください。"
+
+#~ msgid "Enable debug output to stderr and a logfile."
+#~ msgstr "stderrとログファイルにデバッグ出力する。"
+
+#~ msgid ""
+#~ "Restores the default settings. Useful if Unknown Horizons crashes on "
+#~ "startup due to misconfiguration."
+#~ msgstr "初期値に戻す。設定ミスで正常に起動できなくなったときにどうぞ。"
+
+#~ msgid "Specify alternative multiplayer master server."
+#~ msgstr "代わりのマルチプレイのマスターサーバーを指定してください。"
+
+#~ msgid ""
+#~ "Specify network address to bind local network client to. This is useful "
+#~ "if NAT holepunching is not working but you can forward a static port."
+#~ msgstr ""
+#~ "ローカルネットワークのネットワークアドレスを指定してください。これは、NAT"
+#~ "接続が動作せず、スタティックポートを持っている場合に有効です。"
+
+#~ msgid "Starts <map>. <map> is the mapname."
+#~ msgstr "<map> の開始。 <map> はマップの名前。"
+
+#~ msgid "Starts a random map with seed <seed>."
+#~ msgstr "シード <seed> でランダムマップを開始。"
+
+#~ msgid "Starts <scenario>. <scenario> is the scenarioname."
+#~ msgstr "<scenario> の開始。 <scenario> はマップの名前。"
+
+#~ msgid "Starts <campaign>. <campaign> is the campaign name."
+#~ msgstr "<campaign> の開始。 <campaign> はマップの名前。"
+
+#~ msgid "Starts the development map without displaying the main menu."
+#~ msgstr "メインメニューを表示せずにマップ開発を開始。"
+
+#~ msgid "Loads a saved game. <save> is the savegamename."
+#~ msgstr "ゲームのロード。 <save> はセーブファイル名。"
+
+#~ msgid ""
+#~ "Sets the seed used to generate trees, fish, and other natural resources."
+#~ msgstr "木や他の自然資源を生成するシートを設定。"
+
+#~ msgid ""
+#~ "Uses <ai_players> AI players (excludes the possible human-AI hybrid; "
+#~ "defaults to 0)."
+#~ msgstr ""
+#~ "AIプレイヤー <ai_players> を指定してください（人とAIの混合は除きます。0は"
+#~ "初期値です）。"
+
+#~ msgid "Makes the human player a human-AI hybrid (for development only)."
+#~ msgstr "人とAIの混合でプレイする（開発チーム向け）。"
+
+#~ msgid "Shows AI plans as highlights (for development only)."
+#~ msgstr "AIの計画をハイライト表示する（開発チーム向け）。"
+
+#~ msgid "Development options"
+#~ msgstr "開発オプション"
+
+#~ msgid "Write debug output only to logfile, not to console. Implies -d."
+#~ msgstr "デバッグ出力をログファイルだけにする。-dオプションと同じ。"
+
+#~ msgid "Enable logging for a certain logging module (for developing only)."
+#~ msgstr "特定のログモジュールを使ってログ出力する（開発チーム向け）。"
+
+#~ msgid "Writes log to <filename> instead of to the uh-userdir"
+#~ msgstr "UHユーザディレクトリの代わりに <filename> にログを出力する"
+
+#~ msgid "For internal use only."
+#~ msgstr "チーム外秘"
+
+#~ msgid "Enable profiling (for developing only)."
+#~ msgstr "分析モードにする（開発チーム向け）。"
+
+#~ msgid "Run the game for <max_ticks> ticks."
+#~ msgstr "<max_ticks> 回ゲームを実行する。"
+
+#~ msgid "Enable the string previewer tool for scenario writers"
+#~ msgstr "シナリオ作者用の文字列プレビューを利用する。"
+
+#~ msgid "Disable preloading while in main menu"
+#~ msgstr "メインメニューを開いているときは事前ロードしない"
+
+#~ msgid ""
+#~ "Run the game in the given speed (Values: 0.5, 1, 2, 3, 4, 6, 8, 11, 20)"
+#~ msgstr ""
+#~ "指定したゲームスピードにする（0.5, 1, 2, 3, 4, 6, 8, 11, 20の中から選択）"

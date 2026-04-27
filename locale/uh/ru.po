@@ -1,0 +1,4859 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Unknown Horizons Team
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2021-07-19 09:33+0000\n"
+"Last-Translator: Anna Malinovskaia <tacitcoast@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/uh/uh/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "Дата сохранения неизвестна"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "Дата сохранения неизвестна"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+#, fuzzy
+msgid "Descriptive Label:"
+msgstr "Описание: "
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "Постройки"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "Сбой Неизведанных Горизонтов."
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "Дата сохранения неизвестна"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "Одиночная игра"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "Загрузить игру"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr "Авторы"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr "Редактор"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Quit"
+msgstr "Выйти"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Help"
+msgstr "Помощь"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Options"
+msgstr "Действия"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "Новая одиночная игра"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Scenario"
+msgstr "Сюжет"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Random map"
+msgstr "Случайная карта"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Free play"
+msgstr "Свободная игра"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "Дата сохранения неизвестна"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Color:"
+msgstr "Цвет:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "AI players:"
+msgstr "Игроки ИИ:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "Выберите карту:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "Рекомендуемое число игроков: "
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Game settings:"
+msgstr "Настройки игры:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "Плотность месторождений:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "Вольный торговец"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Pirates"
+msgstr "Пираты"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr "Бедствия"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Saving"
+msgstr "Сохранения"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr "Общее"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "Выберите язык:"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Mouse"
+msgstr "Мышь"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Graphics"
+msgstr "Графика"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Sound"
+msgstr "Звук"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr "Клавиатура"
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "Статистика"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Players"
+msgstr "Игроки"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My ships"
+msgstr "Мои корабли"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My settlements"
+msgstr "Мои поселения"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Player scores"
+msgstr "Счёт игрока"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Name"
+msgstr "Имя"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Money"
+msgstr "Деньги"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Land"
+msgstr "Земли"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Resources"
+msgstr "Ресурсы"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Buildings"
+msgstr "Постройки"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlers"
+msgstr "Жители"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Units"
+msgstr "Силы"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Total"
+msgstr "Итого"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "140"
+msgstr "14т"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "104"
+msgstr "14т"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "InventoryTab"
+msgstr "Запасы"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Limit: 30t per slot"
+msgstr "Лимит: %st на слот"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "Покупка/Продажа"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr ""
+"Покупать {resource_name} по {price} золота/т, когда в наличии меньше {limit} "
+"т."
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Trade history"
+msgstr "История торговли"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Free Trader"
+msgstr "Вольный торговец"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "Обзор производства"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "Дата сохранения неизвестна"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "Торговля"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "LumberjackOverviewTab"
+msgstr "Палатка лесоруба"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr "Поселение"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr "Инфраструктура"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr "Жильё"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr "Услуги"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr "Безопасность"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "Поля"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Pioneers"
+msgstr "Первопроходцы"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Citizens"
+msgstr "Горожане"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr "Земледелие"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr "Море"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr "Питание"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr "Мастерские"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr "Предприятия"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr "Лес"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Mining"
+msgstr "Горное дело"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr "Укрепления"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr "Военная служба"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr "Эстетика"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sailors"
+msgstr "Моряки"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "Жильё и инфраструктура"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military"
+msgstr "Вооружение"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Merchants"
+msgstr "Торговцы"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Up"
+msgstr "Игра приостановлена"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Down"
+msgstr "Игра приостановлена"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "Отчётность"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr "Доходы:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr "Налоги"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Sale"
+msgstr "Продажи"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Expenses:"
+msgstr "Расходы:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Running costs"
+msgstr "Текущие расходы"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Buying"
+msgstr "Закупки"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Balance"
+msgstr "Баланс"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Upgrade permissions:"
+msgstr "Доступность улучшений:"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr "Настроение по домам"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents per house"
+msgstr "Жители по домам"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr "Количество жильцов в доме"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr "Количество домов со столькими жильцами"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Summary"
+msgstr "Итого"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "Дом"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents"
+msgstr "Жильцы"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "Обзор поселенца"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Tent"
+msgstr "Палатка"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Needed resources:"
+msgstr "Необходимые ресурсы:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr "Налоги:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Paid taxes"
+msgstr "Платимые налоги"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Tax rate"
+msgstr "Налоговая ставка"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr ""
+"Разводит пчел. Производит соты для кондитерских изделий. Требует фермы."
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "Расходует муку. Производит пищу."
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+#, fuzzy
+msgid "_ Recruits units suitable for ground combat."
+msgstr "Набирает войска для сухопутных сражений."
+
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "Даёт безопасность."
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "Производит приправы из пряностей."
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "Строит лодки и небольшие суда. Возводится на побережье."
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "Расходует хмель. Производит пиво."
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "Производит из глины кирпичи."
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "Требует свиней или крупный скот. Производит пищу."
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "Производит Пушки."
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "Разводит скот. Требует фермы."
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+#, fuzzy
+msgid "_ Burns a lot of boards."
+msgstr "Сжигают множество досок."
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+msgid "None"
+msgstr "Нет"
+
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "Добывает глину из залежей."
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr ""
+"Производит какао-бобы, используемые для кондитерских изделий. Требует фермы."
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "Производит зерно. Требует фермы."
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "Производит из сахара алкоголь."
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+#, fuzzy
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr "Лечит болезни. Расходует травы."
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "Ухаживает за полями и скотом."
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+#, fuzzy
+msgid "_ Extinguishes fires."
+msgstr "Тушит пожары."
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "Ловит рыбу, производит еду."
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "Производит травы. Требует фермы."
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "Производит хмель. Требует фермы."
+
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "Промышляет лесного зверя, производит еду."
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "Расширяет диапазон урегулирования."
+
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "Рубит деревья и делает из них доски."
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+#, fuzzy
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr "Обеспечивает жителей товарами. Создаёт общение."
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "Добывает из месторождения железную руду."
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "Производит все виды кондитерских изделий."
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "Выращивает овец. Производит шерсть. Требует фермы."
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "Даёт морякам доступ к религии."
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "Разводит свиней. Требует фермы."
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "Производит еду. Требует фермы."
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "Даёт жителям кров."
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "Выпаривает соль. Располагается на побережье."
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "Позволяет игроку торговать с Вольным торговцем."
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "Очищает руду всех видов."
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "Производит пряности. Требует фермы."
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "Высекает из камня кирпичи."
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "Добывает камень из горных пород."
+
+# Very bad translate
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr ""
+"Расширяет складе, расширяет диапазон урегулирования и обеспечивает "
+"коллекционеров."
+
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "Используется в производстве алкоголя. Требует фермы."
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "Обеспечивает развлечение."
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "Производит табачные изделия из табачных листьев."
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "Производит листья табака. Требует фермы."
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "Изготовляет инструменты из железа."
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "Необходима для транспортировки товаров."
+
+#: Assets/World/Buildings2/tree/tree.tscn
+#, fuzzy
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr "Восстанавливает срубленный лес."
+
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "Даёт образование."
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr "Производит виноград для вина и кондитерских изделий. Требует фермы."
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "Производит оружие из железа."
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "Производит ткань из овечьей шерсти."
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "Перемалывает зерно в муку."
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "Производит вино из винограда."
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "Обеспечивает защиту поселения."
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "Сбой Неизведанных Горизонтов."
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "Спасибо за пользование Неизведанными Горизонтами!"
+
+#~ msgid "Unknown Horizons has crashed."
+#~ msgstr "Сбой Неизведанных Горизонтов."
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr "Мы очень сожалеем и хотим исправить причину ошибки."
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr "Для этого нам нужны записи системного журнала:"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Пожалуйста, предоставьте их нам через IRC или форум, они доступны на "
+#~ "http://unknown-horizons.org."
+
+#~ msgid "Return to editor"
+#~ msgstr "Вернуться к редактору"
+
+#~ msgid "Save map"
+#~ msgstr "Сохранить карту"
+
+#~ msgid "Load map"
+#~ msgstr "Загрузить карту"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Exit editor"
+#~ msgstr "Выйти из редактора"
+
+#~ msgid "Select brush size:"
+#~ msgstr "Выберите размер кисти:"
+
+#~ msgid "Select terrain:"
+#~ msgstr "Выберите тип местности:"
+
+#~ msgid "(right click to stop)"
+#~ msgstr "(Правый клик, чтобы остановить)"
+
+#~ msgid "Game start"
+#~ msgstr "Начать игру"
+
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr "Чтобы строить здания, Вы должны основать поселение!"
+
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr "Выберите Ваш корабль и щёлкните правой кнопкой мыши у берега."
+
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr "Затем нажмите большую кнопку в разделе обзора корабля."
+
+#~ msgid "Build"
+#~ msgstr "Строить"
+
+#~ msgid "Running costs:"
+#~ msgstr "Текущие расходы:"
+
+#~ msgid "Related buildings"
+#~ msgstr "Связанные постройки"
+
+#~ msgid "Inhabitants"
+#~ msgstr "Жители"
+
+#, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr "Ускорить ход игры ({key})"
+
+#, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr "Замедлить ход игры ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map counterclockwise ({key})"
+#~ msgstr "Повернуть карту влево ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map clockwise ({key})"
+#~ msgstr "Повернуть карту вправо ({key})"
+
+#~ msgid "Zoom in"
+#~ msgstr "Приблизить"
+
+#~ msgid "Zoom out"
+#~ msgstr "Отдалить"
+
+#, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "Уничтожить ({key})"
+
+#, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "Судовой журнал ({key})"
+
+#, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "Строить ({key})"
+
+#~ msgid "Diplomacy"
+#~ msgstr "Дипломатия"
+
+#, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "Главное меню ({key})"
+
+#~ msgid "Change name"
+#~ msgstr "Сменить имя"
+
+#~ msgid "Old name:"
+#~ msgstr "Старое имя:"
+
+#~ msgid "Enter new name:"
+#~ msgstr "Введите новое имя:"
+
+#~ msgid "Apply the new name"
+#~ msgstr "Принять новое имя"
+
+#~ msgid "Chat"
+#~ msgstr "Чат"
+
+#~ msgid "Enter your message:"
+#~ msgstr "Введите ваше сообщение:"
+
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr ""
+#~ "Чтобы построить наземный юнит, выберите нужный тип и подтвердите "
+#~ "строительство."
+
+#~ msgid "Currently building:"
+#~ msgstr "Сейчас строится:"
+
+#~ msgid "Pause"
+#~ msgstr "Приостановить"
+
+#~ msgid "Resume"
+#~ msgstr "Продолжить"
+
+#~ msgid "Construction progress:"
+#~ msgstr "Ход строительства:"
+
+#~ msgid "Resources still needed:"
+#~ msgstr "Необходимые ресурсы:"
+
+#~ msgid "Cancel building:"
+#~ msgstr "Отменить:"
+
+#~ msgid "(lose all resources)"
+#~ msgstr "(с потерей ресурсов)"
+
+#~ msgid "Cancel all building progress"
+#~ msgstr "Отменить всё строительство"
+
+#~ msgid "Confirm order"
+#~ msgstr "Подтвердить приказ"
+
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "(как на вкладках выбора)"
+
+#~ msgid "$res"
+#~ msgstr "$res"
+
+#~ msgid "24t"
+#~ msgstr "24т"
+
+#~ msgid "06t"
+#~ msgstr "06т"
+
+#~ msgid "2500"
+#~ msgstr "2500"
+
+#~ msgid "Sloop-o'-war"
+#~ msgstr "Военный шлюп"
+
+#~ msgid "Three-masted most common classified war ship with one gun deck."
+#~ msgstr ""
+#~ "Самый обычный трехмачтовый боевой корабль с одной оружейной палубой."
+
+#~ msgid "Buy Upgrades"
+#~ msgstr "Купить улучшения"
+
+#~ msgid "Cannons"
+#~ msgstr "Пушки"
+
+#~ msgid "Hull"
+#~ msgstr "Корпус"
+
+#~ msgid "+ 24t"
+#~ msgstr "+ 24т"
+
+#~ msgid "+ 14t"
+#~ msgstr "+ 14т"
+
+#~ msgid "+ 06t"
+#~ msgstr "+ 06т"
+
+#~ msgid "+ 1457"
+#~ msgstr "+ 1457"
+
+#~ msgid "Build groundunit:"
+#~ msgstr "Построить наземных юнитов:"
+
+#~ msgid "Build this groundunit!"
+#~ msgstr "Построить наземный юнит!"
+
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "Чтобы построить судно, выберите нужный тип и подтвердите строительство."
+
+#~ msgid "Build ship:"
+#~ msgstr "Построить судно:"
+
+#~ msgid "Build this ship!"
+#~ msgstr "Построить судно!"
+
+#~ msgid "ally"
+#~ msgstr "союзник"
+
+#~ msgid "neutral"
+#~ msgstr "нейтральный"
+
+#~ msgid "enemy"
+#~ msgstr "враг"
+
+#~ msgid "Building overview"
+#~ msgstr "Обзор постройки"
+
+# needs to be shorter!
+#~ msgid "Capacity utilization"
+#~ msgstr "Использование производственных мощностей"
+
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "Щёлкните, чтобы переименовать корабль"
+
+#~ msgid "Settlement inventory"
+#~ msgstr "Запасы поселения"
+
+#~ msgid "Settler overview"
+#~ msgstr "Обзор жителей"
+
+#~ msgid "sad"
+#~ msgstr "уныл"
+
+#~ msgid "satisfied"
+#~ msgstr "доволен"
+
+#~ msgid "happy"
+#~ msgstr "счастлив"
+
+#~ msgid "Amount of houses with this happiness"
+#~ msgstr "Количество домов с таким настроением"
+
+#~ msgid "houses"
+#~ msgstr "домов"
+
+#~ msgid "residents"
+#~ msgstr "жителей"
+
+#~ msgid "Provides security for your settlement."
+#~ msgstr "Защищает Ваше поселение."
+
+#~ msgid "Selling"
+#~ msgstr "Продажи"
+
+#~ msgid "Name:"
+#~ msgstr "Имя:"
+
+#~ msgid "Weapons:"
+#~ msgstr "Оружие:"
+
+#~ msgid "Resource deposit"
+#~ msgstr "Месторождение"
+
+#~ msgid ""
+#~ "This is a resource deposit where you can build a mine to dig up resources."
+#~ msgstr "Здесь Вы можете основать прииск для добычи полезных ископаемых."
+
+#~ msgid "It contains these resources:"
+#~ msgstr "Содержимые ресурсы:"
+
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "Щёлкните, чтобы переименовать поселение"
+
+#~ msgid "Happiness"
+#~ msgstr "Настроение"
+
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr ""
+#~ "Если Вы хотите торговать, сигнальный огонь указывает вольному торговцу "
+#~ "путь к Вашему поселению."
+
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr ""
+#~ "Это корабль вольного торговца. Он будет заходить к Вам время от времени "
+#~ "для торговли."
+
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "Щёлкните, чтобы переименовать корабль"
+
+#~ msgid "Build settlement"
+#~ msgstr "Создать поселение"
+
+#~ msgid "Configure trading route"
+#~ msgstr "Задать торговый путь"
+
+#~ msgid "Discard all resources"
+#~ msgstr "Отменить все ресурсы"
+
+#~ msgid "Ship:"
+#~ msgstr "Судно:"
+
+#~ msgid "Exchange:"
+#~ msgstr "Обмен:"
+
+#~ msgid "Trade partner:"
+#~ msgstr "Торговый партнёр:"
+
+#~ msgid "Buy or sell resources"
+#~ msgstr "Покупка и продажа"
+
+#~ msgid "Select resources:"
+#~ msgstr "Выберите товар:"
+
+#~ msgid "Collector utilization"
+#~ msgstr "Занятость носильщиков"
+
+#~ msgid "Balance:"
+#~ msgstr "Баланс:"
+
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "Показать ресурсы, произведённые в этом поселении"
+
+#~ msgid "Pause production"
+#~ msgstr "Остановить производство"
+
+#~ msgid "Start production"
+#~ msgstr "Возобновить производство"
+
+#~ msgid "Select resource:"
+#~ msgstr "Выберите ресурс:"
+
+#~ msgid ""
+#~ "The resource you select is displayed instead of the current one. Empty by "
+#~ "clicking on X."
+#~ msgstr ""
+#~ "Отображаемый ресурс будет заменён выбранным. Щёлкните на X, чтобы "
+#~ "очистить ячейку."
+
+#~ msgid "Save current resource configuration as default for all settlements."
+#~ msgstr "Сохранить такой список ресурсов для всех поселений по умолчанию."
+
+#~ msgid "Reset default resource configuration for all settlements."
+#~ msgstr "Вернуть перечень по умолчанию для всех поселений."
+
+#~ msgid "Move up"
+#~ msgstr "Поднять"
+
+#~ msgid "Delete entry"
+#~ msgstr "Убрать пункт"
+
+#~ msgid "Move down"
+#~ msgstr "Опустить"
+
+#~ msgid "Read previous entries"
+#~ msgstr "Предыдущая запись"
+
+#~ msgid "Read next entries"
+#~ msgstr "Следующая запись"
+
+#~ msgid "Game messages"
+#~ msgstr "Игровые сообщения"
+
+#~ msgid "Whole world"
+#~ msgstr "Весь мир"
+
+#~ msgid "Everybody"
+#~ msgstr "Все"
+
+#~ msgid "Sends the chat messages to all players."
+#~ msgstr "Сообщения в чате отправятся всем игрокам."
+
+#~ msgid "Enter your message here"
+#~ msgstr "Введите Ваше сообщение"
+
+#~ msgid "Return to game"
+#~ msgstr "Вернуться к игре"
+
+#~ msgid "Island Name:"
+#~ msgstr "Название острова:"
+
+#~ msgid "Player Name:"
+#~ msgstr "Имя игрока:"
+
+#~ msgid "Wait at load:"
+#~ msgstr "Ждать загрузки:"
+
+#~ msgid "Wait at unload:"
+#~ msgstr "Ждать выгрузки:"
+
+#~ msgid "Select a resource:"
+#~ msgstr "Выберите товар:"
+
+#~ msgid "Route activity:"
+#~ msgstr "Активность пути:"
+
+#~ msgid "Start route"
+#~ msgstr "Запустить путь"
+
+#~ msgid "Exit"
+#~ msgstr "Выход"
+
+#~ msgid "Go to previous page"
+#~ msgstr "Предыдущая страница"
+
+#~ msgid "Go to next page"
+#~ msgstr "Следующая страница"
+
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#~ msgid "Player Name"
+#~ msgstr "Имя игрока"
+
+#~ msgid "Player's current treasury + income expected in near future"
+#~ msgstr "Нынешняя казна игрока + доход, ожидаемый в ближайшее время"
+
+#~ msgid ""
+#~ "Value of usable land i.e Amount of Land that can be used to create "
+#~ "buildings"
+#~ msgstr ""
+#~ "Полезная площадь, т.е. земля, которую можно использовать для застройки"
+
+#~ msgid ""
+#~ "Value of resources generated from all the possible sources in the "
+#~ "player's settlement(s)"
+#~ msgstr ""
+#~ "Стоимость ресурсов, производимых всеми источниками в поселениях игрока"
+
+#~ msgid "Value of all the buildings in the player's settlement(s)"
+#~ msgstr "Стоимость всех построек в поселениях игрока"
+
+#~ msgid ""
+#~ "Value denoting the progress of the settlement(s) in terms of inhabitants, "
+#~ "buildings and overall happiness"
+#~ msgstr ""
+#~ "Степень развития поселений, зависит от числа жителей, зданий и общего "
+#~ "настроения"
+
+#~ msgid "Value of all the units owned by the player"
+#~ msgstr "Стоимость всех полезных единиц игрока"
+
+#~ msgid ""
+#~ "The total value from all individual entities or in short : Total Player "
+#~ "Score"
+#~ msgstr "Общая оценка всех составляющих, или Общий счёт игрока"
+
+#~ msgid "Type"
+#~ msgstr "Тип"
+
+#~ msgid "Weapons"
+#~ msgstr "Оружие"
+
+#~ msgid "Health"
+#~ msgstr "Здоровье"
+
+#~ msgid "Status"
+#~ msgstr "Статус"
+
+#~ msgid "Aggressive"
+#~ msgstr "Атаковать"
+
+#~ msgid "Hold ground"
+#~ msgstr "Держать позицию"
+
+#~ msgid "Passive"
+#~ msgstr "Защищаться"
+
+#~ msgid "Flee"
+#~ msgstr "Отступать"
+
+#~ msgid "Exit to main menu"
+#~ msgstr "Выйти в главное меню"
+
+#~ msgid "Choose a map size:"
+#~ msgstr "Выберите размер карты:"
+
+#~ msgid "Choose a map:"
+#~ msgstr "Выберите карту:"
+
+#~ msgid "Choose a saved game's map:"
+#~ msgstr "Выберите сохранённую карту:"
+
+#~ msgid "Select map source"
+#~ msgstr "Выберите источник карты"
+
+#~ msgid "Create new map"
+#~ msgstr "Создание новой карты"
+
+#~ msgid "Load existing map"
+#~ msgstr "Загрузка существующей карты"
+
+#~ msgid "Load saved game's map"
+#~ msgstr "Загрузка карты из сохранённой игры"
+
+#~ msgid "Start editor"
+#~ msgstr "Запуск редактора"
+
+#~ msgid "Return"
+#~ msgstr "Вернуться"
+
+#~ msgid "Scroll left"
+#~ msgstr "Прокрутка влево"
+
+#~ msgid "Scroll right"
+#~ msgstr "Прокрутка вправо"
+
+#~ msgid "Scroll up"
+#~ msgstr "Прокрутка вверх"
+
+#~ msgid "Scroll down"
+#~ msgstr "Прокрутка вниз"
+
+#~ msgid "Rotate building or map clockwise"
+#~ msgstr "Повернуть здание или карту по часовой стрелке"
+
+#~ msgid "Rotate building or map counterclockwise"
+#~ msgstr "Повернуть здание или карту против часовой стрелки"
+
+#~ msgid "Increase game speed"
+#~ msgstr "Ускорить ход игры"
+
+#~ msgid "Decrease game speed"
+#~ msgstr "Замедлить ход игры"
+
+#~ msgid "Pause game"
+#~ msgstr "Пауза"
+
+#~ msgid "Show build menu"
+#~ msgstr "Вызвать меню строительства"
+
+#~ msgid "Enable destruct mode"
+#~ msgstr "Включить режим ликвидации"
+
+#~ msgid "Enable road building mode"
+#~ msgstr "Включить режим прокладки дорог"
+
+#~ msgid "Enable pipette mode (clone buildings)"
+#~ msgstr "Включить режим копирования построек"
+
+#~ msgid "Show player scores"
+#~ msgstr "Показать счёт игрока"
+
+#~ msgid "Show settlement list"
+#~ msgstr "Показать список поселений"
+
+#~ msgid "Show ship list"
+#~ msgstr "Показать список кораблей"
+
+#~ msgid "Toggle Captain's log"
+#~ msgstr "Судовой журнал"
+
+#~ msgid "Quicksave"
+#~ msgstr "Быстрое сохранение"
+
+#~ msgid "Quickload"
+#~ msgstr "Быстрая загрузка"
+
+#~ msgid "Toggle translucency of ambient buildings"
+#~ msgstr "Вкл./выкл. полупрозрачность окружения"
+
+#~ msgid "Highlight tile ownership"
+#~ msgstr "Показать область владений"
+
+#~ msgid "Toggle health bars"
+#~ msgstr "Вкл./выкл. шкалы здоровья"
+
+#~ msgid "Focus camera on selection"
+#~ msgstr "Фокус камеры на выбранном объекте"
+
+#~ msgid "Remove selected units / buildings"
+#~ msgstr "Уничтожение выбранных объектов"
+
+#~ msgid "Display help"
+#~ msgstr "Вызвать помощь"
+
+#~ msgid "Screenshot"
+#~ msgstr "Снимок экрана"
+
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "Вкл./выкл. отображение FPS"
+
+#~ msgid "Toggle grid on/off"
+#~ msgstr "Вкл./выкл. сетку"
+
+#~ msgid "Show coordinate values (Debug)"
+#~ msgstr "Показать значения координат"
+
+#~ msgid "Primary"
+#~ msgstr "Основная"
+
+#~ msgid "Secondary"
+#~ msgstr "Вторичная"
+
+#~ msgid "Reset to default"
+#~ msgstr "Восстановить настройки по умолчанию"
+
+#~ msgid "Reset to default keys"
+#~ msgstr "Восстановить клавиши по умолчанию"
+
+#~ msgid "Save game"
+#~ msgstr "Сохранить игру"
+
+#~ msgid "Cancel game"
+#~ msgstr "Закончить игру"
+
+#~ msgid "Loading…"
+#~ msgstr "Загрузка…"
+
+#~ msgid "Change Background"
+#~ msgstr "Сменить фон"
+
+#~ msgid "Multiplayer"
+#~ msgstr "Сетевая игра"
+
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "Создать сетевую игру"
+
+#~ msgid "Player limit:"
+#~ msgstr "Лимит игроков:"
+
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "Выйти в меню сетевой игры"
+
+#~ msgid "Name of the game:"
+#~ msgstr "Название игры:"
+
+#~ msgid "This will be displayed to other players so they recognize the game."
+#~ msgstr "Будет показано другим игрокам, чтобы они опознали игру."
+
+#~ msgid "Unnamed Game"
+#~ msgstr "Безымянная игра"
+
+#~ msgid "Password of the game:"
+#~ msgstr "Пароль к игре:"
+
+#~ msgid "This game's password. Required to join this game."
+#~ msgstr "Этот пароль потребуется для присоединения к игре."
+
+#~ msgid "Create this new game"
+#~ msgstr "Создать игру"
+
+#~ msgid "Gamelobby"
+#~ msgstr "Холл игры"
+
+#~ msgid "Chat:"
+#~ msgstr "Чат:"
+
+#~ msgid "Exit gamelobby"
+#~ msgstr "Покинуть холл"
+
+#~ msgid "The game will start as soon as all players are ready."
+#~ msgstr "Игра начнётся, как только все игроки будут готовы."
+
+#~ msgid "Game details:"
+#~ msgstr "Описание игры:"
+
+#~ msgid "Color"
+#~ msgstr "Цвет"
+
+#~ msgid "Ready:"
+#~ msgstr "Готов:"
+
+#~ msgid "Sets your state to ready (necessary for the game to start)"
+#~ msgstr "Чтобы начать игру, необходимо объявить о готовности"
+
+#~ msgid "New game - Multiplayer"
+#~ msgstr "Новая сетевая игра"
+
+#~ msgid "Load game:"
+#~ msgstr "Загрузить игру:"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Загрузить сохранённую игру"
+
+#~ msgid "Active games:"
+#~ msgstr "Активные игры:"
+
+#~ msgid "Refresh list:"
+#~ msgstr "Обновить список:"
+
+#~ msgid "Refresh list of active games"
+#~ msgstr "Обновить список активных игр"
+
+#~ msgid "Create game:"
+#~ msgstr "Создать:"
+
+#~ msgid "Create a new game"
+#~ msgstr "Создать игру"
+
+#~ msgid "Join game:"
+#~ msgstr "Вступить:"
+
+#~ msgid "Join the selected game"
+#~ msgstr "Присоединиться к выбранной игре"
+
+#~ msgid "Change player details"
+#~ msgstr "Изменить данные об игроке"
+
+#~ msgid "Screen resolution:"
+#~ msgstr "Разрешение экрана:"
+
+#~ msgid "Full screen:"
+#~ msgstr "Во весь экран:"
+
+#~ msgid "Frame rate limit:"
+#~ msgstr "Макс. частота кадров:"
+
+#~ msgid "Set the maximum frame rate used. Default: 60 fps."
+#~ msgstr ""
+#~ "Установите максимальную частоту кадров. Умолчание: 60 кадров в секунду."
+
+#~ msgid "Music volume:"
+#~ msgstr "Громкость музыки:"
+
+#~ msgid "Effects volume:"
+#~ msgstr "Громкость звуков:"
+
+#~ msgid "Enable sound:"
+#~ msgstr "Включить звук:"
+
+#~ msgid "Scroll at map edge:"
+#~ msgstr "Прокрутка у края карты:"
+
+#~ msgid ""
+#~ "Whether to move the viewport when the mouse pointer is close to map edges"
+#~ msgstr "Прокрутка экрана при приближении курсора к краю карты"
+
+#~ msgid "Cursor centered zoom:"
+#~ msgstr "Приближение по курсору:"
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center. When disabled, always zoom to current viewport center."
+#~ msgstr ""
+#~ "Включено - при приближении колесом мыши центр экрана ориентируется на "
+#~ "положение курсора. Выключено - центр экрана не смещается."
+
+#~ msgid "Middle mouse button pan:"
+#~ msgstr "Панорамирование средней кнопкой мыши:"
+
+#~ msgid "When enabled, dragging the middle mouse button will pan the camera"
+#~ msgstr "При удержании средней кнопки камера следует движениям мыши"
+
+#~ msgid "0 is default system settings"
+#~ msgstr "0 - значение по умолчанию"
+
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "Чувствительность мыши:"
+
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "Интервал автосохранений в минутах:"
+
+#~ msgid "Number of autosaves:"
+#~ msgstr "Количество автосохранений:"
+
+#~ msgid "Number of quicksaves:"
+#~ msgstr "Количество быстрых сохранений:"
+
+#~ msgid "Language"
+#~ msgstr "Язык"
+
+#~ msgid "Rotate minimap with map:"
+#~ msgstr "Вращать мини-карту вместе с картой:"
+
+#~ msgid ""
+#~ "Whether to also rotate the minimap whenever the regular map is rotated"
+#~ msgstr "Мини-карта поворачивается, когда поворачивается основная"
+
+#~ msgid "Uninterrupted building:"
+#~ msgstr "Не прерывать строительство:"
+
+#~ msgid ""
+#~ "When enabled, do not exit the build mode after successful construction"
+#~ msgstr "Включено - не покидать режим строительства по завершении постройки"
+
+#~ msgid "Auto-unload ship:"
+#~ msgstr "Авторазгрузка судна:"
+
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr "Разгружать судно сразу после создания поселения"
+
+#~ msgid ""
+#~ "Don't use in normal game session. Decides whether to write debug "
+#~ "information in the logging directory of your user directory. Slows the "
+#~ "game down."
+#~ msgstr ""
+#~ "Не используйте в обычной игровой партии. Включает функцию записи "
+#~ "отладочной информации в каталог журнала пользователя. Замедляет игру."
+
+#~ msgid "Enable logging:"
+#~ msgstr "Вести журнал регистрации:"
+
+#~ msgid "Production indicators:"
+#~ msgstr "Показатели продукции:"
+
+#~ msgid ""
+#~ "Whether to show resource icons over buildings whenever they finish "
+#~ "production"
+#~ msgstr ""
+#~ "Показывать над зданием значок продукции при завершении её производства"
+
+#~ msgid "Higher values slow down scrolling."
+#~ msgstr "Выше значение - медленнее прокрутка."
+
+#~ msgid "Scroll delay:"
+#~ msgstr "Замедление прокрутки:"
+
+#~ msgid "Choose a quote type:"
+#~ msgstr "Выберите тип цитат:"
+
+#~ msgid "What kind of quote to display while loading a game"
+#~ msgstr "Тип цитат, отображаемых в процессе загрузки игры"
+
+#~ msgid "Network"
+#~ msgstr "Сеть"
+
+#~ msgid "If set to 0, use the router default"
+#~ msgstr "Если установлен 0, то используется маршрутизатор по умолчанию"
+
+#~ msgid "Network port:"
+#~ msgstr "Сетевой порт:"
+
+#~ msgid "Discard current changes"
+#~ msgstr "Отказаться от изменений"
+
+#~ msgid "Reset to default settings"
+#~ msgstr "Восстановить настройки по умолчанию"
+
+#~ msgid "Save changes"
+#~ msgstr "Сохранить изменения"
+
+#~ msgid "Your saved games:"
+#~ msgstr "Сохранённые игры:"
+
+#~ msgid "Password of the game. Required to join this game"
+#~ msgstr "Пароль. Требуется для присоединения к игре"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Enter filename:"
+#~ msgstr "Введите имя файла:"
+
+#~ msgid "Details:"
+#~ msgstr "Подробности:"
+
+#~ msgid "Delete selected savegame"
+#~ msgstr "Удалить эту сохранённую игру"
+
+#~ msgid "Start game"
+#~ msgstr "Начать игру"
+
+#~ msgid "Map settings:"
+#~ msgstr "Настройки карты:"
+
+#~ msgid "Seed:"
+#~ msgstr "Источник:"
+
+#~ msgid "Select a language:"
+#~ msgstr "Выберите язык:"
+
+#~ msgid "Player name:"
+#~ msgstr "Имя игрока:"
+
+#~ msgid "Invalid filename"
+#~ msgstr "Неверное имя файла"
+
+#~ msgid "Received an invalid filename for a save command."
+#~ msgstr "Получено неверное имя файла для команды сохранения."
+
+#~ msgid "Error"
+#~ msgstr "Ошибка"
+
+#~ msgid "Failed to save."
+#~ msgstr "Невозможно сохранить."
+
+#~ msgid "The trade partner does not sell this."
+#~ msgstr "Ваш партнёр этого не продаёт."
+
+#~ msgid "You can not store this."
+#~ msgstr "Вы не можете это хранить."
+
+#~ msgid "You can not afford to buy this."
+#~ msgstr "Вы не можете это купить."
+
+#~ msgid "The trade partner does not sell more of this."
+#~ msgstr "Ваш партнёр больше Вам этого не продаст."
+
+#~ msgid "The trade partner does not buy this."
+#~ msgstr "Ваш партнёр не будет это покупать."
+
+#~ msgid "You do not possess this."
+#~ msgstr "Это не Ваше."
+
+#~ msgid "The trade partner can not store more of this."
+#~ msgstr "Вашему партнёру негде это хранить."
+
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "Ваш партнёр не может это купить."
+
+#~ msgid "The trade partner does not buy more of this."
+#~ msgstr "Ваш партнёр не купит больше этого."
+
+#~ msgid "Failed to quicksave."
+#~ msgstr "Не удалось совершить быстрое сохранение."
+
+#~ msgid "An error happened during quicksave."
+#~ msgstr "Ошибка быстрого сохранения."
+
+#~ msgid "Your map has not been saved."
+#~ msgstr "Не удалось сохранить карту."
+
+#, python-brace-format
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: "
+#~ "{website}"
+#~ msgstr "Если ошибка повторится, сообщите разработчикам: {website}"
+
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "Вы действительно хотите покинуть Неизведанные Горизонты?"
+
+#~ msgid "Quit Game"
+#~ msgstr "Выйти из игры"
+
+#~ msgid "No diplomacy possible"
+#~ msgstr "Дипломатия невозможна"
+
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr "Дипломатия невозможна, т.к. нет других игроков."
+
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "Вы уверены, что хотите удалить эти объекты?"
+
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#, python-brace-format
+#~ msgid "{size}x{size} tiles"
+#~ msgstr "{size}x{size} клеток"
+
+#~ msgid "Press key…"
+#~ msgstr "Нажмите клавишу…"
+
+#, python-brace-format
+#~ msgid "{key} is already set to {action}."
+#~ msgstr "{key} уже назначена для {action}."
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "Перезаписать?"
+
+#~ msgid "Confirmation for overwriting"
+#~ msgstr "Подтверждение перезаписи"
+
+#~ msgid "Quotes"
+#~ msgstr "Цитаты"
+
+#~ msgid "Gameplay Tips"
+#~ msgstr "Подсказки"
+
+#~ msgid "Press 'ESC' to access Game Menu."
+#~ msgstr "Нажмите \"ESC\", чтобы открыть меню игры."
+
+#~ msgid "Use 'SHIFT' to place multiple buildings."
+#~ msgstr "Используйте \"SHIFT\", чтобы строить несколько зданий."
+
+#, python-brace-format
+#~ msgid "Currently only the first {tier} tiers are playable."
+#~ msgstr "Пока максимальный доступный в игре уровень развития - {tier}."
+
+#~ msgid "You can pause the game with 'P'."
+#~ msgstr "Вы можете приостановить игру, нажав \"P\"."
+
+#~ msgid "You can drag roads by holding the left mouse button."
+#~ msgstr "Вы можете прокладывать дороги, удерживая левую кнопку мыши."
+
+#~ msgid "You can build multiple buildings by holding the 'SHIFT' key."
+#~ msgstr "Вы можете строить несколько зданий подряд, удерживая \"SHIFT\"."
+
+#~ msgid ""
+#~ "You can increase the happiness of your inhabitants by lowering the taxes."
+#~ msgstr "Снижение налогов сделает Ваших жителей счастливее."
+
+#~ msgid ""
+#~ "Build fire stations and doctors to protect your inhabitants from fire and "
+#~ "disease."
+#~ msgstr ""
+#~ "Чтобы уберечь жителей от пожаров и болезней, стройте пожарные депо и "
+#~ "лечебницы."
+
+#~ msgid "Build storage tents to increase your storage capacity."
+#~ msgstr "Чтобы увеличить место для хранения товаров, стройте хранилища."
+
+#~ msgid "Make sure every house is in range of a marketplace."
+#~ msgstr ""
+#~ "Убедитесь, что все дома находятся в пределах досягаемости центральной "
+#~ "площади."
+
+#~ msgid "Press 'T' to make trees transparent."
+#~ msgstr "Нажмите \"T\", чтобы деревья стали прозрачными."
+
+#~ msgid "Build storage tents and lookouts to expand your settlement range."
+#~ msgstr ""
+#~ "Стройте хранилища, чтобы увеличить место для хранения товаров и границу "
+#~ "поселения."
+
+#~ msgid ""
+#~ "To easily see whether the pavilion's range cover all your tents, select "
+#~ "it from the build menu and hover it over your existing pavilion. "
+#~ "Uncovered tents are shown in yellow. It's a good idea to build a new "
+#~ "pavilion in their neighborhood."
+#~ msgstr ""
+#~ "Простой способ проверить, какие палатки попадают в область действия "
+#~ "павильона: выберите его в меню строительства и наведите на существующий "
+#~ "павильон. Непокрытые палатки показаны желтым цветом. Было бы неплохо "
+#~ "построить новый павильон в их районе."
+
+#~ msgid ""
+#~ "Make singleplayer more fun with additional computer players by increasing "
+#~ "'AI players' when starting a new game."
+#~ msgstr ""
+#~ "Сделайте одиночную игру более увлекательной с помощью дополнительных "
+#~ "компьютерных игроков, увеличив «Игроки ИИ» при запуске новой игры."
+
+#~ msgid ""
+#~ "First steps are easier by looking at how AI players are setting up their "
+#~ "settlement."
+#~ msgstr ""
+#~ "Первые шаги легче делать, посмотрев, как компьютерные игроки развивают "
+#~ "свои поселения."
+
+#~ msgid ""
+#~ "Want funny quotes only? Change the quote types shown here in the settings "
+#~ "menu on the game page."
+#~ msgstr ""
+#~ "Хотите только смешные цитаты? Измените типы цитат, показанные здесь, в "
+#~ "меню настроек на странице игры."
+
+#~ msgid "A marketplace links your buildings like a road."
+#~ msgstr "Рынок связывает ваши здания, как дороги."
+
+#~ msgid "Mixed"
+#~ msgstr "Вперемешку"
+
+#~ msgid "Starting engine…"
+#~ msgstr "Запускаю движок…"
+
+#~ msgid "Catching fish…"
+#~ msgstr "Ищу рыб…"
+
+#~ msgid "Drawing user interface…"
+#~ msgstr "Рисую интерфейс…"
+
+#~ msgid "Activating timer…"
+#~ msgstr "Завожу часы…"
+
+#~ msgid "Chomping game data…"
+#~ msgstr "Перевариваю игровые данные…"
+
+#~ msgid "Shaping islands…"
+#~ msgstr "Леплю острова…"
+
+#~ msgid "Preparing blueprints…"
+#~ msgstr "Готовлю чертежи…"
+
+#~ msgid "Filling world with water…"
+#~ msgstr "Заливаю мир водой…"
+
+#~ msgid "Raising animals…"
+#~ msgstr "Выращиваю животных…"
+
+#~ msgid "Convincing AI…"
+#~ msgstr "Уговариваю ИИ…"
+
+#~ msgid "Burying treasures…"
+#~ msgstr "Зарываю клады…"
+
+#~ msgid "Unable to find pyenet"
+#~ msgstr "Pyenet не найден"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which could not "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "В системе не найдена библиотека \"pyenet\", необходимая для сетевой игры."
+
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr ""
+#~ "Пользователи Linux: попробуйте установить pyenet через Вашу систему "
+#~ "управления пакетами."
+
+#~ msgid "Failed to initialize networking."
+#~ msgstr "Не удалось установить сетевое подключение."
+
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr "Сетевые функции недоступны при данной конфигурации."
+
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "Проверьте сетевые настройки."
+
+#~ msgid "Fatal Network Error"
+#~ msgstr "Сетевая ошибка"
+
+#~ msgid "Could not connect to master server."
+#~ msgstr "Невозможно соединиться с мастер-сервером."
+
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "Проверьте Ваше интернет-соединение. Если оно в порядке, возможно, мастер-"
+#~ "сервер временно недоступен."
+
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "Возникли проблемы с сетью:"
+
+#~ msgid "Version differs!"
+#~ msgstr "Версия не совпадает!"
+
+#, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "Карта: {map_name}"
+
+#, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "Название: {game_name}"
+
+#, python-brace-format
+#~ msgid "Creator: {game_creator}"
+#~ msgstr "Создатель: {game_creator}"
+
+#, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "Игроки: {player_amount}/{player_limit}"
+
+#~ msgid "Wrong version"
+#~ msgstr "Другая версия"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "Версия игры на хосте ({game_version}) отличается от Вашей "
+#~ "({own_version}). Все игроки в сетевой игре должны использовать одну версию"
+
+#~ msgid "Password of the game"
+#~ msgstr "Пароль"
+
+#~ msgid "Enter password:"
+#~ msgstr "Введите пароль:"
+
+#, python-brace-format
+#~ msgid "Recommended number of players: {number}"
+#~ msgstr "Рекомендуемое число игроков: {number}"
+
+#~ msgid "Ready"
+#~ msgstr "Готов"
+
+#~ msgid "Not ready"
+#~ msgstr "Не готов"
+
+#~ msgid "Enter your message"
+#~ msgstr "Введите Ваше сообщение"
+
+#~ msgid "Click here to change your name and/or color"
+#~ msgstr "Щёлкните, чтобы изменить имя или цвет"
+
+#, python-brace-format
+#~ msgid "Kick {player}"
+#~ msgstr "Удалить {player}"
+
+#, python-brace-format
+#~ msgid "{player} has joined the game"
+#~ msgstr "{player} присоединился к игре"
+
+#, python-brace-format
+#~ msgid "{player} has left the game"
+#~ msgstr "{player} покинул игру"
+
+#~ msgid "You are now ready"
+#~ msgstr "Теперь Вы готовы"
+
+#~ msgid "You are not ready anymore"
+#~ msgstr "Вы пока не готовы"
+
+#, python-brace-format
+#~ msgid "{player} is now ready"
+#~ msgstr "{player} готов"
+
+#, python-brace-format
+#~ msgid "{player} not ready anymore"
+#~ msgstr "{player} не готов"
+
+#, python-brace-format
+#~ msgid "You are now known as {new_name}"
+#~ msgstr "Теперь Ваше имя {new_name}"
+
+#, python-brace-format
+#~ msgid "{player} is now known as {new_name}"
+#~ msgstr "{player} теперь известен как {new_name}"
+
+#~ msgid "You changed your color"
+#~ msgstr "Вы поменяли свой цвет"
+
+#, python-brace-format
+#~ msgid "{player} changed their color"
+#~ msgstr "{player} изменил цвет"
+
+#~ msgid "Kicked"
+#~ msgstr "Удалён"
+
+#~ msgid "You have been kicked from the game by creator"
+#~ msgstr "Создатель удалил Вас из игры"
+
+#, python-brace-format
+#~ msgid "{player} got kicked by creator"
+#~ msgstr "{player} удалён создателем"
+
+#~ msgid "Are you sure you want to abort the running session?"
+#~ msgstr "Вы действительно хотите прервать эту партию?"
+
+#~ msgid "Quit Session"
+#~ msgstr "Закончить партию"
+
+#~ msgid "No saved games"
+#~ msgstr "Нет сохранённых игр"
+
+#~ msgid "There are no saved games to load."
+#~ msgstr "Нет сохранённых игр для загрузки."
+
+#~ msgid "No filename given"
+#~ msgstr "Не указано имя файла"
+
+#~ msgid "Please enter a valid filename."
+#~ msgstr "Введите правильное имя файла."
+
+#, python-brace-format
+#~ msgid "A savegame with the name {name} already exists."
+#~ msgstr "Сохранённая игра \"{name}\" уже существует."
+
+#, python-brace-format
+#~ msgid "A map with the name {name} already exists."
+#~ msgstr "Карта с названием \"{name}\" уже существует."
+
+#~ msgid "Overwrite it?"
+#~ msgstr "Перезаписать?"
+
+#, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "Сохранено {time}"
+
+#, python-brace-format
+#~ msgid "Saved {amount} time"
+#~ msgid_plural "Saved {amount} times"
+#~ msgstr[0] "Сохранено {amount} раз"
+#~ msgstr[1] "Сохранено {amount} раза"
+#~ msgstr[2] "Сохранено {amount} раз"
+
+#, python-brace-format
+#~ msgid "Savegame version {version}"
+#~ msgstr "Версия сохранения - {version}"
+
+#~ msgid "(probably incompatible)"
+#~ msgstr "(вероятно, несовместимо)"
+
+#~ msgid "Incompatible version"
+#~ msgstr "Несовместимая версия"
+
+#~ msgid "No file selected"
+#~ msgstr "Файл не выбран"
+
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr "Выберите сохранённую игру для удаления."
+
+#, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "Вы действительно хотите удалить \"{name}\"?"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "Подтвердите удаление"
+
+#~ msgid "Error!"
+#~ msgstr "Ошибка!"
+
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "Невозможно удалить файл сохранения!"
+
+#~ msgid "Game"
+#~ msgstr "Игра"
+
+#~ msgid "Disabled"
+#~ msgstr "Отключена"
+
+#~ msgid "Restart required"
+#~ msgstr "Необходим перезапуск"
+
+#~ msgid ""
+#~ "Some of your changes require a restart of Unknown Horizons. Do you want "
+#~ "to restart Unknown Horizons now?"
+#~ msgstr ""
+#~ "Некоторые внесённые изменения требуют перезапуска Неизведанных "
+#~ "Горизонтов. Вы хотите перезапустить Неизведанные Горизонты сейчас?"
+
+#~ msgid "Restore default settings"
+#~ msgstr "Восстановить настройки по умолчанию"
+
+#~ msgid ""
+#~ "Restoring the default settings will delete all changes to the settings "
+#~ "you made so far."
+#~ msgstr ""
+#~ "Восстановление настроек по умолчанию сбросит все ранее внесённые "
+#~ "изменения."
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "Вы хотите продолжить?"
+
+#~ msgid "Invalid network port"
+#~ msgstr "Некорректный сетевой порт"
+
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr "Заданный порт некорректен. Значение должно быть между 1 и 65535."
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it is in the specified "
+#~ "range."
+#~ msgstr "Убедитесь, что введённый порт соответствует указанному диапазону."
+
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "Не удалось применить сетевые настройки."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special access privileges, try 0 or a "
+#~ "number greater than 1024."
+#~ msgstr ""
+#~ "Попробуйте номер порта 0 или больше 1024. Промежуточные порты могут "
+#~ "требовать особых прав доступа."
+
+#~ msgid "Invalid player name"
+#~ msgstr "Недопустимое имя игрока"
+
+#~ msgid "You entered an invalid playername."
+#~ msgstr "Вы ввели недопустимое имя игрока."
+
+#~ msgid "Map size:"
+#~ msgstr "Размер карты:"
+
+#~ msgid "Water:"
+#~ msgstr "Вода:"
+
+#~ msgid "Max island size:"
+#~ msgstr "Максимальный размер островов:"
+
+#~ msgid "Preferred island size:"
+#~ msgstr "Желательный размер островов:"
+
+#~ msgid "Island size deviation:"
+#~ msgstr "Допустимая разница размеров:"
+
+#~ msgid "Click to generate a different random map"
+#~ msgstr "Щёлкните для создания другой случайной карты"
+
+#~ msgid "Invalid scenario file"
+#~ msgstr "Неверный файл сценария игры"
+
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "Выбранный файл не является файлом сценария."
+
+#~ msgid "Error message:"
+#~ msgstr "Сообщение об ошибке:"
+
+#~ msgid "Please report this to the author."
+#~ msgstr "Пожалуйста, сообщите об этом разработчикам."
+
+#, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "Сложность: {difficulty}"
+
+#, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "Автор: {author}"
+
+#, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "Описание: {desc}"
+
+#, python-brace-format
+#~ msgid "Build {building}"
+#~ msgstr "Строю: {building}"
+
+#~ msgid "Press H to remove this hint"
+#~ msgstr "Нажмите H, чтобы убрать подсказку"
+
+#~ msgid "Destroy all buildings"
+#~ msgstr "Уничтожить строение"
+
+#~ msgid ""
+#~ "This will destroy all the buildings that fall outside of the settlement "
+#~ "range."
+#~ msgstr "Это разрушит все здания, которые выходят за пределы поселения."
+
+#, python-format
+#~ msgid "%s additional building will be destroyed."
+#~ msgid_plural "%s additional buildings will be destroyed"
+#~ msgstr[0] "Ещё %s постройка будет уничтожена."
+#~ msgstr[1] "Ещё %s постройки будет уничтожено."
+#~ msgstr[2] "Ещё %s построек будет уничтожено."
+
+#~ msgid "Barracks overview"
+#~ msgstr "Обзор казарм"
+
+#~ msgid "Swordman"
+#~ msgstr "Мечник"
+
+#~ msgid "Overview"
+#~ msgstr "Обзор"
+
+#, python-brace-format
+#~ msgid "{ship} (place in queue: {place})"
+#~ msgstr "{ship} (место в очереди: {place})"
+
+#~ msgid "Boat builder overview"
+#~ msgstr "Обзор верфи"
+
+#~ msgid "Fisher boats"
+#~ msgstr "Рыбацкие суда"
+
+#~ msgid "Trade boats"
+#~ msgstr "Торговые суда"
+
+#~ msgid "War boats"
+#~ msgstr "Военные суда"
+
+#~ msgid "War ships"
+#~ msgstr "Военные корабли"
+
+#~ msgid "Tower overview"
+#~ msgstr "Обзор башни"
+
+#~ msgid "Build related buildings"
+#~ msgstr "Cвязанные постройки"
+
+#~ msgid "Click on one of the resource slots to add a trade offer."
+#~ msgstr "Щёлкните на одной из ячеек, чтобы назначить торговое предложение."
+
+#~ msgid ""
+#~ "Set to buy or sell by clicking on that label, then adjust the amount via "
+#~ "the slider to the right."
+#~ msgstr ""
+#~ "Значок над ячейкой устанавливает покупку или продажу, а бегунок справа "
+#~ "определяет количество товара."
+
+#, python-brace-format
+#~ msgid ""
+#~ "Will sell {resource_name} for {price} gold/t whenever more than {limit}t "
+#~ "are available."
+#~ msgstr ""
+#~ "Продавать {resource_name} за {price} золота/т, когда в наличии больше "
+#~ "{limit} т."
+
+#~ msgid "Warehouse overview"
+#~ msgstr "Обзор склада"
+
+#~ msgid "Main square overview"
+#~ msgstr "Обзор площади"
+
+#~ msgid "Upgrade not possible:"
+#~ msgstr "Улучшения невозможны:"
+
+#~ msgid "This is the highest playable tier for now!"
+#~ msgstr "Пока это высочайший доступный уровень!"
+
+#~ msgid "Don't allow upgrades"
+#~ msgstr "Запретить"
+
+#~ msgid "Allow upgrades"
+#~ msgstr "Разрешить"
+
+#~ msgid "Unit overview"
+#~ msgstr "Обзор единицы"
+
+#, python-brace-format
+#~ msgid "Fill range with {how_many} trees"
+#~ msgstr "Заполните участок {how_many} деревьями"
+
+#~ msgid "Selected Units"
+#~ msgstr "Выбранные единицы"
+
+#~ msgid "Ship overview"
+#~ msgstr "Обзор корабля"
+
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr "Чтобы основать поселение, судно должно пристать к острову."
+
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "На этом острове уже есть Ваше поселение."
+
+#~ msgid "Load/Unload"
+#~ msgstr "Загрузка/Разгрузка"
+
+#~ msgid "Too far from the nearest tradeable warehouse"
+#~ msgstr "Склад слишком далеко"
+
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "Нельзя вооружить торговый корабль"
+
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "Невозможно вооружить торговый корабль."
+
+#~ msgid "Equip weapon"
+#~ msgstr "Установить оружие"
+
+#~ msgid "Unequip weapon"
+#~ msgstr "Снять оружие"
+
+#, python-brace-format
+#~ msgid "{resource_name}: {price} gold"
+#~ msgstr "{resource_name}: {price} золотых"
+
+#, python-brace-format
+#~ msgid "buy for {buyprice} gold"
+#~ msgstr "покупка за {buyprice} золотых"
+
+#, python-brace-format
+#~ msgid "sell for {sellprice} gold"
+#~ msgstr "продажа за {sellprice} золотых"
+
+#, python-brace-format
+#~ msgid "{stored}/{limit}"
+#~ msgstr "{stored}/{limit}"
+
+#, python-brace-format
+#~ msgid "Limit: {amount}t per slot"
+#~ msgstr "Предел: {amount} т на ячейку"
+
+#~ msgid "Logbook"
+#~ msgstr "Судовой журнал"
+
+#~ msgid "Emptiness"
+#~ msgstr "Пусто"
+
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "В Вашем журнале ещё нет записей!"
+
+#, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "Поселения игрока {player}"
+
+#, python-brace-format
+#~ msgid "Ships of {player}"
+#~ msgstr "Флот игрока {player}"
+
+#~ msgid "N/A"
+#~ msgstr "Н/Д"
+
+#, python-brace-format
+#~ msgid "Production overview of {settlement}"
+#~ msgstr "{settlement}: Обзор продукции"
+
+#~ msgid "Click to show statistics"
+#~ msgstr "Статистика"
+
+#~ msgid "Click to add a new slot"
+#~ msgstr "Щёлкните, чтобы добавить новую ячейку"
+
+#~ msgid "Reset this configuration to the factory default."
+#~ msgstr "Вернуть этот перечень к заводским настройкам по умолчанию."
+
+#~ msgid ""
+#~ "Reset this settlement's displayed resources to the default configuration "
+#~ "you have saved."
+#~ msgstr ""
+#~ "Вернуть перечень ресурсов этого поселения к сохранённым Вами настройкам "
+#~ "по умолчанию."
+
+#~ msgid ""
+#~ "Reset the default configuration (which you see here) to the factory "
+#~ "default for all settlements."
+#~ msgstr ""
+#~ "Вернуть для всех поселений текущий перечень по умолчанию к заводским "
+#~ "настройкам."
+
+#~ msgid "Buy expenses"
+#~ msgstr "Расходы на покупку"
+
+#~ msgid "Sell income"
+#~ msgstr "Доходы от продажи"
+
+#~ msgid "Stop route"
+#~ msgstr "Остановить путь"
+
+#~ msgid "Need at least two settlements"
+#~ msgstr "Нужны хотя бы два поселения"
+
+#~ msgid "You need at least two different settlements in your route."
+#~ msgstr "На пути нужны хотя бы два различных поселения."
+
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "Назначьте остановку, щёлкнув на поселении!"
+
+#~ msgid "Loading into ship"
+#~ msgstr "Загрузка на корабль"
+
+#~ msgid "Unloading from ship"
+#~ msgstr "Выгрузка с корабля"
+
+#~ msgid "You are not allowed to trade with this player"
+#~ msgstr "Вы не можете торговать с этим игроком"
+
+#, python-brace-format
+#~ msgid "{weapon}: {amount}"
+#~ msgstr "{weapon}: {amount}"
+
+#~ msgid "none"
+#~ msgstr "нет"
+
+#, python-brace-format
+#~ msgid "Details: {error_details}"
+#~ msgstr "Подробно: {error_details}"
+
+#, python-brace-format
+#~ msgid "Error: {error_message}"
+#~ msgstr "Ошибка: {error_message}"
+
+#~ msgid "Bakery"
+#~ msgstr "Пекарня"
+
+#~ msgid "Barracks"
+#~ msgstr "Казармы"
+
+#~ msgid "Wooden barrier"
+#~ msgstr "Деревянная перегородка"
+
+#~ msgid "Clay wall"
+#~ msgstr "Глиняная стена"
+
+#~ msgid "Blender"
+#~ msgstr "Смеситель"
+
+#~ msgid "Boat Builder"
+#~ msgstr "Верфь"
+
+#~ msgid "Brewery"
+#~ msgstr "Пивоварня"
+
+#~ msgid "Brickyard"
+#~ msgstr "Кирпичный завод"
+
+#~ msgid "Butchery"
+#~ msgstr "Бойня"
+
+#~ msgid "Cannon Foundry"
+#~ msgstr "Пушколитейный завод"
+
+#~ msgid "Charcoal Burning"
+#~ msgstr "Угольные кучи"
+
+#~ msgid "Clay Deposit"
+#~ msgstr "Залежи глины"
+
+#~ msgid "Clay Pit"
+#~ msgstr "Глиняный карьер"
+
+#~ msgid "Distillery"
+#~ msgstr "Винокурня"
+
+#~ msgid "Doctor"
+#~ msgstr "Лечебница"
+
+#~ msgid "Farm"
+#~ msgstr "Ферма"
+
+#~ msgid "Alvearies"
+#~ msgstr "Пасека"
+
+#~ msgid "Cattle Run"
+#~ msgstr "Загон для скота"
+
+#~ msgid "Cocoa Field"
+#~ msgstr "Плантация какао"
+
+#~ msgid "Corn Field"
+#~ msgstr "Хлебное поле"
+
+#~ msgid "Herbary"
+#~ msgstr "Травяной сад"
+
+#~ msgid "Hop Field"
+#~ msgstr "Хмельное поле"
+
+#~ msgid "Pasture"
+#~ msgstr "Пастбище"
+
+#~ msgid "Pigsty"
+#~ msgstr "Свинарник"
+
+#~ msgid "Potato Field"
+#~ msgstr "Поле картофеля"
+
+#~ msgid "Spice Field"
+#~ msgstr "Поле пряностей"
+
+#~ msgid "Sugar Field"
+#~ msgstr "Сахарное поле"
+
+#~ msgid "Tobacco Field"
+#~ msgstr "Табачное поле"
+
+#~ msgid "Vineyard"
+#~ msgstr "Виноградник"
+
+#~ msgid "Fire Station"
+#~ msgstr "Пожарная часть"
+
+#~ msgid "Fish Deposit"
+#~ msgstr "Рыбное место"
+
+#~ msgid "Fisherman's Tent"
+#~ msgstr "Палатка рыбака"
+
+#~ msgid "Hunter's Tent"
+#~ msgstr "Палатка охотника"
+
+#~ msgid "Lookout"
+#~ msgstr "Дозорная башня"
+
+#~ msgid "Lumberjack Hut"
+#~ msgstr "Хижина лесоруба"
+
+#~ msgid "Main Square"
+#~ msgstr "Площадь"
+
+#~ msgid "Mine"
+#~ msgstr "Рудник"
+
+#~ msgid "Mountain"
+#~ msgstr "Гора"
+
+#~ msgid "Pastry Shop"
+#~ msgstr "Кондитерская"
+
+#~ msgid "Pavilion"
+#~ msgstr "Святилище"
+
+#~ msgid "Ruined Tent"
+#~ msgstr "Разрушенная палатка"
+
+#~ msgid "Salt Ponds"
+#~ msgstr "Соляной бассейн"
+
+#~ msgid "Signal Fire"
+#~ msgstr "Маяк"
+
+#~ msgid "Smeltery"
+#~ msgstr "Плавильня"
+
+#~ msgid "Stone Deposit"
+#~ msgstr "Месторождение Камня"
+
+#~ msgid "Stonemason"
+#~ msgstr "Каменщик"
+
+#~ msgid "Carver"
+#~ msgstr "Каменотёс"
+
+#~ msgid "Stone Pit"
+#~ msgstr "Каменоломня"
+
+# Can we drop the 'Tent' part ? Or we need something like 'Палатка-хранилище', 'Склад-палатка' etc.
+#~ msgid "Storage Tent"
+#~ msgstr "Навес-хранилище"
+
+# Can we drop the 'Tent' part ? Or we need something like 'Палатка-хранилище', 'Склад-палатка' etc.
+#~ msgid "Storage Hut"
+#~ msgstr "Хранилище"
+
+#~ msgid "Tavern"
+#~ msgstr "Таверна"
+
+#~ msgid "Hut"
+#~ msgstr "Хижина"
+
+#~ msgid "Stone house"
+#~ msgstr "Каменный дом"
+
+#~ msgid "Estate"
+#~ msgstr "Усадьба"
+
+#~ msgid "Manor"
+#~ msgstr "Особняк"
+
+#~ msgid "Tobacconist"
+#~ msgstr "Табачная лавка"
+
+#~ msgid "Toolmaker"
+#~ msgstr "Слесарня"
+
+#~ msgid "Trail"
+#~ msgstr "Тропа"
+
+#~ msgid "Gravel Path"
+#~ msgstr "Галечная тропа"
+
+#~ msgid "Cobblestone Street"
+#~ msgstr "Мостовая"
+
+#~ msgid "Tree"
+#~ msgstr "Дерево"
+
+#~ msgid "Village School"
+#~ msgstr "Сельская Школа"
+
+#~ msgid "Warehouse"
+#~ msgstr "Склад"
+
+#~ msgid "Weaponsmith"
+#~ msgstr "Шахта"
+
+#~ msgid "Weaver's Hut"
+#~ msgstr "Хижина ткача"
+
+#~ msgid "Windmill"
+#~ msgstr "Мельница"
+
+#~ msgid "Winery"
+#~ msgstr "Винодельня"
+
+#~ msgid "Wooden Tower"
+#~ msgstr "Оборонная башня"
+
+#~ msgid "Failed to start/load the game"
+#~ msgstr "Не удалось запустить игру"
+
+#~ msgid "The game you selected could not be started."
+#~ msgstr "Выбранная Вами игра не может быть запущена."
+
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr "Сохранение может быть повреждено или создано в устаревшей версии."
+
+#~ msgid "No quicksaves found"
+#~ msgstr "Не найдено быстрых сохранений"
+
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr "Быстрое сохранение нужно выполнить прежде, чем загружать."
+
+#~ msgid "Logging enabled"
+#~ msgstr "Ведение журнала включено"
+
+#, python-brace-format
+#~ msgid "Logs are written to {directory}."
+#~ msgstr "Записи сохранены в {directory}."
+
+#~ msgid ""
+#~ "The games have run out of sync. This indicates an unknown internal error, "
+#~ "the game cannot continue."
+#~ msgstr ""
+#~ "Игры не смогли синхронизироваться. Это указывает на неизвестную "
+#~ "внутреннюю ошибку, игра не может продолжаться."
+
+#~ msgid ""
+#~ "We are very sorry and hope to have this bug fixed in a future version."
+#~ msgstr ""
+#~ "Мы сожалеем и надеемся, что эта ошибка будет исправлена в следующих "
+#~ "версиях."
+
+#~ msgid "Not possible"
+#~ msgstr "Невозможно"
+
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr "Сохранение и загрузка пока невозможны в сетевой игре"
+
+#~ msgid ""
+#~ "The filename must consist only of letters, numbers, spaces and these "
+#~ "characters: _ . -"
+#~ msgstr ""
+#~ "В имени файла можно использовать только латинские буквы, цифры, пробелы и "
+#~ "знаки: _.-"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "Невозможно подключиться к серверу."
+
+#~ msgid "Maybe invalid or irresolvable server address."
+#~ msgstr "Возможно, неверный или несуществующий адрес сервера."
+
+#~ msgid "Not Ready"
+#~ msgstr "Не готов"
+
+#~ msgid ""
+#~ "Old or unsupported multiplayer protocol. Please check your game version"
+#~ msgstr ""
+#~ "Старый или неподдерживаемый многопользовательский протокол. Пожалуйста, "
+#~ "проверьте версию вашей игры"
+
+#~ msgid "You've exceeded the global packet size."
+#~ msgstr "Вы превысили глобальный размер пакета."
+
+#~ msgid "This should never happen. Please contact us or file a bug report."
+#~ msgstr ""
+#~ "Этого никогда не должно происходить. Пожалуйста, свяжитесь с нами или "
+#~ "отправьте сообщение об ошибке."
+
+#~ msgid "You've exceeded the per packet size."
+#~ msgstr "Превышен размер пакета."
+
+#~ msgid "Unknown or malformed packet. Please check your game version"
+#~ msgstr ""
+#~ "Неизвестный или испорченный пакет. Пожалуйста, проверьте Вашу версию игры"
+
+#~ msgid "Invalid/Unknown session"
+#~ msgstr "Недействительная/неизвестная сессия"
+
+#~ msgid "You can't join a game while in another game"
+#~ msgstr "Вы не можете присоединиться к игре, находясь в другой игре"
+
+#~ msgid "Unknown game or game is running a different version"
+#~ msgstr "Неизвестная модификация или версия игры отличается"
+
+#~ msgid "Game has already started. No more joining"
+#~ msgstr "Игра уже началась. Присоединиться больше нельзя"
+
+#~ msgid "Game is full"
+#~ msgstr "Сервер заполнен"
+
+#~ msgid "Wrong password"
+#~ msgstr "Неправильный пароль"
+
+#~ msgid "There's already a player with your name inside this game."
+#~ msgstr "В игре уже есть игрок с таким именем."
+
+#~ msgid "Please change your name."
+#~ msgstr "Пожалуйста, смените Ваше имя."
+
+#~ msgid "There's already a player with your color inside this game."
+#~ msgstr "В игре уже есть игрок с Вашим цветом."
+
+#~ msgid "Please change your color."
+#~ msgstr "Пожалуйста, смените Ваш цвет."
+
+#~ msgid ""
+#~ "There's already a player with your unique player ID inside this game. "
+#~ "This should never occur."
+#~ msgstr ""
+#~ "Игрок с вашим уникальным ID уже в игре. Такое не должно происходить."
+
+#~ msgid "You are not inside a game"
+#~ msgstr "Вы не в игре"
+
+#~ msgid "Unable to change your name."
+#~ msgstr "Невозможно изменить Ваше имя."
+
+#~ msgid "Unable to change your color."
+#~ msgstr "Невозможно изменить Ваш цвет."
+
+#~ msgid "You can't fetch a game while in another game"
+#~ msgstr "Вы не можете войти в игру, пока Вы в другой игре"
+
+#~ msgid "The game has been terminated. The creator has left the game."
+#~ msgstr "Игра была завершена. Создатель покинул игру."
+
+#~ msgid ""
+#~ "One player has terminated their game. For technical reasons, this "
+#~ "currently means the game cannot continue. We are very sorry about that."
+#~ msgstr ""
+#~ "Один из игроков завершил игру и она не может быть продолжена по "
+#~ "техническим причинам. Мы очень сожалеем об этом."
+
+#~ msgid "You have won!"
+#~ msgstr "Вы выиграли!"
+
+#~ msgid "You have completed this scenario."
+#~ msgstr "Вы завершили сюжет."
+
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "Хотите продолжить игру?"
+
+#~ msgid "unknown"
+#~ msgstr "неизвестно"
+
+#~ msgid "Failed to create savegame file"
+#~ msgstr "Не удалось создать файл сохранения"
+
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr "При создании файла сохранения произошла ошибка."
+
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr ""
+#~ "Обычно это происходит, если имя файла сохранения содержит недопустимые "
+#~ "символы."
+
+#~ msgid "Access is denied"
+#~ msgstr "Отказано в доступе"
+
+#~ msgid "The savegame file could be read-only or locked by another process."
+#~ msgstr ""
+#~ "Файл сохранения доступен только для чтения или заблокирован другим "
+#~ "процессом."
+
+#~ msgid "Your game has not been saved."
+#~ msgstr "Игру не удалось сохранить."
+
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "Новая версия Неизведанных Горизонтов"
+
+#, python-brace-format
+#~ msgid ""
+#~ "There is a more recent release of Unknown Horizons ({new_version}) than "
+#~ "the one you are currently using ({old_version})."
+#~ msgstr ""
+#~ "Существует более поздняя версия Неизведанных Горизонтов ({new_version}), "
+#~ "чем используемая Вами ({old_version})."
+
+#~ msgid "Click to download"
+#~ msgstr "Щёлкните, чтобы скачать"
+
+#~ msgid "A page has been opened in your browser."
+#~ msgstr "Страница была открыта в Вашем браузере."
+
+#, python-brace-format
+#~ msgid "{slotnum} slots, {limit}t"
+#~ msgstr "{slotnum} ячеек, {limit} т"
+
+#, python-brace-format
+#~ msgid "Health: {health}"
+#~ msgstr "Здоровье: {health}"
+
+#, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}: {description}"
+
+#~ msgid "This building must be built on an island."
+#~ msgstr "Это здание должно строиться на острове."
+
+#~ msgid "This ground is not suitable for this building."
+#~ msgstr "Для этой постройки не подходит здешний рельеф."
+
+#~ msgid "This building has to be built within your settlement."
+#~ msgstr "Эта постройка должна располагаться в границах Вашего поселения."
+
+#~ msgid "This area is already occupied by another player."
+#~ msgstr "Эта область уже занята другим игроком."
+
+#~ msgid "This area is already occupied by another building."
+#~ msgstr "Эта область уже занята другой постройкой."
+
+#~ msgid "This area is already occupied by a unit."
+#~ msgstr "Это область уже занята."
+
+#~ msgid "This building must be built on the coastline."
+#~ msgstr "Это здание должно располагаться на побережье."
+
+#~ msgid "This building has to be placed at the ocean."
+#~ msgstr "Эта постройка должна размещаться в море."
+
+#~ msgid "This spot is too far away from your ship."
+#~ msgstr "Это место находится слишком далеко от Вашего корабля."
+
+#~ msgid "This building can only be built on a resource source."
+#~ msgstr "Это здание может быть построено только на месторождении."
+
+#~ msgid "You have already settled this island."
+#~ msgstr "Вы уже заселили этот остров."
+
+#~ msgid "This building must be partly on flat land."
+#~ msgstr "Это здание должно частично располагаться на ровной поверхности."
+
+#~ msgid "The inhabitants are infected by the Black Death!"
+#~ msgstr "Жители заражены Чёрной смертью!"
+
+#~ msgid "This building is on fire!"
+#~ msgstr "Эта постройка горит!"
+
+#~ msgid "These residents are unhappy."
+#~ msgstr "Эти жители недовольны."
+
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "Эти жители не могут попасть на площадь."
+
+#~ msgid "The inventory of this building is full."
+#~ msgstr "В этой постройке не осталось свободного места."
+
+#~ msgid "This building has a very low productivity."
+#~ msgstr "У этой постройки очень низкая продуктивность."
+
+#~ msgid "This building is decommissioned."
+#~ msgstr "Эта постройка выведена из эксплуатации."
+
+#, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "Торговый путь: к {location}"
+
+#, python-brace-format
+#~ msgid "Trade route: waiting at {position}"
+#~ msgstr "Торговый путь: ожидание в {position}"
+
+#, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "Идёт к {location}"
+
+#, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "Идёт к {x}, {y}"
+
+#, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "Ожидает в {location}"
+
+#, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "Ожидает в {x}, {y}"
+
+#~ msgid "Trader"
+#~ msgstr "Торговец"
+
+#, python-brace-format
+#~ msgid "Attacking {target} '{name}' ({owner})"
+#~ msgstr "Атака: {target} \"{name}\" ({owner})"
+
+#, python-brace-format
+#~ msgid "Attacking {owner}"
+#~ msgstr "Атака: {owner}"
+
+#~ msgid "Your game has been autosaved."
+#~ msgstr "Игра автоматически сохранена."
+
+#~ msgid "Your building has caught fire!"
+#~ msgstr "Ваша постройка горит!"
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}: {message}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "{player1} and {player2} have ended their alliance and are now in a state "
+#~ "of war."
+#~ msgstr "{player1} и {player2} разорвали союз и начали войну."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have terminated their alliance."
+#~ msgstr "{player1} и {player2} разорвали союз."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have ended the war and are now allied."
+#~ msgstr "{player1} и {player2} закончили войну и объединились."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have settled their hostility."
+#~ msgstr "{player1} и {player2} прекратили вражду."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have allied their forces."
+#~ msgstr "{player1} и {player2} объединили свои силы."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} will fight each other to the death."
+#~ msgstr "{player1} и {player2} будут биться насмерть."
+
+#~ msgid "You can also drag roads."
+#~ msgstr "Вы можете прокладывать дороги, удерживая кнопку мыши."
+
+#~ msgid "One of your fields requires a farm to harvest its crops."
+#~ msgstr "Одному из полей требуется ферма для сбора урожая."
+
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "Ваш рудник иссяк."
+
+#~ msgid ""
+#~ "You have reached the current maximum tier. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Вы достигли максимального на данный момент уровня развития. Ваши жители "
+#~ "более не будут развиваться."
+
+#~ msgid "Cannot go here."
+#~ msgstr "Туда невозможно пройти."
+
+#~ msgid "Your crew refuses to leave this map."
+#~ msgstr "Ваша команда отказывается покидать эту карту."
+
+#, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "Ресурсы, необходимые для этой постройки: {resource}."
+
+#, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "Игрок {player} основал новое поселение."
+
+#, python-brace-format
+#~ msgid "A new ship by the name of {name} has been created."
+#~ msgstr "Создан новый корабль под именем {name}."
+
+#, python-brace-format
+#~ msgid "The Soldier by the name of {name} is ready to battle."
+#~ msgstr "Солдат с именем {name} готов к битве."
+
+#, python-brace-format
+#~ msgid "The inhabitant by the name of {name} is available."
+#~ msgstr "Житель с именем {name} готов."
+
+#~ msgid "A new world has been created."
+#~ msgstr "Создан новый мир."
+
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "Некоторые жители не могут попасть на площадь."
+
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "Выполнено быстрое сохранение."
+
+#~ msgid ""
+#~ "The route is now configured. Start it via the \"start route\" button in "
+#~ "the \"configure route\" menu."
+#~ msgstr ""
+#~ "Торговый путь настроен. Запустите его кнопкой \"запустить путь\" в "
+#~ "разделе \"задать торговый путь\"."
+
+#~ msgid "Your game has been saved."
+#~ msgstr "Игра сохранена."
+
+#, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "Снимок экрана сохранён в {file}."
+
+#, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "Ваши жители достигли {level} уровня."
+
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "Несколько жителей только что сбежали."
+
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr "Вы не можете снести склад, он необходим поселению."
+
+#~ msgid "You won!"
+#~ msgstr "Вы победили!"
+
+#~ msgid "You failed the scenario."
+#~ msgstr "Вы провалили задание."
+
+#~ msgid "The inhabitants of this building are infected by the Black Death!"
+#~ msgstr "Жители этого дома заражены Чёрной смертью!"
+
+#~ msgid "coins"
+#~ msgstr "монеты"
+
+#~ msgid "lamb wool"
+#~ msgstr "овечья шерсть"
+
+#~ msgid "textile"
+#~ msgstr "ткань"
+
+#~ msgid "boards"
+#~ msgstr "доски"
+
+#~ msgid "food"
+#~ msgstr "пища"
+
+#~ msgid "tools"
+#~ msgstr "инструменты"
+
+#~ msgid "bricks"
+#~ msgstr "кирпичи"
+
+#~ msgid "trees"
+#~ msgstr "деревья"
+
+#~ msgid "grass"
+#~ msgstr "трава"
+
+#~ msgid "wool"
+#~ msgstr "шерсть"
+
+#~ msgid "faith"
+#~ msgstr "вера"
+
+#~ msgid "deer food A"
+#~ msgstr "еда оленя A"
+
+#~ msgid "deer meat"
+#~ msgstr "мясо оленя"
+
+# Счастье?
+#~ msgid "happiness"
+#~ msgstr "удовлетворение"
+
+#~ msgid "potatoes"
+#~ msgstr "картофель"
+
+#~ msgid "education"
+#~ msgstr "образование"
+
+#~ msgid "sugar cane"
+#~ msgstr "сахарный тростник"
+
+#~ msgid "sugar"
+#~ msgstr "сахар"
+
+#~ msgid "community"
+#~ msgstr "общение"
+
+#~ msgid "clay deposit"
+#~ msgstr "залежи глины"
+
+#~ msgid "clay"
+#~ msgstr "глина"
+
+#~ msgid "liquor"
+#~ msgstr "спиртное"
+
+#~ msgid "charcoal"
+#~ msgstr "древесный уголь"
+
+#~ msgid "iron deposit"
+#~ msgstr "месторождение железа"
+
+#~ msgid "iron ore"
+#~ msgstr "железная руда"
+
+#~ msgid "iron ingots"
+#~ msgstr "железные слитки"
+
+#~ msgid "get-together"
+#~ msgstr "развлечение"
+
+#~ msgid "fish"
+#~ msgstr "рыба"
+
+#~ msgid "salt"
+#~ msgstr "соль"
+
+#~ msgid "tobacco plants"
+#~ msgstr "табачные растения"
+
+#~ msgid "tobacco leaves"
+#~ msgstr "листья табака"
+
+#~ msgid "tobaccos"
+#~ msgstr "табачные изделия"
+
+#~ msgid "cattle"
+#~ msgstr "скот"
+
+#~ msgid "pigs"
+#~ msgstr "свиньи"
+
+#~ msgid "cattle for slaughter"
+#~ msgstr "скот на убой"
+
+#~ msgid "pigs for slaughter"
+#~ msgstr "свиньи для бойни"
+
+#~ msgid "herbs"
+#~ msgstr "травы"
+
+#~ msgid "medical herbs"
+#~ msgstr "целебные травы"
+
+#~ msgid "acorns"
+#~ msgstr "жёлуди"
+
+#~ msgid "cannon"
+#~ msgstr "пушки"
+
+#~ msgid "sword"
+#~ msgstr "мечи"
+
+#~ msgid "grain"
+#~ msgstr "зерно"
+
+# вариант: зерновые культуры
+#~ msgid "corn"
+#~ msgstr "зерно"
+
+#~ msgid "flour"
+#~ msgstr "мука"
+
+#~ msgid "spice plants"
+#~ msgstr "пряные растения"
+
+#~ msgid "spices"
+#~ msgstr "пряности"
+
+# варианты: специи, пряности
+#~ msgid "condiments"
+#~ msgstr "приправы"
+
+#~ msgid "marble deposit"
+#~ msgstr "месторождение мрамора"
+
+#~ msgid "marble tops"
+#~ msgstr "мраморные плиты"
+
+#~ msgid "coal deposit"
+#~ msgstr "месторождение угля"
+
+#~ msgid "stone deposit"
+#~ msgstr "месторождение камня"
+
+#~ msgid "stone tops"
+#~ msgstr "каменные плиты"
+
+#~ msgid "cocoa beans"
+#~ msgstr "какао-бобы"
+
+#~ msgid "cocoa"
+#~ msgstr "какао"
+
+# варианты: конфеты, сласти
+#~ msgid "confectionery"
+#~ msgstr "кондитерские изделия"
+
+#~ msgid "candles"
+#~ msgstr "свечи"
+
+#~ msgid "vines"
+#~ msgstr "виноградные лозы"
+
+#~ msgid "grapes"
+#~ msgstr "виноград"
+
+#~ msgid "alvearies"
+#~ msgstr "ульи"
+
+#~ msgid "honeycombs"
+#~ msgstr "соты"
+
+#~ msgid "gold deposit"
+#~ msgstr "месторождение золота"
+
+#~ msgid "gold ore"
+#~ msgstr "золотая руда"
+
+#~ msgid "gold ingots"
+#~ msgstr "золотые слитки"
+
+#~ msgid "gem deposit"
+#~ msgstr "залежи самоцветов"
+
+#~ msgid "rough gems"
+#~ msgstr "необработанные камни"
+
+#~ msgid "gems"
+#~ msgstr "самоцветы"
+
+#~ msgid "coffee plants"
+#~ msgstr "кофейные деревья"
+
+#~ msgid "coffee beans"
+#~ msgstr "кофейные зёрна"
+
+#~ msgid "coffee"
+#~ msgstr "кофе"
+
+#~ msgid "tea plants"
+#~ msgstr "чайные кусты"
+
+#~ msgid "tea leaves"
+#~ msgstr "чайные листья"
+
+#~ msgid "tea"
+#~ msgstr "чай"
+
+#~ msgid "flower meadows"
+#~ msgstr "цветочные луга"
+
+#~ msgid "blossoms"
+#~ msgstr "цветы"
+
+#~ msgid "brine deposit"
+#~ msgstr "месторождение соли"
+
+#~ msgid "brine"
+#~ msgstr "рассол"
+
+#~ msgid "whales"
+#~ msgstr "киты"
+
+#~ msgid "ambergris"
+#~ msgstr "амбра"
+
+#~ msgid "lamp oil"
+#~ msgstr "масляный светильник"
+
+#~ msgid "cotton plants"
+#~ msgstr "хлопковые растения"
+
+#~ msgid "cotton"
+#~ msgstr "хлопок"
+
+#~ msgid "indigo plants"
+#~ msgstr "растения индиго"
+
+#~ msgid "indigo"
+#~ msgstr "индиго"
+
+#~ msgid "garments"
+#~ msgstr "одежды"
+
+#~ msgid "perfume"
+#~ msgstr "духи"
+
+#~ msgid "hop plants"
+#~ msgstr "хмель"
+
+#~ msgid "hops"
+#~ msgstr "пивоварни"
+
+#~ msgid "beer"
+#~ msgstr "пиво"
+
+#~ msgid "hygiene"
+#~ msgstr "гигиена"
+
+#~ msgid "recreation"
+#~ msgstr "отдых"
+
+#~ msgid "blackdeath"
+#~ msgstr "чёрная смерть"
+
+#~ msgid "fire"
+#~ msgstr "огонь"
+
+#~ msgid "Aristocrats"
+#~ msgstr "Знать"
+
+#~ msgid "Error: Unable to find required library \"PyYAML\"."
+#~ msgstr "Ошибка: Не найдена необходимая библиотека \"PyYAML\"."
+
+#~ msgid "PyYAML (a required library) is missing and needs to be installed."
+#~ msgstr ""
+#~ "PyYAML (необходимая библиотека) отсутствует и должна быть установлена."
+
+#~ msgid "The Windows installer is available at http://pyyaml.org/wiki/PyYAML."
+#~ msgstr ""
+#~ "Установщик для Windows доступен по адресу http://pyyaml.org/wiki/PyYAML."
+
+#~ msgid ""
+#~ "Linux users should find it using their package manager under the name "
+#~ "\"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Пользователи Linux могут найти его по названиям \"pyyaml\" или \"python-"
+#~ "yaml\" с помощью своей системы управления пакетами."
+
+#~| msgid "Unit overview"
+#~ msgid "Groundunit overview"
+#~ msgstr "Обзор единицы"
+
+#~ msgid "SDL is only meant as unsupported fallback and might cause problems!"
+#~ msgstr ""
+#~ "Используйте SDL исключительно как запасной вариант. Может работать "
+#~ "нестабильно!"
+
+#~ msgid "Used renderer:"
+#~ msgstr "Рендерер:"
+
+#~ msgid "Warning"
+#~ msgstr "Предупреждение"
+
+#~ msgid ""
+#~ "The SDL renderer is meant as a fallback solution only and has serious "
+#~ "graphical glitches. \n"
+#~ "\n"
+#~ "Use at own risk!"
+#~ msgstr ""
+#~ "Рендерер SDL рассчитан на резервное использование, возможны серьёзные "
+#~ "графические искажения. \n"
+#~ "\n"
+#~ "Используйте на свой страх и риск!"
+
+#~ msgid "Increases the player's sight."
+#~ msgstr "Расширяет поле зрения игрока."
+
+#~ msgid "Vintner"
+#~ msgstr "Винная лавка"
+
+#~ msgid "dagger"
+#~ msgstr "кинжал"
+
+#~ msgid "Back:"
+#~ msgstr "Назад:"
+
+#~ msgid "Leave:"
+#~ msgstr "Выход:"
+
+#~ msgid "Main menu:"
+#~ msgstr "Главное меню:"
+
+#~ msgid "Color depth:"
+#~ msgstr "Глубина цвета:"
+
+#~ msgid "If set to 0, use the driver default"
+#~ msgstr "Если установлен 0, то использовать драйвер по умолчанию"
+
+#~ msgid "Apply"
+#~ msgstr "Применить"
+
+#~ msgid "Start game:"
+#~ msgstr "Начать игру:"
+
+#~ msgid "16 bit"
+#~ msgstr "16-бит"
+
+#~ msgid "32 bit"
+#~ msgstr "32-бит"
+
+#~ msgid "Default"
+#~ msgstr "По умолчанию"
+
+#~ msgid "Resources needed:"
+#~ msgstr "Требуются ресурсы:"
+
+#~ msgid "{resource}: {amount}"
+#~ msgstr "{resource}: {amount}"
+
+#~ msgid "The inhabitants of this building have the plague."
+#~ msgstr "Жители этого здания заболели чумой."
+
+#~ msgid "Key bindings"
+#~ msgstr "Назначение клавиш"
+
+#~ msgid "Display FPS counter"
+#~ msgstr "Показать счетчик FPS"
+
+#~ msgid "Hold to place multiple buildings"
+#~ msgstr "Удерживайте для возведения нескольких строений"
+
+#~ msgid "[{key}] = {text}"
+#~ msgstr "[{key}] = {text}"
+
+#~ msgid "Project Coordination"
+#~ msgstr "Руководство проектом"
+
+#~ msgid "Programming"
+#~ msgstr "Программирование"
+
+#, fuzzy
+#~ msgid "Game-Play Design"
+#~ msgstr "Советы по игре"
+
+#~ msgid "Sound and Music Artists"
+#~ msgstr "Звуковое и музыкальное сопровождение"
+
+#, fuzzy
+#~ msgid "Graphics Artists"
+#~ msgstr "Графика"
+
+#, fuzzy
+#~ msgid "Patchers"
+#~ msgstr "Бойня"
+
+#~ msgid "Translators"
+#~ msgstr "Переводчики"
+
+#, fuzzy
+#~ msgid "Hosting Weblate"
+#~ msgstr "Журналирование включено"
+
+#, fuzzy
+#~ msgid "Spanish"
+#~ msgstr "Компании"
+
+#, fuzzy
+#~ msgid "Dutch"
+#~ msgstr "Бойня"
+
+#, fuzzy
+#~ msgid "Chinese"
+#~ msgstr "виноградные лозы"
+
+#~ msgid "Special Thanks"
+#~ msgstr "Отдельная благодарность"
+
+#~ msgid "Save the map"
+#~ msgstr "Сохранить карту"
+
+#~ msgid "Toggle console on/off"
+#~ msgstr "Вкл/выкл консоль"
+
+#~ msgid "Only show games with the same version:"
+#~ msgstr "Показывать только совместимые версии:"
+
+#~ msgid ""
+#~ "You have reached the current maximum increment. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Вы достигли максимального роста. Ваши жители не будут развиваться дальше."
+
+#~ msgid "Valid map names are in the following form: {expression}"
+#~ msgstr "Допустимы имена карт в следующей форме: {expression}"
+
+#~ msgid "Try a name that only contains letters and numbers."
+#~ msgstr "В имени допускаются только буквы и цифры."
+
+#~ msgid "Terminated"
+#~ msgstr "Закончен"
+
+#~ msgid "This savegame is missing (click here)"
+#~ msgstr "Это сохранение отсутствует (нажмите здесь)"
+
+#~ msgid "The file will be downloaded when the game starts."
+#~ msgstr "Файл будет загружен после старта игры"
+
+#~ msgid "This is a savegame."
+#~ msgstr "Это сохранение."
+
+#~ msgid "A savegame with the name '{name}' already exists."
+#~ msgstr "Сохраненная игра под именем '{name}' уже существует."
+
+#~ msgid "Invalid filename given"
+#~ msgstr "Задано неверное имя файла"
+
+#~ msgid "An error happened during quicksave. Your game has not been saved."
+#~ msgstr ""
+#~ "В ходе быстрого сохранения произошла ошибка. Ваша игра не была сохранена."
+
+#~ msgid "If this error happens again, please contact the development team:"
+#~ msgstr "Если эта ошибка повторится, пожалуйста свяжитесь с разработчиками:"
+
+#~ msgid "Collector utilisation"
+#~ msgstr "Использование сборщиков"
+
+#~ msgid "This will be displayed to other players so they recognise the game."
+#~ msgstr "Это будет показано другим игрокам, чтобы они подтвердили игру."
+
+#~ msgid "A new ship has been created."
+#~ msgstr "Корабль построен."
+
+#~ msgid "Specify the path to FIFE root directory."
+#~ msgstr "Задать путь к корневой директории FIFE."
+
+#~ msgid "Please select a savegame or click on cancel."
+#~ msgstr "Пожалуйста, выберите сохранение или нажмите \"Отмена\"."
+
+#~ msgid "Select a savegame"
+#~ msgstr "Выберите сохранение"
+
+#~ msgid "Error:"
+#~ msgstr "Ошибка:"
+
+#~ msgid "(potentially incompatible)"
+#~ msgstr "(потенциально несовместимо)"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which couldn't "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "Для многопользовательской игры требуется библиотека \"pyenet\", которую "
+#~ "не удаётся найти в вашей системе."
+
+#~ msgid "Windows users: There is currently no reasonable support for Windows."
+#~ msgstr ""
+#~ "Пользователи Windows: на данный момент Windows, к сожалению, не "
+#~ "поддерживается."
+
+#~ msgid "Creator: {player}"
+#~ msgstr "Создатель: {player}"
+
+#~ msgid ""
+#~ "For multiplayer load, it is currently necessary for you to ensure you "
+#~ "have the correct savegame file."
+#~ msgstr ""
+#~ "Для загрузки многопользовательской игры, в настоящее время вам необходимо "
+#~ "убедиться в наличии файла сохранения игры."
+
+#~ msgid ""
+#~ "This is not nice and we hope to offer a more convenient solution very "
+#~ "soon."
+#~ msgstr ""
+#~ "Это не хорошо, и мы надеемся предложить более удобное решение в ближайшее "
+#~ "время."
+
+#~ msgid ""
+#~ "Meanwhile, please request the file {path} from the game creator and put "
+#~ "it in {map_directory} ."
+#~ msgstr ""
+#~ "А теперь, пожалуйста, запросите файл {path} у создателя игры и поместите "
+#~ "его в {map_directory} ."
+
+#~ msgid "Translation status:"
+#~ msgstr "Состояние перевода:"
+
+#~ msgid ""
+#~ "{translated} translated messages, {untranslated} untranslated messages"
+#~ msgstr ""
+#~ "{translated} переведенные сообщения, {untranslated} непереведенные "
+#~ "сообщения"
+
+#~ msgid "Too far from the nearest own or allied warehouse"
+#~ msgstr "Слишком далеко от ближайшего собственного или союзного складов"
+
+#~ msgid "Reset to factory"
+#~ msgstr "Сброс на значения по умолчанию"
+
+#~ msgid "Gold"
+#~ msgstr "Золото"
+
+#~ msgid "Enter prefix:"
+#~ msgstr "Префикс:"
+
+#~ msgid "Huker"
+#~ msgstr "Гукар"
+
+#~ msgid "Cloth"
+#~ msgstr "Одежда"
+
+#~ msgid "Boards"
+#~ msgstr "Доски"
+
+#~ msgid "Tools"
+#~ msgstr "Инструменты"
+
+#~ msgid "Frigate"
+#~ msgstr "Фрегат"
+
+#~ msgid "Build fields"
+#~ msgstr "Строить поля"
+
+#~ msgid "1 resident"
+#~ msgstr "1 житель"
+
+#~ msgid "2 residents"
+#~ msgstr "2 жителя"
+
+#~ msgid "3 residents"
+#~ msgstr "3 жителя"
+
+#~ msgid "4 residents"
+#~ msgstr "4 жителя"
+
+#~ msgid "5 residents"
+#~ msgstr "5 жителей"
+
+#~ msgid "6 residents"
+#~ msgstr "6 жителей"
+
+#~ msgid "7 residents"
+#~ msgstr "7 жителей"
+
+#~ msgid "8 residents"
+#~ msgstr "8 жителей"
+
+#~ msgid "This is the current maximum increment!"
+#~ msgstr "Это текущий максимальный уровень!"
+
+#~ msgid "Average happiness:"
+#~ msgstr "Средняя удовлетворённость:"
+
+#~ msgid "Most needed resource:"
+#~ msgstr "Наиболее необходимые ресурсы:"
+
+#~ msgid "Save as default"
+#~ msgstr "Сохранить по умолчанию"
+
+#~ msgid "Restore default"
+#~ msgstr "Восстановить умолчания"
+
+#~ msgid "Own settlements"
+#~ msgstr "Собственные поселения"
+
+#~ msgid "Allies"
+#~ msgstr "Союзники"
+
+#~ msgid "Available Scenarios"
+#~ msgstr "Доступные сценарии"
+
+#~ msgid "Scenario description"
+#~ msgstr "Описание сценария"
+
+#~ msgid "Continue playing"
+#~ msgstr "Продолжить игру"
+
+#~ msgid "Choose this scenario"
+#~ msgstr "Выбрать этот сценарий"
+
+#~ msgid "The FIFE and Unknown Horizons development teams"
+#~ msgstr "Команды разработчиков FIFE и Неизведанных Горизонтов"
+
+#~ msgid "Have fun."
+#~ msgstr "Приятной игры."
+
+#~ msgid "Attention please!"
+#~ msgstr "Обратите внимание!"
+
+#~ msgid "The game will start as soon as enough players have joined."
+#~ msgstr "Игра начнется, как только войдет достаточное число игроков."
+
+#~ msgid "Enable logging"
+#~ msgstr "Включить ведение журнала"
+
+#~ msgid "Random map archive"
+#~ msgstr "Архив случайных карт"
+
+#~ msgid "Campaign"
+#~ msgstr "Компания"
+
+#~ msgid "Supplies citizens with goods."
+#~ msgstr "Снабжает жителей товарами."
+
+#~ msgid ""
+#~ "Due to technical reasons, the campaign file will be copied to the UH "
+#~ "campaign directory ({path})."
+#~ msgstr ""
+#~ "По техническим причинам файл кампании будет скопирован в директорию с НГ "
+#~ "({path})."
+
+#~ msgid ""
+#~ "This means that changes in the file you specified will not apply to the "
+#~ "game directly."
+#~ msgstr ""
+#~ "Это значит, что изменения в выбранном файле не будут напрямую применяться "
+#~ "в игре."
+
+#~ msgid ""
+#~ "To see the changes, either always start UH with the current arguments or "
+#~ "edit the file {filename}."
+#~ msgstr ""
+#~ "Чтобы увидеть изменения, всегда запускайте НГ с текущими аргументами или "
+#~ "отредактируйте файл {filename}."
+
+#~ msgid "The savegame file is probably read-only."
+#~ msgstr "Файл сохраненной игры, вероятно, только для чтения."
+
+#~ msgid "File used by another process"
+#~ msgstr "Файл используется другим процессом"
+
+#~ msgid "The savegame file is currently used by another program."
+#~ msgstr "Файл сохранения используется другой программой."
+
+#~ msgid "We are very sorry for this and want to fix underlying error."
+#~ msgstr "Мы очень сожалеем и хотим исправить эту ошибку."
+
+#~ msgid "Error: Unable to find required libraries"
+#~ msgstr "Ошибка: невозможно найти необходимые библиотеки"
+
+#~ msgid ""
+#~ "We are sorry to inform you that a library that is required by Unknown "
+#~ "Horizons, is missing and needs to be installed."
+#~ msgstr ""
+#~ "К сожалению, библиотека, необходимая для запуска Неизведанных Горизонтов, "
+#~ "отсутствует и должна быть установлена."
+
+#~ msgid ""
+#~ "Installers for Windows users are available at \"http://pyyaml.org/wiki/"
+#~ "PyYAML\", Linux users should find it in their packagement management "
+#~ "system under the name \"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Установщики для Windows-пользователей доступны на \"http://pyyaml.org/"
+#~ "wiki/PyYAML\", пользователи Linux должны найти пакет \"pyyaml\" или "
+#~ "\"python-yaml\" в системе управления пакетами."
+
+#~ msgid "FIFE was not found."
+#~ msgstr "FIFE не найден."
+
+#~ msgid "Configured language {lang} could not be loaded"
+#~ msgstr "Настроенный язык {lang} не может быть загружен"
+
+#~ msgid "WARNING: Incompatible version {version}!"
+#~ msgstr "ВНИМАНИЕ: несовместимая версия {version}!"
+
+#~ msgid "Required version: {required}!"
+#~ msgstr "Требуемая версия: {required}!"
+
+#~ msgid "Build related fields"
+#~ msgstr "Создать связанные поля"
+
+#~ msgid "Increment {increment}"
+#~ msgstr "Увеличение {increment}"
+
+#~ msgid "Burns a lot of boards to charcoal."
+#~ msgstr "Сжигает дерево на уголь."
+
+#~ msgid "Log"
+#~ msgstr "Журнал"
+
+#~ msgid "Road across a river."
+#~ msgstr "Дорога пересекающая реку."
+
+#~ msgid "Rampart"
+#~ msgstr "Защитный вал"
+
+#~ msgid "The game you selected couldn't be started."
+#~ msgstr "Выбранная игра не может быть запущена."
+
+#~ msgid "Error: don't know how to handle condition type {condition}"
+#~ msgstr "Ошибка: не знаю, как обращаться с условием типа {condition}"
+
+#~ msgid "Error: Cannot find campaign '{name}'."
+#~ msgstr "ОШИБКА: Не найдена кампания '{name}'."
+
+#~ msgid "Error: Cannot find scenario '{name}'."
+#~ msgstr "Ошибка: Не найден сценарий '{name}'."
+
+#~ msgid "Buildings must be built on islands."
+#~ msgstr "Здания должны строиться на островах."
+
+#~ msgid "The ground is not suitable for this building."
+#~ msgstr "Земля не подходит для этого здания."
+
+#~ msgid "You can only build this within your settlement."
+#~ msgstr "Вы можете построить это только в пределах вашего поселения."
+
+#~ msgid "This area is already occupied."
+#~ msgstr "Эта территория уже занята."
+
+#~ msgid "Another player has already occupied this island."
+#~ msgstr "Другой игрок уже занял этот остров."
+
+#~ msgid "You can't build this on top of another building."
+#~ msgstr "Вы не можете построить это на другом здании."
+
+#~ msgid "You can't build this on top of a unit."
+#~ msgstr "Вы не можете построить это поверх существа."
+
+#~ msgid "This building requires to be placed near the ocean."
+#~ msgstr "Это здание должно быть размещено рядом с океаном."
+
+#~ msgid "aristocrat"
+#~ msgstr "аристократ"
+
+#~ msgid "citizen"
+#~ msgstr "горожанин"
+
+#~ msgid "merchant"
+#~ msgstr "торговец"
+
+#~ msgid "pioneer"
+#~ msgstr "пионер"
+
+#~ msgid "sailor"
+#~ msgstr "моряк"
+
+#~ msgid "settler"
+#~ msgstr "поселенец"
+
+#~ msgid "wood"
+#~ msgstr "древесина"
+
+#~ msgid "{incr_inhabitant_name}"
+#~ msgstr "{incr_inhabitant_name}"
+
+#~ msgid "Weaver's Tent"
+#~ msgstr "Палатка ткача"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Пожалуйста предоставьте её нам через IRC или наш форум, оба указаны на "
+#~ "сайте unknown-horizons.org ."
+
+#~ msgid "{player1} and {player2} are now {status}"
+#~ msgstr "{player1} и {player2} теперь {status}"
+
+#~ msgid "{name}: {chatmessage}"
+#~ msgstr "{name}: {chatmessage}"
+
+#~ msgid "Leave Captain's log"
+#~ msgstr "Закрыть судовой журнал"
+
+#~ msgid "Lumberjack Camp"
+#~ msgstr "Домик лесоруба"
+
+#~ msgid "We are very sorry for this, and want to fix this error."
+#~ msgstr "Мы очень сожалеем и хотим исправить эту ошибку."
+
+#~ msgid "This will delete all changes to the settings you made so far."
+#~ msgstr "Это удалит все изменения настроек, сделанные вами."
+
+#~ msgid "Click to change the name of your settlement."
+#~ msgstr "Нажмите, чтобы изменить название вашего поселения."
+
+#~ msgid "Bricks"
+#~ msgstr "Кирпич"
+
+#~ msgid "Textiles"
+#~ msgstr "Ткань"
+
+#~ msgid "Click to change the name of this ship."
+#~ msgstr "Кликните для изменение названия этого корабля."
+
+#~ msgid "Buy resources"
+#~ msgstr "Купить ресурсы"
+
+#~ msgid "Click on slot icon to toggle mode:"
+#~ msgstr "Кликните по иконке, чтобы переключить режим:"
+
+#~ msgid "Sell resources"
+#~ msgstr "Продать ресурсы"
+
+#~ msgid "Tent Ruin"
+#~ msgstr "Разрушенный шатёр"
+
+#~ msgid "blue"
+#~ msgstr "синий"
+
+#~ msgid "bordeaux"
+#~ msgstr "бордовый"
+
+#~ msgid "cyan"
+#~ msgstr "голубой"
+
+#~ msgid "gray"
+#~ msgstr "серый"
+
+#~ msgid "green"
+#~ msgstr "зеленый"
+
+#~ msgid "lemon"
+#~ msgstr "лимонный"
+
+#~ msgid "orange"
+#~ msgstr "оранжевый"
+
+#~ msgid "pink"
+#~ msgstr "розовый"
+
+#~ msgid "purple"
+#~ msgstr "фиолетовый"
+
+#~ msgid "red"
+#~ msgstr "красный"
+
+#~ msgid "white"
+#~ msgstr "белый"
+
+#~ msgid "yellow"
+#~ msgstr "желтый"
+
+#~ msgid "settlements of {player}"
+#~ msgstr "поселение игрока {player}"
+
+#~ msgid "ships of {player}"
+#~ msgstr "корабли игрока {player}"
+
+#~ msgid "Apply:"
+#~ msgstr "Применить:"
+
+#~ msgid "Boar"
+#~ msgstr "Кабан"
+
+#~ msgid "Branch Office"
+#~ msgstr "Контора"
+
+#~ msgid "Cattle"
+#~ msgstr "Скот"
+
+#~ msgid "Deer"
+#~ msgstr "Олень"
+
+#~ msgid "Fisher"
+#~ msgstr "Рыбак"
+
+#~ msgid "Pirate Ship"
+#~ msgstr "Пиратский корабль"
+
+#~ msgid "Sheep"
+#~ msgstr "Овца"
+
+#~ msgid "Branch office overview"
+#~ msgstr "Обзор конторы"
+
+#~ msgid "Sailor buildings"
+#~ msgstr "Здания моряков"
+
+#~ msgid "Trail (R): Needed for collecting goods."
+#~ msgstr "Тропа (R): необходима для сбора товаров."
+
+#~ msgid "Pioneer buildings"
+#~ msgstr "Здания первопроходцев"
+
+#~ msgid "Settler buildings"
+#~ msgstr "Здания поселенцев"
+
+#~ msgid "Charcoal burning: Burns a lot of boards to charcoal."
+#~ msgstr "Костёр для углежжения: здесь угольщик получает уголь из досок."
+
+#~ msgid "Mine: Gets ores from deposit."
+#~ msgstr "Рудник: добывает руду из залежей."
+
+#~ msgid "Show pause menu"
+#~ msgstr "Вызвать главное меню"
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-master commandline option. Port must be a "
+#~ "number between 1 and 65535."
+#~ msgstr ""
+#~ "Ошибка: Некорректный синтаксис в опции командной строки --mp-master. "
+#~ "Номер порта должен быть числом между 1 и 65535."
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-bind commandline option. Port must be a "
+#~ "number between 1 and 65535."
+#~ msgstr ""
+#~ "Ошибка: Некорректный синтаксис в опции командной строки --mp-bind. Номер "
+#~ "порта должен быть числом между 1 и 65535."
+
+#~ msgid "Error: Cannot find map '{name}'."
+#~ msgstr "ОШИБКА: Не найдена карта '{name}'."
+
+#~ msgid "Error: Found multiple matches:"
+#~ msgstr "Ошибка: Обнаружены множественные совпадения:"
+
+#~ msgid "Error: campaign filenames have to end in \".yaml\"."
+#~ msgstr "Ошибка: имена файлов кампании должны заканчиваться на \".yaml\"."
+
+#~ msgid "Error: Cannot find savegame '{name}'."
+#~ msgstr "ОШИБКА: Не найдена сохраненная игра '{name}'."
+
+#~ msgid "Error: No quicksave found."
+#~ msgstr "Ошибка: Нет быстрого сохранения."
+
+#~ msgid "${player1} and ${player2} are now ${status}"
+#~ msgstr "${player1} и ${player2} теперь ${status}"
+
+#~ msgid "A new settlement was founded by ${player}."
+#~ msgstr "Новое поселение найдено ${player}."
+
+#~ msgid "Screenshot has been saved to ${file}."
+#~ msgstr "Снимок экрана сохранен в ${file}."
+
+#~ msgid "You need more ${resource} to build this building."
+#~ msgstr "Вам необходимо больше ${resource} для постройки этого строения."
+
+#~ msgid "Your inhabitants reached level ${level}."
+#~ msgstr "Ваши жители достигли уровня: ${level}."
+
+#~ msgid "System default"
+#~ msgstr "Системные настройки"
+
+#~ msgid "Configured language {lang} at {place} could not be loaded"
+#~ msgstr "Настроенный язык {lang} в {place} не может быть загружен"
+
+#~ msgid "{player}'s settlements"
+#~ msgstr "Поселения {player}"
+
+#~ msgid "{player}'s ships"
+#~ msgstr "Корабли {player}"
+
+#~ msgid "Add to list"
+#~ msgstr "Добавить в список"
+
+#~ msgid "100/100"
+#~ msgstr "100/100"
+
+#~ msgid "Rotate building left"
+#~ msgstr "Повернуть строение влево"
+
+#~ msgid "Rotate building right"
+#~ msgstr "Повернуть строение вправо"
+
+#~ msgid "Enable edge scrolling:"
+#~ msgstr "Включить перемещение мышью:"
+
+#~ msgid "Enable minimap rotation:"
+#~ msgstr "Вращение миникарты:"
+
+#~ msgid "(0 means default)"
+#~ msgstr "(0 значит значение по-умолчанию)"
+
+#~ msgid "Please make sure that you know what you do."
+#~ msgstr "Пожалуйста, убедитесь, что вы знаете, что делаете."
+
+#~ msgid "Enable debug output to stderr and a logfile."
+#~ msgstr "Включить вывод отладочной информации в stderr и лог-файл."
+
+#~ msgid ""
+#~ "Restores the default settings. Useful if Unknown Horizons crashes on "
+#~ "startup due to misconfiguration."
+#~ msgstr ""
+#~ "Восстанавливает настройки по умолчанию. Полезно в случае, если "
+#~ "Неизведанные Горизонты не может загрузиться из-за неправильной "
+#~ "конфигурации."
+
+#~ msgid "Specify alternative multiplayer master server."
+#~ msgstr "Задать альтернативный мастер-сервер для многопользовательской игры."
+
+#~ msgid ""
+#~ "Specify network address to bind local network client to. This is useful "
+#~ "if NAT holepunching is not working but you can forward a static port."
+#~ msgstr ""
+#~ "Задать сетевой адрес для привязки локального сетевого клиента. Полезно, "
+#~ "если NAT holepunching не работает, но вы можете перенаправить статический "
+#~ "порт."
+
+#~ msgid "Starts <map>. <map> is the mapname."
+#~ msgstr "Запускает <map>. <map> - имя карты."
+
+#~ msgid "Starts a random map."
+#~ msgstr "Запускает случайную карту."
+
+#~ msgid "Starts a random map with seed <seed>."
+#~ msgstr "Запускает игру на случайной карте с seed <seed>."
+
+#~ msgid "Starts <scenario>. <scenario> is the scenarioname."
+#~ msgstr "Запускает <scenario>. <scenario> - название сценария."
+
+#~ msgid "Starts <campaign>. <campaign> is the campaign name."
+#~ msgstr "Запускает <campaign>. <campaign> - имя кампании."
+
+#~ msgid "Starts the development map without displaying the main menu."
+#~ msgstr "Запускает карту для разработки без отображения меню."
+
+#~ msgid "Loads a saved game. <save> is the savegamename."
+#~ msgstr "Загружает сохранённую игру. <save> - название сохранённой игры."
+
+#~ msgid "Loads the last quicksave."
+#~ msgstr "Загрузка последнего быстрого сохранения."
+
+#~ msgid ""
+#~ "Sets the seed used to generate trees, fish, and other natural resources."
+#~ msgstr ""
+#~ "Устанавливает начальное значение, используемое при генерации деревьев, "
+#~ "рыбы и других природных ресурсов."
+
+#~ msgid ""
+#~ "Uses <ai_players> AI players (excludes the possible human-AI hybrid; "
+#~ "defaults to 0)."
+#~ msgstr ""
+#~ "Использовать <ai_players> ИИ-игроков (исключая возможные гибриды ИИ-"
+#~ "человек; по умолчанию 0)."
+
+#~ msgid "Makes the human player a human-AI hybrid (for development only)."
+#~ msgstr "Делает игрока человек-ИИ гибридом (только для разработки)."
+
+#~ msgid "Shows AI plans as highlights (for development only)."
+#~ msgstr "Показывает планы ИИ (только для разработки)."
+
+#~ msgid "Development options"
+#~ msgstr "Опции для разработки"
+
+# I don't sure what means "Implies -d."
+#~ msgid "Write debug output only to logfile, not to console. Implies -d."
+#~ msgstr ""
+#~ "Писать отладочную информацию только в лог-файл, а не в консоль. Включает "
+#~ "в себя -d."
+
+#~ msgid "Enable logging for a certain logging module (for developing only)."
+#~ msgstr ""
+#~ "Включить логирование для определённого модуля логирования (только для "
+#~ "разработки)."
+
+#~ msgid "Writes log to <filename> instead of to the uh-userdir"
+#~ msgstr "Писать лог в <filename> вместо пользовательской директории игры"
+
+#~ msgid "For internal use only."
+#~ msgstr "Только для внутреннего использования."
+
+#~ msgid "Enable profiling (for developing only)."
+#~ msgstr "Включить профилирование (только для разработки)."
+
+#~ msgid "Run the game for <max_ticks> ticks."
+#~ msgstr "Запустить игру на <max_ticks> циклов."
+
+#~ msgid "Enable the string previewer tool for scenario writers"
+#~ msgstr "Запустить предварительный просмотрщик для писателей сценариев"
+
+#~ msgid "Disable preloading while in main menu"
+#~ msgstr "Запретить подзагрузку игры в главном меню"
+
+#~ msgid ""
+#~ "Run the game in the given speed (Values: 0.5, 1, 2, 3, 4, 6, 8, 11, 20)"
+#~ msgstr ""
+#~ "Запустить игру с заданной скоростью (Значения: 0.5, 1, 2, 3, 4, 6, 8, 11, "
+#~ "20)"
+
+#~ msgid "A new settlement has been created by ${player}."
+#~ msgstr "${player} основал новое поселение."
+
+#~ msgid "One of your settler has no main square in it's range."
+#~ msgstr "Один из ваших поселенцев не имеет доступа к рынку."
+
+#~ msgid "Some of your settlers just moved out."
+#~ msgstr "Часть поселенцев только что покинула вас."
+
+#~ msgid "Your settlers reached level ${level}."
+#~ msgstr "Ваши поселенцы достигли ${level} уровня."
+
+#~ msgid "Configured language %(lang)s at %(place)s could not be loaded"
+#~ msgstr "Выбранный язык %(lang)s не может быть загружен для %(place)s"
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it's in the specified "
+#~ "range."
+#~ msgstr ""
+#~ "Пожалуйста, проверьте введённый порт и убедитесь, что он находится в "
+#~ "заданном диапазоне."
+
+#~ msgid "Failed to apply new network data."
+#~ msgstr "Не удалось применить новые сетевые настройки."
+
+#~ msgid "Networking couldn't be initialised with the current configuration."
+#~ msgstr ""
+#~ "Подключение к сети не может быть установлено в текущей конфигурации."
+
+#~ msgid "Check the data you entered in the Network section."
+#~ msgstr "Проверьте данные, введённые в секции \"Сеть\"."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special privileges, try one greater "
+#~ "than 1024 or 0."
+#~ msgstr ""
+#~ "Низкие номера портов иногда требуют специальных привилегий, попробуйте "
+#~ "номер, больший 1024 или 0."
+
+#~ msgid "There are no saved games to load"
+#~ msgstr "Нет сохраненных игр для загрузки"
+
+#~ msgid ""
+#~ "A savegame with the name \"%s\" already exists. \n"
+#~ "Should i overwrite it?"
+#~ msgstr ""
+#~ "Сохранение с именем \"%s\" уже существует. \n"
+#~ "Его следует перезаписать?"
+
+#~ msgid "Savegame ver. %d"
+#~ msgstr "Версия сохранения: %d"
+
+#~ msgid ""
+#~ "WARNING: Incompatible ver. %(ver)d!\n"
+#~ "Need ver. %(need)d!"
+#~ msgstr ""
+#~ "ПРЕДУПРЕЖДЕНИЕ: Несовместимость версий %(ver)d!\n"
+#~ "Необходима версия %(need)d!"
+
+#~ msgid "INCOMPATIBLE VERSION\n"
+#~ msgstr "НЕСОВМЕСТИМАЯ ВЕРСИЯ\n"
+
+#~ msgid "You need to select a savegame to delete"
+#~ msgstr "Необходимо выбрать сохранение для удаления"
+
+#~ msgid "Do you really want to delete the savegame \"%s\"?"
+#~ msgstr "Вы действительно хотите удалить сохранение \"%s\"?"
+
+#~ msgid ""
+#~ "Check the data you entered in the Network section in the settings "
+#~ "dialogue."
+#~ msgstr "Проверьте данные, введённые в секции \"Сеть\" в диалоге настроек."
+
+#~ msgid ""
+#~ "Could not connect to master server. Please check your Internet "
+#~ "connection. If it is fine, it means our master server is temporarily "
+#~ "down.\n"
+#~ "Details: %s"
+#~ msgstr ""
+#~ "Невозможно подключиться к мастер-серверу. Пожалуйста, проверьте ваше "
+#~ "Интернет-подключение. Если с ним всё в порядке, это значит, что мастер-"
+#~ "сервер временно недоступен.\n"
+#~ "Подробности: %s"
+
+#~ msgid "Network Error"
+#~ msgstr "Ошибка сети"
+
+#~ msgid "Map: "
+#~ msgstr "Карта: "
+
+#~ msgid "Players: "
+#~ msgstr "Игроки: "
+
+#~ msgid "Creator: "
+#~ msgstr "Создатель: "
+
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: %(gameversion)s Your "
+#~ "version: %(ownversion)s"
+#~ msgstr ""
+#~ "Версия игры отличается от Вашей версии. Все игроки в "
+#~ "многопользовательской игре должны использовать одинаковые версии. Чтобы "
+#~ "исправить это, каждый игрок может обновиться до последней версии. Версия "
+#~ "игры: %(gameversion)s Ваша версия: %(ownversion)s"
+
+#~ msgid "Difficulty: "
+#~ msgstr "Сложность: "
+
+#~ msgid "Author: "
+#~ msgstr "Автор: "
+
+#~ msgid "You entered an invalid playername"
+#~ msgstr "Вы ввели недопустимое имя игрока"
+
+# ???
+#~ msgid "Ship inventory"
+#~ msgstr "Запасы на корабле"
+
+#~ msgid "Load/Unload:"
+#~ msgstr "Погрузить/Разгрузить:"
+
+#~ msgid "Buy/Sell:"
+#~ msgstr "Купить/продать:"
+
+#~ msgid "%(player)s's settlements"
+#~ msgstr "Настройки %(player)s"
+
+#~ msgid "%(player)s's ships"
+#~ msgstr "Корабли %(player)s"
+
+#~ msgid "Production overview of %(settlement)s"
+#~ msgstr "Обзор производства %(settlement)s"
+
+#~ msgid "String Previewer Tool for Scenario files"
+#~ msgstr "Предварительный просмотрщик для файлов сценария"
+
+#~ msgid ""
+#~ "select a scenario and click on load/reload to update the messages in the "
+#~ "captain's log"
+#~ msgstr ""
+#~ "выберите сценарий и нажмите \"загрузить/перезагрузить\", чтобы обновить "
+#~ "сообщения в судовом журнале"
+
+#~ msgid "load/reload"
+#~ msgstr "загрузить/перезагрузить"
+
+#~ msgid "Build menu"
+#~ msgstr "Меню строительства"
+
+# сносить?
+#~ msgid "Destroy"
+#~ msgstr "Разрушить"
+
+#~ msgid "Game menu"
+#~ msgstr "Меню игры"
+
+#~ msgid "Captain's log"
+#~ msgstr "Судовой журнал"
+
+#~ msgid "Rotate map counterclockwise"
+#~ msgstr "Вращать карту против часовой стрелки"
+
+#~ msgid "Rotate map clockwise"
+#~ msgstr "Вращать карту по часовой стрелке"
+
+#~ msgid "Collector utilisation:"
+#~ msgstr "Занятость сборщика:"
+
+#~ msgid "capacity utilization"
+#~ msgstr "нагрузка"
+
+#~ msgid "Build settlement:"
+#~ msgstr "Основать поселение:"
+
+#~ msgid "Configure trading route:"
+#~ msgstr "Настроить торговый маршрут:"
+
+#~ msgid "Read prev. entries"
+#~ msgstr "Читать предыдущую запись"
+
+#~ msgid "Show only games with the same version:"
+#~ msgstr "Отображать только игры с такой же версией:"
+
+#~ msgid "Error: Cannot find map \"%s\"."
+#~ msgstr "Ошибка: Не найдена карта \"%s\"."
+
+#~ msgid "Error: Found multiple matches: "
+#~ msgstr "Ошибка: Найдено несколько совпадений: "
+
+#~ msgid ""
+#~ "Due to technical reasons, the campaign file will be copied to the UH "
+#~ "campaign directory (%s)."
+#~ msgstr ""
+#~ "По техническим причинам, файл кампании был скопирован в директорию "
+#~ "кампаний UH (%s)."
+
+#~ msgid ""
+#~ "To see the changes, either always start UH with the current arguments or "
+#~ "edit the file %s."
+#~ msgstr ""
+#~ "Чтобы видеть изменения, либо всегда запускайте UH с текущими аргументами, "
+#~ "либо редактируйте файл %s."
+
+#~ msgid "Error: Cannot find campaign \"%s\"."
+#~ msgstr "Ошибка: Не найдена кампания \"%s\"."
+
+#~ msgid "Error: Cannot find savegame \"%s\"."
+#~ msgstr "Ошибка: Не найдено сохранение \"%s\"."
+
+#~ msgid "Error: don't know how to handle %(type)s condition type"
+#~ msgstr "Ошибка: неизвестно, как обработать условие типа %(type)s"
+
+#~ msgid "Error: Cannot find campaign with file \"%s\"."
+#~ msgstr "Ошибка: Не найдена кампания с файлом \"%s\"."
+
+#~ msgid "Error: Cannot find scenario \"%s\"."
+#~ msgstr "Ошибка: Не найден сценарий \"%s\"."
+
+#~ msgid "Error: Cannot find scenario with file \"%s\"."
+#~ msgstr "Ошибка: Не найден сценарий с файлом \"%s\"."
+
+#~ msgid "You have completed this scenario. "
+#~ msgstr "Вы завершили этот сценарий! "
+
+#~ msgid "Trade route: going to %s"
+#~ msgstr "Торговый маршрут: двигаться в %s"
+
+#~ msgid "Trade route: waiting at %s"
+#~ msgstr "Торговый маршрут: ждать в %s"
+
+#~ msgid "Going to %s"
+#~ msgstr "Двигаться в %s"
+
+#~ msgid "Going to %(x)d, %(y)d"
+#~ msgstr "Двигаться в %(x)d, %(y)d"
+
+#~ msgid "Idle at %s"
+#~ msgstr "Ждать в %s"
+
+#~ msgid "Idle at %(x)d, %(y)d"
+#~ msgstr "Ждать в %(x)d, %(y)d"
+
+#~ msgid "Attacking "
+#~ msgstr "Атака "
+
+#~ msgid ""
+#~ "Uses <ai_players> AI players (excludes the possible human-AI hybrid; "
+#~ "defaults to 1)."
+#~ msgstr ""
+#~ "Использовать <ai_players> ИИ игроков (исключая возможный человек-ИИ "
+#~ "гибрид; по-умолчанию 1)."
+
+#~ msgid "Saved at %s"
+#~ msgstr "Сохранено в %s"
+
+#~ msgid "Unknown savedate\n"
+#~ msgstr "Неизвестная дата сохранения\n"
+
+#~ msgid "Saved at %s\n"
+#~ msgstr "Сохранено в %s\n"
+
+#~ msgid "Something went wrong with the network: "
+#~ msgstr "Проблемы с сетью: "
+
+#~ msgid ""
+#~ "The selected file is not a valid scenario file.\n"
+#~ "Error message: "
+#~ msgstr ""
+#~ "Выбранный файл не является файлом сценария игры.\n"
+#~ "Сообщение об ошибке: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Please report this to the author."
+#~ msgstr ""
+#~ "\n"
+#~ "Пожалуйста, отправте это авторам игры."
+
+#~ msgid "Fishing boat"
+#~ msgstr "Рыбацкая лодка"
+
+#~ msgid "Fishing boats"
+#~ msgstr "Рыбацкие лодки"
+
+#~ msgid "Cutter"
+#~ msgstr "Катер"
+
+#~ msgid "Herring fisher"
+#~ msgstr "Ловец сельди"
+
+#~ msgid "Not yet implemented!"
+#~ msgstr "Пока не реализовано!"
+
+#~ msgid "Allow upgrades:"
+#~ msgstr "Улучшения разрешены:"
+
+#~ msgid "Legend:"
+#~ msgstr "Легенда:"
+
+#~ msgid "Leave production overview"
+#~ msgstr "Покинуть обзор производства"
+
+#~ msgid "Refresh data"
+#~ msgstr "Обновить данные"
+
+#~ msgid "Leave player scores"
+#~ msgstr "Покинуть статистику игрока"
+
+#~ msgid "Choose your opponents:"
+#~ msgstr "Выберите оппонентов:"
+
+#~ msgid "Climate zone:"
+#~ msgstr "Климатическая зона:"
+
+#~ msgid "frosty"
+#~ msgstr "морозный"
+
+#~ msgid "torrid"
+#~ msgstr "жаркий"
+
+#~ msgid "huge"
+#~ msgstr "большой"
+
+#~ msgid "small"
+#~ msgstr "маленький"
+
+#~ msgid "dense"
+#~ msgstr "много"
+
+#~ msgid "few"
+#~ msgstr "мало"
+
+#~ msgid "%H:%M, %A, %B %d"
+#~ msgstr "%H:%M, %A, %B %d"
+
+#~ msgid "Hit P to continue the game or click below!"
+#~ msgstr "Нажмите P, чтобы продолжить игру или кликните ниже!"
+
+#~ msgid "Networking isn't initialised"
+#~ msgstr "Сетевое соединение не установлено"
+
+#~ msgid ""
+#~ "Networking isn't initialised, probably because of configuration issues. "
+#~ "Check your settings!"
+#~ msgstr ""
+#~ "Сетевое соединение не установлено, вероятно, из-за проблем с "
+#~ "конфигурацией. Проверьте настройки!"
+
+#~ msgid "One of your settler has no market place in it's range."
+#~ msgstr "Один из ваших поселенцев не имеет доступа к рынку."
+
+#~ msgid "YOU HAVE WON!!!"
+#~ msgstr "Вы выиграли!"
+
+#~ msgid "raw clay"
+#~ msgstr "необработанная глина"
+
+#~ msgid "raw herbs"
+#~ msgstr "пучки трав"
+
+#~ msgid "raw iron"
+#~ msgstr "необработанное железо"
+
+#~ msgid "raw sugar"
+#~ msgstr "сахарный тростник"
+
+#~ msgid "raw tobacco"
+#~ msgstr "табак-сырец"
+
+#~ msgid "tobacco"
+#~ msgstr "табак"
+
+#~ msgid "Unknown Horizons Version %s"
+#~ msgstr "Неизведанные Горизонты версия: %s"
+
+#~ msgid "Tax Rate"
+#~ msgstr "Налог"
+
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: unknown-"
+#~ "horizons.org/support"
+#~ msgstr ""
+#~ "Если ошибка повторится, пожалуйста свяжитесь с командой разработчиков: "
+#~ "unknown-horizons.org/support"
+
+#~ msgid "Failed to load FIFE:"
+#~ msgstr "Невозможно загрузить FIFE:"
+
+#~ msgid "Tent_ruin"
+#~ msgstr "Разрушенный шатёр"
+
+#~ msgid "wild animal food 1"
+#~ msgstr "мясо дикого животного 1"
+
+#~ msgid "wild animal meat"
+#~ msgstr "мясо дикого животного"
+
+#~ msgid "Could not connect to master server. Details: %s"
+#~ msgstr "Невозможно подключиться к мастер-серверу. Подробности: %s"
+
+#~ msgid ""
+#~ "The random map feature is still in active development. It is to be "
+#~ "considered a pre testing version. Problems are to be expected."
+#~ msgstr ""
+#~ "Случайные карты всё ещё в активной разработке. Текущая версия "
+#~ "рассматривается, как версия для предварительного тестирования. Возможны "
+#~ "проблемы."
+
+#~ msgid "The FIFE and Unknown Horizons"
+#~ msgstr "FIFE и Неизведанные Горизонты"
+
+#~ msgid "development teams"
+#~ msgstr "команды разработчиков"
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-master commandline option. Port must be a "
+#~ "number between 0 and 65535."
+#~ msgstr ""
+#~ "Ошибка: Неверный синтаксис в опции командной строки --mp-master. Порт "
+#~ "может быть числом от 0 до 65535."
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-bind commandline option. Port must be a "
+#~ "number between 0 and 65535."
+#~ msgstr ""
+#~ "Ошибка: Неверный синтаксис в опции командной строки --mp-bind. Порт может "
+#~ "быть числом от 0 до 65535."
+
+#~ msgid "Load failed. Please try another savefile!"
+#~ msgstr "Загрузка не удалась. Пожалуйста, попробуйте другой файл сохранения!"
+
+#~ msgid "You entered an invalid filename."
+#~ msgstr "Вы ввели неверное имя файла."
+
+#~ msgid "Starting unknown horizons"
+#~ msgstr "Запуск Неизведанных Горизонтов"
+
+#~ msgid " Help "
+#~ msgstr "Помощь"
+
+#~ msgid "Building Overview"
+#~ msgstr "Обзор строительства"
+
+#~ msgid "The random map features is still in active development. "
+#~ msgstr ""
+#~ "Возможности генерации случайной карты находятся в активной разработке. "
+
+#~ msgid " Quit "
+#~ msgstr "Выход"
+
+#~ msgid "Yeah, you made it..."
+#~ msgstr "Да! Вы сделали это..."
+
+#~ msgid " Save Game "
+#~ msgstr "Сохранить игру"
+
+#~ msgid " Continue Game "
+#~ msgstr "Продолжить игру"
+
+#~ msgid "Production"
+#~ msgstr "Производство"
+
+#~ msgid " Settings "
+#~ msgstr "Настройки"
+
+#~ msgid ""
+#~ "Sugar Field: \n"
+#~ "Produces sugar\n"
+#~ "for rum."
+#~ msgstr ""
+#~ "Тростниковое поле: \n"
+#~ "Производит сахар \n"
+#~ "для рома."
+
+#~ msgid "Running Costs:"
+#~ msgstr "Обслуживание:"

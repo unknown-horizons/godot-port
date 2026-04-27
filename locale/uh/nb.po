@@ -1,0 +1,4226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Unknown Horizons Team
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2022-03-27 13:09+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/uh/uh/"
+"nb_NO/>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "Lagringsdato ukjent"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "Lagringsdato ukjent"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+#, fuzzy
+msgid "Descriptive Label:"
+msgstr "Beskrivelse: "
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "Bygninger"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "Unknown Horizons krasjet."
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "Lagringsdato ukjent"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "Enkeltspiller"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "Åpne spill"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr "Laget av"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr "Kartredigering"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Quit"
+msgstr "Avslutt"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Help"
+msgstr "Hjelp"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Options"
+msgstr "Handlinger"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "Nytt spill - enspiller"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Scenario"
+msgstr "Scenario"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Random map"
+msgstr "Tilfeldig kart"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Free play"
+msgstr "Fritt spill"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "Lagringsdato ukjent"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Color:"
+msgstr "Farge:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "AI players:"
+msgstr "AI-spillere:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "Velg et kart å spille på:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "Anbefalt antall spillere: {number}"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Game settings:"
+msgstr "Spill-innstillinger:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "Ressurstetthet:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "Handelsskip"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Pirates"
+msgstr "Pirater"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr "Katastrofer"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Saving"
+msgstr "Lagring"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr "Generelt"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "Velg et språk:"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Mouse"
+msgstr "Mus"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Graphics"
+msgstr "Grafikk"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Sound"
+msgstr "Lyd"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr "Hurtigtaster"
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "Statistikk"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Players"
+msgstr "Spillere"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My ships"
+msgstr "Mine skip"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My settlements"
+msgstr "Mine bosetninger"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Player scores"
+msgstr "Spillerpoeng"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Name"
+msgstr "Navn"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Money"
+msgstr "Penger"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Land"
+msgstr "Land"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Resources"
+msgstr "Ressurser"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Buildings"
+msgstr "Bygninger"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlers"
+msgstr "Nybyggere"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Units"
+msgstr "Enheter"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Total"
+msgstr "Totalt"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "140"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "104"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "InventoryTab"
+msgstr "Innhold"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Limit: 30t per slot"
+msgstr "Grense: {amount}t per felt"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "Kjøp/selg"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr ""
+"Kjøper {resource_name} for {price} gold/t så lenge det er mindre enn {limit}"
+"t lagret."
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Trade history"
+msgstr "Handelshistorikk"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Free Trader"
+msgstr "Handelsskip"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "Produksjonsoversikt"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "Lagringsdato ukjent"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "Handel"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "LumberjackOverviewTab"
+msgstr "Tømmerhoggertelt"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr "Bosetning"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr "Infrastruktur"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr "Bolig"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr "Tjenester"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr "Forholdsregler"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "Jorder"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Pioneers"
+msgstr "Pionér"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Citizens"
+msgstr "Innbyggere"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr "Gårdsdrift"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr "Sjø"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr "Mat"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr "Verksteder"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr "Bedrifter"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr "Tre"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Mining"
+msgstr "Gruvedrift"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr "Festningsverk"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr "Militærtjenester"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sailors"
+msgstr "Sjømenn"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "Beboere og infrastruktur"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military"
+msgstr "Militær"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Merchants"
+msgstr "Handelsmenn"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Up"
+msgstr "Spill stoppet"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Down"
+msgstr "Spill stoppet"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "Regnskap"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr "Inntekt:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr "Skatter"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Sale"
+msgstr "Salg"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Expenses:"
+msgstr "Utgifter:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Running costs"
+msgstr "Driftskostnader"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Buying"
+msgstr "Handel"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Balance"
+msgstr "Balanse"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Upgrade permissions:"
+msgstr "Oppgraderingstillatelser:"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr "Tilfredshet"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents per house"
+msgstr "Beboere per hus"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr "Antall beboere per hus"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr "Hus med dette antall beboere"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Summary"
+msgstr "Oppsummering"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "Hus"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents"
+msgstr "Beboere"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "Byggingsoversikt"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Tent"
+msgstr "Telt"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Needed resources:"
+msgstr "Nødvendige ressurser:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr "Skatter:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Paid taxes"
+msgstr "Betalt skatt"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Tax rate"
+msgstr "Skattenivå"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr ""
+"Holder bier. Produserer bikakeplater som brukes i konfekt. Trenger en gård."
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "Bruker mel. Produserer mat."
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+#, fuzzy
+msgid "_ Recruits units suitable for ground combat."
+msgstr "Rekrutterer enheter for bakkekrig."
+
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "Gir trygghet."
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "Produserer krydderier fra krydder."
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "Bygger båter og små skip. Bygges langs kysten."
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "Forbruker homle. Produserer øl."
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "Produserer murstein av leire."
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "Trenger griser eller storfe. Produserer mat."
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "Produserer kanoner."
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "Holder storfe. Trenger en gård."
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+#, fuzzy
+msgid "_ Burns a lot of boards."
+msgstr "Brenner plank. Mye plank."
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+msgid "None"
+msgstr "Ingen"
+
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "Henter leire fra en leireforekomst."
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr "Produserer kakaobønner som brukes til konfekt. Trenger en gård."
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "Frambringer mais. Trenger en gård."
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "Forvandler sukker til sprit."
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+#, fuzzy
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr "Behandler sykdommer. Bruker urter."
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "Dyrker jorder, åkere og avler buskap."
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+#, fuzzy
+msgid "_ Extinguishes fires."
+msgstr "Slukker branner."
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "Fisker i havet og produserer mat."
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "Produserer urter. Trenger en gård."
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "Frambringer humle. Trenger en gård."
+
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "Jakter ville dyr og produserer mat."
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "Utvider bosetningens rekkevidde."
+
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "Hugger trær og lager planker."
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+#, fuzzy
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr "Tilbyder av varer til innbyggerne. Gir samholdsfølelse."
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "Henter jern fra en jernmalmforekomst."
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "Produserer all slags konfekt."
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "Sauedrift. Produserer ull. Trenger en gård."
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "Oppfyller seileres religiøse behov."
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "Oppdrar griser. Trenger en gård."
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "Frambringer mat. Trenger en gård."
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "Huser dine innbyggere."
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "Fordamper salt. Bygges langs kysten."
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "Lar spilleren handle med handelskipet."
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "Raffinerer alle typer råmineral."
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "Dyrker krydder. Trenger en gård."
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "Skjærer steiner om til murstein."
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "Henter stein fra et fjell."
+
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr "Utvider lager, utvider bosetningens rekkevidde og gir innsamlere."
+
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "Brukes i spritproduksjon. Trenger en gård."
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "Gir samlingssted."
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "Produserer tobakk fra råtobakk."
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "Produserer råtobakk. Trenger en gård."
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "Produserer verktøy fra jern."
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "Trengs for å samle varer."
+
+#: Assets/World/Buildings2/tree/tree.tscn
+#, fuzzy
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr "Gir tømmer. Hugges av en tømmerhugger."
+
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "Gir utdanning."
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr "Produserer druer til vin og konfekt. Trenger en gård."
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "Produserer våpen fra jern."
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "Lager tøy av ull."
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "Kverner korn om til mel."
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "Produserer vin fra druer."
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "Beskytter bosetningen."
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "Unknown Horizons krasjet."
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "Takk for at du spiller Unknown Horizons!"
+
+#~ msgid "Unknown Horizons has crashed."
+#~ msgstr "Unknown Horizons har krasjet."
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr ""
+#~ "Vi beklager dette, og ønsker å fikse den underliggende feilen som "
+#~ "forårsaket krasjet."
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr "For å gjøre dette, trenger vi informasjon fra loggfilen:"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Vennligst send oss denne informasjonen via IRC eller vårt forum. For "
+#~ "informasjon om begge, se http://unknown-horizons.org ."
+
+#~ msgid "Return to editor"
+#~ msgstr "Tilbake til kartredigering"
+
+#~ msgid "Save map"
+#~ msgstr "Lagre kart"
+
+#~ msgid "Load map"
+#~ msgstr "Åpne kart"
+
+#~ msgid "Settings"
+#~ msgstr "Innstillinger"
+
+#~ msgid "Exit editor"
+#~ msgstr "Avslutt kartredigering"
+
+#~ msgid "Select brush size:"
+#~ msgstr "Velg penselstørrelse:"
+
+#~ msgid "Select terrain:"
+#~ msgstr "Velg terrengtype:"
+
+#~ msgid "(right click to stop)"
+#~ msgstr "(høyreklikk for å stoppe)"
+
+#~ msgid "Game start"
+#~ msgstr "Starten av spillet"
+
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr "Før du kan føre opp bygninger må du opprette en bosetning!"
+
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr "Velg skipet ditt og før det til kysten ved å høyreklikke der."
+
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr ""
+#~ "Deretter trykker du på den store knappen i oversiktsfanen for skipet."
+
+#~ msgid "Build"
+#~ msgstr "Bygg"
+
+#~ msgid "Running costs:"
+#~ msgstr "Driftskostnader:"
+
+#~ msgid "Related buildings"
+#~ msgstr "Relaterte bygninger"
+
+#~ msgid "Inhabitants"
+#~ msgstr "Innbyggere"
+
+#, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr "Øk spillhastighet ({key})"
+
+#, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr "Senk spillhastighet ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map counterclockwise ({key})"
+#~ msgstr "Roter kartet mot klokken ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map clockwise ({key})"
+#~ msgstr "Roter kartet med klokken ({key})"
+
+#~ msgid "Zoom in"
+#~ msgstr "Zoom inn"
+
+#~ msgid "Zoom out"
+#~ msgstr "Zoom ut"
+
+#, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "Fjern ({key})"
+
+#, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "Kapteinslogg ({key})"
+
+#, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "Byggemeny ({key})"
+
+#~ msgid "Diplomacy"
+#~ msgstr "Diplomati"
+
+#, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "Spillmeny ({key})"
+
+#~ msgid "Change name"
+#~ msgstr "Bytt navn"
+
+#~ msgid "Old name:"
+#~ msgstr "Nåværende navn:"
+
+#~ msgid "Enter new name:"
+#~ msgstr "Skriv inn nytt navn:"
+
+#~ msgid "Apply the new name"
+#~ msgstr "Utfør navneendring"
+
+#~ msgid "Chat"
+#~ msgstr "Lynmelding"
+
+#~ msgid "Enter your message:"
+#~ msgstr "Skriv meldingen din:"
+
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr ""
+#~ "For å bygge en bakkeenhet, velg en kategori, deretter ønsket bakkeenhet "
+#~ "og bekreft bestillingen."
+
+#~ msgid "Currently building:"
+#~ msgstr "Bygges nå:"
+
+#~ msgid "Pause"
+#~ msgstr "Pause"
+
+#~ msgid "Resume"
+#~ msgstr "Fortsett"
+
+#~ msgid "Construction progress:"
+#~ msgstr "Fremdrift:"
+
+#~ msgid "Resources still needed:"
+#~ msgstr "Manglende ressurser:"
+
+#~ msgid "Cancel building:"
+#~ msgstr "Avbryt bygging:"
+
+#~ msgid "(lose all resources)"
+#~ msgstr "(mist alle ressurser)"
+
+#~ msgid "Cancel all building progress"
+#~ msgstr "Avbryt alle skip under bygging"
+
+#~ msgid "Confirm order"
+#~ msgstr "Bekreft ordre"
+
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "(som i valgfanene)"
+
+#~ msgid "$res"
+#~ msgstr "$res"
+
+#~ msgid "24t"
+#~ msgstr "24t"
+
+#~ msgid "06t"
+#~ msgstr "06t"
+
+#~ msgid "2500"
+#~ msgstr "2500"
+
+#~ msgid "Sloop-o'-war"
+#~ msgstr "Kanonsjalupp"
+
+#~ msgid "Three-masted most common classified war ship with one gun deck."
+#~ msgstr "Tremastet og vanligste krigsskip med ett kanondekk."
+
+#~ msgid "Buy Upgrades"
+#~ msgstr "Kjøp oppgraderinger"
+
+#~ msgid "Cannons"
+#~ msgstr "Kanoner"
+
+#~ msgid "Hull"
+#~ msgstr "Skrog"
+
+#~ msgid "+ 24t"
+#~ msgstr "+ 24t"
+
+#~ msgid "+ 14t"
+#~ msgstr "+ 14t"
+
+#~ msgid "+ 06t"
+#~ msgstr "+ 06t"
+
+#~ msgid "+ 1457"
+#~ msgstr "+ 1457"
+
+#~ msgid "Build groundunit:"
+#~ msgstr "Bygg bakkeenheter:"
+
+#~ msgid "Build this groundunit!"
+#~ msgstr "Bygg denne bakkeenheten!"
+
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "For å bygge en båt, velg en kategori, deretter ønsket skip og bekreft "
+#~ "bestillingen."
+
+#~ msgid "Build ship:"
+#~ msgstr "Bygg skip:"
+
+#~ msgid "Build this ship!"
+#~ msgstr "Bygg dette skipet!"
+
+#~ msgid "ally"
+#~ msgstr "alliert"
+
+#~ msgid "neutral"
+#~ msgstr "nøytral"
+
+#~ msgid "enemy"
+#~ msgstr "fiende"
+
+#~ msgid "Building overview"
+#~ msgstr "Bygningsoversikt"
+
+#~ msgid "Capacity utilization"
+#~ msgstr "Kapasitetsutnyttelse"
+
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "Klikk for å gi denne bakkeenheten nytt navn"
+
+#~ msgid "Settlement inventory"
+#~ msgstr "Bosetningens beholdning"
+
+#~ msgid "Settler overview"
+#~ msgstr "Innbyggeroversikt"
+
+#~ msgid "sad"
+#~ msgstr "trist"
+
+#~ msgid "satisfied"
+#~ msgstr "tilfreds"
+
+#~ msgid "happy"
+#~ msgstr "glad"
+
+#~ msgid "Amount of houses with this happiness"
+#~ msgstr "Antall hus med denne graden av tilfredshet"
+
+#~ msgid "houses"
+#~ msgstr "hus"
+
+#~ msgid "residents"
+#~ msgstr "beboere"
+
+#~ msgid "Provides security for your settlement."
+#~ msgstr "Sørger for trygghet for din bosetning."
+
+#~ msgid "Selling"
+#~ msgstr "Selger"
+
+#~ msgid "Name:"
+#~ msgstr "Navn:"
+
+#~ msgid "Weapons:"
+#~ msgstr "Våpen:"
+
+#~ msgid "Resource deposit"
+#~ msgstr "Ressursdepot"
+
+#~ msgid ""
+#~ "This is a resource deposit where you can build a mine to dig up resources."
+#~ msgstr ""
+#~ "Dette er et ressursdepot. Du kan bygge en gruve her for å grave opp "
+#~ "ressurser."
+
+#~ msgid "It contains these resources:"
+#~ msgstr "Inneholder disse ressursene:"
+
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "Klikk for å gi bosetningen din et nytt navn"
+
+#~ msgid "Happiness"
+#~ msgstr "Tilfredshet"
+
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr ""
+#~ "Signalbålet viser handelsbåten hvor bosetningen din er, i tilfelle du vil "
+#~ "kjøpe og selge varer."
+
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr ""
+#~ "Dette er handelsbåten. Den vil besøke deg fra tid til annen for å kjøpe "
+#~ "eller selge varer."
+
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "Klikk for å gi dette skipet nytt navn"
+
+#~ msgid "Build settlement"
+#~ msgstr "Bygg bosetning"
+
+#~ msgid "Configure trading route"
+#~ msgstr "Sett opp handelsrute"
+
+#~ msgid "Discard all resources"
+#~ msgstr "Kast alle ressurser"
+
+#~ msgid "Ship:"
+#~ msgstr "Skip:"
+
+#~ msgid "Exchange:"
+#~ msgstr "Utveksling:"
+
+#~ msgid "Trade partner:"
+#~ msgstr "Handelspartner:"
+
+#~ msgid "Buy or sell resources"
+#~ msgstr "Kjøp og salg av ressurser"
+
+#~ msgid "Select resources:"
+#~ msgstr "Velg ressurser:"
+
+#~ msgid "Collector utilization"
+#~ msgstr "Innsamler-utnyttelse"
+
+#~ msgid "Balance:"
+#~ msgstr "Balanse:"
+
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "Vis ressurser produsert i denne bosetningen"
+
+#~ msgid "Pause production"
+#~ msgstr "Stop produksjon midlertidig"
+
+#~ msgid "Start production"
+#~ msgstr "Start produksjon"
+
+#~ msgid "Select resource:"
+#~ msgstr "Velg ressurs:"
+
+#~ msgid ""
+#~ "The resource you select is displayed instead of the current one. Empty by "
+#~ "clicking on X."
+#~ msgstr ""
+#~ "Ressursen du velger vil vises i stedet for den nåværende. Tøm ved å "
+#~ "trykke på X."
+
+#~ msgid "Save current resource configuration as default for all settlements."
+#~ msgstr "Lagre nåværende ressurs-oppsett som standard for alle bosetninger."
+
+#~ msgid "Reset default resource configuration for all settlements."
+#~ msgstr "Tilbakestill standard ressurs-oppsett for alle bosetninger."
+
+#~ msgid "Move up"
+#~ msgstr "Flytt opp"
+
+#~ msgid "Delete entry"
+#~ msgstr "Fjern"
+
+#~ msgid "Move down"
+#~ msgstr "Flytt ned"
+
+#~ msgid "Read previous entries"
+#~ msgstr "Les tidligere innlegg"
+
+#~ msgid "Read next entries"
+#~ msgstr "Les senere innlegg"
+
+#~ msgid "Game messages"
+#~ msgstr "Meldinger fra spillet"
+
+#~ msgid "Whole world"
+#~ msgstr "Hele verden"
+
+#~ msgid "Everybody"
+#~ msgstr "Alle"
+
+#~ msgid "Sends the chat messages to all players."
+#~ msgstr "Sender meldingene til alle spillerne."
+
+#~ msgid "Enter your message here"
+#~ msgstr "Skriv din melding her"
+
+#~ msgid "Return to game"
+#~ msgstr "Tilbake til spillet"
+
+#~ msgid "Island Name:"
+#~ msgstr "Øynavn:"
+
+#~ msgid "Player Name:"
+#~ msgstr "Spillernavn:"
+
+#~ msgid "Wait at load:"
+#~ msgstr "Vent ved lasting:"
+
+#~ msgid "Wait at unload:"
+#~ msgstr "Vent ved lossing:"
+
+#~ msgid "Select a resource:"
+#~ msgstr "Velg en ressurs:"
+
+#~ msgid "Route activity:"
+#~ msgstr "Rute-aktivitet:"
+
+#~ msgid "Start route"
+#~ msgstr "Start ruten"
+
+#~ msgid "Exit"
+#~ msgstr "Avslutt"
+
+#~ msgid "Go to previous page"
+#~ msgstr "Gå til forrige side"
+
+#~ msgid "Go to next page"
+#~ msgstr "Gå til neste side"
+
+#~ msgid "Close"
+#~ msgstr "Lukk"
+
+#~ msgid "Player Name"
+#~ msgstr "Spillernavn"
+
+#~ msgid "Player's current treasury + income expected in near future"
+#~ msgstr "Spillerens nåværende beholdning + forventet kortsiktig inntekt"
+
+#~ msgid ""
+#~ "Value of usable land i.e Amount of Land that can be used to create "
+#~ "buildings"
+#~ msgstr "Verdien av brukbart land, f.eks. mengden land som kan bygges på"
+
+#~ msgid ""
+#~ "Value of resources generated from all the possible sources in the "
+#~ "player's settlement(s)"
+#~ msgstr ""
+#~ "Verdien av ressurser som genereres fra alle mulige kilder i spillerens "
+#~ "bosetning(er)"
+
+#~ msgid "Value of all the buildings in the player's settlement(s)"
+#~ msgstr "Verdien av alle bygninger i spillerens bosetning(er)"
+
+#~ msgid ""
+#~ "Value denoting the progress of the settlement(s) in terms of inhabitants, "
+#~ "buildings and overall happiness"
+#~ msgstr ""
+#~ "En verdi som gjenspeiler bosetningen(e)s framdrift i forhold til "
+#~ "innbyggere, bygninger og generell tilfredshet"
+
+#~ msgid "Value of all the units owned by the player"
+#~ msgstr "Verdien av alle spillerens enheter"
+
+#~ msgid ""
+#~ "The total value from all individual entities or in short : Total Player "
+#~ "Score"
+#~ msgstr ""
+#~ "Totalverdien fra alle individuelle verdier, eller: Samlede spillerpoeng"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Weapons"
+#~ msgstr "Våpen"
+
+#~ msgid "Health"
+#~ msgstr "Helse"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Aggressive"
+#~ msgstr "Aggresiv"
+
+#~ msgid "Hold ground"
+#~ msgstr "Hold posisjon"
+
+#~ msgid "Passive"
+#~ msgstr "Passiv"
+
+#~ msgid "Flee"
+#~ msgstr "Flykt"
+
+#~ msgid "Exit to main menu"
+#~ msgstr "Avslutt og gå til hovedmeny"
+
+#~ msgid "Choose a map size:"
+#~ msgstr "Velg kartstørrelse:"
+
+#~ msgid "Choose a map:"
+#~ msgstr "Velg et kart:"
+
+#~ msgid "Choose a saved game's map:"
+#~ msgstr "Velg kart fra et lagret spill:"
+
+#~ msgid "Select map source"
+#~ msgstr "Velg kartkilde"
+
+#~ msgid "Create new map"
+#~ msgstr "Lag nytt kart"
+
+#~ msgid "Load existing map"
+#~ msgstr "Last inn eksisterende kart"
+
+#~ msgid "Load saved game's map"
+#~ msgstr "Last inn kart fra et lagret spill"
+
+#~ msgid "Start editor"
+#~ msgstr "Start kartredigering"
+
+#~ msgid "Return"
+#~ msgstr "Tilbake"
+
+#~ msgid "Scroll left"
+#~ msgstr "Flytt til venstre"
+
+#~ msgid "Scroll right"
+#~ msgstr "Flytt til høyre"
+
+#~ msgid "Scroll up"
+#~ msgstr "Flytt oppover"
+
+#~ msgid "Scroll down"
+#~ msgstr "Flytt nedover"
+
+#~ msgid "Rotate building or map clockwise"
+#~ msgstr "Roter bygning eller kart med klokken"
+
+#~ msgid "Rotate building or map counterclockwise"
+#~ msgstr "Roter bygning eller kart mot klokken"
+
+#~ msgid "Increase game speed"
+#~ msgstr "Øk farten i spillet"
+
+#~ msgid "Decrease game speed"
+#~ msgstr "Reduser farten i spillet"
+
+#~ msgid "Pause game"
+#~ msgstr "Pause spill"
+
+#~ msgid "Show build menu"
+#~ msgstr "Vis byggemeny"
+
+#~ msgid "Enable destruct mode"
+#~ msgstr "Slå på ødeleggelsemodus"
+
+#~ msgid "Enable road building mode"
+#~ msgstr "Slå på veibyggingsmodus"
+
+#~ msgid "Enable pipette mode (clone buildings)"
+#~ msgstr "Slå på pipette-modus (klone bygninger)"
+
+#~ msgid "Show player scores"
+#~ msgstr "Vis spillerpoeng"
+
+#~ msgid "Show settlement list"
+#~ msgstr "Vis liste over bosetninger"
+
+#~ msgid "Show ship list"
+#~ msgstr "Vis liste over skip"
+
+#~ msgid "Toggle Captain's log"
+#~ msgstr "Vis/skjul kapteinens loggbok"
+
+#~ msgid "Quicksave"
+#~ msgstr "Hurtiglagre"
+
+#~ msgid "Quickload"
+#~ msgstr "Hurtigåpne"
+
+#~ msgid "Toggle translucency of ambient buildings"
+#~ msgstr "Slå av/på gjennomsiktige omgivelser"
+
+#~ msgid "Highlight tile ownership"
+#~ msgstr "Vis hvem som eier ruten"
+
+#~ msgid "Toggle health bars"
+#~ msgstr "Skjul/vis helsemålere"
+
+#~ msgid "Focus camera on selection"
+#~ msgstr "Sentrer kamera på valgt enhet"
+
+#~ msgid "Remove selected units / buildings"
+#~ msgstr "Fjern valgt(e) enhet(er)/bygning(er)"
+
+#~ msgid "Display help"
+#~ msgstr "Vis hjelp"
+
+#~ msgid "Screenshot"
+#~ msgstr "Skjermdump"
+
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "Slå av/på visning av antall bilder per sekund"
+
+#~ msgid "Toggle grid on/off"
+#~ msgstr "Slå rutenett av/på"
+
+#~ msgid "Show coordinate values (Debug)"
+#~ msgstr "Vis koordinat-verdier (Debug)"
+
+#~ msgid "Primary"
+#~ msgstr "Hoved"
+
+#~ msgid "Secondary"
+#~ msgstr "Alternativ"
+
+#~ msgid "Reset to default"
+#~ msgstr "Tilbakestill"
+
+#~ msgid "Reset to default keys"
+#~ msgstr "Tilbakestill til standardknapper"
+
+#~ msgid "Save game"
+#~ msgstr "Lagre spill"
+
+#~ msgid "Cancel game"
+#~ msgstr "Avbryt spill"
+
+#~ msgid "Loading…"
+#~ msgstr "Laster inn…"
+
+#~ msgid "Change Background"
+#~ msgstr "Bytt bakgrunn"
+
+#~ msgid "Multiplayer"
+#~ msgstr "Flerspiller"
+
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "Opprett spill - flerspiller"
+
+#~ msgid "Player limit:"
+#~ msgstr "Maks antall spillere:"
+
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "Avslutt og gå til flerspillermeny"
+
+#~ msgid "Name of the game:"
+#~ msgstr "Navn på spillet:"
+
+#~ msgid "This will be displayed to other players so they recognize the game."
+#~ msgstr "Dette vil bli vist til andre spillere så de kan gjenkjenne spillet."
+
+#~ msgid "Unnamed Game"
+#~ msgstr "Spill uten navn"
+
+#~ msgid "Password of the game:"
+#~ msgstr "Passord til spillet:"
+
+#~ msgid "This game's password. Required to join this game."
+#~ msgstr "Passord for dette spillet. Må oppgis for å bli med i dette spillet."
+
+#~ msgid "Create this new game"
+#~ msgstr "Opprett nytt spill"
+
+#~ msgid "Gamelobby"
+#~ msgstr "Lobby"
+
+#~ msgid "Chat:"
+#~ msgstr "Chat:"
+
+#~ msgid "Exit gamelobby"
+#~ msgstr "Forlat lobby"
+
+#~ msgid "The game will start as soon as all players are ready."
+#~ msgstr "Spillet starter så snart alle spillerne er klare."
+
+#~ msgid "Game details:"
+#~ msgstr "Spilldetaljer:"
+
+#~ msgid "Color"
+#~ msgstr "Farge"
+
+#~ msgid "Ready:"
+#~ msgstr "Klar:"
+
+#~ msgid "Sets your state to ready (necessary for the game to start)"
+#~ msgstr "Setter din status til klar (nødvendig for at spillet skal starte)"
+
+#~ msgid "New game - Multiplayer"
+#~ msgstr "Nytt spill - flerspiller"
+
+#~ msgid "Load game:"
+#~ msgstr "Åpne spill:"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Åpne et lagret spill"
+
+#~ msgid "Active games:"
+#~ msgstr "Aktive spill:"
+
+#~ msgid "Refresh list:"
+#~ msgstr "Oppdater liste:"
+
+#~ msgid "Refresh list of active games"
+#~ msgstr "Oppdater liste over aktive spill"
+
+#~ msgid "Create game:"
+#~ msgstr "Lag spill:"
+
+#~ msgid "Create a new game"
+#~ msgstr "Lag nytt spill"
+
+#~ msgid "Join game:"
+#~ msgstr "Bli med:"
+
+#~ msgid "Join the selected game"
+#~ msgstr "Bli med i det valgte spillet"
+
+#~ msgid "Change player details"
+#~ msgstr "Endre spillerdetaljer"
+
+#~ msgid "Screen resolution:"
+#~ msgstr "Skjermoppløsning:"
+
+#~ msgid "Full screen:"
+#~ msgstr "Fullskjerm:"
+
+#~ msgid "Frame rate limit:"
+#~ msgstr "Maks antall bilder i sekundet:"
+
+#~ msgid "Set the maximum frame rate used. Default: 60 fps."
+#~ msgstr "Setter grense for antall bilder i sekundet. Standard: 60."
+
+#~ msgid "Music volume:"
+#~ msgstr "Musikkvolum:"
+
+#~ msgid "Effects volume:"
+#~ msgstr "Effektvolum:"
+
+#~ msgid "Enable sound:"
+#~ msgstr "Aktiver lyd:"
+
+#~ msgid "Scroll at map edge:"
+#~ msgstr "Flytt kart når pekeren er ved kanten:"
+
+#~ msgid ""
+#~ "Whether to move the viewport when the mouse pointer is close to map edges"
+#~ msgstr "Om kartet skal flyttes når musepekeren flyttes til kanten av kartet"
+
+#~ msgid "Cursor centered zoom:"
+#~ msgstr "Peker-sentrert zoom:"
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center. When disabled, always zoom to current viewport center."
+#~ msgstr ""
+#~ "Når denne er slått på vil musehjulet zoome inn ved posisjonen til "
+#~ "musepekeren. Når den er slått av vil musehjulet alltid zoome inn ved "
+#~ "midten av skjermbildet."
+
+#~ msgid "Middle mouse button pan:"
+#~ msgstr "Flytte kartet med midtre museknapp:"
+
+#~ msgid "When enabled, dragging the middle mouse button will pan the camera"
+#~ msgstr ""
+#~ "Når denne er slått på kan man dra kartet ved å trykke og holde midtre "
+#~ "museknapp"
+
+#~ msgid "0 is default system settings"
+#~ msgstr "0 betyr standard system-innstillinger"
+
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "Musesensitivitet:"
+
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "Antall minutter mellom hver autolagring:"
+
+#~ msgid "Number of autosaves:"
+#~ msgstr "Antall autolagringer:"
+
+#~ msgid "Number of quicksaves:"
+#~ msgstr "Antall hurtiglagringer:"
+
+#~ msgid "Language"
+#~ msgstr "Språk"
+
+#~ msgid "Rotate minimap with map:"
+#~ msgstr "Roter minikart med kartet:"
+
+#~ msgid ""
+#~ "Whether to also rotate the minimap whenever the regular map is rotated"
+#~ msgstr "Om minikartet også skal roteres når kartet roteres"
+
+#~ msgid "Uninterrupted building:"
+#~ msgstr "Uforstyrret bygging:"
+
+#~ msgid ""
+#~ "When enabled, do not exit the build mode after successful construction"
+#~ msgstr "Når denne er slått på avsluttes ikke byggemodus når noe er bygget"
+
+#~ msgid "Auto-unload ship:"
+#~ msgstr "Auto-losse skip:"
+
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr "Om skipet automatisk skal losses når en bosetning er grunnlagt"
+
+#~ msgid ""
+#~ "Don't use in normal game session. Decides whether to write debug "
+#~ "information in the logging directory of your user directory. Slows the "
+#~ "game down."
+#~ msgstr ""
+#~ "Ikke bruk denne ved en vanlig spillsesjon. Avgjør om debug-informasjon "
+#~ "skrives til logg-mappen istedetfor bruker-mappen. Sakker spillet."
+
+#~ msgid "Enable logging:"
+#~ msgstr "Aktiver logging:"
+
+#~ msgid "Production indicators:"
+#~ msgstr "Produksjonsindikatorer:"
+
+#~ msgid ""
+#~ "Whether to show resource icons over buildings whenever they finish "
+#~ "production"
+#~ msgstr ""
+#~ "Om ressursikoner skal vises over bygninger når de er ferdig med å "
+#~ "produsere"
+
+#~ msgid "Higher values slow down scrolling."
+#~ msgstr "Høyere verdier sakker kartflytting."
+
+#~ msgid "Scroll delay:"
+#~ msgstr "Forsinkelse ved kartflytting:"
+
+#~ msgid "Choose a quote type:"
+#~ msgstr "Velg sitat-type:"
+
+#~ msgid "What kind of quote to display while loading a game"
+#~ msgstr "Hvilken type sitat som skal brukes når et spill lastes inn"
+
+#~ msgid "Network"
+#~ msgstr "Nettverk"
+
+#~ msgid "If set to 0, use the router default"
+#~ msgstr "Hvis satt til 0 brukes ruterens standard"
+
+#~ msgid "Network port:"
+#~ msgstr "Nettverksport:"
+
+#~ msgid "Discard current changes"
+#~ msgstr "Forkast gjeldende endringer"
+
+#~ msgid "Reset to default settings"
+#~ msgstr "Tilbakestill til standardverdier"
+
+#~ msgid "Save changes"
+#~ msgstr "Lagre endringer"
+
+#~ msgid "Your saved games:"
+#~ msgstr "Dine lagrede spill:"
+
+#~ msgid "Password of the game. Required to join this game"
+#~ msgstr "Passord for dette spillet. Må oppgis for å bli med i dette spillet"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Enter filename:"
+#~ msgstr "Skriv filnavn:"
+
+#~ msgid "Details:"
+#~ msgstr "Detaljer:"
+
+#~ msgid "Delete selected savegame"
+#~ msgstr "Fjern valgte lagrede spill"
+
+#~ msgid "Start game"
+#~ msgstr "Start spillet"
+
+#~ msgid "Map settings:"
+#~ msgstr "Innstillinger for kartet:"
+
+#~ msgid "Seed:"
+#~ msgstr "Tilfeldig tall:"
+
+#~ msgid "Player name:"
+#~ msgstr "Spillernavn:"
+
+#~ msgid "Invalid filename"
+#~ msgstr "Ugyldig filnavn"
+
+#~ msgid "Received an invalid filename for a save command."
+#~ msgstr "Filnavnet som ble oppgitt for å lagre spillet er ugyldig."
+
+#~ msgid "Error"
+#~ msgstr "Feil"
+
+#~ msgid "Failed to save."
+#~ msgstr "Kunne ikke lagre."
+
+#~ msgid "The trade partner does not sell this."
+#~ msgstr "Handelspartneren selger ikke dette."
+
+#~ msgid "You can not store this."
+#~ msgstr "Du kan ikke lagre dette."
+
+#~ msgid "You can not afford to buy this."
+#~ msgstr "Du har ikke råd til å kjøpe dette."
+
+#~ msgid "The trade partner does not sell more of this."
+#~ msgstr "Handelspartneren selger ikke mer av dette."
+
+#~ msgid "The trade partner does not buy this."
+#~ msgstr "Handelspartneren kjøper ikke dette."
+
+#~ msgid "You do not possess this."
+#~ msgstr "Du har ingen slike."
+
+#~ msgid "The trade partner can not store more of this."
+#~ msgstr "Handelspartneren har ikke plass til flere slike."
+
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "Handelspartneren har ikke råd til å kjøpe dette."
+
+#~ msgid "The trade partner does not buy more of this."
+#~ msgstr "Handelspartneren kjøper ikke flere slike."
+
+#~ msgid "Failed to quicksave."
+#~ msgstr "Kunne ikke hurtiglagre."
+
+#~ msgid "An error happened during quicksave."
+#~ msgstr "En feil skjedde under hurtiglagring."
+
+#~ msgid "Your map has not been saved."
+#~ msgstr "Kartet ditt har ikke blitt lagret."
+
+#, python-brace-format
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: "
+#~ "{website}"
+#~ msgstr ""
+#~ "Hvis denne feilen oppstår igjen, vennligst kontakt utviklings-teamet: "
+#~ "{website}"
+
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "Er du sikker på du vil avslutte Unknown Horizons?"
+
+#~ msgid "Quit Game"
+#~ msgstr "Avslutt spill"
+
+#~ msgid "No diplomacy possible"
+#~ msgstr "Diplomati er ikke mulig"
+
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr "Diplomati kan ikke utføres ettersom det ikke finnes andre spillere."
+
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "Er du sikker på du vil slette disse objektene?"
+
+#~ msgid "Delete"
+#~ msgstr "Slett"
+
+#, python-brace-format
+#~ msgid "{size}x{size} tiles"
+#~ msgstr "{size}x{size} ruter"
+
+#~ msgid "Press key…"
+#~ msgstr "Trykk tast…"
+
+#, python-brace-format
+#~ msgid "{key} is already set to {action}."
+#~ msgstr "{key} er allerede valgt for {action}."
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "Vil du erstatte denne?"
+
+#~ msgid "Confirmation for overwriting"
+#~ msgstr "Godkjenn overskriving"
+
+#~ msgid "Quotes"
+#~ msgstr "Sitater"
+
+#~ msgid "Gameplay Tips"
+#~ msgstr "Spilltips"
+
+#~ msgid "Press 'ESC' to access Game Menu."
+#~ msgstr "Trykk 'ESC' for å gå til spillmenyen."
+
+#~ msgid "Use 'SHIFT' to place multiple buildings."
+#~ msgstr "Hold 'SHIFT' for å plassere flere bygninger etter hverandre."
+
+#, python-brace-format
+#~ msgid "Currently only the first {tier} tiers are playable."
+#~ msgstr "For øyeblikket er kun de(t) første {tier} nivået spillbar(e)."
+
+#~ msgid "You can pause the game with 'P'."
+#~ msgstr "Du kan pause spillet ved å trykk 'P'."
+
+#~ msgid "You can drag roads by holding the left mouse button."
+#~ msgstr "Du kan plassere veier ved å holde venstre museknapp og dra."
+
+#~ msgid "You can build multiple buildings by holding the 'SHIFT' key."
+#~ msgstr ""
+#~ "Du kan plassere flere bygninger etter hverandre ved å holde 'SHIFT'-"
+#~ "knappen."
+
+#~ msgid ""
+#~ "You can increase the happiness of your inhabitants by lowering the taxes."
+#~ msgstr "Du kan øke innbyggernes tilfredshet ved å senke skattene."
+
+#~ msgid ""
+#~ "Build fire stations and doctors to protect your inhabitants from fire and "
+#~ "disease."
+#~ msgstr ""
+#~ "Bygg brannstasjoner og doktorer for å beskytte innbyggerne mot brann og "
+#~ "sykdom."
+
+#~ msgid "Build storage tents to increase your storage capacity."
+#~ msgstr "Bygg lagertelt for å øke lagringskapasiteten."
+
+#~ msgid "Make sure every house is in range of a marketplace."
+#~ msgstr "Pass på at alle hus kan nå en markedsplass."
+
+#~ msgid "Press 'T' to make trees transparent."
+#~ msgstr "Trykk 'T' for å gjøre trær gjennomsiktige."
+
+#~ msgid "Build storage tents and lookouts to expand your settlement range."
+#~ msgstr ""
+#~ "Bygg lagertelt og utkikkstårn for å utvide rekkevidden til bosetningen "
+#~ "din."
+
+#~ msgid ""
+#~ "To easily see whether the pavilion's range cover all your tents, select "
+#~ "it from the build menu and hover it over your existing pavilion. "
+#~ "Uncovered tents are shown in yellow. It's a good idea to build a new "
+#~ "pavilion in their neighborhood."
+#~ msgstr ""
+#~ "For å enklere se hvorvidt paviljongens rekkevidde dekker alle teltene "
+#~ "dine, velg den fra byggmenyen og la musa henge over den på din "
+#~ "eksisterende paviljong. Telt som ikke dekkes vil vises i gult. Det er en "
+#~ "god ide å bygge en ny paviliong i nabolaget deres."
+
+#~ msgid ""
+#~ "Make singleplayer more fun with additional computer players by increasing "
+#~ "'AI players' when starting a new game."
+#~ msgstr ""
+#~ "Gjør enspiller morsommere med flere dataspillere ved å øke antall kunstig "
+#~ "intelligens-spillere når nytt spill startes."
+
+#~ msgid ""
+#~ "First steps are easier by looking at how AI players are setting up their "
+#~ "settlement."
+#~ msgstr ""
+#~ "De første stegene blir enklere ved å se hvordan kunstig intelligens-"
+#~ "spillere setter opp sin bosetning."
+
+#~ msgid ""
+#~ "Want funny quotes only? Change the quote types shown here in the settings "
+#~ "menu on the game page."
+#~ msgstr ""
+#~ "Vil du ha kun morsomme sitater? Endre sitat-type vist her i oppsettmenyen "
+#~ "på spill-siden."
+
+#~ msgid "A marketplace links your buildings like a road."
+#~ msgstr ""
+#~ "En markedsplass kobler sammen bygningene dine på samme måte som veier."
+
+#~ msgid "Mixed"
+#~ msgstr "Mikset"
+
+#~ msgid "Starting engine…"
+#~ msgstr "Starter spillmotor…"
+
+#~ msgid "Catching fish…"
+#~ msgstr "Fanger fisk…"
+
+#~ msgid "Drawing user interface…"
+#~ msgstr "Tegner brukergrensesnitt…"
+
+#~ msgid "Activating timer…"
+#~ msgstr "Aktiverer timere…"
+
+#~ msgid "Chomping game data…"
+#~ msgstr "Tygger spilldata…"
+
+#~ msgid "Shaping islands…"
+#~ msgstr "Former øyer…"
+
+#~ msgid "Preparing blueprints…"
+#~ msgstr "Forbereder arbeidstegninger…"
+
+#~ msgid "Filling world with water…"
+#~ msgstr "Heller vann over verdenen…"
+
+#~ msgid "Raising animals…"
+#~ msgstr "Frambringer dyr…"
+
+#~ msgid "Convincing AI…"
+#~ msgstr "Overbeviser datamaskinspillerne…"
+
+#~ msgid "Burying treasures…"
+#~ msgstr "Begraver skatter…"
+
+#~ msgid "Unable to find pyenet"
+#~ msgstr "Kunne ikke finne pyenet"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which could not "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "Flerspiller-funksjonaliteten krever systembiblioteket \"pyenet\", men "
+#~ "dette ble ikke funnet."
+
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr ""
+#~ "For Linux-brukere: prøv å installere pyenet via systemet for "
+#~ "pakkebehandling."
+
+#~ msgid "Failed to initialize networking."
+#~ msgstr "Kunne ikke starte nettverket."
+
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr ""
+#~ "Nettverksfunksjonaliteten kan ikke fungere med de gjeldende "
+#~ "innstillingene."
+
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "Sjekk innstillingene du har oppgitt i nettverks-seksjonen."
+
+#~ msgid "Fatal Network Error"
+#~ msgstr "Fatal nettverksfeil"
+
+#~ msgid "Could not connect to master server."
+#~ msgstr "Kunne ikke koble til hovedserveren."
+
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "Sjekk internettforbindelsen. Dersom det ikke er noen problemer med den er "
+#~ "sannsynligvis hovedtjeneren midlertidig nede."
+
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "Noe gikk galt med nettverket:"
+
+#~ msgid "Version differs!"
+#~ msgstr "Forskjellige versjoner!"
+
+#, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "Kart: {map_name}"
+
+#, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "Spill: {game_name}"
+
+#, python-brace-format
+#~ msgid "Creator: {game_creator}"
+#~ msgstr "Opprettet av: {game_creator}"
+
+#, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "Spillere: {player_amount}/{player_limit}"
+
+#~ msgid "Wrong version"
+#~ msgstr "Feil versjon"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "Spillversjonen er forskjellig fra din spillversjon. Alle spillere i en "
+#~ "flerspiller-økt må ha samme spillversjon. Dette kan fikses ved at alle "
+#~ "spillere oppdaterer til seneste versjon. Spillversjon: {game_version} Din "
+#~ "versjon: {own_version}"
+
+#~ msgid "Password of the game"
+#~ msgstr "Passord for å bli med i spillet"
+
+#~ msgid "Enter password:"
+#~ msgstr "Oppgi passord:"
+
+#~ msgid "Ready"
+#~ msgstr "Klar"
+
+#~ msgid "Not ready"
+#~ msgstr "Ikke klar"
+
+#~ msgid "Enter your message"
+#~ msgstr "Skriv din melding"
+
+#~ msgid "Click here to change your name and/or color"
+#~ msgstr "Klikk for å bytte navn og/eller farge"
+
+#, python-brace-format
+#~ msgid "Kick {player}"
+#~ msgstr "Spark ut {player}"
+
+#, python-brace-format
+#~ msgid "{player} has joined the game"
+#~ msgstr "{player} har blitt med i spillet"
+
+#, python-brace-format
+#~ msgid "{player} has left the game"
+#~ msgstr "{player} har forlatt spillet"
+
+#~ msgid "You are now ready"
+#~ msgstr "Du er klar"
+
+#~ msgid "You are not ready anymore"
+#~ msgstr "Du er ikke klar"
+
+#, python-brace-format
+#~ msgid "{player} is now ready"
+#~ msgstr "{player} er nå klar"
+
+#, python-brace-format
+#~ msgid "{player} not ready anymore"
+#~ msgstr "{player} er ikke klar lenger"
+
+#, python-brace-format
+#~ msgid "You are now known as {new_name}"
+#~ msgstr "Du er nå kjent som {new_name}"
+
+#, python-brace-format
+#~ msgid "{player} is now known as {new_name}"
+#~ msgstr "{player} er nå kjent som {new_name}"
+
+#~ msgid "You changed your color"
+#~ msgstr "Du har byttet farge"
+
+#, python-brace-format
+#~ msgid "{player} changed their color"
+#~ msgstr "{player} har byttet farge"
+
+#~ msgid "Kicked"
+#~ msgstr "Sparket ut"
+
+#~ msgid "You have been kicked from the game by creator"
+#~ msgstr "Du har blitt fjernet fra spillet av den som startet det"
+
+#, python-brace-format
+#~ msgid "{player} got kicked by creator"
+#~ msgstr "{player} ble fjernet fra spillet av den som startet det"
+
+#~ msgid "Are you sure you want to abort the running session?"
+#~ msgstr "Er du sikker på du vil avslutte denne spilløkten?"
+
+#~ msgid "Quit Session"
+#~ msgstr "Avslutt spilløkt"
+
+#~ msgid "No saved games"
+#~ msgstr "Ingen lagrede spill"
+
+#~ msgid "There are no saved games to load."
+#~ msgstr "Det finnes ingen lagrede spill å laste inn."
+
+#~ msgid "No filename given"
+#~ msgstr "Du oppgav ingen filnavn"
+
+#~ msgid "Please enter a valid filename."
+#~ msgstr "Vennligst oppgi et gyldig filnavn."
+
+#, python-brace-format
+#~ msgid "A savegame with the name {name} already exists."
+#~ msgstr "Et lagret spill med navnet {name} finnes allerede."
+
+#, python-brace-format
+#~ msgid "A map with the name {name} already exists."
+#~ msgstr "Et kart med navnet {name} finnes allerede."
+
+#~ msgid "Overwrite it?"
+#~ msgstr "Overskrive?"
+
+#, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "Lagret {time}"
+
+#, python-brace-format
+#~ msgid "Saved {amount} time"
+#~ msgid_plural "Saved {amount} times"
+#~ msgstr[0] "Lagret {amount} gang"
+#~ msgstr[1] "Lagret {amount} ganger"
+
+#, python-brace-format
+#~ msgid "Savegame version {version}"
+#~ msgstr "Lagret i spillversjon {version}"
+
+#~ msgid "(probably incompatible)"
+#~ msgstr "(sannsynligvis ikke kompatibel)"
+
+#~ msgid "Incompatible version"
+#~ msgstr "Inkompatibel versjon"
+
+#~ msgid "No file selected"
+#~ msgstr "Ingen fil er valgt"
+
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr "Du må velge et lagret spill å slette."
+
+#, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "Er du sikker på at du vil slette det lagrede spillet '{name}'?"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "Godkjenn sletting"
+
+#~ msgid "Error!"
+#~ msgstr "Feil!"
+
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "Klarte ikke å slette det lagrede spillet!"
+
+#~ msgid "Game"
+#~ msgstr "Spill"
+
+#~ msgid "Disabled"
+#~ msgstr "Avslått"
+
+#~ msgid "Restart required"
+#~ msgstr "Spillet må startes på nytt"
+
+#~ msgid ""
+#~ "Some of your changes require a restart of Unknown Horizons. Do you want "
+#~ "to restart Unknown Horizons now?"
+#~ msgstr ""
+#~ "Noen av endringene krever at Unknown Horizons startes på nytt. Ønsker du "
+#~ "å starte Unknown Horizons på nytt nå?"
+
+#~ msgid "Restore default settings"
+#~ msgstr "Gjenopprett standard-innstillinger"
+
+#~ msgid ""
+#~ "Restoring the default settings will delete all changes to the settings "
+#~ "you made so far."
+#~ msgstr ""
+#~ "Hvis du gjenoppretter standard-innstillingene vil alle endringene du har "
+#~ "gjort i innstillingene fjernes."
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "Fortsette?"
+
+#~ msgid "Invalid network port"
+#~ msgstr "Ugyldig nettverksport"
+
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr ""
+#~ "Nettverksporten du har oppgitt er ugyldig. Den må være et tall mellom 1 "
+#~ "og 65535."
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it is in the specified "
+#~ "range."
+#~ msgstr ""
+#~ "Vennligst sjekk at porten du har oppgitt er innenfor det spesifiserte "
+#~ "området."
+
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "Kunne ikke endre nettverksinnstillingene."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special access privileges, try 0 or a "
+#~ "number greater than 1024."
+#~ msgstr ""
+#~ "Lave portnumre kan kreve spesielle rettigheter. Prøv 0 eller en verdi "
+#~ "høyere enn 1024."
+
+#~ msgid "Invalid player name"
+#~ msgstr "Ugyldig spillernavn"
+
+#~ msgid "You entered an invalid playername."
+#~ msgstr "Du har oppgitt et ugyldig spillernavn."
+
+#~ msgid "Map size:"
+#~ msgstr "Kartstørrelse:"
+
+#~ msgid "Water:"
+#~ msgstr "Vann:"
+
+#~ msgid "Max island size:"
+#~ msgstr "Største øystørrelse:"
+
+#~ msgid "Preferred island size:"
+#~ msgstr "Foretrukket øystørrelse:"
+
+#~ msgid "Island size deviation:"
+#~ msgstr "Avvik fra øystørrelse:"
+
+#~ msgid "Click to generate a different random map"
+#~ msgstr "Trykk for å generere et tilfeldig kart"
+
+#~ msgid "Invalid scenario file"
+#~ msgstr "Ugyldig scenario-fil"
+
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "Den valgte filen er ikke en gyldig scenario-fil."
+
+#~ msgid "Error message:"
+#~ msgstr "Feilmelding:"
+
+#~ msgid "Please report this to the author."
+#~ msgstr "Vennligst rapporter dette til forfatteren."
+
+#, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "Vanskelighetsgrad: {difficulty}"
+
+#, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "Forfatter: {author}"
+
+#, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "Beskrivelse: {desc}"
+
+#, python-brace-format
+#~ msgid "Build {building}"
+#~ msgstr "Bygg {building}"
+
+#~ msgid "Press H to remove this hint"
+#~ msgstr "Trykk H for å fjerne dette hintet"
+
+#~ msgid "Destroy all buildings"
+#~ msgstr "Ødelegg alle bygninger"
+
+#~ msgid ""
+#~ "This will destroy all the buildings that fall outside of the settlement "
+#~ "range."
+#~ msgstr ""
+#~ "Dette vil ødelegge alle bygninger som ligger utenfor bosetningens "
+#~ "rekkevidde."
+
+#, python-format
+#~ msgid "%s additional building will be destroyed."
+#~ msgid_plural "%s additional buildings will be destroyed"
+#~ msgstr[0] "%s ekstra bygning vil bli ødelagt."
+#~ msgstr[1] "%s ekstra bygninger vil bli ødelagt"
+
+#~ msgid "Barracks overview"
+#~ msgstr "Kasserneoversikt"
+
+#~ msgid "Swordman"
+#~ msgstr "Sverdsvinger"
+
+#~ msgid "Overview"
+#~ msgstr "Oversikt"
+
+#, python-brace-format
+#~ msgid "{ship} (place in queue: {place})"
+#~ msgstr "{ship} (plass i køen: {place})"
+
+#~ msgid "Boat builder overview"
+#~ msgstr "Oversikt for båtbygger"
+
+#~ msgid "Fisher boats"
+#~ msgstr "Fiskebåter"
+
+#~ msgid "Trade boats"
+#~ msgstr "Handelsbåter"
+
+#~ msgid "War boats"
+#~ msgstr "Krigsbåter"
+
+#~ msgid "War ships"
+#~ msgstr "Krigsskip"
+
+#~ msgid "Tower overview"
+#~ msgstr "Oversikt over tårn"
+
+#~ msgid "Build related buildings"
+#~ msgstr "Bygg relaterte bygninger"
+
+#~ msgid "Click on one of the resource slots to add a trade offer."
+#~ msgstr "Trykk på en av ressurs-firkantene for å legge til et handelstilbud."
+
+#~ msgid ""
+#~ "Set to buy or sell by clicking on that label, then adjust the amount via "
+#~ "the slider to the right."
+#~ msgstr ""
+#~ "Velg kjøp eller salg ved å trykke på teksten og juster deretter mengden "
+#~ "ved hjelp av måleren til høyre."
+
+#, python-brace-format
+#~ msgid ""
+#~ "Will sell {resource_name} for {price} gold/t whenever more than {limit}t "
+#~ "are available."
+#~ msgstr ""
+#~ "Selger {resource_name} for {price} gold/t så lenge det er mer enn {limit}"
+#~ "t tilgjengelig."
+
+#~ msgid "Warehouse overview"
+#~ msgstr "Oversikt over varehus"
+
+#~ msgid "Main square overview"
+#~ msgstr "Hovedplass oversikt"
+
+#~ msgid "Upgrade not possible:"
+#~ msgstr "Oppgradering ikke mulig:"
+
+#~ msgid "This is the highest playable tier for now!"
+#~ msgstr "Dette er det høyeste spillbare nivået!"
+
+#~ msgid "Don't allow upgrades"
+#~ msgstr "Ikke tillat oppgraderinger"
+
+#~ msgid "Allow upgrades"
+#~ msgstr "Tillat oppgraderinger"
+
+# ship -> unit
+#~ msgid "Unit overview"
+#~ msgstr "Enhetsoversikt"
+
+#, python-brace-format
+#~ msgid "Fill range with {how_many} trees"
+#~ msgstr "Fyll feltet med {how_many} trær"
+
+#~ msgid "Selected Units"
+#~ msgstr "Valgte enheter"
+
+#~ msgid "Ship overview"
+#~ msgstr "Skipsoversikt"
+
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr "Skipet må være nærmere land for å grunnlegge en bosetning."
+
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "Du har allerede en bosetning på denne øyen."
+
+#~ msgid "Load/Unload"
+#~ msgstr "Last/loss"
+
+#~ msgid "Too far from the nearest tradeable warehouse"
+#~ msgstr "For langt unna nærmeste varehus med handel"
+
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "Kan ikke utstyre handelsskip med våpen"
+
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "Det er ikke mulig å utstyre et handelsskip med våpen."
+
+#~ msgid "Equip weapon"
+#~ msgstr "Utstyr med våpen"
+
+#~ msgid "Unequip weapon"
+#~ msgstr "Ta bort våpen"
+
+#, python-brace-format
+#~ msgid "{resource_name}: {price} gold"
+#~ msgstr "{resource_name}: {price} gull"
+
+#, python-brace-format
+#~ msgid "buy for {buyprice} gold"
+#~ msgstr "kjøp for {buyprice} gull"
+
+#, python-brace-format
+#~ msgid "sell for {sellprice} gold"
+#~ msgstr "selg for {sellprice} gull"
+
+#, python-brace-format
+#~ msgid "{stored}/{limit}"
+#~ msgstr "{stored}/{limit}"
+
+#~ msgid "Logbook"
+#~ msgstr "Loggbok"
+
+#~ msgid "Emptiness"
+#~ msgstr "Tomhet"
+
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "Ingenting er skrevet i loggboken ennå!"
+
+#, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "{player}s bosetninger"
+
+#, python-brace-format
+#~ msgid "Ships of {player}"
+#~ msgstr "{player}s skip"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#, python-brace-format
+#~ msgid "Production overview of {settlement}"
+#~ msgstr "Produksjonsoversikt for {settlement}"
+
+#~ msgid "Click to show statistics"
+#~ msgstr "Klikk for å vise statistikk"
+
+#~ msgid "Click to add a new slot"
+#~ msgstr "Klikk for å legge til nytt felt"
+
+#~ msgid "Reset this configuration to the factory default."
+#~ msgstr "Tilbakestill konfigurasjon til fabrikkinnstillingene."
+
+#~ msgid ""
+#~ "Reset this settlement's displayed resources to the default configuration "
+#~ "you have saved."
+#~ msgstr ""
+#~ "Tilbakestiller denne bosetningens ressursvisning til "
+#~ "standardkonfigurasjonen du har lagret."
+
+#~ msgid ""
+#~ "Reset the default configuration (which you see here) to the factory "
+#~ "default for all settlements."
+#~ msgstr ""
+#~ "Tilbakestiller standardkonfigurasjonen (som du ser her) til "
+#~ "fabrikkinnstillingene for alle bosetninger."
+
+#~ msgid "Buy expenses"
+#~ msgstr "Kjøpeutgifter"
+
+#~ msgid "Sell income"
+#~ msgstr "Salgsinntekter"
+
+#~ msgid "Stop route"
+#~ msgstr "Stopp rute"
+
+#~ msgid "Need at least two settlements"
+#~ msgstr "Må ha minst to bosetninger"
+
+#~ msgid "You need at least two different settlements in your route."
+#~ msgstr "Du må ha minst to forskjellige bosetninger i din rute."
+
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "Klikk på en bosetning for å legge til et stopp!"
+
+#~ msgid "Loading into ship"
+#~ msgstr "Laster om bord på skipet"
+
+#~ msgid "Unloading from ship"
+#~ msgstr "Losser fra skipet"
+
+#~ msgid "You are not allowed to trade with this player"
+#~ msgstr "Du har ikke tillatelse til å handle med denne spilleren"
+
+#, python-brace-format
+#~ msgid "{weapon}: {amount}"
+#~ msgstr "{weapon}: {amount}"
+
+#~ msgid "none"
+#~ msgstr "ingen"
+
+#, python-brace-format
+#~ msgid "Details: {error_details}"
+#~ msgstr "Detaljer: {error_details}"
+
+#, python-brace-format
+#~ msgid "Error: {error_message}"
+#~ msgstr "Feilmelding: {error_message}"
+
+#~ msgid "Bakery"
+#~ msgstr "Bakeri"
+
+#~ msgid "Barracks"
+#~ msgstr "Brakke"
+
+#~ msgid "Wooden barrier"
+#~ msgstr "Trebarriere"
+
+#~ msgid "Clay wall"
+#~ msgstr "Leirvegg"
+
+#~ msgid "Blender"
+#~ msgstr "Blander"
+
+#~ msgid "Boat Builder"
+#~ msgstr "Båtbygger"
+
+#~ msgid "Brewery"
+#~ msgstr "Bryggeri"
+
+#~ msgid "Brickyard"
+#~ msgstr "Mursteinsverk"
+
+#~ msgid "Butchery"
+#~ msgstr "Slakteri"
+
+#~ msgid "Cannon Foundry"
+#~ msgstr "Kanonstøperi"
+
+#~ msgid "Charcoal Burning"
+#~ msgstr "Kullbrenner"
+
+#~ msgid "Clay Deposit"
+#~ msgstr "Leireforekomst"
+
+#~ msgid "Clay Pit"
+#~ msgstr "Leirehull"
+
+#~ msgid "Distillery"
+#~ msgstr "Destilleri"
+
+#~ msgid "Doctor"
+#~ msgstr "Doktor"
+
+#~ msgid "Farm"
+#~ msgstr "Gård"
+
+#~ msgid "Alvearies"
+#~ msgstr "Birøktere"
+
+#~ msgid "Cattle Run"
+#~ msgstr "Storfedrift"
+
+#~ msgid "Cocoa Field"
+#~ msgstr "Kakaoplantasje"
+
+#~ msgid "Corn Field"
+#~ msgstr "Maisåker"
+
+#~ msgid "Herbary"
+#~ msgstr "Urtehage"
+
+#~ msgid "Hop Field"
+#~ msgstr "Humleåker"
+
+#~ msgid "Pasture"
+#~ msgstr "Beitemark"
+
+#~ msgid "Pigsty"
+#~ msgstr "Grisehus"
+
+#~ msgid "Potato Field"
+#~ msgstr "Potetåker"
+
+#~ msgid "Spice Field"
+#~ msgstr "Krydderplantasje"
+
+#~ msgid "Sugar Field"
+#~ msgstr "Sukkerplantasje"
+
+#~ msgid "Tobacco Field"
+#~ msgstr "Tobakksplantasje"
+
+#~ msgid "Vineyard"
+#~ msgstr "Vingård"
+
+#~ msgid "Fire Station"
+#~ msgstr "Brannstasjon"
+
+#~ msgid "Fish Deposit"
+#~ msgstr "Fiskeforekomst"
+
+#~ msgid "Fisherman's Tent"
+#~ msgstr "Fiskertelt"
+
+#~ msgid "Hunter's Tent"
+#~ msgstr "Jegertelt"
+
+#~ msgid "Lookout"
+#~ msgstr "Utsiktstårn"
+
+#~ msgid "Lumberjack Hut"
+#~ msgstr "Tømmerhogger"
+
+#~ msgid "Main Square"
+#~ msgstr "Markedsplass"
+
+#~ msgid "Mine"
+#~ msgstr "Min"
+
+#~ msgid "Mountain"
+#~ msgstr "Fjell"
+
+#~ msgid "Pastry Shop"
+#~ msgstr "Konditori"
+
+#~ msgid "Pavilion"
+#~ msgstr "Paviljong"
+
+#~ msgid "Ruined Tent"
+#~ msgstr "Ødelagt telt"
+
+#~ msgid "Salt Ponds"
+#~ msgstr "Saltdammer"
+
+#~ msgid "Signal Fire"
+#~ msgstr "Signalbål"
+
+#~ msgid "Smeltery"
+#~ msgstr "Smelteri"
+
+#~ msgid "Stone Deposit"
+#~ msgstr "Steinlager"
+
+#~ msgid "Stonemason"
+#~ msgstr "Steinhugger"
+
+#~ msgid "Carver"
+#~ msgstr "Steinskjærer"
+
+#~ msgid "Stone Pit"
+#~ msgstr "Steinhoggeri"
+
+#~ msgid "Storage Tent"
+#~ msgstr "Lagertelt"
+
+#~ msgid "Storage Hut"
+#~ msgstr "Lager"
+
+#~ msgid "Tavern"
+#~ msgstr "Kro"
+
+#~ msgid "Hut"
+#~ msgstr "Hytte"
+
+#~ msgid "Stone house"
+#~ msgstr "Murhus"
+
+#~ msgid "Estate"
+#~ msgstr "Eiendom"
+
+#~ msgid "Manor"
+#~ msgstr "Herregård"
+
+#~ msgid "Tobacconist"
+#~ msgstr "Tobakksbutikk"
+
+#~ msgid "Toolmaker"
+#~ msgstr "Verktøymaker"
+
+#~ msgid "Trail"
+#~ msgstr "Sti"
+
+#~ msgid "Gravel Path"
+#~ msgstr "Grusvei"
+
+#~ msgid "Cobblestone Street"
+#~ msgstr "Steinlagt vei"
+
+#~ msgid "Tree"
+#~ msgstr "Tre"
+
+#~ msgid "Village School"
+#~ msgstr "Landsbyskole"
+
+#~ msgid "Warehouse"
+#~ msgstr "Varehus"
+
+#~ msgid "Weaponsmith"
+#~ msgstr "Våpensmed"
+
+#~ msgid "Weaver's Hut"
+#~ msgstr "Vever"
+
+#~ msgid "Windmill"
+#~ msgstr "Vindmølle"
+
+#~ msgid "Winery"
+#~ msgstr "Vingård"
+
+#~ msgid "Wooden Tower"
+#~ msgstr "Tretårn"
+
+#~ msgid "Failed to start/load the game"
+#~ msgstr "Kunne ikke starte/laste spillet"
+
+#~ msgid "The game you selected could not be started."
+#~ msgstr "Spillet du valgte kunne ikke startes."
+
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr "Lagringsfilen kan være ødelagt eller lagret i en tidligere versjon."
+
+#~ msgid "No quicksaves found"
+#~ msgstr "Ingen hurtiglagring funnet"
+
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr "Du må hurtiglagre før du kan hurtigåpne."
+
+#~ msgid "Logging enabled"
+#~ msgstr "Logging aktivert"
+
+#, python-brace-format
+#~ msgid "Logs are written to {directory}."
+#~ msgstr "Loggen skrives til {directory}."
+
+#~ msgid ""
+#~ "The games have run out of sync. This indicates an unknown internal error, "
+#~ "the game cannot continue."
+#~ msgstr ""
+#~ "Spillet er ute av synk. Dette betyr at det er en ukjent intern feil i "
+#~ "spillmotoren og spillet kan ikke fortsette."
+
+#~ msgid ""
+#~ "We are very sorry and hope to have this bug fixed in a future version."
+#~ msgstr ""
+#~ "Vi beklager på det sterkeste og håper å fikse denne feilen i en senere "
+#~ "versjon."
+
+#~ msgid "Not possible"
+#~ msgstr "Ikke mulig"
+
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr "Lagring/Åpning er ikke mulig i flerspiller spill enda"
+
+#~ msgid ""
+#~ "The filename must consist only of letters, numbers, spaces and these "
+#~ "characters: _ . -"
+#~ msgstr ""
+#~ "Filnavnet kan kun bestå av bokstaver, tall, mellomrom og følgende tegn: "
+#~ "_ . -"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "Kunne ikke koble til tjener."
+
+#~ msgid "Maybe invalid or irresolvable server address."
+#~ msgstr "Muligens ugyldig eller utilgjengelig tjener-adresse."
+
+#~ msgid "Not Ready"
+#~ msgstr "Ikke klar"
+
+#~ msgid ""
+#~ "Old or unsupported multiplayer protocol. Please check your game version"
+#~ msgstr ""
+#~ "Gammel flerspiller-protokollen eller en som ikke støttes. Vennligst sjekk "
+#~ "spillversjonen din"
+
+#~ msgid "You've exceeded the global packet size."
+#~ msgstr "Du har overskredet den globale pakkestørrelsen."
+
+#~ msgid "This should never happen. Please contact us or file a bug report."
+#~ msgstr ""
+#~ "Dette burde aldri skje. Vennligst ta kontakt med oss eller opprett en "
+#~ "feilrapport."
+
+#~ msgid "You've exceeded the per packet size."
+#~ msgstr "Du har overskredet pakkestørrelsen."
+
+#~ msgid "Unknown or malformed packet. Please check your game version"
+#~ msgstr "Ukjent eller misformet pakke. Vennligst sjekk spillversjonen"
+
+#~ msgid "Invalid/Unknown session"
+#~ msgstr "Ugyldig eller ukjent økt"
+
+#~ msgid "You can't join a game while in another game"
+#~ msgstr "Du kan ikke bli med i et spill når du allerede er i et spill"
+
+#~ msgid "Unknown game or game is running a different version"
+#~ msgstr "Ukjent spill eller spillet kjører en annen versjon"
+
+#~ msgid "Game has already started. No more joining"
+#~ msgstr "Spillet er allerede startet. Det går ikke an å bli med"
+
+#~ msgid "Game is full"
+#~ msgstr "Spillet er fullt"
+
+#~ msgid "Wrong password"
+#~ msgstr "Feil passord"
+
+#~ msgid "There's already a player with your name inside this game."
+#~ msgstr "En spiller med ditt navn er allerede inne i spillet."
+
+#~ msgid "Please change your name."
+#~ msgstr "Vennligst bruk et annet navn."
+
+#~ msgid "There's already a player with your color inside this game."
+#~ msgstr "En spiller med din farge er allerede med i spillet."
+
+#~ msgid "Please change your color."
+#~ msgstr "Vennligst bytt farge."
+
+#~ msgid ""
+#~ "There's already a player with your unique player ID inside this game. "
+#~ "This should never occur."
+#~ msgstr ""
+#~ "En spiller med din unike spiller-ID er allerede med i spillet. Dette skal "
+#~ "ikke kunne skje."
+
+#~ msgid "You are not inside a game"
+#~ msgstr "Du er ikke i et spill"
+
+#~ msgid "Unable to change your name."
+#~ msgstr "Kan ikke endre navnet ditt."
+
+#~ msgid "Unable to change your color."
+#~ msgstr "Klarte ikke endre fargen din."
+
+#~ msgid "You can't fetch a game while in another game"
+#~ msgstr "Du kan ikke hente et spill når du allerede er i et"
+
+#~ msgid "The game has been terminated. The creator has left the game."
+#~ msgstr ""
+#~ "Spillet har avsluttet. Personen som opprettet spillet har forlatt det."
+
+#~ msgid ""
+#~ "One player has terminated their game. For technical reasons, this "
+#~ "currently means the game cannot continue. We are very sorry about that."
+#~ msgstr ""
+#~ "En spiller har avsluttet spillet sitt. Vi beklager, men av tekniske "
+#~ "årsaker kan spillet derfor ikke fortsette."
+
+#~ msgid "You have won!"
+#~ msgstr "Du har vunnet!"
+
+#~ msgid "You have completed this scenario."
+#~ msgstr "Du har fullført scenarioet."
+
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "Vil du fortsette å spille?"
+
+#~ msgid "unknown"
+#~ msgstr "ukjent"
+
+#~ msgid "Failed to create savegame file"
+#~ msgstr "Kunne ikke opprette lagringsfilen"
+
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr "En feil oppstod ved oppretting av lagringsfilen."
+
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr "Dette betyr vanligvis at filnavnet inneholder ugyldige spesialtegn."
+
+#~ msgid "Access is denied"
+#~ msgstr "Ingen tilgang"
+
+#~ msgid "The savegame file could be read-only or locked by another process."
+#~ msgstr "Lagringsfilen kan være uskrivbar eller låst av en annen prosess."
+
+#~ msgid "Your game has not been saved."
+#~ msgstr "Spillet har ikke blitt lagret."
+
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "Ny versjon av Unknown Horizons"
+
+#, python-brace-format
+#~ msgid ""
+#~ "There is a more recent release of Unknown Horizons ({new_version}) than "
+#~ "the one you are currently using ({old_version})."
+#~ msgstr ""
+#~ "Det finnes en nyere versjon av Unknown Horizons ({new_version}) than the "
+#~ "one you are currently using ({old_version})."
+
+#~ msgid "Click to download"
+#~ msgstr "Klikk for å laste ned"
+
+#~ msgid "A page has been opened in your browser."
+#~ msgstr "En side har blitt åpnet i nettleseren din."
+
+#, python-brace-format
+#~ msgid "{slotnum} slots, {limit}t"
+#~ msgstr "{slotnum} spor, {limit}t"
+
+#, python-brace-format
+#~ msgid "Health: {health}"
+#~ msgstr "Helse: {health}"
+
+#, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}: {description}"
+
+#~ msgid "This building must be built on an island."
+#~ msgstr "Denne bygningen må bygges på en øy."
+
+#~ msgid "This ground is not suitable for this building."
+#~ msgstr "Denne bygningen kan ikke bygges på dette terrenget."
+
+#~ msgid "This building has to be built within your settlement."
+#~ msgstr "Denne bygningen må bygges innenfor bosetningen din."
+
+#~ msgid "This area is already occupied by another player."
+#~ msgstr "Dette området okkuperes allerede av en annen spiller."
+
+#~ msgid "This area is already occupied by another building."
+#~ msgstr "Dette området okkuperes allerede av en annen bygning."
+
+#~ msgid "This area is already occupied by a unit."
+#~ msgstr "Dette området okkuperes allerede av en enhet."
+
+#~ msgid "This building must be built on the coastline."
+#~ msgstr "Denne bygningen må bygges langs kysten."
+
+#~ msgid "This building has to be placed at the ocean."
+#~ msgstr "Denne bygningen må plasseres ved havet."
+
+#~ msgid "This spot is too far away from your ship."
+#~ msgstr "Dette punktet er for langt unna skipet ditt."
+
+#~ msgid "This building can only be built on a resource source."
+#~ msgstr "Denne bygningen kan bare bygges på en ressurskilde."
+
+#~ msgid "You have already settled this island."
+#~ msgstr "Du har allerede bosatt deg på denne øyen."
+
+#~ msgid "This building must be partly on flat land."
+#~ msgstr "Denne bygningen må være delvis på flatt land."
+
+#~ msgid "The inhabitants are infected by the Black Death!"
+#~ msgstr "Innbyggerne er smittet av Svartedauden!"
+
+#~ msgid "This building is on fire!"
+#~ msgstr "Denne bygningen brenner!"
+
+#~ msgid "These residents are unhappy."
+#~ msgstr "Disse innbyggerne er misfornøyde."
+
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "Disse beboerne har ikke tilgang til hovedtorget."
+
+#~ msgid "The inventory of this building is full."
+#~ msgstr "Denne bygningen har ikke mer lagringskapasitet."
+
+#~ msgid "This building has a very low productivity."
+#~ msgstr "Denne bygningen har veldig lav produktivitet."
+
+#~ msgid "This building is decommissioned."
+#~ msgstr "Denne bygningen er fraflyttet."
+
+#, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "Handelsrute: på vei til {location}"
+
+#, python-brace-format
+#~ msgid "Trade route: waiting at {position}"
+#~ msgstr "Handelsrute: venter ved {position}"
+
+#, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "På vei til {location}"
+
+#, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "På vei til {x}, {y}"
+
+#, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "Ledig ved {location}"
+
+#, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "Ledig ved {x}, {y}"
+
+#~ msgid "Trader"
+#~ msgstr "Kjøpmann"
+
+#, python-brace-format
+#~ msgid "Attacking {target} '{name}' ({owner})"
+#~ msgstr "Angriper {target} '{name}' ({owner})"
+
+#, python-brace-format
+#~ msgid "Attacking {owner}"
+#~ msgstr "Angriper {owner}"
+
+#~ msgid "Your game has been autosaved."
+#~ msgstr "Spillet har blitt autolagret."
+
+#~ msgid "Your building has caught fire!"
+#~ msgstr "Bygningen din har tatt fyr!"
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}: {message}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "{player1} and {player2} have ended their alliance and are now in a state "
+#~ "of war."
+#~ msgstr "{player1} og {player2} har brutt alliansen og er nå i krig."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have terminated their alliance."
+#~ msgstr "{player1} and {player2} har brutt sin allianse."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have ended the war and are now allied."
+#~ msgstr "{player1} og {player2} er ikke lenger i krig og er nå allierte."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have settled their hostility."
+#~ msgstr "{player1} og {player2} har avgjort fiendtlighetene."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have allied their forces."
+#~ msgstr "{player1} og {player2} har alliert sine styrker."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} will fight each other to the death."
+#~ msgstr "{player1} og {player2} kommer til å kjempe til døden."
+
+#~ msgid "You can also drag roads."
+#~ msgstr "Du kan også dra veier."
+
+#~ msgid "One of your fields requires a farm to harvest its crops."
+#~ msgstr "En av dine åkrer trenger en gård for å høste inn."
+
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "Minen din har gått tom for ressurser."
+
+#~ msgid ""
+#~ "You have reached the current maximum tier. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Du har nådd høyeste innbyggernivå. Dine innbyggere vil ikke oppgradere "
+#~ "videre."
+
+#~ msgid "Cannot go here."
+#~ msgstr "Kan ikke gå her."
+
+#~ msgid "Your crew refuses to leave this map."
+#~ msgstr "Mannskapet ditt nekter å forlate kartet."
+
+#, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "Du trenger mer {resource} for å bygge denne bygningen."
+
+#, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "En ny bosetning ble grunnlagt av {player}."
+
+#, python-brace-format
+#~ msgid "A new ship by the name of {name} has been created."
+#~ msgstr "Et nytt skip med navn {name} har blitt bygget."
+
+#, python-brace-format
+#~ msgid "The Soldier by the name of {name} is ready to battle."
+#~ msgstr "Soldaten ved navn {name} er klar til kamp."
+
+#, python-brace-format
+#~ msgid "The inhabitant by the name of {name} is available."
+#~ msgstr "Innbyggeren ved navn {name} har klar."
+
+#~ msgid "A new world has been created."
+#~ msgstr "En ny verden har blitt skapt."
+
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "Noen av innbyggerne dine kan ikke nå markedsplassen."
+
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "Spillet har blitt hurtiglagret."
+
+#~ msgid ""
+#~ "The route is now configured. Start it via the \"start route\" button in "
+#~ "the \"configure route\" menu."
+#~ msgstr ""
+#~ "Ruten er nå satt opp. Start den via \"Start rute\"-knappen i \"Sett opp "
+#~ "handelsrute\"-menyen."
+
+#~ msgid "Your game has been saved."
+#~ msgstr "Spillet har blitt lagret."
+
+#, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "Skjermdump lagret som {file}."
+
+#, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "Innbyggerne dine har nådd nivået {level}."
+
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "Noen av innbyggerne dine flyttet akkurat ut."
+
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr "Du kan ikke rive dette varehuset, bosetningen din behøver det."
+
+#~ msgid "You won!"
+#~ msgstr "Du har vunnet!"
+
+#~ msgid "You failed the scenario."
+#~ msgstr "Du feilet scenariet."
+
+#~ msgid "The inhabitants of this building are infected by the Black Death!"
+#~ msgstr "Innbyggerne i denne bygningen har blitt smittet av Svartedauden!"
+
+#~ msgid "coins"
+#~ msgstr "mynter"
+
+#~ msgid "lamb wool"
+#~ msgstr "ull"
+
+#~ msgid "textile"
+#~ msgstr "tøy"
+
+#~ msgid "boards"
+#~ msgstr "planker"
+
+#~ msgid "food"
+#~ msgstr "mat"
+
+#~ msgid "tools"
+#~ msgstr "verktøy"
+
+#~ msgid "bricks"
+#~ msgstr "murstein"
+
+#~ msgid "trees"
+#~ msgstr "trær"
+
+#~ msgid "grass"
+#~ msgstr "gress"
+
+#~ msgid "wool"
+#~ msgstr "ull"
+
+#~ msgid "faith"
+#~ msgstr "religion"
+
+#~ msgid "deer food A"
+#~ msgstr "rådyr mat A"
+
+#~ msgid "deer meat"
+#~ msgstr "rådyrkjøtt"
+
+#~ msgid "happiness"
+#~ msgstr "tilfredshet"
+
+#~ msgid "potatoes"
+#~ msgstr "poteter"
+
+#~ msgid "education"
+#~ msgstr "utdanning"
+
+#~ msgid "sugar cane"
+#~ msgstr "sukkerrør"
+
+#~ msgid "sugar"
+#~ msgstr "sukker"
+
+#~ msgid "community"
+#~ msgstr "samfunn"
+
+#~ msgid "clay deposit"
+#~ msgstr "Leireressurs"
+
+#~ msgid "clay"
+#~ msgstr "leire"
+
+#~ msgid "liquor"
+#~ msgstr "sprit"
+
+#~ msgid "charcoal"
+#~ msgstr "trekull"
+
+#~ msgid "iron deposit"
+#~ msgstr "jernåre"
+
+#~ msgid "iron ore"
+#~ msgstr "jernmalm"
+
+#~ msgid "iron ingots"
+#~ msgstr "jernbarre"
+
+#~ msgid "get-together"
+#~ msgstr "samlingspunkt"
+
+#~ msgid "fish"
+#~ msgstr "fisk"
+
+#~ msgid "salt"
+#~ msgstr "salt"
+
+#~ msgid "tobacco plants"
+#~ msgstr "råtobakk"
+
+#~ msgid "tobacco leaves"
+#~ msgstr "tobakksblader"
+
+#~ msgid "tobaccos"
+#~ msgstr "tobakk"
+
+#~ msgid "cattle"
+#~ msgstr "storfe"
+
+#~ msgid "pigs"
+#~ msgstr "griser"
+
+#~ msgid "cattle for slaughter"
+#~ msgstr "storfe til slakt"
+
+#~ msgid "pigs for slaughter"
+#~ msgstr "slaktegriser"
+
+#~ msgid "herbs"
+#~ msgstr "urter"
+
+#~ msgid "medical herbs"
+#~ msgstr "medisinske urter"
+
+#~ msgid "acorns"
+#~ msgstr "eikenøtt"
+
+#~ msgid "cannon"
+#~ msgstr "kanon"
+
+#~ msgid "sword"
+#~ msgstr "sverd"
+
+#~ msgid "grain"
+#~ msgstr "korn"
+
+#~ msgid "corn"
+#~ msgstr "mais"
+
+#~ msgid "flour"
+#~ msgstr "mel"
+
+#~ msgid "spice plants"
+#~ msgstr "krydder"
+
+#~ msgid "spices"
+#~ msgstr "krydderier"
+
+#~ msgid "condiments"
+#~ msgstr "tilsetningsstoffer"
+
+#~ msgid "marble deposit"
+#~ msgstr "marmoråre"
+
+#~ msgid "marble tops"
+#~ msgstr "marmortopper"
+
+#~ msgid "coal deposit"
+#~ msgstr "kullåre"
+
+#~ msgid "stone deposit"
+#~ msgstr "steinressurs"
+
+#~ msgid "stone tops"
+#~ msgstr "steintopper"
+
+#~ msgid "cocoa beans"
+#~ msgstr "kakaobønner"
+
+#~ msgid "cocoa"
+#~ msgstr "kakao"
+
+#~ msgid "confectionery"
+#~ msgstr "konfekt"
+
+#~ msgid "candles"
+#~ msgstr "lys"
+
+#~ msgid "vines"
+#~ msgstr "vinranker"
+
+#~ msgid "grapes"
+#~ msgstr "druer"
+
+#~ msgid "alvearies"
+#~ msgstr "birøktere"
+
+#~ msgid "honeycombs"
+#~ msgstr "vokskake"
+
+#~ msgid "gold deposit"
+#~ msgstr "gullforekomst"
+
+#~ msgid "gold ore"
+#~ msgstr "gullåre"
+
+#~ msgid "gold ingots"
+#~ msgstr "gullbarrer"
+
+#~ msgid "gem deposit"
+#~ msgstr "edelsteinsåre"
+
+#~ msgid "rough gems"
+#~ msgstr "råe edelsteiner"
+
+#~ msgid "gems"
+#~ msgstr "edelsteiner"
+
+#~ msgid "coffee plants"
+#~ msgstr "kaffe-planter"
+
+#~ msgid "coffee beans"
+#~ msgstr "kaffe-bønner"
+
+#~ msgid "coffee"
+#~ msgstr "kaffe"
+
+#~ msgid "tea plants"
+#~ msgstr "te-planter"
+
+#~ msgid "tea leaves"
+#~ msgstr "te-blader"
+
+#~ msgid "tea"
+#~ msgstr "te"
+
+#~ msgid "flower meadows"
+#~ msgstr "blomsterenger"
+
+#~ msgid "blossoms"
+#~ msgstr "blomstrer"
+
+#~ msgid "brine deposit"
+#~ msgstr "saltlakeåre"
+
+#~ msgid "brine"
+#~ msgstr "saltlake"
+
+#~ msgid "whales"
+#~ msgstr "hvaler"
+
+#~ msgid "ambergris"
+#~ msgstr "ambra"
+
+#~ msgid "lamp oil"
+#~ msgstr "lampeolje"
+
+#~ msgid "cotton plants"
+#~ msgstr "bomullsplanter"
+
+#~ msgid "cotton"
+#~ msgstr "bomull"
+
+#~ msgid "indigo plants"
+#~ msgstr "indigo-planter"
+
+#~ msgid "indigo"
+#~ msgstr "indigo"
+
+#~ msgid "garments"
+#~ msgstr "plagg"
+
+#~ msgid "perfume"
+#~ msgstr "parfyme"
+
+#~ msgid "hop plants"
+#~ msgstr "humleplanter"
+
+#~ msgid "hops"
+#~ msgstr "humle"
+
+#~ msgid "beer"
+#~ msgstr "øl"
+
+#~ msgid "hygiene"
+#~ msgstr "renslighet"
+
+#~ msgid "recreation"
+#~ msgstr "avslapping"
+
+#~ msgid "blackdeath"
+#~ msgstr "svartedauden"
+
+#~ msgid "fire"
+#~ msgstr "brann"
+
+#~ msgid "Aristocrats"
+#~ msgstr "Aristokrater"
+
+#~ msgid "Error: Unable to find required library \"PyYAML\"."
+#~ msgstr "Feil: Kunne ikke finne det påkrevde systembiblioteket \"PyYAML\"."
+
+#~ msgid "PyYAML (a required library) is missing and needs to be installed."
+#~ msgstr "PyYAML (et påkrevd systembibliotek) mangler og må installeres."
+
+#~ msgid "The Windows installer is available at http://pyyaml.org/wiki/PyYAML."
+#~ msgstr ""
+#~ "Installasjonsprogram for Windows finnes på http://pyyaml.org/wiki/PyYAML ."
+
+#~ msgid ""
+#~ "Linux users should find it using their package manager under the name "
+#~ "\"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Linux-brukere kan finne det i pakkehåndteringsprogrammet under navnet "
+#~ "\"pyyaml\" eller \"python-yaml\"."
+
+# ship -> unit
+#~| msgid "Unit overview"
+#~ msgid "Groundunit overview"
+#~ msgstr "Oversikt over bakkeenheter"
+
+#~ msgid "SDL is only meant as unsupported fallback and might cause problems!"
+#~ msgstr ""
+#~ "SDL er kun ment som en ustøttet reservemodus og kan skape problemer!"
+
+#~ msgid "Used renderer:"
+#~ msgstr "Gjeldende tegnemetode:"
+
+#~ msgid "Warning"
+#~ msgstr "Advarsel"
+
+#~ msgid ""
+#~ "The SDL renderer is meant as a fallback solution only and has serious "
+#~ "graphical glitches. \n"
+#~ "\n"
+#~ "Use at own risk!"
+#~ msgstr ""
+#~ "SDL rendereren er ment som en reserveløsning og har store grafiske "
+#~ "feil. \n"
+#~ "\n"
+#~ "Brukes på eget ansvar!"
+
+#~ msgid "Increases the player's sight."
+#~ msgstr "Øker spillerens synsrekkevidde."
+
+#~ msgid "Vintner"
+#~ msgstr "Vintapper"
+
+#~ msgid "dagger"
+#~ msgstr "dolk"
+
+#~ msgid "Back:"
+#~ msgstr "Tilbake:"
+
+#~ msgid "Leave:"
+#~ msgstr "Avslutt:"
+
+#~ msgid "Main menu:"
+#~ msgstr "Hovedmeny:"
+
+#~ msgid "Color depth:"
+#~ msgstr "Fargedybde:"
+
+#~ msgid "If set to 0, use the driver default"
+#~ msgstr "Hvis satt til 0 brukes standard fra skjermdriver"
+
+#~ msgid "Apply"
+#~ msgstr "Utfør"
+
+#~ msgid "Start game:"
+#~ msgstr "Start spillet:"
+
+#~ msgid "16 bit"
+#~ msgstr "16-biter"
+
+#~ msgid "32 bit"
+#~ msgstr "32-biter"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid "Resources needed:"
+#~ msgstr "Nødvendige ressurser:"
+
+#~ msgid "{resource}: {amount}"
+#~ msgstr "{resource}: {amount}"
+
+#~ msgid "The inhabitants of this building have the plague."
+#~ msgstr "Beboerne i denne bygningen har fått pest."
+
+#~ msgid "Key bindings"
+#~ msgstr "Hurtigtaster"
+
+#~ msgid "Hold to place multiple buildings"
+#~ msgstr "Hold for å plasere flere bygninger"
+
+#~ msgid "UH-Team"
+#~ msgstr "UH-Teamet"
+
+#~ msgid "Project Coordination"
+#~ msgstr "Prosjektkordinator"
+
+#~ msgid "Programming"
+#~ msgstr "Programmering"
+
+#, fuzzy
+#~ msgid "Game-Play Design"
+#~ msgstr "Game-Play Design"
+
+#~ msgid "Sound and Music Artists"
+#~ msgstr "Lyd og musikk"
+
+#, fuzzy
+#~ msgid "Graphics Artists"
+#~ msgstr "Grafikk"
+
+#~ msgid "Patchers"
+#~ msgstr "Patchere"
+
+#~ msgid "Translators"
+#~ msgstr "Oversettere"
+
+#, fuzzy
+#~ msgid "Spanish"
+#~ msgstr "Selskaper"
+
+#, fuzzy
+#~ msgid "Chinese"
+#~ msgstr "tilfredshet"
+
+#~ msgid "Special Thanks"
+#~ msgstr "En spesiell takk til"
+
+#~ msgid "Error:"
+#~ msgstr "Feil:"
+
+#~ msgid "Gold"
+#~ msgstr "Gull"
+
+#~ msgid "Boards"
+#~ msgstr "Planker"
+
+#~ msgid "Tools"
+#~ msgstr "Verktøy"
+
+#, fuzzy
+#~ msgid "1 resident"
+#~ msgstr "Beboere"
+
+#, fuzzy
+#~ msgid "2 residents"
+#~ msgstr "Beboere"
+
+#, fuzzy
+#~ msgid "3 residents"
+#~ msgstr "Beboere"
+
+#, fuzzy
+#~ msgid "4 residents"
+#~ msgstr "Beboere"
+
+#, fuzzy
+#~ msgid "5 residents"
+#~ msgstr "Beboere"
+
+#, fuzzy
+#~ msgid "6 residents"
+#~ msgstr "Beboere"
+
+#, fuzzy
+#~ msgid "7 residents"
+#~ msgstr "Beboere"
+
+#, fuzzy
+#~ msgid "8 residents"
+#~ msgstr "Beboere"
+
+#~ msgid "Average happiness:"
+#~ msgstr "Gjennomsnittlig tilfredshet:"
+
+#~ msgid "Most needed resource:"
+#~ msgstr "Mest trengte ressurs:"
+
+#~ msgid "Have fun."
+#~ msgstr "Ha det gøy!"
+
+#~ msgid "Toggle console on/off"
+#~ msgstr "Slå konsoll av/på"
+
+#~ msgid "Campaign"
+#~ msgstr "Kampanje"
+
+#~ msgid "FIFE was not found."
+#~ msgstr "FIFE ble ikke funnet."
+
+#~ msgid "Log"
+#~ msgstr "Logg"
+
+#~ msgid "Rampart"
+#~ msgstr "Voll"
+
+#~ msgid "pioneer"
+#~ msgstr "pionér"
+
+#~ msgid "settler"
+#~ msgstr "nybygger"
+
+#~ msgid "wood"
+#~ msgstr "tømmer"
+
+#~ msgid "Weaver's Tent"
+#~ msgstr "Vevertelt"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Vennligst gi oss denne via IRC eller vårt forum, for begge se unknown-"
+#~ "horizons.org ."
+
+#~ msgid "Leave Captain's log"
+#~ msgstr "Gå ut av kapteinens loggbok"
+
+#~ msgid "Lumberjack Camp"
+#~ msgstr "Tømmerhuggers leir"
+
+#~ msgid "We are very sorry for this, and want to fix this error."
+#~ msgstr "Vi er veldig lei for dette, og ønsker å fikse denne feilen."
+
+#~ msgid "Click to change the name of your settlement."
+#~ msgstr "Klikk for å bytte navn på bosetning."
+
+#~ msgid "Bricks"
+#~ msgstr "Murstein"
+
+#~ msgid "Textiles"
+#~ msgstr "Tekstiler"
+
+#~ msgid "Click to change the name of this ship."
+#~ msgstr "Klikk for å bytte navn på skipet."
+
+#~ msgid "Buy resources"
+#~ msgstr "Kjøp ressurser"
+
+#~ msgid "Sell resources"
+#~ msgstr "Selg ressurser"
+
+#~ msgid "Tent Ruin"
+#~ msgstr "Telt ruin"
+
+#~ msgid "blue"
+#~ msgstr "blå"
+
+#~ msgid "cyan"
+#~ msgstr "cyan"
+
+#~ msgid "green"
+#~ msgstr "grønn"
+
+#~ msgid "pink"
+#~ msgstr "rosa"
+
+#~ msgid "red"
+#~ msgstr "rød"
+
+#~ msgid "white"
+#~ msgstr "hvit"
+
+#~ msgid "yellow"
+#~ msgstr "gul"
+
+#~ msgid "Apply:"
+#~ msgstr "Utfør:"
+
+#~ msgid "Branch Office"
+#~ msgstr "Filial"
+
+#~ msgid "Deer"
+#~ msgstr "Rådyr"
+
+#~ msgid "Fisher"
+#~ msgstr "Fisker"
+
+#~ msgid "Pirate Ship"
+#~ msgstr "Piratskip"
+
+#~ msgid "Sheep"
+#~ msgstr "Sau"
+
+#~ msgid "Sailor buildings"
+#~ msgstr "Seilerbyggninger"
+
+#~ msgid "Pioneer buildings"
+#~ msgstr "Pionèrbygninger"
+
+#~ msgid "Show pause menu"
+#~ msgstr "Vis pause meny"
+
+#~ msgid "Error: No quicksave found."
+#~ msgstr "Ingen hurtiglagring funnet."
+
+#~ msgid "Screenshot has been saved to ${file}."
+#~ msgstr "Skjermdump lagret som ${file}."
+
+#~ msgid "You need more ${resource} to build this building."
+#~ msgstr "Du trenger mer ${resource} for å konstruere denne bygningen."
+
+#~ msgid "System default"
+#~ msgstr "System standard"
+
+#~ msgid "Rotate building left"
+#~ msgstr "Roter bygning til venstre"
+
+#~ msgid "Rotate building right"
+#~ msgstr "Roter bygning til høyre"
+
+#~ msgid "Please make sure that you know what you do."
+#~ msgstr "Vær sikker på at du vet hva du gjør."
+
+#~ msgid ""
+#~ "Restores the default settings. Useful if Unknown Horizons crashes on "
+#~ "startup due to misconfiguration."
+#~ msgstr "Gjenoppretter standardinstillinger."
+
+#~ msgid "Specify alternative multiplayer master server."
+#~ msgstr "Angi alternativ flerspillerserver."
+
+#~ msgid ""
+#~ "Specify network address to bind local network client to. This is useful "
+#~ "if NAT holepunching is not working but you can forward a static port."
+#~ msgstr ""
+#~ "Specify network address to bind local network client to. This is useful "
+#~ "if NAT holepunching is not working but you can forward a static port."
+
+# please don't translate anything in <tags> - thanks!
+#~ msgid "Starts <map>. <map> is the mapname."
+#~ msgstr "Starter <map>. <map> er filnavnet."
+
+#~ msgid "Starts a random map."
+#~ msgstr "Start et tilfeldig kart."
+
+#~ msgid "Starts the development map without displaying the main menu."
+#~ msgstr "Starter utviklings kartet uten å vise hovedmeny."
+
+# please don't translate anything in <tags> - thanks!
+#~ msgid "Loads a saved game. <save> is the savegamename."
+#~ msgstr "Åpner et lagret spill. <save> er filnavnet."
+
+#~ msgid "Loads the last quicksave."
+#~ msgstr "Åpner siste hurtiglagrede spill."
+
+#~ msgid "Development options"
+#~ msgstr "Utviklingsmuligheter"
+
+#~ msgid "Write debug output only to logfile, not to console. Implies -d."
+#~ msgstr "Write debug output only to logfile, not to console. Implies -d."
+
+#~ msgid "Enable logging for a certain logging module (for developing only)."
+#~ msgstr "Enable logging for a certain logging module (for developing only)."
+
+#~ msgid "Writes log to <filename> instead of to the uh-userdir"
+#~ msgstr "Writes log to <filename> instead of to the uh-userdir"
+
+#~ msgid "For internal use only."
+#~ msgstr "Kun for internt bruk."
+
+#~ msgid "Enable profiling (for developing only)."
+#~ msgstr "Enable profiling (for developing only)."
+
+#~ msgid "A new settlement has been created by ${player}."
+#~ msgstr "En ny bosetting opprettet av ${player}."
+
+#~ msgid "AnimalCarriage"
+#~ msgstr "Dyrekjerre"
+
+#~ msgid "BuildingCollector"
+#~ msgstr "BuildingCollector"
+
+#~ msgid "FarmAnimalCollector"
+#~ msgstr "FarmAnimalCollector"
+
+#~ msgid "FieldCollector"
+#~ msgstr "FieldCollector"
+
+#~ msgid "HunterCollector"
+#~ msgstr "HunterCollector"
+
+#~ msgid "LumberjackCollector"
+#~ msgstr "LumberjackCollector"
+
+#~ msgid "One of your settler has no main square in it's range."
+#~ msgstr "En av dine nybyggere din har ingen markedsplass i rekkevidde."
+
+#~ msgid "SettlerCollector"
+#~ msgstr "SettlerCollector"
+
+#~ msgid "Some of your settlers just moved out."
+#~ msgstr "Noen av bosetterne dine flyttet ut."
+
+#~ msgid "StorageCollector"
+#~ msgstr "StorageCollector"
+
+#~ msgid "Your settlers reached level ${level}."
+#~ msgstr "Dine nybyggere har oppnådd nivå ${level}."
+
+#~ msgid "Configured language %(lang)s at %(place)s could not be loaded"
+#~ msgstr "Ønsket språk %(lang)s i %(place)s kunne ikke lastes"
+
+#~ msgid "There are no saved games to load"
+#~ msgstr "Det finnes ingen lagrede spill å åpne"
+
+#~ msgid "Savegame ver. %d"
+#~ msgstr "Lagret spill ver. %d"
+
+#~ msgid ""
+#~ "WARNING: Incompatible ver. %(ver)d!\n"
+#~ "Need ver. %(need)d!"
+#~ msgstr ""
+#~ "ADVARSEL: Inkompatibel ver. %(ver)d!\n"
+#~ "Trenger ver. %(need)d!"
+
+#~ msgid "INCOMPATIBLE VERSION\n"
+#~ msgstr "Inkompatibel versjon\n"
+
+#~ msgid "You need to select a savegame to delete"
+#~ msgstr "Du må velge et lagret spill før du sletter"
+
+#~ msgid "Do you really want to delete the savegame \"%s\"?"
+#~ msgstr "Vil du virkelig slette det lagrede spillet \"%s\"?"
+
+#~ msgid "Network Error"
+#~ msgstr "Nettverksfeil"
+
+#~ msgid "Map: "
+#~ msgstr "Kart: "
+
+#~ msgid "Players: "
+#~ msgstr "Spillere: "
+
+#~ msgid "Creator: "
+#~ msgstr "Skaper: "
+
+#~ msgid "Difficulty: "
+#~ msgstr "Vanskelighetsgrad: "
+
+#~ msgid "Author: "
+#~ msgstr "Forfatter: "
+
+#~ msgid "You entered an invalid playername"
+#~ msgstr "Du skrev et ugyldig spillernavn"
+
+#~ msgid "Ship inventory"
+#~ msgstr "Innhold i skip"
+
+#~ msgid "Load/Unload:"
+#~ msgstr "Last på/av:"
+
+#~ msgid "Build menu"
+#~ msgstr "Konstruksjonsmeny"
+
+#~ msgid "Destroy"
+#~ msgstr "Ødelegg"
+
+#~ msgid "Game menu"
+#~ msgstr "Hovedmeny"
+
+#~ msgid "Captain's log"
+#~ msgstr "Kapteinens loggbok"
+
+#~ msgid "Build settlement:"
+#~ msgstr "Bygg bosetning:"
+
+#~ msgid "Read prev. entries"
+#~ msgstr "Les tidligere innlegg"
+
+#~ msgid "Error: Cannot find map \"%s\"."
+#~ msgstr "Feil: Kan ikke finne kart \"%s\"."
+
+#~ msgid "Error: Found multiple matches: "
+#~ msgstr "Feil: Fant flere kamper: "
+
+#~ msgid "Error: Cannot find savegame \"%s\"."
+#~ msgstr "Feil: Finner ikke lagret spill \"%s\"."
+
+#~ msgid "You have completed this scenario. "
+#~ msgstr "Du har fullført dette spillet. "
+
+#~ msgid "Saved at %s"
+#~ msgstr "Lagret i %s"
+
+#~ msgid "Unknown savedate\n"
+#~ msgstr "Lagringsdato ukjent\n"
+
+#~ msgid "Saved at %s\n"
+#~ msgstr "Lagret i %s\n"
+
+#~ msgid "Something went wrong with the network: "
+#~ msgstr "Noe gikk galt med nettverket: "
+
+#~ msgid ""
+#~ "The selected file is not a valid scenario file.\n"
+#~ "Error message: "
+#~ msgstr ""
+#~ "Den valgte filen er ikke en gyldig.\n"
+#~ "Feilmelding: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Please report this to the author."
+#~ msgstr ""
+#~ "\n"
+#~ "Vennligst rapporter dette til forfatteren."
+
+#~ msgid "Fishing boat"
+#~ msgstr "Fiskebåt"
+
+#~ msgid "Cutter"
+#~ msgstr "Kutter"
+
+#~ msgid "Herring fisher"
+#~ msgstr "Sildefisker"
+
+#~ msgid "Legend:"
+#~ msgstr "Billedtekst:"
+
+#~ msgid "%H:%M, %A, %B %d"
+#~ msgstr "%H:%M, %A, %B %d"
+
+#~ msgid "Hit P to continue the game or click below!"
+#~ msgstr "Trykk P for og fortsette eller klikk under!"
+
+#~ msgid "One of your settler has no market place in it's range."
+#~ msgstr "En av dine nybyggere din har ingen markedsplass i rekkevidde."
+
+#~ msgid "YOU HAVE WON!!!"
+#~ msgstr "DU VANT!"
+
+#~ msgid "raw clay"
+#~ msgstr "råleire"
+
+#~ msgid "raw sugar"
+#~ msgstr "råsukker"
+
+#~ msgid "Unknown Horizons Version %s"
+#~ msgstr "Unknown Horizons versjon %s"
+
+#~ msgid "Tent_ruin"
+#~ msgstr "Telt_ruin"
+
+#~ msgid "wild animal food 1"
+#~ msgstr "dyrefór 1"
+
+#~ msgid "wild animal meat"
+#~ msgstr "viltkjøtt"
+
+#~ msgid "Could not connect to master server. Details: %s"
+#~ msgstr "Kunne ikke koble til tjener. Detaljer: %s"
+
+#~ msgid "The FIFE and Unknown Horizons"
+#~ msgstr "FIFE og Unknown Horizons"
+
+#~ msgid "development teams"
+#~ msgstr "Utviklingsteam"
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-master commandline option. Port must be a "
+#~ "number between 0 and 65535."
+#~ msgstr ""
+#~ "Error: Invalid syntax in --mp-master commandline option. Port must be a "
+#~ "number between 0 and 65535."
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-bind commandline option. Port must be a "
+#~ "number between 0 and 65535."
+#~ msgstr ""
+#~ "Error: Invalid syntax in --mp-bind commandline option. Port must be a "
+#~ "number between 0 and 65535."
+
+#~ msgid "Load failed. Please try another savefile!"
+#~ msgstr "Åpning av fil mislykkes. Prøv en annen fil!"
+
+#~ msgid "You entered an invalid filename."
+#~ msgstr "Du skrev et ugyldig filnavn."
+
+#~ msgid "Starting unknown horizons"
+#~ msgstr "Starter Unknown Horizons"
+
+#~ msgid "Failed to load fife:"
+#~ msgstr "Kunne ikke åpne FIFE:"
+
+#~ msgid "Chime The Bell"
+#~ msgstr "Ring bjellen"
+
+#~ msgid "Saved %d times\n"
+#~ msgstr "Lagret %d ganger\n"
+
+#~ msgid "The whole FIFE team (www.fifengine.de)"
+#~ msgstr "Hele FIFE teamet(www.fifengine.de)"
+
+#~ msgid "Autosave interval:"
+#~ msgstr "Auto-lagrings intervall:"
+
+# please don't translate anything in <tags> - thanks!
+#~ msgid "Starts <campaign>. <campaign> is the campaignname."
+#~ msgstr "Starter <campaign>. <campaign> er kampanjenavnet."
+
+#~ msgid "Citizen Buildings"
+#~ msgstr "Innbyggeres bygninger"
+
+#~ msgid "Fishing Boats"
+#~ msgstr "Fiskebåter"
+
+#~ msgid "NEW GAME - SINGLEPLAYER"
+#~ msgstr "NYTT SPILL - ENKELTSPILLER"
+
+#~ msgid "NEW GAME - MULTIPLAYER"
+#~ msgstr "NYTT SPILL - FLERSPILLER"
+
+#~ msgid " Help "
+#~ msgstr " Hjelp "
+
+#~ msgid "Building Overview"
+#~ msgstr "Byggingsoversikt"
+
+#~ msgid "The random map features is still in active development. "
+#~ msgstr ""
+#~ "Funksjoner for generering av et tilfeldig kart er fortsatt under "
+#~ "utvikling. "
+
+#~ msgid " Chime The Bell "
+#~ msgstr " Ring med bjella "
+
+#~ msgid "Aristocrat Buildings"
+#~ msgstr "Aristokraters bygninger"
+
+#~ msgid "FarmerCollector"
+#~ msgstr "FarmerCollector"
+
+#~ msgid " Quit "
+#~ msgstr " Avslutt "
+
+#~ msgid "Housing"
+#~ msgstr "Boliger"
+
+#~ msgid "CREATE GAME - MULTIPLAYER"
+#~ msgstr "OPPRETT SPILL - FLERSPILLER"
+
+#~ msgid "Yeah, you made it..."
+#~ msgstr "Du klarte det..."
+
+#~ msgid " Save Game "
+#~ msgstr " Lagre spill "
+
+#~ msgid "But this is a deadlink, sorry."
+#~ msgstr "Men dette er en død lenke, beklager."
+
+#~ msgid "Merchant Buildings"
+#~ msgstr "Kjøpmenns bygninger"
+
+#~ msgid " Continue Game "
+#~ msgstr " Fortsett spillet "
+
+#~ msgid "Terminal debugmode"
+#~ msgstr "Terminal debugmode"
+
+#~ msgid "Production"
+#~ msgstr "Produksjon"
+
+#~ msgid " Settings "
+#~ msgstr " Innstillinger "
+
+#~ msgid "You start the terminal python debugger pdb!"
+#~ msgstr "You start the terminal python debugger pdb!"
+
+#~ msgid "Ship"
+#~ msgstr "Skip"
+
+#~ msgid ""
+#~ "Sugar Field: \n"
+#~ "Produces sugar\n"
+#~ "for rum."
+#~ msgstr ""
+#~ "Sukkerplatasje: \n"
+#~ "Produserer sukker. Trenges for produksjon av rom."
+
+#~ msgid "Running Costs:"
+#~ msgstr "Driftskostnader:"
