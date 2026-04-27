@@ -41,6 +41,22 @@ A valuable source of information specifically for this project would be RTS-spec
 1. Import project, search the Unknown Horizons directory, select `project.godot`.
 1. Open the project from the project manager overview.
 
+## Community map location
+
+Bundled maps are listed in `res://Assets/World/maps_manifest.json`, and `res://Assets/World/World*.tscn` files are also discovered automatically (deduplicated by scene path).
+
+For user-made maps, use `user://maps`:
+
+- Preferred: `user://maps/maps_manifest.json` with a `maps` array of `{ "name", "path" }` entries
+- Also supported: scene files named `World*.tscn` directly inside `user://maps`
+- Optional map display name override: set root node metadata key `MapName` in the map scene
+
+Platform paths for `user://maps`:
+
+- Linux: `~/.local/share/godot/app_userdata/Unknown Horizons/maps`
+- Windows: `%APPDATA%\\Godot\\app_userdata\\Unknown Horizons\\maps`
+- macOS: `~/Library/Application Support/Godot/app_userdata/Unknown Horizons/maps`
+
 ## Coding guidelines
 
 For the most part, the code style follows the [official GDScript style guide](https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_styleguide.html).
