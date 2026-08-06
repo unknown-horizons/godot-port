@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://bvbuafk7d6fdt"]
+[gd_scene format=3 uid="uid://bvbuafk7d6fdt"]
 
 [ext_resource type="Texture2D" uid="uid://dlxs4qk8bs82e" path="res://Assets/UI/Images/TabWidget/main_bg.png" id="2_556hp"]
 [ext_resource type="Script" uid="uid://cq0t7w4r6dg5i" path="res://Assets/UI/TabWidgets/ScrollContainerWithMaxHeight.gd" id="2_r0jft"]
@@ -11,26 +11,27 @@ texture_margin_right = 17.0
 texture_margin_bottom = 80.0
 axis_stretch_vertical = 1
 
-[node name="TabWidget" type="PanelContainer"]
+[node name="TabWidget" type="PanelContainer" unique_id=1587119457]
 custom_minimum_size = Vector2(217, 200)
 mouse_filter = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_ijhoo")
 
-[node name="LeftFloatingPanel" type="MarginContainer" parent="."]
+[node name="LeftFloatingPanel" type="MarginContainer" parent="." unique_id=213821558]
 layout_mode = 2
 theme_override_constants/margin_left = -55
 
-[node name="TabSwitches" type="VBoxContainer" parent="LeftFloatingPanel"]
+[node name="TabSwitches" type="VBoxContainer" parent="LeftFloatingPanel" unique_id=21753186]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 
-[node name="ScrollContainer" type="ScrollContainer" parent="."]
+[node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=1302887323]
+custom_minimum_size = Vector2(0, -198)
 layout_mode = 2
 horizontal_scroll_mode = 0
 script = ExtResource("2_r0jft")
 
-[node name="TabContainer" type="TabContainer" parent="ScrollContainer"]
+[node name="TabContainer" type="TabContainer" parent="ScrollContainer" unique_id=929834647]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3

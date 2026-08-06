@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://cm6yol3av2mwf"]
+[gd_scene format=3 uid="uid://cm6yol3av2mwf"]
 
 [ext_resource type="Script" uid="uid://brivrpv80uaqn" path="res://Assets/World/Context/SelectionBox.gd" id="1_anq3r"]
 
-[node name="SelectionBox" type="Control"]
+[node name="SelectionBox" type="Control" unique_id=865944932]
 z_index = 20
 layout_mode = 3
 anchors_preset = 0

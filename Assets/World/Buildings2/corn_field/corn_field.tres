@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=28 format=3 uid="uid://cbcornfieldtr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbcornfieldtr"]
 
 [ext_resource type="Texture2D" uid="uid://cadtk6oapogx4" path="res://Assets/World/Buildings2/corn_field/corn_field_citizens_as_cornfield0_idle.png" id="corn_field_citizens_as_cornfield0_idle"]
 [ext_resource type="Texture2D" uid="uid://bho7ykbfi2doy" path="res://Assets/World/Buildings2/corn_field/corn_field_citizens_as_cornfield0_idle_full.png" id="corn_field_citizens_as_cornfield0_idle_full"]
@@ -106,7 +106,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("cornfield0_citizens_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cornfield0.citizens.idle.045",
 "speed": 5.0
 }, {
@@ -114,7 +114,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("cornfield0_citizens_idle_135_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cornfield0.citizens.idle.135",
 "speed": 5.0
 }, {
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("cornfield0_citizens_idle_225_0_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cornfield0.citizens.idle.225",
 "speed": 5.0
 }, {
@@ -130,7 +130,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("cornfield0_citizens_idle_315_0_576")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cornfield0.citizens.idle.315",
 "speed": 5.0
 }, {
@@ -138,7 +138,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("cornfield0_citizens_idle_full_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cornfield0.citizens.idle_full.045",
 "speed": 5.0
 }, {
@@ -146,7 +146,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("cornfield0_citizens_idle_full_135_0_107")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cornfield0.citizens.idle_full.135",
 "speed": 5.0
 }, {
@@ -154,7 +154,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("cornfield0_citizens_idle_full_225_0_299")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cornfield0.citizens.idle_full.225",
 "speed": 5.0
 }, {
@@ -162,7 +162,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("cornfield0_citizens_idle_full_315_0_491")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cornfield0.citizens.idle_full.315",
 "speed": 5.0
 }, {
@@ -179,7 +179,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("cornfield0_citizens_work_045_576_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cornfield0.citizens.work.045",
 "speed": 5.0
 }, {
@@ -196,7 +196,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("cornfield0_citizens_work_135_576_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cornfield0.citizens.work.135",
 "speed": 5.0
 }, {
@@ -213,7 +213,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("cornfield0_citizens_work_225_576_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cornfield0.citizens.work.225",
 "speed": 5.0
 }, {
@@ -230,7 +230,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("cornfield0_citizens_work_315_576_576")
 }],
-"loop": true,
+"loop": 1,
 "name": &"cornfield0.citizens.work.315",
 "speed": 5.0
 }]

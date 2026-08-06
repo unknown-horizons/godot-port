@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://dp21wt5lajwxo"]
+[gd_scene format=3 uid="uid://dp21wt5lajwxo"]
 
 [ext_resource type="Texture2D" uid="uid://cje33ynj0lnqi" path="res://Assets/UI/Images/Buttons/close_h.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://bivdx68a62ioq" path="res://Assets/UI/BasicControls/RoundButton.tscn" id="1_7ko44"]
@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cdq2hvl5bwom5" path="res://Assets/UI/Images/Buttons/close_bw.png" id="4"]
 [ext_resource type="Script" uid="uid://bi2x7gojyunwq" path="res://Assets/UI/BasicControls/RoundButtons/CancelButton.gd" id="5"]
 
-[node name="CancelButton" instance=ExtResource("1_7ko44")]
+[node name="CancelButton" unique_id=1381724626 instance=ExtResource("1_7ko44")]
 size_flags_horizontal = 0
 texture_normal = ExtResource("2")
 texture_pressed = ExtResource("2")

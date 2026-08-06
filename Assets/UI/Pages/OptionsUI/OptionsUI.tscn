@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://bbr52afvd6ct"]
+[gd_scene format=3 uid="uid://bbr52afvd6ct"]
 
 [ext_resource type="Script" uid="uid://brko7c7ko6el4" path="res://Assets/UI/Pages/OptionsUI/OptionsUI.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://cnaxabmg2vwxq" path="res://Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn" id="2"]
@@ -6,18 +6,24 @@
 [ext_resource type="PackedScene" uid="uid://b7bjhfwc1b387" path="res://Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn" id="4"]
 [ext_resource type="PackedScene" uid="uid://beqxpjogn1t1" path="res://Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn" id="5"]
 
-[node name="OptionsUI" instance=ExtResource("3")]
+[node name="OptionsUI" unique_id=268966477 instance=ExtResource("3")]
 script = ExtResource("1")
 has_delete_button = true
 has_cancel_button = true
 
-[node name="OptionsUIGame" parent="Pages" index="1" instance=ExtResource("4")]
-layout_mode = 2
+[node name="Pages" parent="." index="0" unique_id=1539569491]
+current_tab = 0
 
-[node name="OptionsUIGraphicsSound" parent="Pages" index="2" instance=ExtResource("2")]
+[node name="OptionsUIGame" parent="Pages" index="1" unique_id=1725918245 instance=ExtResource("4")]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="OptionsUIGraphicsSound" parent="Pages" index="2" unique_id=995943003 instance=ExtResource("2")]
 visible = false
 layout_mode = 2
+metadata/_tab_index = 1
 
-[node name="OptionsUIHotkeys" parent="Pages" index="3" instance=ExtResource("5")]
+[node name="OptionsUIHotkeys" parent="Pages" index="3" unique_id=2131864072 instance=ExtResource("5")]
 visible = false
 layout_mode = 2
+metadata/_tab_index = 2

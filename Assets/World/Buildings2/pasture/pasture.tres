@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=810 format=3 uid="uid://cbpasturetres"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbpasturetres"]
 
 [ext_resource type="Texture2D" uid="uid://c7b4u0x62dwl1" path="res://Assets/World/Buildings2/pasture/pasture_pioneers_as_pasture0_idle.png" id="pasture_pioneers_as_pasture0_idle"]
 [ext_resource type="Texture2D" uid="uid://bslhmkw58pnn7" path="res://Assets/World/Buildings2/pasture/pasture_pioneers_as_pasture0_work_045.png" id="pasture_pioneers_as_pasture0_work_045"]
@@ -3228,7 +3228,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pasture0_pioneers_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pasture0.pioneers.idle.045",
 "speed": 5.0
 }, {
@@ -3236,7 +3236,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pasture0_pioneers_idle_135_0_109")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pasture0.pioneers.idle.135",
 "speed": 5.0
 }, {
@@ -3244,7 +3244,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pasture0_pioneers_idle_225_0_218")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pasture0.pioneers.idle.225",
 "speed": 5.0
 }, {
@@ -3252,7 +3252,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pasture0_pioneers_idle_315_0_327")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pasture0.pioneers.idle.315",
 "speed": 5.0
 }, {
@@ -3857,7 +3857,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pasture0_pioneers_work_045_192_1962")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pasture0.pioneers.work.045",
 "speed": 5.0
 }, {
@@ -4462,7 +4462,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pasture0_pioneers_work_135_192_1962")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pasture0.pioneers.work.135",
 "speed": 5.0
 }, {
@@ -5067,7 +5067,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pasture0_pioneers_work_225_192_1962")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pasture0.pioneers.work.225",
 "speed": 5.0
 }, {
@@ -5672,7 +5672,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pasture0_pioneers_work_315_192_1962")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pasture0.pioneers.work.315",
 "speed": 5.0
 }]

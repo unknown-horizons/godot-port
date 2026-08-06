@@ -1,61 +1,61 @@
-[gd_scene load_steps=5 format=3 uid="uid://cc448s5pvpnnh"]
+[gd_scene format=3 uid="uid://cc448s5pvpnnh"]
 
 [ext_resource type="Script" uid="uid://lqgqyes03ntv" path="res://Assets/UI/InfoWidgets/BuildingCostResourcesOverlay.gd" id="1_xp6md"]
 [ext_resource type="PackedScene" uid="uid://dlhf2ogaavw55" path="res://Assets/UI/BasicControls/ResourceDisplaySlot.tscn" id="2_0cevj"]
 [ext_resource type="StyleBox" uid="uid://s1axb1i3uxdu" path="res://Assets/UI/Images/Background/Widgets/res_mon_extra_bg.tres" id="3_q5n0o"]
 [ext_resource type="Script" uid="uid://cmbn4aho13rme" path="res://Assets/UI/BasicControls/LabelEx.gd" id="4_mu42e"]
 
-[node name="BuildingCostResourcesOverlay" type="HBoxContainer"]
+[node name="BuildingCostResourcesOverlay" type="HBoxContainer" unique_id=1905134471]
 script = ExtResource("1_xp6md")
 metadata/_tab_index = 1
 
-[node name="ToolsDisplay" type="VBoxContainer" parent="."]
+[node name="ToolsDisplay" type="VBoxContainer" parent="." unique_id=496479009]
 layout_mode = 2
 theme_override_constants/separation = 0
 
-[node name="ToolsDisplay" parent="ToolsDisplay" instance=ExtResource("2_0cevj")]
+[node name="ToolsDisplay" parent="ToolsDisplay" unique_id=751174087 instance=ExtResource("2_0cevj")]
 layout_mode = 2
 resource_type = &"TOOLS"
 
-[node name="PanelContainer" type="PanelContainer" parent="ToolsDisplay"]
+[node name="PanelContainer" type="PanelContainer" parent="ToolsDisplay" unique_id=176113344]
 visible = false
 layout_mode = 2
 theme_override_styles/panel = ExtResource("3_q5n0o")
 
-[node name="BuildCostDisplay" type="Label" parent="ToolsDisplay/PanelContainer"]
+[node name="BuildCostDisplay" type="Label" parent="ToolsDisplay/PanelContainer" unique_id=1331245292]
 layout_mode = 2
 script = ExtResource("4_mu42e")
 
-[node name="BoardsDisplay" type="VBoxContainer" parent="."]
+[node name="BoardsDisplay" type="VBoxContainer" parent="." unique_id=1955302652]
 layout_mode = 2
 theme_override_constants/separation = 0
 
-[node name="BoardsDisplay" parent="BoardsDisplay" instance=ExtResource("2_0cevj")]
+[node name="BoardsDisplay" parent="BoardsDisplay" unique_id=540890047 instance=ExtResource("2_0cevj")]
 layout_mode = 2
 resource_type = &"BOARDS"
 
-[node name="PanelContainer" type="PanelContainer" parent="BoardsDisplay"]
+[node name="PanelContainer" type="PanelContainer" parent="BoardsDisplay" unique_id=1588982924]
 visible = false
 layout_mode = 2
 theme_override_styles/panel = ExtResource("3_q5n0o")
 
-[node name="BuildCostDisplay" type="Label" parent="BoardsDisplay/PanelContainer"]
+[node name="BuildCostDisplay" type="Label" parent="BoardsDisplay/PanelContainer" unique_id=935918999]
 layout_mode = 2
 script = ExtResource("4_mu42e")
 
-[node name="BricksDisplay" type="VBoxContainer" parent="."]
+[node name="BricksDisplay" type="VBoxContainer" parent="." unique_id=684208545]
 layout_mode = 2
 theme_override_constants/separation = 0
 
-[node name="BricksDisplay" parent="BricksDisplay" instance=ExtResource("2_0cevj")]
+[node name="BricksDisplay" parent="BricksDisplay" unique_id=434677735 instance=ExtResource("2_0cevj")]
 layout_mode = 2
 resource_type = &"BRICKS"
 
-[node name="PanelContainer" type="PanelContainer" parent="BricksDisplay"]
+[node name="PanelContainer" type="PanelContainer" parent="BricksDisplay" unique_id=159502614]
 visible = false
 layout_mode = 2
 theme_override_styles/panel = ExtResource("3_q5n0o")
 
-[node name="BuildCostDisplay" type="Label" parent="BricksDisplay/PanelContainer"]
+[node name="BuildCostDisplay" type="Label" parent="BricksDisplay/PanelContainer" unique_id=1655295616]
 layout_mode = 2
 script = ExtResource("4_mu42e")

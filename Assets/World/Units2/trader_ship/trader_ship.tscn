@@ -1,20 +1,19 @@
-[gd_scene load_steps=8 format=3 uid="uid://cutradershits"]
+[gd_scene format=3 uid="uid://cutradershits"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
 [ext_resource type="SpriteFrames" uid="uid://cutradershitr" path="res://Assets/World/Units2/trader_ship/trader_ship.tres" id="4_sprite_frames"]
 
-[node name="Trader" type="Node2D"]
+[node name="Trader" type="Node2D" unique_id=1472628009]
 script = ExtResource("1_script_gd")
 baseclass = "ship.TradeShip"
 radius = 8
-velocity = 12.0
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=1011412750 instance=ExtResource("2_selectable_component")]
 type = "ship"
 tabs = Array[String](["TraderShipOverviewTab"])
 enemy_tabs = Array[String](["TraderShipOverviewTab"])
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=979219240 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

@@ -1,46 +1,44 @@
-[gd_scene load_steps=5 format=3 uid="uid://cnaxabmg2vwxq"]
+[gd_scene format=3 uid="uid://cnaxabmg2vwxq"]
 
 [ext_resource type="PackedScene" uid="uid://b4gq47ckhaow6" path="res://Assets/UI/BasicControls/OptionButtonEx.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://den73347r5don" path="res://Assets/UI/BasicControls/HSliderEx.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://c7vej07bi5fee" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="5"]
 
-[node name="OptionsUIGraphicsSound" instance=ExtResource("5")]
+[node name="OptionsUIGraphicsSound" unique_id=1075060132 instance=ExtResource("5")]
 
-[node name="Graphics" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="0" instance=ExtResource("3")]
-layout_mode = 2
-text = "Graphics"
-
-[node name="GraphicsOptions" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="1"]
+[node name="Graphics" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" parent_id_path=PackedInt32Array(453020282) index="0" unique_id=1603990569 instance=ExtResource("3")]
 layout_mode = 2
 
-[node name="WindowMode" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GraphicsOptions" index="0" instance=ExtResource("1")]
+[node name="GraphicsOptions" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" parent_id_path=PackedInt32Array(453020282) index="1" unique_id=314767822]
+layout_mode = 2
+
+[node name="WindowMode" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GraphicsOptions" index="0" unique_id=22435034 instance=ExtResource("1")]
 layout_mode = 2
 description = "Window mode:"
 
-[node name="ScreenResolution" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GraphicsOptions" index="1" instance=ExtResource("1")]
+[node name="ScreenResolution" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GraphicsOptions" index="1" unique_id=1803160766 instance=ExtResource("1")]
 layout_mode = 2
 description = "Screen resolution:"
 
-[node name="Sound" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="0" instance=ExtResource("3")]
-layout_mode = 2
-text = "Sound"
-
-[node name="SoundOptions" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="1"]
+[node name="Sound" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" parent_id_path=PackedInt32Array(500071854) index="0" unique_id=711709046 instance=ExtResource("3")]
 layout_mode = 2
 
-[node name="MasterVolume" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/SoundOptions" index="0" instance=ExtResource("2")]
+[node name="SoundOptions" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" parent_id_path=PackedInt32Array(500071854) index="1" unique_id=269433228]
+layout_mode = 2
+
+[node name="MasterVolume" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/SoundOptions" index="0" unique_id=545864209 instance=ExtResource("2")]
 layout_mode = 2
 description = "Master volume:"
 
-[node name="MusicVolume" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/SoundOptions" index="1" instance=ExtResource("2")]
+[node name="MusicVolume" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/SoundOptions" index="1" unique_id=1406372232 instance=ExtResource("2")]
 layout_mode = 2
 description = "Music volume:"
 
-[node name="EffectsVolume" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/SoundOptions" index="2" instance=ExtResource("2")]
+[node name="EffectsVolume" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/SoundOptions" index="2" unique_id=109706205 instance=ExtResource("2")]
 layout_mode = 2
 description = "Effects volume:"
 
-[node name="VoiceVolume" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/SoundOptions" index="3" instance=ExtResource("2")]
+[node name="VoiceVolume" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/SoundOptions" index="3" unique_id=1523974491 instance=ExtResource("2")]
 layout_mode = 2
 description = "Voice volume:"

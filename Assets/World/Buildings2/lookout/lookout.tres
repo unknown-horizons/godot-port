@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cblookouttres"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cblookouttres"]
 
 [ext_resource type="Texture2D" uid="uid://dcn75w6t3iwyp" path="res://Assets/World/Buildings2/lookout/lookout_sailors_as_lookout0_idle.png" id="lookout_sailors_as_lookout0_idle"]
 
@@ -24,7 +24,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lookout0_sailors_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lookout0.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -32,7 +32,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lookout0_sailors_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lookout0.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -40,7 +40,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lookout0_sailors_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lookout0.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -48,7 +48,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lookout0_sailors_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lookout0.sailors.idle.315",
 "speed": 5.0
 }]

@@ -1,44 +1,44 @@
-[gd_scene load_steps=5 format=3 uid="uid://dkhdvvwy61h7t"]
+[gd_scene format=3 uid="uid://dkhdvvwy61h7t"]
 
 [ext_resource type="Script" uid="uid://f1hjaleg518f" path="res://Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.gd" id="1_tyf8i"]
 [ext_resource type="Texture2D" uid="uid://ebdxvc8tgdcn" path="res://Assets/UI/Icons/Resources/cap_util.png" id="4"]
 [ext_resource type="Texture2D" uid="uid://ca7bqqg6whjrs" path="res://Assets/UI/Icons/Resources/running_costs.png" id="5"]
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="6"]
 
-[node name="ProductionBasicInfo" type="MarginContainer"]
+[node name="ProductionBasicInfo" type="MarginContainer" unique_id=572261070]
 custom_minimum_size = Vector2(217, 28)
 offset_right = 217.0
 offset_bottom = 28.0
 script = ExtResource("1_tyf8i")
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1250242687]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer" unique_id=1925004646]
 layout_mode = 2
 size_flags_horizontal = 6
 
-[node name="TextureRect" type="TextureRect" parent="HBoxContainer/HBoxContainer"]
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/HBoxContainer" unique_id=1757567486]
 layout_mode = 2
 size_flags_vertical = 4
 texture = ExtResource("5")
 
-[node name="LabelEx" parent="HBoxContainer/HBoxContainer" instance=ExtResource("6")]
+[node name="LabelEx" parent="HBoxContainer/HBoxContainer" unique_id=306912548 instance=ExtResource("6")]
 custom_minimum_size = Vector2(30, 0)
 layout_mode = 2
 size_flags_vertical = 4
 text = "0"
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer" unique_id=1317518234]
 layout_mode = 2
 size_flags_horizontal = 10
 
-[node name="TextureRect" type="TextureRect" parent="HBoxContainer/HBoxContainer2"]
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/HBoxContainer2" unique_id=1247601024]
 layout_mode = 2
 size_flags_vertical = 4
 texture = ExtResource("4")
 
-[node name="LabelEx" parent="HBoxContainer/HBoxContainer2" instance=ExtResource("6")]
+[node name="LabelEx" parent="HBoxContainer/HBoxContainer2" unique_id=1636093064 instance=ExtResource("6")]
 custom_minimum_size = Vector2(30, 0)
 layout_mode = 2
 size_flags_vertical = 4

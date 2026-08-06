@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cbfishertres0"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbfishertres0"]
 
 [ext_resource type="Texture2D" uid="uid://n88jrlp3unhv" path="res://Assets/World/Buildings2/fisher/fisher_sailors_as_fisherman0_idle.png" id="fisher_sailors_as_fisherman0_idle"]
 
@@ -24,7 +24,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisherman0_sailors_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisherman0.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -32,7 +32,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisherman0_sailors_idle_135_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisherman0.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -40,7 +40,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisherman0_sailors_idle_225_0_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisherman0.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -48,7 +48,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisherman0_sailors_idle_315_0_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisherman0.sailors.idle.315",
 "speed": 5.0
 }]

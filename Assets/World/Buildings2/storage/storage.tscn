@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://cbstoragetscn"]
+[gd_scene format=3 uid="uid://cbstoragetscn"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -7,32 +7,31 @@
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 [ext_resource type="PackedScene" uid="uid://bw7vhkspeuvnf" path="res://Assets/World/Components/Storages/SettlementStorageComponent/SettlementStorageComponent.tscn" id="5_settlement_storage_component"]
 
-[node name="storage" type="Node2D"]
+[node name="storage" type="Node2D" unique_id=1163794891]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.STORAGE"
 baseclass = "storages.StorageTent"
 game_name_per_tier = Dictionary[StringName, String]({
-&"SAILORS": "_ Storage Tent",
-&"PIONEERS": "_ Storage Hut"
+&"PIONEERS": "_ Storage Hut",
+&"SAILORS": "_ Storage Tent"
 })
 radius = 17
 cost = 10
-cost_inactive = 0
 size = Vector2i(2, 2)
 inhabitants = 1
 tooltip_text = "_ Extends stock, expands settlement range and provides collectors."
 tier = "TIER.SAILORS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=967722907 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["AccountTab", "InventoryTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=1988500068 instance=ExtResource("5_health_component")]
 max_health = 1000
 
-[node name="SettlementStorageComponent" parent="." instance=ExtResource("5_settlement_storage_component")]
+[node name="SettlementStorageComponent" parent="." unique_id=1766429852 instance=ExtResource("5_settlement_storage_component")]
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=196792960 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")
 current_as_name = ""

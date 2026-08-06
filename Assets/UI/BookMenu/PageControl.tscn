@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://ex0tmx5bf24i"]
+[gd_scene format=3 uid="uid://ex0tmx5bf24i"]
 
 [ext_resource type="Texture2D" uid="uid://bnwfjxrj4eeh7" path="res://Assets/UI/Images/Buttons/parrow_left_d.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dfwqk3wv3va8i" path="res://Assets/UI/Images/Buttons/parrow_right_bw.png" id="2"]
@@ -11,7 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://bivdx68a62ioq" path="res://Assets/UI/BasicControls/RoundButton.tscn" id="9"]
 [ext_resource type="Script" uid="uid://dvlcplxccjoma" path="res://Assets/UI/BookMenu/PageControlButton.gd" id="10"]
 
-[node name="PageControl" type="HBoxContainer"]
+[node name="PageControl" type="HBoxContainer" unique_id=1833166529]
 offset_top = 450.0
 offset_right = 300.0
 offset_bottom = 490.0
@@ -19,7 +19,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 10
 size_flags_stretch_ratio = 0.2
 
-[node name="PrevButton" parent="." instance=ExtResource("9")]
+[node name="PrevButton" parent="." unique_id=1328637193 instance=ExtResource("9")]
 layout_mode = 2
 texture_normal = ExtResource("7")
 texture_pressed = ExtResource("1")
@@ -27,7 +27,7 @@ texture_hover = ExtResource("8")
 texture_disabled = ExtResource("3")
 script = ExtResource("10")
 
-[node name="NextButton" parent="." instance=ExtResource("9")]
+[node name="NextButton" parent="." unique_id=44933927 instance=ExtResource("9")]
 layout_mode = 2
 texture_normal = ExtResource("5")
 texture_pressed = ExtResource("6")

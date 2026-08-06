@@ -1,10 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://c4e812pijkjhi"]
+[gd_scene format=3 uid="uid://c4e812pijkjhi"]
 
 [ext_resource type="Script" uid="uid://bxehmtu263yma" path="res://Assets/UI/InfoWidgets/ResourcesOverlay.gd" id="1_24h02"]
 [ext_resource type="PackedScene" uid="uid://cc448s5pvpnnh" path="res://Assets/UI/InfoWidgets/BuildingCostResourcesOverlay.tscn" id="2_bgvoy"]
 [ext_resource type="PackedScene" uid="uid://brf8ay66sla7p" path="res://Assets/UI/BasicControls/ResourceSelection.tscn" id="3_77sbr"]
 
-[node name="ResourcesOverlay" type="Control"]
+[node name="ResourcesOverlay" type="Control" unique_id=540875084]
 custom_minimum_size = Vector2(1024, 64)
 layout_mode = 3
 anchors_preset = 0
@@ -14,7 +14,7 @@ size_flags_vertical = 0
 mouse_filter = 1
 script = ExtResource("1_24h02")
 
-[node name="Overlays" type="TabContainer" parent="."]
+[node name="Overlays" type="TabContainer" parent="." unique_id=116717884]
 unique_name_in_owner = true
 layout_mode = 1
 offset_right = 1024.0
@@ -23,17 +23,17 @@ current_tab = 0
 tabs_visible = false
 metadata/_edit_use_anchors_ = true
 
-[node name="ResourcesOverlayCustom" type="HBoxContainer" parent="Overlays"]
+[node name="ResourcesOverlayCustom" type="HBoxContainer" parent="Overlays" unique_id=488016833]
 unique_name_in_owner = true
 layout_mode = 2
 metadata/_tab_index = 0
 
-[node name="BuildingCostResourcesOverlay" parent="Overlays" instance=ExtResource("2_bgvoy")]
+[node name="BuildingCostResourcesOverlay" parent="Overlays" unique_id=763883226 instance=ExtResource("2_bgvoy")]
 unique_name_in_owner = true
 visible = false
 layout_mode = 2
 
-[node name="ResourceSelection" parent="." instance=ExtResource("3_77sbr")]
+[node name="ResourceSelection" parent="." unique_id=385987183 instance=ExtResource("3_77sbr")]
 visible = false
 layout_mode = 1
 anchors_preset = -1

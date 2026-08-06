@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=695 format=3 uid="uid://cufrigatetres"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cufrigatetres"]
 
 [ext_resource type="Texture2D" uid="uid://b7pcjf6g8q487" path="res://Assets/World/Units2/frigate/frigate_sailors_as_frigate0_fire_left.png" id="frigate_sailors_as_frigate0_fire_left"]
 [ext_resource type="Texture2D" uid="uid://vuolaob7tglu" path="res://Assets/World/Units2/frigate/frigate_sailors_as_frigate0_fire_right.png" id="frigate_sailors_as_frigate0_fire_right"]
@@ -2894,7 +2894,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_left_000_10496_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_left.000",
 "speed": 5.0
 }, {
@@ -3028,7 +3028,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_left_045_10752_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_left.045",
 "speed": 5.0
 }, {
@@ -3159,7 +3159,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_left_090_10496_512")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_left.090",
 "speed": 5.0
 }, {
@@ -3290,7 +3290,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_left_135_10496_768")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_left.135",
 "speed": 5.0
 }, {
@@ -3421,7 +3421,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_left_180_10496_1024")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_left.180",
 "speed": 5.0
 }, {
@@ -3552,7 +3552,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_left_225_10496_1280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_left.225",
 "speed": 5.0
 }, {
@@ -3683,7 +3683,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_left_270_10496_1536")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_left.270",
 "speed": 5.0
 }, {
@@ -3814,7 +3814,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_left_315_10496_1792")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_left.315",
 "speed": 5.0
 }, {
@@ -3945,7 +3945,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_right_000_10496_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_right.000",
 "speed": 5.0
 }, {
@@ -4079,7 +4079,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_right_045_10752_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_right.045",
 "speed": 5.0
 }, {
@@ -4210,7 +4210,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_right_090_10496_512")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_right.090",
 "speed": 5.0
 }, {
@@ -4341,7 +4341,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_right_135_10496_768")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_right.135",
 "speed": 5.0
 }, {
@@ -4472,7 +4472,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_right_180_10496_1024")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_right.180",
 "speed": 5.0
 }, {
@@ -4603,7 +4603,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_right_225_10496_1280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_right.225",
 "speed": 5.0
 }, {
@@ -4734,7 +4734,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_right_270_10496_1536")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_right.270",
 "speed": 5.0
 }, {
@@ -4865,7 +4865,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_fire_right_315_10496_1792")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.fire_right.315",
 "speed": 5.0
 }, {
@@ -4873,7 +4873,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.idle.000",
 "speed": 5.0
 }, {
@@ -4881,7 +4881,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_idle_045_0_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -4889,7 +4889,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_idle_090_0_512")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.idle.090",
 "speed": 5.0
 }, {
@@ -4897,7 +4897,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_idle_135_0_768")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -4905,7 +4905,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_idle_180_0_1024")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.idle.180",
 "speed": 5.0
 }, {
@@ -4913,7 +4913,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_idle_225_0_1280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -4921,7 +4921,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_idle_270_0_1536")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.idle.270",
 "speed": 5.0
 }, {
@@ -4929,7 +4929,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_idle_315_0_1792")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.idle.315",
 "speed": 5.0
 }, {
@@ -4937,7 +4937,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_move_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.move.000",
 "speed": 5.0
 }, {
@@ -4945,7 +4945,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_move_045_0_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.move.045",
 "speed": 5.0
 }, {
@@ -4953,7 +4953,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_move_090_0_512")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.move.090",
 "speed": 5.0
 }, {
@@ -4961,7 +4961,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_move_135_0_768")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.move.135",
 "speed": 5.0
 }, {
@@ -4969,7 +4969,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_move_180_0_1024")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.move.180",
 "speed": 5.0
 }, {
@@ -4977,7 +4977,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_move_225_0_1280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.move.225",
 "speed": 5.0
 }, {
@@ -4985,7 +4985,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_move_270_0_1536")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.move.270",
 "speed": 5.0
 }, {
@@ -4993,7 +4993,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("frigate0_sailors_move_315_0_1792")
 }],
-"loop": true,
+"loop": 1,
 "name": &"frigate0.sailors.move.315",
 "speed": 5.0
 }]
