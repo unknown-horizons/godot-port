@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://mfw66ys7s1bq"]
+[gd_scene format=3 uid="uid://mfw66ys7s1bq"]
 
 [ext_resource type="Script" uid="uid://ddncpha77448x" path="res://Assets/UI/TabWidgets/Views/AccountTab.gd" id="1_f8uv7"]
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="1_ovo35"]
@@ -13,7 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://ebdxvc8tgdcn" path="res://Assets/UI/Icons/Resources/cap_util.png" id="13"]
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="14"]
 
-[node name="AccountTab" type="VBoxContainer"]
+[node name="AccountTab" type="VBoxContainer" unique_id=922398757]
 custom_minimum_size = Vector2(200, 0)
 anchors_preset = 15
 anchor_right = 1.0
@@ -22,55 +22,55 @@ offset_right = -1383.0
 offset_bottom = -602.0
 script = ExtResource("1_f8uv7")
 
-[node name="CaptionBlock" parent="." instance=ExtResource("1_ovo35")]
+[node name="CaptionBlock" parent="." unique_id=1726587141 instance=ExtResource("1_ovo35")]
 layout_mode = 2
 caption_text = "Account tab"
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1732343409]
 layout_mode = 2
 theme_override_constants/margin_left = 6
 theme_override_constants/margin_right = 20
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1867898392]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=1123826672]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=1891855725]
 layout_mode = 2
 texture = ExtResource("13")
 
-[node name="GoldLabel" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("14")]
+[node name="GoldLabel" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=1293218064 instance=ExtResource("14")]
 unique_name_in_owner = true
 layout_mode = 2
 text = "---"
 
-[node name="LabelEx" parent="MarginContainer/VBoxContainer" instance=ExtResource("14")]
+[node name="LabelEx" parent="MarginContainer/VBoxContainer" unique_id=1838289839 instance=ExtResource("14")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_bpcj4")
 theme_override_font_sizes/font_size = 18
 text = "Income:"
 font_style = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=221563969]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer2"]
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer2" unique_id=1982572114]
 custom_minimum_size = Vector2(18, 0)
 layout_mode = 2
 texture = ExtResource("10")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="LabelEx" parent="MarginContainer/VBoxContainer/HBoxContainer2" instance=ExtResource("14")]
+[node name="LabelEx" parent="MarginContainer/VBoxContainer/HBoxContainer2" unique_id=1102137934 instance=ExtResource("14")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
 theme_override_font_sizes/font_size = 16
 text = "Taxes"
 font_style = 9
 
-[node name="TaxesLabel" parent="MarginContainer/VBoxContainer/HBoxContainer2" instance=ExtResource("14")]
+[node name="TaxesLabel" parent="MarginContainer/VBoxContainer/HBoxContainer2" unique_id=1862357464 instance=ExtResource("14")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
@@ -79,24 +79,24 @@ text = "0"
 horizontal_alignment = 2
 font_style = 9
 
-[node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=910069360]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer3"]
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer3" unique_id=1614441797]
 custom_minimum_size = Vector2(18, 0)
 layout_mode = 2
 texture = ExtResource("12")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="LabelEx" parent="MarginContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("14")]
+[node name="LabelEx" parent="MarginContainer/VBoxContainer/HBoxContainer3" unique_id=1491131649 instance=ExtResource("14")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
 theme_override_font_sizes/font_size = 16
 text = "Sale"
 font_style = 9
 
-[node name="SaleLabel" parent="MarginContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("14")]
+[node name="SaleLabel" parent="MarginContainer/VBoxContainer/HBoxContainer3" unique_id=881849882 instance=ExtResource("14")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
@@ -105,24 +105,24 @@ text = "0"
 horizontal_alignment = 2
 font_style = 9
 
-[node name="LabelEx2" parent="MarginContainer/VBoxContainer" instance=ExtResource("14")]
+[node name="LabelEx2" parent="MarginContainer/VBoxContainer" unique_id=1171413872 instance=ExtResource("14")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_bpcj4")
 theme_override_font_sizes/font_size = 18
 text = "Expenses:"
 font_style = 1
 
-[node name="HBoxContainer4" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="HBoxContainer4" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=1160686366]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer4"]
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer4" unique_id=1119682815]
 custom_minimum_size = Vector2(18, 0)
 layout_mode = 2
 texture = ExtResource("9")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="LabelEx" parent="MarginContainer/VBoxContainer/HBoxContainer4" instance=ExtResource("14")]
+[node name="LabelEx" parent="MarginContainer/VBoxContainer/HBoxContainer4" unique_id=1506488816 instance=ExtResource("14")]
 layout_mode = 2
 size_flags_stretch_ratio = 4.0
 theme_override_fonts/font = ExtResource("6_juqhn")
@@ -130,7 +130,7 @@ theme_override_font_sizes/font_size = 16
 text = "Running costs"
 font_style = 9
 
-[node name="RunningCostsLabel" parent="MarginContainer/VBoxContainer/HBoxContainer4" instance=ExtResource("14")]
+[node name="RunningCostsLabel" parent="MarginContainer/VBoxContainer/HBoxContainer4" unique_id=1068567794 instance=ExtResource("14")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
@@ -139,24 +139,24 @@ text = "0"
 horizontal_alignment = 2
 font_style = 9
 
-[node name="HBoxContainer5" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="HBoxContainer5" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=1574544868]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer5"]
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer5" unique_id=636532372]
 custom_minimum_size = Vector2(18, 0)
 layout_mode = 2
 texture = ExtResource("11")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="LabelEx" parent="MarginContainer/VBoxContainer/HBoxContainer5" instance=ExtResource("14")]
+[node name="LabelEx" parent="MarginContainer/VBoxContainer/HBoxContainer5" unique_id=873991463 instance=ExtResource("14")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
 theme_override_font_sizes/font_size = 16
 text = "Buying"
 font_style = 9
 
-[node name="BuyingLabel" parent="MarginContainer/VBoxContainer/HBoxContainer5" instance=ExtResource("14")]
+[node name="BuyingLabel" parent="MarginContainer/VBoxContainer/HBoxContainer5" unique_id=562514294 instance=ExtResource("14")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
@@ -165,28 +165,28 @@ text = "0"
 horizontal_alignment = 2
 font_style = 9
 
-[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer" unique_id=726509343]
 layout_mode = 2
 theme_override_constants/margin_top = 5
 
-[node name="HBoxContainer6" type="HBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer"]
+[node name="HBoxContainer6" type="HBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer" unique_id=1434113327]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer6"]
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer6" unique_id=1084930236]
 custom_minimum_size = Vector2(18, 0)
 layout_mode = 2
 texture = ExtResource("8")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="LabelEx" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer6" instance=ExtResource("14")]
+[node name="LabelEx" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer6" unique_id=825030434 instance=ExtResource("14")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_bpcj4")
 theme_override_font_sizes/font_size = 18
 text = "Balance"
 font_style = 1
 
-[node name="BalanceLabel" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer6" instance=ExtResource("14")]
+[node name="BalanceLabel" parent="MarginContainer/VBoxContainer/MarginContainer/HBoxContainer6" unique_id=796368263 instance=ExtResource("14")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_juqhn")
@@ -195,10 +195,10 @@ text = "0"
 horizontal_alignment = 2
 font_style = 9
 
-[node name="MarginContainer2" type="MarginContainer" parent="."]
+[node name="MarginContainer2" type="MarginContainer" parent="." unique_id=205707336]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer2"]
+[node name="TextureRect" type="TextureRect" parent="MarginContainer2" unique_id=721471427]
 layout_mode = 2
 size_flags_horizontal = 8
 texture = ExtResource("7")

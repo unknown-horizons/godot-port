@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://dtee0xbn3mwpi"]
+[gd_scene format=3 uid="uid://dtee0xbn3mwpi"]
 
 [ext_resource type="Script" uid="uid://cphf0gnf61fjb" path="res://Assets/UI/TabWidgets/Views/MainSquareTierTab.gd" id="1_r3fgk"]
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="2_7776g"]
@@ -16,38 +16,38 @@
 [ext_resource type="Texture2D" uid="uid://bmil7lsqeo4l" path="res://Assets/UI/Icons/Widgets/CityInfo/house_small.png" id="13_scrrw"]
 [ext_resource type="Texture2D" uid="uid://o3aikxwqsv82" path="res://Assets/UI/Icons/Widgets/CityInfo/inhabitants_small.png" id="14_ig7kx"]
 
-[node name="MainSquareTierTab" type="VBoxContainer"]
-script = ExtResource("1_r3fgk")
+[node name="MainSquareTierTab" type="VBoxContainer" unique_id=1234053444]
 custom_minimum_size = Vector2(217, 358)
 anchors_preset = -1
 anchor_right = 0.136
 anchor_bottom = 0.398
 offset_right = -0.600006
 offset_bottom = -0.200043
+script = ExtResource("1_r3fgk")
 
-[node name="CaptionBlock" parent="." instance=ExtResource("2_7776g")]
+[node name="CaptionBlock" parent="." unique_id=1440342714 instance=ExtResource("2_7776g")]
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=228903434]
 layout_mode = 2
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_right = 10
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1927762841]
 layout_mode = 2
 
-[node name="TaxesControl" parent="MarginContainer/VBoxContainer" instance=ExtResource("2_r3fgk")]
+[node name="TaxesControl" parent="MarginContainer/VBoxContainer" unique_id=702855895 instance=ExtResource("2_r3fgk")]
 unique_name_in_owner = true
 layout_mode = 2
 
-[node name="LabelEx" parent="MarginContainer/VBoxContainer" instance=ExtResource("3_7776g")]
+[node name="LabelEx" parent="MarginContainer/VBoxContainer" unique_id=893057939 instance=ExtResource("3_7776g")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_gel2r")
 theme_override_font_sizes/font_size = 16
 text = "Upgrade permissions:"
 font_style = 9
 
-[node name="AllowButton" parent="MarginContainer/VBoxContainer" instance=ExtResource("5_w8wnx")]
+[node name="AllowButton" parent="MarginContainer/VBoxContainer" unique_id=1464339491 instance=ExtResource("5_w8wnx")]
 custom_minimum_size = Vector2(32, 32)
 layout_mode = 2
 size_flags_horizontal = 0
@@ -59,51 +59,51 @@ texture_normal_initial = ExtResource("6_kxlbl")
 texture_hover_initial = ExtResource("7_hn5x0")
 texture_normal_alternate = ExtResource("8_tlrvm")
 
-[node name="TextureRect" parent="MarginContainer/VBoxContainer/AllowButton" index="0"]
+[node name="TextureRect" parent="MarginContainer/VBoxContainer/AllowButton" index="0" unique_id=455119987]
 visible = false
 
-[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer" unique_id=2035209452]
 layout_mode = 2
 
-[node name="LabelEx2" parent="MarginContainer/VBoxContainer" instance=ExtResource("3_7776g")]
+[node name="LabelEx2" parent="MarginContainer/VBoxContainer" unique_id=1521023976 instance=ExtResource("3_7776g")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("9_h71qr")
 theme_override_font_sizes/font_size = 18
 text = "Happiness per house"
 font_style = 1
 
-[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer"]
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer" unique_id=1495555222]
 layout_mode = 2
 columns = 4
 
-[node name="Control" type="Control" parent="MarginContainer/VBoxContainer/GridContainer"]
+[node name="Control" type="Control" parent="MarginContainer/VBoxContainer/GridContainer" unique_id=539956704]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/GridContainer"]
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/GridContainer" unique_id=736434262]
 custom_minimum_size = Vector2(48, 0)
 layout_mode = 2
 texture = ExtResource("10_4kuv1")
 stretch_mode = 5
 
-[node name="TextureRect2" type="TextureRect" parent="MarginContainer/VBoxContainer/GridContainer"]
+[node name="TextureRect2" type="TextureRect" parent="MarginContainer/VBoxContainer/GridContainer" unique_id=393591662]
 custom_minimum_size = Vector2(48, 0)
 layout_mode = 2
 texture = ExtResource("11_eqolo")
 stretch_mode = 5
 
-[node name="TextureRect3" type="TextureRect" parent="MarginContainer/VBoxContainer/GridContainer"]
+[node name="TextureRect3" type="TextureRect" parent="MarginContainer/VBoxContainer/GridContainer" unique_id=1799706833]
 custom_minimum_size = Vector2(48, 0)
 layout_mode = 2
 texture = ExtResource("12_8foqk")
 stretch_mode = 5
 
-[node name="TextureRect4" type="TextureRect" parent="MarginContainer/VBoxContainer/GridContainer"]
+[node name="TextureRect4" type="TextureRect" parent="MarginContainer/VBoxContainer/GridContainer" unique_id=1389926580]
 layout_mode = 2
 texture = ExtResource("13_scrrw")
 stretch_mode = 5
 
-[node name="SadHousesCount" parent="MarginContainer/VBoxContainer/GridContainer" instance=ExtResource("3_7776g")]
+[node name="SadHousesCount" parent="MarginContainer/VBoxContainer/GridContainer" unique_id=1816023848 instance=ExtResource("3_7776g")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_gel2r")
@@ -113,7 +113,7 @@ horizontal_alignment = 1
 autowrap_mode = 0
 font_style = 11
 
-[node name="SatisfiedHousesCount" parent="MarginContainer/VBoxContainer/GridContainer" instance=ExtResource("3_7776g")]
+[node name="SatisfiedHousesCount" parent="MarginContainer/VBoxContainer/GridContainer" unique_id=2089451540 instance=ExtResource("3_7776g")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_gel2r")
@@ -123,7 +123,7 @@ horizontal_alignment = 1
 autowrap_mode = 0
 font_style = 11
 
-[node name="HappyHousesCount" parent="MarginContainer/VBoxContainer/GridContainer" instance=ExtResource("3_7776g")]
+[node name="HappyHousesCount" parent="MarginContainer/VBoxContainer/GridContainer" unique_id=1948156820 instance=ExtResource("3_7776g")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_gel2r")
@@ -133,24 +133,24 @@ horizontal_alignment = 1
 autowrap_mode = 0
 font_style = 11
 
-[node name="LabelEx3" parent="MarginContainer/VBoxContainer" instance=ExtResource("3_7776g")]
+[node name="LabelEx3" parent="MarginContainer/VBoxContainer" unique_id=492127935 instance=ExtResource("3_7776g")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("9_h71qr")
 theme_override_font_sizes/font_size = 18
 text = "Residents per house"
 font_style = 1
 
-[node name="GridContainer2" type="GridContainer" parent="MarginContainer/VBoxContainer"]
+[node name="GridContainer2" type="GridContainer" parent="MarginContainer/VBoxContainer" unique_id=1338793287]
 layout_mode = 2
 columns = 3
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/GridContainer2"]
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/GridContainer2" unique_id=153355840]
 layout_mode = 2
 tooltip_text = "Number of inhabitants per house"
 texture = ExtResource("14_ig7kx")
 stretch_mode = 5
 
-[node name="LabelEx" parent="MarginContainer/VBoxContainer/GridContainer2" instance=ExtResource("3_7776g")]
+[node name="LabelEx" parent="MarginContainer/VBoxContainer/GridContainer2" unique_id=1078524105 instance=ExtResource("3_7776g")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_gel2r")
 theme_override_font_sizes/font_size = 20
@@ -159,7 +159,7 @@ horizontal_alignment = 1
 autowrap_mode = 0
 font_style = 11
 
-[node name="LabelEx2" parent="MarginContainer/VBoxContainer/GridContainer2" instance=ExtResource("3_7776g")]
+[node name="LabelEx2" parent="MarginContainer/VBoxContainer/GridContainer2" unique_id=46191048 instance=ExtResource("3_7776g")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_gel2r")
 theme_override_font_sizes/font_size = 20
@@ -168,13 +168,13 @@ horizontal_alignment = 1
 autowrap_mode = 0
 font_style = 11
 
-[node name="TextureRect2" type="TextureRect" parent="MarginContainer/VBoxContainer/GridContainer2"]
+[node name="TextureRect2" type="TextureRect" parent="MarginContainer/VBoxContainer/GridContainer2" unique_id=658916500]
 layout_mode = 2
 tooltip_text = "Houses with this amount of inhabitants"
 texture = ExtResource("13_scrrw")
 stretch_mode = 5
 
-[node name="LabelEx3" parent="MarginContainer/VBoxContainer/GridContainer2" instance=ExtResource("3_7776g")]
+[node name="LabelEx3" parent="MarginContainer/VBoxContainer/GridContainer2" unique_id=375525143 instance=ExtResource("3_7776g")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_gel2r")
 theme_override_font_sizes/font_size = 20
@@ -183,7 +183,7 @@ horizontal_alignment = 1
 autowrap_mode = 0
 font_style = 11
 
-[node name="LabelEx4" parent="MarginContainer/VBoxContainer/GridContainer2" instance=ExtResource("3_7776g")]
+[node name="LabelEx4" parent="MarginContainer/VBoxContainer/GridContainer2" unique_id=2054742100 instance=ExtResource("3_7776g")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_gel2r")
 theme_override_font_sizes/font_size = 20
@@ -192,30 +192,30 @@ horizontal_alignment = 1
 autowrap_mode = 0
 font_style = 11
 
-[node name="LabelEx4" parent="MarginContainer/VBoxContainer" instance=ExtResource("3_7776g")]
+[node name="LabelEx4" parent="MarginContainer/VBoxContainer" unique_id=1966412579 instance=ExtResource("3_7776g")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("9_h71qr")
 theme_override_font_sizes/font_size = 18
 text = "Summary"
 font_style = 1
 
-[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer" unique_id=1234830029]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer" unique_id=1580531373]
 layout_mode = 2
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer" unique_id=306897455]
 layout_mode = 2
 
-[node name="LabelEx" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer2" instance=ExtResource("3_7776g")]
+[node name="LabelEx" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=1891807078 instance=ExtResource("3_7776g")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_gel2r")
 theme_override_font_sizes/font_size = 16
 text = "Houses"
 font_style = 9
 
-[node name="HousesCount" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer2" instance=ExtResource("3_7776g")]
+[node name="HousesCount" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=993715015 instance=ExtResource("3_7776g")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_gel2r")
@@ -223,17 +223,17 @@ theme_override_font_sizes/font_size = 20
 text = "0"
 font_style = 11
 
-[node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer"]
+[node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer" unique_id=54665350]
 layout_mode = 2
 
-[node name="LabelEx" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("3_7776g")]
+[node name="LabelEx" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer3" unique_id=1463290613 instance=ExtResource("3_7776g")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_gel2r")
 theme_override_font_sizes/font_size = 16
 text = "Residents"
 font_style = 9
 
-[node name="ResidentsCount" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer3" instance=ExtResource("3_7776g")]
+[node name="ResidentsCount" parent="MarginContainer/VBoxContainer/MarginContainer/VBoxContainer/HBoxContainer3" unique_id=427299687 instance=ExtResource("3_7776g")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_gel2r")

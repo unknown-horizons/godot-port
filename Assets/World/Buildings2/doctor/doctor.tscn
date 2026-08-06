@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbdoctortscn0"]
+[gd_scene format=3 uid="uid://cbdoctortscn0"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -7,11 +7,10 @@
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 [ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
-[ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="7_building_collector"]
 [ext_resource type="PackedScene" uid="uid://cudisasterrts" path="res://Assets/World/Units2/disaster_recovery_collector/disaster_recovery_collector.tscn" id="7_disaster_recovery_collector"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="9_building_collector_component"]
 
-[node name="doctor" type="Node2D"]
+[node name="doctor" type="Node2D" unique_id=1338071022]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.DOCTOR"
 baseclass = "production.ProductionBuilding"
@@ -26,33 +25,32 @@ inhabitants = 2
 tooltip_text = "_ Treats diseases. Consumes medical herbs."
 tier = "TIER.SETTLERS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=353081869 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["ProductionOverviewTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=668838407 instance=ExtResource("5_health_component")]
 max_health = 1000
 
-[node name="ProductionLineComponent_HERBS" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_HERBS" parent="." unique_id=979568035 instance=ExtResource("6_production_line_component")]
 line_name = "HERBS"
 consumes = Dictionary[StringName, int]({
 &"BLACKDEATH": 1,
 &"MEDICAL_HERBS": 2
 })
-produces = Dictionary[StringName, int]({
-})
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=1317207102 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"BLACKDEATH": 4,
 &"MEDICAL_HERBS": 8
 })
 
-[node name="building_collector_0" parent="." instance=ExtResource("7_building_collector")]
+[node name="building_collector_0" parent="." unique_id=1853496857 instance=ExtResource("9_building_collector_component")]
 
-[node name="disaster_recovery_collector_0" parent="." instance=ExtResource("7_disaster_recovery_collector")]
+[node name="disaster_recovery_collector_0" parent="." unique_id=2001803717 instance=ExtResource("7_disaster_recovery_collector")]
 
-[node name="BuildingCollector" parent="." instance=ExtResource("9_building_collector_component")]
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingCollector" parent="." unique_id=574136383 instance=ExtResource("9_building_collector_component")]
+
+[node name="BuildingActionSet" parent="." unique_id=456530449 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

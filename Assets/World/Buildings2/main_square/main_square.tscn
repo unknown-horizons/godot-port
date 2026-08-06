@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbmainsquarts"]
+[gd_scene format=3 uid="uid://cbmainsquarts"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -8,33 +8,30 @@
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 [ext_resource type="PackedScene" uid="uid://bw7vhkspeuvnf" path="res://Assets/World/Components/Storages/SettlementStorageComponent/SettlementStorageComponent.tscn" id="5_settlement_storage_component"]
 
-[node name="main_square" type="Node2D"]
+[node name="main_square" type="Node2D" unique_id=985440059]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.MAIN_SQUARE"
 baseclass = "storages.MainSquare"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Main Square"
 })
-radius = 0
-cost = 0
-cost_inactive = 0
 size = Vector2i(6, 6)
 inhabitants = 1
 tooltip_text = "_ Supplies citizens with goods. Provides community."
 tier = "TIER.SAILORS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=202151169 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["AccountTab", "MainSquareSailorsTab", "MainSquarePioneersTab", "MainSquareSettlersTab", "MainSquareCitizensTab", "MainSquareMerchantsTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=94645732 instance=ExtResource("5_health_component")]
 max_health = 1000
 
-[node name="SettlementStorageComponent" parent="." instance=ExtResource("5_settlement_storage_component")]
+[node name="SettlementStorageComponent" parent="." unique_id=902848120 instance=ExtResource("5_settlement_storage_component")]
 
-[node name="AmbientSoundComponent" parent="." instance=ExtResource("3_ambient_sound_component")]
+[node name="AmbientSoundComponent" parent="." unique_id=992936244 instance=ExtResource("3_ambient_sound_component")]
 sound_files = Array[String](["content/audio/sounds/main_square.ogg"])
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=1611366659 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

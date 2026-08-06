@@ -1,17 +1,16 @@
-[gd_scene load_steps=5 format=3 uid="uid://scelobikwqds"]
+[gd_scene format=3 uid="uid://scelobikwqds"]
 
 [ext_resource type="PackedScene" uid="uid://c7vej07bi5fee" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="1_exuiw"]
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="2_nymfw"]
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="3_arrrn"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="4_pc38h"]
 
-[node name="LogbookPage" instance=ExtResource("1_exuiw")]
+[node name="LogbookPage" unique_id=1222204190 instance=ExtResource("1_exuiw")]
 
-[node name="CaptionBlock" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="0" instance=ExtResource("2_nymfw")]
+[node name="CaptionBlock" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" parent_id_path=PackedInt32Array(453020282) index="0" unique_id=1403703190 instance=ExtResource("2_nymfw")]
 layout_mode = 2
-text = "20th November 1740"
 
-[node name="Body" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="1" instance=ExtResource("3_arrrn")]
+[node name="Body" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" parent_id_path=PackedInt32Array(453020282) index="1" unique_id=1281163579 instance=ExtResource("3_arrrn")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("4_pc38h")
 theme_override_font_sizes/font_size = 16

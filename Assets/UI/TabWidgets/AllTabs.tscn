@@ -1,4 +1,4 @@
-[gd_scene load_steps=100 format=3 uid="uid://db0jyegu5eki5"]
+[gd_scene format=3 uid="uid://db0jyegu5eki5"]
 
 [ext_resource type="PackedScene" uid="uid://bvbuafk7d6fdt" path="res://Assets/UI/TabWidgets/TabWidget.tscn" id="1_012xi"]
 [ext_resource type="PackedScene" uid="uid://bqqtcv3vc2v16" path="res://Assets/UI/TabWidgets/Switches/SwitchTabWidget.tscn" id="2_ig0oa"]
@@ -316,152 +316,152 @@ region = Rect2(85, 577, 40, 46)
 atlas = ExtResource("42_tabwidget_icons_png")
 region = Rect2(1, 577, 40, 46)
 
-[node name="AllTabs" instance=ExtResource("1_012xi")]
+[node name="AllTabs" unique_id=886069296 instance=ExtResource("1_012xi")]
 script = ExtResource("2_wox5d")
 
-[node name="RefreshTimer" type="Timer" parent="." index="0"]
+[node name="RefreshTimer" type="Timer" parent="." index="0" unique_id=1442261750]
 
-[node name="AccountTab" parent="LeftFloatingPanel/TabSwitches" index="0" instance=ExtResource("2_ig0oa")]
+[node name="AccountTab" parent="LeftFloatingPanel/TabSwitches" index="0" unique_id=964998204 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("warehouse_account_u")
 texture_pressed = SubResource("warehouse_account_d")
 texture_hover = SubResource("warehouse_account_h")
 texture_active = SubResource("warehouse_account_a")
 
-[node name="InventoryTab" parent="LeftFloatingPanel/TabSwitches" index="1" instance=ExtResource("2_ig0oa")]
+[node name="InventoryTab" parent="LeftFloatingPanel/TabSwitches" index="1" unique_id=1770073620 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("common_inventory_u")
 texture_pressed = SubResource("common_inventory_d")
 texture_hover = SubResource("common_inventory_h")
 texture_active = SubResource("common_inventory_a")
 
-[node name="BuySellTab" parent="LeftFloatingPanel/TabSwitches" index="2" instance=ExtResource("2_ig0oa")]
+[node name="BuySellTab" parent="LeftFloatingPanel/TabSwitches" index="2" unique_id=1247105814 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("warehouse_buysell_u")
 texture_pressed = SubResource("warehouse_buysell_d")
 texture_hover = SubResource("warehouse_buysell_h")
 texture_active = SubResource("warehouse_buysell_a")
 
-[node name="SettlerOverviewTab" parent="LeftFloatingPanel/TabSwitches" index="3" instance=ExtResource("2_ig0oa")]
+[node name="SettlerOverviewTab" parent="LeftFloatingPanel/TabSwitches" index="3" unique_id=2092156848 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("common_building_overview_u")
 texture_pressed = SubResource("common_building_overview_d")
 texture_hover = SubResource("common_building_overview_h")
 texture_active = SubResource("common_building_overview_a")
 
-[node name="ProductionOverviewTab" parent="LeftFloatingPanel/TabSwitches" index="4" instance=ExtResource("2_ig0oa")]
+[node name="ProductionOverviewTab" parent="LeftFloatingPanel/TabSwitches" index="4" unique_id=594838187 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("common_building_overview_u")
 texture_pressed = SubResource("common_building_overview_d")
 texture_hover = SubResource("common_building_overview_h")
 texture_active = SubResource("common_building_overview_a")
 
-[node name="LumberjackOverviewTab" parent="LeftFloatingPanel/TabSwitches" index="5" instance=ExtResource("2_ig0oa")]
+[node name="LumberjackOverviewTab" parent="LeftFloatingPanel/TabSwitches" index="5" unique_id=377835010 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("common_building_overview_u")
 texture_pressed = SubResource("common_building_overview_d")
 texture_hover = SubResource("common_building_overview_h")
 texture_active = SubResource("common_building_overview_a")
 
-[node name="MainSquareSailorsTab" parent="LeftFloatingPanel/TabSwitches" index="6" instance=ExtResource("2_ig0oa")]
+[node name="MainSquareSailorsTab" parent="LeftFloatingPanel/TabSwitches" index="6" unique_id=2034383234 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("mainsquare_inhabitants0_u")
 texture_pressed = SubResource("mainsquare_inhabitants0_d")
 texture_hover = SubResource("mainsquare_inhabitants0_h")
 texture_active = SubResource("mainsquare_inhabitants0_a")
 
-[node name="MainSquarePioneersTab" parent="LeftFloatingPanel/TabSwitches" index="7" instance=ExtResource("2_ig0oa")]
+[node name="MainSquarePioneersTab" parent="LeftFloatingPanel/TabSwitches" index="7" unique_id=1134009884 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("mainsquare_inhabitants1_u")
 texture_pressed = SubResource("mainsquare_inhabitants1_d")
 texture_hover = SubResource("mainsquare_inhabitants1_h")
 texture_active = SubResource("mainsquare_inhabitants1_a")
 
-[node name="MainSquareSettlersTab" parent="LeftFloatingPanel/TabSwitches" index="8" instance=ExtResource("2_ig0oa")]
+[node name="MainSquareSettlersTab" parent="LeftFloatingPanel/TabSwitches" index="8" unique_id=2025130774 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("mainsquare_inhabitants2_u")
 texture_pressed = SubResource("mainsquare_inhabitants2_d")
 texture_hover = SubResource("mainsquare_inhabitants2_h")
 texture_active = SubResource("mainsquare_inhabitants2_a")
 
-[node name="MainSquareCitizensTab" parent="LeftFloatingPanel/TabSwitches" index="9" instance=ExtResource("2_ig0oa")]
+[node name="MainSquareCitizensTab" parent="LeftFloatingPanel/TabSwitches" index="9" unique_id=1596760215 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("mainsquare_inhabitants3_u")
 texture_pressed = SubResource("mainsquare_inhabitants3_d")
 texture_hover = SubResource("mainsquare_inhabitants3_h")
 texture_active = SubResource("mainsquare_inhabitants3_a")
 
-[node name="MainSquareMerchantsTab" parent="LeftFloatingPanel/TabSwitches" index="10" instance=ExtResource("2_ig0oa")]
+[node name="MainSquareMerchantsTab" parent="LeftFloatingPanel/TabSwitches" index="10" unique_id=1703433937 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("mainsquare_inhabitants4_u")
 texture_pressed = SubResource("mainsquare_inhabitants4_d")
 texture_hover = SubResource("mainsquare_inhabitants4_h")
 texture_active = SubResource("mainsquare_inhabitants4_a")
 
-[node name="TradeShipOverviewTab" parent="LeftFloatingPanel/TabSwitches" index="11" instance=ExtResource("2_ig0oa")]
+[node name="TradeShipOverviewTab" parent="LeftFloatingPanel/TabSwitches" index="11" unique_id=808744308 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("ship_ship_inv_u")
 texture_pressed = SubResource("ship_ship_inv_d")
 texture_hover = SubResource("ship_ship_inv_h")
 texture_active = SubResource("ship_ship_inv_a")
 
-[node name="FightingShipOverviewTab" parent="LeftFloatingPanel/TabSwitches" index="12" instance=ExtResource("2_ig0oa")]
+[node name="FightingShipOverviewTab" parent="LeftFloatingPanel/TabSwitches" index="12" unique_id=646852431 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("ship_ship_inv_u")
 texture_pressed = SubResource("ship_ship_inv_d")
 texture_hover = SubResource("ship_ship_inv_h")
 texture_active = SubResource("ship_ship_inv_a")
 
-[node name="TradeTab" parent="LeftFloatingPanel/TabSwitches" index="13" instance=ExtResource("2_ig0oa")]
+[node name="TradeTab" parent="LeftFloatingPanel/TabSwitches" index="13" unique_id=246263205 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("warehouse_buysell_u")
 texture_pressed = SubResource("warehouse_buysell_d")
 texture_hover = SubResource("warehouse_buysell_h")
 texture_active = SubResource("warehouse_buysell_a")
 
-[node name="production_related" parent="LeftFloatingPanel/TabSwitches" index="14" instance=ExtResource("2_ig0oa")]
+[node name="production_related" parent="LeftFloatingPanel/TabSwitches" index="14" unique_id=1224806761 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("production_related_u")
 texture_pressed = SubResource("production_related_d")
 texture_hover = SubResource("production_related_h")
 texture_active = SubResource("production_related_a")
 
-[node name="production_work" parent="LeftFloatingPanel/TabSwitches" index="15" instance=ExtResource("2_ig0oa")]
+[node name="production_work" parent="LeftFloatingPanel/TabSwitches" index="15" unique_id=1576557368 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("production_work_u")
 texture_pressed = SubResource("production_work_d")
 texture_hover = SubResource("production_work_h")
 texture_active = SubResource("production_work_a")
 
-[node name="boatbuilder_fisher" parent="LeftFloatingPanel/TabSwitches" index="16" instance=ExtResource("2_ig0oa")]
+[node name="boatbuilder_fisher" parent="LeftFloatingPanel/TabSwitches" index="16" unique_id=1877536134 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("boatbuilder_fisher_u")
 texture_pressed = SubResource("boatbuilder_fisher_d")
 texture_hover = SubResource("boatbuilder_fisher_h")
 texture_active = SubResource("boatbuilder_fisher_a")
 
-[node name="boatbuilder_trade" parent="LeftFloatingPanel/TabSwitches" index="17" instance=ExtResource("2_ig0oa")]
+[node name="boatbuilder_trade" parent="LeftFloatingPanel/TabSwitches" index="17" unique_id=819287013 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("boatbuilder_trade_u")
 texture_pressed = SubResource("boatbuilder_trade_d")
 texture_hover = SubResource("boatbuilder_trade_h")
 texture_active = SubResource("boatbuilder_trade_a")
 
-[node name="boatbuilder_war1" parent="LeftFloatingPanel/TabSwitches" index="18" instance=ExtResource("2_ig0oa")]
+[node name="boatbuilder_war1" parent="LeftFloatingPanel/TabSwitches" index="18" unique_id=2048674808 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("boatbuilder_war1_u")
 texture_pressed = SubResource("boatbuilder_war1_d")
 texture_hover = SubResource("boatbuilder_war1_h")
 texture_active = SubResource("boatbuilder_war1_a")
 
-[node name="boatbuilder_war2" parent="LeftFloatingPanel/TabSwitches" index="19" instance=ExtResource("2_ig0oa")]
+[node name="boatbuilder_war2" parent="LeftFloatingPanel/TabSwitches" index="19" unique_id=404113051 instance=ExtResource("2_ig0oa")]
 layout_mode = 2
 texture_normal = SubResource("boatbuilder_war2_u")
 texture_pressed = SubResource("boatbuilder_war2_d")
 texture_hover = SubResource("boatbuilder_war2_h")
 texture_active = SubResource("boatbuilder_war2_a")
 
-[node name="not-in-game-barracks_swordman" parent="LeftFloatingPanel/TabSwitches" index="20" instance=ExtResource("2_ig0oa")]
+[node name="not-in-game-barracks_swordman" parent="LeftFloatingPanel/TabSwitches" index="20" unique_id=1478677537 instance=ExtResource("2_ig0oa")]
 visible = false
 layout_mode = 2
 texture_normal = SubResource("barracks_swordman_u")
@@ -469,7 +469,7 @@ texture_pressed = SubResource("barracks_swordman_d")
 texture_hover = SubResource("barracks_swordman_h")
 texture_active = SubResource("barracks_swordman_a")
 
-[node name="not-in-game-mainsquare_inhabitants5" parent="LeftFloatingPanel/TabSwitches" index="21" instance=ExtResource("2_ig0oa")]
+[node name="not-in-game-mainsquare_inhabitants5" parent="LeftFloatingPanel/TabSwitches" index="21" unique_id=2146526588 instance=ExtResource("2_ig0oa")]
 visible = false
 layout_mode = 2
 texture_normal = SubResource("mainsquare_inhabitants5_u")
@@ -478,405 +478,405 @@ texture_hover = SubResource("mainsquare_inhabitants5_h")
 texture_active = SubResource("mainsquare_inhabitants5_a")
 
 [node name="ScrollContainer" parent="." index="2"]
-custom_minimum_size = Vector2(0, 370)
+custom_minimum_size = Vector2(0, -138)
 
 [node name="TabContainer" parent="ScrollContainer" index="0"]
 current_tab = 6
 
-[node name="AccountTab" parent="ScrollContainer/TabContainer" index="1" instance=ExtResource("21_go27e")]
+[node name="AccountTab" parent="ScrollContainer/TabContainer" index="1" unique_id=724001782 instance=ExtResource("21_go27e")]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
-[node name="InventoryTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="2"]
+[node name="InventoryTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="2" unique_id=201028638]
 visible = false
 custom_minimum_size = Vector2(0, 300)
 layout_mode = 2
 script = ExtResource("12_frflk")
 metadata/_tab_index = 1
 
-[node name="CaptionBlock" parent="ScrollContainer/TabContainer/InventoryTab" index="0" instance=ExtResource("3_j476x")]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/InventoryTab" index="0" unique_id=697555286 instance=ExtResource("3_j476x")]
 layout_mode = 2
 caption_text = "InventoryTab"
 
-[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/TabContainer/InventoryTab" index="1"]
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/TabContainer/InventoryTab" index="1" unique_id=713088377]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="InventorySlots" type="GridContainer" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer" index="0"]
+[node name="InventorySlots" type="GridContainer" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer" index="0" unique_id=444004875]
 layout_mode = 2
 columns = 4
 
-[node name="InventorySlot" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="0" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="0" unique_id=692366730 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot2" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="1" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot2" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="1" unique_id=19253548 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot3" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="2" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot3" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="2" unique_id=1835306132 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot4" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="3" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot4" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="3" unique_id=1023388654 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot5" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="4" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot5" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="4" unique_id=98343963 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot6" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="5" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot6" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="5" unique_id=176463401 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot7" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="6" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot7" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="6" unique_id=1584975008 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot8" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="7" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot8" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="7" unique_id=286179200 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot9" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="8" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot9" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="8" unique_id=530705470 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot10" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="9" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot10" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="9" unique_id=101656109 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot11" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="10" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot11" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="10" unique_id=246877699 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot12" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="11" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot12" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="11" unique_id=987809054 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot13" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="12" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot13" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="12" unique_id=725302746 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot14" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="13" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot14" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="13" unique_id=437083844 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot15" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="14" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot15" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="14" unique_id=1913277880 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot16" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="15" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot16" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="15" unique_id=718457485 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot17" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="16" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot17" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="16" unique_id=536562169 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot18" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="17" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot18" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="17" unique_id=1256676687 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot19" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="18" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot19" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="18" unique_id=2070821013 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot20" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="19" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot20" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="19" unique_id=2096089839 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot21" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="20" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot21" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="20" unique_id=1199957700 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot22" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="21" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot22" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="21" unique_id=1412333246 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot23" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="22" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot23" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="22" unique_id=399510441 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot24" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="23" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot24" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="23" unique_id=265087542 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot25" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="24" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot25" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="24" unique_id=709810785 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot26" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="25" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot26" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="25" unique_id=813040698 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot27" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="26" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot27" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="26" unique_id=585532313 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot28" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="27" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot28" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="27" unique_id=1416190009 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot29" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="28" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot29" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="28" unique_id=1274676544 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot30" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="29" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot30" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="29" unique_id=1445548580 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot31" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="30" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot31" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="30" unique_id=1130638150 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot32" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="31" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot32" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="31" unique_id=543208986 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot33" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="32" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot33" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="32" unique_id=1339085869 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot34" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="33" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot34" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="33" unique_id=1684775958 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot35" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="34" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot35" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="34" unique_id=1997168647 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot36" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="35" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot36" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="35" unique_id=969103062 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot37" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="36" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot37" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="36" unique_id=1869157531 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot38" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="37" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot38" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="37" unique_id=1947777486 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot39" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="38" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot39" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="38" unique_id=2091748883 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot40" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="39" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot40" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="39" unique_id=1631844086 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot41" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="40" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot41" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="40" unique_id=1272863574 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot42" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="41" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot42" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="41" unique_id=2095766932 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot43" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="42" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot43" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="42" unique_id=1673501062 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot44" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="43" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot44" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="43" unique_id=1418821742 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot45" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="44" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot45" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="44" unique_id=513259504 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot46" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="45" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot46" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="45" unique_id=468001330 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot47" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="46" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot47" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="46" unique_id=1775295348 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot48" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="47" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot48" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="47" unique_id=1337656701 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot49" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="48" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot49" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="48" unique_id=2066504012 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot50" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="49" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot50" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="49" unique_id=1711664052 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot51" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="50" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot51" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="50" unique_id=540392601 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot52" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="51" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot52" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="51" unique_id=873674893 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot53" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="52" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot53" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="52" unique_id=1584892928 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot54" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="53" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot54" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="53" unique_id=805296386 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot55" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="54" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot55" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="54" unique_id=1312200858 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot56" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="55" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot56" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="55" unique_id=1273191566 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot57" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="56" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot57" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="56" unique_id=2020574756 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot58" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="57" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot58" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="57" unique_id=1593593512 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot59" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="58" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot59" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="58" unique_id=1217492677 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot60" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="59" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot60" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="59" unique_id=1506851431 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot61" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="60" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot61" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="60" unique_id=2038272775 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot62" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="61" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot62" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="61" unique_id=1005953059 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot63" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="62" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot63" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="62" unique_id=273105173 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot64" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="63" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot64" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="63" unique_id=1452330256 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot65" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="64" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot65" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="64" unique_id=541835904 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot66" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="65" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot66" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="65" unique_id=1555159853 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot67" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="66" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot67" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="66" unique_id=1661642599 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot68" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="67" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot68" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="67" unique_id=382154318 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot69" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="68" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot69" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="68" unique_id=1509023324 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot70" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="69" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot70" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="69" unique_id=420176489 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot71" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="70" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot71" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="70" unique_id=306952371 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot72" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="71" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot72" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="71" unique_id=1943293454 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot73" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="72" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot73" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="72" unique_id=1963798282 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot74" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="73" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot74" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="73" unique_id=1083422542 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot75" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="74" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot75" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="74" unique_id=1146625802 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot76" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="75" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot76" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="75" unique_id=1479734282 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot77" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="76" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot77" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="76" unique_id=1783894948 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot78" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="77" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot78" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="77" unique_id=1131955192 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot79" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="78" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot79" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="78" unique_id=567060432 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot80" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="79" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot80" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="79" unique_id=126526052 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot81" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="80" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot81" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="80" unique_id=922335518 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot82" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="81" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot82" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="81" unique_id=1031405988 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot83" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="82" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot83" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="82" unique_id=2008202487 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot84" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="83" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot84" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="83" unique_id=145124754 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot85" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="84" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot85" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="84" unique_id=894174320 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot86" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="85" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot86" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="85" unique_id=2135713290 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot87" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="86" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot87" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="86" unique_id=1137319231 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot88" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="87" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot88" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="87" unique_id=581653656 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot89" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="88" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot89" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="88" unique_id=2090402748 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot90" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="89" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot90" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="89" unique_id=378004406 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot91" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="90" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot91" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="90" unique_id=585077264 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot92" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="91" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot92" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="91" unique_id=381080433 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot93" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="92" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot93" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="92" unique_id=594894747 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot94" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="93" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot94" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="93" unique_id=1627795423 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot95" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="94" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot95" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="94" unique_id=1968099398 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot96" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="95" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot96" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="95" unique_id=715584249 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot97" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="96" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot97" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="96" unique_id=308472944 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot98" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="97" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot98" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="97" unique_id=935061023 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot99" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="98" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot99" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/InventorySlots" index="98" unique_id=961258021 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer" index="1"]
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer" index="1" unique_id=2076745305]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/HBoxContainer" index="0"]
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/HBoxContainer" index="0" unique_id=1559734978]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
 texture = ExtResource("13_1oexd")
 expand_mode = 1
 
-[node name="LabelEx" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/HBoxContainer" index="1" instance=ExtResource("14_kdlxv")]
+[node name="LabelEx" parent="ScrollContainer/TabContainer/InventoryTab/VBoxContainer/HBoxContainer" index="1" unique_id=1381548246 instance=ExtResource("14_kdlxv")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("15_vcl1p")
 theme_override_font_sizes/font_size = 16
 text = "Limit: 30t per slot"
 font_style = 9
 
-[node name="BuySellTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="3"]
+[node name="BuySellTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="3" unique_id=1413251128]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 2
 
-[node name="CaptionBlock" parent="ScrollContainer/TabContainer/BuySellTab" index="0" instance=ExtResource("3_j476x")]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/BuySellTab" index="0" unique_id=887884855 instance=ExtResource("3_j476x")]
 layout_mode = 2
 caption_text = "BuySellTab"
 
-[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/BuySellTab" index="1"]
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/BuySellTab" index="1" unique_id=600653353]
 layout_mode = 2
 columns = 4
 
-[node name="HSeparator2" type="HSeparator" parent="ScrollContainer/TabContainer/BuySellTab" index="2"]
+[node name="HSeparator2" type="HSeparator" parent="ScrollContainer/TabContainer/BuySellTab" index="2" unique_id=1726635094]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/BuySellTab" index="3"]
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/BuySellTab" index="3" unique_id=2054977157]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="LabelEx2" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer" index="0" instance=ExtResource("14_kdlxv")]
+[node name="LabelEx2" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer" index="0" unique_id=1760505591 instance=ExtResource("14_kdlxv")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("15_vcl1p")
 theme_override_font_sizes/font_size = 18
 text = "Will buy tools for 21 gold/t whenever less than 10t are in stock."
 font_style = 10
 
-[node name="HSeparator3" type="HSeparator" parent="ScrollContainer/TabContainer/BuySellTab" index="4"]
+[node name="HSeparator3" type="HSeparator" parent="ScrollContainer/TabContainer/BuySellTab" index="4" unique_id=873466084]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="MarginContainer2" type="MarginContainer" parent="ScrollContainer/TabContainer/BuySellTab" index="5"]
+[node name="MarginContainer2" type="MarginContainer" parent="ScrollContainer/TabContainer/BuySellTab" index="5" unique_id=1512095771]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2" index="0" unique_id=1207310405]
 layout_mode = 2
 
-[node name="LabelEx3" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer" index="0" instance=ExtResource("14_kdlxv")]
+[node name="LabelEx3" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer" index="0" unique_id=2043836750 instance=ExtResource("14_kdlxv")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("37_k4f0b")
 theme_override_font_sizes/font_size = 16
 text = "Trade history"
 font_style = 0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer" index="1"]
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer" index="1" unique_id=1177412642]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/HBoxContainer" index="0"]
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/HBoxContainer" index="0" unique_id=1316893835]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
 texture = ExtResource("38_anfog")
 
-[node name="LabelEx" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/HBoxContainer" index="1" instance=ExtResource("14_kdlxv")]
+[node name="LabelEx" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/HBoxContainer" index="1" unique_id=1211952275 instance=ExtResource("14_kdlxv")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("15_vcl1p")
 theme_override_font_sizes/font_size = 16
@@ -884,267 +884,267 @@ text = "Free Trader"
 autowrap_mode = 0
 font_style = 9
 
-[node name="LabelEx2" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/HBoxContainer" index="2" instance=ExtResource("14_kdlxv")]
+[node name="LabelEx2" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/HBoxContainer" index="2" unique_id=1612846385 instance=ExtResource("14_kdlxv")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("15_vcl1p")
 theme_override_font_sizes/font_size = 16
 text = "+8"
 font_style = 9
 
-[node name="TextureRect2" type="TextureRect" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/HBoxContainer" index="3"]
+[node name="TextureRect2" type="TextureRect" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/HBoxContainer" index="3" unique_id=503833610]
 layout_mode = 2
 texture = ExtResource("39_2g5qe")
 stretch_mode = 4
 
-[node name="MarginContainer2" type="MarginContainer" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer" index="2"]
+[node name="MarginContainer2" type="MarginContainer" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer" index="2" unique_id=951581006]
 layout_mode = 2
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/MarginContainer2" index="0"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/MarginContainer2" index="0" unique_id=1003551096]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/MarginContainer2/HBoxContainer2" index="0"]
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/MarginContainer2/HBoxContainer2" index="0" unique_id=1343194423]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
 texture = ExtResource("40_go27e")
 expand_mode = 1
 
-[node name="LabelEx" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/MarginContainer2/HBoxContainer2" index="1" instance=ExtResource("14_kdlxv")]
+[node name="LabelEx" parent="ScrollContainer/TabContainer/BuySellTab/MarginContainer2/VBoxContainer/MarginContainer2/HBoxContainer2" index="1" unique_id=1540172195 instance=ExtResource("14_kdlxv")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("15_vcl1p")
 theme_override_font_sizes/font_size = 16
 text = "-4"
 font_style = 9
 
-[node name="SettlerOverviewTab" parent="ScrollContainer/TabContainer" index="4" instance=ExtResource("16_cs6t1")]
+[node name="SettlerOverviewTab" parent="ScrollContainer/TabContainer" index="4" unique_id=744991279 instance=ExtResource("16_cs6t1")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="5"]
+[node name="ProductionOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="5" unique_id=183664126]
 visible = false
 layout_mode = 2
 script = ExtResource("8_024wi")
 metadata/_tab_index = 4
 
-[node name="CaptionBlock" parent="ScrollContainer/TabContainer/ProductionOverviewTab" index="0" instance=ExtResource("3_j476x")]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/ProductionOverviewTab" index="0" unique_id=1473663146 instance=ExtResource("3_j476x")]
 layout_mode = 2
 caption_text = "ProductionOverviewTab"
 
-[node name="ProductionBasicInfo" parent="ScrollContainer/TabContainer/ProductionOverviewTab" index="1" instance=ExtResource("4_ir4j5")]
+[node name="ProductionBasicInfo" parent="ScrollContainer/TabContainer/ProductionOverviewTab" index="1" unique_id=602907104 instance=ExtResource("4_ir4j5")]
 layout_mode = 2
 
-[node name="ProductionChains" type="VBoxContainer" parent="ScrollContainer/TabContainer/ProductionOverviewTab" index="2"]
+[node name="ProductionChains" type="VBoxContainer" parent="ScrollContainer/TabContainer/ProductionOverviewTab" index="2" unique_id=1683079379]
 layout_mode = 2
 
-[node name="ProductionChain" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="0" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="0" unique_id=1761359946 instance=ExtResource("5_p3q1l")]
 layout_mode = 2
 
-[node name="ProductionChain2" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="1" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain2" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="1" unique_id=2122821601 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain3" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="2" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain3" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="2" unique_id=1792698392 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain4" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="3" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain4" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="3" unique_id=1970172230 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain5" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="4" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain5" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="4" unique_id=1233019027 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain6" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="5" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain6" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="5" unique_id=1075381609 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain7" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="6" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain7" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="6" unique_id=309955018 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain8" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="7" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain8" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="7" unique_id=1786157933 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain9" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="8" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain9" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="8" unique_id=702248812 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain10" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="9" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain10" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="9" unique_id=484092979 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain11" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="10" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain11" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="10" unique_id=1955200148 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain12" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="11" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain12" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="11" unique_id=281578885 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain13" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="12" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain13" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="12" unique_id=180860122 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain14" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="13" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain14" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="13" unique_id=1853646286 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="ProductionChain15" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="14" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain15" parent="ScrollContainer/TabContainer/ProductionOverviewTab/ProductionChains" index="14" unique_id=83799844 instance=ExtResource("5_p3q1l")]
 visible = false
 layout_mode = 2
 
-[node name="MainSquareSailorsTab" parent="ScrollContainer/TabContainer" index="6" instance=ExtResource("37_t8gxx")]
+[node name="MainSquareSailorsTab" parent="ScrollContainer/TabContainer" index="6" unique_id=19227700 instance=ExtResource("37_t8gxx")]
 visible = false
 layout_mode = 2
 tab_tier = &"SAILORS"
 metadata/_tab_index = 5
 
-[node name="MainSquarePioneersTab" parent="ScrollContainer/TabContainer" index="7" instance=ExtResource("37_t8gxx")]
+[node name="MainSquarePioneersTab" parent="ScrollContainer/TabContainer" index="7" unique_id=751098725 instance=ExtResource("37_t8gxx")]
 layout_mode = 2
 tab_tier = &"PIONEERS"
 metadata/_tab_index = 6
 
-[node name="MainSquareSettlersTab" parent="ScrollContainer/TabContainer" index="8" instance=ExtResource("37_t8gxx")]
+[node name="MainSquareSettlersTab" parent="ScrollContainer/TabContainer" index="8" unique_id=287769749 instance=ExtResource("37_t8gxx")]
 visible = false
 layout_mode = 2
 tab_tier = &"SETTLERS"
 metadata/_tab_index = 7
 
-[node name="MainSquareCitizensTab" parent="ScrollContainer/TabContainer" index="9" instance=ExtResource("37_t8gxx")]
+[node name="MainSquareCitizensTab" parent="ScrollContainer/TabContainer" index="9" unique_id=1284704508 instance=ExtResource("37_t8gxx")]
 visible = false
 layout_mode = 2
 tab_tier = &"CITIZENS"
 metadata/_tab_index = 8
 
-[node name="MainSquareMerchantsTab" parent="ScrollContainer/TabContainer" index="10" instance=ExtResource("37_t8gxx")]
+[node name="MainSquareMerchantsTab" parent="ScrollContainer/TabContainer" index="10" unique_id=1203647023 instance=ExtResource("37_t8gxx")]
 visible = false
 layout_mode = 2
 tab_tier = &"MERCHANTS"
 metadata/_tab_index = 9
 
-[node name="FightingShipOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="11"]
+[node name="FightingShipOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="11" unique_id=905619322]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 10
 
-[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/FightingShipOverviewTab" index="0"]
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/FightingShipOverviewTab" index="0" unique_id=1799407387]
 layout_mode = 2
 size_flags_horizontal = 0
 
-[node name="FactionIndicator" type="TextureRect" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/MarginContainer" index="0"]
+[node name="FactionIndicator" type="TextureRect" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/MarginContainer" index="0" unique_id=29831998]
 custom_minimum_size = Vector2(32, 24)
 layout_mode = 2
 size_flags_horizontal = 0
 texture = ExtResource("23_ba20v")
 expand_mode = 1
 
-[node name="Caption" parent="ScrollContainer/TabContainer/FightingShipOverviewTab" index="1" instance=ExtResource("24_t8603")]
+[node name="Caption" parent="ScrollContainer/TabContainer/FightingShipOverviewTab" index="1" unique_id=531817694 instance=ExtResource("24_t8603")]
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 text = "Unknown Beauty"
 font_style = 1
 
-[node name="HSeparator" type="HSeparator" parent="ScrollContainer/TabContainer/FightingShipOverviewTab" index="2"]
+[node name="HSeparator" type="HSeparator" parent="ScrollContainer/TabContainer/FightingShipOverviewTab" index="2" unique_id=1549647155]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/FightingShipOverviewTab" index="3"]
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/FightingShipOverviewTab" index="3" unique_id=955814449]
 layout_mode = 2
 columns = 4
 
-[node name="TransferButton" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer" index="0" instance=ExtResource("25_egkp5")]
+[node name="TransferButton" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer" index="0" unique_id=1028337632 instance=ExtResource("25_egkp5")]
 layout_mode = 2
 size_flags_horizontal = 6
 
-[node name="FoundSettlementButton" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer" index="1" instance=ExtResource("26_prl8c")]
+[node name="FoundSettlementButton" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer" index="1" unique_id=783376014 instance=ExtResource("26_prl8c")]
 layout_mode = 2
 
-[node name="TradeRouteButton" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer" index="2" instance=ExtResource("27_a0gmt")]
-layout_mode = 2
-size_flags_horizontal = 6
-
-[node name="DiscardAllButton" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer" index="3" instance=ExtResource("28_urajk")]
+[node name="TradeRouteButton" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer" index="2" unique_id=1514038625 instance=ExtResource("27_a0gmt")]
 layout_mode = 2
 size_flags_horizontal = 6
 
-[node name="HSeparator2" type="HSeparator" parent="ScrollContainer/TabContainer/FightingShipOverviewTab" index="4"]
+[node name="DiscardAllButton" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer" index="3" unique_id=179518933 instance=ExtResource("28_urajk")]
+layout_mode = 2
+size_flags_horizontal = 6
+
+[node name="HSeparator2" type="HSeparator" parent="ScrollContainer/TabContainer/FightingShipOverviewTab" index="4" unique_id=1782681680]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="GridContainer2" type="GridContainer" parent="ScrollContainer/TabContainer/FightingShipOverviewTab" index="5"]
+[node name="GridContainer2" type="GridContainer" parent="ScrollContainer/TabContainer/FightingShipOverviewTab" index="5" unique_id=404274999]
 layout_mode = 2
 columns = 4
 
-[node name="InventorySlot" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer2" index="0" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer2" index="0" unique_id=2034917358 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot2" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer2" index="1" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot2" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer2" index="1" unique_id=719150930 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot3" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer2" index="2" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot3" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer2" index="2" unique_id=418549167 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="InventorySlot4" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer2" index="3" instance=ExtResource("12_ve7ye")]
+[node name="InventorySlot4" parent="ScrollContainer/TabContainer/FightingShipOverviewTab/GridContainer2" index="3" unique_id=159100644 instance=ExtResource("12_ve7ye")]
 layout_mode = 2
 
-[node name="TradeTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="12"]
+[node name="TradeTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="12" unique_id=265920412]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 11
 
-[node name="CaptionBlock" parent="ScrollContainer/TabContainer/TradeTab" index="0" instance=ExtResource("3_j476x")]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/TradeTab" index="0" unique_id=420705543 instance=ExtResource("3_j476x")]
 layout_mode = 2
 caption_text = "TradeTab"
 
-[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/TradeTab" index="1"]
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/TradeTab" index="1" unique_id=1296682288]
 layout_mode = 2
 columns = 4
 
-[node name="HSeparator2" type="HSeparator" parent="ScrollContainer/TabContainer/TradeTab" index="2"]
+[node name="HSeparator2" type="HSeparator" parent="ScrollContainer/TabContainer/TradeTab" index="2" unique_id=129434042]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/TradeTab" index="3"]
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/TradeTab" index="3" unique_id=1653605477]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="LabelEx2" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer" index="0" instance=ExtResource("14_kdlxv")]
+[node name="LabelEx2" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer" index="0" unique_id=897014016 instance=ExtResource("14_kdlxv")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("15_vcl1p")
 theme_override_font_sizes/font_size = 18
 text = "Will buy tools for 21 gold/t whenever less than 10t are in stock."
 font_style = 10
 
-[node name="HSeparator3" type="HSeparator" parent="ScrollContainer/TabContainer/TradeTab" index="4"]
+[node name="HSeparator3" type="HSeparator" parent="ScrollContainer/TabContainer/TradeTab" index="4" unique_id=1229602099]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="MarginContainer2" type="MarginContainer" parent="ScrollContainer/TabContainer/TradeTab" index="5"]
+[node name="MarginContainer2" type="MarginContainer" parent="ScrollContainer/TabContainer/TradeTab" index="5" unique_id=672126370]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2" index="0"]
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2" index="0" unique_id=862095907]
 layout_mode = 2
 
-[node name="LabelEx3" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer" index="0" instance=ExtResource("14_kdlxv")]
+[node name="LabelEx3" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer" index="0" unique_id=2092912512 instance=ExtResource("14_kdlxv")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("37_k4f0b")
 theme_override_font_sizes/font_size = 16
 text = "Trade history"
 font_style = 0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer" index="1"]
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer" index="1" unique_id=2059560960]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/HBoxContainer" index="0"]
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/HBoxContainer" index="0" unique_id=1371305569]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
 texture = ExtResource("38_anfog")
 
-[node name="LabelEx" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/HBoxContainer" index="1" instance=ExtResource("14_kdlxv")]
+[node name="LabelEx" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/HBoxContainer" index="1" unique_id=1477065515 instance=ExtResource("14_kdlxv")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("15_vcl1p")
 theme_override_font_sizes/font_size = 16
@@ -1152,71 +1152,71 @@ text = "Free Trader"
 autowrap_mode = 0
 font_style = 9
 
-[node name="LabelEx2" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/HBoxContainer" index="2" instance=ExtResource("14_kdlxv")]
+[node name="LabelEx2" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/HBoxContainer" index="2" unique_id=801784395 instance=ExtResource("14_kdlxv")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("15_vcl1p")
 theme_override_font_sizes/font_size = 16
 text = "+8"
 font_style = 9
 
-[node name="TextureRect2" type="TextureRect" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/HBoxContainer" index="3"]
+[node name="TextureRect2" type="TextureRect" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/HBoxContainer" index="3" unique_id=26709043]
 layout_mode = 2
 texture = ExtResource("39_2g5qe")
 stretch_mode = 4
 
-[node name="MarginContainer2" type="MarginContainer" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer" index="2"]
+[node name="MarginContainer2" type="MarginContainer" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer" index="2" unique_id=1319910194]
 layout_mode = 2
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/MarginContainer2" index="0"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/MarginContainer2" index="0" unique_id=1887657795]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/MarginContainer2/HBoxContainer2" index="0"]
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/MarginContainer2/HBoxContainer2" index="0" unique_id=1945948783]
 custom_minimum_size = Vector2(16, 16)
 layout_mode = 2
 texture = ExtResource("40_go27e")
 expand_mode = 1
 
-[node name="LabelEx" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/MarginContainer2/HBoxContainer2" index="1" instance=ExtResource("14_kdlxv")]
+[node name="LabelEx" parent="ScrollContainer/TabContainer/TradeTab/MarginContainer2/VBoxContainer/MarginContainer2/HBoxContainer2" index="1" unique_id=1930455365 instance=ExtResource("14_kdlxv")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("15_vcl1p")
 theme_override_font_sizes/font_size = 16
 text = "-4"
 font_style = 9
 
-[node name="Empty" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="13"]
+[node name="Empty" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="13" unique_id=1258934684]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 12
 
-[node name="LumberjackOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="14"]
+[node name="LumberjackOverviewTab" type="VBoxContainer" parent="ScrollContainer/TabContainer" index="14" unique_id=1596924309]
 visible = false
 layout_mode = 2
 script = ExtResource("8_024wi")
 metadata/_tab_index = 13
 
-[node name="CaptionBlock" parent="ScrollContainer/TabContainer/LumberjackOverviewTab" index="0" instance=ExtResource("3_j476x")]
+[node name="CaptionBlock" parent="ScrollContainer/TabContainer/LumberjackOverviewTab" index="0" unique_id=706410190 instance=ExtResource("3_j476x")]
 layout_mode = 2
 caption_text = "LumberjackOverviewTab"
 
-[node name="ProductionBasicInfo" parent="ScrollContainer/TabContainer/LumberjackOverviewTab" index="1" instance=ExtResource("4_ir4j5")]
+[node name="ProductionBasicInfo" parent="ScrollContainer/TabContainer/LumberjackOverviewTab" index="1" unique_id=896726875 instance=ExtResource("4_ir4j5")]
 layout_mode = 2
 
-[node name="ProductionChains" type="VBoxContainer" parent="ScrollContainer/TabContainer/LumberjackOverviewTab" index="2"]
+[node name="ProductionChains" type="VBoxContainer" parent="ScrollContainer/TabContainer/LumberjackOverviewTab" index="2" unique_id=1955475583]
 layout_mode = 2
 
-[node name="ProductionChain" parent="ScrollContainer/TabContainer/LumberjackOverviewTab/ProductionChains" index="0" instance=ExtResource("5_p3q1l")]
+[node name="ProductionChain" parent="ScrollContainer/TabContainer/LumberjackOverviewTab/ProductionChains" index="0" unique_id=1647560859 instance=ExtResource("5_p3q1l")]
 layout_mode = 2
 input_two_type = &"RES.TREES"
 output_type = &"RES.BOARDS"
 
-[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/LumberjackOverviewTab" index="3"]
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer/TabContainer/LumberjackOverviewTab" index="3" unique_id=29023751]
 layout_mode = 2
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_top = 5
 
-[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/LumberjackOverviewTab/MarginContainer" index="0"]
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer/TabContainer/LumberjackOverviewTab/MarginContainer" index="0" unique_id=370947581]
 layout_mode = 2
 columns = 4
 
-[node name="BuildTreeAreaButton" parent="ScrollContainer/TabContainer/LumberjackOverviewTab/MarginContainer/GridContainer" index="0" instance=ExtResource("32_t8603")]
+[node name="BuildTreeAreaButton" parent="ScrollContainer/TabContainer/LumberjackOverviewTab/MarginContainer/GridContainer" index="0" unique_id=736305203 instance=ExtResource("32_t8603")]
 layout_mode = 2

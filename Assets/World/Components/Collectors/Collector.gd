@@ -103,14 +103,18 @@ func _get(property_name):
       return self.collector_type
     "Load or Unload Time":
       return self.load_or_unload_time
+  return
 
 
 func _set(property_name, val):
   match property_name:
     "Collector Type":
       self.collector_type = val
+      return true
     "Load or Unload Time":
       self.load_or_unload_time = val
+      return true
+  return false
 #endregion
 
 func _ready() -> void:

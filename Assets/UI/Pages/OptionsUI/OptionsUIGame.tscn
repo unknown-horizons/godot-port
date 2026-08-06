@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://b7bjhfwc1b387"]
+[gd_scene format=3 uid="uid://b7bjhfwc1b387"]
 
 [ext_resource type="PackedScene" uid="uid://b4gq47ckhaow6" path="res://Assets/UI/BasicControls/OptionButtonEx.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://batg8pwfpasdc" path="res://Assets/UI/BasicControls/LineEditEx.tscn" id="2"]
@@ -7,60 +7,58 @@
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="9"]
 [ext_resource type="PackedScene" uid="uid://bydj0v2pgcbhx" path="res://Assets/UI/BasicControls/CheckBoxEx.tscn" id="12"]
 
-[node name="OptionsUIGame" instance=ExtResource("3")]
+[node name="OptionsUIGame" unique_id=1314490473 instance=ExtResource("3")]
 
-[node name="MarginContainer" parent="TextureRect" index="0"]
+[node name="MarginContainer" parent="TextureRect" parent_id_path=PackedInt32Array(1476952772) index="0" unique_id=929141694]
 layout_mode = 1
 anchors_preset = 8
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Saving" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="0" instance=ExtResource("9")]
-layout_mode = 2
-text = "Saving"
-
-[node name="SavingOptions" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="1"]
+[node name="Saving" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" parent_id_path=PackedInt32Array(453020282) index="0" unique_id=1539246531 instance=ExtResource("9")]
 layout_mode = 2
 
-[node name="AutosaveInterval" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/SavingOptions" index="0" instance=ExtResource("4")]
+[node name="SavingOptions" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" parent_id_path=PackedInt32Array(453020282) index="1" unique_id=395228543]
+layout_mode = 2
+
+[node name="AutosaveInterval" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/SavingOptions" index="0" unique_id=2128219703 instance=ExtResource("4")]
 layout_mode = 2
 description = "Autosave interval:"
 max_value = 60.0
 
-[node name="NumberOfAutosaves" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/SavingOptions" index="1" instance=ExtResource("4")]
+[node name="NumberOfAutosaves" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/SavingOptions" index="1" unique_id=351731928 instance=ExtResource("4")]
 layout_mode = 2
 description = "Number of autosaves:"
 max_value = 30.0
 
-[node name="NumberOfQuicksaves" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/SavingOptions" index="2" instance=ExtResource("4")]
+[node name="NumberOfQuicksaves" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/SavingOptions" index="2" unique_id=2142452400 instance=ExtResource("4")]
 layout_mode = 2
 description = "Number of quicksaves:"
 max_value = 30.0
 
-[node name="General" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="0" instance=ExtResource("9")]
-layout_mode = 2
-text = "General"
-
-[node name="GeneralOptions" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="1"]
+[node name="General" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" parent_id_path=PackedInt32Array(500071854) index="0" unique_id=617023996 instance=ExtResource("9")]
 layout_mode = 2
 
-[node name="PlayerName" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/GeneralOptions" index="0" instance=ExtResource("2")]
+[node name="GeneralOptions" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" parent_id_path=PackedInt32Array(500071854) index="1" unique_id=823144615]
+layout_mode = 2
+
+[node name="PlayerName" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/GeneralOptions" index="0" unique_id=1184525689 instance=ExtResource("2")]
 layout_mode = 2
 description = "Player name:"
 text = "Unknown Traveller"
 
-[node name="GameLanguage" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/GeneralOptions" index="1" instance=ExtResource("1")]
+[node name="GameLanguage" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/GeneralOptions" index="1" unique_id=275194485 instance=ExtResource("1")]
 layout_mode = 2
 description = "Game language:"
 options = [&"Deutsch", &"English", &"Francáis"]
 selected = 1
 
-[node name="LabelEx" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/GeneralOptions/GameLanguage" index="0"]
+[node name="LabelEx" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/GeneralOptions/GameLanguage" index="0" unique_id=1188524416]
 text = "Game language:"
 
-[node name="OptionButton" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/GeneralOptions/GameLanguage" index="1"]
-item_count = 3
+[node name="OptionButton" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/GeneralOptions/GameLanguage" index="1" unique_id=71659017]
 selected = 1
+item_count = 3
 popup/item_0/text = "Deutsch"
 popup/item_0/id = 0
 popup/item_1/text = "English"
@@ -68,27 +66,26 @@ popup/item_1/id = 1
 popup/item_2/text = "Francáis"
 popup/item_2/id = 2
 
-[node name="Mouse" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="2" instance=ExtResource("9")]
+[node name="Mouse" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" parent_id_path=PackedInt32Array(500071854) index="2" unique_id=306177942 instance=ExtResource("9")]
 layout_mode = 2
-text = "Mouse"
 margin_top_as_sub = 23
 
-[node name="MouseOptions" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="3"]
+[node name="MouseOptions" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" parent_id_path=PackedInt32Array(500071854) index="3" unique_id=1103815843]
 layout_mode = 2
 
-[node name="ScrollAtMapEdge" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/MouseOptions" index="0" instance=ExtResource("12")]
+[node name="ScrollAtMapEdge" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/MouseOptions" index="0" unique_id=2006986150 instance=ExtResource("12")]
 layout_mode = 2
 description = "Scroll at map edge:"
 
-[node name="CursorCenteredZoom" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/MouseOptions" index="1" instance=ExtResource("12")]
+[node name="CursorCenteredZoom" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/MouseOptions" index="1" unique_id=120433573 instance=ExtResource("12")]
 layout_mode = 2
 description = "Cursor centered zoom:"
 
-[node name="MiddleMouseButtonPan" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/MouseOptions" index="2" instance=ExtResource("12")]
+[node name="MiddleMouseButtonPan" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/MouseOptions" index="2" unique_id=1616786257 instance=ExtResource("12")]
 layout_mode = 2
 description = "Middle mouse button pan:"
 
-[node name="MouseSensitivity" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/MouseOptions" index="3" instance=ExtResource("4")]
+[node name="MouseSensitivity" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage/MouseOptions" index="3" unique_id=1567472576 instance=ExtResource("4")]
 layout_mode = 2
 description = "Mouse sensitivity:"
 max_value = 7.0

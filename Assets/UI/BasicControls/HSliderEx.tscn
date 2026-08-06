@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://den73347r5don"]
+[gd_scene format=3 uid="uid://den73347r5don"]
 
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="3"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="3_u5rqw"]
@@ -6,14 +6,14 @@
 [ext_resource type="FontFile" uid="uid://dgr8rlsjjeh22" path="res://External/Fonts/LinLibertineBI.ttf" id="4_vt414"]
 [ext_resource type="Script" uid="uid://bposesriesiff" path="res://Assets/UI/BasicControls/HSlider.gd" id="6"]
 
-[node name="HSliderEx" type="VBoxContainer"]
+[node name="HSliderEx" type="VBoxContainer" unique_id=357992727]
 script = ExtResource("4")
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1186304347]
 unique_name_in_owner = true
 layout_mode = 2
 
-[node name="LabelExDesc" parent="HBoxContainer" instance=ExtResource("3")]
+[node name="LabelExDesc" parent="HBoxContainer" unique_id=465090844 instance=ExtResource("3")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("3_u5rqw")
 theme_override_font_sizes/font_size = 16
@@ -21,7 +21,7 @@ text = "Unknown Slider:"
 autowrap_mode = 0
 font_style = 9
 
-[node name="LabelExValue" parent="HBoxContainer" instance=ExtResource("3")]
+[node name="LabelExValue" parent="HBoxContainer" unique_id=339101830 instance=ExtResource("3")]
 layout_mode = 2
 size_flags_horizontal = 1
 theme_override_fonts/font = ExtResource("4_vt414")
@@ -30,7 +30,7 @@ text = "0"
 autowrap_mode = 0
 font_style = 12
 
-[node name="HSlider" type="HSlider" parent="."]
+[node name="HSlider" type="HSlider" parent="." unique_id=1411396232]
 unique_name_in_owner = true
 layout_mode = 2
 script = ExtResource("6")

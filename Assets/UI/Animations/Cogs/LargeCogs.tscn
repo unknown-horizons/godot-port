@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://bf7nlvfy521iv"]
+[gd_scene format=3 uid="uid://bf7nlvfy521iv"]
 
 [ext_resource type="Texture2D" uid="uid://ddh027myuq7hy" path="res://Assets/UI/Animations/Cogs/Large/3.png" id="1_patq8"]
 [ext_resource type="Texture2D" uid="uid://cskqcrekqoahe" path="res://Assets/UI/Animations/Cogs/Large/0.png" id="2_cw4af"]
@@ -34,13 +34,11 @@ _data = {
 &"cycle": SubResource("1")
 }
 
-[node name="LargeCogs" type="TextureRect"]
+[node name="LargeCogs" type="TextureRect" unique_id=1417289633]
 offset_right = 52.0
 offset_bottom = 52.0
 texture = ExtResource("1_patq8")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-autoplay = "cycle"
-libraries = {
-"": SubResource("AnimationLibrary_1i8e1")
-}
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=551504390]
+libraries/ = SubResource("AnimationLibrary_1i8e1")
+autoplay = &"cycle"

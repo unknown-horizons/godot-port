@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cbweavertres0"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbweavertres0"]
 
 [ext_resource type="Texture2D" uid="uid://ddvaqnacqhxc0" path="res://Assets/World/Buildings2/weaver/weaver_pioneers_as_weaver0_idle.png" id="weaver_pioneers_as_weaver0_idle"]
 
@@ -24,7 +24,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("weaver0_pioneers_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"weaver0.pioneers.idle.045",
 "speed": 5.0
 }, {
@@ -32,7 +32,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("weaver0_pioneers_idle_135_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"weaver0.pioneers.idle.135",
 "speed": 5.0
 }, {
@@ -40,7 +40,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("weaver0_pioneers_idle_225_0_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"weaver0.pioneers.idle.225",
 "speed": 5.0
 }, {
@@ -48,7 +48,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("weaver0_pioneers_idle_315_0_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"weaver0.pioneers.idle.315",
 "speed": 5.0
 }]

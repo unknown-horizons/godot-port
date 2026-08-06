@@ -1,16 +1,16 @@
-[gd_scene load_steps=5 format=3 uid="uid://batg8pwfpasdc"]
+[gd_scene format=3 uid="uid://batg8pwfpasdc"]
 
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="2"]
 [ext_resource type="Script" uid="uid://0j1kd4m6ew" path="res://Assets/UI/BasicControls/LineEditEx.gd" id="3"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="3_l3te3"]
 [ext_resource type="Script" uid="uid://c3k61wcd5orgo" path="res://Assets/UI/BasicControls/LineEdit.gd" id="5"]
 
-[node name="LineEditEx" type="HBoxContainer"]
+[node name="LineEditEx" type="HBoxContainer" unique_id=410029409]
 offset_right = 289.0
 offset_bottom = 30.0
 script = ExtResource("3")
 
-[node name="LabelEx" parent="." instance=ExtResource("2")]
+[node name="LabelEx" parent="." unique_id=352565497 instance=ExtResource("2")]
 custom_minimum_size = Vector2(120, 0)
 layout_mode = 2
 size_flags_horizontal = 0
@@ -21,7 +21,7 @@ vertical_alignment = 1
 clip_text = true
 font_style = 9
 
-[node name="LineEdit" type="LineEdit" parent="."]
+[node name="LineEdit" type="LineEdit" parent="." unique_id=1195875186]
 custom_minimum_size = Vector2(165, 30)
 layout_mode = 2
 size_flags_horizontal = 7

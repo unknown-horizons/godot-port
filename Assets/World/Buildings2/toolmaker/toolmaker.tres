@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cbtoolmakertr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbtoolmakertr"]
 
 [ext_resource type="Texture2D" uid="uid://bpfvth2ao2xm1" path="res://Assets/World/Buildings2/toolmaker/toolmaker_settlers_as_toolmaker0_idle.png" id="toolmaker_settlers_as_toolmaker0_idle"]
 [ext_resource type="Texture2D" uid="uid://cutxf4c7nqvfv" path="res://Assets/World/Buildings2/toolmaker/toolmaker_settlers_as_toolmaker0_work.png" id="toolmaker_settlers_as_toolmaker0_work"]
@@ -153,7 +153,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("toolmaker0_settlers_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"toolmaker0.settlers.idle.045",
 "speed": 5.0
 }, {
@@ -161,7 +161,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("toolmaker0_settlers_idle_135_0_98")
 }],
-"loop": true,
+"loop": 1,
 "name": &"toolmaker0.settlers.idle.135",
 "speed": 5.0
 }, {
@@ -169,7 +169,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("toolmaker0_settlers_idle_225_0_196")
 }],
-"loop": true,
+"loop": 1,
 "name": &"toolmaker0.settlers.idle.225",
 "speed": 5.0
 }, {
@@ -177,7 +177,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("toolmaker0_settlers_idle_315_0_294")
 }],
-"loop": true,
+"loop": 1,
 "name": &"toolmaker0.settlers.idle.315",
 "speed": 5.0
 }, {
@@ -206,7 +206,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("toolmaker0_settlers_work_045_896_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"toolmaker0.settlers.work.045",
 "speed": 5.0
 }, {
@@ -235,7 +235,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("toolmaker0_settlers_work_135_896_98")
 }],
-"loop": true,
+"loop": 1,
 "name": &"toolmaker0.settlers.work.135",
 "speed": 5.0
 }, {
@@ -264,7 +264,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("toolmaker0_settlers_work_225_896_196")
 }],
-"loop": true,
+"loop": 1,
 "name": &"toolmaker0.settlers.work.225",
 "speed": 5.0
 }, {
@@ -293,7 +293,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("toolmaker0_settlers_work_315_896_294")
 }],
-"loop": true,
+"loop": 1,
 "name": &"toolmaker0.settlers.work.315",
 "speed": 5.0
 }]

@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://bw7vhkspeuvnf"]
+[gd_scene format=3 uid="uid://bw7vhkspeuvnf"]
 
 [ext_resource type="Script" uid="uid://bfc38cdr60kde" path="res://Assets/World/Components/Storages/SettlementStorageComponent/SettlementStorageComponent.gd" id="1_diyto"]
 
-[node name="SettlementStorageComponent" type="Node2D"]
+[node name="SettlementStorageComponent" type="Node2D" unique_id=170507239]
 script = ExtResource("1_diyto")

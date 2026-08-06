@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=152 format=3 uid="uid://cbwindmilltre"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbwindmilltre"]
 
 [ext_resource type="Texture2D" uid="uid://wlhaiuorjs61" path="res://Assets/World/Buildings2/windmill/windmill_citizens_as_windmill0_idle.png" id="windmill_citizens_as_windmill0_idle"]
 [ext_resource type="Texture2D" uid="uid://ud57ufg610j1" path="res://Assets/World/Buildings2/windmill/windmill_citizens_as_windmill0_idle_full.png" id="windmill_citizens_as_windmill0_idle_full"]
@@ -602,7 +602,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("windmill0_citizens_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windmill0.citizens.idle.045",
 "speed": 5.0
 }, {
@@ -610,7 +610,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("windmill0_citizens_idle_135_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windmill0.citizens.idle.135",
 "speed": 5.0
 }, {
@@ -618,7 +618,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("windmill0_citizens_idle_225_0_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windmill0.citizens.idle.225",
 "speed": 5.0
 }, {
@@ -626,7 +626,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("windmill0_citizens_idle_315_0_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windmill0.citizens.idle.315",
 "speed": 5.0
 }, {
@@ -634,7 +634,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("windmill0_citizens_idle_full_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windmill0.citizens.idle_full.045",
 "speed": 5.0
 }, {
@@ -642,7 +642,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("windmill0_citizens_idle_full_135_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windmill0.citizens.idle_full.135",
 "speed": 5.0
 }, {
@@ -650,7 +650,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("windmill0_citizens_idle_full_225_0_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windmill0.citizens.idle_full.225",
 "speed": 5.0
 }, {
@@ -658,7 +658,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("windmill0_citizens_idle_full_315_0_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windmill0.citizens.idle_full.315",
 "speed": 5.0
 }, {
@@ -768,7 +768,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("windmill0_citizens_work_045_4352_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windmill0.citizens.work.045",
 "speed": 5.0
 }, {
@@ -878,7 +878,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("windmill0_citizens_work_135_4352_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windmill0.citizens.work.135",
 "speed": 5.0
 }, {
@@ -988,7 +988,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("windmill0_citizens_work_225_4352_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windmill0.citizens.work.225",
 "speed": 5.0
 }, {
@@ -1098,7 +1098,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("windmill0_citizens_work_315_4352_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"windmill0.citizens.work.315",
 "speed": 5.0
 }]

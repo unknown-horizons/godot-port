@@ -1,9 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://bvn70a0fi2ku1"]
+[gd_scene format=3 uid="uid://bvn70a0fi2ku1"]
 
 [ext_resource type="Texture2D" uid="uid://clst055oa5tpm" path="res://Assets/UI/Images/Background/pickbelt_left.png" id="1"]
 [ext_resource type="Script" uid="uid://3br0ey50nlme" path="res://Assets/UI/BookMenu/Bookmark.gd" id="2"]
 
-[node name="Bookmark" type="TextureButton"]
+[node name="Bookmark" type="TextureButton" unique_id=948283291]
 offset_right = 40.0
 offset_bottom = 40.0
 texture_normal = ExtResource("1")

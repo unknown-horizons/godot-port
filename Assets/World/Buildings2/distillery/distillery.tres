@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=27 format=3 uid="uid://cbdistillertr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbdistillertr"]
 
 [ext_resource type="Texture2D" uid="uid://267ayyhe26ys" path="res://Assets/World/Buildings2/distillery/distillery_pioneers_as_distillery0_idle.png" id="distillery_pioneers_as_distillery0_idle"]
 [ext_resource type="Texture2D" uid="uid://b1e8fisddynmf" path="res://Assets/World/Buildings2/distillery/distillery_pioneers_as_distillery0_work.png" id="distillery_pioneers_as_distillery0_work"]
@@ -105,7 +105,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("distillery0_pioneers_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"distillery0.pioneers.idle.045",
 "speed": 5.0
 }, {
@@ -113,7 +113,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("distillery0_pioneers_idle_135_0_98")
 }],
-"loop": true,
+"loop": 1,
 "name": &"distillery0.pioneers.idle.135",
 "speed": 5.0
 }, {
@@ -121,7 +121,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("distillery0_pioneers_idle_225_0_196")
 }],
-"loop": true,
+"loop": 1,
 "name": &"distillery0.pioneers.idle.225",
 "speed": 5.0
 }, {
@@ -129,7 +129,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("distillery0_pioneers_idle_315_0_294")
 }],
-"loop": true,
+"loop": 1,
 "name": &"distillery0.pioneers.idle.315",
 "speed": 5.0
 }, {
@@ -149,7 +149,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("distillery0_pioneers_work_045_512_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"distillery0.pioneers.work.045",
 "speed": 5.0
 }, {
@@ -169,7 +169,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("distillery0_pioneers_work_135_512_98")
 }],
-"loop": true,
+"loop": 1,
 "name": &"distillery0.pioneers.work.135",
 "speed": 5.0
 }, {
@@ -189,7 +189,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("distillery0_pioneers_work_225_512_196")
 }],
-"loop": true,
+"loop": 1,
 "name": &"distillery0.pioneers.work.225",
 "speed": 5.0
 }, {
@@ -209,7 +209,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("distillery0_pioneers_work_315_512_294")
 }],
-"loop": true,
+"loop": 1,
 "name": &"distillery0.pioneers.work.315",
 "speed": 5.0
 }]

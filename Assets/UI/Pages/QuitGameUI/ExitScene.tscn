@@ -1,20 +1,20 @@
-[gd_scene load_steps=5 format=3 uid="uid://dtblc45yuwp0w"]
+[gd_scene format=3 uid="uid://dtblc45yuwp0w"]
 
 [ext_resource type="Script" uid="uid://tguyynosrjue" path="res://Assets/UI/Pages/QuitGameUI/ExitScene.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://nrp4xkogand" path="res://Assets/UI/Images/Background/MainMenu/bg_4.png" id="2"]
 [ext_resource type="Theme" uid="uid://lyx8kydf373j" path="res://Assets/UI/Theme/MenuTheme.tres" id="3"]
 [ext_resource type="Texture2D" uid="uid://cpn75tf5b4csq" path="res://Assets/UI/Images/Background/MainMenu/wheel.png" id="4"]
 
-[node name="ExitScene" type="Node"]
+[node name="ExitScene" type="Node" unique_id=1755260043]
 script = ExtResource("1")
 
-[node name="Background" type="TextureRect" parent="."]
+[node name="Background" type="TextureRect" parent="." unique_id=224914950]
 offset_right = 1600.0
 offset_bottom = 900.0
 texture = ExtResource("2")
 expand_mode = 1
 
-[node name="Decoration" type="TextureRect" parent="."]
+[node name="Decoration" type="TextureRect" parent="." unique_id=1402895542]
 custom_minimum_size = Vector2(40, 40)
 anchors_preset = 8
 anchor_left = 0.5
@@ -30,7 +30,7 @@ texture = ExtResource("4")
 expand_mode = 1
 stretch_mode = 4
 
-[node name="Panel" type="Panel" parent="Decoration"]
+[node name="Panel" type="Panel" parent="Decoration" unique_id=753761224]
 custom_minimum_size = Vector2(450, 60)
 layout_mode = 0
 anchor_left = 0.5
@@ -42,7 +42,7 @@ offset_top = -30.0
 offset_right = 225.0
 offset_bottom = 30.0
 
-[node name="Label" type="Label" parent="Decoration/Panel"]
+[node name="Label" type="Label" parent="Decoration/Panel" unique_id=933542248]
 custom_minimum_size = Vector2(20, 20)
 layout_mode = 0
 offset_left = 11.0

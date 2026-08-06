@@ -1,53 +1,42 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbtreetscn000"]
+[gd_scene format=3 uid="uid://cbtreetscn000"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
-[ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
 [ext_resource type="SpriteFrames" uid="uid://cbtreetres000" path="res://Assets/World/Buildings2/tree/tree.tres" id="4_sprite_frames"]
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 [ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 
-[node name="tree" type="Node2D"]
+[node name="tree" type="Node2D" unique_id=1174978396]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.TREE"
 baseclass = "nature.Tree"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Tree"
 })
-radius = 0
-cost = 0
-cost_inactive = 0
-size = Vector2i(1, 1)
-inhabitants = 0
 tooltip_text = "_ Provides lumber. Chopped down by lumberjacks."
-show_status_icons = false
 tier = "TIER.NATURE"
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=417961357 instance=ExtResource("5_health_component")]
 max_health = 10
 
-[node name="ProductionLineComponent_1" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_1" parent="." unique_id=1903197594 instance=ExtResource("6_production_line_component")]
 line_name = "1"
-consumes = Dictionary[StringName, int]({
-})
 produces = Dictionary[StringName, int]({
 &"TREES": 1
 })
 
-[node name="ProductionLineComponent_17" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_17" parent="." unique_id=803715154 instance=ExtResource("6_production_line_component")]
 line_name = "17"
-consumes = Dictionary[StringName, int]({
-})
 produces = Dictionary[StringName, int]({
 &"WILDANIMALFOOD": 1
 })
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=1069558013 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"TREES": 1,
 &"WILDANIMALFOOD": 1
 })
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=1839364873 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

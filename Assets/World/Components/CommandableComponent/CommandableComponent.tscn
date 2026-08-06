@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://buhb8w8vw1xbg"]
+[gd_scene format=3 uid="uid://buhb8w8vw1xbg"]
 
 [ext_resource type="Script" uid="uid://1sjsmkvm8eku" path="res://Assets/World/Components/CommandableComponent/CommandableComponent.gd" id="1_46rqa"]
 
-[node name="CommandableComponent" type="Node2D"]
+[node name="CommandableComponent" type="Node2D" unique_id=803294472]
 script = ExtResource("1_46rqa")
 
-[node name="Checkpoints" type="Node" parent="."]
+[node name="Checkpoints" type="Node" parent="." unique_id=809784900]

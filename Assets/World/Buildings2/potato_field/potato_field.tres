@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=32 format=3 uid="uid://cbpotatofietr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbpotatofietr"]
 
 [ext_resource type="Texture2D" uid="uid://dh6dyhp0aejt" path="res://Assets/World/Buildings2/potato_field/potato_field_pioneers_as_potatofield0_idle.png" id="potato_field_pioneers_as_potatofield0_idle"]
 [ext_resource type="Texture2D" uid="uid://dvnsp5j0qaxlc" path="res://Assets/World/Buildings2/potato_field/potato_field_pioneers_as_potatofield0_idle_full.png" id="potato_field_pioneers_as_potatofield0_idle_full"]
@@ -122,7 +122,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("potatofield0_pioneers_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"potatofield0.pioneers.idle.045",
 "speed": 5.0
 }, {
@@ -130,7 +130,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("potatofield0_pioneers_idle_135_0_93")
 }],
-"loop": true,
+"loop": 1,
 "name": &"potatofield0.pioneers.idle.135",
 "speed": 5.0
 }, {
@@ -138,7 +138,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("potatofield0_pioneers_idle_225_0_186")
 }],
-"loop": true,
+"loop": 1,
 "name": &"potatofield0.pioneers.idle.225",
 "speed": 5.0
 }, {
@@ -146,7 +146,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("potatofield0_pioneers_idle_315_0_279")
 }],
-"loop": true,
+"loop": 1,
 "name": &"potatofield0.pioneers.idle.315",
 "speed": 5.0
 }, {
@@ -154,7 +154,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("potatofield0_pioneers_idle_full_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"potatofield0.pioneers.idle_full.045",
 "speed": 5.0
 }, {
@@ -162,7 +162,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("potatofield0_pioneers_idle_full_135_0_102")
 }],
-"loop": true,
+"loop": 1,
 "name": &"potatofield0.pioneers.idle_full.135",
 "speed": 5.0
 }, {
@@ -170,7 +170,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("potatofield0_pioneers_idle_full_225_0_202")
 }],
-"loop": true,
+"loop": 1,
 "name": &"potatofield0.pioneers.idle_full.225",
 "speed": 5.0
 }, {
@@ -178,7 +178,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("potatofield0_pioneers_idle_full_315_0_302")
 }],
-"loop": true,
+"loop": 1,
 "name": &"potatofield0.pioneers.idle_full.315",
 "speed": 5.0
 }, {
@@ -198,7 +198,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("potatofield0_pioneers_work_045_768_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"potatofield0.pioneers.work.045",
 "speed": 5.0
 }, {
@@ -218,7 +218,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("potatofield0_pioneers_work_135_768_102")
 }],
-"loop": true,
+"loop": 1,
 "name": &"potatofield0.pioneers.work.135",
 "speed": 5.0
 }, {
@@ -238,7 +238,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("potatofield0_pioneers_work_225_768_202")
 }],
-"loop": true,
+"loop": 1,
 "name": &"potatofield0.pioneers.work.225",
 "speed": 5.0
 }, {
@@ -258,7 +258,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("potatofield0_pioneers_work_315_768_302")
 }],
-"loop": true,
+"loop": 1,
 "name": &"potatofield0.pioneers.work.315",
 "speed": 5.0
 }]

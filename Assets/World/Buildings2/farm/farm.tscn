@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://cbfarmtscn000"]
+[gd_scene format=3 uid="uid://cbfarmtscn000"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -10,7 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://cufieldcollts" path="res://Assets/World/Units2/field_collector/field_collector.tscn" id="7_field_collector"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="9_building_collector_component"]
 
-[node name="farm" type="Node2D"]
+[node name="farm" type="Node2D" unique_id=534038794]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.FARM"
 baseclass = "production.Farm"
@@ -19,21 +19,20 @@ game_name_per_tier = Dictionary[StringName, String]({
 })
 radius = 3
 cost = 10
-cost_inactive = 0
 size = Vector2i(3, 3)
 inhabitants = 2
 tooltip_text = "_ Grows field crops and raises livestock."
 tier = "TIER.PIONEERS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=568376633 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["ProductionOverviewTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=964423018 instance=ExtResource("5_health_component")]
 max_health = 1000
 
-[node name="ProductionLineComponent_WOOL" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_WOOL" parent="." unique_id=236422580 instance=ExtResource("6_production_line_component")]
 line_name = "WOOL"
 consumes = Dictionary[StringName, int]({
 &"LAMB_WOOL": 1
@@ -43,7 +42,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="ProductionLineComponent_TOBACCO_LEAVES" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_TOBACCO_LEAVES" parent="." unique_id=517201238 instance=ExtResource("6_production_line_component")]
 line_name = "TOBACCO_LEAVES"
 consumes = Dictionary[StringName, int]({
 &"TOBACCO_PLANTS": 1
@@ -53,7 +52,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="ProductionLineComponent_CATTLE_SLAUGHTER" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_CATTLE_SLAUGHTER" parent="." unique_id=543926326 instance=ExtResource("6_production_line_component")]
 line_name = "CATTLE_SLAUGHTER"
 consumes = Dictionary[StringName, int]({
 &"CATTLE": 1
@@ -63,7 +62,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="ProductionLineComponent_PIGS_SLAUGHTER" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_PIGS_SLAUGHTER" parent="." unique_id=1896132267 instance=ExtResource("6_production_line_component")]
 line_name = "PIGS_SLAUGHTER"
 consumes = Dictionary[StringName, int]({
 &"PIGS": 1
@@ -73,7 +72,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="ProductionLineComponent_POTATOES" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_POTATOES" parent="." unique_id=786541258 instance=ExtResource("6_production_line_component")]
 line_name = "POTATOES"
 consumes = Dictionary[StringName, int]({
 &"POTATOES": 2
@@ -83,7 +82,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="ProductionLineComponent_SUGAR" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_SUGAR" parent="." unique_id=1427414726 instance=ExtResource("6_production_line_component")]
 line_name = "SUGAR"
 consumes = Dictionary[StringName, int]({
 &"RAW_SUGAR": 1
@@ -93,7 +92,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="ProductionLineComponent_MEDICAL_HERBS" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_MEDICAL_HERBS" parent="." unique_id=916799171 instance=ExtResource("6_production_line_component")]
 line_name = "MEDICAL_HERBS"
 consumes = Dictionary[StringName, int]({
 &"HERBS": 1
@@ -103,7 +102,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="ProductionLineComponent_CORN" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_CORN" parent="." unique_id=1627768134 instance=ExtResource("6_production_line_component")]
 line_name = "CORN"
 consumes = Dictionary[StringName, int]({
 &"GRAIN": 1
@@ -113,7 +112,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="ProductionLineComponent_SPICES" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_SPICES" parent="." unique_id=918822594 instance=ExtResource("6_production_line_component")]
 line_name = "SPICES"
 consumes = Dictionary[StringName, int]({
 &"SPICE_PLANTS": 1
@@ -123,7 +122,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="ProductionLineComponent_COCOA" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_COCOA" parent="." unique_id=525594721 instance=ExtResource("6_production_line_component")]
 line_name = "COCOA"
 consumes = Dictionary[StringName, int]({
 &"COCOA_BEANS": 1
@@ -133,7 +132,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="ProductionLineComponent_GRAPES" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_GRAPES" parent="." unique_id=844783149 instance=ExtResource("6_production_line_component")]
 line_name = "GRAPES"
 consumes = Dictionary[StringName, int]({
 &"VINES": 1
@@ -143,7 +142,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="ProductionLineComponent_HONEYCOMBS" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_HONEYCOMBS" parent="." unique_id=320763637 instance=ExtResource("6_production_line_component")]
 line_name = "HONEYCOMBS"
 consumes = Dictionary[StringName, int]({
 &"ALVEARIES": 1
@@ -153,7 +152,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="ProductionLineComponent_HOPS" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_HOPS" parent="." unique_id=1913632614 instance=ExtResource("6_production_line_component")]
 line_name = "HOPS"
 consumes = Dictionary[StringName, int]({
 &"HOP_PLANTS": 1
@@ -163,7 +162,7 @@ produces = Dictionary[StringName, int]({
 })
 show_resource_deficit_tooltip = false
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=720664954 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"ALVEARIES": 6,
 &"CATTLE": 6,
@@ -193,12 +192,12 @@ max_capacity = Dictionary[StringName, int]({
 &"WOOL": 6
 })
 
-[node name="field_collector_0" parent="." instance=ExtResource("7_field_collector")]
+[node name="field_collector_0" parent="." unique_id=671151107 instance=ExtResource("7_field_collector")]
 
-[node name="field_collector_1" parent="." instance=ExtResource("7_field_collector")]
+[node name="field_collector_1" parent="." unique_id=1050885858 instance=ExtResource("7_field_collector")]
 
-[node name="BuildingCollector" parent="." instance=ExtResource("9_building_collector_component")]
+[node name="BuildingCollector" parent="." unique_id=269631418 instance=ExtResource("9_building_collector_component")]
 radius = 8
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=661913261 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

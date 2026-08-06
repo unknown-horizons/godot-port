@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://cwi23f5spohl"]
+[gd_scene format=3 uid="uid://cwi23f5spohl"]
 
 [ext_resource type="Script" uid="uid://dej4nanaviynq" path="res://Assets/UI/InfoWidgets/BalanceInfoButton.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://dm1iiolcn53a8" path="res://Assets/UI/Images/Background/Widgets/res_mon_bg.png" id="2"]
@@ -15,7 +15,7 @@ texture_margin_top = 4.0
 texture_margin_right = 4.0
 texture_margin_bottom = 32.0
 
-[node name="BalanceInfoButton" type="VBoxContainer"]
+[node name="BalanceInfoButton" type="VBoxContainer" unique_id=1698307988]
 show_behind_parent = true
 offset_right = 87.0
 offset_bottom = 169.0
@@ -24,13 +24,13 @@ theme_override_constants/separation = -14
 script = ExtResource("1")
 show_details = true
 
-[node name="TextureButton" type="TextureButton" parent="."]
+[node name="TextureButton" type="TextureButton" parent="." unique_id=1509088861]
 layout_mode = 2
 size_flags_horizontal = 4
 texture_normal = ExtResource("2")
 stretch_mode = 5
 
-[node name="TextureRect" type="TextureRect" parent="TextureButton"]
+[node name="TextureRect" type="TextureRect" parent="TextureButton" unique_id=1476401759]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -46,7 +46,7 @@ grow_vertical = 2
 texture = ExtResource("3")
 stretch_mode = 5
 
-[node name="GoldLabel" parent="TextureButton" instance=ExtResource("4")]
+[node name="GoldLabel" parent="TextureButton" unique_id=1906100470 instance=ExtResource("4")]
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = -1
@@ -66,76 +66,76 @@ text = "63000"
 horizontal_alignment = 1
 font_style = 4
 
-[node name="Container" type="MarginContainer" parent="."]
+[node name="Container" type="MarginContainer" parent="." unique_id=2036745281]
 layout_mode = 2
 
-[node name="Background" type="Panel" parent="Container"]
+[node name="Background" type="Panel" parent="Container" unique_id=67875630]
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_cpeko")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Container"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Container" unique_id=350539736]
 layout_mode = 2
 theme_override_constants/separation = 0
 
-[node name="Overlays" type="TabContainer" parent="Container/VBoxContainer"]
+[node name="Overlays" type="TabContainer" parent="Container/VBoxContainer" unique_id=1455822668]
 unique_name_in_owner = true
 layout_mode = 2
 current_tab = 0
 tabs_visible = false
 
-[node name="FinanceOverlay" type="MarginContainer" parent="Container/VBoxContainer/Overlays"]
+[node name="FinanceOverlay" type="MarginContainer" parent="Container/VBoxContainer/Overlays" unique_id=422819288]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_right = 20
 metadata/_tab_index = 0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Container/VBoxContainer/Overlays/FinanceOverlay"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Container/VBoxContainer/Overlays/FinanceOverlay" unique_id=363598663]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_constants/separation = 0
 alignment = 2
 
-[node name="ShowDetails" type="VBoxContainer" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer"]
+[node name="ShowDetails" type="VBoxContainer" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer" unique_id=1650348206]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_constants/separation = 0
 
-[node name="ExpensesBalanceInfoItem" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer/ShowDetails" instance=ExtResource("6")]
+[node name="ExpensesBalanceInfoItem" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer/ShowDetails" unique_id=2089412605 instance=ExtResource("6")]
 unique_name_in_owner = true
 layout_mode = 2
 balance_value = -5
 
-[node name="RevenueBalanceInfoItem" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer/ShowDetails" instance=ExtResource("6")]
+[node name="RevenueBalanceInfoItem" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer/ShowDetails" unique_id=2032301151 instance=ExtResource("6")]
 unique_name_in_owner = true
 layout_mode = 2
 alignment = 1
 balance_type = 1
 balance_value = 12
 
-[node name="BuyBalanceInfoItem" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer/ShowDetails" instance=ExtResource("6")]
+[node name="BuyBalanceInfoItem" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer/ShowDetails" unique_id=789093626 instance=ExtResource("6")]
 unique_name_in_owner = true
 layout_mode = 2
 alignment = 1
 balance_type = 2
 
-[node name="SellBalanceInfoItem" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer/ShowDetails" instance=ExtResource("6")]
+[node name="SellBalanceInfoItem" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer/ShowDetails" unique_id=199355179 instance=ExtResource("6")]
 unique_name_in_owner = true
 layout_mode = 2
 alignment = 1
 balance_type = 3
 
-[node name="HSeparator" type="HSeparator" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer/ShowDetails"]
+[node name="HSeparator" type="HSeparator" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer/ShowDetails" unique_id=895042629]
 layout_mode = 2
 theme_override_constants/separation = 4
 
-[node name="Balance" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer" instance=ExtResource("6")]
+[node name="Balance" parent="Container/VBoxContainer/Overlays/FinanceOverlay/VBoxContainer" unique_id=1308047996 instance=ExtResource("6")]
 unique_name_in_owner = true
 layout_mode = 2
 balance_type = 4
 balance_value = 7
 
-[node name="BuildingCostLabel" parent="Container/VBoxContainer/Overlays" instance=ExtResource("4")]
+[node name="BuildingCostLabel" parent="Container/VBoxContainer/Overlays" unique_id=699646391 instance=ExtResource("4")]
 unique_name_in_owner = true
 visible = false
 layout_mode = 2
@@ -144,7 +144,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_tab_index = 1
 
-[node name="HSeparator" type="HSeparator" parent="Container/VBoxContainer"]
+[node name="HSeparator" type="HSeparator" parent="Container/VBoxContainer" unique_id=1176202402]
 layout_mode = 2
 theme_override_constants/separation = 4
 

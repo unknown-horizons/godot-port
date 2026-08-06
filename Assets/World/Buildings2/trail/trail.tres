@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=226 format=3 uid="uid://cbtrailtres00"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbtrailtres00"]
 
 [ext_resource type="Texture2D" uid="uid://b17ccaa44hd0p" path="res://Assets/World/Buildings2/trail/trail_citizens_as_stone_path_a.png" id="trail_citizens_as_stone_path_a"]
 [ext_resource type="Texture2D" uid="uid://dnu4bucal8jwu" path="res://Assets/World/Buildings2/trail/trail_citizens_as_stone_path_ab.png" id="trail_citizens_as_stone_path_ab"]
@@ -772,7 +772,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_a_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.a.045",
 "speed": 5.0
 }, {
@@ -780,7 +780,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_a_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.a.135",
 "speed": 5.0
 }, {
@@ -788,7 +788,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_a_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.a.225",
 "speed": 5.0
 }, {
@@ -796,7 +796,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_a_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.a.315",
 "speed": 5.0
 }, {
@@ -804,7 +804,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_ab_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.ab.045",
 "speed": 5.0
 }, {
@@ -812,7 +812,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_ab_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.ab.135",
 "speed": 5.0
 }, {
@@ -820,7 +820,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_ab_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.ab.225",
 "speed": 5.0
 }, {
@@ -828,7 +828,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_ab_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.ab.315",
 "speed": 5.0
 }, {
@@ -836,7 +836,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abc_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abc.045",
 "speed": 5.0
 }, {
@@ -844,7 +844,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abc_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abc.135",
 "speed": 5.0
 }, {
@@ -852,7 +852,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abc_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abc.225",
 "speed": 5.0
 }, {
@@ -860,7 +860,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abc_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abc.315",
 "speed": 5.0
 }, {
@@ -868,7 +868,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcd_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcd.045",
 "speed": 5.0
 }, {
@@ -876,7 +876,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcd_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcd.135",
 "speed": 5.0
 }, {
@@ -884,7 +884,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcd_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcd.225",
 "speed": 5.0
 }, {
@@ -892,7 +892,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcd_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcd.315",
 "speed": 5.0
 }, {
@@ -900,7 +900,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcde_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcde.045",
 "speed": 5.0
 }, {
@@ -908,7 +908,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcde_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcde.135",
 "speed": 5.0
 }, {
@@ -916,7 +916,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcde_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcde.225",
 "speed": 5.0
 }, {
@@ -924,7 +924,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcde_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcde.315",
 "speed": 5.0
 }, {
@@ -932,7 +932,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdef_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdef.045",
 "speed": 5.0
 }, {
@@ -940,7 +940,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdef_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdef.135",
 "speed": 5.0
 }, {
@@ -948,7 +948,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdef_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdef.225",
 "speed": 5.0
 }, {
@@ -956,7 +956,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdef_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdef.315",
 "speed": 5.0
 }, {
@@ -964,7 +964,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdefg_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdefg.045",
 "speed": 5.0
 }, {
@@ -972,7 +972,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdefg_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdefg.135",
 "speed": 5.0
 }, {
@@ -980,7 +980,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdefg_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdefg.225",
 "speed": 5.0
 }, {
@@ -988,7 +988,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdefg_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdefg.315",
 "speed": 5.0
 }, {
@@ -996,7 +996,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdefgh_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdefgh.045",
 "speed": 5.0
 }, {
@@ -1004,7 +1004,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdefgh_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdefgh.135",
 "speed": 5.0
 }, {
@@ -1012,7 +1012,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdefgh_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdefgh.225",
 "speed": 5.0
 }, {
@@ -1020,7 +1020,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdefgh_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdefgh.315",
 "speed": 5.0
 }, {
@@ -1028,7 +1028,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdeg_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdeg.045",
 "speed": 5.0
 }, {
@@ -1036,7 +1036,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdeg_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdeg.135",
 "speed": 5.0
 }, {
@@ -1044,7 +1044,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdeg_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdeg.225",
 "speed": 5.0
 }, {
@@ -1052,7 +1052,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcdeg_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcdeg.315",
 "speed": 5.0
 }, {
@@ -1060,7 +1060,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abce_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abce.045",
 "speed": 5.0
 }, {
@@ -1068,7 +1068,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abce_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abce.135",
 "speed": 5.0
 }, {
@@ -1076,7 +1076,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abce_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abce.225",
 "speed": 5.0
 }, {
@@ -1084,7 +1084,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abce_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abce.315",
 "speed": 5.0
 }, {
@@ -1092,7 +1092,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcef_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcef.045",
 "speed": 5.0
 }, {
@@ -1100,7 +1100,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcef_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcef.135",
 "speed": 5.0
 }, {
@@ -1108,7 +1108,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcef_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcef.225",
 "speed": 5.0
 }, {
@@ -1116,7 +1116,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcef_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcef.315",
 "speed": 5.0
 }, {
@@ -1124,7 +1124,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcf_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcf.045",
 "speed": 5.0
 }, {
@@ -1132,7 +1132,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcf_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcf.135",
 "speed": 5.0
 }, {
@@ -1140,7 +1140,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcf_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcf.225",
 "speed": 5.0
 }, {
@@ -1148,7 +1148,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abcf_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abcf.315",
 "speed": 5.0
 }, {
@@ -1156,7 +1156,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abe_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abe.045",
 "speed": 5.0
 }, {
@@ -1164,7 +1164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abe_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abe.135",
 "speed": 5.0
 }, {
@@ -1172,7 +1172,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abe_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abe.225",
 "speed": 5.0
 }, {
@@ -1180,7 +1180,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_abe_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.abe.315",
 "speed": 5.0
 }, {
@@ -1188,7 +1188,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_ac_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.ac.045",
 "speed": 5.0
 }, {
@@ -1196,7 +1196,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_ac_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.ac.135",
 "speed": 5.0
 }, {
@@ -1204,7 +1204,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_ac_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.ac.225",
 "speed": 5.0
 }, {
@@ -1212,7 +1212,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_ac_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.ac.315",
 "speed": 5.0
 }, {
@@ -1220,7 +1220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_single_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.single.045",
 "speed": 5.0
 }, {
@@ -1228,7 +1228,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_single_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.single.135",
 "speed": 5.0
 }, {
@@ -1236,7 +1236,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_single_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.single.225",
 "speed": 5.0
 }, {
@@ -1244,7 +1244,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("gravel_path_pioneers_single_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"gravel_path.pioneers.single.315",
 "speed": 5.0
 }, {
@@ -1252,7 +1252,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_a_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.a.045",
 "speed": 5.0
 }, {
@@ -1260,7 +1260,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_a_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.a.135",
 "speed": 5.0
 }, {
@@ -1268,7 +1268,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_a_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.a.225",
 "speed": 5.0
 }, {
@@ -1276,7 +1276,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_a_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.a.315",
 "speed": 5.0
 }, {
@@ -1284,7 +1284,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_ab_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.ab.045",
 "speed": 5.0
 }, {
@@ -1292,7 +1292,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_ab_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.ab.135",
 "speed": 5.0
 }, {
@@ -1300,7 +1300,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_ab_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.ab.225",
 "speed": 5.0
 }, {
@@ -1308,7 +1308,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_ab_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.ab.315",
 "speed": 5.0
 }, {
@@ -1316,7 +1316,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abc_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abc.045",
 "speed": 5.0
 }, {
@@ -1324,7 +1324,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abc_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abc.135",
 "speed": 5.0
 }, {
@@ -1332,7 +1332,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abc_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abc.225",
 "speed": 5.0
 }, {
@@ -1340,7 +1340,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abc_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abc.315",
 "speed": 5.0
 }, {
@@ -1348,7 +1348,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcd_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcd.045",
 "speed": 5.0
 }, {
@@ -1356,7 +1356,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcd_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcd.135",
 "speed": 5.0
 }, {
@@ -1364,7 +1364,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcd_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcd.225",
 "speed": 5.0
 }, {
@@ -1372,7 +1372,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcd_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcd.315",
 "speed": 5.0
 }, {
@@ -1380,7 +1380,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcde_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcde.045",
 "speed": 5.0
 }, {
@@ -1388,7 +1388,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcde_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcde.135",
 "speed": 5.0
 }, {
@@ -1396,7 +1396,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcde_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcde.225",
 "speed": 5.0
 }, {
@@ -1404,7 +1404,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcde_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcde.315",
 "speed": 5.0
 }, {
@@ -1412,7 +1412,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdef_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdef.045",
 "speed": 5.0
 }, {
@@ -1420,7 +1420,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdef_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdef.135",
 "speed": 5.0
 }, {
@@ -1428,7 +1428,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdef_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdef.225",
 "speed": 5.0
 }, {
@@ -1436,7 +1436,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdef_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdef.315",
 "speed": 5.0
 }, {
@@ -1444,7 +1444,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdefg_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdefg.045",
 "speed": 5.0
 }, {
@@ -1452,7 +1452,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdefg_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdefg.135",
 "speed": 5.0
 }, {
@@ -1460,7 +1460,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdefg_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdefg.225",
 "speed": 5.0
 }, {
@@ -1468,7 +1468,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdefg_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdefg.315",
 "speed": 5.0
 }, {
@@ -1476,7 +1476,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdefgh_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdefgh.045",
 "speed": 5.0
 }, {
@@ -1484,7 +1484,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdefgh_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdefgh.135",
 "speed": 5.0
 }, {
@@ -1492,7 +1492,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdefgh_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdefgh.225",
 "speed": 5.0
 }, {
@@ -1500,7 +1500,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdefgh_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdefgh.315",
 "speed": 5.0
 }, {
@@ -1508,7 +1508,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdeg_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdeg.045",
 "speed": 5.0
 }, {
@@ -1516,7 +1516,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdeg_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdeg.135",
 "speed": 5.0
 }, {
@@ -1524,7 +1524,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdeg_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdeg.225",
 "speed": 5.0
 }, {
@@ -1532,7 +1532,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcdeg_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcdeg.315",
 "speed": 5.0
 }, {
@@ -1540,7 +1540,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abce_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abce.045",
 "speed": 5.0
 }, {
@@ -1548,7 +1548,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abce_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abce.135",
 "speed": 5.0
 }, {
@@ -1556,7 +1556,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abce_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abce.225",
 "speed": 5.0
 }, {
@@ -1564,7 +1564,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abce_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abce.315",
 "speed": 5.0
 }, {
@@ -1572,7 +1572,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcef_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcef.045",
 "speed": 5.0
 }, {
@@ -1580,7 +1580,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcef_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcef.135",
 "speed": 5.0
 }, {
@@ -1588,7 +1588,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcef_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcef.225",
 "speed": 5.0
 }, {
@@ -1596,7 +1596,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcef_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcef.315",
 "speed": 5.0
 }, {
@@ -1604,7 +1604,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcf_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcf.045",
 "speed": 5.0
 }, {
@@ -1612,7 +1612,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcf_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcf.135",
 "speed": 5.0
 }, {
@@ -1620,7 +1620,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcf_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcf.225",
 "speed": 5.0
 }, {
@@ -1628,7 +1628,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abcf_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abcf.315",
 "speed": 5.0
 }, {
@@ -1636,7 +1636,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abe_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abe.045",
 "speed": 5.0
 }, {
@@ -1644,7 +1644,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abe_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abe.135",
 "speed": 5.0
 }, {
@@ -1652,7 +1652,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abe_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abe.225",
 "speed": 5.0
 }, {
@@ -1660,7 +1660,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_abe_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.abe.315",
 "speed": 5.0
 }, {
@@ -1668,7 +1668,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_ac_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.ac.045",
 "speed": 5.0
 }, {
@@ -1676,7 +1676,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_ac_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.ac.135",
 "speed": 5.0
 }, {
@@ -1684,7 +1684,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_ac_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.ac.225",
 "speed": 5.0
 }, {
@@ -1692,7 +1692,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_ac_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.ac.315",
 "speed": 5.0
 }, {
@@ -1700,7 +1700,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_single_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.single.045",
 "speed": 5.0
 }, {
@@ -1708,7 +1708,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_single_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.single.135",
 "speed": 5.0
 }, {
@@ -1716,7 +1716,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_single_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.single.225",
 "speed": 5.0
 }, {
@@ -1724,7 +1724,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("stone_path_citizens_single_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"stone_path.citizens.single.315",
 "speed": 5.0
 }, {
@@ -1732,7 +1732,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_a_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.a.045",
 "speed": 5.0
 }, {
@@ -1740,7 +1740,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_a_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.a.135",
 "speed": 5.0
 }, {
@@ -1748,7 +1748,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_a_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.a.225",
 "speed": 5.0
 }, {
@@ -1756,7 +1756,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_a_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.a.315",
 "speed": 5.0
 }, {
@@ -1764,7 +1764,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_ab_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.ab.045",
 "speed": 5.0
 }, {
@@ -1772,7 +1772,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_ab_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.ab.135",
 "speed": 5.0
 }, {
@@ -1780,7 +1780,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_ab_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.ab.225",
 "speed": 5.0
 }, {
@@ -1788,7 +1788,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_ab_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.ab.315",
 "speed": 5.0
 }, {
@@ -1796,7 +1796,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abc_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abc.045",
 "speed": 5.0
 }, {
@@ -1804,7 +1804,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abc_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abc.135",
 "speed": 5.0
 }, {
@@ -1812,7 +1812,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abc_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abc.225",
 "speed": 5.0
 }, {
@@ -1820,7 +1820,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abc_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abc.315",
 "speed": 5.0
 }, {
@@ -1828,7 +1828,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcd_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcd.045",
 "speed": 5.0
 }, {
@@ -1836,7 +1836,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcd_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcd.135",
 "speed": 5.0
 }, {
@@ -1844,7 +1844,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcd_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcd.225",
 "speed": 5.0
 }, {
@@ -1852,7 +1852,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcd_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcd.315",
 "speed": 5.0
 }, {
@@ -1860,7 +1860,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcde_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcde.045",
 "speed": 5.0
 }, {
@@ -1868,7 +1868,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcde_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcde.135",
 "speed": 5.0
 }, {
@@ -1876,7 +1876,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcde_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcde.225",
 "speed": 5.0
 }, {
@@ -1884,7 +1884,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcde_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcde.315",
 "speed": 5.0
 }, {
@@ -1892,7 +1892,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdef_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdef.045",
 "speed": 5.0
 }, {
@@ -1900,7 +1900,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdef_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdef.135",
 "speed": 5.0
 }, {
@@ -1908,7 +1908,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdef_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdef.225",
 "speed": 5.0
 }, {
@@ -1916,7 +1916,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdef_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdef.315",
 "speed": 5.0
 }, {
@@ -1924,7 +1924,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdefg_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdefg.045",
 "speed": 5.0
 }, {
@@ -1932,7 +1932,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdefg_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdefg.135",
 "speed": 5.0
 }, {
@@ -1940,7 +1940,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdefg_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdefg.225",
 "speed": 5.0
 }, {
@@ -1948,7 +1948,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdefg_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdefg.315",
 "speed": 5.0
 }, {
@@ -1956,7 +1956,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdefgh_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdefgh.045",
 "speed": 5.0
 }, {
@@ -1964,7 +1964,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdefgh_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdefgh.135",
 "speed": 5.0
 }, {
@@ -1972,7 +1972,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdefgh_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdefgh.225",
 "speed": 5.0
 }, {
@@ -1980,7 +1980,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdefgh_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdefgh.315",
 "speed": 5.0
 }, {
@@ -1988,7 +1988,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdeg_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdeg.045",
 "speed": 5.0
 }, {
@@ -1996,7 +1996,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdeg_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdeg.135",
 "speed": 5.0
 }, {
@@ -2004,7 +2004,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdeg_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdeg.225",
 "speed": 5.0
 }, {
@@ -2012,7 +2012,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcdeg_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcdeg.315",
 "speed": 5.0
 }, {
@@ -2020,7 +2020,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abce_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abce.045",
 "speed": 5.0
 }, {
@@ -2028,7 +2028,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abce_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abce.135",
 "speed": 5.0
 }, {
@@ -2036,7 +2036,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abce_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abce.225",
 "speed": 5.0
 }, {
@@ -2044,7 +2044,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abce_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abce.315",
 "speed": 5.0
 }, {
@@ -2052,7 +2052,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcef_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcef.045",
 "speed": 5.0
 }, {
@@ -2060,7 +2060,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcef_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcef.135",
 "speed": 5.0
 }, {
@@ -2068,7 +2068,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcef_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcef.225",
 "speed": 5.0
 }, {
@@ -2076,7 +2076,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcef_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcef.315",
 "speed": 5.0
 }, {
@@ -2084,7 +2084,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcf_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcf.045",
 "speed": 5.0
 }, {
@@ -2092,7 +2092,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcf_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcf.135",
 "speed": 5.0
 }, {
@@ -2100,7 +2100,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcf_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcf.225",
 "speed": 5.0
 }, {
@@ -2108,7 +2108,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abcf_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abcf.315",
 "speed": 5.0
 }, {
@@ -2116,7 +2116,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abe_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abe.045",
 "speed": 5.0
 }, {
@@ -2124,7 +2124,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abe_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abe.135",
 "speed": 5.0
 }, {
@@ -2132,7 +2132,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abe_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abe.225",
 "speed": 5.0
 }, {
@@ -2140,7 +2140,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_abe_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.abe.315",
 "speed": 5.0
 }, {
@@ -2148,7 +2148,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_ac_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.ac.045",
 "speed": 5.0
 }, {
@@ -2156,7 +2156,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_ac_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.ac.135",
 "speed": 5.0
 }, {
@@ -2164,7 +2164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_ac_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.ac.225",
 "speed": 5.0
 }, {
@@ -2172,7 +2172,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_ac_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.ac.315",
 "speed": 5.0
 }, {
@@ -2180,7 +2180,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_single_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.single.045",
 "speed": 5.0
 }, {
@@ -2188,7 +2188,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_single_135_0_32")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.single.135",
 "speed": 5.0
 }, {
@@ -2196,7 +2196,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_single_225_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.single.225",
 "speed": 5.0
 }, {
@@ -2204,7 +2204,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("trail_sailors_single_315_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"trail.sailors.single.315",
 "speed": 5.0
 }]

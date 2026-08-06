@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cbtaverntres0"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbtaverntres0"]
 
 [ext_resource type="Texture2D" uid="uid://dvl3favx4h6r8" path="res://Assets/World/Buildings2/tavern/tavern_settlers_as_tavern0_idle.png" id="tavern_settlers_as_tavern0_idle"]
 
@@ -24,7 +24,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("tavern0_settlers_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"tavern0.settlers.idle.045",
 "speed": 5.0
 }, {
@@ -32,7 +32,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("tavern0_settlers_idle_135_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"tavern0.settlers.idle.135",
 "speed": 5.0
 }, {
@@ -40,7 +40,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("tavern0_settlers_idle_225_0_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"tavern0.settlers.idle.225",
 "speed": 5.0
 }, {
@@ -48,7 +48,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("tavern0_settlers_idle_315_0_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"tavern0.settlers.idle.315",
 "speed": 5.0
 }]
