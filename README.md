@@ -33,6 +33,22 @@ Also, consult [CONTRIBUTING.md](./CONTRIBUTING.md) for the project goals and fur
 
 For that reason, please check out the [original project](https://github.com/unknown-horizons/unknown-horizons) which bears a decade long active development history with tons of implemented features and will provide you a better insight on the desired look and feel than any textual explanation could do (even more so if being unfamiliar with RTS games). Besides you should be able to grab existing logic and convert it appropriately for the Godot/GDScript style.
 
+## Community maps
+
+Bundled maps are loaded from `res://Assets/World/maps_manifest.json` and also from `res://Assets/World/World*.tscn` (deduplicated by scene path).
+
+Community maps can be placed in `user://maps` and are loaded in two ways:
+
+- `user://maps/maps_manifest.json` (preferred for release-safe explicit map lists)
+- `user://maps/World*.tscn` (simple drop-in map scenes)
+- Optional map display name override: set root node metadata key `MapName` in the map scene
+
+Per-platform `user://` location (for this project, app data folder `Unknown Horizons`):
+
+- Linux: `~/.local/share/godot/app_userdata/Unknown Horizons/maps`
+- Windows: `%APPDATA%\\Godot\\app_userdata\\Unknown Horizons\\maps`
+- macOS: `~/Library/Application Support/Godot/app_userdata/Unknown Horizons/maps`
+
 ## Community
 
 Type         | Where?
