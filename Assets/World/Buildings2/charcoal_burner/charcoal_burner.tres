@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=40 format=3 uid="uid://cbcharcoalbtr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbcharcoalbtr"]
 
 [ext_resource type="Texture2D" uid="uid://b62wpro72vq73" path="res://Assets/World/Buildings2/charcoal_burner/charcoal_burner_settlers_as_charcoal_burning0_idle.png" id="charcoal_burner_settlers_as_charcoal_burning0_idle"]
 [ext_resource type="Texture2D" uid="uid://balchudbb6xiy" path="res://Assets/World/Buildings2/charcoal_burner/charcoal_burner_settlers_as_charcoal_burning0_idle_full.png" id="charcoal_burner_settlers_as_charcoal_burning0_idle_full"]
@@ -154,7 +154,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("charcoal_burning0_settlers_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"charcoal_burning0.settlers.idle.045",
 "speed": 5.0
 }, {
@@ -162,7 +162,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("charcoal_burning0_settlers_idle_135_0_108")
 }],
-"loop": true,
+"loop": 1,
 "name": &"charcoal_burning0.settlers.idle.135",
 "speed": 5.0
 }, {
@@ -170,7 +170,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("charcoal_burning0_settlers_idle_225_0_216")
 }],
-"loop": true,
+"loop": 1,
 "name": &"charcoal_burning0.settlers.idle.225",
 "speed": 5.0
 }, {
@@ -178,7 +178,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("charcoal_burning0_settlers_idle_315_0_324")
 }],
-"loop": true,
+"loop": 1,
 "name": &"charcoal_burning0.settlers.idle.315",
 "speed": 5.0
 }, {
@@ -186,7 +186,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("charcoal_burning0_settlers_idle_full_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"charcoal_burning0.settlers.idle_full.045",
 "speed": 5.0
 }, {
@@ -194,7 +194,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("charcoal_burning0_settlers_idle_full_135_0_108")
 }],
-"loop": true,
+"loop": 1,
 "name": &"charcoal_burning0.settlers.idle_full.135",
 "speed": 5.0
 }, {
@@ -202,7 +202,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("charcoal_burning0_settlers_idle_full_225_0_216")
 }],
-"loop": true,
+"loop": 1,
 "name": &"charcoal_burning0.settlers.idle_full.225",
 "speed": 5.0
 }, {
@@ -210,7 +210,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("charcoal_burning0_settlers_idle_full_315_0_324")
 }],
-"loop": true,
+"loop": 1,
 "name": &"charcoal_burning0.settlers.idle_full.315",
 "speed": 5.0
 }, {
@@ -236,7 +236,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("charcoal_burning0_settlers_work_045_948_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"charcoal_burning0.settlers.work.045",
 "speed": 5.0
 }, {
@@ -262,7 +262,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("charcoal_burning0_settlers_work_135_948_108")
 }],
-"loop": true,
+"loop": 1,
 "name": &"charcoal_burning0.settlers.work.135",
 "speed": 5.0
 }, {
@@ -288,7 +288,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("charcoal_burning0_settlers_work_225_948_216")
 }],
-"loop": true,
+"loop": 1,
 "name": &"charcoal_burning0.settlers.work.225",
 "speed": 5.0
 }, {
@@ -314,7 +314,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("charcoal_burning0_settlers_work_315_948_324")
 }],
-"loop": true,
+"loop": 1,
 "name": &"charcoal_burning0.settlers.work.315",
 "speed": 5.0
 }]

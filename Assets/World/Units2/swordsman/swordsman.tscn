@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cuswordsmants"]
+[gd_scene format=3 uid="uid://cuswordsmants"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -6,19 +6,18 @@
 [ext_resource type="SpriteFrames" uid="uid://cuswordsmantr" path="res://Assets/World/Units2/swordsman/swordsman.tres" id="4_sprite_frames"]
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 
-[node name="Swordsman" type="Node2D"]
+[node name="Swordsman" type="Node2D" unique_id=234517124]
 script = ExtResource("1_script_gd")
 baseclass = "groundunit.GroundUnit"
 radius = 1
-velocity = 12.0
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=779331875 instance=ExtResource("2_selectable_component")]
 type = "unit"
 tabs = Array[String](["GroundUnitOverviewTab"])
 enemy_tabs = Array[String](["EnemyShipOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=745810424 instance=ExtResource("5_health_component")]
 max_health = 444
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=1573541169 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

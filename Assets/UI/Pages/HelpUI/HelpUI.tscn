@@ -1,11 +1,15 @@
-[gd_scene load_steps=4 format=3 uid="uid://brhiqra2vyojt"]
+[gd_scene format=3 uid="uid://brhiqra2vyojt"]
 
 [ext_resource type="Script" uid="uid://drlgpcx2pf8ov" path="res://Assets/UI/Pages/HelpUI/HelpUI.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://bpimcst1geibt" path="res://Assets/UI/BookMenu/BookMenu.tscn" id="1_7h8h1"]
 [ext_resource type="PackedScene" uid="uid://coqv5d7xturho" path="res://Assets/UI/Pages/HelpUI/HelpUIInfo.tscn" id="2_dtbqr"]
 
-[node name="HelpUI" instance=ExtResource("1_7h8h1")]
+[node name="HelpUI" unique_id=27231228 instance=ExtResource("1_7h8h1")]
 script = ExtResource("1")
 
-[node name="HelpUIInfo" parent="Pages" index="1" instance=ExtResource("2_dtbqr")]
+[node name="Pages" parent="." index="0" unique_id=1539569491]
+current_tab = 0
+
+[node name="HelpUIInfo" parent="Pages" index="1" unique_id=1788533991 instance=ExtResource("2_dtbqr")]
 layout_mode = 2
+metadata/_tab_index = 0

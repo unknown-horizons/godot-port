@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://cbfishdeposts"]
+[gd_scene format=3 uid="uid://cbfishdeposts"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
@@ -7,26 +7,21 @@
 [ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 
-[node name="fish_deposit" type="Node2D"]
+[node name="fish_deposit" type="Node2D" unique_id=586244659]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.FISH_DEPOSIT"
 baseclass = "nature.Fish"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Fish Deposit"
 })
-radius = 0
-cost = 0
-cost_inactive = 0
 size = Vector2i(2, 2)
-inhabitants = 0
 tooltip_text = "None"
-show_status_icons = false
 tier = "TIER.NATURE"
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=1265508405 instance=ExtResource("5_health_component")]
 max_health = 10
 
-[node name="ProductionLineComponent_FISH" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_FISH" parent="." unique_id=1423031074 instance=ExtResource("6_production_line_component")]
 line_name = "FISH"
 produces = Dictionary[StringName, int]({
 &"FISH": 1
@@ -35,7 +30,7 @@ show_resource_produced_tooltip = false
 show_resource_deficit_tooltip = false
 show_inventory_full_tooltip = false
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=803143284 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"FISH": 1
 })
@@ -43,6 +38,6 @@ storage = Dictionary[StringName, int]({
 &"FISH": 1
 })
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=1508672822 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")
 current_as_name = "fish0"

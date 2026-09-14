@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=39 format=3 uid="uid://cupirateshitr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cupirateshitr"]
 
 [ext_resource type="Texture2D" uid="uid://cnuhwiexx8rhx" path="res://Assets/World/Units2/pirate_ship/pirate_ship_sailors_as_pirate0_idle.png" id="pirate_ship_sailors_as_pirate0_idle"]
 [ext_resource type="Texture2D" uid="uid://cga3v880esq32" path="res://Assets/World/Units2/pirate_ship/pirate_ship_sailors_as_pirate0_move.png" id="pirate_ship_sailors_as_pirate0_move"]
@@ -1164,7 +1164,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.idle.000",
 "speed": 5.0
 }, {
@@ -1172,7 +1172,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_idle_045_0_224")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -1180,7 +1180,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_idle_090_0_448")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.idle.090",
 "speed": 5.0
 }, {
@@ -1188,7 +1188,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_idle_135_0_672")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -1196,7 +1196,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_idle_180_0_896")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.idle.180",
 "speed": 5.0
 }, {
@@ -1204,7 +1204,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_idle_225_0_1120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -1212,7 +1212,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_idle_270_0_1344")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.idle.270",
 "speed": 5.0
 }, {
@@ -1220,484 +1220,484 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_idle_315_0_1568")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.idle.315",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_0_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_224_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_448_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_672_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_896_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_1120_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_1344_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_1568_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_1792_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_2016_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_2240_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_2464_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_2688_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_2912_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_3136_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_000_3360_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.move.000",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_0_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_224_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_448_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_672_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_896_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_1120_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_1344_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_1568_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_1792_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_2016_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_2240_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_2464_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_2688_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_2912_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_3136_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_045_3360_224")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.move.045",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_0_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_224_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_448_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_672_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_896_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_1120_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_1344_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_1568_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_1792_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_2016_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_2240_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_2464_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_2688_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_2912_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_3136_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_090_3360_448")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.move.090",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_0_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_224_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_448_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_672_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_896_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_1120_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_1344_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_1568_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_1792_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_2016_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_2240_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_2464_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_2688_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_2912_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_3136_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_135_3360_672")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.move.135",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_0_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_224_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_448_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_672_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_896_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_1120_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_1344_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_1568_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_1792_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_2016_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_2240_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_2464_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_2688_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_2912_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_3136_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_180_3360_896")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.move.180",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_0_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_224_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_448_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_672_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_896_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_1120_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_1344_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_1568_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_1792_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_2016_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_2240_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_2464_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_2688_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_2912_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_3136_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_225_3360_1120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.move.225",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_0_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_224_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_448_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_672_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_896_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_1120_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_1344_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_1568_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_1792_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_2016_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_2240_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_2464_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_2688_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_2912_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_3136_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_270_3360_1344")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.move.270",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_0_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_224_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_448_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_672_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_896_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_1120_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_1344_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_1568_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_1792_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_2016_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_2240_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_2464_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_2688_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_2912_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_3136_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_move_315_3360_1568")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.move.315",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_0_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_224_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_448_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_672_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_896_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_1120_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_1344_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_1568_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_1792_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_2016_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_2240_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_2464_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_2688_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_2912_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_3136_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate0_sailors_wateroverlay_000_3360_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate0.sailors.wateroverlay.000",
 "speed": 5.0
 }, {
@@ -1705,7 +1705,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.idle.000",
 "speed": 5.0
 }, {
@@ -1713,7 +1713,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_idle_045_0_224")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -1721,7 +1721,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_idle_090_0_448")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.idle.090",
 "speed": 5.0
 }, {
@@ -1729,7 +1729,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_idle_135_0_672")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -1737,7 +1737,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_idle_180_0_896")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.idle.180",
 "speed": 5.0
 }, {
@@ -1745,7 +1745,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_idle_225_0_1120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -1753,7 +1753,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_idle_270_0_1344")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.idle.270",
 "speed": 5.0
 }, {
@@ -1761,431 +1761,431 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_idle_315_0_1568")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.idle.315",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_0_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_224_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_448_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_672_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_896_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_1120_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_1344_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_1568_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_1792_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_2016_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_2240_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_2464_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_2688_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_2912_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_3136_0")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_000_3360_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.move.000",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_0_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_224_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_448_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_672_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_896_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_1120_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_1344_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_1568_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_1792_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_2016_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_2240_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_2464_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_2688_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_2912_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_3136_224")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_045_3360_224")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.move.045",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_0_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_224_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_448_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_672_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_896_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_1120_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_1344_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_1568_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_1792_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_2016_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_2240_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_2464_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_2688_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_2912_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_3136_448")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_090_3360_448")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.move.090",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_0_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_224_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_448_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_672_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_896_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_1120_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_1344_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_1568_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_1792_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_2016_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_2240_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_2464_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_2688_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_2912_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_3136_672")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_135_3360_672")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.move.135",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_0_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_224_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_448_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_672_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_896_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_1120_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_1344_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_1568_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_1792_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_2016_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_2240_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_2464_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_2688_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_2912_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_3136_896")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_180_3360_896")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.move.180",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_0_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_224_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_448_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_672_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_896_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_1120_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_1344_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_1568_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_1792_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_2016_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_2240_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_2464_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_2688_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_2912_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_3136_1120")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_225_3360_1120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.move.225",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_0_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_224_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_448_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_672_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_896_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_1120_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_1344_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_1568_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_1792_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_2016_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_2240_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_2464_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_2688_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_2912_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_3136_1344")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_270_3360_1344")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.move.270",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_0_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_224_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_448_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_672_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_896_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_1120_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_1344_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_1568_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_1792_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_2016_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_2240_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_2464_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_2688_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_2912_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_3136_1568")
-},{
+}, {
 "duration": 1.0,
 "texture": SubResource("pirate1_sailors_move_315_3360_1568")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pirate1.sailors.move.315",
 "speed": 5.0
 }]

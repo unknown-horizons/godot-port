@@ -1,47 +1,47 @@
-[gd_scene load_steps=5 format=3 uid="uid://d1asr6g42034v"]
+[gd_scene format=3 uid="uid://d1asr6g42034v"]
 
 [ext_resource type="PackedScene" uid="uid://dp21wt5lajwxo" path="res://Assets/UI/BasicControls/RoundButtons/CancelButton.tscn" id="1_pwqbs"]
 [ext_resource type="PackedScene" uid="uid://ex0tmx5bf24i" path="res://Assets/UI/BookMenu/PageControl.tscn" id="2_2lk3c"]
 [ext_resource type="PackedScene" uid="uid://ck7j1yo013bo7" path="res://Assets/UI/BasicControls/RoundButtons/DeleteButton.tscn" id="3_7nsio"]
 [ext_resource type="PackedScene" uid="uid://c46k8y74h4scl" path="res://Assets/UI/BasicControls/RoundButtons/OKButton.tscn" id="4_w7k6d"]
 
-[node name="BookMenuControls" type="HBoxContainer"]
+[node name="BookMenuControls" type="HBoxContainer" unique_id=234422066]
 offset_right = 604.0
 offset_bottom = 40.0
 size_flags_vertical = 3
 
-[node name="LeftPageControls" type="HBoxContainer" parent="."]
+[node name="LeftPageControls" type="HBoxContainer" parent="." unique_id=1469838884]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(300, 0)
 layout_mode = 2
 size_flags_vertical = 10
 
-[node name="CancelButton" parent="LeftPageControls" instance=ExtResource("1_pwqbs")]
+[node name="CancelButton" parent="LeftPageControls" unique_id=1207574720 instance=ExtResource("1_pwqbs")]
 visible = false
 layout_mode = 2
 size_flags_horizontal = 8
 size_flags_stretch_ratio = 8.0
 
-[node name="PageControl" parent="LeftPageControls" instance=ExtResource("2_2lk3c")]
+[node name="PageControl" parent="LeftPageControls" unique_id=145547675 instance=ExtResource("2_2lk3c")]
 visible = false
 layout_mode = 2
 
-[node name="RightPageControls" type="HBoxContainer" parent="."]
+[node name="RightPageControls" type="HBoxContainer" parent="." unique_id=1800677378]
 unique_name_in_owner = true
 custom_minimum_size = Vector2(300, 0)
 layout_mode = 2
 size_flags_horizontal = 10
 size_flags_vertical = 10
 
-[node name="DeleteButton" parent="RightPageControls" instance=ExtResource("3_7nsio")]
+[node name="DeleteButton" parent="RightPageControls" unique_id=580949665 instance=ExtResource("3_7nsio")]
 visible = false
 layout_mode = 2
 
-[node name="CancelButton" parent="RightPageControls" instance=ExtResource("1_pwqbs")]
+[node name="CancelButton" parent="RightPageControls" unique_id=1972571107 instance=ExtResource("1_pwqbs")]
 visible = false
 layout_mode = 2
 size_flags_horizontal = 10
 size_flags_stretch_ratio = 8.0
 
-[node name="OKButton" parent="RightPageControls" instance=ExtResource("4_w7k6d")]
+[node name="OKButton" parent="RightPageControls" unique_id=102386441 instance=ExtResource("4_w7k6d")]
 layout_mode = 2

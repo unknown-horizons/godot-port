@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbboatbuildts"]
+[gd_scene format=3 uid="uid://cbboatbuildts"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="7_building_collector"]
 
-[node name="boat_builder" type="Node2D"]
+[node name="boat_builder" type="Node2D" unique_id=1959382352]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.BOAT_BUILDER"
 baseclass = "unitproduction.BoatBuilder"
@@ -23,15 +23,15 @@ inhabitants = 2
 tooltip_text = "_ Builds boats and small ships. Built on coast."
 tier = "TIER.PIONEERS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=1167425675 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["BoatbuilderTab", "BoatbuilderTradeTab", "BoatbuilderWar2Tab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=356076204 instance=ExtResource("5_health_component")]
 max_health = 1000
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=188941353 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"BOARDS": 12,
 &"CANNON": 12,
@@ -39,7 +39,7 @@ max_capacity = Dictionary[StringName, int]({
 &"TOOLS": 12
 })
 
-[node name="building_collector_0" parent="." instance=ExtResource("7_building_collector")]
+[node name="building_collector_0" parent="." unique_id=1770658018 instance=ExtResource("7_building_collector")]
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=1664459763 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://b3hix4pdlnumi"]
+[gd_scene format=3 uid="uid://b3hix4pdlnumi"]
 
 [ext_resource type="Script" uid="uid://dglkg4y6rojnf" path="res://Assets/World/Components/Storages/SizedStorageComponent/SizedStorageComponent.gd" id="1_b4s4c"]
 
-[node name="SizedStorageComponent" type="Node2D"]
+[node name="SizedStorageComponent" type="Node2D" unique_id=404244934]
 script = ExtResource("1_b4s4c")

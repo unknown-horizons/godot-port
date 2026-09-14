@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://bo27kwd5m1jmc"]
+[gd_scene format=3 uid="uid://bo27kwd5m1jmc"]
 
 [ext_resource type="Script" uid="uid://cpdls1hcfybhm" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.gd" id="1_h1x8g"]
 [ext_resource type="Texture2D" uid="uid://dsgbcjg1tplnf" path="res://Assets/UI/Images/Background/produced_notification.png" id="2_16oi7"]
@@ -13,18 +13,18 @@ expand_margin_top = 4.0
 expand_margin_right = 4.0
 expand_margin_bottom = 4.0
 
-[node name="ProductionLineComponent" type="Node2D"]
+[node name="ProductionLineComponent" type="Node2D" unique_id=1570985475]
 z_index = 1
 script = ExtResource("1_h1x8g")
 
-[node name="ItemProducedTooltip" type="Control" parent="."]
+[node name="ItemProducedTooltip" type="Control" parent="." unique_id=1648765013]
 visible = false
 layout_mode = 3
 anchors_preset = 0
 offset_top = -32.0
 offset_bottom = -32.0
 
-[node name="Background" type="PanelContainer" parent="ItemProducedTooltip"]
+[node name="Background" type="PanelContainer" parent="ItemProducedTooltip" unique_id=1492721597]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -37,30 +37,30 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_6qvbg")
 
-[node name="HBoxContainer" type="HBoxContainer" parent="ItemProducedTooltip/Background"]
+[node name="HBoxContainer" type="HBoxContainer" parent="ItemProducedTooltip/Background" unique_id=615986995]
 layout_mode = 2
 theme_override_constants/separation = 8
 
-[node name="ItemImagePlaceholder" type="MarginContainer" parent="ItemProducedTooltip/Background/HBoxContainer"]
+[node name="ItemImagePlaceholder" type="MarginContainer" parent="ItemProducedTooltip/Background/HBoxContainer" unique_id=986514914]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_top = 4
 theme_override_constants/margin_bottom = 4
 
-[node name="ItemImage" type="TextureRect" parent="ItemProducedTooltip/Background/HBoxContainer/ItemImagePlaceholder"]
+[node name="ItemImage" type="TextureRect" parent="ItemProducedTooltip/Background/HBoxContainer/ItemImagePlaceholder" unique_id=1567648751]
 layout_mode = 2
 texture = ExtResource("3_kr37i")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="ItemAmountPlaceholder" type="MarginContainer" parent="ItemProducedTooltip/Background/HBoxContainer"]
+[node name="ItemAmountPlaceholder" type="MarginContainer" parent="ItemProducedTooltip/Background/HBoxContainer" unique_id=964710997]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_top = 4
 theme_override_constants/margin_right = 4
 theme_override_constants/margin_bottom = 4
 
-[node name="ItemAmount" type="Label" parent="ItemProducedTooltip/Background/HBoxContainer/ItemAmountPlaceholder"]
+[node name="ItemAmount" type="Label" parent="ItemProducedTooltip/Background/HBoxContainer/ItemAmountPlaceholder" unique_id=1678855987]
 layout_mode = 2
 size_flags_vertical = 1
 theme_override_font_sizes/font_size = 25
@@ -68,14 +68,14 @@ text = "0"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="ResourceDeficitTooltip" type="AnimatedSprite2D" parent="."]
+[node name="ResourceDeficitTooltip" type="AnimatedSprite2D" parent="." unique_id=1713873655]
 unique_name_in_owner = true
 visible = false
 sprite_frames = ExtResource("4_8vudw")
 animation = &"resource_deficit"
 offset = Vector2(0, -32)
 
-[node name="InventoryFullTooltip" type="AnimatedSprite2D" parent="."]
+[node name="InventoryFullTooltip" type="AnimatedSprite2D" parent="." unique_id=1229359252]
 unique_name_in_owner = true
 visible = false
 sprite_frames = ExtResource("5_fc5tl")

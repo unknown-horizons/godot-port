@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://cufieldcollts"]
+[gd_scene format=3 uid="uid://cufieldcollts"]
 
 [ext_resource type="Script" uid="uid://dryewpxj1qix4" path="res://Assets/World/Components/Collectors/Collector.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://c7w3xnajww1kq" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.tscn" id="3_building_action_set_component"]
@@ -6,22 +6,22 @@
 [ext_resource type="PackedScene" uid="uid://b3hix4pdlnumi" path="res://Assets/World/Components/Storages/SizedStorageComponent/SizedStorageComponent.tscn" id="5_sized_storage_component"]
 [ext_resource type="PackedScene" uid="uid://unr7kegy5cn4" path="res://Assets/World/Components/MoveByCell/MoveByCellComponent.tscn" id="10_move_by_cell_component"]
 
-[node name="FieldCollector" type="Node2D"]
-script = ExtResource("1_script_gd")
+[node name="FieldCollector" type="Node2D" unique_id=172121111]
 visible = false
 modulate = Color(0.55, 0.55, 0.55, 1)
+script = ExtResource("1_script_gd")
 baseclass = "collectors.FieldCollector"
 velocity = 12.0
 "Collector Type" = "FIELD_COLLECTOR"
 "Show Loading" = false
 
-[node name="SizedStorageComponent" parent="." instance=ExtResource("5_sized_storage_component")]
+[node name="SizedStorageComponent" parent="." unique_id=1826250060 instance=ExtResource("5_sized_storage_component")]
 limit = 8
 
-[node name="MoveByCellComponent" parent="." node_paths=PackedStringArray("object_to_be_moved") instance=ExtResource("10_move_by_cell_component")]
+[node name="MoveByCellComponent" parent="." unique_id=1728174558 node_paths=PackedStringArray("object_to_be_moved") instance=ExtResource("10_move_by_cell_component")]
 allowed_movement = 2
 object_to_be_moved = NodePath("..")
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=986148012 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")
 current_as_name = "farmer0"

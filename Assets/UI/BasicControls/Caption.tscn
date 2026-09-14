@@ -1,9 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://daextxbtctkbi"]
+[gd_scene format=3 uid="uid://daextxbtctkbi"]
 
 [ext_resource type="FontFile" uid="uid://b132ikq6ayfyj" path="res://External/Fonts/LinLibertineC.ttf" id="1_d1qqp"]
 [ext_resource type="Script" uid="uid://cmbn4aho13rme" path="res://Assets/UI/BasicControls/LabelEx.gd" id="1_j2vnn"]
 
-[node name="Caption" type="Label"]
+[node name="Caption" type="Label" unique_id=743163556]
 offset_right = 300.0
 offset_bottom = 23.0
 size_flags_vertical = 0

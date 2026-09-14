@@ -1,11 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://dahuaxa1msk35"]
+[gd_scene format=3 uid="uid://dahuaxa1msk35"]
 
 [ext_resource type="Texture2D" uid="uid://bmi7sgasgtjg4" path="res://Assets/UI/Icons/Widgets/MiniMap/gamemenu.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://1jm8fdj467r5" path="res://Assets/UI/Icons/Widgets/MiniMap/gamemenu_h.png" id="2"]
 [ext_resource type="PackedScene" uid="uid://bmnaay6fveuxb" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButton.tscn" id="3"]
 [ext_resource type="Texture2D" uid="uid://bnlcu28k16ly0" path="res://Assets/UI/Icons/Widgets/MiniMap/gamemenu_d.png" id="4"]
 
-[node name="GameMenuButton" instance=ExtResource("3")]
+[node name="GameMenuButton" unique_id=1814881152 instance=ExtResource("3")]
 offset_left = -16.0
 offset_top = -16.0
 offset_right = 16.0
@@ -15,7 +15,7 @@ texture_normal = ExtResource("1")
 texture_pressed = ExtResource("4")
 texture_hover = ExtResource("2")
 
-[node name="TextureRect" parent="." index="0"]
+[node name="TextureRect" parent="." index="0" unique_id=455119987]
 anchor_left = 0.469
 anchor_top = 0.594
 anchor_right = 0.469

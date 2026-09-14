@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=82 format=3 uid="uid://cbalveariestr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbalveariestr"]
 
 [ext_resource type="Texture2D" uid="uid://ddinypij016q8" path="res://Assets/World/Buildings2/alvearies/alvearies_citizens_as_alvearies0_idle.png" id="alvearies_citizens_as_alvearies0_idle"]
 
@@ -385,7 +385,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("alvearies0_citizens_idle_045_3648_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"alvearies0.citizens.idle.045",
 "speed": 5.0
 }, {
@@ -450,7 +450,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("alvearies0_citizens_idle_135_3648_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"alvearies0.citizens.idle.135",
 "speed": 5.0
 }, {
@@ -515,7 +515,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("alvearies0_citizens_idle_225_3648_193")
 }],
-"loop": true,
+"loop": 1,
 "name": &"alvearies0.citizens.idle.225",
 "speed": 5.0
 }, {
@@ -580,7 +580,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("alvearies0_citizens_idle_315_3648_287")
 }],
-"loop": true,
+"loop": 1,
 "name": &"alvearies0.citizens.idle.315",
 "speed": 5.0
 }]

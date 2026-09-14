@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=31 format=3 uid="uid://cbsmelterytre"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbsmelterytre"]
 
 [ext_resource type="Texture2D" uid="uid://bnflkf3lys0xr" path="res://Assets/World/Buildings2/smeltery/smeltery_settlers_as_smeltery0_idle.png" id="smeltery_settlers_as_smeltery0_idle"]
 [ext_resource type="Texture2D" uid="uid://d4nxncvgh20fi" path="res://Assets/World/Buildings2/smeltery/smeltery_settlers_as_smeltery0_work.png" id="smeltery_settlers_as_smeltery0_work"]
@@ -121,7 +121,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("smeltery0_settlers_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"smeltery0.settlers.idle.045",
 "speed": 5.0
 }, {
@@ -129,7 +129,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("smeltery0_settlers_idle_135_0_155")
 }],
-"loop": true,
+"loop": 1,
 "name": &"smeltery0.settlers.idle.135",
 "speed": 5.0
 }, {
@@ -137,7 +137,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("smeltery0_settlers_idle_225_0_310")
 }],
-"loop": true,
+"loop": 1,
 "name": &"smeltery0.settlers.idle.225",
 "speed": 5.0
 }, {
@@ -145,7 +145,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("smeltery0_settlers_idle_315_0_465")
 }],
-"loop": true,
+"loop": 1,
 "name": &"smeltery0.settlers.idle.315",
 "speed": 5.0
 }, {
@@ -168,7 +168,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("smeltery0_settlers_work_045_1280_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"smeltery0.settlers.work.045",
 "speed": 5.0
 }, {
@@ -191,7 +191,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("smeltery0_settlers_work_135_1280_155")
 }],
-"loop": true,
+"loop": 1,
 "name": &"smeltery0.settlers.work.135",
 "speed": 5.0
 }, {
@@ -214,7 +214,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("smeltery0_settlers_work_225_1280_310")
 }],
-"loop": true,
+"loop": 1,
 "name": &"smeltery0.settlers.work.225",
 "speed": 5.0
 }, {
@@ -237,7 +237,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("smeltery0_settlers_work_315_1280_465")
 }],
-"loop": true,
+"loop": 1,
 "name": &"smeltery0.settlers.work.315",
 "speed": 5.0
 }]

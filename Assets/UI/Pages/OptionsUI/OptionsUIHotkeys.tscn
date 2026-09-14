@@ -1,14 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://beqxpjogn1t1"]
+[gd_scene format=3 uid="uid://beqxpjogn1t1"]
 
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://c7vej07bi5fee" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="2"]
 
-[node name="OptionsUIHotkeys" instance=ExtResource("2")]
+[node name="OptionsUIHotkeys" unique_id=1105926608 instance=ExtResource("2")]
 
-[node name="Hotkeys" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="0" instance=ExtResource("1")]
+[node name="Hotkeys" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" parent_id_path=PackedInt32Array(453020282) index="0" unique_id=1341341058 instance=ExtResource("1")]
 layout_mode = 2
-text = "Hotkeys"
 
-[node name="Hotkeys" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" index="0" instance=ExtResource("1")]
+[node name="Hotkeys" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/RightPage" parent_id_path=PackedInt32Array(500071854) index="0" unique_id=1077302920 instance=ExtResource("1")]
 layout_mode = 2
-text = "Hotkeys"

@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbhuntertscn0"]
+[gd_scene format=3 uid="uid://cbhuntertscn0"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -10,7 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://cuhuntercolts" path="res://Assets/World/Units2/hunter_collector/hunter_collector.tscn" id="7_hunter_collector"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="9_building_collector_component"]
 
-[node name="hunter" type="Node2D"]
+[node name="hunter" type="Node2D" unique_id=286461220]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.HUNTER"
 baseclass = "production.ProductionBuilding"
@@ -19,21 +19,20 @@ game_name_per_tier = Dictionary[StringName, String]({
 })
 radius = 10
 cost = 5
-cost_inactive = 0
 size = Vector2i(2, 2)
 inhabitants = 1
 tooltip_text = "_ Hunts wild forest animals, produces food."
 tier = "TIER.SAILORS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=1004167936 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["ProductionOverviewTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=1030596873 instance=ExtResource("5_health_component")]
 max_health = 1000
 
-[node name="ProductionLineComponent_MEAT" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_MEAT" parent="." unique_id=1187037876 instance=ExtResource("6_production_line_component")]
 line_name = "MEAT"
 consumes = Dictionary[StringName, int]({
 &"DEER_MEAT": 1
@@ -42,14 +41,15 @@ produces = Dictionary[StringName, int]({
 &"FOOD": 2
 })
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=967807423 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"DEER_MEAT": 4,
 &"FOOD": 6
 })
 
-[node name="hunter_collector_0" parent="." instance=ExtResource("7_hunter_collector")]
+[node name="hunter_collector_0" parent="." unique_id=860901699 instance=ExtResource("7_hunter_collector")]
 
-[node name="BuildingCollector" parent="." instance=ExtResource("9_building_collector_component")]
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingCollector" parent="." unique_id=638893633 instance=ExtResource("9_building_collector_component")]
+
+[node name="BuildingActionSet" parent="." unique_id=513626440 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

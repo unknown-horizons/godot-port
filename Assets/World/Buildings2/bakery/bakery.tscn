@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://cbbakerytscn0"]
+[gd_scene format=3 uid="uid://cbbakerytscn0"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -9,7 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="9_building_collector_component"]
 
-[node name="bakery" type="Node2D"]
+[node name="bakery" type="Node2D" unique_id=534325301]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.BAKERY"
 baseclass = "production.ProductionBuilding"
@@ -24,15 +24,15 @@ inhabitants = 2
 tooltip_text = "_ Consumes flour. Produces food."
 tier = "TIER.CITIZENS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=1561872836 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["ProductionOverviewTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=760919096 instance=ExtResource("5_health_component")]
 max_health = 1000
 
-[node name="ProductionLineComponent_0" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_0" parent="." unique_id=575312183 instance=ExtResource("6_production_line_component")]
 line_name = "0"
 consumes = Dictionary[StringName, int]({
 &"FLOUR": 1
@@ -41,14 +41,14 @@ produces = Dictionary[StringName, int]({
 &"FOOD": 1
 })
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=625432458 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"FLOUR": 8,
 &"FOOD": 8
 })
 
-[node name="building_collector_0" parent="." instance=ExtResource("9_building_collector_component")]
+[node name="building_collector_0" parent="." unique_id=1816940346 instance=ExtResource("9_building_collector_component")]
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=331172728 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")
 current_as_name = ""

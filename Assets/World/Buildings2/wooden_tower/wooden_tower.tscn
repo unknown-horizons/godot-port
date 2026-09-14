@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbwoodentowts"]
+[gd_scene format=3 uid="uid://cbwoodentowts"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -6,7 +6,7 @@
 [ext_resource type="SpriteFrames" uid="uid://cbwoodentowtr" path="res://Assets/World/Buildings2/wooden_tower/wooden_tower.tres" id="4_sprite_frames"]
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 
-[node name="wooden_tower" type="Node2D"]
+[node name="wooden_tower" type="Node2D" unique_id=1034947002]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.WOODEN_TOWER"
 baseclass = "war.Tower"
@@ -15,19 +15,18 @@ game_name_per_tier = Dictionary[StringName, String]({
 })
 radius = 9
 cost = 10
-cost_inactive = 0
 size = Vector2i(2, 2)
 inhabitants = 1
 tooltip_text = "_ Defends your settlement."
 tier = "TIER.PIONEERS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=1444801689 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["TowerOverviewTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=1496914638 instance=ExtResource("5_health_component")]
 max_health = 1000
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=1180938367 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

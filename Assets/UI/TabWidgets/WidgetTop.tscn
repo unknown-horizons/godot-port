@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://37cfdhkia73r"]
+[gd_scene format=3 uid="uid://37cfdhkia73r"]
 
 [ext_resource type="Texture2D" uid="uid://5gbvga1bqpxa" path="res://Assets/UI/Images/Background/Widgets/map_bg.png" id="1_qu0hj"]
 [ext_resource type="PackedScene" uid="uid://dcgoirmxith4s" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedUpButton.tscn" id="2_fp673"]
@@ -16,13 +16,13 @@
 [ext_resource type="PackedScene" uid="uid://ds87f370k7lb1" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/DiplomacyButton.tscn" id="14_nlvgi"]
 [ext_resource type="PackedScene" uid="uid://dahuaxa1msk35" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameMenuButton.tscn" id="15_aw6d8"]
 
-[node name="WidgetTop" type="TextureRect"]
+[node name="WidgetTop" type="TextureRect" unique_id=1172997391]
 z_index = 1
 custom_minimum_size = Vector2(251, 0)
 texture = ExtResource("1_qu0hj")
 stretch_mode = 3
 
-[node name="GameSpeedControls" type="Control" parent="."]
+[node name="GameSpeedControls" type="Control" parent="." unique_id=817451665]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -36,7 +36,7 @@ offset_bottom = -21.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="GameSpeedUpButton" parent="GameSpeedControls" instance=ExtResource("2_fp673")]
+[node name="GameSpeedUpButton" parent="GameSpeedControls" unique_id=748399112 instance=ExtResource("2_fp673")]
 layout_mode = 1
 offset_left = 6.748
 offset_top = -29.067
@@ -45,7 +45,7 @@ offset_bottom = -1.067
 tooltip_text = "Game Speed Up"
 input_action_name = ""
 
-[node name="GameSpeedLabel" parent="GameSpeedControls" instance=ExtResource("3_nhb3k")]
+[node name="GameSpeedLabel" parent="GameSpeedControls" unique_id=173212729 instance=ExtResource("3_nhb3k")]
 layout_mode = 0
 anchor_left = 0.5
 anchor_top = 0.5
@@ -62,7 +62,7 @@ autowrap_mode = 0
 script = ExtResource("5_2by35")
 font_style = 9
 
-[node name="GameSpeedDownButton" parent="GameSpeedControls" instance=ExtResource("6_wrt6l")]
+[node name="GameSpeedDownButton" parent="GameSpeedControls" unique_id=1892060442 instance=ExtResource("6_wrt6l")]
 layout_mode = 1
 offset_left = -34.056
 offset_top = 1.8010006
@@ -71,7 +71,7 @@ offset_bottom = 29.801003
 tooltip_text = "Game Speed Down"
 input_action_name = ""
 
-[node name="ZoomControls" type="Control" parent="."]
+[node name="ZoomControls" type="Control" parent="." unique_id=1436755247]
 anchors_preset = 0
 anchor_left = 0.5
 anchor_top = 0.5
@@ -82,7 +82,7 @@ offset_top = -80.0
 offset_right = 80.5
 offset_bottom = -21.0
 
-[node name="ZoomInButton" parent="ZoomControls" instance=ExtResource("7_nhh66")]
+[node name="ZoomInButton" parent="ZoomControls" unique_id=644123420 instance=ExtResource("7_nhh66")]
 layout_mode = 1
 anchors_preset = 0
 anchor_left = 0.0
@@ -98,7 +98,7 @@ grow_vertical = 1
 size_flags_horizontal = 6
 input_action_name = ""
 
-[node name="ZoomOutButton" parent="ZoomControls" instance=ExtResource("8_pa4xb")]
+[node name="ZoomOutButton" parent="ZoomControls" unique_id=266742934 instance=ExtResource("8_pa4xb")]
 layout_mode = 1
 anchors_preset = 3
 anchor_left = 1.0
@@ -114,7 +114,7 @@ grow_vertical = 0
 size_flags_horizontal = 6
 input_action_name = ""
 
-[node name="RotateControls" type="Control" parent="."]
+[node name="RotateControls" type="Control" parent="." unique_id=1686911278]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -128,7 +128,7 @@ offset_bottom = 70.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="RotateLeftButton" parent="RotateControls" instance=ExtResource("9_nf8h6")]
+[node name="RotateLeftButton" parent="RotateControls" unique_id=1854963613 instance=ExtResource("9_nf8h6")]
 layout_mode = 1
 anchors_preset = 0
 anchor_left = 0.0
@@ -144,7 +144,7 @@ grow_vertical = 1
 size_flags_horizontal = 6
 input_action_name = ""
 
-[node name="RotateRightButton" parent="RotateControls" instance=ExtResource("10_ynpmq")]
+[node name="RotateRightButton" parent="RotateControls" unique_id=1265646072 instance=ExtResource("10_ynpmq")]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -160,7 +160,7 @@ grow_vertical = 1
 size_flags_horizontal = 6
 input_action_name = ""
 
-[node name="TearButton" parent="." instance=ExtResource("11_xlhqk")]
+[node name="TearButton" parent="." unique_id=1389503342 instance=ExtResource("11_xlhqk")]
 layout_mode = 1
 offset_left = -86.0
 offset_top = 43.0
@@ -169,7 +169,7 @@ offset_bottom = 69.0
 size_flags_horizontal = 6
 input_action_name = "toggle_demolish"
 
-[node name="LogbookButton" parent="." instance=ExtResource("12_ciegf")]
+[node name="LogbookButton" parent="." unique_id=437208638 instance=ExtResource("12_ciegf")]
 layout_mode = 1
 offset_left = -53.036
 offset_top = 70.343
@@ -178,7 +178,7 @@ offset_bottom = 96.343
 size_flags_horizontal = 6
 input_action_name = ""
 
-[node name="BuildMenuButton" parent="." instance=ExtResource("13_ki2t4")]
+[node name="BuildMenuButton" parent="." unique_id=619239736 instance=ExtResource("13_ki2t4")]
 layout_mode = 1
 offset_top = 83.0
 offset_bottom = 115.0
@@ -186,7 +186,7 @@ scale = Vector2(0.9, 0.9)
 size_flags_horizontal = 6
 input_action_name = "toggle_building_menu"
 
-[node name="DiplomacyButton" parent="." instance=ExtResource("14_nlvgi")]
+[node name="DiplomacyButton" parent="." unique_id=1981049459 instance=ExtResource("14_nlvgi")]
 layout_mode = 1
 offset_left = 25.0
 offset_top = 69.501
@@ -195,7 +195,7 @@ offset_bottom = 95.501
 size_flags_horizontal = 6
 input_action_name = "toggle_diplomacy_menu"
 
-[node name="GameMenuButton" parent="." instance=ExtResource("15_aw6d8")]
+[node name="GameMenuButton" parent="." unique_id=171799337 instance=ExtResource("15_aw6d8")]
 layout_mode = 1
 offset_left = 60.0
 offset_top = 40.0

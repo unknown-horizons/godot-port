@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=74 format=3 uid="uid://cbmlobgad3csq"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbmlobgad3csq"]
 
 [ext_resource type="Texture2D" uid="uid://dt1tgd8231t5h" path="res://Assets/UI/Icons/StatusIcons/inventory_full_animation.png" id="1_68yvl"]
 
@@ -509,7 +509,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_m43fo")
 }],
-"loop": true,
+"loop": 1,
 "name": &"inventory_full",
 "speed": 5.0
 }]

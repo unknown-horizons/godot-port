@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://d08xfnfci8npi"]
 
-[node name="Minimap" type="Control"]
+[node name="Minimap" type="Control" unique_id=1988333503]
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -15,21 +15,21 @@ grow_horizontal = 2
 grow_vertical = 2
 pivot_offset = Vector2(500, 500)
 
-[node name="TerrainLayer" type="Control" parent="."]
+[node name="TerrainLayer" type="Control" parent="." unique_id=559677466]
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="WarehouseLayer" type="Control" parent="."]
+[node name="WarehouseLayer" type="Control" parent="." unique_id=1886539438]
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="ShipLayer" type="Control" parent="."]
+[node name="ShipLayer" type="Control" parent="." unique_id=1934536278]
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Timer" type="Timer" parent="ShipLayer"]
+[node name="Timer" type="Timer" parent="ShipLayer" unique_id=1897948894]
 wait_time = 0.1
 autostart = true

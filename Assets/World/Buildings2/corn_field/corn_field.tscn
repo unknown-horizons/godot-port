@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbcornfieldts"]
+[gd_scene format=3 uid="uid://cbcornfieldts"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_mxi5x"]
@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 
-[node name="corn_field" type="Node2D"]
+[node name="corn_field" type="Node2D" unique_id=747891898]
 z_index = -1
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.CORN_FIELD"
@@ -20,21 +20,21 @@ size = Vector2i(3, 3)
 tooltip_text = "_ Yields corn. Needs a farm."
 tier = "TIER.CITIZENS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_mxi5x")]
+[node name="Selectable" parent="." unique_id=763180355 instance=ExtResource("2_mxi5x")]
 type = "building"
 tabs = Array[String](["ProductionOverviewTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=1687855450 instance=ExtResource("5_health_component")]
 max_health = 10
 
-[node name="ProductionLineComponent_GRAIN" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_GRAIN" parent="." unique_id=2131833912 instance=ExtResource("6_production_line_component")]
 line_name = "GRAIN"
 produces = Dictionary[StringName, int]({
 &"GRAIN": 1
 })
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=78568029 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"GRAIN": 1
 })
@@ -42,6 +42,6 @@ storage = Dictionary[StringName, int]({
 &"GRAIN": 0
 })
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=2072714545 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")
 current_as_name = ""

@@ -1,23 +1,23 @@
-[gd_scene load_steps=5 format=3 uid="uid://y3joqgx1438n"]
+[gd_scene format=3 uid="uid://y3joqgx1438n"]
 
 [ext_resource type="Script" uid="uid://d3k3a6mhu3lvw" path="res://Assets/UI/TabWidgets/Views/TaxesControl.gd" id="1_jobcm"]
 [ext_resource type="Texture2D" uid="uid://ca7bqqg6whjrs" path="res://Assets/UI/Icons/Resources/running_costs.png" id="3"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="3_kqlpf"]
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="5"]
 
-[node name="TaxesControl" type="VBoxContainer"]
-script = ExtResource("1_jobcm")
+[node name="TaxesControl" type="VBoxContainer" unique_id=630998463]
 offset_right = 197.0
 offset_bottom = 44.0
+script = ExtResource("1_jobcm")
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1716671795]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="HBoxContainer"]
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer" unique_id=196892367]
 layout_mode = 2
 texture = ExtResource("3")
 
-[node name="LabelEx" parent="HBoxContainer" instance=ExtResource("5")]
+[node name="LabelEx" parent="HBoxContainer" unique_id=832243168 instance=ExtResource("5")]
 layout_mode = 2
 size_flags_horizontal = 1
 theme_override_fonts/font = ExtResource("3_kqlpf")
@@ -26,7 +26,7 @@ text = "Taxes:"
 autowrap_mode = 0
 font_style = 10
 
-[node name="PaidTaxesLabel" parent="HBoxContainer" instance=ExtResource("5")]
+[node name="PaidTaxesLabel" parent="HBoxContainer" unique_id=416794884 instance=ExtResource("5")]
 custom_minimum_size = Vector2(30, 0)
 layout_mode = 2
 tooltip_text = "Paid taxes"
@@ -37,12 +37,12 @@ text = "0"
 autowrap_mode = 0
 font_style = 10
 
-[node name="TextureRect2" type="TextureRect" parent="HBoxContainer"]
+[node name="TextureRect2" type="TextureRect" parent="HBoxContainer" unique_id=1450692096]
 layout_mode = 2
 texture = ExtResource("3")
 stretch_mode = 5
 
-[node name="TaxRateLabel" parent="HBoxContainer" instance=ExtResource("5")]
+[node name="TaxRateLabel" parent="HBoxContainer" unique_id=1415782513 instance=ExtResource("5")]
 custom_minimum_size = Vector2(20, 0)
 layout_mode = 2
 size_flags_horizontal = 1
@@ -55,7 +55,7 @@ horizontal_alignment = 2
 autowrap_mode = 0
 font_style = 10
 
-[node name="TaxRateSlider" type="HSlider" parent="."]
+[node name="TaxRateSlider" type="HSlider" parent="." unique_id=1268370229]
 layout_mode = 2
 min_value = 0.5
 max_value = 1.4

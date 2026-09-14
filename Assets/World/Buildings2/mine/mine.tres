@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=55 format=3 uid="uid://cbminetres000"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbminetres000"]
 
 [ext_resource type="Texture2D" uid="uid://dfpivov1mt38x" path="res://Assets/World/Buildings2/mine/mine_settlers_as_mine5x5_idle.png" id="mine_settlers_as_mine5x5_idle"]
 [ext_resource type="Texture2D" uid="uid://jfgd7k2nl38p" path="res://Assets/World/Buildings2/mine/mine_settlers_as_mine5x5_work.png" id="mine_settlers_as_mine5x5_work"]
@@ -217,7 +217,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mine5x5_settlers_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mine5x5.settlers.idle.045",
 "speed": 5.0
 }, {
@@ -225,7 +225,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mine5x5_settlers_idle_135_0_224")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mine5x5.settlers.idle.135",
 "speed": 5.0
 }, {
@@ -233,7 +233,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mine5x5_settlers_idle_225_0_544")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mine5x5.settlers.idle.225",
 "speed": 5.0
 }, {
@@ -241,7 +241,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mine5x5_settlers_idle_315_0_864")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mine5x5.settlers.idle.315",
 "speed": 5.0
 }, {
@@ -282,7 +282,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mine5x5_settlers_work_045_3520_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mine5x5.settlers.work.045",
 "speed": 5.0
 }, {
@@ -323,7 +323,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mine5x5_settlers_work_135_3520_320")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mine5x5.settlers.work.135",
 "speed": 5.0
 }, {
@@ -364,7 +364,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mine5x5_settlers_work_225_3520_640")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mine5x5.settlers.work.225",
 "speed": 5.0
 }, {
@@ -405,7 +405,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mine5x5_settlers_work_315_3520_960")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mine5x5.settlers.work.315",
 "speed": 5.0
 }]

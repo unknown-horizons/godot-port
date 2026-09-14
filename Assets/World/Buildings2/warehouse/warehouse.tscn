@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbwarehousets"]
+[gd_scene format=3 uid="uid://cbwarehousets"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -8,9 +8,8 @@
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 [ext_resource type="PackedScene" uid="uid://bw7vhkspeuvnf" path="res://Assets/World/Components/Storages/SettlementStorageComponent/SettlementStorageComponent.tscn" id="5_settlement_storage_component"]
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
-[ext_resource type="PackedScene" uid="uid://custoragecots" path="res://Assets/World/Units2/storage_collector/storage_collector.tscn" id="7_storage_collector"]
 
-[node name="warehouse" type="Node2D"]
+[node name="warehouse" type="Node2D" unique_id=944431320]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.WAREHOUSE"
 baseclass = "storages.Warehouse"
@@ -19,34 +18,30 @@ game_name_per_tier = Dictionary[StringName, String]({
 })
 radius = 24
 cost = 5
-cost_inactive = 0
 size = Vector2i(3, 3)
 inhabitants = 2
 tooltip_text = "None"
-show_status_icons = false
 tier = "TIER.SAILORS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=2040720301 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["AccountTab", "InventoryTab", "BuySellTab"])
 enemy_tabs = Array[String](["EnemyWarehouseOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=1452642664 instance=ExtResource("5_health_component")]
 max_health = 1000
 
-[node name="ProductionLineComponent_31" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_31" parent="." unique_id=460357482 instance=ExtResource("6_production_line_component")]
 line_name = "31"
-consumes = Dictionary[StringName, int]({
-})
 produces = Dictionary[StringName, int]({
 &"COMMUNITY": 10
 })
 show_resource_deficit_tooltip = false
 
-[node name="SettlementStorageComponent" parent="." instance=ExtResource("5_settlement_storage_component")]
+[node name="SettlementStorageComponent" parent="." unique_id=1680983730 instance=ExtResource("5_settlement_storage_component")]
 
-[node name="AmbientSoundComponent" parent="." instance=ExtResource("3_ambient_sound_component")]
+[node name="AmbientSoundComponent" parent="." unique_id=280990172 instance=ExtResource("3_ambient_sound_component")]
 sound_files = Array[String](["content/audio/sounds/warehouse.ogg"])
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=228423388 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

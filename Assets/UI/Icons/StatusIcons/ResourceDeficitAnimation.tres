@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=3 uid="uid://bd7tk52aa4hfg"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://bd7tk52aa4hfg"]
 
 [ext_resource type="Texture2D" uid="uid://dfo1xos1irdt3" path="res://Assets/UI/Icons/StatusIcons/resource_deficit_animation.png" id="1_26jkc"]
 
@@ -131,7 +131,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_t270j")
 }],
-"loop": true,
+"loop": 1,
 "name": &"resource_deficit",
 "speed": 5.0
 }]

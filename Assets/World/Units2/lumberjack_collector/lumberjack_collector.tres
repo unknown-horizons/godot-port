@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=94 format=3 uid="uid://culumberjactr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://culumberjactr"]
 
 [ext_resource type="Texture2D" uid="uid://ckqlhbgsrowqx" path="res://Assets/World/Units2/lumberjack_collector/lumberjack_collector_sailors_as_lumberjackunit0_idle.png" id="lumberjack_collector_sailors_as_lumberjackunit0_idle"]
 [ext_resource type="Texture2D" uid="uid://c2lwjyoobowe5" path="res://Assets/World/Units2/lumberjack_collector/lumberjack_collector_sailors_as_lumberjackunit0_idle_full.png" id="lumberjack_collector_sailors_as_lumberjackunit0_idle_full"]
@@ -364,7 +364,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle.000",
 "speed": 5.0
 }, {
@@ -372,7 +372,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_045_0_42")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -380,7 +380,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_090_0_84")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle.090",
 "speed": 5.0
 }, {
@@ -388,7 +388,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_135_0_126")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -396,7 +396,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_180_0_168")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle.180",
 "speed": 5.0
 }, {
@@ -404,7 +404,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_225_0_210")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -412,7 +412,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_270_0_252")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle.270",
 "speed": 5.0
 }, {
@@ -420,7 +420,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_315_0_294")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle.315",
 "speed": 5.0
 }, {
@@ -428,7 +428,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_full_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle_full.000",
 "speed": 5.0
 }, {
@@ -436,7 +436,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_full_045_0_42")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle_full.045",
 "speed": 5.0
 }, {
@@ -444,7 +444,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_full_090_0_84")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle_full.090",
 "speed": 5.0
 }, {
@@ -452,7 +452,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_full_135_0_126")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle_full.135",
 "speed": 5.0
 }, {
@@ -460,7 +460,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_full_180_0_168")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle_full.180",
 "speed": 5.0
 }, {
@@ -468,7 +468,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_full_225_0_210")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle_full.225",
 "speed": 5.0
 }, {
@@ -476,7 +476,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_full_270_0_252")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle_full.270",
 "speed": 5.0
 }, {
@@ -484,7 +484,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_idle_full_315_0_294")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.idle_full.315",
 "speed": 5.0
 }, {
@@ -501,7 +501,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_000_96_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move.000",
 "speed": 5.0
 }, {
@@ -518,7 +518,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_045_96_42")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move.045",
 "speed": 5.0
 }, {
@@ -535,7 +535,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_090_96_84")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move.090",
 "speed": 5.0
 }, {
@@ -552,7 +552,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_135_96_126")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move.135",
 "speed": 5.0
 }, {
@@ -569,7 +569,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_180_96_168")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move.180",
 "speed": 5.0
 }, {
@@ -586,7 +586,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_225_96_210")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move.225",
 "speed": 5.0
 }, {
@@ -603,7 +603,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_270_96_252")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move.270",
 "speed": 5.0
 }, {
@@ -620,7 +620,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_315_96_294")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move.315",
 "speed": 5.0
 }, {
@@ -637,7 +637,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_full_000_96_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move_full.000",
 "speed": 5.0
 }, {
@@ -654,7 +654,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_full_045_96_42")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move_full.045",
 "speed": 5.0
 }, {
@@ -671,7 +671,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_full_090_96_84")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move_full.090",
 "speed": 5.0
 }, {
@@ -688,7 +688,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_full_135_96_126")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move_full.135",
 "speed": 5.0
 }, {
@@ -705,7 +705,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_full_180_96_168")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move_full.180",
 "speed": 5.0
 }, {
@@ -722,7 +722,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_full_225_96_210")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move_full.225",
 "speed": 5.0
 }, {
@@ -739,7 +739,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_full_270_96_252")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move_full.270",
 "speed": 5.0
 }, {
@@ -756,7 +756,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_move_full_315_96_294")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.move_full.315",
 "speed": 5.0
 }, {
@@ -764,7 +764,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_work_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.work.000",
 "speed": 5.0
 }, {
@@ -772,7 +772,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_work_045_0_42")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.work.045",
 "speed": 5.0
 }, {
@@ -780,7 +780,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_work_090_0_84")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.work.090",
 "speed": 5.0
 }, {
@@ -788,7 +788,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_work_135_0_126")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.work.135",
 "speed": 5.0
 }, {
@@ -796,7 +796,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_work_180_0_168")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.work.180",
 "speed": 5.0
 }, {
@@ -804,7 +804,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_work_225_0_210")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.work.225",
 "speed": 5.0
 }, {
@@ -812,7 +812,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_work_270_0_252")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.work.270",
 "speed": 5.0
 }, {
@@ -820,7 +820,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("lumberjackunit0_sailors_work_315_0_294")
 }],
-"loop": true,
+"loop": 1,
 "name": &"lumberjackunit0.sailors.work.315",
 "speed": 5.0
 }]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://dcgoirmxith4s"]
+[gd_scene format=3 uid="uid://dcgoirmxith4s"]
 
 [ext_resource type="PackedScene" uid="uid://bmnaay6fveuxb" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButton.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://bu75feoxbelwj" path="res://Assets/UI/Icons/Widgets/MiniMap/speed_up_d.png" id="2"]
@@ -6,12 +6,14 @@
 [ext_resource type="Texture2D" uid="uid://b6nuq70hohg0w" path="res://Assets/UI/Icons/Widgets/MiniMap/speed_up.png" id="4"]
 [ext_resource type="Script" uid="uid://cgtaajngkuxq7" path="res://Assets/UI/TabWidgets/Buttons/MainButton/MainButtons/GameSpeedChangeButton.gd" id="5"]
 
-[node name="GameSpeedUpButton" instance=ExtResource("1")]
+[node name="GameSpeedUpButton" unique_id=1943178421 instance=ExtResource("1")]
+pivot_offset = Vector2(14, 14)
+tooltip_text = "Game Speed Up"
 texture_normal = ExtResource("4")
 texture_pressed = ExtResource("2")
 texture_hover = ExtResource("3")
 script = ExtResource("5")
 game_speed_change = 0.0
 
-[node name="TextureRect" parent="." index="0"]
+[node name="TextureRect" parent="." index="0" unique_id=455119987]
 visible = false

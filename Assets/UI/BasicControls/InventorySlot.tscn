@@ -1,10 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://cprnm6d5bh3f2"]
+[gd_scene format=3 uid="uid://cprnm6d5bh3f2"]
 
 [ext_resource type="Script" uid="uid://bf2d2huddxwp" path="res://Assets/UI/BasicControls/InventorySlot.gd" id="1_2qu3x"]
 [ext_resource type="Texture2D" uid="uid://cke8lkljkb73" path="res://Assets/UI/Images/Background/Widgets/progressbar_fill.png" id="2_ckrin"]
 [ext_resource type="Texture2D" uid="uid://ci64i0ra5lm7" path="res://Assets/UI/Images/Background/inv_bg.png" id="2_hdugx"]
 
-[node name="InventorySlot" type="TextureButton"]
+[node name="InventorySlot" type="TextureButton" unique_id=1050464962]
 custom_minimum_size = Vector2(49, 51)
 offset_right = 49.0
 offset_bottom = 51.0
@@ -14,35 +14,35 @@ texture_normal = ExtResource("2_hdugx")
 stretch_mode = 0
 script = ExtResource("1_2qu3x")
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=196903113]
 layout_mode = 0
 offset_right = 49.0
 offset_bottom = 51.0
 theme_override_constants/separation = 0
 
-[node name="ResourceImage" type="TextureRect" parent="HBoxContainer"]
+[node name="ResourceImage" type="TextureRect" parent="HBoxContainer" unique_id=2082337062]
 layout_mode = 2
 size_flags_horizontal = 3
 expand_mode = 1
 stretch_mode = 5
 
-[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer" unique_id=1053147682]
 custom_minimum_size = Vector2(8, 0)
 layout_mode = 2
 theme_override_constants/separation = 0
 
-[node name="Spacer" type="Control" parent="HBoxContainer/VBoxContainer"]
+[node name="Spacer" type="Control" parent="HBoxContainer/VBoxContainer" unique_id=1419270142]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="AmountLabel" type="Label" parent="HBoxContainer/VBoxContainer"]
+[node name="AmountLabel" type="Label" parent="HBoxContainer/VBoxContainer" unique_id=2006515946]
 layout_mode = 2
 theme_override_font_sizes/font_size = 8
 text = "0"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="AmountBar" type="TextureRect" parent="HBoxContainer/VBoxContainer"]
+[node name="AmountBar" type="TextureRect" parent="HBoxContainer/VBoxContainer" unique_id=955130426]
 custom_minimum_size = Vector2(3, 0)
 layout_mode = 2
 size_flags_horizontal = 4

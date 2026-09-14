@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=151 format=3 uid="uid://cbbarriertres"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbbarriertres"]
 
 [ext_resource type="Texture2D" uid="uid://cr6x3qyuvqv20" path="res://Assets/World/Buildings2/barrier/barrier_pioneers_as_claywall_a.png" id="barrier_pioneers_as_claywall_a"]
 [ext_resource type="Texture2D" uid="uid://35mb2qgku7f2" path="res://Assets/World/Buildings2/barrier/barrier_pioneers_as_claywall_ab.png" id="barrier_pioneers_as_claywall_ab"]
@@ -517,7 +517,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_a_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.a.045",
 "speed": 5.0
 }, {
@@ -525,7 +525,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_a_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.a.135",
 "speed": 5.0
 }, {
@@ -533,7 +533,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_a_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.a.225",
 "speed": 5.0
 }, {
@@ -541,7 +541,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_a_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.a.315",
 "speed": 5.0
 }, {
@@ -549,7 +549,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_ab_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.ab.045",
 "speed": 5.0
 }, {
@@ -557,7 +557,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_ab_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.ab.135",
 "speed": 5.0
 }, {
@@ -565,7 +565,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_ab_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.ab.225",
 "speed": 5.0
 }, {
@@ -573,7 +573,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_ab_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.ab.315",
 "speed": 5.0
 }, {
@@ -581,7 +581,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abc_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abc.045",
 "speed": 5.0
 }, {
@@ -589,7 +589,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abc_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abc.135",
 "speed": 5.0
 }, {
@@ -597,7 +597,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abc_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abc.225",
 "speed": 5.0
 }, {
@@ -605,7 +605,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abc_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abc.315",
 "speed": 5.0
 }, {
@@ -613,7 +613,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcd_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcd.045",
 "speed": 5.0
 }, {
@@ -621,7 +621,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcd_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcd.135",
 "speed": 5.0
 }, {
@@ -629,7 +629,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcd_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcd.225",
 "speed": 5.0
 }, {
@@ -637,7 +637,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcd_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcd.315",
 "speed": 5.0
 }, {
@@ -645,7 +645,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcde_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcde.045",
 "speed": 5.0
 }, {
@@ -653,7 +653,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcde_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcde.135",
 "speed": 5.0
 }, {
@@ -661,7 +661,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcde_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcde.225",
 "speed": 5.0
 }, {
@@ -669,7 +669,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcde_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcde.315",
 "speed": 5.0
 }, {
@@ -677,7 +677,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdef_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdef.045",
 "speed": 5.0
 }, {
@@ -685,7 +685,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdef_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdef.135",
 "speed": 5.0
 }, {
@@ -693,7 +693,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdef_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdef.225",
 "speed": 5.0
 }, {
@@ -701,7 +701,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdef_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdef.315",
 "speed": 5.0
 }, {
@@ -709,7 +709,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdefg_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdefg.045",
 "speed": 5.0
 }, {
@@ -717,7 +717,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdefg_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdefg.135",
 "speed": 5.0
 }, {
@@ -725,7 +725,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdefg_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdefg.225",
 "speed": 5.0
 }, {
@@ -733,7 +733,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdefg_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdefg.315",
 "speed": 5.0
 }, {
@@ -741,7 +741,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdefgh_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdefgh.045",
 "speed": 5.0
 }, {
@@ -749,7 +749,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdefgh_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdefgh.135",
 "speed": 5.0
 }, {
@@ -757,7 +757,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdefgh_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdefgh.225",
 "speed": 5.0
 }, {
@@ -765,7 +765,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdefgh_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdefgh.315",
 "speed": 5.0
 }, {
@@ -773,7 +773,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdeg_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdeg.045",
 "speed": 5.0
 }, {
@@ -781,7 +781,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdeg_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdeg.135",
 "speed": 5.0
 }, {
@@ -789,7 +789,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdeg_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdeg.225",
 "speed": 5.0
 }, {
@@ -797,7 +797,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcdeg_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcdeg.315",
 "speed": 5.0
 }, {
@@ -805,7 +805,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abce_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abce.045",
 "speed": 5.0
 }, {
@@ -813,7 +813,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abce_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abce.135",
 "speed": 5.0
 }, {
@@ -821,7 +821,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abce_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abce.225",
 "speed": 5.0
 }, {
@@ -829,7 +829,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abce_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abce.315",
 "speed": 5.0
 }, {
@@ -837,7 +837,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcef_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcef.045",
 "speed": 5.0
 }, {
@@ -845,7 +845,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcef_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcef.135",
 "speed": 5.0
 }, {
@@ -853,7 +853,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcef_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcef.225",
 "speed": 5.0
 }, {
@@ -861,7 +861,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcef_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcef.315",
 "speed": 5.0
 }, {
@@ -869,7 +869,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcf_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcf.045",
 "speed": 5.0
 }, {
@@ -877,7 +877,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcf_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcf.135",
 "speed": 5.0
 }, {
@@ -885,7 +885,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcf_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcf.225",
 "speed": 5.0
 }, {
@@ -893,7 +893,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abcf_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abcf.315",
 "speed": 5.0
 }, {
@@ -901,7 +901,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abe_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abe.045",
 "speed": 5.0
 }, {
@@ -909,7 +909,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abe_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abe.135",
 "speed": 5.0
 }, {
@@ -917,7 +917,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abe_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abe.225",
 "speed": 5.0
 }, {
@@ -925,7 +925,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_abe_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.abe.315",
 "speed": 5.0
 }, {
@@ -933,7 +933,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_ac_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.ac.045",
 "speed": 5.0
 }, {
@@ -941,7 +941,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_ac_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.ac.135",
 "speed": 5.0
 }, {
@@ -949,7 +949,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_ac_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.ac.225",
 "speed": 5.0
 }, {
@@ -957,7 +957,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_ac_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.ac.315",
 "speed": 5.0
 }, {
@@ -965,7 +965,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_single_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.single.045",
 "speed": 5.0
 }, {
@@ -973,7 +973,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_single_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.single.135",
 "speed": 5.0
 }, {
@@ -981,7 +981,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_single_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.single.225",
 "speed": 5.0
 }, {
@@ -989,7 +989,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("claywall_pioneers_single_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"claywall.pioneers.single.315",
 "speed": 5.0
 }, {
@@ -997,7 +997,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_a_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.a.045",
 "speed": 5.0
 }, {
@@ -1005,7 +1005,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_a_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.a.135",
 "speed": 5.0
 }, {
@@ -1013,7 +1013,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_a_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.a.225",
 "speed": 5.0
 }, {
@@ -1021,7 +1021,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_a_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.a.315",
 "speed": 5.0
 }, {
@@ -1029,7 +1029,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_ab_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.ab.045",
 "speed": 5.0
 }, {
@@ -1037,7 +1037,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_ab_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.ab.135",
 "speed": 5.0
 }, {
@@ -1045,7 +1045,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_ab_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.ab.225",
 "speed": 5.0
 }, {
@@ -1053,7 +1053,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_ab_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.ab.315",
 "speed": 5.0
 }, {
@@ -1061,7 +1061,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abc_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abc.045",
 "speed": 5.0
 }, {
@@ -1069,7 +1069,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abc_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abc.135",
 "speed": 5.0
 }, {
@@ -1077,7 +1077,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abc_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abc.225",
 "speed": 5.0
 }, {
@@ -1085,7 +1085,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abc_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abc.315",
 "speed": 5.0
 }, {
@@ -1093,7 +1093,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcd_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcd.045",
 "speed": 5.0
 }, {
@@ -1101,7 +1101,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcd_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcd.135",
 "speed": 5.0
 }, {
@@ -1109,7 +1109,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcd_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcd.225",
 "speed": 5.0
 }, {
@@ -1117,7 +1117,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcd_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcd.315",
 "speed": 5.0
 }, {
@@ -1125,7 +1125,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcde_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcde.045",
 "speed": 5.0
 }, {
@@ -1133,7 +1133,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcde_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcde.135",
 "speed": 5.0
 }, {
@@ -1141,7 +1141,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcde_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcde.225",
 "speed": 5.0
 }, {
@@ -1149,7 +1149,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcde_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcde.315",
 "speed": 5.0
 }, {
@@ -1157,7 +1157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdef_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdef.045",
 "speed": 5.0
 }, {
@@ -1165,7 +1165,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdef_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdef.135",
 "speed": 5.0
 }, {
@@ -1173,7 +1173,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdef_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdef.225",
 "speed": 5.0
 }, {
@@ -1181,7 +1181,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdef_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdef.315",
 "speed": 5.0
 }, {
@@ -1189,7 +1189,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdefg_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdefg.045",
 "speed": 5.0
 }, {
@@ -1197,7 +1197,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdefg_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdefg.135",
 "speed": 5.0
 }, {
@@ -1205,7 +1205,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdefg_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdefg.225",
 "speed": 5.0
 }, {
@@ -1213,7 +1213,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdefg_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdefg.315",
 "speed": 5.0
 }, {
@@ -1221,7 +1221,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdefgh_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdefgh.045",
 "speed": 5.0
 }, {
@@ -1229,7 +1229,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdefgh_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdefgh.135",
 "speed": 5.0
 }, {
@@ -1237,7 +1237,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdefgh_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdefgh.225",
 "speed": 5.0
 }, {
@@ -1245,7 +1245,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdefgh_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdefgh.315",
 "speed": 5.0
 }, {
@@ -1253,7 +1253,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdeg_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdeg.045",
 "speed": 5.0
 }, {
@@ -1261,7 +1261,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdeg_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdeg.135",
 "speed": 5.0
 }, {
@@ -1269,7 +1269,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdeg_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdeg.225",
 "speed": 5.0
 }, {
@@ -1277,7 +1277,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcdeg_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcdeg.315",
 "speed": 5.0
 }, {
@@ -1285,7 +1285,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abce_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abce.045",
 "speed": 5.0
 }, {
@@ -1293,7 +1293,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abce_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abce.135",
 "speed": 5.0
 }, {
@@ -1301,7 +1301,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abce_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abce.225",
 "speed": 5.0
 }, {
@@ -1309,7 +1309,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abce_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abce.315",
 "speed": 5.0
 }, {
@@ -1317,7 +1317,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcef_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcef.045",
 "speed": 5.0
 }, {
@@ -1325,7 +1325,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcef_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcef.135",
 "speed": 5.0
 }, {
@@ -1333,7 +1333,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcef_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcef.225",
 "speed": 5.0
 }, {
@@ -1341,7 +1341,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcef_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcef.315",
 "speed": 5.0
 }, {
@@ -1349,7 +1349,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcf_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcf.045",
 "speed": 5.0
 }, {
@@ -1357,7 +1357,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcf_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcf.135",
 "speed": 5.0
 }, {
@@ -1365,7 +1365,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcf_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcf.225",
 "speed": 5.0
 }, {
@@ -1373,7 +1373,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abcf_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abcf.315",
 "speed": 5.0
 }, {
@@ -1381,7 +1381,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abe_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abe.045",
 "speed": 5.0
 }, {
@@ -1389,7 +1389,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abe_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abe.135",
 "speed": 5.0
 }, {
@@ -1397,7 +1397,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abe_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abe.225",
 "speed": 5.0
 }, {
@@ -1405,7 +1405,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_abe_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.abe.315",
 "speed": 5.0
 }, {
@@ -1413,7 +1413,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_ac_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.ac.045",
 "speed": 5.0
 }, {
@@ -1421,7 +1421,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_ac_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.ac.135",
 "speed": 5.0
 }, {
@@ -1429,7 +1429,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_ac_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.ac.225",
 "speed": 5.0
 }, {
@@ -1437,7 +1437,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_ac_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.ac.315",
 "speed": 5.0
 }, {
@@ -1445,7 +1445,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_single_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.single.045",
 "speed": 5.0
 }, {
@@ -1453,7 +1453,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_single_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.single.135",
 "speed": 5.0
 }, {
@@ -1461,7 +1461,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_single_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.single.225",
 "speed": 5.0
 }, {
@@ -1469,7 +1469,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("wall_sailors_single_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"wall.sailors.single.315",
 "speed": 5.0
 }]

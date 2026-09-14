@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=43 format=3 uid="uid://cufieldcolltr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cufieldcolltr"]
 
 [ext_resource type="Texture2D" uid="uid://b2g1sofsxvx2f" path="res://Assets/World/Units2/field_collector/field_collector_sailors_as_farmer0_idle.png" id="field_collector_sailors_as_farmer0_idle"]
 [ext_resource type="Texture2D" uid="uid://bnx50hmkk3586" path="res://Assets/World/Units2/field_collector/field_collector_sailors_as_farmer0_move.png" id="field_collector_sailors_as_farmer0_move"]
@@ -169,7 +169,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.idle.000",
 "speed": 5.0
 }, {
@@ -177,7 +177,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_idle_045_0_42")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -185,7 +185,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_idle_090_0_84")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.idle.090",
 "speed": 5.0
 }, {
@@ -193,7 +193,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_idle_135_0_126")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -201,7 +201,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_idle_180_0_168")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.idle.180",
 "speed": 5.0
 }, {
@@ -209,7 +209,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_idle_225_0_210")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -217,7 +217,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_idle_270_0_252")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.idle.270",
 "speed": 5.0
 }, {
@@ -225,7 +225,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_idle_315_0_294")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.idle.315",
 "speed": 5.0
 }, {
@@ -242,7 +242,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_move_000_96_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.move.000",
 "speed": 5.0
 }, {
@@ -259,7 +259,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_move_045_96_42")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.move.045",
 "speed": 5.0
 }, {
@@ -276,7 +276,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_move_090_96_84")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.move.090",
 "speed": 5.0
 }, {
@@ -293,7 +293,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_move_135_96_126")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.move.135",
 "speed": 5.0
 }, {
@@ -310,7 +310,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_move_180_96_168")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.move.180",
 "speed": 5.0
 }, {
@@ -327,7 +327,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_move_225_96_210")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.move.225",
 "speed": 5.0
 }, {
@@ -344,7 +344,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_move_270_96_252")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.move.270",
 "speed": 5.0
 }, {
@@ -361,7 +361,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("farmer0_sailors_move_315_96_294")
 }],
-"loop": true,
+"loop": 1,
 "name": &"farmer0.sailors.move.315",
 "speed": 5.0
 }]

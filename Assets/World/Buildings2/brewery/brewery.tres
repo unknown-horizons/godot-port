@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=76 format=3 uid="uid://cbbrewerytres"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbbrewerytres"]
 
 [ext_resource type="Texture2D" uid="uid://usw2lb0n4p8a" path="res://Assets/World/Buildings2/brewery/brewery_pioneers_as_brewery0_idle.png" id="brewery_pioneers_as_brewery0_idle"]
 [ext_resource type="Texture2D" uid="uid://c7xc0635tm60b" path="res://Assets/World/Buildings2/brewery/brewery_pioneers_as_brewery0_idle_full.png" id="brewery_pioneers_as_brewery0_idle_full"]
@@ -298,7 +298,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("brewery0_pioneers_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"brewery0.pioneers.idle.045",
 "speed": 5.0
 }, {
@@ -306,7 +306,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("brewery0_pioneers_idle_135_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"brewery0.pioneers.idle.135",
 "speed": 5.0
 }, {
@@ -314,7 +314,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("brewery0_pioneers_idle_225_0_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"brewery0.pioneers.idle.225",
 "speed": 5.0
 }, {
@@ -322,7 +322,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("brewery0_pioneers_idle_315_0_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"brewery0.pioneers.idle.315",
 "speed": 5.0
 }, {
@@ -330,7 +330,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("brewery0_pioneers_idle_full_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"brewery0.pioneers.idle_full.045",
 "speed": 5.0
 }, {
@@ -338,7 +338,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("brewery0_pioneers_idle_full_135_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"brewery0.pioneers.idle_full.135",
 "speed": 5.0
 }, {
@@ -346,7 +346,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("brewery0_pioneers_idle_full_225_0_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"brewery0.pioneers.idle_full.225",
 "speed": 5.0
 }, {
@@ -354,7 +354,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("brewery0_pioneers_idle_full_315_0_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"brewery0.pioneers.idle_full.315",
 "speed": 5.0
 }, {
@@ -407,7 +407,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("brewery0_pioneers_work_045_1920_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"brewery0.pioneers.work.045",
 "speed": 5.0
 }, {
@@ -460,7 +460,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("brewery0_pioneers_work_135_1920_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"brewery0.pioneers.work.135",
 "speed": 5.0
 }, {
@@ -513,7 +513,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("brewery0_pioneers_work_225_1920_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"brewery0.pioneers.work.225",
 "speed": 5.0
 }, {
@@ -566,7 +566,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("brewery0_pioneers_work_315_1920_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"brewery0.pioneers.work.315",
 "speed": 5.0
 }]

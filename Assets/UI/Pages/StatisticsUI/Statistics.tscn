@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://1opsuostcgeb"]
+[gd_scene format=3 uid="uid://1opsuostcgeb"]
 
 [ext_resource type="PackedScene" uid="uid://c7vej07bi5fee" path="res://Assets/UI/BookMenu/BookMenuPage.tscn" id="1_dqn3w"]
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="2_fty0g"]
@@ -13,54 +13,51 @@
 [ext_resource type="Texture2D" uid="uid://mwy8eit5qknk" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_yellow.png" id="14"]
 [ext_resource type="Texture2D" uid="uid://dvamp0o0sdsyh" path="res://Assets/UI/Images/TabWidget/Emblems/emblem_pink.png" id="15"]
 
-[node name="Statistics" instance=ExtResource("1_dqn3w")]
+[node name="Statistics" unique_id=1546287426 instance=ExtResource("1_dqn3w")]
 
-[node name="LeftPage" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer" index="0"]
+[node name="LeftPage" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer" parent_id_path=PackedInt32Array(1363532205) index="0" unique_id=453020282]
 size_flags_horizontal = 3
 
-[node name="CaptionBlock" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="0" instance=ExtResource("2_fty0g")]
+[node name="CaptionBlock" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="0" unique_id=976237618 instance=ExtResource("2_fty0g")]
 layout_mode = 2
 
-[node name="Caption" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/CaptionBlock" index="1"]
-text = "Statistics"
-
-[node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="1"]
+[node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="1" unique_id=2082234467]
 custom_minimum_size = Vector2(0, 25)
 layout_mode = 2
 
-[node name="Button" type="Button" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/HBoxContainer" index="0"]
+[node name="Button" type="Button" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/HBoxContainer" index="0" unique_id=108900713]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Players"
 
-[node name="Button2" type="Button" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/HBoxContainer" index="1"]
+[node name="Button2" type="Button" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/HBoxContainer" index="1" unique_id=608962796]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "My ships"
 
-[node name="Button3" type="Button" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/HBoxContainer" index="2"]
+[node name="Button3" type="Button" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/HBoxContainer" index="2" unique_id=765445425]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "My settlements"
 
-[node name="SubheadingBlock" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="2"]
+[node name="SubheadingBlock" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="2" unique_id=596153617]
 custom_minimum_size = Vector2(300, 0)
 layout_mode = 2
 size_flags_horizontal = 0
 
-[node name="Subheading" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/SubheadingBlock" index="0" instance=ExtResource("3")]
+[node name="Subheading" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/SubheadingBlock" index="0" unique_id=832021487 instance=ExtResource("3")]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Player scores"
 
-[node name="Separator" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/SubheadingBlock" index="1" instance=ExtResource("5")]
+[node name="Separator" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/SubheadingBlock" index="1" unique_id=332242517 instance=ExtResource("5")]
 layout_mode = 2
 
-[node name="GridContainer" type="GridContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="3"]
+[node name="GridContainer" type="GridContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage" index="3" unique_id=363373160]
 layout_mode = 2
 columns = 9
 
-[node name="TextureRect" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="0"]
+[node name="TextureRect" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="0" unique_id=948127306]
 modulate = Color(1, 1, 1, 0)
 custom_minimum_size = Vector2(20, 0)
 layout_mode = 2
@@ -68,423 +65,423 @@ size_flags_horizontal = 0
 texture = ExtResource("6")
 expand_mode = 1
 
-[node name="NameHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="1"]
+[node name="NameHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="1" unique_id=1030828471]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Name"
 
-[node name="MoneyHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="2"]
+[node name="MoneyHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="2" unique_id=1558764180]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Money"
 
-[node name="LandHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="3"]
+[node name="LandHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="3" unique_id=1399688292]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Land"
 
-[node name="ResourcesHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="4"]
+[node name="ResourcesHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="4" unique_id=518850725]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Resources"
 
-[node name="BuildingsHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="5"]
+[node name="BuildingsHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="5" unique_id=1072374370]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Buildings"
 
-[node name="SettlersHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="6"]
+[node name="SettlersHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="6" unique_id=1196122447]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Settlers"
 
-[node name="UnitsHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="7"]
+[node name="UnitsHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="7" unique_id=734643641]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Units"
 
-[node name="TotalHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="8"]
+[node name="TotalHeading" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="8" unique_id=668532823]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Total"
 
-[node name="Faction1" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="9"]
+[node name="Faction1" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="9" unique_id=437679159]
 custom_minimum_size = Vector2(20, 0)
 layout_mode = 2
 size_flags_horizontal = 0
 texture = ExtResource("6")
 expand_mode = 1
 
-[node name="Name1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="10"]
+[node name="Name1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="10" unique_id=1989551680]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Unknown Traveller"
 
-[node name="Money1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="11"]
+[node name="Money1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="11" unique_id=528562975]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "140"
 
-[node name="Land1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="12"]
+[node name="Land1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="12" unique_id=809068434]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "104"
 
-[node name="Resources1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="13"]
+[node name="Resources1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="13" unique_id=1378610021]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "42"
 
-[node name="Buildings1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="14"]
+[node name="Buildings1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="14" unique_id=403241132]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "543"
 
-[node name="Settlers1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="15"]
+[node name="Settlers1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="15" unique_id=1438260983]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "1735"
 
-[node name="Units1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="16"]
+[node name="Units1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="16" unique_id=1098031354]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "30"
 
-[node name="Total1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="17"]
+[node name="Total1" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="17" unique_id=1699515086]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "2603"
 
-[node name="Faction2" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="18"]
+[node name="Faction2" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="18" unique_id=765490428]
 custom_minimum_size = Vector2(20, 0)
 layout_mode = 2
 size_flags_horizontal = 0
 texture = ExtResource("9")
 expand_mode = 1
 
-[node name="Name2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="19"]
+[node name="Name2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="19" unique_id=2111362797]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Unknown Traveller"
 
-[node name="Money2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="20"]
+[node name="Money2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="20" unique_id=306672969]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "140"
 
-[node name="Land2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="21"]
+[node name="Land2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="21" unique_id=1716365150]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "104"
 
-[node name="Resources2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="22"]
+[node name="Resources2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="22" unique_id=874412166]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "42"
 
-[node name="Buildings2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="23"]
+[node name="Buildings2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="23" unique_id=1790158019]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "543"
 
-[node name="Settlers2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="24"]
+[node name="Settlers2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="24" unique_id=1171671190]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "1735"
 
-[node name="Units2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="25"]
+[node name="Units2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="25" unique_id=104886601]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "30"
 
-[node name="Total2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="26"]
+[node name="Total2" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="26" unique_id=260618593]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "2603"
 
-[node name="Faction3" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="27"]
+[node name="Faction3" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="27" unique_id=470249587]
 custom_minimum_size = Vector2(20, 0)
 layout_mode = 2
 size_flags_horizontal = 0
 texture = ExtResource("10")
 expand_mode = 1
 
-[node name="Name3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="28"]
+[node name="Name3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="28" unique_id=255441773]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Unknown Traveller"
 
-[node name="Money3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="29"]
+[node name="Money3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="29" unique_id=108774815]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "140"
 
-[node name="Land3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="30"]
+[node name="Land3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="30" unique_id=1493749119]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "104"
 
-[node name="Resources3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="31"]
+[node name="Resources3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="31" unique_id=811410559]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "42"
 
-[node name="Buildings3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="32"]
+[node name="Buildings3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="32" unique_id=1966906936]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "543"
 
-[node name="Settlers3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="33"]
+[node name="Settlers3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="33" unique_id=888472519]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "1735"
 
-[node name="Units3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="34"]
+[node name="Units3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="34" unique_id=65182736]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "30"
 
-[node name="Total3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="35"]
+[node name="Total3" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="35" unique_id=1563123302]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "2603"
 
-[node name="Faction4" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="36"]
+[node name="Faction4" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="36" unique_id=1828813934]
 custom_minimum_size = Vector2(20, 0)
 layout_mode = 2
 size_flags_horizontal = 0
 texture = ExtResource("11")
 expand_mode = 1
 
-[node name="Name4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="37"]
+[node name="Name4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="37" unique_id=1281138399]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Unknown Traveller"
 
-[node name="Money4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="38"]
+[node name="Money4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="38" unique_id=1113590235]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "140"
 
-[node name="Land4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="39"]
+[node name="Land4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="39" unique_id=1111249736]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "104"
 
-[node name="Resources4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="40"]
+[node name="Resources4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="40" unique_id=1943418675]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "42"
 
-[node name="Buildings4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="41"]
+[node name="Buildings4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="41" unique_id=662182116]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "543"
 
-[node name="Settlers4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="42"]
+[node name="Settlers4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="42" unique_id=1563103826]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "1735"
 
-[node name="Units4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="43"]
+[node name="Units4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="43" unique_id=462937899]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "30"
 
-[node name="Total4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="44"]
+[node name="Total4" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="44" unique_id=216524163]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "2603"
 
-[node name="Faction5" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="45"]
+[node name="Faction5" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="45" unique_id=1696828903]
 custom_minimum_size = Vector2(20, 0)
 layout_mode = 2
 size_flags_horizontal = 0
 texture = ExtResource("12")
 expand_mode = 1
 
-[node name="Name5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="46"]
+[node name="Name5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="46" unique_id=1179383979]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Unknown Traveller"
 
-[node name="Money5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="47"]
+[node name="Money5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="47" unique_id=422000984]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "140"
 
-[node name="Land5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="48"]
+[node name="Land5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="48" unique_id=1806740993]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "104"
 
-[node name="Resources5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="49"]
+[node name="Resources5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="49" unique_id=205125101]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "42"
 
-[node name="Buildings5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="50"]
+[node name="Buildings5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="50" unique_id=1948378447]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "543"
 
-[node name="Settlers5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="51"]
+[node name="Settlers5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="51" unique_id=1246379986]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "1735"
 
-[node name="Units5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="52"]
+[node name="Units5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="52" unique_id=619269623]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "30"
 
-[node name="Total5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="53"]
+[node name="Total5" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="53" unique_id=2101944572]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "2603"
 
-[node name="Faction6" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="54"]
+[node name="Faction6" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="54" unique_id=1300519017]
 custom_minimum_size = Vector2(20, 0)
 layout_mode = 2
 size_flags_horizontal = 0
 texture = ExtResource("13")
 expand_mode = 1
 
-[node name="Name6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="55"]
+[node name="Name6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="55" unique_id=1268022115]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Unknown Traveller"
 
-[node name="Money6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="56"]
+[node name="Money6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="56" unique_id=187540637]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "140"
 
-[node name="Land6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="57"]
+[node name="Land6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="57" unique_id=691564724]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "104"
 
-[node name="Resources6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="58"]
+[node name="Resources6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="58" unique_id=1278630497]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "42"
 
-[node name="Buildings6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="59"]
+[node name="Buildings6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="59" unique_id=271098781]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "543"
 
-[node name="Settlers6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="60"]
+[node name="Settlers6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="60" unique_id=155932465]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "1735"
 
-[node name="Units6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="61"]
+[node name="Units6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="61" unique_id=2651460]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "30"
 
-[node name="Total6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="62"]
+[node name="Total6" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="62" unique_id=1349570097]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "2603"
 
-[node name="Faction7" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="63"]
+[node name="Faction7" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="63" unique_id=1365885856]
 custom_minimum_size = Vector2(20, 0)
 layout_mode = 2
 size_flags_horizontal = 0
 texture = ExtResource("14")
 expand_mode = 1
 
-[node name="Name7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="64"]
+[node name="Name7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="64" unique_id=1998603411]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Unknown Traveller"
 
-[node name="Money7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="65"]
+[node name="Money7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="65" unique_id=1433829113]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "140"
 
-[node name="Land7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="66"]
+[node name="Land7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="66" unique_id=116561672]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "104"
 
-[node name="Resources7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="67"]
+[node name="Resources7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="67" unique_id=1617688811]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "42"
 
-[node name="Buildings7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="68"]
+[node name="Buildings7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="68" unique_id=1553489781]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "543"
 
-[node name="Settlers7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="69"]
+[node name="Settlers7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="69" unique_id=660759150]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "1735"
 
-[node name="Units7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="70"]
+[node name="Units7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="70" unique_id=1751562953]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "30"
 
-[node name="Total7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="71"]
+[node name="Total7" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="71" unique_id=126410308]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "2603"
 
-[node name="Faction8" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="72"]
+[node name="Faction8" type="TextureRect" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="72" unique_id=2041872365]
 custom_minimum_size = Vector2(20, 0)
 layout_mode = 2
 size_flags_horizontal = 0
 texture = ExtResource("15")
 expand_mode = 1
 
-[node name="Name8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="73"]
+[node name="Name8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="73" unique_id=1615410430]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Unknown Traveller"
 
-[node name="Money8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="74"]
+[node name="Money8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="74" unique_id=1439251857]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "140"
 
-[node name="Land8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="75"]
+[node name="Land8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="75" unique_id=1455769920]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "104"
 
-[node name="Resources8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="76"]
+[node name="Resources8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="76" unique_id=1851225637]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "42"
 
-[node name="Buildings8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="77"]
+[node name="Buildings8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="77" unique_id=1924585379]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "543"
 
-[node name="Settlers8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="78"]
+[node name="Settlers8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="78" unique_id=1075420992]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "1735"
 
-[node name="Units8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="79"]
+[node name="Units8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="79" unique_id=755705646]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "30"
 
-[node name="Total8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="80"]
+[node name="Total8" type="Label" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/GridContainer" index="80" unique_id=364791019]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "2603"
 
-[node name="RightPage" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer" index="1"]
+[node name="RightPage" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer" parent_id_path=PackedInt32Array(1363532205) index="1" unique_id=500071854]
 visible = false
 
 [editable path="TextureRect/MarginContainer/VBoxContainer/HBoxContainer/LeftPage/CaptionBlock"]

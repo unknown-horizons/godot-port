@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://cbsaltpondsts"]
+[gd_scene format=3 uid="uid://cbsaltpondsts"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -9,44 +9,40 @@
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="9_building_collector_component"]
 
-[node name="salt_ponds" type="Node2D"]
+[node name="salt_ponds" type="Node2D" unique_id=818348832]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.SALT_PONDS"
 baseclass = "production.CoastalProducer"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Salt Ponds"
 })
-radius = 0
 cost = 10
-cost_inactive = 0
 size = Vector2i(3, 3)
 inhabitants = 1
 tooltip_text = "_ Evaporates salt. Built on sea coast."
 tier = "TIER.SETTLERS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=1783445596 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["ProductionOverviewTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=1024967736 instance=ExtResource("5_health_component")]
 max_health = 1000
 
-[node name="ProductionLineComponent_SALT" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_SALT" parent="." unique_id=1813206757 instance=ExtResource("6_production_line_component")]
 line_name = "SALT"
-consumes = Dictionary[StringName, int]({
-})
 produces = Dictionary[StringName, int]({
 &"SALT": 2
 })
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=803923063 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"SALT": 8
 })
 
-[node name="BuildingCollector" parent="." instance=ExtResource("9_building_collector_component")]
+[node name="BuildingCollector" parent="." unique_id=1318005138 instance=ExtResource("9_building_collector_component")]
 radius = 8
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=259632312 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

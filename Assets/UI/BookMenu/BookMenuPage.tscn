@@ -1,10 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://c7vej07bi5fee"]
+[gd_scene format=3 uid="uid://c7vej07bi5fee"]
 
 [ext_resource type="Script" uid="uid://cq4bbc5yxub15" path="res://Assets/UI/BookMenu/BookMenuPage.gd" id="1_22nb5"]
 [ext_resource type="Texture2D" uid="uid://blo2v78psec72" path="res://Assets/UI/Images/Background/book.png" id="3"]
 [ext_resource type="PackedScene" uid="uid://d1asr6g42034v" path="res://Assets/UI/BookMenu/BookMenuControls.tscn" id="4_08e1d"]
 
-[node name="BookMenuPage" type="TabBar"]
+[node name="BookMenuPage" type="TabBar" unique_id=1522669822]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -13,7 +13,7 @@ grow_vertical = 2
 script = ExtResource("1_22nb5")
 metadata/_edit_lock_ = true
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1476952772]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -29,7 +29,7 @@ grow_vertical = 2
 texture = ExtResource("3")
 metadata/_edit_lock_ = true
 
-[node name="MarginContainer" type="MarginContainer" parent="TextureRect"]
+[node name="MarginContainer" type="MarginContainer" parent="TextureRect" unique_id=929141694]
 layout_mode = 0
 anchor_left = 0.5
 anchor_top = 0.5
@@ -40,21 +40,21 @@ offset_top = -250.0
 offset_right = 325.0
 offset_bottom = 250.0
 
-[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect/MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect/MarginContainer" unique_id=1448520621]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer" unique_id=1363532205]
 custom_minimum_size = Vector2(650, 450)
 layout_mode = 2
 
-[node name="LeftPage" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="LeftPage" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer" unique_id=453020282]
 custom_minimum_size = Vector2(300, 450)
 layout_mode = 2
 
-[node name="RightPage" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="RightPage" type="VBoxContainer" parent="TextureRect/MarginContainer/VBoxContainer/HBoxContainer" unique_id=500071854]
 custom_minimum_size = Vector2(300, 450)
 layout_mode = 2
 size_flags_horizontal = 10
 
-[node name="BookMenuControls" parent="TextureRect/MarginContainer/VBoxContainer" instance=ExtResource("4_08e1d")]
+[node name="BookMenuControls" parent="TextureRect/MarginContainer/VBoxContainer" unique_id=1534343486 instance=ExtResource("4_08e1d")]
 layout_mode = 2

@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://cbclaydeposts"]
+[gd_scene format=3 uid="uid://cbclaydeposts"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -7,30 +7,26 @@
 [ext_resource type="PackedScene" uid="uid://cqu1iyo1pym8w" path="res://Assets/World/Components/HealthComponent/HealthComponent.tscn" id="5_health_component"]
 [ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 
-[node name="clay_deposit" type="Node2D"]
+[node name="clay_deposit" type="Node2D" unique_id=1045511588]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.CLAY_DEPOSIT"
 baseclass = "nature.ResourceDeposit"
 game_name_per_tier = Dictionary[StringName, String]({
 &"SAILORS": "_ Clay Deposit"
 })
-radius = 0
-cost = 0
-cost_inactive = 0
 size = Vector2i(3, 3)
-inhabitants = 0
 tooltip_text = "None"
 tier = "TIER.NATURE"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=1179578588 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["InventoryTab"])
 enemy_tabs = Array[String](["InventoryTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=1732043855 instance=ExtResource("5_health_component")]
 max_health = 10
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=1367197838 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"RAW_CLAY": 1000000
 })
@@ -38,6 +34,6 @@ storage = Dictionary[StringName, int]({
 &"RAW_CLAY": 500
 })
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=1477683474 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")
 current_as_name = "clay0"

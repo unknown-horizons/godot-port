@@ -83,11 +83,14 @@ func _get(property_name):
   if property_name == "current_as_name":
     # print("_get: ", property_name)
     return self.current_as_name
+  return
 
 func _set(property_name, val):
   if property_name == "current_as_name":
     # print("_set: ", property_name)
     self.current_as_name = val
+    return true
+  return false
 #endregion
 
 var per_tier_animation_names: Array[Array] = []

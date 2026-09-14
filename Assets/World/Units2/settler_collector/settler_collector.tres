@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=2447 format=3 uid="uid://cusettlercotr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cusettlercotr"]
 
 [ext_resource type="Texture2D" uid="uid://b36twrmhgugo8" path="res://Assets/World/Units2/settler_collector/settler_collector_citizens_as_citizenfemale0_idle.png" id="settler_collector_citizens_as_citizenfemale0_idle"]
 [ext_resource type="Texture2D" uid="uid://di53brpknp6rs" path="res://Assets/World/Units2/settler_collector/settler_collector_citizens_as_citizenfemale0_move.png" id="settler_collector_citizens_as_citizenfemale0_move"]
@@ -9725,7 +9725,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.idle.000",
 "speed": 5.0
 }, {
@@ -9733,7 +9733,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_idle_045_0_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.idle.045",
 "speed": 5.0
 }, {
@@ -9741,7 +9741,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_idle_090_0_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.idle.090",
 "speed": 5.0
 }, {
@@ -9749,7 +9749,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_idle_135_0_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.idle.135",
 "speed": 5.0
 }, {
@@ -9757,7 +9757,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_idle_180_0_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.idle.180",
 "speed": 5.0
 }, {
@@ -9765,7 +9765,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_idle_225_0_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.idle.225",
 "speed": 5.0
 }, {
@@ -9773,7 +9773,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_idle_270_0_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.idle.270",
 "speed": 5.0
 }, {
@@ -9781,7 +9781,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_idle_315_0_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.idle.315",
 "speed": 5.0
 }, {
@@ -9891,7 +9891,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_move_000_816_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.move.000",
 "speed": 5.0
 }, {
@@ -10001,7 +10001,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_move_045_816_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.move.045",
 "speed": 5.0
 }, {
@@ -10111,7 +10111,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_move_090_816_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.move.090",
 "speed": 5.0
 }, {
@@ -10221,7 +10221,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_move_135_816_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.move.135",
 "speed": 5.0
 }, {
@@ -10331,7 +10331,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_move_180_816_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.move.180",
 "speed": 5.0
 }, {
@@ -10441,7 +10441,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_move_225_816_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.move.225",
 "speed": 5.0
 }, {
@@ -10551,7 +10551,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_move_270_816_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.move.270",
 "speed": 5.0
 }, {
@@ -10661,7 +10661,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenfemale0_citizens_move_315_816_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenfemale0.citizens.move.315",
 "speed": 5.0
 }, {
@@ -10669,7 +10669,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.idle.000",
 "speed": 5.0
 }, {
@@ -10677,7 +10677,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_idle_045_0_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.idle.045",
 "speed": 5.0
 }, {
@@ -10685,7 +10685,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_idle_090_0_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.idle.090",
 "speed": 5.0
 }, {
@@ -10693,7 +10693,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_idle_135_0_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.idle.135",
 "speed": 5.0
 }, {
@@ -10701,7 +10701,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_idle_180_0_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.idle.180",
 "speed": 5.0
 }, {
@@ -10709,7 +10709,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_idle_225_0_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.idle.225",
 "speed": 5.0
 }, {
@@ -10717,7 +10717,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_idle_270_0_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.idle.270",
 "speed": 5.0
 }, {
@@ -10725,7 +10725,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_idle_315_0_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.idle.315",
 "speed": 5.0
 }, {
@@ -10835,7 +10835,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_move_000_816_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.move.000",
 "speed": 5.0
 }, {
@@ -10945,7 +10945,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_move_045_816_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.move.045",
 "speed": 5.0
 }, {
@@ -11055,7 +11055,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_move_090_816_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.move.090",
 "speed": 5.0
 }, {
@@ -11165,7 +11165,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_move_135_816_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.move.135",
 "speed": 5.0
 }, {
@@ -11275,7 +11275,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_move_180_816_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.move.180",
 "speed": 5.0
 }, {
@@ -11385,7 +11385,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_move_225_816_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.move.225",
 "speed": 5.0
 }, {
@@ -11495,7 +11495,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_move_270_816_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.move.270",
 "speed": 5.0
 }, {
@@ -11605,7 +11605,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("citizenmale0_citizens_move_315_816_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"citizenmale0.citizens.move.315",
 "speed": 5.0
 }, {
@@ -11613,7 +11613,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.idle.000",
 "speed": 5.0
 }, {
@@ -11621,7 +11621,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_idle_045_0_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -11629,7 +11629,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_idle_090_0_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.idle.090",
 "speed": 5.0
 }, {
@@ -11637,7 +11637,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_idle_135_0_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -11645,7 +11645,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_idle_180_0_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.idle.180",
 "speed": 5.0
 }, {
@@ -11653,7 +11653,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_idle_225_0_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -11661,7 +11661,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_idle_270_0_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.idle.270",
 "speed": 5.0
 }, {
@@ -11669,7 +11669,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_idle_315_0_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.idle.315",
 "speed": 5.0
 }, {
@@ -11779,7 +11779,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_move_000_816_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.move.000",
 "speed": 5.0
 }, {
@@ -11889,7 +11889,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_move_045_816_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.move.045",
 "speed": 5.0
 }, {
@@ -11999,7 +11999,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_move_090_816_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.move.090",
 "speed": 5.0
 }, {
@@ -12109,7 +12109,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_move_135_816_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.move.135",
 "speed": 5.0
 }, {
@@ -12219,7 +12219,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_move_180_816_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.move.180",
 "speed": 5.0
 }, {
@@ -12329,7 +12329,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_move_225_816_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.move.225",
 "speed": 5.0
 }, {
@@ -12439,7 +12439,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_move_270_816_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.move.270",
 "speed": 5.0
 }, {
@@ -12549,7 +12549,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female_sailors_move_315_816_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female.sailors.move.315",
 "speed": 5.0
 }, {
@@ -12557,7 +12557,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.idle.000",
 "speed": 5.0
 }, {
@@ -12565,7 +12565,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_idle_045_0_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -12573,7 +12573,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_idle_090_0_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.idle.090",
 "speed": 5.0
 }, {
@@ -12581,7 +12581,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_idle_135_0_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -12589,7 +12589,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_idle_180_0_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.idle.180",
 "speed": 5.0
 }, {
@@ -12597,7 +12597,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_idle_225_0_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -12605,7 +12605,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_idle_270_0_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.idle.270",
 "speed": 5.0
 }, {
@@ -12613,7 +12613,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_idle_315_0_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.idle.315",
 "speed": 5.0
 }, {
@@ -12630,7 +12630,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_move_000_72_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.move.000",
 "speed": 5.0
 }, {
@@ -12647,7 +12647,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_move_045_72_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.move.045",
 "speed": 5.0
 }, {
@@ -12664,7 +12664,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_move_090_72_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.move.090",
 "speed": 5.0
 }, {
@@ -12681,7 +12681,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_move_135_72_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.move.135",
 "speed": 5.0
 }, {
@@ -12698,7 +12698,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_move_180_72_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.move.180",
 "speed": 5.0
 }, {
@@ -12715,7 +12715,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_move_225_72_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.move.225",
 "speed": 5.0
 }, {
@@ -12732,7 +12732,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_move_270_72_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.move.270",
 "speed": 5.0
 }, {
@@ -12749,7 +12749,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("female2_sailors_move_315_72_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"female2.sailors.move.315",
 "speed": 5.0
 }, {
@@ -12757,7 +12757,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.idle.000",
 "speed": 5.0
 }, {
@@ -12765,7 +12765,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_idle_045_0_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -12773,7 +12773,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_idle_090_0_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.idle.090",
 "speed": 5.0
 }, {
@@ -12781,7 +12781,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_idle_135_0_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -12789,7 +12789,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_idle_180_0_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.idle.180",
 "speed": 5.0
 }, {
@@ -12797,7 +12797,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_idle_225_0_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -12805,7 +12805,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_idle_270_0_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.idle.270",
 "speed": 5.0
 }, {
@@ -12813,7 +12813,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_idle_315_0_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.idle.315",
 "speed": 5.0
 }, {
@@ -12830,7 +12830,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_move_000_72_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.move.000",
 "speed": 5.0
 }, {
@@ -12847,7 +12847,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_move_045_72_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.move.045",
 "speed": 5.0
 }, {
@@ -12864,7 +12864,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_move_090_72_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.move.090",
 "speed": 5.0
 }, {
@@ -12881,7 +12881,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_move_135_72_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.move.135",
 "speed": 5.0
 }, {
@@ -12898,7 +12898,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_move_180_72_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.move.180",
 "speed": 5.0
 }, {
@@ -12915,7 +12915,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_move_225_72_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.move.225",
 "speed": 5.0
 }, {
@@ -12932,7 +12932,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_move_270_72_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.move.270",
 "speed": 5.0
 }, {
@@ -12949,7 +12949,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male_sailors_move_315_72_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male.sailors.move.315",
 "speed": 5.0
 }, {
@@ -12957,7 +12957,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.idle.000",
 "speed": 5.0
 }, {
@@ -12965,7 +12965,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_idle_045_0_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -12973,7 +12973,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_idle_090_0_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.idle.090",
 "speed": 5.0
 }, {
@@ -12981,7 +12981,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_idle_135_0_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -12989,7 +12989,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_idle_180_0_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.idle.180",
 "speed": 5.0
 }, {
@@ -12997,7 +12997,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_idle_225_0_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -13005,7 +13005,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_idle_270_0_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.idle.270",
 "speed": 5.0
 }, {
@@ -13013,7 +13013,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_idle_315_0_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.idle.315",
 "speed": 5.0
 }, {
@@ -13030,7 +13030,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_move_000_72_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.move.000",
 "speed": 5.0
 }, {
@@ -13047,7 +13047,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_move_045_72_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.move.045",
 "speed": 5.0
 }, {
@@ -13064,7 +13064,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_move_090_72_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.move.090",
 "speed": 5.0
 }, {
@@ -13081,7 +13081,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_move_135_72_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.move.135",
 "speed": 5.0
 }, {
@@ -13098,7 +13098,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_move_180_72_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.move.180",
 "speed": 5.0
 }, {
@@ -13115,7 +13115,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_move_225_72_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.move.225",
 "speed": 5.0
 }, {
@@ -13132,7 +13132,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_move_270_72_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.move.270",
 "speed": 5.0
 }, {
@@ -13149,7 +13149,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male2_sailors_move_315_72_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male2.sailors.move.315",
 "speed": 5.0
 }, {
@@ -13157,7 +13157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.idle.000",
 "speed": 5.0
 }, {
@@ -13165,7 +13165,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_idle_045_0_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -13173,7 +13173,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_idle_090_0_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.idle.090",
 "speed": 5.0
 }, {
@@ -13181,7 +13181,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_idle_135_0_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -13189,7 +13189,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_idle_180_0_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.idle.180",
 "speed": 5.0
 }, {
@@ -13197,7 +13197,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_idle_225_0_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -13205,7 +13205,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_idle_270_0_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.idle.270",
 "speed": 5.0
 }, {
@@ -13213,7 +13213,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_idle_315_0_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.idle.315",
 "speed": 5.0
 }, {
@@ -13323,7 +13323,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_move_000_816_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.move.000",
 "speed": 5.0
 }, {
@@ -13433,7 +13433,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_move_045_816_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.move.045",
 "speed": 5.0
 }, {
@@ -13543,7 +13543,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_move_090_816_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.move.090",
 "speed": 5.0
 }, {
@@ -13653,7 +13653,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_move_135_816_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.move.135",
 "speed": 5.0
 }, {
@@ -13763,7 +13763,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_move_180_816_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.move.180",
 "speed": 5.0
 }, {
@@ -13873,7 +13873,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_move_225_816_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.move.225",
 "speed": 5.0
 }, {
@@ -13983,7 +13983,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_move_270_816_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.move.270",
 "speed": 5.0
 }, {
@@ -14093,7 +14093,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("male3_sailors_move_315_816_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"male3.sailors.move.315",
 "speed": 5.0
 }, {
@@ -14101,7 +14101,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.idle.000",
 "speed": 5.0
 }, {
@@ -14109,7 +14109,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_idle_045_0_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.idle.045",
 "speed": 5.0
 }, {
@@ -14117,7 +14117,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_idle_090_0_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.idle.090",
 "speed": 5.0
 }, {
@@ -14125,7 +14125,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_idle_135_0_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.idle.135",
 "speed": 5.0
 }, {
@@ -14133,7 +14133,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_idle_180_0_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.idle.180",
 "speed": 5.0
 }, {
@@ -14141,7 +14141,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_idle_225_0_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.idle.225",
 "speed": 5.0
 }, {
@@ -14149,7 +14149,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_idle_270_0_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.idle.270",
 "speed": 5.0
 }, {
@@ -14157,7 +14157,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_idle_315_0_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.idle.315",
 "speed": 5.0
 }, {
@@ -14267,7 +14267,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_move_000_816_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.move.000",
 "speed": 5.0
 }, {
@@ -14377,7 +14377,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_move_045_816_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.move.045",
 "speed": 5.0
 }, {
@@ -14487,7 +14487,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_move_090_816_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.move.090",
 "speed": 5.0
 }, {
@@ -14597,7 +14597,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_move_135_816_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.move.135",
 "speed": 5.0
 }, {
@@ -14707,7 +14707,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_move_180_816_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.move.180",
 "speed": 5.0
 }, {
@@ -14817,7 +14817,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_move_225_816_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.move.225",
 "speed": 5.0
 }, {
@@ -14927,7 +14927,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_move_270_816_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.move.270",
 "speed": 5.0
 }, {
@@ -15037,7 +15037,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneerfemale0_pioneers_move_315_816_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneerfemale0.pioneers.move.315",
 "speed": 5.0
 }, {
@@ -15045,7 +15045,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.idle.000",
 "speed": 5.0
 }, {
@@ -15053,7 +15053,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_idle_045_0_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.idle.045",
 "speed": 5.0
 }, {
@@ -15061,7 +15061,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_idle_090_0_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.idle.090",
 "speed": 5.0
 }, {
@@ -15069,7 +15069,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_idle_135_0_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.idle.135",
 "speed": 5.0
 }, {
@@ -15077,7 +15077,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_idle_180_0_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.idle.180",
 "speed": 5.0
 }, {
@@ -15085,7 +15085,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_idle_225_0_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.idle.225",
 "speed": 5.0
 }, {
@@ -15093,7 +15093,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_idle_270_0_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.idle.270",
 "speed": 5.0
 }, {
@@ -15101,7 +15101,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_idle_315_0_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.idle.315",
 "speed": 5.0
 }, {
@@ -15211,7 +15211,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_move_000_816_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.move.000",
 "speed": 5.0
 }, {
@@ -15321,7 +15321,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_move_045_816_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.move.045",
 "speed": 5.0
 }, {
@@ -15431,7 +15431,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_move_090_816_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.move.090",
 "speed": 5.0
 }, {
@@ -15541,7 +15541,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_move_135_816_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.move.135",
 "speed": 5.0
 }, {
@@ -15651,7 +15651,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_move_180_816_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.move.180",
 "speed": 5.0
 }, {
@@ -15761,7 +15761,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_move_225_816_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.move.225",
 "speed": 5.0
 }, {
@@ -15871,7 +15871,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_move_270_816_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.move.270",
 "speed": 5.0
 }, {
@@ -15981,7 +15981,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("pioneermale0_pioneers_move_315_816_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"pioneermale0.pioneers.move.315",
 "speed": 5.0
 }, {
@@ -15989,7 +15989,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.idle.000",
 "speed": 5.0
 }, {
@@ -15997,7 +15997,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_idle_045_0_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.idle.045",
 "speed": 5.0
 }, {
@@ -16005,7 +16005,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_idle_090_0_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.idle.090",
 "speed": 5.0
 }, {
@@ -16013,7 +16013,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_idle_135_0_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.idle.135",
 "speed": 5.0
 }, {
@@ -16021,7 +16021,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_idle_180_0_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.idle.180",
 "speed": 5.0
 }, {
@@ -16029,7 +16029,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_idle_225_0_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.idle.225",
 "speed": 5.0
 }, {
@@ -16037,7 +16037,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_idle_270_0_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.idle.270",
 "speed": 5.0
 }, {
@@ -16045,7 +16045,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_idle_315_0_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.idle.315",
 "speed": 5.0
 }, {
@@ -16155,7 +16155,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_move_000_816_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.move.000",
 "speed": 5.0
 }, {
@@ -16265,7 +16265,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_move_045_816_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.move.045",
 "speed": 5.0
 }, {
@@ -16375,7 +16375,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_move_090_816_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.move.090",
 "speed": 5.0
 }, {
@@ -16485,7 +16485,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_move_135_816_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.move.135",
 "speed": 5.0
 }, {
@@ -16595,7 +16595,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_move_180_816_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.move.180",
 "speed": 5.0
 }, {
@@ -16705,7 +16705,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_move_225_816_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.move.225",
 "speed": 5.0
 }, {
@@ -16815,7 +16815,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_move_270_816_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.move.270",
 "speed": 5.0
 }, {
@@ -16925,7 +16925,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlerfemale0_settlers_move_315_816_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlerfemale0.settlers.move.315",
 "speed": 5.0
 }, {
@@ -16933,7 +16933,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.idle.000",
 "speed": 5.0
 }, {
@@ -16941,7 +16941,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_idle_045_0_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.idle.045",
 "speed": 5.0
 }, {
@@ -16949,7 +16949,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_idle_090_0_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.idle.090",
 "speed": 5.0
 }, {
@@ -16957,7 +16957,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_idle_135_0_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.idle.135",
 "speed": 5.0
 }, {
@@ -16965,7 +16965,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_idle_180_0_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.idle.180",
 "speed": 5.0
 }, {
@@ -16973,7 +16973,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_idle_225_0_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.idle.225",
 "speed": 5.0
 }, {
@@ -16981,7 +16981,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_idle_270_0_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.idle.270",
 "speed": 5.0
 }, {
@@ -16989,7 +16989,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_idle_315_0_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.idle.315",
 "speed": 5.0
 }, {
@@ -17099,7 +17099,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_move_000_816_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.move.000",
 "speed": 5.0
 }, {
@@ -17209,7 +17209,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_move_045_816_40")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.move.045",
 "speed": 5.0
 }, {
@@ -17319,7 +17319,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_move_090_816_80")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.move.090",
 "speed": 5.0
 }, {
@@ -17429,7 +17429,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_move_135_816_120")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.move.135",
 "speed": 5.0
 }, {
@@ -17539,7 +17539,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_move_180_816_160")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.move.180",
 "speed": 5.0
 }, {
@@ -17649,7 +17649,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_move_225_816_200")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.move.225",
 "speed": 5.0
 }, {
@@ -17759,7 +17759,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_move_270_816_240")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.move.270",
 "speed": 5.0
 }, {
@@ -17869,7 +17869,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("settlermale0_settlers_move_315_816_280")
 }],
-"loop": true,
+"loop": 1,
 "name": &"settlermale0.settlers.move.315",
 "speed": 5.0
 }]

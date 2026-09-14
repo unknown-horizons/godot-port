@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbfirestatits"]
+[gd_scene format=3 uid="uid://cbfirestatits"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -10,7 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://cudisasterrts" path="res://Assets/World/Units2/disaster_recovery_collector/disaster_recovery_collector.tscn" id="7_disaster_recovery_collector"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="9_building_collector_component"]
 
-[node name="fire_station" type="Node2D"]
+[node name="fire_station" type="Node2D" unique_id=1301181864]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.FIRE_STATION"
 baseclass = "production.ProductionBuilding"
@@ -23,32 +23,30 @@ cost_inactive = 5
 size = Vector2i(2, 2)
 inhabitants = 4
 tooltip_text = "_ Extinguishes fires."
-show_status_icons = false
 tier = "TIER.PIONEERS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=2040469126 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["GenericOverviewTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=1667892304 instance=ExtResource("5_health_component")]
 max_health = 1000
 
-[node name="ProductionLineComponent_FIRE" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_FIRE" parent="." unique_id=1993004149 instance=ExtResource("6_production_line_component")]
 line_name = "FIRE"
 consumes = Dictionary[StringName, int]({
 &"FIRE": 1
 })
-produces = Dictionary[StringName, int]({
-})
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=1151862300 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"FIRE": 10
 })
 
-[node name="disaster_recovery_collector_0" parent="." instance=ExtResource("7_disaster_recovery_collector")]
+[node name="disaster_recovery_collector_0" parent="." unique_id=714350100 instance=ExtResource("7_disaster_recovery_collector")]
 
-[node name="BuildingCollector" parent="." instance=ExtResource("9_building_collector_component")]
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingCollector" parent="." unique_id=740723150 instance=ExtResource("9_building_collector_component")]
+
+[node name="BuildingActionSet" parent="." unique_id=1748127309 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

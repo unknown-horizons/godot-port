@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=82 format=3 uid="uid://cbfishdepostr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbfishdepostr"]
 
 [ext_resource type="Texture2D" uid="uid://bnf7cunnk0alp" path="res://Assets/World/Buildings2/fish_deposit/fish_deposit_nature_as_fish0_idle.png" id="fish_deposit_nature_as_fish0_idle"]
 
@@ -385,7 +385,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fish0_nature_idle_045_2432_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fish0.nature.idle.045",
 "speed": 5.0
 }, {
@@ -450,7 +450,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fish0_nature_idle_135_2432_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fish0.nature.idle.135",
 "speed": 5.0
 }, {
@@ -515,7 +515,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fish0_nature_idle_225_2432_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fish0.nature.idle.225",
 "speed": 5.0
 }, {
@@ -580,7 +580,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fish0_nature_idle_315_2432_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fish0.nature.idle.315",
 "speed": 5.0
 }]

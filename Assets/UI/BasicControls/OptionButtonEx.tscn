@@ -1,16 +1,16 @@
-[gd_scene load_steps=5 format=3 uid="uid://b4gq47ckhaow6"]
+[gd_scene format=3 uid="uid://b4gq47ckhaow6"]
 
 [ext_resource type="Script" uid="uid://dc6l56wy8cr4b" path="res://Assets/UI/BasicControls/OptionButtonEx.gd" id="2"]
 [ext_resource type="FontFile" uid="uid://sdfro4oswrtf" path="res://External/Fonts/LinLibertineI.ttf" id="3_4bos5"]
 [ext_resource type="Script" uid="uid://lfnmm1thuh3r" path="res://Assets/UI/BasicControls/OptionButton.gd" id="4"]
 [ext_resource type="PackedScene" uid="uid://b25sornhxlynd" path="res://Assets/UI/BasicControls/LabelEx.tscn" id="5"]
 
-[node name="OptionButtonEx" type="HBoxContainer"]
+[node name="OptionButtonEx" type="HBoxContainer" unique_id=353944363]
 offset_right = 293.0
 offset_bottom = 30.0
 script = ExtResource("2")
 
-[node name="LabelEx" parent="." instance=ExtResource("5")]
+[node name="LabelEx" parent="." unique_id=1188524416 instance=ExtResource("5")]
 custom_minimum_size = Vector2(120, 0)
 layout_mode = 2
 size_flags_horizontal = 0
@@ -21,7 +21,7 @@ vertical_alignment = 1
 clip_text = true
 font_style = 9
 
-[node name="OptionButton" type="OptionButton" parent="."]
+[node name="OptionButton" type="OptionButton" parent="." unique_id=71659017]
 custom_minimum_size = Vector2(165, 30)
 layout_mode = 2
 size_flags_horizontal = 3

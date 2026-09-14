@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbpasturetscn"]
+[gd_scene format=3 uid="uid://cbpasturetscn"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://kv52rh351xud" path="res://Assets/World/Components/AmbientSoundComponent/AmbientSoundComponent.tscn" id="3_ambient_sound_component"]
@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://ck36mqeae5ana" path="res://Assets/World/Components/Storages/SlotStorageComponent/SlotStorageComponent.tscn" id="5_slot_storage_component"]
 [ext_resource type="PackedScene" uid="uid://bo27kwd5m1jmc" path="res://Assets/World/Components/ProductionLine/ProductionLineComponent.tscn" id="6_production_line_component"]
 
-[node name="pasture" type="Node2D"]
+[node name="pasture" type="Node2D" unique_id=1833902635]
 z_index = -1
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.PASTURE"
@@ -20,16 +20,16 @@ size = Vector2i(3, 3)
 tooltip_text = "_ Raises sheep. Produces wool. Needs a farm."
 tier = "TIER.PIONEERS"
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=315324012 instance=ExtResource("5_health_component")]
 max_health = 10
 
-[node name="ProductionLineComponent_WOOL" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_WOOL" parent="." unique_id=1507090386 instance=ExtResource("6_production_line_component")]
 line_name = "WOOL"
 produces = Dictionary[StringName, int]({
 &"LAMB_WOOL": 1
 })
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=592995003 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"GRASS": 10,
 &"LAMB_WOOL": 1
@@ -39,9 +39,9 @@ storage = Dictionary[StringName, int]({
 &"LAMB_WOOL": 0
 })
 
-[node name="AmbientSoundComponent" parent="." instance=ExtResource("3_ambient_sound_component")]
+[node name="AmbientSoundComponent" parent="." unique_id=842260218 instance=ExtResource("3_ambient_sound_component")]
 sound_files = Array[String](["content/audio/sounds/sheepfield.ogg"])
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=811975321 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")
 current_as_name = ""

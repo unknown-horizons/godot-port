@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://c7w3xnajww1kq"]
+[gd_scene format=3 uid="uid://c7w3xnajww1kq"]
 
 [ext_resource type="Script" uid="uid://cp6wlqb3spsej" path="res://Assets/World/Components/BuildingActionSet/BuildingActionSet.gd" id="1_tj2mk"]
 
-[node name="BuildingActionSet" type="Node2D"]
+[node name="BuildingActionSet" type="Node2D" unique_id=2144087966]
 script = ExtResource("1_tj2mk")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=424271746]

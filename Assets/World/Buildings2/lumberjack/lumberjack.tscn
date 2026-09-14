@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://cblumberjacts"]
+[gd_scene format=3 uid="uid://cblumberjacts"]
 
 [ext_resource type="Script" uid="uid://4liotsbcpcls" path="res://Assets/World/Buildings/Building2D.gd" id="1_script_gd"]
 [ext_resource type="PackedScene" uid="uid://x1upwhg1f71a" path="res://Assets/World/Components/Selectable/Selectable.tscn" id="2_selectable_component"]
@@ -10,31 +10,30 @@
 [ext_resource type="PackedScene" uid="uid://culumberjacts" path="res://Assets/World/Units2/lumberjack_collector/lumberjack_collector.tscn" id="7_lumberjack_collector"]
 [ext_resource type="PackedScene" uid="uid://cubuildingcts" path="res://Assets/World/Units2/building_collector/building_collector.tscn" id="9_building_collector_component"]
 
-[node name="lumberjack" type="Node2D"]
+[node name="lumberjack" type="Node2D" unique_id=2134431940]
 script = ExtResource("1_script_gd")
 id = &"BUILDINGS.LUMBERJACK"
 baseclass = "production.ProductionBuilding"
 game_name_per_tier = Dictionary[StringName, String]({
-&"SAILORS": "_ Lumberjack Tent",
-&"PIONEERS": "_ Lumberjack Hut"
+&"PIONEERS": "_ Lumberjack Hut",
+&"SAILORS": "_ Lumberjack Tent"
 })
 radius = 3
 cost = 5
-cost_inactive = 0
 size = Vector2i(2, 2)
 inhabitants = 1
 tooltip_text = "_ Chops down trees and turns them into boards."
 tier = "TIER.SAILORS"
 
-[node name="Selectable" parent="." instance=ExtResource("2_selectable_component")]
+[node name="Selectable" parent="." unique_id=1590648715 instance=ExtResource("2_selectable_component")]
 type = "building"
 tabs = Array[String](["LumberjackOverviewTab"])
 enemy_tabs = Array[String](["EnemyBuildingOverviewTab"])
 
-[node name="HealthComponent" parent="." instance=ExtResource("5_health_component")]
+[node name="HealthComponent" parent="." unique_id=269111101 instance=ExtResource("5_health_component")]
 max_health = 1000
 
-[node name="ProductionLineComponent_BOARDS" parent="." instance=ExtResource("6_production_line_component")]
+[node name="ProductionLineComponent_BOARDS" parent="." unique_id=743176954 instance=ExtResource("6_production_line_component")]
 line_name = "BOARDS"
 consumes = Dictionary[StringName, int]({
 &"TREES": 2
@@ -43,17 +42,17 @@ produces = Dictionary[StringName, int]({
 &"BOARDS": 1
 })
 
-[node name="SlotStorageComponent" parent="." instance=ExtResource("5_slot_storage_component")]
+[node name="SlotStorageComponent" parent="." unique_id=1300742665 instance=ExtResource("5_slot_storage_component")]
 max_capacity = Dictionary[StringName, int]({
 &"BOARDS": 10,
 &"TREES": 10
 })
 
-[node name="lumberjack_collector_0" parent="." instance=ExtResource("7_lumberjack_collector")]
+[node name="lumberjack_collector_0" parent="." unique_id=256049518 instance=ExtResource("7_lumberjack_collector")]
 radius = 3
 
-[node name="BuildingCollector" parent="." instance=ExtResource("9_building_collector_component")]
+[node name="BuildingCollector" parent="." unique_id=1249233035 instance=ExtResource("9_building_collector_component")]
 radius = 8
 
-[node name="BuildingActionSet" parent="." instance=ExtResource("3_building_action_set_component")]
+[node name="BuildingActionSet" parent="." unique_id=1241161669 instance=ExtResource("3_building_action_set_component")]
 sprite_frames = ExtResource("4_sprite_frames")

@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=76 format=3 uid="uid://cbambienttres"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbambienttres"]
 
 [ext_resource type="Texture2D" uid="uid://c0q8cyfbf24xp" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom0_idle.png" id="ambient_nature_as_mushroom0_idle"]
 [ext_resource type="Texture2D" uid="uid://ckfo4eeb676po" path="res://Assets/World/Buildings2/ambient/ambient_nature_as_mushroom1_idle.png" id="ambient_nature_as_mushroom1_idle"]
@@ -262,7 +262,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom0_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom0.nature.idle.045",
 "speed": 5.0
 }, {
@@ -270,7 +270,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom0_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom0.nature.idle.135",
 "speed": 5.0
 }, {
@@ -278,7 +278,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom0_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom0.nature.idle.225",
 "speed": 5.0
 }, {
@@ -286,7 +286,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom0_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom0.nature.idle.315",
 "speed": 5.0
 }, {
@@ -294,7 +294,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom1_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom1.nature.idle.045",
 "speed": 5.0
 }, {
@@ -302,7 +302,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom1_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom1.nature.idle.135",
 "speed": 5.0
 }, {
@@ -310,7 +310,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom1_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom1.nature.idle.225",
 "speed": 5.0
 }, {
@@ -318,7 +318,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom1_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom1.nature.idle.315",
 "speed": 5.0
 }, {
@@ -326,7 +326,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom2_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom2.nature.idle.045",
 "speed": 5.0
 }, {
@@ -334,7 +334,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom2_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom2.nature.idle.135",
 "speed": 5.0
 }, {
@@ -342,7 +342,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom2_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom2.nature.idle.225",
 "speed": 5.0
 }, {
@@ -350,7 +350,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom2_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom2.nature.idle.315",
 "speed": 5.0
 }, {
@@ -358,7 +358,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom3_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom3.nature.idle.045",
 "speed": 5.0
 }, {
@@ -366,7 +366,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom3_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom3.nature.idle.135",
 "speed": 5.0
 }, {
@@ -374,7 +374,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom3_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom3.nature.idle.225",
 "speed": 5.0
 }, {
@@ -382,7 +382,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom3_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom3.nature.idle.315",
 "speed": 5.0
 }, {
@@ -390,7 +390,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom4_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom4.nature.idle.045",
 "speed": 5.0
 }, {
@@ -398,7 +398,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom4_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom4.nature.idle.135",
 "speed": 5.0
 }, {
@@ -406,7 +406,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom4_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom4.nature.idle.225",
 "speed": 5.0
 }, {
@@ -414,7 +414,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom4_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom4.nature.idle.315",
 "speed": 5.0
 }, {
@@ -422,7 +422,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom5_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom5.nature.idle.045",
 "speed": 5.0
 }, {
@@ -430,7 +430,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom5_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom5.nature.idle.135",
 "speed": 5.0
 }, {
@@ -438,7 +438,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom5_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom5.nature.idle.225",
 "speed": 5.0
 }, {
@@ -446,7 +446,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("mushroom5_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"mushroom5.nature.idle.315",
 "speed": 5.0
 }, {
@@ -454,7 +454,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock0_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock0.nature.idle.045",
 "speed": 5.0
 }, {
@@ -462,7 +462,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock0_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock0.nature.idle.135",
 "speed": 5.0
 }, {
@@ -470,7 +470,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock0_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock0.nature.idle.225",
 "speed": 5.0
 }, {
@@ -478,7 +478,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock0_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock0.nature.idle.315",
 "speed": 5.0
 }, {
@@ -486,7 +486,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock1_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock1.nature.idle.045",
 "speed": 5.0
 }, {
@@ -494,7 +494,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock1_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock1.nature.idle.135",
 "speed": 5.0
 }, {
@@ -502,7 +502,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock1_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock1.nature.idle.225",
 "speed": 5.0
 }, {
@@ -510,7 +510,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock1_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock1.nature.idle.315",
 "speed": 5.0
 }, {
@@ -518,7 +518,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock2_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock2.nature.idle.045",
 "speed": 5.0
 }, {
@@ -526,7 +526,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock2_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock2.nature.idle.135",
 "speed": 5.0
 }, {
@@ -534,7 +534,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock2_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock2.nature.idle.225",
 "speed": 5.0
 }, {
@@ -542,7 +542,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock2_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock2.nature.idle.315",
 "speed": 5.0
 }, {
@@ -550,7 +550,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock3_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock3.nature.idle.045",
 "speed": 5.0
 }, {
@@ -558,7 +558,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock3_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock3.nature.idle.135",
 "speed": 5.0
 }, {
@@ -566,7 +566,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock3_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock3.nature.idle.225",
 "speed": 5.0
 }, {
@@ -574,7 +574,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock3_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock3.nature.idle.315",
 "speed": 5.0
 }, {
@@ -582,7 +582,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock4_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock4.nature.idle.045",
 "speed": 5.0
 }, {
@@ -590,7 +590,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock4_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock4.nature.idle.135",
 "speed": 5.0
 }, {
@@ -598,7 +598,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock4_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock4.nature.idle.225",
 "speed": 5.0
 }, {
@@ -606,7 +606,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("rock4_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"rock4.nature.idle.315",
 "speed": 5.0
 }, {
@@ -614,7 +614,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps0_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps0.nature.idle.045",
 "speed": 5.0
 }, {
@@ -622,7 +622,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps0_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps0.nature.idle.135",
 "speed": 5.0
 }, {
@@ -630,7 +630,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps0_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps0.nature.idle.225",
 "speed": 5.0
 }, {
@@ -638,7 +638,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps0_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps0.nature.idle.315",
 "speed": 5.0
 }, {
@@ -646,7 +646,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps1_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps1.nature.idle.045",
 "speed": 5.0
 }, {
@@ -654,7 +654,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps1_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps1.nature.idle.135",
 "speed": 5.0
 }, {
@@ -662,7 +662,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps1_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps1.nature.idle.225",
 "speed": 5.0
 }, {
@@ -670,7 +670,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps1_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps1.nature.idle.315",
 "speed": 5.0
 }, {
@@ -678,7 +678,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps2_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps2.nature.idle.045",
 "speed": 5.0
 }, {
@@ -686,7 +686,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps2_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps2.nature.idle.135",
 "speed": 5.0
 }, {
@@ -694,7 +694,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps2_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps2.nature.idle.225",
 "speed": 5.0
 }, {
@@ -702,7 +702,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps2_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps2.nature.idle.315",
 "speed": 5.0
 }, {
@@ -710,7 +710,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps3_nature_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps3.nature.idle.045",
 "speed": 5.0
 }, {
@@ -718,7 +718,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps3_nature_idle_135_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps3.nature.idle.135",
 "speed": 5.0
 }, {
@@ -726,7 +726,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps3_nature_idle_225_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps3.nature.idle.225",
 "speed": 5.0
 }, {
@@ -734,7 +734,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("treestumps3_nature_idle_315_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"treestumps3.nature.idle.315",
 "speed": 5.0
 }]

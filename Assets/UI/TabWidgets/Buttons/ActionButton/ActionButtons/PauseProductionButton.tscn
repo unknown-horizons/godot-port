@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://eqtwiupdfrk"]
+[gd_scene format=3 uid="uid://eqtwiupdfrk"]
 
 [ext_resource type="PackedScene" uid="uid://bf7nlvfy521iv" path="res://Assets/UI/Animations/Cogs/LargeCogs.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://rg41uflrab5c" path="res://Assets/UI/BasicControls/ToggleButton.tscn" id="2"]
@@ -42,7 +42,7 @@ _data = {
 &"cycle": SubResource("1")
 }
 
-[node name="PauseProductionButton" instance=ExtResource("2")]
+[node name="PauseProductionButton" unique_id=978987668 instance=ExtResource("2")]
 size_flags_horizontal = 6
 toggle_mode = true
 texture_pressed = ExtResource("6")
@@ -54,7 +54,7 @@ texture_normal_alternate = ExtResource("10")
 texture_pressed_alternate = ExtResource("8")
 texture_hover_alternate = ExtResource("9")
 
-[node name="AnimatedTexture" parent="." index="0" instance=ExtResource("1")]
+[node name="AnimatedTexture" parent="." index="0" unique_id=14438673 instance=ExtResource("1")]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -70,9 +70,7 @@ grow_vertical = 2
 mouse_filter = 2
 texture = ExtResource("4")
 
-[node name="AnimationPlayer" parent="AnimatedTexture" index="0"]
-libraries = {
-"": SubResource("AnimationLibrary_cxj10")
-}
+[node name="AnimationPlayer" parent="AnimatedTexture" index="0" unique_id=551504390]
+libraries/ = SubResource("AnimationLibrary_cxj10")
 
 [editable path="AnimatedTexture"]

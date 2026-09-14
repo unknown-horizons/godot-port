@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://cbstoragetres"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cbstoragetres"]
 
 [ext_resource type="Texture2D" uid="uid://chacnjwrra1gh" path="res://Assets/World/Buildings2/storage/storage_pioneers_as_storagetent1_idle.png" id="storage_pioneers_as_storagetent1_idle"]
 [ext_resource type="Texture2D" uid="uid://cnoa5mtlknaim" path="res://Assets/World/Buildings2/storage/storage_sailors_as_storagetent0_idle.png" id="storage_sailors_as_storagetent0_idle"]
@@ -41,7 +41,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("storagetent0_sailors_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"storagetent0.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -49,7 +49,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("storagetent0_sailors_idle_135_0_96")
 }],
-"loop": true,
+"loop": 1,
 "name": &"storagetent0.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -57,7 +57,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("storagetent0_sailors_idle_225_0_224")
 }],
-"loop": true,
+"loop": 1,
 "name": &"storagetent0.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -65,7 +65,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("storagetent0_sailors_idle_315_0_352")
 }],
-"loop": true,
+"loop": 1,
 "name": &"storagetent0.sailors.idle.315",
 "speed": 5.0
 }, {
@@ -73,7 +73,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("storagetent1_pioneers_idle_045_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"storagetent1.pioneers.idle.045",
 "speed": 5.0
 }, {
@@ -81,7 +81,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("storagetent1_pioneers_idle_135_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"storagetent1.pioneers.idle.135",
 "speed": 5.0
 }, {
@@ -89,7 +89,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("storagetent1_pioneers_idle_225_0_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"storagetent1.pioneers.idle.225",
 "speed": 5.0
 }, {
@@ -97,7 +97,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("storagetent1_pioneers_idle_315_0_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"storagetent1.pioneers.idle.315",
 "speed": 5.0
 }]

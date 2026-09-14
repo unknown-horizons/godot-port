@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://j2oxjtyxo70r"]
+[gd_scene format=3 uid="uid://j2oxjtyxo70r"]
 
 [ext_resource type="Script" uid="uid://b756bltjlqq3k" path="res://Assets/UI/TabWidgets/SettlerOverviewTab.gd" id="1_sgont"]
 [ext_resource type="PackedScene" uid="uid://bamt0see7lbpb" path="res://Assets/UI/BasicControls/CaptionBlock.tscn" id="2_4mdya"]
@@ -12,61 +12,61 @@
 [ext_resource type="PackedScene" uid="uid://qndk0ulsg1jc" path="res://Assets/UI/BasicControls/ResourceItem.tscn" id="10_igtsh"]
 [ext_resource type="Texture2D" uid="uid://bfps6rk8vnmq0" path="res://Assets/UI/Icons/Resources/32/009.png" id="11_exo0b"]
 
-[node name="SettlerOverviewTab" type="VBoxContainer"]
+[node name="SettlerOverviewTab" type="VBoxContainer" unique_id=816546498]
 script = ExtResource("1_sgont")
 metadata/_tab_index = 3
 
-[node name="CaptionBlock" parent="." instance=ExtResource("2_4mdya")]
+[node name="CaptionBlock" parent="." unique_id=2133953374 instance=ExtResource("2_4mdya")]
 layout_mode = 2
 caption_text = "SettlerOverviewTab"
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=2086527842]
 layout_mode = 2
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_right = 10
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1285962092]
 layout_mode = 2
 
-[node name="Control" type="Control" parent="MarginContainer/VBoxContainer"]
+[node name="Control" type="Control" parent="MarginContainer/VBoxContainer" unique_id=456349724]
 custom_minimum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 6
 
-[node name="Sprite2D" type="Sprite2D" parent="MarginContainer/VBoxContainer/Control"]
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer/VBoxContainer/Control" unique_id=1906756222]
 texture = ExtResource("3_3tija")
 centered = false
 vframes = 4
 
-[node name="LabelEx2" parent="MarginContainer/VBoxContainer" instance=ExtResource("4_gjhul")]
+[node name="LabelEx2" parent="MarginContainer/VBoxContainer" unique_id=1654050267 instance=ExtResource("4_gjhul")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("5_2uvfm")
 theme_override_font_sizes/font_size = 16
 text = "Tent"
 font_style = 0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=1237531837]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=913695866]
 layout_mode = 2
 size_flags_vertical = 4
 texture = ExtResource("6_oiv2b")
 
-[node name="HappinessSlider" type="HSlider" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="HappinessSlider" type="HSlider" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=1859549751]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 3
 value = 50.0
 editable = false
 
-[node name="TextureRect2" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="TextureRect2" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=1380502986]
 layout_mode = 2
 size_flags_vertical = 4
 texture = ExtResource("7_otnn0")
 
-[node name="ResidentsCountLabel" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("4_gjhul")]
+[node name="ResidentsCountLabel" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=377212924 instance=ExtResource("4_gjhul")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_3s0ft")
@@ -74,30 +74,30 @@ theme_override_font_sizes/font_size = 16
 text = "1/2"
 font_style = 9
 
-[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer" unique_id=571488352]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="TaxesControl" parent="MarginContainer/VBoxContainer" instance=ExtResource("9_qvcho")]
+[node name="TaxesControl" parent="MarginContainer/VBoxContainer" unique_id=292760117 instance=ExtResource("9_qvcho")]
 unique_name_in_owner = true
 layout_mode = 2
 
-[node name="HSeparator2" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/VBoxContainer" unique_id=138348663]
 layout_mode = 2
 theme_type_variation = &"HSeparatorBrownThin"
 
-[node name="LabelEx" parent="MarginContainer/VBoxContainer" instance=ExtResource("4_gjhul")]
+[node name="LabelEx" parent="MarginContainer/VBoxContainer" unique_id=1467861346 instance=ExtResource("4_gjhul")]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("8_3s0ft")
 theme_override_font_sizes/font_size = 16
 text = "Needed resources:"
 font_style = 9
 
-[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer"]
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer" unique_id=2040432430]
 layout_mode = 2
 columns = 4
 
-[node name="ResourceItem" parent="MarginContainer/VBoxContainer/GridContainer" instance=ExtResource("10_igtsh")]
+[node name="ResourceItem" parent="MarginContainer/VBoxContainer/GridContainer" unique_id=89716915 instance=ExtResource("10_igtsh")]
 layout_mode = 2
 texture = ExtResource("11_exo0b")
 resource_type = 9

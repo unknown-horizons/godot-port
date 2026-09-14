@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=19 format=3 uid="uid://cufisherboatr"]
+[gd_resource type="SpriteFrames" format=3 uid="uid://cufisherboatr"]
 
 [ext_resource type="Texture2D" uid="uid://vxutxlwkmuk2" path="res://Assets/World/Units2/fisher_boat/fisher_boat_sailors_as_fisher0_idle.png" id="fisher_boat_sailors_as_fisher0_idle"]
 [ext_resource type="Texture2D" uid="uid://cq11jull88tkw" path="res://Assets/World/Units2/fisher_boat/fisher_boat_sailors_as_fisher0_move.png" id="fisher_boat_sailors_as_fisher0_move"]
@@ -73,7 +73,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_idle_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.idle.000",
 "speed": 5.0
 }, {
@@ -81,7 +81,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_idle_045_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.idle.045",
 "speed": 5.0
 }, {
@@ -89,7 +89,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_idle_090_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.idle.090",
 "speed": 5.0
 }, {
@@ -97,7 +97,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_idle_135_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.idle.135",
 "speed": 5.0
 }, {
@@ -105,7 +105,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_idle_180_0_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.idle.180",
 "speed": 5.0
 }, {
@@ -113,7 +113,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_idle_225_0_320")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.idle.225",
 "speed": 5.0
 }, {
@@ -121,7 +121,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_idle_270_0_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.idle.270",
 "speed": 5.0
 }, {
@@ -129,7 +129,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_idle_315_0_448")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.idle.315",
 "speed": 5.0
 }, {
@@ -137,7 +137,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_move_000_0_0")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.move.000",
 "speed": 5.0
 }, {
@@ -145,7 +145,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_move_045_0_64")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.move.045",
 "speed": 5.0
 }, {
@@ -153,7 +153,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_move_090_0_128")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.move.090",
 "speed": 5.0
 }, {
@@ -161,7 +161,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_move_135_0_192")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.move.135",
 "speed": 5.0
 }, {
@@ -169,7 +169,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_move_180_0_256")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.move.180",
 "speed": 5.0
 }, {
@@ -177,7 +177,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_move_225_0_320")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.move.225",
 "speed": 5.0
 }, {
@@ -185,7 +185,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_move_270_0_384")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.move.270",
 "speed": 5.0
 }, {
@@ -193,7 +193,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("fisher0_sailors_move_315_0_448")
 }],
-"loop": true,
+"loop": 1,
 "name": &"fisher0.sailors.move.315",
 "speed": 5.0
 }]
