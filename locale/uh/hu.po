@@ -1,0 +1,4414 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Unknown Horizons Team
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2017-07-20 06:58+0000\n"
+"Last-Translator: Szabolcs Tóth <tothszabolcs@gmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/uh/uh/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "Ismeretlen mentési dátum"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "Ismeretlen mentési dátum"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+#, fuzzy
+msgid "Descriptive Label:"
+msgstr "Popis: "
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "Épületek"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "Unknown Horizons Version %s"
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "Ismeretlen mentési dátum"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "Egyjátékos mód"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "Játék betöltése"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr "Stáblista"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr "Szerkesztő"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Quit"
+msgstr "Kilépés"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Help"
+msgstr "Súgó"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Options"
+msgstr "Műveletek"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "Új játék - Egyjátékos mód"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Scenario"
+msgstr "Küldetés"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Random map"
+msgstr "Generált térkép"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Free play"
+msgstr "Szabad játék"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "Ismeretlen mentési dátum"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Color:"
+msgstr "Szín:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "AI players:"
+msgstr "AI játékosok:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "Válassz térképet a játékhoz:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "Doporučený počet hráčů: "
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Game settings:"
+msgstr "Játék beállításai:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "Nyersanyag sűrűsége:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "Szabad kereskedő"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Pirates"
+msgstr "Kalózok"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr "Katasztrófák"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Saving"
+msgstr "Mentés"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr "Általános"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "Vyberte jazyk:"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Mouse"
+msgstr "Egér"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Graphics"
+msgstr "Grafika"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Sound"
+msgstr "Hang"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr "Irányítás"
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "Statisztika"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Players"
+msgstr "Játékosok"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My ships"
+msgstr "Hajóim"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My settlements"
+msgstr "Településeim"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Player scores"
+msgstr "Játékos pontszáma"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Name"
+msgstr "Név"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Money"
+msgstr "Pénz"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Land"
+msgstr "Föld"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Resources"
+msgstr "Nyersanyagok"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Buildings"
+msgstr "Épületek"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlers"
+msgstr "Telepesek"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Units"
+msgstr "Egységek"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Total"
+msgstr "Összesen"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "140"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "104"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "InventoryTab"
+msgstr "Raktár"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Limit: 30t per slot"
+msgstr "Korlát: %s tonna / hely"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "Vásárlás/Eladás"
+
+# Na most pl búzával így néz ki:
+# "Vásárolni fog búza 20 aranyért tonnánként, hogyha kevesebb van, mint 30t a raktárban."
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr ""
+"{resource_name} vásárlása {price} aranyért tonnánként, hogyha kevesebb van a "
+"raktárban, mint {limit} tonna."
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Trade history"
+msgstr "Kereskedelmi előzmények"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Free Trader"
+msgstr "Szabad kereskedő"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "Gyártás áttekintés"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "Ismeretlen mentési dátum"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "Kereskedés"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "LumberjackOverviewTab"
+msgstr "Favágó sátor"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr "Település"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr "Infrastuktúra"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr "Lakosság"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr "Szolgáltatások"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr "Óvintézkedés"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "Mezők"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Pioneers"
+msgstr "Felfedezők"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Citizens"
+msgstr "Lakosok"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr "Mezőgazdaság"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr "Tenger"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr "Élelem"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr "Műhelyek"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr "Cégek"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr "Fa"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Mining"
+msgstr "Bányászat"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr "Erődítmények"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr "Katonaság"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr "Esztétika"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sailors"
+msgstr "Tengerészek"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "Telepesek és infrastruktúra"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military"
+msgstr "Hadsereg"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Merchants"
+msgstr "Kereskedők"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Up"
+msgstr "Játék szüneteltetve"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Down"
+msgstr "Játék szüneteltetve"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "Kimutatás"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr "Bevétel:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr "Adók"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Sale"
+msgstr "Eladás"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Expenses:"
+msgstr "Költségek:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Running costs"
+msgstr "Fenntartási költségek"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Buying"
+msgstr "Vásárolni"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Balance"
+msgstr "Egyenleg"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Upgrade permissions:"
+msgstr "Fejlesztési előfeltételek:"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr "Elégedettség házanként"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents per house"
+msgstr "Lakosok házanként"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr "Lakók száma házanként"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr "Házak ezzel a lakószámmal"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Summary"
+msgstr "Összegzés"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "Ház"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents"
+msgstr "Lakosok"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "Telepes áttekintés"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Tent"
+msgstr "Sátor"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Needed resources:"
+msgstr "Szükséges nyersanyagok:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr "Adó:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Paid taxes"
+msgstr "Fizetett adó"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Tax rate"
+msgstr "Adóráta"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr ""
+"Méheket tart. Mézet állít elő, édességek előállításához. Farm szükséges "
+"hozzá."
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "Lisztet használ fel. Élelmiszert állít elő."
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+#, fuzzy
+msgid "_ Recruits units suitable for ground combat."
+msgstr "Egységeket toboroz szárazföldi harcok levezetéséhez."
+
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "Védelmet biztosít."
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "Fűszert állít elő fűszernövényből."
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "Csónakokat és kisebb hajókat építésére alkalmas. Partra kell építeni."
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "Komlót használ fel. Sört állít elő."
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "Agyagból téglát állít elő."
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "Disznó vagy marha szükséges a működéséhez. Élelmiszert állít elő."
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "Ágyút állít elő."
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "Marhákat nevel. Farm szükséges hozzá."
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+#, fuzzy
+msgid "_ Burns a lot of boards."
+msgstr "Rengeteg deszkát éget."
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+msgid "None"
+msgstr "Semmi"
+
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "A tárolóból agyagot vesz fel."
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr "Kakaóbabot termeszt édességek előállításához. Farm szükséges hozzá."
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "Kukoricát termeszt. Farm szükséges hozzá."
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "Cukorból alkoholt állít elő."
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+#, fuzzy
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr "Betegségeket gyógyít. Gyógynövényeket használ."
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "Szántóföldi növényeket termeszt és állatállományt tart."
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+#, fuzzy
+msgid "_ Extinguishes fires."
+msgstr "Elhárítja a tűzeseteket."
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "A tengeren horgászik, élelmiszert termel."
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "Gyógynövényeket termeszt. Farm szükséges hozzá."
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "Komlót termeszt. Farm szükséges hozzá."
+
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "Az erdőben állatokra vadászik, élelmiszert termel."
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "Megvédi a települést."
+
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "Kivágja a fákat, amelyből deszkát állít elő."
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+#, fuzzy
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr "Áruval látja el a lakosságot. A közösséget építi."
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "Vasat bányászik."
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "Mindenféle édességet állít elő."
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "Birkákat nevel. Gyapjút állít elő. Farm szükséges hozzá."
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "A tengerészek vallásos igényeit elégíti ki."
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "Disznókat nevel. Farm szükséges hozzá."
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "Élelmiszert termel. Farm szükséges hozzá."
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "Házak a lakosoknak."
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "Sőt állít elő. Tengerparta kell építeni."
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "Lehetővé teszi, hogy a játékos kereskedjen a szabad kereskedővel."
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "Minden ércet feldolgoz."
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "Fűszernövényt termeszt. Farm szükséges hozzá."
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "Kőből téglát farag."
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "A hegyből követ szállít."
+
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr "Növeli az készlet max. méretét és újabb begyűjtőket biztosít."
+
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "Szükséges alkohol előállításához. Farm szükséges hozzá."
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "Összejöveteleket biztosít."
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "Dohányterméket állít elő a dohányból."
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "Dohányt állít elő. Farm szükséges hozzá."
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "Vasból szerszámot állít elő."
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "Áruk begyűjtéséhez szükséges."
+
+#: Assets/World/Buildings2/tree/tree.tscn
+#, fuzzy
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr "Faanyagot biztosít. Favágó dönti ki."
+
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "Oktatást biztosít."
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr ""
+"Szőlőt termeszt, amelyből bort és édességet készítenek. Farm szükséges hozzá."
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "Vasból szerszámot állít elő."
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "Gyapjúból ruhát készít."
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "Búzából lisztet állít elő."
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "Szőlőből bort állít elő."
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "Megvédi a települést."
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "Unknown Horizons Version %s"
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "Köszönjük, hogy az Unknown Horizons-szal játszol!"
+
+#~ msgid "Unknown Horizons has crashed."
+#~ msgstr "Az Unknown Horizons összeomlott."
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr "Nagyon sajnáljuk, és szeretnénk kijavítani az említett hibát."
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr ""
+#~ "Ahhoz, hogy ezt megtehessük, szükségünk van a naplófájlban lévő "
+#~ "információkra:"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Kérjük, küldd el IRC-n vagy a fórumunkon, amelyet a http://unknown-"
+#~ "horizons.org oldalon találsz meg."
+
+#~ msgid "Return to editor"
+#~ msgstr "Vissza a szerkesztőbe"
+
+#~ msgid "Save map"
+#~ msgstr "Térkép mentése"
+
+#~ msgid "Load map"
+#~ msgstr "Térkép betöltése"
+
+#~ msgid "Settings"
+#~ msgstr "Beállítások"
+
+#~ msgid "Exit editor"
+#~ msgstr "Kilépés a szerkesztőből"
+
+#~ msgid "Select brush size:"
+#~ msgstr "Ecsetméret kiválasztása:"
+
+#~ msgid "Select terrain:"
+#~ msgstr "Tereptípus kiválasztása:"
+
+#~ msgid "(right click to stop)"
+#~ msgstr "(jobb egérgomb a befejezéshez)"
+
+#~ msgid "Game start"
+#~ msgstr "Játék indítása"
+
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr "Egy települést kell alapítanod, mielőtt építkezni tudnál!"
+
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr "Válaszd ki a hajót, és navigálj a partra a jobb egérgombbal."
+
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr "Ezután kattints a nagy gombra a hajó-áttekintés fülön."
+
+#~ msgid "Build"
+#~ msgstr "Építés"
+
+#~ msgid "Running costs:"
+#~ msgstr "Fenntartási költségek:"
+
+#~ msgid "Related buildings"
+#~ msgstr "Kapcsolódó épületek"
+
+#~ msgid "Inhabitants"
+#~ msgstr "Lakosok"
+
+#, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr ""
+#~ "Játéksebesség\n"
+#~ "növelése ({key})"
+
+#, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr ""
+#~ "Játéksebesség\n"
+#~ "csökkentése ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map counterclockwise ({key})"
+#~ msgstr ""
+#~ "Térkép óramutató járásával\n"
+#~ "ellentétes forgatása ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map clockwise ({key})"
+#~ msgstr ""
+#~ "Térkép óramutató járásával\n"
+#~ "megegyező forgatása ({key})"
+
+#~ msgid "Zoom in"
+#~ msgstr "Közelítés"
+
+#~ msgid "Zoom out"
+#~ msgstr "Távolítás"
+
+#, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "Megsemmisítés ({key})"
+
+#, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "Hajónapló ({key})"
+
+#, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "Építési menü ({key})"
+
+#~ msgid "Diplomacy"
+#~ msgstr "Diplomácia"
+
+#, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "Játékmenü ({key})"
+
+#~ msgid "Change name"
+#~ msgstr "Név megváltoztatása"
+
+#~ msgid "Old name:"
+#~ msgstr "Régi név:"
+
+#~ msgid "Enter new name:"
+#~ msgstr "Írd be az új nevet:"
+
+#~ msgid "Apply the new name"
+#~ msgstr "Új név elfogadása"
+
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#~ msgid "Enter your message:"
+#~ msgstr "Üzenet beírása:"
+
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr ""
+#~ "Földi egység építéséhez kattints az egyik kategóriafülre, válaszd ki a "
+#~ "kívánt típust és hagyd jóvá az építést."
+
+#~ msgid "Currently building:"
+#~ msgstr "Jelenleg építés alatt:"
+
+#~ msgid "Pause"
+#~ msgstr "Szünet"
+
+#~ msgid "Resume"
+#~ msgstr "Folytatás"
+
+#~ msgid "Construction progress:"
+#~ msgstr "Építkezés állása:"
+
+#~ msgid "Resources still needed:"
+#~ msgstr "További alapanyagok szükségesek:"
+
+#~ msgid "Cancel building:"
+#~ msgstr "Építés megszakítása:"
+
+#~ msgid "(lose all resources)"
+#~ msgstr "(minden alapanyag elveszik)"
+
+#~ msgid "Cancel all building progress"
+#~ msgstr "Minden építés megszakítása"
+
+#~ msgid "Confirm order"
+#~ msgstr "Rendelés jóváhagyása"
+
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "(hasonlóan a kiválasztás fülhöz)"
+
+#~ msgid "$res"
+#~ msgstr "$res"
+
+#~ msgid "24t"
+#~ msgstr "24t"
+
+#~ msgid "06t"
+#~ msgstr "06t"
+
+#~ msgid "2500"
+#~ msgstr "2500"
+
+#~ msgid "Sloop-o'-war"
+#~ msgstr "Sloop-o'-war"
+
+#~ msgid "Three-masted most common classified war ship with one gun deck."
+#~ msgstr "Három árbócos hadihajó egy ágyúfedélzettel."
+
+#~ msgid "Buy Upgrades"
+#~ msgstr "Fejlesztések vásárlása"
+
+#~ msgid "Cannons"
+#~ msgstr "Ágyúk"
+
+#~ msgid "Hull"
+#~ msgstr "Hajótest"
+
+#~ msgid "+ 24t"
+#~ msgstr "+ 24t"
+
+#~ msgid "+ 14t"
+#~ msgstr "+ 14t"
+
+#~ msgid "+ 06t"
+#~ msgstr "+ 06t"
+
+#~ msgid "+ 1457"
+#~ msgstr "+ 1457"
+
+#~ msgid "Build groundunit:"
+#~ msgstr "Szárazföldi egység építése:"
+
+#~ msgid "Build this groundunit!"
+#~ msgstr "Építsd meg ezt a szárazföldi egységet!"
+
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "Hogy hajót építs, kattints az egyik kategóriafülre, válaszd ki a kívánt "
+#~ "típust és hagyd jóvá az építést."
+
+#~ msgid "Build ship:"
+#~ msgstr "Hajó építése:"
+
+#~ msgid "Build this ship!"
+#~ msgstr "Építsd meg ezt a hajót!"
+
+#~ msgid "ally"
+#~ msgstr "szövetséges"
+
+#~ msgid "neutral"
+#~ msgstr "semleges"
+
+#~ msgid "enemy"
+#~ msgstr "ellenség"
+
+#~ msgid "Building overview"
+#~ msgstr "Épület-áttekintés"
+
+#~ msgid "Capacity utilization"
+#~ msgstr "Kapacitás hasznosítása"
+
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "Kattints a hajó nevének megváltoztatásához"
+
+#~ msgid "Settlement inventory"
+#~ msgstr "Településleltár"
+
+#~ msgid "sad"
+#~ msgstr "szomorú"
+
+#~ msgid "satisfied"
+#~ msgstr "elégedett"
+
+#~ msgid "happy"
+#~ msgstr "boldog"
+
+#~ msgid "Amount of houses with this happiness"
+#~ msgstr "Házak ezzel a elégedettséggel"
+
+#~ msgid "houses"
+#~ msgstr "házak"
+
+#~ msgid "residents"
+#~ msgstr "lakosok"
+
+#~ msgid "Provides security for your settlement."
+#~ msgstr "A településed védelmét szolgálja."
+
+#~ msgid "Selling"
+#~ msgstr "Eladni"
+
+#~ msgid "Name:"
+#~ msgstr "Név:"
+
+#~ msgid "Weapons:"
+#~ msgstr "Fegyverek:"
+
+#~ msgid "Resource deposit"
+#~ msgstr "Nyersanyaglelőhely"
+
+#~ msgid ""
+#~ "This is a resource deposit where you can build a mine to dig up resources."
+#~ msgstr ""
+#~ "Ez egy nyersanyaglelőhely, amire bányát tudsz építeni nyersanyag-"
+#~ "kitermelés céljából."
+
+#~ msgid "It contains these resources:"
+#~ msgstr "A következő nyersanyagok találhatók itt:"
+
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "Kattints ide a település nevének megváltoztatásához"
+
+#~ msgid "Happiness"
+#~ msgstr "Elégedettség"
+
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr ""
+#~ "A jelzőtűz megmutatja a szabad kereskedőnek, hogyan jusson el a "
+#~ "településedre abban az esetben, ha vásárolni vagy eladni szeretnél."
+
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr ""
+#~ "Ez a szabad kereskedő hajója. Időről időre meglátogat, hogy vásároljon és "
+#~ "eladjon a kikötődben."
+
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "Kattints a hajó nevének megváltoztatásához"
+
+#~ msgid "Build settlement"
+#~ msgstr "Település alapítása"
+
+#~ msgid "Configure trading route"
+#~ msgstr "Kereskedőutak szerkesztése"
+
+#~ msgid "Discard all resources"
+#~ msgstr "(minden alapanyag elveszik)"
+
+#~ msgid "Ship:"
+#~ msgstr "Hajó:"
+
+#~ msgid "Exchange:"
+#~ msgstr "Csere:"
+
+#~ msgid "Trade partner:"
+#~ msgstr "Kereskedőpartner:"
+
+#~ msgid "Buy or sell resources"
+#~ msgstr "Nyersanyagok vétele vagy eladása"
+
+#~ msgid "Select resources:"
+#~ msgstr "Nyersanyagok kiválasztása:"
+
+#~ msgid "Collector utilization"
+#~ msgstr "Árubegyűjtő kihasználtság"
+
+#~ msgid "Balance:"
+#~ msgstr "Egyenleg:"
+
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "A településen előállított nyersanyagok mutatása"
+
+#~ msgid "Pause production"
+#~ msgstr "Termelés szüneteltetése"
+
+#~ msgid "Start production"
+#~ msgstr "Termelés indítása"
+
+#~ msgid "Select resource:"
+#~ msgstr "Nyersanyag kiválasztása:"
+
+#~ msgid ""
+#~ "The resource you select is displayed instead of the current one. Empty by "
+#~ "clicking on X."
+#~ msgstr ""
+#~ "A kiválasztott alapanyag mutatása a jelenlegi helyett. Bezárás az 'X' "
+#~ "gombbal."
+
+#~ msgid "Save current resource configuration as default for all settlements."
+#~ msgstr ""
+#~ "Mentsd az aktuális nyersanyag beállítást alapértelmezettként az összes "
+#~ "településre."
+
+#~ msgid "Reset default resource configuration for all settlements."
+#~ msgstr "Alapértelmezett beállítás visszaállítása az összes településre."
+
+#~ msgid "Move up"
+#~ msgstr "Mozgatás felfelé"
+
+#~ msgid "Delete entry"
+#~ msgstr "Bejegyzés törlése"
+
+#~ msgid "Move down"
+#~ msgstr "Mozgás lefelé"
+
+#~ msgid "Read previous entries"
+#~ msgstr "Korábbi bejegyzések megtekintése"
+
+#~ msgid "Read next entries"
+#~ msgstr "Következő bejegyzések megtekintése"
+
+#~ msgid "Game messages"
+#~ msgstr "Játéküzenetek"
+
+#~ msgid "Whole world"
+#~ msgstr "Teljes világ"
+
+#~ msgid "Everybody"
+#~ msgstr "Mindenki"
+
+#~ msgid "Sends the chat messages to all players."
+#~ msgstr "Chat üzenetek küldése minden játékosnak."
+
+#~ msgid "Enter your message here"
+#~ msgstr "Írd ide az üzeneted"
+
+#~ msgid "Return to game"
+#~ msgstr "Vissza a játékba"
+
+#~ msgid "Island Name:"
+#~ msgstr "Sziget neve:"
+
+#~ msgid "Player Name:"
+#~ msgstr "Játékos neve:"
+
+#~ msgid "Wait at load:"
+#~ msgstr "Várakozás a berakodásnál:"
+
+#~ msgid "Wait at unload:"
+#~ msgstr "Várakozás a kirakodásnál:"
+
+#~ msgid "Select a resource:"
+#~ msgstr "Nyersanyag kiválasztása:"
+
+#~ msgid "Route activity:"
+#~ msgstr "Útvonal aktivitás:"
+
+#~ msgid "Start route"
+#~ msgstr "Útvonal indítása"
+
+#~ msgid "Exit"
+#~ msgstr "Kilépés"
+
+#~ msgid "Go to previous page"
+#~ msgstr "Vissza az előző oldalra"
+
+#~ msgid "Go to next page"
+#~ msgstr "A következő oldalra"
+
+#~ msgid "Close"
+#~ msgstr "Bezár"
+
+#~ msgid "Player Name"
+#~ msgstr "Játékos neve"
+
+#~ msgid "Player's current treasury + income expected in near future"
+#~ msgstr "Játékos jelenlegi kincstára + közeljövőben várható jövedelme"
+
+#~ msgid ""
+#~ "Value of usable land i.e Amount of Land that can be used to create "
+#~ "buildings"
+#~ msgstr ""
+#~ "Felhasználható terület értéke, például a terület hány százaléka beépíthető"
+
+#~ msgid ""
+#~ "Value of resources generated from all the possible sources in the "
+#~ "player's settlement(s)"
+#~ msgstr "A játékos települése(i) által előállított összes nyersanyag értéke"
+
+#~ msgid "Value of all the buildings in the player's settlement(s)"
+#~ msgstr "Az összes épület, játékos, település(ek) ár aránya"
+
+#~ msgid ""
+#~ "Value denoting the progress of the settlement(s) in terms of inhabitants, "
+#~ "buildings and overall happiness"
+#~ msgstr ""
+#~ "A települések fejlődésének értéke a lakosok, az épületek és a boldogság "
+#~ "tekintetében"
+
+#~ msgid "Value of all the units owned by the player"
+#~ msgstr "A játékos által birtokolt egységek értéke"
+
+#~ msgid ""
+#~ "The total value from all individual entities or in short : Total Player "
+#~ "Score"
+#~ msgstr ""
+#~ "Minden egyes elem összesített értéke, röviden: játékos összes pontja"
+
+#~ msgid "Type"
+#~ msgstr "Típus"
+
+#~ msgid "Weapons"
+#~ msgstr "Fegyverek"
+
+#~ msgid "Health"
+#~ msgstr "Egészség"
+
+# "Beosztás"?
+#~ msgid "Status"
+#~ msgstr "Állapot"
+
+#~ msgid "Aggressive"
+#~ msgstr "Agresszív"
+
+#~ msgid "Hold ground"
+#~ msgstr "Pozíció tartása"
+
+#~ msgid "Passive"
+#~ msgstr "Passzív"
+
+#~ msgid "Flee"
+#~ msgstr "Hátráló"
+
+#~ msgid "Exit to main menu"
+#~ msgstr "Kilépés a főmenübe"
+
+#~ msgid "Choose a map size:"
+#~ msgstr "Térkép méretének kiválasztása:"
+
+#~ msgid "Choose a map:"
+#~ msgstr "Térkép kiválasztása:"
+
+#~ msgid "Choose a saved game's map:"
+#~ msgstr "Mentett játék térképének kiválasztása:"
+
+#~ msgid "Select map source"
+#~ msgstr "Térkép forrása"
+
+#~ msgid "Create new map"
+#~ msgstr "Új térkép létrehozása"
+
+#~ msgid "Load existing map"
+#~ msgstr "Létező térkép betöltése"
+
+#~ msgid "Load saved game's map"
+#~ msgstr "Mentett játék térképének betöltése"
+
+#~ msgid "Start editor"
+#~ msgstr "Szerkesztő indítása"
+
+#~ msgid "Return"
+#~ msgstr "Vissza"
+
+#~ msgid "Scroll left"
+#~ msgstr "Görgetés balra"
+
+#~ msgid "Scroll right"
+#~ msgstr "Görgetés jobbra"
+
+#~ msgid "Scroll up"
+#~ msgstr "Görgetés fel"
+
+#~ msgid "Scroll down"
+#~ msgstr "Görgetés le"
+
+#~ msgid "Rotate building or map clockwise"
+#~ msgstr "Épület vagy térkép forgatása óramutató járásával megegyező irányban"
+
+#~ msgid "Rotate building or map counterclockwise"
+#~ msgstr ""
+#~ "Épület vagy térkép forgatása óramutató járásával ellentétes irányban"
+
+#~ msgid "Increase game speed"
+#~ msgstr "Játéksebesség növelése"
+
+#~ msgid "Decrease game speed"
+#~ msgstr "Játéksebesség csökkentése"
+
+#~ msgid "Pause game"
+#~ msgstr "Szünet"
+
+#~ msgid "Show build menu"
+#~ msgstr "Építés menü mutatása"
+
+#~ msgid "Enable destruct mode"
+#~ msgstr "Romboló mód bekapcsolása"
+
+#~ msgid "Enable road building mode"
+#~ msgstr "Útépítő mód bekapcsolása"
+
+#~ msgid "Enable pipette mode (clone buildings)"
+#~ msgstr "Pipetta mód bekapcsolása (épületek klónozása)"
+
+#~ msgid "Show player scores"
+#~ msgstr "Játékos pontjának mutatása"
+
+#~ msgid "Show settlement list"
+#~ msgstr "Tepelülések listájának mutatása"
+
+#~ msgid "Show ship list"
+#~ msgstr "Hajók listájának mutatása"
+
+#~ msgid "Toggle Captain's log"
+#~ msgstr "Kapitány naplójának ki/bekapcsolása"
+
+#~ msgid "Quicksave"
+#~ msgstr "Gyorsmentés"
+
+#~ msgid "Quickload"
+#~ msgstr "Gyors betöltés"
+
+# fogalmam nincs, mi az a "Transzlucuncia"
+#~ msgid "Toggle translucency of ambient buildings"
+#~ msgstr "Környező épületek áttetszőségének ki/bekapcsolása"
+
+#~ msgid "Highlight tile ownership"
+#~ msgstr "Tulajdonos kiemelése"
+
+#~ msgid "Toggle health bars"
+#~ msgstr "Életcsík mutatása"
+
+#~ msgid "Focus camera on selection"
+#~ msgstr "Kamera fókusz kiválasztáskor"
+
+#~ msgid "Remove selected units / buildings"
+#~ msgstr "Kiválasztott egység/épület eltávolítása"
+
+#~ msgid "Display help"
+#~ msgstr "Súgó megnyitása"
+
+#~ msgid "Screenshot"
+#~ msgstr "Pillanatkép"
+
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "FPS mutató ki/bekapcsolása"
+
+#~ msgid "Toggle grid on/off"
+#~ msgstr "Rács ki/bekapcsolása"
+
+#~ msgid "Show coordinate values (Debug)"
+#~ msgstr "Koordináta értékek mutatása (debug)"
+
+#~ msgid "Primary"
+#~ msgstr "Elsődleges"
+
+#~ msgid "Secondary"
+#~ msgstr "Másodlagos"
+
+#~ msgid "Reset to default"
+#~ msgstr "Visszaállítás az eredetire"
+
+#~ msgid "Reset to default keys"
+#~ msgstr "Visszaállítás az alapértelmezettre"
+
+#~ msgid "Save game"
+#~ msgstr "Játék elmentése"
+
+#~ msgid "Cancel game"
+#~ msgstr "Kilépés a játékból"
+
+#~ msgid "Loading…"
+#~ msgstr "Betöltés…"
+
+#~ msgid "Change Background"
+#~ msgstr "Háttér módosítása"
+
+#~ msgid "Multiplayer"
+#~ msgstr "Többjátékos mód"
+
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "Játék létrehozása - Többjátékos mód"
+
+#~ msgid "Player limit:"
+#~ msgstr "Játékosok száma:"
+
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "Kilépés a többjátékos mód menüjébe"
+
+#~ msgid "Name of the game:"
+#~ msgstr "Játék neve:"
+
+#~ msgid "This will be displayed to other players so they recognize the game."
+#~ msgstr "Ez fog megjelenni más játékosoknak a játék beazonosításához."
+
+#~ msgid "Unnamed Game"
+#~ msgstr "Névtelen játék"
+
+#~ msgid "Password of the game:"
+#~ msgstr "Jelszó a játékhoz:"
+
+#~ msgid "This game's password. Required to join this game."
+#~ msgstr "A játékhoz tartozó jelszó. Szükséges a csatlakozáshoz."
+
+#~ msgid "Create this new game"
+#~ msgstr "Jelen játék létrehozása"
+
+#~ msgid "Gamelobby"
+#~ msgstr "Előszoba"
+
+#~ msgid "Chat:"
+#~ msgstr "Chat:"
+
+#~ msgid "Exit gamelobby"
+#~ msgstr "Előszoba elhagyása"
+
+#~ msgid "The game will start as soon as all players are ready."
+#~ msgstr "A játék azonnal elindul, amint a játékosok készen állnak."
+
+#~ msgid "Game details:"
+#~ msgstr "Játék részletei:"
+
+#~ msgid "Color"
+#~ msgstr "Szín"
+
+#~ msgid "Ready:"
+#~ msgstr "Kész:"
+
+#~ msgid "Sets your state to ready (necessary for the game to start)"
+#~ msgstr ""
+#~ "Állítsd be az állapotod készre (a játék indításához elengedhetetlen)"
+
+#~ msgid "New game - Multiplayer"
+#~ msgstr "Új játék - Többjátékos mód"
+
+#~ msgid "Load game:"
+#~ msgstr "Játék betöltése:"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Mentett játék betöltése"
+
+#~ msgid "Active games:"
+#~ msgstr "Aktív játékok:"
+
+#~ msgid "Refresh list:"
+#~ msgstr "Lista frissítése:"
+
+#~ msgid "Refresh list of active games"
+#~ msgstr "Aktív játékok listájának frissítése"
+
+#~ msgid "Create game:"
+#~ msgstr "Játék létrehozása:"
+
+#~ msgid "Create a new game"
+#~ msgstr "Új játék létrehozása"
+
+#~ msgid "Join game:"
+#~ msgstr "Csatlakozás játékhoz:"
+
+#~ msgid "Join the selected game"
+#~ msgstr "Csatlakozás a kiválasztott játékhoz"
+
+#~ msgid "Change player details"
+#~ msgstr "Játékos adatainak módosítása"
+
+#~ msgid "Screen resolution:"
+#~ msgstr "Képrenyő felbontása:"
+
+#~ msgid "Full screen:"
+#~ msgstr "Teljes képernyős mód:"
+
+#~ msgid "Frame rate limit:"
+#~ msgstr "Képkocka sebesség korlát:"
+
+#~ msgid "Set the maximum frame rate used. Default: 60 fps."
+#~ msgstr ""
+#~ "Beállítja a maximum használt képkocka sebességet. Alapértelmezett: 60 fps."
+
+#~ msgid "Music volume:"
+#~ msgstr "Zene hangereje:"
+
+#~ msgid "Effects volume:"
+#~ msgstr "Effektek hangereje:"
+
+#~ msgid "Enable sound:"
+#~ msgstr "Hang engedélyezése:"
+
+#~ msgid "Scroll at map edge:"
+#~ msgstr "Görgetés a térkép szélén:"
+
+#~ msgid ""
+#~ "Whether to move the viewport when the mouse pointer is close to map edges"
+#~ msgstr "A térkép görgetése, ha az egérkurzor a térkép szélén van"
+
+#~ msgid "Cursor centered zoom:"
+#~ msgstr "Nagyítás a kurzor pozíciójára:"
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center. When disabled, always zoom to current viewport center."
+#~ msgstr ""
+#~ "Amennyiben ez az opció engedélyezett, az egér görgőjével való nagyítás a "
+#~ "kurzor jelenlegi pocíziójára történik. Ellenkező esetben a nagyítás a "
+#~ "jelenlegi pozícióra történik."
+
+#~ msgid "Middle mouse button pan:"
+#~ msgstr "Görgetés a középső egérgombbal:"
+
+#~ msgid "When enabled, dragging the middle mouse button will pan the camera"
+#~ msgstr ""
+#~ "Engedélyezés esetég a középső gomb lenyomásával állítható a kamera "
+#~ "pozíciója"
+
+#~ msgid "0 is default system settings"
+#~ msgstr "Alapértelmezett érték a 0"
+
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "Egér érzékenysége:"
+
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "Automatikus mentési intervallum (percben):"
+
+#~ msgid "Number of autosaves:"
+#~ msgstr "Automatikus mentések száma:"
+
+#~ msgid "Number of quicksaves:"
+#~ msgstr "Gyors mentések száma:"
+
+#~ msgid "Language"
+#~ msgstr "Nyelv"
+
+#~ msgid "Rotate minimap with map:"
+#~ msgstr "Minitérkép forgatása a térképpel:"
+
+#~ msgid ""
+#~ "Whether to also rotate the minimap whenever the regular map is rotated"
+#~ msgstr "Ha a normál térkép elforgatásra kerül, a minitérkép is követi azt"
+
+#~ msgid "Uninterrupted building:"
+#~ msgstr "Zavartalan építés:"
+
+#~ msgid ""
+#~ "When enabled, do not exit the build mode after successful construction"
+#~ msgstr ""
+#~ "Engedélyezés esetén egy sikeres építést követően nem lép ki a játék az "
+#~ "építés módból"
+
+#~ msgid "Auto-unload ship:"
+#~ msgstr "Hajó automatikus kipakolása:"
+
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr "Település megalapítása után a hajó kirakodásra kerüljön-e"
+
+#~ msgid ""
+#~ "Don't use in normal game session. Decides whether to write debug "
+#~ "information in the logging directory of your user directory. Slows the "
+#~ "game down."
+#~ msgstr ""
+#~ "Ne használd normál játékmenetben! Eldöntheted, hogy kerüljön-e "
+#~ "hibakeresési információ a felhasználói könyvtárad naplózó könyvtárába. "
+#~ "Lassítja a játékot."
+
+#~ msgid "Enable logging:"
+#~ msgstr "Naplózás bekapcsolása:"
+
+#~ msgid "Production indicators:"
+#~ msgstr "Gyártás mutatók:"
+
+#~ msgid ""
+#~ "Whether to show resource icons over buildings whenever they finish "
+#~ "production"
+#~ msgstr ""
+#~ "Bekapcsolás esetén mutatja a nyersanyag ikonokat az épület felett, "
+#~ "függetlenül az előállítás állapotától"
+
+#~ msgid "Higher values slow down scrolling."
+#~ msgstr "Magasabb érték lassabb görgetést eredményez."
+
+#~ msgid "Scroll delay:"
+#~ msgstr "Görgetés lassítása:"
+
+#~ msgid "Choose a quote type:"
+#~ msgstr "Idézetek típusa:"
+
+#~ msgid "What kind of quote to display while loading a game"
+#~ msgstr "Milyen típusú idézetek jelenjenek meg a játék betöltésekor"
+
+#~ msgid "Network"
+#~ msgstr "Hálózat"
+
+#~ msgid "If set to 0, use the router default"
+#~ msgstr "0 esetén az átjáró alapértelmezett beállításai élnek"
+
+#~ msgid "Network port:"
+#~ msgstr "Hálózati port:"
+
+#~ msgid "Discard current changes"
+#~ msgstr "Jelenlegi módosítások elvetése"
+
+#~ msgid "Reset to default settings"
+#~ msgstr "Alapértelmezett beállítások alkalmazása"
+
+#~ msgid "Save changes"
+#~ msgstr "Módosítások alkalmazása"
+
+#~ msgid "Your saved games:"
+#~ msgstr "Mentett játékaid:"
+
+#~ msgid "Password of the game. Required to join this game"
+#~ msgstr "A játékhoz tartozó jelszó. Szükséges a csatlakozáshoz"
+
+#~ msgid "Cancel"
+#~ msgstr "Mégsem"
+
+#~ msgid "Enter filename:"
+#~ msgstr "Fájlnév megadása:"
+
+#~ msgid "Details:"
+#~ msgstr "Részletek:"
+
+#~ msgid "Delete selected savegame"
+#~ msgstr "Kiválasztott játék törlése"
+
+#~ msgid "Start game"
+#~ msgstr "Játék indítása"
+
+#~ msgid "Map settings:"
+#~ msgstr "Térkép beállításai:"
+
+#~ msgid "Seed:"
+#~ msgstr "Indulópont:"
+
+#~ msgid "Select a language:"
+#~ msgstr "Nyelv kiválasztása:"
+
+#~ msgid "Player name:"
+#~ msgstr "Játékos neve:"
+
+#~ msgid "Invalid filename"
+#~ msgstr "Érvénytelen fájlnév"
+
+#~ msgid "Received an invalid filename for a save command."
+#~ msgstr "Érvénytelen fájlnév a mentés parancs végrehajtásakor."
+
+#~ msgid "Error"
+#~ msgstr "Hiba"
+
+#~ msgid "Failed to save."
+#~ msgstr "A mentés sikertelen."
+
+#~ msgid "The trade partner does not sell this."
+#~ msgstr "A kereskedő partner nem árulja ezt."
+
+#~ msgid "You can not store this."
+#~ msgstr "Nem tudod ezt elraktározni."
+
+#~ msgid "You can not afford to buy this."
+#~ msgstr "Nem engedheted ezt meg magadnak."
+
+#~ msgid "The trade partner does not sell more of this."
+#~ msgstr "A kereskedő partner nem tud több ilyet eladni."
+
+#~ msgid "The trade partner does not buy this."
+#~ msgstr "A kereskedő partner nem veszi ezt meg."
+
+#~ msgid "You do not possess this."
+#~ msgstr "Nincs ilyen a birtokodban."
+
+#~ msgid "The trade partner can not store more of this."
+#~ msgstr "A kereskedő partner nem képes több ilyet tárolni."
+
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "A kereskedő partner nem engedheti ezt meg magának."
+
+#~ msgid "The trade partner does not buy more of this."
+#~ msgstr "A kereskedő partner nem tud több ilyet vásárolni."
+
+#~ msgid "Failed to quicksave."
+#~ msgstr "A gyors mentés sikertelen."
+
+#~ msgid "An error happened during quicksave."
+#~ msgstr "Hiba történt a gyors mentés során."
+
+# automatic save
+#~ msgid "Your map has not been saved."
+#~ msgstr "A térkép nem került elmentésre."
+
+#, python-brace-format
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: "
+#~ "{website}"
+#~ msgstr ""
+#~ "Ha a probléma még egyszer előfordulna, lépj kapcsolatba a fejlesztő "
+#~ "csapattal: {website}"
+
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "Biztosan ki szeretnél lépni az Unknown Horizonsból?"
+
+#~ msgid "Quit Game"
+#~ msgstr "Kilépés"
+
+#~ msgid "No diplomacy possible"
+#~ msgstr "Nincs lehetőség diplomáciára"
+
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr "Nem tudsz diplomáciát alkalmazni, hiszen nincs más játékos."
+
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "Biztosan meg szeretnéd szakítani a futó játszmát?"
+
+#~ msgid "Delete"
+#~ msgstr "Bejegyzés törlése"
+
+#, python-brace-format
+#~ msgid "{size}x{size} tiles"
+#~ msgstr "{size}x{size} csempék"
+
+#~ msgid "Press key…"
+#~ msgstr "Nyomd le a kívánt gombot…"
+
+#, python-brace-format
+#~ msgid "{key} is already set to {action}."
+#~ msgstr "{key} már használatban van: {action}."
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "Szeretnéd felülírni?"
+
+#~ msgid "Confirmation for overwriting"
+#~ msgstr "Felülírás jóváhagyása"
+
+#~ msgid "Quotes"
+#~ msgstr "Idézetek"
+
+#~ msgid "Gameplay Tips"
+#~ msgstr "Játékmenet ötletek"
+
+#~ msgid "Press 'ESC' to access Game Menu."
+#~ msgstr "Nyomd meg az 'ESC' billentyűt a játék menüjének eléréséhez."
+
+#~ msgid "Use 'SHIFT' to place multiple buildings."
+#~ msgstr "Használd a 'SHIFT' gombot több épület elhelyezéséhez."
+
+#, python-brace-format
+#~ msgid "Currently only the first {tier} tiers are playable."
+#~ msgstr "Jelenleg csak az első {tier} szakasz játszható."
+
+#~ msgid "You can pause the game with 'P'."
+#~ msgstr "Szüneteltetheted a játékot a 'P' gomb lenyomásával."
+
+#~ msgid "You can drag roads by holding the left mouse button."
+#~ msgstr "A bal egérgomb nyomva tartásával egész útszakaszt építhetsz."
+
+#~ msgid "You can build multiple buildings by holding the 'SHIFT' key."
+#~ msgstr ""
+#~ "A 'SHIFT' gomb nyomva tartásával egyszerre több épületet is építhetsz."
+
+#~ msgid ""
+#~ "You can increase the happiness of your inhabitants by lowering the taxes."
+#~ msgstr "A telepeseid elégedettségét növelheted az adók csökkentésével."
+
+#~ msgid ""
+#~ "Build fire stations and doctors to protect your inhabitants from fire and "
+#~ "disease."
+#~ msgstr ""
+#~ "Legyenek tűzoltók és orvosok készenlétben, ezekkel elkerülheted a "
+#~ "tűzvészt és a járványokat."
+
+#~ msgid "Build storage tents to increase your storage capacity."
+#~ msgstr "Építs tároló sátrakat a tárolókapacitásod növeléséhez."
+
+#~ msgid "Make sure every house is in range of a marketplace."
+#~ msgstr "Bizonyosodj meg arról, hogy minden ház közelében van egy piactér."
+
+#~ msgid "Press 'T' to make trees transparent."
+#~ msgstr "Használd a 'T' gombot a fák átlátszóvá tételéhez."
+
+#~ msgid "Build storage tents and lookouts to expand your settlement range."
+#~ msgstr "Építs tároló sátrakat a településed határainak kibővítéséhez."
+
+#~ msgid ""
+#~ "To easily see whether the pavilion's range cover all your tents, select "
+#~ "it from the build menu and hover it over your existing pavilion. "
+#~ "Uncovered tents are shown in yellow. It's a good idea to build a new "
+#~ "pavilion in their neighborhood."
+#~ msgstr ""
+#~ "Hogy megbizonyosod arról, a kerti ház lefedi az összes sátrat, válaszd ki "
+#~ "az építés menüből és húzd a jelenlegi kerti házad fölé. A le nem fedett "
+#~ "sátrak sárgával jelöltek. Ezek közelébe érdemes új kerti házat építeni."
+
+#~ msgid ""
+#~ "Make singleplayer more fun with additional computer players by increasing "
+#~ "'AI players' when starting a new game."
+#~ msgstr ""
+#~ "Tedd izgalmassá az egyszemélyes játékot további játékosok hozzáadásával, "
+#~ "ehhez növeld az 'AI játékosok' értékét új játék indításakor."
+
+#~ msgid ""
+#~ "First steps are easier by looking at how AI players are setting up their "
+#~ "settlement."
+#~ msgstr ""
+#~ "Az első lépések elsajátításához érdemes megnézni, az AI játékosok miként "
+#~ "építik fel településeiket."
+
+#~ msgid ""
+#~ "Want funny quotes only? Change the quote types shown here in the settings "
+#~ "menu on the game page."
+#~ msgstr ""
+#~ "Szellemes idézeteket szeretnél itt látni? Állítsd be az itt megjelenő "
+#~ "idézetek típusait a Beállítások menüben."
+
+#~ msgid "A marketplace links your buildings like a road."
+#~ msgstr "A piactér - hasonlóan az úthoz - összeköti az épületeidet."
+
+#~ msgid "Mixed"
+#~ msgstr "Vegyes"
+
+#~ msgid "Starting engine…"
+#~ msgstr "Játékmotor indítása…"
+
+#~ msgid "Catching fish…"
+#~ msgstr "Kifogjuk a halakat…"
+
+#~ msgid "Drawing user interface…"
+#~ msgstr "Felhasználói felület előkészítése…"
+
+#~ msgid "Activating timer…"
+#~ msgstr "Időzítő aktiválása…"
+
+#~ msgid "Chomping game data…"
+#~ msgstr "Játékadatok átfésülése…"
+
+#~ msgid "Shaping islands…"
+#~ msgstr "Szigetek megformálása…"
+
+#~ msgid "Preparing blueprints…"
+#~ msgstr "Vázlatok előkészítése…"
+
+#~ msgid "Filling world with water…"
+#~ msgstr "A világ elárasztása vízzel…"
+
+#~ msgid "Raising animals…"
+#~ msgstr "Állatok nevelése…"
+
+#~ msgid "Convincing AI…"
+#~ msgstr "Meggyőző AI…"
+
+#~ msgid "Burying treasures…"
+#~ msgstr "Kincsek elásása…"
+
+#~ msgid "Unable to find pyenet"
+#~ msgstr "Nem található a pyenet"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which could not "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "A többjátékos módhoz szükséges a \"pyenet\" könyvtár, amely nem található "
+#~ "a rendszeredben."
+
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr ""
+#~ "Linux felhasználók: telepítsétek a pyenet-et a csomagkezelőn keresztül."
+
+#~ msgid "Failed to initialize networking."
+#~ msgstr "Nem sikerült a hálózat előkészítése."
+
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr ""
+#~ "A jelenlegi konfiguráció mellett a hálózati lehetőségek nem érhetők el."
+
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "Ellenőrizd az általad megadott beállításokat a hálózat szekcióban."
+
+#~ msgid "Fatal Network Error"
+#~ msgstr "Végzetes hálózati hiba"
+
+#~ msgid "Could not connect to master server."
+#~ msgstr "A játék nem tud csatlakozni a mester szerverhez."
+
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "Ellenőrizd az internetkapcsolatodat. Ha az rendben működik, akkor a "
+#~ "mester szerverünk jelenleg nem elérhető."
+
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "Hiba történt a hálózattal kapcsolatban:"
+
+#~ msgid "Version differs!"
+#~ msgstr "Eltérő verzió!"
+
+#, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "Térkép: {map_name}"
+
+#, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "Név: {game_name}"
+
+#, python-brace-format
+#~ msgid "Creator: {game_creator}"
+#~ msgstr "Létrehozó: {game_creator}"
+
+#, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "Játékosok: {player_amount}/{player_limit}"
+
+#~ msgid "Wrong version"
+#~ msgstr "Téves verzió"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "A játék verziója eltér a Tiédtől. A többjátékos módban mindenkinek "
+#~ "ugyanazzal a verzióval kell rendelkeznie. Ez a probléma könnyen "
+#~ "orvosolható a legújabb verzió telepítésével. A játék verziója: "
+#~ "{game_version}. A Te verziód: {own_version}"
+
+#~ msgid "Password of the game"
+#~ msgstr "A játékhoz tartozó jelszó"
+
+#~ msgid "Enter password:"
+#~ msgstr "Add meg a jelszót:"
+
+#, python-brace-format
+#~ msgid "Recommended number of players: {number}"
+#~ msgstr "Ajánlott játékosok száma: {number}"
+
+#~ msgid "Ready"
+#~ msgstr "Kész"
+
+#~ msgid "Not ready"
+#~ msgstr "Nincs kész"
+
+#~ msgid "Enter your message"
+#~ msgstr "Ide írd az üzeneted"
+
+#~ msgid "Click here to change your name and/or color"
+#~ msgstr "Kattints ide a neved és/vagy színed megváltoztatásához"
+
+#, python-brace-format
+#~ msgid "Kick {player}"
+#~ msgstr "{player} kirúgása"
+
+#, python-brace-format
+#~ msgid "{player} has joined the game"
+#~ msgstr "{player} csatlakozott a játékhoz"
+
+#, python-brace-format
+#~ msgid "{player} has left the game"
+#~ msgstr "{player} kilépett a játékból"
+
+#~ msgid "You are now ready"
+#~ msgstr "Készen állsz"
+
+#~ msgid "You are not ready anymore"
+#~ msgstr "Még nem állsz készen"
+
+#, python-brace-format
+#~ msgid "{player} is now ready"
+#~ msgstr "{player} készen áll"
+
+#, python-brace-format
+#~ msgid "{player} not ready anymore"
+#~ msgstr "{player} nem áll készen"
+
+#, python-brace-format
+#~ msgid "You are now known as {new_name}"
+#~ msgstr "Mostantól {new_name} az új neved"
+
+#, python-brace-format
+#~ msgid "{player} is now known as {new_name}"
+#~ msgstr "{player} neve mostantól {new_name}"
+
+#~ msgid "You changed your color"
+#~ msgstr "Megváltoztattad a színed"
+
+#, python-brace-format
+#~ msgid "{player} changed their color"
+#~ msgstr "{player} megváltoztatta a színét"
+
+#~ msgid "Kicked"
+#~ msgstr "Kirúgva"
+
+#~ msgid "You have been kicked from the game by creator"
+#~ msgstr "A játék összehívója kirúgott Téged"
+
+#, python-brace-format
+#~ msgid "{player} got kicked by creator"
+#~ msgstr "{player} kirúgva a játszma készítője által"
+
+#~ msgid "Are you sure you want to abort the running session?"
+#~ msgstr "Biztosan meg szeretnéd szakítani a futó játszmát?"
+
+#~ msgid "Quit Session"
+#~ msgstr "Kilépés"
+
+#~ msgid "No saved games"
+#~ msgstr "Nincs mentett játék"
+
+#~ msgid "There are no saved games to load."
+#~ msgstr "Nem található mentett játék a betöltéshez."
+
+#~ msgid "No filename given"
+#~ msgstr "Nincs megadva fájlnév"
+
+#~ msgid "Please enter a valid filename."
+#~ msgstr "Adj meg helyes fájlnevet."
+
+#, python-brace-format
+#~ msgid "A savegame with the name {name} already exists."
+#~ msgstr "Egy korábbi mentett játék már létezik {name} névvel."
+
+#, python-brace-format
+#~ msgid "A map with the name {name} already exists."
+#~ msgstr "Már van {name} névvel ellátott térkép."
+
+#~ msgid "Overwrite it?"
+#~ msgstr "Felülírod?"
+
+#, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "Mentve ekkor: {time}"
+
+#, python-brace-format
+#~ msgid "Saved {amount} time"
+#~ msgid_plural "Saved {amount} times"
+#~ msgstr[0] "Mentve {amount} alkalommal"
+#~ msgstr[1] "Mentve {amount} alkalommal"
+
+#, python-brace-format
+#~ msgid "Savegame version {version}"
+#~ msgstr "Mentett játék verziója {version}"
+
+#~ msgid "(probably incompatible)"
+#~ msgstr "(valószínűleg nem kompatibilis)"
+
+#~ msgid "Incompatible version"
+#~ msgstr "Nem kompatibilis verzió"
+
+#~ msgid "No file selected"
+#~ msgstr "Nincs fájl kiválasztva"
+
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr "A törléshez ki kell választanod egy mentett játékot."
+
+#, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "Valóban törölni szeretnéd a következőt: {name}?"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "Törlés jóváhagyása"
+
+#~ msgid "Error!"
+#~ msgstr "Hiba!"
+
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "A mentés törlése sikertelen!"
+
+#~ msgid "Game"
+#~ msgstr "Játék"
+
+#~ msgid "Disabled"
+#~ msgstr "Letiltva"
+
+#~ msgid "Restart required"
+#~ msgstr "Újraindítás szükséges"
+
+#~ msgid ""
+#~ "Some of your changes require a restart of Unknown Horizons. Do you want "
+#~ "to restart Unknown Horizons now?"
+#~ msgstr ""
+#~ "Néhány módosítás érvénybe lépéséhez indítsd újra az Unknown Horizonst. "
+#~ "Szeretnéd újraindítani most?"
+
+#~ msgid "Restore default settings"
+#~ msgstr "Alapértelmezett beállítások visszaállítása"
+
+#~ msgid ""
+#~ "Restoring the default settings will delete all changes to the settings "
+#~ "you made so far."
+#~ msgstr ""
+#~ "Az alapértelmezett beállítások visszaállítása törli az eddigi "
+#~ "beállításaidat."
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "Szeretnéd folytatni?"
+
+#~ msgid "Invalid network port"
+#~ msgstr "Nem megfelelő hálózati port"
+
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr ""
+#~ "Az általad megadott port nem helyes. 1 és 65535 közötti számot adj meg."
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it is in the specified "
+#~ "range."
+#~ msgstr ""
+#~ "Ellenőrizd az általad megadott port számot, hogy a megadott intervallumba "
+#~ "esik-e."
+
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "Nem sikerült az új hálózati beállításokat alkalmazni."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special access privileges, try 0 or a "
+#~ "number greater than 1024."
+#~ msgstr ""
+#~ "Az alacsonyabb port számokhoz olykor különleges hozzáférés szükséges, "
+#~ "próbáld a 0-át, vagy 1024-nél nagyobb számot."
+
+#~ msgid "Invalid player name"
+#~ msgstr "Helytelen játékos név"
+
+#~ msgid "You entered an invalid playername."
+#~ msgstr "Helytelen nevet próbáltál adni magadnak."
+
+#~ msgid "Map size:"
+#~ msgstr "Térkép mérete:"
+
+#~ msgid "Water:"
+#~ msgstr "Víz:"
+
+#~ msgid "Max island size:"
+#~ msgstr "Maximális szigetméret:"
+
+#~ msgid "Preferred island size:"
+#~ msgstr "Előnyös szigetméret:"
+
+#~ msgid "Island size deviation:"
+#~ msgstr "Szigetméret eltérés:"
+
+#~ msgid "Click to generate a different random map"
+#~ msgstr "Kattints egy új generált térkép elkészítéséhez"
+
+# szkenárió?? - gondolom egy játék menetet tartalmazó beállítást tároló fájl... na ezt fordítsd le:P
+#~ msgid "Invalid scenario file"
+#~ msgstr "Érvénytelen küldetés fájl"
+
+# szcenárió can be "forgatókönyv" - not the best word for it
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "A kiválasztott fájl nem érvényes küldetés fájl."
+
+#~ msgid "Error message:"
+#~ msgstr "Hibaüzenet:"
+
+#~ msgid "Please report this to the author."
+#~ msgstr "Kérjük, jelentsd a készítőnek."
+
+#, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "Nehézség: {difficulty}"
+
+#, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "Készítő: {author}"
+
+#, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "Leírás: {desc}"
+
+#, python-brace-format
+#~ msgid "Build {building}"
+#~ msgstr "{building} építése"
+
+#~ msgid "Press H to remove this hint"
+#~ msgstr "Nyomd meg a 'H' gombot az ötletek elrejtéséhez"
+
+#~ msgid "Destroy all buildings"
+#~ msgstr "Zničit budovu"
+
+#~ msgid ""
+#~ "This will destroy all the buildings that fall outside of the settlement "
+#~ "range."
+#~ msgstr "Ezzel minden, a település határain kívülre eső épületet lerombolsz."
+
+#, python-format
+#~ msgid "%s additional building will be destroyed."
+#~ msgid_plural "%s additional buildings will be destroyed"
+#~ msgstr[0] "%s további épület lebontásra kerül."
+#~ msgstr[1] "%s további épületek lebontásra kerülnek"
+
+#~ msgid "Barracks overview"
+#~ msgstr "Laktanya áttekintés"
+
+#~ msgid "Swordman"
+#~ msgstr "Kardforgató"
+
+#~ msgid "Overview"
+#~ msgstr "Áttekintés"
+
+#, python-brace-format
+#~ msgid "{ship} (place in queue: {place})"
+#~ msgstr "{ship} (hányadik a sorban: {place})"
+
+#~ msgid "Boat builder overview"
+#~ msgstr "Hajóépítő áttekintés"
+
+#~ msgid "Fisher boats"
+#~ msgstr "Halászhajók"
+
+#~ msgid "Trade boats"
+#~ msgstr "Kereskedő hajók"
+
+#~ msgid "War boats"
+#~ msgstr "Csatahajók"
+
+#~ msgid "War ships"
+#~ msgstr "Hadihajók"
+
+#~ msgid "Tower overview"
+#~ msgstr "Torony áttekintés"
+
+#~ msgid "Build related buildings"
+#~ msgstr "Kapcsolódó épületek építése"
+
+#~ msgid "Click on one of the resource slots to add a trade offer."
+#~ msgstr ""
+#~ "Kattints az egyik nyersanyag rekeszre egy kereskedelmi ajánlat "
+#~ "hozzáadásához."
+
+#~ msgid ""
+#~ "Set to buy or sell by clicking on that label, then adjust the amount via "
+#~ "the slider to the right."
+#~ msgstr ""
+#~ "Állítsd be a címkére kattintva, hogy eladás vagy vásárlás, majd add meg a "
+#~ "mennyiséget a csúszka segítségével."
+
+# u.a. mint a 211-es.
+#, python-brace-format
+#~ msgid ""
+#~ "Will sell {resource_name} for {price} gold/t whenever more than {limit}t "
+#~ "are available."
+#~ msgstr ""
+#~ "{resource_name} eladása {price} aranyért tonnánként, ha több van "
+#~ "raktáron, mint {limit} tonna."
+
+#~ msgid "Warehouse overview"
+#~ msgstr "Raktár áttekintés"
+
+#~ msgid "Main square overview"
+#~ msgstr "Főtér áttekintés"
+
+#~ msgid "Upgrade not possible:"
+#~ msgstr "Vylepšení není možné:"
+
+#~ msgid "This is the highest playable tier for now!"
+#~ msgstr "Jelenleg ez a legmagasabb játszható szint!"
+
+#~ msgid "Don't allow upgrades"
+#~ msgstr "Fejlesztések tiltása"
+
+#~ msgid "Allow upgrades"
+#~ msgstr "Fejlesztések engedélyezése"
+
+#~ msgid "Unit overview"
+#~ msgstr "Egység áttekintés"
+
+#, python-brace-format
+#~ msgid "Fill range with {how_many} trees"
+#~ msgstr "Terület feltöltése {how_many} fával"
+
+#~ msgid "Selected Units"
+#~ msgstr "Kiválasztott egységek"
+
+#~ msgid "Ship overview"
+#~ msgstr "Hajó áttekintés"
+
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr ""
+#~ "A hajó tartózkodjon egy sziget közelében a település megalapításához."
+
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "Már van egy településed ezen a szigeten."
+
+#~ msgid "Load/Unload"
+#~ msgstr "Berakodás/Kirakodás"
+
+#~ msgid "Too far from the nearest tradeable warehouse"
+#~ msgstr "Túl messze van a legközelebbi saját, vagy szövetséges raktárháztól"
+
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "Nem rakhatsz a kereskedő hajóra fegyvereket"
+
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "Nem lehetséges fegyvereket elhelyezni a kereskedő hajókon."
+
+#~ msgid "Equip weapon"
+#~ msgstr "Fegyver használata"
+
+#~ msgid "Unequip weapon"
+#~ msgstr "Fegyver leszerelése"
+
+#, python-brace-format
+#~ msgid "{resource_name}: {price} gold"
+#~ msgstr "{resource_name}: {price} arany"
+
+#, python-brace-format
+#~ msgid "buy for {buyprice} gold"
+#~ msgstr "Megvétel {buyprice} aranyért"
+
+#, python-brace-format
+#~ msgid "sell for {sellprice} gold"
+#~ msgstr "Eladás {sellprice} aranyért"
+
+#, python-brace-format
+#~ msgid "{stored}/{limit}"
+#~ msgstr "{stored}/{limit}"
+
+#, python-brace-format
+#~ msgid "Limit: {amount}t per slot"
+#~ msgstr "Korlát: {amount}/slot"
+
+#~ msgid "Logbook"
+#~ msgstr "Napló"
+
+#~ msgid "Emptiness"
+#~ msgstr "Üresség"
+
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "Jelenleg még nincs egy bejegyzés sem a naplóban!"
+
+#, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "{player} települései"
+
+#, python-brace-format
+#~ msgid "Ships of {player}"
+#~ msgstr "{player} hajói"
+
+#~ msgid "N/A"
+#~ msgstr "Nincs adat"
+
+#, python-brace-format
+#~ msgid "Production overview of {settlement}"
+#~ msgstr "{settlement} előállításának áttekintése"
+
+#~ msgid "Click to show statistics"
+#~ msgstr "Kattints a statisztika megtekintéséhez"
+
+#~ msgid "Click to add a new slot"
+#~ msgstr "Kattints egy új slot hozzáadásához"
+
+#~ msgid "Reset this configuration to the factory default."
+#~ msgstr "A beállítás visszaállítása a gyári értékekre."
+
+#~ msgid ""
+#~ "Reset this settlement's displayed resources to the default configuration "
+#~ "you have saved."
+#~ msgstr ""
+#~ "A település megjelenített nyersanyagainak visszaállítása az általad "
+#~ "mentett alapértelmezett beállításra."
+
+#~ msgid ""
+#~ "Reset the default configuration (which you see here) to the factory "
+#~ "default for all settlements."
+#~ msgstr ""
+#~ "Alapértelmezett beállítás visszaállítása (amit itt látsz) a gyári "
+#~ "értékekre az összes település esetében."
+
+#~ msgid "Buy expenses"
+#~ msgstr "Vásárlás kiadások"
+
+#~ msgid "Sell income"
+#~ msgstr "Eladás bevételek"
+
+#~ msgid "Stop route"
+#~ msgstr "Útvonal leállítása"
+
+#~ msgid "Need at least two settlements"
+#~ msgstr "Legalább két település szükséges"
+
+#~ msgid "You need at least two different settlements in your route."
+#~ msgstr "Legalább két különböző település szükséges az útvonaladhoz."
+
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "Kattints egy településre az úticél hozzáadásához!"
+
+#~ msgid "Loading into ship"
+#~ msgstr "Berakodás a hajóba"
+
+#~ msgid "Unloading from ship"
+#~ msgstr "Kirakodás a hajóból"
+
+#~ msgid "You are not allowed to trade with this player"
+#~ msgstr "Nem engedélyezett ezzel a játékossal való kereskedelem"
+
+#, python-brace-format
+#~ msgid "{weapon}: {amount}"
+#~ msgstr "{weapon}: {amount}"
+
+#~ msgid "none"
+#~ msgstr "semmi"
+
+#, python-brace-format
+#~ msgid "Details: {error_details}"
+#~ msgstr "Részletek: {error_details}"
+
+#, python-brace-format
+#~ msgid "Error: {error_message}"
+#~ msgstr "Hiba: {error_message}"
+
+#~ msgid "Bakery"
+#~ msgstr "Pékség"
+
+#~ msgid "Barracks"
+#~ msgstr "Laktanya"
+
+#~ msgid "Wooden barrier"
+#~ msgstr "Fa korlát"
+
+#~ msgid "Clay wall"
+#~ msgstr "Agyag fal"
+
+# Érdekes...
+#~ msgid "Blender"
+#~ msgstr "Fűszerkészítő"
+
+#~ msgid "Boat Builder"
+#~ msgstr "Hajóépítő"
+
+#~ msgid "Brewery"
+#~ msgstr "Sörfőzde"
+
+#~ msgid "Brickyard"
+#~ msgstr "Téglagyár"
+
+#~ msgid "Butchery"
+#~ msgstr "Hentes"
+
+#~ msgid "Cannon Foundry"
+#~ msgstr "Ágyúöntő műhely"
+
+#~ msgid "Charcoal Burning"
+#~ msgstr "Széntermelő"
+
+#~ msgid "Clay Deposit"
+#~ msgstr "Agyag tároló"
+
+#~ msgid "Clay Pit"
+#~ msgstr "Agyagbánya"
+
+#~ msgid "Distillery"
+#~ msgstr "Szeszfőzde"
+
+#~ msgid "Doctor"
+#~ msgstr "Orvos"
+
+#~ msgid "Farm"
+#~ msgstr "Farm"
+
+#~ msgid "Alvearies"
+#~ msgstr "Méhész"
+
+#~ msgid "Cattle Run"
+#~ msgstr "Marhaistálló"
+
+#~ msgid "Cocoa Field"
+#~ msgstr "Kakaóültetvény"
+
+#~ msgid "Corn Field"
+#~ msgstr "Kukoricamező"
+
+#~ msgid "Herbary"
+#~ msgstr "Fűszernövény-termesztő"
+
+#~ msgid "Hop Field"
+#~ msgstr "Komlómező"
+
+#~ msgid "Pasture"
+#~ msgstr "Legelő"
+
+#~ msgid "Pigsty"
+#~ msgstr "Disznóól"
+
+#~ msgid "Potato Field"
+#~ msgstr "Krumpli ültetvény"
+
+#~ msgid "Spice Field"
+#~ msgstr "Fűszer ültetvény"
+
+#~ msgid "Sugar Field"
+#~ msgstr "Cukornád ültetvény"
+
+#~ msgid "Tobacco Field"
+#~ msgstr "Dohányültetvény"
+
+#~ msgid "Vineyard"
+#~ msgstr "Szőlőültetvény"
+
+#~ msgid "Fire Station"
+#~ msgstr "Tűzoltóság"
+
+#~ msgid "Fish Deposit"
+#~ msgstr "Hal lelőhely"
+
+#~ msgid "Fisherman's Tent"
+#~ msgstr "Horgász sátor"
+
+#~ msgid "Hunter's Tent"
+#~ msgstr "Vadász sátor"
+
+#~ msgid "Lookout"
+#~ msgstr "Kilátó"
+
+#~ msgid "Lumberjack Hut"
+#~ msgstr "Favágó kunyhó"
+
+#~ msgid "Main Square"
+#~ msgstr "Főtér"
+
+#~ msgid "Mine"
+#~ msgstr "Bánya"
+
+#~ msgid "Mountain"
+#~ msgstr "Hegy"
+
+#~ msgid "Pastry Shop"
+#~ msgstr "Cukrászda"
+
+#~ msgid "Pavilion"
+#~ msgstr "Kerti ház"
+
+#~ msgid "Ruined Tent"
+#~ msgstr "Lerombolt sátor"
+
+#~ msgid "Salt Ponds"
+#~ msgstr "Sőtermeló"
+
+#~ msgid "Signal Fire"
+#~ msgstr "Tűzjelzés"
+
+#~ msgid "Smeltery"
+#~ msgstr "Öntöde"
+
+#~ msgid "Stone Deposit"
+#~ msgstr "kő"
+
+#~ msgid "Stonemason"
+#~ msgstr "Kőfaragó"
+
+#~ msgid "Carver"
+#~ msgstr "Faragó"
+
+#~ msgid "Stone Pit"
+#~ msgstr "Kőbánya"
+
+#~ msgid "Storage Tent"
+#~ msgstr "Raktár sátor"
+
+#~ msgid "Storage Hut"
+#~ msgstr "Raktár kunyhó"
+
+#~ msgid "Tavern"
+#~ msgstr "Kocsma"
+
+#~ msgid "Hut"
+#~ msgstr "Kunyhó"
+
+#~ msgid "Stone house"
+#~ msgstr "Kőház"
+
+#~ msgid "Estate"
+#~ msgstr "Birtok"
+
+#~ msgid "Manor"
+#~ msgstr "Nemesi birtok"
+
+#~ msgid "Tobacconist"
+#~ msgstr "Dohányárus"
+
+#~ msgid "Toolmaker"
+#~ msgstr "Szerszámkészítő"
+
+#~ msgid "Trail"
+#~ msgstr "Nyomvonal"
+
+#~ msgid "Gravel Path"
+#~ msgstr "Kavicsos út"
+
+#~ msgid "Cobblestone Street"
+#~ msgstr "Burkolatköves út"
+
+#~ msgid "Tree"
+#~ msgstr "Fa"
+
+#~ msgid "Village School"
+#~ msgstr "Iskola"
+
+#~ msgid "Warehouse"
+#~ msgstr "Raktár"
+
+#~ msgid "Weaponsmith"
+#~ msgstr "Fegyverek"
+
+#~ msgid "Weaver's Hut"
+#~ msgstr "Takács kunyhó"
+
+#~ msgid "Windmill"
+#~ msgstr "Szélmalom"
+
+#~ msgid "Winery"
+#~ msgstr "Pincészet"
+
+#~ msgid "Wooden Tower"
+#~ msgstr "Fatorony"
+
+#~ msgid "Failed to start/load the game"
+#~ msgstr "Nem sikerült elindítani/betölteni a játékot"
+
+#~ msgid "The game you selected could not be started."
+#~ msgstr "A kiválasztott játék nem indítható el."
+
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr "A mentett játékállás sérült, vagy egy korábbi verzióban készült."
+
+#~ msgid "No quicksaves found"
+#~ msgstr "Nem található gyors mentés"
+
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr "Szükség van gyors mentésre a gyors betöltéshez."
+
+#~ msgid "Logging enabled"
+#~ msgstr "Naplózás engedélyezve"
+
+#, python-brace-format
+#~ msgid "Logs are written to {directory}."
+#~ msgstr "Naplózás mentése ide: {directory}."
+
+#~ msgid ""
+#~ "The games have run out of sync. This indicates an unknown internal error, "
+#~ "the game cannot continue."
+#~ msgstr ""
+#~ "A játékosok közötti szinkronizáció összeomlott. Ez ismeretlen belső "
+#~ "hibára utal, a játék nem folytatódhat."
+
+#~ msgid ""
+#~ "We are very sorry and hope to have this bug fixed in a future version."
+#~ msgstr ""
+#~ "Nagyon sajnáljuk, remélhetőleg a következő verzióban a hiba javításra "
+#~ "kerül."
+
+#~ msgid "Not possible"
+#~ msgstr "Nem lehetséges"
+
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr "A többjátékos módban a mentés/betöltés még nem lehetséges"
+
+#~ msgid ""
+#~ "The filename must consist only of letters, numbers, spaces and these "
+#~ "characters: _ . -"
+#~ msgstr ""
+#~ "A fájlnév csak betűket, számokat, szóközöket és a következő karaktereket "
+#~ "tartalmazhatja: _ . -"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "Nem sikerült csatlakozni a szerverhez."
+
+#~ msgid "Maybe invalid or irresolvable server address."
+#~ msgstr "Talán a szerver címe nem érvényes vagy nem feloldható."
+
+#~ msgid "Not Ready"
+#~ msgstr "Nem áll készen"
+
+#~ msgid ""
+#~ "Old or unsupported multiplayer protocol. Please check your game version"
+#~ msgstr ""
+#~ "Régi vagy nem támogatott többjátékos protokoll. Ellenőrizd a játék "
+#~ "verzióját"
+
+#~ msgid "You've exceeded the global packet size."
+#~ msgstr "Túllépted a globális csomagméretet."
+
+#~ msgid "This should never happen. Please contact us or file a bug report."
+#~ msgstr ""
+#~ "Ennek nem lett volna szabad megtörténnie. Kérjük, lépj kapcsolatba velünk "
+#~ "vagy tegyél hibabejelentést."
+
+#~ msgid "You've exceeded the per packet size."
+#~ msgstr "Túllépted a csomagonkénti méretet."
+
+#~ msgid "Unknown or malformed packet. Please check your game version"
+#~ msgstr "Ismeretlen vagy hibás csomag. Kérjük, egyeztesd a játékverziót."
+
+#~ msgid "Invalid/Unknown session"
+#~ msgstr "Hibás/Ismeretlen játék"
+
+#~ msgid "You can't join a game while in another game"
+#~ msgstr "Nem csatlakozhatsz másik játékhoz játék közben"
+
+#~ msgid "Unknown game or game is running a different version"
+#~ msgstr "Ismeretlen játék vagy a játék más verziója fut"
+
+#~ msgid "Game has already started. No more joining"
+#~ msgstr "A játék már elindult. Csatlakozásra nincs lehetőség."
+
+#~ msgid "Game is full"
+#~ msgstr "A játék megtelt"
+
+#~ msgid "Wrong password"
+#~ msgstr "Hibás jelszó"
+
+#~ msgid "There's already a player with your name inside this game."
+#~ msgstr "A játékban már van egy ilyen nevű játékos."
+
+#~ msgid "Please change your name."
+#~ msgstr "Kérjük, változtass nevet."
+
+#~ msgid "There's already a player with your color inside this game."
+#~ msgstr "A játékban már van egy ilyen színű játékos."
+
+#~ msgid "Please change your color."
+#~ msgstr "Változtasd meg a színezésed."
+
+#~ msgid ""
+#~ "There's already a player with your unique player ID inside this game. "
+#~ "This should never occur."
+#~ msgstr ""
+#~ "Már van egy ilyen azonosítóval ellátott játékos ebben játékban. Ennek nem "
+#~ "szabadna megtörténnie."
+
+#~ msgid "You are not inside a game"
+#~ msgstr "Nem vagy játékban"
+
+#~ msgid "Unable to change your name."
+#~ msgstr "A név megváltoztatása nem sikerült."
+
+#~ msgid "Unable to change your color."
+#~ msgstr "A szín megváltoztatása nem sikerült."
+
+#~ msgid "You can't fetch a game while in another game"
+#~ msgstr "Nem kérhetsz le játékadatokat, amíg egy másikban vagy."
+
+#~ msgid "The game has been terminated. The creator has left the game."
+#~ msgstr "A játéknak vége. A létrehozó kilépett a játékból."
+
+#~ msgid ""
+#~ "One player has terminated their game. For technical reasons, this "
+#~ "currently means the game cannot continue. We are very sorry about that."
+#~ msgstr ""
+#~ "Egy játékos kilépett a játékból. Technikai okokból a játék nem "
+#~ "folytatódhat. Nagyon sajnáljuk."
+
+#~ msgid "You have won!"
+#~ msgstr "Nyertél!"
+
+#~ msgid "You have completed this scenario."
+#~ msgstr "Sikeresen teljesítetted a küldetést."
+
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "Szeretnéd folytatni a játékot?"
+
+#~ msgid "unknown"
+#~ msgstr "ismeretlen"
+
+#~ msgid "Failed to create savegame file"
+#~ msgstr "Hiba a játékállás mentését tartalmazó fájl létrehozása során"
+
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr ""
+#~ "Hiba történt a játékállás mentését tartalmazó fájl létrehozása során."
+
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr ""
+#~ "Ez általában azt jelenti, hogy a fájlnév nem támogatott karaktereket "
+#~ "tartalmaz."
+
+#~ msgid "Access is denied"
+#~ msgstr "Hozzáférés megtagadva"
+
+#~ msgid "The savegame file could be read-only or locked by another process."
+#~ msgstr ""
+#~ "A mentést tartalmazó fájl csak olvasható, vagy egy másik folyamat fogja."
+
+# automatic save
+#~ msgid "Your game has not been saved."
+#~ msgstr "A játék nem lett elmentve."
+
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "Új verzió az Unknown Horizonsból"
+
+#, python-brace-format
+#~ msgid ""
+#~ "There is a more recent release of Unknown Horizons ({new_version}) than "
+#~ "the one you are currently using ({old_version})."
+#~ msgstr ""
+#~ "Már újabb verzió is elérhető az Unknown Horizonsból ({new_version}), Te "
+#~ "jelenleg a {old_version} verziót használod."
+
+#~ msgid "Click to download"
+#~ msgstr "Kattints a letöltéshez"
+
+#~ msgid "A page has been opened in your browser."
+#~ msgstr "A böngésződben megnyílt egy új lap."
+
+#, python-brace-format
+#~ msgid "{slotnum} slots, {limit}t"
+#~ msgstr "{slotnum} férőhely, {limit}"
+
+#, python-brace-format
+#~ msgid "Health: {health}"
+#~ msgstr "Élet: {health}"
+
+#, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}: {description}"
+
+#~ msgid "This building must be built on an island."
+#~ msgstr "Ezt az épületet csak egy szigeten építheted fel."
+
+#~ msgid "This ground is not suitable for this building."
+#~ msgstr "Ez talaj nem alkalmas az épület ráépítésére."
+
+#~ msgid "This building has to be built within your settlement."
+#~ msgstr "Ezt az épületet a településen belül kell építeni."
+
+#~ msgid "This area is already occupied by another player."
+#~ msgstr "Ezt a terület már elfoglalta egy másik játékos."
+
+#~ msgid "This area is already occupied by another building."
+#~ msgstr "Ezt a terület már elfoglalta egy másik épület."
+
+#~ msgid "This area is already occupied by a unit."
+#~ msgstr "Ez a terület már foglalt egy egység által."
+
+#~ msgid "This building must be built on the coastline."
+#~ msgstr "Ezt az épületet csak a tengerparton építheted fel."
+
+#~ msgid "This building has to be placed at the ocean."
+#~ msgstr "Ez az épület kerüljön az óceánra."
+
+#~ msgid "This spot is too far away from your ship."
+#~ msgstr "A megadott hely túl messze van a hajódtól."
+
+#~ msgid "This building can only be built on a resource source."
+#~ msgstr "Ez az épület csak egy nyersanyag forrásra építhető."
+
+#~ msgid "You have already settled this island."
+#~ msgstr "Már letelepedett ezen a szigeten."
+
+#~ msgid "This building must be partly on flat land."
+#~ msgstr "Az épületet egy részének egyenletes talajon kell lennie."
+
+#~ msgid "The inhabitants are infected by the Black Death!"
+#~ msgstr "A telepeseket megfertőzte a Fekete Halál!"
+
+#~ msgid "This building is on fire!"
+#~ msgstr "Ez az épület kigyulladt!"
+
+#~ msgid "These residents are unhappy."
+#~ msgstr "Ezek a lakosok boldogtalanok."
+
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "Ezek a lakosok nem tudnak eljutni a főtérre."
+
+#~ msgid "The inventory of this building is full."
+#~ msgstr "Az épület raktára tele van."
+
+#~ msgid "This building has a very low productivity."
+#~ msgstr "Az épület termelékenysége nagyon alacsony."
+
+#~ msgid "This building is decommissioned."
+#~ msgstr "Az épület jelenleg kihasználatlanul áll."
+
+#, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "Kereskedelmi útvonal: úton {location} felé"
+
+#, python-brace-format
+#~ msgid "Trade route: waiting at {position}"
+#~ msgstr "Kereskedelmi útvonal: várakozik, {position}"
+
+#, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "Úton {location} felé"
+
+#, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "Úton {x}, {y} koordináták felé"
+
+#, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "Tétlenül áll itt: {location}"
+
+#, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "Tétlenül áll itt: {x}, {y}"
+
+#~ msgid "Trader"
+#~ msgstr "Kereskedő"
+
+#, python-brace-format
+#~ msgid "Attacking {target} '{name}' ({owner})"
+#~ msgstr "Támad: {target} '{name}' ({owner})"
+
+#, python-brace-format
+#~ msgid "Attacking {owner}"
+#~ msgstr "Támad: {owner}"
+
+# automatic save
+#~ msgid "Your game has been autosaved."
+#~ msgstr "A játékodról automatikus mentés készült."
+
+#~ msgid "Your building has caught fire!"
+#~ msgstr "Az épületed kigyulladt!"
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}: {message}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "{player1} and {player2} have ended their alliance and are now in a state "
+#~ "of war."
+#~ msgstr ""
+#~ "{player1} és {player2} felbontották a szövetséget, és mostantól hadban "
+#~ "állnak."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have terminated their alliance."
+#~ msgstr "{player1} és {player2} felbontották a szövetséget."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have ended the war and are now allied."
+#~ msgstr ""
+#~ "{player1} és {player2} véget vetettek a háborúnak, és mostantól "
+#~ "szövetségesek."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have settled their hostility."
+#~ msgstr "{player1} és {player2} abbahagyták az ellenségeskedést."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have allied their forces."
+#~ msgstr "{player1} és {player2} szövetséget kötöttek."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} will fight each other to the death."
+#~ msgstr "{player1} és {player2} mindhalálig fognak küzdeni egymással."
+
+#~ msgid "You can also drag roads."
+#~ msgstr "Az utakat húzva is elkészítheted."
+
+#~ msgid "One of your fields requires a farm to harvest its crops."
+#~ msgstr "A mezőid egyikéhez farm szükséges, hogy le lehessen aratni."
+
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "A bányád kifogyott a nyersanyagból."
+
+#~ msgid ""
+#~ "You have reached the current maximum tier. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Elérted a jelenlegi maximális szintet. A lakosaid nem fejlődnek tovább."
+
+#~ msgid "Cannot go here."
+#~ msgstr "Nem tudsz ide jönni."
+
+#~ msgid "Your crew refuses to leave this map."
+#~ msgstr "A csapatod nem akarja elhagyni a térképet."
+
+#, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "Több {resource} szükséges az épület megépítéséhez."
+
+#, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "{player} új települést alapított."
+
+#, python-brace-format
+#~ msgid "A new ship by the name of {name} has been created."
+#~ msgstr "Egy új hajó elkészült a következő névvel: {name}."
+
+#, python-brace-format
+#~ msgid "The Soldier by the name of {name} is ready to battle."
+#~ msgstr "A {name} nevű katona készen áll a harcra."
+
+#, python-brace-format
+#~ msgid "The inhabitant by the name of {name} is available."
+#~ msgstr "A {name} nevű lakos elérhető."
+
+#~ msgid "A new world has been created."
+#~ msgstr "Egy új világ létrehozva."
+
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "Néhányan a lakosaid közül nem tudnak eljutni a főtérre."
+
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "A játékról gyorsmentés készült."
+
+#~ msgid ""
+#~ "The route is now configured. Start it via the \"start route\" button in "
+#~ "the \"configure route\" menu."
+#~ msgstr ""
+#~ "Az útvonal beállítása elkészült. Indítsd útnak a hajót az \"útvonal "
+#~ "indítása\" gombbal az \"útvonal beállítása\" menüben."
+
+# automatic save
+#~ msgid "Your game has been saved."
+#~ msgstr "A játékod elmentve."
+
+#, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "A pillanatkép elmentve: {file}."
+
+#, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "A lakosságod elérte a következő szintet: {level}."
+
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "Néhány lakosod elköltözött."
+
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr "Nem bonthatod le a raktárat, a településednek szüksége van rá."
+
+#~ msgid "You won!"
+#~ msgstr "Nyertél!"
+
+#~ msgid "You failed the scenario."
+#~ msgstr "Nem sikerült a küldetés."
+
+#~ msgid "The inhabitants of this building are infected by the Black Death!"
+#~ msgstr "Ennek az épületnek a lakosait megfertőzte a Fekete Halál!"
+
+#~ msgid "coins"
+#~ msgstr "pénzérmék"
+
+#~ msgid "lamb wool"
+#~ msgstr "bárány gyapjú"
+
+#~ msgid "textile"
+#~ msgstr "szövet"
+
+#~ msgid "boards"
+#~ msgstr "deszka"
+
+#~ msgid "food"
+#~ msgstr "élelmiszer"
+
+#~ msgid "tools"
+#~ msgstr "eszköz"
+
+#~ msgid "bricks"
+#~ msgstr "tégla"
+
+#~ msgid "trees"
+#~ msgstr "fa"
+
+#~ msgid "grass"
+#~ msgstr "legelő"
+
+#~ msgid "wool"
+#~ msgstr "gyapjú"
+
+#~ msgid "faith"
+#~ msgstr "hit"
+
+#~ msgid "deer food A"
+#~ msgstr "szarvashús"
+
+#~ msgid "deer meat"
+#~ msgstr "szarvashús"
+
+#~ msgid "happiness"
+#~ msgstr "boldogság"
+
+#~ msgid "potatoes"
+#~ msgstr "krumpli"
+
+#~ msgid "education"
+#~ msgstr "oktatás"
+
+#~ msgid "sugar cane"
+#~ msgstr "cukornád"
+
+#~ msgid "sugar"
+#~ msgstr "cukor"
+
+#~ msgid "community"
+#~ msgstr "közösség"
+
+#~ msgid "clay deposit"
+#~ msgstr "agyag"
+
+#~ msgid "clay"
+#~ msgstr "agyag"
+
+#~ msgid "liquor"
+#~ msgstr "alkohol"
+
+#~ msgid "charcoal"
+#~ msgstr "faszén"
+
+#~ msgid "iron deposit"
+#~ msgstr "vas"
+
+#~ msgid "iron ore"
+#~ msgstr "vasérc"
+
+#~ msgid "iron ingots"
+#~ msgstr "öntött vas"
+
+#~ msgid "get-together"
+#~ msgstr "találkozó"
+
+#~ msgid "fish"
+#~ msgstr "hal"
+
+#~ msgid "salt"
+#~ msgstr "só"
+
+#~ msgid "tobacco plants"
+#~ msgstr "dohányültetvények"
+
+#~ msgid "tobacco leaves"
+#~ msgstr "dohánylevél"
+
+#~ msgid "tobaccos"
+#~ msgstr "dohány"
+
+#~ msgid "cattle"
+#~ msgstr "marha"
+
+#~ msgid "pigs"
+#~ msgstr "disznó"
+
+#~ msgid "cattle for slaughter"
+#~ msgstr "vágómarha"
+
+#~ msgid "pigs for slaughter"
+#~ msgstr "vágósertés"
+
+#~ msgid "herbs"
+#~ msgstr "gyógynövények"
+
+#~ msgid "medical herbs"
+#~ msgstr "orvosi gyógynövények"
+
+#~ msgid "acorns"
+#~ msgstr "makk"
+
+#~ msgid "cannon"
+#~ msgstr "ágyú"
+
+#~ msgid "sword"
+#~ msgstr "kard"
+
+#~ msgid "grain"
+#~ msgstr "gabona"
+
+#~ msgid "corn"
+#~ msgstr "kukorica"
+
+#~ msgid "flour"
+#~ msgstr "liszt"
+
+#~ msgid "spice plants"
+#~ msgstr "fűszernövény-ültetvény"
+
+#~ msgid "spices"
+#~ msgstr "fűszer"
+
+#~ msgid "condiments"
+#~ msgstr "fűszerek"
+
+#~ msgid "marble deposit"
+#~ msgstr "márvány"
+
+#~ msgid "marble tops"
+#~ msgstr "márvány metszet"
+
+#~ msgid "coal deposit"
+#~ msgstr "szén"
+
+#~ msgid "stone deposit"
+#~ msgstr "kő"
+
+#~ msgid "stone tops"
+#~ msgstr "kőmetszet"
+
+#~ msgid "cocoa beans"
+#~ msgstr "kakaóbab"
+
+#~ msgid "cocoa"
+#~ msgstr "kakaó"
+
+#~ msgid "confectionery"
+#~ msgstr "édesség"
+
+#~ msgid "candles"
+#~ msgstr "gyertyák"
+
+#~ msgid "vines"
+#~ msgstr "szőlő"
+
+#~ msgid "grapes"
+#~ msgstr "szőlő"
+
+#~ msgid "alvearies"
+#~ msgstr "méhészet"
+
+#~ msgid "honeycombs"
+#~ msgstr "méz"
+
+#~ msgid "gold deposit"
+#~ msgstr "arany"
+
+#~ msgid "gold ore"
+#~ msgstr "aranyérc"
+
+#~ msgid "gold ingots"
+#~ msgstr "öntött arany"
+
+#~ msgid "gem deposit"
+#~ msgstr "drágakő lelőhely"
+
+#~ msgid "rough gems"
+#~ msgstr "csiszolatlan drágakövek"
+
+#~ msgid "gems"
+#~ msgstr "drágakövek"
+
+#~ msgid "coffee plants"
+#~ msgstr "kávéültetvény"
+
+#~ msgid "coffee beans"
+#~ msgstr "kávébab"
+
+#~ msgid "coffee"
+#~ msgstr "kávé"
+
+#~ msgid "tea plants"
+#~ msgstr "teaültetvények"
+
+#~ msgid "tea leaves"
+#~ msgstr "tealevél"
+
+#~ msgid "tea"
+#~ msgstr "tea"
+
+#~ msgid "flower meadows"
+#~ msgstr "virágrét"
+
+#~ msgid "blossoms"
+#~ msgstr "virágok"
+
+#~ msgid "brine deposit"
+#~ msgstr "sósvíz lelőhely"
+
+#~ msgid "brine"
+#~ msgstr "tengervíz"
+
+#~ msgid "whales"
+#~ msgstr "bálna"
+
+#~ msgid "ambergris"
+#~ msgstr "ámbra"
+
+#~ msgid "lamp oil"
+#~ msgstr "olajlámpa"
+
+#~ msgid "cotton plants"
+#~ msgstr "gyapotültetvények"
+
+#~ msgid "cotton"
+#~ msgstr "gyapot"
+
+#~ msgid "indigo plants"
+#~ msgstr "indigócserje-ültetvény"
+
+#~ msgid "indigo"
+#~ msgstr "indigócserje"
+
+#~ msgid "garments"
+#~ msgstr "ruhák"
+
+#~ msgid "perfume"
+#~ msgstr "parfüm"
+
+#~ msgid "hop plants"
+#~ msgstr "komló"
+
+#~ msgid "hops"
+#~ msgstr "komló"
+
+#~ msgid "beer"
+#~ msgstr "sör"
+
+#~ msgid "hygiene"
+#~ msgstr "higiénia"
+
+#~ msgid "recreation"
+#~ msgstr "szórakozás"
+
+#~ msgid "blackdeath"
+#~ msgstr "fekete halál"
+
+#~ msgid "fire"
+#~ msgstr "tűz"
+
+#~ msgid "Aristocrats"
+#~ msgstr "Arisztokraták"
+
+#~ msgid "Error: Unable to find required library \"PyYAML\"."
+#~ msgstr "Hiba: Nem találom a szükséges \"PyYAML\" könyvtárat."
+
+#~ msgid "PyYAML (a required library) is missing and needs to be installed."
+#~ msgstr "A PyYAML (egy szükséges könyvtár) hiányzik, és telepíteni kell."
+
+#~ msgid "The Windows installer is available at http://pyyaml.org/wiki/PyYAML."
+#~ msgstr ""
+#~ "A Windows telepítő a http://pyyaml.org/wiki/PyYAML oldalon található."
+
+#~ msgid ""
+#~ "Linux users should find it using their package manager under the name "
+#~ "\"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Linux-felhasználók a csomagkezelőjükkel telepíthetik a \"pyyaml\" vagy "
+#~ "\"python-yaml\" nevű csomagot."
+
+#~| msgid "Unit overview"
+#~ msgid "Groundunit overview"
+#~ msgstr "Egység áttekintés"
+
+#~ msgid "SDL is only meant as unsupported fallback and might cause problems!"
+#~ msgstr ""
+#~ "Az SDL nem támogatott tartalék megoldásnak számít és problmákat okozhat!"
+
+#~ msgid "Used renderer:"
+#~ msgstr "Használt leképező:"
+
+#~ msgid "Warning"
+#~ msgstr "Figyelmeztetés"
+
+#~ msgid ""
+#~ "The SDL renderer is meant as a fallback solution only and has serious "
+#~ "graphical glitches. \n"
+#~ "\n"
+#~ "Use at own risk!"
+#~ msgstr ""
+#~ "Az SDL leképező tartalék megoldásnak számít és komoly grafikai problmákat "
+#~ "okozhat!\n"
+#~ "\n"
+#~ "Csak saját felelősségre!"
+
+#~ msgid "Increases the player's sight."
+#~ msgstr "Növeli a játékos által belátható területet."
+
+#~ msgid "Vintner"
+#~ msgstr "Borkereskedő"
+
+#~ msgid "dagger"
+#~ msgstr "tőr"
+
+#, fuzzy
+#~ msgid "Back:"
+#~ msgstr "Zpět:"
+
+#, fuzzy
+#~ msgid "Leave:"
+#~ msgstr "Opustit hru:"
+
+#, fuzzy
+#~ msgid "Main menu:"
+#~ msgstr "Hlavní menu:"
+
+#, fuzzy
+#~ msgid "Color depth:"
+#~ msgstr "Barevná hloubka:"
+
+#, fuzzy
+#~ msgid "If set to 0, use the driver default"
+#~ msgstr "Je li zadána 0, použít výchozí"
+
+#, fuzzy
+#~ msgid "Apply"
+#~ msgstr "Přijmout"
+
+#, fuzzy
+#~ msgid "Start game:"
+#~ msgstr "Začít hru:"
+
+#, fuzzy
+#~ msgid "Key bindings"
+#~ msgstr "Klávesové zkratky"
+
+#, fuzzy
+#~ msgid "Hold to place multiple buildings"
+#~ msgstr "Podržte pro umístění více stejných budov"
+
+#~ msgid "[{key}] = {text}"
+#~ msgstr "[{key}] = {text}"
+
+#, fuzzy
+#~ msgid "Graphics Artists"
+#~ msgstr "Grafika"
+
+#, fuzzy
+#~ msgid "Patchers"
+#~ msgstr "Řeznictví"
+
+#, fuzzy
+#~ msgid "Translators"
+#~ msgstr "Fordítás állapota:"
+
+#, fuzzy
+#~ msgid "Hosting Weblate"
+#~ msgstr "Naplózás bekapcsolva"
+
+#, fuzzy
+#~ msgid "Spanish"
+#~ msgstr "Společnosti"
+
+#, fuzzy
+#~ msgid "Dutch"
+#~ msgstr "Řeznictví"
+
+#, fuzzy
+#~ msgid "Chinese"
+#~ msgstr "víno"
+
+#, fuzzy
+#~ msgid "Save the map"
+#~ msgstr "Uložit mapu"
+
+#, fuzzy
+#~ msgid "Toggle console on/off"
+#~ msgstr "Vypnout/zapnout konzoli"
+
+#, fuzzy
+#~ msgid "Only show games with the same version:"
+#~ msgstr "Ukázat jen hry stejné verze:"
+
+#, fuzzy
+#~ msgid ""
+#~ "You have reached the current maximum increment. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Dosáhli jste aktuálního maximální úrovně. Vaši obyvatelé se nebudou dále "
+#~ "zdokonalovat."
+
+#, fuzzy
+#~ msgid "Valid map names are in the following form: {expression}"
+#~ msgstr "Názvy map jsou platné v následující podobě: {expression}"
+
+#, fuzzy
+#~ msgid "Try a name that only contains letters and numbers."
+#~ msgstr "Zkuste jméno, které obsahuje pouze písmena a číslice."
+
+#, fuzzy
+#~ msgid "This savegame is missing (click here)"
+#~ msgstr "Tato hra chybí (klikněte zde)"
+
+#, fuzzy
+#~ msgid "This is a savegame."
+#~ msgstr "Toto je uložená hra."
+
+#, fuzzy
+#~ msgid "A savegame with the name '{name}' already exists."
+#~ msgstr "Uložená hra názvem '{name}' již existuje."
+
+#, fuzzy
+#~ msgid "Invalid filename given"
+#~ msgstr "Zadán neplatný název souboru"
+
+#, fuzzy
+#~ msgid "An error happened during quicksave. Your game has not been saved."
+#~ msgstr "V průběhu ukládání se vyskytla chyba. Hra nebyla uložena."
+
+#, fuzzy
+#~ msgid "If this error happens again, please contact the development team:"
+#~ msgstr "Pokud se tato chyba objeví znovu, kontaktujte vývojářský tým:"
+
+#~ msgid "A new ship has been created."
+#~ msgstr "Postavena nová loď."
+
+#~ msgid "Specify the path to FIFE root directory."
+#~ msgstr "Určete cestu k adresáři s FIFE."
+
+#~ msgid "Please select a savegame or click on cancel."
+#~ msgstr "Prosím vyberte uloženou hru nebo klikněte na zrušit."
+
+#~ msgid "Select a savegame"
+#~ msgstr "Vyberte uloženou hru"
+
+#~ msgid "Error:"
+#~ msgstr "Chyba:"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which couldn't "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "Multiplayer vyžaduje knihovnu \"pyenet\", která nebyla ve vašem systému "
+#~ "nalezena."
+
+#~ msgid "Windows users: There is currently no reasonable support for Windows."
+#~ msgstr ""
+#~ "Uživatelé Windows: V současné době není dostupna podpora pro Windows."
+
+#~ msgid "Creator: {player}"
+#~ msgstr "Stvořitel: {player}"
+
+#~ msgid ""
+#~ "For multiplayer load, it is currently necessary for you to ensure you "
+#~ "have the correct savegame file."
+#~ msgstr "Pro načtení v módu multiplayeru je nutné mít správnou hru."
+
+#~ msgid ""
+#~ "This is not nice and we hope to offer a more convenient solution very "
+#~ "soon."
+#~ msgstr "To se nepovedlo a doufáme, že brzy bude tento problém lépe vyřešen."
+
+#~ msgid ""
+#~ "Meanwhile, please request the file {path} from the game creator and put "
+#~ "it in {map_directory} ."
+#~ msgstr ""
+#~ "Prosím, získejte z generátoru her soubor {path} a vložte jej do adresáře "
+#~ "{map_directory} ."
+
+#~ msgid "Too far from the nearest own or allied warehouse"
+#~ msgstr "Příliš daleko od nejbližšího vlastního či spojeneckého skladiště"
+
+#~ msgid "Gold"
+#~ msgstr "Zlato"
+
+#~ msgid "Enter prefix:"
+#~ msgstr "Zadejte předponu:"
+
+#~ msgid "Huker"
+#~ msgstr "Hoker"
+
+#~ msgid "Cloth"
+#~ msgstr "Oděvy"
+
+#~ msgid "Boards"
+#~ msgstr "Prkna"
+
+#~ msgid "Tools"
+#~ msgstr "Nářadí"
+
+#~ msgid "Frigate"
+#~ msgstr "Fregata"
+
+#~ msgid "Build fields"
+#~ msgstr "Postavit pole"
+
+#~ msgid "1 resident"
+#~ msgstr "1 obyvatel"
+
+#~ msgid "2 residents"
+#~ msgstr "2 obyvatelé"
+
+#~ msgid "3 residents"
+#~ msgstr "3 obyvatelé"
+
+#~ msgid "4 residents"
+#~ msgstr "4 obyvatelé"
+
+#~ msgid "5 residents"
+#~ msgstr "5 obyvatelů"
+
+#~ msgid "6 residents"
+#~ msgstr "6 obyvatelů"
+
+#~ msgid "7 residents"
+#~ msgstr "7 obyvatelů"
+
+#~ msgid "8 residents"
+#~ msgstr "8 obyvatelů"
+
+#~ msgid "This is the current maximum increment!"
+#~ msgstr "Toto je maximální možná úroveň!"
+
+#~ msgid "Average happiness:"
+#~ msgstr "Průměrná spokojenost:"
+
+#~ msgid "Most needed resource:"
+#~ msgstr "Nejžádanější surovina:"
+
+#~ msgid "Collector utilisation"
+#~ msgstr "Vytížení výběrčího daní"
+
+#~ msgid "Own settlements"
+#~ msgstr "Vlastní osady"
+
+#~ msgid "Allies"
+#~ msgstr "Spojenci"
+
+#~ msgid "Available Scenarios"
+#~ msgstr "Dostupné scénáře"
+
+#~ msgid "Scenario description"
+#~ msgstr "Popis scénáře"
+
+#~ msgid "Continue playing"
+#~ msgstr "Pokračovat ve hře"
+
+#~ msgid "Choose this scenario"
+#~ msgstr "Vybrat tento scénář"
+
+#~ msgid "The FIFE and Unknown Horizons development teams"
+#~ msgstr "Vývojové týmy FIFE a Unknown Horizons"
+
+#~ msgid "Have fun."
+#~ msgstr "Bavte se."
+
+#~ msgid "Attention please!"
+#~ msgstr "Důležité!"
+
+#~ msgid "This will be displayed to other players so they recognise the game."
+#~ msgstr "Toto bude zobrazeno ostatním hráčům, aby vybrali hru."
+
+#~ msgid "The game will start as soon as enough players have joined."
+#~ msgstr "Hra začne jakmile se připojí dost hráčů."
+
+#~ msgid "Campaign"
+#~ msgstr "Kampaň"
+
+#~ msgid "Supplies citizens with goods."
+#~ msgstr "Zásobuje občany zbožím."
+
+#~ msgid ""
+#~ "Due to technical reasons, the campaign file will be copied to the UH "
+#~ "campaign directory ({path})."
+#~ msgstr ""
+#~ "Z technických důvodů bude kampaň zkopírována do adresáře kampaní ({path})."
+
+#~ msgid ""
+#~ "This means that changes in the file you specified will not apply to the "
+#~ "game directly."
+#~ msgstr ""
+#~ "Toto znamená, že změny v vybraném souboru nebudou ve hře použity přímo."
+
+#~ msgid ""
+#~ "To see the changes, either always start UH with the current arguments or "
+#~ "edit the file {filename}."
+#~ msgstr ""
+#~ "Aby byly vidět změny, je třeba spustit UH s současnými příkazy nebo "
+#~ "zasáhnout do souboru {filename}."
+
+#~ msgid "The savegame file is probably read-only."
+#~ msgstr "Soubor hry je pravděpodobně jen k čtení."
+
+#~ msgid "File used by another process"
+#~ msgstr "Soubor je využíván jiným procesem"
+
+#~ msgid "The savegame file is currently used by another program."
+#~ msgstr "Soubor hry je zrovna používán jiným programem."
+
+#~ msgid "We are very sorry for this and want to fix underlying error."
+#~ msgstr "Velice se omlouváme a snažíme se tuto chybu vyřešit."
+
+#~ msgid "Error: Unable to find required libraries"
+#~ msgstr "Nebylo možné najít potřebné knihovny"
+
+#~ msgid ""
+#~ "We are sorry to inform you that a library that is required by Unknown "
+#~ "Horizons, is missing and needs to be installed."
+#~ msgstr ""
+#~ "Omlouváme se, ale knihovna nutná pro hraní Unknown Horizons chybí, a musí "
+#~ "být doinstalována."
+
+#~ msgid ""
+#~ "Installers for Windows users are available at \"http://pyyaml.org/wiki/"
+#~ "PyYAML\", Linux users should find it in their packagement management "
+#~ "system under the name \"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Pro uživatele Windows je instalátor dostupný na \"http://pyyaml.org/wiki/"
+#~ "PyYAML\", uživatelé Linux by správcem balíčků hledat \"pyyaml\" nebo "
+#~ "\"python-yaml\"."
+
+#~ msgid "FIFE was not found."
+#~ msgstr "FIFE nebylo nalezeno."
+
+# oprava závorek
+#~ msgid "Configured language {lang} could not be loaded"
+#~ msgstr "Jazyk {lang} nelze načíst"
+
+#~ msgid "WARNING: Incompatible version {version}!"
+#~ msgstr "WARNING: Nekompatibilní verze {version}!"
+
+#~ msgid "Required version: {required}!"
+#~ msgstr "Požadovaná verze: {required}!"
+
+#~ msgid "Build related fields"
+#~ msgstr "Stavba polí"
+
+#~ msgid "Increment {increment}"
+#~ msgstr "Úroveň {increment}"
+
+#~ msgid "Burns a lot of boards to charcoal."
+#~ msgstr "Z prken vyrábí dřevěné uhlí."
+
+#~ msgid "Log"
+#~ msgstr "Kláda"
+
+#~ msgid "Road across a river."
+#~ msgstr "Cesta přes řeku."
+
+#~ msgid "Rampart"
+#~ msgstr "Val"
+
+#~ msgid "The game you selected couldn't be started."
+#~ msgstr "Vybranou hru se nepodařilo začít."
+
+#~ msgid "Error: don't know how to handle condition type {condition}"
+#~ msgstr "Chyba: není znám způsob zpracování podmínky {condition}."
+
+#~ msgid "Error: Cannot find campaign '{name}'."
+#~ msgstr "Chyba: Nemohu najít kampaň '{name}'."
+
+#~ msgid "Error: Cannot find scenario '{name}'."
+#~ msgstr "Chyba: Nemohu najít scénář '{name}'."
+
+#~ msgid "Buildings must be built on islands."
+#~ msgstr "Stavby musí být stavěny na ostrovech."
+
+#~ msgid "The ground is not suitable for this building."
+#~ msgstr "Tento povrch není pro budovu vhodný."
+
+#~ msgid "You can only build this within your settlement."
+#~ msgstr "Stavět smíte jen uvnitř Vaší osady."
+
+#~ msgid "This area is already occupied."
+#~ msgstr "Toto území je již zabráno."
+
+#~ msgid "Another player has already occupied this island."
+#~ msgstr "Tento ostrov je již zabrán jiným hráčem."
+
+#~ msgid "You can't build this on top of another building."
+#~ msgstr "Není možné postavit přes jinou budovu."
+
+#~ msgid "You can't build this on top of a unit."
+#~ msgstr "Není možné postavit přes jednotku."
+
+#~ msgid "This building requires to be placed near the ocean."
+#~ msgstr "Tato budova vyžaduje postavení blízko moři."
+
+#~ msgid "aristocrat"
+#~ msgstr "šlechtic"
+
+#~ msgid "citizen"
+#~ msgstr "občan"
+
+#~ msgid "merchant"
+#~ msgstr "obchodník"
+
+#~ msgid "pioneer"
+#~ msgstr "průzkumník"
+
+#~ msgid "sailor"
+#~ msgstr "námořník"
+
+#~ msgid "settler"
+#~ msgstr "osadník"
+
+#~ msgid "wood"
+#~ msgstr "dřevo"
+
+#~ msgid "{incr_inhabitant_name}"
+#~ msgstr "{incr_inhabitant_name}"
+
+#~ msgid "Will buy {resource_name} whenever less than {limit}t are in stock."
+#~ msgstr ""
+#~ "Nakoupí {resource_name} kdykoli, když ve skladu klesne počet tohoto zboží "
+#~ "pod určené množství {limit}t."
+
+#~ msgid "Will sell {resource_name} whenever more than {limit}t are available."
+#~ msgstr ""
+#~ "Prodá {resource_name} kdykoli, když je ve skladu toto zboží dostupné "
+#~ "{limit}k prodeji."
+
+#~ msgid "Fire Brigade"
+#~ msgstr "Hasiči"
+
+#~ msgid "Weaver's Tent"
+#~ msgstr "Tkadlec"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Prosím, dejte nám vědět přes IRC nebo na našem fóru. Oboje hledejte na "
+#~ "unknown-horizons.org"
+
+#~ msgid "{player1} and {player2} are now {status}"
+#~ msgstr "{player1} a {player2} jsou teď {status}"
+
+#~ msgid "{name}: {chatmessage}"
+#~ msgstr "{name}: {chatmessage}"
+
+#~ msgid "Lumberjack Camp"
+#~ msgstr "Dřevorubecký tábor"
+
+#~ msgid "We are very sorry for this, and want to fix this error."
+#~ msgstr "Velice se omlouváme a snažíme se tuto chybu vyřešit."
+
+#~ msgid "This will delete all changes to the settings you made so far."
+#~ msgstr "Toto smaže všechna nastavení které si doposud provedl."
+
+#~ msgid "Click to change the name of your settlement."
+#~ msgstr "Klikněte pro změnu jména Vaší osady."
+
+#~ msgid "Bricks"
+#~ msgstr "Cihly"
+
+#~ msgid "Textiles"
+#~ msgstr "Textílie"
+
+#~ msgid "Tent Ruin"
+#~ msgstr "Ruiny stanu"
+
+#~ msgid "blue"
+#~ msgstr "modrá"
+
+#~ msgid "bordeaux"
+#~ msgstr "bordó"
+
+#~ msgid "cyan"
+#~ msgstr "azurová"
+
+#~ msgid "gray"
+#~ msgstr "šedý"
+
+#~ msgid "green"
+#~ msgstr "zelený"
+
+#~ msgid "lemon"
+#~ msgstr "citrón"
+
+#~ msgid "orange"
+#~ msgstr "oranžový"
+
+#~ msgid "pink"
+#~ msgstr "rúžový"
+
+#~ msgid "purple"
+#~ msgstr "růžový"
+
+#~ msgid "red"
+#~ msgstr "červený"
+
+#~ msgid "white"
+#~ msgstr "bílý"
+
+#~ msgid "yellow"
+#~ msgstr "žlutý"
+
+#~ msgid "Boar"
+#~ msgstr "Kanec"
+
+#~ msgid "Branch Office"
+#~ msgstr "Obchodní přístav"
+
+#~ msgid "Cattle"
+#~ msgstr "Dobytek"
+
+#~ msgid "Deer"
+#~ msgstr "Jelen"
+
+#~ msgid "Fisher"
+#~ msgstr "Rybář"
+
+#~ msgid "Pirate Ship"
+#~ msgstr "Pirátská loď"
+
+#~ msgid "Sheep"
+#~ msgstr "Ovce"
+
+#~ msgid "Sailor buildings"
+#~ msgstr "Namořní budovy"
+
+#~ msgid "Trail (R): Needed for collecting goods."
+#~ msgstr "Stezka (R): Potřebná pro sběr zboží."
+
+#~ msgid "Pioneer buildings"
+#~ msgstr "Průkopnické stavby"
+
+#~ msgid "Charcoal burning: Burns a lot of boards to charcoal."
+#~ msgstr "Výroba uhlí ze dřeva. Potřebuje hodně dřeva."
+
+#~ msgid "${player1} and ${player2} are now ${status}"
+#~ msgstr "${player1} a ${player2} jsou teď ${status}"
+
+#~ msgid "A new settlement was founded by ${player}."
+#~ msgstr "Byla vytvořena nová osada od ${player}."
+
+#~ msgid "Screenshot has been saved to ${file}."
+#~ msgstr "Snímek obrazovky je uložen do ${file}."
+
+#~ msgid "You need more ${resource} to build this building."
+#~ msgstr "Potřebuješ více ${resource} k postavení budovy."
+
+#~ msgid "System default"
+#~ msgstr "Výchozí nastavení"
+
+#~ msgid "Configured language {lang} at {place} could not be loaded"
+#~ msgstr "Nastavený jazyk {lang} na {place} neleze načíst"
+
+#~ msgid "A new settlement has been created by ${player}."
+#~ msgstr "Byla vytvořena nová osada od ${player}."
+
+#~ msgid "One of your settler has no main square in it's range."
+#~ msgstr "Jeden z tvých osadníků nemá v dosahu náměstí."
+
+#~ msgid "Some of your settlers just moved out."
+#~ msgstr "Někteří osadníci se odstěhovali."
+
+#~ msgid "Your settlers reached level ${level}."
+#~ msgstr "Tvůj osadník dosáhl úrovně ${level}."
+
+#~ msgid "Configured language %(lang)s at %(place)s could not be loaded"
+#~ msgstr "Nastavený jazyk %(lang)s na %(place)s neleze načíst"
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it's in the specified "
+#~ "range."
+#~ msgstr ""
+#~ "Prosím zkontroluj port který jsi zadal a ujisti se jestli je v určeném "
+#~ "rozsahu."
+
+#~ msgid "Failed to apply new network data."
+#~ msgstr "Nepodařilo se načíst nová síťová data."
+
+#~ msgid "Networking couldn't be initialised with the current configuration."
+#~ msgstr "Síť nemůže být inicializována s aktuálním nastavením."
+
+#~ msgid "Check the data you entered in the Network section."
+#~ msgstr "Zkontroluj informace, které jsi zadal v části o síťi."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special privileges, try one greater "
+#~ "than 1024 or 0."
+#~ msgstr ""
+#~ "Nízká čísla portů vyžadují zvláštní práva, zkus větší než 1024 nebo 0."
+
+#~ msgid "There are no saved games to load"
+#~ msgstr "Nejsou žádné uložené hry k nahrání"
+
+#~ msgid ""
+#~ "A savegame with the name \"%s\" already exists. \n"
+#~ "Should i overwrite it?"
+#~ msgstr ""
+#~ "Ukládaná hra s názvem \"%s\" již existuje. \n"
+#~ "Chceš jí přepsat?"
+
+#~ msgid "Savegame ver. %d"
+#~ msgstr "Uložená hra verze %d"
+
+#~ msgid ""
+#~ "WARNING: Incompatible ver. %(ver)d!\n"
+#~ "Need ver. %(need)d!"
+#~ msgstr ""
+#~ "UPOZORNĚNÍ: Nekompatibilní verze %(ver)d!\n"
+#~ "Potřeba verze %(need)d!"
+
+#~ msgid "INCOMPATIBLE VERSION\n"
+#~ msgstr "NEKOMPATIBILNÍ VERZE\n"
+
+#~ msgid "You need to select a savegame to delete"
+#~ msgstr "Potřebuješ vybrat uloženou hru pro smazání"
+
+#~ msgid "Do you really want to delete the savegame \"%s\"?"
+#~ msgstr "Opravdu chceš smazat uloženou hru \"%s\"?"
+
+#~ msgid ""
+#~ "Check the data you entered in the Network section in the settings "
+#~ "dialogue."
+#~ msgstr "Zkontroluj data která jsi zadal v sekci o síti v dialogu nastavení."
+
+#~ msgid ""
+#~ "Could not connect to master server. Please check your Internet "
+#~ "connection. If it is fine, it means our master server is temporarily "
+#~ "down.\n"
+#~ "Details: %s"
+#~ msgstr ""
+#~ "Nelze se připojit k hlavnímu serveru. Prosím zkontroluj tvé internetové "
+#~ "připojení. Pokud je v pořádku je náš hlavní server dočasně mimo provoz.\n"
+#~ "Detaikly: %s"
+
+#~ msgid "Network Error"
+#~ msgstr "Chyba sítě"
+
+#~ msgid "Map: "
+#~ msgstr "Mapa: "
+
+#~ msgid "Players: "
+#~ msgstr "Hráči: "
+
+#~ msgid "Creator: "
+#~ msgstr "Tvůrce: "
+
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: %(gameversion)s Your "
+#~ "version: %(ownversion)s"
+#~ msgstr ""
+#~ "Síťová verze hry se liší od Vaší verze. Každý hráč při síťové hře musí "
+#~ "používat stejnou verzi. Lze opravit nainstalováním nejnovější verze hry. "
+#~ "Verze síťové hry: %(gameversion)s Vaše verze: %(ownversion)s"
+
+#~ msgid "Difficulty: "
+#~ msgstr "Obtížnost: "
+
+#~ msgid "Author: "
+#~ msgstr "Autor: "
+
+#~ msgid "You entered an invalid playername"
+#~ msgstr "Zadal jsi neplatné jméno hráče"
+
+#~ msgid "Ship inventory"
+#~ msgstr "Lodní inventář"
+
+#~ msgid "Load/Unload:"
+#~ msgstr "Naložit/Vyložit:"
+
+#~ msgid "Buy/Sell:"
+#~ msgstr "Koupit/Prodat:"
+
+#~ msgid "Can't equip trade ship with weapons"
+#~ msgstr "Obchodní lodě nelze vyzbrojit"
+
+#~ msgid "It is not possible to equip a trade ship with weapons"
+#~ msgstr "Není možné vybavit obchodní lodě zbraněmi"
+
+#~ msgid "Trade ship"
+#~ msgstr "Obchodní loď"
+
+#~ msgid "Destroy"
+#~ msgstr "Zničit"
+
+#~ msgid "Game menu"
+#~ msgstr "Herní menu"
+
+#~ msgid "Captain's log"
+#~ msgstr "Kapitánův deník"
+
+#~ msgid "Rotate map counterclockwise"
+#~ msgstr "Otočit mapu proti směru hodinových ručiček"
+
+#~ msgid "Rotate map clockwise"
+#~ msgstr "Otočit mapu po směru hodinových ručiček"
+
+#~ msgid "Build settlement:"
+#~ msgstr "Postavit osadu:"
+
+#~ msgid "Saved at %s"
+#~ msgstr "Uloženo v %s"
+
+#~ msgid "Unknown savedate\n"
+#~ msgstr "Neznáme datum uložení\n"
+
+#~ msgid "Saved at %s\n"
+#~ msgstr "Uloženo v %s\n"
+
+#~ msgid "(potentially incompatible)"
+#~ msgstr "(potenciálisan összeférhetetlen)"
+
+#~ msgid ""
+#~ "{translated} translated messages, {untranslated} untranslated messages"
+#~ msgstr ""
+#~ "{translated} lefordított üzenetek, {untranslated} lefordítatlan üzenetek"
+
+#~ msgid "Reset to factory"
+#~ msgstr "Visszaállítás a gyári beállításokra"
+
+#~ msgid "Save as default"
+#~ msgstr "Mentés mint alapértelmezett"
+
+#~ msgid "Restore default"
+#~ msgstr "Visszaállítása az alapértelmezettre"
+
+#~ msgid "Enable logging"
+#~ msgstr "Naplózás bekapcsolása"
+
+#~ msgid "Too far from the nearest warehouse"
+#~ msgstr "Túl messze van a legközelebbi raktár"
+
+#~ msgid "Leave Captain's log"
+#~ msgstr "A kapitány naplójának bezárása"
+
+#~ msgid "Click to change the name of this ship."
+#~ msgstr "Kattints ide a hajó nevének megváltoztatásához."
+
+#~ msgid "Buy resources"
+#~ msgstr "Nyersanyag vásárlás"
+
+#~ msgid "Sell resources"
+#~ msgstr "Nyersanyag eladás"
+
+#~ msgid "settlements of {player}"
+#~ msgstr "{player} települései"
+
+#~ msgid "ships of {player}"
+#~ msgstr "{player} hajói"
+
+#~ msgid "Branch office overview"
+#~ msgstr "Fióktelep áttekintés"
+
+#~ msgid "Settler buildings"
+#~ msgstr "Telepes épületek"
+
+#~ msgid "Starts a random map."
+#~ msgstr "Random térkép indítása."
+
+#~ msgid "Loads the last quicksave."
+#~ msgstr "Az utolsó gyorsmentés betöltése."
+
+#~ msgid "Development options"
+#~ msgstr "Fejlesztési lehetőségek"
+
+#~ msgid "For internal use only."
+#~ msgstr "Csak belső használatra."
+
+#~ msgid "Attacking "
+#~ msgstr "Támadás"
+
+#~ msgid "Something went wrong with the network: "
+#~ msgstr "Valami gubanc van a hálózattal: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Please report this to the author."
+#~ msgstr ""
+#~ "\n"
+#~ "Kérlek ezt jelentsd az alkotójának."
+
+#~ msgid "Fishing boat"
+#~ msgstr "Halász hajó"
+
+#~ msgid "%H:%M, %A, %B %d"
+#~ msgstr "%H:%M, %A, %B %d"
+
+#~ msgid "Hit P to continue the game or click below!"
+#~ msgstr "Üsd le a P -t a folytatáshoz, vagy kattints lentre!"
+
+#~ msgid "Networking isn't initialised"
+#~ msgstr "A hálózatot nem sikerült betölteni"
+
+#~ msgid ""
+#~ "Networking isn't initialised, probably because of configuration issues. "
+#~ "Check your settings!"
+#~ msgstr ""
+#~ "A hálózat nincs betöltve, valószínűleg beállítási hiba. Nézd át a "
+#~ "beállításaidat!"

@@ -1,0 +1,4728 @@
+# Unknown Horizons Italian translation.
+# Copyright (C) YEAR The Unknown Horizons Team
+# This file is distributed under the same license as the Unknown Horizons package.
+# Fabio Pedretti <fabio.ped@libero.it>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2021-05-21 11:31+0000\n"
+"Last-Translator: Sinapse X <sinapsex13@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/uh/uh/it/>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7-dev\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "Data di salvataggio sconosciuta"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "Data di salvataggio sconosciuta"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+#, fuzzy
+msgid "Descriptive Label:"
+msgstr "Descrizione: "
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "Edifici"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "Unknown Horizons è andato in crash."
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "Data di salvataggio sconosciuta"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "Giocatore singolo"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "Carica la partita"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr "Riconoscimenti"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr "Editor"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Quit"
+msgstr "Esci"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Help"
+msgstr "Guida"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Options"
+msgstr "Azioni"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "Nuova partita - Giocatore singolo"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Scenario"
+msgstr "Scenario"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Random map"
+msgstr "Mappa casuale"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Free play"
+msgstr "Gioco libero"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "Data di salvataggio sconosciuta"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Color:"
+msgstr "Colore:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "AI players:"
+msgstr "AI Giocatori:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "Scegliere una mappa:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "Numeri di player raccomandati"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Game settings:"
+msgstr "Impostazioni di gioco:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "Densità di risorse:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "Commerciante Libero"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Pirates"
+msgstr "Pirati"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr "Disastri"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Saving"
+msgstr "Salvataggio"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr "Generale"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "Seleziona lingua:"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Mouse"
+msgstr "Mouse"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Graphics"
+msgstr "Grafica"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Sound"
+msgstr "Suono"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr "Tasti di scelta rapida"
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "Statistiche"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Players"
+msgstr "Giocatori"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My ships"
+msgstr "Le mie navi"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My settlements"
+msgstr "Le mie basi"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Player scores"
+msgstr "Punteggi Giocatore"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Name"
+msgstr "Nome"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Money"
+msgstr "Soldi"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Land"
+msgstr "Terra"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Resources"
+msgstr "Risorse"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Buildings"
+msgstr "Edifici"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlers"
+msgstr "Coloni"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Units"
+msgstr "Unità"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Total"
+msgstr "Totale"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "140"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "104"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "InventoryTab"
+msgstr "Inventario"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Limit: 30t per slot"
+msgstr "Limite: %st per posizione"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "Compra/Vendi"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr ""
+"Saranno comprati {resource_name} per {price} oro/t ogni volta che meno di "
+"{limit}t sono disponibili a magazzino."
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Trade history"
+msgstr "Cronologia di commercio"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Free Trader"
+msgstr "Commerciante Libero"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "Panoramica produzione"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "Data di salvataggio sconosciuta"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "Commercio"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "LumberjackOverviewTab"
+msgstr "Tenda del taglialegna"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr "Insediamento"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr "Infrastruttura"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr "Residenziale"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr "Servizi"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr "Precauzione"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "Campi"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Pioneers"
+msgstr "pionieri"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Citizens"
+msgstr "Cittadini"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr "Agricoltura"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr "Mare"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr "Cibo"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr "Laboratori"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr "Compagnie"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr "Legno"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Mining"
+msgstr "Minerario"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr "Fortificazioni"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr "Servizio Militare"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sailors"
+msgstr "marinai"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "Residenze ed infrastrutture"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military"
+msgstr "Militari"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Merchants"
+msgstr "Mercanti"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Up"
+msgstr "Partita in pausa"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Down"
+msgstr "Partita in pausa"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "Account"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr "Reddito:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr "Tasse"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Sale"
+msgstr "Vendite"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Expenses:"
+msgstr "Spese:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Running costs"
+msgstr "Costi ricorrenti"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Buying"
+msgstr "Acquisti"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Balance"
+msgstr "Bilancio"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Upgrade permissions:"
+msgstr "L'aggiornamento delle autorizzazioni:"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr "Felicità per casa"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents per house"
+msgstr "Residenti per casa"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr "Numero di abitanti per casa"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr "Case con questo numero di abitanti"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Summary"
+msgstr "Sommario"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "Casa"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents"
+msgstr "Residenti"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "Panoramica dei coloni"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Tent"
+msgstr "Tenda"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Needed resources:"
+msgstr "Risorse necessarie:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr "Tasse:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Paid taxes"
+msgstr "Tasse pagate"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Tax rate"
+msgstr "rata tassa"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr ""
+"Mantiene le api. Produce favi utilizzati per la pasticceria. Necessita di "
+"una fattoria."
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "Consuma farina. Produce cibo."
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+#, fuzzy
+msgid "_ Recruits units suitable for ground combat."
+msgstr "Recluta unità adatte per il combattimento a terra."
+
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "Fornisce sicurezza."
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "Produce condimenti dalle spezie."
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "Costruisce imbarcazioni e piccole navi. Da costruire sulla costa."
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "Consuma luppolo. Produce birra."
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "Converte l'argilla in mattoni."
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "Necessita di suini o bovini. Produce cibo."
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "Produce cannoni."
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "Allevamento di bovini. Necessita di una fattoria."
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+#, fuzzy
+msgid "_ Burns a lot of boards."
+msgstr "Brucia le assi."
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+msgid "None"
+msgstr "Nessuno"
+
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "Ottiene argilla dal deposito."
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr ""
+"Produce fave di cacao utilizzate per la pasticceria. Necessita di una "
+"fattoria."
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "Produce granturco. Necessita di una fattoria."
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "Converte lo zucchero in liquore."
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+#, fuzzy
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr "Cura le malattie. Consuma erbe."
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "Coltiva campi, raccoglie ed alleva il bestiame."
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+#, fuzzy
+msgid "_ Extinguishes fires."
+msgstr "Spegne gli incendi."
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "Pescare nel mare, produce cibo."
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "Produce erbe. Ha bisogno di una fattoria."
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "Produce luppolo. Necessita di una fattoria."
+
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "Cacciare animali selvaggi, produce cibo."
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "Estende l'area dell'insediamento."
+
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "Raccoglie legna e la trasforma in assi."
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+#, fuzzy
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr "Fornisce beni ai cittadini. Fornisce comunità."
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "Ottiene ferro dal deposito."
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "Produce tutti i tipi di dolciumi."
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "Alleva pecore. Produce lana. Necessita di una fattoria."
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "Soddisfa le esigenze religiose dei cittadini."
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "Alleva maiali. Necessita di una fattoria."
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "Produce cibo. Necessita di una fattoria."
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "Alloggia gli abitanti."
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "il sale Evapora. Costruire sulla costa del mare."
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "Permette di commerciare con il libero commerciante."
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "Raffina tutti i tipi di minerali."
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "Cresce spezie. Necessita di una fattoria."
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "Scolpisce la pietra in mattoni."
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "Ottiene pietra da una montagna."
+
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr ""
+"Aumenta la capacità di immagazzinaggio, estende l'area dell'insediamento e "
+"fornisce raccoglitori."
+
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "Usato per la produzione di liquori. Richiede una fattoria."
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "Consente incontri."
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "produce tabacchi da tabacco."
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "produce tabacco. Ha bisogno di fattoria."
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "Produce utensili dal ferro."
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "Necessario per raccogliere prodotti."
+
+#: Assets/World/Buildings2/tree/tree.tscn
+#, fuzzy
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr "Fornisce legname. Abbattuto da boscaioli."
+
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "Fornisce educazione."
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr ""
+"Produce uva per l'impiego nel vino e pasticceria. Necessita di una fattoria."
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "Produce armi dal ferro."
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "Trasforma la lana di agnelli in abiti."
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "Macina il grano per farne farina."
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "Produce vino dai grappoli."
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "Difende la tua base."
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "Unknown Horizons è andato in crash."
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "Grazie per aver scelto Unknown Horizons!"
+
+#~ msgid "Unknown Horizons has crashed."
+#~ msgstr "Unknown Horizons si è bloccato."
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr "Ci spiace di questo e desideriamo risolvere questo errore."
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr "Per farlo abbiamo bisogno delle informazioni dal file di log:"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Per cortesia inviatecelo tramite IRC o al nostro forum, su http://unknown-"
+#~ "horizons.org ."
+
+#~ msgid "Return to editor"
+#~ msgstr "Ritorna all'editor"
+
+#~ msgid "Save map"
+#~ msgstr "Salva mappa"
+
+#~ msgid "Load map"
+#~ msgstr "Carica mappa"
+
+#~ msgid "Settings"
+#~ msgstr "Configurazione"
+
+#~ msgid "Exit editor"
+#~ msgstr "Esci dall'editor"
+
+#~ msgid "Select brush size:"
+#~ msgstr "Selezionare dimensione penello:"
+
+#~ msgid "Select terrain:"
+#~ msgstr "Selezionare terreno:"
+
+#~ msgid "(right click to stop)"
+#~ msgstr "(clic destro per fermare)"
+
+#~ msgid "Game start"
+#~ msgstr "Inizio Gioco"
+
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr ""
+#~ "È necessario trovare un insediamento prima che e` possibile costruire "
+#~ "edifici!"
+
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr ""
+#~ "Seleziona la tua nave e avvicinarsi alla costa tramite tasto destro del "
+#~ "mouse."
+
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr ""
+#~ "In seguito, premere il pulsante di grandi dimensioni nella scheda "
+#~ "panoramica nave."
+
+#~ msgid "Build"
+#~ msgstr "Costruire"
+
+#~ msgid "Running costs:"
+#~ msgstr "Costi ricorrenti:"
+
+#~ msgid "Related buildings"
+#~ msgstr "Edifici correlati"
+
+#~ msgid "Inhabitants"
+#~ msgstr "Abitanti"
+
+#, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr "Aumenta la velocità di gioco ({key})"
+
+#, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr "Diminuire la velocità di gioco({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map counterclockwise ({key})"
+#~ msgstr "Ruotare la mappa in senso antiorario ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map clockwise ({key})"
+#~ msgstr "Ruotare la mappa in senso orario ({key})"
+
+#~ msgid "Zoom in"
+#~ msgstr "Ingrandire"
+
+#~ msgid "Zoom out"
+#~ msgstr "Ridurre"
+
+#, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "Distruggere ({key})"
+
+#, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "Diario del capitano ({key})"
+
+#, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "Menù costruzione ({key})"
+
+#~ msgid "Diplomacy"
+#~ msgstr "diplomazia"
+
+#, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "Menu del gioco ({key})"
+
+#~ msgid "Change name"
+#~ msgstr "Cambia il nome"
+
+#~ msgid "Old name:"
+#~ msgstr "Nome vecchio:"
+
+#~ msgid "Enter new name:"
+#~ msgstr "Inserisci un nuovo nome:"
+
+#~ msgid "Apply the new name"
+#~ msgstr "Applica il nuovo nome"
+
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#~ msgid "Enter your message:"
+#~ msgstr "Inserisci il messaggio:"
+
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr ""
+#~ "Per costruire un'unità di terra, clicca su una delle schede di classe, "
+#~ "seleziona l'unità di terra desiderata e conferma l'ordine."
+
+#~ msgid "Currently building:"
+#~ msgstr "Attualmente in costruzione:"
+
+#~ msgid "Pause"
+#~ msgstr "Pausa"
+
+#~ msgid "Resume"
+#~ msgstr "Riprendi"
+
+#~ msgid "Construction progress:"
+#~ msgstr "Progresso della costruzione:"
+
+#~ msgid "Resources still needed:"
+#~ msgstr "Risorse ancora necessarie:"
+
+#~ msgid "Cancel building:"
+#~ msgstr "Annulla costruzione:"
+
+#~ msgid "(lose all resources)"
+#~ msgstr "(perdi tutte le risorse)"
+
+#~ msgid "Cancel all building progress"
+#~ msgstr "Annulla tutti costruzioni in corso"
+
+#~ msgid "Confirm order"
+#~ msgstr "Confermare l'ordine"
+
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "(come nelle schede di selezione)"
+
+#~ msgid "$res"
+#~ msgstr "$risultato"
+
+#~ msgid "24t"
+#~ msgstr "24t"
+
+#~ msgid "06t"
+#~ msgstr "06t"
+
+#~ msgid "2500"
+#~ msgstr "2500"
+
+#~ msgid "Sloop-o'-war"
+#~ msgstr "Corvetta da guerra"
+
+#~ msgid "Three-masted most common classified war ship with one gun deck."
+#~ msgstr ""
+#~ "Veliero più comune classificato come nave da battaglia, con un solo ponte "
+#~ "armato."
+
+#~ msgid "Buy Upgrades"
+#~ msgstr "Acquista aggiornamenti"
+
+#~ msgid "Cannons"
+#~ msgstr "Cannoni"
+
+#~ msgid "Hull"
+#~ msgstr "Scafo"
+
+#~ msgid "+ 24t"
+#~ msgstr "+ 24t"
+
+#~ msgid "+ 14t"
+#~ msgstr "+ 14t"
+
+#~ msgid "+ 06t"
+#~ msgstr "+ 06t"
+
+#~ msgid "+ 1457"
+#~ msgstr "+ 1457"
+
+#~ msgid "Build groundunit:"
+#~ msgstr "Costruisci unità di terra:"
+
+#~ msgid "Build this groundunit!"
+#~ msgstr "Costruisci questa unità di terra!"
+
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "Per costruire una barca cliccare su una delle schede di classe, "
+#~ "selezionare la nave desiderata e confermare l'ordine."
+
+#~ msgid "Build ship:"
+#~ msgstr "Costruisci nave:"
+
+#~ msgid "Build this ship!"
+#~ msgstr "Costruisci questa nave!"
+
+#~ msgid "ally"
+#~ msgstr "Alleato"
+
+#~ msgid "neutral"
+#~ msgstr "neutrale"
+
+#~ msgid "enemy"
+#~ msgstr "Nemico"
+
+#~ msgid "Building overview"
+#~ msgstr "Panoramica edificio"
+
+#~ msgid "Capacity utilization"
+#~ msgstr "Utilizzo della capacità"
+
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "Clicca per cambiare il nome di questa nave"
+
+#~ msgid "Settlement inventory"
+#~ msgstr "liquidazione delle scorte"
+
+#~ msgid "sad"
+#~ msgstr "triste"
+
+#~ msgid "satisfied"
+#~ msgstr "soddisfatto"
+
+#~ msgid "happy"
+#~ msgstr "felice"
+
+#~ msgid "Amount of houses with this happiness"
+#~ msgstr "Quantità di case con questa felicità"
+
+#~ msgid "houses"
+#~ msgstr "case"
+
+#~ msgid "residents"
+#~ msgstr "Residenti"
+
+#~ msgid "Provides security for your settlement."
+#~ msgstr "Fornisce sicurezza per il tuo insediamento."
+
+#~ msgid "Selling"
+#~ msgstr "Vendita"
+
+#~ msgid "Name:"
+#~ msgstr "Nome:"
+
+#~ msgid "Weapons:"
+#~ msgstr "Armi:"
+
+#~ msgid "Resource deposit"
+#~ msgstr "Deposito risorse"
+
+#~ msgid ""
+#~ "This is a resource deposit where you can build a mine to dig up resources."
+#~ msgstr ""
+#~ "Questo è un deposito risorse, vi puoi costruire una miniera per estrarre "
+#~ "risorse."
+
+#~ msgid "It contains these resources:"
+#~ msgstr "Contiene queste risorse:"
+
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "Clicca per cambiare il nome del tuo insediamento"
+
+# Resources
+#~ msgid "Happiness"
+#~ msgstr "Felicità"
+
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr ""
+#~ "Il segnale di fuoco mostra al commerciante libero come raggiungere il tuo "
+#~ "insediamento in caso che vuoi acquistare o vendere beni."
+
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr ""
+#~ "Questa è la nave del commerciante. Ti visiterà per comprare o vendere "
+#~ "beni."
+
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "Clicca per cambiare il nome di questa nave"
+
+#~ msgid "Build settlement"
+#~ msgstr "Costruisci insediamento"
+
+#~ msgid "Configure trading route"
+#~ msgstr "Configura percorso commerciale"
+
+#~ msgid "Discard all resources"
+#~ msgstr "Scarta tutte le risorse"
+
+#~ msgid "Ship:"
+#~ msgstr "Nave:"
+
+#~ msgid "Exchange:"
+#~ msgstr "Scambio:"
+
+#~ msgid "Trade partner:"
+#~ msgstr "Commerciante:"
+
+#~ msgid "Buy or sell resources"
+#~ msgstr "Compra o vendi risorse"
+
+#~ msgid "Select resources:"
+#~ msgstr "Seleziona risorse:"
+
+#~ msgid "Collector utilization"
+#~ msgstr "Utilizzo del collettore"
+
+#~ msgid "Balance:"
+#~ msgstr "Bilancio:"
+
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "Guarda le risorse prodotte in questo insediamento"
+
+#~ msgid "Pause production"
+#~ msgstr "Sospendi la produzione"
+
+#~ msgid "Start production"
+#~ msgstr "Avvia la produzione"
+
+#~ msgid "Select resource:"
+#~ msgstr "Seleziona risorsa:"
+
+#~ msgid ""
+#~ "The resource you select is displayed instead of the current one. Empty by "
+#~ "clicking on X."
+#~ msgstr ""
+#~ "La risorsa selezionata è visualizzata invece della corrente. Vuota "
+#~ "cliccando sulla X."
+
+#~ msgid "Save current resource configuration as default for all settlements."
+#~ msgstr ""
+#~ "Salva la configurazione delle risorse corrente come predefinita per tutti "
+#~ "gli insediamenti."
+
+#~ msgid "Reset default resource configuration for all settlements."
+#~ msgstr ""
+#~ "Ripristina la configurazione delle risorse predefinita per tutti gli "
+#~ "insediamenti."
+
+#~ msgid "Move up"
+#~ msgstr "Spostare verso l'alto"
+
+#~ msgid "Delete entry"
+#~ msgstr "Cancella voce"
+
+#~ msgid "Move down"
+#~ msgstr "spostare verso il basso"
+
+# "entries" does not clearly exist in italian in such a generic way. is it "info", "news", "cheats", "settings"...?
+#~ msgid "Read previous entries"
+#~ msgstr "Leggi le voci precedenti"
+
+#~ msgid "Read next entries"
+#~ msgstr "Leggi le note seguenti"
+
+# message from the game (software), message in game (from player) or message from the match/help?
+#~ msgid "Game messages"
+#~ msgstr "Messaggi di gioco"
+
+#~ msgid "Whole world"
+#~ msgstr "Mondo intero"
+
+#~ msgid "Everybody"
+#~ msgstr "Tutti"
+
+#~ msgid "Sends the chat messages to all players."
+#~ msgstr "Manda i messaggi in chat a tutti i giocatori."
+
+#~ msgid "Enter your message here"
+#~ msgstr "Inserisci il tuo messaggio qui"
+
+#~ msgid "Return to game"
+#~ msgstr "Ritorna al gioco"
+
+#~ msgid "Island Name:"
+#~ msgstr "Nome dell'isola:"
+
+#~ msgid "Player Name:"
+#~ msgstr "Nome giocatore:"
+
+#~ msgid "Wait at load:"
+#~ msgstr "Attendi il caricamento:"
+
+#~ msgid "Wait at unload:"
+#~ msgstr "Attendere scaricare:"
+
+#~ msgid "Select a resource:"
+#~ msgstr "Seleziona risorsa:"
+
+#~ msgid "Route activity:"
+#~ msgstr "Attività del percorso:"
+
+#~ msgid "Start route"
+#~ msgstr "Inizio percorso"
+
+#~ msgid "Exit"
+#~ msgstr "Uscire"
+
+#~ msgid "Go to previous page"
+#~ msgstr "Vai alla pagina precedente"
+
+#~ msgid "Go to next page"
+#~ msgstr "Vai alla pagina successiva"
+
+#~ msgid "Close"
+#~ msgstr "chiudi"
+
+#~ msgid "Player Name"
+#~ msgstr "Nome giocatore"
+
+#~ msgid "Player's current treasury + income expected in near future"
+#~ msgstr ""
+#~ "Ricchezza corrente del giocatore + entrate previste nel futuro prossimo"
+
+#~ msgid ""
+#~ "Value of usable land i.e Amount of Land that can be used to create "
+#~ "buildings"
+#~ msgstr ""
+#~ "Valore della terra utilizzabile es. Ammontare di terra che può essere "
+#~ "utilizzata per creare costruzioni"
+
+#~ msgid ""
+#~ "Value of resources generated from all the possible sources in the "
+#~ "player's settlement(s)"
+#~ msgstr ""
+#~ "Valore delle risorse generate da tutte le possibili fonti negli "
+#~ "insediamenti del giocatore"
+
+#~ msgid "Value of all the buildings in the player's settlement(s)"
+#~ msgstr "Valore di tutti gli edifici negli insediamenti del giocatore"
+
+#~ msgid ""
+#~ "Value denoting the progress of the settlement(s) in terms of inhabitants, "
+#~ "buildings and overall happiness"
+#~ msgstr ""
+#~ "Valore che denota il progresso degli insediamenti in termini di abitanti, "
+#~ "edifici e felicità complessiva"
+
+#~ msgid "Value of all the units owned by the player"
+#~ msgstr "Numero di tutte le unità possedute dal giocatore"
+
+#~ msgid ""
+#~ "The total value from all individual entities or in short : Total Player "
+#~ "Score"
+#~ msgstr ""
+#~ "Il valore totale di tutte le entità individuali o in breve: Punteggio "
+#~ "totale del giocatore"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Weapons"
+#~ msgstr "Armi"
+
+#~ msgid "Health"
+#~ msgstr "Salute"
+
+#~ msgid "Status"
+#~ msgstr "Stato"
+
+#~ msgid "Aggressive"
+#~ msgstr "Aggressivo"
+
+#~ msgid "Hold ground"
+#~ msgstr "Tenere a terra"
+
+#~ msgid "Passive"
+#~ msgstr "Passivo"
+
+#~ msgid "Flee"
+#~ msgstr "Fuggire"
+
+#~ msgid "Exit to main menu"
+#~ msgstr "Esci al menu principale"
+
+#~ msgid "Choose a map size:"
+#~ msgstr "Seleziona una misura della mappa:"
+
+#~ msgid "Choose a map:"
+#~ msgstr "Scegli una mappa:"
+
+#~ msgid "Choose a saved game's map:"
+#~ msgstr "Seleziona una mappa da una partita salvata:"
+
+#~ msgid "Select map source"
+#~ msgstr "Seleziona sorgente mappa"
+
+#~ msgid "Create new map"
+#~ msgstr "Crea una nuova mappa"
+
+#~ msgid "Load existing map"
+#~ msgstr "Carica una mappa esistente"
+
+# what's the difference between this and "Choose a saved game's map:"?
+#~ msgid "Load saved game's map"
+#~ msgstr "Carica una mappa da una partita salvata"
+
+#~ msgid "Start editor"
+#~ msgstr "Avvia editor"
+
+#~ msgid "Return"
+#~ msgstr "Ritorna"
+
+#~ msgid "Scroll left"
+#~ msgstr "Scorre a sinistra"
+
+#~ msgid "Scroll right"
+#~ msgstr "Scorre a destra"
+
+#~ msgid "Scroll up"
+#~ msgstr "Scorre su"
+
+#~ msgid "Scroll down"
+#~ msgstr "Scorre giù"
+
+#~ msgid "Rotate building or map clockwise"
+#~ msgstr "Ruota edificio o mappa in senso orario"
+
+#~ msgid "Rotate building or map counterclockwise"
+#~ msgstr "Ruota edificio o mappa in senso antiorario"
+
+#~ msgid "Increase game speed"
+#~ msgstr "Aumenta la velocità di gioco"
+
+#~ msgid "Decrease game speed"
+#~ msgstr "Diminuisce la velocità di gioco"
+
+#~ msgid "Pause game"
+#~ msgstr "Pausa"
+
+#~ msgid "Show build menu"
+#~ msgstr "Mostra il menù dell'edificio"
+
+#~ msgid "Enable destruct mode"
+#~ msgstr "Abilita modalità distruzione"
+
+#~ msgid "Enable road building mode"
+#~ msgstr "Abilità modalità di costruzione delle strade"
+
+#~ msgid "Enable pipette mode (clone buildings)"
+#~ msgstr "Abilita la modalità pipetta (clona gli edifici)"
+
+#~ msgid "Show player scores"
+#~ msgstr "Mostra punteggi giocatori"
+
+#~ msgid "Show settlement list"
+#~ msgstr "Mostra lista insediamenti"
+
+#~ msgid "Show ship list"
+#~ msgstr "Mostra lista navi"
+
+#~ msgid "Toggle Captain's log"
+#~ msgstr "Passare log del capitano"
+
+#~ msgid "Quicksave"
+#~ msgstr "Salvataggio rapido"
+
+#~ msgid "Quickload"
+#~ msgstr "Caricamento rapido"
+
+#~ msgid "Toggle translucency of ambient buildings"
+#~ msgstr "Abilita/disabilita translucenza di edifici ambientali"
+
+#~ msgid "Highlight tile ownership"
+#~ msgstr "Evidenzia il proprietario dell'area"
+
+#~ msgid "Toggle health bars"
+#~ msgstr "Abilita/disabilita barre salute"
+
+#~ msgid "Focus camera on selection"
+#~ msgstr "Centra la camera sulla selezione"
+
+#~ msgid "Remove selected units / buildings"
+#~ msgstr "Rimuovi unità / edifici selezionati"
+
+#~ msgid "Display help"
+#~ msgstr "Mostra la guida"
+
+#~ msgid "Screenshot"
+#~ msgstr "Cattura Schermata"
+
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "Abilita/disabilita FPS"
+
+#~ msgid "Toggle grid on/off"
+#~ msgstr "Abilita/disabilita griglia"
+
+#~ msgid "Show coordinate values (Debug)"
+#~ msgstr "Mostra valori coordinate (Debug)"
+
+#~ msgid "Primary"
+#~ msgstr "Primario"
+
+#~ msgid "Secondary"
+#~ msgstr "Secondario"
+
+#~ msgid "Reset to default"
+#~ msgstr "Ripristina le impostazioni predefinite"
+
+#~ msgid "Reset to default keys"
+#~ msgstr "Ripristina i tasti predefiniti"
+
+#~ msgid "Save game"
+#~ msgstr "Salva partita"
+
+#~ msgid "Cancel game"
+#~ msgstr "Abbandona la partita"
+
+#~ msgid "Loading…"
+#~ msgstr "Caricamento…"
+
+#~ msgid "Change Background"
+#~ msgstr "Cambia sfondo"
+
+#~ msgid "Multiplayer"
+#~ msgstr "Multi giocatore"
+
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "Crea partita - Multigiocatore"
+
+#~ msgid "Player limit:"
+#~ msgstr "Limite giocatori:"
+
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "Esci al menu multigiocatore"
+
+#~ msgid "Name of the game:"
+#~ msgstr "Nome della partita:"
+
+#~ msgid "This will be displayed to other players so they recognize the game."
+#~ msgstr ""
+#~ "Questo sarà mostrato agli altri giocatori così potranno riconoscere la "
+#~ "partita."
+
+#~ msgid "Unnamed Game"
+#~ msgstr "Partita senza nome"
+
+#~ msgid "Password of the game:"
+#~ msgstr "Password della partita:"
+
+#~ msgid "This game's password. Required to join this game."
+#~ msgstr "Password di questa partita. Necessaria per accedere."
+
+#~ msgid "Create this new game"
+#~ msgstr "Avvia questa nuova partita"
+
+#~ msgid "Gamelobby"
+#~ msgstr "Gruppo di gioco"
+
+#~ msgid "Chat:"
+#~ msgstr "Chat:"
+
+#~ msgid "Exit gamelobby"
+#~ msgstr "Esci dal Gruppo di gioco"
+
+#~ msgid "The game will start as soon as all players are ready."
+#~ msgstr "Il gioco comincerà quando tutti i giocatori saranno pronti."
+
+#~ msgid "Game details:"
+#~ msgstr "Dettagli partita:"
+
+#~ msgid "Color"
+#~ msgstr "Colore"
+
+#~ msgid "Ready:"
+#~ msgstr "Pronto:"
+
+#~ msgid "Sets your state to ready (necessary for the game to start)"
+#~ msgstr "Imposta il tuo stato su pronto (necessario per iniziare a giocare)"
+
+#~ msgid "New game - Multiplayer"
+#~ msgstr "Nuova partita - Multigiocatore"
+
+#~ msgid "Load game:"
+#~ msgstr "Carica partita:"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Carica una partita salvata"
+
+#~ msgid "Active games:"
+#~ msgstr "Partite attive:"
+
+#~ msgid "Refresh list:"
+#~ msgstr "Aggiorna lista:"
+
+#~ msgid "Refresh list of active games"
+#~ msgstr "Aggiorna la lista di partite attive"
+
+#~ msgid "Create game:"
+#~ msgstr "Crea partita:"
+
+#~ msgid "Create a new game"
+#~ msgstr "Crea una nuova partita"
+
+#~ msgid "Join game:"
+#~ msgstr "Entra nel gioco:"
+
+#~ msgid "Join the selected game"
+#~ msgstr "Accedi alla partita selezionata"
+
+#~ msgid "Change player details"
+#~ msgstr "Cambia i dettagli del giocatore"
+
+#~ msgid "Screen resolution:"
+#~ msgstr "Risoluzione schermo:"
+
+#~ msgid "Full screen:"
+#~ msgstr "Schermo intero:"
+
+#~ msgid "Frame rate limit:"
+#~ msgstr "Limite fotogrammi al secondo (Hz):"
+
+#~ msgid "Set the maximum frame rate used. Default: 60 fps."
+#~ msgstr "Imposta il limite di fotogrammi al secondo. Predefinito: 60 Hz."
+
+#~ msgid "Music volume:"
+#~ msgstr "Volume musica:"
+
+#~ msgid "Effects volume:"
+#~ msgstr "Volume effetti:"
+
+#~ msgid "Enable sound:"
+#~ msgstr "Abilita suono:"
+
+#~ msgid "Scroll at map edge:"
+#~ msgstr "Scorri fino al bordo della mappa:"
+
+#~ msgid ""
+#~ "Whether to move the viewport when the mouse pointer is close to map edges"
+#~ msgstr ""
+#~ "Se spostare il riquadro di visualizzazione quando il puntatore del mouse "
+#~ "è vicino a bordi mappa"
+
+#~ msgid "Cursor centered zoom:"
+#~ msgstr "Zoom centrato al cursore:"
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center. When disabled, always zoom to current viewport center."
+#~ msgstr ""
+#~ "Quando abilitato, la rotellina del mouse utilizzerà la posizione del "
+#~ "cursore come nuovo centro del riquadro di visualizzazione. Quando "
+#~ "disabilitato, zooma sempre all' attuale centro finestra."
+
+#~ msgid "Middle mouse button pan:"
+#~ msgstr "Pulsante centrale del mouse:"
+
+#~ msgid "When enabled, dragging the middle mouse button will pan the camera"
+#~ msgstr ""
+#~ "Quando abilitato, trascinare il bottone centrale del mouse appiattirà la "
+#~ "visuale"
+
+#~ msgid "0 is default system settings"
+#~ msgstr "0 è l'impostazione predefinita di sistema"
+
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "Sensibilità del puntatore:"
+
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "Intervallo di salvataggio automatico in minuti:"
+
+#~ msgid "Number of autosaves:"
+#~ msgstr "Numero di salvataggi automatici:"
+
+#~ msgid "Number of quicksaves:"
+#~ msgstr "Numero di salvataggi rapidi:"
+
+#~ msgid "Language"
+#~ msgstr "Lingua"
+
+#~ msgid "Rotate minimap with map:"
+#~ msgstr "Ruota minimappa insieme alla mappa:"
+
+#~ msgid ""
+#~ "Whether to also rotate the minimap whenever the regular map is rotated"
+#~ msgstr ""
+#~ "Se ruotare anche la minimappa ogni volta che la mappa regolare è ruotata"
+
+#~ msgid "Uninterrupted building:"
+#~ msgstr "Costruzione ininterrotta:"
+
+#~ msgid ""
+#~ "When enabled, do not exit the build mode after successful construction"
+#~ msgstr ""
+#~ "Quando è abilitata, non si uscirà dalla modalità di costruzione dopo aver "
+#~ "completato la costruzione"
+
+#~ msgid "Auto-unload ship:"
+#~ msgstr "Scarica automaticamente la nave:"
+
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr "Se scaricare la nave dopo aver fondato un insediamento"
+
+#~ msgid ""
+#~ "Don't use in normal game session. Decides whether to write debug "
+#~ "information in the logging directory of your user directory. Slows the "
+#~ "game down."
+#~ msgstr ""
+#~ "Non utilizzare in una normale sessione di gioco. Decide se scrivere le "
+#~ "informazioni di debug nella cartella di loging della vostra cartella "
+#~ "utente. Rallenta il gioco."
+
+#~ msgid "Enable logging:"
+#~ msgstr "Abilita logging:"
+
+#~ msgid "Production indicators:"
+#~ msgstr "Indicatori di produzione:"
+
+#~ msgid ""
+#~ "Whether to show resource icons over buildings whenever they finish "
+#~ "production"
+#~ msgstr ""
+#~ "Se visualizzare le icone delle risorse sugli edifici ogni volta terminata "
+#~ "la produzione"
+
+#~ msgid "Higher values slow down scrolling."
+#~ msgstr "Valori più alti rallentano lo scorrimento."
+
+#~ msgid "Scroll delay:"
+#~ msgstr "Ritardo di scorrimento:"
+
+#~ msgid "Choose a quote type:"
+#~ msgstr "Scegliere un tipo di citazione:"
+
+#~ msgid "What kind of quote to display while loading a game"
+#~ msgstr ""
+#~ "Che tipo di citazione da visualizzare durante il caricamento di una "
+#~ "partita"
+
+#~ msgid "Network"
+#~ msgstr "Rete"
+
+#~ msgid "If set to 0, use the router default"
+#~ msgstr "Se impostata su 0, usa il default di router"
+
+#~ msgid "Network port:"
+#~ msgstr "Porta di rete:"
+
+#~ msgid "Discard current changes"
+#~ msgstr "Annulla le modifiche correnti"
+
+#~ msgid "Reset to default settings"
+#~ msgstr "Ripristina i valori predefiniti"
+
+#~ msgid "Save changes"
+#~ msgstr "Salva modifice"
+
+#~ msgid "Your saved games:"
+#~ msgstr "Le vostre partite salvate:"
+
+#~ msgid "Password of the game. Required to join this game"
+#~ msgstr "Password della partita. Necessaria per entrare in questa partita"
+
+#~ msgid "Cancel"
+#~ msgstr "Annulla"
+
+#~ msgid "Enter filename:"
+#~ msgstr "Inserire il nome del file:"
+
+#~ msgid "Details:"
+#~ msgstr "Dettagli:"
+
+#~ msgid "Delete selected savegame"
+#~ msgstr "Cancella il salvataggio selezionato"
+
+#~ msgid "Start game"
+#~ msgstr "Inizia gioco"
+
+#~ msgid "Map settings:"
+#~ msgstr "Impostazioni mappa:"
+
+#~ msgid "Seed:"
+#~ msgstr "Seme:"
+
+#~ msgid "Select a language:"
+#~ msgstr "Seleziona lingua:"
+
+#~ msgid "Player name:"
+#~ msgstr "Nome giocatore:"
+
+#~ msgid "Invalid filename"
+#~ msgstr "Nome del file non valido"
+
+#~ msgid "Received an invalid filename for a save command."
+#~ msgstr "Nome del file non valido per il salvataggio."
+
+#~ msgid "Error"
+#~ msgstr "Errore"
+
+#~ msgid "Failed to save."
+#~ msgstr "Salvataggio fallito."
+
+#~ msgid "The trade partner does not sell this."
+#~ msgstr "Il partner commerciale non vende questa merce."
+
+#~ msgid "You can not store this."
+#~ msgstr "Non puoi immagazzinare questa merce."
+
+#~ msgid "You can not afford to buy this."
+#~ msgstr "A lei non e`permesso di comprare questo."
+
+#~ msgid "The trade partner does not sell more of this."
+#~ msgstr "Il partner commerciale non vende altra di questa merce."
+
+#~ msgid "The trade partner does not buy this."
+#~ msgstr "Il partner commerciale non compera questa merce."
+
+#~ msgid "You do not possess this."
+#~ msgstr "Non ne possiedi."
+
+#~ msgid "The trade partner can not store more of this."
+#~ msgstr "Il partner commerciale non può immagazzinarne di più."
+
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "Il partner commerciale non può permettersi di comperarne ancora."
+
+#~ msgid "The trade partner does not buy more of this."
+#~ msgstr "Il partner commerciale non intende comperare più questa merce."
+
+#~ msgid "Failed to quicksave."
+#~ msgstr "Salvataggio rapido fallito."
+
+#~ msgid "An error happened during quicksave."
+#~ msgstr "Si è verificato un errore durante il salvataggio rapido."
+
+# Messages
+#~ msgid "Your map has not been saved."
+#~ msgstr "La vostra mappa non è stata salvata."
+
+#, python-brace-format
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: "
+#~ "{website}"
+#~ msgstr ""
+#~ "Se questo errore si verifica di nuovo, per favore contatta il team di "
+#~ "sviluppo: {website}"
+
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "Sei sicuro di voler uscire da' Unknown Horizons?"
+
+#~ msgid "Quit Game"
+#~ msgstr "Esci dal Gioco"
+
+#~ msgid "No diplomacy possible"
+#~ msgstr "Nessuna azione diplomatica possibile"
+
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr ""
+#~ "Impossibile effettuare azioni diplomatiche in quanto non ci sono altri "
+#~ "giocatori."
+
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "Sei sicuro di voler interrompere la sessione corrente?"
+
+#~ msgid "Delete"
+#~ msgstr "Elimina"
+
+#, python-brace-format
+#~ msgid "{size}x{size} tiles"
+#~ msgstr "{size}x{size} piastrelle"
+
+#~ msgid "Press key…"
+#~ msgstr "Premere il tasto desiderato…"
+
+#, python-brace-format
+#~ msgid "{key} is already set to {action}."
+#~ msgstr "{key} è già impostato su {action}."
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "Vuoi sovrascrivere?"
+
+#~ msgid "Confirmation for overwriting"
+#~ msgstr "Conferma di sovrascrittura"
+
+#~ msgid "Quotes"
+#~ msgstr "citazioni"
+
+#~ msgid "Gameplay Tips"
+#~ msgstr "Suggerimenti per il gioco"
+
+#~ msgid "Press 'ESC' to access Game Menu."
+#~ msgstr "Premere 'ESC' per accedere al menu di gioco."
+
+#~ msgid "Use 'SHIFT' to place multiple buildings."
+#~ msgstr "Utilizza 'SHIFT' per posizionare più edifici."
+
+#, python-brace-format
+#~ msgid "Currently only the first {tier} tiers are playable."
+#~ msgstr "Attualmente solo i primi {tier} livelli sono giocabili."
+
+#~ msgid "You can pause the game with 'P'."
+#~ msgstr "È possibile mettere in pausa il gioco con 'P'."
+
+#~ msgid "You can drag roads by holding the left mouse button."
+#~ msgstr ""
+#~ "È possibile disegnare le strade tenendo premuto il tasto sinistro del "
+#~ "mouse."
+
+#~ msgid "You can build multiple buildings by holding the 'SHIFT' key."
+#~ msgstr "È possibile costruire più edifici tenendo premuto il tasto 'SHIFT'."
+
+#~ msgid ""
+#~ "You can increase the happiness of your inhabitants by lowering the taxes."
+#~ msgstr ""
+#~ "È possibile aumentare la felicità dei vostri abitanti abbassando le tasse."
+
+#~ msgid ""
+#~ "Build fire stations and doctors to protect your inhabitants from fire and "
+#~ "disease."
+#~ msgstr ""
+#~ "Costruisci caserme dei pompieri e medici per proteggere i tuoi abitanti "
+#~ "da fuoco e malattie."
+
+#~ msgid "Build storage tents to increase your storage capacity."
+#~ msgstr ""
+#~ "Costruisci tende magazzino per aumentare la capacità di magazzinaggio."
+
+#~ msgid "Make sure every house is in range of a marketplace."
+#~ msgstr "Assicurati che ogni casa sia nel raggio di un mercato."
+
+#~ msgid "Press 'T' to make trees transparent."
+#~ msgstr "Premere 'T' per rendere gli alberi trasparenti."
+
+#~ msgid "Build storage tents and lookouts to expand your settlement range."
+#~ msgstr ""
+#~ "Costruisci tende di stoccaggio e punti di osservazione per estendere il "
+#~ "raggio del tuo insediamento."
+
+#~ msgid ""
+#~ "To easily see whether the pavilion's range cover all your tents, select "
+#~ "it from the build menu and hover it over your existing pavilion. "
+#~ "Uncovered tents are shown in yellow. It's a good idea to build a new "
+#~ "pavilion in their neighborhood."
+#~ msgstr ""
+#~ "Per vedere facilmente se la portata del tendone copre tutte le tende, "
+#~ "selezionalo dal menù di costruzione e trascinalo sopra il tendone già "
+#~ "esistente. Le tende non presenti nel raggio saranno mostrate in giallo. "
+#~ "Una buona idea è quella di costruire un nuovo tendone per coprire tutte "
+#~ "le tende di quella zona."
+
+#~ msgid ""
+#~ "Make singleplayer more fun with additional computer players by increasing "
+#~ "'AI players' when starting a new game."
+#~ msgstr ""
+#~ "Rendi le partite in singolo più divertenti con più giocatori controllati "
+#~ "dal computer aumentando 'Giocatori COM' quando si inizia una nuova "
+#~ "partita."
+
+#~ msgid ""
+#~ "First steps are easier by looking at how AI players are setting up their "
+#~ "settlement."
+#~ msgstr ""
+#~ "I primi passi diventano più facili osservando come i giocatori gestiti "
+#~ "dal computer creano e gestiscono il proprio insediamento."
+
+#~ msgid ""
+#~ "Want funny quotes only? Change the quote types shown here in the settings "
+#~ "menu on the game page."
+#~ msgstr ""
+#~ "Vuoi solo citazioni divertenti? Cambia il tipo di citazioni mostrate qui "
+#~ "nel menù delle impostazioni dalla pagina principale del gioco."
+
+#~ msgid "A marketplace links your buildings like a road."
+#~ msgstr "L'edificio del mercato collega i tuoi edifici come una strada."
+
+#~ msgid "Mixed"
+#~ msgstr "Misto"
+
+#~ msgid "Starting engine…"
+#~ msgstr "Avvio del motore…"
+
+#~ msgid "Catching fish…"
+#~ msgstr "Catturando il pesce …"
+
+#~ msgid "Drawing user interface…"
+#~ msgstr "Disegnando l'interfaccia…"
+
+#~ msgid "Activating timer…"
+#~ msgstr "Attivando il timer…"
+
+#~ msgid "Chomping game data…"
+#~ msgstr "Masticando i dati di gioco…"
+
+#~ msgid "Shaping islands…"
+#~ msgstr "Sagomando le isole…"
+
+#~ msgid "Preparing blueprints…"
+#~ msgstr "Preparando i progetti…"
+
+#~ msgid "Filling world with water…"
+#~ msgstr "Riempiendo il mondo con l'acqua…"
+
+#~ msgid "Raising animals…"
+#~ msgstr "Popolando gli animali…"
+
+#~ msgid "Convincing AI…"
+#~ msgstr "Convincendo l'IA…"
+
+#~ msgid "Burying treasures…"
+#~ msgstr "Seppellendo i tesori…"
+
+#~ msgid "Unable to find pyenet"
+#~ msgstr "Impossibile trovare la libreria pyenet"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which could not "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "La modalità multiplayer richiede la libreria \"pyenet\", che non è stata "
+#~ "trovata nel sistema."
+
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr ""
+#~ "Utente Linux : Provare a installare pyenet tramite il vostro gestore di "
+#~ "pacchetti."
+
+#~ msgid "Failed to initialize networking."
+#~ msgstr "Impossibile inizializzare il collegamento in rete."
+
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr "La rete non può essere inizializzata con la configurazione attuale."
+
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "Controllare i dati inseriti nella sezione Rete."
+
+#~ msgid "Fatal Network Error"
+#~ msgstr "Errore fatale di Rete"
+
+#~ msgid "Could not connect to master server."
+#~ msgstr "Impossibile connettere al server principale."
+
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "Verifica la tua connessione Internet. Se funziona, significa che il "
+#~ "nostro server è temporaneamente inattivo."
+
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "Qualcosa non è andato a buon fine con la connessione di rete:"
+
+#~ msgid "Version differs!"
+#~ msgstr "Versione diversa!"
+
+#, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "Mappa: {map_name}"
+
+#, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "Nome: {game_name}"
+
+#, python-brace-format
+#~ msgid "Creator: {game_creator}"
+#~ msgstr "Creatore: {game_creator}"
+
+#, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "Giocatori: {player_amount}/{player_limit}"
+
+#~ msgid "Wrong version"
+#~ msgstr "Versione sbagliata"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "La versione del gioco in uso è diversa dalla tua. In una partita "
+#~ "multigiocatore tutti devono usare la stessa versione del gioco. Si può "
+#~ "rimediare aggiornandosi tutti all'ultima versione disponibile. Versione "
+#~ "in uso: {game_version} La tua: {own_version}"
+
+#~ msgid "Password of the game"
+#~ msgstr "Password del gioco"
+
+#~ msgid "Enter password:"
+#~ msgstr "Inserire la password:"
+
+#, python-brace-format
+#~ msgid "Recommended number of players: {number}"
+#~ msgstr "Numero di giocatori raccomandato: {number}"
+
+#~ msgid "Ready"
+#~ msgstr "Pronto"
+
+#~ msgid "Not ready"
+#~ msgstr "Non Pronto"
+
+#~ msgid "Enter your message"
+#~ msgstr "Inserisci il tuo messaggio"
+
+#~ msgid "Click here to change your name and/or color"
+#~ msgstr "Clicca qui per cambiare il tuo nome e/o il colore giocatore"
+
+#, python-brace-format
+#~ msgid "Kick {player}"
+#~ msgstr "Colpisci {player}"
+
+#, python-brace-format
+#~ msgid "{player} has joined the game"
+#~ msgstr "{player} si è unito alla partita"
+
+#, python-brace-format
+#~ msgid "{player} has left the game"
+#~ msgstr "{player} ha lasciato la partita"
+
+#~ msgid "You are now ready"
+#~ msgstr "Ora sei pronto"
+
+#~ msgid "You are not ready anymore"
+#~ msgstr "Non sei più pronto"
+
+#, python-brace-format
+#~ msgid "{player} is now ready"
+#~ msgstr "{player} è pronto"
+
+#, python-brace-format
+#~ msgid "{player} not ready anymore"
+#~ msgstr "{player} non è più pronto"
+
+#, python-brace-format
+#~ msgid "You are now known as {new_name}"
+#~ msgstr "Ora sei conosciuto come {new_name}"
+
+#, python-brace-format
+#~ msgid "{player} is now known as {new_name}"
+#~ msgstr "{player} è ora conosciuto come {new_name}"
+
+#~ msgid "You changed your color"
+#~ msgstr "Hai cambiato colore"
+
+#, python-brace-format
+#~ msgid "{player} changed their color"
+#~ msgstr "{player} hanno cambiato colore"
+
+#~ msgid "Kicked"
+#~ msgstr "Espulso"
+
+#~ msgid "You have been kicked from the game by creator"
+#~ msgstr "Sei stato espulso dalla partita dal creatore"
+
+#, python-brace-format
+#~ msgid "{player} got kicked by creator"
+#~ msgstr "{player} è stato espulso dal creatore"
+
+#~ msgid "Are you sure you want to abort the running session?"
+#~ msgstr "Sei sicuro che vuoi interrompere la sessione corrente?"
+
+#~ msgid "Quit Session"
+#~ msgstr "Esci dalla Sessione"
+
+#~ msgid "No saved games"
+#~ msgstr "Nessuna partita salvata"
+
+#~ msgid "There are no saved games to load."
+#~ msgstr "Non ci sono partite salvate da caricare."
+
+#~ msgid "No filename given"
+#~ msgstr "Non è stato dato nessun nome file"
+
+#~ msgid "Please enter a valid filename."
+#~ msgstr "Inserisci un nome file valido."
+
+#, python-brace-format
+#~ msgid "A savegame with the name {name} already exists."
+#~ msgstr "Esiste già una partita salvata con nome '{name}'."
+
+#, python-brace-format
+#~ msgid "A map with the name {name} already exists."
+#~ msgstr "Esiste già una mappa salvata con nome '{name}'."
+
+#~ msgid "Overwrite it?"
+#~ msgstr "Sovrascrivere?"
+
+#, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "Salvato alle {time}"
+
+#, python-brace-format
+#~ msgid "Saved {amount} time"
+#~ msgid_plural "Saved {amount} times"
+#~ msgstr[0] "Salvato {amount} volta"
+#~ msgstr[1] "Salvato {amount} volte"
+
+#, python-brace-format
+#~ msgid "Savegame version {version}"
+#~ msgstr "Versione salvataggio {version}"
+
+#~ msgid "(probably incompatible)"
+#~ msgstr "(probabilmente incompatibile)"
+
+#~ msgid "Incompatible version"
+#~ msgstr "Versione incompatibile"
+
+#~ msgid "No file selected"
+#~ msgstr "Nessun file selezionato"
+
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr "Devi selezionare una partita salvata da cancellare."
+
+#, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "Vuoi veramente cancellare la partita '{name}'?"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "Confermare cancellazione"
+
+#~ msgid "Error!"
+#~ msgstr "Errore!"
+
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "Impossibile cancellare il salvataggio!"
+
+#~ msgid "Game"
+#~ msgstr "Gioco"
+
+#~ msgid "Disabled"
+#~ msgstr "Disabilitato"
+
+#~ msgid "Restart required"
+#~ msgstr "Riavvio necessario"
+
+#~ msgid ""
+#~ "Some of your changes require a restart of Unknown Horizons. Do you want "
+#~ "to restart Unknown Horizons now?"
+#~ msgstr ""
+#~ "Alcuni dei tuoi cambiamenti richiedono un riavvio di Unknown Horizons. "
+#~ "Vuoi riavviare Unknown Horizons adesso?"
+
+#~ msgid "Restore default settings"
+#~ msgstr "Ripristinare le impostazioni predefinite"
+
+#~ msgid ""
+#~ "Restoring the default settings will delete all changes to the settings "
+#~ "you made so far."
+#~ msgstr ""
+#~ "Il ripristino delle impostazioni iniziali cancellerà tutti i cambiamenti "
+#~ "effettuati finora."
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "Sei sicuro di voler continuare?"
+
+#~ msgid "Invalid network port"
+#~ msgstr "Porta di rete invalida"
+
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr ""
+#~ "La porta da te specificata non è valida. Deve essere un numero compreso "
+#~ "tra 1 e 65535."
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it is in the specified "
+#~ "range."
+#~ msgstr ""
+#~ "Si prega di controllare la porta inserita e di assicurarsi che rientri "
+#~ "nell'intervallo specificato."
+
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "Applicazione delle nuove impostazioni di rete non riuscita."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special access privileges, try 0 or a "
+#~ "number greater than 1024."
+#~ msgstr ""
+#~ "Talvolta i numeri di porta bassi richiedono speciali privilegi d'accesso. "
+#~ "Provare 0 o un numero maggiore di 1024."
+
+#~ msgid "Invalid player name"
+#~ msgstr "Nome giocatore non valido"
+
+#~ msgid "You entered an invalid playername."
+#~ msgstr "È stato inserito un nome giocatore non valido."
+
+#~ msgid "Map size:"
+#~ msgstr "Grandezza Mappa:"
+
+#~ msgid "Water:"
+#~ msgstr "Acqua:"
+
+#~ msgid "Max island size:"
+#~ msgstr "Massima dimensione dell'isola:"
+
+#~ msgid "Preferred island size:"
+#~ msgstr "Dimensione d'isola preferita:"
+
+#~ msgid "Island size deviation:"
+#~ msgstr "Dimensione deviazione isola:"
+
+#~ msgid "Click to generate a different random map"
+#~ msgstr "Clicca per generare una mappa differente"
+
+#~ msgid "Invalid scenario file"
+#~ msgstr "File scenario non valido"
+
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "Il file selezionato non è un file di scenario valido."
+
+#~ msgid "Error message:"
+#~ msgstr "Errore messaggio:"
+
+#~ msgid "Please report this to the author."
+#~ msgstr "Prego segnalarlo all'autore."
+
+#, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "Difficoltà: {difficulty}"
+
+#, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "Autore: {author}"
+
+#, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "Descrizione: {desc}"
+
+#, python-brace-format
+#~ msgid "Build {building}"
+#~ msgstr "Costruisci {building}"
+
+#~ msgid "Press H to remove this hint"
+#~ msgstr "Premi H per rimuovere gli aiuti"
+
+#~ msgid "Destroy all buildings"
+#~ msgstr "Demolisci tutti gli edifici"
+
+#~ msgid ""
+#~ "This will destroy all the buildings that fall outside of the settlement "
+#~ "range."
+#~ msgstr ""
+#~ "Questo distruggerà tutti gli edifici fuori dall'area dell'insediamento."
+
+#, python-format
+#~ msgid "%s additional building will be destroyed."
+#~ msgid_plural "%s additional buildings will be destroyed"
+#~ msgstr[0] "%s costruzione aggiuntiva sarà distrutta."
+#~ msgstr[1] "%s costruzioni aggiuntive saranno distrutte"
+
+#~ msgid "Barracks overview"
+#~ msgstr "Panoramica della caserma"
+
+#~ msgid "Swordman"
+#~ msgstr "Spadaccino"
+
+#~ msgid "Overview"
+#~ msgstr "Panoramica"
+
+#, python-brace-format
+#~ msgid "{ship} (place in queue: {place})"
+#~ msgstr "{ship} (posizione in coda: {place}"
+
+#~ msgid "Boat builder overview"
+#~ msgstr "Panoramica Costruttore di barche"
+
+#~ msgid "Fisher boats"
+#~ msgstr "Barche da pesca"
+
+#~ msgid "Trade boats"
+#~ msgstr "Barche per commercio"
+
+#~ msgid "War boats"
+#~ msgstr "Barche da guerra"
+
+#~ msgid "War ships"
+#~ msgstr "Navi da guerra"
+
+#~ msgid "Tower overview"
+#~ msgstr "Panoramica della torre"
+
+#~ msgid "Build related buildings"
+#~ msgstr "Costruzione edifici correlati"
+
+#~ msgid "Click on one of the resource slots to add a trade offer."
+#~ msgstr ""
+#~ "Cliccare sul riquadro di una risorsa per aggiungere un'offerta "
+#~ "commerciale."
+
+#~ msgid ""
+#~ "Set to buy or sell by clicking on that label, then adjust the amount via "
+#~ "the slider to the right."
+#~ msgstr ""
+#~ "Scegli di acquistare o vendere cliccando su tale etichetta, quindi regola "
+#~ "la quantità tramite il dispositivo di scorrimento verso destra."
+
+#, python-brace-format
+#~ msgid ""
+#~ "Will sell {resource_name} for {price} gold/t whenever more than {limit}t "
+#~ "are available."
+#~ msgstr ""
+#~ "Saranno venduti {resource_name} per {price} oro/t ogni volta che più di "
+#~ "{limit}t saranno disponibili."
+
+#~ msgid "Warehouse overview"
+#~ msgstr "Panoramica del magazzino"
+
+#~ msgid "Main square overview"
+#~ msgstr "Panoramica della piazza principale"
+
+#~ msgid "Upgrade not possible:"
+#~ msgstr "Aggiornamento Impossibile:"
+
+#~ msgid "This is the highest playable tier for now!"
+#~ msgstr "Questo è il livello più alto giocabile per ora!"
+
+#~ msgid "Don't allow upgrades"
+#~ msgstr "Non permettere l'aggiornamento"
+
+#~ msgid "Allow upgrades"
+#~ msgstr "permetti aggiornamenti"
+
+#~ msgid "Unit overview"
+#~ msgstr "Panoramica unità"
+
+#, python-brace-format
+#~ msgid "Fill range with {how_many} trees"
+#~ msgstr "Riempi selezione con {how_many} alberi"
+
+#~ msgid "Selected Units"
+#~ msgstr "seleziona unità"
+
+#~ msgid "Ship overview"
+#~ msgstr "Panoramica nave"
+
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr "La nave dev' essere vicino ad un isola per fondare un insediamento."
+
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "Avete già un insediamento su quest'isola."
+
+#~ msgid "Load/Unload"
+#~ msgstr "Carica/Scarica"
+
+#~ msgid "Too far from the nearest tradeable warehouse"
+#~ msgstr "Troppo distante dal più vicino magazzino proprio o alleato"
+
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "Non è possibile equipaggiare una nave mercantile con armi"
+
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "Non si possono equipaggiare i mercantili con armi."
+
+#~ msgid "Equip weapon"
+#~ msgstr "Equipaggiare arma"
+
+#~ msgid "Unequip weapon"
+#~ msgstr "disequipaggiare arma"
+
+#, python-brace-format
+#~ msgid "{resource_name}: {price} gold"
+#~ msgstr "{resource_name}: {price} oro"
+
+#, python-brace-format
+#~ msgid "buy for {buyprice} gold"
+#~ msgstr "compra per {buyprice} oro"
+
+#, python-brace-format
+#~ msgid "sell for {sellprice} gold"
+#~ msgstr "vendi per {sellprice} oro"
+
+#, python-brace-format
+#~ msgid "{stored}/{limit}"
+#~ msgstr "{stored}/{limit}"
+
+#, python-brace-format
+#~ msgid "Limit: {amount}t per slot"
+#~ msgstr "Limite: {amount} pezzi per riquadro"
+
+#~ msgid "Logbook"
+#~ msgstr "Diario di bordo"
+
+#~ msgid "Emptiness"
+#~ msgstr "vuoto"
+
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "Non c'è niente di scritto nel tuo diario di bordo ancora!"
+
+#, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "Basi coloniali di {player}"
+
+#, python-brace-format
+#~ msgid "Ships of {player}"
+#~ msgstr "Nave di {player}"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#, python-brace-format
+#~ msgid "Production overview of {settlement}"
+#~ msgstr "Panoramica produzione {settlement}"
+
+#~ msgid "Click to show statistics"
+#~ msgstr "Clicca per visualizzare le statistiche"
+
+#~ msgid "Click to add a new slot"
+#~ msgstr "Cliccare per aggiungere un nuovo riquadro"
+
+#~ msgid "Reset this configuration to the factory default."
+#~ msgstr "Ripristina questa configurazione ai valori originari."
+
+#~ msgid ""
+#~ "Reset this settlement's displayed resources to the default configuration "
+#~ "you have saved."
+#~ msgstr ""
+#~ "Ripristinare le risorse visualizzate di questo insediamento alla "
+#~ "configurazione predefinita che hai salvato."
+
+#~ msgid ""
+#~ "Reset the default configuration (which you see here) to the factory "
+#~ "default for all settlements."
+#~ msgstr ""
+#~ "Ripristinare la configurazione predefinita (che vedi qui) alle "
+#~ "impostazioni originarie per tutti gli insediamenti."
+
+#~ msgid "Buy expenses"
+#~ msgstr "Spese di acquisto"
+
+#~ msgid "Sell income"
+#~ msgstr "Entrate dalle vendite"
+
+#~ msgid "Stop route"
+#~ msgstr "Stop percorso"
+
+#~ msgid "Need at least two settlements"
+#~ msgstr "Servono almeno due basi coloniali"
+
+#~ msgid "You need at least two different settlements in your route."
+#~ msgstr "Servono almeno due basi differenti nel percorso."
+
+# cant find a suitable word for "waypoint", i'll leave it in english
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "Clicca su di una base per aggiungere un waypoint!"
+
+#~ msgid "Loading into ship"
+#~ msgstr "Caricando sulla nave"
+
+#~ msgid "Unloading from ship"
+#~ msgstr "Scaricando dalla nave"
+
+#~ msgid "You are not allowed to trade with this player"
+#~ msgstr "Non puoi commerciare con questo giocatore"
+
+#, python-brace-format
+#~ msgid "{weapon}: {amount}"
+#~ msgstr "{weapon}: {amount}"
+
+#~ msgid "none"
+#~ msgstr "nessuno"
+
+#, python-brace-format
+#~ msgid "Details: {error_details}"
+#~ msgstr "Dettagli per: {error_details}"
+
+#, python-brace-format
+#~ msgid "Error: {error_message}"
+#~ msgstr "Errore: {error_message}"
+
+#~ msgid "Bakery"
+#~ msgstr "Panificio"
+
+#~ msgid "Barracks"
+#~ msgstr "Caserma"
+
+#~ msgid "Wooden barrier"
+#~ msgstr "Barriera di legno"
+
+#~ msgid "Clay wall"
+#~ msgstr "Muro d'argilla"
+
+#~ msgid "Blender"
+#~ msgstr "Frullatore"
+
+#~ msgid "Boat Builder"
+#~ msgstr "Costruttore di Barche"
+
+#~ msgid "Brewery"
+#~ msgstr "Birrificio"
+
+#~ msgid "Brickyard"
+#~ msgstr "Deposito di mattoni"
+
+#~ msgid "Butchery"
+#~ msgstr "Macellaio"
+
+#~ msgid "Cannon Foundry"
+#~ msgstr "Fonderia di cannoni"
+
+#~ msgid "Charcoal Burning"
+#~ msgstr "Bruciatore di carbone"
+
+#~ msgid "Clay Deposit"
+#~ msgstr "Deposito d'argilla"
+
+#~ msgid "Clay Pit"
+#~ msgstr "Cava di Argilla"
+
+#~ msgid "Distillery"
+#~ msgstr "Distilleria"
+
+#~ msgid "Doctor"
+#~ msgstr "Dottore"
+
+# Building
+#~ msgid "Farm"
+#~ msgstr "Fattoria"
+
+#~ msgid "Alvearies"
+#~ msgstr "Alveari"
+
+#~ msgid "Cattle Run"
+#~ msgstr "Esegui il bestiame"
+
+#~ msgid "Cocoa Field"
+#~ msgstr "Campo di fave di cacao"
+
+#~ msgid "Corn Field"
+#~ msgstr "Campo di grano"
+
+#~ msgid "Herbary"
+#~ msgstr "Erboristeria"
+
+#~ msgid "Hop Field"
+#~ msgstr "Campo di luppolo"
+
+#~ msgid "Pasture"
+#~ msgstr "Pascolo"
+
+#~ msgid "Pigsty"
+#~ msgstr "Porcile"
+
+# Building
+#~ msgid "Potato Field"
+#~ msgstr "Campo di patate"
+
+#~ msgid "Spice Field"
+#~ msgstr "Campo di spezie"
+
+# Building
+#~ msgid "Sugar Field"
+#~ msgstr "Campo di zucchero"
+
+#~ msgid "Tobacco Field"
+#~ msgstr "Campo di Tabacco"
+
+#~ msgid "Vineyard"
+#~ msgstr "Vigneto"
+
+#~ msgid "Fire Station"
+#~ msgstr "Stazione antincendio"
+
+#~ msgid "Fish Deposit"
+#~ msgstr "Deposito di pesce"
+
+#~ msgid "Fisherman's Tent"
+#~ msgstr "Tenda dei pescatori"
+
+#~ msgid "Hunter's Tent"
+#~ msgstr "Tenda dei cacciatori"
+
+#~ msgid "Lookout"
+#~ msgstr "Belvedere"
+
+#~ msgid "Lumberjack Hut"
+#~ msgstr "Rifugio del taglialegna"
+
+#~ msgid "Main Square"
+#~ msgstr "Piazza Principale"
+
+#~ msgid "Mine"
+#~ msgstr "Miniera"
+
+#~ msgid "Mountain"
+#~ msgstr "Montagna"
+
+#~ msgid "Pastry Shop"
+#~ msgstr "Pasticceria"
+
+#~ msgid "Pavilion"
+#~ msgstr "Padiglione"
+
+#~ msgid "Ruined Tent"
+#~ msgstr "Tenda in rovina"
+
+#~ msgid "Salt Ponds"
+#~ msgstr "Laghi salati"
+
+#~ msgid "Signal Fire"
+#~ msgstr "Segnale di fuoco"
+
+#~ msgid "Smeltery"
+#~ msgstr "Fonderia"
+
+# 1st one if it's a deposit as warehouse, 2nd if is a cave, a mine of stone
+#~ msgid "Stone Deposit"
+#~ msgstr "Deposito di pietra"
+
+#~ msgid "Stonemason"
+#~ msgstr "Scalpellino"
+
+#~ msgid "Carver"
+#~ msgstr "Intagliatore"
+
+#~ msgid "Stone Pit"
+#~ msgstr "Cava di pietra"
+
+#~ msgid "Storage Tent"
+#~ msgstr "Tenda d'immagazzinazione"
+
+#~ msgid "Storage Hut"
+#~ msgstr "Tenda magazzino"
+
+#~ msgid "Tavern"
+#~ msgstr "Taverna"
+
+#~ msgid "Hut"
+#~ msgstr "Rifugio"
+
+#~ msgid "Stone house"
+#~ msgstr "Casa di pietra"
+
+#~ msgid "Estate"
+#~ msgstr "Patrimonio"
+
+#~ msgid "Manor"
+#~ msgstr "Villa"
+
+#~ msgid "Tobacconist"
+#~ msgstr "Tabaccaio"
+
+#~ msgid "Toolmaker"
+#~ msgstr "Produttore di utensili"
+
+#~ msgid "Trail"
+#~ msgstr "Sentiero"
+
+#~ msgid "Gravel Path"
+#~ msgstr "Percorso di ghiaia"
+
+#~ msgid "Cobblestone Street"
+#~ msgstr "Strada di ciottoli"
+
+#~ msgid "Tree"
+#~ msgstr "Albero"
+
+# Building
+#~ msgid "Village School"
+#~ msgstr "Scuola del villaggio"
+
+#~ msgid "Warehouse"
+#~ msgstr "Magazzino"
+
+#~ msgid "Weaponsmith"
+#~ msgstr "Fabbricante d'armi"
+
+#~ msgid "Weaver's Hut"
+#~ msgstr "Tenda del Tessitore"
+
+#~ msgid "Windmill"
+#~ msgstr "Mulino a vento"
+
+#~ msgid "Winery"
+#~ msgstr "Cantina"
+
+#~ msgid "Wooden Tower"
+#~ msgstr "Torre di Legno"
+
+#~ msgid "Failed to start/load the game"
+#~ msgstr "Fallito il caricamento del gioco"
+
+#~ msgid "The game you selected could not be started."
+#~ msgstr "La partita selezionata non può essere avviata."
+
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr ""
+#~ "Il salvataggio potrebbe essere rovinato o è stato salvato con una "
+#~ "versione precedente."
+
+#~ msgid "No quicksaves found"
+#~ msgstr "Nessun salvataggio rapido trovato"
+
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr ""
+#~ "É necessario eseguire un salvataggio rapido prima di fare un caricamento "
+#~ "rapido."
+
+#~ msgid "Logging enabled"
+#~ msgstr "Log attivato"
+
+#, python-brace-format
+#~ msgid "Logs are written to {directory}."
+#~ msgstr "I file di registro vengono scritti in {directory}."
+
+#~ msgid ""
+#~ "The games have run out of sync. This indicates an unknown internal error, "
+#~ "the game cannot continue."
+#~ msgstr ""
+#~ "Le partite sono andati fuori sincrono. Ciò indica un errore interno "
+#~ "sconosciuto, il gioco non può continuare."
+
+#~ msgid ""
+#~ "We are very sorry and hope to have this bug fixed in a future version."
+#~ msgstr ""
+#~ "Ci dispiace molto e speriamo di risolvere questo bug in una prossima "
+#~ "versione."
+
+#~ msgid "Not possible"
+#~ msgstr "Non possibile"
+
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr ""
+#~ "Il salvaggio/caricamento per partite a più giocatori non è ancora "
+#~ "possibile"
+
+#~ msgid ""
+#~ "The filename must consist only of letters, numbers, spaces and these "
+#~ "characters: _ . -"
+#~ msgstr ""
+#~ "Il nome del file può contenere solo lettere, numeri, spazi e i seguenti "
+#~ "caratteri: _.-"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "Impossibile connettersi al server."
+
+#~ msgid "Maybe invalid or irresolvable server address."
+#~ msgstr "Forse l'indirizzo del server è invalido o irrisolvibile."
+
+#~ msgid "Not Ready"
+#~ msgstr "Non Pronto"
+
+#~ msgid ""
+#~ "Old or unsupported multiplayer protocol. Please check your game version"
+#~ msgstr ""
+#~ "Protocollo multigiocatore antiquato o non supportato. Controlla la tua "
+#~ "versione del gioco"
+
+#~ msgid "You've exceeded the global packet size."
+#~ msgstr "Hai superato la dimensione del pacchetto globale."
+
+#~ msgid "This should never happen. Please contact us or file a bug report."
+#~ msgstr ""
+#~ "Questo non dovrebbe mai succedere. Contattaci o invia un bug report."
+
+#~ msgid "You've exceeded the per packet size."
+#~ msgstr "Hai superato la dimensione del pacchetto."
+
+#~ msgid "Unknown or malformed packet. Please check your game version"
+#~ msgstr ""
+#~ "Pacchetto sconosciuto o malformato. Controlla la tua versione del gioco"
+
+#~ msgid "Invalid/Unknown session"
+#~ msgstr "Sessione invalida/sconosciuta"
+
+#~ msgid "You can't join a game while in another game"
+#~ msgstr "Non puoi partecipare a una partita mentre sei in un'altra partita"
+
+#~ msgid "Unknown game or game is running a different version"
+#~ msgstr "Partita sconosciuta o la partita sta eseguendo una versione diversa"
+
+#~ msgid "Game has already started. No more joining"
+#~ msgstr "La partita è già comiciata. Non puoi più unirti"
+
+#~ msgid "Game is full"
+#~ msgstr "La partita è piena"
+
+#~ msgid "Wrong password"
+#~ msgstr "Password errata"
+
+#~ msgid "There's already a player with your name inside this game."
+#~ msgstr "È già presente un giocatore con il tuo nome in questa partita."
+
+#~ msgid "Please change your name."
+#~ msgstr "Si prega di cambiare il proprio nome."
+
+#~ msgid "There's already a player with your color inside this game."
+#~ msgstr "C'è già un giocatore col tuo colore nella partita."
+
+#~ msgid "Please change your color."
+#~ msgstr "Cambia il tuo colore."
+
+#~ msgid ""
+#~ "There's already a player with your unique player ID inside this game. "
+#~ "This should never occur."
+#~ msgstr ""
+#~ "C'è già un giocatore col tuo unico ID giocatore in questa partita. Non "
+#~ "dovrebbe mai accadere."
+
+#~ msgid "You are not inside a game"
+#~ msgstr "Non sei in partita"
+
+#~ msgid "Unable to change your name."
+#~ msgstr "Impossibile cambiare il tuo nome."
+
+#~ msgid "Unable to change your color."
+#~ msgstr "Impossibile cambiare il tuo colore."
+
+#~ msgid "You can't fetch a game while in another game"
+#~ msgstr "Non puoi recuperare una partita mentre sei in un'altra partita"
+
+#~ msgid "The game has been terminated. The creator has left the game."
+#~ msgstr "La partita è stata terminata. Il creatore ha lasciato il gioco."
+
+#~ msgid ""
+#~ "One player has terminated their game. For technical reasons, this "
+#~ "currently means the game cannot continue. We are very sorry about that."
+#~ msgstr ""
+#~ "Un giocatore ha terminato la sua partita. Per ragioni tecniche, questo "
+#~ "significa che il gioco non può continuare. Siamo spiacenti."
+
+#~ msgid "You have won!"
+#~ msgstr "Hai vinto!"
+
+#~ msgid "You have completed this scenario."
+#~ msgstr "Scenario completato."
+
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "Vuoi continuare a giocare?"
+
+#~ msgid "unknown"
+#~ msgstr "sconosciuto"
+
+#~ msgid "Failed to create savegame file"
+#~ msgstr "Fallito la creazione del salvataggio"
+
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr "C'è stato un errore durante la creazione del file di salvataggio."
+
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr ""
+#~ "Questo di solito significa che il nome del salvataggio del gioco contiene "
+#~ "caratteri speciali non supportati."
+
+#~ msgid "Access is denied"
+#~ msgstr "Accesso negato"
+
+#~ msgid "The savegame file could be read-only or locked by another process."
+#~ msgstr ""
+#~ "Il file di salvataggio potrebbe essere di sola lettura o bloccato da un "
+#~ "altro processo."
+
+# Messages
+#~ msgid "Your game has not been saved."
+#~ msgstr "La tua partita non è stata salvata."
+
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "Nuova versione di Unknown Horizons"
+
+#, python-brace-format
+#~ msgid ""
+#~ "There is a more recent release of Unknown Horizons ({new_version}) than "
+#~ "the one you are currently using ({old_version})."
+#~ msgstr ""
+#~ "C'è una versione di Unknown Horizons ({new_version}) più recente rispetto "
+#~ "alla tua ({old_version})."
+
+#~ msgid "Click to download"
+#~ msgstr "Fai clic per scaricare"
+
+#~ msgid "A page has been opened in your browser."
+#~ msgstr "Una pagina è stata aperta nel tuo browser."
+
+#, python-brace-format
+#~ msgid "{slotnum} slots, {limit}t"
+#~ msgstr "{slotnum} spazi, {limit}t"
+
+#, python-brace-format
+#~ msgid "Health: {health}"
+#~ msgstr "Salute: {health}"
+
+#, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}: {description}"
+
+#~ msgid "This building must be built on an island."
+#~ msgstr "Questo edificio va costruito su un'isola."
+
+#~ msgid "This ground is not suitable for this building."
+#~ msgstr "Il terreno non è adatto a questo edificio."
+
+#~ msgid "This building has to be built within your settlement."
+#~ msgstr "Questo edifico va costruito all'interno del tuo insediamento."
+
+#~ msgid "This area is already occupied by another player."
+#~ msgstr "Questa area è già occupata da un altro giocatore."
+
+#~ msgid "This area is already occupied by another building."
+#~ msgstr "Quest'area è già occupata da un altro edificio."
+
+#~ msgid "This area is already occupied by a unit."
+#~ msgstr "Questa area è già occupata da un' unità."
+
+#~ msgid "This building must be built on the coastline."
+#~ msgstr "Questo edificio va costruito sulla costa."
+
+#~ msgid "This building has to be placed at the ocean."
+#~ msgstr "Questo edificio va piazzato sull'oceano."
+
+#~ msgid "This spot is too far away from your ship."
+#~ msgstr "Questo posto è troppo lontano dalla tua nave."
+
+#~ msgid "This building can only be built on a resource source."
+#~ msgstr "Questo edificio può essere costruito solo su una fonte di risorse."
+
+#~ msgid "You have already settled this island."
+#~ msgstr "Ti sei già stabilito su quest' isola."
+
+#~ msgid "This building must be partly on flat land."
+#~ msgstr "L'edificio deve essere in parte su terreno pianeggiante."
+
+#~ msgid "The inhabitants are infected by the Black Death!"
+#~ msgstr "Gli abitanti sono infettati dalla peste nera!"
+
+#~ msgid "This building is on fire!"
+#~ msgstr "L'edificio va a fuoco!"
+
+#~ msgid "These residents are unhappy."
+#~ msgstr "Questi abitanti sono infelici."
+
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "Questi abitanti non hanno accesso alla piazza principale."
+
+#~ msgid "The inventory of this building is full."
+#~ msgstr "L'inventario di questo edificio è pieno."
+
+#~ msgid "This building has a very low productivity."
+#~ msgstr "Questo edificio ha una produttività molto bassa."
+
+#~ msgid "This building is decommissioned."
+#~ msgstr "Questo edificio è dismesso."
+
+#, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "Rotta commerciale: andando verso {location}"
+
+#, python-brace-format
+#~ msgid "Trade route: waiting at {position}"
+#~ msgstr "Itinerario commerciale: in attesa a {position}"
+
+#, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "Andando a {location}"
+
+#, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "Andando a {x}, {y}"
+
+#, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "Fermo a {location}"
+
+#, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "Fermo a {x}, {y}"
+
+#~ msgid "Trader"
+#~ msgstr "Commerciante"
+
+#, python-brace-format
+#~ msgid "Attacking {target} '{name}' ({owner})"
+#~ msgstr "Attaccando {target} '{name}' ({owner})"
+
+#, python-brace-format
+#~ msgid "Attacking {owner}"
+#~ msgstr "Attaccando {owner}"
+
+# Messages
+#~ msgid "Your game has been autosaved."
+#~ msgstr "La tua partita è stata salvata automaticamente."
+
+#~ msgid "Your building has caught fire!"
+#~ msgstr "Il tuo edificio è in fiamme!"
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}: {message}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "{player1} and {player2} have ended their alliance and are now in a state "
+#~ "of war."
+#~ msgstr ""
+#~ "{player1} e {player2} hanno rotto la loro alleanza ed ora sono in guerra."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have terminated their alliance."
+#~ msgstr "{player1} e {player2} hanno rotto la loro alleanza."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have ended the war and are now allied."
+#~ msgstr "{player1} e {player2} hanno finito la guerra e ora sono alleati."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have settled their hostility."
+#~ msgstr "{player1} e {player2} hanno iniziato le ostilità."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have allied their forces."
+#~ msgstr "{player1} e {player2} si sono alleati."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} will fight each other to the death."
+#~ msgstr "{player1} e {player2} si combatteranno fino alla morte."
+
+#~ msgid "You can also drag roads."
+#~ msgstr "È anche possibile trascinare le strade."
+
+#~ msgid "One of your fields requires a farm to harvest its crops."
+#~ msgstr ""
+#~ "Uno dei tuoi campi ha bisogno di una fattoria per effettuare il raccolto."
+
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "La tua miniera ha esaurito le risorse."
+
+#~ msgid ""
+#~ "You have reached the current maximum tier. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Hai raggiunto il livello massimo corrente. I tuoi abitanti non si "
+#~ "aggiorneranno ulteriormente."
+
+#~ msgid "Cannot go here."
+#~ msgstr "Non puoi andare qui."
+
+#~ msgid "Your crew refuses to leave this map."
+#~ msgstr "Il tuo equipaggio si rifiuta di lasciare questa mappa."
+
+#, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "Necessiti più {resource} per costruire questo edificio."
+
+#, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "Un nuovo insediamento è stato fondato da {player}."
+
+#, python-brace-format
+#~ msgid "A new ship by the name of {name} has been created."
+#~ msgstr "Una nuova nave chiamata {name} è stata creata."
+
+#, python-brace-format
+#~ msgid "The Soldier by the name of {name} is ready to battle."
+#~ msgstr "Il Soldato col nome di {name} è pronto a combattere."
+
+#, python-brace-format
+#~ msgid "The inhabitant by the name of {name} is available."
+#~ msgstr "L'abitante col nome di {name} è disponibile."
+
+#~ msgid "A new world has been created."
+#~ msgstr "Un nuovo mondo è stato creato."
+
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "Alcuni abitanti non hanno accesso alla piazza principale."
+
+# Messages
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "Il vostro gioco è stato salvato."
+
+#~ msgid ""
+#~ "The route is now configured. Start it via the \"start route\" button in "
+#~ "the \"configure route\" menu."
+#~ msgstr ""
+#~ "La tua rotta è configurata. Avviala con il pulsante \"inizia rotta\" nel "
+#~ "menu \"configura rotta\"."
+
+# Messages
+#~ msgid "Your game has been saved."
+#~ msgstr "Il tuo gioco è stato salvato."
+
+# Messages
+#, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "Screenshot è stato salvato in {file}."
+
+#, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "I tuoi abitanti hanno raggiunto il livello {level}."
+
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "Alcuni dei tuoi abitanti se ne sono appena andati."
+
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr ""
+#~ "Non puoi distruggere il deposito, è indispensabile per il tuo "
+#~ "insediamento."
+
+#~ msgid "You won!"
+#~ msgstr "Hai vinto!"
+
+#~ msgid "You failed the scenario."
+#~ msgstr "Hai fallito lo scenario."
+
+#~ msgid "The inhabitants of this building are infected by the Black Death!"
+#~ msgstr "Gli abitanti di questo edificio sono infettati dalla peste nera!"
+
+#~ msgid "coins"
+#~ msgstr "monete"
+
+#~ msgid "lamb wool"
+#~ msgstr "llana d'ovella"
+
+#~ msgid "textile"
+#~ msgstr "tessile"
+
+#~ msgid "boards"
+#~ msgstr "tavole"
+
+#~ msgid "food"
+#~ msgstr "cibo"
+
+#~ msgid "tools"
+#~ msgstr "strumenti"
+
+#~ msgid "bricks"
+#~ msgstr "mattoni"
+
+#~ msgid "trees"
+#~ msgstr "alberi"
+
+#~ msgid "grass"
+#~ msgstr "erba"
+
+#~ msgid "wool"
+#~ msgstr "lana"
+
+# Resources
+#~ msgid "faith"
+#~ msgstr "fede"
+
+#~ msgid "deer food A"
+#~ msgstr "Cibo per cervi A"
+
+#~ msgid "deer meat"
+#~ msgstr "carne di cervo"
+
+# Resources
+#~ msgid "happiness"
+#~ msgstr "felicità"
+
+# Resources
+#~ msgid "potatoes"
+#~ msgstr "patate"
+
+# Resources
+#~ msgid "education"
+#~ msgstr "educazione"
+
+#~ msgid "sugar cane"
+#~ msgstr "canna da zucchero"
+
+# Resources
+#~ msgid "sugar"
+#~ msgstr "zucchero"
+
+#~ msgid "community"
+#~ msgstr "comunità"
+
+#~ msgid "clay deposit"
+#~ msgstr "Deposito d'argilla"
+
+#~ msgid "clay"
+#~ msgstr "argilla"
+
+#~ msgid "liquor"
+#~ msgstr "liquore"
+
+#~ msgid "charcoal"
+#~ msgstr "carbone"
+
+#~ msgid "iron deposit"
+#~ msgstr "deposito di ferro"
+
+#~ msgid "iron ore"
+#~ msgstr "minerale di ferro"
+
+#~ msgid "iron ingots"
+#~ msgstr "lingotti di ferro"
+
+#~ msgid "get-together"
+#~ msgstr "luogo d'incontro"
+
+#~ msgid "fish"
+#~ msgstr "pesce"
+
+#~ msgid "salt"
+#~ msgstr "sale"
+
+#~ msgid "tobacco plants"
+#~ msgstr "piante di tabacco"
+
+#~ msgid "tobacco leaves"
+#~ msgstr "foglie di tabacco"
+
+#~ msgid "tobaccos"
+#~ msgstr "tabacchi"
+
+#~ msgid "cattle"
+#~ msgstr "bestiame"
+
+#~ msgid "pigs"
+#~ msgstr "maiali"
+
+#~ msgid "cattle for slaughter"
+#~ msgstr "bestiame da macello"
+
+#~ msgid "pigs for slaughter"
+#~ msgstr "maiali da macello"
+
+#~ msgid "herbs"
+#~ msgstr "erbe"
+
+#~ msgid "medical herbs"
+#~ msgstr "erbe mediche"
+
+#~ msgid "acorns"
+#~ msgstr "ghiande"
+
+#~ msgid "cannon"
+#~ msgstr "cannone"
+
+#~ msgid "sword"
+#~ msgstr "spada"
+
+#~ msgid "grain"
+#~ msgstr "grano"
+
+#~ msgid "corn"
+#~ msgstr "mais"
+
+#~ msgid "flour"
+#~ msgstr "farina"
+
+#~ msgid "spice plants"
+#~ msgstr "piante di spezie"
+
+#~ msgid "spices"
+#~ msgstr "spezie"
+
+#~ msgid "condiments"
+#~ msgstr "condimenti"
+
+#~ msgid "marble deposit"
+#~ msgstr "Deposito di marmo"
+
+#~ msgid "marble tops"
+#~ msgstr "piani in marmo"
+
+#~ msgid "coal deposit"
+#~ msgstr "Deposito di carbone"
+
+# 1st one if it's a deposit as warehouse, 2nd if is a cave, a mine of stone
+#~ msgid "stone deposit"
+#~ msgstr "deposito di roccia"
+
+# http://en.wiktionary.org/wiki/top#Noun which meaning?
+#~ msgid "stone tops"
+#~ msgstr "ripiani in pietra"
+
+#~ msgid "cocoa beans"
+#~ msgstr "fave di cacao"
+
+#~ msgid "cocoa"
+#~ msgstr "cacao"
+
+#~ msgid "confectionery"
+#~ msgstr "dolciumi"
+
+#~ msgid "candles"
+#~ msgstr "candele"
+
+#~ msgid "vines"
+#~ msgstr "tralci"
+
+#~ msgid "grapes"
+#~ msgstr "uva"
+
+#~ msgid "alvearies"
+#~ msgstr "alveari"
+
+#~ msgid "honeycombs"
+#~ msgstr "fave d'api"
+
+#~ msgid "gold deposit"
+#~ msgstr "Deposito d'oro"
+
+#~ msgid "gold ore"
+#~ msgstr "minerale d'oro"
+
+#~ msgid "gold ingots"
+#~ msgstr "lingotti d'oro"
+
+# 1st one if it's a deposit as warehouse, 2nd if is a cave, a mine of stone
+#~ msgid "gem deposit"
+#~ msgstr "Deposito di gemme"
+
+#~ msgid "rough gems"
+#~ msgstr "gemme grezze"
+
+#~ msgid "gems"
+#~ msgstr "gemme"
+
+#~ msgid "coffee plants"
+#~ msgstr "piante di caffe`"
+
+#~ msgid "coffee beans"
+#~ msgstr "chicchi di caffè"
+
+#~ msgid "coffee"
+#~ msgstr "caffe`"
+
+#~ msgid "tea plants"
+#~ msgstr "piante di te`"
+
+#~ msgid "tea leaves"
+#~ msgstr "foglie di te`"
+
+#~ msgid "tea"
+#~ msgstr "te`"
+
+#~ msgid "flower meadows"
+#~ msgstr "prati di fiore"
+
+#~ msgid "blossoms"
+#~ msgstr "fiori"
+
+#~ msgid "brine deposit"
+#~ msgstr "deposito salamoia"
+
+#~ msgid "brine"
+#~ msgstr "salamonia"
+
+#~ msgid "whales"
+#~ msgstr "Balene"
+
+#~ msgid "ambergris"
+#~ msgstr "ambra grigia"
+
+#~ msgid "lamp oil"
+#~ msgstr "lucerna"
+
+#~ msgid "cotton plants"
+#~ msgstr "piante di cottone"
+
+#~ msgid "cotton"
+#~ msgstr "cotone"
+
+#~ msgid "indigo plants"
+#~ msgstr "piante d`indigo"
+
+#~ msgid "indigo"
+#~ msgstr "indigo"
+
+#~ msgid "garments"
+#~ msgstr "indumenti"
+
+#~ msgid "perfume"
+#~ msgstr "profumo"
+
+#~ msgid "hop plants"
+#~ msgstr "piante di luppolo"
+
+#~ msgid "hops"
+#~ msgstr "Luppolo"
+
+#~ msgid "beer"
+#~ msgstr "birra"
+
+#~ msgid "hygiene"
+#~ msgstr "igiene"
+
+#~ msgid "recreation"
+#~ msgstr "ricreazione"
+
+#~ msgid "blackdeath"
+#~ msgstr "pestilenza"
+
+#~ msgid "fire"
+#~ msgstr "fuoco"
+
+#~ msgid "Aristocrats"
+#~ msgstr "Aristocratici"
+
+#~ msgid "Error: Unable to find required library \"PyYAML\"."
+#~ msgstr "Impossibile trovare la libreria richiesta \"PyYAML\"."
+
+#~ msgid "PyYAML (a required library) is missing and needs to be installed."
+#~ msgstr ""
+#~ "PyYAML (una libreria necessaria) è assente e deve essere installata."
+
+#~ msgid "The Windows installer is available at http://pyyaml.org/wiki/PyYAML."
+#~ msgstr ""
+#~ "Il Windows installer è disponibile su http://pyyaml.org/wiki/PyYAML ."
+
+#~ msgid ""
+#~ "Linux users should find it using their package manager under the name "
+#~ "\"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Gli utenti Linux possono trovarlo usando il gestore pacchetti sotto il "
+#~ "nome \"pyyaml\" oppure \"python-yaml\"."
+
+#, fuzzy
+#~| msgid "Unit overview"
+#~ msgid "Groundunit overview"
+#~ msgstr "Panoramica unità"
+
+#~ msgid "SDL is only meant as unsupported fallback and might cause problems!"
+#~ msgstr ""
+#~ "SDL è inteso solo come riserva non supportata e potrebbe causare dei "
+#~ "problemi!"
+
+#~ msgid "Used renderer:"
+#~ msgstr "Renderer utilizzato:"
+
+#~ msgid "Warning"
+#~ msgstr "Attenzione"
+
+#~ msgid ""
+#~ "The SDL renderer is meant as a fallback solution only and has serious "
+#~ "graphical glitches. \n"
+#~ "\n"
+#~ "Use at own risk!"
+#~ msgstr ""
+#~ "Il visualizzatore SDL è pensato solo come soluzione di ripiego ed ha seri "
+#~ "problemi grafici. \n"
+#~ "\n"
+#~ "Usare a proprio rischio!"
+
+#~ msgid "Increases the player's sight."
+#~ msgstr "Aumenta la vista del giocatore."
+
+#~ msgid "Vintner"
+#~ msgstr "Vinaio"
+
+#~ msgid "dagger"
+#~ msgstr "pugnale"
+
+#~ msgid "Back:"
+#~ msgstr "Indietro:"
+
+#~ msgid "Leave:"
+#~ msgstr "Abbandona:"
+
+#~ msgid "Main menu:"
+#~ msgstr "Menu principale:"
+
+#~ msgid "Color depth:"
+#~ msgstr "Profondità di colore:"
+
+#~ msgid "If set to 0, use the driver default"
+#~ msgstr "Se impostata su 0, usa il default del driver"
+
+#~ msgid "Apply"
+#~ msgstr "Applica"
+
+#~ msgid "Start game:"
+#~ msgstr "Inizia partita:"
+
+#~ msgid "16 bit"
+#~ msgstr "16 bit"
+
+#~ msgid "32 bit"
+#~ msgstr "32 bit"
+
+#~ msgid "Default"
+#~ msgstr "Predefinito"
+
+#~ msgid "Resources needed:"
+#~ msgstr "Risorse necessarie:"
+
+#~ msgid "{resource}: {amount}"
+#~ msgstr "{resource}: {amount}"
+
+#~ msgid "The inhabitants of this building have the plague."
+#~ msgstr "Gli abitanti di questo edificio hanno la peste."
+
+#~ msgid "Key bindings"
+#~ msgstr "Associazione tasti"
+
+#~ msgid "Hold to place multiple buildings"
+#~ msgstr "Tenere premuto per posizionare edifici multipli"
+
+#~ msgid "Close dialogs"
+#~ msgstr "Chiudi dialogo"
+
+#~ msgid "[{key}] = {text}"
+#~ msgstr "[{key}] = {text}"
+
+#~ msgid "UH-Team"
+#~ msgstr "Squadra UH"
+
+#~ msgid "Project Coordination"
+#~ msgstr "Coordinazione Progetto"
+
+#~ msgid "Programming"
+#~ msgstr "Programmazione"
+
+#~ msgid "Game-Play Design"
+#~ msgstr "Progettazione Gioco"
+
+#~ msgid "Sound and Music Artists"
+#~ msgstr "Artisti Sonori e Musicali"
+
+#, fuzzy
+#~ msgid "Graphics Artists"
+#~ msgstr "Artisti Grafici"
+
+#~ msgid "Patchers"
+#~ msgstr "Contributori"
+
+#~ msgid "Translators"
+#~ msgstr "Traduttori"
+
+#, fuzzy
+#~ msgid "Hosting Weblate"
+#~ msgstr "Log attivato"
+
+#, fuzzy
+#~ msgid "Spanish"
+#~ msgstr "Compagnie"
+
+#, fuzzy
+#~ msgid "Dutch"
+#~ msgstr "Macellaio"
+
+#, fuzzy
+#~ msgid "Chinese"
+#~ msgstr "tralci"
+
+#~ msgid "Special Thanks"
+#~ msgstr "Ringraziamenti speciali"
+
+#~ msgid "Save the map"
+#~ msgstr "Salva la mappa"
+
+#~ msgid "Toggle console on/off"
+#~ msgstr "Abilita/disabilita console"
+
+#, fuzzy
+#~ msgid "Only show games with the same version:"
+#~ msgstr "Mostra solo i giochi con la stessa versione:"
+
+#~ msgid ""
+#~ "You have reached the current maximum increment. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Hai raggiunto l'incremento massimo attuale, i tuoi abitanti non "
+#~ "progrediranno oltre."
+
+#~ msgid "Valid map names are in the following form: {expression}"
+#~ msgstr "I nomi validi per la mappa sono nel formeto seguente: {expression}"
+
+#~ msgid "Try a name that only contains letters and numbers."
+#~ msgstr "Il nome può contenere solo lettere e cifre."
+
+#~ msgid "This savegame is missing (click here)"
+#~ msgstr "Salvataggio mancante (clicca qui)"
+
+#~ msgid ""
+#~ "For multiplayer load, it is necessary for you to have the correct "
+#~ "savegame file."
+#~ msgstr "Per caricare file in multiplayer devi selezionare il file adatto."
+
+#~ msgid "The file will be downloaded when the game starts."
+#~ msgstr "Il file verrà scaricato appena il gioco sarà partito."
+
+#~ msgid "This is a savegame."
+#~ msgstr "Questo è un salvataggio."
+
+#~ msgid "You fetched the savegame data"
+#~ msgstr "Hai selezionato il salvataggio"
+
+#~ msgid "A savegame with the name '{name}' already exists."
+#~ msgstr " Esiste già una partita salvata con nome '{name}'."
+
+#~ msgid "An error happened during quicksave. Your game has not been saved."
+#~ msgstr ""
+#~ "Errore durante il salvataggio rapido. La tua partita non è stata salvata."
+
+#~ msgid "If this error happens again, please contact the development team:"
+#~ msgstr "Se questo errore si ripete, contattare il team UH:"
+
+#, fuzzy
+#~ msgid "Collector utilisation"
+#~ msgstr "Collezionista di utilizzo:"
+
+#, fuzzy
+#~ msgid "A new ship has been created."
+#~ msgstr "Una nuova nave è stata costruita."
+
+#~ msgid "Specify the path to FIFE root directory."
+#~ msgstr "Specifica il percorso per la directory principale di FIFE."
+
+#~ msgid "Please select a savegame or click on cancel."
+#~ msgstr "Seleziona un salvataggio o fare clic su Annulla."
+
+#~ msgid "Select a savegame"
+#~ msgstr "seleziona salvataggio"
+
+#~ msgid "Error:"
+#~ msgstr "Errore:"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which couldn't "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "la modalità multiplayer richiede la libreria \"pyenet\" , che non è stato "
+#~ "trovato sul vostro sistema."
+
+#~ msgid "Windows users: There is currently no reasonable support for Windows."
+#~ msgstr ""
+#~ "Utente Windows : Attualmente non esiste un supporto adeguato per Windows."
+
+#~ msgid "Too far from the nearest own or allied warehouse"
+#~ msgstr "Troppo distante dal più vicino magazzino proprio o alleato."
+
+#~ msgid "Gold"
+#~ msgstr "Oro"
+
+#~ msgid "Huker"
+#~ msgstr "Huker"
+
+#~ msgid "Boards"
+#~ msgstr "Assi"
+
+#~ msgid "Tools"
+#~ msgstr "Attrezzi"
+
+#~ msgid "Frigate"
+#~ msgstr "Fregata"
+
+#~ msgid "Build fields"
+#~ msgstr "Costruire campi"
+
+#~ msgid "1 resident"
+#~ msgstr "1 residente"
+
+#~ msgid "2 residents"
+#~ msgstr "2 residenti"
+
+#~ msgid "3 residents"
+#~ msgstr "3 residenti"
+
+#~ msgid "4 residents"
+#~ msgstr "4 residenti"
+
+#~ msgid "5 residents"
+#~ msgstr "5 residenti"
+
+#, fuzzy
+#~ msgid "6 residents"
+#~ msgstr "2 residenti"
+
+#, fuzzy
+#~ msgid "7 residents"
+#~ msgstr "2 residenti"
+
+#, fuzzy
+#~ msgid "8 residents"
+#~ msgstr "2 residenti"
+
+#~ msgid "This is the current maximum increment!"
+#~ msgstr "Questo è l'attuale incremento massimo!"
+
+#~ msgid "Average happiness:"
+#~ msgstr "Felicità media:"
+
+#~ msgid "Most needed resource:"
+#~ msgstr "Risorsa maggiormente necessaria:"
+
+#~ msgid "Available Scenarios"
+#~ msgstr "Scenario aviabile"
+
+#~ msgid "Scenario description"
+#~ msgstr "Descrizione Scenario"
+
+#~ msgid "Continue playing"
+#~ msgstr "Continua a giocare"
+
+#~ msgid "Choose this scenario"
+#~ msgstr "Scegli questo scenario"
+
+#~ msgid "The FIFE and Unknown Horizons development teams"
+#~ msgstr "Il FIFE e Unknown Horizons teams"
+
+#~ msgid "Have fun."
+#~ msgstr "Divertiti."
+
+#~ msgid "Attention please!"
+#~ msgstr "Attenzione per favore!"
+
+#~ msgid "The game will start as soon as enough players have joined."
+#~ msgstr "Il gioco comincerà quando abbastanza giocatori si uniranno."
+
+#~ msgid "Campaign"
+#~ msgstr "Campagna"
+
+#~ msgid "Supplies citizens with goods."
+#~ msgstr "Rifornisce i cittadini con beni."
+
+#~ msgid ""
+#~ "This means that changes in the file you specified will not apply to the "
+#~ "game directly."
+#~ msgstr ""
+#~ "Questo significa che i cambiamenti nel file specificato non verranno "
+#~ "applicati al gioco direttamente."
+
+#~ msgid "File used by another process"
+#~ msgstr "File usato da un altro processo"
+
+#~ msgid "The savegame file is currently used by another program."
+#~ msgstr "Il file del salvataggio è attualmente usato da un altro programma."
+
+#, fuzzy
+#~ msgid "We are very sorry for this and want to fix underlying error."
+#~ msgstr "Ci spiace di questo e desideriamo risolvere questo errore."
+
+#~ msgid "Error: Unable to find required libraries"
+#~ msgstr "Impossibile trovare le librerie richieste"
+
+#~ msgid ""
+#~ "We are sorry to inform you that a library that is required by Unknown "
+#~ "Horizons, is missing and needs to be installed."
+#~ msgstr ""
+#~ "Siamo spiacenti di informarvi che la libreria  richiesta da Unknown "
+#~ "Horizons, non è presente e deve essere installata."
+
+#~ msgid ""
+#~ "Installers for Windows users are available at \"http://pyyaml.org/wiki/"
+#~ "PyYAML\", Linux users should find it in their packagement management "
+#~ "system under the name \"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "L'installazione per gli utenti windows è disponibile al seguente sito  "
+#~ "\"http://pyyaml.org/wiki/PyYAML\", per gli utenti Linux dovrebbe trovarsi "
+#~ "nel sistema di gestione pachetti sotto il nome  \"pyyaml\" o \"python-"
+#~ "yaml\"."
+
+#~ msgid "FIFE was not found."
+#~ msgstr "FIFE non è stato trovato."
+
+#~ msgid "Build related fields"
+#~ msgstr "Riempire campi correlati"
+
+#~ msgid "Log"
+#~ msgstr "Tronco"
+
+#~ msgid "Rampart"
+#~ msgstr "Bastione"
+
+#~ msgid "The game you selected couldn't be started."
+#~ msgstr "Il gioco da lei selezionato non può essere avviato."
+
+#~ msgid "aristocrat"
+#~ msgstr "aristocratico"
+
+#~ msgid "citizen"
+#~ msgstr "cittadino"
+
+#~ msgid "merchant"
+#~ msgstr "mercante"
+
+#~ msgid "pioneer"
+#~ msgstr "pioniere"
+
+#~ msgid "sailor"
+#~ msgstr "marinaio"
+
+#~ msgid "settler"
+#~ msgstr "colone"
+
+#~ msgid "wood"
+#~ msgstr "legno"
+
+#~ msgid "Weaver's Tent"
+#~ msgstr "Tenda del Tessitore"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Per cortesia fornitecelo tramite IRC od il nostro forum, per entrami "
+#~ "accedere a unknown-horizons.org ."
+
+#~ msgid "{player1} and {player2} are now {status}"
+#~ msgstr "{player1} e {player2} sono ora {status}"
+
+#~ msgid "Leave Captain's log"
+#~ msgstr "Abbandona il diario del Capitano"
+
+#~ msgid "Lumberjack Camp"
+#~ msgstr "Accampamento Tagliaboschi"
+
+#~ msgid "We are very sorry for this, and want to fix this error."
+#~ msgstr "Ci spiace di questo e desideriamo risolvere questo errore."
+
+#~ msgid "This will delete all changes to the settings you made so far."
+#~ msgstr "Questo cancellerà tutti i cambiamenti che hai fatto finora."
+
+#~ msgid "Click to change the name of your settlement."
+#~ msgstr "Clicca per cambiare il nome del tuo insediamento."
+
+#~ msgid "Bricks"
+#~ msgstr "Mattoni"
+
+#~ msgid "Textiles"
+#~ msgstr "Stoffe"
+
+#~ msgid "Click to change the name of this ship."
+#~ msgstr "Clicca per cambiare il nome di questa nave."
+
+#~ msgid "Buy resources"
+#~ msgstr "Compra risorse"
+
+#~ msgid "Click on slot icon to toggle mode:"
+#~ msgstr "Clicca sull'icona di slot per alternare la modalità:"
+
+#~ msgid "Sell resources"
+#~ msgstr "Vendi risorse"
+
+#~ msgid "Tent Ruin"
+#~ msgstr "tenda Ruin"
+
+#~ msgid "blue"
+#~ msgstr "blu"
+
+#~ msgid "bordeaux"
+#~ msgstr "bordò"
+
+#~ msgid "cyan"
+#~ msgstr "giallo"
+
+#~ msgid "gray"
+#~ msgstr "grigio"
+
+#~ msgid "green"
+#~ msgstr "verde"
+
+#~ msgid "lemon"
+#~ msgstr "limone"
+
+#~ msgid "orange"
+#~ msgstr "arancio"
+
+#~ msgid "pink"
+#~ msgstr "rosa"
+
+#~ msgid "purple"
+#~ msgstr "porpora"
+
+#~ msgid "red"
+#~ msgstr "rosso"
+
+#~ msgid "white"
+#~ msgstr "bianco"
+
+#~ msgid "yellow"
+#~ msgstr "giallo"
+
+#~ msgid "Apply:"
+#~ msgstr "Applica:"
+
+#~ msgid "Boar"
+#~ msgstr "Cinghiale"
+
+#~ msgid "Branch Office"
+#~ msgstr "Filiale"
+
+#~ msgid "Cattle"
+#~ msgstr "bestiame"
+
+#~ msgid "Deer"
+#~ msgstr "Cervo"
+
+#~ msgid "Fisher"
+#~ msgstr "Pesci"
+
+#~ msgid "Pirate Ship"
+#~ msgstr "Nave Pirata"
+
+#~ msgid "Sheep"
+#~ msgstr "Pecora"
+
+#~ msgid "Branch office overview"
+#~ msgstr "Panoramica filiale"
+
+#~ msgid "Sailor buildings"
+#~ msgstr "Edifici dei marinai"
+
+#~ msgid "Pioneer buildings"
+#~ msgstr "Edifici del pioniere"
+
+#~ msgid "Settler buildings"
+#~ msgstr "Edifici dei Coloni"
+
+#~ msgid "Charcoal burning: Burns a lot of boards to charcoal."
+#~ msgstr "brucia un sacco di tavole a carbone."
+
+#~ msgid "Mine: Gets ores from deposit."
+#~ msgstr "Ottiene minerali dal deposito."
+
+#~ msgid "Show pause menu"
+#~ msgstr "Mostra menù pausa"
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-master commandline option. Port must be a "
+#~ "number between 1 and 65535."
+#~ msgstr ""
+#~ "Errore : Invalida sintassi  opzione dato in --mp-mastero. La porta deve "
+#~ "essere tra i numeri 1 e 65535."
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-bind commandline option. Port must be a "
+#~ "number between 1 and 65535."
+#~ msgstr ""
+#~ "Errore: Invalida sintassi opzione dato in --mp-bind. La porta deve essere "
+#~ "tra i numeri 1 e 65535."
+
+#~ msgid "Error: campaign filenames have to end in \".yaml\"."
+#~ msgstr "il file della campagna deve avere come estensione \".yaml\"."
+
+#~ msgid "Error: No quicksave found."
+#~ msgstr "Nessun salvataggio rapido trovato."
+
+#~ msgid "${player1} and ${player2} are now ${status}"
+#~ msgstr "${player1} e ${player2} sono ora ${status}"
+
+# Messages
+#~ msgid "Screenshot has been saved to ${file}."
+#~ msgstr "Screenshot è stato salvato in ${file}."
+
+#~ msgid "You need more ${resource} to build this building."
+#~ msgstr "Necessiti più ${resource} per costruire questo edificio."
+
+#~ msgid "System default"
+#~ msgstr "Impostazioni originali"
+
+#~ msgid "Add to list"
+#~ msgstr "Aggiungi alla lista"
+
+#~ msgid "100/100"
+#~ msgstr "100/100"
+
+#~ msgid "Rotate building left"
+#~ msgstr "Ruota l'edificio a sinistra"
+
+#~ msgid "Rotate building right"
+#~ msgstr "Ruota l'edificio a destra"
+
+#~ msgid "Enable edge scrolling:"
+#~ msgstr "Abilita board di scorrimento:"
+
+#~ msgid "Enable minimap rotation:"
+#~ msgstr "Abilita rotazione mappa:"
+
+#~ msgid "(0 means default)"
+#~ msgstr "(0 significa di default)"
+
+#~ msgid "Please make sure that you know what you do."
+#~ msgstr "Assicurarsi di sapere cosa si sta facendo."
+
+#~ msgid "Enable debug output to stderr and a logfile."
+#~ msgstr "Abilita messaggi di debug sullo stderr e sul file di log."
+
+#~ msgid ""
+#~ "Restores the default settings. Useful if Unknown Horizons crashes on "
+#~ "startup due to misconfiguration."
+#~ msgstr ""
+#~ "Ripristina le impostazioni predefinite. Utile se Unknown Horizons non "
+#~ "parte a causa di un'errata configurazione."
+
+#~ msgid "Specify alternative multiplayer master server."
+#~ msgstr ""
+#~ "Specifica un server principale alternativo per il gioco a più giocatori."
+
+#~ msgid ""
+#~ "Specify network address to bind local network client to. This is useful "
+#~ "if NAT holepunching is not working but you can forward a static port."
+#~ msgstr ""
+#~ "Specifica un indirizzo di rete a cui agganciare i client locali di rete. "
+#~ "Utile se l'aggiramento del NAT non funziona ma è possibile inoltrare una "
+#~ "porta statica."
+
+#~ msgid "Starts <map>. <map> is the mapname."
+#~ msgstr "Avvia <map>. <map> è il nome della mappa."
+
+#~ msgid "Starts a random map."
+#~ msgstr "Avvia una mappa casuale."
+
+#~ msgid "Starts a random map with seed <seed>."
+#~ msgstr "Avvio mappa casuale con seme <seed>."
+
+#~ msgid "Starts <scenario>. <scenario> is the scenarioname."
+#~ msgstr "Avvio <scenario>. <scenario> is the nome scenario."
+
+#~ msgid "Starts <campaign>. <campaign> is the campaign name."
+#~ msgstr "Avvio <campaign>. <campaign> è il nome campagna."
+
+#~ msgid "Starts the development map without displaying the main menu."
+#~ msgstr "Avvia la mappa di sviluppo senza visualizzare il menù principale."
+
+#~ msgid "Loads a saved game. <save> is the savegamename."
+#~ msgstr "Carica una partita salvata. <save> è il nome del salvataggio."
+
+#~ msgid "Loads the last quicksave."
+#~ msgstr "Carica l'ultimo salvataggio rapido."
+
+#~ msgid ""
+#~ "Sets the seed used to generate trees, fish, and other natural resources."
+#~ msgstr ""
+#~ "Imposta il seme utilizzato per generare gli alberi, i pesci e altre "
+#~ "risorse naturali."
+
+#~ msgid "Makes the human player a human-AI hybrid (for development only)."
+#~ msgstr ""
+#~ "Rende il player umano in player umano-AI ibrido (solo per sviluppatori)."
+
+#~ msgid "Shows AI plans as highlights (for development only)."
+#~ msgstr "Mostra in evidenzia i piani AI (solo per lo sviluppo)."
+
+#~ msgid "Development options"
+#~ msgstr "Opzioni per sviluppatori"
+
+#~ msgid "Write debug output only to logfile, not to console. Implies -d."
+#~ msgstr ""
+#~ "Scrive i messaggi di debug solo sul file di log, non sulla console. "
+#~ "Implica -d."
+
+#~ msgid "Enable logging for a certain logging module (for developing only)."
+#~ msgstr "Abilita i log per un certo modulo di log (solo per sviluppatori)."
+
+#~ msgid "Writes log to <filename> instead of to the uh-userdir"
+#~ msgstr "Scrive i log su <filename> invece che sulla uh-userdir"
+
+#~ msgid "For internal use only."
+#~ msgstr "Solo per uso interno."
+
+#~ msgid "Enable profiling (for developing only)."
+#~ msgstr "Abilita il profiling (solo per sviluppatori)."
+
+#~ msgid "Run the game for <max_ticks> ticks."
+#~ msgstr "Eseguire il gioco per <max_ticks> ticks."
+
+#~ msgid "Enable the string previewer tool for scenario writers"
+#~ msgstr "Attivare lo strumento visualizzatore stringa per \"sceneggiatori\""
+
+#~ msgid "A new settlement has been created by ${player}."
+#~ msgstr "Un nuovo insediamento è stato creato da ${player}."
+
+#~ msgid "One of your settler has no main square in it's range."
+#~ msgstr "Un colone non ha una piazza del mercato nelle vicinanze."
+
+#~ msgid "Some of your settlers just moved out."
+#~ msgstr "Alcuni coloni se ne sono andati."
+
+#~ msgid "Your settlers reached level ${level}."
+#~ msgstr "I tuoi coloni hanno raggiunto il livello ${level}."
+
+#~ msgid "Configured language %(lang)s at %(place)s could not be loaded"
+#~ msgstr "La lingua configurata %(lang)s a %(place)s non può essere caricata"
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it's in the specified "
+#~ "range."
+#~ msgstr ""
+#~ "Si prega di controllare la porta inserita e assicurarsi che sia nel range "
+#~ "specificato."
+
+#~ msgid "Failed to apply new network data."
+#~ msgstr "Fallito applicazione della nuova rete dati."
+
+#~ msgid "Networking couldn't be initialised with the current configuration."
+#~ msgstr "Rete non può essere inizializzato con la configurazione attuale."
+
+#~ msgid "Check the data you entered in the Network section."
+#~ msgstr "Controllare i dati inseriti nella sezione Network."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special privileges, try one greater "
+#~ "than 1024 or 0."
+#~ msgstr ""
+#~ "Le porte inferiori alla 1024 richiedono spesso permessi speciali, prova "
+#~ "una porta superiore alla 1024"
+
+#~ msgid "There are no saved games to load"
+#~ msgstr "Non ci sono partite salvate da caricare"
+
+#~ msgid ""
+#~ "A savegame with the name \"%s\" already exists. \n"
+#~ "Should i overwrite it?"
+#~ msgstr ""
+#~ "Una partita con il nome \"%s\" esiste già. \n"
+#~ "Sovrascriverla?"
+
+#~ msgid "Savegame ver. %d"
+#~ msgstr "Salvataggio ver. %d"
+
+#~ msgid ""
+#~ "WARNING: Incompatible ver. %(ver)d!\n"
+#~ "Need ver. %(need)d!"
+#~ msgstr ""
+#~ "ATTENZIONE: Vers. %(ver)d incompatibile!\n"
+#~ "Serve vers. %(need)d!"
+
+#~ msgid "INCOMPATIBLE VERSION\n"
+#~ msgstr "VERSIONE INCOMPATIBILE\n"
+
+#~ msgid "You need to select a savegame to delete"
+#~ msgstr "Selezionare una partita salvata da cancellare"
+
+#~ msgid "Do you really want to delete the savegame \"%s\"?"
+#~ msgstr "Si desidera veramente cancellare la partita \"%s\"?"
+
+#~ msgid ""
+#~ "Check the data you entered in the Network section in the settings "
+#~ "dialogue."
+#~ msgstr ""
+#~ "Controllare i dati inseriti nella sezione Rete nel dialogo delle "
+#~ "impostazioni."
+
+#~ msgid ""
+#~ "Could not connect to master server. Please check your Internet "
+#~ "connection. If it is fine, it means our master server is temporarily "
+#~ "down.\n"
+#~ "Details: %s"
+#~ msgstr ""
+#~ "Impossibile connettersi al server master. Si prega di verificare la "
+#~ "connessione internet. Se va bene, significa che il nostro server "
+#~ "principale è temporaneamente inattivo.\n"
+#~ "Details: %s"
+
+#~ msgid "Network Error"
+#~ msgstr "Errore di Rete"
+
+#~ msgid "Map: "
+#~ msgstr "Mappa: "
+
+#~ msgid "Players: "
+#~ msgstr "Giocatori: "
+
+#~ msgid "Creator: "
+#~ msgstr "Creatore: "
+
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: %(gameversion)s Your "
+#~ "version: %(ownversion)s"
+#~ msgstr ""
+#~ "La versione del gioco differisce dalla vostra versione. Ogni giocatore in "
+#~ "un gioco multiplayer deve utilizzare la stessa versione. Questo può "
+#~ "essere risolto da ogni giocatore con l'aggiornamento alla versione più "
+#~ "recente. Versione del gioco: %(gameversion)s Tua versione: %(ownversion)s"
+
+#~ msgid "Difficulty: "
+#~ msgstr "Difficoltà: "
+
+#~ msgid "Author: "
+#~ msgstr "Autore: "
+
+#~ msgid "You entered an invalid playername"
+#~ msgstr "È stato inserito un nome giocatore non valido"
+
+#~ msgid "Ship inventory"
+#~ msgstr "Inventario Nave"
+
+#~ msgid "Load/Unload:"
+#~ msgstr "Carregar/Descarregar:"
+
+#~ msgid "Buy/Sell:"
+#~ msgstr "compra/vendi"
+
+#~ msgid "%(player)s's settlements"
+#~ msgstr "%(player)s's insediamenti"
+
+#~ msgid "%(player)s's ships"
+#~ msgstr "%(player)s's navi"
+
+#~ msgid "Production overview of %(settlement)s"
+#~ msgstr "Panoramica Produzione %(settlement)s"
+
+#~ msgid "String Previewer Tool for Scenario files"
+#~ msgstr "Stringa Strumento Previewer per i file Scenario"
+
+# load / reload = carica / ricarica
+#~ msgid ""
+#~ "select a scenario and click on load/reload to update the messages in the "
+#~ "captain's log"
+#~ msgstr ""
+#~ "selezionare uno scenario e cliccare su load / reload per aggiornare i "
+#~ "messaggi nel registro del capitano"
+
+#~ msgid "load/reload"
+#~ msgstr "carica/ricarica"
+
+#~ msgid "Build menu"
+#~ msgstr "Menù di costruzione"
+
+#~ msgid "Destroy"
+#~ msgstr "Distruggi"
+
+#~ msgid "Game menu"
+#~ msgstr "Menù del gioco"
+
+#~ msgid "Captain's log"
+#~ msgstr "Diario del capitano"
+
+#~ msgid "Rotate map counterclockwise"
+#~ msgstr "Ruotare la mappa in senso antiorario"
+
+#~ msgid "Rotate map clockwise"
+#~ msgstr "Ruotare la mappa in senso orario"
+
+#~ msgid "Collector utilisation:"
+#~ msgstr "Collezionista di utilizzo:"
+
+#~ msgid "capacity utilization"
+#~ msgstr "Utilizzo della produzione"
+
+#~ msgid "Build settlement:"
+#~ msgstr "Costruisci insediamento:"
+
+#~ msgid "Configure trading route:"
+#~ msgstr "Configurare percorso commerciale:"
+
+#~ msgid "Read prev. entries"
+#~ msgstr "Leggi le note precedenti"
+
+#~ msgid "Show only games with the same version:"
+#~ msgstr "Mostra solo i giochi con la stessa versione:"
+
+#~ msgid "Error: Cannot find map \"%s\"."
+#~ msgstr "Errore: Impossibile trovare la mappa \"%s\"."
+
+#~ msgid "Error: Found multiple matches: "
+#~ msgstr "Errore: Trovate occorrenze multiple: "
+
+#~ msgid ""
+#~ "Due to technical reasons, the campaign file will be copied to the UH "
+#~ "campaign directory (%s)."
+#~ msgstr ""
+#~ "Per motivi tecnici, il file campagna sarà copiato nella directory di "
+#~ "campagna UH (%s)."
+
+#~ msgid ""
+#~ "To see the changes, either always start UH with the current arguments or "
+#~ "edit the file %s."
+#~ msgstr ""
+#~ "Per vedere le modifiche, iniziare sempre UH con gli argomenti attuali o "
+#~ "modificare il file %s."
+
+#~ msgid "Error: Cannot find campaign \"%s\"."
+#~ msgstr "Errore: Impossibile trovare la mappa \"%s\"."
+
+#~ msgid "Error: Cannot find savegame \"%s\"."
+#~ msgstr "Errore: Impossibile trovare la partita \"%s\"."
+
+#~ msgid "Error: don't know how to handle %(type)s condition type"
+#~ msgstr "Errore: non sanno come gestire %(type)s di condizione"
+
+#~ msgid "Error: Cannot find campaign with file \"%s\"."
+#~ msgstr "Errore: Impossibile trovare la campagna \"%s\"."
+
+#~ msgid "Error: Cannot find scenario \"%s\"."
+#~ msgstr "Errore: Impossibile trovare la partita \"%s\"."
+
+#~ msgid "Error: Cannot find scenario with file \"%s\"."
+#~ msgstr "Errore: Impossibile trovare la mappa con il nome \"%s\"."
+
+#~ msgid "You have completed this scenario. "
+#~ msgstr "Hai completato questo scenario. "
+
+#~ msgid "Trade route: going to %s"
+#~ msgstr "Via commerciale: andare a %s"
+
+#~ msgid "Trade route: waiting at %s"
+#~ msgstr "Via commerciale: attesa %s"
+
+#~ msgid "Going to %s"
+#~ msgstr "Andare a %s"
+
+#~ msgid "Going to %(x)d, %(y)d"
+#~ msgstr "Andare a %(x)d, %(y)d"
+
+#~ msgid "Idle at %s"
+#~ msgstr "Idle a %s"
+
+#~ msgid "Idle at %(x)d, %(y)d"
+#~ msgstr "Idle a %(x)d, %(y)d"
+
+#~ msgid "Attacking "
+#~ msgstr "Attaccare"
+
+#~ msgid ""
+#~ "Uses <ai_players> AI players (excludes the possible human-AI hybrid; "
+#~ "defaults to 1)."
+#~ msgstr ""
+#~ "Utilizza <ai_players> giocatori AI (esclude il possibile uomo-AI ibridi; "
+#~ "default 1)."
+
+#~ msgid "Saved at %s"
+#~ msgstr "Salvato il %s"
+
+#~ msgid "Unknown savedate\n"
+#~ msgstr "Data di salvataggio sconosciuta\n"
+
+#~ msgid "Saved at %s\n"
+#~ msgstr "Salvato il %s\n"
+
+#~ msgid "Something went wrong with the network: "
+#~ msgstr "Qualcosa non è andata bene con la connessione di rete: "
+
+#~ msgid ""
+#~ "The selected file is not a valid scenario file.\n"
+#~ "Error message: "
+#~ msgstr ""
+#~ "Il file selezionato non è un file di scenario valido.\n"
+#~ "Messaggio d'errore: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Please report this to the author."
+#~ msgstr ""
+#~ "\n"
+#~ "Prego segnalarlo all'autore."
+
+#~ msgid "Fishing boat"
+#~ msgstr "Barca da pesca"
+
+#~ msgid "Fishing boats"
+#~ msgstr "Barche da pesca"
+
+#~ msgid "Cutter"
+#~ msgstr "Lancia"
+
+#~ msgid "Herring fisher"
+#~ msgstr "Pescatore di aringhe"
+
+#~ msgid "Not yet implemented!"
+#~ msgstr "Non ancora implementato!"
+
+#~ msgid "Allow upgrades:"
+#~ msgstr "Permetti aggiornamenti"
+
+#~ msgid "Legend:"
+#~ msgstr "Legenda:"
+
+#~ msgid "Leave production overview"
+#~ msgstr "ascia panoramica della produzione"
+
+#~ msgid "Refresh data"
+#~ msgstr "Aggiorna data"
+
+#~ msgid "Leave player scores"
+#~ msgstr "Rimuovere punteggio giocatore"
+
+#~ msgid "Choose your opponents:"
+#~ msgstr "Scegli i tuoi avversari:"
+
+#~ msgid "Climate zone:"
+#~ msgstr "Zona climatica:"
+
+#~ msgid "frosty"
+#~ msgstr "Gelido"
+
+#~ msgid "torrid"
+#~ msgstr "torrido"
+
+#~ msgid "huge"
+#~ msgstr "enorme"
+
+#~ msgid "small"
+#~ msgstr "piccolo"
+
+#~ msgid "dense"
+#~ msgstr "denso"
+
+#~ msgid "few"
+#~ msgstr "pochi"
+
+#~ msgid "%H:%M, %A, %B %d"
+#~ msgstr "%H:%M, %A, %B %d"
+
+#~ msgid "Hit P to continue the game or click below!"
+#~ msgstr "Premere P per continuare il gioco o cliccare sotto!"
+
+#~ msgid "One of your settler has no market place in it's range."
+#~ msgstr "Un colone non ha una piazza del mercato nelle vicinanze."
+
+# Messages
+#~ msgid "YOU HAVE WON!!!"
+#~ msgstr "HAI VINTO!!!"
+
+#~ msgid "raw clay"
+#~ msgstr "argilla grezza"
+
+#~ msgid "raw iron"
+#~ msgstr "ferro grezzo"
+
+# Resources
+#~ msgid "raw sugar"
+#~ msgstr "zucchero grezzo"
+
+#~ msgid "Unknown Horizons Version %s"
+#~ msgstr "Unknown Horizons Versione %s"
+
+#~ msgid "Failed to load FIFE:"
+#~ msgstr "Impossibile caricare FIFE:"
+
+#~ msgid "Tent_ruin"
+#~ msgstr "Tenda_danneggiata"
+
+#~ msgid "wild animal food 1"
+#~ msgstr "cibo di animale selvatico 1"
+
+#~ msgid "wild animal meat"
+#~ msgstr "carne di animale selvatico"
+
+#~ msgid "Could not connect to master server. Details: %s"
+#~ msgstr "Impossibile connettersi al server principale. Dettagli: %s"
+
+#~ msgid ""
+#~ "The random map feature is still in active development. It is to be "
+#~ "considered a pre testing version. Problems are to be expected."
+#~ msgstr ""
+#~ "La mappa casuale è ancora in fase di sviluppo. É da considerarsi una "
+#~ "versione preliminare di prova. Si potrebbero avere problemi."
+
+#~ msgid "Start / Stop route"
+#~ msgstr "Inizio / Fine strada"
+
+#~ msgid "The FIFE and Unknown Horizons"
+#~ msgstr "FIFE ed Unknown Horizons"
+
+#~ msgid "development teams"
+#~ msgstr "squadre sviluppatori"
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-master commandline option. Port must be a "
+#~ "number between 0 and 65535."
+#~ msgstr ""
+#~ "Errore: Sintassi non valida nell'opzione --mp-master. La porta deve "
+#~ "essere un numero compreso tra 0 e 65535."
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-bind commandline option. Port must be a "
+#~ "number between 0 and 65535."
+#~ msgstr ""
+#~ "Errore: Sintassi non valida nell'opzione --mp-bind. La porta deve essere "
+#~ "un numero compreso tra 0 e 65535."
+
+#~ msgid "Load failed. Please try another savefile!"
+#~ msgstr "Caricamento fallito! Prova con un altro salvataggio!"
+
+#~ msgid "You entered an invalid filename."
+#~ msgstr "Nome di file inserito non valido."
+
+#~ msgid "Starting unknown horizons"
+#~ msgstr "Avvio di unknown horizons"
+
+#~ msgid "Failed to load fife:"
+#~ msgstr "Impossibile caricare fife:"
+
+#~ msgid ""
+#~ "Yeah, you made it...\n"
+#~ "\n"
+#~ "But this is a placeholder, sorry."
+#~ msgstr ""
+#~ "Va bene, l'hai fatto...\n"
+#~ "\n"
+#~ "Ma non c'è altro, mi spiace."
+
+#~ msgid "Chime The Bell"
+#~ msgstr "Suona La Campana"
+
+#~ msgid "Saved 1 time\n"
+#~ msgstr "Salvato 1 volta\n"
+
+#~ msgid "Saved %d times\n"
+#~ msgstr "Salvata %d volte\n"
+
+#~ msgid "The whole FIFE team (www.fifengine.de)"
+#~ msgstr "Tutta la squadra FIFE (www.fifengine.de)"
+
+#~ msgid "Chime the bell"
+#~ msgstr "Suona la campana"
+
+#~ msgid "Autosave interval:"
+#~ msgstr "Intervallo di salvataggio automatico:"
+
+#~ msgid "Health:"
+#~ msgstr "Salute:"
+
+#~ msgid "Starts <campaign>. <campaign> is the campaignname."
+#~ msgstr "Avvia <campaign>. <campaign> è il nome della campagna."
+
+#~ msgid "raw fish"
+#~ msgstr "pesce grezzo"

@@ -1,0 +1,2806 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Unknown Horizons Team
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2013-09-04 14:44+0200\n"
+"Last-Translator: Àngel Mompó Llovet <mecatxis@gmail.com>\n"
+"Language-Team: Catalan <http://hosted.weblate.org/projects/uh/uh/ca@valencia/"
+">\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 1.7-dev\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "Data desconeguda"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "Data desconeguda"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+msgid "Descriptive Label:"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "Edificis"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "desconegut"
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "Data desconeguda"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "Nova partida - Jugador simple"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "Carregar partida"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Quit"
+msgstr "Eixir"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Help"
+msgstr "Ajuda"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Options"
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "Nova partida - Jugador simple"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Scenario"
+msgstr "Escenari"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Random map"
+msgstr "Mapa aleatori"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free play"
+msgstr "Joc lliure"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "Data desconeguda"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Color:"
+msgstr "Barva:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "AI players:"
+msgstr "Jugadors IA:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "Tria un mapa per a jugar:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "Nombre recomanat de jugadors: {number}"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Game settings:"
+msgstr "Configuració del joc:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "Dipòsit de recursos:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "Lliure comerç"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Pirates"
+msgstr "Pirates"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Saving"
+msgstr "Guardant"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "Partida pausada"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Mouse"
+msgstr "cases"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+#, fuzzy
+msgid "Graphics"
+msgstr "Gràfics"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+#, fuzzy
+msgid "Sound"
+msgstr "So"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr ""
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "Statistiky"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Players"
+msgstr "Puntuació del jugador"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "My ships"
+msgstr "Navilis de guerra"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "My settlements"
+msgstr "Construir assentament"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Player scores"
+msgstr "Puntuació del jugador"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Name"
+msgstr "Nome:"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Money"
+msgstr "Diners"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Land"
+msgstr "Terra"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Resources"
+msgstr "Recursos"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Buildings"
+msgstr "Edificis"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Settlers"
+msgstr "Colons"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Units"
+msgstr "Unitats"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Total"
+msgstr "Total"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "140"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "104"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "InventoryTab"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Limit: 30t per slot"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "Comprar/Vendre"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Trade history"
+msgstr "Historial del comerç"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Free Trader"
+msgstr "Lliure comerç"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "Resum"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "Data desconeguda"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "Obchod"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "LumberjackOverviewTab"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "Pole"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Pioneers"
+msgstr "Pioners"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Citizens"
+msgstr "ciutadà"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Mining"
+msgstr "Avís"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Sailors"
+msgstr "Mariners"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "Obyvatelé a infrastruktura"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Military"
+msgstr "Armáda"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Merchants"
+msgstr "comerciant"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Up"
+msgstr "Partida pausada"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Down"
+msgstr "Partida pausada"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "Compte"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Sale"
+msgstr "Vendes"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Expenses:"
+msgstr "Despeses:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Running costs"
+msgstr "Filtres en execució"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Buying"
+msgstr "Compres"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Balance"
+msgstr "Balanç"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Upgrade permissions:"
+msgstr "Actualitzar permisos:"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Residents per house"
+msgstr "Residents per casa"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Summary"
+msgstr "Resum"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "cases"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Residents"
+msgstr "Obyvatelé"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "Informació general per a constructor de vaixells"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "Tent"
+msgstr "Stan"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "Needed resources:"
+msgstr "Recursos necessaris:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#, fuzzy
+msgid "Paid taxes"
+msgstr "Impostos pagats"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#, fuzzy
+msgid "Tax rate"
+msgstr "Taxa d'impost"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr "Produeix tabac. Necessita una granja."
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "Necessita porcs o bestiar. Produeix aliment."
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+msgid "_ Recruits units suitable for ground combat."
+msgstr ""
+
+# Building
+# Resources
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "educació."
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "Produeix eines de ferro."
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "Construeix vaixells i bucs xicotets. Construït en la costa."
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "Necessita porcs o bestiar. Produeix aliment."
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "Converteix l'argila en rajoles."
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "Necessita porcs o bestiar. Produeix aliment."
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "Produeix eines de ferro."
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "Augmenta el bestiar. Necessita d'una granja."
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+msgid "_ Burns a lot of boards."
+msgstr ""
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+#, fuzzy
+msgid "None"
+msgstr "Cap"
+
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "Obté mineral de ferro del dipòsit."
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr "Produeix tabac. Necessita una granja."
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "Produeix aliment. Necessita una granja."
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "Converteix l'argila en rajoles."
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr ""
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "Planta cultius i cria guanyat."
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+msgid "_ Extinguishes fires."
+msgstr ""
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "Pesca en el mar, produeix aliment."
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "Produeix herbes. Necessita una granja."
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "Produeix aliment. Necessita una granja."
+
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "Caça animals salvatges, produeix aliment."
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "Defensa el teu assentament."
+
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "Talla arbres i els transforma en taulons."
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr ""
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "Obté mineral de ferro del dipòsit."
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "Produeix eines de ferro."
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "Augmenta ovelles. Produeix llana. Necessita d'una granja."
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "Compleix amb les necessitats religioses dels mariners."
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "Augmenta els porcs. Necessita una granja."
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "Produeix aliment. Necessita una granja."
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "Allotjament per als seus habitants."
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "la sal s'evapora. Construir en la costa del març."
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "Et permet comerciar amb el comerciant lliure."
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "Afina tot tipus de minerals."
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "Augmenta els porcs. Necessita una granja."
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "Converteix l'argila en rajoles."
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "Obté mineral de ferro del dipòsit."
+
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr "Àmplia la capacitat i proveeix recol·lectors."
+
+# Building
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "S'utilitza en la producció de licor. Necessita d'una granja."
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "Proporciona trobades."
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "Produeix tabac."
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "Produeix tabac. Necessita una granja."
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "Produeix eines de ferro."
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "Necessari per a la recollida de mercaderies."
+
+#: Assets/World/Buildings2/tree/tree.tscn
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr ""
+
+# Building
+# Resources
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "educació."
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr "Produeix tabac. Necessita una granja."
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "Produeix eines de ferro."
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "Transforma la llana d'ovella en robes."
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "Converteix l'argila en rajoles."
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "Produeix eines de ferro."
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "Defensa el teu assentament."
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "Unknown Horizons s'ha tancat inesperadament."
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "Gràcies per jugar a l'Unknown Horizons!"
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr "Ho lamentem. Intentarem arreglar el problema que l'ha produït."
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr "Per poder-ho fer, necessitem la informació d'aquest registre:"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Ens la podeu enviar per IRC o al nostre forum. Els trobareu tots dos a "
+#~ "http://unknown-horizons.org."
+
+#, fuzzy
+#~ msgid "Save map"
+#~ msgstr "Guardar mapa"
+
+#, fuzzy
+#~ msgid "Settings"
+#~ msgstr "Configuració del mapa:"
+
+#, fuzzy
+#~ msgid "Game start"
+#~ msgstr "Inici del joc"
+
+#, fuzzy
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr "Necessites fundar un assentament abans de poder construir edificis!"
+
+#, fuzzy
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr ""
+#~ "Selecciona el teu vaixell i a dalt a la costa mitjançant un clic en el "
+#~ "botó dret del ratolí."
+
+#, fuzzy
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr "A continuació, prema el botó gran en la petañas resum del vaixell."
+
+#, fuzzy
+#~ msgid "Build"
+#~ msgstr "Stavba"
+
+#, fuzzy
+#~ msgid "Running costs:"
+#~ msgstr "Filtres en execució"
+
+#, fuzzy
+#~ msgid "Inhabitants"
+#~ msgstr "Habitants"
+
+#, fuzzy, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr "Incrementar la velocitat de joc (+)"
+
+#, fuzzy, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr "Reduir la velocitat de joc (-)"
+
+#, fuzzy
+#~ msgid "Zoom in"
+#~ msgstr "Acostar zoom"
+
+#, fuzzy
+#~ msgid "Zoom out"
+#~ msgstr "Allunyar zoom"
+
+#, fuzzy, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "Destruir (X)"
+
+#, fuzzy, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "Bitàcola del capità (L)"
+
+#, fuzzy, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "Menú de construcció (B)"
+
+#, fuzzy
+#~ msgid "Diplomacy"
+#~ msgstr "Diplomàcia"
+
+#, fuzzy, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "Menú del joc (Esc)"
+
+#, fuzzy
+#~ msgid "Change name"
+#~ msgstr "Nom de jugador:"
+
+#, fuzzy
+#~ msgid "Old name:"
+#~ msgstr "Nom de jugador:"
+
+#, fuzzy
+#~ msgid "Enter new name:"
+#~ msgstr "Introduzir nome do ficheiro:"
+
+#, fuzzy
+#~ msgid "Apply the new name"
+#~ msgstr "Aplicar el nou nom"
+
+#, fuzzy
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#, fuzzy
+#~ msgid "Enter your message:"
+#~ msgstr "Introdueix el teu missatge:"
+
+#, fuzzy
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr ""
+#~ "Per a construir un vaixell, clica en una de les pestanyes de classe, "
+#~ "selecciona un vaixell i confirma l'ordre."
+
+#, fuzzy
+#~ msgid "Currently building:"
+#~ msgstr "Contruyendo:"
+
+#, fuzzy
+#~ msgid "Pause"
+#~ msgstr "Pausa"
+
+#, fuzzy
+#~ msgid "Resume"
+#~ msgstr "Continuar"
+
+#, fuzzy
+#~ msgid "Resources still needed:"
+#~ msgstr "Es necessiten més recursos:"
+
+#, fuzzy
+#~ msgid "Cancel building:"
+#~ msgstr "Cancel·lar edifici:"
+
+#, fuzzy
+#~ msgid "(lose all resources)"
+#~ msgstr "(perdre tots els recursos)"
+
+#, fuzzy
+#~ msgid "Cancel all building progress"
+#~ msgstr "Cancel·lar tot el progrés"
+
+#, fuzzy
+#~ msgid "Confirm order"
+#~ msgstr "Confirmar l'ordre"
+
+#, fuzzy
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "Unir-se a la partida seleccionada"
+
+#, fuzzy
+#~ msgid "Buy Upgrades"
+#~ msgstr "Permetre actualitzacions"
+
+#, fuzzy
+#~ msgid "Cannons"
+#~ msgstr "canó"
+
+#, fuzzy
+#~ msgid "Build groundunit:"
+#~ msgstr "Mantenir el terreny"
+
+#, fuzzy
+#~ msgid "Build this groundunit!"
+#~ msgstr "Construir aquest vaixell!"
+
+#, fuzzy
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "Per a construir un vaixell, clica en una de les pestanyes de classe, "
+#~ "selecciona un vaixell i confirma l'ordre."
+
+#, fuzzy
+#~ msgid "Build ship:"
+#~ msgstr "Construir aquest vaixell!"
+
+#, fuzzy
+#~ msgid "Build this ship!"
+#~ msgstr "Construir aquest vaixell!"
+
+#, fuzzy
+#~ msgid "ally"
+#~ msgstr "aliat"
+
+#, fuzzy
+#~ msgid "neutral"
+#~ msgstr "neutral"
+
+#, fuzzy
+#~ msgid "enemy"
+#~ msgstr "enemic"
+
+#, fuzzy
+#~ msgid "Building overview"
+#~ msgstr "Informació general per a constructor de vaixells"
+
+#, fuzzy
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "Clic ací per a canviar el nom del navili."
+
+#, fuzzy
+#~ msgid "Settlement inventory"
+#~ msgstr "Inventari de l'assentament"
+
+#, fuzzy
+#~ msgid "houses"
+#~ msgstr "cases"
+
+#, fuzzy
+#~ msgid "residents"
+#~ msgstr "Residentes"
+
+#, fuzzy
+#~ msgid "Provides security for your settlement."
+#~ msgstr "Defensa el teu assentament."
+
+#, fuzzy
+#~ msgid "Selling"
+#~ msgstr "Venda"
+
+#, fuzzy
+#~ msgid "Name:"
+#~ msgstr "Nome:"
+
+#, fuzzy
+#~ msgid "Weapons:"
+#~ msgstr "Armes:"
+
+#, fuzzy
+#~ msgid "Resource deposit"
+#~ msgstr "Dipòsit de recursos"
+
+#, fuzzy
+#~ msgid "It contains these resources:"
+#~ msgstr "Conté aquests recursos:"
+
+#, fuzzy
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "Clica per a canviar el nom del teu assentament."
+
+# Resources
+#, fuzzy
+#~ msgid "Happiness"
+#~ msgstr "Spokojenost"
+
+#, fuzzy
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr ""
+#~ "La señar de foc ensenya al comerciant lliure com arribar al teu "
+#~ "assentament en cas que el teu vulgues comprar o vendre béns."
+
+#, fuzzy
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr ""
+#~ "Açò és un vaixell del comerciant lliure. Ell et visitarà periòdicament "
+#~ "per a comprar o vendre béns."
+
+#, fuzzy
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "Clic ací per a canviar el nom del navili."
+
+#, fuzzy
+#~ msgid "Build settlement"
+#~ msgstr "Construir assentament"
+
+#, fuzzy
+#~ msgid "Configure trading route"
+#~ msgstr "Configurar la ruta de comerç"
+
+#, fuzzy
+#~ msgid "Discard all resources"
+#~ msgstr "(perdre tots els recursos)"
+
+#, fuzzy
+#~ msgid "Ship:"
+#~ msgstr "Loď:"
+
+#, fuzzy
+#~ msgid "Exchange:"
+#~ msgstr "Intercanvi:"
+
+#, fuzzy
+#~ msgid "Trade partner:"
+#~ msgstr "Company de comerç:"
+
+#, fuzzy
+#~ msgid "Buy or sell resources"
+#~ msgstr "Comprar/Vendre recursos"
+
+#, fuzzy
+#~ msgid "Select resources:"
+#~ msgstr "Seleccionar recursos:"
+
+#, fuzzy
+#~ msgid "Balance:"
+#~ msgstr "Balanç:"
+
+#, fuzzy
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "Mostra els recursos produïts en aquest assentament"
+
+#, fuzzy
+#~ msgid "Pause production"
+#~ msgstr "Pausar producció"
+
+#, fuzzy
+#~ msgid "Start production"
+#~ msgstr "Començar producció"
+
+#, fuzzy
+#~ msgid "Select resource:"
+#~ msgstr "Seleccionar recursos:"
+
+#, fuzzy
+#~ msgid "Move up"
+#~ msgstr "Moure cap amunt"
+
+#, fuzzy
+#~ msgid "Delete entry"
+#~ msgstr "Esborrar entrada"
+
+#, fuzzy
+#~ msgid "Move down"
+#~ msgstr "Moure cap avall"
+
+#, fuzzy
+#~ msgid "Read previous entries"
+#~ msgstr "Llegir entrades anteriors"
+
+#, fuzzy
+#~ msgid "Read next entries"
+#~ msgstr "Llegir següents entrades"
+
+#~ msgid "Game messages"
+#~ msgstr "{player}: {message}"
+
+#~ msgid "Enter your message here"
+#~ msgstr "Introdueix el teu missatge"
+
+#, fuzzy
+#~ msgid "Return to game"
+#~ msgstr "Torna a la partida"
+
+#, fuzzy
+#~ msgid "Island Name:"
+#~ msgstr "Nom de jugador:"
+
+#, fuzzy
+#~ msgid "Player Name:"
+#~ msgstr "Nom de jugador:"
+
+#, fuzzy
+#~ msgid "Select a resource:"
+#~ msgstr "Selecciona un recurs:"
+
+#, fuzzy
+#~ msgid "Start route"
+#~ msgstr "Començar ruta"
+
+#, fuzzy
+#~ msgid "Exit"
+#~ msgstr "Eixir"
+
+#, fuzzy
+#~ msgid "Close"
+#~ msgstr "Tancar"
+
+#, fuzzy
+#~ msgid "Type"
+#~ msgstr "Tipus"
+
+#, fuzzy
+#~ msgid "Weapons"
+#~ msgstr "Armes"
+
+#, fuzzy
+#~ msgid "Health"
+#~ msgstr "Salut"
+
+#, fuzzy
+#~ msgid "Status"
+#~ msgstr "Estatus"
+
+#, fuzzy
+#~ msgid "Aggressive"
+#~ msgstr "Agressiu"
+
+#, fuzzy
+#~ msgid "Hold ground"
+#~ msgstr "Mantenir el terreny"
+
+#, fuzzy
+#~ msgid "Passive"
+#~ msgstr "Passiu"
+
+#, fuzzy
+#~ msgid "Flee"
+#~ msgstr "Fugir"
+
+#, fuzzy
+#~ msgid "Exit to main menu"
+#~ msgstr "Eixir al menú principal"
+
+#, fuzzy
+#~ msgid "Choose a map:"
+#~ msgstr "Triar mapa:"
+
+#, fuzzy
+#~ msgid "Return"
+#~ msgstr "Tornar"
+
+# Resources
+#, fuzzy
+#~ msgid "Scroll left"
+#~ msgstr "Scroll esquerra"
+
+#, fuzzy
+#~ msgid "Scroll right"
+#~ msgstr "Scroll dreta"
+
+#, fuzzy
+#~ msgid "Scroll up"
+#~ msgstr "Scroll a dalt"
+
+#, fuzzy
+#~ msgid "Scroll down"
+#~ msgstr "Scroll a baix"
+
+#, fuzzy
+#~ msgid "Increase game speed"
+#~ msgstr "Incrementar la velocitat de joc"
+
+#, fuzzy
+#~ msgid "Decrease game speed"
+#~ msgstr "Reduir la velocitat de joc"
+
+#, fuzzy
+#~ msgid "Pause game"
+#~ msgstr "Pausa"
+
+#, fuzzy
+#~ msgid "Show build menu"
+#~ msgstr "Menú de construcció"
+
+#, fuzzy
+#~ msgid "Enable destruct mode"
+#~ msgstr "Manera destrucció"
+
+#, fuzzy
+#~ msgid "Enable road building mode"
+#~ msgstr "Manera destrucció"
+
+#, fuzzy
+#~ msgid "Show player scores"
+#~ msgstr "Mostra la puntuació del jugador"
+
+#, fuzzy
+#~ msgid "Show settlement list"
+#~ msgstr "Mostra la llista d'assentaments"
+
+#, fuzzy
+#~ msgid "Show ship list"
+#~ msgstr "Mostra la llista de vaixells"
+
+#, fuzzy
+#~ msgid "Toggle Captain's log"
+#~ msgstr "Registre dels filtres"
+
+#, fuzzy
+#~ msgid "Quicksave"
+#~ msgstr "Guardat ràpid"
+
+#, fuzzy
+#~ msgid "Quickload"
+#~ msgstr "Carregat ràpid"
+
+#, fuzzy
+#~ msgid "Display help"
+#~ msgstr "Mostrar ajuda"
+
+#, fuzzy
+#~ msgid "Screenshot"
+#~ msgstr "Captura de pantalla"
+
+#, fuzzy
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "Mostrar/Ocultar reixeta"
+
+#, fuzzy
+#~ msgid "Toggle grid on/off"
+#~ msgstr "Mostrar/Ocultar reixeta"
+
+#, fuzzy
+#~ msgid "Reset to default keys"
+#~ msgstr "Reiniciar configuració per defecte"
+
+#, fuzzy
+#~ msgid "Save game"
+#~ msgstr "Guardar partida"
+
+#, fuzzy
+#~ msgid "Cancel game"
+#~ msgstr "Cancellar"
+
+#, fuzzy
+#~ msgid "Multiplayer"
+#~ msgstr "Nova partida - Multijugador"
+
+#, fuzzy
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "Crear partida - Multijugador"
+
+#, fuzzy
+#~ msgid "Player limit:"
+#~ msgstr "Nom de jugador:"
+
+#, fuzzy
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "Eixir al menú de multijugador"
+
+#, fuzzy
+#~ msgid "Name of the game:"
+#~ msgstr "Crear partida:"
+
+#, fuzzy
+#~ msgid "Create this new game"
+#~ msgstr "Crear la partida"
+
+#, fuzzy
+#~ msgid "Gamelobby"
+#~ msgstr "Surt del joc"
+
+#, fuzzy
+#~ msgid "Chat:"
+#~ msgstr "Chat:"
+
+#, fuzzy
+#~ msgid "Game details:"
+#~ msgstr "Detalls de la partida:"
+
+#, fuzzy
+#~ msgid "New game - Multiplayer"
+#~ msgstr "Nova partida - Multijugador"
+
+#, fuzzy
+#~ msgid "Load game:"
+#~ msgstr "Carregar partida"
+
+#, fuzzy
+#~ msgid "Load a saved game"
+#~ msgstr "Carregar partida"
+
+#, fuzzy
+#~ msgid "Active games:"
+#~ msgstr "Partides actives:"
+
+#, fuzzy
+#~ msgid "Refresh list:"
+#~ msgstr "Refescar llista:"
+
+#, fuzzy
+#~ msgid "Refresh list of active games"
+#~ msgstr "Refrescar llista de partides actives"
+
+#, fuzzy
+#~ msgid "Create game:"
+#~ msgstr "Crear partida:"
+
+#, fuzzy
+#~ msgid "Create a new game"
+#~ msgstr "Crear nova partida"
+
+#, fuzzy
+#~ msgid "Join game:"
+#~ msgstr "Unir-se"
+
+#, fuzzy
+#~ msgid "Join the selected game"
+#~ msgstr "Unir-se a la partida seleccionada"
+
+#, fuzzy
+#~ msgid "Screen resolution:"
+#~ msgstr "Captura de pantalla"
+
+#, fuzzy
+#~ msgid "Music volume:"
+#~ msgstr "Volum d'efectes:"
+
+#, fuzzy
+#~ msgid "Effects volume:"
+#~ msgstr "Volum d'efectes:"
+
+#, fuzzy
+#~ msgid "Enable sound:"
+#~ msgstr "Manera destrucció"
+
+#, fuzzy
+#~ msgid "0 is default system settings"
+#~ msgstr "Reiniciar configuració per defecte"
+
+#, fuzzy
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "Dipòsit de recursos:"
+
+#, fuzzy
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "Interval d'autoguardados en minuts:"
+
+#, fuzzy
+#~ msgid "Number of autosaves:"
+#~ msgstr "Nombre d'autoguardados:"
+
+#, fuzzy
+#~ msgid "Number of quicksaves:"
+#~ msgstr "Nombre de guardats ràpids:"
+
+#, fuzzy
+#~ msgid "Language"
+#~ msgstr "Idioma"
+
+#, fuzzy
+#~ msgid "Uninterrupted building:"
+#~ msgstr "Construcció sense interrupcions:"
+
+#, fuzzy
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr ""
+#~ "El navili necessita estar prop d'una illa para funda un assentament."
+
+#, fuzzy
+#~ msgid "Network"
+#~ msgstr "Xarxa de treball"
+
+#, fuzzy
+#~ msgid "Network port:"
+#~ msgstr "Port de la xarxa de treball:"
+
+#, fuzzy
+#~ msgid "Reset to default settings"
+#~ msgstr "Reiniciar configuració per defecte"
+
+#, fuzzy
+#~ msgid "Save changes"
+#~ msgstr "Guardar partida"
+
+#, fuzzy
+#~ msgid "Your saved games:"
+#~ msgstr "Carregar partida"
+
+#, fuzzy
+#~ msgid "Cancel"
+#~ msgstr "Cancellar"
+
+#, fuzzy
+#~ msgid "Enter filename:"
+#~ msgstr "Introduzir nome do ficheiro:"
+
+#, fuzzy
+#~ msgid "Details:"
+#~ msgstr "Detalls de la partida:"
+
+#, fuzzy
+#~ msgid "Delete selected savegame"
+#~ msgstr "Esborrar partida guardada seleccionada"
+
+#, fuzzy
+#~ msgid "Start game"
+#~ msgstr "Guardar partida"
+
+#, fuzzy
+#~ msgid "Map settings:"
+#~ msgstr "Configuració del mapa:"
+
+#~ msgid "Seed:"
+#~ msgstr "Osivo:"
+
+#, fuzzy
+#~ msgid "Player name:"
+#~ msgstr "Nom de jugador:"
+
+#, fuzzy
+#~ msgid "Invalid filename"
+#~ msgstr "Per favor posa un nom vàlid per a l'arxiu."
+
+#, fuzzy
+#~ msgid "Failed to save."
+#~ msgstr "No es pot salvar."
+
+#, fuzzy
+#~ msgid "You can not store this."
+#~ msgstr "No pots emmagatzemar açò."
+
+#, fuzzy
+#~ msgid "You can not afford to buy this."
+#~ msgstr "No et pots permetre comprar açò."
+
+#, fuzzy
+#~ msgid "You do not possess this."
+#~ msgstr "El teu no posseeixes açò."
+
+#, fuzzy
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "No et pots permetre comprar açò."
+
+#, fuzzy
+#~ msgid "Failed to quicksave."
+#~ msgstr "No es pot salvar."
+
+#, fuzzy
+#~| msgid "Thank you for using Unknown Horizons!"
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "Gràcies per jugar a l'Unknown Horizons!"
+
+#, fuzzy
+#~ msgid "Quit Game"
+#~ msgstr "Eixir"
+
+#, fuzzy
+#~ msgid "No diplomacy possible"
+#~ msgstr "No és possible la diplomàcia"
+
+#, fuzzy
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr "No pots fer diplomàcia al no haver-hi altres jugadors."
+
+#, fuzzy
+#~| msgid "Thank you for using Unknown Horizons!"
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "Gràcies per jugar a l'Unknown Horizons!"
+
+#, fuzzy
+#~ msgid "Delete"
+#~ msgstr "Esborrar entrada"
+
+#, fuzzy
+#~ msgid "Unable to find pyenet"
+#~ msgstr "Impossible trobar la llibreria pyenet"
+
+#, fuzzy
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr ""
+#~ "Usuaris Linux: Intenten instal·lar pyenet através del seu administrador "
+#~ "de paquets."
+
+#, fuzzy
+#~ msgid "Failed to initialize networking."
+#~ msgstr "Fallada en inicialitzar connexió de xarxa."
+
+#, fuzzy
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr ""
+#~ "Les funcions de xarxa no es poden iniciar amb la configuració actual."
+
+#, fuzzy
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "Comprove els ajustos especificats en la secció de la xarxa."
+
+#, fuzzy
+#~ msgid "Fatal Network Error"
+#~ msgstr "Error en la xarxa"
+
+#, fuzzy
+#~ msgid "Could not connect to master server."
+#~ msgstr "No pot connectar al servidor principal."
+
+#, fuzzy
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "Per favor, comprove la seua connexió a internet. Si ja ho ha fet, el "
+#~ "nostre servidor principal està temporalment caigut."
+
+#, fuzzy
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "La xarxa no funciona correctament:"
+
+#, fuzzy
+#~ msgid "Version differs!"
+#~ msgstr "Versió diferent!"
+
+#, fuzzy, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "Mapa: {map_name}"
+
+#, fuzzy, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "Mapa: {map_name}"
+
+#, fuzzy, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "Jugadors: {player_amount}/{player_limit}"
+
+#, fuzzy
+#~ msgid "Wrong version"
+#~ msgstr "Versió incorrecta"
+
+#, fuzzy, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "La versió del joc és diferent de la seua. Tots els jugadors en una "
+#~ "partida multijugador ha d'utilitzar la mateixa versió. Açò es pot "
+#~ "solucionar actualitzant a l'última versió. La versió del joc: "
+#~ "{ game_version} La seua versió {own_version}"
+
+#, fuzzy
+#~ msgid "Enter your message"
+#~ msgstr "Introdueix el teu missatge:"
+
+#, fuzzy
+#~ msgid "Quit Session"
+#~ msgstr "Eixir de la sessió"
+
+#, fuzzy
+#~ msgid "No saved games"
+#~ msgstr "Guardar partida"
+
+#, fuzzy
+#~ msgid "There are no saved games to load."
+#~ msgstr "No hi ha partides guardades per a carregar."
+
+#, fuzzy
+#~ msgid "No filename given"
+#~ msgstr "Falta el nom de l'arxiu"
+
+#, fuzzy
+#~ msgid "Please enter a valid filename."
+#~ msgstr "Per favor posa un nom vàlid per a l'arxiu."
+
+#, fuzzy
+#~ msgid "Overwrite it?"
+#~ msgstr "Sobreescribirla?"
+
+#, fuzzy, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "Guardar partida"
+
+#, fuzzy
+#~ msgid "Incompatible version"
+#~ msgstr "Versió incompatible"
+
+#, fuzzy
+#~ msgid "No file selected"
+#~ msgstr "No s'ha seleccionat cap arxiu"
+
+#, fuzzy
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr "Necessites seleccionar una partida guardada per a esborrar."
+
+#, fuzzy, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "Realment vols esborrar la partida guardada '{name}'?"
+
+#, fuzzy
+#~ msgid "Confirm deletion"
+#~ msgstr "Confirmació d'esborrat"
+
+#, fuzzy
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "Error en esborrar la partida guardada!"
+
+#, fuzzy
+#~ msgid "Game"
+#~ msgstr "Surt del joc"
+
+#, fuzzy
+#~ msgid "Restart required"
+#~ msgstr "Cal reiniciar el joc"
+
+#, fuzzy
+#~ msgid "Restore default settings"
+#~ msgstr "Reiniciar configuració per defecte"
+
+#, fuzzy
+#~ msgid "Do you want to continue?"
+#~ msgstr "Desitja continuar?"
+
+#, fuzzy
+#~ msgid "Invalid network port"
+#~ msgstr "Port de xarxa invàlid"
+
+#, fuzzy
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr ""
+#~ "El port que ha spcificado no és vàlid. Ha de ser un nombre entre 1 i "
+#~ "65535."
+
+#, fuzzy
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "No s'ha pogut aplicar la nova configuració de xarxa."
+
+#, fuzzy
+#~ msgid "Invalid player name"
+#~ msgstr "Nom de jugador:"
+
+#, fuzzy
+#~ msgid "You entered an invalid playername."
+#~ msgstr "Has introduït un nom de jugador invàlid."
+
+#, fuzzy
+#~ msgid "Map size:"
+#~ msgstr "Grandària del mapa:"
+
+#, fuzzy
+#~ msgid "Water:"
+#~ msgstr "Aigua:"
+
+#, fuzzy
+#~ msgid "Max island size:"
+#~ msgstr "Màxima grandària de la illa:"
+
+#, fuzzy
+#~ msgid "Preferred island size:"
+#~ msgstr "Grandària de la illa preferit:"
+
+#, fuzzy
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "L'arxiu seleccionat no és un arxiu vàlid d'escenari."
+
+#, fuzzy
+#~ msgid "Error message:"
+#~ msgstr "Missatge d'error:"
+
+#, fuzzy
+#~ msgid "Please report this to the author."
+#~ msgstr "Reporta açò a l'autor, per favor."
+
+#, fuzzy, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "Dificultat: {difficulty}"
+
+#, fuzzy, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "Autor: {author}"
+
+#, fuzzy, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "Descripció: {desc}"
+
+#, fuzzy
+#~ msgid "Press H to remove this hint"
+#~ msgstr "Pressiona H per a remoure aquest consell"
+
+#, fuzzy
+#~ msgid "Destroy all buildings"
+#~ msgstr "Cancel·lar tot el progrés"
+
+#, fuzzy
+#~ msgid "Barracks overview"
+#~ msgstr "Resum"
+
+#, fuzzy
+#~ msgid "Overview"
+#~ msgstr "Resum"
+
+#, fuzzy
+#~ msgid "Boat builder overview"
+#~ msgstr "Informació general per a constructor de vaixells"
+
+#, fuzzy
+#~ msgid "Fisher boats"
+#~ msgstr "Vaixells de pesca"
+
+#, fuzzy
+#~ msgid "Trade boats"
+#~ msgstr "Vaixells comercials"
+
+#, fuzzy
+#~ msgid "War boats"
+#~ msgstr "Vaixells de guerra"
+
+#, fuzzy
+#~ msgid "War ships"
+#~ msgstr "Navilis de guerra"
+
+#, fuzzy
+#~ msgid "Tower overview"
+#~ msgstr "Informació general per a constructor de vaixells"
+
+#, fuzzy
+#~ msgid "Warehouse overview"
+#~ msgstr "Resum"
+
+#, fuzzy
+#~ msgid "Main square overview"
+#~ msgstr "Visió de la plaça principal"
+
+#, fuzzy
+#~ msgid "Upgrade not possible:"
+#~ msgstr "No és possible"
+
+#, fuzzy
+#~ msgid "Don't allow upgrades"
+#~ msgstr "No permetre actualitzacions"
+
+#, fuzzy
+#~ msgid "Allow upgrades"
+#~ msgstr "Permetre actualitzacions"
+
+#, fuzzy
+#~ msgid "Unit overview"
+#~ msgstr "Resum"
+
+#, fuzzy
+#~ msgid "Selected Units"
+#~ msgstr "Seleccionar unitats"
+
+#, fuzzy
+#~ msgid "Ship overview"
+#~ msgstr "Resum"
+
+#, fuzzy
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr ""
+#~ "El navili necessita estar prop d'una illa para funda un assentament."
+
+#, fuzzy
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "Ja has fundat un assentament en aquesta illa."
+
+#, fuzzy
+#~ msgid "Load/Unload"
+#~ msgstr "Carregar/Descarregar"
+
+#, fuzzy
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "No pots equipar a un vaixell comercial amb armes"
+
+#, fuzzy
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "No és possible equipar a un vaixell comercial amb armes."
+
+#, fuzzy
+#~ msgid "Equip weapon"
+#~ msgstr "Equipar arma"
+
+#, fuzzy
+#~ msgid "Unequip weapon"
+#~ msgstr "Llevar arma"
+
+#, fuzzy
+#~ msgid "Emptiness"
+#~ msgstr "Buit"
+
+#, fuzzy
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "Encara no hi ha gens escrit en la teua bitàcola!"
+
+#, fuzzy, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "Un nou assentament ha estat fundat per {player}."
+
+#, fuzzy
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#, fuzzy
+#~ msgid "Stop route"
+#~ msgstr "Parar ruta"
+
+#, fuzzy
+#~ msgid "Need at least two settlements"
+#~ msgstr "Defensa el teu assentament."
+
+#, fuzzy
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "Faça clic sobre un assentament per a afegir un punt de referència!"
+
+#, fuzzy
+#~ msgid "none"
+#~ msgstr "cap"
+
+#, fuzzy
+#~ msgid "Wooden barrier"
+#~ msgstr "Torre de fusta"
+
+#, fuzzy
+#~ msgid "Boat Builder"
+#~ msgstr "Informació general per a constructor de vaixells"
+
+#, fuzzy
+#~ msgid "Brickyard"
+#~ msgstr "Fàbrica de rajoles"
+
+#, fuzzy
+#~ msgid "Butchery"
+#~ msgstr "Carnisseria"
+
+#, fuzzy
+#~ msgid "Charcoal Burning"
+#~ msgstr "Quemadero de carbó"
+
+#, fuzzy
+#~ msgid "Clay Deposit"
+#~ msgstr "Dipòsit d'argila"
+
+#, fuzzy
+#~ msgid "Clay Pit"
+#~ msgstr "Pou d'argila"
+
+#, fuzzy
+#~ msgid "Doctor"
+#~ msgstr "Doctor"
+
+# Building
+#, fuzzy
+#~ msgid "Farm"
+#~ msgstr "Farma"
+
+#, fuzzy
+#~ msgid "Cattle Run"
+#~ msgstr "Corral de Bestiar"
+
+#, fuzzy
+#~ msgid "Cocoa Field"
+#~ msgstr "Camp de tabac"
+
+# Building
+#, fuzzy
+#~ msgid "Corn Field"
+#~ msgstr "Bramborové pole"
+
+#, fuzzy
+#~ msgid "Herbary"
+#~ msgstr "Herboristería"
+
+# Building
+#, fuzzy
+#~ msgid "Hop Field"
+#~ msgstr "Bramborové pole"
+
+#, fuzzy
+#~ msgid "Pasture"
+#~ msgstr "Pastures"
+
+#, fuzzy
+#~ msgid "Pigsty"
+#~ msgstr "Pocilga"
+
+# Building
+#, fuzzy
+#~ msgid "Potato Field"
+#~ msgstr "Bramborové pole"
+
+#~ msgid "Spice Field"
+#~ msgstr "Bylinkové pole"
+
+#, fuzzy
+#~| msgid "Spice Field"
+#~ msgid "Sugar Field"
+#~ msgstr "Bylinkové pole"
+
+#, fuzzy
+#~ msgid "Tobacco Field"
+#~ msgstr "Camp de tabac"
+
+#~ msgid "Vineyard"
+#~ msgstr "Vinice"
+
+#, fuzzy
+#~ msgid "Fish Deposit"
+#~ msgstr "Dipòsit de Peixos"
+
+#, fuzzy
+#~ msgid "Lookout"
+#~ msgstr "Rozhledna"
+
+#, fuzzy
+#~ msgid "Main Square"
+#~ msgstr "Visió de la plaça principal"
+
+#, fuzzy
+#~ msgid "Mine"
+#~ msgstr "Mina de ferro"
+
+#, fuzzy
+#~ msgid "Mountain"
+#~ msgstr "Muntanya"
+
+#, fuzzy
+#~ msgid "Pavilion"
+#~ msgstr "Pavelló"
+
+#, fuzzy
+#~ msgid "Salt Ponds"
+#~ msgstr "Llacunes d'aigua salada"
+
+#, fuzzy
+#~ msgid "Smeltery"
+#~ msgstr "Fosa"
+
+#, fuzzy
+#~ msgid "Stone Deposit"
+#~ msgstr "dipòsit de ferro"
+
+#, fuzzy
+#~ msgid "Stone Pit"
+#~ msgstr "dipòsit de ferro"
+
+#, fuzzy
+#~ msgid "Storage Tent"
+#~ msgstr "Tenda d'emmagatzematge"
+
+#, fuzzy
+#~ msgid "Storage Hut"
+#~ msgstr "Tenda d'emmagatzematge"
+
+#, fuzzy
+#~ msgid "Tavern"
+#~ msgstr "Taverna"
+
+#, fuzzy
+#~ msgid "Tobacconist"
+#~ msgstr "Tabaquer"
+
+#, fuzzy
+#~ msgid "Toolmaker"
+#~ msgstr "Artesà"
+
+#, fuzzy
+#~ msgid "Trail"
+#~ msgstr "Caminho"
+
+#, fuzzy
+#~ msgid "Tree"
+#~ msgstr "Árvore"
+
+#, fuzzy
+#~ msgid "Warehouse"
+#~ msgstr "cases"
+
+#, fuzzy
+#~ msgid "Weaponsmith"
+#~ msgstr "Armes"
+
+#, fuzzy
+#~ msgid "Weaver's Hut"
+#~ msgstr "Tenda de teixidor"
+
+#, fuzzy
+#~ msgid "Wooden Tower"
+#~ msgstr "Torre de fusta"
+
+#, fuzzy
+#~ msgid "Failed to start/load the game"
+#~ msgstr "Fallada en començar/carregar el joc"
+
+#, fuzzy
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr ""
+#~ "La partida guardada podria estar trencada o ha estat guardada amb una "
+#~ "versió anterior."
+
+#, fuzzy
+#~ msgid "No quicksaves found"
+#~ msgstr "No s'han trobat guardats ràpids"
+
+#, fuzzy
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr "Necessites guardar abans de carregar."
+
+#, fuzzy
+#~ msgid "Not possible"
+#~ msgstr "No és possible"
+
+#, fuzzy
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr "Guardar/Carregar partides de multijugador no és possible encara"
+
+#, fuzzy
+#~ msgid "You are not inside a game"
+#~ msgstr "Has introduït un nom de jugador invàlid."
+
+#, fuzzy
+#~ msgid "Unable to change your name."
+#~ msgstr "Impossible trobar la llibreria pyenet"
+
+#, fuzzy
+#~ msgid "You have won!"
+#~ msgstr "Has guanyat!"
+
+#, fuzzy
+#~ msgid "You have completed this scenario."
+#~ msgstr "Has completat aquest escenari."
+
+#, fuzzy
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "Desitja continuar jugant?"
+
+#, fuzzy
+#~ msgid "Failed to create savegame file"
+#~ msgstr "Fallada en crear l'arxiu guardat"
+
+#, fuzzy
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr "Hi ha hagut un error en crear la partida guardada."
+
+#, fuzzy
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr ""
+#~ "Açò sol significar que el nom de la partida guardada conté caràcters "
+#~ "especials no suportats."
+
+#, fuzzy
+#~ msgid "Access is denied"
+#~ msgstr "Accés denegat"
+
+#, fuzzy
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "versió Unknown Horizons"
+
+#, fuzzy, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}: {description}"
+
+# Resources
+#, fuzzy
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "Algun dels teus habitants no té accés a la plaça principal."
+
+#, fuzzy, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "Vayando a {location}"
+
+#, fuzzy, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "Vayando a {location}"
+
+#, fuzzy, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "Vayando a {}x , {i}"
+
+#, fuzzy, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "Vayando a {location}"
+
+#, fuzzy, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "Vayando a {}x , {i}"
+
+#, fuzzy
+#~ msgid "Trader"
+#~ msgstr "Comerç"
+
+# automatic save
+# Messages
+#, fuzzy
+#~ msgid "Your game has been autosaved."
+#~ msgstr "S'ha desat el joc."
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}: {message}"
+
+#, fuzzy
+#~ msgid "You can also drag roads."
+#~ msgstr "Tambien pots arrossegar camins."
+
+#, fuzzy
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "La teua mina s'ha quedat sense recursos."
+
+#, fuzzy, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "Necessites més {resource} per a construir aquest edifici."
+
+#, fuzzy, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "Un nou assentament ha estat fundat per {player}."
+
+# Resources
+#, fuzzy
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "Algun dels teus habitants no té accés a la plaça principal."
+
+# automatic save
+# Messages
+#, fuzzy
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "S'ha desat el joc."
+
+# automatic save
+# Messages
+#, fuzzy
+#~ msgid "Your game has been saved."
+#~ msgstr "S'ha desat el joc."
+
+# Messages
+#, fuzzy, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "La captura de pantalla s'ha desat a ${file}."
+
+#, fuzzy, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "Els teus habitants han aconseguit el nivell {level}."
+
+# Resources
+#, fuzzy
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "Alguns dels teus habitants s'acaba de mudar."
+
+#, fuzzy
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr "Clica per a canviar el nom del teu assentament."
+
+#, fuzzy
+#~ msgid "You won!"
+#~ msgstr "Has guanyat!"
+
+#, fuzzy
+#~ msgid "coins"
+#~ msgstr "mince"
+
+#, fuzzy
+#~ msgid "lamb wool"
+#~ msgstr "vlna"
+
+#, fuzzy
+#~ msgid "wool"
+#~ msgstr "vlna"
+
+# Messages
+#, fuzzy
+#~ msgid "deer food A"
+#~ msgstr "aliment de cérvol A"
+
+#, fuzzy
+#~ msgid "deer meat"
+#~ msgstr "carn de cérvol"
+
+# Resources
+#, fuzzy
+#~ msgid "happiness"
+#~ msgstr "Spokojenost"
+
+# Resources
+#, fuzzy
+#~ msgid "potatoes"
+#~ msgstr "brambory"
+
+# Building
+# Resources
+#, fuzzy
+#~ msgid "education"
+#~ msgstr "educació."
+
+#, fuzzy
+#~ msgid "sugar cane"
+#~ msgstr "canya de sucre"
+
+# Resources
+#, fuzzy
+#~ msgid "sugar"
+#~ msgstr "cukr"
+
+#, fuzzy
+#~ msgid "community"
+#~ msgstr "comunitat"
+
+#, fuzzy
+#~ msgid "clay deposit"
+#~ msgstr "dipòsit d'argila"
+
+#, fuzzy
+#~ msgid "clay"
+#~ msgstr "argila"
+
+#, fuzzy
+#~ msgid "liquor"
+#~ msgstr "licor"
+
+#, fuzzy
+#~ msgid "charcoal"
+#~ msgstr "carbó"
+
+#, fuzzy
+#~ msgid "iron deposit"
+#~ msgstr "dipòsit de ferro"
+
+#, fuzzy
+#~ msgid "iron ore"
+#~ msgstr "mineral de ferro"
+
+#, fuzzy
+#~ msgid "iron ingots"
+#~ msgstr "lingots de ferro"
+
+#, fuzzy
+#~ msgid "get-together"
+#~ msgstr "trobades"
+
+#, fuzzy
+#~ msgid "fish"
+#~ msgstr "peix"
+
+#, fuzzy
+#~ msgid "salt"
+#~ msgstr "sal"
+
+#, fuzzy
+#~ msgid "tobacco plants"
+#~ msgstr "plantes de tabac"
+
+#, fuzzy
+#~ msgid "tobacco leaves"
+#~ msgstr "fulles de tabac"
+
+#, fuzzy
+#~ msgid "tobaccos"
+#~ msgstr "tabacs"
+
+#, fuzzy
+#~ msgid "cattle"
+#~ msgstr "bestiar"
+
+#, fuzzy
+#~ msgid "pigs"
+#~ msgstr "porcs"
+
+#, fuzzy
+#~ msgid "cattle for slaughter"
+#~ msgstr "matança de bestiar"
+
+#, fuzzy
+#~ msgid "pigs for slaughter"
+#~ msgstr "porcs per a la matança"
+
+#, fuzzy
+#~ msgid "herbs"
+#~ msgstr "herbes"
+
+#, fuzzy
+#~ msgid "medical herbs"
+#~ msgstr "herbes medicinals"
+
+#, fuzzy
+#~ msgid "acorns"
+#~ msgstr "gles"
+
+#, fuzzy
+#~ msgid "cannon"
+#~ msgstr "canó"
+
+#, fuzzy
+#~ msgid "corn"
+#~ msgstr "gles"
+
+#~ msgid "flour"
+#~ msgstr "mouka"
+
+#, fuzzy
+#~ msgid "spice plants"
+#~ msgstr "plantes de tabac"
+
+#, fuzzy
+#~ msgid "marble deposit"
+#~ msgstr "dipòsit d'argila"
+
+#, fuzzy
+#~ msgid "coal deposit"
+#~ msgstr "dipòsit d'argila"
+
+#, fuzzy
+#~ msgid "stone deposit"
+#~ msgstr "dipòsit de ferro"
+
+#~ msgid "stone tops"
+#~ msgstr "balvany"
+
+#~ msgid "cocoa beans"
+#~ msgstr "kakaové boby"
+
+#~ msgid "cocoa"
+#~ msgstr "kakao"
+
+#~ msgid "confectionery"
+#~ msgstr "cukrovinky"
+
+#~ msgid "vines"
+#~ msgstr "víno"
+
+#, fuzzy
+#~ msgid "gold deposit"
+#~ msgstr "dipòsit d'argila"
+
+#, fuzzy
+#~ msgid "gold ore"
+#~ msgstr "mineral de ferro"
+
+#, fuzzy
+#~ msgid "gold ingots"
+#~ msgstr "lingots de ferro"
+
+#, fuzzy
+#~ msgid "gem deposit"
+#~ msgstr "dipòsit de ferro"
+
+#, fuzzy
+#~ msgid "coffee plants"
+#~ msgstr "plantes de tabac"
+
+#, fuzzy
+#~| msgid "cocoa beans"
+#~ msgid "coffee beans"
+#~ msgstr "kakaové boby"
+
+#, fuzzy
+#~ msgid "tea plants"
+#~ msgstr "plantes de tabac"
+
+#, fuzzy
+#~ msgid "tea leaves"
+#~ msgstr "fulles de tabac"
+
+#, fuzzy
+#~ msgid "brine deposit"
+#~ msgstr "dipòsit de ferro"
+
+#, fuzzy
+#~ msgid "cotton plants"
+#~ msgstr "plantes de tabac"
+
+#, fuzzy
+#~ msgid "indigo plants"
+#~ msgstr "plantes de tabac"
+
+#, fuzzy
+#~ msgid "hop plants"
+#~ msgstr "plantes de tabac"
+
+# Building
+# Resources
+#, fuzzy
+#~ msgid "recreation"
+#~ msgstr "educació."
+
+#~ msgid "fire"
+#~ msgstr "oheň"
+
+#, fuzzy
+#~ msgid "Aristocrats"
+#~ msgstr "aristòcrata"
+
+#~ msgid "Error: Unable to find required library \"PyYAML\"."
+#~ msgstr "Error: No s'ha pogut trobar la llibreria «PyYAML»."
+
+#~ msgid "PyYAML (a required library) is missing and needs to be installed."
+#~ msgstr "Falta la llibreria PyYAML i s'ha d'instal·lar."
+
+#~ msgid "The Windows installer is available at http://pyyaml.org/wiki/PyYAML."
+#~ msgstr ""
+#~ "Trobareu l'instal·lador per Windows a http://pyyaml.org/wiki/PyYAML."
+
+#, fuzzy
+#~ msgid "Groundunit overview"
+#~ msgstr "Resum"
+
+#, fuzzy
+#~ msgid "Used renderer:"
+#~ msgstr "Filtre:"
+
+#, fuzzy
+#~ msgid "Warning"
+#~ msgstr "Avís"
+
+#, fuzzy
+#~ msgid ""
+#~ "The SDL renderer is meant as a fallback solution only and has serious "
+#~ "graphical glitches. \n"
+#~ "\n"
+#~ "Use at own risk!"
+#~ msgstr ""
+#~ "El visor SDL està pensat solament com a últim recurs i té greus problemes "
+#~ "gràfics. \n"
+#~ "\n"
+#~ "Utilitze-ho sota el seu propi risc!"
+
+#, fuzzy
+#~ msgid "dagger"
+#~ msgstr "punyal"
+
+#, fuzzy
+#~ msgid "Back:"
+#~ msgstr "Arrere:"
+
+#, fuzzy
+#~ msgid "Leave:"
+#~ msgstr "Eixir:"
+
+#, fuzzy
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#, fuzzy
+#~ msgid "Key bindings"
+#~ msgstr "Vinculacions de tecla"
+
+#, fuzzy
+#~ msgid "Hold to place multiple buildings"
+#~ msgstr "Mantenir per a construir múltiples edificis"
+
+#~ msgid "[{key}] = {text}"
+#~ msgstr "[{key}] = {text}"
+
+#, fuzzy
+#~ msgid "Graphics Artists"
+#~ msgstr "Gràfics"
+
+#, fuzzy
+#~ msgid "Patchers"
+#~ msgstr "Carnisseria"
+
+#, fuzzy
+#~ msgid "Save the map"
+#~ msgstr "Guardar el mapa"
+
+#, fuzzy
+#~ msgid "Toggle console on/off"
+#~ msgstr "Mostrar/Ocultar consola"
+
+#, fuzzy
+#~ msgid "Only show games with the same version:"
+#~ msgstr "Només mostra partides amb la mateixa versió:"
+
+#, fuzzy
+#~ msgid ""
+#~ "You have reached the current maximum increment. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Has arribat al màxim increment actual. Els teus habitants no tindran més "
+#~ "actualitzacions."
+
+#, fuzzy
+#~ msgid "Valid map names are in the following form: {expression}"
+#~ msgstr "Noms vàlids de mapa de la següent forma: {expression}"
+
+#, fuzzy
+#~ msgid "An error happened during quicksave. Your game has not been saved."
+#~ msgstr ""
+#~ "Va ocórrer un error durant el guardat ràpid. La teua partida no ha estat "
+#~ "guardada."
+
+#, fuzzy
+#~ msgid "If this error happens again, please contact the development team:"
+#~ msgstr ""
+#~ "Si aquest error ocorre una altra vegada, per favor contacta amb l'equip "
+#~ "de desenvolupament:"
+
+#~ msgid "Map: "
+#~ msgstr "Mapa: "
+
+# Messages
+#~ msgid "YOU HAVE WON!!!"
+#~ msgstr "HEU GUANYAT!"
+
+# Resources
+#~ msgid "raw sugar"
+#~ msgstr "sucre en brut"
+
+#~ msgid "Autosave interval:"
+#~ msgstr "Intervalo de autosave:"

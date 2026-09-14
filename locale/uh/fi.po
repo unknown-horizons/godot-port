@@ -1,0 +1,4608 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Unknown Horizons Team
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2020-03-27 12:46+0000\n"
+"Last-Translator: Tuomas Lähteenmäki <lahtis@gmail.com>\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/uh/uh/fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0-dev\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "Tuntematon tallennuspäivä"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "Tuntematon tallennuspäivä"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+#, fuzzy
+msgid "Descriptive Label:"
+msgstr "Kuvaus: "
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "Rakennukset"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "Unknown Horizons kaatui."
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "Tuntematon tallennuspäivä"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "Yksinpeli"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "Lataa peli"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr "Tekijät"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr "Kartanluonti"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Quit"
+msgstr "Lopeta"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Help"
+msgstr "Ohje"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Options"
+msgstr "Toiminnot"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "Uusi peli - Yksinpeli"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Scenario"
+msgstr "Juonipeli"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Random map"
+msgstr "Satunnainen kartta"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Free play"
+msgstr "Vapaamuotoinen peli"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "Tuntematon tallennuspäivä"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Color:"
+msgstr "Väri:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "AI players:"
+msgstr "Tietokonepelaajat:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "Valitse pelattava kartta:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "Pelaajien suositeltu määrä: "
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Game settings:"
+msgstr "Pelin asetukset:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "Luonnonvarat:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "Vapaakauppias"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Pirates"
+msgstr "Merirosvot"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr "Katastrofit"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Saving"
+msgstr "Tallennukset"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr "Yleiset"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "Valitse kieli:"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Mouse"
+msgstr "Hiiri"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Graphics"
+msgstr "Grafiikka"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Sound"
+msgstr "Äänet"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr "Pikanäppäimet"
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "Tilastot"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Players"
+msgstr "Pelaajat"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My ships"
+msgstr "Minun laivani"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My settlements"
+msgstr "Minun siirtokuntani"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Player scores"
+msgstr "Pelitulokset"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Name"
+msgstr "Nimi"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Money"
+msgstr "Raha"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Land"
+msgstr "Maa"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Resources"
+msgstr "Resurssit"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Buildings"
+msgstr "Rakennukset"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlers"
+msgstr "Uudisasukkaat"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Units"
+msgstr "Yksiköt"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Total"
+msgstr "Yhteensä"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "140"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "104"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "InventoryTab"
+msgstr "Tavaravalikko"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Limit: 30t per slot"
+msgstr "Raja: %st per paikka"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "Osta/Myy"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr ""
+"Ostetaan {resource_name} hintaan {price} kultaa/tonni, jos varastossa on "
+"{resource_name} vähemmän kuin {limit}t."
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Trade history"
+msgstr "Kauppahistoria"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Free Trader"
+msgstr "Vapaakauppias"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "Tuotannon yleiskatsaus"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "Tuntematon tallennuspäivä"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "Kaupankäynti"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "LumberjackOverviewTab"
+msgstr "Puunhakkaajan teltta"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr "Siirtokunta"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr "Yhteiskunta"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr "Asutus"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr "Palvelut"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr "Turvallisuus"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "Pellot"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Pioneers"
+msgstr "Kansoittajat"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Citizens"
+msgstr "Kansalaiset"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr "Maatalous"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr "Meri"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr "Ruoka"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr "Työpajat"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr "Yritykset"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr "Puu"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Mining"
+msgstr "Kaivostoiminta"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr "Linnat ja linnoitukset"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr "Asepalvelus"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr "Estetiikka"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sailors"
+msgstr "Merimiehet"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "Asukkaat ja yhteiskunta"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military"
+msgstr "Sodankäynti"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Merchants"
+msgstr "Kauppiaat"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Up"
+msgstr "Peli pysäytetty"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Down"
+msgstr "Peli pysäytetty"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "Budjetti"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr "Tulot:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr "Verot"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Sale"
+msgstr "Myynti"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Expenses:"
+msgstr "Menot:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Running costs"
+msgstr "Juoksevat kustannukset"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Buying"
+msgstr "Ostetaan"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Balance"
+msgstr "Tasapaino"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Upgrade permissions:"
+msgstr "Päivitysoikeudet:"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr "Talokohtainen tyytyväisyys"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents per house"
+msgstr "Asukkaita per talo"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr "Talokohtainen asukasluku"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr "Näin monta asukasta asuu näin monessa talossa"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Summary"
+msgstr "Yhteenveto"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "Talo"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents"
+msgstr "Asukkaat"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "Asukaskatsaus"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Tent"
+msgstr "Teltta"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Needed resources:"
+msgstr "Tarvittavat resurssit:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr "Verot:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Paid taxes"
+msgstr "Maksetut verot"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Tax rate"
+msgstr "Veroprosentti"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr ""
+"Kasvattaa mehiläisiä. Tuottaa makeisten valmistukseen käytettäviä "
+"hunajakennoja. Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "Valmistaa jauhoista ruokaa."
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+#, fuzzy
+msgid "_ Recruits units suitable for ground combat."
+msgstr "Kouluttaa yksiköitä maataisteluihin."
+
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "Järjestää suojausta."
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "Tuottaa valmiita mausteita raakamausteista."
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "Rakentaa veneitä ja pieniä laivoja. Rakennetaan rannikolle."
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "Valmistaa maltaasta olutta."
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "Muuttaa savea tiiliksi."
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "Tarvitsee sikoja tai karjaa. Tuottaa ruokaa."
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "Tuottaa tykkejä."
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+#, fuzzy
+msgid "_ Burns a lot of boards."
+msgstr "Polttaa paljon lautoja."
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+msgid "None"
+msgstr "ei mitään"
+
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "Kaivaa savea savisesta maasta."
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr ""
+"Tuottaa makeistenvalmistukseen tarvittavia kaakaopapuja. Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "Tuottaa maisseista ruokaa. Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "Käyttää sokeria viinanpolttoon."
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+#, fuzzy
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr "Parantaa sairaita. Käyttää yrttejä."
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "Kasvattaa peltojen satoa ja karjaa."
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+#, fuzzy
+msgid "_ Extinguishes fires."
+msgstr "Sammuttaa tulipaloja."
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "Kalastaa merellä, tuottaa ruokaa."
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "Tuottaa yrttejä. Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "Tuottaa humalaa. Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "Metsästää metsän villieläimiä, tuottaa ruokaa."
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "Laajentaa siirtokunnan aluetta."
+
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "Kaataa puita ja tekee niistä lautoja."
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+#, fuzzy
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr "Toimii asukkaiden kauppapaikkana. Tuottaa yhteisöä."
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "Kaivaa rautaa rautaesiintymästä."
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "Tuottaa kaikenlaisia konditoriatuotteita."
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "Kasvattaa lampaita ja tuottaa villaa. Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "Täyttää merenkävijöiden uskonnolliset tarpeet."
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "Tuottaa ruokaa. Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "Tarjoaa asuinpaikan uudisasukkaillesi."
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "Haihduttaa suolaa merivedestä. Rakennetaan rannikolle."
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "Päästää pelaajan käymään kauppaa vapaakauppiaan kanssa."
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "Jalostaa kaikenlaisia malmeja."
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "Kasvattaa mausteita. Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "Veistää kiviä tiiliksi."
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "Kaivaa vuoresta kiveä."
+
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr "Laajentaa varastoa, siirtokunnan aluetta ja lisää kerääjiä."
+
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "Tuottaa sokeria sokeripitoisia juomia varten. Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "Järjestää juhlia ja pitoja."
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "Valmistaa tupakkaa tupakanlehdistä."
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "Tuottaa tupakkaa. Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "Valmistaa työkaluja raudasta."
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "Vaaditaan tavaroiden keräämiselle."
+
+#: Assets/World/Buildings2/tree/tree.tscn
+#, fuzzy
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr "Puunhakkaaja tuottaa puista lautoja."
+
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "Järjestää opetusta."
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr ""
+"Tuottaa makeisten- ja viininvalmistukseen käytettäviä viinirypäleitä. "
+"Tarvitsee maatilan."
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "Tuottaa aseita raudasta."
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "Valmistaa lampaanvillasta kankaaksi."
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "Jauhaa maissia jauhoksi."
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "Tuottaa viiniä viinirypäleistä."
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "Puolustaa siirtokuntaasi."
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "Unknown Horizons kaatui."
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "Kiitos, että pelasit Unknown Horizonsia!"
+
+#~ msgid "Unknown Horizons has crashed."
+#~ msgstr "Unknown Horizons kaatui."
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr "Olemme tästä pahoillamme ja haluamme korjata tämän virheen."
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr "Tarvitsemme kuitenkin tietoja lokitiedostosta:"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Anna tiedot meille IRC-kanavallamme tai keskustelupalstallamme, "
+#~ "lisätietoja osoitteesta http://unknown-horizons.org ."
+
+#~ msgid "Return to editor"
+#~ msgstr "Takaisin karttamuokkaimeen"
+
+#~ msgid "Save map"
+#~ msgstr "Tallenna kartta"
+
+#~ msgid "Load map"
+#~ msgstr "Lataa kartta"
+
+#~ msgid "Settings"
+#~ msgstr "Asetukset"
+
+#~ msgid "Exit editor"
+#~ msgstr "Poistu kartanmuokkauksesta"
+
+#~ msgid "Select brush size:"
+#~ msgstr "Valitse siveltimen koko:"
+
+#~ msgid "Select terrain:"
+#~ msgstr "Valitse maatyyppi:"
+
+#~ msgid "(right click to stop)"
+#~ msgstr "(pysäytä oikealla hiirennäppäimellä)"
+
+#~ msgid "Game start"
+#~ msgstr "Aloita peli"
+
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr "Rakennuksia voi rakentaa vasta, kun siirtokunta kun perustettu!"
+
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr "Napsauta alustasi ja sitten rannikkoa hiiren oikealla näppäimellä."
+
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr ""
+#~ "Napsauta tämän jälkeen isoa ankkurinnäköistä kuvaketta aluksen "
+#~ "yleiskatsauksessa."
+
+#~ msgid "Build"
+#~ msgstr "Rakenna"
+
+#~ msgid "Running costs:"
+#~ msgstr "Juoksevat menot:"
+
+#~ msgid "Related buildings"
+#~ msgstr "Muita rakennuksia"
+
+#~ msgid "Inhabitants"
+#~ msgstr "Asukkaat"
+
+# 82
+#, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr "Nopeuta peliä ({key})"
+
+#, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr "Hidasta peliä ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map counterclockwise ({key})"
+#~ msgstr "Käännä karttaa vastapäivään ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map clockwise ({key})"
+#~ msgstr "Käännä karttaa myötäpäivään ({key})"
+
+#~ msgid "Zoom in"
+#~ msgstr "Lähennä kuvaa"
+
+#~ msgid "Zoom out"
+#~ msgstr "Loitonna kuvaa"
+
+#, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "Tuhoa ({key})"
+
+#, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "Kapteenin päiväkirja ({key})"
+
+#, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "Rakennusvalikko ({key})"
+
+#~ msgid "Diplomacy"
+#~ msgstr "Diplomatia"
+
+#, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "Pelivalikko ({key})"
+
+#~ msgid "Change name"
+#~ msgstr "Vaihda nimi"
+
+#~ msgid "Old name:"
+#~ msgstr "Nykyinen nimi:"
+
+#~ msgid "Enter new name:"
+#~ msgstr "Kirjoita uusi nimi:"
+
+#~ msgid "Apply the new name"
+#~ msgstr "Ota uusi nimi käyttöön"
+
+#~ msgid "Chat"
+#~ msgstr "Keskustelu"
+
+#~ msgid "Enter your message:"
+#~ msgstr "Kirjoita viesti:"
+
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr ""
+#~ "Rakenna maayksikkö, napsautta yhtä luokkavälilehdistä, valitse haluttu "
+#~ "maayksikkö ja vahvista päätös."
+
+#~ msgid "Currently building:"
+#~ msgstr "Rakennetaan:"
+
+#~ msgid "Pause"
+#~ msgstr "Pysäytä"
+
+#~ msgid "Resume"
+#~ msgstr "Jatka"
+
+#~ msgid "Construction progress:"
+#~ msgstr "Rakennettu:"
+
+#~ msgid "Resources still needed:"
+#~ msgstr "Puuttuvat resurssit:"
+
+#~ msgid "Cancel building:"
+#~ msgstr "Peruuta rakentaminen:"
+
+#~ msgid "(lose all resources)"
+#~ msgstr "(menetät kaikki resurssisi)"
+
+#~ msgid "Cancel all building progress"
+#~ msgstr "Peruuta kaikki rakentamiset"
+
+#~ msgid "Confirm order"
+#~ msgstr "Vahvista järjestys"
+
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "(kuten valinnat-välilehdessä)"
+
+#~ msgid "$res"
+#~ msgstr "$res"
+
+#~ msgid "24t"
+#~ msgstr "24t"
+
+#~ msgid "06t"
+#~ msgstr "06t"
+
+#~ msgid "2500"
+#~ msgstr "2500"
+
+#~ msgid "Sloop-o'-war"
+#~ msgstr "Sluuppi"
+
+#~ msgid "Three-masted most common classified war ship with one gun deck."
+#~ msgstr ""
+#~ "Kolmimastoinen yleisimmäksi luokiteltu sotalaiva yhdella asekannella."
+
+#~ msgid "Buy Upgrades"
+#~ msgstr "Osta päivityksiä"
+
+#~ msgid "Cannons"
+#~ msgstr "Tykkiä"
+
+#~ msgid "Hull"
+#~ msgstr "Runko"
+
+#~ msgid "+ 24t"
+#~ msgstr "+ 24t"
+
+#~ msgid "+ 14t"
+#~ msgstr "+ 14t"
+
+#~ msgid "+ 06t"
+#~ msgstr "+ 06t"
+
+#~ msgid "+ 1457"
+#~ msgstr "+ 1457"
+
+#~ msgid "Build groundunit:"
+#~ msgstr "Rakenna maayksikkö:"
+
+#~ msgid "Build this groundunit!"
+#~ msgstr "Rakenna tämä maayksikkö!"
+
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "Voit rakentaa veneen napsauttamalla yhtä luokan välilehdistä, valitse "
+#~ "haluamasi laiva ja vahvista tilaus."
+
+#~ msgid "Build ship:"
+#~ msgstr "Rakenna tämä alus:"
+
+#~ msgid "Build this ship!"
+#~ msgstr "Rakenna tämä alus!"
+
+#~ msgid "ally"
+#~ msgstr "liittolainen"
+
+#~ msgid "neutral"
+#~ msgstr "puolueeton"
+
+#~ msgid "enemy"
+#~ msgstr "vihollinen"
+
+#~ msgid "Building overview"
+#~ msgstr "Rakennuksen tiedot"
+
+# 95
+#~ msgid "Capacity utilization"
+#~ msgstr "Käyttöosuus"
+
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "Napsauta muuttaaksesi tämän maayksikön nimeä"
+
+#~ msgid "Settlement inventory"
+#~ msgstr "Tavaravalikko"
+
+#~ msgid "sad"
+#~ msgstr "Onneton"
+
+#~ msgid "satisfied"
+#~ msgstr "Tyytyväinen"
+
+#~ msgid "happy"
+#~ msgstr "Onnellinen"
+
+#~ msgid "Amount of houses with this happiness"
+#~ msgstr "Talojen onnellisuus määrä"
+
+#~ msgid "houses"
+#~ msgstr "taloja"
+
+#~ msgid "residents"
+#~ msgstr "asukkaita"
+
+#~ msgid "Provides security for your settlement."
+#~ msgstr "Tarjoaa turvaa siirtokunnallesi."
+
+#~ msgid "Selling"
+#~ msgstr "Myydään"
+
+#~ msgid "Name:"
+#~ msgstr "Nimi:"
+
+#~ msgid "Weapons:"
+#~ msgstr "Aseet:"
+
+#~ msgid "Resource deposit"
+#~ msgstr "Luonnonvara"
+
+#~ msgid ""
+#~ "This is a resource deposit where you can build a mine to dig up resources."
+#~ msgstr ""
+#~ "Tämä on luonnonvaralöydös, josta voit kaivaa resursseja ylös louhoksen "
+#~ "avulla."
+
+#~ msgid "It contains these resources:"
+#~ msgstr "Sisältää näitä luonnonvaroja:"
+
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "Vaihda siirtokuntasi nimeä napsauttamalla tätä"
+
+#~ msgid "Happiness"
+#~ msgstr "Onnellisuus"
+
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr ""
+#~ "Merkkituli näyttää vapaakauppiaille reitin siirtokunnallesi, jonka "
+#~ "ansiosta voit myydä ja ostaa tavaraa."
+
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr ""
+#~ "Tämä on vapaakauppiaan alus. Se vierailee silloin tällöin ostamaan ja "
+#~ "myymään tavaraa."
+
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "Vaihda aluksen nimi napsauttamalla tästä"
+
+#~ msgid "Build settlement"
+#~ msgstr "Perusta siirtokunta"
+
+#~ msgid "Configure trading route"
+#~ msgstr "Muuta kauppareittiä"
+
+#~ msgid "Discard all resources"
+#~ msgstr "Hylkää kaikki resurssit"
+
+#~ msgid "Ship:"
+#~ msgstr "Alus:"
+
+#~ msgid "Exchange:"
+#~ msgstr "Siirto:"
+
+#~ msgid "Trade partner:"
+#~ msgstr "Kauppakumppani:"
+
+#~ msgid "Buy or sell resources"
+#~ msgstr "Osta tai myy"
+
+#~ msgid "Select resources:"
+#~ msgstr "Valitse resurssit:"
+
+#~ msgid "Collector utilization"
+#~ msgstr "Kerääjien käyttöaste"
+
+#~ msgid "Balance:"
+#~ msgstr "Tasapaino:"
+
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "Näytä tässä siirtokunnassa tuotetut resurssit"
+
+#~ msgid "Pause production"
+#~ msgstr "Pysäytä tuotanto"
+
+#~ msgid "Start production"
+#~ msgstr "Käynnistä tuotanto"
+
+#~ msgid "Select resource:"
+#~ msgstr "Valitse resurssi:"
+
+#~ msgid ""
+#~ "The resource you select is displayed instead of the current one. Empty by "
+#~ "clicking on X."
+#~ msgstr ""
+#~ "Valitsemasi resurssi näytetään nykyisen paikalla. Tyhjennä napsauttamalla "
+#~ "X."
+
+#~ msgid "Save current resource configuration as default for all settlements."
+#~ msgstr ""
+#~ "Tallenna nykyinen resurssi oletukseksi tähän paikkaan kaikissa "
+#~ "siirtokunnissa."
+
+#~ msgid "Reset default resource configuration for all settlements."
+#~ msgstr "Palauta tämän paikan alkuperäinen resurssi kaikissa siirtokunnissa."
+
+#~ msgid "Move up"
+#~ msgstr "Siirrä ylös"
+
+#~ msgid "Delete entry"
+#~ msgstr "Poista merkintä"
+
+#~ msgid "Move down"
+#~ msgstr "Siirrä alas"
+
+#~ msgid "Read previous entries"
+#~ msgstr "Edellinen merkintä"
+
+#~ msgid "Read next entries"
+#~ msgstr "Seuraava merkintä"
+
+#~ msgid "Game messages"
+#~ msgstr "Peli-ilmoitukset"
+
+#~ msgid "Whole world"
+#~ msgstr "Koko maailma"
+
+#~ msgid "Everybody"
+#~ msgstr "Kaikki"
+
+#~ msgid "Sends the chat messages to all players."
+#~ msgstr "Pikaviesti lähetetään kaikille pelaajille."
+
+#~ msgid "Enter your message here"
+#~ msgstr "Kirjoita viesti tähän"
+
+#~ msgid "Return to game"
+#~ msgstr "Jatka peliä"
+
+#~ msgid "Island Name:"
+#~ msgstr "Saaren nimi:"
+
+#~ msgid "Player Name:"
+#~ msgstr "Pelaajan nimi:"
+
+#~ msgid "Wait at load:"
+#~ msgstr "Odota lastausta:"
+
+#~ msgid "Wait at unload:"
+#~ msgstr "Odota purkamista:"
+
+#~ msgid "Select a resource:"
+#~ msgstr "Valitse resurssi:"
+
+#~ msgid "Route activity:"
+#~ msgstr "Reitin toiminnot:"
+
+#~ msgid "Start route"
+#~ msgstr "Aloita reitti"
+
+#~ msgid "Exit"
+#~ msgstr "Poistu"
+
+#~ msgid "Go to previous page"
+#~ msgstr "Mene edelliselle sivulle"
+
+#~ msgid "Go to next page"
+#~ msgstr "Mene seuraavalle sivulle"
+
+#~ msgid "Close"
+#~ msgstr "Sulje"
+
+#~ msgid "Player Name"
+#~ msgstr "Pelaajan nimi"
+
+#~ msgid "Player's current treasury + income expected in near future"
+#~ msgstr ""
+#~ "Pelaajan nykyiset rahavarannot + odotetut lähitulevaisuuden verotulot"
+
+#~ msgid ""
+#~ "Value of usable land i.e Amount of Land that can be used to create "
+#~ "buildings"
+#~ msgstr "Rakennuskelpoisen maa-alueen määrä"
+
+#~ msgid ""
+#~ "Value of resources generated from all the possible sources in the "
+#~ "player's settlement(s)"
+#~ msgstr "Kaikkien siirtokuntien tuottamien resurssien kokonaismäärä"
+
+#~ msgid "Value of all the buildings in the player's settlement(s)"
+#~ msgstr "Pelaajan kaikkien siirtokuntien rakennusten lukumäärä"
+
+#~ msgid ""
+#~ "Value denoting the progress of the settlement(s) in terms of inhabitants, "
+#~ "buildings and overall happiness"
+#~ msgstr ""
+#~ "Asutusten kehitystä, asukkaita, rakennuksia ja keskimääräistä iloisuutta "
+#~ "kuvaava arvo"
+
+#~ msgid "Value of all the units owned by the player"
+#~ msgstr "Pelaajan omistamien yksiköiden kokonaismäärä"
+
+#~ msgid ""
+#~ "The total value from all individual entities or in short : Total Player "
+#~ "Score"
+#~ msgstr "Kaikkien edellisten pisteiden yhteismäärä, eli pelipisteet"
+
+#~ msgid "Type"
+#~ msgstr "Tyyppi"
+
+#~ msgid "Weapons"
+#~ msgstr "Aseet"
+
+#~ msgid "Health"
+#~ msgstr "Kunto"
+
+#~ msgid "Status"
+#~ msgstr "Tila"
+
+#~ msgid "Aggressive"
+#~ msgstr "Aggressiivinen"
+
+#~ msgid "Hold ground"
+#~ msgstr "Pysy paikallaan"
+
+#~ msgid "Passive"
+#~ msgstr "Passiivinen"
+
+#~ msgid "Flee"
+#~ msgstr "Pakene"
+
+#~ msgid "Exit to main menu"
+#~ msgstr "Palaa päävalikkoon"
+
+#~ msgid "Choose a map size:"
+#~ msgstr "Valitse kartan koko:"
+
+#~ msgid "Choose a map:"
+#~ msgstr "Valitse kartta:"
+
+#~ msgid "Choose a saved game's map:"
+#~ msgstr "Valitse tallennetun pelin kartta:"
+
+#~ msgid "Select map source"
+#~ msgstr "Valitse karttalähde"
+
+#~ msgid "Create new map"
+#~ msgstr "Luo uusi kartta"
+
+#~ msgid "Load existing map"
+#~ msgstr "Lataa nykyinen kartta"
+
+#~ msgid "Load saved game's map"
+#~ msgstr "Lataa tallennettu pelikartta"
+
+#~ msgid "Start editor"
+#~ msgstr "Käynnistä kartanmuokkaus"
+
+#~ msgid "Return"
+#~ msgstr "Poistu"
+
+#~ msgid "Scroll left"
+#~ msgstr "Vieritä vasemmalle"
+
+#~ msgid "Scroll right"
+#~ msgstr "Vieritä oikealle"
+
+#~ msgid "Scroll up"
+#~ msgstr "Vieritä ylös"
+
+#~ msgid "Scroll down"
+#~ msgstr "Vieritä alas"
+
+#~ msgid "Rotate building or map clockwise"
+#~ msgstr "Käännä rakennusta tai karttaa myötäpäivään"
+
+#~ msgid "Rotate building or map counterclockwise"
+#~ msgstr "Käännä rakennusta tai karttaa vastapäivään"
+
+#~ msgid "Increase game speed"
+#~ msgstr "Kiihdytä pelin nopeutta"
+
+#~ msgid "Decrease game speed"
+#~ msgstr "Hidasta pelin nopeutta"
+
+#~ msgid "Pause game"
+#~ msgstr "Pysäytä peli"
+
+#~ msgid "Show build menu"
+#~ msgstr "Näytä rakennusvalikko"
+
+#~ msgid "Enable destruct mode"
+#~ msgstr "Tuhoamistyökalu"
+
+#~ msgid "Enable road building mode"
+#~ msgstr "Tienrakennustyökalu"
+
+#~ msgid "Enable pipette mode (clone buildings)"
+#~ msgstr "Rakennusten kopiointityökalu"
+
+#~ msgid "Show player scores"
+#~ msgstr "Näytä pelitulokset"
+
+#~ msgid "Show settlement list"
+#~ msgstr "Näytä asukaslista"
+
+#~ msgid "Show ship list"
+#~ msgstr "Näytä lista aluksista"
+
+#~ msgid "Toggle Captain's log"
+#~ msgstr "Avaa/sulje Kapteenin päiväkirja"
+
+#~ msgid "Quicksave"
+#~ msgstr "Pikatallennus"
+
+#~ msgid "Quickload"
+#~ msgstr "Pikalataus"
+
+#~ msgid "Toggle translucency of ambient buildings"
+#~ msgstr "Muuta ympäristön läpikuultavuutta"
+
+#~ msgid "Highlight tile ownership"
+#~ msgstr "Korosta maa-alueen omistajat"
+
+#~ msgid "Toggle health bars"
+#~ msgstr "Näytä terveydentila"
+
+#~ msgid "Focus camera on selection"
+#~ msgstr "Kohdista kamera valintaan"
+
+#~ msgid "Remove selected units / buildings"
+#~ msgstr "Poista valitut yksiköt/rakennukset"
+
+#~ msgid "Display help"
+#~ msgstr "Tuo esiin tämän ohjeen"
+
+#~ msgid "Screenshot"
+#~ msgstr "Ota kuvakaappaus"
+
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "FPS:n (ruudunpäivitysnopeuden) näyttäminen päälle/pois"
+
+#~ msgid "Toggle grid on/off"
+#~ msgstr "Ruudukko päälle/pois"
+
+#~ msgid "Show coordinate values (Debug)"
+#~ msgstr "Näytä koordinaatit (Debug)"
+
+#~ msgid "Primary"
+#~ msgstr "Ensisijainen"
+
+#~ msgid "Secondary"
+#~ msgstr "Toissijainen"
+
+#~ msgid "Reset to default"
+#~ msgstr "Palauta oletus"
+
+#~ msgid "Reset to default keys"
+#~ msgstr "Palauta näppäimien valinnat oletusasetuksiin"
+
+#~ msgid "Save game"
+#~ msgstr "Tallenna peli"
+
+#~ msgid "Cancel game"
+#~ msgstr "Poistu pelistä"
+
+#~ msgid "Loading…"
+#~ msgstr "Ladataan…"
+
+#~ msgid "Change Background"
+#~ msgstr "Päivitä taustakuva"
+
+#~ msgid "Multiplayer"
+#~ msgstr "Moninpeli"
+
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "Luo peli - Moninpeli"
+
+#~ msgid "Player limit:"
+#~ msgstr "Pelaajaraja:"
+
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "Poistu moninpelivalikkoon"
+
+#~ msgid "Name of the game:"
+#~ msgstr "Pelin nimi:"
+
+#~ msgid "This will be displayed to other players so they recognize the game."
+#~ msgstr "Tämä nimi näytetään muille pelaajille, jotta he tunnistavat pelisi."
+
+#~ msgid "Unnamed Game"
+#~ msgstr "Nimetön peli"
+
+#~ msgid "Password of the game:"
+#~ msgstr "Pelin salasana:"
+
+#~ msgid "This game's password. Required to join this game."
+#~ msgstr "Pelin salasana. Edellytetään peliin liittymiseksi."
+
+#~ msgid "Create this new game"
+#~ msgstr "Luo tämä uusi peli"
+
+#~ msgid "Gamelobby"
+#~ msgstr "Pelihuone"
+
+#~ msgid "Chat:"
+#~ msgstr "Keskustelu:"
+
+#~ msgid "Exit gamelobby"
+#~ msgstr "Poistu pelihuoneesta"
+
+#~ msgid "The game will start as soon as all players are ready."
+#~ msgstr "Peli alkaa, kun tarpeeksi monta pelaajaa on liittynyt siihen."
+
+#~ msgid "Game details:"
+#~ msgstr "Pelin yksityiskohdat:"
+
+#~ msgid "Color"
+#~ msgstr "Väri"
+
+#~ msgid "Ready:"
+#~ msgstr "Valmiina:"
+
+#~ msgid "Sets your state to ready (necessary for the game to start)"
+#~ msgstr ""
+#~ "Ilmoita olevasi valmis pelin alkamiseen (edellytys peliin osallistumiseen)"
+
+#~ msgid "New game - Multiplayer"
+#~ msgstr "Uusi peli - Moninpeli"
+
+#~ msgid "Load game:"
+#~ msgstr "Lataa peli:"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Lataa tallennettu peli"
+
+#~ msgid "Active games:"
+#~ msgstr "Aktiivisia pelejä:"
+
+#~ msgid "Refresh list:"
+#~ msgstr "Päivitä lista:"
+
+#~ msgid "Refresh list of active games"
+#~ msgstr "Päivitä lista aktiivisista peleistä"
+
+#~ msgid "Create game:"
+#~ msgstr "Luo peli:"
+
+#~ msgid "Create a new game"
+#~ msgstr "Luo uusi peli"
+
+#~ msgid "Join game:"
+#~ msgstr "Liity peliin:"
+
+#~ msgid "Join the selected game"
+#~ msgstr "Liity valitsemaasi peliin"
+
+#~ msgid "Change player details"
+#~ msgstr "Muuta pelaajatietoja"
+
+#~ msgid "Screen resolution:"
+#~ msgstr "Resoluutio:"
+
+#~ msgid "Full screen:"
+#~ msgstr "Käytä koko näyttöä:"
+
+#~ msgid "Frame rate limit:"
+#~ msgstr "Suurin kuvanopeus:"
+
+#~ msgid "Set the maximum frame rate used. Default: 60 fps."
+#~ msgstr "Valitse suurin sallittu kuvapäivitysnopeus. Oletus: 60."
+
+#~ msgid "Music volume:"
+#~ msgstr "Musiikin äänenvoimakkuus:"
+
+#~ msgid "Effects volume:"
+#~ msgstr "Tehosteiden äänenvoimakkuus:"
+
+#~ msgid "Enable sound:"
+#~ msgstr "Äänet käytössä:"
+
+#~ msgid "Scroll at map edge:"
+#~ msgstr "Vieritä karttaa hiirellä:"
+
+#~ msgid ""
+#~ "Whether to move the viewport when the mouse pointer is close to map edges"
+#~ msgstr "Karttaa voi vierittää myös viemällä hiiren kartan reunaan"
+
+#~ msgid "Cursor centered zoom:"
+#~ msgstr "Keskitetty hiirikohdistus:"
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center. When disabled, always zoom to current viewport center."
+#~ msgstr ""
+#~ "Hiirellä lähennettäessä kuvaa se kohdistetaan hiiren osoittimeen, kun "
+#~ "tämä ominaisuus on käytössä. Jos tämä ominaisuus ei ole käytössä, kuva "
+#~ "kohdistetaan aina keskelle."
+
+#~ msgid "Middle mouse button pan:"
+#~ msgstr "Hiiren keskipainikkeen toiminta:"
+
+#~ msgid "When enabled, dragging the middle mouse button will pan the camera"
+#~ msgstr ""
+#~ "Siirrä karttaa pitämällä hiiren keskipainiketta tai rullaa pohjassa, kun "
+#~ "tämä ominaisuus on käytössä"
+
+#~ msgid "0 is default system settings"
+#~ msgstr "0 on oletusasetukset"
+
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "Hiiren herkkyys:"
+
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "Automaattisten tallennusten tekoväli minuuteissa:"
+
+#~ msgid "Number of autosaves:"
+#~ msgstr "Automaattisten tallennusten määrä:"
+
+#~ msgid "Number of quicksaves:"
+#~ msgstr "Pikatallennusten määrä:"
+
+#~ msgid "Language"
+#~ msgstr "Kieli"
+
+#~ msgid "Rotate minimap with map:"
+#~ msgstr "Käännä pikkukarttaa pääkarttaa käännettäessä:"
+
+#~ msgid ""
+#~ "Whether to also rotate the minimap whenever the regular map is rotated"
+#~ msgstr "Pikkukarttaa käännetään pääkartan tapaan pääkarttaa käännettäessä"
+
+#~ msgid "Uninterrupted building:"
+#~ msgstr "Keskeytymätön rakentaminen:"
+
+#~ msgid ""
+#~ "When enabled, do not exit the build mode after successful construction"
+#~ msgstr ""
+#~ "Rakennustilasta ei poistuta, ennen kuin vähintään yksi rakennus on "
+#~ "rakennettu onnistuneesti"
+
+#~ msgid "Auto-unload ship:"
+#~ msgstr "Pura laivan lasti automaattisesti:"
+
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr ""
+#~ "Laivan lasti puretaan automaattisesti uuden siirtokunnan perustamisen "
+#~ "jälkeen"
+
+#~ msgid ""
+#~ "Don't use in normal game session. Decides whether to write debug "
+#~ "information in the logging directory of your user directory. Slows the "
+#~ "game down."
+#~ msgstr ""
+#~ "Älä käytä normaalissa pelitilanteessa. Pelin virhetietoja kerätään "
+#~ "kotikansiossasi olevaan lokitiedostoon. Hidastaa peliä."
+
+#~ msgid "Enable logging:"
+#~ msgstr "Lokitietojen tallennus:"
+
+#~ msgid "Production indicators:"
+#~ msgstr "Rakennusten tilailmaisimet:"
+
+#~ msgid ""
+#~ "Whether to show resource icons over buildings whenever they finish "
+#~ "production"
+#~ msgstr ""
+#~ "Näytä resurssikuvakkeet rakennusten päällä, kun niiden tuotanto on "
+#~ "valmistunut"
+
+#~ msgid "Higher values slow down scrolling."
+#~ msgstr "Korkeampi arvo hidastaa liikkumista."
+
+#~ msgid "Scroll delay:"
+#~ msgstr "Hiiren osoittimen liikkumisviive:"
+
+#~ msgid "Choose a quote type:"
+#~ msgstr "Latausnäkymän teksti:"
+
+#~ msgid "What kind of quote to display while loading a game"
+#~ msgstr "Latausnäkymässä näytettävä viesti"
+
+#~ msgid "Network"
+#~ msgstr "Verkko"
+
+#~ msgid "If set to 0, use the router default"
+#~ msgstr "Arvon ollessa 0, käytetään reitittimen oletusta"
+
+#~ msgid "Network port:"
+#~ msgstr "Verkkoportti:"
+
+#~ msgid "Discard current changes"
+#~ msgstr "Poistu tallentamatta muutoksia"
+
+#~ msgid "Reset to default settings"
+#~ msgstr "Palauta oletusasetukset"
+
+#~ msgid "Save changes"
+#~ msgstr "Tallenna muutokset"
+
+#~ msgid "Your saved games:"
+#~ msgstr "Tallennetut pelit:"
+
+#~ msgid "Password of the game. Required to join this game"
+#~ msgstr "Pelin salasana. Vaaditaan peliin liittymiseen"
+
+#~ msgid "Cancel"
+#~ msgstr "Peruuta"
+
+#~ msgid "Enter filename:"
+#~ msgstr "Kirjoita tiedostonimi:"
+
+#~ msgid "Details:"
+#~ msgstr "Tiedot:"
+
+#~ msgid "Delete selected savegame"
+#~ msgstr "Poista valittu pelitallennus"
+
+#~ msgid "Start game"
+#~ msgstr "Aloita peli"
+
+#~ msgid "Map settings:"
+#~ msgstr "Kartan asetukset:"
+
+#~ msgid "Seed:"
+#~ msgstr "Siemen:"
+
+#~ msgid "Select a language:"
+#~ msgstr "Valitse kieli:"
+
+#~ msgid "Player name:"
+#~ msgstr "Pelaajan nimi:"
+
+#~ msgid "Invalid filename"
+#~ msgstr "Virheellinen tiedostonimi"
+
+#~ msgid "Received an invalid filename for a save command."
+#~ msgstr "Virheellinen tiedostonimi tallennettaessa."
+
+#~ msgid "Error"
+#~ msgstr "Virhe"
+
+#~ msgid "Failed to save."
+#~ msgstr "Tallennus epäonnistui."
+
+#~ msgid "The trade partner does not sell this."
+#~ msgstr "Kauppakumppanisi ei myy tätä."
+
+#~ msgid "You can not store this."
+#~ msgstr "Varastot ovat täynnä."
+
+#~ msgid "You can not afford to buy this."
+#~ msgstr "Sinulla ei ole varaa ostaa tätä."
+
+#~ msgid "The trade partner does not sell more of this."
+#~ msgstr "Kauppakumppanisi ei myy lisää tätä."
+
+#~ msgid "The trade partner does not buy this."
+#~ msgstr "Kauppakumppanisi ei osta tätä."
+
+#~ msgid "You do not possess this."
+#~ msgstr "Sinulla ei ole tätä."
+
+#~ msgid "The trade partner can not store more of this."
+#~ msgstr "Kauppakumppanin varastot ovat täynnä."
+
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "Kauppakumppanillasi ei ole varaa ostaa tätä."
+
+#~ msgid "The trade partner does not buy more of this."
+#~ msgstr "Kauppakumppanisi ei osta lisää tätä."
+
+#~ msgid "Failed to quicksave."
+#~ msgstr "Pikatallennus epäonnistui."
+
+#~ msgid "An error happened during quicksave."
+#~ msgstr "Pikatallennuksessa tapahtui virhe."
+
+#~ msgid "Your map has not been saved."
+#~ msgstr "Karttasi ei ole tallennettu."
+
+#, python-brace-format
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: "
+#~ "{website}"
+#~ msgstr ""
+#~ "Jos tämä virhe tapahtuu uudestaan, ota yhteyttä kehittäjiin: {website}"
+
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "Haluatko varmasti lopettaa pelin?"
+
+#~ msgid "Quit Game"
+#~ msgstr "Poistu pelistä"
+
+#~ msgid "No diplomacy possible"
+#~ msgstr "Diplomatia ei ole käytössä"
+
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr "Muita pelaajia ei ole, joten diplomatia on tarpeetonta."
+
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "Oletko varma, että haluat poistaa nämä objektit?"
+
+#~ msgid "Delete"
+#~ msgstr "Poista"
+
+#, python-brace-format
+#~ msgid "{size}x{size} tiles"
+#~ msgstr "{size}x{size} ruutua"
+
+#~ msgid "Press key…"
+#~ msgstr "Painamalla näppäintä…"
+
+#, python-brace-format
+#~ msgid "{key} is already set to {action}."
+#~ msgstr "{key} on jo käytössä: {action}."
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "Haluatko päällekirjoittaa sen?"
+
+#~ msgid "Confirmation for overwriting"
+#~ msgstr "Korvataanko peli?"
+
+#~ msgid "Quotes"
+#~ msgstr "Lainaus"
+
+#~ msgid "Gameplay Tips"
+#~ msgstr "Pelivinkki"
+
+#~ msgid "Press 'ESC' to access Game Menu."
+#~ msgstr "Avaa pelivalikko painamalla Esc."
+
+#~ msgid "Use 'SHIFT' to place multiple buildings."
+#~ msgstr "Sijoita useita rakennuksia pitämällä SHIFT pohjassa."
+
+#, python-brace-format
+#~ msgid "Currently only the first {tier} tiers are playable."
+#~ msgstr "Tällä hetkellä vain ensimmäiset {tier} tasoa ovat pelattavissa."
+
+#~ msgid "You can pause the game with 'P'."
+#~ msgstr "Pysäytä peli painamalla pikanäppäintä P."
+
+#~ msgid "You can drag roads by holding the left mouse button."
+#~ msgstr ""
+#~ "Teitä voi myös vetää pitämällä hiiren vasenta painiketta pohjassa tietä "
+#~ "luodessa."
+
+#~ msgid "You can build multiple buildings by holding the 'SHIFT' key."
+#~ msgstr ""
+#~ "Saman rakennuksen voi rakentaa monta kertaa pitämällä Shift pohjassa."
+
+#~ msgid ""
+#~ "You can increase the happiness of your inhabitants by lowering the taxes."
+#~ msgstr "Asukkaiden onnellisuus nousee, jos veroprosenttia lasketaan."
+
+#~ msgid ""
+#~ "Build fire stations and doctors to protect your inhabitants from fire and "
+#~ "disease."
+#~ msgstr ""
+#~ "Suojaa asukkaita tulipaloilta ja sairauksilta rakentamalla useita "
+#~ "paloasemia ja lääkäreitä."
+
+#~ msgid "Build storage tents to increase your storage capacity."
+#~ msgstr "Järjestä lisää varastotilaa rakentamalla varastotelttoja."
+
+#~ msgid "Make sure every house is in range of a marketplace."
+#~ msgstr "Varmista, että kaikki talot ovat keskustorin saavutusalueella."
+
+#~ msgid "Press 'T' to make trees transparent."
+#~ msgstr "Muuta puut läpinäkyviksi painamalla T."
+
+#~ msgid "Build storage tents and lookouts to expand your settlement range."
+#~ msgstr "Järjestä lisää varastotilaa rakentamalla varastotelttoja."
+
+#~ msgid ""
+#~ "To easily see whether the pavilion's range cover all your tents, select "
+#~ "it from the build menu and hover it over your existing pavilion. "
+#~ "Uncovered tents are shown in yellow. It's a good idea to build a new "
+#~ "pavilion in their neighborhood."
+#~ msgstr ""
+#~ "Nähdäksesi helpommin kattaako teltta-alue kaikki telttasi, valitse se "
+#~ "rakennusvalikosta ja vie se nykyisen alueesi päälle. Ulkopuolelle jäävät "
+#~ "teltat näkyvät keltaisena. Uuden alueen rakentaminen naapurustoon on hyvä "
+#~ "idea."
+
+#~ msgid ""
+#~ "Make singleplayer more fun with additional computer players by increasing "
+#~ "'AI players' when starting a new game."
+#~ msgstr ""
+#~ "Tee yksinpelistä hauskempaa lisäämällä tietokoneen hallitsemia "
+#~ "tekoälypelaajia uutta pelia aloittaessasi."
+
+#~ msgid ""
+#~ "First steps are easier by looking at how AI players are setting up their "
+#~ "settlement."
+#~ msgstr ""
+#~ "Ensiaskeleet sujuvat helpommin, kun seuraat miten tekoälypelaajat "
+#~ "rakentavat siirtokuntansa."
+
+#~ msgid ""
+#~ "Want funny quotes only? Change the quote types shown here in the settings "
+#~ "menu on the game page."
+#~ msgstr ""
+#~ "Haluatko vain hauskoja lainauksia? Voit vaihtaa tässä näkyvien lainausten "
+#~ "tyyliä asetusvalikosta pelisivulla."
+
+#~ msgid "A marketplace links your buildings like a road."
+#~ msgstr "Tori yhdistää rakennuksesi teiden tavoin."
+
+#~ msgid "Mixed"
+#~ msgstr "Sekoitus"
+
+#~ msgid "Starting engine…"
+#~ msgstr "Pestään purjelaivoja…"
+
+#~ msgid "Catching fish…"
+#~ msgstr "Pyydystetään piraijoita…"
+
+#~ msgid "Drawing user interface…"
+#~ msgstr "Karkotetaan keripukkia…"
+
+#~ msgid "Activating timer…"
+#~ msgstr "Aktivoidaan aikavyöhykkeitä…"
+
+#~ msgid "Chomping game data…"
+#~ msgstr "Luetaan lokikirjaa…"
+
+#~ msgid "Shaping islands…"
+#~ msgstr "Piirretään pelisaaria…"
+
+#~ msgid "Preparing blueprints…"
+#~ msgstr "Valmistellaan suunnitelmia…"
+
+#~ msgid "Filling world with water…"
+#~ msgstr "Kartoitetaan kareja…"
+
+#~ msgid "Raising animals…"
+#~ msgstr "Hoidetaan hirviä…"
+
+#~ msgid "Convincing AI…"
+#~ msgstr "Tutkitaan tietokonepelaajia…"
+
+#~ msgid "Burying treasures…"
+#~ msgstr "Avataan aarrearkkuja…"
+
+#~ msgid "Unable to find pyenet"
+#~ msgstr "Tiedostoa \"pyenet\" ei löydy"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which could not "
+#~ "be found on your system."
+#~ msgstr "Moninpeliin vaadittava kirjasto \"pyenet\" ei ole käytettävissä."
+
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr ""
+#~ "Linuxin käyttäjä: Yritä asentaa \"pyenet\" paketinhallintaohjelmistolla."
+
+#~ msgid "Failed to initialize networking."
+#~ msgstr "Virhe verkon käyttöön ottamisessa."
+
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr "Verkkoa ei voitu ottaa käyttöön näillä asetuksilla."
+
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "Tarkista verkko-osion tiedot."
+
+#~ msgid "Fatal Network Error"
+#~ msgstr "Vakava verkkovirhe"
+
+#~ msgid "Could not connect to master server."
+#~ msgstr "Isäntäpalvelimeen ei voitu muodostaa yhteyttä."
+
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "Tarkista Internet-yhteys. Jos se toimii, isäntäpalvelimellamme on "
+#~ "väliaikainen ongelma."
+
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "Verkon kanssa ilmeni ongelma:"
+
+#~ msgid "Version differs!"
+#~ msgstr "Versio ei ole sama!"
+
+#, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "Kartta: {map_name}"
+
+#, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "Nimi: {game_name}"
+
+#, python-brace-format
+#~ msgid "Creator: {game_creator}"
+#~ msgstr "Pelin ylläpitäjä: {game_creator}"
+
+#, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "Pelaajat: {player_amount}/{player_limit}"
+
+#~ msgid "Wrong version"
+#~ msgstr "Väärä versio"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "Pelissä käytettävä versio ei ole sama kuin omasi. Jokaisella moninpelin "
+#~ "jäsenellä tulee olla käytössään pelin sama versio. Tämä voidaan korjata "
+#~ "päivittämällä peli jokaisella osapuolella uusimpaan versioon. Vaadittu "
+#~ "versio: {game_version} Oma versiosi: {own_version}"
+
+#~ msgid "Password of the game"
+#~ msgstr "Pelin salasana"
+
+#~ msgid "Enter password:"
+#~ msgstr "Kirjoita salasana:"
+
+#, python-brace-format
+#~ msgid "Recommended number of players: {number}"
+#~ msgstr "Suositeltu pelaajamäärä: {number}"
+
+#~ msgid "Ready"
+#~ msgstr "Valmiina"
+
+#~ msgid "Not ready"
+#~ msgstr "Ei valmis"
+
+#~ msgid "Enter your message"
+#~ msgstr "Kirjoita viesti"
+
+#~ msgid "Click here to change your name and/or color"
+#~ msgstr "Vaihda peliväriä ja nimimerkkiä napsauttamalla tästä"
+
+#, python-brace-format
+#~ msgid "Kick {player}"
+#~ msgstr "Poista {player} pelistä"
+
+#, python-brace-format
+#~ msgid "{player} has joined the game"
+#~ msgstr "{player} liittyi peliin"
+
+#, python-brace-format
+#~ msgid "{player} has left the game"
+#~ msgstr "{player} poistui pelistä"
+
+#~ msgid "You are now ready"
+#~ msgstr "Olet nyt valmis"
+
+#~ msgid "You are not ready anymore"
+#~ msgstr "Et ole enää valmis"
+
+#, python-brace-format
+#~ msgid "{player} is now ready"
+#~ msgstr "{player} on nyt valmis"
+
+#, python-brace-format
+#~ msgid "{player} not ready anymore"
+#~ msgstr "{player} ei ole enää valmis"
+
+#, python-brace-format
+#~ msgid "You are now known as {new_name}"
+#~ msgstr "Muut näkevät sinut nimimerkillä {new_name}"
+
+#, python-brace-format
+#~ msgid "{player} is now known as {new_name}"
+#~ msgstr "Pelaajan {player} nimimerkki on nyt {new_name}"
+
+#~ msgid "You changed your color"
+#~ msgstr "Vaihdoit peliväriä"
+
+#, python-brace-format
+#~ msgid "{player} changed their color"
+#~ msgstr "{player} vaihtoi peliväriään"
+
+#~ msgid "Kicked"
+#~ msgstr "Poistettiin pelistä"
+
+#~ msgid "You have been kicked from the game by creator"
+#~ msgstr "Pelin ylläpitäjä poisti sinut pelistä"
+
+#, python-brace-format
+#~ msgid "{player} got kicked by creator"
+#~ msgstr "Ylläpitäjä poisti pelaajan {player} pelistä"
+
+#~ msgid "Are you sure you want to abort the running session?"
+#~ msgstr "Haluatko varmasti lopettaa käynnissä olevan pelin?"
+
+#~ msgid "Quit Session"
+#~ msgstr "Lopeta peli"
+
+#~ msgid "No saved games"
+#~ msgstr "Ei tallennettuja pelejä"
+
+#~ msgid "There are no saved games to load."
+#~ msgstr ""
+#~ "Et ole vielä tallentanut yhtään peliä. Aloita uusi peli napsauttamalla "
+#~ "päävalikossa Yksinpeli tai Moninpeli."
+
+#~ msgid "No filename given"
+#~ msgstr "Tiedostonimeä ei annettu"
+
+#~ msgid "Please enter a valid filename."
+#~ msgstr "Kirjoita kelvollinen tiedostonimi."
+
+#, python-brace-format
+#~ msgid "A savegame with the name {name} already exists."
+#~ msgstr "Tallennus nimeltä {name} on jo olemassa."
+
+#, python-brace-format
+#~ msgid "A map with the name {name} already exists."
+#~ msgstr "Kartta nimeltä {name} on jo olemassa."
+
+#~ msgid "Overwrite it?"
+#~ msgstr "Korvataanko se?"
+
+#, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "Tallennettu viimeksi {time}"
+
+#, python-brace-format
+#~ msgid "Saved {amount} time"
+#~ msgid_plural "Saved {amount} times"
+#~ msgstr[0] "Tallennettu {amount} kerran"
+#~ msgstr[1] "Tallennettu {amount} kertaa"
+
+#, python-brace-format
+#~ msgid "Savegame version {version}"
+#~ msgstr "Tallennusversio {version}"
+
+#~ msgid "(probably incompatible)"
+#~ msgstr "(mahdollisesti yhteensopivuusvirhe)"
+
+#~ msgid "Incompatible version"
+#~ msgstr "Yhteensopimaton versio"
+
+#~ msgid "No file selected"
+#~ msgstr "Tiedostoa ei ole valittu"
+
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr ""
+#~ "Valitse ensin poistettava pelitallennus napsauttamalla sitä ja yritä "
+#~ "uudelleen."
+
+#, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "Haluatko varmasti poistaa tallennuksen \"{name}\"?"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "Vahvista poistaminen"
+
+#~ msgid "Error!"
+#~ msgstr "Virhe!"
+
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "Tallennuksen poistaminen epäonnistui!"
+
+#~ msgid "Game"
+#~ msgstr "Peli"
+
+#~ msgid "Disabled"
+#~ msgstr "Pois käytöstä"
+
+#~ msgid "Restart required"
+#~ msgstr "Uudelleenkäynnistys vaaditaan"
+
+#~ msgid ""
+#~ "Some of your changes require a restart of Unknown Horizons. Do you want "
+#~ "to restart Unknown Horizons now?"
+#~ msgstr ""
+#~ "Jotkut asetusmuutokset edellyttävät pelin käynnistämistä uudelleen. "
+#~ "Haluatko käynnistää pelin uudestaan nyt?"
+
+#~ msgid "Restore default settings"
+#~ msgstr "Palauta oletusasetukset"
+
+#~ msgid ""
+#~ "Restoring the default settings will delete all changes to the settings "
+#~ "you made so far."
+#~ msgstr ""
+#~ "Oletusasetusten palauttaminen poistaa kaikki asetuksiin tekemäsi "
+#~ "muutokset."
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "Haluatko jatkaa?"
+
+#~ msgid "Invalid network port"
+#~ msgstr "Virheellinen verkkoportti"
+
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr ""
+#~ "Määrittelemäsi portti on virheellinen. Portin on oltava numero väliltä 1 "
+#~ "- 65535."
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it is in the specified "
+#~ "range."
+#~ msgstr ""
+#~ "Tarkista kirjoittamasi portin numero, ja varmista sen olevan tällä "
+#~ "alueella."
+
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "Verkkoasetusten käyttöönotto epäonnistui."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special access privileges, try 0 or a "
+#~ "number greater than 1024."
+#~ msgstr ""
+#~ "Matalat porttinumerot saattavat edellyttää käyttöoikeutta. Kokeile "
+#~ "syöttää joko 0 tai suurempi luku kuin 1024."
+
+#~ msgid "Invalid player name"
+#~ msgstr "Virheellinen pelaajanimi"
+
+#~ msgid "You entered an invalid playername."
+#~ msgstr "Antamasi pelaajanimi on virheellinen."
+
+#~ msgid "Map size:"
+#~ msgstr "Kartan koko:"
+
+#~ msgid "Water:"
+#~ msgstr "Veden määrä:"
+
+#~ msgid "Max island size:"
+#~ msgstr "Saaren enimmäiskoko:"
+
+#~ msgid "Preferred island size:"
+#~ msgstr "Saaren suosituskoko:"
+
+#~ msgid "Island size deviation:"
+#~ msgstr "Saarten koonvaihtelu:"
+
+#~ msgid "Click to generate a different random map"
+#~ msgstr "Luo satunnainen kartta napsauttamalla"
+
+#~ msgid "Invalid scenario file"
+#~ msgstr "Virheellinen juonipelitiedosto"
+
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "Tämä tiedosto ei ole käyttökelpoinen juonipelitiedosto."
+
+#~ msgid "Error message:"
+#~ msgstr "Virheilmoitus:"
+
+#~ msgid "Please report this to the author."
+#~ msgstr "Ole hyvä ja ilmoita tästä tekijälle."
+
+#, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "Vaikeustaso: {difficulty}"
+
+#, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "Tekijä: {author}"
+
+#, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "Kuvaus: {desc}"
+
+#, python-brace-format
+#~ msgid "Build {building}"
+#~ msgstr "Rakenna {building}"
+
+#~ msgid "Press H to remove this hint"
+#~ msgstr "Piilota tämä tietoikkuna painamalla H"
+
+#~ msgid "Destroy all buildings"
+#~ msgstr "Tuhoa rakennus"
+
+#~ msgid ""
+#~ "This will destroy all the buildings that fall outside of the settlement "
+#~ "range."
+#~ msgstr ""
+#~ "Tämä tuhoaa kaikki rakennukset, jotka jäävät siirtokunnan alueen "
+#~ "ulkopuolelle."
+
+#, python-format
+#~ msgid "%s additional building will be destroyed."
+#~ msgid_plural "%s additional buildings will be destroyed"
+#~ msgstr[0] "%s muu rakennus tuhoutuu."
+#~ msgstr[1] "%s muuta rakennusta tuhoutuu"
+
+#~ msgid "Barracks overview"
+#~ msgstr "Parakin yleiskatsaus"
+
+#~ msgid "Swordman"
+#~ msgstr "Miekkamies"
+
+#~ msgid "Overview"
+#~ msgstr "Yleiskatsaus"
+
+#, python-brace-format
+#~ msgid "{ship} (place in queue: {place})"
+#~ msgstr "{ship} (paikka jonossa: {place})"
+
+#~ msgid "Boat builder overview"
+#~ msgstr "Veneenveistämön yleiskatsaus"
+
+#~ msgid "Fisher boats"
+#~ msgstr "Kalastusveneet"
+
+#~ msgid "Trade boats"
+#~ msgstr "Kauppalaivat"
+
+#~ msgid "War boats"
+#~ msgstr "Sotalaivat"
+
+#~ msgid "War ships"
+#~ msgstr "Sota-alukset"
+
+#~ msgid "Tower overview"
+#~ msgstr "Tornin yleiskatsaus"
+
+#~ msgid "Build related buildings"
+#~ msgstr "Rakenna liittyviä rakennuksia"
+
+#~ msgid "Click on one of the resource slots to add a trade offer."
+#~ msgstr "Lisää kauppatarjous napsauttamalla jotain kolmesta kauppapaikasta."
+
+#~ msgid ""
+#~ "Set to buy or sell by clicking on that label, then adjust the amount via "
+#~ "the slider to the right."
+#~ msgstr ""
+#~ "Valitse oletko ostamassa vai myymässä resurssia ja sitten määrä "
+#~ "liikuttamalla oikean reunan vieritintä."
+
+#, python-brace-format
+#~ msgid ""
+#~ "Will sell {resource_name} for {price} gold/t whenever more than {limit}t "
+#~ "are available."
+#~ msgstr ""
+#~ "Myydään {resource_name} hintaan {price} kultaa/tonni, kunhan "
+#~ "{resource_name} jää jäljelle vähintään {limit}t."
+
+#~ msgid "Warehouse overview"
+#~ msgstr "Varaston yleiskatsaus"
+
+#~ msgid "Main square overview"
+#~ msgstr "Keskustorin yleiskatsaus"
+
+#~ msgid "Upgrade not possible:"
+#~ msgstr "Päivittäminen ei onnistu:"
+
+#~ msgid "This is the highest playable tier for now!"
+#~ msgstr "Tämä on toistaiseksi korkein pelattavissa oleva taso!"
+
+#~ msgid "Don't allow upgrades"
+#~ msgstr "Älä salli päivityksiä"
+
+#~ msgid "Allow upgrades"
+#~ msgstr "Salli päivitykset"
+
+#~ msgid "Unit overview"
+#~ msgstr "Aluksen yleiskatsaus"
+
+#, python-brace-format
+#~ msgid "Fill range with {how_many} trees"
+#~ msgstr "Täytä alue {how_many} puulla"
+
+#~ msgid "Selected Units"
+#~ msgstr "Valitut yksiköt"
+
+#~ msgid "Ship overview"
+#~ msgstr "Aluksen yleiskatsaus"
+
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr ""
+#~ "Aluksen pitää olla rannikon läheisyydessä ennen siirtokunnan perustamista."
+
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "Tällä saarella on jo yksi siirtokunnistasi."
+
+#~ msgid "Load/Unload"
+#~ msgstr "Lastaa/Pura"
+
+#~ msgid "Too far from the nearest tradeable warehouse"
+#~ msgstr "Liian kaukana lähimmästä omasta tai liittolaisen varastosta"
+
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "Kauppalaivoja ei voi varustaa asein"
+
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "Kauppalaivoja ei ole mahdollista varustaa asein."
+
+#~ msgid "Equip weapon"
+#~ msgstr "Varusta ase"
+
+#~ msgid "Unequip weapon"
+#~ msgstr "Poista aseen varustus"
+
+#, python-brace-format
+#~ msgid "{resource_name}: {price} gold"
+#~ msgstr "{resource_name}: {price} kultaa"
+
+#, python-brace-format
+#~ msgid "buy for {buyprice} gold"
+#~ msgstr "osta hintaan {buyprice} kultaa"
+
+#, python-brace-format
+#~ msgid "sell for {sellprice} gold"
+#~ msgstr "myy hintaan {sellprice} kultaa"
+
+#, python-brace-format
+#~ msgid "{stored}/{limit}"
+#~ msgstr "{stored}/{limit}"
+
+#, python-brace-format
+#~ msgid "Limit: {amount}t per slot"
+#~ msgstr "Rajoitus: {amount}t per tavararuutu"
+
+#~ msgid "Logbook"
+#~ msgstr "Päiväkirja"
+
+#~ msgid "Emptiness"
+#~ msgstr "Tyhjä"
+
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "Päiväkirjaan ei ole kirjoitettu vielä mitään!"
+
+#, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "Pelaajan {player} siirtokunnat"
+
+#, python-brace-format
+#~ msgid "Ships of {player}"
+#~ msgstr "Pelaajan {player} alukset"
+
+#~ msgid "N/A"
+#~ msgstr "Ei"
+
+#, python-brace-format
+#~ msgid "Production overview of {settlement}"
+#~ msgstr "Siirtokunnassa {settlement} tuotetut resurssit"
+
+#~ msgid "Click to show statistics"
+#~ msgstr "Näytä tilastot napsauttamalla tästä"
+
+#~ msgid "Click to add a new slot"
+#~ msgstr "Lisää uusi tavararuutu napsauttamalla tästä"
+
+#~ msgid "Reset this configuration to the factory default."
+#~ msgstr "Palauta tämä asetus oletusarvoon."
+
+#~ msgid ""
+#~ "Reset this settlement's displayed resources to the default configuration "
+#~ "you have saved."
+#~ msgstr ""
+#~ "Nollaa tämän asutuksen näytettävät resurssit siihen oletuskokoonpanoon, "
+#~ "jonka olet tallentanut."
+
+#~ msgid ""
+#~ "Reset the default configuration (which you see here) to the factory "
+#~ "default for all settlements."
+#~ msgstr ""
+#~ "Nollaa oletuskokoonpano (jonka näet tässä) pelin oletukseen kaikissa "
+#~ "asutuksissa."
+
+#~ msgid "Buy expenses"
+#~ msgstr "Ostoinvestoinnit"
+
+#~ msgid "Sell income"
+#~ msgstr "Myyntitulot"
+
+#~ msgid "Stop route"
+#~ msgstr "Lopeta reitti"
+
+#~ msgid "Need at least two settlements"
+#~ msgstr "Liian vähän reittipisteitä"
+
+#~ msgid "You need at least two different settlements in your route."
+#~ msgstr "Reitillä pitää olla vähintään kaksi siirtokuntaa reittipisteenä."
+
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "Lisää siirtokunta reittipisteeksi napsauttamalla sitä!"
+
+#~ msgid "Loading into ship"
+#~ msgstr "Lastataan laivaan"
+
+#~ msgid "Unloading from ship"
+#~ msgstr "Puretaan laivasta"
+
+#~ msgid "You are not allowed to trade with this player"
+#~ msgstr "Et saa käydä kauppaa tämän pelaajan kanssa"
+
+#, python-brace-format
+#~ msgid "{weapon}: {amount}"
+#~ msgstr "{weapon}: {amount}"
+
+#~ msgid "none"
+#~ msgstr "ei mitään"
+
+#, python-brace-format
+#~ msgid "Details: {error_details}"
+#~ msgstr "Lisätietoja: {error_details}"
+
+#, python-brace-format
+#~ msgid "Error: {error_message}"
+#~ msgstr "Virhe: {error_message}"
+
+#~ msgid "Bakery"
+#~ msgstr "Leipomo"
+
+#~ msgid "Barracks"
+#~ msgstr "Kasarmi"
+
+#~ msgid "Wooden barrier"
+#~ msgstr "Puinen este"
+
+#~ msgid "Clay wall"
+#~ msgstr "Savi seinä"
+
+#~ msgid "Blender"
+#~ msgstr "Maustemylly"
+
+#~ msgid "Boat Builder"
+#~ msgstr "Veneveistämö"
+
+#~ msgid "Brewery"
+#~ msgstr "Panimo"
+
+#~ msgid "Brickyard"
+#~ msgstr "Tiilivalimo"
+
+#~ msgid "Butchery"
+#~ msgstr "Teurastamo"
+
+#~ msgid "Cannon Foundry"
+#~ msgstr "Tykkivalimo"
+
+#~ msgid "Charcoal Burning"
+#~ msgstr "Miilu"
+
+#~ msgid "Clay Deposit"
+#~ msgstr "Savimaa"
+
+#~ msgid "Clay Pit"
+#~ msgstr "Savikuoppa"
+
+# Simatehdas
+#~ msgid "Distillery"
+#~ msgstr "Tislaamo"
+
+#~ msgid "Doctor"
+#~ msgstr "Lääkäri"
+
+#~ msgid "Farm"
+#~ msgstr "Maatila"
+
+#~ msgid "Alvearies"
+#~ msgstr "Mehiläispesä"
+
+#~ msgid "Cattle Run"
+#~ msgstr "Karjalauma"
+
+#~ msgid "Cocoa Field"
+#~ msgstr "Kaakaopelto"
+
+#~ msgid "Corn Field"
+#~ msgstr "Maissipelto"
+
+#~ msgid "Herbary"
+#~ msgstr "Yrttitarha"
+
+#~ msgid "Hop Field"
+#~ msgstr "Humalapelto"
+
+#~ msgid "Pasture"
+#~ msgstr "Laidun"
+
+#~ msgid "Pigsty"
+#~ msgstr "Sikalauma"
+
+#~ msgid "Potato Field"
+#~ msgstr "Perunapelto"
+
+#~ msgid "Spice Field"
+#~ msgstr "Maustepelto"
+
+#~ msgid "Sugar Field"
+#~ msgstr "Sokeripelto"
+
+#~ msgid "Tobacco Field"
+#~ msgstr "Tupakkapelto"
+
+#~ msgid "Vineyard"
+#~ msgstr "Viinitarha"
+
+#~ msgid "Fire Station"
+#~ msgstr "Paloasema"
+
+#~ msgid "Fish Deposit"
+#~ msgstr "Kalaparvi"
+
+#~ msgid "Fisherman's Tent"
+#~ msgstr "Kalastajan teltta"
+
+#~ msgid "Hunter's Tent"
+#~ msgstr "Metsästäjän teltta"
+
+#~ msgid "Lookout"
+#~ msgstr "Vartiotorni"
+
+#~ msgid "Lumberjack Hut"
+#~ msgstr "Puunhakkaajan mökki"
+
+#~ msgid "Main Square"
+#~ msgstr "Keskustori"
+
+#~ msgid "Mine"
+#~ msgstr "Kaivos"
+
+#~ msgid "Mountain"
+#~ msgstr "Vuori"
+
+#~ msgid "Pastry Shop"
+#~ msgstr "Leipäkauppa"
+
+#~ msgid "Pavilion"
+#~ msgstr "Kirkko"
+
+#~ msgid "Ruined Tent"
+#~ msgstr "Teltan jäännökset"
+
+#~ msgid "Salt Ponds"
+#~ msgstr "Suola-allas"
+
+#~ msgid "Signal Fire"
+#~ msgstr "Merkkituli"
+
+#~ msgid "Smeltery"
+#~ msgstr "Sulatto"
+
+#~ msgid "Stone Deposit"
+#~ msgstr "Kiviesiintymä"
+
+#~ msgid "Stonemason"
+#~ msgstr "Kivenhakkaaja"
+
+#~ msgid "Carver"
+#~ msgstr "Kivenveistäjä"
+
+#~ msgid "Stone Pit"
+#~ msgstr "Kivikaivanto"
+
+#~ msgid "Storage Tent"
+#~ msgstr "Varastoteltta"
+
+#~ msgid "Storage Hut"
+#~ msgstr "Varastomökki"
+
+#~ msgid "Tavern"
+#~ msgstr "Krouvi"
+
+#~ msgid "Hut"
+#~ msgstr "Mökki"
+
+#~ msgid "Stone house"
+#~ msgstr "Kivitalo"
+
+#~ msgid "Estate"
+#~ msgstr "Kartano"
+
+#~ msgid "Manor"
+#~ msgstr "Linna"
+
+#~ msgid "Tobacconist"
+#~ msgstr "Tupakkakauppias"
+
+#~ msgid "Toolmaker"
+#~ msgstr "Työkaluvalmistaja"
+
+#~ msgid "Trail"
+#~ msgstr "Polku"
+
+#~ msgid "Gravel Path"
+#~ msgstr "Sorapolku"
+
+#~ msgid "Cobblestone Street"
+#~ msgstr "Mukulakivikatu"
+
+#~ msgid "Tree"
+#~ msgstr "Puu"
+
+#~ msgid "Village School"
+#~ msgstr "Kyläkoulu"
+
+#~ msgid "Warehouse"
+#~ msgstr "Varasto"
+
+#~ msgid "Weaponsmith"
+#~ msgstr "Aseseppä"
+
+#~ msgid "Weaver's Hut"
+#~ msgstr "Kutojan maja"
+
+#~ msgid "Windmill"
+#~ msgstr "Tuulimylly"
+
+#~ msgid "Winery"
+#~ msgstr "Viinin valmistaja"
+
+#~ msgid "Wooden Tower"
+#~ msgstr "Puutorni"
+
+#~ msgid "Failed to start/load the game"
+#~ msgstr "Pelin aloittaminen/avaaminen epäonnistui"
+
+#~ msgid "The game you selected could not be started."
+#~ msgstr "Peliä ei voida käynnistää."
+
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr ""
+#~ "Kyseinen tallennus saattaa olla rikki tai tehty pelin vanhemmalla "
+#~ "versiolla."
+
+#~ msgid "No quicksaves found"
+#~ msgstr "Yhtäkään pikatallennusta ei löytynyt"
+
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr "Tarvitset pikatallennuksen ennen kuin voit pikaladata."
+
+#~ msgid "Logging enabled"
+#~ msgstr "Lokitietojen tallennus"
+
+#, python-brace-format
+#~ msgid "Logs are written to {directory}."
+#~ msgstr "Lokitiedot kirjoitetaan kansioon {directory}."
+
+#~ msgid ""
+#~ "The games have run out of sync. This indicates an unknown internal error, "
+#~ "the game cannot continue."
+#~ msgstr ""
+#~ "Pelit ovat menneet epätahtiin. Tämä tarkoittaa tuntematonta sisäistä "
+#~ "virhettä, jonka johdosta peli ei voi jatkaa."
+
+#~ msgid ""
+#~ "We are very sorry and hope to have this bug fixed in a future version."
+#~ msgstr ""
+#~ "Olemme hyvin pahoillamme tästä ja toivomme, että olemme korjanneet "
+#~ "ongelman pelin seuraavassa versiossa."
+
+#~ msgid "Not possible"
+#~ msgstr "Ei mahdollista"
+
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr "Tallentaminen/lataaminen ei ole vielä mahdollista moninpeleissä"
+
+#~ msgid ""
+#~ "The filename must consist only of letters, numbers, spaces and these "
+#~ "characters: _ . -"
+#~ msgstr ""
+#~ "Tiedostonimessä saa käyttää vain kirjaimia, numeroita, välilyöntejä ja "
+#~ "näitä merkkejä: _.-"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "Palvelimeen ei voitu yhdistää."
+
+#~ msgid "Maybe invalid or irresolvable server address."
+#~ msgstr "Tarkasta palvelimen osoite."
+
+#~ msgid "Not Ready"
+#~ msgstr "Ei valmiina"
+
+#~ msgid ""
+#~ "Old or unsupported multiplayer protocol. Please check your game version"
+#~ msgstr "Vanha tai ei tuettu moninpeli protokolla. Tarkista pelisi versio"
+
+#~ msgid "You've exceeded the global packet size."
+#~ msgstr "Olet ylittänyt globaalin paketti koon."
+
+#~ msgid "This should never happen. Please contact us or file a bug report."
+#~ msgstr ""
+#~ "Näin ei koskaan olisi pitänyt käydä. Ota meihin yhteyttä tai tee virhe "
+#~ "reportti."
+
+#~ msgid "You've exceeded the per packet size."
+#~ msgstr "Olet ylittänyt paketti koon."
+
+#~ msgid "Unknown or malformed packet. Please check your game version"
+#~ msgstr "Tuntematon tai epämuodostanut paketti. Tarkista pelisi versio"
+
+#~ msgid "Invalid/Unknown session"
+#~ msgstr "Invaliidi/Tuntematon istunto"
+
+#~ msgid "You can't join a game while in another game"
+#~ msgstr "Et voi liittyä peliin kun olet toisessa pelissä"
+
+#~ msgid "Unknown game or game is running a different version"
+#~ msgstr "Tuntematon peli tai peli pyörii eri versiolla"
+
+#~ msgid "Game has already started. No more joining"
+#~ msgstr "Peli on jo alkanut. Ei enään liittymisiä"
+
+#~ msgid "Game is full"
+#~ msgstr "Peli on jo täynnä"
+
+#~ msgid "Wrong password"
+#~ msgstr "Väärä salasana"
+
+#~ msgid "There's already a player with your name inside this game."
+#~ msgstr "Siellä on jo pelaaja samalla nimellä."
+
+#~ msgid "Please change your name."
+#~ msgstr "Vaihda nimesi."
+
+#~ msgid "There's already a player with your color inside this game."
+#~ msgstr "Siellä on jo pelaaja samalla värillä kun sinulla."
+
+#~ msgid "Please change your color."
+#~ msgstr "Vaihda peliväriä."
+
+#~ msgid ""
+#~ "There's already a player with your unique player ID inside this game. "
+#~ "This should never occur."
+#~ msgstr ""
+#~ "Pelissä on jo pelaaja samalla ainutlaatuisella ID:ellä. Tämän ei pitäisi "
+#~ "ikinä tapahtua."
+
+#~ msgid "You are not inside a game"
+#~ msgstr "Et ole enää pelissä"
+
+#~ msgid "Unable to change your name."
+#~ msgstr "Nimeäsi ei voi muuttaa."
+
+#~ msgid "Unable to change your color."
+#~ msgstr "Väriäsi ei voi muuttaa."
+
+#~ msgid "You can't fetch a game while in another game"
+#~ msgstr "Et voi noutaa peliä, kun olet toisessa pelissä"
+
+#~ msgid "The game has been terminated. The creator has left the game."
+#~ msgstr "Peli on lopetettu. Tekijä poistui pelistä."
+
+#~ msgid ""
+#~ "One player has terminated their game. For technical reasons, this "
+#~ "currently means the game cannot continue. We are very sorry about that."
+#~ msgstr ""
+#~ "Yksi pelaaja on lopettanut pelinsä. Teknisistä syistä tämä tarkoittaa "
+#~ "että peli ei voi jatkua. Olemme pahoillamme."
+
+#~ msgid "You have won!"
+#~ msgstr "Voitit pelin!"
+
+#~ msgid "You have completed this scenario."
+#~ msgstr "Olet suorittanut tämän juonipelin läpi."
+
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "Haluatko jatkaa pelaamista?"
+
+#~ msgid "unknown"
+#~ msgstr "tuntematon"
+
+#~ msgid "Failed to create savegame file"
+#~ msgstr "Tallennustiedoston luominen epäonnistui"
+
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr "Yritettäessä luoda tallennustiedostoa virhe tapahtui."
+
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr ""
+#~ "Tämä johtuu yleensä siitä, että tallennuksen nimi sisältää "
+#~ "erikoismerkkejä, joita ei tueta."
+
+#~ msgid "Access is denied"
+#~ msgstr "Pääsy estetty"
+
+#~ msgid "The savegame file could be read-only or locked by another process."
+#~ msgstr ""
+#~ "Tallennustiedosto voi olla kirjoitussuojattu tai toisen prosessin "
+#~ "käytössä."
+
+#~ msgid "Your game has not been saved."
+#~ msgstr "Peliäsi ei ole tallennettu."
+
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "Unknown Horizonsin uusi versio"
+
+#, python-brace-format
+#~ msgid ""
+#~ "There is a more recent release of Unknown Horizons ({new_version}) than "
+#~ "the one you are currently using ({old_version})."
+#~ msgstr ""
+#~ "Unknown Horizonsista on saatavilla uusi versio ({new_version}). Nykyinen "
+#~ "versiosi on ({old_version})."
+
+#~ msgid "Click to download"
+#~ msgstr "Lataa"
+
+#~ msgid "A page has been opened in your browser."
+#~ msgstr "Lataussivu avataan verkkoselaimeen."
+
+#, python-brace-format
+#~ msgid "{slotnum} slots, {limit}t"
+#~ msgstr "{slotnum} paikkaa, {limit}t"
+
+#, python-brace-format
+#~ msgid "Health: {health}"
+#~ msgstr "Kunto: {health}"
+
+#, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}: {description}"
+
+#~ msgid "This building must be built on an island."
+#~ msgstr "Tämä rakennus pitää sijoittaa maalle."
+
+#~ msgid "This ground is not suitable for this building."
+#~ msgstr "Tämä rakennus ei sovi tähän maahan."
+
+#~ msgid "This building has to be built within your settlement."
+#~ msgstr "Tämä rakennus pitää rakentaa siirtokunnan sisälle."
+
+#~ msgid "This area is already occupied by another player."
+#~ msgstr "Tällä alueella on jo joku muu pelaaja."
+
+#~ msgid "This area is already occupied by another building."
+#~ msgstr "Tällä alueella on jo jokin muu rakennus."
+
+#~ msgid "This area is already occupied by a unit."
+#~ msgstr "Tällä alueella on jo jokin muu yksikkö."
+
+#~ msgid "This building must be built on the coastline."
+#~ msgstr "Tämä rakennus pitää sijoittaa rannikolle."
+
+#~ msgid "This building has to be placed at the ocean."
+#~ msgstr "Tämä rakennus täytyy sijoittaa merelle."
+
+#~ msgid "This spot is too far away from your ship."
+#~ msgstr "Tämä sijainti on liian kaukana aluksesta."
+
+#~ msgid "This building can only be built on a resource source."
+#~ msgstr "Tämä rakennus voidaan rakentaa vain resurssilöydöksen päälle."
+
+#~ msgid "You have already settled this island."
+#~ msgstr "Olet jo asuttanut tämän saaren."
+
+#~ msgid "This building must be partly on flat land."
+#~ msgstr "Tämä rakennus täytyy sijoittaa osin tasamaalle."
+
+#~ msgid "The inhabitants are infected by the Black Death!"
+#~ msgstr "Asukkailla on rutto!"
+
+#~ msgid "This building is on fire!"
+#~ msgstr "Tämä rakennus on tulessa!"
+
+#~ msgid "These residents are unhappy."
+#~ msgstr "Nämä asukkaat eivät ole onnellisia."
+
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "Nämä asukkaat eivät pääse keskustorille."
+
+#~ msgid "The inventory of this building is full."
+#~ msgstr "Tämän rakennuksen tavaravalikko on täynnä."
+
+#~ msgid "This building has a very low productivity."
+#~ msgstr "Tämän rakennuksen tuotantokapasiteetti on hyvin alhainen."
+
+#~ msgid "This building is decommissioned."
+#~ msgstr "Tämä rakennus on poistettu käytöstä."
+
+#, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "Kauppareitti: siirtymässä kohteeseen {location}"
+
+#, python-brace-format
+#~ msgid "Trade route: waiting at {position}"
+#~ msgstr "Kauppareitti: odotetaan {position}"
+
+#, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "Siirtymässä kohteeseen {location}"
+
+#, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "Siirtymässä sijaintiin {x}, {y}"
+
+#, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "Paikallaan kohteessa {location}"
+
+#, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "Paikallaan sijainnissa {x},{y}"
+
+#~ msgid "Trader"
+#~ msgstr "Kauppias"
+
+#, python-brace-format
+#~ msgid "Attacking {target} '{name}' ({owner})"
+#~ msgstr "Hyökätään kohteeseen {target} '{name}' ({owner})"
+
+#, python-brace-format
+#~ msgid "Attacking {owner}"
+#~ msgstr "Hyökätään {owner}"
+
+#~ msgid "Your game has been autosaved."
+#~ msgstr "Peli tallennettiin automaattisesti."
+
+#~ msgid "Your building has caught fire!"
+#~ msgstr "Yksi rakennuksista on syttynyt palamaan!"
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}: {message}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "{player1} and {player2} have ended their alliance and are now in a state "
+#~ "of war."
+#~ msgstr ""
+#~ "{player1} ja {player2} eivät ole enää liittolaisia ja julistivat "
+#~ "toisilleen sodan."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have terminated their alliance."
+#~ msgstr "{player1} ja {player2} eivät ole enää liittolaisia."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have ended the war and are now allied."
+#~ msgstr ""
+#~ "{player1} ja {player2} ovat lopettaneet sodan ja ovat nyt liittolaisia."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have settled their hostility."
+#~ msgstr "{player1} ja {player2} ovat sopineet rauhan."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have allied their forces."
+#~ msgstr "{player1} ja {player2} ovat nyt liittolaisia."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} will fight each other to the death."
+#~ msgstr "{player1} ja {player2} julistivat toisilleen sodan."
+
+#~ msgid "You can also drag roads."
+#~ msgstr "Voit myös vetää teitä hiirellä."
+
+#~ msgid "One of your fields requires a farm to harvest its crops."
+#~ msgstr "Yksi pelloistasi tarvitsee maatilan lähistölleen."
+
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "Kaivoksesi on tyhjentynyt."
+
+#~ msgid ""
+#~ "You have reached the current maximum tier. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Olet saavuttanut suurimman tällä hetkellä mahdollisen tason. Sinun "
+#~ "asukkaasi eivät päivity enää."
+
+#~ msgid "Cannot go here."
+#~ msgstr "Tänne ei voi mennä."
+
+#~ msgid "Your crew refuses to leave this map."
+#~ msgstr "Miehistö kieltäytyy poistumasta tältä kartalta."
+
+#, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "Tarvitset enemmän {resource} tämän rakennuksen rakentamiseen."
+
+#, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "{player} loi uuden siirtokunnan."
+
+#, python-brace-format
+#~ msgid "A new ship by the name of {name} has been created."
+#~ msgstr "{name} otti käyttöön uuden laivan."
+
+#, python-brace-format
+#~ msgid "The Soldier by the name of {name} is ready to battle."
+#~ msgstr "Sotilas {name} on valmiina taisteluun."
+
+#, python-brace-format
+#~ msgid "The inhabitant by the name of {name} is available."
+#~ msgstr "Asukas {name} on käytettävissä."
+
+#~ msgid "A new world has been created."
+#~ msgstr "Uusi maailma luotu."
+
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "Jotkin asukkaasi eivät pääse keskustorille."
+
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "Pelillesi suoritettiin pikatallennus."
+
+#~ msgid ""
+#~ "The route is now configured. Start it via the \"start route\" button in "
+#~ "the \"configure route\" menu."
+#~ msgstr ""
+#~ "Reitti on nyt määritetty. Aloita se napsauttamalla \"aloita reitti\" "
+#~ "nappia joka sijaitsee reitin määritys valikossa."
+
+#~ msgid "Your game has been saved."
+#~ msgstr "Pelisi on tallennettu."
+
+#, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "Kuvakaappaus tallennettu tiedostoon {file}."
+
+#, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "Asukkaasi saavuttivat tason {level}."
+
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "Jotkut asukkaasi muuttivat juuri pois."
+
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr "Sivutoimistoa ei voi poistaa, sillä siirtokuntasi tarvitsee sitä."
+
+#~ msgid "You won!"
+#~ msgstr "Sinä voitit!"
+
+#~ msgid "You failed the scenario."
+#~ msgstr "Hävisit tämän juonipelin."
+
+#~ msgid "The inhabitants of this building are infected by the Black Death!"
+#~ msgstr "Tämän rakennuksen asukkailla on rutto!"
+
+#~ msgid "coins"
+#~ msgstr "kolikot"
+
+#~ msgid "lamb wool"
+#~ msgstr "lampaanvilla"
+
+#~ msgid "textile"
+#~ msgstr "kankaat"
+
+#~ msgid "boards"
+#~ msgstr "laudat"
+
+#~ msgid "food"
+#~ msgstr "ruoka"
+
+#~ msgid "tools"
+#~ msgstr "työkalut"
+
+#~ msgid "bricks"
+#~ msgstr "tiilet"
+
+#~ msgid "trees"
+#~ msgstr "puita"
+
+#~ msgid "grass"
+#~ msgstr "ruohoa"
+
+#~ msgid "wool"
+#~ msgstr "villa"
+
+#~ msgid "faith"
+#~ msgstr "usko"
+
+#~ msgid "deer food A"
+#~ msgstr "kauriin ruokaa"
+
+#~ msgid "deer meat"
+#~ msgstr "hirvieläimen lihaa"
+
+#~ msgid "happiness"
+#~ msgstr "onnellisuutta"
+
+#~ msgid "potatoes"
+#~ msgstr "perunat"
+
+#~ msgid "education"
+#~ msgstr "sivistystä"
+
+#~ msgid "sugar cane"
+#~ msgstr "sokeriruokoa"
+
+#~ msgid "sugar"
+#~ msgstr "sokeri"
+
+#~ msgid "community"
+#~ msgstr "yhteisö"
+
+#~ msgid "clay deposit"
+#~ msgstr "saviesiintymä"
+
+#~ msgid "clay"
+#~ msgstr "savi"
+
+#~ msgid "liquor"
+#~ msgstr "likööri"
+
+#~ msgid "charcoal"
+#~ msgstr "puuhiili"
+
+#~ msgid "iron deposit"
+#~ msgstr "rauta esiintymä"
+
+#~ msgid "iron ore"
+#~ msgstr "rautamalmi"
+
+#~ msgid "iron ingots"
+#~ msgstr "rautaharkot"
+
+#~ msgid "get-together"
+#~ msgstr "pitoja"
+
+#~ msgid "fish"
+#~ msgstr "kala"
+
+#~ msgid "salt"
+#~ msgstr "suolaa"
+
+#~ msgid "tobacco plants"
+#~ msgstr "tupakkakasveja"
+
+#~ msgid "tobacco leaves"
+#~ msgstr "tupakanlehtiä"
+
+#~ msgid "tobaccos"
+#~ msgstr "tupakat"
+
+#~ msgid "cattle"
+#~ msgstr "karja"
+
+#~ msgid "pigs"
+#~ msgstr "sikoja"
+
+#~ msgid "cattle for slaughter"
+#~ msgstr "teuraskarja"
+
+#~ msgid "pigs for slaughter"
+#~ msgstr "teuras-siat"
+
+#~ msgid "herbs"
+#~ msgstr "yrttejä"
+
+#~ msgid "medical herbs"
+#~ msgstr "lääkeyrttejä"
+
+#~ msgid "acorns"
+#~ msgstr "tammenterhoja"
+
+#~ msgid "cannon"
+#~ msgstr "tykkiä"
+
+#~ msgid "sword"
+#~ msgstr "miekka"
+
+#~ msgid "grain"
+#~ msgstr "jyvä"
+
+#~ msgid "corn"
+#~ msgstr "maissi"
+
+#~ msgid "flour"
+#~ msgstr "jauho"
+
+#~ msgid "spice plants"
+#~ msgstr "maustekasvit"
+
+#~ msgid "spices"
+#~ msgstr "mausteet"
+
+#~ msgid "condiments"
+#~ msgstr "kastikkeita"
+
+#~ msgid "marble deposit"
+#~ msgstr "marmori esiintymä"
+
+#~ msgid "marble tops"
+#~ msgstr "marmorihuiput"
+
+#~ msgid "coal deposit"
+#~ msgstr "hiiliesiintymä"
+
+#~ msgid "stone deposit"
+#~ msgstr "kiviesiintymä"
+
+#~ msgid "stone tops"
+#~ msgstr "kivihuiput"
+
+#~ msgid "cocoa beans"
+#~ msgstr "kaakaopavut"
+
+#~ msgid "cocoa"
+#~ msgstr "kaakao"
+
+#~ msgid "confectionery"
+#~ msgstr "makeinen"
+
+#~ msgid "candles"
+#~ msgstr "kynttilöitä"
+
+#~ msgid "vines"
+#~ msgstr "viiniköynnöksiä"
+
+#~ msgid "grapes"
+#~ msgstr "viinirypäleet"
+
+#~ msgid "alvearies"
+#~ msgstr "mehiläispesiä"
+
+#~ msgid "honeycombs"
+#~ msgstr "hunajakennoja"
+
+#~ msgid "gold deposit"
+#~ msgstr "kultaesiintymä"
+
+#~ msgid "gold ore"
+#~ msgstr "kultamalmi"
+
+#~ msgid "gold ingots"
+#~ msgstr "kultaharkkoja"
+
+#~ msgid "gem deposit"
+#~ msgstr "jalokiviesiintymä"
+
+#~ msgid "rough gems"
+#~ msgstr "raakajalokiviä"
+
+#~ msgid "gems"
+#~ msgstr "jalokivet"
+
+#~ msgid "coffee plants"
+#~ msgstr "kahvipensas"
+
+#~ msgid "coffee beans"
+#~ msgstr "kahvipavut"
+
+#~ msgid "coffee"
+#~ msgstr "kahvi"
+
+#~ msgid "tea plants"
+#~ msgstr "teekasveja"
+
+#~ msgid "tea leaves"
+#~ msgstr "teelehtiä"
+
+#~ msgid "tea"
+#~ msgstr "tee"
+
+#~ msgid "flower meadows"
+#~ msgstr "kukkaniityt"
+
+#~ msgid "blossoms"
+#~ msgstr "kukat"
+
+#~ msgid "brine deposit"
+#~ msgstr "suolaesiintymä"
+
+#~ msgid "brine"
+#~ msgstr "suolaliemi"
+
+#~ msgid "whales"
+#~ msgstr "valaat"
+
+#~ msgid "ambergris"
+#~ msgstr "ambra"
+
+#~ msgid "lamp oil"
+#~ msgstr "lamppuöljy"
+
+#~ msgid "cotton plants"
+#~ msgstr "puuvillakasvit"
+
+#~ msgid "cotton"
+#~ msgstr "puuvilla"
+
+#~ msgid "indigo plants"
+#~ msgstr "indigokasveja"
+
+#~ msgid "indigo"
+#~ msgstr "indigo"
+
+#~ msgid "garments"
+#~ msgstr "vaatekappaleet"
+
+#~ msgid "perfume"
+#~ msgstr "hajuvesi"
+
+#~ msgid "hop plants"
+#~ msgstr "humalakasvit"
+
+#~ msgid "hops"
+#~ msgstr "humalat"
+
+#~ msgid "beer"
+#~ msgstr "olut"
+
+#~ msgid "hygiene"
+#~ msgstr "hygieenia"
+
+#~ msgid "recreation"
+#~ msgstr "virkistys"
+
+#~ msgid "blackdeath"
+#~ msgstr "musta surma"
+
+#~ msgid "fire"
+#~ msgstr "tuli"
+
+#~ msgid "Aristocrats"
+#~ msgstr "Aristokraatit"
+
+#~ msgid "Error: Unable to find required library \"PyYAML\"."
+#~ msgstr "Virhe: Vaadittua kirjastoa \"PyYAML\" ei voitu ladata."
+
+#~ msgid "PyYAML (a required library) is missing and needs to be installed."
+#~ msgstr "Vaadittu kirjasto PyYAML puuttuu, ja se tulee asentaa välittömästi."
+
+#~ msgid "The Windows installer is available at http://pyyaml.org/wiki/PyYAML."
+#~ msgstr ""
+#~ "Asennusohjeet Windowsille löytyy osoitteesta http://pyyaml.org/wiki/"
+#~ "PyYAML."
+
+#~ msgid ""
+#~ "Linux users should find it using their package manager under the name "
+#~ "\"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Linuxissa paketti on asennettavissa paketinhallinnasta nimellä \"pyyaml\" "
+#~ "tai \"python-yaml\"."
+
+#~| msgid "Unit overview"
+#~ msgid "Groundunit overview"
+#~ msgstr "Aluksen yleiskatsaus"
+
+#~ msgid "SDL is only meant as unsupported fallback and might cause problems!"
+#~ msgstr "SDL on tarkoitettu vain hätätapauksiin ja voi aiheuttaa ongelmia!"
+
+#~ msgid "Used renderer:"
+#~ msgstr "Valitse näyttösovitin:"
+
+#~ msgid "Warning"
+#~ msgstr "Varoitus"
+
+#~ msgid ""
+#~ "The SDL renderer is meant as a fallback solution only and has serious "
+#~ "graphical glitches. \n"
+#~ "\n"
+#~ "Use at own risk!"
+#~ msgstr ""
+#~ "SDL-renderöinti on tarkoitettu vararatkaisuksi ja sisältää vakavia "
+#~ "graafisia virheitä. \n"
+#~ "\n"
+#~ "Käyttö vain omalla vastuulla!"
+
+#~ msgid "Increases the player's sight."
+#~ msgstr "Mahdollistaa saapuvien alusten havaitsemisen kauempaa."
+
+#~ msgid "Vintner"
+#~ msgstr "Viinikauppias"
+
+#~ msgid "dagger"
+#~ msgstr "tikari"
+
+#~ msgid "Back:"
+#~ msgstr "Takaisin:"
+
+#~ msgid "Leave:"
+#~ msgstr "Poistu:"
+
+#~ msgid "Main menu:"
+#~ msgstr "Päävalikko:"
+
+#~ msgid "Color depth:"
+#~ msgstr "Värisyvyys:"
+
+#~ msgid "If set to 0, use the driver default"
+#~ msgstr "Arvon ollessa 0, käytetään näyttösovittimen oletusta"
+
+#~ msgid "Apply"
+#~ msgstr "Hyväksy"
+
+#~ msgid "Start game:"
+#~ msgstr "Aloita peli:"
+
+#~ msgid "16 bit"
+#~ msgstr "16-bittinen"
+
+#~ msgid "32 bit"
+#~ msgstr "32-bittinen"
+
+#~ msgid "Default"
+#~ msgstr "Oletus"
+
+#~ msgid "The inhabitants of this building have the plague."
+#~ msgstr "Tämän rakennuksen asukkailla on rutto."
+
+#~ msgid "Key bindings"
+#~ msgstr "Pikanäppäimet"
+
+#~ msgid "Hold to place multiple buildings"
+#~ msgstr "Sijoita useita rakennuksia kerralla pitämällä pohjassa"
+
+#~ msgid "Close dialogs"
+#~ msgstr "Sulje dialogi"
+
+#~ msgid "[{key}] = {text}"
+#~ msgstr "[{key}] = {text}"
+
+#, fuzzy
+#~ msgid "Project Coordination"
+#~ msgstr "Turvallisuus"
+
+#, fuzzy
+#~ msgid "Game-Play Design"
+#~ msgstr "Pelivinkki"
+
+#, fuzzy
+#~ msgid "Graphics Artists"
+#~ msgstr "Grafiikka"
+
+#, fuzzy
+#~ msgid "Patchers"
+#~ msgstr "Teurastamo"
+
+#, fuzzy
+#~ msgid "Translators"
+#~ msgstr "Käännöstilanne:"
+
+#, fuzzy
+#~ msgid "Hosting Weblate"
+#~ msgstr "Lokitietojen tallennus"
+
+#, fuzzy
+#~ msgid "Spanish"
+#~ msgstr "Yritykset"
+
+#, fuzzy
+#~ msgid "Dutch"
+#~ msgstr "Teurastamo"
+
+#, fuzzy
+#~ msgid "Chinese"
+#~ msgstr "viiniköynnöksiä"
+
+#~ msgid "Enter name:"
+#~ msgstr "Kirjoita nimi:"
+
+#~ msgid "Save the map"
+#~ msgstr "Tallenna kartta"
+
+#~ msgid "Toggle console on/off"
+#~ msgstr "Konsoli näkyviin/pois"
+
+#~ msgid "Only show games with the same version:"
+#~ msgstr "Näytä vain saman version pelit:"
+
+#~ msgid ""
+#~ "You have reached the current maximum increment. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Olet saavuttanut korkeimman siirtokunnan tason. Asukkaasi eivät voi enää "
+#~ "kehittää asumuksiaan."
+
+#~ msgid "Valid map names are in the following form: {expression}"
+#~ msgstr "Oikeat kartannimet ovat tällaisessa muodossa: {expression}"
+
+#~ msgid "Try a name that only contains letters and numbers."
+#~ msgstr "Käytä nimeä jossa on vain kirjaimia ja numeroita."
+
+#~ msgid "Terminated"
+#~ msgstr "Peli päättyi"
+
+#~ msgid "This savegame is missing (click here)"
+#~ msgstr "Tämä tallennustiedosto puuttuu (napsauta tästä)"
+
+#~ msgid "The file will be downloaded when the game starts."
+#~ msgstr "Tiedosto ladataan pelin alkaessa."
+
+#~ msgid "This is a savegame."
+#~ msgstr "Tämä on pelitallennus."
+
+#~ msgid "A savegame with the name '{name}' already exists."
+#~ msgstr "Pelitallennus nimellä \"{name}\" on jo olemassa."
+
+#~ msgid "Invalid filename given"
+#~ msgstr "Virheellinen tiedostonimi annettu"
+
+#~ msgid "An error happened during quicksave. Your game has not been saved."
+#~ msgstr ""
+#~ "Virhe tapahtui yritetettäessä pikatallennusta. Peliäsi ei tallennettu."
+
+#~ msgid "If this error happens again, please contact the development team:"
+#~ msgstr "Jos tämä virhe toistuu, ota yhteyttä kehitystiimiin:"
+
+#~ msgid "Current key: [{key}]"
+#~ msgstr "Nykyinen näppäin: [{key}]"
+
+#~ msgid "Default key: [{key}]"
+#~ msgstr "Oletusnäppäin: [{key}]"
+
+#~ msgid "Click to reset to default key"
+#~ msgstr "Palauta oletusnäppäin napsauttamalla tästä"
+
+#~ msgid "Invalid key"
+#~ msgstr "Virheellinen näppäin"
+
+#~ msgid "The default key for this action has been selected."
+#~ msgstr "Toiminnon oletusnäppäin on valittu."
+
+#~ msgid "Collector utilisation"
+#~ msgstr "Kerääjien työmäärä"
+
+#~ msgid "Save map (hold SHIFT)"
+#~ msgstr "Tallenna kartta (pidä SHIFT pohjassa)"
+
+#~ msgid "This will be displayed to other players so they recognise the game."
+#~ msgstr "Muut pelaajat tunnistavat pelin sen nimen perusteella."
+
+#~ msgid "Scroll Speed (lower is faster):"
+#~ msgstr "Rullausnopeus (alhaisempi on nopeampi):"
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center"
+#~ msgstr ""
+#~ "Kun tämä asetus on käytössä, karttaa suurennettaessa kohdistetaan hiiren "
+#~ "osoittimeen."
+
+#~ msgid "FIFE was not found."
+#~ msgstr "FIFE:ä ei löytynyt."
+
+#~ msgid "{player} changed its color"
+#~ msgstr "{player} vaihtoi peliväriä"
+
+#~ msgid "Attention please!"
+#~ msgstr "Huomio!"
+
+#~ msgid "Random map archive"
+#~ msgstr "Satunnaisten karttojen arkisto"
+
+#~ msgid "Load from map archive"
+#~ msgstr "Näytä karttahistoria"
+
+#~ msgid "A new ship has been created."
+#~ msgstr "Uusi alus luotu."
+
+#~ msgid "Specify the path to FIFE root directory."
+#~ msgstr "Määrittele polku FIFE-pelimoottorin hakemistoon."
+
+#~ msgid "Please select a savegame or click on cancel."
+#~ msgstr "Valitse tallennus tai napsauta \"Peruuta\"."
+
+#~ msgid "Select a savegame"
+#~ msgstr "Valitse tallennus"
+
+#~ msgid "Error:"
+#~ msgstr "Virhe:"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which couldn't "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "Moninpeli vaatii toimiakseen kirjaston \"pyenet\", jota ei ole asennettu."
+
+#~ msgid "Windows users: There is currently no reasonable support for Windows."
+#~ msgstr ""
+#~ "Windowsin käyttäjät: Tällä hetkellä emme tue tätä ominaisuutta "
+#~ "Windowsissa."
+
+#~ msgid "Creator: {player}"
+#~ msgstr "Tekijä: {player}"
+
+#~ msgid ""
+#~ "{translated} translated messages, {untranslated} untranslated messages"
+#~ msgstr ""
+#~ "{translated} käännettyä tekstikappaletta, {untranslated} kääntämätöntä "
+#~ "tekstikappaletta"
+
+#~ msgid "Too far from the nearest own or allied warehouse"
+#~ msgstr "Liian kaukana lähimmästä omasta tai liittolaisen sivutoimistosta."
+
+#~ msgid "Gold"
+#~ msgstr "Kulta"
+
+#~ msgid "Cloth"
+#~ msgstr "Kangas"
+
+#~ msgid "Boards"
+#~ msgstr "Laudat"
+
+#~ msgid "Tools"
+#~ msgstr "Työkalut"
+
+#~ msgid "Frigate"
+#~ msgstr "Fregatti"
+
+#~ msgid "Build fields"
+#~ msgstr "Pystytä tuotantoa"
+
+#~ msgid "1 resident"
+#~ msgstr "1 asukas"
+
+#~ msgid "2 residents"
+#~ msgstr "2 asukasta"
+
+#~ msgid "3 residents"
+#~ msgstr "3 asukasta"
+
+#~ msgid "4 residents"
+#~ msgstr "4 asukasta"
+
+#~ msgid "5 residents"
+#~ msgstr "5 asukasta"
+
+#~ msgid "6 residents"
+#~ msgstr "6 asukasta"
+
+#~ msgid "7 residents"
+#~ msgstr "7 asukasta"
+
+#~ msgid "8 residents"
+#~ msgstr "8 asukasta"
+
+#~ msgid "This is the current maximum increment!"
+#~ msgstr "Tämä on jo korkein saavuttamasi taso!"
+
+#~ msgid "Average happiness:"
+#~ msgstr "Keskimääräinen onnellisuus:"
+
+#~ msgid "Most needed resource:"
+#~ msgstr "Eniten kaivattu resurssi:"
+
+#~ msgid "Save as default"
+#~ msgstr "Tallenna oletukseksi"
+
+#~ msgid "Restore default"
+#~ msgstr "Palauta oletus"
+
+#~ msgid "Own settlements"
+#~ msgstr "Omat siirtokunnat"
+
+#~ msgid "Allies"
+#~ msgstr "Liittolaiset"
+
+#~ msgid "Available Scenarios"
+#~ msgstr "Tarjolla olevat skenaariot"
+
+#~ msgid "Scenario description"
+#~ msgstr "Skenaarion kuvaus"
+
+#~ msgid "Continue playing"
+#~ msgstr "Jatka pelaamista"
+
+#~ msgid "Choose this scenario"
+#~ msgstr "Valitse tämä skenaario"
+
+#~ msgid "The FIFE and Unknown Horizons development teams"
+#~ msgstr "FIFE ja Unknown Horizons -kehitysryhmät"
+
+#~ msgid "Have fun."
+#~ msgstr "Pidä hauskaa!"
+
+#~ msgid "The game will start as soon as enough players have joined."
+#~ msgstr "Peli alkaa, kun tarpeeksi monta pelaajaa on liittynyt siihen."
+
+#~ msgid "Enable logging"
+#~ msgstr "Lokitietojen tallennus"
+
+#~ msgid "Campaign"
+#~ msgstr "Päätehtävä"
+
+#~ msgid "Supplies citizens with goods."
+#~ msgstr "Tarjoaa asukkaille tuotteita."
+
+#~ msgid "The savegame file is probably read-only."
+#~ msgstr "Tallennustiedostolle on vain lukuoikeudet."
+
+#~ msgid "File used by another process"
+#~ msgstr "Tiedosto on toisen prosessin käytössä"
+
+#~ msgid "The savegame file is currently used by another program."
+#~ msgstr "Tallennustiedosto on tällä hetkellä toisen ohjelman käytössä."
+
+#~ msgid "We are very sorry for this and want to fix underlying error."
+#~ msgstr "Olemme tästä pahoillamme, ja haluamme korjata tämän virheen."
+
+#~ msgid "Error: Unable to find required libraries"
+#~ msgstr "Virhe: Vaadittuja kirjastoja ei löydy"
+
+#~ msgid ""
+#~ "We are sorry to inform you that a library that is required by Unknown "
+#~ "Horizons, is missing and needs to be installed."
+#~ msgstr ""
+#~ "Olemme pahoillamme, mutta sinulta puuttuu Unknown Horizonsin pelaamiseen "
+#~ "vaadittava kirjasto, ja se on asennettava."
+
+#~ msgid ""
+#~ "Installers for Windows users are available at \"http://pyyaml.org/wiki/"
+#~ "PyYAML\", Linux users should find it in their packagement management "
+#~ "system under the name \"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Asennusohjelma Windowsille on ladattavissa osoitteesta \"http://"
+#~ "pyyaml.org/wiki/PyYAML\", Linuxissa sen pitäisi löytyä "
+#~ "paketinhallintajärjestelmästä hakusanalla \"pyyaml\" tai \"python-yaml\"."
+
+#~ msgid "Configured language {lang} could not be loaded"
+#~ msgstr "Valittua kieltä {lang} ei pystytä lataamaan"
+
+#~ msgid "WARNING: Incompatible version {version}!"
+#~ msgstr "VAROITUS: Yhteensopimaton versio {version}!"
+
+#~ msgid "Required version: {required}!"
+#~ msgstr "Vaadittu versio: {required}!"
+
+#~ msgid "Increment {increment}"
+#~ msgstr "Taso {increment}"
+
+#~ msgid "Burns a lot of boards to charcoal."
+#~ msgstr "Polttaa puuhiilestä lautoja."
+
+#~ msgid "Log"
+#~ msgstr "Tukki"
+
+#~ msgid "Road across a river."
+#~ msgstr "Tie joen yli."
+
+#~ msgid "Rampart"
+#~ msgstr "Muuri"
+
+#~ msgid "The game you selected couldn't be started."
+#~ msgstr "Valitsemaasi peliä ei pystytty aloittamaan."
+
+#~ msgid "Error: Cannot find campaign '{name}'."
+#~ msgstr "Ei löydy kampanjaa \"{name}\"."
+
+#~ msgid "Error: Cannot find scenario '{name}'."
+#~ msgstr "Tallennusta \"{name}\" ei löytynyt."
+
+#~ msgid "Buildings must be built on islands."
+#~ msgstr "Rakennukset tulee sijoittaa maalle."
+
+#~ msgid "The ground is not suitable for this building."
+#~ msgstr "Maa ei sovellu tälle rakennukselle."
+
+#~ msgid "You can only build this within your settlement."
+#~ msgstr "Rakennuksen voi rakentaa vain oman siirtokuntasi sisälle."
+
+#~ msgid "This area is already occupied."
+#~ msgstr "Tämä alue on jo käytössä."
+
+#~ msgid "Another player has already occupied this island."
+#~ msgstr "Joku toinen pelaaja on jo valloittanut tämän saaren."
+
+#~ msgid "This building requires to be placed near the ocean."
+#~ msgstr "Tämä rakennus pitää sijoittaa meren lähelle."
+
+#~ msgid "pioneer"
+#~ msgstr "kansoittaja"
+
+#~ msgid "sailor"
+#~ msgstr "merenkävijä"
+
+#~ msgid "settler"
+#~ msgstr "uudisasukas"
+
+#~ msgid "wood"
+#~ msgstr "puuta"
+
+#~ msgid "Weaver's Tent"
+#~ msgstr "Kutojan teltta"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Annathan sen meille IRC-kanavallamme tai keskustelualueillamme, katso "
+#~ "lisää sivustoltamme osoitteesta unknown-horizons.org ."
+
+#~ msgid "{name}: {chatmessage}"
+#~ msgstr "{name}: {chatmessage}"
+
+#~ msgid "Leave Captain's log"
+#~ msgstr "Poistu Kapteenin päiväkirjasta"
+
+#~ msgid "Lumberjack Camp"
+#~ msgstr "Puunhakkaajan leiri"
+
+#~ msgid "We are very sorry for this, and want to fix this error."
+#~ msgstr "Olemme tästä pahoillamme, ja haluamme korjata tämän virheen."
+
+#~ msgid "This will delete all changes to the settings you made so far."
+#~ msgstr "Kaikki tekemäsi muutokset poistetaan."
+
+#~ msgid "Click to change the name of your settlement."
+#~ msgstr "Vaihda siirtokuntasi nimeä napsauttamalla tätä."
+
+#~ msgid "Bricks"
+#~ msgstr "Tiilet"
+
+#~ msgid "Textiles"
+#~ msgstr "Kankaat"
+
+#~ msgid "Click to change the name of this ship."
+#~ msgstr "Vaihda aluksen nimi napsauttamalla tätä."
+
+#~ msgid "Buy resources"
+#~ msgstr "Osta resursseja"
+
+#~ msgid "Click on slot icon to toggle mode:"
+#~ msgstr "Napsauta ylänurkan pientä kuvaketta:"
+
+#~ msgid "Sell resources"
+#~ msgstr "Myy resursseja"
+
+#~ msgid "Tent Ruin"
+#~ msgstr "Teltan rauniot"
+
+#~ msgid "(place in queue: {place})"
+#~ msgstr "(paikka jonossa: {place})"
+
+#~ msgid "blue"
+#~ msgstr "sininen"
+
+#~ msgid "cyan"
+#~ msgstr "turkoosi"
+
+#~ msgid "gray"
+#~ msgstr "harmaa"
+
+#~ msgid "green"
+#~ msgstr "vihreä"
+
+#~ msgid "lemon"
+#~ msgstr "sitruuna"
+
+#~ msgid "orange"
+#~ msgstr "oranssi"
+
+#~ msgid "pink"
+#~ msgstr "pinkki"
+
+#~ msgid "purple"
+#~ msgstr "violetti"
+
+#~ msgid "red"
+#~ msgstr "punainen"
+
+#~ msgid "white"
+#~ msgstr "valkoinen"
+
+#~ msgid "yellow"
+#~ msgstr "keltainen"
+
+#~ msgid "ships of {player}"
+#~ msgstr "pelaajan {player} alukset"
+
+#~ msgid "Apply:"
+#~ msgstr "Hyväksy:"
+
+#~ msgid "Boar"
+#~ msgstr "Villisika"
+
+#~ msgid "Branch Office"
+#~ msgstr "Sivutoimisto"
+
+#~ msgid "Cattle"
+#~ msgstr "Karja"
+
+#~ msgid "Fisher"
+#~ msgstr "Kalastaja"
+
+#~ msgid "Pirate Ship"
+#~ msgstr "Merirosvolaiva"
+
+#~ msgid "Sheep"
+#~ msgstr "Lammas"
+
+#~ msgid "Branch office overview"
+#~ msgstr "Sivutoimiston yleiskatsaus"
+
+#~ msgid "Sailor buildings"
+#~ msgstr "Merenkävijät"
+
+#~ msgid "Trail (R): Needed for collecting goods."
+#~ msgstr "Polku (R): Vaaditaan tavaroiden keräämiselle."
+
+#~ msgid "Pioneer buildings"
+#~ msgstr "Kansoittajat"
+
+#~ msgid "Settler buildings"
+#~ msgstr "Uudisasukkaat"
+
+#~ msgid "Charcoal burning: Burns a lot of boards to charcoal."
+#~ msgstr "Polttaa lautoja puuhiileksi."
+
+#~ msgid "Mine: Gets ores from deposit."
+#~ msgstr "Louhii malmeja maaperästä."
+
+#~ msgid "Show pause menu"
+#~ msgstr "Näytä pysäytysvalikko"
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-master commandline option. Port must be a "
+#~ "number between 1 and 65535."
+#~ msgstr ""
+#~ "Virhe: Kielioppivirhe --mp-master -komentoriviasetuksella. Portin tulee "
+#~ "olla luku välillä 1 ja 65535."
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-bind commandline option. Port must be a "
+#~ "number between 1 and 65535."
+#~ msgstr ""
+#~ "Virhe: Kielioppivirhe --mp-bind -komentoriviasetuksella. Portin tulee "
+#~ "olla luku välillä 1 ja 65535."
+
+#~ msgid "Error: Cannot find map '{name}'."
+#~ msgstr "Kenttää \"{name}\" ei löytynyt."
+
+#~ msgid "Error: Found multiple matches:"
+#~ msgstr "Löydettiin useita:"
+
+#~ msgid "Error: Cannot find savegame '{name}'."
+#~ msgstr "Ei löydetty tallennusta \"{name}\"."
+
+#~ msgid "Error: No quicksave found."
+#~ msgstr "Yhtäkään pikatallennusta ei löytynyt."
+
+#~ msgid "Screenshot has been saved to ${file}."
+#~ msgstr "Kuvakaappaus tallennettu tiedostoon ${file}."
+
+#~ msgid "You need more ${resource} to build this building."
+#~ msgstr "Tarvitset enemmän ${resource} tämän rakennuksen rakentamiseen."
+
+#~ msgid "System default"
+#~ msgstr "Järjestelmän oletus"
+
+#~ msgid "Configured language {lang} at {place} could not be loaded"
+#~ msgstr "Asetettu kieltä {lang}, sijainnissa {place} ei pystytä lataamaan"
+
+#~ msgid "{player}'s settlements"
+#~ msgstr "Pelaajan {player} siirtokunnat"
+
+#~ msgid "{player}'s ships"
+#~ msgstr "Pelaajan {player} alukset"
+
+#~ msgid "Add to list"
+#~ msgstr "Lisää listaan"
+
+#~ msgid "Rotate building left"
+#~ msgstr "Käännä rakennusta vasemmalle"
+
+#~ msgid "Rotate building right"
+#~ msgstr "Käännä rakennusta oikealle"
+
+#~ msgid "Enable edge scrolling:"
+#~ msgstr "Ota käyttöön reunavieritys:"
+
+#~ msgid "Enable minimap rotation:"
+#~ msgstr "Ota käyttöön pikkukartan kääntäminen:"
+
+#~ msgid "(0 means default)"
+#~ msgstr "(0 tarkoittaa oletusta)"
+
+#~ msgid "Please make sure that you know what you do."
+#~ msgstr "Varmista ennen muutoksia, että tiedät mitä teet."
+
+#~ msgid "Enable debug output to stderr and a logfile."
+#~ msgstr "Ota käyttöön debug-tulosteet virheulostuloon ja lokitiedostoon."
+
+#~ msgid ""
+#~ "Restores the default settings. Useful if Unknown Horizons crashes on "
+#~ "startup due to misconfiguration."
+#~ msgstr ""
+#~ "Palauta oletusasetukset. Hyödyllinen jos Unknown Horizons kaatuu "
+#~ "virheellisen asetuksen vuoksi käynnistyksessä."
+
+#~ msgid "Specify alternative multiplayer master server."
+#~ msgstr "Määrittele vaihtoehtoinen moninpelien pääpalvelin."
+
+#~ msgid ""
+#~ "Specify network address to bind local network client to. This is useful "
+#~ "if NAT holepunching is not working but you can forward a static port."
+#~ msgstr ""
+#~ "Määrittele verkko-osoite, johon liitetään paikallinen verkkoasiakas. Tämä "
+#~ "on hyödyllistä, jos NAT reikienhakkaus ei ole käytössä, mutta voit ohjata "
+#~ "pysyvän portin.Alkuperäisellä kielellä."
+
+#~ msgid "Starts <map>. <map> is the mapname."
+#~ msgstr "Käynnistää <map>. <map> on karttanimi."
+
+#~ msgid "Starts a random map."
+#~ msgstr "Aloittaa satunnaisen kentän."
+
+#~ msgid "Starts a random map with seed <seed>."
+#~ msgstr ""
+#~ "Käynnistää satunnaisen kentän käyttäen satunnaisgeneraattorin "
+#~ "siemenlukuna lukua <seed>."
+
+#~ msgid "Starts <scenario>. <scenario> is the scenarioname."
+#~ msgstr "Aloittaa <scenario>. <scenario> on kenttänimi."
+
+#~ msgid "Starts <campaign>. <campaign> is the campaign name."
+#~ msgstr "Aloittaa <campaign>. <campaign> on nimi."
+
+#~ msgid "Starts the development map without displaying the main menu."
+#~ msgstr "Aloittaa kehityskartan näyttämättä päävalikkoa."
+
+#~ msgid "Loads a saved game. <save> is the savegamename."
+#~ msgstr "Lataa tallennetun pelin. <save> on tallennusnimi."
+
+#~ msgid "Loads the last quicksave."
+#~ msgstr "Lataa viimeisimmän pikatallennuksen."
+
+#~ msgid "Development options"
+#~ msgstr "Kehitysasetukset"
+
+#~ msgid "Write debug output only to logfile, not to console. Implies -d."
+#~ msgstr ""
+#~ "Kirjoita debug-ulostulo vain lokitiedostoon, älä konsoliin. Olettaa "
+#~ "parametrin -d."
+
+#~ msgid "Enable logging for a certain logging module (for developing only)."
+#~ msgstr ""
+#~ "Ota käyttöön lokinkirjoittaminen tietylle lokimoduulille (vain "
+#~ "kehityskäyttöön)."
+
+#~ msgid "Writes log to <filename> instead of to the uh-userdir"
+#~ msgstr "Kirjoittaa lokia tiedostoon <filename> osoitteen uh-userdir sijasta"
+
+#~ msgid "For internal use only."
+#~ msgstr "Vain sisäiseen käyttöön."
+
+#~ msgid "Enable profiling (for developing only)."
+#~ msgstr "Ota käyttöön profilointi (vain kehityskäyttöön)."
+
+#~ msgid "Enable the string previewer tool for scenario writers"
+#~ msgstr ""
+#~ "Ota käyttöön kenttien kirjoittajille suunnattu merkkijonojen "
+#~ "esikatselutyökalu"
+
+#~ msgid "A new settlement has been created by ${player}."
+#~ msgstr "Pelaaja ${player} loi uuden siirtokunnan."
+
+#~ msgid "One of your settler has no main square in it's range."
+#~ msgstr "Joku uudisasukkaasi ei ole tarpeeksi lähellä keskustoria."
+
+#~ msgid "Some of your settlers just moved out."
+#~ msgstr "Jotkut uudisasukkaasi muuttivat juuri pois."
+
+#~ msgid "Your settlers reached level ${level}."
+#~ msgstr "Uudisasukkaasi saavuttivat tason ${level}."
+
+#~ msgid "Configured language %(lang)s at %(place)s could not be loaded"
+#~ msgstr ""
+#~ "Asetettu kieltä %(lang)s, sijainnissa %(place)s ei pystytä lataamaan."
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it's in the specified "
+#~ "range."
+#~ msgstr ""
+#~ "Tarkista valitsemasi portti ja varmista, että se kuuluu määritellylle "
+#~ "välille."
+
+#~ msgid "Failed to apply new network data."
+#~ msgstr "Virhe yritettäessä ottaa käyttöön verkkotietoja."
+
+#~ msgid "Networking couldn't be initialised with the current configuration."
+#~ msgstr "Verkkoa ei saatu otettua käyttöön näillä asetuksilla."
+
+#~ msgid "Check the data you entered in the Network section."
+#~ msgstr "Tarkista verkko-osioon kirjoittamasi tiedot."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special privileges, try one greater "
+#~ "than 1024 or 0."
+#~ msgstr ""
+#~ "Matalat porttinumerot tarvitsevat joskus erityisoikeuksia, yritäpä jotain "
+#~ "suurempaa kuin 1024 tai 0."
+
+#~ msgid "There are no saved games to load"
+#~ msgstr ""
+#~ "Et ole tallentanut vielä yhtäkään peliä. Aloita uusi peli napsauttamalla "
+#~ "\"Yksinpeli\" tai \"Moninpeli\"."
+
+#~ msgid ""
+#~ "A savegame with the name \"%s\" already exists. \n"
+#~ "Should i overwrite it?"
+#~ msgstr ""
+#~ "Tallennus nimellä \"%s\" on jo olemassa. \n"
+#~ "Tallennetaanko sen päälle?"
+
+#~ msgid "Saved at %(time)s"
+#~ msgstr "Tallennettu viimeksi %(time)s"
+
+#~ msgid "Saved %(amount)d time"
+#~ msgid_plural "Saved %(amount)d times"
+#~ msgstr[0] "Tallennettu %(amount)d kerran"
+#~ msgstr[1] "Tallennettu %(amount)d kertaa"
+
+#~ msgid "Savegame ver. %d"
+#~ msgstr "Tallennusversio %d"
+
+#~ msgid ""
+#~ "WARNING: Incompatible ver. %(ver)d!\n"
+#~ "Need ver. %(need)d!"
+#~ msgstr ""
+#~ "VAROITUS: Yhteensopimaton versio %(ver)d!\n"
+#~ "Vaaditaan versio %(need)d!"
+
+#~ msgid "INCOMPATIBLE VERSION\n"
+#~ msgstr "YHTEENSOPIMATON VERSIO\n"
+
+#~ msgid "You need to select a savegame to delete"
+#~ msgstr ""
+#~ "Valitse ensin poistettava pelitallennus napsauttamalla sitä ja yritä "
+#~ "uudelleen."
+
+#~ msgid "Do you really want to delete the savegame \"%s\"?"
+#~ msgstr "Haluatko varmasti poistaa tallennuksen \"%s\"?"
+
+#~ msgid ""
+#~ "Check the data you entered in the Network section in the settings "
+#~ "dialogue."
+#~ msgstr "Tarkista asetusten ikkunassa Verkko-osioon  kirjoittamasi tiedot."
+
+#~ msgid ""
+#~ "Could not connect to master server. Please check your Internet "
+#~ "connection. If it is fine, it means our master server is temporarily "
+#~ "down.\n"
+#~ "Details: %s"
+#~ msgstr ""
+#~ "Pääpalvelimeen ei voitu yhdistää. Ole hyvä ja tarkista Internet-"
+#~ "yhteytesi. Jos se on kunnossa, niin siinä tapauksessa pääpalvelimemme on "
+#~ "väliaikaisesti alhaalla.\n"
+#~ "Yksityiskohdat: %s"
+
+#~ msgid "Network Error"
+#~ msgstr "Verkkovirhe"
+
+#~ msgid "Map: "
+#~ msgstr "Kartta: "
+
+#~ msgid "Players: "
+#~ msgstr "Pelaajat: "
+
+#~ msgid "Creator: "
+#~ msgstr "Tekijä: "
+
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: %(gameversion)s Your "
+#~ "version: %(ownversion)s"
+#~ msgstr ""
+#~ "Pelin versio eroaa sinun versiostasi. Moninpelissä jokaisella pitää olla "
+#~ "sama versio. Ongelma poistuu, kunhan jokainen pelaaja päivittää oman "
+#~ "pelinsä viimeisimpään versioon. Pelin versio: %(gameversion)s Oma "
+#~ "versiosi: %(ownversion)s"
+
+#~ msgid "Difficulty: "
+#~ msgstr "Vaikeustaso: "
+
+#~ msgid "Author: "
+#~ msgstr "Tekijä: "
+
+#~ msgid "You entered an invalid playername"
+#~ msgstr "Antamasi pelaajanimi on virheellinen"
+
+#~ msgid "Ship inventory"
+#~ msgstr "Laivan tavaravalikko:"
+
+#~ msgid "Load/Unload:"
+#~ msgstr "Ota kyytiin/pois:"
+
+#~ msgid "Buy/Sell:"
+#~ msgstr "Osta/Myy:"
+
+#~ msgid "Trade ship"
+#~ msgstr "Kauppalaiva"
+
+#~ msgid "%(player)s's settlements"
+#~ msgstr "Pelaajan %(player)s siirtokunnat"
+
+#~ msgid "%(player)s's ships"
+#~ msgstr "Pelaajan %(player)s alukset"
+
+#~ msgid "Production overview of %(settlement)s"
+#~ msgstr "Siirtokunnassa %(settlement)s tuotetut resurssit"
+
+#~ msgid "String Previewer Tool for Scenario files"
+#~ msgstr "Merkkijonojen esikatselutyökalu kenttätiedostoille"
+
+#~ msgid ""
+#~ "select a scenario and click on load/reload to update the messages in the "
+#~ "captain's log"
+#~ msgstr ""
+#~ "Valitse kenttä ja paina lataa/uudelleenlataa päivittääksesi viestit "
+#~ "Kapteenin päiväkirjassa"
+
+#~ msgid "load/reload"
+#~ msgstr "lataa/uudelleenlataa"
+
+#~ msgid "Build menu"
+#~ msgstr "Rakennusvalikko"
+
+#~ msgid "Destroy"
+#~ msgstr "Tuhoa"
+
+#~ msgid "Game menu"
+#~ msgstr "Pelivalikko"
+
+#~ msgid "Captain's log"
+#~ msgstr "Kapteenin päiväkirja"
+
+#~ msgid "Rotate map counterclockwise"
+#~ msgstr "Käännä karttaa vastapäivään"
+
+#~ msgid "Rotate map clockwise"
+#~ msgstr "Käännä karttaa myötäpäivään"
+
+#~ msgid "capacity utilization"
+#~ msgstr "käyttöosuus"
+
+#~ msgid "Build settlement:"
+#~ msgstr "Rakenna asutuskeskus:"
+
+#~ msgid "Configure trading route:"
+#~ msgstr "Muuta kauppareittiä:"
+
+#~ msgid "Read prev. entries"
+#~ msgstr "Edellinen merkintä"
+
+#~ msgid "Show only games with the same version:"
+#~ msgstr "Näytä vain saman version pelit:"
+
+#~ msgid "Error: Cannot find map \"%s\"."
+#~ msgstr "Virhe: Kenttää \"%s\" ei löytynyt."
+
+#~ msgid "Error: Found multiple matches: "
+#~ msgstr "Virhe: Löydettiin useita: "
+
+#~ msgid "Error: Cannot find campaign \"%s\"."
+#~ msgstr "Virhe: Ei löydy kampanjaa \"%s\"."
+
+#~ msgid "Error: Cannot find savegame \"%s\"."
+#~ msgstr "Virhe: Ei löydetty tallennusta \"%s\"."
+
+#~ msgid "Error: don't know how to handle %(type)s condition type"
+#~ msgstr "Virhe: ei tietoa, kuinka käsitellä %(type)s ehtotyyppiä"
+
+#~ msgid "Error: Cannot find campaign with file \"%s\"."
+#~ msgstr "Virhe: Ei löydy kampanjaa tiedostolla \"%s\"."
+
+#~ msgid "Error: Cannot find scenario \"%s\"."
+#~ msgstr "Virhe: Tallennusta \"%s\" ei löytynyt."
+
+#~ msgid "You have completed this scenario. "
+#~ msgstr "Olet tämän tämän kentän.  "
+
+#~ msgid "Trade route: going to %s"
+#~ msgstr "Kauppareitti: menossa kohteeseen %s"
+
+#~ msgid "Saved at %s"
+#~ msgstr "Tallennettu %s"
+
+#~ msgid "Unknown savedate\n"
+#~ msgstr "Tuntematon tallennuspäivä\n"
+
+#~ msgid "Saved at %s\n"
+#~ msgstr "Tallennettu %s\n"
+
+#~ msgid "Something went wrong with the network: "
+#~ msgstr "Jotakin meni pieleen verkon kanssa: "
+
+#~ msgid ""
+#~ "The selected file is not a valid scenario file.\n"
+#~ "Error message: "
+#~ msgstr ""
+#~ "Valittu tiedosto ei ole käypä kenttätiedosto.\n"
+#~ "Virhesanoma: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Please report this to the author."
+#~ msgstr ""
+#~ "\n"
+#~ "Ole hyvä ja ilmoita tästä tekijälle."
+
+#~ msgid "Fishing boat"
+#~ msgstr "Kalastusvene"
+
+#~ msgid "Fishing boats"
+#~ msgstr "Kalastusveneet"
+
+#~ msgid "Cutter"
+#~ msgstr "Leikkaaja"
+
+#~ msgid "Herring fisher"
+#~ msgstr "Sillien kalastaja"
+
+#~ msgid "Not yet implemented!"
+#~ msgstr "Ei vielä toteutettu!"
+
+#~ msgid "Legend:"
+#~ msgstr "Legenda:"
+
+#~ msgid "%H:%M, %A, %B %d"
+#~ msgstr "%H:%M, %A, %B %d"
+
+#~ msgid "Hit P to continue the game or click below!"
+#~ msgstr "Paina P:tä jatkaaksesi peliä tai paina alta!"
+
+#~ msgid "Networking isn't initialised"
+#~ msgstr "Verkkoa ei ole alustettu"
+
+#~ msgid ""
+#~ "Networking isn't initialised, probably because of configuration issues. "
+#~ "Check your settings!"
+#~ msgstr ""
+#~ "Verkkoa ei ole alustettu johtuen todennäköisesti asetuksista. Tarkista "
+#~ "asetuksesi!"
+
+#~ msgid "One of your settler has no market place in it's range."
+#~ msgstr "Yksi uudisasukkaistasi ei ole kauppapaikan kantamassa."
+
+#~ msgid "YOU HAVE WON!!!"
+#~ msgstr "OLET VOITTANUT!"
+
+#~ msgid "raw clay"
+#~ msgstr "raakasavea"
+
+#~ msgid "raw iron"
+#~ msgstr "raakarautaa"
+
+#~ msgid "raw sugar"
+#~ msgstr "raakasokeria"
+
+#~ msgid "Unknown Horizons Version %s"
+#~ msgstr "Unknown Horizons Versio %s"
+
+#~ msgid "Tax Rate"
+#~ msgstr "Veroprosentti"
+
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: unknown-"
+#~ "horizons.org/support"
+#~ msgstr ""
+#~ "Jos tämä virhe toistuu, pyydämme ottamaan yhteyttä kehitysryhmään: "
+#~ "unknown-horizons.org/support"
+
+#~ msgid "Failed to load FIFE:"
+#~ msgstr "FIFE-moottorin lataaminen ei onnistunut:"
+
+#~ msgid "Tent_ruin"
+#~ msgstr "Teltan_riekaleet"
+
+#~ msgid "wild animal food 1"
+#~ msgstr "villieläinruoka 1"
+
+#~ msgid "wild animal meat"
+#~ msgstr "villieläinten lihaa"

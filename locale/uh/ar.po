@@ -1,0 +1,3460 @@
+# Arabic translations for Unknown Horizons package.
+# Copyright (C) 2017 The Unknown Horizons Team
+# This file is distributed under the same license as the Unknown Horizons package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Unknown Horizons 2017.2-731-g533abe7eb\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2021-10-04 10:35+0000\n"
+"Last-Translator: abidin toumi <abidin24@disroot.org>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/uh/uh/ar/>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.9-dev\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "تاريخ حفظ غير معروف"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "تاريخ حفظ غير معروف"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+msgid "Descriptive Label:"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "المباني"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "مجهول"
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "تاريخ حفظ غير معروف"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "اللعب الفردي"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "تحميل اللعبة"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr "الحقوق"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr "المُعدل"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Quit"
+msgstr "خروج"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Help"
+msgstr "مساعدة"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Options"
+msgstr "الأعمال"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "لعبة جديدة - اللعب الفردي"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Scenario"
+msgstr "السيناريو"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Random map"
+msgstr "خريطة عشوائية"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Free play"
+msgstr "لعب حر"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "تاريخ حفظ غير معروف"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Color:"
+msgstr "اللون:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "AI players:"
+msgstr "لاعبي ااذكاء الأصطناعي:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "إختر خريطة للعب:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "العدد المُفضل من اللاعبين: {number}"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Game settings:"
+msgstr "إعدادات اللعبة:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "وفرة الموارد:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "تاجر حر"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Pirates"
+msgstr "قراصنة"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr "الكوارث"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Saving"
+msgstr "يحفظ"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr "العام"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "حدد اللغة:"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Mouse"
+msgstr "الماوس"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Graphics"
+msgstr "الجرافيك"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Sound"
+msgstr "الصوت"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr "الإختصارات"
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "الأحصائيات"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Players"
+msgstr "اللأعيبين"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My ships"
+msgstr "سُفني"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My settlements"
+msgstr "مستعمراتي"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Player scores"
+msgstr "درجات اللاعب"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Name"
+msgstr "الأسم"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Money"
+msgstr "النقود"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Land"
+msgstr "أرض"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Resources"
+msgstr "الموارد"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Buildings"
+msgstr "المباني"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlers"
+msgstr "الإستيطان"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Units"
+msgstr "الوحدات"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Total"
+msgstr "المجموع"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "140"
+msgstr "14طن"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "104"
+msgstr "14طن"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "InventoryTab"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Limit: 30t per slot"
+msgstr "الحد: {amount} للخانة"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "بيع/شراء"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr "سيشتري {resource_name} يـ{price} ذهب اذا قل المخزون عن {limit}."
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Trade history"
+msgstr "تاريخ التجارة"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Free Trader"
+msgstr "تاجر حر"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "نظرة عامة علي الإنتاج"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "تاريخ حفظ غير معروف"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "تاجر"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "LumberjackOverviewTab"
+msgstr "خيمة حطاب"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr "مستعمرة"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr "بنية تحتية"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr "سكني"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr "خدمات"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr "احتياط"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "حقول"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Pioneers"
+msgstr "الرواد"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Citizens"
+msgstr "مواطنون"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr "زراعة"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr "بحر"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr "غذاء"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr "ورش عمل"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr "شركات"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr "خشب"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Mining"
+msgstr "تنقيب"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr "تحصينات"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr "الخدمة العسكرية"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sailors"
+msgstr "بحارة"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "السكان والبنية التحتية"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military"
+msgstr "جيش"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Merchants"
+msgstr "تجار"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "Game Speed Up"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "Game Speed Down"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "الحساب"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr "الدخل:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr "الضرائب"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Sale"
+msgstr "المبيعات"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Expenses:"
+msgstr "الإنفاق:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Running costs"
+msgstr "تكاليف التشغيل"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Buying"
+msgstr "يشتري"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Balance"
+msgstr "الرصيد"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Upgrade permissions:"
+msgstr "أذون التطوير:"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr "السعادة لكل منزل"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents per house"
+msgstr "المواطنين بكل منزل"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr "عدد السكان لكل منزل"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr "المنازل بهذا العدد من الناس"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Summary"
+msgstr "الملخص"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "منزل"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents"
+msgstr "المواطنين"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "نظرة عامة على المستوطن"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Tent"
+msgstr "خيمة"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Needed resources:"
+msgstr "الموارد المُحتاجة:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr "الضرائب:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Paid taxes"
+msgstr "الضرائب المدفوعة"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Tax rate"
+msgstr "معدل الضريبة"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr "تربية النحل. تنتج العسل المستخدم في صناعة الحلويات. يحتاج إلى مزرعة."
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "تستهلك الطحين. تنتج الغذاء."
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+#, fuzzy
+msgid "_ Recruits units suitable for ground combat."
+msgstr "تجنيد القوات المناسبة للعمليات البرية."
+
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "توفير الأمن."
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "ينتج البهارات من التوابل."
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "يبني القوارب والسفن الصغيرة. يبنى على الساحل."
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "يستهلك الجنجل. ينتج الجعة."
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "يحول الطين الى طوب."
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "يحتاج الى الماشية. ينتج الغذاء."
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "ينتج مدافع."
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "تربية الماشية. تحتاح الى مزرعة."
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+#, fuzzy
+msgid "_ Burns a lot of boards."
+msgstr "يحرق الكثير من الالواح."
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+msgid "None"
+msgstr "لا شيء"
+
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "استخراج الطين من الرواسب ."
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr "ينتج حبوب الكاكاو المستخدمة في صناعة الحلويات. يحتاج إلى مزرعة."
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "محاصيل الذرة.تحتاج الى مزرعة."
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "يحول السكر الى شراب."
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+#, fuzzy
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr "يعالج الامراض. يستهلك الأعشاب."
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "يزرع المحاصيل ويربي الماشية."
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+#, fuzzy
+msgid "_ Extinguishes fires."
+msgstr "إخماد الحريق."
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "يصطاد السمك.ينتج الغذاء."
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "ينتج الأعشاب. يحتاج إلى مزرعة."
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "محاصيل جلجل.يحتاج الى مزرعة."
+
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "يصطاد الحيوانات البرية.ينتج الغذاء."
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "يوسع نطاق المستعمرة."
+
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "يقطع الأشجار ويحولها إلى ألواح."
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+#, fuzzy
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr "يزود المواطنين بالبضاعة. يوفر مجتمع."
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "يستخرج خام الحديد من الرواسب."
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "ينتج جميع أنواع الحلويات."
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "تربية الأغنام. تنتج الصوف. تحتاح الى مزرعة."
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "يلبي الاحتياجات الدينية للبحارة."
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "تربية الحيوانات. تحتاج الى مزرعة."
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "محاصيل طعام. تحتاج الى مزرععة."
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "يوفر سكن للمواطنيك."
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "يبخر الماء لاستخراج الملح.يبنى على ساحل البحر."
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "يسمح للاعب بالتداول مع التاجر الحر."
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "تكرير كل أنواع الخامات."
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "زراعة التوابل.يحتاج الى مزرعة."
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "تحويل الحجارة الى طوب."
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "يحصل على الحجارة من الجبل."
+
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr "يزيد سعة التخزين، يوسع المستعمرة ويوفر الجامعين."
+
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "يستخدم في إنتاج الشراب. يحتاج إلى مزرعة."
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "يوفر مجالس."
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "ينتج السجائر من التبغ."
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "ينتج التبغ. يحتاج إلى مزرعة."
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "ينتج الادوات من الحديد."
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "يلزم لجمع البضائع."
+
+#: Assets/World/Buildings2/tree/tree.tscn
+#, fuzzy
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr "يوفر الخشب.يقطع بواسطة حطاب."
+
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "توفر التعليم."
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr "ينتج العنب للاستخدام في الحلويات. يحتاج إلى مزرعة."
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "يحول الحديد الى أسلحة."
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "يحول الصوف الى ملابس."
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "تطحن الذرة."
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "ينتج الشراب من العنب."
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "يدافع عن المستعمرة."
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "تحطمت Unknown Horizons."
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "شكراً لك لإستخدام \"Unknown Horizons\"!"
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr "نحن آسفون جداً على حصول هذا ونود إصلاح هذا الخطأ الحاصل."
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr "لكي يحدث هذا، نحن نحتاج للمعلومات من ملف السجل:"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "من فضلك أرسله لنا عن طريق بروتوكول الدردشة عبر الإنترنت أو منتدايتنا، "
+#~ "للأثنين أنظر http://unknown-horizons.org ."
+
+#~ msgid "Return to editor"
+#~ msgstr "ارجع إلي المُعدل"
+
+#~ msgid "Save map"
+#~ msgstr "احفظ الخريطة"
+
+#~ msgid "Load map"
+#~ msgstr "تحميل الخريطة"
+
+#~ msgid "Settings"
+#~ msgstr "الإعدادات"
+
+#~ msgid "Exit editor"
+#~ msgstr "اخرج من المُعدل"
+
+#~ msgid "Select brush size:"
+#~ msgstr "اختر حجم الفرشاة:"
+
+#~ msgid "Select terrain:"
+#~ msgstr "اختر التربة:"
+
+#~ msgid "(right click to stop)"
+#~ msgstr "(اضغط بزر الفأرة اليمين لتتوقف)"
+
+#~ msgid "Game start"
+#~ msgstr "إبدأ اللعبة"
+
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr "يجب عليك إيجاد مستعمرة قبل بناء المباني!"
+
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr "حدد سفينتك واقترب من الشاطئ عن طريق زر الفأرة الأيمن."
+
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr "بعد ذلك، إضغط علي الزر الكبير في تبويب معلومات السفينة."
+
+#~ msgid "Build"
+#~ msgstr "بناء"
+
+#~ msgid "Running costs:"
+#~ msgstr "تكلفة التشغيل:"
+
+#~ msgid "Related buildings"
+#~ msgstr "المباني ذات الصلة"
+
+#~ msgid "Inhabitants"
+#~ msgstr "السكان"
+
+#, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr "زيادة سرعة اللعبة ({key})"
+
+#, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr "تقليل سرعة اللعبة ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map counterclockwise ({key})"
+#~ msgstr "أدر الخريطة بعكس عقارب الساعة ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map clockwise ({key})"
+#~ msgstr "أدر الخريطة بأتجاه عقارب الساعة ({key})"
+
+#~ msgid "Zoom in"
+#~ msgstr "تقريب"
+
+#~ msgid "Zoom out"
+#~ msgstr "تبعيد"
+
+#, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "تدمير ({key})"
+
+#, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "سجل الكابتن ({key})"
+
+#, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "قائمة البناء ({key})"
+
+#~ msgid "Diplomacy"
+#~ msgstr "الديبلوماسية"
+
+#, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "قائمة اللعبة ({key})"
+
+#~ msgid "Change name"
+#~ msgstr "تغيير الأسم"
+
+#~ msgid "Old name:"
+#~ msgstr "الأسم القديم:"
+
+#~ msgid "Enter new name:"
+#~ msgstr "ادخل الأسم الجديد:"
+
+#~ msgid "Apply the new name"
+#~ msgstr "تطبيق الأسم الجديد"
+
+#~ msgid "Chat"
+#~ msgstr "الشات"
+
+#~ msgid "Enter your message:"
+#~ msgstr "ادخل رسالتك:"
+
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr ""
+#~ "لكي تبني وحدة أرضية، إضغط على إحدى تبويبات الفصول، إختر الوحدة الأرضية "
+#~ "المرادة وأكد الأمر."
+
+#~ msgid "Currently building:"
+#~ msgstr "يُبني حالياً:"
+
+#~ msgid "Pause"
+#~ msgstr "توقف مؤقت"
+
+#~ msgid "Resume"
+#~ msgstr "اكمال البناء"
+
+#~ msgid "Construction progress:"
+#~ msgstr "تقدم البناء:"
+
+#~ msgid "Resources still needed:"
+#~ msgstr "مازال يحتاج للموارد الآتية:"
+
+#~ msgid "Cancel building:"
+#~ msgstr "إلغاء البناء:"
+
+#~ msgid "(lose all resources)"
+#~ msgstr "(خسارة كل الموارد)"
+
+#~ msgid "Cancel all building progress"
+#~ msgstr "إلغاء كل عمليات البناء الجارية"
+
+#~ msgid "Confirm order"
+#~ msgstr "أكد الأمر"
+
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "(مثل ما في تبويبات التحديد)"
+
+#~ msgid "$res"
+#~ msgstr "$res"
+
+#~ msgid "24t"
+#~ msgstr "24طن"
+
+#~ msgid "06t"
+#~ msgstr "06طن"
+
+#~ msgid "2500"
+#~ msgstr "2500"
+
+#~ msgid "Sloop-o'-war"
+#~ msgstr "سلوب الحرب"
+
+#~ msgid "Three-masted most common classified war ship with one gun deck."
+#~ msgstr "سفينة حربية عامة ذات ثلاث سواري مع منصة مدفع واحدة."
+
+#~ msgid "Buy Upgrades"
+#~ msgstr "إشتر تطويرات"
+
+#~ msgid "Cannons"
+#~ msgstr "مدافع"
+
+#~ msgid "Hull"
+#~ msgstr "بدن السفينة"
+
+#~ msgid "+ 24t"
+#~ msgstr "+ 24طن"
+
+#~ msgid "+ 14t"
+#~ msgstr "+ 14طن"
+
+#~ msgid "+ 06t"
+#~ msgstr "+ 06طن"
+
+#~ msgid "+ 1457"
+#~ msgstr "+ 1457"
+
+#~ msgid "Build groundunit:"
+#~ msgstr "بناء وحدة أرضية:"
+
+#~ msgid "Build this groundunit!"
+#~ msgstr "بناء تلك الوحدة الأرضية!"
+
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "لكي تبني قارب إضغط علي إحدي تبويبات الفصول، حدد السفينة المرادة وأكد "
+#~ "الأمر."
+
+#~ msgid "Build ship:"
+#~ msgstr "بناء السفينة:"
+
+#~ msgid "Build this ship!"
+#~ msgstr "بناء هذه السفينة!"
+
+#~ msgid "ally"
+#~ msgstr "حليف"
+
+#~ msgid "neutral"
+#~ msgstr "محايد"
+
+#~ msgid "enemy"
+#~ msgstr "عدو"
+
+#~ msgid "Building overview"
+#~ msgstr "نظرة عامة للبناء"
+
+#~ msgid "Capacity utilization"
+#~ msgstr "استغلال القدرة"
+
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "اضغط لكي تغيير أسم هذه الوحدة الأرضية"
+
+#~ msgid "Settlement inventory"
+#~ msgstr "خزانة المستعمرة"
+
+#~ msgid "sad"
+#~ msgstr "حزين"
+
+#~ msgid "satisfied"
+#~ msgstr "راضي"
+
+#~ msgid "happy"
+#~ msgstr "سعيد"
+
+#~ msgid "Amount of houses with this happiness"
+#~ msgstr "كمية المنازل بهذه السعادة"
+
+#~ msgid "houses"
+#~ msgstr "المنازل"
+
+#~ msgid "residents"
+#~ msgstr "المواطنين"
+
+#~ msgid "Provides security for your settlement."
+#~ msgstr "وفر الأمان لمستعمرتك."
+
+#~ msgid "Selling"
+#~ msgstr "يبيع"
+
+#~ msgid "Name:"
+#~ msgstr "الأسم:"
+
+#~ msgid "Weapons:"
+#~ msgstr "الأسلحة:"
+
+#~ msgid "Resource deposit"
+#~ msgstr "مخزن الموارد"
+
+#~ msgid ""
+#~ "This is a resource deposit where you can build a mine to dig up resources."
+#~ msgstr "هذا هو مخزن الموارد حيث يمكنك بناء منجم لكي تنقب عن الموارد."
+
+#~ msgid "It contains these resources:"
+#~ msgstr "يحتوي علي هذه الموارد:"
+
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "اضغط لكي تغيير أسم المستعمرة"
+
+#~ msgid "Happiness"
+#~ msgstr "السعادة"
+
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr ""
+#~ "اشارة النار تُري التاجر الحر كيفية الوصول لمستعمرتك في حالة إذا أردت أن "
+#~ "تشتري أو تبيع البضائع."
+
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr ""
+#~ "هذه سفينة التاجر الحر. هو سوف يزورك من وقت للأخر لكي يبيع ويشتري البضائع."
+
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "اضغط لكي تغيير أسم هذه السفينة"
+
+#~ msgid "Build settlement"
+#~ msgstr "ابني مستعمرة"
+
+#~ msgid "Configure trading route"
+#~ msgstr "اضبط طريق التجارة"
+
+#~ msgid "Discard all resources"
+#~ msgstr "تخلص من كل الموارد"
+
+#~ msgid "Ship:"
+#~ msgstr "السفينة:"
+
+#~ msgid "Exchange:"
+#~ msgstr "تبادل:"
+
+#~ msgid "Trade partner:"
+#~ msgstr "زميل التجارة:"
+
+#~ msgid "Buy or sell resources"
+#~ msgstr "قم بشراء أو بيع الموارد"
+
+#~ msgid "Select resources:"
+#~ msgstr "حدد الموارد:"
+
+#~ msgid "Collector utilization"
+#~ msgstr "إنشغال الجامعين"
+
+#~ msgid "Balance:"
+#~ msgstr "الميزانية:"
+
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "اظهر الموارد المُنتجة في المستعمرة"
+
+#~ msgid "Pause production"
+#~ msgstr "اوقف الإنتاج مؤقتاً"
+
+#~ msgid "Start production"
+#~ msgstr "ابدء الإنتاج"
+
+#~ msgid "Select resource:"
+#~ msgstr "حدد المورد:"
+
+#~ msgid ""
+#~ "The resource you select is displayed instead of the current one. Empty by "
+#~ "clicking on X."
+#~ msgstr "المورد الذي حددته هو الظاهر بدلاً من الحالي. لكى تفرغة أضغط علي X."
+
+#~ msgid "Save current resource configuration as default for all settlements."
+#~ msgstr "احفظ إعدادات المورد الحالي كأفتراضي لكل المستعمرات."
+
+#~ msgid "Reset default resource configuration for all settlements."
+#~ msgstr "ارجع إعدادات المورد للإفتراضي في كل المستعمرات."
+
+#~ msgid "Move up"
+#~ msgstr "تحريك للأعلي"
+
+#~ msgid "Delete entry"
+#~ msgstr "مسح المدخلة"
+
+#~ msgid "Move down"
+#~ msgstr "تحريك للأسفل"
+
+#~ msgid "Read previous entries"
+#~ msgstr "اقرء المدخلات السابقة"
+
+#~ msgid "Read next entries"
+#~ msgstr "اقرء المدخلات التالية"
+
+#~ msgid "Game messages"
+#~ msgstr "رسائل اللعبة"
+
+#~ msgid "Whole world"
+#~ msgstr "كل شئ"
+
+#~ msgid "Everybody"
+#~ msgstr "كل الأشخاص"
+
+#~ msgid "Sends the chat messages to all players."
+#~ msgstr "إرسال رسائل الشات لكل اللاعبين."
+
+#~ msgid "Enter your message here"
+#~ msgstr "أدخل رسالتك هنا"
+
+#~ msgid "Return to game"
+#~ msgstr "ارجع إلي اللعبة"
+
+#~ msgid "Island Name:"
+#~ msgstr "اسم الجزيرة:"
+
+#~ msgid "Player Name:"
+#~ msgstr "اسم اللاعب:"
+
+#~ msgid "Wait at load:"
+#~ msgstr "انتظر للتحميل:"
+
+#~ msgid "Wait at unload:"
+#~ msgstr "انتظر للتنزيل:"
+
+#~ msgid "Select a resource:"
+#~ msgstr "حدد مورد:"
+
+#~ msgid "Route activity:"
+#~ msgstr "نشاط الطريق:"
+
+#~ msgid "Start route"
+#~ msgstr "بدء الطريق"
+
+#~ msgid "Exit"
+#~ msgstr "خروج"
+
+#~ msgid "Go to previous page"
+#~ msgstr "إذهب إلي الصفحة السابقة"
+
+#~ msgid "Go to next page"
+#~ msgstr "إذهب إلي الصفحة التالية"
+
+#~ msgid "Close"
+#~ msgstr "إغلاق"
+
+#~ msgid "Player Name"
+#~ msgstr "إسم اللاعب"
+
+#~ msgid "Player's current treasury + income expected in near future"
+#~ msgstr "خزانة اللاعب الحالية + الدخل المتوقع في المستقبل القريب"
+
+#~ msgid ""
+#~ "Value of usable land i.e Amount of Land that can be used to create "
+#~ "buildings"
+#~ msgstr ""
+#~ "قيمة الأرض القابلة للإستعمال مثال كمية الأرض التي يمكن إستخدامها في بناء "
+#~ "المباني"
+
+#~ msgid ""
+#~ "Value of resources generated from all the possible sources in the "
+#~ "player's settlement(s)"
+#~ msgstr ""
+#~ "قيمة كل الموارد المُنتجة من كل المصادر المحتملة في مستعمرة/مستعمرات اللاعب"
+
+#~ msgid "Value of all the buildings in the player's settlement(s)"
+#~ msgstr "قيمة كل المباني في مستعمرة/مستعمرات اللاعب"
+
+#~ msgid ""
+#~ "Value denoting the progress of the settlement(s) in terms of inhabitants, "
+#~ "buildings and overall happiness"
+#~ msgstr ""
+#~ "القيمة التي تدل علي تقدم المستعمرة/المستعمرات من ناحية المواطنين، المباني "
+#~ "و السعادة الكلية"
+
+#~ msgid "Value of all the units owned by the player"
+#~ msgstr "قيمة كل الوحدات المملوكة لللاعب"
+
+#~ msgid ""
+#~ "The total value from all individual entities or in short : Total Player "
+#~ "Score"
+#~ msgstr "القيمة الكلية من كل الجهات أو بأختصار: درجة اللاعب الكلية"
+
+#~ msgid "Type"
+#~ msgstr "النوع"
+
+#~ msgid "Weapons"
+#~ msgstr "الأسلحة"
+
+#~ msgid "Health"
+#~ msgstr "الصحة"
+
+#~ msgid "Status"
+#~ msgstr "الحالة"
+
+#~ msgid "Aggressive"
+#~ msgstr "عدائية"
+
+#~ msgid "Hold ground"
+#~ msgstr "إحمي المنطقة"
+
+#~ msgid "Passive"
+#~ msgstr "سلبي"
+
+#~ msgid "Flee"
+#~ msgstr "هروب"
+
+#~ msgid "Exit to main menu"
+#~ msgstr "خروج إلي القائمة الرئيسية"
+
+#~ msgid "Choose a map size:"
+#~ msgstr "إختر حجم الخريطة:"
+
+#~ msgid "Choose a map:"
+#~ msgstr "إختر الخريطة:"
+
+#~ msgid "Choose a saved game's map:"
+#~ msgstr "إختر خريطة لعبة محفوظة:"
+
+#~ msgid "Select map source"
+#~ msgstr "حدد مصدر الخريطة"
+
+#~ msgid "Create new map"
+#~ msgstr "إصنع خريطة جديدة"
+
+#~ msgid "Load existing map"
+#~ msgstr "تحميل خريطة موجودة بالفعل"
+
+#~ msgid "Load saved game's map"
+#~ msgstr "تحميل خريطة لعبة محفوظة"
+
+#~ msgid "Start editor"
+#~ msgstr "إبدء المُعدل"
+
+#~ msgid "Return"
+#~ msgstr "رجوع"
+
+#~ msgid "Scroll left"
+#~ msgstr "تمرير لليسار"
+
+#~ msgid "Scroll right"
+#~ msgstr "تمرير لليمين"
+
+#~ msgid "Scroll up"
+#~ msgstr "تمرير للأعلي"
+
+#~ msgid "Scroll down"
+#~ msgstr "تمرير للأسفل"
+
+#~ msgid "Rotate building or map clockwise"
+#~ msgstr "دور المبني أو الخريطة مع عقارب الساعة"
+
+#~ msgid "Rotate building or map counterclockwise"
+#~ msgstr "دور المبني أو الخريطة ضد عقارب الساعة"
+
+#~ msgid "Increase game speed"
+#~ msgstr "زيادة سرعة اللعبة"
+
+#~ msgid "Decrease game speed"
+#~ msgstr "تقليل سرعة اللعبة"
+
+#~ msgid "Pause game"
+#~ msgstr "إيقاف اللعبة مؤقتاً"
+
+#~ msgid "Show build menu"
+#~ msgstr "أظهر قائمة البناء"
+
+#~ msgid "Enable destruct mode"
+#~ msgstr "تفعيل وضع التدمير"
+
+#~ msgid "Enable road building mode"
+#~ msgstr "تفعيل وضع بناء الطرق"
+
+#~ msgid "Enable pipette mode (clone buildings)"
+#~ msgstr "تفعيل وضع الماصة (نسخ المباني)"
+
+#~ msgid "Show player scores"
+#~ msgstr "أظهر درجة اللاعب"
+
+#~ msgid "Show settlement list"
+#~ msgstr "أظهر قائمة المستعمرات"
+
+#~ msgid "Show ship list"
+#~ msgstr "أظهر قائمة السفن"
+
+#~ msgid "Toggle Captain's log"
+#~ msgstr "تبديل سجل الكابتن"
+
+#~ msgid "Quicksave"
+#~ msgstr "حفظ سريع"
+
+#~ msgid "Quickload"
+#~ msgstr "تحميل سريع"
+
+#~ msgid "Toggle translucency of ambient buildings"
+#~ msgstr "تفعيل/إلغاء تفعيل شفافية المباني المُحاطة"
+
+#~ msgid "Highlight tile ownership"
+#~ msgstr "تسليط الضوء علي مالك المنطقة"
+
+#~ msgid "Toggle health bars"
+#~ msgstr "أظهر شريط الصحة"
+
+#~ msgid "Focus camera on selection"
+#~ msgstr "ركز الكاميرا علي المُحدد"
+
+#~ msgid "Remove selected units / buildings"
+#~ msgstr "إمسح الوحدات/المباني المحددة"
+
+#~ msgid "Display help"
+#~ msgstr "إعرض المساعدة"
+
+#~ msgid "Screenshot"
+#~ msgstr "لقطة شاشة"
+
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "أظهر/أخفي الـ FPS"
+
+#~ msgid "Toggle grid on/off"
+#~ msgstr "أظهر/أخفي الشبكة"
+
+#~ msgid "Show coordinate values (Debug)"
+#~ msgstr "أظهر قيم التنسيق (تصحيح)"
+
+#~ msgid "Primary"
+#~ msgstr "الأساسي"
+
+#~ msgid "Secondary"
+#~ msgstr "الثانوي"
+
+#~ msgid "Reset to default"
+#~ msgstr "إرجاع إلي الإفتراضي"
+
+#~ msgid "Reset to default keys"
+#~ msgstr "إرجاع إلي المفاتيح الإفتراضية"
+
+#~ msgid "Save game"
+#~ msgstr "حفظ اللعبة"
+
+#~ msgid "Cancel game"
+#~ msgstr "إلغاء اللعبة"
+
+#~ msgid "Loading…"
+#~ msgstr "تحميل…"
+
+#~ msgid "Change Background"
+#~ msgstr "تغيير الخلفية"
+
+#~ msgid "Multiplayer"
+#~ msgstr "اللعب الجماعي"
+
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "إصنع لعبة - اللعب الجماعي"
+
+#~ msgid "Player limit:"
+#~ msgstr "حد اللاعبيين:"
+
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "أخرج إلي قائمة اللعب الجماعي"
+
+#~ msgid "Name of the game:"
+#~ msgstr "إسم اللعبة:"
+
+#~ msgid "This will be displayed to other players so they recognize the game."
+#~ msgstr "هذا سوف يظهر لللاعبيين الأخرين لكي يستطيعوا تمييز اللعبة."
+
+#~ msgid "Unnamed Game"
+#~ msgstr "لعبة غير مسماة"
+
+#~ msgid "Password of the game:"
+#~ msgstr "باسوررد اللعبة:"
+
+#~ msgid "This game's password. Required to join this game."
+#~ msgstr "باسوررد اللعبة. مطلوب للدخول لهذه اللعبة."
+
+#~ msgid "Create this new game"
+#~ msgstr "إصنع هذه اللعبة الجديدة"
+
+#~ msgid "Gamelobby"
+#~ msgstr "ردهة اللعبة"
+
+#~ msgid "Chat:"
+#~ msgstr "الشات:"
+
+#~ msgid "Exit gamelobby"
+#~ msgstr "أخرج من ردهة اللعبة"
+
+#~ msgid "The game will start as soon as all players are ready."
+#~ msgstr "اللعبة سوف تبدأ حالما يكون كل اللاعبين جاهزين."
+
+#~ msgid "Game details:"
+#~ msgstr "تفاصيل اللعبة:"
+
+#~ msgid "Color"
+#~ msgstr "اللون"
+
+#~ msgid "Ready:"
+#~ msgstr "جاهز:"
+
+#~ msgid "Sets your state to ready (necessary for the game to start)"
+#~ msgstr "ضع حالتك بأنك جاهز (ضروري لكي تبدأ اللعبة)"
+
+#~ msgid "New game - Multiplayer"
+#~ msgstr "لعبة جديدة - جماعية"
+
+#~ msgid "Load game:"
+#~ msgstr "تحميل لعبة:"
+
+#~ msgid "Load a saved game"
+#~ msgstr "تحميل لعبة محفوظة"
+
+#~ msgid "Active games:"
+#~ msgstr "الألعاب المُفعلة:"
+
+#~ msgid "Refresh list:"
+#~ msgstr "تحديث القائمة:"
+
+#~ msgid "Refresh list of active games"
+#~ msgstr "تحديث القائمة للألعاب المُفعلة"
+
+#~ msgid "Create game:"
+#~ msgstr "إصنع لعبة:"
+
+#~ msgid "Create a new game"
+#~ msgstr "إصنع لعبة جديدة"
+
+#~ msgid "Join game:"
+#~ msgstr "إنضم للعبة:"
+
+#~ msgid "Join the selected game"
+#~ msgstr "إنضم للعبة المُحددة"
+
+#~ msgid "Change player details"
+#~ msgstr "تغيير تفاصيل اللاعب"
+
+#~ msgid "Screen resolution:"
+#~ msgstr "حجم الشاشة:"
+
+#~ msgid "Full screen:"
+#~ msgstr "الشاشة الكاملة:"
+
+#~ msgid "Frame rate limit:"
+#~ msgstr "حد الإطارات في الثانية (FPS):"
+
+#~ msgid "Set the maximum frame rate used. Default: 60 fps."
+#~ msgstr "حدد حد الإطارات في الثانية المُستخدم. الإفتراضي: 60 فريم."
+
+#~ msgid "Music volume:"
+#~ msgstr "حجم الموسيقي:"
+
+#~ msgid "Effects volume:"
+#~ msgstr "حجم الموثرات الصوتية:"
+
+#~ msgid "Enable sound:"
+#~ msgstr "تفعيل الصوت:"
+
+#~ msgid "Scroll at map edge:"
+#~ msgstr "التمرير في حافة الخريطة:"
+
+#~ msgid ""
+#~ "Whether to move the viewport when the mouse pointer is close to map edges"
+#~ msgstr "سواء تحريك شاشة العرض حينما يكون مؤشر الماوس قريباً من حدود الخريطة"
+
+#~ msgid "Cursor centered zoom:"
+#~ msgstr "تكبير علي مركز مؤشر الماوس:"
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center. When disabled, always zoom to current viewport center."
+#~ msgstr ""
+#~ "حينما يكون مفعلاً، سوف يتم إستخدام مؤشر الماوس عل أنه مركز التكبير الجديد. "
+#~ "حينما يكون معطلاً، دائماً يتم التكبير في مركز المشهد الحالي."
+
+#~ msgid "Middle mouse button pan:"
+#~ msgstr "تعيق زر الماوس الأوسط:"
+
+#~ msgid "When enabled, dragging the middle mouse button will pan the camera"
+#~ msgstr "حينما يكون مفعل، سحب زر الفأرة الأوسط سوف يعلق الكاميرا"
+
+#~ msgid "0 is default system settings"
+#~ msgstr "0 هي الإعدادات الإفتراضية للنظام"
+
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "حساسية الفأرة:"
+
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "فواصل الحفظ التلقائي في الدقائق:"
+
+#~ msgid "Number of autosaves:"
+#~ msgstr "عدد الحفظ التلقائي:"
+
+#~ msgid "Number of quicksaves:"
+#~ msgstr "عدد الحفظ السريع:"
+
+#~ msgid "Language"
+#~ msgstr "اللغة"
+
+#~ msgid "Rotate minimap with map:"
+#~ msgstr "تدوير الخريطة المصغرة مع الخريطة:"
+
+#~ msgid ""
+#~ "Whether to also rotate the minimap whenever the regular map is rotated"
+#~ msgstr "هل يتم تدوير الخريطة المصغرة حينما يتم تدوير الخريطة العادية"
+
+#~ msgid "Uninterrupted building:"
+#~ msgstr "بناء متواصل:"
+
+#~ msgid ""
+#~ "When enabled, do not exit the build mode after successful construction"
+#~ msgstr "حينما يكون مُفعل، لا تخرج من وضع البناء بعد البناء الناجح"
+
+#~ msgid "Auto-unload ship:"
+#~ msgstr "إخلاء تلقائي للسفينة:"
+
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr "هل يتم إخلاء السفينة بعد تأسيس المستعمرة"
+
+#~ msgid ""
+#~ "Don't use in normal game session. Decides whether to write debug "
+#~ "information in the logging directory of your user directory. Slows the "
+#~ "game down."
+#~ msgstr ""
+#~ "لا تستخدم في وضع اللعب العادي، يقرر هل يتم كتابة معلومات التصحيح في وجهة "
+#~ "التسجيل في مجلد المستخدم. يبطئ اللعبة."
+
+#~ msgid "Enable logging:"
+#~ msgstr "تفعيل التسجيل:"
+
+#~ msgid "Production indicators:"
+#~ msgstr "مؤشرات الإنتاج:"
+
+#~ msgid ""
+#~ "Whether to show resource icons over buildings whenever they finish "
+#~ "production"
+#~ msgstr ""
+#~ "هل يتم إظهار أيقونات الموارد في المباني حينما يتم إنهاء الإنتاج أم لا"
+
+#~ msgid "Higher values slow down scrolling."
+#~ msgstr "القيم الأعلي تبطئ التمرير."
+
+#~ msgid "Scroll delay:"
+#~ msgstr "تأخير التمرير:"
+
+#~ msgid "Choose a quote type:"
+#~ msgstr "إختر نوع الإقتباس:"
+
+#~ msgid "What kind of quote to display while loading a game"
+#~ msgstr "ما نوع الإقتباس الظاهر في حين تحميل اللعبة"
+
+#~ msgid "Network"
+#~ msgstr "الشبكة"
+
+#~ msgid "If set to 0, use the router default"
+#~ msgstr "إذا تم وضعه علي 0، إستخدم الإعدادات الإفتراضية للروتر"
+
+#~ msgid "Network port:"
+#~ msgstr "منفذ الشبكة:"
+
+#~ msgid "Discard current changes"
+#~ msgstr "تجاهل التغييرات الحالية"
+
+#~ msgid "Reset to default settings"
+#~ msgstr "إرجع إلي الإعدادات الإفتراضية"
+
+#~ msgid "Save changes"
+#~ msgstr "إحفظ التغييرات"
+
+#~ msgid "Your saved games:"
+#~ msgstr "ألعابك المحفوظه:"
+
+#~ msgid "Password of the game. Required to join this game"
+#~ msgstr "الرقم السري للعبة. مطلوب للإنضمام لهذه اللعبة"
+
+#~ msgid "Cancel"
+#~ msgstr "إلغاء"
+
+#~ msgid "Enter filename:"
+#~ msgstr "أدخل أسم الملف:"
+
+#~ msgid "Details:"
+#~ msgstr "التفاصيل:"
+
+#~ msgid "Delete selected savegame"
+#~ msgstr "إمسح ملف الحفظ المحدد"
+
+#~ msgid "Start game"
+#~ msgstr "إبدء اللعبة"
+
+#~ msgid "Map settings:"
+#~ msgstr "إعدادات الخريطة:"
+
+#~ msgid "Seed:"
+#~ msgstr "البذرة:"
+
+#~ msgid "Player name:"
+#~ msgstr "إسم اللاعب:"
+
+#~ msgid "Invalid filename"
+#~ msgstr "إسم ملف غير صالح"
+
+#~ msgid "Received an invalid filename for a save command."
+#~ msgstr "إستقبل إسم ملف غير صالح من إجل أمر الحفظ."
+
+#~ msgid "Error"
+#~ msgstr "خطأ"
+
+#~ msgid "Failed to save."
+#~ msgstr "فشل في الحفظ."
+
+#~ msgid "The trade partner does not sell this."
+#~ msgstr "زميل التجارة لا يبيع هذا."
+
+#~ msgid "You can not store this."
+#~ msgstr "لا يمكنك تخزين هذا."
+
+#~ msgid "You can not afford to buy this."
+#~ msgstr "لا يمكنك تحمل شراء هذا."
+
+#~ msgid "The trade partner does not sell more of this."
+#~ msgstr "زميل التجارة لا يبيع المزيد من هذا."
+
+#~ msgid "The trade partner does not buy this."
+#~ msgstr "زميل التجارة لا يشتري هذا."
+
+#~ msgid "You do not possess this."
+#~ msgstr "أنت لا تملك هذا."
+
+#~ msgid "The trade partner can not store more of this."
+#~ msgstr "زميل التجارة لا يمكنه تخزين المزيد من هذا."
+
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "زميل التجارة لا يمكنه تحمل شراء هذا."
+
+#~ msgid "The trade partner does not buy more of this."
+#~ msgstr "زميل التجارة لا يشتري المزيد من هذا."
+
+#~ msgid "Failed to quicksave."
+#~ msgstr "فشل في إجراء الحفظ السريع."
+
+#~ msgid "An error happened during quicksave."
+#~ msgstr "حصل خطأ في خلال إجراء الحفظ السريع."
+
+#~ msgid "Your map has not been saved."
+#~ msgstr "خريطتك لم يتم حفظها."
+
+#, python-brace-format
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: "
+#~ "{website}"
+#~ msgstr ""
+#~ "إذا حدث هذا الخطأ مجدداً، من فضلك إتصل بفريق التطوير الخاص بنا: {website}"
+
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "هل أنت متأكد من الخروج من اللعبة؟"
+
+#~ msgid "Quit Game"
+#~ msgstr "أخرج من اللعبة"
+
+#~ msgid "No diplomacy possible"
+#~ msgstr "لا دبلوماسية ممكنة"
+
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr "لا يمكن تفعيل الدبلوماسية في حيث أنه ليس هناك لاعبين أخرين."
+
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "هل أنت متأكد من أنك تود مسح هذه العناصر؟"
+
+#~ msgid "Delete"
+#~ msgstr "إمسح"
+
+#, python-brace-format
+#~ msgid "{size}x{size} tiles"
+#~ msgstr "{size}x{size} رقعة"
+
+#~ msgid "Press key…"
+#~ msgstr "إضغط زر…"
+
+#, python-brace-format
+#~ msgid "{key} is already set to {action}."
+#~ msgstr "{key} هو في الأساس مخصص إلي {action}."
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "هل تو إستبداله بالأتي؟"
+
+#~ msgid "Confirmation for overwriting"
+#~ msgstr "التأكيد علي الإستبدال"
+
+#~ msgid "Quotes"
+#~ msgstr "الإقتباسات"
+
+#~ msgid "Gameplay Tips"
+#~ msgstr "نصائح أسلوب اللعب"
+
+#~ msgid "Press 'ESC' to access Game Menu."
+#~ msgstr "إضغط 'ESC' لكي تصل إلي قائمة اللعبة."
+
+#~ msgid "Use 'SHIFT' to place multiple buildings."
+#~ msgstr "إستخدم 'SHIFT' لكي تضع مباني متعددة في نفس الوقت."
+
+#, python-brace-format
+#~ msgid "Currently only the first {tier} tiers are playable."
+#~ msgstr "حالياً الأول {tier}  مستوي قابل للعب."
+
+#~ msgid "You can pause the game with 'P'."
+#~ msgstr "يمكنك إيقاف اللعبة مؤقتاً بواسطة زر 'P'."
+
+#~ msgid "You can drag roads by holding the left mouse button."
+#~ msgstr "يمكنك سحب الطرق عن طريق الإبقاء ضاغطاً علي زر الفأرة الأيسر."
+
+#~ msgid "You can build multiple buildings by holding the 'SHIFT' key."
+#~ msgstr ""
+#~ "يمكنك بناء مباني متعددة عن طريق الإستمرار في الضغط علي مفتاح 'SHIFT' في "
+#~ "حين البناء."
+
+#~ msgid ""
+#~ "You can increase the happiness of your inhabitants by lowering the taxes."
+#~ msgstr "يمكنك زيادة سعادة مواطنيك عن طريق تقليل الضرائب."
+
+#~ msgid ""
+#~ "Build fire stations and doctors to protect your inhabitants from fire and "
+#~ "disease."
+#~ msgstr ""
+#~ "إبني مراكز الإطفاء و عيادات الدكاتره لكي تحمي مواطنيك من الحرائق والأمراض."
+
+#~ msgid "Build storage tents to increase your storage capacity."
+#~ msgstr "إبني مباني التخزين لكي تزيد سعة التخزين."
+
+#~ msgid "Make sure every house is in range of a marketplace."
+#~ msgstr "تأكد من أن كل منزل في حدود أي متجر."
+
+#~ msgid "Press 'T' to make trees transparent."
+#~ msgstr "إضغط علي 'T' لكي تجعل الشجر شفاف."
+
+#~ msgid "Build storage tents and lookouts to expand your settlement range."
+#~ msgstr "إبني مباني التخزين و الكشافة لكي تزيد حد مستعمرتك."
+
+#~ msgid ""
+#~ "To easily see whether the pavilion's range cover all your tents, select "
+#~ "it from the build menu and hover it over your existing pavilion. "
+#~ "Uncovered tents are shown in yellow. It's a good idea to build a new "
+#~ "pavilion in their neighborhood."
+#~ msgstr ""
+#~ "لتحقق ان كان نطاق المعبد يغطي كل الخيم, حدده من قائمة البناء اسقطه فوق "
+#~ "المني مسبقا, الخيم الصفراء هي غير المغطاة.من الجيد بناء معبد جديد قربهم."
+
+#~ msgid ""
+#~ "Make singleplayer more fun with additional computer players by increasing "
+#~ "'AI players' when starting a new game."
+#~ msgstr ""
+#~ "إجعل اللعب الفردي أكثر متعة بإضافة المزيد من لاعبي الكمبيوتر حين بدء لعبه "
+#~ "جديدة."
+
+#~ msgid ""
+#~ "First steps are easier by looking at how AI players are setting up their "
+#~ "settlement."
+#~ msgstr ""
+#~ "الخطوات الأولي سهلة بالنظر إلي كيف يبدء لاعب الكمبيوتر بتجهيز مستعمرته."
+
+#~ msgid ""
+#~ "Want funny quotes only? Change the quote types shown here in the settings "
+#~ "menu on the game page."
+#~ msgstr ""
+#~ "هل تريد إقتباسات ممتعة؟ غير نوع الإقتباسات الظاهرة في قائمة الإعدادات في "
+#~ "صفحة اللعبة."
+
+#~ msgid "A marketplace links your buildings like a road."
+#~ msgstr "المتجر يربط مبانيك مثل الطريق."
+
+#~ msgid "Mixed"
+#~ msgstr "مختلط"
+
+#~ msgid "Starting engine…"
+#~ msgstr "بدء المحرك…"
+
+#~ msgid "Catching fish…"
+#~ msgstr "يُمسك السمك…"
+
+#~ msgid "Drawing user interface…"
+#~ msgstr "يرسم واجهة المستخدم…"
+
+#~ msgid "Activating timer…"
+#~ msgstr "يُفعل المؤقت…"
+
+#~ msgid "Chomping game data…"
+#~ msgstr "تقليم بيانات اللعبة…"
+
+#~ msgid "Shaping islands…"
+#~ msgstr "يُشكل الجُزر…"
+
+#~ msgid "Preparing blueprints…"
+#~ msgstr "يُجهز المخططات…"
+
+#~ msgid "Filling world with water…"
+#~ msgstr "يملئ العالم بالمياه…"
+
+#~ msgid "Raising animals…"
+#~ msgstr "يُربي الحيوانات…"
+
+#~ msgid "Convincing AI…"
+#~ msgstr "يقنع الكمبيوتر…"
+
+#~ msgid "Burying treasures…"
+#~ msgstr "يدفن الكنوز…"
+
+#~ msgid "Unable to find pyenet"
+#~ msgstr "غير قادر علي إيجاد \"pyenet\""
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which could not "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "خاصية اللعب الجماعي تتطلب المكتبة \"pyenet\"، حيث لا يمكن إيجادها علي "
+#~ "نظامك."
+
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr "مستخدمي اللينكس: جرب تثبيت pyenet من خلال مدير الحزم في جهازك."
+
+#~ msgid "Failed to initialize networking."
+#~ msgstr "فشل في إقامة الشبكات."
+
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr "خصائص الشبكة لا يمكن إطلاقها مع إعدادات الظبط الحالية."
+
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "تحقق من الإعدادات التي وضعتها في منطقة الشبكة."
+
+#~ msgid "Fatal Network Error"
+#~ msgstr "خطأ كارثي في الشبكة"
+
+#~ msgid "Could not connect to master server."
+#~ msgstr "لا يمكن الإتصال بالسرفر الأساسي."
+
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "من فضلك تحقق من إتصالك بالأنترنت. إذا كان بخير، هذا يعني أن السرفر "
+#~ "الأساسي قد تعطل."
+
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "حدث شئ خاطئ مع الشبكة:"
+
+#~ msgid "Version differs!"
+#~ msgstr "النسخة مختلفة!"
+
+#, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "الخريطة: {map_name}"
+
+#, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "الأسم: {game_name}"
+
+#, python-brace-format
+#~ msgid "Creator: {game_creator}"
+#~ msgstr "المُنشئ: {game_creator}"
+
+#, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "اللاعبين: {player_amount}/{player_limit}"
+
+#~ msgid "Wrong version"
+#~ msgstr "النسخة خاطئة"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "نسخة اللعبة تختلف عن نسختك. كل اللاعبين في اللعبة يجب أن يكونوا يستخدمون "
+#~ "نفس النسخة. هذا يمكن إصلاحه بأن كل لاعب يُحدث نسخته من اللعبه إلي الأخيرة. "
+#~ "نسخة اللعبة: {game_version} نسختك: {own_version}"
+
+#~ msgid "Password of the game"
+#~ msgstr "كلمة السر للعبة"
+
+#~ msgid "Enter password:"
+#~ msgstr "أدخل كلمة السر:"
+
+#~ msgid "Ready"
+#~ msgstr "جاهز"
+
+#~ msgid "Not ready"
+#~ msgstr "ليس جاهز"
+
+#~ msgid "Enter your message"
+#~ msgstr "أدخل رسالتك"
+
+#~ msgid "Click here to change your name and/or color"
+#~ msgstr "إضغط هنا لكي تغير إسمك أو لونك"
+
+#, python-brace-format
+#~ msgid "Kick {player}"
+#~ msgstr "طرد اللاعب {player}"
+
+#, python-brace-format
+#~ msgid "{player} has joined the game"
+#~ msgstr "{player} قد إنضم للعبة"
+
+#, python-brace-format
+#~ msgid "{player} has left the game"
+#~ msgstr "{player} قد خرج من اللعبة"
+
+#~ msgid "You are now ready"
+#~ msgstr "أنت الأن جاهز"
+
+#~ msgid "You are not ready anymore"
+#~ msgstr "أنت لست جاهزا بعد"
+
+#, python-brace-format
+#~ msgid "{player} is now ready"
+#~ msgstr "{player} هو الأن جاهز"
+
+#, python-brace-format
+#~ msgid "{player} not ready anymore"
+#~ msgstr "{player} لم يعد جاهز"
+
+#, python-brace-format
+#~ msgid "You are now known as {new_name}"
+#~ msgstr "أنت الأن معروف بـ {new_name}"
+
+#, python-brace-format
+#~ msgid "{player} is now known as {new_name}"
+#~ msgstr "{player} معروف الأن بـ {new_name}"
+
+#~ msgid "You changed your color"
+#~ msgstr "لقد غير لونك"
+
+#, python-brace-format
+#~ msgid "{player} changed their color"
+#~ msgstr "{player} قد غير لونه"
+
+#~ msgid "Kicked"
+#~ msgstr "طُرد"
+
+#~ msgid "You have been kicked from the game by creator"
+#~ msgstr "لقد تم طردك من اللعبة عن طريق المُنشئ"
+
+#, python-brace-format
+#~ msgid "{player} got kicked by creator"
+#~ msgstr "{player} قد تم طرده عن طريق المُنشئ"
+
+#~ msgid "Are you sure you want to abort the running session?"
+#~ msgstr "هل أنت متأكد من إغلاق الموسم الشغال الحالي؟"
+
+#~ msgid "Quit Session"
+#~ msgstr "أخرج من الموسم"
+
+#~ msgid "No saved games"
+#~ msgstr "لا ألعاب محفوظة"
+
+#~ msgid "There are no saved games to load."
+#~ msgstr "ليس هناك ألعاب محفوظة لتحميلها."
+
+#~ msgid "No filename given"
+#~ msgstr "لا أسم ملف قد أعطي"
+
+#~ msgid "Please enter a valid filename."
+#~ msgstr "من فضلك أدخل أسم ملف صالح."
+
+#, python-brace-format
+#~ msgid "A savegame with the name {name} already exists."
+#~ msgstr "لعبة محفوظة بالأسم {name} موجودة مسبقاً."
+
+#, python-brace-format
+#~ msgid "A map with the name {name} already exists."
+#~ msgstr "خريطة بالأسم {name} موجودة مسبقاً."
+
+#~ msgid "Overwrite it?"
+#~ msgstr "كتابه عليه؟"
+
+#, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "حُفظت عند {time}"
+
+#, python-brace-format
+#~ msgid "Saved {amount} time"
+#~ msgid_plural "Saved {amount} times"
+#~ msgstr[0] "لم تحفظ {amount} مرة"
+#~ msgstr[1] "حُفظت {amount} مرة"
+#~ msgstr[2] "حُفظت {amount} مرة"
+#~ msgstr[3] "حفظت {amount} من المرات"
+#~ msgstr[4] "حُفظت {amount} من المرات"
+#~ msgstr[5] "حُفظت {amount} من المرات"
+
+#, python-brace-format
+#~ msgid "Savegame version {version}"
+#~ msgstr "نسخة حفظ اللعبة {version}"
+
+#~ msgid "(probably incompatible)"
+#~ msgstr "(تقريباً غير متكامل)"
+
+#~ msgid "Incompatible version"
+#~ msgstr "نسخة غير متكاملة"
+
+#~ msgid "No file selected"
+#~ msgstr "لا ملف مُحدد"
+
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr "يجب عليك تحديد ملف حفظ لكي تمسح."
+
+#, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "هل تود حقاً مسح ملف الحفظ {name}؟"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "تأكيد المسح"
+
+#~ msgid "Error!"
+#~ msgstr "خطأ!"
+
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "فشل في مسح ملف الحفظ!"
+
+#~ msgid "Game"
+#~ msgstr "اللعبة"
+
+#~ msgid "Disabled"
+#~ msgstr "مُعطل"
+
+#~ msgid "Restart required"
+#~ msgstr "إعادة التشغيل مطلوبة"
+
+#~ msgid ""
+#~ "Some of your changes require a restart of Unknown Horizons. Do you want "
+#~ "to restart Unknown Horizons now?"
+#~ msgstr ""
+#~ "بعض تغييراتك تتطلب إعادة تشغيل اللعبة. هل تود إعادة تشغيل اللعبة الأن؟"
+
+#~ msgid "Restore default settings"
+#~ msgstr "إرجاع الإعدادات الإفتراضية"
+
+#~ msgid ""
+#~ "Restoring the default settings will delete all changes to the settings "
+#~ "you made so far."
+#~ msgstr ""
+#~ "إرجاع الإعدادات الإفتراضية سوف يمسح كل التغييرات التي أحدثتها للإعدادات "
+#~ "حتي الأن."
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "هل تو الإكمال؟"
+
+#~ msgid "Invalid network port"
+#~ msgstr "منفذ شبكة خاطئ"
+
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr "المنذ الذي حددته غير صحيح. يجب أن يكون رقم ما بين 1 إلي 65535."
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it is in the specified "
+#~ "range."
+#~ msgstr "من فضلك إفحص المنفذ الذي أدخلته وتأكد أنه في الجد المُحدد."
+
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "فشل في تطبيق إعدادات الشبكة الجديدة."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special access privileges, try 0 or a "
+#~ "number greater than 1024."
+#~ msgstr ""
+#~ "رقم المنفذ المنخفظ ربما يحتاج أذون وصول خاصة، جرب رقم  أو رقم أكبر من "
+#~ "1024."
+
+#~ msgid "Invalid player name"
+#~ msgstr "إسم لاعب خاطئ"
+
+#~ msgid "You entered an invalid playername."
+#~ msgstr "لقد أدخلت إسم لاعب خاطئ."
+
+#~ msgid "Map size:"
+#~ msgstr "حجم الخريطة:"
+
+#~ msgid "Water:"
+#~ msgstr "المياه:"
+
+#~ msgid "Max island size:"
+#~ msgstr "أقصى حجم للجزيرة:"
+
+#~ msgid "Preferred island size:"
+#~ msgstr "حجم الجزيرة المستحسن:"
+
+#, fuzzy
+#~ msgid "Island size deviation:"
+#~ msgstr "تباين حجم الجزر"
+
+#~ msgid "Click to generate a different random map"
+#~ msgstr "أنقر لتوليد خريطة عشوائيا"
+
+#~ msgid "Invalid scenario file"
+#~ msgstr "ملف سيناريو غير صالح"
+
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "الملف المحدد ليس ملف سيناريو صالح."
+
+#~ msgid "Error message:"
+#~ msgstr "رسالة خطأ:"
+
+#~ msgid "Please report this to the author."
+#~ msgstr "يرجى إبلاغ المطور."
+
+#, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "الصعوبة: {difficulty}"
+
+#, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "المالك: {author}"
+
+#, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "الوصف: {desc}"
+
+#, python-brace-format
+#~ msgid "Build {building}"
+#~ msgstr "إبني {building}"
+
+#~ msgid "Press H to remove this hint"
+#~ msgstr "إضغط على H لإزالة هذا التلميح"
+
+#~ msgid "Destroy all buildings"
+#~ msgstr "دمر كل البنايات"
+
+#~ msgid ""
+#~ "This will destroy all the buildings that fall outside of the settlement "
+#~ "range."
+#~ msgstr "سيؤدي هذا إلى تدمير جميع المباني التي تقع خارج نطاق المستعمرة."
+
+#~ msgid "Barracks overview"
+#~ msgstr "نظرة عامة عن الثكنات"
+
+#~ msgid "Swordman"
+#~ msgstr "سيّاف"
+
+#~ msgid "Overview"
+#~ msgstr "نظرة عامة"
+
+#, python-brace-format
+#~ msgid "{ship} (place in queue: {place})"
+#~ msgstr "{ship} (الوجهة القادمة: {place})"
+
+#~ msgid "Boat builder overview"
+#~ msgstr "نظرة عامة عن بناء السفن"
+
+#~ msgid "Fisher boats"
+#~ msgstr "قوارب الصيد"
+
+#~ msgid "Trade boats"
+#~ msgstr "قوارب تجارية"
+
+#~ msgid "War boats"
+#~ msgstr "قوارب حربية"
+
+#~ msgid "War ships"
+#~ msgstr "سفن حربية"
+
+#~ msgid "Tower overview"
+#~ msgstr "نظرة عامة على البرج"
+
+#~ msgid "Build related buildings"
+#~ msgstr "بناء المباني ذات الصلة"
+
+#~ msgid "Click on one of the resource slots to add a trade offer."
+#~ msgstr "أنقر على إحدى خانات الموارد لإضافة عرض تجاري."
+
+#~ msgid ""
+#~ "Set to buy or sell by clicking on that label, then adjust the amount via "
+#~ "the slider to the right."
+#~ msgstr ""
+#~ "اختر إن كنت تريد الشراء او البيع، ثم حدد الكمية عن طريق شريط التمرير."
+
+#, python-brace-format
+#~ msgid ""
+#~ "Will sell {resource_name} for {price} gold/t whenever more than {limit}t "
+#~ "are available."
+#~ msgstr ""
+#~ "سيبييع {resource_name} بـ {price} ذهب /t اذا زاد المخزون عن {limit}."
+
+#~ msgid "Warehouse overview"
+#~ msgstr "نظرة عامة على مستودع"
+
+#~ msgid "Main square overview"
+#~ msgstr "نظرة عامة على الساحة الرئيسية"
+
+#~ msgid "Upgrade not possible:"
+#~ msgstr "الترقية غير ممكنة:"
+
+#~ msgid "This is the highest playable tier for now!"
+#~ msgstr "هذا أعلى مستوى للعب حاليا !"
+
+#~ msgid "Don't allow upgrades"
+#~ msgstr "لا تسمح بالترقية"
+
+#~ msgid "Allow upgrades"
+#~ msgstr "اسمح بالترقية"
+
+#~ msgid "Unit overview"
+#~ msgstr "نظرة عامة على العنصر"
+
+#, python-brace-format
+#~ msgid "Fill range with {how_many} trees"
+#~ msgstr "املأ النطاق بـ {how_many} شجرة"
+
+#~ msgid "Selected Units"
+#~ msgstr "الوحدات المحددة"
+
+#~ msgid "Ship overview"
+#~ msgstr "نظرة عامة على السفينة"
+
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr "يجب أن تكون السفينة قريبة من جزيرة لتأسيس مستعمرة."
+
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "لديك مستعمرة على هذه الجزيرة."
+
+#~ msgid "Load/Unload"
+#~ msgstr "تحميل/ إنزال"
+
+#~ msgid "Too far from the nearest tradeable warehouse"
+#~ msgstr "بعيد جدًا عن أقرب مستودع قابل للتداول"
+
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "لا يمكن تزويد السفينة التجارية بالأسلحة"
+
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "لا يمكن تجهيز سفينة تجارية بالأسلحة."
+
+#~ msgid "Equip weapon"
+#~ msgstr "تزويد بالاسلحة"
+
+#~ msgid "Unequip weapon"
+#~ msgstr "إلغاء التزود بالاسلحة"
+
+#, python-brace-format
+#~ msgid "{resource_name}: {price} gold"
+#~ msgstr "{resource_name}:{price} ذهب"
+
+#, python-brace-format
+#~ msgid "buy for {buyprice} gold"
+#~ msgstr "اشتري بـ {buyprice} ذهب"
+
+#, python-brace-format
+#~ msgid "sell for {sellprice} gold"
+#~ msgstr "بِع بـ {sellprice} ذهب"
+
+#, python-brace-format
+#~ msgid "{stored}/{limit}"
+#~ msgstr "{stored}\\{limit}"
+
+#~ msgid "Logbook"
+#~ msgstr "السجل"
+
+#~ msgid "Emptiness"
+#~ msgstr "فراغ"
+
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "لا يوجد شيء مكتوب في سجلك حتى الآن!"
+
+#, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "مستعمرة {player}"
+
+#, python-brace-format
+#~ msgid "Ships of {player}"
+#~ msgstr "سفن {player}"
+
+#~ msgid "N/A"
+#~ msgstr "لاشيء"
+
+#, python-brace-format
+#~ msgid "Production overview of {settlement}"
+#~ msgstr "نظره عامة علي إنتاج {settlement}"
+
+#~ msgid "Click to show statistics"
+#~ msgstr "انقر لعرض الاحصائيات"
+
+#~ msgid "Click to add a new slot"
+#~ msgstr "أنقر لإضافة خانة جديدة"
+
+#~ msgid "Reset this configuration to the factory default."
+#~ msgstr "إعادة الاعدادات الى الاعدادت الافتراضية."
+
+#~ msgid ""
+#~ "Reset this settlement's displayed resources to the default configuration "
+#~ "you have saved."
+#~ msgstr ""
+#~ "أعِد تعيين الموارد المعروضة في هذه المستعمرة إلى الإعدادت الافتراضية الذي "
+#~ "قمت بحفظها."
+
+#~ msgid ""
+#~ "Reset the default configuration (which you see here) to the factory "
+#~ "default for all settlements."
+#~ msgstr ""
+#~ "إعادة تعيين التكوين الافتراضي لجميع المستعمرات (كما هو مبين هنا) إلى "
+#~ "الإعدادات الافتراضية."
+
+#~ msgid "Buy expenses"
+#~ msgstr "تكلفة الشراء"
+
+#~ msgid "Sell income"
+#~ msgstr "إيرادات المبيعات"
+
+#~ msgid "Stop route"
+#~ msgstr "أوقف الطريق"
+
+#~ msgid "Need at least two settlements"
+#~ msgstr "تحتاج على الأقل الى مستعمرتين"
+
+#~ msgid "You need at least two different settlements in your route."
+#~ msgstr "تحتاج إلى مستوطنتين مختلفتين على الأقل في مسارك."
+
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "انقر على مستعمرة لإضافة نقطة مسار!"
+
+#~ msgid "Loading into ship"
+#~ msgstr "تحميل السفينة"
+
+#~ msgid "Unloading from ship"
+#~ msgstr "تفريغ السفينة"
+
+#~ msgid "You are not allowed to trade with this player"
+#~ msgstr "لا يسمح لك بالتداول مع هذا اللاعب"
+
+#, python-brace-format
+#~ msgid "{weapon}: {amount}"
+#~ msgstr "{weapon}: {amount}"
+
+#~ msgid "none"
+#~ msgstr "لا شيء"
+
+#, python-brace-format
+#~ msgid "Details: {error_details}"
+#~ msgstr "التفاصيل: {error_details}"
+
+#, python-brace-format
+#~ msgid "Error: {error_message}"
+#~ msgstr "خطأ: {error_message}"
+
+#~ msgid "Bakery"
+#~ msgstr "مخبزة"
+
+#~ msgid "Barracks"
+#~ msgstr "ثكنة عسكرية"
+
+#~ msgid "Wooden barrier"
+#~ msgstr "سياج خشبي"
+
+#~ msgid "Clay wall"
+#~ msgstr "جدار الطين"
+
+#~ msgid "Blender"
+#~ msgstr "الخلاط"
+
+#~ msgid "Boat Builder"
+#~ msgstr "بنّاء القوارب"
+
+#~ msgid "Brewery"
+#~ msgstr "مصنع الجعة"
+
+#~ msgid "Brickyard"
+#~ msgstr "مصنع الطوب"
+
+#~ msgid "Butchery"
+#~ msgstr "مجزرة اللحوم"
+
+#~ msgid "Cannon Foundry"
+#~ msgstr "مصنع سباكة المدافع"
+
+#~ msgid "Charcoal Burning"
+#~ msgstr "فرن فحم"
+
+#~ msgid "Clay Deposit"
+#~ msgstr "رواسب الطين"
+
+#~ msgid "Clay Pit"
+#~ msgstr "حفرة الطين"
+
+#~ msgid "Distillery"
+#~ msgstr "مصنع الجعة"
+
+#~ msgid "Doctor"
+#~ msgstr "طبيب"
+
+#~ msgid "Farm"
+#~ msgstr "مزرعة"
+
+#~ msgid "Alvearies"
+#~ msgstr "خلايا نحل"
+
+#~ msgid "Cattle Run"
+#~ msgstr "زريبة ماشية"
+
+#~ msgid "Cocoa Field"
+#~ msgstr "حقل كاكاو"
+
+#~ msgid "Corn Field"
+#~ msgstr "حقل ذرة"
+
+#~ msgid "Herbary"
+#~ msgstr "حقل أعشاب"
+
+#~ msgid "Hop Field"
+#~ msgstr "حقل جلجل"
+
+#~ msgid "Pasture"
+#~ msgstr "مرعى"
+
+#~ msgid "Pigsty"
+#~ msgstr "زريبة"
+
+#~ msgid "Potato Field"
+#~ msgstr "حقل بطاطا"
+
+#~ msgid "Spice Field"
+#~ msgstr "حقل توابل"
+
+#~ msgid "Sugar Field"
+#~ msgstr "حقل سكر"
+
+#~ msgid "Tobacco Field"
+#~ msgstr "حقل تبغ"
+
+#~ msgid "Vineyard"
+#~ msgstr "حقل كروم"
+
+#~ msgid "Fire Station"
+#~ msgstr "محطة إطفاء"
+
+#~ msgid "Fish Deposit"
+#~ msgstr "أسماك"
+
+#~ msgid "Fisherman's Tent"
+#~ msgstr "خيمة صياد السمك"
+
+#~ msgid "Hunter's Tent"
+#~ msgstr "خيمة صياد"
+
+#~ msgid "Lookout"
+#~ msgstr "برج مراقبة"
+
+#~ msgid "Lumberjack Hut"
+#~ msgstr "كوخ حطاب"
+
+#~ msgid "Main Square"
+#~ msgstr "الساحة الرئيسية"
+
+#~ msgid "Mine"
+#~ msgstr "منجم"
+
+#~ msgid "Mountain"
+#~ msgstr "جبل"
+
+#~ msgid "Pastry Shop"
+#~ msgstr "متجر الحلويات"
+
+#~ msgid "Pavilion"
+#~ msgstr "معبد"
+
+#~ msgid "Ruined Tent"
+#~ msgstr "خيمة مخربة"
+
+#~ msgid "Salt Ponds"
+#~ msgstr "أحواض الملح"
+
+#~ msgid "Signal Fire"
+#~ msgstr "إشارة النار"
+
+#~ msgid "Smeltery"
+#~ msgstr "دار سباكة"
+
+#~ msgid "Stone Deposit"
+#~ msgstr "خام الحجارة"
+
+#~ msgid "Stonemason"
+#~ msgstr "مقلع حجارة"
+
+#~ msgid "Carver"
+#~ msgstr "دار نحت"
+
+#~ msgid "Stone Pit"
+#~ msgstr "مقلع حجارة"
+
+#~ msgid "Storage Tent"
+#~ msgstr "خيمة تخزين"
+
+#~ msgid "Storage Hut"
+#~ msgstr "كوخ تخزين"
+
+#~ msgid "Tavern"
+#~ msgstr "حانة"
+
+#~ msgid "Hut"
+#~ msgstr "كوخ"
+
+#~ msgid "Stone house"
+#~ msgstr "منزل حجري"
+
+#~ msgid "Estate"
+#~ msgstr "عقار"
+
+#~ msgid "Manor"
+#~ msgstr "قصر عزبة"
+
+#~ msgid "Tobacconist"
+#~ msgstr "بائع التبغ"
+
+#~ msgid "Toolmaker"
+#~ msgstr "مصنِّع الأدوات"
+
+#~ msgid "Trail"
+#~ msgstr "ممر المشاة"
+
+#~ msgid "Gravel Path"
+#~ msgstr "مسار الحصى"
+
+#~ msgid "Cobblestone Street"
+#~ msgstr "شارع مرصوف"
+
+#~ msgid "Tree"
+#~ msgstr "شجرة"
+
+#~ msgid "Village School"
+#~ msgstr "مدرسة قرية"
+
+#~ msgid "Warehouse"
+#~ msgstr "مستودع"
+
+#~ msgid "Weaponsmith"
+#~ msgstr "حداد الاسلحة"
+
+#~ msgid "Weaver's Hut"
+#~ msgstr "كوخ حائِك"
+
+#~ msgid "Windmill"
+#~ msgstr "طاحونة"
+
+#~ msgid "Winery"
+#~ msgstr "مصنع شراب"
+
+#~ msgid "Wooden Tower"
+#~ msgstr "برج خشبي"
+
+#~ msgid "Failed to start/load the game"
+#~ msgstr "تحميل\\بدأ اللعبة فشل"
+
+#~ msgid "The game you selected could not be started."
+#~ msgstr "لا يمكن بدأ اللعبة المحددة."
+
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr "اللعبة المحفوظة قد تكون معطوبة أو تم حفظها باستخدام إصدار قديم."
+
+#~ msgid "No quicksaves found"
+#~ msgstr "لم يُعثر على حفظ سريع"
+
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr "تحتاج إلى حفظ سريع قبل أن تتمكن من استخدام التحميل السريع."
+
+#~ msgid "Logging enabled"
+#~ msgstr "تسجيل الدخول ممَكن"
+
+#, python-brace-format
+#~ msgid "Logs are written to {directory}."
+#~ msgstr "تكتب السجلات في {directory}."
+
+#~ msgid ""
+#~ "The games have run out of sync. This indicates an unknown internal error, "
+#~ "the game cannot continue."
+#~ msgstr ""
+#~ "لم تعد الألعاب متزامنة. هذا يدل على خطأ داخلي غير معروف، لا يمكن أن تستمر "
+#~ "اللعبة."
+
+#~ msgid ""
+#~ "We are very sorry and hope to have this bug fixed in a future version."
+#~ msgstr "نحن نعتذر بشدة ونتمنى حل هذه العلة في الإصدار القادم."
+
+#~ msgid "Not possible"
+#~ msgstr "غير ممكن"
+
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr "حفظ\\تحميل لعبة متعددة الاعبين غير ممكن حتى الآن"
+
+#~ msgid ""
+#~ "The filename must consist only of letters, numbers, spaces and these "
+#~ "characters: _ . -"
+#~ msgstr "يقتصر إسم الملف على الحروف والمسافات والأرقام والرموز :_ . -"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "غير قادر على الإتصال بالخادم."
+
+#~ msgid "Maybe invalid or irresolvable server address."
+#~ msgstr "عنوان الخادم غير صالح."
+
+#~ msgid "Not Ready"
+#~ msgstr "غير جاهز"
+
+#~ msgid ""
+#~ "Old or unsupported multiplayer protocol. Please check your game version"
+#~ msgstr "بروتوكول قديم أو غير مدعوم. من فضلك إفحص نسخة لعبتك"
+
+#~ msgid "You've exceeded the global packet size."
+#~ msgstr "لقد تخطيت حجم الحزمة العامة."
+
+#~ msgid "This should never happen. Please contact us or file a bug report."
+#~ msgstr "هذا ليس من المفترض ان يحدث. من فضلك إتصل بنا أو أبلغ عن المشكلة."
+
+#~ msgid "You've exceeded the per packet size."
+#~ msgstr "لقد تخطيت نصيب الحزمة العامة."
+
+#~ msgid "Unknown or malformed packet. Please check your game version"
+#~ msgstr "حزمة غير معروفة أو تالفة. من فضلك إفحص نسخة اللعبة"
+
+#~ msgid "Invalid/Unknown session"
+#~ msgstr "موسم خاطئ/غيرمعروف"
+
+#~ msgid "You can't join a game while in another game"
+#~ msgstr "لا يمكنك الإنضمام للعبة أخري في حين أنك في لعبة أخري"
+
+#~ msgid "Unknown game or game is running a different version"
+#~ msgstr "لعبة غير معروفة أو اللعبة تم تشغيلها بنسخة مختلفة"
+
+#~ msgid "Game has already started. No more joining"
+#~ msgstr "اللعبة قد بدأت بالفعل. لا مزيد من الدخول"
+
+#~ msgid "Game is full"
+#~ msgstr "اللعبة ممتلئة"
+
+#~ msgid "Wrong password"
+#~ msgstr "رقم سري خاطئ"
+
+#~ msgid "There's already a player with your name inside this game."
+#~ msgstr "هناك للاعب بالفعل بأسمك بداخل اللعبة."
+
+#~ msgid "Please change your name."
+#~ msgstr "من فضلك غير إسمك."
+
+#~ msgid "There's already a player with your color inside this game."
+#~ msgstr "هناك بالفعل للاعب بلونك في داخل اللعبة."
+
+#~ msgid "Please change your color."
+#~ msgstr "من فضلك غير لونك."
+
+#~ msgid ""
+#~ "There's already a player with your unique player ID inside this game. "
+#~ "This should never occur."
+#~ msgstr ""
+#~ "هناك لاعب بالفعل بداخل اللعبة برمز للاعبك المميز. هذا ليس من المفترض أن "
+#~ "يحدث."
+
+#~ msgid "You are not inside a game"
+#~ msgstr "أنت لست بداخل لعبة"
+
+#~ msgid "Unable to change your name."
+#~ msgstr "غير قادر علي تغيير أسمك."
+
+#~ msgid "Unable to change your color."
+#~ msgstr "غير قادر علي تغيير لونك."
+
+#~ msgid "You can't fetch a game while in another game"
+#~ msgstr "لا يمكنك البحث عن لعبة في حين أنك في لعبة أخري"
+
+#~ msgid "The game has been terminated. The creator has left the game."
+#~ msgstr "اللعبة قد تم إنهائها. الصانع للعبة قد ترك اللعبة."
+
+#~ msgid ""
+#~ "One player has terminated their game. For technical reasons, this "
+#~ "currently means the game cannot continue. We are very sorry about that."
+#~ msgstr ""
+#~ "لاعب واحد قد أنهي اللعبة. للأسباب التقنية، هذه يعني أن اللعب لا يمكنها "
+#~ "الإكمال. نحن أسفون جداً بشأن هذا."
+
+#~ msgid "You have won!"
+#~ msgstr "ربحتَ!"
+
+#~ msgid "You have completed this scenario."
+#~ msgstr "أتممت هذا السيناريو."
+
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "هل تريد مواصلة اللعب؟"
+
+#~ msgid "Failed to create savegame file"
+#~ msgstr "فشل إنشاء ملف حفظ اللعبة"
+
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr "حدث خطأ أثناء إنشاء ملف حفظ اللعبة."
+
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr "عادة هذا يعني إحتواء إسم الملف على محارف غير مدعومة."
+
+#~ msgid "Access is denied"
+#~ msgstr "الدخول محظور"
+
+#~ msgid "The savegame file could be read-only or locked by another process."
+#~ msgstr "قد يكون ملف حفظ اللعبة قابل للقراءة فقط أو مقفلا من قبل عملية أخرى."
+
+#~ msgid "Your game has not been saved."
+#~ msgstr "لم تحفظ اللعبة."
+
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "إصدار جديد من Unknown Horizons"
+
+#, python-brace-format
+#~ msgid ""
+#~ "There is a more recent release of Unknown Horizons ({new_version}) than "
+#~ "the one you are currently using ({old_version})."
+#~ msgstr "يتوفر إصدار {new_version} أحدث من المثبت {old_version}."
+
+#~ msgid "Click to download"
+#~ msgstr "أنقر للتحميل"
+
+#~ msgid "A page has been opened in your browser."
+#~ msgstr "تم فتح صفحة في متصفحك."
+
+#, python-brace-format
+#~ msgid "Health: {health}"
+#~ msgstr "الصحة: {health}"
+
+#, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}:{description}"
+
+#~ msgid "This building must be built on an island."
+#~ msgstr "يجب بناء هذا المبنى على جزيرة."
+
+#~ msgid "This ground is not suitable for this building."
+#~ msgstr "لا تلائم هذه الأرض المبنى."
+
+#~ msgid "This building has to be built within your settlement."
+#~ msgstr "يجب بناء هذا المبنى داخل مستعمرتك."
+
+#~ msgid "This area is already occupied by another player."
+#~ msgstr "هذا المنطقة محتلة من طرف لاعب آخر."
+
+#~ msgid "This area is already occupied by another building."
+#~ msgstr "هذه المنطقة مشغولة من طرف مبنا آخر."
+
+#~ msgid "This area is already occupied by a unit."
+#~ msgstr "هذه المنطقة مشغولة من قبل وحدة."
+
+#~ msgid "This building must be built on the coastline."
+#~ msgstr "يجب بناء هذا المبنى على الساحل."
+
+#~ msgid "This building has to be placed at the ocean."
+#~ msgstr "يجب وضع هذا المبنى في المحيط."
+
+#~ msgid "This spot is too far away from your ship."
+#~ msgstr "هذه البقعة بعيدة جدًا عن سفينتك."
+
+#~ msgid "This building can only be built on a resource source."
+#~ msgstr "لا يمكن بناء هذا المبنى إلا على مورد."
+
+#~ msgid "You have already settled this island."
+#~ msgstr "إسعمرت هذه الجزيرة بالفعل."
+
+#~ msgid "This building must be partly on flat land."
+#~ msgstr "يجب أن يكون جزء من هذا المبنى فوق أرض مستوية."
+
+#~ msgid "The inhabitants are infected by the Black Death!"
+#~ msgstr "السكان مصابون بالطاعون!"
+
+#~ msgid "This building is on fire!"
+#~ msgstr "المبنى يحترق!"
+
+#~ msgid "These residents are unhappy."
+#~ msgstr "السكان غير راضون."
+
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "لا يتمكن هؤلاء السكان من الوصول الى الساحة الرئيسية."
+
+#~ msgid "The inventory of this building is full."
+#~ msgstr "مخزون هذا المبنى ممتلئ."
+
+#~ msgid "This building has a very low productivity."
+#~ msgstr "إنتاجية هذا المبنى منخفضة."
+
+#~ msgid "This building is decommissioned."
+#~ msgstr "هذا المبنى متوقف عن العمل."
+
+#, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "الطريق التجاري: متوجهةالى {location}"
+
+#, python-brace-format
+#~ msgid "Trade route: waiting at {position}"
+#~ msgstr "الطريق التجارية: ينتظر عند {position}"
+
+#, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "متوجه الى {location}"
+
+#, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "متوجه الى {x}،{y}"
+
+#, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "متوقف عند {location}"
+
+#, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "متوقف عند {x}،{y}"
+
+#~ msgid "Trader"
+#~ msgstr "تاجر"
+
+#, python-brace-format
+#~ msgid "Attacking {target} '{name}' ({owner})"
+#~ msgstr "مهاجمة {target}' {name}'({owner})"
+
+#, python-brace-format
+#~ msgid "Attacking {owner}"
+#~ msgstr "مهاجمة {owner}"
+
+#~ msgid "Your game has been autosaved."
+#~ msgstr "تم الحفظ التلقائي للعبتك."
+
+#~ msgid "Your building has caught fire!"
+#~ msgstr "مبناك يهاجَم!"
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}:{message}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "{player1} and {player2} have ended their alliance and are now in a state "
+#~ "of war."
+#~ msgstr "انتهى تحالف {player1} و {player2} وهما الآن في حالة حرب."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have terminated their alliance."
+#~ msgstr "أنهى {player1} و {player2} تحالفهما."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have ended the war and are now allied."
+#~ msgstr "أنهى {player1} و{player2} الحرب وهما الآن في تحالف."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have settled their hostility."
+#~ msgstr "أنهى {player1} و {player2} عداءهما."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have allied their forces."
+#~ msgstr "وحد {player1} و{player2} قواهما."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} will fight each other to the death."
+#~ msgstr "سيتقاتل {player1} و {player2} حتى الموت."
+
+#~ msgid "You can also drag roads."
+#~ msgstr "يمكنك سحب الطرق."
+
+#~ msgid "One of your fields requires a farm to harvest its crops."
+#~ msgstr "إحدى حقولك تحتاج الى مزرعة لحصد المحاصيل."
+
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "نفذت موارد المنجم."
+
+#~ msgid "Cannot go here."
+#~ msgstr "لا يمكن الذهاب الى هناك."
+
+#~ msgid "Your crew refuses to leave this map."
+#~ msgstr "رفض طاقمك ترك هذه الخريطة."
+
+#, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "تحتاج الى المزيد من {resource} لبناء هذا المبنى."
+
+#, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "تم تأسيس مستعمرة جديدة من قبل {player}."
+
+#, python-brace-format
+#~ msgid "A new ship by the name of {name} has been created."
+#~ msgstr "أنشئت سفينة جديدة باسم {name}."
+
+#, python-brace-format
+#~ msgid "The Soldier by the name of {name} is ready to battle."
+#~ msgstr "جندي باسم {name} جاهز للقتال."
+
+#~ msgid "A new world has been created."
+#~ msgstr "تم إنشاء عالم جديد."
+
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "لا يتمكن بعض من سكانك من الوصول الى الساحة الرئيسية."
+
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "تم الحفظ السريع للعبة."
+
+#~ msgid ""
+#~ "The route is now configured. Start it via the \"start route\" button in "
+#~ "the \"configure route\" menu."
+#~ msgstr ""
+#~ "الطريق مُعدة. اِبدأها باستخدام زر \"إبدأ الطريق\" من قائمة \"إعداد الطريق\"."
+
+#~ msgid "Your game has been saved."
+#~ msgstr "تم حفظ اللعبة."
+
+#, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "تم حفظ لقطة الشاشة الى {file}."
+
+#, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "وصل سكانك الى المستوى {level}."
+
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "إنتقل بعض من سكانك."
+
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr "لا يمكنك تدمير المستودع فمستعمرتك بحاجته."
+
+#~ msgid "You won!"
+#~ msgstr "ربحتَ!"
+
+#~ msgid "You failed the scenario."
+#~ msgstr "فشلت في السيناريو."
+
+#~ msgid "The inhabitants of this building are infected by the Black Death!"
+#~ msgstr "أصيب سكان هذا المبتى بالطاعون!"
+
+#~ msgid "coins"
+#~ msgstr "قطع نقدية"
+
+#~ msgid "lamb wool"
+#~ msgstr "صوف"
+
+#~ msgid "textile"
+#~ msgstr "منسوجات"
+
+#~ msgid "boards"
+#~ msgstr "ألواح"
+
+#~ msgid "food"
+#~ msgstr "غذاء"
+
+#~ msgid "tools"
+#~ msgstr "أدوات"
+
+#~ msgid "bricks"
+#~ msgstr "طوب"
+
+#~ msgid "trees"
+#~ msgstr "أشجار"
+
+#~ msgid "grass"
+#~ msgstr "عشب"
+
+#~ msgid "wool"
+#~ msgstr "صوف"
+
+#~ msgid "faith"
+#~ msgstr "إيمان"
+
+#~ msgid "deer food A"
+#~ msgstr "طعام الغزلان أ"
+
+#~ msgid "deer meat"
+#~ msgstr "لحم الغزال"
+
+#~ msgid "happiness"
+#~ msgstr "سعادة"
+
+#~ msgid "potatoes"
+#~ msgstr "بطاطا"
+
+#~ msgid "education"
+#~ msgstr "تعليم"
+
+#~ msgid "sugar cane"
+#~ msgstr "قصب السكر"
+
+#~ msgid "sugar"
+#~ msgstr "سكر"
+
+#~ msgid "community"
+#~ msgstr "مجتمع"
+
+#~ msgid "clay deposit"
+#~ msgstr "رواسب طين"
+
+#~ msgid "clay"
+#~ msgstr "طين"
+
+#~ msgid "liquor"
+#~ msgstr "شراب"
+
+#~ msgid "charcoal"
+#~ msgstr "فحم"
+
+#~ msgid "iron deposit"
+#~ msgstr "رواسب الحديد"
+
+#~ msgid "iron ore"
+#~ msgstr "خام الحديد"
+
+#~ msgid "iron ingots"
+#~ msgstr "سبائك الحديد"
+
+#~ msgid "get-together"
+#~ msgstr "مجالس"
+
+#~ msgid "fish"
+#~ msgstr "سمك"
+
+#~ msgid "salt"
+#~ msgstr "ملح"
+
+#~ msgid "tobacco plants"
+#~ msgstr "نبات التبغ"
+
+#~ msgid "tobacco leaves"
+#~ msgstr "أوراق التبغ"
+
+#~ msgid "tobaccos"
+#~ msgstr "تبغ"
+
+#~ msgid "cattle"
+#~ msgstr "ماشية"
+
+#~ msgid "pigs"
+#~ msgstr "حيوانات"
+
+#~ msgid "cattle for slaughter"
+#~ msgstr "ماشية للذبح"
+
+#~ msgid "pigs for slaughter"
+#~ msgstr "حيوانات للذبح"
+
+#~ msgid "herbs"
+#~ msgstr "أعشاب"
+
+#~ msgid "medical herbs"
+#~ msgstr "أعشاب طبية"
+
+#~ msgid "acorns"
+#~ msgstr "بلوط"
+
+#~ msgid "cannon"
+#~ msgstr "مدفع"
+
+#~ msgid "sword"
+#~ msgstr "سيف"
+
+#~ msgid "grain"
+#~ msgstr "حبوب"
+
+#~ msgid "corn"
+#~ msgstr "ذرة"
+
+#~ msgid "flour"
+#~ msgstr "طحين"
+
+#~ msgid "spice plants"
+#~ msgstr "نبات توابل"
+
+#~ msgid "spices"
+#~ msgstr "توابل"
+
+#~ msgid "condiments"
+#~ msgstr "بهارات"
+
+#~ msgid "marble deposit"
+#~ msgstr "رواسب الرخام"
+
+#~ msgid "marble tops"
+#~ msgstr "قمم رخامية"
+
+#~ msgid "coal deposit"
+#~ msgstr "رواسب الفحم"
+
+#~ msgid "stone deposit"
+#~ msgstr "رواسب الحجارة"
+
+#~ msgid "stone tops"
+#~ msgstr "قمم صخرية"
+
+#~ msgid "cocoa beans"
+#~ msgstr "حبوب الكاكاو"
+
+#~ msgid "cocoa"
+#~ msgstr "كاكاو"
+
+#~ msgid "confectionery"
+#~ msgstr "حلويات"
+
+#~ msgid "candles"
+#~ msgstr "شموع"
+
+#~ msgid "vines"
+#~ msgstr "كروم"
+
+#~ msgid "grapes"
+#~ msgstr "عنب"
+
+#~ msgid "alvearies"
+#~ msgstr "خلايا نحل"
+
+#~ msgid "honeycombs"
+#~ msgstr "أقراص العسل"
+
+#~ msgid "gold deposit"
+#~ msgstr "رواسب الذهب"
+
+#~ msgid "gold ore"
+#~ msgstr "خام الحديد"
+
+#~ msgid "gold ingots"
+#~ msgstr "سبائك الذهب"
+
+#~ msgid "gem deposit"
+#~ msgstr "رواسب الجواهر"
+
+#~ msgid "rough gems"
+#~ msgstr "خام الجواهر"
+
+#~ msgid "gems"
+#~ msgstr "جواهر"
+
+#~ msgid "coffee plants"
+#~ msgstr "نبات القهوة"
+
+#~ msgid "coffee beans"
+#~ msgstr "حبوب القهوة"
+
+#~ msgid "coffee"
+#~ msgstr "قهوة"
+
+#~ msgid "tea plants"
+#~ msgstr "نبات الشاي"
+
+#~ msgid "tea leaves"
+#~ msgstr "أوراق الشاي"
+
+#~ msgid "tea"
+#~ msgstr "شاي"
+
+#~ msgid "flower meadows"
+#~ msgstr "مروج مزهرة"
+
+#~ msgid "blossoms"
+#~ msgstr "زهور"
+
+#~ msgid "brine deposit"
+#~ msgstr "بحيرة مالحة"
+
+#~ msgid "brine"
+#~ msgstr "أجاج"
+
+#~ msgid "whales"
+#~ msgstr "حيتان"
+
+#~ msgid "ambergris"
+#~ msgstr "عنبر"
+
+#~ msgid "lamp oil"
+#~ msgstr "زيت مصباح"
+
+#~ msgid "cotton plants"
+#~ msgstr "نبات القطن"
+
+#~ msgid "cotton"
+#~ msgstr "قطن"
+
+#~ msgid "indigo plants"
+#~ msgstr "نبات النيلة"
+
+#~ msgid "indigo"
+#~ msgstr "نيلة"
+
+#~ msgid "garments"
+#~ msgstr "ملابس"
+
+#~ msgid "perfume"
+#~ msgstr "عطر"
+
+#~ msgid "hop plants"
+#~ msgstr "نبات الجلجل"
+
+#~ msgid "hops"
+#~ msgstr "جلجل"
+
+#~ msgid "beer"
+#~ msgstr "جعة"
+
+#~ msgid "hygiene"
+#~ msgstr "نظافة"
+
+#~ msgid "recreation"
+#~ msgstr "ترفيه"
+
+#~ msgid "blackdeath"
+#~ msgstr "طاعون"
+
+#~ msgid "fire"
+#~ msgstr "نار"
+
+#~ msgid "Aristocrats"
+#~ msgstr "أرستقراطيون"

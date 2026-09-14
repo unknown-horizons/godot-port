@@ -1,0 +1,4466 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Unknown Horizons Team
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
+"POT-Creation-Date: 2017-06-09 23:33+0200\n"
+"PO-Revision-Date: 2021-01-18 07:32+0000\n"
+"Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
+"Language-Team: Estonian <https://hosted.weblate.org/projects/uh/uh/et/>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5-dev\n"
+
+#: Assets/Player/PlayerHUD2.tscn
+msgid "EmptyPanelContainer"
+msgstr ""
+
+#: Assets/UI/BasicControls/Caption.tscn
+msgid "This is a Book Title"
+msgstr ""
+
+#: Assets/UI/BasicControls/CheckBoxEx.tscn
+msgid "Unknown CheckBox:"
+msgstr ""
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#, fuzzy
+msgid "Unknown Slider:"
+msgstr "Salvestuskuupäev teadmata"
+
+#: Assets/UI/BasicControls/HSliderEx.tscn
+#: Assets/UI/BasicControls/InventorySlot.tscn
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#: Assets/UI/TabWidgets/ViewComponents/ProductionBasicInfo.tscn
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+#: Assets/World/Components/ProductionLine/ProductionLineComponent.tscn
+msgid "0"
+msgstr ""
+
+#: Assets/UI/BasicControls/LabelEx.tscn
+#, fuzzy
+msgid "Unknown Label"
+msgstr "Salvestuskuupäev teadmata"
+
+#: Assets/UI/BasicControls/LineEditEx.tscn
+#: Assets/UI/BasicControls/OptionButtonEx.tscn
+#, fuzzy
+msgid "Descriptive Label:"
+msgstr "Kirjeldus: "
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "63000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+msgid "FinanceOverlay"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/BalanceInfoButton.tscn
+#, fuzzy
+msgid "BuildingCostLabel"
+msgstr "Ehitised"
+
+#: Assets/UI/InfoWidgets/BalanceInfoItem.tscn
+msgid "+0"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+#, fuzzy
+msgid "Unknown Town"
+msgstr "Unknown Horizons jooksis kokku."
+
+#: Assets/UI/InfoWidgets/CityInfo.tscn
+msgid "9000"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResInfo.tscn
+msgid "3"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "ResourcesOverlayCustom"
+msgstr ""
+
+#: Assets/UI/InfoWidgets/ResourcesOverlay.tscn
+msgid "BuildingCostResourcesOverlay"
+msgstr ""
+
+#: Assets/UI/Notification/Letter.tscn
+#, fuzzy
+msgid "Dear Unknown Traveller,"
+msgstr "Salvestuskuupäev teadmata"
+
+#: Assets/UI/Notification/Letter.tscn
+msgid ""
+"Unknown Opponent has sent you a message!\n"
+"\n"
+"Roses are red,\n"
+"Violets are blue,\n"
+"Bugs suck,\n"
+"And so do you."
+msgstr ""
+
+#: Assets/UI/Notification/Message.tscn
+msgid "This is a message notification in the actual Message node."
+msgstr ""
+
+#: Assets/UI/Notification/MessageText.tscn
+msgid ""
+"This is a message notification shown in the HUD occurring checked any more "
+"or less important event."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Info"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Greetings, curious visitor and thank you for your interest!"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"This game is in an early state right now and will replace the FIFE version "
+"of Unknown Horizons in the long-term."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"To stay in touch with the latest updates or to report issues, please visit "
+"the official GitHub repository."
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "Further links to get in contact with the developers and the community:"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid ""
+"\t=> [url=https://discord.gg/VX6m2ZX]Discord[/url]\n"
+"\t=> [url=https://forum.freegamedev.net/viewforum.php?f=100]Forum[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "[url=https://www.Unknown-Horizons.org/]www.Unknown-Horizons.org[/url]"
+msgstr ""
+
+#: Assets/UI/Pages/HelpUI/HelpUIInfo.tscn
+msgid "© The Unknown Horizons Team 2008 - 2023"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid "20th November 1740"
+msgstr ""
+
+#: Assets/UI/Pages/LogBookUI/LogbookUIPage.tscn
+msgid ""
+"After four days the storm finally fades and we can take a rest. But we only "
+"have little food left and our ship is in a bad shape. The navigational "
+"instruments and sea charts are lost.\n"
+"We have to come ashore soon. One of my jacks saw some birds hunting for "
+"fish, so land can't be far. Fortunately we always have some tools and boards "
+"onboard, so we can build some basic shelter.\n"
+"\n"
+"Task:\n"
+"Find land and build a port.\n"
+"\n"
+"❗TODO: Dynamically create this text. ☝\n"
+"      See LogbookUI.gd for details."
+msgstr ""
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Single Player"
+msgstr "Üksimäng"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Load Game"
+msgstr "Laadi mäng"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Credits"
+msgstr "Autorid"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Editor"
+msgstr "Redaktor"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Quit"
+msgstr "Välju"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Help"
+msgstr "Abi"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+#, fuzzy
+msgid "Options"
+msgstr "Tegevused"
+
+#: Assets/UI/Pages/MainMenuUI/MainMenuUI.tscn
+msgid "Connect"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "New Game - Single player"
+msgstr "Uus mäng - üks mängija"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Scenario"
+msgstr "Stsenaarium"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Random map"
+msgstr "Juhuslik kaart"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Free play"
+msgstr "Vaba mängimine"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "Unknown Traveller"
+msgstr "Salvestuskuupäev teadmata"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Color:"
+msgstr "Värv:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "AI players:"
+msgstr "TI mängijad:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "01234567"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Choose map to play:"
+msgstr "Vali mängimiseks kaart:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Recommended number of players:"
+msgstr "Soovitatav arv mängijaid: {number}"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "4"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Game settings:"
+msgstr "Mängu seaded:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Resource Density: "
+msgstr "Ressursi rohkus:"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "1.0x"
+msgstr ""
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+#, fuzzy
+msgid "Free Traders"
+msgstr "Vaba kaupleja"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Pirates"
+msgstr "Piraadid"
+
+#: Assets/UI/Pages/NewGameUI/NewGameUIFreePlay.tscn
+msgid "Disasters"
+msgstr "Õnnetused"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Saving"
+msgstr "Salvestamine"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "General"
+msgstr "Üldine"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+#, fuzzy
+msgid "Game language:"
+msgstr "Vali keel:"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Deutsch"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "English"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Francáis"
+msgstr ""
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGame.tscn
+msgid "Mouse"
+msgstr "Hiir"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Graphics"
+msgstr "Graafika"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIGraphicsSound.tscn
+msgid "Sound"
+msgstr "Heli"
+
+#: Assets/UI/Pages/OptionsUI/OptionsUIHotkeys.tscn
+msgid "Hotkeys"
+msgstr "Kiirklahvid"
+
+#: Assets/UI/Pages/QuitGameUI/ExitScene.tscn
+msgid "Game is exiting, please wait..."
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Statistics"
+msgstr "Statistika"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Players"
+msgstr "Mängijad"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My ships"
+msgstr "Minu laevad"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "My settlements"
+msgstr "Minu asulad"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Player scores"
+msgstr "Mängija punktid"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Name"
+msgstr "Nimi"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Money"
+msgstr "Raha"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Land"
+msgstr "Maa"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Resources"
+msgstr "Ressursid"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Buildings"
+msgstr "Ehitised"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlers"
+msgstr "Asunikud"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Units"
+msgstr "Üksused"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "Total"
+msgstr "Kokku"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "140"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+#, fuzzy
+msgid "104"
+msgstr "14t"
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "42"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "543"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "1735"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "30"
+msgstr ""
+
+#: Assets/UI/Pages/StatisticsUI/Statistics.tscn
+msgid "2603"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "InventoryTab"
+msgstr "Kauba nimekiri"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Limit: 30t per slot"
+msgstr "Limiit: {amount}t ava kohta"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "BuySellTab"
+msgstr "Osta/Müü"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Will buy tools for 21 gold/t whenever less than 10t are in stock."
+msgstr ""
+"{resource_name} ostetakse hinnaga {price} kullatükki/ühik, kui laovaru on "
+"väiksem kui {limit} ühikut."
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Trade history"
+msgstr "Kauplemise ajalugu"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "Free Trader"
+msgstr "Vaba kaupleja"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "+8"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+msgid "-4"
+msgstr ""
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "ProductionOverviewTab"
+msgstr "Tootmise ülevaade"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "Unknown Beauty"
+msgstr "Salvestuskuupäev teadmata"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "TradeTab"
+msgstr "Kauple"
+
+#: Assets/UI/TabWidgets/AllTabs.tscn
+#, fuzzy
+msgid "LumberjackOverviewTab"
+msgstr "Puuraiduri Telk"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Settlement"
+msgstr "Koloonia"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Infrastructure"
+msgstr "Infrastruktuur"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Residential"
+msgstr "Elamud"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Services"
+msgstr "Teenused"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Precaution"
+msgstr "Turvalisus"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fields"
+msgstr "Põllud"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Pioneers"
+msgstr "Teerajajad"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Citizens"
+msgstr "Kodanikud"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Agriculture"
+msgstr "Põllumajandus"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sea"
+msgstr "Meri"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Food"
+msgstr "Söök"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Workshops"
+msgstr "Töökojad"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Companies"
+msgstr "Ettevõtted"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Wood"
+msgstr "Puit"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Mining"
+msgstr "Kaevandus"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Fortifications"
+msgstr "Kindlustused"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military Service"
+msgstr "Sõjaväeteenistus"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Aesthetics"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Other buttons"
+msgstr ""
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Sailors"
+msgstr "Meremehed"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+#, fuzzy
+msgid "Residents and Infrastructure\t"
+msgstr "Elanikud ja infrastruktuur"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Military"
+msgstr "Sõjandus"
+
+#: Assets/UI/TabWidgets/BuildingMenuTabWidget.tscn
+msgid "Merchants"
+msgstr "Kaupmehed"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Up"
+msgstr "Mäng peatatud"
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+msgid "1x"
+msgstr ""
+
+#: Assets/UI/TabWidgets/WidgetTop.tscn
+#, fuzzy
+msgid "Game Speed Down"
+msgstr "Mäng peatatud"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+#, fuzzy
+msgid "Account tab"
+msgstr "Konto"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "---"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Income:"
+msgstr "Tulud:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Taxes"
+msgstr "Maksud"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Sale"
+msgstr "Müük"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Expenses:"
+msgstr "Kulud:"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Running costs"
+msgstr "Jooksvad kulud"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Buying"
+msgstr "Ost"
+
+#: Assets/UI/TabWidgets/Views/AccountTab.tscn
+msgid "Balance"
+msgstr "Bilanss"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Upgrade permissions:"
+msgstr "Uuenduste lubamine:"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Happiness per house"
+msgstr "Heaolu majpidamise kohta"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents per house"
+msgstr "Elanikke maja kohta"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Number of inhabitants per house"
+msgstr "Elanike arv maja kohta"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Houses with this amount of inhabitants"
+msgstr "Antud elanikke arvuga majad"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Summary"
+msgstr "Kokkuvõte"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+#, fuzzy
+msgid "Houses"
+msgstr "Maja"
+
+#: Assets/UI/TabWidgets/Views/MainSquareTierTab.tscn
+msgid "Residents"
+msgstr "Elanikke"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+#, fuzzy
+msgid "SettlerOverviewTab"
+msgstr "Asunike Ülevaade"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Tent"
+msgstr "Telk"
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "1/2"
+msgstr ""
+
+#: Assets/UI/TabWidgets/Views/SettlerOverviewTab.tscn
+msgid "Needed resources:"
+msgstr "Vajalikud ressursid:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Taxes:"
+msgstr "Maksud:"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Paid taxes"
+msgstr "Makstavad maksud"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "Tax rate"
+msgstr "Maksumäär"
+
+#: Assets/UI/TabWidgets/Views/TaxesControl.tscn
+msgid "1.0"
+msgstr ""
+
+#: Assets/World/WorldDev2D.tscn Assets/World/WorldDev2D_perf.tscn
+#: Assets/World/WorldDev2D_simple.tscn
+msgid "Tile Debug Info"
+msgstr ""
+
+#: Assets/World/Buildings2/alvearies/alvearies.tscn
+#, fuzzy
+msgid "_ Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
+msgstr ""
+"Kasvatab mesilasi. Toodab maiustuste valmistamiseks meekärgesid. Vajab farmi."
+
+#: Assets/World/Buildings2/ambient/ambient.tscn
+msgid "_ Lookin fine dandelion."
+msgstr ""
+
+#: Assets/World/Buildings2/bakery/bakery.tscn
+#, fuzzy
+msgid "_ Consumes flour. Produces food."
+msgstr "Tarbib jahu. Toodab toitu."
+
+#: Assets/World/Buildings2/barracks/barracks.tscn
+#: Assets/World/Buildings2/dummy/dummy3x3.tscn
+#, fuzzy
+msgid "_ Recruits units suitable for ground combat."
+msgstr "Värbab maapealseks võitluseks sobiva üksuse."
+
+#: Assets/World/Buildings2/barrier/barrier.tscn
+#, fuzzy
+msgid "_ Provides security."
+msgstr "Annab turvalisust."
+
+#: Assets/World/Buildings2/blender/blender.tscn
+#, fuzzy
+msgid "_ Produces condiments out of spices."
+msgstr "Toodab vürtsidest maitseaineid."
+
+#: Assets/World/Buildings2/boat_builder/boat_builder.tscn
+#, fuzzy
+msgid "_ Builds boats and small ships. Built on coast."
+msgstr "Ehitab paate ja väikseid laevu. Ehitatakse rannikule."
+
+#: Assets/World/Buildings2/brewery/brewery.tscn
+#, fuzzy
+msgid "_ Consumes hops. Produces Beer."
+msgstr "Tarbib humalaid. Toodab õlut."
+
+#: Assets/World/Buildings2/brickyard/brickyard.tscn
+#, fuzzy
+msgid "_ Turns clay into bricks."
+msgstr "Valmistab savist telliseid."
+
+#: Assets/World/Buildings2/butchery/butchery.tscn
+#, fuzzy
+msgid "_ Needs pigs or cattle. Produces food."
+msgstr "Vajab sigu või kariloomi. Toodab toitu."
+
+#: Assets/World/Buildings2/cannon_foundry/cannon_foundry.tscn
+#, fuzzy
+msgid "_ Produces Cannons."
+msgstr "Toodab suurtükke."
+
+#: Assets/World/Buildings2/cattle_run/cattle_run.tscn
+#, fuzzy
+msgid "_ Raises cattle. Needs a farm."
+msgstr "Kasvatab kariloomi. Vajab talu."
+
+#: Assets/World/Buildings2/charcoal_burner/charcoal_burner.tscn
+#, fuzzy
+msgid "_ Burns a lot of boards."
+msgstr "Põletab hunnikus laudu."
+
+#: Assets/World/Buildings2/clay_deposit/clay_deposit.tscn
+#: Assets/World/Buildings2/fish_deposit/fish_deposit.tscn
+#: Assets/World/Buildings2/mountain/mountain.tscn
+#: Assets/World/Buildings2/public_bath/public_bath.tscn
+#: Assets/World/Buildings2/settler_ruin/settler_ruin.tscn
+#: Assets/World/Buildings2/stone_deposit/stone_deposit.tscn
+#: Assets/World/Buildings2/warehouse/warehouse.tscn
+msgid "None"
+msgstr "Mitte ühtegi"
+
+#: Assets/World/Buildings2/clay_pit/clay_pit.tscn
+#, fuzzy
+msgid "_ Gets clay from deposit."
+msgstr "Kaevandab savi lasundist."
+
+#: Assets/World/Buildings2/cocoa_field/cocoa_field.tscn
+#, fuzzy
+msgid "_ Produces cocoa beans used for confectionery. Needs a farm."
+msgstr "Toodab maiustuste valmistamiseks kakao ube. Vajab farmi."
+
+#: Assets/World/Buildings2/corn_field/corn_field.tscn
+#, fuzzy
+msgid "_ Yields corn. Needs a farm."
+msgstr "Toodab maisi. Vajab talu."
+
+#: Assets/World/Buildings2/distillery/distillery.tscn
+#, fuzzy
+msgid "_ Turns sugar into liquor."
+msgstr "Valmistab suhkrust alkoholi."
+
+#: Assets/World/Buildings2/doctor/doctor.tscn
+#, fuzzy
+msgid "_ Treats diseases. Consumes medical herbs."
+msgstr "Ravib haiguseid. Tarbib ürte."
+
+#: Assets/World/Buildings2/farm/farm.tscn
+#, fuzzy
+msgid "_ Grows field crops and raises livestock."
+msgstr "Kasvatab põllukultuure ja kariloomi."
+
+#: Assets/World/Buildings2/fire_station/fire_station.tscn
+#, fuzzy
+msgid "_ Extinguishes fires."
+msgstr "Kustutab tulekahjusid."
+
+#: Assets/World/Buildings2/fisher/fisher.tscn
+#, fuzzy
+msgid "_ Fishes the sea, produces food."
+msgstr "Kalastab merel, toodab sööki."
+
+#: Assets/World/Buildings2/herbary/herbary.tscn
+#, fuzzy
+msgid "_ Produces herbs. Needs a farm."
+msgstr "Toodab tubakat. Vajab talu."
+
+#: Assets/World/Buildings2/hop_field/hop_field.tscn
+#, fuzzy
+msgid "_ Yields hop. Needs a farm."
+msgstr "Toodab humalaid. Vajab talu."
+
+#: Assets/World/Buildings2/hunter/hunter.tscn
+#, fuzzy
+msgid "_ Hunts wild forest animals, produces food."
+msgstr "Jahib metsikuid metsloomi, toodab sööki."
+
+#: Assets/World/Buildings2/lookout/lookout.tscn
+#, fuzzy
+msgid "_ Expands settlement range."
+msgstr "Laiendab su koloonia ulatust."
+
+#: Assets/World/Buildings2/lumberjack/lumberjack.tscn
+#, fuzzy
+msgid "_ Chops down trees and turns them into boards."
+msgstr "Langetab puid ja teeb neist laudu."
+
+#: Assets/World/Buildings2/main_square/main_square.tscn
+#, fuzzy
+msgid "_ Supplies citizens with goods. Provides community."
+msgstr "Varustab kodanukke kaupadega. Pakub kogukonna."
+
+#: Assets/World/Buildings2/mine/mine.tscn
+#, fuzzy
+msgid "_ Gets iron ore from deposit."
+msgstr "Kaevandab maaki maardlast."
+
+#: Assets/World/Buildings2/pastry_shop/pastry_shop.tscn
+#, fuzzy
+msgid "_ Produces all kinds of confectionery."
+msgstr "Toodab igasuguseid maiustusi."
+
+#: Assets/World/Buildings2/pasture/pasture.tscn
+#, fuzzy
+msgid "_ Raises sheep. Produces wool. Needs a farm."
+msgstr "Kasvatab lambaid. Toodab villa. Vajab talu."
+
+#: Assets/World/Buildings2/pavilion/pavilion.tscn
+#, fuzzy
+msgid "_ Fulfills religious needs of sailors."
+msgstr "Rahuldab meremeeste religioosseid vajadusi."
+
+#: Assets/World/Buildings2/pigsty/pigsty.tscn
+#, fuzzy
+msgid "_ Raises pigs. Needs a farm."
+msgstr "Kasvatab sigu. Vajab talu."
+
+#: Assets/World/Buildings2/potato_field/potato_field.tscn
+#, fuzzy
+msgid "_ Yields food. Needs a farm."
+msgstr "Toodab sööki. Vajab talu."
+
+#: Assets/World/Buildings2/residential/residential.tscn
+#, fuzzy
+msgid "_ Houses your inhabitants."
+msgstr "Majutab sinu asunikke."
+
+#: Assets/World/Buildings2/saline/saline.tscn
+msgid "Brine + Charcoal = Salt"
+msgstr ""
+
+#: Assets/World/Buildings2/salt_ponds/salt_ponds.tscn
+#, fuzzy
+msgid "_ Evaporates salt. Built on sea coast."
+msgstr "Aurustab veest soola. Ehitatakse rannikule."
+
+#: Assets/World/Buildings2/signal_fire/signal_fire.tscn
+#, fuzzy
+msgid "_ Allows the player to trade with the free trader."
+msgstr "Võimaldab mängijal kubelda vaba kaupmehega."
+
+#: Assets/World/Buildings2/smeltery/smeltery.tscn
+#, fuzzy
+msgid "_ Refines all kind of ores."
+msgstr "Puhastab erinevaid maake."
+
+#: Assets/World/Buildings2/spice_field/spice_field.tscn
+#, fuzzy
+msgid "_ Grows spices. Needs a farm."
+msgstr "Kasvatab vürtse. Vajab farmi."
+
+#: Assets/World/Buildings2/stonemason/stonemason.tscn
+#, fuzzy
+msgid "_ Carves stone tops into bricks."
+msgstr "Raiub kivid tellisteks."
+
+#: Assets/World/Buildings2/stone_pit/stone_pit.tscn
+#, fuzzy
+msgid "_ Gets stone from a mountain."
+msgstr "Murrab mäest kive."
+
+#: Assets/World/Buildings2/storage/storage.tscn
+#, fuzzy
+msgid "_ Extends stock, expands settlement range and provides collectors."
+msgstr "Suurendab kaubavaru, laiendab koloonia ulatust ja varustab kogujatega."
+
+#: Assets/World/Buildings2/sugarcane_field/sugarcane_field.tscn
+#, fuzzy
+msgid "_ Used in liquor production. Needs a farm."
+msgstr "Kasutatakse alkoholi tootmiseks. Vajab talu."
+
+#: Assets/World/Buildings2/tavern/tavern.tscn
+#, fuzzy
+msgid "_ Provides get-together."
+msgstr "Korraldab kokkusaamisi."
+
+#: Assets/World/Buildings2/tobacconist/tobacconist.tscn
+#, fuzzy
+msgid "_ Produces tobaccos out of tobacco."
+msgstr "Toodab tubakatooteid."
+
+#: Assets/World/Buildings2/tobacco_field/tobacco_field.tscn
+#, fuzzy
+msgid "_ Produces tobacco plants. Needs a farm."
+msgstr "Toodab tubakat. Vajab talu."
+
+#: Assets/World/Buildings2/toolmaker/toolmaker.tscn
+#, fuzzy
+msgid "_ Produces tools out of iron."
+msgstr "Toodab rauast tööriistu."
+
+#: Assets/World/Buildings2/trail/trail.tscn
+#, fuzzy
+msgid "_ Needed for collecting goods."
+msgstr "Vajalik kaupade kogumiseks."
+
+#: Assets/World/Buildings2/tree/tree.tscn
+#, fuzzy
+msgid "_ Provides lumber. Chopped down by lumberjacks."
+msgstr "Varustab puiduga. Puuraidurid lõikavad laudadeks."
+
+#: Assets/World/Buildings2/village_school/village_school.tscn
+#, fuzzy
+msgid "_ Provides education."
+msgstr "Annab haridust."
+
+#: Assets/World/Buildings2/vineyard/vineyard.tscn
+#, fuzzy
+msgid "_ Produces grapes for use in wine and confectionery. Needs a farm."
+msgstr "Toodab viinamarju veini ja maiustuste valmistamiseks. Vajab farmi."
+
+#: Assets/World/Buildings2/weaponsmith/weaponsmith.tscn
+#, fuzzy
+msgid "_ Produces weapons out of iron."
+msgstr "Toodab rauast relvi."
+
+#: Assets/World/Buildings2/weaver/weaver.tscn
+#, fuzzy
+msgid "_ Turns lamb wool into textile."
+msgstr "Teeb lambavillast riideid."
+
+#: Assets/World/Buildings2/windmill/windmill.tscn
+#, fuzzy
+msgid "_ Grinds corn into flour."
+msgstr "Jahvatab maisi jahuks."
+
+#: Assets/World/Buildings2/winery/winery.tscn
+#, fuzzy
+msgid "_ Produces wine out of grapes."
+msgstr "Toodab veini viinamarjadest."
+
+#: Assets/World/Buildings2/wooden_tower/wooden_tower.tscn
+#, fuzzy
+msgid "_ Defends your settlement."
+msgstr "Kaitseb sinu kolooniat."
+
+#, fuzzy
+msgid "Unknown Horizons"
+msgstr "Unknown Horizons jooksis kokku."
+
+#~ msgid "Thank you for using Unknown Horizons!"
+#~ msgstr "Täname, et mängisid Unknown Horizons'i!"
+
+#~ msgid "Unknown Horizons has crashed."
+#~ msgstr "Unknown Horizons jooksis kokku."
+
+#~ msgid "We are very sorry for this and want to fix the underlying error."
+#~ msgstr "Meil on sellest väga kahju ning me soovime selle vea parandada."
+
+#~ msgid "In order to do this, we need the information from the logfile:"
+#~ msgstr "Selle tegemiseks vajame informatsiooni logifailist:"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see http://unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Palun edasta see meile IRC kanalil või foorumis; täpsemalt vaata http://"
+#~ "unknown-horizons.org ."
+
+#~ msgid "Return to editor"
+#~ msgstr "Tagasi redaktorisse"
+
+#~ msgid "Save map"
+#~ msgstr "Salvesta kaart"
+
+#~ msgid "Load map"
+#~ msgstr "Lae kaart"
+
+#~ msgid "Settings"
+#~ msgstr "Seaded"
+
+#~ msgid "Exit editor"
+#~ msgstr "Välju redaktorist"
+
+#~ msgid "Select brush size:"
+#~ msgstr "Vali pintsli suurus:"
+
+#~ msgid "Select terrain:"
+#~ msgstr "Vali maastik:"
+
+#~ msgid "(right click to stop)"
+#~ msgstr "(paremklõps lõpetab)"
+
+#~ msgid "Game start"
+#~ msgstr "Mängu algus"
+
+#~ msgid "You need to found a settlement before you can construct buildings!"
+#~ msgstr "Sa pead asutama koloonia enne ehitiste rajamist!"
+
+#~ msgid "Select your ship and approach the coast via right-click."
+#~ msgstr "Vali oma laev ja lähene rannikule vajutades parempoolset nuppu."
+
+#~ msgid "Afterwards, press the large button in the ship overview tab."
+#~ msgstr "Järgnevalt vajuta laeva ülevaate paneelil suurt nuppu."
+
+#~ msgid "Build"
+#~ msgstr "Ehita"
+
+#~ msgid "Running costs:"
+#~ msgstr "Jooksvad kulud:"
+
+#~ msgid "Related buildings"
+#~ msgstr "Seotud ehitised"
+
+#~ msgid "Inhabitants"
+#~ msgstr "Elanikud"
+
+#, python-brace-format
+#~ msgid "Increase game speed ({key})"
+#~ msgstr "Kiirenda mängu ({key})"
+
+#, python-brace-format
+#~ msgid "Decrease game speed ({key})"
+#~ msgstr "Aeglusta mängu ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map counterclockwise ({key})"
+#~ msgstr "Keera kaarti vastupäeva ({key})"
+
+#, python-brace-format
+#~ msgid "Rotate map clockwise ({key})"
+#~ msgstr "Keera kaarti päripäeva ({key})"
+
+#~ msgid "Zoom in"
+#~ msgstr "Suurenda"
+
+#~ msgid "Zoom out"
+#~ msgstr "Vähenda"
+
+#, python-brace-format
+#~ msgid "Destroy ({key})"
+#~ msgstr "Lammuta ({key})"
+
+#, python-brace-format
+#~ msgid "Captain's log ({key})"
+#~ msgstr "Kapteni logiraamat ({key})"
+
+#, python-brace-format
+#~ msgid "Build menu ({key})"
+#~ msgstr "Ehitiste menüü ({key})"
+
+#~ msgid "Diplomacy"
+#~ msgstr "Diplomaatia"
+
+#, python-brace-format
+#~ msgid "Game menu ({key})"
+#~ msgstr "Mängu menüü ({key})"
+
+#~ msgid "Change name"
+#~ msgstr "Muuda nime"
+
+#~ msgid "Old name:"
+#~ msgstr "Vana nimi:"
+
+#~ msgid "Enter new name:"
+#~ msgstr "Sisesta uus nimi:"
+
+#~ msgid "Apply the new name"
+#~ msgstr "Rakenda uus nimi"
+
+#~ msgid "Chat"
+#~ msgstr "Vestlus"
+
+#~ msgid "Enter your message:"
+#~ msgstr "Sisesta oma sõnum:"
+
+#~ msgid ""
+#~ "To build a groundunit, click on one of the class tabs, select the desired "
+#~ "groundunit and confirm the order."
+#~ msgstr ""
+#~ "Maaüksuse ehitamiseks klõpsa ühel klassi sakkidest, vali soovitud üksus "
+#~ "ja kinnita tellimus."
+
+#~ msgid "Currently building:"
+#~ msgstr "Hetkel ehitamisel:"
+
+#~ msgid "Pause"
+#~ msgstr "Paus"
+
+#~ msgid "Resume"
+#~ msgstr "Jätka"
+
+#~ msgid "Construction progress:"
+#~ msgstr "Ehitamise progress:"
+
+#~ msgid "Resources still needed:"
+#~ msgstr "Veel vajaminevad ressursid:"
+
+#~ msgid "Cancel building:"
+#~ msgstr "Katkesta ehitamine:"
+
+#~ msgid "(lose all resources)"
+#~ msgstr "(kaotad kõik ressursid)"
+
+#~ msgid "Cancel all building progress"
+#~ msgstr "Katkesta kõik ehitusprotsessid"
+
+#~ msgid "Confirm order"
+#~ msgstr "Kinnita tellimus"
+
+#~ msgid "(like in the selection tabs)"
+#~ msgstr "(nagu valiku vahelehtedel)"
+
+#~ msgid "$res"
+#~ msgstr "$res"
+
+#~ msgid "24t"
+#~ msgstr "24t"
+
+#~ msgid "06t"
+#~ msgstr "06t"
+
+#~ msgid "2500"
+#~ msgstr "2500"
+
+#~ msgid "Sloop-o'-war"
+#~ msgstr "Sloop-o'-war"
+
+#~ msgid "Three-masted most common classified war ship with one gun deck."
+#~ msgstr ""
+#~ "Kolmemastiline kõige harilikum salastatud sõjalaev, millel on üks "
+#~ "relvatekk."
+
+#~ msgid "Buy Upgrades"
+#~ msgstr "Osta uuendused"
+
+#~ msgid "Cannons"
+#~ msgstr "Kahurid"
+
+#~ msgid "Hull"
+#~ msgstr "Kere"
+
+#~ msgid "+ 24t"
+#~ msgstr "+ 24t"
+
+#~ msgid "+ 14t"
+#~ msgstr "+ 14t"
+
+#~ msgid "+ 06t"
+#~ msgstr "+ 06t"
+
+#~ msgid "+ 1457"
+#~ msgstr "+ 1457"
+
+#~ msgid "Build groundunit:"
+#~ msgstr "Ehita maaüksus:"
+
+#~ msgid "Build this groundunit!"
+#~ msgstr "Ehita see maaüksus!"
+
+#~ msgid ""
+#~ "To build a boat, click on one of the class tabs, select the desired ship "
+#~ "and confirm the order."
+#~ msgstr ""
+#~ "Laeva ehitamiseks klõpsa laeva klassi kaardil, vali soovitud laev ja "
+#~ "kinnita tellimus."
+
+#~ msgid "Build ship:"
+#~ msgstr "Ehita laev:"
+
+#~ msgid "Build this ship!"
+#~ msgstr "Ehita see laev!"
+
+#~ msgid "ally"
+#~ msgstr "liitlane"
+
+#~ msgid "neutral"
+#~ msgstr "neutraalne"
+
+#~ msgid "enemy"
+#~ msgstr "vaenlane"
+
+#~ msgid "Building overview"
+#~ msgstr "Ehitise ülevaade"
+
+#~ msgid "Capacity utilization"
+#~ msgstr "Tootmisvõimsuse kasutamine"
+
+#~ msgid "Click to change the name of this groundunit"
+#~ msgstr "Klõpsa selle maaüksuse nime muutmiseks"
+
+#~ msgid "Settlement inventory"
+#~ msgstr "Koloonia inventar"
+
+#~ msgid "Settler overview"
+#~ msgstr "Asunike ülevaade"
+
+#~ msgid "sad"
+#~ msgstr "kurb"
+
+#~ msgid "satisfied"
+#~ msgstr "rahulolev"
+
+#~ msgid "happy"
+#~ msgstr "õnnelik"
+
+#~ msgid "Amount of houses with this happiness"
+#~ msgstr "Antud heaoluga majapidamiste arv"
+
+#~ msgid "houses"
+#~ msgstr "majad"
+
+#~ msgid "residents"
+#~ msgstr "elanikke"
+
+#~ msgid "Provides security for your settlement."
+#~ msgstr "Turvab sinu kolooniat."
+
+#~ msgid "Selling"
+#~ msgstr "Müügis"
+
+#~ msgid "Name:"
+#~ msgstr "Nimi:"
+
+#~ msgid "Weapons:"
+#~ msgstr "Relvad:"
+
+#~ msgid "Resource deposit"
+#~ msgstr "Ressursi lasund"
+
+#~ msgid ""
+#~ "This is a resource deposit where you can build a mine to dig up resources."
+#~ msgstr ""
+#~ "See on ressursi lasund, kuhu saad ehitada kaevanduse ressursi "
+#~ "kaevandamiseks."
+
+#~ msgid "It contains these resources:"
+#~ msgstr "See sisaldab neid ressursse:"
+
+#~ msgid "Click to change the name of your settlement"
+#~ msgstr "Klõpsa koloonia nime muutmiseks"
+
+#~ msgid "Happiness"
+#~ msgstr "Õnnelikkus"
+
+#~ msgid ""
+#~ "The signal fire shows the free trader how to reach your settlement in "
+#~ "case you want to buy or sell goods."
+#~ msgstr ""
+#~ "Signaalituli näitab vabale kaupmehele kuidas sinu kolooniani jõuda, "
+#~ "juhuks kui sa soovid kaupu osta või müüa."
+
+#~ msgid ""
+#~ "This is the free trader's ship. It will visit you from time to time to "
+#~ "buy or sell goods."
+#~ msgstr ""
+#~ "See on vaba kaupmehe laev. See külastab sind aegajalt ostmaks või müümaks "
+#~ "kaupu."
+
+#~ msgid "Click to change the name of this ship"
+#~ msgstr "Klõpsa selle laeva nime muutmiseks"
+
+#~ msgid "Build settlement"
+#~ msgstr "Ehita koloonia"
+
+#~ msgid "Configure trading route"
+#~ msgstr "Seadista kaubatee"
+
+#~ msgid "Discard all resources"
+#~ msgstr "Vabane kõigist ressursidest"
+
+#~ msgid "Ship:"
+#~ msgstr "Laev:"
+
+#~ msgid "Exchange:"
+#~ msgstr "Vaheta:"
+
+#~ msgid "Trade partner:"
+#~ msgstr "Kaubanduspartner:"
+
+#~ msgid "Buy or sell resources"
+#~ msgstr "Osta või müü resursse"
+
+#~ msgid "Select resources:"
+#~ msgstr "Vali ressursid:"
+
+#~ msgid "Collector utilization"
+#~ msgstr "Koguja kasutus"
+
+#~ msgid "Balance:"
+#~ msgstr "Bilanss:"
+
+#~ msgid "Show resources produced in this settlement"
+#~ msgstr "Näita koloonia poolt toodetud ressursse"
+
+#~ msgid "Pause production"
+#~ msgstr "Peata tootmine"
+
+#~ msgid "Start production"
+#~ msgstr "Jätka tootmist"
+
+#~ msgid "Select resource:"
+#~ msgstr "Vali ressurss:"
+
+#~ msgid ""
+#~ "The resource you select is displayed instead of the current one. Empty by "
+#~ "clicking on X."
+#~ msgstr ""
+#~ "Praeguse ressursi asemel kuvatakse sinu valitut. Klõps X peal tühjendab."
+
+#~ msgid "Save current resource configuration as default for all settlements."
+#~ msgstr ""
+#~ "Salvesta antud ressurssi konfiguratsioon vaikimisi kõigile asulatele."
+
+#~ msgid "Reset default resource configuration for all settlements."
+#~ msgstr "Taasta vaikimisi ressursside konfiguratsioon kõigile asulatele."
+
+#~ msgid "Move up"
+#~ msgstr "Liiguta üles"
+
+#~ msgid "Delete entry"
+#~ msgstr "Kustuta kaubatee"
+
+#~ msgid "Move down"
+#~ msgstr "Liiguta alla"
+
+#~ msgid "Read previous entries"
+#~ msgstr "Loe eelnevaid sissekandeid"
+
+#~ msgid "Read next entries"
+#~ msgstr "Loe järgnevaid sissekandeid"
+
+#~ msgid "Game messages"
+#~ msgstr "Mängu teated"
+
+#~ msgid "Whole world"
+#~ msgstr "Terve maailm"
+
+#~ msgid "Everybody"
+#~ msgstr "Igaüks"
+
+#~ msgid "Sends the chat messages to all players."
+#~ msgstr "Saadab vestluse teated kõigile mängijatele."
+
+#~ msgid "Enter your message here"
+#~ msgstr "Sisesta oma sõnum siia"
+
+#~ msgid "Return to game"
+#~ msgstr "Tagasi mängu"
+
+#~ msgid "Island Name:"
+#~ msgstr "Saare nimi:"
+
+#~ msgid "Player Name:"
+#~ msgstr "Mängija nimi:"
+
+#~ msgid "Wait at load:"
+#~ msgstr "Oota:"
+
+#~ msgid "Wait at unload:"
+#~ msgstr "Oota:"
+
+#~ msgid "Select a resource:"
+#~ msgstr "Vali ressurss:"
+
+#~ msgid "Route activity:"
+#~ msgstr "Tee kasutus:"
+
+#~ msgid "Start route"
+#~ msgstr "Teekonna algus"
+
+#~ msgid "Exit"
+#~ msgstr "Välju"
+
+#~ msgid "Go to previous page"
+#~ msgstr "Mine eelmisele lehele"
+
+#~ msgid "Go to next page"
+#~ msgstr "Mine järgmisele lehele"
+
+#~ msgid "Close"
+#~ msgstr "Sulge"
+
+#~ msgid "Player Name"
+#~ msgstr "Mängija Nimi"
+
+#~ msgid "Player's current treasury + income expected in near future"
+#~ msgstr "Mängija praegune varandus + eeldatav sissetulek lähemal ajal"
+
+#~ msgid ""
+#~ "Value of usable land i.e Amount of Land that can be used to create "
+#~ "buildings"
+#~ msgstr ""
+#~ "Kasutatava maa väärtus st. Maa kogus mida saab kasutada ehitiste "
+#~ "rajamiseks"
+
+#~ msgid ""
+#~ "Value of resources generated from all the possible sources in the "
+#~ "player's settlement(s)"
+#~ msgstr ""
+#~ "Mängija koloonia(te)s kõigist allikaist loodavate ressursside koguväärtus"
+
+#~ msgid "Value of all the buildings in the player's settlement(s)"
+#~ msgstr "Ehitiste väärtus mängija asula(te)s"
+
+#~ msgid ""
+#~ "Value denoting the progress of the settlement(s) in terms of inhabitants, "
+#~ "buildings and overall happiness"
+#~ msgstr ""
+#~ "Koloonia(te) elanike, ehitiste ja üldise heaolu edenemist ilmestav väärtus"
+
+#~ msgid "Value of all the units owned by the player"
+#~ msgstr "Mängija kõigi üksuste väärtus"
+
+#~ msgid ""
+#~ "The total value from all individual entities or in short : Total Player "
+#~ "Score"
+#~ msgstr "Kõigi üksikute punktide kogusumma, ehk mängija täistulemus"
+
+#~ msgid "Type"
+#~ msgstr "Tüüp"
+
+#~ msgid "Weapons"
+#~ msgstr "Relvad"
+
+#~ msgid "Health"
+#~ msgstr "Elud"
+
+#~ msgid "Status"
+#~ msgstr "Olek"
+
+#~ msgid "Aggressive"
+#~ msgstr "Agresiivne"
+
+#~ msgid "Hold ground"
+#~ msgstr "Hoia positsiooni"
+
+#~ msgid "Passive"
+#~ msgstr "Pasiivne"
+
+#~ msgid "Flee"
+#~ msgstr "Põgene"
+
+#~ msgid "Exit to main menu"
+#~ msgstr "Välju peamenüüsse"
+
+#~ msgid "Choose a map size:"
+#~ msgstr "Vali kaardi suurus:"
+
+#~ msgid "Choose a map:"
+#~ msgstr "Vali kaart:"
+
+#~ msgid "Choose a saved game's map:"
+#~ msgstr "Vali salvestatud mängu kaart:"
+
+#~ msgid "Select map source"
+#~ msgstr "Vali kaardi allikas"
+
+#~ msgid "Create new map"
+#~ msgstr "Loo uus kaart"
+
+#~ msgid "Load existing map"
+#~ msgstr "Laadi olemasolev kaart"
+
+#~ msgid "Load saved game's map"
+#~ msgstr "Laadi salvestatud mängu kaart"
+
+#~ msgid "Start editor"
+#~ msgstr "Käivita redaktor"
+
+#~ msgid "Return"
+#~ msgstr "Tagasi"
+
+#~ msgid "Scroll left"
+#~ msgstr "Nihuta vasakule"
+
+#~ msgid "Scroll right"
+#~ msgstr "Nihuta paremale"
+
+#~ msgid "Scroll up"
+#~ msgstr "Nihuta ülesse"
+
+#~ msgid "Scroll down"
+#~ msgstr "Nihuta alla"
+
+#~ msgid "Rotate building or map clockwise"
+#~ msgstr "Keera kaarti või ehitist päripäeva"
+
+#~ msgid "Rotate building or map counterclockwise"
+#~ msgstr "Keera kaarti või ehitist vastupäeva"
+
+#~ msgid "Increase game speed"
+#~ msgstr "Kiirenda mängu"
+
+#~ msgid "Decrease game speed"
+#~ msgstr "Aeglusta mängu"
+
+#~ msgid "Pause game"
+#~ msgstr "Peata mäng"
+
+#~ msgid "Show build menu"
+#~ msgstr "Näita ehitamise menüüd"
+
+#~ msgid "Enable destruct mode"
+#~ msgstr "Luba lammutamise režiim"
+
+#~ msgid "Enable road building mode"
+#~ msgstr "Luba teede rajamine"
+
+#~ msgid "Enable pipette mode (clone buildings)"
+#~ msgstr "Luba pipeti režiim (ehitiste kloonimine)"
+
+#~ msgid "Show player scores"
+#~ msgstr "Näita mängijate punkte"
+
+# ainsus /mitmus?
+#~ msgid "Show settlement list"
+#~ msgstr "Näita kolooniate nimekirja"
+
+# ainsus/mitmus?
+#~ msgid "Show ship list"
+#~ msgstr "Näita laevade nimekirja"
+
+#~ msgid "Toggle Captain's log"
+#~ msgstr "Lahku Kapteni logist"
+
+#~ msgid "Quicksave"
+#~ msgstr "Kiirsalvestus"
+
+#~ msgid "Quickload"
+#~ msgstr "Kiirlaadimine"
+
+#~ msgid "Toggle translucency of ambient buildings"
+#~ msgstr "Lülita ümbritsevate ehitiste läbikumavus"
+
+#~ msgid "Highlight tile ownership"
+#~ msgstr "Too esile maa-ala omanik"
+
+#~ msgid "Toggle health bars"
+#~ msgstr "Lülita terviseribad"
+
+#~ msgid "Focus camera on selection"
+#~ msgstr "Suuna kaamera valikule"
+
+#~ msgid "Remove selected units / buildings"
+#~ msgstr "Eemalva valitud üksused / ehitised"
+
+#~ msgid "Display help"
+#~ msgstr "Näita abi"
+
+#~ msgid "Screenshot"
+#~ msgstr "Ekraanipilt"
+
+#~ msgid "Toggle showing FPS on/off"
+#~ msgstr "Lülita alusvõrk sisse/välja"
+
+#~ msgid "Toggle grid on/off"
+#~ msgstr "Lülita alusvõrk sisse/välja"
+
+#~ msgid "Show coordinate values (Debug)"
+#~ msgstr "Näita koordinaatide väärtusi (Silumine)"
+
+#~ msgid "Primary"
+#~ msgstr "Esmane"
+
+#~ msgid "Secondary"
+#~ msgstr "Sekundaarne"
+
+#~ msgid "Reset to default"
+#~ msgstr "Taasta vaikeseaded"
+
+#~ msgid "Reset to default keys"
+#~ msgstr "Taasta vaikeklahvid"
+
+#~ msgid "Save game"
+#~ msgstr "Salvesta mäng"
+
+#~ msgid "Cancel game"
+#~ msgstr "Katkesta mäng"
+
+#~ msgid "Loading…"
+#~ msgstr "Laadimine…"
+
+#~ msgid "Change Background"
+#~ msgstr "Vaheta taustapilt"
+
+#~ msgid "Multiplayer"
+#~ msgstr "Mitmemäng"
+
+#~ msgid "Create game - Multiplayer"
+#~ msgstr "Loo mäng - Mitmemäng"
+
+#~ msgid "Player limit:"
+#~ msgstr "Mängijate limiit:"
+
+#~ msgid "Exit to multiplayer menu"
+#~ msgstr "Välju mitmemängu menüüsse"
+
+#~ msgid "Name of the game:"
+#~ msgstr "Mängu nimi:"
+
+#~ msgid "This will be displayed to other players so they recognize the game."
+#~ msgstr "Seda näidatakse teistele mängijatele, et nad mängu ära tunneksid."
+
+#~ msgid "Unnamed Game"
+#~ msgstr "Laadi mäng"
+
+#~ msgid "Password of the game:"
+#~ msgstr "Mängu parool:"
+
+#~ msgid "This game's password. Required to join this game."
+#~ msgstr "Selle mängu parool. Vajalik mänguga liitumiseks."
+
+#~ msgid "Create this new game"
+#~ msgstr "Loo uus mäng"
+
+#~ msgid "Gamelobby"
+#~ msgstr "Mängu ooteruum"
+
+#~ msgid "Chat:"
+#~ msgstr "Vestlus:"
+
+#~ msgid "Exit gamelobby"
+#~ msgstr "Välju mängu ooteruumist"
+
+#~ msgid "The game will start as soon as all players are ready."
+#~ msgstr "See mäng algab niipea kui kõik mängijad on valmis."
+
+#~ msgid "Game details:"
+#~ msgstr "Mängu detailid:"
+
+#~ msgid "Color"
+#~ msgstr "Värvus"
+
+#~ msgid "Ready:"
+#~ msgstr "Valmis:"
+
+#~ msgid "Sets your state to ready (necessary for the game to start)"
+#~ msgstr "Määrab su olekuks valmis (vajalik mängu alustamiseks)"
+
+#~ msgid "New game - Multiplayer"
+#~ msgstr "Uus mitmekasutaja mäng"
+
+#~ msgid "Load game:"
+#~ msgstr "Laadi mäng:"
+
+#~ msgid "Load a saved game"
+#~ msgstr "Laadi salvestatud mäng"
+
+#~ msgid "Active games:"
+#~ msgstr "Aktiivsed mängud:"
+
+#~ msgid "Refresh list:"
+#~ msgstr "Värskenda nimekirja:"
+
+#~ msgid "Refresh list of active games"
+#~ msgstr "Värskenda aktiivsete mängude nimekirja"
+
+#~ msgid "Create game:"
+#~ msgstr "Loo mäng:"
+
+#~ msgid "Create a new game"
+#~ msgstr "Loo uus mäng"
+
+#~ msgid "Join game:"
+#~ msgstr "Liitu mänguga:"
+
+#~ msgid "Join the selected game"
+#~ msgstr "Liitu valitud mänguga"
+
+#~ msgid "Change player details"
+#~ msgstr "Muuda mängija üksikasju"
+
+#~ msgid "Screen resolution:"
+#~ msgstr "Ekraani resolutsioon:"
+
+#~ msgid "Full screen:"
+#~ msgstr "Täisekraan:"
+
+#~ msgid "Frame rate limit:"
+#~ msgstr "Suurim kaadrisagedus:"
+
+#~ msgid "Set the maximum frame rate used. Default: 60 fps."
+#~ msgstr ""
+#~ "Määrab suurima kaardisageduse, mida kasutatakse; vaikimisi 60 kaadrit "
+#~ "sekundis."
+
+#~ msgid "Music volume:"
+#~ msgstr "Muusika helitugevus:"
+
+#~ msgid "Effects volume:"
+#~ msgstr "Effektide helitugevus:"
+
+#~ msgid "Enable sound:"
+#~ msgstr "Luba heli:"
+
+#~ msgid "Scroll at map edge:"
+#~ msgstr "Kerimine kaardi ääres:"
+
+#~ msgid ""
+#~ "Whether to move the viewport when the mouse pointer is close to map edges"
+#~ msgstr "Kas liigutada vaadet, kui hiire kursor jõuab kaardi serva lähedale"
+
+#~ msgid "Cursor centered zoom:"
+#~ msgstr "Kursoriga tsentreeritud suurendus:"
+
+#~ msgid ""
+#~ "When enabled, mouse wheel zoom will use the cursor position as new "
+#~ "viewport center. When disabled, always zoom to current viewport center."
+#~ msgstr ""
+#~ "Kui see on lubatud, siis kasutatakse hiire rattaga suurendamisel vaate "
+#~ "keskmena kursori asukohta. Kui on keelatud, siis suurendatakse alati "
+#~ "vaate keskkohast."
+
+#~ msgid "Middle mouse button pan:"
+#~ msgstr "Panoraam hiire keskmise klahviga:"
+
+#~ msgid "When enabled, dragging the middle mouse button will pan the camera"
+#~ msgstr ""
+#~ "Kui lubatud, siis saab hiire keskmise klahviga lohistada kaamera teise "
+#~ "kohta"
+
+#~ msgid "0 is default system settings"
+#~ msgstr "0 on süsteemi vaikeseaded"
+
+#~ msgid "Mouse sensitivity:"
+#~ msgstr "Hiire tundlikkus:"
+
+#~ msgid "Autosave interval in minutes:"
+#~ msgstr "Automaatse salvestuse intervall minutites:"
+
+#~ msgid "Number of autosaves:"
+#~ msgstr "Automaatsete salvestuste arv:"
+
+#~ msgid "Number of quicksaves:"
+#~ msgstr "Kiirsalvestuste arv:"
+
+#~ msgid "Language"
+#~ msgstr "Keel"
+
+#~ msgid "Rotate minimap with map:"
+#~ msgstr "Suure ja mini kaardi korraga pööramine:"
+
+#~ msgid ""
+#~ "Whether to also rotate the minimap whenever the regular map is rotated"
+#~ msgstr "Kas pöörata ka mini kaarti, kuitoimub suure kaardi pööramine"
+
+#~ msgid "Uninterrupted building:"
+#~ msgstr "Ehitamist ei segata:"
+
+#~ msgid ""
+#~ "When enabled, do not exit the build mode after successful construction"
+#~ msgstr ""
+#~ "Kui lubatud, siis jäädakse pärast ehitise valmimist edasi ehitamise "
+#~ "režiimist"
+
+#~ msgid "Auto-unload ship:"
+#~ msgstr "Laeva automaatne lossimine:"
+
+#~ msgid "Whether to unload the ship after founding a settlement"
+#~ msgstr "Kas lossida laev pärast koloonia asutamist"
+
+#~ msgid ""
+#~ "Don't use in normal game session. Decides whether to write debug "
+#~ "information in the logging directory of your user directory. Slows the "
+#~ "game down."
+#~ msgstr ""
+#~ "Tavaliselt mängides ära kasuta. See määrab, kas silumisteavet "
+#~ "salvestatakse su kodukataloogis logide kataloogi või mitte. Teeb mängu "
+#~ "aeglaseks."
+
+#~ msgid "Enable logging:"
+#~ msgstr "Luba logimine:"
+
+#~ msgid "Production indicators:"
+#~ msgstr "Tootmise indikaatorid:"
+
+#~ msgid ""
+#~ "Whether to show resource icons over buildings whenever they finish "
+#~ "production"
+#~ msgstr ""
+#~ "Kas kuvada ressurssude ikoonid ehitistel, kui nad tootmise lõpetavad"
+
+#~ msgid "Higher values slow down scrolling."
+#~ msgstr "Suuremad väärtused muudavad kerimise aeglaseks."
+
+#~ msgid "Scroll delay:"
+#~ msgstr "Kerimise viide:"
+
+#~ msgid "Choose a quote type:"
+#~ msgstr "Vali tsitaadi tüüp:"
+
+#~ msgid "What kind of quote to display while loading a game"
+#~ msgstr "Mängu laadimisel kuvatav tsitaat"
+
+#~ msgid "Network"
+#~ msgstr "Võrk"
+
+#~ msgid "If set to 0, use the router default"
+#~ msgstr "Kui väärtuseks on 0, kasutatakse marsruuteri vaikeseadeid"
+
+#~ msgid "Network port:"
+#~ msgstr "Võrgu port:"
+
+#~ msgid "Discard current changes"
+#~ msgstr "Tühista viimased muudatused"
+
+#~ msgid "Reset to default settings"
+#~ msgstr "Taasta algseaded"
+
+#~ msgid "Save changes"
+#~ msgstr "Salvesta muudatused"
+
+#~ msgid "Your saved games:"
+#~ msgstr "Sinu salvestatud mängud:"
+
+#~ msgid "Password of the game. Required to join this game"
+#~ msgstr "Mängu salasõna. Vajalik mänguga liitumiseks"
+
+#~ msgid "Cancel"
+#~ msgstr "Tühista"
+
+#~ msgid "Enter filename:"
+#~ msgstr "Sisesta failinimi:"
+
+#~ msgid "Details:"
+#~ msgstr "Detailid:"
+
+#~ msgid "Delete selected savegame"
+#~ msgstr "Kustuta valitud salvestatud mäng"
+
+#~ msgid "Start game"
+#~ msgstr "Alusta mängu"
+
+#~ msgid "Map settings:"
+#~ msgstr "Kaardi seaded:"
+
+#~ msgid "Seed:"
+#~ msgstr "Kaart:"
+
+#~ msgid "Select a language:"
+#~ msgstr "Vali keel:"
+
+#~ msgid "Player name:"
+#~ msgstr "Mängija nimi:"
+
+#~ msgid "Invalid filename"
+#~ msgstr "Vigane failinimi"
+
+#~ msgid "Received an invalid filename for a save command."
+#~ msgstr "Salvestamiseks anti vigane faili nimi."
+
+#~ msgid "Error"
+#~ msgstr "Viga"
+
+#~ msgid "Failed to save."
+#~ msgstr "Salvestamine ebaõnnestus."
+
+#~ msgid "The trade partner does not sell this."
+#~ msgstr "Kaubanduspartner ei müü seda."
+
+#~ msgid "You can not store this."
+#~ msgstr "Sa ei saa seda salvestada."
+
+#~ msgid "You can not afford to buy this."
+#~ msgstr "Selle ostmiseks sul raha ei ole."
+
+#~ msgid "The trade partner does not sell more of this."
+#~ msgstr "Kaubanduspartner ei müü seda rohkem."
+
+#~ msgid "The trade partner does not buy this."
+#~ msgstr "Kaubanduspartner ei osta seda."
+
+#~ msgid "You do not possess this."
+#~ msgstr "Sul ei ole seda."
+
+#~ msgid "The trade partner can not store more of this."
+#~ msgstr "Kaubanduspartner ei saa seda rohkem talletada."
+
+#~ msgid "The trade partner can not afford to buy this."
+#~ msgstr "Kaubanduspartneril ei ole selle ostmiseks raha."
+
+#~ msgid "The trade partner does not buy more of this."
+#~ msgstr "Kaubanduspartner ei osta seda rohkem."
+
+#~ msgid "Failed to quicksave."
+#~ msgstr "Kiirsalvestus ebaõnnestus."
+
+#~ msgid "An error happened during quicksave."
+#~ msgstr "Kiirsalvestamisel toimus viga."
+
+#~ msgid "Your map has not been saved."
+#~ msgstr "Sinu kaarti ei salvestatud."
+
+#, python-brace-format
+#~ msgid ""
+#~ "If this error happens again, please contact the development team: "
+#~ "{website}"
+#~ msgstr ""
+#~ "Kui see viga juhtub uuesti, siis võta palun arendajatega ühendust: "
+#~ "{website}"
+
+#~ msgid "Are you sure you want to quit Unknown Horizons?"
+#~ msgstr "Oled sa kindel, et soovid väljuda Unknown Horizons'ist?"
+
+#~ msgid "Quit Game"
+#~ msgstr "Välju mängust"
+
+#~ msgid "No diplomacy possible"
+#~ msgstr "Diplomaatia pole võimalik"
+
+#~ msgid "Cannot do diplomacy as there are no other players."
+#~ msgstr "Ei saa diplomaatiat rakendada kuna puuduvad teised mängijad."
+
+#~ msgid "Are you sure you want to delete these objects?"
+#~ msgstr "Oled sa kindel, et soovid kustutada need objektid?"
+
+#~ msgid "Delete"
+#~ msgstr "Kustuta"
+
+#, python-brace-format
+#~ msgid "{size}x{size} tiles"
+#~ msgstr "{size}x{size} ruutu"
+
+#~ msgid "Press key…"
+#~ msgstr "Vajuta klahvi…"
+
+#, python-brace-format
+#~ msgid "{key} is already set to {action}."
+#~ msgstr "{key} on juba kasutusel: {action}."
+
+#~ msgid "Would you like to overwrite it?"
+#~ msgstr "Kas sa soovid selle ülekirjutada?"
+
+#~ msgid "Confirmation for overwriting"
+#~ msgstr "Ülekirjutamise kinnitus"
+
+#~ msgid "Quotes"
+#~ msgstr "Tsitaadid"
+
+#~ msgid "Gameplay Tips"
+#~ msgstr "Mängu vihjed"
+
+#~ msgid "Press 'ESC' to access Game Menu."
+#~ msgstr "Mängu menüü avamiseks vajuta 'ESC'."
+
+#~ msgid "Use 'SHIFT' to place multiple buildings."
+#~ msgstr "Mitme ehitise paigutamiseks hoia all 'SHIFT'."
+
+#, python-brace-format
+#~ msgid "Currently only the first {tier} tiers are playable."
+#~ msgstr "Hetkel on mängitavad ainult esimesed {tier} taset."
+
+#~ msgid "You can pause the game with 'P'."
+#~ msgstr "Mängu peatamiseks vajuta 'P'."
+
+#~ msgid "You can drag roads by holding the left mouse button."
+#~ msgstr "Teid saad vedada hoides all hiire vasakut nuppu."
+
+#~ msgid "You can build multiple buildings by holding the 'SHIFT' key."
+#~ msgstr "Sa saad ehitada mitu ehitist, kui hoiad all klahvi 'SHIFT'."
+
+#~ msgid ""
+#~ "You can increase the happiness of your inhabitants by lowering the taxes."
+#~ msgstr "Makse alandades saad sa parandada elanike heaolu."
+
+#~ msgid ""
+#~ "Build fire stations and doctors to protect your inhabitants from fire and "
+#~ "disease."
+#~ msgstr ""
+#~ "Ehita tuletõrje jaamu ja arste, et kaitsta elanikke tulest ja haigustest."
+
+#~ msgid "Build storage tents to increase your storage capacity."
+#~ msgstr "Ehita laotelke, et suurendada ladustamise pinda."
+
+#~ msgid "Make sure every house is in range of a marketplace."
+#~ msgstr "Kõik majad peaksid olema turuplatsi ulatuses."
+
+#~ msgid "Press 'T' to make trees transparent."
+#~ msgstr "Vajuta 'T', et muuta puud läbipaistvaks."
+
+#~ msgid "Build storage tents and lookouts to expand your settlement range."
+#~ msgstr "Ehita laotelke ja vahiposte, et laiendada oma koloonia ulatust."
+
+#~ msgid ""
+#~ "To easily see whether the pavilion's range cover all your tents, select "
+#~ "it from the build menu and hover it over your existing pavilion. "
+#~ "Uncovered tents are shown in yellow. It's a good idea to build a new "
+#~ "pavilion in their neighborhood."
+#~ msgstr ""
+#~ "Selleks, et lihtsalt näha, kas paviljon katab kõik su telgid, vali ta "
+#~ "ehitiste menüüst ja lase tal hõljuda vana paviljoni kphal. Katmata telgid "
+#~ "kuvatakse kollaselt. Uus paviljon on mõistlis ehitada nende naabrusesse."
+
+#~ msgid ""
+#~ "Make singleplayer more fun with additional computer players by increasing "
+#~ "'AI players' when starting a new game."
+#~ msgstr ""
+#~ "Muuda ühe mängija režiim huvitavamaks lisades uut mängu alustades "
+#~ "täiendavaid arvuti juhitud tehisintellektiga mängureid."
+
+#~ msgid ""
+#~ "First steps are easier by looking at how AI players are setting up their "
+#~ "settlement."
+#~ msgstr ""
+#~ "Alustamine on lihtsam, kui vaatad tehisintellekti juhitud asunduse "
+#~ "kujunemist."
+
+#~ msgid ""
+#~ "Want funny quotes only? Change the quote types shown here in the settings "
+#~ "menu on the game page."
+#~ msgstr ""
+#~ "Soovid ainult naljakaid tsitaate? Vali siia kuvatavate tsitaatide tüüp "
+#~ "mängu lehe seadete menüüst."
+
+#~ msgid "A marketplace links your buildings like a road."
+#~ msgstr "Turuplats ühendab su ehitisi nagu tee."
+
+#~ msgid "Mixed"
+#~ msgstr "Segatud"
+
+#~ msgid "Starting engine…"
+#~ msgstr "Mootorit käivitatakse…"
+
+#~ msgid "Catching fish…"
+#~ msgstr "Kala püüdmine…"
+
+#~ msgid "Drawing user interface…"
+#~ msgstr "Kasutajaliidese joonistamine…"
+
+#~ msgid "Activating timer…"
+#~ msgstr "Taimeri aktiveerimine…"
+
+#~ msgid "Chomping game data…"
+#~ msgstr "Mängu andmete laadimine…"
+
+#~ msgid "Shaping islands…"
+#~ msgstr "Saarte kujundamine…"
+
+#~ msgid "Preparing blueprints…"
+#~ msgstr "Jooniste ettevalmistamine…"
+
+#~ msgid "Filling world with water…"
+#~ msgstr "Vee lisamine…"
+
+#~ msgid "Raising animals…"
+#~ msgstr "Loomade kasvatamine…"
+
+#~ msgid "Convincing AI…"
+#~ msgstr "Arvutimängija uurimine…"
+
+#~ msgid "Burying treasures…"
+#~ msgstr "Aarete matmine…"
+
+#~ msgid "Unable to find pyenet"
+#~ msgstr "Ei leia pyenet-i"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which could not "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "Miteme mängija tugi vajab teeki \"pyenet\", mida su süsteemist ei leitud."
+
+#~ msgid "Linux users: Try to install pyenet through your package manager."
+#~ msgstr ""
+#~ "Linux-i kasutajad: Proovige paigaldada pyenet oma paketi haldaja kaudu."
+
+#~ msgid "Failed to initialize networking."
+#~ msgstr "Võrgustiku käivitamine ebaõnnestus."
+
+#~ msgid ""
+#~ "Network features could not be initialized with the current configuration."
+#~ msgstr "Võrku ei suudetud rakendada praeguste seadetega."
+
+#~ msgid "Check the settings you specified in the network section."
+#~ msgstr "Kontrolli võrgu seadeid."
+
+#~ msgid "Fatal Network Error"
+#~ msgstr "Totaalne Võrgustiku Viga"
+
+#~ msgid "Could not connect to master server."
+#~ msgstr "Peaserveriga ühendumine ebaõnnestus."
+
+#~ msgid ""
+#~ "Please check your Internet connection. If it is fine, it means our master "
+#~ "server is temporarily down."
+#~ msgstr ""
+#~ "Palun kontrolli Interneti ühendust. Kui ühendus töötab siis on peaserver "
+#~ "ajutiselt maas."
+
+#~ msgid "Something went wrong with the network:"
+#~ msgstr "Midagi läks valesti võrguga:"
+
+#~ msgid "Version differs!"
+#~ msgstr "Versioon erineb!"
+
+#, python-brace-format
+#~ msgid "Map: {map_name}"
+#~ msgstr "Kaart: {map_name}"
+
+#, python-brace-format
+#~ msgid "Name: {game_name}"
+#~ msgstr "Nimi: {game_name}"
+
+#, python-brace-format
+#~ msgid "Creator: {game_creator}"
+#~ msgstr "Looja: {game_creator}"
+
+#, python-brace-format
+#~ msgid "Players: {player_amount}/{player_limit}"
+#~ msgstr "Mängijaid: {player_amount}/{player_limit}"
+
+#~ msgid "Wrong version"
+#~ msgstr "Vale versioon"
+
+#, python-brace-format
+#~ msgid ""
+#~ "The game's version differs from your version. Every player in a "
+#~ "multiplayer game must use the same version. This can be fixed by every "
+#~ "player updating to the latest version. Game version: {game_version} Your "
+#~ "version: {own_version}"
+#~ msgstr ""
+#~ "Mängu versioon erineb sinu mängu omast. Kõik mitmikmängu mängijad peavad "
+#~ "kasutama ühesugust versiooni. Vea parandamine: kõik mängijad uuendavad "
+#~ "uusima saada oleva versioonini. Mängu versioon: {game_version} Sinu "
+#~ "version: {own_version}"
+
+#~ msgid "Password of the game"
+#~ msgstr "Mängu parool"
+
+#~ msgid "Enter password:"
+#~ msgstr "Sisesta parool:"
+
+#~ msgid "Ready"
+#~ msgstr "Valmis"
+
+#~ msgid "Not ready"
+#~ msgstr "Ei ole valmis"
+
+#~ msgid "Enter your message"
+#~ msgstr "Sisesta oma sõnum"
+
+#~ msgid "Click here to change your name and/or color"
+#~ msgstr "Vajuta siia, et muuta oma nime või värvust"
+
+#, python-brace-format
+#~ msgid "Kick {player}"
+#~ msgstr "Eemalda {player} mängust"
+
+#, python-brace-format
+#~ msgid "{player} has joined the game"
+#~ msgstr "{player} liitus mänguga"
+
+#, python-brace-format
+#~ msgid "{player} has left the game"
+#~ msgstr "{player} lahkus mängust"
+
+#~ msgid "You are now ready"
+#~ msgstr "Nüüd oled valmis"
+
+#~ msgid "You are not ready anymore"
+#~ msgstr "Sa ei ole enam valmis"
+
+#, python-brace-format
+#~ msgid "{player} is now ready"
+#~ msgstr "{player} on nüüd valmis"
+
+#, python-brace-format
+#~ msgid "{player} not ready anymore"
+#~ msgstr "{player} ei ole enam valmis"
+
+#, python-brace-format
+#~ msgid "You are now known as {new_name}"
+#~ msgstr "Sind tuntakse nüüd nimega {new_name}"
+
+#, python-brace-format
+#~ msgid "{player} is now known as {new_name}"
+#~ msgstr "Mängija {player} nimi on nüüd {new_name}"
+
+#~ msgid "You changed your color"
+#~ msgstr "Sa muutsid oma värvust"
+
+#, python-brace-format
+#~ msgid "{player} changed their color"
+#~ msgstr "{player} vahetas värve"
+
+#~ msgid "Kicked"
+#~ msgstr "Eemaldati mängust"
+
+#~ msgid "You have been kicked from the game by creator"
+#~ msgstr "Mängu looja eemaldas su mängust"
+
+#, python-brace-format
+#~ msgid "{player} got kicked by creator"
+#~ msgstr "Mängu looja eemaldas {player}'i mängust"
+
+#~ msgid "Are you sure you want to abort the running session?"
+#~ msgstr "Oled sa kindel, et soovid jooksva seansi katkestada?"
+
+#~ msgid "Quit Session"
+#~ msgstr "Välju seansist"
+
+#~ msgid "No saved games"
+#~ msgstr "Salvestatud mänge pole"
+
+#~ msgid "There are no saved games to load."
+#~ msgstr "Laadimiseks pole salvestatud mänge."
+
+#~ msgid "No filename given"
+#~ msgstr "Faili nimi puudub"
+
+#~ msgid "Please enter a valid filename."
+#~ msgstr "Palun sisesta õige faili nimi."
+
+#, python-brace-format
+#~ msgid "A savegame with the name {name} already exists."
+#~ msgstr "Salvestatud mäng nimega '{name}' on juba olemas."
+
+#, python-brace-format
+#~ msgid "A map with the name {name} already exists."
+#~ msgstr "Kaart nimega '{name}' on juba olemas."
+
+#~ msgid "Overwrite it?"
+#~ msgstr "Kirjutan üle?"
+
+#, python-brace-format
+#~ msgid "Saved at {time}"
+#~ msgstr "Salvestatud {time}"
+
+#, python-brace-format
+#~ msgid "Saved {amount} time"
+#~ msgid_plural "Saved {amount} times"
+#~ msgstr[0] "Salvestatud {amount} kord"
+#~ msgstr[1] "Salvestatud {amount} korda"
+
+#, python-brace-format
+#~ msgid "Savegame version {version}"
+#~ msgstr "Salvestatud mängu versioon {version}"
+
+#~ msgid "(probably incompatible)"
+#~ msgstr "(ilmselt sobimatu)"
+
+#~ msgid "Incompatible version"
+#~ msgstr "Mitte sobiv versioon"
+
+#~ msgid "No file selected"
+#~ msgstr "Faili pole valitud"
+
+#~ msgid "You need to select a savegame to delete."
+#~ msgstr "Kustutamiseks pead valima salvestatud mängu."
+
+#, python-brace-format
+#~ msgid "Do you really want to delete the savegame '{name}'?"
+#~ msgstr "Kas sa tahad kindlasti kustutada salvestatud mängu '{name}'?"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "Kinnita kustutamine"
+
+#~ msgid "Error!"
+#~ msgstr "Viga!"
+
+#~ msgid "Failed to delete savefile!"
+#~ msgstr "Salvestatud mängu kustutamine ebaõnnestus!"
+
+#~ msgid "Game"
+#~ msgstr "Mäng"
+
+#~ msgid "Disabled"
+#~ msgstr "Keelatud"
+
+#~ msgid "Restart required"
+#~ msgstr "Vaja on taaskäivitust"
+
+#~ msgid ""
+#~ "Some of your changes require a restart of Unknown Horizons. Do you want "
+#~ "to restart Unknown Horizons now?"
+#~ msgstr ""
+#~ "Mõned sinu muudatused vajavad Unknown Horizons'i taaskäivitamist. Kas sa "
+#~ "soovid mängu taaskäivitada nüüd?"
+
+#~ msgid "Restore default settings"
+#~ msgstr "Taasta algseaded"
+
+#~ msgid ""
+#~ "Restoring the default settings will delete all changes to the settings "
+#~ "you made so far."
+#~ msgstr "Vaikimisi häälestuse taastamine kustutab kõik su tehtud muudatused."
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "Kas soovid jätkata?"
+
+#~ msgid "Invalid network port"
+#~ msgstr "Vale võrguport"
+
+#~ msgid ""
+#~ "The port you specified is not valid. It must be a number between 1 and "
+#~ "65535."
+#~ msgstr ""
+#~ "Sinu poolt valitud pord number ei ole kehtiv. Peab olema number 1 ja "
+#~ "65535 vahel."
+
+#~ msgid ""
+#~ "Please check the port you entered and make sure it is in the specified "
+#~ "range."
+#~ msgstr ""
+#~ "Palun kontrolli sisestatud pordi andmeid ja veendu et see jääb nõutud "
+#~ "vahemikku."
+
+#~ msgid "Failed to apply new network settings."
+#~ msgstr "Uute võrgu seadete rakendamine ebaõnnestus."
+
+#~ msgid ""
+#~ "Low port numbers sometimes require special access privileges, try 0 or a "
+#~ "number greater than 1024."
+#~ msgstr ""
+#~ "Väiksemad pordi numbrid vajavad teinekord erilisi juurdepääsu õigusi, "
+#~ "proovi numbrit 0 või suuremat kui 1024."
+
+#~ msgid "Invalid player name"
+#~ msgstr "Vigane mängija nimi"
+
+#~ msgid "You entered an invalid playername."
+#~ msgstr "Sa sisestasid vigase mängijanime."
+
+#~ msgid "Map size:"
+#~ msgstr "Kaardi suurus:"
+
+#~ msgid "Water:"
+#~ msgstr "Vesi:"
+
+#~ msgid "Max island size:"
+#~ msgstr "Max saare suurus:"
+
+#~ msgid "Preferred island size:"
+#~ msgstr "Eelistatud saare suurus:"
+
+#~ msgid "Island size deviation:"
+#~ msgstr "Saare suuruse nihe:"
+
+#~ msgid "Click to generate a different random map"
+#~ msgstr "Klõpsa erineva juhusliku kaardi loomiseks"
+
+#~ msgid "Invalid scenario file"
+#~ msgstr "Vigane stsenaariumi fail"
+
+#~ msgid "The selected file is not a valid scenario file."
+#~ msgstr "Valitud fail ei ole kehtiv stsenaariumi fail."
+
+#~ msgid "Error message:"
+#~ msgstr "Veateade:"
+
+#~ msgid "Please report this to the author."
+#~ msgstr "Palun teavita sellest autorit."
+
+#, python-brace-format
+#~ msgid "Difficulty: {difficulty}"
+#~ msgstr "Raskusaste: {difficulty}"
+
+#, python-brace-format
+#~ msgid "Author: {author}"
+#~ msgstr "Autor: {author}"
+
+#, python-brace-format
+#~ msgid "Description: {desc}"
+#~ msgstr "Kirjeldus: {desc}"
+
+#, python-brace-format
+#~ msgid "Build {building}"
+#~ msgstr "Ehita {building}"
+
+#~ msgid "Press H to remove this hint"
+#~ msgstr "Vihje eemaldamiseks vajuta H"
+
+#~ msgid "Destroy all buildings"
+#~ msgstr "Hävita kõik ehitised"
+
+#~ msgid ""
+#~ "This will destroy all the buildings that fall outside of the settlement "
+#~ "range."
+#~ msgstr "See hävitab kõik ehitised, mis jäävad koloonia ulatusest välja."
+
+#, python-format
+#~ msgid "%s additional building will be destroyed."
+#~ msgid_plural "%s additional buildings will be destroyed"
+#~ msgstr[0] "Lisaks hävitatakse veel %s ehitis."
+#~ msgstr[1] "Lisaks hävitatakse veel %s ehitist"
+
+#~ msgid "Barracks overview"
+#~ msgstr "Barakkide ülevaade"
+
+#~ msgid "Swordman"
+#~ msgstr "Mõõgamees"
+
+#~ msgid "Overview"
+#~ msgstr "Ülevaade"
+
+#, python-brace-format
+#~ msgid "{ship} (place in queue: {place})"
+#~ msgstr "{ship}(koht järjekorras: {place})"
+
+#~ msgid "Boat builder overview"
+#~ msgstr "Paadiehitaja ülevaade"
+
+#~ msgid "Fisher boats"
+#~ msgstr "Kalapaadid"
+
+#~ msgid "Trade boats"
+#~ msgstr "Kaubapaadid"
+
+#~ msgid "War boats"
+#~ msgstr "Sõjapaadid"
+
+#~ msgid "War ships"
+#~ msgstr "Sõjalaevad"
+
+#~ msgid "Tower overview"
+#~ msgstr "Torni tutvustus"
+
+#~ msgid "Build related buildings"
+#~ msgstr "Ehita seotud hooned"
+
+#~ msgid "Click on one of the resource slots to add a trade offer."
+#~ msgstr "Klõpsa mõnel ressursi pesal, et lisada kauplemise pakkumine."
+
+#~ msgid ""
+#~ "Set to buy or sell by clicking on that label, then adjust the amount via "
+#~ "the slider to the right."
+#~ msgstr ""
+#~ "Vali kauba sildil klõpsates ost või müük ja seejärel vali liuguriga "
+#~ "soovitud kogus."
+
+#, python-brace-format
+#~ msgid ""
+#~ "Will sell {resource_name} for {price} gold/t whenever more than {limit}t "
+#~ "are available."
+#~ msgstr ""
+#~ "{resource_name} müüakse hinnaga {price} kullatükki/ühik, kui laovaru on "
+#~ "suurem kui {limit} ühikut."
+
+#~ msgid "Warehouse overview"
+#~ msgstr "Harukontori ülevaade"
+
+#~ msgid "Main square overview"
+#~ msgstr "Peaväljaku ülevaade"
+
+#~ msgid "Upgrade not possible:"
+#~ msgstr "Uuenduste lisamine võimatu:"
+
+#~ msgid "This is the highest playable tier for now!"
+#~ msgstr "See on hetkel kõrgeim mängitav tase!"
+
+#~ msgid "Don't allow upgrades"
+#~ msgstr "Keela uuendused"
+
+#~ msgid "Allow upgrades"
+#~ msgstr "Luba uuendused"
+
+#~ msgid "Unit overview"
+#~ msgstr "Üksuse ülevaade"
+
+#, python-brace-format
+#~ msgid "Fill range with {how_many} trees"
+#~ msgstr "Täida kogu ulatuses {how_many} puuga"
+
+#~ msgid "Selected Units"
+#~ msgstr "Valitud üksused"
+
+#~ msgid "Ship overview"
+#~ msgstr "Laeva ülevaade"
+
+#~ msgid "The ship needs to be close to an island to found a settlement."
+#~ msgstr "Koloonia asutamiseks peab laev saare lähedal asuma."
+
+#~ msgid "You already have a settlement on this island."
+#~ msgstr "Sul juba on koloonia sellel saarel."
+
+#~ msgid "Load/Unload"
+#~ msgstr "Peale- / Mahalaadimine"
+
+#~ msgid "Too far from the nearest tradeable warehouse"
+#~ msgstr "Liiga kaugel lähimast kaubeldavast laost"
+
+#~ msgid "Cannot equip trade ship with weapons"
+#~ msgstr "Kaubalaevale ei saa paigaldada relvastust"
+
+#~ msgid "It is not possible to equip a trade ship with weapons."
+#~ msgstr "Kaubalaevale relvastuse paigaldamine ei ole võimalik."
+
+#~ msgid "Equip weapon"
+#~ msgstr "Paigalda relv"
+
+#~ msgid "Unequip weapon"
+#~ msgstr "Eemalda relv"
+
+#, python-brace-format
+#~ msgid "{resource_name}: {price} gold"
+#~ msgstr "{resource_name}: {price} kullatükki"
+
+#, python-brace-format
+#~ msgid "buy for {buyprice} gold"
+#~ msgstr "ostuhind {buyprice} kullatükki"
+
+#, python-brace-format
+#~ msgid "sell for {sellprice} gold"
+#~ msgstr "müügihind {sellprice} kullatükki"
+
+#, python-brace-format
+#~ msgid "{stored}/{limit}"
+#~ msgstr "{stored}/{limit}"
+
+#~ msgid "Logbook"
+#~ msgstr "Pardapäevik"
+
+#~ msgid "Emptiness"
+#~ msgstr "Tühjus"
+
+#~ msgid "There is nothing written in your logbook yet!"
+#~ msgstr "Sinu logiraamatus puuduvad kirjed!"
+
+#, python-brace-format
+#~ msgid "Settlements of {player}"
+#~ msgstr "{player} kolooniad"
+
+#, python-brace-format
+#~ msgid "Ships of {player}"
+#~ msgstr "{player} laevad"
+
+#~ msgid "N/A"
+#~ msgstr "Pole saadaval"
+
+#, python-brace-format
+#~ msgid "Production overview of {settlement}"
+#~ msgstr "{settlement} tootmise ülevaade"
+
+#~ msgid "Click to show statistics"
+#~ msgstr "Vajuta, et näha statistikat"
+
+#~ msgid "Click to add a new slot"
+#~ msgstr "Klõpsa uue pilu lisamiseks"
+
+#~ msgid "Reset this configuration to the factory default."
+#~ msgstr "Lähtesta see konfiguratsioon vaikeväärtusele."
+
+#~ msgid ""
+#~ "Reset this settlement's displayed resources to the default configuration "
+#~ "you have saved."
+#~ msgstr ""
+#~ "Lähtesta selle koloonia ressursside kuvamine vastavalt vaikehäälestusele."
+
+#~ msgid ""
+#~ "Reset the default configuration (which you see here) to the factory "
+#~ "default for all settlements."
+#~ msgstr ""
+#~ "Lähtesta kõigi kolooniate vaikehäälestus (mida sa näed siin) tehase "
+#~ "vaikehäälestuseks."
+
+#~ msgid "Buy expenses"
+#~ msgstr "Osta kulud"
+
+#~ msgid "Sell income"
+#~ msgstr "Müü tulu"
+
+#~ msgid "Stop route"
+#~ msgstr "Teekonna lõpp"
+
+#~ msgid "Need at least two settlements"
+#~ msgstr "On vaja vähemalt kaks asulat"
+
+#~ msgid "You need at least two different settlements in your route."
+#~ msgstr "Sul on vaja vähemalt kaks asulat sinu teekonnal."
+
+#~ msgid "Click on a settlement to add a waypoint!"
+#~ msgstr "Teeviida lisamiseks vajuta kolooniale!"
+
+#~ msgid "Loading into ship"
+#~ msgstr "Laeb laevale"
+
+#~ msgid "Unloading from ship"
+#~ msgstr "Mahalaadimine laevalt"
+
+#~ msgid "You are not allowed to trade with this player"
+#~ msgstr "Sul ei tohi kaubelda selle mängijaga"
+
+#, python-brace-format
+#~ msgid "{weapon}: {amount}"
+#~ msgstr "{weapon}: {amount}"
+
+#~ msgid "none"
+#~ msgstr "mitte ühtegi"
+
+#, python-brace-format
+#~ msgid "Details: {error_details}"
+#~ msgstr "Täpsemalt: {error_details}"
+
+#, python-brace-format
+#~ msgid "Error: {error_message}"
+#~ msgstr "Viga: {error_message}"
+
+#~ msgid "Bakery"
+#~ msgstr "Pagaritöökoda"
+
+#~ msgid "Barracks"
+#~ msgstr "Kasarmud"
+
+#~ msgid "Wooden barrier"
+#~ msgstr "Puidust tõke"
+
+#~ msgid "Clay wall"
+#~ msgstr "Savist sein"
+
+#~ msgid "Blender"
+#~ msgstr "Pipraveski"
+
+#~ msgid "Boat Builder"
+#~ msgstr "Paadiehitaja"
+
+#~ msgid "Brewery"
+#~ msgstr "Pruulikoda"
+
+#~ msgid "Brickyard"
+#~ msgstr "Tellisetehas"
+
+#~ msgid "Butchery"
+#~ msgstr "Lihunik"
+
+#~ msgid "Cannon Foundry"
+#~ msgstr "Suurtüki valukoda"
+
+#~ msgid "Charcoal Burning"
+#~ msgstr "Söe põletamine"
+
+#~ msgid "Clay Deposit"
+#~ msgstr "Savi Lasund"
+
+#~ msgid "Clay Pit"
+#~ msgstr "Saviauk"
+
+#~ msgid "Distillery"
+#~ msgstr "Alkoholi tehas"
+
+#~ msgid "Doctor"
+#~ msgstr "Arst"
+
+#~ msgid "Farm"
+#~ msgstr "Talu"
+
+#~ msgid "Alvearies"
+#~ msgstr "Mesitarud"
+
+#~ msgid "Cattle Run"
+#~ msgstr "Karjamaa"
+
+#~ msgid "Cocoa Field"
+#~ msgstr "Kakaopõld"
+
+#~ msgid "Corn Field"
+#~ msgstr "Maisipõld"
+
+#~ msgid "Herbary"
+#~ msgstr "Apteek"
+
+#~ msgid "Hop Field"
+#~ msgstr "Humala põld"
+
+#~ msgid "Pasture"
+#~ msgstr "Karjamaa"
+
+#~ msgid "Pigsty"
+#~ msgstr "Sigala"
+
+#~ msgid "Potato Field"
+#~ msgstr "Kartulipõld"
+
+#~ msgid "Spice Field"
+#~ msgstr "Vürtsipõld"
+
+#~ msgid "Sugar Field"
+#~ msgstr "Suhkrupõld"
+
+#~ msgid "Tobacco Field"
+#~ msgstr "Tubakapõld"
+
+#~ msgid "Vineyard"
+#~ msgstr "Viinamägi"
+
+#~ msgid "Fire Station"
+#~ msgstr "Tuletõrjedepoo"
+
+#~ msgid "Fish Deposit"
+#~ msgstr "Kala varud"
+
+#~ msgid "Fisherman's Tent"
+#~ msgstr "Kaluri Telk"
+
+#~ msgid "Hunter's Tent"
+#~ msgstr "Jahimehe Telk"
+
+#~ msgid "Lookout"
+#~ msgstr "Vaatetorn"
+
+#~ msgid "Lumberjack Hut"
+#~ msgstr "Puuraiduri Hütt"
+
+#~ msgid "Main Square"
+#~ msgstr "Peaväljak"
+
+#~ msgid "Mine"
+#~ msgstr "Kaevandus"
+
+#~ msgid "Mountain"
+#~ msgstr "Mägi"
+
+#~ msgid "Pastry Shop"
+#~ msgstr "Kondiitriäri"
+
+#~ msgid "Pavilion"
+#~ msgstr "Paviljon"
+
+#~ msgid "Ruined Tent"
+#~ msgstr "Telgi räbalad"
+
+#~ msgid "Salt Ponds"
+#~ msgstr "Soola tiigid"
+
+#~ msgid "Signal Fire"
+#~ msgstr "Signaaltuli"
+
+#~ msgid "Smeltery"
+#~ msgstr "Valukoda"
+
+#~ msgid "Stone Deposit"
+#~ msgstr "Kivimurd"
+
+#~ msgid "Stonemason"
+#~ msgstr "Kiviraidur"
+
+#~ msgid "Carver"
+#~ msgstr "Kiviraidur"
+
+#~ msgid "Stone Pit"
+#~ msgstr "Kivimurd"
+
+#~ msgid "Storage Tent"
+#~ msgstr "Laotelk"
+
+#~ msgid "Storage Hut"
+#~ msgstr "Laotelk"
+
+#~ msgid "Tavern"
+#~ msgstr "Kõrts"
+
+#~ msgid "Hut"
+#~ msgstr "Onn"
+
+#~ msgid "Stone house"
+#~ msgstr "Kivimaja"
+
+#~ msgid "Estate"
+#~ msgstr "Häärber"
+
+#~ msgid "Manor"
+#~ msgstr "Mõis"
+
+#~ msgid "Tobacconist"
+#~ msgstr "Tubakakapoodnik"
+
+#~ msgid "Toolmaker"
+#~ msgstr "Tööriista valmistaja"
+
+#~ msgid "Trail"
+#~ msgstr "Rada"
+
+#~ msgid "Gravel Path"
+#~ msgstr "Kruusatee"
+
+#~ msgid "Cobblestone Street"
+#~ msgstr "Munakivitänav"
+
+#~ msgid "Tree"
+#~ msgstr "Puu"
+
+#~ msgid "Village School"
+#~ msgstr "Külakool"
+
+#~ msgid "Warehouse"
+#~ msgstr "Ladu"
+
+#~ msgid "Weaponsmith"
+#~ msgstr "Relvasepp"
+
+#~ msgid "Weaver's Hut"
+#~ msgstr "Kangru hütt"
+
+#~ msgid "Windmill"
+#~ msgstr "Tuuleveski"
+
+#~ msgid "Winery"
+#~ msgstr "Viinaköök"
+
+#~ msgid "Wooden Tower"
+#~ msgstr "Puittorn"
+
+#~ msgid "Failed to start/load the game"
+#~ msgstr "Mängu alustamine/laadimine ebaõnnestus"
+
+#~ msgid "The game you selected could not be started."
+#~ msgstr "Valitud mängu käivitamine nurjus."
+
+#~ msgid ""
+#~ "The savegame might be broken or has been saved with an earlier version."
+#~ msgstr ""
+#~ "Salvestatud mäng võib olla vigane või on salvestatud varasema versiooniga."
+
+#~ msgid "No quicksaves found"
+#~ msgstr "Kiirsalvestusi ei leitud"
+
+#~ msgid "You need to quicksave before you can quickload."
+#~ msgstr "Sa pead tegema kiirsalvestuse enne kui saad kiirlaadimise teha."
+
+#~ msgid "Logging enabled"
+#~ msgstr "Logimine lubatud"
+
+#, python-brace-format
+#~ msgid "Logs are written to {directory}."
+#~ msgstr "Logid kirjutatakse kataloogi {directory}."
+
+#~ msgid ""
+#~ "The games have run out of sync. This indicates an unknown internal error, "
+#~ "the game cannot continue."
+#~ msgstr ""
+#~ "Mängud ei ole enam sünkroniseeritud. See viitab tundmatule sisemisele "
+#~ "veale, mille tõttu ei saa mäng enam jätkata."
+
+#~ msgid ""
+#~ "We are very sorry and hope to have this bug fixed in a future version."
+#~ msgstr ""
+#~ "Palume sellepärast vabandust ja loodame, et see viga on uues versioonis "
+#~ "parandatud."
+
+#~ msgid "Not possible"
+#~ msgstr "Võimatu"
+
+#~ msgid "Save/load for multiplayer games is not possible yet"
+#~ msgstr "Mitmemängude salvestamine/laadimine ei ole veel võimalik"
+
+#~ msgid ""
+#~ "The filename must consist only of letters, numbers, spaces and these "
+#~ "characters: _ . -"
+#~ msgstr ""
+#~ "Faili nimes võivad olla ainult tähed, numbrid, tühikud ja need märgid: "
+#~ "_ . -"
+
+#~ msgid "Unable to connect to server."
+#~ msgstr "Ühenduse loomine serveriga nurjus."
+
+#~ msgid "Maybe invalid or irresolvable server address."
+#~ msgstr "Tegemist võib olla vigase või lahendamatu serveri aadressiga."
+
+#~ msgid "Not Ready"
+#~ msgstr "Ei ole valmis"
+
+#~ msgid ""
+#~ "Old or unsupported multiplayer protocol. Please check your game version"
+#~ msgstr ""
+#~ "Vana või toetuseta mitmemängija protokoll. Palun kontrolli oma mängu "
+#~ "versiooni"
+
+#~ msgid "You've exceeded the global packet size."
+#~ msgstr "Oled ületanud paketi globaalse suuruse."
+
+#~ msgid "This should never happen. Please contact us or file a bug report."
+#~ msgstr ""
+#~ "Seda ei tohiks kunagi juhtuda. Palun võta meiega ühendust või koosta "
+#~ "vearaport."
+
+#~ msgid "You've exceeded the per packet size."
+#~ msgstr "Oled ületanud üksiku paketi suuruse."
+
+#~ msgid "Unknown or malformed packet. Please check your game version"
+#~ msgstr "Tundmatu või vigane pakett. Palun kontrolli oma mängu versiooni"
+
+#~ msgid "Invalid/Unknown session"
+#~ msgstr "Vigane/tundmatu sessioon"
+
+#~ msgid "You can't join a game while in another game"
+#~ msgstr "Sa ei saa liituda mänguga, kui oled teises mängus"
+
+#~ msgid "Unknown game or game is running a different version"
+#~ msgstr "Tundmatu mäng või mäng töötab erineva versiooniga"
+
+#~ msgid "Game has already started. No more joining"
+#~ msgstr "Mäng on juba alanud. Rohkem liituda ei saa"
+
+#~ msgid "Game is full"
+#~ msgstr "Mäng on täis"
+
+#~ msgid "Wrong password"
+#~ msgstr "Vale parool"
+
+#~ msgid "There's already a player with your name inside this game."
+#~ msgstr "Sinu nimega mängija on selles mängus juba sees."
+
+#~ msgid "Please change your name."
+#~ msgstr "Palun muuda oma nime."
+
+#~ msgid "There's already a player with your color inside this game."
+#~ msgstr "Sinu värvusega mängija on selles mängus juba sees."
+
+#~ msgid "Please change your color."
+#~ msgstr "Palun muuda oma värvus."
+
+#~ msgid ""
+#~ "There's already a player with your unique player ID inside this game. "
+#~ "This should never occur."
+#~ msgstr ""
+#~ "Selles mängus on juba mängija, kellel on sinu unikaalne mängija ID. Seda "
+#~ "ei tohiks kunagi juhtuda."
+
+#~ msgid "You are not inside a game"
+#~ msgstr "Sa ei ole mängus sees"
+
+#~ msgid "Unable to change your name."
+#~ msgstr "Sinu nime muutmine nurjus."
+
+#~ msgid "Unable to change your color."
+#~ msgstr "Sinu värvuse muutmine nurjus."
+
+#~ msgid "You can't fetch a game while in another game"
+#~ msgstr "Sa ei saa hankida uut mängu, kui oled teises mängus"
+
+#~ msgid "The game has been terminated. The creator has left the game."
+#~ msgstr "Mäng on lõpetatud. Mängu looja lahkus mängust."
+
+#~ msgid ""
+#~ "One player has terminated their game. For technical reasons, this "
+#~ "currently means the game cannot continue. We are very sorry about that."
+#~ msgstr ""
+#~ "Üks mängija on lõpetanud mängu. Tehnilistel põhjustel tähendab see hetkel "
+#~ "seda, et mäng ei saa jätkuda. Palume sellepärast vabandust."
+
+#~ msgid "You have won!"
+#~ msgstr "Sa oled võitnud!"
+
+#~ msgid "You have completed this scenario."
+#~ msgstr "Sa läbisid selle stsenaariumi."
+
+#~ msgid "Do you want to continue playing?"
+#~ msgstr "Kas soovid mängimist jätkata?"
+
+#~ msgid "unknown"
+#~ msgstr "teadmata"
+
+#~ msgid "Failed to create savegame file"
+#~ msgstr "Salvestatud mängu faili tegemine ebaõnnestus"
+
+#~ msgid "There has been an error while creating your savegame file."
+#~ msgstr "Su mängu olekuinfo faili salvestamine nurjus."
+
+#~ msgid ""
+#~ "This usually means that the savegame name contains unsupported special "
+#~ "characters."
+#~ msgstr ""
+#~ "Tavaliselt tähendab see seda, et salvestatud mängu nimes on toetuseta "
+#~ "sümboleid."
+
+#~ msgid "Access is denied"
+#~ msgstr "Ligipääs puudub"
+
+#~ msgid "The savegame file could be read-only or locked by another process."
+#~ msgstr ""
+#~ "Olekuinfo fail võib olla kirjutuskaitstud või on selle lukustanud mõni "
+#~ "teine protsess."
+
+#~ msgid "Your game has not been saved."
+#~ msgstr "Sinu mängu ei salvestatud."
+
+#~ msgid "New version of Unknown Horizons"
+#~ msgstr "Unknown Horizons'i uus versioon"
+
+#, python-brace-format
+#~ msgid ""
+#~ "There is a more recent release of Unknown Horizons ({new_version}) than "
+#~ "the one you are currently using ({old_version})."
+#~ msgstr ""
+#~ "Unknown Horizonsist on saadaval uuem versioon ({new_version}). Hetkel "
+#~ "kasutad versiooni ({old_version})."
+
+#~ msgid "Click to download"
+#~ msgstr "Vajuta allalaadimiseks"
+
+#~ msgid "A page has been opened in your browser."
+#~ msgstr "Lehekülg avati sinu veebilehitsejas."
+
+#, python-brace-format
+#~ msgid "{slotnum} slots, {limit}t"
+#~ msgstr "{slotnum} pesa, {limit}tk"
+
+#, python-brace-format
+#~ msgid "Health: {health}"
+#~ msgstr "Tervis: {health}"
+
+#, python-brace-format
+#~ msgid "{building}: {description}"
+#~ msgstr "{building}: {description}"
+
+#~ msgid "This building must be built on an island."
+#~ msgstr "See ehitis tuleb ehitada saarele."
+
+#~ msgid "This ground is not suitable for this building."
+#~ msgstr "See maaping ei sobi sellele ehitisele."
+
+#~ msgid "This building has to be built within your settlement."
+#~ msgstr "Selle ehitise pead ehitama oma koloonia sees."
+
+#~ msgid "This area is already occupied by another player."
+#~ msgstr "See ala on juba okupeeritud teise mängija poolt."
+
+#~ msgid "This area is already occupied by another building."
+#~ msgstr "Teine ehitis juba kasutab seda maa-ala."
+
+#~ msgid "This area is already occupied by a unit."
+#~ msgstr "Teine üksus juba kasutab seda maa-ala."
+
+#~ msgid "This building must be built on the coastline."
+#~ msgstr "See ehitis tuleb rannajoonele ehitada."
+
+#~ msgid "This building has to be placed at the ocean."
+#~ msgstr "See ehitis tuleb paigutada ookeani."
+
+#~ msgid "This spot is too far away from your ship."
+#~ msgstr "See koht on liiga kaugel sinu laevast."
+
+#~ msgid "This building can only be built on a resource source."
+#~ msgstr "Selle ehitise saab ehitada ainult ressursi asukuhale."
+
+#~ msgid "You have already settled this island."
+#~ msgstr "Sa oled juba asustanud selle saare."
+
+#~ msgid "This building must be partly on flat land."
+#~ msgstr "See ehitis peab osaliselt olema tasasel maal."
+
+#~ msgid "The inhabitants are infected by the Black Death!"
+#~ msgstr "Elanikud on nakatunud musta surmaga!"
+
+#~ msgid "This building is on fire!"
+#~ msgstr "See ehitis on tules!"
+
+#~ msgid "These residents are unhappy."
+#~ msgstr "Need elanikud on õnnetud."
+
+#~ msgid "These residents don't have access to a main square."
+#~ msgstr "Neil elanikel puudub juurdepääs peaväljakule."
+
+#~ msgid "The inventory of this building is full."
+#~ msgstr "Selle ehitise inventad on täis."
+
+#~ msgid "This building has a very low productivity."
+#~ msgstr "Selle ehitise produktiivsus on väga madal."
+
+#~ msgid "This building is decommissioned."
+#~ msgstr "See ehitis on kasutuskõlbmatu."
+
+#, python-brace-format
+#~ msgid "Trade route: going to {location}"
+#~ msgstr "Kaubatee: liigutakse kohta {location}"
+
+#, python-brace-format
+#~ msgid "Trade route: waiting at {position}"
+#~ msgstr "Kaubatee: oodatakse kohas {position}"
+
+#, python-brace-format
+#~ msgid "Going to {location}"
+#~ msgstr "Minnakse kohta {location}"
+
+#, python-brace-format
+#~ msgid "Going to {x}, {y}"
+#~ msgstr "Liigutakse kohta {x}, {y}"
+
+#, python-brace-format
+#~ msgid "Idle at {location}"
+#~ msgstr "Jõudeolek kohas {location}"
+
+#, python-brace-format
+#~ msgid "Idle at {x}, {y}"
+#~ msgstr "Jõudeolek kohal {x}, {y}"
+
+#~ msgid "Trader"
+#~ msgstr "Kaupleja"
+
+#, python-brace-format
+#~ msgid "Attacking {target} '{name}' ({owner})"
+#~ msgstr "Rünnatakse kohta {target} \"{name}\" ({owner})"
+
+#, python-brace-format
+#~ msgid "Attacking {owner}"
+#~ msgstr "Rünnatakse {owner}"
+
+#~ msgid "Your game has been autosaved."
+#~ msgstr "Sinu mäng on automaatselt salvestatud."
+
+#~ msgid "Your building has caught fire!"
+#~ msgstr "Teie ehitis põleb!"
+
+#, python-brace-format
+#~ msgid "{player}: {message}"
+#~ msgstr "{player}: {message}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "{player1} and {player2} have ended their alliance and are now in a state "
+#~ "of war."
+#~ msgstr "{player1} ja {player2} lõpetasid liidu ja on nüüd sõjas."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have terminated their alliance."
+#~ msgstr "Mängijad {player1} ja {player2} on liidu lõpetanud."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have ended the war and are now allied."
+#~ msgstr "{player1} ja {player2} lõpetasid sõja ja on nüüd liitlased."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have settled their hostility."
+#~ msgstr "{player1} ja {player2} sõlmisid rahu."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} have allied their forces."
+#~ msgstr "{player1} ja {player2} liitsid oma jõud."
+
+#, python-brace-format
+#~ msgid "{player1} and {player2} will fight each other to the death."
+#~ msgstr "{player1} ja {player2} võitlevad üksteisega kuni surmani."
+
+#~ msgid "You can also drag roads."
+#~ msgstr "Sa saad teeradu ka lohistada."
+
+#~ msgid "One of your fields requires a farm to harvest its crops."
+#~ msgstr "Üks sinu põldudest vajab saagi koristamiseks farmi."
+
+#~ msgid "Your mine has run out of resources."
+#~ msgstr "Sinu kaevanduses pole enam ressursse."
+
+#~ msgid ""
+#~ "You have reached the current maximum tier. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Oled jõudnud hetke maksimaalsele tasemele. Rohkem su elanikud ei tõuse."
+
+#~ msgid "Cannot go here."
+#~ msgstr "Siia ei saa minna."
+
+#~ msgid "Your crew refuses to leave this map."
+#~ msgstr "Su meeskond keeldub sellelt kaardilt lahkumast."
+
+#, python-brace-format
+#~ msgid "You need more {resource} to build this building."
+#~ msgstr "Sa vajad rohkem {resource} selle ehitise ehitamiseks."
+
+#, python-brace-format
+#~ msgid "A new settlement was founded by {player}."
+#~ msgstr "Uus koloonia rajati {player} poolt."
+
+#, python-brace-format
+#~ msgid "A new ship by the name of {name} has been created."
+#~ msgstr "Uus laev nimega {name} sai valmis."
+
+#, python-brace-format
+#~ msgid "The Soldier by the name of {name} is ready to battle."
+#~ msgstr "Sõdur nimega {name} on lahinguks valmis."
+
+#, python-brace-format
+#~ msgid "The inhabitant by the name of {name} is available."
+#~ msgstr "Asunik nimega {name} on saadaval."
+
+#~ msgid "A new world has been created."
+#~ msgstr "Uus maailm on loodud."
+
+#~ msgid "Some of your inhabitants have no access to a main square."
+#~ msgstr "Osadel elanikel puudub juurdepääs peaväljakule."
+
+#~ msgid "Your game has been quicksaved."
+#~ msgstr "Sinu mäng on kiirsalvestatud."
+
+#~ msgid ""
+#~ "The route is now configured. Start it via the \"start route\" button in "
+#~ "the \"configure route\" menu."
+#~ msgstr ""
+#~ "Tee on nüüd häälestatud. Käivita see menüüs \"tee häälestamine\" nupust "
+#~ "\"käivita tee\"."
+
+#~ msgid "Your game has been saved."
+#~ msgstr "Sinu mäng on salvestatud."
+
+#, python-brace-format
+#~ msgid "Screenshot has been saved to {file}."
+#~ msgstr "Ekraanitõmmis on salvestatud faili {file}."
+
+#, python-brace-format
+#~ msgid "Your inhabitants reached level {level}."
+#~ msgstr "Sinu elanikud saavutasid {level}. taseme."
+
+#~ msgid "Some of your inhabitants just moved out."
+#~ msgstr "Mõned sinu elanikud kolisid just välja."
+
+#~ msgid "You cannot tear the warehouse, your settlements needs it."
+#~ msgstr "Te ei saa ladu lammutada, teie küla vajab seda."
+
+#~ msgid "You won!"
+#~ msgstr "Sinu võit!"
+
+#~ msgid "You failed the scenario."
+#~ msgstr "Stsenaarium ebaõnnestus."
+
+#~ msgid "The inhabitants of this building are infected by the Black Death!"
+#~ msgstr "Selle ehitise elanikud on nakatunud musta surmaga!"
+
+#~ msgid "coins"
+#~ msgstr "münte"
+
+#~ msgid "lamb wool"
+#~ msgstr "lambavill"
+
+#~ msgid "textile"
+#~ msgstr "tekstiili"
+
+#~ msgid "boards"
+#~ msgstr "lauad"
+
+#~ msgid "food"
+#~ msgstr "toit"
+
+#~ msgid "tools"
+#~ msgstr "tööriistad"
+
+#~ msgid "bricks"
+#~ msgstr "telliskivid"
+
+#~ msgid "trees"
+#~ msgstr "puud"
+
+#~ msgid "grass"
+#~ msgstr "rohi"
+
+#~ msgid "wool"
+#~ msgstr "vill"
+
+# lootus?
+#~ msgid "faith"
+#~ msgstr "usk"
+
+#~ msgid "deer food A"
+#~ msgstr "hirve toit A"
+
+#~ msgid "deer meat"
+#~ msgstr "hirve liha"
+
+#~ msgid "happiness"
+#~ msgstr "heaolu"
+
+#~ msgid "potatoes"
+#~ msgstr "kartulid"
+
+#~ msgid "education"
+#~ msgstr "haridus"
+
+#~ msgid "sugar cane"
+#~ msgstr "suhkruroog"
+
+#~ msgid "sugar"
+#~ msgstr "suhkur"
+
+#~ msgid "community"
+#~ msgstr "kogukond"
+
+#~ msgid "clay deposit"
+#~ msgstr "savi lasund"
+
+#~ msgid "clay"
+#~ msgstr "savi"
+
+#~ msgid "liquor"
+#~ msgstr "alkohol"
+
+#~ msgid "charcoal"
+#~ msgstr "süsi"
+
+#~ msgid "iron deposit"
+#~ msgstr "raua maardla"
+
+#~ msgid "iron ore"
+#~ msgstr "rauamaak"
+
+#~ msgid "iron ingots"
+#~ msgstr "raua valublokid"
+
+#~ msgid "get-together"
+#~ msgstr "koosviibimine"
+
+#~ msgid "fish"
+#~ msgstr "kala"
+
+#~ msgid "salt"
+#~ msgstr "sool"
+
+#~ msgid "tobacco plants"
+#~ msgstr "tubaka taimed"
+
+#~ msgid "tobacco leaves"
+#~ msgstr "tubaka lehed"
+
+#~ msgid "tobaccos"
+#~ msgstr "tubakas"
+
+#~ msgid "cattle"
+#~ msgstr "eluskari"
+
+#~ msgid "pigs"
+#~ msgstr "sead"
+
+#~ msgid "cattle for slaughter"
+#~ msgstr "tapaloomad"
+
+#~ msgid "pigs for slaughter"
+#~ msgstr "tapasead"
+
+#~ msgid "herbs"
+#~ msgstr "taimed"
+
+#~ msgid "medical herbs"
+#~ msgstr "ravimtaimed"
+
+#~ msgid "acorns"
+#~ msgstr "tammetõrud"
+
+#~ msgid "cannon"
+#~ msgstr "kahur"
+
+#~ msgid "sword"
+#~ msgstr "mõõk"
+
+#~ msgid "grain"
+#~ msgstr "teravili"
+
+#~ msgid "corn"
+#~ msgstr "mais"
+
+#~ msgid "flour"
+#~ msgstr "jahu"
+
+#~ msgid "spice plants"
+#~ msgstr "aromaatsed taimed"
+
+#~ msgid "spices"
+#~ msgstr "vürtsid"
+
+#~ msgid "condiments"
+#~ msgstr "maitseained"
+
+#~ msgid "marble deposit"
+#~ msgstr "marmori lade"
+
+#~ msgid "marble tops"
+#~ msgstr "marmortipud"
+
+#~ msgid "coal deposit"
+#~ msgstr "kivisöe lade"
+
+#~ msgid "stone deposit"
+#~ msgstr "kivimurd"
+
+#~ msgid "stone tops"
+#~ msgstr "kivipliidid"
+
+#~ msgid "cocoa beans"
+#~ msgstr "kakaooad"
+
+#~ msgid "cocoa"
+#~ msgstr "kakao"
+
+#~ msgid "confectionery"
+#~ msgstr "kondiitritooted"
+
+#~ msgid "candles"
+#~ msgstr "küünlad"
+
+#~ msgid "vines"
+#~ msgstr "väädid"
+
+#~ msgid "grapes"
+#~ msgstr "viinamarjad"
+
+#~ msgid "alvearies"
+#~ msgstr "mesitarud"
+
+#~ msgid "honeycombs"
+#~ msgstr "meekärjed"
+
+#~ msgid "gold deposit"
+#~ msgstr "kulla lade"
+
+#~ msgid "gold ore"
+#~ msgstr "kullamaak"
+
+#~ msgid "gold ingots"
+#~ msgstr "kullakangid"
+
+#~ msgid "gem deposit"
+#~ msgstr "kalliskivide lade"
+
+#~ msgid "rough gems"
+#~ msgstr "lihvimata vääriskivid"
+
+#~ msgid "gems"
+#~ msgstr "vääriskivid"
+
+#~ msgid "coffee plants"
+#~ msgstr "kohvitaimed"
+
+#~ msgid "coffee beans"
+#~ msgstr "kahvioad"
+
+#~ msgid "coffee"
+#~ msgstr "kohvi"
+
+#~ msgid "tea plants"
+#~ msgstr "teepõõsad"
+
+#~ msgid "tea leaves"
+#~ msgstr "tee lehed"
+
+#~ msgid "tea"
+#~ msgstr "tee"
+
+#~ msgid "flower meadows"
+#~ msgstr "lilleniidud"
+
+#~ msgid "blossoms"
+#~ msgstr "lilled"
+
+#~ msgid "brine deposit"
+#~ msgstr "mineraalveeallikas"
+
+#~ msgid "brine"
+#~ msgstr "soolvesi"
+
+#~ msgid "whales"
+#~ msgstr "vaalad"
+
+#~ msgid "ambergris"
+#~ msgstr "ambra"
+
+#~ msgid "lamp oil"
+#~ msgstr "lambiõli"
+
+#~ msgid "cotton plants"
+#~ msgstr "puuvilla taimed"
+
+#~ msgid "cotton"
+#~ msgstr "puuvill"
+
+#~ msgid "indigo plants"
+#~ msgstr "indigo taimed"
+
+#~ msgid "indigo"
+#~ msgstr "indigo"
+
+#~ msgid "garments"
+#~ msgstr "pealisrõivad"
+
+#~ msgid "perfume"
+#~ msgstr "parfüüm"
+
+#~ msgid "hop plants"
+#~ msgstr "humala taimed"
+
+#~ msgid "hops"
+#~ msgstr "humalad"
+
+#~ msgid "beer"
+#~ msgstr "õlu"
+
+#~ msgid "hygiene"
+#~ msgstr "hügieen"
+
+#~ msgid "recreation"
+#~ msgstr "puhkus"
+
+#~ msgid "blackdeath"
+#~ msgstr "must surm"
+
+#~ msgid "fire"
+#~ msgstr "leek"
+
+#~ msgid "Aristocrats"
+#~ msgstr "Aristokraadid"
+
+#~ msgid "Error: Unable to find required library \"PyYAML\"."
+#~ msgstr "Tõrge: Ei leita vajalikku teeki \"PyYAML\"."
+
+#~ msgid "PyYAML (a required library) is missing and needs to be installed."
+#~ msgstr "PyYAML (nõutud teek) puutub ja on vaja paigaldada."
+
+#~ msgid "The Windows installer is available at http://pyyaml.org/wiki/PyYAML."
+#~ msgstr ""
+#~ "Windowsi paigaldaja on saadaval aadressil http://pyyaml.org/wiki/PyYAML."
+
+#~ msgid ""
+#~ "Linux users should find it using their package manager under the name "
+#~ "\"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Linuxi kasutajad peaksid leidma selle oma paketihaldurist paketina "
+#~ "\"pyyaml\" või \"python-yaml\"."
+
+#~| msgid "Unit overview"
+#~ msgid "Groundunit overview"
+#~ msgstr "Maaüksuse ülevaade"
+
+#~ msgid "SDL is only meant as unsupported fallback and might cause problems!"
+#~ msgstr ""
+#~ "SDL on mõeldud ainult toetuseta tagavara variandina ja võib põhjustada "
+#~ "probleeme!"
+
+#~ msgid "Used renderer:"
+#~ msgstr "Kasutatav renderdaja:"
+
+#~ msgid "Warning"
+#~ msgstr "Hoiatus"
+
+#~ msgid ""
+#~ "The SDL renderer is meant as a fallback solution only and has serious "
+#~ "graphical glitches. \n"
+#~ "\n"
+#~ "Use at own risk!"
+#~ msgstr ""
+#~ "SDL renderdusmootor on mõeldud ainult varulahendusena ja sellel esineb "
+#~ "tõsised graafika tõrkeid. \n"
+#~ "\n"
+#~ "Kasuta vaid omavastutusel!"
+
+#~ msgid "Increases the player's sight."
+#~ msgstr "Suurendab mängija vaatevälja."
+
+#~ msgid "Vintner"
+#~ msgstr "Vinoteek"
+
+#~ msgid "dagger"
+#~ msgstr "pistoda"
+
+#~ msgid "Back:"
+#~ msgstr "Tagasi:"
+
+#~ msgid "Leave:"
+#~ msgstr "Lahku:"
+
+#~ msgid "Main menu:"
+#~ msgstr "Peamenüü:"
+
+#~ msgid "Color depth:"
+#~ msgstr "Värvisügavus:"
+
+#, fuzzy
+#~ msgid "If set to 0, use the driver default"
+#~ msgstr "Kui väärtuseks on 0, kasutatakse marsruuteri vaikeseadeid"
+
+#~ msgid "Apply"
+#~ msgstr "Rakenda"
+
+#~ msgid "Start game:"
+#~ msgstr "Alusta mängu:"
+
+#~ msgid "16 bit"
+#~ msgstr "16 bitti"
+
+#~ msgid "32 bit"
+#~ msgstr "32 bitti"
+
+#~ msgid "Default"
+#~ msgstr "Vaikeväärtus"
+
+#~ msgid "Key bindings"
+#~ msgstr "Kiirklahvid"
+
+#~ msgid "Hold to place multiple buildings"
+#~ msgstr "Vajuta paigutamaks mitut ehitist"
+
+#~ msgid "[{key}] = {text}"
+#~ msgstr "[{key}] = {text}"
+
+#~ msgid "UH-Team"
+#~ msgstr "UH-Meeskond"
+
+#~ msgid "Project Coordination"
+#~ msgstr "Projekti Koordineerimine"
+
+#~ msgid "Programming"
+#~ msgstr "Programmeerimine"
+
+#~ msgid "Sound and Music Artists"
+#~ msgstr "Heli ja Muusika loojad"
+
+#, fuzzy
+#~ msgid "Graphics Artists"
+#~ msgstr "Graafika loojad"
+
+#~ msgid "Patchers"
+#~ msgstr "Paikajad"
+
+#~ msgid "Translators"
+#~ msgstr "Tõlkijad"
+
+#, fuzzy
+#~ msgid "Hosting Weblate"
+#~ msgstr "Logimine lubatud"
+
+#, fuzzy
+#~ msgid "Spanish"
+#~ msgstr "Ettevõtted"
+
+#, fuzzy
+#~ msgid "Dutch"
+#~ msgstr "Lihunik"
+
+#, fuzzy
+#~ msgid "Chinese"
+#~ msgstr "väädid"
+
+#~ msgid "Special Thanks"
+#~ msgstr "Erilised Tänud"
+
+#~ msgid "Enter name:"
+#~ msgstr "Sisesta nimi:"
+
+#~ msgid "Save the map"
+#~ msgstr "Salvesta kaart"
+
+#~ msgid "Toggle console on/off"
+#~ msgstr "Lülita konsool sisse/välja"
+
+#~ msgid "Only show games with the same version:"
+#~ msgstr "Näita ainult sama versiooniga mänge:"
+
+#~ msgid ""
+#~ "You have reached the current maximum increment. Your inhabitants will not "
+#~ "upgrade further."
+#~ msgstr ""
+#~ "Oled jõudnud maksimaalse juurdekasvuni. Su elanikud ei arene rohkem edasi."
+
+#~ msgid "Valid map names are in the following form: {expression}"
+#~ msgstr "Töötavad kaardid on järgnevas formaadis: {expression}"
+
+#~ msgid "Try a name that only contains letters and numbers."
+#~ msgstr "Proovi nime, mis sisaldab ainult tähti ja numbreid."
+
+#~ msgid "A savegame with the name '{name}' already exists."
+#~ msgstr "Salvestatud mäng nimega '{name}' juba eksisteerib."
+
+#~ msgid "An error happened during quicksave. Your game has not been saved."
+#~ msgstr ""
+#~ "Kiirsalvestuse tegemisel tekkis tõrge. Sinu mängu ei ole salvestatud."
+
+#, fuzzy
+#~ msgid "If this error happens again, please contact the development team:"
+#~ msgstr "Kui see viga kordub siis palun kontakteeru arendus meeskonnaga:"
+
+#~ msgid "A new ship has been created."
+#~ msgstr "Uus laev on valminud."
+
+#~ msgid "Specify the path to FIFE root directory."
+#~ msgstr "Määra FIFE juurkataloogi asukoht."
+
+#~ msgid "Please select a savegame or click on cancel."
+#~ msgstr "Vali salvestatud mäng või vajuta tühista."
+
+#~ msgid "Select a savegame"
+#~ msgstr "Vali salvestatud mäng"
+
+#~ msgid "Error:"
+#~ msgstr "Viga:"
+
+#~ msgid ""
+#~ "The multiplayer feature requires the library \"pyenet\", which couldn't "
+#~ "be found on your system."
+#~ msgstr ""
+#~ "Mitmikmängu seadetele vajalik andmebaas \"pyenet\" puudub sinu arvutist."
+
+#~ msgid "Windows users: There is currently no reasonable support for Windows."
+#~ msgstr "Momendil puudub mõistlik toetus Windowsile."
+
+#~ msgid "Creator: {player}"
+#~ msgstr "Algataja: {player}"
+
+#~ msgid "Gold"
+#~ msgstr "Kuld"
+
+#, fuzzy
+#~ msgid "Enter prefix:"
+#~ msgstr "Sisesta eesliide:"
+
+#~ msgid "Cloth"
+#~ msgstr "Riie"
+
+#~ msgid "Boards"
+#~ msgstr "Lauad"
+
+#~ msgid "Tools"
+#~ msgstr "Tööriistad"
+
+#~ msgid "Frigate"
+#~ msgstr "Fregatt"
+
+#~ msgid "Build fields"
+#~ msgstr "Ehita põld"
+
+#~ msgid "1 resident"
+#~ msgstr "1 elanik"
+
+#~ msgid "2 residents"
+#~ msgstr "2 elanikku"
+
+#~ msgid "3 residents"
+#~ msgstr "3 elanikku"
+
+#~ msgid "4 residents"
+#~ msgstr "4 elanikku"
+
+#~ msgid "5 residents"
+#~ msgstr "5 elanikku"
+
+#, fuzzy
+#~ msgid "6 residents"
+#~ msgstr "2 elanikku"
+
+#, fuzzy
+#~ msgid "7 residents"
+#~ msgstr "2 elanikku"
+
+#, fuzzy
+#~ msgid "8 residents"
+#~ msgstr "2 elanikku"
+
+#~ msgid "Average happiness:"
+#~ msgstr "Keskmine õnnelikkus:"
+
+#~ msgid "Most needed resource:"
+#~ msgstr "Enim vajatud resurss:"
+
+#~ msgid "Available Scenarios"
+#~ msgstr "Saadavad tsenaariumid"
+
+#~ msgid "Scenario description"
+#~ msgstr "Tsenaariumi kirjeldus"
+
+#~ msgid "Continue playing"
+#~ msgstr "Jätka mängimist"
+
+#~ msgid "Choose this scenario"
+#~ msgstr "Vali tsenaarium"
+
+#~ msgid "The FIFE and Unknown Horizons development teams"
+#~ msgstr "FIFE ja Unknown Horizons-i arendus meeskond"
+
+#~ msgid "Have fun."
+#~ msgstr "Lõbutse hästi."
+
+#~ msgid "Attention please!"
+#~ msgstr "Tähelepanu!"
+
+#~ msgid "The game will start as soon as enough players have joined."
+#~ msgstr "See mäng algab niipea kui piisavalt mängijaid on liitunud."
+
+#~ msgid "Campaign"
+#~ msgstr "Sõjaretk"
+
+#~ msgid "Supplies citizens with goods."
+#~ msgstr "Varustab kodanikke kaupadega."
+
+#~ msgid "The savegame file is probably read-only."
+#~ msgstr "Salvestatud mängu fail on arvatavasti kirjutuskaitstud."
+
+#~ msgid "File used by another process"
+#~ msgstr "Faili kasutab teine protsess"
+
+#, fuzzy
+#~ msgid "The savegame file is currently used by another program."
+#~ msgstr "Salvestatud mängu faili kasutab parasjagu teine programm."
+
+#, fuzzy
+#~ msgid "We are very sorry for this and want to fix underlying error."
+#~ msgstr "Meil on sellest väga kahju ning me soovime seda viga parandada."
+
+#~ msgid "Error: Unable to find required libraries"
+#~ msgstr "Tõrge: Ei leia vajalike teeke"
+
+#~ msgid ""
+#~ "We are sorry to inform you that a library that is required by Unknown "
+#~ "Horizons, is missing and needs to be installed."
+#~ msgstr ""
+#~ "Meil on kahju teatada, et Unknown Horizons'i jaoks vajalik teek puudub "
+#~ "ning see tuleb paigaldada."
+
+#, fuzzy
+#~ msgid ""
+#~ "Installers for Windows users are available at \"http://pyyaml.org/wiki/"
+#~ "PyYAML\", Linux users should find it in their packagement management "
+#~ "system under the name \"pyyaml\" or \"python-yaml\"."
+#~ msgstr ""
+#~ "Windowsi kasutajatele vajalikud paigalduspakid on saadaval: \"http://"
+#~ "pyyaml.org/wiki/PyYAML\", Linuxi kasutajad peaks leidma selle oma "
+#~ "pakihaldurist nime \"pyyaml\" või \"python-yaml\" alt."
+
+#~ msgid "FIFE was not found."
+#~ msgstr "FIFE't ei leitud."
+
+#~ msgid "Configured language {lang} could not be loaded"
+#~ msgstr "Seadistatud keelt {lang} ei õnnestunud laadida"
+
+#~ msgid "WARNING: Incompatible version {version}!"
+#~ msgstr "HOIATUS: Mittesobiv versioon {version}!"
+
+#~ msgid "Required version: {required}!"
+#~ msgstr "Vajalik versioon: {required}!"
+
+#~ msgid "Build related fields"
+#~ msgstr "Ehitamisega seotud valdkonnad"
+
+#~ msgid "Increment {increment}"
+#~ msgstr "Juurdekasv {increment}"
+
+#~ msgid "Log"
+#~ msgstr "Palk"
+
+#~ msgid "Road across a river."
+#~ msgstr "Tee üle jõe."
+
+#~ msgid "Rampart"
+#~ msgstr "Kaitsevall"
+
+#~ msgid "Error: Cannot find campaign '{name}'."
+#~ msgstr "Ei leita kaarti \"{name}\"."
+
+#~ msgid "Error: Cannot find scenario '{name}'."
+#~ msgstr "ei leita salvestatud mängu \"{name}\"."
+
+#~ msgid "aristocrat"
+#~ msgstr "aristokraat"
+
+#~ msgid "citizen"
+#~ msgstr "kodanik"
+
+#~ msgid "merchant"
+#~ msgstr "kaupmees"
+
+#~ msgid "pioneer"
+#~ msgstr "teerajaja"
+
+#~ msgid "sailor"
+#~ msgstr "meremees"
+
+#~ msgid "settler"
+#~ msgstr "asunik"
+
+#~ msgid "wood"
+#~ msgstr "puit"
+
+#~ msgid "Weaver's Tent"
+#~ msgstr "Kuduja telk"
+
+#~ msgid ""
+#~ "Please give it to us via IRC or our forum, for both see unknown-"
+#~ "horizons.org ."
+#~ msgstr ""
+#~ "Palun anna see meile läbi IRC'i või meie foorumi. Mõlemad leiad lehelt "
+#~ "unknown-horizons.org ."
+
+# üle kontrollida mängus
+#~ msgid "{player1} and {player2} are now {status}"
+#~ msgstr "{player1} ja {player2} on nüüd {status}"
+
+#~ msgid "{name}: {chatmessage}"
+#~ msgstr "{name}: {chatmessage}"
+
+#~ msgid "Leave Captain's log"
+#~ msgstr "Lahku Kapteni päevikust"
+
+#~ msgid "Lumberjack Camp"
+#~ msgstr "Puuraiduri Laager"
+
+#~ msgid "We are very sorry for this, and want to fix this error."
+#~ msgstr "Meil on sellest väga kahju ning me soovime seda viga parandada."
+
+#~ msgid "This will delete all changes to the settings you made so far."
+#~ msgstr "See kustutab sinu poolt tehtud seadete muudatused."
+
+#~ msgid "Click to change the name of your settlement."
+#~ msgstr "Vajuta oma koloonia nime muutmiseks."
+
+#~ msgid "Bricks"
+#~ msgstr "Telliskivid"
+
+#~ msgid "Textiles"
+#~ msgstr "Tekstiilid"
+
+#~ msgid "Click to change the name of this ship."
+#~ msgstr "Klõpsa selle laeva nime muutmiseks."
+
+#~ msgid "Buy resources"
+#~ msgstr "Osta resursse"
+
+#~ msgid "Sell resources"
+#~ msgstr "Müü resursse"
+
+#~ msgid "Tent Ruin"
+#~ msgstr "Telgi varemed"
+
+#~ msgid "(place in queue: {place})"
+#~ msgstr "(koht järjekorras: {place})"
+
+#~ msgid "blue"
+#~ msgstr "sinine"
+
+#~ msgid "bordeaux"
+#~ msgstr "bordoo punane"
+
+#~ msgid "cyan"
+#~ msgstr "tsüaan"
+
+#~ msgid "gray"
+#~ msgstr "hall"
+
+#~ msgid "green"
+#~ msgstr "roheline"
+
+#~ msgid "lemon"
+#~ msgstr "sidrun"
+
+#~ msgid "orange"
+#~ msgstr "oraanz"
+
+#~ msgid "pink"
+#~ msgstr "roosa"
+
+#~ msgid "purple"
+#~ msgstr "purpur"
+
+#~ msgid "red"
+#~ msgstr "punane"
+
+#~ msgid "white"
+#~ msgstr "valge"
+
+#~ msgid "yellow"
+#~ msgstr "kollane"
+
+#~ msgid "warehouse overview"
+#~ msgstr "turuplatsi ülevaade"
+
+#~ msgid "settlements of {player}"
+#~ msgstr "{player} kolooniad"
+
+#~ msgid "ships of {player}"
+#~ msgstr "{player} laevad"
+
+#~ msgid "Apply:"
+#~ msgstr "Rakenda:"
+
+#~ msgid "Boar"
+#~ msgstr "Metssiga"
+
+#~ msgid "Branch Office"
+#~ msgstr "Harukontor"
+
+#~ msgid "Cattle"
+#~ msgstr "Eluskari"
+
+#~ msgid "Deer"
+#~ msgstr "Hirv"
+
+#~ msgid "Fisher"
+#~ msgstr "Kalur"
+
+#~ msgid "Pirate Ship"
+#~ msgstr "Piraadilaev"
+
+#~ msgid "Sheep"
+#~ msgstr "Lammas"
+
+#~ msgid "Branch office overview"
+#~ msgstr "Harukontori ülevaade"
+
+#~ msgid "Sailor buildings"
+#~ msgstr "Meremehe ehitised"
+
+#~ msgid "Trail (R): Needed for collecting goods."
+#~ msgstr "Rada (R): Vajalik kaupade kogumiseks."
+
+#~ msgid "Pioneer buildings"
+#~ msgstr "Pioneeride ehitised"
+
+#~ msgid "Settler buildings"
+#~ msgstr "Asunike ehitised"
+
+#~ msgid "Charcoal burning: Burns a lot of boards to charcoal."
+#~ msgstr "Põletab suure koguse puitlaudu puusöeks."
+
+#~ msgid "Show pause menu"
+#~ msgstr "Näita peatamise menüüd"
+
+#~ msgid "Error: Cannot find map '{name}'."
+#~ msgstr "Viga: Ei leita kaarti '{name}'."
+
+#~ msgid "Error: Found multiple matches:"
+#~ msgstr "Leiti mitu vastet:"
+
+#~ msgid "Error: Cannot find savegame '{name}'."
+#~ msgstr "ei leita salvestatud mängu \"{name}\"."
+
+#~ msgid "Error: No quicksave found."
+#~ msgstr "Kiirsalvestust ei leitud."
+
+#~ msgid "A new settlement was founded by ${player}."
+#~ msgstr "Uus koloonia rajati ${player} poolt."
+
+#~ msgid "Screenshot has been saved to ${file}."
+#~ msgstr "Ekraanitõmmis on salvestatud faili ${file}."
+
+#~ msgid "You need more ${resource} to build this building."
+#~ msgstr "Sa vajad rohkem ${resource} selle ehitise ehitamiseks."
+
+#~ msgid "Your inhabitants reached level ${level}."
+#~ msgstr "Sinu elanikud saavutasid ${level}-nda taseme."
+
+#~ msgid "System default"
+#~ msgstr "Süsteemi vaikeväärtus"
+
+#~ msgid "Configured language {lang} at {place} could not be loaded"
+#~ msgstr "Seadistatud keelt {lang} ei õnnestunud laadida asukohast {place}"
+
+#~ msgid "{player}'s settlements"
+#~ msgstr "{player}'i kolooniad"
+
+#~ msgid "{player}'s ships"
+#~ msgstr "{player}'i laevad"
+
+#~ msgid "Rotate building left"
+#~ msgstr "Pööra ehitist vasakule"
+
+#~ msgid "Rotate building right"
+#~ msgstr "Pööra ehitist paremale"
+
+#~ msgid "Please make sure that you know what you do."
+#~ msgstr "Palun veendu, et tead, mida teed."
+
+#~ msgid "Enable debug output to stderr and a logfile."
+#~ msgstr "Luba silumise väljund stderr voogu ja logifaili."
+
+#~ msgid ""
+#~ "Restores the default settings. Useful if Unknown Horizons crashes on "
+#~ "startup due to misconfiguration."
+#~ msgstr ""
+#~ "Taastab vaikeseaded. Kasulik kui Unknown Horizons jookseb käivitumisel "
+#~ "valesti konfigureerimise tõttu kokku."
+
+#~ msgid "Specify alternative multiplayer master server."
+#~ msgstr "Määra alternatiivne mitmemängija primaarne server."
+
+#~ msgid ""
+#~ "Specify network address to bind local network client to. This is useful "
+#~ "if NAT holepunching is not working but you can forward a static port."
+#~ msgstr ""
+#~ "Määra võrguaadress millega kohalik võrguklient siduda. See on kasulik, "
+#~ "kui NAT holepunching ei tööta kuid sa saad staatilise pordi edasi suunata."
+
+#~ msgid "Starts <map>. <map> is the mapname."
+#~ msgstr "Alustab <map>. <map> on kaardinimetus."
+
+#~ msgid "Starts a random map."
+#~ msgstr "Alustab juhusliku kaardiga mängu."
+
+#~ msgid "Starts the development map without displaying the main menu."
+#~ msgstr "Alustab arenduskaardiga mängu põhimenüüd näitamata."
+
+#~ msgid "Loads a saved game. <save> is the savegamename."
+#~ msgstr "Laeb salvestatud mängu. <save> on salvestatud mängu nimetus."
+
+#~ msgid "Loads the last quicksave."
+#~ msgstr "Laeb viimase kiirsalvestuse."
+
+#~ msgid "Development options"
+#~ msgstr "Arenduse seaded"
+
+#~ msgid "Write debug output only to logfile, not to console. Implies -d."
+#~ msgstr ""
+#~ "Kirjuta silumise väljund ainult logifaili, mitte konsooli. Sisaldab -d."
+
+#~ msgid "Enable logging for a certain logging module (for developing only)."
+#~ msgstr "Logimine on teatud raie moodul (ainult arendamine)."
+
+#~ msgid "Writes log to <filename> instead of to the uh-userdir"
+#~ msgstr "Kirjutab logi <filename> asemel UH-userdir"
+
+#~ msgid "For internal use only."
+#~ msgstr "Vaid sisemiseks kasutamiseks."
+
+#~ msgid "Enable profiling (for developing only)."
+#~ msgstr "Luba profileerimine (ainult arenduse jaoks)."
+
+#~ msgid "A new settlement has been created by ${player}."
+#~ msgstr "Uus koloonia rajati ${player} poolt."
+
+#~ msgid "AnimalCarriage"
+#~ msgstr "AnimalCarriage"
+
+#~ msgid "BuildingCollector"
+#~ msgstr "BuildingCollector"
+
+#~ msgid "FarmAnimalCollector"
+#~ msgstr "FarmAnimalCollector"
+
+#~ msgid "FieldCollector"
+#~ msgstr "FieldCollector"
+
+#~ msgid "HunterCollector"
+#~ msgstr "HunterCollector"
+
+#~ msgid "LumberjackCollector"
+#~ msgstr "LumberjackCollector"
+
+#~ msgid "One of your settler has no main square in it's range."
+#~ msgstr "Ühel sinu asunikul ei ole turuplatsi läheduses."
+
+#~ msgid "SettlerCollector"
+#~ msgstr "SettlerCollector"
+
+#~ msgid "Some of your settlers just moved out."
+#~ msgstr "Mõned sinu asunikud kolisid just välja."
+
+#~ msgid "StorageCollector"
+#~ msgstr "StorageCollector"
+
+#~ msgid "Your settlers reached level ${level}."
+#~ msgstr "Sinu elanikud saavutasid ${level}-nda taseme."
+
+#~ msgid "Configured language %(lang)s at %(place)s could not be loaded"
+#~ msgstr ""
+#~ "Seadistatud keelt %(lang)s ei õnnestunud laadida asukohast %(place)s"
+
+#~ msgid "There are no saved games to load"
+#~ msgstr "Laadimiseks pole salvestatud mänge"
+
+#~ msgid ""
+#~ "A savegame with the name \"%s\" already exists. \n"
+#~ "Should i overwrite it?"
+#~ msgstr ""
+#~ "Salvestatud mäng nimega \"%s\" on juba olemas. \n"
+#~ "Kas kirjutada see üle?"
+
+#~ msgid "Savegame ver. %d"
+#~ msgstr "Mängu salvestatusversioon %d"
+
+#~ msgid ""
+#~ "WARNING: Incompatible ver. %(ver)d!\n"
+#~ "Need ver. %(need)d!"
+#~ msgstr ""
+#~ "HOIATUS: Mitteühilduv versioon %(ver)d!\n"
+#~ "Vajatav versioon %(need)d!"
+
+#~ msgid "INCOMPATIBLE VERSION\n"
+#~ msgstr "MITTEÜHILDUV VERSIOON\n"
+
+#~ msgid "You need to select a savegame to delete"
+#~ msgstr "Kustutamiseks pead valima salvestatud mängu"
+
+#~ msgid "Do you really want to delete the savegame \"%s\"?"
+#~ msgstr "Kas sa tahad kindlasti kustutada salvestatud mängu \"%s\"?"
+
+#~ msgid "Network Error"
+#~ msgstr "Võrgu viga"
+
+#~ msgid "Map: "
+#~ msgstr "Kaart: "
+
+#~ msgid "Players: "
+#~ msgstr "Mängijaid: "
+
+#~ msgid "Creator: "
+#~ msgstr "Looja: "
+
+#~ msgid "Difficulty: "
+#~ msgstr "Raskusaste: "
+
+#~ msgid "Author: "
+#~ msgstr "Autor: "
+
+#~ msgid "You entered an invalid playername"
+#~ msgstr "Sa sisestasid vigase mängijanime"
+
+#~ msgid "Load/Unload:"
+#~ msgstr "Peale- / Mahalaadimine:"
+
+#~ msgid "Build menu"
+#~ msgstr "Ehitamise menüü"
+
+#~ msgid "Destroy"
+#~ msgstr "Hävita"
+
+#~ msgid "Game menu"
+#~ msgstr "Mängu menüü"
+
+#~ msgid "Captain's log"
+#~ msgstr "Kapteni logi"
+
+#~ msgid "Build settlement:"
+#~ msgstr "Ehita koloonia:"
+
+#~ msgid "Read prev. entries"
+#~ msgstr "Loe eelnevaid sissekandeid"
+
+#~ msgid "Error: Cannot find map \"%s\"."
+#~ msgstr "Viga: Ei leita kaarti \"%s\"."
+
+#~ msgid "Error: Found multiple matches: "
+#~ msgstr "Viga: Leiti mitu vastet: "
+
+#~ msgid "Error: Cannot find savegame \"%s\"."
+#~ msgstr "Viga: ei leita salvestatud mängu \"%s\"."
+
+#~ msgid "You have completed this scenario. "
+#~ msgstr "Sa läbisid selle stsenaariumi. "
+
+#~ msgid "Saved at %s"
+#~ msgstr "Salvestatud %s"
+
+#~ msgid "Unknown savedate\n"
+#~ msgstr "Salvestuskuupäev teadmata\n"
+
+#~ msgid "Saved at %s\n"
+#~ msgstr "Salvestatud %s\n"
+
+#~ msgid "Something went wrong with the network: "
+#~ msgstr "Midagi läks valesti võrguga: "
+
+#~ msgid ""
+#~ "The selected file is not a valid scenario file.\n"
+#~ "Error message: "
+#~ msgstr ""
+#~ "Valitud fail ei ole korrektne stsenaariumi fail.\n"
+#~ "Veateade: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Please report this to the author."
+#~ msgstr ""
+#~ "\n"
+#~ "Palun teavita sellest autorit."
+
+#~ msgid "Fishing boat"
+#~ msgstr "Kalapaat"
+
+#~ msgid "Cutter"
+#~ msgstr "Kutter"
+
+#~ msgid "Herring fisher"
+#~ msgstr "Heeringapüüdija"
+
+#~ msgid "Legend:"
+#~ msgstr "Legend:"
+
+#~ msgid "%H:%M, %A, %B %d"
+#~ msgstr "%H:%M, %A.%B.%d"
+
+#~ msgid "Hit P to continue the game or click below!"
+#~ msgstr "Vajuta P mängida palju või klõpsa allpool!"
+
+#~ msgid "One of your settler has no market place in it's range."
+#~ msgstr "Ühel sinu asunikul ei ole turuplatsi läheduses."
+
+#~ msgid "YOU HAVE WON!!!"
+#~ msgstr "SA OLED VÕITNUD!!!"
+
+#~ msgid "raw clay"
+#~ msgstr "savi"
+
+#~ msgid "raw sugar"
+#~ msgstr "töötlemata suhkur"
+
+#~ msgid "Unknown Horizons Version %s"
+#~ msgstr "Unknown Horizons Versioon %s"
+
+#~ msgid "Failed to load FIFE:"
+#~ msgstr "FIFE laadimine ebaõnnestus:"
+
+#~ msgid "Tent_ruin"
+#~ msgstr "Telgi_varemed"
+
+#~ msgid "wild animal food 1"
+#~ msgstr "metsloom toit 1"
+
+#~ msgid "wild animal meat"
+#~ msgstr "metslooma liha"
+
+#~ msgid "The FIFE and Unknown Horizons"
+#~ msgstr "FIFE ja Unknown Horizons"
+
+#~ msgid "development teams"
+#~ msgstr "arendusmeeskonnad"
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-master commandline option. Port must be a "
+#~ "number between 0 and 65535."
+#~ msgstr ""
+#~ "Viga: Vigane süntaks --mp-master käsurea võtmes. Port peab olema arv 0 ja "
+#~ "65535 vahel."
+
+#~ msgid ""
+#~ "Error: Invalid syntax in --mp-bind commandline option. Port must be a "
+#~ "number between 0 and 65535."
+#~ msgstr ""
+#~ "Viga: Vigane süntaks --mp-bind käsurea võtmes. Port peab olema arv 0 ja "
+#~ "65535 vahel."
+
+#~ msgid "Load failed. Please try another savefile!"
+#~ msgstr "Laadimine ebaõnnestus. Palun proovi teist salvestusfaili!"
+
+#~ msgid "You entered an invalid filename."
+#~ msgstr "Sa sisestasid vigase failinime."
+
+#~ msgid "Starting unknown horizons"
+#~ msgstr "unknown horizons'i käivitamine"
+
+#~ msgid "Failed to load fife:"
+#~ msgstr "fife laadimine ebaõnnestus:"
+
+# häirekell?
+#~ msgid "Chime The Bell"
+#~ msgstr "Kelluke heliseb"
+
+#~ msgid "Saved %d times\n"
+#~ msgstr "Salvestatud %d korda\n"
+
+#~ msgid "The whole FIFE team (www.fifengine.de)"
+#~ msgstr "Terve FIFE meeskond (www.fifengine.de)"
+
+#~ msgid "Autosave interval:"
+#~ msgstr "Automaatse salvestuse intervall:"
+
+#~ msgid "Health:"
+#~ msgstr "Tervis:"
+
+#~ msgid "Starts <campaign>. <campaign> is the campaignname."
+#~ msgstr "Alustab <campaign>. <campaign> on sõjaretke nimetus."
+
+#~ msgid "Citizen Buildings"
+#~ msgstr "Kodanike Ehitised"
+
+#~ msgid "Fishing Boats"
+#~ msgstr "Kalapaadid"
+
+#~ msgid "NEW GAME - SINGLEPLAYER"
+#~ msgstr "UUS MÄNG - ÜKSIMÄNG"
+
+#~ msgid "NEW GAME - MULTIPLAYER"
+#~ msgstr "UUS MÄNG - MITMEMÄNG"
+
+#~ msgid " Help "
+#~ msgstr " Abi "
+
+#~ msgid "Building Overview"
+#~ msgstr "Ehitise ülevaade"
+
+#~ msgid "The random map features is still in active development. "
+#~ msgstr "Juhuslik kaart funktsioonid on endiselt aktiivne arendustegevus."
+
+#~ msgid " Chime The Bell "
+#~ msgstr " Kelluke heliseb "
+
+#~ msgid "Aristocrat Buildings"
+#~ msgstr "Aristokraatide Ehitised"
+
+#~ msgid "FarmerCollector"
+#~ msgstr "FarmerCollector"
+
+#~ msgid " Quit "
+#~ msgstr " Välju "
+
+#~ msgid "Housing"
+#~ msgstr "Majutus"
+
+#~ msgid "CREATE GAME - MULTIPLAYER"
+#~ msgstr "LOO MÄNG - MITMEMÄNG"
+
+#~ msgid "Yeah, you made it..."
+#~ msgstr "Jah, sa jõudsid siia..."
+
+#~ msgid " Save Game "
+#~ msgstr " Salvesta mäng "
+
+#~ msgid "But this is a deadlink, sorry."
+#~ msgstr "Kuid see on surnud viide, vabandust."
+
+#~ msgid "Merchant Buildings"
+#~ msgstr "Kaupmeeste Ehitised"
+
+#~ msgid " Continue Game "
+#~ msgstr " Jätka mängu "
+
+#~ msgid "Terminal debugmode"
+#~ msgstr "Terminal silumisrežiimis"
+
+#~ msgid "Production"
+#~ msgstr "Tootmine"
+
+#~ msgid " Settings "
+#~ msgstr " Seaded "
+
+#~ msgid "You start the terminal python debugger pdb!"
+#~ msgstr "Te alustate terminal python siluri pdb!"
+
+#~ msgid "Ship"
+#~ msgstr "Laev"
+
+#~ msgid ""
+#~ "Sugar Field: \n"
+#~ "Produces sugar\n"
+#~ "for rum."
+#~ msgstr ""
+#~ "Suhkrupõld: \n"
+#~ "Toodab suhkrut\n"
+#~ "rummi jaoks."
+
+#~ msgid "Running Costs:"
+#~ msgstr "Jooksvad Kulud:"
